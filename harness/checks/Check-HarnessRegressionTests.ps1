@@ -1863,6 +1863,206 @@ ExitCode: 0
     }
 }
 
+function New-Crawl4AiLiveQaaSFixture {
+    param(
+        [string]$Root,
+        [switch]$BadHash
+    )
+
+    $fixture = New-Crawl4AiLifecycleFixture -Root $Root
+    $candidateDir = $fixture.CandidateDir
+    $candidateRoot = $fixture.CandidateRoot
+    $liveRoot = Join-Path $Root "live-runs\selected-top-repo-candidates"
+    $runDir = Join-Path $liveRoot "20260608-000001-000"
+    $runnerRoot = Join-Path $runDir "runner\ZappaSelectedCrawl4Ai.Runner"
+    $assertionRoot = Join-Path $runDir "assertions\ZappaSelectedCrawl4Ai.Assertions"
+    $evidenceDir = Join-Path $runDir "evidence"
+    foreach ($dir in @($runnerRoot, $assertionRoot, $evidenceDir)) {
+        [System.IO.Directory]::CreateDirectory($dir) | Out-Null
+    }
+
+    $summaryPath = Join-Path $Root "coverage\selected-top-repo-candidate-live-crawl4ai.json"
+    $manifestPath = Join-Path $candidateDir "qaas-artifact-manifest.json"
+    $runtimePlanPath = Join-Path $candidateDir "candidate-runtime-plan.json"
+    $sourceYamlPath = Join-Path $candidateDir "test.qaas.yaml"
+    $sourcePayloadPath = Join-Path $candidateDir "request-payloads\get-health.bin"
+    $sourceAssertionPath = Join-Path $candidateDir "assertion-packets\HttpStatusBelow400\HttpStatusBelow400.cs"
+    $stagedYamlPath = Join-Path $runnerRoot "test.qaas.yaml"
+    $stagedPayloadDir = Join-Path $runnerRoot "request-payloads"
+    $stagedPayloadPath = Join-Path $stagedPayloadDir "get-health.bin"
+    $stagedAssertionPath = Join-Path $assertionRoot "HttpStatusBelow400.cs"
+    $runnerProgramPath = Join-Path $runnerRoot "Program.cs"
+    $runnerProjectPath = Join-Path $runnerRoot "ZappaSelectedCrawl4Ai.Runner.csproj"
+    $assertionProjectPath = Join-Path $assertionRoot "ZappaSelectedCrawl4Ai.Assertions.csproj"
+    $responsePath = Join-Path $evidenceDir "health-response.txt"
+    $transcriptPath = Join-Path $evidenceDir "selected-live-crawl4ai.transcript.txt"
+    $assertionBuildTranscript = Join-Path $evidenceDir "build-assertion-library.transcript.txt"
+    $buildTranscript = Join-Path $evidenceDir "build-runner.transcript.txt"
+    $templateTranscript = Join-Path $evidenceDir "template-runner.transcript.txt"
+    $liveTranscript = Join-Path $evidenceDir "live-runner-run.transcript.txt"
+    foreach ($path in @("docker-pull.stdout.txt", "docker-pull.stderr.txt", "docker-run.stdout.txt", "docker-run.stderr.txt", "docker-rm.stdout.txt", "docker-rm.stderr.txt", "docker-logs.stdout.txt", "docker-logs.stderr.txt")) {
+        Write-TextFile -Path (Join-Path $evidenceDir $path) -Value "fixture"
+    }
+
+    [System.IO.Directory]::CreateDirectory($stagedPayloadDir) | Out-Null
+    Copy-Item -LiteralPath $sourceYamlPath -Destination $stagedYamlPath -Force
+    Copy-Item -LiteralPath $sourcePayloadPath -Destination $stagedPayloadPath -Force
+    Copy-Item -LiteralPath $sourceAssertionPath -Destination $stagedAssertionPath -Force
+    Write-TextFile -Path $runnerProgramPath -Value "System.GC.KeepAlive(typeof(ZappaDontCry.SelectedCandidates.Crawl4Ai.Assertions.HttpStatusBelow400));"
+    Write-TextFile -Path $runnerProjectPath -Value "<Project><ItemGroup><ProjectReference Include=`"..\..\assertions\ZappaSelectedCrawl4Ai.Assertions\ZappaSelectedCrawl4Ai.Assertions.csproj`" /></ItemGroup></Project>"
+    Write-TextFile -Path $assertionProjectPath -Value '<Project><ItemGroup><PackageReference Include="QaaS.Framework.SDK" Version="1.5.1" /></ItemGroup></Project>'
+    Write-TextFile -Path $responsePath -Value '{"status":"ok"}'
+    Write-TextFile -Path $assertionBuildTranscript -Value "Runner completed. ExitCode=0"
+    Write-TextFile -Path $buildTranscript -Value "Runner completed. ExitCode=0"
+    Write-TextFile -Path $templateTranscript -Value @'
+Found IAssertion hook instance HttpStatusBelow400
+Assertion: HttpStatusBelow400
+Runner completed. ExitCode=0
+'@
+    Write-TextFile -Path $liveTranscript -Value @'
+Found IAssertion hook instance HttpStatusBelow400
+HTTP Get request to http://127.0.0.1:11235/health completed with status 200.
+Running assertion HttpStatusBelow400 GetHealthMatchesDockerCurlF
+Runner completed. ExitCode=0
+'@
+
+    $containerName = "zappa-crawl4ai-health-live-20260608-000001-000"
+    $validation = [ordered]@{
+        status = "passed"
+        exit_code = 0
+        command = "fixture command"
+        transcript = $transcriptPath
+        summary = $summaryPath
+        response = $responsePath
+        run_dir = $runDir
+    }
+    $assertionBuildValidation = [ordered]@{ status = "passed"; exit_code = 0; command = "dotnet build assertion"; transcript = $assertionBuildTranscript }
+    $buildValidation = [ordered]@{ status = "passed"; exit_code = 0; command = "dotnet build runner"; transcript = $buildTranscript }
+    $templateValidation = [ordered]@{ status = "passed"; exit_code = 0; command = "dotnet run template"; transcript = $templateTranscript }
+    $liveValidation = [ordered]@{ status = "passed"; exit_code = 0; command = "dotnet run live"; transcript = $liveTranscript }
+    $sourceHashes = [ordered]@{
+        candidate_yaml_sha256 = if ($BadHash) { "bad-hash" } else { Get-FileSha256Hex -Path $sourceYamlPath }
+        staged_yaml_sha256 = Get-FileSha256Hex -Path $stagedYamlPath
+        candidate_request_payload_sha256 = Get-FileSha256Hex -Path $sourcePayloadPath
+        staged_request_payload_sha256 = Get-FileSha256Hex -Path $stagedPayloadPath
+        candidate_assertion_sha256 = Get-FileSha256Hex -Path $sourceAssertionPath
+        staged_assertion_sha256 = Get-FileSha256Hex -Path $stagedAssertionPath
+    }
+
+    Write-TextFile -Path $transcriptPath -Value @"
+Validation: selected-top-repo-candidate-live-crawl4ai
+Repository: unclecode/crawl4ai
+DockerPullCommand: docker pull unclecode/crawl4ai:latest
+DockerRunCommand: docker run -d -p 127.0.0.1:11235:11235 --name $containerName --shm-size=1g unclecode/crawl4ai:latest
+ReadinessUrl: http://127.0.0.1:11235/health
+Ready: True
+AssertionBuildPassed: True
+BuildPassed: True
+TemplatePassed: True
+LivePassed: True
+CleanupPassed: True
+ContainerExistsAfterCleanup: False
+PortOwnersAfterCleanupCount: 0
+ExitCode: 0
+"@
+
+    Write-JsonFile -Path $summaryPath -Value ([ordered]@{
+        schema_version = 1
+        status = "passed"
+        promotion_state = "blocked"
+        completion_ready = $false
+        repository = "unclecode/crawl4ai"
+        validation_kind = "selected_candidate_qaas_template_live"
+        run_dir = $runDir
+        manifest = $manifestPath
+        runtime_plan = $runtimePlanPath
+        runner_project = $runnerProjectPath
+        runner_program = $runnerProgramPath
+        runner_yaml = $stagedYamlPath
+        source_runner_yaml = $sourceYamlPath
+        assertion_project = $assertionProjectPath
+        assertion_source = $stagedAssertionPath
+        source_assertion = $sourceAssertionPath
+        assertion_project_reference_transcript = $assertionBuildTranscript
+        assertion_project_reference_added = $true
+        source_hashes = $sourceHashes
+        image = "unclecode/crawl4ai:latest"
+        docker_server_version = "29.4.3"
+        container_name = $containerName
+        cleanup_target_container_name = $containerName
+        protected_container_name = "crawl4ai"
+        protected_container_names_before = @()
+        protected_container_names_after = @()
+        docker_pull_stdout = Join-Path $evidenceDir "docker-pull.stdout.txt"
+        docker_pull_stderr = Join-Path $evidenceDir "docker-pull.stderr.txt"
+        docker_run_stdout = Join-Path $evidenceDir "docker-run.stdout.txt"
+        docker_run_stderr = Join-Path $evidenceDir "docker-run.stderr.txt"
+        docker_rm_stdout = Join-Path $evidenceDir "docker-rm.stdout.txt"
+        docker_rm_stderr = Join-Path $evidenceDir "docker-rm.stderr.txt"
+        docker_logs_stdout = Join-Path $evidenceDir "docker-logs.stdout.txt"
+        docker_logs_stderr = Join-Path $evidenceDir "docker-logs.stderr.txt"
+        assertion_build_validation = $assertionBuildValidation
+        build_validation = $buildValidation
+        template_validation = $templateValidation
+        live_validation = $liveValidation
+        response = $responsePath
+        response_status = 200
+        response_body_sha256 = Get-FileSha256Hex -Path $responsePath
+        response_contract = "http_status_less_than_400_body_unasserted"
+        response_contract_passed = $true
+        cleanup_passed = $true
+        container_exists_after_cleanup = $false
+        port_owners_after_cleanup_count = 0
+        transcript = $transcriptPath
+        manifest_updated = $true
+        weak_validation_passed = $false
+        exit_code = 0
+    })
+
+    $manifest = Read-JsonFile -Path $manifestPath
+    Set-JsonProperty -Object $manifest -Name "assertion_build_validation" -Value $assertionBuildValidation
+    Set-JsonProperty -Object $manifest -Name "build_validation" -Value $buildValidation
+    Set-JsonProperty -Object $manifest -Name "template_validation" -Value $templateValidation
+    Set-JsonProperty -Object $manifest -Name "live_validation" -Value $liveValidation
+    Set-JsonProperty -Object $manifest -Name "selected_candidate_qaas_validation" -Value $validation
+    foreach ($packet in @($manifest.custom_assertion_packets)) {
+        if ([string]$packet.assertion_name -eq "HttpStatusBelow400") {
+            $packet.status = "build_template_live_validated_blocked_until_airgapped"
+            $packet.activation = "source_yaml_validated"
+            $packet.wired_into_runner_yaml = $true
+            $packet.validation_records.build = "passed"
+            $packet.validation_records.schema = "passed"
+            $packet.validation_records.template = "passed"
+            $packet.validation_records.live = "passed"
+            $packet.validation_records.airgapped = "not_run"
+            $packet.weak_validation_passed = $false
+        }
+    }
+    $manifest.source_only_blockers = @($manifest.source_only_blockers | Where-Object { [string]$_.blocker_id -notin @("crawl4ai-status-below-400-hook-not-template-validated", "qaas-template-live-not-run") })
+    foreach ($gate in @($manifest.dependency_gates)) {
+        if ([string]$gate.gate_id -in @("http-status-below-400-assertion-or-hook", "qaas-template", "qaas-live-act-assert")) {
+            $gate.status = "passed"
+            $gate.evidence = @($summaryPath, $transcriptPath)
+            $gate.blocked_reason = ""
+        }
+    }
+    Write-JsonFile -Path $manifestPath -Value $manifest
+
+    $runtimePlan = Read-JsonFile -Path $runtimePlanPath
+    Set-JsonProperty -Object $runtimePlan -Name "qaas_validation" -Value $validation
+    Set-JsonProperty -Object $runtimePlan -Name "http_status_below_400_assertion" -Value ([ordered]@{ status = "build_template_live_validated"; summary = $summaryPath; assertion_project = $assertionProjectPath; assertion_source = $stagedAssertionPath })
+    $runtimePlan.blockers = @($runtimePlan.blockers | Where-Object { [string]$_ -notin @("build_and_template_validate_http_status_below_400_assertion", "run_qaaS_template_validation", "run_live_qaaS_act_assert_validation") })
+    Write-JsonFile -Path $runtimePlanPath -Value $runtimePlan
+
+    [pscustomobject]@{
+        CandidateRoot = $candidateRoot
+        SelectedRoot = Join-Path $Root "selected-contracts"
+        CoverageDir = Join-Path $Root "coverage"
+        CandidateDir = $candidateDir
+        SummaryPath = $summaryPath
+    }
+}
+
 function New-FlaskSelectedCandidateFixture {
     param(
         [string]$Root,
@@ -6618,6 +6818,14 @@ Assert-ExitCode -Name "Selected candidate checker rejects Crawl4AI deferred miss
 $crawl4AiHealthFixture = New-Crawl4AiHealthCandidateFixture -Root (Join-Path $fixtureRoot "crawl4ai-health-valid")
 $crawl4AiHealthResult = Invoke-SelectedCandidateCheck -Name "selected-candidate-crawl4ai-health-valid" -Fixture $crawl4AiHealthFixture
 Assert-ExitCode -Name "Selected candidate checker accepts Crawl4AI healthcheck-only candidate" -Result $crawl4AiHealthResult -ExpectedExitCode 0 -ExpectedText "Selected top-repo candidate check passed"
+
+$crawl4AiLiveQaaSFixture = New-Crawl4AiLiveQaaSFixture -Root (Join-Path $fixtureRoot "crawl4ai-live-qaas-valid")
+$crawl4AiLiveQaaSResult = Invoke-SelectedCandidateCheck -Name "selected-candidate-crawl4ai-live-qaas-valid" -Fixture $crawl4AiLiveQaaSFixture
+Assert-ExitCode -Name "Selected candidate checker accepts Crawl4AI complete live QaaS evidence" -Result $crawl4AiLiveQaaSResult -ExpectedExitCode 0 -ExpectedText "Selected top-repo candidate check passed"
+
+$crawl4AiLiveQaaSBadHashFixture = New-Crawl4AiLiveQaaSFixture -Root (Join-Path $fixtureRoot "crawl4ai-live-qaas-bad-hash") -BadHash
+$crawl4AiLiveQaaSBadHashResult = Invoke-SelectedCandidateCheck -Name "selected-candidate-crawl4ai-live-qaas-bad-hash" -Fixture $crawl4AiLiveQaaSBadHashFixture
+Assert-ExitCode -Name "Selected candidate checker rejects Crawl4AI forged live source hash" -Result $crawl4AiLiveQaaSBadHashResult -ExpectedExitCode 1 -ExpectedText "candidate_yaml_sha256"
 
 $crawl4AiReadinessResult = Invoke-SelectedCandidatePromotionReadinessCheck -Name "selected-candidate-crawl4ai-readiness-valid" -Fixture $crawl4AiHealthFixture -ExpectedCount 2
 Assert-ExitCode -Name "Selected promotion readiness accepts Crawl4AI custom status hook without built-in HttpStatus advisory" -Result $crawl4AiReadinessResult -ExpectedExitCode 0 -ExpectedText "Selected candidate promotion readiness passed"

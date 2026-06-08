@@ -1287,6 +1287,154 @@ def validate_crawl4ai_deferred(deferred: dict, selected_path: Path, index_path: 
             require_marker(evidence_text, marker, evidence_path)
 
 
+def validate_crawl4ai_qaas_evidence(
+    manifest: dict,
+    runtime_plan: dict,
+    manifest_path: Path,
+    runtime_plan_path: Path,
+):
+    repository = "unclecode/crawl4ai"
+    manifest_validation = manifest.get("selected_candidate_qaas_validation")
+    runtime_validation = runtime_plan.get("qaas_validation")
+    if not passed_validation(manifest_validation):
+        failures.append(f"{repository} manifest selected_candidate_qaas_validation must be passed when QaaS is adopted: {manifest_path}")
+        return
+    if not passed_validation(runtime_validation):
+        failures.append(f"{repository} runtime plan qaas_validation must be passed when QaaS is adopted: {runtime_plan_path}")
+        return
+
+    for field in ("summary", "transcript", "response", "run_dir"):
+        if manifest_validation.get(field) != runtime_validation.get(field):
+            failures.append(f"{repository} manifest/runtime QaaS {field} paths must match: {manifest_path}")
+
+    live_root = coverage_dir.parent / "live-runs" / "selected-top-repo-candidates"
+    summary_path = Path(str(manifest_validation.get("summary", "")))
+    transcript_path = Path(str(manifest_validation.get("transcript", "")))
+    response_path = Path(str(manifest_validation.get("response", "")))
+    run_dir = Path(str(manifest_validation.get("run_dir", "")))
+    require_under(summary_path, coverage_dir, f"{repository} live summary")
+    require_under(transcript_path, live_root, f"{repository} live transcript")
+    require_under(response_path, live_root, f"{repository} live response")
+    if not run_dir.exists() or not path_is_relative_to(run_dir, live_root):
+        failures.append(f"{repository} live run_dir must exist under {live_root}: {run_dir}")
+    if summary_path.name != "selected-top-repo-candidate-live-crawl4ai.json":
+        failures.append(f"{repository} live summary filename mismatch: {summary_path}")
+    if not summary_path.exists():
+        return
+
+    summary = read_json(summary_path)
+    if summary.get("status") != "passed":
+        failures.append(f"{repository} live summary must be passed: {summary_path}")
+    if summary.get("repository") != repository:
+        failures.append(f"{repository} live summary repository mismatch: {summary_path}")
+    if summary.get("validation_kind") != "selected_candidate_qaas_template_live":
+        failures.append(f"{repository} live summary validation_kind mismatch: {summary_path}")
+    if summary.get("promotion_state") != "blocked" or summary.get("completion_ready") is not False:
+        failures.append(f"{repository} live summary must remain blocked and not completion-ready: {summary_path}")
+    if summary.get("exit_code") != 0:
+        failures.append(f"{repository} live summary exit_code must be 0: {summary_path}")
+    if summary.get("manifest_updated") is not True:
+        failures.append(f"{repository} live summary must prove manifest_updated true after adoption: {summary_path}")
+    if summary.get("weak_validation_passed") is not False:
+        failures.append(f"{repository} live summary must not claim weak validation passed: {summary_path}")
+    if summary.get("response_contract") != "http_status_less_than_400_body_unasserted":
+        failures.append(f"{repository} live summary must keep body-unasserted status-only response contract: {summary_path}")
+    if summary.get("response_contract_passed") is not True or not isinstance(summary.get("response_status"), int) or summary.get("response_status") >= 400:
+        failures.append(f"{repository} live summary must prove HTTP status below 400: {summary_path}")
+    if summary.get("cleanup_passed") is not True:
+        failures.append(f"{repository} live summary must prove cleanup_passed true: {summary_path}")
+    if summary.get("container_exists_after_cleanup") is not False:
+        failures.append(f"{repository} live summary must prove test-owned container removal: {summary_path}")
+    if summary.get("port_owners_after_cleanup_count") != 0:
+        failures.append(f"{repository} live summary must prove zero port owners after cleanup: {summary_path}")
+    if not path_equals(summary.get("manifest"), manifest_path):
+        failures.append(f"{repository} live summary manifest path mismatch: {summary_path}")
+    if not path_equals(summary.get("runtime_plan"), runtime_plan_path):
+        failures.append(f"{repository} live summary runtime_plan path mismatch: {summary_path}")
+    if not path_equals(summary.get("transcript"), transcript_path):
+        failures.append(f"{repository} live summary transcript path mismatch: {summary_path}")
+    if not path_equals(summary.get("response"), response_path):
+        failures.append(f"{repository} live summary response path mismatch: {summary_path}")
+    if not path_equals(summary.get("run_dir"), run_dir):
+        failures.append(f"{repository} live summary run_dir mismatch: {summary_path}")
+    container_name = str(summary.get("container_name", ""))
+    if not container_name.startswith("zappa-crawl4ai-health-live-") or container_name == "crawl4ai":
+        failures.append(f"{repository} live summary must use unique test-owned live container name: {summary_path}")
+    if summary.get("cleanup_target_container_name") != container_name:
+        failures.append(f"{repository} live summary cleanup target must match test-owned container: {summary_path}")
+    if summary.get("protected_container_name") != "crawl4ai":
+        failures.append(f"{repository} live summary must record protected public container name crawl4ai: {summary_path}")
+    if summary.get("protected_container_names_before", []) != summary.get("protected_container_names_after", []):
+        failures.append(f"{repository} live summary must not mutate protected crawl4ai container state: {summary_path}")
+    if summary.get("assertion_project_reference_added") is not True:
+        failures.append(f"{repository} live summary must prove assertion project reference was added: {summary_path}")
+
+    for validation_field in ("assertion_build_validation", "build_validation", "template_validation", "live_validation"):
+        validation = summary.get(validation_field)
+        manifest_field = manifest.get(validation_field)
+        if not passed_validation(validation):
+            failures.append(f"{repository} live summary missing passed {validation_field}: {summary_path}")
+            continue
+        if not passed_validation(manifest_field):
+            failures.append(f"{repository} manifest missing passed {validation_field}: {manifest_path}")
+        elif not same_validation_record(validation, manifest_field):
+            failures.append(f"{repository} manifest {validation_field} must equal live summary record: {manifest_path}")
+        transcript = Path(str(validation.get("transcript", "")))
+        require_under(transcript, live_root, f"{repository} {validation_field} transcript")
+
+    hashes = summary.get("source_hashes", {})
+    staged_yaml_path = Path(str(summary.get("runner_yaml", "")))
+    source_yaml_path = manifest_path.parent / "test.qaas.yaml"
+    source_payload_path = manifest_path.parent / "request-payloads" / "get-health.bin"
+    staged_payload_path = staged_yaml_path.parent / "request-payloads" / "get-health.bin"
+    source_assertion_path = manifest_path.parent / "assertion-packets" / "HttpStatusBelow400" / "HttpStatusBelow400.cs"
+    staged_assertion_path = Path(str(summary.get("assertion_source", "")))
+    for hash_field, path, root in (
+        ("candidate_yaml_sha256", source_yaml_path, manifest_path.parent),
+        ("staged_yaml_sha256", staged_yaml_path, live_root),
+        ("candidate_request_payload_sha256", source_payload_path, manifest_path.parent),
+        ("staged_request_payload_sha256", staged_payload_path, live_root),
+        ("candidate_assertion_sha256", source_assertion_path, manifest_path.parent),
+        ("staged_assertion_sha256", staged_assertion_path, live_root),
+    ):
+        require_under(path, root, f"{repository} {hash_field} source")
+        actual_hash = sha256_hex(path)
+        if actual_hash is not None and hashes.get(hash_field) != actual_hash:
+            failures.append(f"{repository} live source hash {hash_field} does not match actual file: {path}")
+    for left, right in (
+        ("candidate_yaml_sha256", "staged_yaml_sha256"),
+        ("candidate_request_payload_sha256", "staged_request_payload_sha256"),
+        ("candidate_assertion_sha256", "staged_assertion_sha256"),
+    ):
+        if hashes.get(left) != hashes.get(right):
+            failures.append(f"{repository} live source hash mismatch {left}/{right}: {summary_path}")
+
+    staged_yaml_text = text(staged_yaml_path)
+    for marker in ("Assertion: HttpStatusBelow400", "MaximumExclusiveStatusCode: 400", "Route: health", "Port: 11235"):
+        require_marker(staged_yaml_text, marker, staged_yaml_path)
+    for forbidden_marker in ("StatusCode: 200", "ExpectedText:", "Route: /crawl", "Route: crawl"):
+        require_no_marker(staged_yaml_text, forbidden_marker, staged_yaml_path, f"{repository} live YAML must keep status-only /health contract")
+
+    transcript_text = text(transcript_path)
+    for marker in (
+        "Validation: selected-top-repo-candidate-live-crawl4ai",
+        "Repository: unclecode/crawl4ai",
+        "DockerPullCommand: docker pull unclecode/crawl4ai:latest",
+        "DockerRunCommand: docker run -d -p 127.0.0.1:11235:11235 --name zappa-crawl4ai-health-live-",
+        "ReadinessUrl: http://127.0.0.1:11235/health",
+        "Ready: True",
+        "AssertionBuildPassed: True",
+        "BuildPassed: True",
+        "TemplatePassed: True",
+        "LivePassed: True",
+        "CleanupPassed: True",
+        "ExitCode: 0",
+    ):
+        require_marker(transcript_text, marker, transcript_path)
+    for forbidden_marker in ("--name crawl4ai", "Route: /crawl", "ExpectedText:", "StatusCode: 200"):
+        require_no_marker(transcript_text, forbidden_marker, transcript_path, f"{repository} live transcript must not promote unsafe or invented contract")
+
+
 def validate_exact_http_text_body_packet(
     packet,
     owner_path: Path,
@@ -1352,7 +1500,7 @@ def validate_http_status_below_400_packet(packet, owner_path: Path, candidate_di
         return
 
     expected_status = "build_template_live_validated_blocked_until_airgapped" if qaas_passed else "blocked_until_build_template_live_airgapped_validation"
-    expected_activation = "staged_live_runner_only" if qaas_passed else "source_yaml_blocked"
+    expected_activation = "source_yaml_validated" if qaas_passed else "source_yaml_blocked"
     expected_packet_values = {
         "packet_id": "crawl4ai-http-status-below-400",
         "assertion_name": "HttpStatusBelow400",
@@ -2400,9 +2548,9 @@ def validate_crawl4ai(record: dict, manifest: dict, selected: dict, manifest_pat
     if qaas_claimed and not qaas_passed:
         failures.append(f"Crawl4AI candidate must not claim partial QaaS validation passed: {manifest_path}")
     if qaas_passed:
-        failures.append(f"Crawl4AI live QaaS evidence checker is not implemented yet; do not mark QaaS validation passed: {manifest_path}")
+        validate_crawl4ai_qaas_evidence(manifest, runtime_plan, manifest_path, runtime_plan_path)
     lifecycle_passed = passed_validation(manifest.get("lifecycle_validation"))
-    validate_http_status_below_400_packet(packet, manifest_path, candidate_dir, "Crawl4AI custom assertion packet", qaas_passed=False)
+    validate_http_status_below_400_packet(packet, manifest_path, candidate_dir, "Crawl4AI custom assertion packet", qaas_passed=qaas_passed)
 
     selected_files = {
         "README.md": (
@@ -2495,12 +2643,20 @@ def validate_crawl4ai(record: dict, manifest: dict, selected: dict, manifest_pat
 
     runtime_blockers = runtime_plan.get("blockers", [])
     required_runtime_blockers = [
-        "build_and_template_validate_http_status_below_400_assertion",
-        "run_qaaS_template_validation",
-        "run_live_qaaS_act_assert_validation",
         "run_live_airgapped_weak_model_validation",
         "run_strong_review_against_selected_contract_evidence",
     ]
+    satisfied_runtime_blockers = (
+        "build_and_template_validate_http_status_below_400_assertion",
+        "run_qaaS_template_validation",
+        "run_live_qaaS_act_assert_validation",
+    )
+    if qaas_passed:
+        for blocker in satisfied_runtime_blockers:
+            if blocker in runtime_blockers:
+                failures.append(f"Crawl4AI runtime plan still contains satisfied blocker {blocker}: {runtime_plan_path}")
+    else:
+        required_runtime_blockers = list(satisfied_runtime_blockers) + required_runtime_blockers
     if lifecycle_passed:
         if "prove_docker_lifecycle_and_cleanup_without_deleting_user_container" in runtime_blockers:
             failures.append(f"Crawl4AI runtime plan still contains satisfied Docker lifecycle blocker: {runtime_plan_path}")
@@ -2512,12 +2668,20 @@ def validate_crawl4ai(record: dict, manifest: dict, selected: dict, manifest_pat
 
     blockers = get_blocker_ids(manifest)
     required_source_blockers = [
-        "crawl4ai-status-below-400-hook-not-template-validated",
         "crawl4ai-health-body-contract-not-selected",
         "crawl4ai-crawl-endpoint-not-promoted",
-        "qaas-template-live-not-run",
         "live-airgapped-weak-model-not-passed",
     ]
+    satisfied_source_blockers = (
+        "crawl4ai-status-below-400-hook-not-template-validated",
+        "qaas-template-live-not-run",
+    )
+    if qaas_passed:
+        for blocker_id in satisfied_source_blockers:
+            if blocker_id in blockers:
+                failures.append(f"Crawl4AI candidate manifest still contains satisfied QaaS blocker {blocker_id}: {manifest_path}")
+    else:
+        required_source_blockers = list(satisfied_source_blockers) + required_source_blockers
     if lifecycle_passed:
         if "crawl4ai-docker-lifecycle-not-proven" in blockers:
             failures.append(f"Crawl4AI candidate manifest still contains satisfied Docker lifecycle blocker: {manifest_path}")
@@ -2539,12 +2703,14 @@ def validate_crawl4ai(record: dict, manifest: dict, selected: dict, manifest_pat
                 failures.append(f"Crawl4AI lifecycle gate missing passed status/evidence {lifecycle_gate}: {manifest_path}")
         elif not gate or gate.get("status") != "blocked" or not gate.get("blocked_reason"):
             failures.append(f"Crawl4AI lifecycle gate missing blocked status/reason {lifecycle_gate}: {manifest_path}")
-    for blocked_gate in (
-        "http-status-below-400-assertion-or-hook",
-        "qaas-template",
-        "qaas-live-act-assert",
-        "airgapped-validation",
-    ):
+    for qaas_gate in ("http-status-below-400-assertion-or-hook", "qaas-template", "qaas-live-act-assert"):
+        gate = gates.get(qaas_gate)
+        if qaas_passed:
+            if not gate or gate.get("status") != "passed" or not gate.get("evidence"):
+                failures.append(f"Crawl4AI QaaS gate missing passed status/evidence {qaas_gate}: {manifest_path}")
+        elif not gate or gate.get("status") != "blocked" or not gate.get("blocked_reason"):
+            failures.append(f"Crawl4AI QaaS gate missing blocked status/reason {qaas_gate}: {manifest_path}")
+    for blocked_gate in ("airgapped-validation",):
         gate = gates.get(blocked_gate)
         if not gate or gate.get("status") != "blocked" or not gate.get("blocked_reason"):
             failures.append(f"Crawl4AI blocked gate missing blocked status/reason {blocked_gate}: {manifest_path}")
@@ -2561,7 +2727,8 @@ def validate_crawl4ai(record: dict, manifest: dict, selected: dict, manifest_pat
                 (transcript_path, "lifecycle transcript"),
                 (response_path, "lifecycle response"),
             ):
-                require_under(evidence_path, coverage_dir if label == "lifecycle summary" else Path(r"D:\QaaS\_tmp\zappa-dont-cry\lifecycle-runs\selected-top-repo-candidates"), f"Crawl4AI {label}")
+                lifecycle_root = coverage_dir.parent / "lifecycle-runs" / "selected-top-repo-candidates"
+                require_under(evidence_path, coverage_dir if label == "lifecycle summary" else lifecycle_root, f"Crawl4AI {label}")
             if lifecycle_record.get("status") != "passed" or lifecycle_record.get("exit_code") != 0:
                 failures.append(f"Crawl4AI lifecycle_validation must be passed with exit_code 0: {manifest_path}")
 

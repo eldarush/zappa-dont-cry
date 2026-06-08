@@ -1,6 +1,6 @@
 ﻿Command: dotnet run --project D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\ZappaPromotionSeed.Runner.csproj -- template D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\test.qaas.yaml --no-env
 WorkingDirectory: D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner
-Started: 2026-06-08T16:02:10.1963201+03:00
+Started: 2026-06-08T16:49:18.8301116+03:00
 ExitCode: 0
 
 Using launch settings from D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\Properties\launchSettings.json...
@@ -8,16 +8,16 @@ D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world
 D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\ZappaPromotionSeed.Runner.csproj : warning NU1903: Package 'Snappier' 1.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-pggp-6c3x-2xmx
 D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\ZappaPromotionSeed.Runner.csproj : warning NU1902: Package 'SharpCompress' 0.30.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-6c8g-7p36-r338
 D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\ZappaPromotionSeed.Runner.csproj : warning NU1903: Package 'Snappier' 1.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-pggp-6c3x-2xmx
-[16:02:12 INF] Starting runner with 1 execution builders. EmptyResults=False, ServeResults=False, ServeResultsFolder=allure-results, ExitProcessOnCompletion=True
-[16:02:12 INF] Building 1 executions
-[16:02:12 INF] Started building Template execution with executionId null and case name null
-[16:02:13 INF] Found IGenerator hook instance FromFileSystem in provided assembly QaaS.Common.Generators, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null
-[16:02:13 INF] Initializing Transaction CallHello with transactor of type QaaS.Framework.Protocols.Protocols.HttpProtocol with Input Serializer null and Output Deserializer null
-[16:02:13 INF] Found IAssertion hook instance HttpStatus in provided assembly QaaS.Common.Assertions, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null
-[16:02:13 INF] Finished building Template execution with executionId null and case name null
-[16:02:13 INF] Built 1 executions successfully
-[16:02:13 INF] Running 1 executions
-[16:02:13 INF] Running Template execution with executionId null and case name null
+[16:49:21 INF] Starting runner with 1 execution builders. EmptyResults=False, ServeResults=False, ServeResultsFolder=allure-results, ExitProcessOnCompletion=True
+[16:49:21 INF] Building 1 executions
+[16:49:21 INF] Started building Template execution with executionId null and case name null
+[16:49:22 INF] Found IGenerator hook instance FromFileSystem in provided assembly QaaS.Common.Generators, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null
+[16:49:22 INF] Initializing Transaction CallHello with transactor of type QaaS.Framework.Protocols.Protocols.HttpProtocol with Input Serializer null and Output Deserializer null
+[16:49:22 INF] Found IAssertion hook instance HttpStatus in provided assembly QaaS.Common.Assertions, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null
+[16:49:22 INF] Finished building Template execution with executionId null and case name null
+[16:49:22 INF] Built 1 executions successfully
+[16:49:22 INF] Running 1 executions
+[16:49:22 INF] Running Template execution with executionId null and case name null
 Storages:
   - JsonStorageFormat: Indented
     FileSystem:
@@ -71,6 +71,6 @@ MetaData:
   System: QaaSHelloWorldHttp
   Team: Zappa
 
-[16:02:13 INF] Finished running executions. Aggregated exit code: 0
-[16:02:13 INF] Runner lifecycle finished successfully. ExitCode=0
-[16:02:13 INF] Runner completed. ExitCode=0
+[16:49:22 INF] Finished running executions. Aggregated exit code: 0
+[16:49:22 INF] Runner lifecycle finished successfully. ExitCode=0
+[16:49:22 INF] Runner completed. ExitCode=0

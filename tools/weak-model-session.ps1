@@ -382,6 +382,8 @@ function New-DryRunCapture {
         OutputPath = $OutputPath
         Harness = $HarnessName
         ModelId = $ModelId
+        Command = "DRY_RUN $HarnessName $ModelId"
+        RouteCommand = $HarnessName
     }
 }
 
@@ -495,6 +497,8 @@ function Invoke-ProcessCapture {
         OutputPath = $OutputPath
         Harness = $HarnessName
         ModelId = $ModelId
+        Command = "$actualFilePath $($actualArguments -join ' ')"
+        RouteCommand = $actualFilePath
     }
 }
 
@@ -533,13 +537,15 @@ function Get-WeakValidationEligibility {
         [string]$HarnessName,
         [string]$ProfileName,
         [string]$ModelId,
-        [bool]$DryRun = $false
+        [bool]$DryRun = $false,
+        [string]$Command = ""
     )
 
-    $eligibility = Get-WeakEvidenceEligibility -Policy $Policy -Harness $HarnessName -Profile $ProfileName -Model $ModelId -DryRun:$DryRun
+    $eligibility = Get-WeakEvidenceEligibility -Policy $Policy -Harness $HarnessName -Profile $ProfileName -Model $ModelId -DryRun:$DryRun -Command $Command
     return [pscustomobject]@{
         Eligible = [bool]$eligibility.weak_validation_eligible
         Reason = if ($eligibility.weak_validation_eligible) { "eligible-policy-weak-proxy" } else { [string]$eligibility.not_weak_reason }
+        EvidenceClass = [string]$eligibility.evidence_class
     }
 }
 
@@ -578,7 +584,8 @@ function Update-ScenarioIndex {
         $attempt++
         $resultModelId = if ($result.PSObject.Properties.Name -contains "ModelId" -and -not [string]::IsNullOrWhiteSpace([string]$result.ModelId)) { [string]$result.ModelId } else { $ModelId }
         $resultHarness = if ($result.PSObject.Properties.Name -contains "Harness" -and -not [string]::IsNullOrWhiteSpace([string]$result.Harness)) { [string]$result.Harness } else { $HarnessName }
-        $eligibility = Get-WeakValidationEligibility -Policy $Policy -HarnessName $resultHarness -ProfileName $ProfileName -ModelId $resultModelId -DryRun:$DryRun
+        $resultCommand = if ($result.PSObject.Properties.Name -contains "RouteCommand") { [string]$result.RouteCommand } elseif ($result.PSObject.Properties.Name -contains "Command") { [string]$result.Command } else { "" }
+        $eligibility = Get-WeakValidationEligibility -Policy $Policy -HarnessName $resultHarness -ProfileName $ProfileName -ModelId $resultModelId -DryRun:$DryRun -Command $resultCommand
         [ordered]@{
             scenario_id = $ScenarioId
             scenario_kind = $ScenarioKind
@@ -591,6 +598,7 @@ function Update-ScenarioIndex {
             model = $resultModelId
             weak_validation_eligible = $eligibility.Eligible
             not_weak_reason = if ($eligibility.Eligible) { $null } else { $eligibility.Reason }
+            evidence_class = if ($eligibility.Eligible) { $eligibility.EvidenceClass } else { $null }
             dry_run = $DryRun
             classification = Get-ScenarioClassification -Result $result -DryRun $DryRun
             weak_validation_passed = $false
@@ -806,6 +814,11 @@ $summary = @(
 foreach ($result in $results) {
     $status = if ($result.ExitCode -eq 0) { "PASS" } else { "FAIL" }
     $notes = @()
+    $resultModelId = if ($result.PSObject.Properties.Name -contains "ModelId" -and -not [string]::IsNullOrWhiteSpace([string]$result.ModelId)) { [string]$result.ModelId } else { "" }
+    $resultHarness = if ($result.PSObject.Properties.Name -contains "Harness" -and -not [string]::IsNullOrWhiteSpace([string]$result.Harness)) { [string]$result.Harness } else { $Harness }
+    $resultCommand = if ($result.PSObject.Properties.Name -contains "RouteCommand") { [string]$result.RouteCommand } elseif ($result.PSObject.Properties.Name -contains "Command") { [string]$result.Command } else { "" }
+    $classification = Get-ScenarioClassification -Result $result -DryRun:$DryRun.IsPresent
+    $eligibility = Get-WeakValidationEligibility -Policy $policy -HarnessName $resultHarness -ProfileName $Profile -ModelId $resultModelId -DryRun:$DryRun.IsPresent -Command $resultCommand
 
     if (-not $DryRun) {
         foreach ($pattern in $ExpectPattern) {
@@ -823,7 +836,7 @@ foreach ($result in $results) {
         }
     }
 
-    $line = "- $status exit $($result.ExitCode): $($result.OutputPath)"
+    $line = "- $status exit $($result.ExitCode): $($result.OutputPath) classification=$classification weak_validation_eligible=$($eligibility.Eligible) evidence_class=$($eligibility.EvidenceClass) not_weak_reason=$($eligibility.Reason)"
     if ($notes.Count -gt 0) {
         $line += " ($($notes -join '; '))"
     }

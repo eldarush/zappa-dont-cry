@@ -12,7 +12,7 @@ Current state: structurally validated, not complete. The harness passes, but pol
 - `coverage/` - campaign and promotion-readiness summaries.
 - `blockers/` - current fail-closed completion and weak-model blocker records.
 - `evidence/weak-model-validation/` - latest weak-model retry transcripts.
-- `reports/full-harness-report-20260608-160127-126.json` - latest full harness report.
+- `reports/full-harness-report-20260608-164833-201.json` - latest full harness report.
 - `status-overview.html` - short human-readable status snapshot.
 - `tools/weak-model-session.ps1` and `tools/weak-model-policy.json` - weak-model routing wrapper and policy.
 
@@ -27,7 +27,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File D:\QaaS\_tools\zappa-harness
 Result:
 
 - Full harness: `61/61` passed.
-- Harness regression tests: `193` checks passed.
+- Harness regression tests: `195` checks passed.
 - Policy-executable manifests: `0`.
 - Deterministic QaaS-ready candidates: `6`.
 - Weak-only deterministic candidates: `5`.
@@ -42,7 +42,7 @@ The work remains blocked by policy, not by structural harness failures:
 - Preferred weak-model routes are quota-blocked: all four configured weak profiles returned Copilot API `402 additional_spend_limit_reached`.
 - No manifest is promoted to `promotion_state: executable`.
 - No promotion packet is executable.
-- Crawl4AI remains deterministic-blocked because Docker lifecycle and live QaaS evidence cannot pass until Docker daemon is available.
+- Crawl4AI remains deterministic-blocked because the current public `unclecode/crawl4ai:latest` image starts with `unable to find user appuser`; cleanup is verified and promotion remains blocked.
 - Deno remains deterministic-ready but selected-scope blocked for broad runtime coverage.
 
 This is intentional. The harness is designed to fail closed and should not turn dry runs, quota failures, or partial weak-model attempts into completion evidence.
@@ -114,4 +114,4 @@ Recommended skill order for a QaaS task:
 
 ## Publication Status
 
-This package is safe to publish as a current-state artifact, but it is not a claim of objective completion. The next real unblockers are live weak-model quota and Docker daemon availability for Crawl4AI.
+This package is safe to publish as a current-state artifact, but it is not a claim of objective completion. The next real unblockers are live weak-model quota and an upstream Crawl4AI image/runtime state that can satisfy `/health`.

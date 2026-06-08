@@ -385,8 +385,17 @@ $cleanupPassed = (
     $portOwnersAfterCleanup.Count -eq 0 -and
     $protectedContainerNamesBeforeText -eq $protectedContainerNamesAfterText
 )
-$validationStatus = if ($ready -and $cleanupPassed) { "passed" } else { "failed" }
-$exitCode = if ($validationStatus -eq "passed") { 0 } else { 1 }
+$dockerRunStderrText = if (Test-Path -LiteralPath $runStderrPath -PathType Leaf) { Get-Content -LiteralPath $runStderrPath -Raw } else { "" }
+$dockerLogsStderrText = if (Test-Path -LiteralPath $logsStderrPath -PathType Leaf) { Get-Content -LiteralPath $logsStderrPath -Raw } else { "" }
+$blockedReason = ""
+if (-not $ready -and $cleanupPassed) {
+    $startupErrorText = "$dockerRunStderrText`n$dockerLogsStderrText"
+    if ($startupErrorText -match "unable to find user appuser") {
+        $blockedReason = "crawl4ai_upstream_image_user_appuser_missing"
+    }
+}
+$validationStatus = if ($ready -and $cleanupPassed) { "passed" } elseif (-not [string]::IsNullOrWhiteSpace($blockedReason)) { "blocked" } else { "failed" }
+$exitCode = if ($validationStatus -eq "failed") { 1 } else { 0 }
 if ($ready -and -not $cleanupPassed -and [string]::IsNullOrWhiteSpace($failureReason)) {
     $failureReason = "Crawl4AI responded but cleanup did not prove test-owned container removal"
 }
@@ -424,6 +433,7 @@ $lines.Add("CleanupPassed: $cleanupPassed")
 $lines.Add("ContainerExistsAfterCleanup: $containerExistsAfterCleanup")
 $lines.Add("PortOwnersAfterCleanupCount: $($portOwnersAfterCleanup.Count)")
 $lines.Add("ExitCode: $exitCode")
+$lines.Add("BlockedReason: $blockedReason")
 $lines.Add("FailureReason: $failureReason")
 $lines.Add("")
 $lines.Add("==== docker pull stdout ====")
@@ -465,6 +475,7 @@ $record = [ordered]@{
     completion_ready = $false
     repository = "unclecode/crawl4ai"
     validation_kind = "selected_candidate_docker_lifecycle"
+    reason = if ([string]::IsNullOrWhiteSpace($blockedReason)) { $null } else { $blockedReason }
     command = $dockerRunCommand
     pull_command = $pullCommand
     image = $image
@@ -563,6 +574,6 @@ Write-Output "Crawl4AI lifecycle validation status: $validationStatus"
 Write-Output "Summary: $summaryPath"
 Write-Output "Transcript: $transcriptPath"
 
-if ($validationStatus -ne "passed") {
+if ($validationStatus -eq "failed") {
     exit 1
 }

@@ -1,0 +1,564 @@
+﻿{
+    "generated_at":  "2026-06-08T16:53:21.7215858+03:00",
+    "suite":  "all",
+    "target":  "all",
+    "run_dir":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201",
+    "overall_status":  "passed",
+    "duration_ms":  288519,
+    "summary":  {
+                    "total":  61,
+                    "passed":  61,
+                    "failed":  0
+                },
+    "results":  [
+                    {
+                        "name":  "zappa-environment",
+                        "command":  "$envRoot = Join-Path $runDir \"dynamic-env\"\n        \u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"scripts\\bootstrap-zappa-env.ps1\") -Root $envRoot -SkillRoot $skillRoot -HarnessRoot $harnessRoot\n        if ($LASTEXITCODE -ne 0) {\n            throw \"bootstrap-zappa-env.ps1 failed with exit code $LASTEXITCODE\"\n        }\n        \u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-ZappaEnvironment.ps1\") -Root $envRoot -SkillRoot $skillRoot -HarnessRoot $harnessRoot",
+                        "duration_ms":  1304,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\zappa-environment.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "default-zappa-environment",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-DefaultZappaEnvironment.ps1\") -Root \"D:\\QaaS\\_tmp\\zappa-dont-cry\" -SkillRoot $skillRoot -HarnessRoot $harnessRoot",
+                        "duration_ms":  1529,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\default-zappa-environment.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "skill-layout",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-SkillLayout.ps1\") -SkillRoot $skillRoot",
+                        "duration_ms":  367,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\skill-layout.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "skill-metadata",
+                        "command":  "\u0026 python (Join-Path $harnessRoot \"checks\\Check-SkillMetadata.py\") $skillRoot",
+                        "duration_ms":  1250,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\skill-metadata.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "agent-metadata",
+                        "command":  "\u0026 python (Join-Path $harnessRoot \"checks\\Check-AgentMetadata.py\") $skillRoot",
+                        "duration_ms":  113,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\agent-metadata.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "zappa-pack",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"scripts\\validate-zappa-pack.ps1\") -Root $skillRoot -HarnessRoot $harnessRoot",
+                        "duration_ms":  1472,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\zappa-pack.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "skill-quality",
+                        "command":  "\u0026 python (Join-Path $harnessRoot \"checks\\Check-SkillQuality.py\") $skillRoot",
+                        "duration_ms":  78,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\skill-quality.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "skill-output-contracts",
+                        "command":  "\u0026 python (Join-Path $harnessRoot \"checks\\Check-SkillOutputContracts.py\") $skillRoot (Join-Path $harnessRoot \"fixtures\\skill-output-contracts.json\")",
+                        "duration_ms":  95,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\skill-output-contracts.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "objective-coverage",
+                        "command":  "\u0026 python (Join-Path $harnessRoot \"checks\\Check-ObjectiveCoverage.py\") $skillRoot $harnessRoot (Join-Path $harnessRoot \"fixtures\\objective-capability-map.json\") \"D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\"",
+                        "duration_ms":  87,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\objective-coverage.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "top250",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-Top250.ps1\")",
+                        "duration_ms":  395,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\top250.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "contracts",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-ContractHarvest.ps1\")",
+                        "duration_ms":  878,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\contracts.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "selected-top-repo-contracts",
+                        "command":  "\u0026 python (Join-Path $harnessRoot \"checks\\Check-SelectedTopRepoContracts.py\") \"D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\" \"D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\" (Join-Path $generatedRoot \"top-repos\") \"D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\"",
+                        "duration_ms":  318,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\selected-top-repo-contracts.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "selected-top-repo-candidates",
+                        "command":  "\u0026 python (Join-Path $harnessRoot \"checks\\Check-SelectedTopRepoCandidates.py\") (Join-Path $generatedRoot \"selected-top-repo-candidates\") \"D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\" \"D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\"",
+                        "duration_ms":  392,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\selected-top-repo-candidates.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "selected-candidate-promotion-readiness",
+                        "command":  "\u0026 python (Join-Path $harnessRoot \"checks\\Check-SelectedTopRepoCandidatePromotionReadiness.py\") (Join-Path $generatedRoot \"selected-top-repo-candidates\") \"D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\"",
+                        "duration_ms":  96,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\selected-candidate-promotion-readiness.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "selected-top-repo-candidate-lifecycle",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-SelectedTopRepoCandidateLifecycle.ps1\")",
+                        "duration_ms":  1312,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\selected-top-repo-candidate-lifecycle.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "selected-top-repo-candidate-lifecycle-flask",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-SelectedTopRepoCandidateLifecycle.ps1\") `\n            -SummaryPath \"D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-lifecycle-flask.json\" `\n            -CandidateDir \"D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\227-pallets-flask\"",
+                        "duration_ms":  1285,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\selected-top-repo-candidate-lifecycle-flask.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "selected-top-repo-candidate-lifecycle-express",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-SelectedTopRepoCandidateLifecycle.ps1\") `\n            -SummaryPath \"D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-lifecycle-express.json\" `\n            -CandidateDir \"D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\243-expressjs-express\"",
+                        "duration_ms":  1297,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\selected-top-repo-candidate-lifecycle-express.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "selected-top-repo-candidate-lifecycle-fastapi",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-SelectedTopRepoCandidateLifecycle.ps1\") `\n            -SummaryPath \"D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-lifecycle-fastapi.json\" `\n            -CandidateDir \"D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\114-fastapi-fastapi\"",
+                        "duration_ms":  1226,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\selected-top-repo-candidate-lifecycle-fastapi.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "selected-top-repo-candidate-lifecycle-gin",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-SelectedTopRepoCandidateLifecycle.ps1\") `\n            -SummaryPath \"D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-lifecycle-gin.json\" `\n            -CandidateDir \"D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\138-gin-gonic-gin\"",
+                        "duration_ms":  1692,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\selected-top-repo-candidate-lifecycle-gin.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "selected-top-repo-candidate-lifecycle-deno",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-SelectedTopRepoCandidateLifecycle.ps1\") `\n            -SummaryPath \"D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-lifecycle-deno.json\" `\n            -CandidateDir \"D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\098-denoland-deno\"",
+                        "duration_ms":  1450,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\selected-top-repo-candidate-lifecycle-deno.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "selected-top-repo-candidate-lifecycle-crawl4ai",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-SelectedTopRepoCandidateLifecycle.ps1\") `\n            -SummaryPath \"D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-lifecycle-crawl4ai.json\" `\n            -CandidateDir \"D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\250-unclecode-crawl4ai\"",
+                        "duration_ms":  420,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\selected-top-repo-candidate-lifecycle-crawl4ai.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "selected-top-repo-candidate-live",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-SelectedTopRepoCandidateLive.ps1\")",
+                        "duration_ms":  1185,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\selected-top-repo-candidate-live.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "selected-top-repo-candidate-live-flask",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-SelectedTopRepoCandidateLiveFlask.ps1\")",
+                        "duration_ms":  1333,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\selected-top-repo-candidate-live-flask.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "selected-top-repo-candidate-live-express",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-SelectedTopRepoCandidateLiveExpress.ps1\")",
+                        "duration_ms":  1339,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\selected-top-repo-candidate-live-express.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "selected-top-repo-candidate-live-fastapi",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-SelectedTopRepoCandidateLiveFastApi.ps1\")",
+                        "duration_ms":  1262,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\selected-top-repo-candidate-live-fastapi.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "selected-top-repo-candidate-live-gin",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-SelectedTopRepoCandidateLiveGin.ps1\")",
+                        "duration_ms":  1698,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\selected-top-repo-candidate-live-gin.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "selected-top-repo-candidate-live-deno",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-SelectedTopRepoCandidateLiveDeno.ps1\")",
+                        "duration_ms":  1323,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\selected-top-repo-candidate-live-deno.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "selected-top-repo-candidate-live-crawl4ai",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-SelectedTopRepoCandidateLiveCrawl4Ai.ps1\")",
+                        "duration_ms":  405,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\selected-top-repo-candidate-live-crawl4ai.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "top-repo-promotion-triage",
+                        "command":  "\u0026 python (Join-Path $harnessRoot \"checks\\Check-TopRepoPromotionTriage.py\") \"D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\" (Join-Path $generatedRoot \"top-repos\") \"D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\" 250",
+                        "duration_ms":  300,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\top-repo-promotion-triage.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "promotion-seed-lifecycle",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"scripts\\generate-promotion-seed.ps1\") -HarnessRoot $harnessRoot\n        if ($LASTEXITCODE -ne 0) {\n            throw \"generate-promotion-seed.ps1 failed with exit code $LASTEXITCODE\"\n        }\n        \u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-PromotionSeedLifecycle.ps1\")",
+                        "duration_ms":  36727,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\promotion-seed-lifecycle.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "docs-coverage",
+                        "command":  "\u0026 python (Join-Path $harnessRoot \"checks\\Check-DocsCoverage.py\")",
+                        "duration_ms":  234,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\docs-coverage.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "artifact-manifests-all",
+                        "command":  "\u0026 python (Join-Path $harnessRoot \"checks\\Check-GeneratedArtifacts.py\") $generatedRoot $Target",
+                        "duration_ms":  1533,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\artifact-manifests-all.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "legacy-docs-artifact-validator",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"scripts\\validate-generated-artifacts.ps1\") -Root (Join-Path $generatedRoot \"docs-coverage\") -IndexFileName \"coverage-skeleton-index.json\"",
+                        "duration_ms":  4280,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\legacy-docs-artifact-validator.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "legacy-top-artifact-validator",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"scripts\\validate-generated-artifacts.ps1\") -Root (Join-Path $generatedRoot \"top-repos\") -IndexFileName \"top-repo-artifact-index.json\"",
+                        "duration_ms":  3524,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\legacy-top-artifact-validator.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "intent-assumptions-schema",
+                        "command":  "\u0026 python (Join-Path $harnessRoot \"checks\\Check-IntentAssumptionsSchema.py\") $generatedRoot",
+                        "duration_ms":  367,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\intent-assumptions-schema.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "intent-clarification-coverage",
+                        "command":  "\u0026 python (Join-Path $harnessRoot \"checks\\Check-IntentClarificationCoverage.py\") $generatedRoot \"D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\"",
+                        "duration_ms":  395,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\intent-clarification-coverage.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "source-only-blockers",
+                        "command":  "\u0026 python (Join-Path $harnessRoot \"checks\\Check-SourceOnlyBlockers.py\") $generatedRoot",
+                        "duration_ms":  371,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\source-only-blockers.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "qaas-yaml-schema-evidence",
+                        "command":  "\u0026 python (Join-Path $harnessRoot \"checks\\Check-QaaSYamlSchemaEvidence.py\") $generatedRoot \"D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\" \"D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\"",
+                        "duration_ms":  669,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\qaas-yaml-schema-evidence.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "promotion-readiness",
+                        "command":  "\u0026 python (Join-Path $harnessRoot \"checks\\Check-PromotionReadiness.py\") $generatedRoot",
+                        "duration_ms":  660,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\promotion-readiness.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "promotion-candidate-index",
+                        "command":  "\u0026 python (Join-Path $harnessRoot \"checks\\Check-PromotionCandidateIndex.py\") $generatedRoot \"D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\"",
+                        "duration_ms":  1123,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\promotion-candidate-index.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "promotion-packet",
+                        "command":  "\u0026 python (Join-Path $harnessRoot \"checks\\Check-PromotionPacket.py\") $generatedRoot \"D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\" \"D:\\QaaS\\_tmp\\zappa-dont-cry\\promotion-packets\"",
+                        "duration_ms":  385,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\promotion-packet.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "dependency-gates",
+                        "command":  "\u0026 python (Join-Path $harnessRoot \"checks\\Check-DependencyGates.py\") $generatedRoot",
+                        "duration_ms":  360,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\dependency-gates.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "executable-artifact-shape",
+                        "command":  "\u0026 python (Join-Path $harnessRoot \"checks\\Check-ExecutableArtifactShape.py\") $generatedRoot",
+                        "duration_ms":  340,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\executable-artifact-shape.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "qaas-template-build-evidence",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-QaaSTemplateBuildEvidence.ps1\") -Root $generatedRoot",
+                        "duration_ms":  1717,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\qaas-template-build-evidence.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "docs-evidence-coverage",
+                        "command":  "\u0026 python (Join-Path $harnessRoot \"checks\\Check-DocsEvidenceCoverage.py\") $generatedRoot",
+                        "duration_ms":  361,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\docs-evidence-coverage.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "index-manifest-consistency",
+                        "command":  "\u0026 python (Join-Path $harnessRoot \"checks\\Check-IndexManifestConsistency.py\") $generatedRoot",
+                        "duration_ms":  692,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\index-manifest-consistency.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "top-repo-promotion-evidence",
+                        "command":  "\u0026 python (Join-Path $harnessRoot \"checks\\Check-TopRepoPromotionEvidence.py\")",
+                        "duration_ms":  238,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\top-repo-promotion-evidence.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "compile-generated-csharp",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Compile-GeneratedCSharp.ps1\") -Root $generatedRoot -OutDir (Join-Path $runDir \"compile\")",
+                        "duration_ms":  4711,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\compile-generated-csharp.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "harness-regression-tests",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-HarnessRegressionTests.ps1\") -HarnessRoot $harnessRoot -OutDir (Join-Path $runDir \"harness-regression\")",
+                        "duration_ms":  143489,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\harness-regression-tests.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "deno-selected-candidate-regression",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-DenoSelectedCandidateRegression.ps1\") -HarnessRoot $harnessRoot -OutDir (Join-Path $runDir \"harness-regression\\deno-selected-candidate\")",
+                        "duration_ms":  2834,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\deno-selected-candidate-regression.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "weak-routing",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-WeakModelRouting.ps1\") -SkillRoot $skillRoot -OutDir (Join-Path $runDir \"weak-routing\")",
+                        "duration_ms":  2536,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\weak-routing.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "weak-scenarios",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-WeakModelScenarios.ps1\") -SkillRoot $skillRoot -OutDir (Join-Path $runDir \"weak-scenarios\")",
+                        "duration_ms":  1528,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\weak-scenarios.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "weak-adversarial-scenarios",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-WeakModelAdversarialScenarios.ps1\") -SkillRoot $skillRoot -OutDir (Join-Path $runDir \"weak-adversarial-scenarios\")",
+                        "duration_ms":  2046,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\weak-adversarial-scenarios.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "airgapped-live-evidence",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-AirgappedLiveEvidence.ps1\") -EvidenceRoot \"D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live\" -BlockersDir \"D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\"",
+                        "duration_ms":  529,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\airgapped-live-evidence.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "copilot-fallback-evidence",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-CopilotFallbackEvidence.ps1\") -EvidenceRoot \"D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live-copilot-fallback\" -BlockersDir \"D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\"",
+                        "duration_ms":  472,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\copilot-fallback-evidence.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "weak-suite-runner",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-WeakScenarioSuiteRunner.ps1\") -HarnessRoot $harnessRoot -SkillRoot $skillRoot -OutDir (Join-Path $runDir \"weak-suite-runner\")",
+                        "duration_ms":  47540,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\weak-suite-runner.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "weak-scenario-live-index",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-WeakModelLiveScenarioIndex.ps1\") -EvidenceRoot \"D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live-scenarios\" -FixturePath (Join-Path $harnessRoot \"fixtures\\weak-skill-scenarios.json\") -BlockersDir \"D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\" -IndexFileName \"weak-scenario-live-index-latest.json\"",
+                        "duration_ms":  696,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\weak-scenario-live-index.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "weak-scenario-outputs",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-WeakModelScenarioOutputs.ps1\")",
+                        "duration_ms":  507,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\weak-scenario-outputs.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "weak-adversarial-live-index",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-WeakModelLiveScenarioIndex.ps1\") -EvidenceRoot \"D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live-adversarial-scenarios\" -FixturePath (Join-Path $harnessRoot \"fixtures\\weak-adversarial-scenarios.json\") -BlockersDir \"D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\" -IndexFileName \"weak-adversarial-live-index-latest.json\"",
+                        "duration_ms":  677,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\weak-adversarial-live-index.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "weak-adversarial-outputs",
+                        "command":  "\u0026 powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot \"checks\\Check-WeakModelAdversarialOutputs.ps1\")",
+                        "duration_ms":  541,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\weak-adversarial-outputs.log",
+                        "first_error_excerpt":  null
+                    },
+                    {
+                        "name":  "completion-readiness",
+                        "command":  "\u0026 python (Join-Path $harnessRoot \"checks\\Check-ObjectiveCompletionReadiness.py\") \"D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\" \"D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\objective-capability-coverage.json\" \"D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\"",
+                        "duration_ms":  430,
+                        "status":  "passed",
+                        "exit_code":  0,
+                        "log":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\20260608-164833-201\\completion-readiness.log",
+                        "first_error_excerpt":  null
+                    }
+                ]
+}
