@@ -1099,6 +1099,9 @@ if ($record.status -eq "blocked") {
         if ($profile.Repository -eq "denoland/deno") {
             $textBodyQaaSSatisfiedSourceBlockers = @("deno-text-body-hook-not-template-validated", "qaas-template-live-not-run")
         }
+        if ($profile.Repository -eq "spring-projects/spring-boot") {
+            $textBodyQaaSSatisfiedSourceBlockers = @("spring-boot-text-body-hook-not-template-validated", "qaas-template-live-not-run")
+        }
         foreach ($blockerId in @($profile.RequiredRemainingBlockers)) {
             if ($qaasFullyPassed -and $blockerId -eq $profile.QaaSTemplateBlocker) {
                 continue
@@ -1125,6 +1128,9 @@ if ($record.status -eq "blocked") {
             }
             if ($profile.Repository -eq "denoland/deno" -and $blockers.Contains("deno-text-body-hook-not-template-validated")) {
                 Add-Failure "Candidate should remove deno-text-body-hook-not-template-validated after Deno live QaaS validation passes: $manifestPath"
+            }
+            if ($profile.Repository -eq "spring-projects/spring-boot" -and $blockers.Contains("spring-boot-text-body-hook-not-template-validated")) {
+                Add-Failure "Candidate should remove spring-boot-text-body-hook-not-template-validated after Spring Boot live QaaS validation passes: $manifestPath"
             }
             if ($blockers.Contains("httpstatus-docs-inconsistency-recorded")) {
                 Add-Failure "Candidate should move httpstatus-docs-inconsistency-recorded to validation_advisories after live QaaS validation passes: $manifestPath"

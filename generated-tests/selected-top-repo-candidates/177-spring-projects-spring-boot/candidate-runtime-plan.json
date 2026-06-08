@@ -49,8 +49,6 @@
                                  ]
                 },
     "blockers":  [
-                     "run_qaaS_template_validation",
-                     "run_live_qaaS_act_assert_validation",
                      "run_live_airgapped_weak_model_validation",
                      "run_strong_review_against_selected_contract_evidence"
                  ],
@@ -67,10 +65,10 @@
                                          "assertion_name":  "ExactHttpTextBody",
                                          "hook_family":  "assertion",
                                          "assertion_type":  "ExactHttpTextBody",
-                                         "status":  "blocked_until_build_template_live_airgapped_validation",
+                                         "status":  "build_template_live_validated_blocked_until_airgapped",
                                          "promotion_state":  "blocked",
-                                         "activation":  "sidecar_only",
-                                         "wired_into_runner_yaml":  false,
+                                         "activation":  "staged_live_runner_only",
+                                         "wired_into_runner_yaml":  true,
                                          "source_files":  [
                                                               "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\177-spring-projects-spring-boot\\assertion-packets\\ExactHttpTextBody\\ExactHttpTextBody.cs"
                                                           ],
@@ -86,10 +84,10 @@
                                          "case_sensitive":  true,
                                          "weak_validation_passed":  false,
                                          "validation_records":  {
-                                                                    "build":  "not_run",
-                                                                    "schema":  "not_run",
-                                                                    "template":  "not_run",
-                                                                    "live":  "not_run",
+                                                                    "build":  "passed",
+                                                                    "schema":  "passed",
+                                                                    "template":  "passed",
+                                                                    "live":  "passed",
                                                                     "airgapped":  "not_run"
                                                                 },
                                          "docs_evidence":  [
@@ -172,5 +170,14 @@
                                                              8448,
                                                              16324
                                                          ]
-                             }
+                             },
+    "qaas_validation":  {
+                            "status":  "passed",
+                            "exit_code":  0,
+                            "command":  "java -jar \u003cvalidated lifecycle built jar\u003e ; dotnet build D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\assertions\\ZappaSelectedSpringBoot.Assertions\\ZappaSelectedSpringBoot.Assertions.csproj ; dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\runner\\ZappaSelectedSpringBoot.Runner\\ZappaSelectedSpringBoot.Runner.csproj -- template D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\runner\\ZappaSelectedSpringBoot.Runner\\test.qaas.yaml --no-env ; dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\runner\\ZappaSelectedSpringBoot.Runner\\ZappaSelectedSpringBoot.Runner.csproj -- run D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\runner\\ZappaSelectedSpringBoot.Runner\\test.qaas.yaml -e --no-env",
+                            "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\evidence\\selected-live-spring-boot.transcript.txt",
+                            "summary":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-live-spring-boot.json",
+                            "response":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\evidence\\root-response.txt",
+                            "run_dir":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701"
+                        }
 }

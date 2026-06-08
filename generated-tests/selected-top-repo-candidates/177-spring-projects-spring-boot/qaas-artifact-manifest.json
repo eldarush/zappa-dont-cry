@@ -514,7 +514,7 @@
               ],
     "status":  "blocked_until_repo_contract_review",
     "promotion_state":  "blocked",
-    "blocked_reason":  "Selected public Spring Boot contracts support a README Example root route, a Spring Initializr Maven project was generated with Boot 4.0.6, the application JAR built, and the tracked Java process lifecycle/cleanup passed, but promotion remains blocked until the custom text assertion is schema/template/live validated, QaaS live act/assert passes, airgapped weak-model validation passes, and strong review completes.",
+    "blocked_reason":  "Selected Spring Boot candidate passed lifecycle, custom ExactHttpTextBody build/template/live validation, and QaaS template/live validation, but executable promotion remains blocked until live airgapped weak-model validation and strong review pass.",
     "coverage_notes":  [
                            "Candidate uses only README-backed controller/root/body evidence and repository docs default-port evidence.",
                            "Candidate preserves README-backed plain-text body evidence and includes a sidecar ExactHttpTextBody custom assertion packet that is not wired into active YAML before validation.",
@@ -548,10 +548,10 @@
                                          "assertion_name":  "ExactHttpTextBody",
                                          "hook_family":  "assertion",
                                          "assertion_type":  "ExactHttpTextBody",
-                                         "status":  "blocked_until_build_template_live_airgapped_validation",
+                                         "status":  "build_template_live_validated_blocked_until_airgapped",
                                          "promotion_state":  "blocked",
-                                         "activation":  "sidecar_only",
-                                         "wired_into_runner_yaml":  false,
+                                         "activation":  "staged_live_runner_only",
+                                         "wired_into_runner_yaml":  true,
                                          "source_files":  [
                                                               "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\177-spring-projects-spring-boot\\assertion-packets\\ExactHttpTextBody\\ExactHttpTextBody.cs"
                                                           ],
@@ -567,10 +567,10 @@
                                          "case_sensitive":  true,
                                          "weak_validation_passed":  false,
                                          "validation_records":  {
-                                                                    "build":  "not_run",
-                                                                    "schema":  "not_run",
-                                                                    "template":  "not_run",
-                                                                    "live":  "not_run",
+                                                                    "build":  "passed",
+                                                                    "schema":  "passed",
+                                                                    "template":  "passed",
+                                                                    "live":  "passed",
                                                                     "airgapped":  "not_run"
                                                                 },
                                          "docs_evidence":  [
@@ -756,20 +756,13 @@
                                  "gate_id":  "plain-text-body-assertion-or-hook",
                                  "kind":  "qaas-build",
                                  "required":  true,
-                                 "status":  "ready",
+                                 "status":  "passed",
                                  "evidence":  [
-                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\index.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\custom-authoring-guide.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\schema-extensions.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json",
-                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\177-spring-projects-spring-boot\\assertion-packets\\ExactHttpTextBody\\ExactHttpTextBody.cs",
-                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\177-spring-projects-spring-boot\\assertion-packets\\ExactHttpTextBody\\ExactHttpTextBody.usage.yaml.txt",
-                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\177-spring-projects-spring-boot\\assertion-packets\\ExactHttpTextBody\\custom-text-body-hook-plan.json",
-                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\177-spring-projects-spring-boot\\expectations\\root-body.txt"
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-live-spring-boot.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\evidence\\build-assertion-library.transcript.txt",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\evidence\\live-runner-run.transcript.txt"
                                               ],
-                                 "check_command":  "D:\\QaaS\\_tools\\zappa-harness\\Invoke-ZappaHarness.ps1 -Suite selected-candidates",
+                                 "check_command":  "D:\\QaaS\\_tools\\zappa-harness\\scripts\\run-selected-top-repo-candidate-live-spring-boot.ps1",
                                  "blocked_reason":  ""
                              },
                              {
@@ -791,53 +784,26 @@
                                  "gate_id":  "qaas-template",
                                  "kind":  "qaas-template",
                                  "required":  true,
-                                 "status":  "blocked",
+                                 "status":  "passed",
                                  "evidence":  [
-                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\helloWorldHttp.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\actionSelectionPlaybook.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions-yamlView.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\storages\\configurations\\yamlView.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\dataSources\\configurations\\yamlView.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\yamlView.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\commands\\run.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\configuration\\yamlView.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\OutputContentByExpectedCsvResults\\overview.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\generators\\availableGenerators\\FromFileSystem\\overview.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\index.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\custom-authoring-guide.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\schema-extensions.md"
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-live-spring-boot.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\evidence\\template-runner.transcript.txt"
                                               ],
-                                 "check_command":  "",
-                                 "blocked_reason":  "QaaS template validation has not run for this candidate."
+                                 "check_command":  "D:\\QaaS\\_tools\\zappa-harness\\scripts\\run-selected-top-repo-candidate-live-spring-boot.ps1",
+                                 "blocked_reason":  ""
                              },
                              {
                                  "gate_id":  "qaas-live-act-assert",
                                  "kind":  "qaas-build",
                                  "required":  true,
-                                 "status":  "blocked",
+                                 "status":  "passed",
                                  "evidence":  [
-                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\helloWorldHttp.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\actionSelectionPlaybook.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions-yamlView.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\storages\\configurations\\yamlView.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\dataSources\\configurations\\yamlView.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\yamlView.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\commands\\run.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\configuration\\yamlView.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\OutputContentByExpectedCsvResults\\overview.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\generators\\availableGenerators\\FromFileSystem\\overview.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\index.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\custom-authoring-guide.md",
-                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\schema-extensions.md"
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-live-spring-boot.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\evidence\\live-runner-run.transcript.txt",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\evidence\\root-response.txt"
                                               ],
-                                 "check_command":  "",
-                                 "blocked_reason":  "Live QaaS run/act/assert has not run against a tracked Spring Boot process."
+                                 "check_command":  "D:\\QaaS\\_tools\\zappa-harness\\scripts\\run-selected-top-repo-candidate-live-spring-boot.ps1",
+                                 "blocked_reason":  ""
                              },
                              {
                                  "gate_id":  "airgapped-validation",
@@ -884,58 +850,6 @@
                       },
     "source_only_blockers":  [
                                  {
-                                     "blocker_id":  "spring-boot-text-body-hook-not-template-validated",
-                                     "blocker_type":  "qaas_docs_contract",
-                                     "description":  "A docs-derived ExactHttpTextBody custom assertion has been authored, but Runner assembly discovery, schema regeneration, template validation, build validation, and live QaaS act/assert have not passed.",
-                                     "required_evidence":  [
-                                                               "Runner host project references the assertion assembly",
-                                                               "Regenerated Runner schema includes Assertion: ExactHttpTextBody",
-                                                               "Template validation transcript for the Spring Boot candidate with the custom assertion enabled",
-                                                               "Live QaaS act/assert transcript against a tracked Spring Boot process"
-                                                           ],
-                                     "public_evidence":  [
-                                                             "D:\\QaaS\\qaas-docs\\docs\\assertions\\index.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\assertions\\custom-authoring-guide.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\schema-extensions.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json",
-                                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\177-spring-projects-spring-boot\\assertion-packets\\ExactHttpTextBody\\ExactHttpTextBody.cs",
-                                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\177-spring-projects-spring-boot\\assertion-packets\\ExactHttpTextBody\\ExactHttpTextBody.usage.yaml.txt",
-                                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\177-spring-projects-spring-boot\\assertion-packets\\ExactHttpTextBody\\custom-text-body-hook-plan.json",
-                                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\177-spring-projects-spring-boot\\expectations\\root-body.txt"
-                                                         ],
-                                     "unblock_instruction":  "Reference the assertion assembly, regenerate schema/clean bin, run QaaS template validation, then run live QaaS act/assert before promotion."
-                                 },
-                                 {
-                                     "blocker_id":  "qaas-template-live-not-run",
-                                     "blocker_type":  "qaas_docs_contract",
-                                     "description":  "The Runner YAML is schema-derived but has not passed QaaS template or live act/assert validation.",
-                                     "required_evidence":  [
-                                                               "QaaS template validation transcript",
-                                                               "Live QaaS run/act/assert transcript"
-                                                           ],
-                                     "public_evidence":  [
-                                                             "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\helloWorldHttp.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\actionSelectionPlaybook.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions-yamlView.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\storages\\configurations\\yamlView.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\dataSources\\configurations\\yamlView.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\yamlView.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\commands\\run.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\configuration\\yamlView.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\OutputContentByExpectedCsvResults\\overview.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\generators\\availableGenerators\\FromFileSystem\\overview.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\assertions\\index.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\assertions\\custom-authoring-guide.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\schema-extensions.md"
-                                                         ],
-                                     "unblock_instruction":  "Run documented QaaS validation commands in an environment with Runner host and Spring Boot process."
-                                 },
-                                 {
                                      "blocker_id":  "live-airgapped-weak-model-not-passed",
                                      "blocker_type":  "source_boundary",
                                      "description":  "Live weak-model validation has not passed for this candidate packet.",
@@ -946,33 +860,6 @@
                                                              "D:\\QaaS\\_tools\\zappa-harness\\references\\airgapped-validation.md"
                                                          ],
                                      "unblock_instruction":  "Run D:\\QaaS\\_tools\\weak-model-session.ps1 -Airgapped -All -ReasoningEffort none when quota/routing is available."
-                                 },
-                                 {
-                                     "blocker_id":  "httpstatus-docs-inconsistency-recorded",
-                                     "blocker_type":  "qaas_docs_contract",
-                                     "description":  "The quick-start example uses stale HttpStatus field names, while generated schema docs require StatusCode and OutputNames.",
-                                     "required_evidence":  [
-                                                               "Runtime/template validation confirming schema-derived field names"
-                                                           ],
-                                     "public_evidence":  [
-                                                             "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\helloWorldHttp.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\actionSelectionPlaybook.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions-yamlView.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\storages\\configurations\\yamlView.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\dataSources\\configurations\\yamlView.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\yamlView.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\commands\\run.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\configuration\\yamlView.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\OutputContentByExpectedCsvResults\\overview.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\generators\\availableGenerators\\FromFileSystem\\overview.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\assertions\\index.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\assertions\\custom-authoring-guide.md",
-                                                             "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\schema-extensions.md"
-                                                         ],
-                                     "unblock_instruction":  "Keep schema-derived StatusCode/OutputNames unless public docs/schema are updated and revalidated."
                                  },
                                  {
                                      "blocker_id":  "spring-boot-broad-runtime-coverage-not-selected",
@@ -1032,5 +919,66 @@
                                                              8448,
                                                              16324
                                                          ]
-                             }
+                             },
+    "assertion_build_validation":  {
+                                       "status":  "passed",
+                                       "exit_code":  0,
+                                       "command":  "dotnet build D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\assertions\\ZappaSelectedSpringBoot.Assertions\\ZappaSelectedSpringBoot.Assertions.csproj --nologo -clp:ErrorsOnly",
+                                       "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\evidence\\build-assertion-library.transcript.txt"
+                                   },
+    "build_validation":  {
+                             "status":  "passed",
+                             "exit_code":  0,
+                             "command":  "dotnet build D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\runner\\ZappaSelectedSpringBoot.Runner\\ZappaSelectedSpringBoot.Runner.csproj --nologo -clp:ErrorsOnly",
+                             "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\evidence\\build-runner.transcript.txt"
+                         },
+    "template_validation":  {
+                                "status":  "passed",
+                                "exit_code":  0,
+                                "command":  "dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\runner\\ZappaSelectedSpringBoot.Runner\\ZappaSelectedSpringBoot.Runner.csproj -- template D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\runner\\ZappaSelectedSpringBoot.Runner\\test.qaas.yaml --no-env",
+                                "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\evidence\\template-runner.transcript.txt"
+                            },
+    "live_validation":  {
+                            "status":  "passed",
+                            "exit_code":  0,
+                            "command":  "dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\runner\\ZappaSelectedSpringBoot.Runner\\ZappaSelectedSpringBoot.Runner.csproj -- run D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\runner\\ZappaSelectedSpringBoot.Runner\\test.qaas.yaml -e --no-env",
+                            "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\evidence\\live-runner-run.transcript.txt"
+                        },
+    "selected_candidate_qaas_validation":  {
+                                               "status":  "passed",
+                                               "exit_code":  0,
+                                               "command":  "java -jar \u003cvalidated lifecycle built jar\u003e ; dotnet build D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\assertions\\ZappaSelectedSpringBoot.Assertions\\ZappaSelectedSpringBoot.Assertions.csproj ; dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\runner\\ZappaSelectedSpringBoot.Runner\\ZappaSelectedSpringBoot.Runner.csproj -- template D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\runner\\ZappaSelectedSpringBoot.Runner\\test.qaas.yaml --no-env ; dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\runner\\ZappaSelectedSpringBoot.Runner\\ZappaSelectedSpringBoot.Runner.csproj -- run D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\runner\\ZappaSelectedSpringBoot.Runner\\test.qaas.yaml -e --no-env",
+                                               "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\evidence\\selected-live-spring-boot.transcript.txt",
+                                               "summary":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-live-spring-boot.json",
+                                               "response":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\evidence\\root-response.txt",
+                                               "run_dir":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701"
+                                           },
+    "validation_advisories":  [
+                                  {
+                                      "advisory_id":  "httpstatus-docs-inconsistency-recorded",
+                                      "advisory_type":  "qaas_docs_contract",
+                                      "description":  "The quick-start example uses stale HttpStatus field names, while generated schema docs require StatusCode and OutputNames.",
+                                      "public_evidence":  [
+                                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\helloWorldHttp.md",
+                                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\actionSelectionPlaybook.md",
+                                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions.md",
+                                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions-yamlView.md",
+                                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\storages\\configurations\\yamlView.md",
+                                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\dataSources\\configurations\\yamlView.md",
+                                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\yamlView.md",
+                                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\commands\\run.md",
+                                                              "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
+                                                              "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\configuration\\yamlView.md",
+                                                              "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\OutputContentByExpectedCsvResults\\overview.md",
+                                                              "D:\\QaaS\\qaas-docs\\docs\\generators\\availableGenerators\\FromFileSystem\\overview.md",
+                                                              "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json",
+                                                              "D:\\QaaS\\qaas-docs\\docs\\assertions\\index.md",
+                                                              "D:\\QaaS\\qaas-docs\\docs\\assertions\\custom-authoring-guide.md",
+                                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\schema-extensions.md"
+                                                          ],
+                                      "resolved_by":  "schema-derived StatusCode/OutputNames template and live validation",
+                                      "validation_summary":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-live-spring-boot.json",
+                                      "blocking":  false
+                                  }
+                              ]
 }

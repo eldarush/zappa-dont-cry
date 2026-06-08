@@ -9,17 +9,17 @@ D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world
 D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\mocker\ZappaPromotionSeed.Mocker\ZappaPromotionSeed.Mocker.csproj : warning NU1903: Package 'Snappier' 1.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-pggp-6c3x-2xmx
 D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\mocker\ZappaPromotionSeed.Mocker\ZappaPromotionSeed.Mocker.csproj : warning NU1902: Package 'SharpCompress' 0.30.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-6c8g-7p36-r338
 D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\mocker\ZappaPromotionSeed.Mocker\ZappaPromotionSeed.Mocker.csproj : warning NU1903: Package 'Snappier' 1.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-pggp-6c3x-2xmx
-[19:04:54 INF] Started building QaaS.Mocker with execution mode Run
-[19:04:54 INF] Found ITransactionProcessor hook instance QaaS.Common.Processors.StaticResponseProcessor in provided assembly QaaS.Common.Processors, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
-[19:04:54 INF] Building transaction stub 'HelloStub' with processor 'StaticResponseProcessor'
-[19:04:54 INF] Built 3 transaction stub(s) including default not-found and internal-error stubs
-[19:04:54 INF] Controller startup skipped because 'Controller.ServerName' is not configured.
-[19:04:54 INF] Resolved runtime graph with 0 data source(s), 3 stub(s), 1 server(s) [Http], and controller enabled: False
-[19:04:54 INF] Finished building QaaS.Mocker with execution mode Run
-[19:04:54 INF] Starting QaaS.Mocker in Run mode (RunLocally: False)
-[19:04:54 INF] Started server runtime task
-[19:04:54 INF] Controller runtime is disabled for this execution
-[19:04:55 INF] HTTP Server started. Listening on http://localhost:18080
+[19:39:48 INF] Started building QaaS.Mocker with execution mode Run
+[19:39:48 INF] Found ITransactionProcessor hook instance QaaS.Common.Processors.StaticResponseProcessor in provided assembly QaaS.Common.Processors, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+[19:39:48 INF] Building transaction stub 'HelloStub' with processor 'StaticResponseProcessor'
+[19:39:48 INF] Built 3 transaction stub(s) including default not-found and internal-error stubs
+[19:39:48 INF] Controller startup skipped because 'Controller.ServerName' is not configured.
+[19:39:48 INF] Resolved runtime graph with 0 data source(s), 3 stub(s), 1 server(s) [Http], and controller enabled: False
+[19:39:48 INF] Finished building QaaS.Mocker with execution mode Run
+[19:39:48 INF] Starting QaaS.Mocker in Run mode (RunLocally: False)
+[19:39:48 INF] Started server runtime task
+[19:39:48 INF] Controller runtime is disabled for this execution
+[19:39:48 INF] HTTP Server started. Listening on http://localhost:18080
 info: Microsoft.Hosting.Lifetime[14]
       Now listening on: http://127.0.0.1:18080
 info: Microsoft.Hosting.Lifetime[0]
@@ -35,7 +35,7 @@ info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
       Executed endpoint '/{**path}'
 info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
-      Request finished HTTP/1.1 GET http://127.0.0.1:18080/hello - 200 - text/plain;+charset=utf-8 34.2688ms
+      Request finished HTTP/1.1 GET http://127.0.0.1:18080/hello - 200 - text/plain;+charset=utf-8 20.2155ms
 info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
       Request starting HTTP/1.1 GET http://127.0.0.1:18080/hello - - 78
 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
@@ -43,13 +43,13 @@ info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
       Executed endpoint '/{**path}'
 info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
-      Request finished HTTP/1.1 GET http://127.0.0.1:18080/hello - 200 - text/plain;+charset=utf-8 1.9362ms
+      Request finished HTTP/1.1 GET http://127.0.0.1:18080/hello - 200 - text/plain;+charset=utf-8 1.6742ms
 
 ==== mocker stderr ====
 ==== runner transcript ====
 Command: dotnet run --project D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\ZappaPromotionSeed.Runner.csproj -- run D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\test.qaas.yaml -e --no-env
 WorkingDirectory: D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner
-Started: 2026-06-08T19:04:55.2877560+03:00
+Started: 2026-06-08T19:39:48.6202236+03:00
 ExitCode: 0
 
 Using launch settings from D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\Properties\launchSettings.json...
@@ -57,42 +57,42 @@ D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world
 D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\ZappaPromotionSeed.Runner.csproj : warning NU1903: Package 'Snappier' 1.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-pggp-6c3x-2xmx
 D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\ZappaPromotionSeed.Runner.csproj : warning NU1902: Package 'SharpCompress' 0.30.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-6c8g-7p36-r338
 D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\ZappaPromotionSeed.Runner.csproj : warning NU1903: Package 'Snappier' 1.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-pggp-6c3x-2xmx
-[19:04:57 INF] Starting runner with 1 execution builders. EmptyResults=True, ServeResults=False, ServeResultsFolder=allure-results, ExitProcessOnCompletion=True
-[19:04:57 INF] Cleaning results directory before execution
+[19:39:51 INF] Starting runner with 1 execution builders. EmptyResults=True, ServeResults=False, ServeResultsFolder=allure-results, ExitProcessOnCompletion=True
+[19:39:51 INF] Cleaning results directory before execution
 Cleaned allure results directory D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\bin\Debug\net10.0\allure-results
-[19:04:58 INF] Building 1 executions
-[19:04:58 INF] Started building Run execution with executionId null and case name null
-[19:04:58 INF] Found IGenerator hook instance FromFileSystem in provided assembly QaaS.Common.Generators, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null
-[19:04:58 INF] Initializing Transaction CallHello with transactor of type QaaS.Framework.Protocols.Protocols.HttpProtocol with Input Serializer null and Output Deserializer null
-[19:04:58 INF] Found IAssertion hook instance HttpStatus in provided assembly QaaS.Common.Assertions, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null
-[19:04:58 INF] Finished building Run execution with executionId null and case name null
-[19:04:58 INF] Built 1 executions successfully
-[19:04:58 INF] Running 1 executions
-[19:04:58 INF] Running Run execution with executionId null and case name null
-[19:04:58 INF] Running Data Sources Logic
-[19:04:58 INF] Running Sessions Logic
-[19:04:58 INF] Received 1 session definitions for execution
-[19:04:58 INF] Starting session stage 0 with 1 session(s): HelloSession
-[19:04:58 INF] Starting session HelloSession on stage 2 with 1 action(s)
-[19:04:58 INF] Arranging metadata source by the given DataArrangeOrder AsciiAsc
-[19:04:58 INF] HTTP Get request to http://127.0.0.1:18080/hello completed with status 200.
-[19:05:00 INF] Session summary for HelloSession
-[19:05:00 INF] HelloSession Duration In Milliseconds: 2016.7165
-[19:05:00 INF] Session Utc Start Time: 06/08/2026 16:04:58
-[19:05:00 INF] Session Utc End Time: 06/08/2026 16:05:00
-[19:05:00 INF] Input Source CallHello Contains 1 Inputs
-[19:05:00 INF] Output Source CallHello Contains 1 Outputs
-[19:05:00 INF] Finished session HelloSession stage 0
-[19:05:00 INF] Session HelloSession Inputs=1
-[19:05:00 INF] Session HelloSession Outputs=1
-[19:05:00 INF] Session HelloSession Failures=0
-[19:05:00 INF] Session logic completed. Total collected session results: 1
-[19:05:00 INF] Running Assertions Logic
-[19:05:00 INF] Running assertion HttpStatus ReturnedOk
-[19:05:00 INF] Running Reports Logic
-[19:05:00 INF] Started writing assertion results using 1 reporters. ReporterTypes=AllureReporter
-[19:05:00 INF] Finished writing assertion results using 1 reporters. ReporterTypes=AllureReporter
-[19:05:00 INF] Finished running executions. Aggregated exit code: 0
-[19:05:00 INF] Runner lifecycle finished successfully. ExitCode=0
-[19:05:00 INF] Runner completed. ExitCode=0
+[19:39:51 INF] Building 1 executions
+[19:39:51 INF] Started building Run execution with executionId null and case name null
+[19:39:51 INF] Found IGenerator hook instance FromFileSystem in provided assembly QaaS.Common.Generators, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null
+[19:39:51 INF] Initializing Transaction CallHello with transactor of type QaaS.Framework.Protocols.Protocols.HttpProtocol with Input Serializer null and Output Deserializer null
+[19:39:51 INF] Found IAssertion hook instance HttpStatus in provided assembly QaaS.Common.Assertions, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null
+[19:39:51 INF] Finished building Run execution with executionId null and case name null
+[19:39:51 INF] Built 1 executions successfully
+[19:39:51 INF] Running 1 executions
+[19:39:51 INF] Running Run execution with executionId null and case name null
+[19:39:51 INF] Running Data Sources Logic
+[19:39:51 INF] Running Sessions Logic
+[19:39:51 INF] Received 1 session definitions for execution
+[19:39:51 INF] Starting session stage 0 with 1 session(s): HelloSession
+[19:39:51 INF] Starting session HelloSession on stage 2 with 1 action(s)
+[19:39:51 INF] Arranging metadata source by the given DataArrangeOrder AsciiAsc
+[19:39:51 INF] HTTP Get request to http://127.0.0.1:18080/hello completed with status 200.
+[19:39:53 INF] Session summary for HelloSession
+[19:39:53 INF] HelloSession Duration In Milliseconds: 2017.8732
+[19:39:53 INF] Session Utc Start Time: 06/08/2026 16:39:51
+[19:39:53 INF] Session Utc End Time: 06/08/2026 16:39:53
+[19:39:53 INF] Input Source CallHello Contains 1 Inputs
+[19:39:53 INF] Output Source CallHello Contains 1 Outputs
+[19:39:53 INF] Finished session HelloSession stage 0
+[19:39:53 INF] Session HelloSession Inputs=1
+[19:39:53 INF] Session HelloSession Outputs=1
+[19:39:53 INF] Session HelloSession Failures=0
+[19:39:53 INF] Session logic completed. Total collected session results: 1
+[19:39:53 INF] Running Assertions Logic
+[19:39:53 INF] Running assertion HttpStatus ReturnedOk
+[19:39:53 INF] Running Reports Logic
+[19:39:53 INF] Started writing assertion results using 1 reporters. ReporterTypes=AllureReporter
+[19:39:53 INF] Finished writing assertion results using 1 reporters. ReporterTypes=AllureReporter
+[19:39:53 INF] Finished running executions. Aggregated exit code: 0
+[19:39:53 INF] Runner lifecycle finished successfully. ExitCode=0
+[19:39:53 INF] Runner completed. ExitCode=0
 

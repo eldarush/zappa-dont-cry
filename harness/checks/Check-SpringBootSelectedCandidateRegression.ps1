@@ -143,6 +143,7 @@ function New-SpringBootFixture {
     $selectedRoot = Join-Path $root "selected-contracts"
     $coverageRoot = Join-Path $root "coverage"
     $lifecycleRoot = Join-Path $root "lifecycle-runs\selected-top-repo-candidates"
+    $liveRoot = Join-Path $root "live-runs\selected-top-repo-candidates"
     $candidateDir = Join-Path $candidateRoot "177-spring-projects-spring-boot"
     $selectedDir = Join-Path $selectedRoot "177-spring-projects-spring-boot"
 
@@ -155,6 +156,7 @@ function New-SpringBootFixture {
     [System.IO.Directory]::CreateDirectory($selectedRoot) | Out-Null
     [System.IO.Directory]::CreateDirectory($coverageRoot) | Out-Null
     [System.IO.Directory]::CreateDirectory($lifecycleRoot) | Out-Null
+    [System.IO.Directory]::CreateDirectory($liveRoot) | Out-Null
     Copy-Item -LiteralPath (Join-Path $originalCandidateRoot "177-spring-projects-spring-boot") -Destination $candidateDir -Recurse -Force
     Copy-Item -LiteralPath (Join-Path $originalSelectedRoot "177-spring-projects-spring-boot") -Destination $selectedDir -Recurse -Force
 
@@ -174,17 +176,33 @@ function New-SpringBootFixture {
             }
         }
     }
+    if (
+        ($originalManifest.PSObject.Properties.Name -contains "selected_candidate_qaas_validation") -and
+        [string]$originalManifest.selected_candidate_qaas_validation.status -eq "passed"
+    ) {
+        $originalSummaryPath = [string]$originalManifest.selected_candidate_qaas_validation.summary
+        if (Test-Path -LiteralPath $originalSummaryPath -PathType Leaf) {
+            Copy-Item -LiteralPath $originalSummaryPath -Destination (Join-Path $coverageRoot (Split-Path -Leaf $originalSummaryPath)) -Force
+            $originalSummary = Read-JsonFile -Path $originalSummaryPath
+            $originalRunDir = [string]$originalSummary.run_dir
+            if (Test-Path -LiteralPath $originalRunDir -PathType Container) {
+                Copy-Item -LiteralPath $originalRunDir -Destination (Join-Path $liveRoot (Split-Path -Leaf $originalRunDir)) -Recurse -Force
+            }
+        }
+    }
 
     $replacements = @{
         $originalCandidateRoot = $candidateRoot
         $originalSelectedRoot = $selectedRoot
         $originalCoverageRoot = $coverageRoot
         $originalLifecycleRoot = $lifecycleRoot
+        $originalLiveRoot = $liveRoot
     }
     Rewrite-JsonFiles -Root $candidateRoot -Replacements $replacements
     Rewrite-JsonFiles -Root $selectedRoot -Replacements $replacements
     Rewrite-JsonFiles -Root $coverageRoot -Replacements $replacements
     Rewrite-JsonFiles -Root $lifecycleRoot -Replacements $replacements
+    Rewrite-JsonFiles -Root $liveRoot -Replacements $replacements
 
     $manifestPath = Join-Path $candidateDir "qaas-artifact-manifest.json"
     $manifest = Read-JsonFile -Path $manifestPath
@@ -267,6 +285,7 @@ $originalCandidateRoot = "D:\QaaS\_tmp\zappa-dont-cry\generated-tests\selected-t
 $originalSelectedRoot = "D:\QaaS\_tmp\zappa-dont-cry\top-repos\selected-contracts"
 $originalCoverageRoot = "D:\QaaS\_tmp\zappa-dont-cry\coverage"
 $originalLifecycleRoot = "D:\QaaS\_tmp\zappa-dont-cry\lifecycle-runs\selected-top-repo-candidates"
+$originalLiveRoot = "D:\QaaS\_tmp\zappa-dont-cry\live-runs\selected-top-repo-candidates"
 foreach ($requiredPath in @(
         (Join-Path $originalCandidateRoot "177-spring-projects-spring-boot\qaas-artifact-manifest.json"),
         (Join-Path $originalSelectedRoot "177-spring-projects-spring-boot\selected-contract.json")

@@ -2,7 +2,7 @@
 
 This repository packages the current `zappa-dont-cry` QaaS skill pack, deterministic harness, generated QaaS artifacts, public evidence snapshots, and weak-model validation records.
 
-Current state: published current-state artifact, not objective-complete. The deterministic harness passes (`64/64`), but promotion remains fail-closed: all selected candidates still lack eligible live weak-model evidence, 3 are selected-scope blocked, and 2 still have deterministic/QaaS-template evidence gaps.
+Current state: published current-state artifact, not objective-complete. The deterministic harness passes (`65/65`), but promotion remains fail-closed: all selected candidates still lack eligible live weak-model evidence, 3 are selected-scope blocked, and 1 still has a deterministic evidence gap.
 
 Local source folder used for this package:
 
@@ -28,7 +28,7 @@ https://github.com/eldarush/zappa-dont-cry
 - `evidence/airgapped-runs/` - prior weak-model and adversarial scenario evidence.
 - `evidence/weak-model-validation/` - current weak-model launcher transcripts and quota-blocked summaries.
 - `evidence/weak-agent-packets/` - generated task packets that give weak agents explicit state, command IDs, evidence paths, and stop conditions.
-- `reports/` - latest full harness report, historical timestamped reports, objective-readiness snapshots, package verification note, Spring Boot lifecycle/JAR summary, and Spring Boot weak-model quota-blocked summary.
+- `reports/` - latest full harness report, historical timestamped reports, objective-readiness snapshots, package verification note, Spring Boot lifecycle/JAR summary, Spring Boot live QaaS summary, and Spring Boot weak-model quota-blocked summary.
 - `tools/weak-model-session.ps1` - hosted weak-model launcher.
 - `weak-model-policy.json` and `tools/weak-model-policy.json` - active model routing policy.
 - `status-overview.html` - one-page human status snapshot.
@@ -43,17 +43,18 @@ Latest full deterministic harness run:
 powershell -NoProfile -ExecutionPolicy Bypass -File D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite all
 ```
 
-Result from `reports/report.json` (same content as `reports/full-harness-report-20260608-190335-164.json`):
+Result from `reports/report.json` (same content as `reports/full-harness-report-20260608-193857-088.json`):
 
-- Full harness: `64/64` passed.
+- Full harness: `65/65` passed.
 - Overall status: `passed`.
 - Generated manifests: `772`.
 - Policy-executable manifests: `0`.
 - Promotable candidates: `0`.
 - Selected top-repo candidates: `8`.
-- Deterministic-ready selected candidates: `6`.
+- Deterministic-ready selected candidates: `7`.
 - Selected candidates still missing live airgapped weak evidence: `8`.
 - Spring Boot lifecycle/JAR validation: `passed` with Spring Boot `4.0.6`, Java `25+`, HTTP `200`, exact body `Hello World!`, and cleanup evidence.
+- Spring Boot live QaaS validation: `passed` with ExactHttpTextBody build/template/live evidence, QaaS template/live execution, exact body `Hello World!`, and tracked process cleanup.
 - Weak-agent task packet suite: `passed`.
 
 Completion is still blocked by `blockers/objective-completion-readiness.json`.
@@ -71,10 +72,10 @@ Deterministic-ready, blocked only by live weak-model evidence:
 Deterministic-ready, blocked by live weak-model evidence plus selected-scope coverage:
 
 - `denoland/deno`
+- `spring-projects/spring-boot`
 
 Deterministic-evidence-blocked:
 
-- `spring-projects/spring-boot` - docs-only candidate for `GET /`, `8080`, and body `Hello World!`; dependency version, JAR build, Java process lifecycle, response contract, and cleanup are now proven, but it remains blocked until the exact text assertion hook is schema/template/live validated through QaaS, selected-scope coverage is broadened, and weak-model evidence passes.
 - `unclecode/crawl4ai` - remains blocked by Docker/lifecycle and custom status-below-400 validation gaps, plus weak-model evidence.
 
 ## Weak-Model Policy
@@ -180,4 +181,4 @@ The packaged `harness/` folder is included for review and portability work, but 
 
 ## Publication Status
 
-This repository is safe to publish as a current-state artifact. It is not a claim that the original recursive top-250 objective is complete. Keep completion fail-closed until live, non-dry-run preferred weak-model evidence passes and the remaining selected-scope/deterministic blockers are cleared.
+This repository is safe to publish as a current-state artifact. It is not a claim that the original recursive top-250 objective is complete. Keep completion fail-closed until live, non-dry-run preferred weak-model evidence passes and the remaining selected-scope/deterministic blocker state is cleared.

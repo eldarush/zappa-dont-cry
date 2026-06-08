@@ -131,7 +131,7 @@
     <div class="grid" aria-label="Current metrics">
       <div class="metric">
         <div class="label">Harness</div>
-        <div class="value ok">64/64</div>
+        <div class="value ok">65/65</div>
       </div>
       <div class="metric">
         <div class="label">Readiness</div>
@@ -152,8 +152,8 @@
       <ul>
         <li>The full deterministic harness passes: <code>Invoke-ZappaHarness.ps1 -Suite all</code>.</li>
         <li>The skill layout, metadata, artifact contracts, weak-agent packet suite, generated C# compilation, regression suite, and weak-routing checks are green.</li>
-        <li>Six selected top-repo candidates have deterministic lifecycle, template, and live QaaS evidence.</li>
-        <li><code>spring-projects/spring-boot</code> now has deterministic Spring Initializr, Maven JAR build, Java process lifecycle, exact body, and cleanup evidence.</li>
+        <li>Seven selected top-repo candidates have deterministic lifecycle, template, and live QaaS evidence.</li>
+        <li><code>spring-projects/spring-boot</code> now has deterministic Spring Initializr, Maven JAR build, Java process lifecycle, exact body, ExactHttpTextBody build/template/live, QaaS template/live, and cleanup evidence.</li>
       </ul>
     </section>
 
@@ -162,8 +162,8 @@
       <ul>
         <li>Preferred weak-model validation is quota-blocked across all four configured weak routes.</li>
         <li>All 772 generated QaaS manifests remain blocked; none are allowed to count as policy-executable yet.</li>
-        <li><code>spring-projects/spring-boot</code> still lacks QaaS template/live validation for the exact text assertion hook and remains selected-scope blocked.</li>
-        <li><code>unclecode/crawl4ai</code> still has Docker/lifecycle and custom status assertion evidence gaps in addition to weak-model blocking.</li>
+        <li><code>spring-projects/spring-boot</code> remains blocked by live weak-model evidence and selected-scope coverage, not by deterministic exact-text validation.</li>
+        <li><code>unclecode/crawl4ai</code> is the only selected candidate still blocked by deterministic Docker/lifecycle and custom status assertion evidence gaps, in addition to weak-model blocking.</li>
         <li>The top-250 campaign is structurally covered, but not fully executable or promotable.</li>
       </ul>
     </section>
@@ -172,7 +172,7 @@
       <h2>Next Work</h2>
       <ul>
         <li>Continue hardening selected top-repo promotion so deterministic blockers are separated from true weak-model quota blockers.</li>
-        <li>Keep completion fail-closed until live, non-dry-run preferred weak-model evidence passes and the remaining selected-scope/deterministic blockers are cleared.</li>
+        <li>Keep completion fail-closed until live, non-dry-run preferred weak-model evidence passes and the remaining selected-scope/deterministic blocker state is cleared.</li>
       </ul>
     </section>
   </main>

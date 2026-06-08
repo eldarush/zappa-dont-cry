@@ -237,6 +237,7 @@ function Add-SelectedTopRepoCandidateLiveCheck {
     Invoke-HarnessCommand "selected-top-repo-candidate-live-fastapi" { & powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot "checks\Check-SelectedTopRepoCandidateLiveFastApi.ps1") }
     Invoke-HarnessCommand "selected-top-repo-candidate-live-gin" { & powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot "checks\Check-SelectedTopRepoCandidateLiveGin.ps1") }
     Invoke-HarnessCommand "selected-top-repo-candidate-live-deno" { & powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot "checks\Check-SelectedTopRepoCandidateLiveDeno.ps1") }
+    Invoke-HarnessCommand "selected-top-repo-candidate-live-spring-boot" { & powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot "checks\Check-SelectedTopRepoCandidateLiveSpringBoot.ps1") }
     Invoke-HarnessCommand "selected-top-repo-candidate-live-crawl4ai" { & powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot "checks\Check-SelectedTopRepoCandidateLiveCrawl4Ai.ps1") }
 }
 

@@ -1,0 +1,91 @@
+{
+    "schema_version":  1,
+    "status":  "passed",
+    "promotion_state":  "blocked",
+    "completion_ready":  false,
+    "repository":  "spring-projects/spring-boot",
+    "validation_kind":  "selected_candidate_qaas_template_live",
+    "run_dir":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701",
+    "manifest":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\177-spring-projects-spring-boot\\qaas-artifact-manifest.json",
+    "runtime_plan":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\177-spring-projects-spring-boot\\candidate-runtime-plan.json",
+    "lifecycle_summary":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-lifecycle-spring-boot.json",
+    "runner_project":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\runner\\ZappaSelectedSpringBoot.Runner\\ZappaSelectedSpringBoot.Runner.csproj",
+    "runner_program":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\runner\\ZappaSelectedSpringBoot.Runner\\Program.cs",
+    "runner_yaml":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\runner\\ZappaSelectedSpringBoot.Runner\\test.qaas.yaml",
+    "source_runner_yaml":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\177-spring-projects-spring-boot\\test.qaas.yaml",
+    "assertion_project":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\assertions\\ZappaSelectedSpringBoot.Assertions\\ZappaSelectedSpringBoot.Assertions.csproj",
+    "assertion_source":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\assertions\\ZappaSelectedSpringBoot.Assertions\\ExactHttpTextBody.cs",
+    "source_assertion":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\177-spring-projects-spring-boot\\assertion-packets\\ExactHttpTextBody\\ExactHttpTextBody.cs",
+    "assertion_project_reference_transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\evidence\\reference-runner-assertion-project.transcript.txt",
+    "assertion_project_reference_added":  true,
+    "source_hashes":  {
+                          "candidate_yaml_sha256":  "c127b3f981f61061dc3041f6d8ba1f02deab206795b46dba130b36f410a94465",
+                          "staged_yaml_sha256":  "19964ed22f56d9c8f6fb118e2823030fb703991ff07b4aa51456e898909bd303",
+                          "candidate_request_payload_sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                          "staged_request_payload_sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                          "candidate_app_sha256":  "58bccbd2e5c7f371258d9db6de9c772bb34aee2bd00019dc12ec9a77ca9787cd",
+                          "candidate_expected_body_sha256":  "7f83b1657ff1fc53b92dc18148a1d65dfc2d4b1fa3d677284addd200126d9069",
+                          "staged_expected_body_sha256":  "7f83b1657ff1fc53b92dc18148a1d65dfc2d4b1fa3d677284addd200126d9069",
+                          "candidate_assertion_sha256":  "8a5b0cd0ee142e3b45837765797135186b4176ade4c31874e480dc6913f78a00",
+                          "staged_assertion_sha256":  "8a5b0cd0ee142e3b45837765797135186b4176ade4c31874e480dc6913f78a00",
+                          "selected_readme_sha256":  "05a1bce942de45a7ddb341f1af1dc95e77ed8d1567b7d6c8410f200d6da407ea",
+                          "selected_webserver_sha256":  "86875d0d78be7e4e6ccbcd838b2bf6ebbb8732572406930f3908fde12148c870",
+                          "lifecycle_built_jar_sha256":  "b43e9e138a97626457c70df054f7e01910554f2cd94c780a7c1661ede8795f47"
+                      },
+    "java_path":  "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath\\java.exe",
+    "java_version":  "java version \"25.0.2\" 2026-01-20 LTS",
+    "java_major_version":  25,
+    "spring_initializr_url":  "https://start.spring.io/starter.zip",
+    "requested_boot_version":  "4.0.6",
+    "generated_pom_boot_version":  "4.0.6",
+    "pom_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-184624-191\\work\\spring-boot-candidate\\pom.xml",
+    "built_jar":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-184624-191\\work\\spring-boot-candidate\\target\\spring-boot-candidate-0.0.1-SNAPSHOT.jar",
+    "built_jar_sha256":  "b43e9e138a97626457c70df054f7e01910554f2cd94c780a7c1661ede8795f47",
+    "selected_readme_evidence":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\README.adoc",
+    "selected_webserver_evidence":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\documentation\\spring-boot-docs\\src\\docs\\antora\\modules\\how-to\\pages\\webserver.adoc",
+    "assertion_build_validation":  {
+                                       "status":  "passed",
+                                       "exit_code":  0,
+                                       "command":  "dotnet build D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\assertions\\ZappaSelectedSpringBoot.Assertions\\ZappaSelectedSpringBoot.Assertions.csproj --nologo -clp:ErrorsOnly",
+                                       "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\evidence\\build-assertion-library.transcript.txt"
+                                   },
+    "build_validation":  {
+                             "status":  "passed",
+                             "exit_code":  0,
+                             "command":  "dotnet build D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\runner\\ZappaSelectedSpringBoot.Runner\\ZappaSelectedSpringBoot.Runner.csproj --nologo -clp:ErrorsOnly",
+                             "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\evidence\\build-runner.transcript.txt"
+                         },
+    "template_validation":  {
+                                "status":  "passed",
+                                "exit_code":  0,
+                                "command":  "dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\runner\\ZappaSelectedSpringBoot.Runner\\ZappaSelectedSpringBoot.Runner.csproj -- template D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\runner\\ZappaSelectedSpringBoot.Runner\\test.qaas.yaml --no-env",
+                                "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\evidence\\template-runner.transcript.txt"
+                            },
+    "live_validation":  {
+                            "status":  "passed",
+                            "exit_code":  0,
+                            "command":  "dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\runner\\ZappaSelectedSpringBoot.Runner\\ZappaSelectedSpringBoot.Runner.csproj -- run D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\runner\\ZappaSelectedSpringBoot.Runner\\test.qaas.yaml -e --no-env",
+                            "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\evidence\\live-runner-run.transcript.txt"
+                        },
+    "response":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\evidence\\root-response.txt",
+    "response_status":  200,
+    "response_body_sha256":  "7f83b1657ff1fc53b92dc18148a1d65dfc2d4b1fa3d677284addd200126d9069",
+    "response_contract_passed":  true,
+    "cleanup_passed":  true,
+    "cleanup_process_ids":  [
+                                34296,
+                                2784,
+                                29920
+                            ],
+    "remaining_tracked_process_ids":  [
+
+                                      ],
+    "port_owners_after_cleanup_count":  0,
+    "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\evidence\\selected-live-spring-boot.transcript.txt",
+    "stdout":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\evidence\\spring-boot.stdout.txt",
+    "stderr":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-193239-701\\evidence\\spring-boot.stderr.txt",
+    "manifest_updated":  true,
+    "weak_validation_passed":  false,
+    "failure_reason":  "",
+    "exit_code":  0
+}

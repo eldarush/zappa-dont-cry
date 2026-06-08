@@ -1018,6 +1018,225 @@ def validate_deno_qaas_evidence(
         failures.append(f"{repository} live Runner transcript must not include double-slash route: {live_transcript_path}")
 
 
+def validate_spring_boot_qaas_evidence(
+    manifest: dict,
+    runtime_plan: dict,
+    manifest_path: Path,
+    runtime_plan_path: Path,
+):
+    repository = "spring-projects/spring-boot"
+    manifest_validation = manifest.get("selected_candidate_qaas_validation")
+    runtime_validation = runtime_plan.get("qaas_validation")
+    if not passed_validation(manifest_validation):
+        failures.append(f"{repository} manifest selected_candidate_qaas_validation must be passed when QaaS is adopted: {manifest_path}")
+        return
+    if not passed_validation(runtime_validation):
+        failures.append(f"{repository} runtime plan qaas_validation must be passed when QaaS is adopted: {runtime_plan_path}")
+        return
+
+    for field in ("summary", "transcript", "response", "run_dir"):
+        if manifest_validation.get(field) != runtime_validation.get(field):
+            failures.append(f"{repository} manifest/runtime QaaS {field} paths must match: {manifest_path}")
+
+    live_root = coverage_dir.parent / "live-runs" / "selected-top-repo-candidates"
+    lifecycle_root = coverage_dir.parent / "lifecycle-runs" / "selected-top-repo-candidates"
+    candidate_dir = manifest_path.parent
+    summary_path = Path(str(manifest_validation.get("summary", "")))
+    transcript_path = Path(str(manifest_validation.get("transcript", "")))
+    response_path = Path(str(manifest_validation.get("response", "")))
+    run_dir = Path(str(manifest_validation.get("run_dir", "")))
+    require_under(summary_path, coverage_dir, f"{repository} live summary")
+    require_under(transcript_path, live_root, f"{repository} live transcript")
+    require_under(response_path, live_root, f"{repository} live response")
+    if not run_dir.exists() or not path_is_relative_to(run_dir, live_root):
+        failures.append(f"{repository} live run_dir must exist under {live_root}: {run_dir}")
+    if summary_path.name != "selected-top-repo-candidate-live-spring-boot.json":
+        failures.append(f"{repository} live summary filename mismatch: {summary_path}")
+    if not summary_path.exists():
+        return
+
+    summary = read_json(summary_path)
+    if summary.get("status") != "passed":
+        failures.append(f"{repository} live summary must be passed: {summary_path}")
+    if summary.get("repository") != repository:
+        failures.append(f"{repository} live summary repository mismatch: {summary_path}")
+    if summary.get("validation_kind") != "selected_candidate_qaas_template_live":
+        failures.append(f"{repository} live summary validation_kind mismatch: {summary_path}")
+    if summary.get("promotion_state") != "blocked" or summary.get("completion_ready") is not False:
+        failures.append(f"{repository} live summary must remain blocked and not completion-ready: {summary_path}")
+    if summary.get("exit_code") != 0:
+        failures.append(f"{repository} live summary exit_code must be 0: {summary_path}")
+    if summary.get("manifest_updated") is not True:
+        failures.append(f"{repository} live summary must prove manifest_updated true after adoption: {summary_path}")
+    if summary.get("weak_validation_passed") is not False:
+        failures.append(f"{repository} live summary must not claim weak validation passed: {summary_path}")
+    if summary.get("response_status") != 200 or summary.get("response_contract_passed") is not True:
+        failures.append(f"{repository} live summary must prove HTTP 200 response contract: {summary_path}")
+    if summary.get("cleanup_passed") is not True:
+        failures.append(f"{repository} live summary must prove cleanup_passed true: {summary_path}")
+    if summary.get("port_owners_after_cleanup_count") != 0:
+        failures.append(f"{repository} live summary must prove zero port owners after cleanup: {summary_path}")
+    remaining_process_ids = summary.get("remaining_tracked_process_ids", [])
+    if not isinstance(remaining_process_ids, list) or len(remaining_process_ids) != 0:
+        failures.append(f"{repository} live summary must prove no remaining tracked process ids: {summary_path}")
+    if summary.get("assertion_project_reference_added") is not True:
+        failures.append(f"{repository} live summary must prove assertion project reference: {summary_path}")
+    if summary.get("spring_initializr_url") != "https://start.spring.io/starter.zip":
+        failures.append(f"{repository} live summary must cite official Spring Initializr starter.zip: {summary_path}")
+    if summary.get("requested_boot_version") != "4.0.6" or summary.get("generated_pom_boot_version") != "4.0.6":
+        failures.append(f"{repository} live summary must prove Spring Boot 4.0.6: {summary_path}")
+    if summary.get("java_major_version", 0) < 25:
+        failures.append(f"{repository} live summary must prove Java 25 or newer: {summary_path}")
+    if not path_equals(summary.get("manifest"), manifest_path):
+        failures.append(f"{repository} live summary manifest path mismatch: {summary_path}")
+    if not path_equals(summary.get("runtime_plan"), runtime_plan_path):
+        failures.append(f"{repository} live summary runtime_plan path mismatch: {summary_path}")
+    if not path_equals(summary.get("transcript"), transcript_path):
+        failures.append(f"{repository} live summary transcript path mismatch: {summary_path}")
+    if not path_equals(summary.get("response"), response_path):
+        failures.append(f"{repository} live summary response path mismatch: {summary_path}")
+    if not path_equals(summary.get("run_dir"), run_dir):
+        failures.append(f"{repository} live summary run_dir mismatch: {summary_path}")
+
+    for validation_field in ("assertion_build_validation", "build_validation", "template_validation", "live_validation"):
+        validation = summary.get(validation_field)
+        manifest_field = manifest.get(validation_field)
+        if not passed_validation(validation):
+            failures.append(f"{repository} live summary missing passed {validation_field}: {summary_path}")
+            continue
+        if not passed_validation(manifest_field):
+            failures.append(f"{repository} manifest missing passed {validation_field}: {manifest_path}")
+        elif not same_validation_record(validation, manifest_field):
+            failures.append(f"{repository} manifest {validation_field} must equal live summary record: {manifest_path}")
+        validation_transcript = Path(str(validation.get("transcript", "")))
+        require_under(validation_transcript, live_root, f"{repository} {validation_field} transcript")
+
+    hashes = summary.get("source_hashes", {})
+    staged_yaml_path = Path(str(summary.get("runner_yaml", "")))
+    staged_runner_root = staged_yaml_path.parent
+    source_yaml_path = candidate_dir / "test.qaas.yaml"
+    source_payload_path = candidate_dir / "request-payloads" / "get-root.bin"
+    staged_payload_path = staged_runner_root / "request-payloads" / "get-root.bin"
+    source_app_path = candidate_dir / "app" / "src" / "main" / "java" / "com" / "example" / "Example.java"
+    source_body_path = candidate_dir / "expectations" / "root-body.txt"
+    staged_body_path = staged_runner_root / "expectations" / "root-body.txt"
+    source_assertion_path = candidate_dir / "assertion-packets" / "ExactHttpTextBody" / "ExactHttpTextBody.cs"
+    staged_assertion_path = Path(str(summary.get("assertion_source", "")))
+    selected_readme_path = Path(str(summary.get("selected_readme_evidence", "")))
+    selected_webserver_path = Path(str(summary.get("selected_webserver_evidence", "")))
+    built_jar_path = Path(str(summary.get("built_jar", "")))
+    pom_path = Path(str(summary.get("pom_path", "")))
+    expected_hash_paths = (
+        ("candidate_yaml_sha256", source_yaml_path, candidate_dir),
+        ("staged_yaml_sha256", staged_yaml_path, live_root),
+        ("candidate_request_payload_sha256", source_payload_path, candidate_dir),
+        ("staged_request_payload_sha256", staged_payload_path, live_root),
+        ("candidate_app_sha256", source_app_path, candidate_dir),
+        ("candidate_expected_body_sha256", source_body_path, candidate_dir),
+        ("staged_expected_body_sha256", staged_body_path, live_root),
+        ("candidate_assertion_sha256", source_assertion_path, candidate_dir),
+        ("staged_assertion_sha256", staged_assertion_path, live_root),
+        ("selected_readme_sha256", selected_readme_path, selected_contracts_root),
+        ("selected_webserver_sha256", selected_webserver_path, selected_contracts_root),
+        ("lifecycle_built_jar_sha256", built_jar_path, lifecycle_root),
+    )
+    for hash_field, path, root in expected_hash_paths:
+        require_under(path, root, f"{repository} {hash_field} source")
+        actual_hash = sha256_hex(path)
+        if actual_hash is not None and hashes.get(hash_field) != actual_hash:
+            failures.append(f"{repository} live source hash {hash_field} does not match actual file: {path}")
+    require_under(pom_path, lifecycle_root, f"{repository} live pom evidence")
+    if summary.get("built_jar_sha256") != hashes.get("lifecycle_built_jar_sha256"):
+        failures.append(f"{repository} live built_jar_sha256 must match source_hashes lifecycle_built_jar_sha256: {summary_path}")
+    for left, right in (
+        ("candidate_request_payload_sha256", "staged_request_payload_sha256"),
+        ("candidate_expected_body_sha256", "staged_expected_body_sha256"),
+        ("candidate_assertion_sha256", "staged_assertion_sha256"),
+    ):
+        if hashes.get(left) != hashes.get(right):
+            failures.append(f"{repository} live source hash mismatch {left}/{right}: {summary_path}")
+    if hashes.get("candidate_yaml_sha256") == hashes.get("staged_yaml_sha256"):
+        failures.append(f"{repository} staged live YAML must differ from source YAML because only the staged runner activates ExactHttpTextBody: {summary_path}")
+
+    if text(response_path) != "Hello World!":
+        failures.append(f"{repository} live response must exactly match README-backed text body: {response_path}")
+    actual_response_sha = sha256_hex(response_path)
+    if actual_response_sha is not None and summary.get("response_body_sha256") != actual_response_sha:
+        failures.append(f"{repository} live response_body_sha256 does not match actual response file: {response_path}")
+
+    source_yaml_text = text(source_yaml_path)
+    staged_yaml_text = text(staged_yaml_path)
+    require_no_marker(source_yaml_text, "Assertion: ExactHttpTextBody", source_yaml_path, f"{repository} source YAML must not activate ExactHttpTextBody")
+    for marker in ("Assertion: ExactHttpTextBody", "OutputName: GetRoot", "ExpectedText: Hello World!", "EncodingName: utf-8", "Route: ''", "Port: 8080", "Name: SpringBootReadRoot"):
+        require_marker(staged_yaml_text, marker, staged_yaml_path)
+    if re.search(r"(?m)^\s*Route:\s*/\s*$", staged_yaml_text):
+        failures.append(f"{repository} staged live YAML must use empty root route to avoid double-slash URL: {staged_yaml_path}")
+
+    runner_program_path = Path(str(summary.get("runner_program", "")))
+    runner_project_path = Path(str(summary.get("runner_project", "")))
+    assertion_project_path = Path(str(summary.get("assertion_project", "")))
+    assertion_source_path = Path(str(summary.get("assertion_source", "")))
+    for path, label in (
+        (runner_program_path, f"{repository} runner Program.cs"),
+        (runner_project_path, f"{repository} runner project"),
+        (assertion_project_path, f"{repository} assertion project"),
+        (assertion_source_path, f"{repository} assertion source"),
+    ):
+        require_under(path, live_root, label)
+        require_no_utf8_bom(path, label)
+    if "System.GC.KeepAlive(typeof(ZappaDontCry.SelectedCandidates.SpringBoot.Assertions.ExactHttpTextBody));" not in text(runner_program_path):
+        failures.append(f"{repository} runner Program.cs must force-load ExactHttpTextBody assembly: {runner_program_path}")
+    runner_project_text = text(runner_project_path)
+    if "ProjectReference" not in runner_project_text or "ZappaSelectedSpringBoot.Assertions.csproj" not in runner_project_text:
+        failures.append(f"{repository} runner project must reference assertion project: {runner_project_path}")
+    if 'PackageReference Include="QaaS.Framework.SDK" Version="1.5.1"' not in text(assertion_project_path):
+        failures.append(f"{repository} assertion project must reference QaaS.Framework.SDK 1.5.1: {assertion_project_path}")
+    assertion_text = text(assertion_source_path)
+    for marker in (
+        "namespace ZappaDontCry.SelectedCandidates.SpringBoot.Assertions;",
+        "BaseAssertion<ExactHttpTextBodyConfig>",
+        "using QaaS.Framework.SDK.Extensions;",
+        "GetOutputByName(Configuration.OutputName).Data",
+        "StringComparison.Ordinal",
+    ):
+        require_marker(assertion_text, marker, assertion_source_path)
+
+    transcript_text = text(transcript_path)
+    for marker in (
+        "Validation: selected-top-repo-candidate-live-spring-boot",
+        "Repository: spring-projects/spring-boot",
+        "SpringBootCommand: java -jar <validated lifecycle built jar>",
+        "BootVersion: 4.0.6",
+        "AssertionProjectReferenceAdded: True",
+        "Ready: True",
+        "ResponseBodySha256:",
+        "AssertionBuildPassed: True",
+        "BuildPassed: True",
+        "TemplatePassed: True",
+        "LivePassed: True",
+        "CleanupPassed: True",
+        "ExitCode: 0",
+    ):
+        require_marker(transcript_text, marker, transcript_path)
+
+    template_transcript_path = Path(str(summary.get("template_validation", {}).get("transcript", "")))
+    template_transcript_text = text(template_transcript_path)
+    for marker in ("Found IAssertion hook instance ExactHttpTextBody", "Assertion: ExactHttpTextBody", "Runner completed. ExitCode=0"):
+        require_marker(template_transcript_text, marker, template_transcript_path)
+    live_transcript_path = Path(str(summary.get("live_validation", {}).get("transcript", "")))
+    live_transcript_text = text(live_transcript_path)
+    for marker in (
+        "Found IAssertion hook instance ExactHttpTextBody",
+        "HTTP Get request to http://127.0.0.1:8080/ completed with status 200.",
+        "Running assertion ExactHttpTextBody GetRootBodyMatchesReadme",
+        "Running assertion HttpStatus GetRootReturnedOk",
+        "Runner completed. ExitCode=0",
+    ):
+        require_marker(live_transcript_text, marker, live_transcript_path)
+    if "http://127.0.0.1:8080//" in live_transcript_text:
+        failures.append(f"{repository} live Runner transcript must not include double-slash route: {live_transcript_path}")
+
+
 def selected_supports(selected: dict) -> set[str]:
     return {
         item.get("supports")
@@ -2502,9 +2721,18 @@ def validate_spring_boot(record: dict, manifest: dict, selected: dict, manifest_
         runtime_plan.get("qaas_validation"),
     )
     qaas_claimed = any(passed_validation(field) for field in qaas_fields)
-    if qaas_claimed:
-        failures.append(f"Spring Boot candidate has no adopted live QaaS validator yet and must not claim passed QaaS validation: {manifest_path}")
-    qaas_passed = False
+    qaas_passed = (
+        passed_validation(manifest.get("assertion_build_validation"))
+        and passed_validation(manifest.get("build_validation"))
+        and passed_validation(manifest.get("template_validation"))
+        and passed_validation(manifest.get("live_validation"))
+        and passed_validation(manifest.get("selected_candidate_qaas_validation"))
+        and passed_validation(runtime_plan.get("qaas_validation"))
+    )
+    if qaas_claimed and not qaas_passed:
+        failures.append(f"Spring Boot candidate has partial QaaS validation evidence but has not adopted a complete selected-live pass: {manifest_path}")
+    if qaas_passed:
+        validate_spring_boot_qaas_evidence(manifest, runtime_plan, manifest_path, runtime_plan_path)
 
     require_marker(yaml, "Name: GetRootPayload", runner_path)
     require_marker(yaml, "Path: './request-payloads'", runner_path)
@@ -2737,11 +2965,19 @@ def validate_spring_boot(record: dict, manifest: dict, selected: dict, manifest_
         failures.append(f"Spring Boot runtime cleanup must remain blocked before lifecycle validation: {runtime_plan_path}")
     runtime_blockers = runtime_plan.get("blockers", [])
     required_runtime_blockers = [
-        "run_qaaS_template_validation",
-        "run_live_qaaS_act_assert_validation",
         "run_live_airgapped_weak_model_validation",
         "run_strong_review_against_selected_contract_evidence",
     ]
+    qaas_runtime_blockers = [
+        "run_qaaS_template_validation",
+        "run_live_qaaS_act_assert_validation",
+    ]
+    if qaas_passed:
+        for satisfied_blocker in qaas_runtime_blockers:
+            if satisfied_blocker in runtime_blockers:
+                failures.append(f"Spring Boot runtime plan still contains satisfied blocker {satisfied_blocker}: {runtime_plan_path}")
+    else:
+        required_runtime_blockers.extend(qaas_runtime_blockers)
     lifecycle_runtime_blockers = [
         "select_exact_spring_boot_dependency_version_or_generated_app_build_file",
         "build_application_jar_from_selected_public_dependencies",
@@ -2774,11 +3010,19 @@ def validate_spring_boot(record: dict, manifest: dict, selected: dict, manifest_
     blockers = get_blocker_ids(manifest)
     validate_httpstatus_docs_advisory(manifest, manifest_path, qaas_passed, "Spring Boot")
     required_source_blockers = [
-        "spring-boot-text-body-hook-not-template-validated",
-        "qaas-template-live-not-run",
         "live-airgapped-weak-model-not-passed",
         "spring-boot-broad-runtime-coverage-not-selected",
     ]
+    qaas_source_blockers = [
+        "spring-boot-text-body-hook-not-template-validated",
+        "qaas-template-live-not-run",
+    ]
+    if qaas_passed:
+        for satisfied_blocker in qaas_source_blockers:
+            if satisfied_blocker in blockers:
+                failures.append(f"Spring Boot candidate manifest still contains satisfied blocker {satisfied_blocker}: {manifest_path}")
+    else:
+        required_source_blockers.extend(qaas_source_blockers)
     lifecycle_source_blockers = [
         "spring-boot-dependency-version-not-selected",
         "spring-boot-jar-build-not-proven",
@@ -2799,8 +3043,9 @@ def validate_spring_boot(record: dict, manifest: dict, selected: dict, manifest_
     if not port_gate or port_gate.get("status") != "ready" or not port_gate.get("evidence"):
         failures.append(f"Spring Boot candidate must have ready selected-public-http-port-contract gate: {manifest_path}")
     body_gate = gates.get("plain-text-body-assertion-or-hook")
-    if not body_gate or body_gate.get("status") != "ready" or not body_gate.get("evidence"):
-        failures.append(f"Spring Boot candidate plain-text body assertion hook gate must be ready: {manifest_path}")
+    expected_body_gate_status = "passed" if qaas_passed else "ready"
+    if not body_gate or body_gate.get("status") != expected_body_gate_status or not body_gate.get("evidence"):
+        failures.append(f"Spring Boot candidate plain-text body assertion hook gate must be {expected_body_gate_status}: {manifest_path}")
     dependency_gate = gates.get("java-spring-boot-dependency-resolution")
     if lifecycle_passed:
         if not dependency_gate or dependency_gate.get("status") != "passed" or not dependency_gate.get("evidence"):

@@ -5,7 +5,7 @@ Transcript: D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs
 
 Command: dotnet build D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\ZappaPromotionSeed.Runner.csproj --nologo -clp:ErrorsOnly
 WorkingDirectory: D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner
-Started: 2026-06-08T19:04:16.6554626+03:00
+Started: 2026-06-08T19:39:34.9539811+03:00
 ExitCode: 0
 
 
@@ -13,7 +13,7 @@ Build succeeded.
     4 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:24.73
+Time Elapsed 00:00:02.10
 
 
 ==== build-mocker ====
@@ -23,7 +23,7 @@ Transcript: D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs
 
 Command: dotnet build D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\mocker\ZappaPromotionSeed.Mocker\ZappaPromotionSeed.Mocker.csproj --nologo -clp:ErrorsOnly
 WorkingDirectory: D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\mocker\ZappaPromotionSeed.Mocker
-Started: 2026-06-08T19:04:41.6437470+03:00
+Started: 2026-06-08T19:39:37.2866771+03:00
 ExitCode: 0
 
 
@@ -31,6 +31,6 @@ Build succeeded.
     4 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:03.39
+Time Elapsed 00:00:02.04
 
 
