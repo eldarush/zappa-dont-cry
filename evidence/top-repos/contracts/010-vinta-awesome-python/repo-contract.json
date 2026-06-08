@@ -1,0 +1,50 @@
+{
+  "harvested_at": "2026-06-07T20:43:01.5557528+03:00",
+  "rank": 10,
+  "repository": "vinta/awesome-python",
+  "url": "https://github.com/vinta/awesome-python",
+  "language": "Python",
+  "stars": 301768,
+  "default_branch": "master",
+  "contract_strength": "readme_plus_runtime_hints",
+  "candidate_qaas_surfaces": [
+    "ci-documented-command-discovery",
+    "python-cli-or-service-contract"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\010-vinta-awesome-python\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\010-vinta-awesome-python\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [],
+    "ci": [
+      ".github/workflows/ci.yml",
+      ".github/workflows/deploy-website.yml"
+    ],
+    "containers": [],
+    "dotnet": [],
+    "node": [],
+    "python": [
+      "pyproject.toml"
+    ],
+    "go": [],
+    "java": [],
+    "rust": [],
+    "docs": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "website/readme_parser.py",
+      "website/tests/test_readme_parser.py"
+    ],
+    "tests": [
+      "website/tests/test_build.py",
+      "website/tests/test_fetch_github_stars.py",
+      "website/tests/test_readme_parser.py"
+    ]
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\010-vinta-awesome-python\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\010-vinta-awesome-python\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

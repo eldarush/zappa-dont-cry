@@ -149,6 +149,7 @@ function Add-CompileCheck {
 function Add-HarnessRegressionCheck {
     Invoke-HarnessCommand "harness-regression-tests" { & powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot "checks\Check-HarnessRegressionTests.ps1") -HarnessRoot $harnessRoot -OutDir (Join-Path $runDir "harness-regression") }
     Invoke-HarnessCommand "deno-selected-candidate-regression" { & powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot "checks\Check-DenoSelectedCandidateRegression.ps1") -HarnessRoot $harnessRoot -OutDir (Join-Path $runDir "harness-regression\deno-selected-candidate") }
+    Invoke-HarnessCommand "spring-boot-selected-candidate-regression" { & powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot "checks\Check-SpringBootSelectedCandidateRegression.ps1") -HarnessRoot $harnessRoot -OutDir (Join-Path $runDir "harness-regression\spring-boot-selected-candidate") }
 }
 
 function Add-PromotionCheck {

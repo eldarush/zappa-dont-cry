@@ -1,0 +1,2519 @@
+{
+  "sha": "7902fa1be45296dc3f690c63571b2f8b1f8977b3",
+  "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/7902fa1be45296dc3f690c63571b2f8b1f8977b3",
+  "tree": [
+    {
+      "path": ".claude",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b9a779eaec63d9c3a70ff72d7264efde17ad9063",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/b9a779eaec63d9c3a70ff72d7264efde17ad9063"
+    },
+    {
+      "path": ".claude/launch.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d55376d61c18ee364c1811ee64ed23c37c93e847",
+      "size": 199,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/d55376d61c18ee364c1811ee64ed23c37c93e847"
+    },
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "size": 66,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/dfe0770424b2a19faf507a501ebfc23be8f54e7b"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "31f784f88838bd2611c673c3ab5f75df8ca5bfcf",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/31f784f88838bd2611c673c3ab5f75df8ca5bfcf"
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3c0cede083a18d19d88065699bbe06ec1b577bb",
+      "size": 14,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/f3c0cede083a18d19d88065699bbe06ec1b577bb"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bccfa192feae2078d4914316e38e1f8dfa38878c",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/bccfa192feae2078d4914316e38e1f8dfa38878c"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "386e7e3b00ecc451853ef209a3d9f109b8e01b8b",
+      "size": 416,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/386e7e3b00ecc451853ef209a3d9f109b8e01b8b"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/custom.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48d5f81fa422964dd1eea360efdecfc5dc9a6c87",
+      "size": 126,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/48d5f81fa422964dd1eea360efdecfc5dc9a6c87"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbcbbe7d61558adde3cbfd0c7a63a67c27ed6d30",
+      "size": 595,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/bbcbbe7d61558adde3cbfd0c7a63a67c27ed6d30"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ffc05e59fff7b8fdd4e4316be4f69d94197e8e5",
+      "size": 308,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/9ffc05e59fff7b8fdd4e4316be4f69d94197e8e5"
+    },
+    {
+      "path": ".vscode",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a641f4c300b1f3a1c2e81538646a4b46951615f2",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/a641f4c300b1f3a1c2e81538646a4b46951615f2"
+    },
+    {
+      "path": ".vscode/settings.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfbce465d56022c419d1c889ae417ef0d3cf68e6",
+      "size": 149,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/bfbce465d56022c419d1c889ae417ef0d3cf68e6"
+    },
+    {
+      "path": ".zed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "09b06d5b9332e70bf0e4e1c3cb867d7890124d6b",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/09b06d5b9332e70bf0e4e1c3cb867d7890124d6b"
+    },
+    {
+      "path": ".zed/tasks.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0598be45acd02d43fa57a3fb53b9357a19e1db98",
+      "size": 632,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/0598be45acd02d43fa57a3fb53b9357a19e1db98"
+    },
+    {
+      "path": "AGENTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12d9b468dcdcb19010c30078a5aafcf6572e2fef",
+      "size": 1114,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/12d9b468dcdcb19010c30078a5aafcf6572e2fef"
+    },
+    {
+      "path": "CLAUDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c85fdf73dc2502f1ea5b62ca437efa093c95c253",
+      "size": 1114,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/c85fdf73dc2502f1ea5b62ca437efa093c95c253"
+    },
+    {
+      "path": "Evaluation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e937b78c240a366a1a7e42df779947682a58deb7",
+      "size": 1193,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/e937b78c240a366a1a7e42df779947682a58deb7"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bee961c0b14b5bc4eaece2c07adae0eb45624675",
+      "size": 1065,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/bee961c0b14b5bc4eaece2c07adae0eb45624675"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "beb2af64c5a05ea070679c039901db50ee0fabda",
+      "size": 5591,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/beb2af64c5a05ea070679c039901db50ee0fabda"
+    },
+    {
+      "path": "TESTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3196d539b13c6f5cc8894a44205e239c02e72262",
+      "size": 1793,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/3196d539b13c6f5cc8894a44205e239c02e72262"
+    },
+    {
+      "path": "Troubleshooting.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbb1186cab059f8f3ad5578f322c3412727f6388",
+      "size": 1851,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/dbb1186cab059f8f3ad5578f322c3412727f6388"
+    },
+    {
+      "path": "backend",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0c6683935c61065b3b62174833927d389444f2bd",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/0c6683935c61065b3b62174833927d389444f2bd"
+    },
+    {
+      "path": "backend/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d03006b5c440151b42f9e15fb7e466decd84d78",
+      "size": 2860,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/5d03006b5c440151b42f9e15fb7e466decd84d78"
+    },
+    {
+      "path": "backend/.pre-commit-config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d6dbc6245512f791762f38abafd518fc4c1fc2f",
+      "size": 805,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/6d6dbc6245512f791762f38abafd518fc4c1fc2f"
+    },
+    {
+      "path": "backend/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82c2fbbb46801950a06dd25e284d72dad419f1ca",
+      "size": 475,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/82c2fbbb46801950a06dd25e284d72dad419f1ca"
+    },
+    {
+      "path": "backend/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3ea8830c8c828f22ccc83615b83de05fa22a372",
+      "size": 260,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/e3ea8830c8c828f22ccc83615b83de05fa22a372"
+    },
+    {
+      "path": "backend/agent",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "533e3b60af31757d8ecdb91fefeafbb19bcf4c7f",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/533e3b60af31757d8ecdb91fefeafbb19bcf4c7f"
+    },
+    {
+      "path": "backend/agent/engine.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83ae8be33e6496933af84f663b5b0afc4e0bd47a",
+      "size": 9370,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/83ae8be33e6496933af84f663b5b0afc4e0bd47a"
+    },
+    {
+      "path": "backend/agent/providers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dd7f8a1c17c701bce4440f086ba233456cd635f2",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/dd7f8a1c17c701bce4440f086ba233456cd635f2"
+    },
+    {
+      "path": "backend/agent/providers/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d71f799a9a450353795d73edba8163b1cce2f09",
+      "size": 806,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/8d71f799a9a450353795d73edba8163b1cce2f09"
+    },
+    {
+      "path": "backend/agent/providers/anthropic",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "82bb3f6f10e1fd0071735afa2725d19d8f6543e1",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/82bb3f6f10e1fd0071735afa2725d19d8f6543e1"
+    },
+    {
+      "path": "backend/agent/providers/anthropic/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5d7aab48155dc33bce0187811aa033b57ca09f9",
+      "size": 254,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/a5d7aab48155dc33bce0187811aa033b57ca09f9"
+    },
+    {
+      "path": "backend/agent/providers/anthropic/image.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77c889a36e1764082f6e1ccec95cd7615c9c434f",
+      "size": 3447,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/77c889a36e1764082f6e1ccec95cd7615c9c434f"
+    },
+    {
+      "path": "backend/agent/providers/anthropic/provider.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e393745384c29ae2a6ccf51a1cd887e4d652a64c",
+      "size": 10843,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/e393745384c29ae2a6ccf51a1cd887e4d652a64c"
+    },
+    {
+      "path": "backend/agent/providers/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "604cc50c57b1f1e491703b689f16d6e3ae01e6b7",
+      "size": 1111,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/604cc50c57b1f1e491703b689f16d6e3ae01e6b7"
+    },
+    {
+      "path": "backend/agent/providers/factory.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "915741020f4112cccdf5f5de9214e2258cfd3e19",
+      "size": 2258,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/915741020f4112cccdf5f5de9214e2258cfd3e19"
+    },
+    {
+      "path": "backend/agent/providers/gemini.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9ec1aaa67ebc26570011148fb9281e8899ce3cb",
+      "size": 12437,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/b9ec1aaa67ebc26570011148fb9281e8899ce3cb"
+    },
+    {
+      "path": "backend/agent/providers/openai.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a20613ba38a13d1268c79aa73c1bf56683cafde",
+      "size": 17712,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/9a20613ba38a13d1268c79aa73c1bf56683cafde"
+    },
+    {
+      "path": "backend/agent/providers/pricing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e33ba2265f48302f280c1101c2b211fb36078730",
+      "size": 1519,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/e33ba2265f48302f280c1101c2b211fb36078730"
+    },
+    {
+      "path": "backend/agent/providers/token_usage.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2141a3c4fa320fce767019188ab10afa11e64d54",
+      "size": 2458,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/2141a3c4fa320fce767019188ab10afa11e64d54"
+    },
+    {
+      "path": "backend/agent/providers/types.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85796491d352709634c0ca3d39e75ce2a24397e8",
+      "size": 297,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/85796491d352709634c0ca3d39e75ce2a24397e8"
+    },
+    {
+      "path": "backend/agent/runner.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bd67b26d4c2c5747f4f48ac58a0e9285fee0080",
+      "size": 74,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/0bd67b26d4c2c5747f4f48ac58a0e9285fee0080"
+    },
+    {
+      "path": "backend/agent/state.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b497767c99221670159bbb94284b266ab1cb1f11",
+      "size": 1903,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/b497767c99221670159bbb94284b266ab1cb1f11"
+    },
+    {
+      "path": "backend/agent/tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2d19b518ae51f0e49ce73e66797338a19ee107ca",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/2d19b518ae51f0e49ce73e66797338a19ee107ca"
+    },
+    {
+      "path": "backend/agent/tools/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90aa6d4eb6858076999c6160366928e12ba67f08",
+      "size": 728,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/90aa6d4eb6858076999c6160366928e12ba67f08"
+    },
+    {
+      "path": "backend/agent/tools/definitions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b796aac35df580352c3e4b4ed464980851cba36",
+      "size": 5028,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/1b796aac35df580352c3e4b4ed464980851cba36"
+    },
+    {
+      "path": "backend/agent/tools/parsing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed61865b3f11031da82e7c91f9378de55257cb07",
+      "size": 2826,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/ed61865b3f11031da82e7c91f9378de55257cb07"
+    },
+    {
+      "path": "backend/agent/tools/runtime.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2c2b0dd6c00e9409974178451cbccacd66459ee",
+      "size": 15144,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/b2c2b0dd6c00e9409974178451cbccacd66459ee"
+    },
+    {
+      "path": "backend/agent/tools/summaries.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bee522e669d1cfe3b3a07dc6d1668eabc31f21ad",
+      "size": 2460,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/bee522e669d1cfe3b3a07dc6d1668eabc31f21ad"
+    },
+    {
+      "path": "backend/agent/tools/types.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc0ee7c44662f5023968dc6bbedee21029b6e509",
+      "size": 444,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/fc0ee7c44662f5023968dc6bbedee21029b6e509"
+    },
+    {
+      "path": "backend/codegen",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "406bf11bd6d8253bc87786d5a5a72146b7ac2b9f",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/406bf11bd6d8253bc87786d5a5a72146b7ac2b9f"
+    },
+    {
+      "path": "backend/codegen/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "backend/codegen/test_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd663f81bf82c6f7126046632c428c3f84074d32",
+      "size": 2328,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/cd663f81bf82c6f7126046632c428c3f84074d32"
+    },
+    {
+      "path": "backend/codegen/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae46481fa4116331aef8e2cb0148b8f982987c30",
+      "size": 1048,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/ae46481fa4116331aef8e2cb0148b8f982987c30"
+    },
+    {
+      "path": "backend/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb753b3119677a6894c6e3f30a14157d2f9c9bcf",
+      "size": 810,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/cb753b3119677a6894c6e3f30a14157d2f9c9bcf"
+    },
+    {
+      "path": "backend/custom_types.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "795eb18787fc71d274f2105e350ca190261b845d",
+      "size": 90,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/795eb18787fc71d274f2105e350ca190261b845d"
+    },
+    {
+      "path": "backend/debug",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "24dfc67116a3a03d6f2fe7287d4a5642fee195b4",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/24dfc67116a3a03d6f2fe7287d4a5642fee195b4"
+    },
+    {
+      "path": "backend/debug/DebugFileWriter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbcd77bb572f0d85c316a8ff7a76632643b46c92",
+      "size": 987,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/bbcd77bb572f0d85c316a8ff7a76632643b46c92"
+    },
+    {
+      "path": "backend/debug/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "backend/evals",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f265db34a21124d83b54375f66a4f85cc336485c",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/f265db34a21124d83b54375f66a4f85cc336485c"
+    },
+    {
+      "path": "backend/evals/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "backend/evals/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "617c1cd6c610cc7513532bfefd9a8437403ccfd9",
+      "size": 67,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/617c1cd6c610cc7513532bfefd9a8437403ccfd9"
+    },
+    {
+      "path": "backend/evals/core.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eaba7189d42eddf94ca584994fb406633539958f",
+      "size": 1713,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/eaba7189d42eddf94ca584994fb406633539958f"
+    },
+    {
+      "path": "backend/evals/runner.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40acd8a394ebbbf3e675f4a92814f25d6dcf83cd",
+      "size": 12935,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/40acd8a394ebbbf3e675f4a92814f25d6dcf83cd"
+    },
+    {
+      "path": "backend/evals/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a52f88296894e377e8ea6e8f5fcc1952381db69",
+      "size": 228,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/6a52f88296894e377e8ea6e8f5fcc1952381db69"
+    },
+    {
+      "path": "backend/fs_logging",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b7ee87a9622aa0c15a386d3bc491daa5675e0d7e",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/b7ee87a9622aa0c15a386d3bc491daa5675e0d7e"
+    },
+    {
+      "path": "backend/fs_logging/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "backend/fs_logging/gemini_prompt_report.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e9bdb7935a94533aaf4507e7c47ef9142fc5a9b",
+      "size": 6389,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/4e9bdb7935a94533aaf4507e7c47ef9142fc5a9b"
+    },
+    {
+      "path": "backend/fs_logging/openai_input_compare.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "133c5bac58fbaac983f97d454e31cc03ce246458",
+      "size": 8126,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/133c5bac58fbaac983f97d454e31cc03ce246458"
+    },
+    {
+      "path": "backend/fs_logging/openai_input_formatting.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62aadb33c2fae831590b94739ed75c08dbc57717",
+      "size": 7728,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/62aadb33c2fae831590b94739ed75c08dbc57717"
+    },
+    {
+      "path": "backend/fs_logging/openai_turn_inputs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe497af3ecf2b46cc46e7aaf708c2dbe43b2d8e8",
+      "size": 17004,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/fe497af3ecf2b46cc46e7aaf708c2dbe43b2d8e8"
+    },
+    {
+      "path": "backend/image_generation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "989c0604946ec64312cb0631d6f1c240b44b0007",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/989c0604946ec64312cb0631d6f1c240b44b0007"
+    },
+    {
+      "path": "backend/image_generation/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "backend/image_generation/core.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98b81e7d458708dfee3ef07347eb66ae77123dc7",
+      "size": 216,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/98b81e7d458708dfee3ef07347eb66ae77123dc7"
+    },
+    {
+      "path": "backend/image_generation/generation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1aadb6f017447bce4e6c918bc1919c2c73c81f88",
+      "size": 2639,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/1aadb6f017447bce4e6c918bc1919c2c73c81f88"
+    },
+    {
+      "path": "backend/image_generation/replicate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d21169620b0b9705d51981face8f34296acf2cfb",
+      "size": 5334,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/d21169620b0b9705d51981face8f34296acf2cfb"
+    },
+    {
+      "path": "backend/llm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "318e50b520b2147d359b35b068e6e089a08d0e85",
+      "size": 5646,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/318e50b520b2147d359b35b068e6e089a08d0e85"
+    },
+    {
+      "path": "backend/main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f8109eb1c78aa57aee9121db1e34d7bcd8f12d5",
+      "size": 1045,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/0f8109eb1c78aa57aee9121db1e34d7bcd8f12d5"
+    },
+    {
+      "path": "backend/poetry.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bc1ef87922d1f9fa5bc5623ae6e4a8e9a199b91",
+      "size": 235979,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/9bc1ef87922d1f9fa5bc5623ae6e4a8e9a199b91"
+    },
+    {
+      "path": "backend/prompts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "08eb1ebc34a95e06376993f8f6aa2d2fc013b2a3",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/08eb1ebc34a95e06376993f8f6aa2d2fc013b2a3"
+    },
+    {
+      "path": "backend/prompts/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57f5b7bcbcfd121360a158127b37a2f02cdd9880",
+      "size": 84,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/57f5b7bcbcfd121360a158127b37a2f02cdd9880"
+    },
+    {
+      "path": "backend/prompts/create",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7cbdb2fff7b9e9ff09ddf95917422cf1fbe65e30",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/7cbdb2fff7b9e9ff09ddf95917422cf1fbe65e30"
+    },
+    {
+      "path": "backend/prompts/create/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04fc86a09a2fbbb537ed0b5542e166d05ccdcaf6",
+      "size": 1732,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/04fc86a09a2fbbb537ed0b5542e166d05ccdcaf6"
+    },
+    {
+      "path": "backend/prompts/create/image.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39bfa8863158d41581aca271f2fdd9894953c647",
+      "size": 2335,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/39bfa8863158d41581aca271f2fdd9894953c647"
+    },
+    {
+      "path": "backend/prompts/create/text.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3ff72e04824fcb82a640f654695d8cc79229e8c",
+      "size": 1124,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/d3ff72e04824fcb82a640f654695d8cc79229e8c"
+    },
+    {
+      "path": "backend/prompts/create/video.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "061cb2e910d4795ca741565e9f1a1cae1be4c85c",
+      "size": 2301,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/061cb2e910d4795ca741565e9f1a1cae1be4c85c"
+    },
+    {
+      "path": "backend/prompts/design_system.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3c918c5591d56ba9f895026eb1c16d22c2d49ba",
+      "size": 328,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/d3c918c5591d56ba9f895026eb1c16d22c2d49ba"
+    },
+    {
+      "path": "backend/prompts/message_builder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a786e2cc1bdef01b06719af9c0cd6ea1684ea0a6",
+      "size": 1670,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/a786e2cc1bdef01b06719af9c0cd6ea1684ea0a6"
+    },
+    {
+      "path": "backend/prompts/pipeline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afdc372fa4844d4ae73eea2046aeb313fde83e34",
+      "size": 1699,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/afdc372fa4844d4ae73eea2046aeb313fde83e34"
+    },
+    {
+      "path": "backend/prompts/plan.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f83cb7efb0facb8276233b248276c41e903362b",
+      "size": 1033,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/4f83cb7efb0facb8276233b248276c41e903362b"
+    },
+    {
+      "path": "backend/prompts/policies.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc9486a0b3c4f54c9c096d5cafa38117a2ae73eb",
+      "size": 585,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/bc9486a0b3c4f54c9c096d5cafa38117a2ae73eb"
+    },
+    {
+      "path": "backend/prompts/prompt_types.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08020652a0f70fc25e0f3e8d20120352da1f661b",
+      "size": 972,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/08020652a0f70fc25e0f3e8d20120352da1f661b"
+    },
+    {
+      "path": "backend/prompts/request_parsing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ac7f81a83bda63cc29c517477124479f7650e95",
+      "size": 1637,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/6ac7f81a83bda63cc29c517477124479f7650e95"
+    },
+    {
+      "path": "backend/prompts/system_prompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fa1d9b9488643919863fb519215878a06ec9f5c",
+      "size": 4330,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/0fa1d9b9488643919863fb519215878a06ec9f5c"
+    },
+    {
+      "path": "backend/prompts/update",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ddbbc5d78fdaa069499b4a1b186536ff8eceba8a",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/ddbbc5d78fdaa069499b4a1b186536ff8eceba8a"
+    },
+    {
+      "path": "backend/prompts/update/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f897bebeea2b04ec01c519e351c20b9cb18000e6",
+      "size": 259,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/f897bebeea2b04ec01c519e351c20b9cb18000e6"
+    },
+    {
+      "path": "backend/prompts/update/from_file_snapshot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc79be4025b16dc004af1251b85144e1f47f5f80",
+      "size": 1756,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/cc79be4025b16dc004af1251b85144e1f47f5f80"
+    },
+    {
+      "path": "backend/prompts/update/from_history.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ab6e44442494e88895d2e41e18b13d0962f0ce0",
+      "size": 2193,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/5ab6e44442494e88895d2e41e18b13d0962f0ce0"
+    },
+    {
+      "path": "backend/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a12d859426610ed6476a3c52e0df3a24c9a9917d",
+      "size": 732,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/a12d859426610ed6476a3c52e0df3a24c9a9917d"
+    },
+    {
+      "path": "backend/pyrightconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb6665a1355aa8b6c49a83e4d131a4f7af376d5a",
+      "size": 150,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/bb6665a1355aa8b6c49a83e4d131a4f7af376d5a"
+    },
+    {
+      "path": "backend/pytest.ini",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ef4a8674e5136d9ee512e5cf0ce63627385f9c0",
+      "size": 145,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/5ef4a8674e5136d9ee512e5cf0ce63627385f9c0"
+    },
+    {
+      "path": "backend/routes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "452f7b5f50154b5356cc1d818c36671cb271b8bf",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/452f7b5f50154b5356cc1d818c36671cb271b8bf"
+    },
+    {
+      "path": "backend/routes/design_systems.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cf5bc380b5d30327e2b2888593f3118fcfcd603",
+      "size": 4862,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/3cf5bc380b5d30327e2b2888593f3118fcfcd603"
+    },
+    {
+      "path": "backend/routes/evals.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f5d4a68699925620a14ca144b469d125da01dc5",
+      "size": 17956,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/0f5d4a68699925620a14ca144b469d125da01dc5"
+    },
+    {
+      "path": "backend/routes/export.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8399d221f8ce2278224dfc737e645958cc50e7df",
+      "size": 14300,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/8399d221f8ce2278224dfc737e645958cc50e7df"
+    },
+    {
+      "path": "backend/routes/generate_code.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba9ebfc9724fa3699d7ce952ccf203e1a4d8f27e",
+      "size": 30024,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/ba9ebfc9724fa3699d7ce952ccf203e1a4d8f27e"
+    },
+    {
+      "path": "backend/routes/home.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9f66b4bc3dcfce8f5dfef710b345ac373030839",
+      "size": 324,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/c9f66b4bc3dcfce8f5dfef710b345ac373030839"
+    },
+    {
+      "path": "backend/routes/model_choice_sets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "186b1a347b12dff41d969267609a95d6bd671acf",
+      "size": 1523,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/186b1a347b12dff41d969267609a95d6bd671acf"
+    },
+    {
+      "path": "backend/routes/screenshot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af901ae7ba6e2c8a69626f4e314dafdf6da7b6a2",
+      "size": 3180,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/af901ae7ba6e2c8a69626f4e314dafdf6da7b6a2"
+    },
+    {
+      "path": "backend/run_evals.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d637bea76fd88ed9aeee337bc335e8aca608cc6a",
+      "size": 239,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/d637bea76fd88ed9aeee337bc335e8aca608cc6a"
+    },
+    {
+      "path": "backend/run_image_generation_evals.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a665fdf1fff9dfa5b2d71f5ad867759fce836618",
+      "size": 9155,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/a665fdf1fff9dfa5b2d71f5ad867759fce836618"
+    },
+    {
+      "path": "backend/start.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae847ca1d770acd5ad017f14e69e0bb5743127d3",
+      "size": 1224,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/ae847ca1d770acd5ad017f14e69e0bb5743127d3"
+    },
+    {
+      "path": "backend/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "93900b2e71693baf356bca10cd9547e63f84e04c",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/93900b2e71693baf356bca10cd9547e63f84e04c"
+    },
+    {
+      "path": "backend/tests/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "backend/tests/test_agent_tool_runtime.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "825de1837b2a975e75110aa6d0342cc5aa36d0b7",
+      "size": 3763,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/825de1837b2a975e75110aa6d0342cc5aa36d0b7"
+    },
+    {
+      "path": "backend/tests/test_agent_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c972f57b4b4b8dcf109e59c547b17a959af9c71c",
+      "size": 1683,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/c972f57b4b4b8dcf109e59c547b17a959af9c71c"
+    },
+    {
+      "path": "backend/tests/test_anthropic_provider_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "729c30a9fc09096555522301560accd97f389fc4",
+      "size": 631,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/729c30a9fc09096555522301560accd97f389fc4"
+    },
+    {
+      "path": "backend/tests/test_batching.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "492905e60783c43d5af91efe18eac96703adc9ec",
+      "size": 2203,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/492905e60783c43d5af91efe18eac96703adc9ec"
+    },
+    {
+      "path": "backend/tests/test_codegen_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55ef12f2a88b87fffb126b4f72e0d04251b5cbae",
+      "size": 303,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/55ef12f2a88b87fffb126b4f72e0d04251b5cbae"
+    },
+    {
+      "path": "backend/tests/test_design_systems.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5accc29ae72e0a2b8366e5ec8ebccc327a2e320b",
+      "size": 1285,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/5accc29ae72e0a2b8366e5ec8ebccc327a2e320b"
+    },
+    {
+      "path": "backend/tests/test_evals_openai_input_compare.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "799288f25e092c9a91a3068fdb95a0f89cd08171",
+      "size": 1492,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/799288f25e092c9a91a3068fdb95a0f89cd08171"
+    },
+    {
+      "path": "backend/tests/test_export.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74538b7a9d88503230b65384251b5dd391f65722",
+      "size": 2837,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/74538b7a9d88503230b65384251b5dd391f65722"
+    },
+    {
+      "path": "backend/tests/test_gemini_prompt_report.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e4dd5d4136acfc500c435cc981141546f9be845",
+      "size": 1992,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/8e4dd5d4136acfc500c435cc981141546f9be845"
+    },
+    {
+      "path": "backend/tests/test_image_generation_replicate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "deb165a0ac929be4fb9791e4abb25c36a1058955",
+      "size": 3497,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/deb165a0ac929be4fb9791e4abb25c36a1058955"
+    },
+    {
+      "path": "backend/tests/test_model_selection.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fe6edc86c4e57b1344e9854bafc9c7d7b528a40",
+      "size": 7222,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/9fe6edc86c4e57b1344e9854bafc9c7d7b528a40"
+    },
+    {
+      "path": "backend/tests/test_openai_input_compare.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b9a3537bf996af3e60479faceaec081c5bfd029",
+      "size": 3070,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/6b9a3537bf996af3e60479faceaec081c5bfd029"
+    },
+    {
+      "path": "backend/tests/test_openai_provider_session.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "552da4e3a3d1d596e197d2d87fac59f68bc480ef",
+      "size": 9144,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/552da4e3a3d1d596e197d2d87fac59f68bc480ef"
+    },
+    {
+      "path": "backend/tests/test_openai_reasoning_parser.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "129b61682827099bbd9bda877964d7f7f8dd56cd",
+      "size": 2609,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/129b61682827099bbd9bda877964d7f7f8dd56cd"
+    },
+    {
+      "path": "backend/tests/test_openai_turn_input_logging.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d000eebafa77dab7d5027d6df94ba526baa66bbe",
+      "size": 4616,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/d000eebafa77dab7d5027d6df94ba526baa66bbe"
+    },
+    {
+      "path": "backend/tests/test_parameter_extraction_stage.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "149dfcc5a4f91a6299e7283aaba186e874adef81",
+      "size": 1602,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/149dfcc5a4f91a6299e7283aaba186e874adef81"
+    },
+    {
+      "path": "backend/tests/test_prompt_summary.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ba80586a1e3a8eb6f303bd016b99c1a19f66101",
+      "size": 5132,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/8ba80586a1e3a8eb6f303bd016b99c1a19f66101"
+    },
+    {
+      "path": "backend/tests/test_prompts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c465ed66607f002a3d9c0f1b5d8e08b8d4829c0",
+      "size": 31935,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/6c465ed66607f002a3d9c0f1b5d8e08b8d4829c0"
+    },
+    {
+      "path": "backend/tests/test_request_parsing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08ede3a05060b1fbc569ae870d573563da9bbb74",
+      "size": 2781,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/08ede3a05060b1fbc569ae870d573563da9bbb74"
+    },
+    {
+      "path": "backend/tests/test_screenshot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba144da1fdc4b8cf99b636fe6492011833a32e73",
+      "size": 3004,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/ba144da1fdc4b8cf99b636fe6492011833a32e73"
+    },
+    {
+      "path": "backend/tests/test_start.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2476fe3aadad6e2ca1f39bd7f5c6f86912f1799a",
+      "size": 261,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/2476fe3aadad6e2ca1f39bd7f5c6f86912f1799a"
+    },
+    {
+      "path": "backend/tests/test_status_broadcast.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6036ebdbc6e6d09006506da0dd320b94f361cab2",
+      "size": 3300,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/6036ebdbc6e6d09006506da0dd320b94f361cab2"
+    },
+    {
+      "path": "backend/tests/test_token_usage.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9106f78c87019cc5a2450a1e972ab071e03b8dc",
+      "size": 10917,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/c9106f78c87019cc5a2450a1e972ab071e03b8dc"
+    },
+    {
+      "path": "backend/tests/test_uploaded_assets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d92cdb2a2a6385878a2bcabc8d2ec15285710751",
+      "size": 2667,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/d92cdb2a2a6385878a2bcabc8d2ec15285710751"
+    },
+    {
+      "path": "backend/uploaded_assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "910ec8575052a97c0d29091c8486e650fc4ca162",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/910ec8575052a97c0d29091c8486e650fc4ca162"
+    },
+    {
+      "path": "backend/uploaded_assets/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e08e567bdadfe96684fbcbd06abf8faaabe1df6",
+      "size": 631,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/0e08e567bdadfe96684fbcbd06abf8faaabe1df6"
+    },
+    {
+      "path": "backend/uploaded_assets/prompts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e91d4ee08259dcf05b3686f588c0905b55d8311",
+      "size": 2357,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/2e91d4ee08259dcf05b3686f588c0905b55d8311"
+    },
+    {
+      "path": "backend/uploaded_assets/store.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90d43e078fb2e3267913ce7f02a59ae012932e9a",
+      "size": 6151,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/90d43e078fb2e3267913ce7f02a59ae012932e9a"
+    },
+    {
+      "path": "backend/uploaded_assets/tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42c08005ea9c285ced2b8226cfb8bd7534622403",
+      "size": 3703,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/42c08005ea9c285ced2b8226cfb8bd7534622403"
+    },
+    {
+      "path": "backend/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c89338f31a2187e90ce3d62d36b912b9534e3137",
+      "size": 7000,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/c89338f31a2187e90ce3d62d36b912b9534e3137"
+    },
+    {
+      "path": "backend/video",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "51524c41796c6b9d2cd4abdf62cc271a2dfee3e9",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/51524c41796c6b9d2cd4abdf62cc271a2dfee3e9"
+    },
+    {
+      "path": "backend/video/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c1e55c128942cb6ab77f890cb26cdde67a91032",
+      "size": 167,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/3c1e55c128942cb6ab77f890cb26cdde67a91032"
+    },
+    {
+      "path": "backend/video/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97880f3072d04ed483dd2cd188f2ce3585d65a8e",
+      "size": 812,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/97880f3072d04ed483dd2cd188f2ce3585d65a8e"
+    },
+    {
+      "path": "backend/ws",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f80cff515234443e801e2053493610121f44083b",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/f80cff515234443e801e2053493610121f44083b"
+    },
+    {
+      "path": "backend/ws/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "backend/ws/constants.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e992ecbd19ecb8a5a1837823142fa1431a411528",
+      "size": 129,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/e992ecbd19ecb8a5a1837823142fa1431a411528"
+    },
+    {
+      "path": "blog",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c2d4cfab42c8e4a074280bcdcf72b823d19d25b6",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/c2d4cfab42c8e4a074280bcdcf72b823d19d25b6"
+    },
+    {
+      "path": "blog/evaluating-claude.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "373a343591361852db097a3482566f8a6469ac88",
+      "size": 5101,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/373a343591361852db097a3482566f8a6469ac88"
+    },
+    {
+      "path": "design-docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b9af9a9c07982d47b60f2cf2d927409e1c976485",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/b9af9a9c07982d47b60f2cf2d927409e1c976485"
+    },
+    {
+      "path": "design-docs/agent-tool-calling-flow.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95543a1145f53d047d4041e986c92be2605a4e6e",
+      "size": 5344,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/95543a1145f53d047d4041e986c92be2605a4e6e"
+    },
+    {
+      "path": "design-docs/agentic-runner-refactor.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6683be652cd0786fbf1006a92e53b7175c86e0d7",
+      "size": 2606,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/6683be652cd0786fbf1006a92e53b7175c86e0d7"
+    },
+    {
+      "path": "design-docs/commits-and-variants.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8630f9e1ad648513a3bcab4dd46c16005c989049",
+      "size": 6950,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/8630f9e1ad648513a3bcab4dd46c16005c989049"
+    },
+    {
+      "path": "design-docs/general.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccc5a18ce37a449ed9d940c6f46fe6c068989d0a",
+      "size": 266,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/ccc5a18ce37a449ed9d940c6f46fe6c068989d0a"
+    },
+    {
+      "path": "design-docs/images-in-update-history.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c64309cd9d01a81d380c74c97e6b8dac2fbe4a1",
+      "size": 1138,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/1c64309cd9d01a81d380c74c97e6b8dac2fbe4a1"
+    },
+    {
+      "path": "design-docs/prompt-history-refactor.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d236a1bfea6713dd76400b74bf925fa3ede92e4",
+      "size": 5464,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/7d236a1bfea6713dd76400b74bf925fa3ede92e4"
+    },
+    {
+      "path": "design-docs/variant-system.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "415c5372ef59d18aadfdee8a431adf96ebf5c53e",
+      "size": 2334,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/415c5372ef59d18aadfdee8a431adf96ebf5c53e"
+    },
+    {
+      "path": "docker-compose.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b3bcec78b3dd64201f3131e925799b0a65a7c1c",
+      "size": 609,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/3b3bcec78b3dd64201f3131e925799b0a65a7c1c"
+    },
+    {
+      "path": "frontend",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "128aca6926362ecc9dc29fc484c06766329ecf50",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/128aca6926362ecc9dc29fc484c06766329ecf50"
+    },
+    {
+      "path": "frontend/.env.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c29bfd39c6140f614c411379c7e6a2af9027df0b",
+      "size": 40,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/c29bfd39c6140f614c411379c7e6a2af9027df0b"
+    },
+    {
+      "path": "frontend/.eslintrc.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6c953795300e4256c76542d6bb0fe06f08b5ad6",
+      "size": 436,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/d6c953795300e4256c76542d6bb0fe06f08b5ad6"
+    },
+    {
+      "path": "frontend/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0d37028b215765904780ca09de4388323fa97d9",
+      "size": 305,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/a0d37028b215765904780ca09de4388323fa97d9"
+    },
+    {
+      "path": "frontend/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8579e1751aeba71c7f3f08fedbf307f0e8c56215",
+      "size": 496,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/8579e1751aeba71c7f3f08fedbf307f0e8c56215"
+    },
+    {
+      "path": "frontend/components.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cd599c2c51b2a13252c5cb28ad779bf22e4964c",
+      "size": 324,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/1cd599c2c51b2a13252c5cb28ad779bf22e4964c"
+    },
+    {
+      "path": "frontend/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39cfccc20ffc694dc8ecc659304ff52ce436bb9b",
+      "size": 1809,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/39cfccc20ffc694dc8ecc659304ff52ce436bb9b"
+    },
+    {
+      "path": "frontend/jest.config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "310efb5139d67b792d929256b7048c951cba756f",
+      "size": 187,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/310efb5139d67b792d929256b7048c951cba756f"
+    },
+    {
+      "path": "frontend/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d33a25568b8646942b679a89953419964e14362",
+      "size": 2845,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/2d33a25568b8646942b679a89953419964e14362"
+    },
+    {
+      "path": "frontend/pnpm-lock.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d2f7b1af384f7a2324cebbb6e93168e826322ab",
+      "size": 291281,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/2d2f7b1af384f7a2324cebbb6e93168e826322ab"
+    },
+    {
+      "path": "frontend/postcss.config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e7af2b7f1a6f391da1631d93968a9d487ba977d",
+      "size": 80,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/2e7af2b7f1a6f391da1631d93968a9d487ba977d"
+    },
+    {
+      "path": "frontend/public",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "127b6972332dcbf8c8526ac52d516d02d6e01b85",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/127b6972332dcbf8c8526ac52d516d02d6e01b85"
+    },
+    {
+      "path": "frontend/public/brand",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4a828989f2f03de8561156e3b879edc3ade57462",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/4a828989f2f03de8561156e3b879edc3ade57462"
+    },
+    {
+      "path": "frontend/public/brand/twitter-summary-card.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fcedbffe6a664847eb83990972c3875035721fa",
+      "size": 338201,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/6fcedbffe6a664847eb83990972c3875035721fa"
+    },
+    {
+      "path": "frontend/public/favicon",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ff10a4274d431eaa00eb28aed89da3f64fcd30e8",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/ff10a4274d431eaa00eb28aed89da3f64fcd30e8"
+    },
+    {
+      "path": "frontend/public/favicon/coding.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8102d86c91d0cb4c1118fa14df631349f6a53a3b",
+      "size": 16327,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/8102d86c91d0cb4c1118fa14df631349f6a53a3b"
+    },
+    {
+      "path": "frontend/public/favicon/main.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d86dafe4dd736b4699329201afe350e937d4aff",
+      "size": 16722,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/5d86dafe4dd736b4699329201afe350e937d4aff"
+    },
+    {
+      "path": "frontend/public/legal",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ba465e1c416daa1eadd43164e1f608d41e37b8b6",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/ba465e1c416daa1eadd43164e1f608d41e37b8b6"
+    },
+    {
+      "path": "frontend/public/legal/terms-of-service.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42771ce136a5a992bfc9326d9be8afb4fc56e233",
+      "size": 5355,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/42771ce136a5a992bfc9326d9be8afb4fc56e233"
+    },
+    {
+      "path": "frontend/public/logos",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3775baa0e34a90b55afc3ef706cd89d728904fa9",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/3775baa0e34a90b55afc3ef706cd89d728904fa9"
+    },
+    {
+      "path": "frontend/public/logos/amazon.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e81403942429d790a7de31caf553d01c43ca4fdc",
+      "size": 16965,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/e81403942429d790a7de31caf553d01c43ca4fdc"
+    },
+    {
+      "path": "frontend/public/logos/baidu.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1b9cdfac9f4047c99279e211f46f9aa3dcace51",
+      "size": 65563,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/c1b9cdfac9f4047c99279e211f46f9aa3dcace51"
+    },
+    {
+      "path": "frontend/public/logos/bytedance.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "259f37aff789ef44881c2cf260fa99099f6a0499",
+      "size": 88613,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/259f37aff789ef44881c2cf260fa99099f6a0499"
+    },
+    {
+      "path": "frontend/public/logos/microsoft.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26dd89bdae0f5a91a26083ba208d674f4e0ab213",
+      "size": 21757,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/26dd89bdae0f5a91a26083ba208d674f4e0ab213"
+    },
+    {
+      "path": "frontend/public/logos/mit.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5286ce9d8168aa21abfac0623e2b2a76132d95e",
+      "size": 4786,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/b5286ce9d8168aa21abfac0623e2b2a76132d95e"
+    },
+    {
+      "path": "frontend/public/logos/stanford.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2359ef1bc598d5e4f16b54812f43a8f51ea348b6",
+      "size": 17861,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/2359ef1bc598d5e4f16b54812f43a8f51ea348b6"
+    },
+    {
+      "path": "frontend/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a9fe90e1c1cab27f84463038b8bd0f7c4c432bf0",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/a9fe90e1c1cab27f84463038b8bd0f7c4c432bf0"
+    },
+    {
+      "path": "frontend/src/.env.jest.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59bc657b31d29b6c0a69aa57e7d1408f5a9f95c3",
+      "size": 44,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/59bc657b31d29b6c0a69aa57e7d1408f5a9f95c3"
+    },
+    {
+      "path": "frontend/src/App.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2a60c654d4a31e7f19fe4038ab3cf78880763f5",
+      "size": 30360,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/c2a60c654d4a31e7f19fe4038ab3cf78880763f5"
+    },
+    {
+      "path": "frontend/src/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2430b2b08a5e98e301402170c0a955dbb95ec53d",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/2430b2b08a5e98e301402170c0a955dbb95ec53d"
+    },
+    {
+      "path": "frontend/src/components/ImageLightbox.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01bfed0736a34cfd84e1cc774f8abe103ea5221e",
+      "size": 8577,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/01bfed0736a34cfd84e1cc774f8abe103ea5221e"
+    },
+    {
+      "path": "frontend/src/components/ImageUpload.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8454e6da102ea1e6e41d442a8e909fe40dd0f1f1",
+      "size": 10937,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/8454e6da102ea1e6e41d442a8e909fe40dd0f1f1"
+    },
+    {
+      "path": "frontend/src/components/ImportCodeSection.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5628e958b560d76790d4d533d63de3d9c6f93c13",
+      "size": 1950,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/5628e958b560d76790d4d533d63de3d9c6f93c13"
+    },
+    {
+      "path": "frontend/src/components/TermsOfServiceDialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04eff24ea14f2f634b72d766ed0a490d7538ca8b",
+      "size": 3499,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/04eff24ea14f2f634b72d766ed0a490d7538ca8b"
+    },
+    {
+      "path": "frontend/src/components/UpdateImageUpload.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0201097500ac002a9ba61af7798579018b8c18af",
+      "size": 4540,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/0201097500ac002a9ba61af7798579018b8c18af"
+    },
+    {
+      "path": "frontend/src/components/agent",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e1bd44e53a9531f1d68ccf8f7bfd51d196e43461",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/e1bd44e53a9531f1d68ccf8f7bfd51d196e43461"
+    },
+    {
+      "path": "frontend/src/components/agent/AgentActivity.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5a614089c666d7604a34413f2e907eb68acd4ee",
+      "size": 24242,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/b5a614089c666d7604a34413f2e907eb68acd4ee"
+    },
+    {
+      "path": "frontend/src/components/commits",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1dcb6a9ed1199718e6016f48e96f8095c06fad2c",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/1dcb6a9ed1199718e6016f48e96f8095c06fad2c"
+    },
+    {
+      "path": "frontend/src/components/commits/types.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f95450f84e27d332a3c740e1bd37d5e81fd8be81",
+      "size": 1565,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/f95450f84e27d332a3c740e1bd37d5e81fd8be81"
+    },
+    {
+      "path": "frontend/src/components/commits/utils.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "640f83e9afd73b62295584807067ccd79b6818a2",
+      "size": 675,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/640f83e9afd73b62295584807067ccd79b6818a2"
+    },
+    {
+      "path": "frontend/src/components/core",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ac8c8fc437620bc17d25cbd1e5b7b53f5cf8b953",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/ac8c8fc437620bc17d25cbd1e5b7b53f5cf8b953"
+    },
+    {
+      "path": "frontend/src/components/core/KeyboardShortcutBadge.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0022495a6128ff5bc9b149d0d6a5f9efd9d090f8",
+      "size": 586,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/0022495a6128ff5bc9b149d0d6a5f9efd9d090f8"
+    },
+    {
+      "path": "frontend/src/components/core/Spinner.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae63d2b3ad0c1ab5792eaddca83b681c8b5383d9",
+      "size": 1481,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/ae63d2b3ad0c1ab5792eaddca83b681c8b5383d9"
+    },
+    {
+      "path": "frontend/src/components/core/StackLabel.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02d73e2932ec21aff2552f1f912b10e356a85f4c",
+      "size": 613,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/02d73e2932ec21aff2552f1f912b10e356a85f4c"
+    },
+    {
+      "path": "frontend/src/components/core/WorkingPulse.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea18247ed36c554c8da349ea7b5d19d94370a933",
+      "size": 605,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/ea18247ed36c554c8da349ea7b5d19d94370a933"
+    },
+    {
+      "path": "frontend/src/components/evals",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9c9997980d935516d8db0973309e9164f4d1a930",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/9c9997980d935516d8db0973309e9164f4d1a930"
+    },
+    {
+      "path": "frontend/src/components/evals/AllEvalsPage.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76b8c4dd732c237058e32346c9d22f0fba39d62f",
+      "size": 2789,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/76b8c4dd732c237058e32346c9d22f0fba39d62f"
+    },
+    {
+      "path": "frontend/src/components/evals/BestOfNEvalsPage.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "700c9bba33acf9396d0a357b8300c9def5cec32a",
+      "size": 36011,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/700c9bba33acf9396d0a357b8300c9def5cec32a"
+    },
+    {
+      "path": "frontend/src/components/evals/EvalNavigation.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "060729faf921682a07661670619e5501f2cd33a9",
+      "size": 1452,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/060729faf921682a07661670619e5501f2cd33a9"
+    },
+    {
+      "path": "frontend/src/components/evals/EvalsPage.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9c71b97c12685194b485b88beb5b94c150a3df2",
+      "size": 9180,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/f9c71b97c12685194b485b88beb5b94c150a3df2"
+    },
+    {
+      "path": "frontend/src/components/evals/InputFileSelector.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df1e7e8b1531ed76c4227a4294d701dfc31f6217",
+      "size": 4601,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/df1e7e8b1531ed76c4227a4294d701dfc31f6217"
+    },
+    {
+      "path": "frontend/src/components/evals/OpenAIInputComparePage.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ed7849900cdfc2a34feaa00c4af60a6c58c9277",
+      "size": 10072,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/9ed7849900cdfc2a34feaa00c4af60a6c58c9277"
+    },
+    {
+      "path": "frontend/src/components/evals/PairwiseEvalsPage.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45b63d63e6b32fc42d52126cc07e655ff15a8ea3",
+      "size": 7633,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/45b63d63e6b32fc42d52126cc07e655ff15a8ea3"
+    },
+    {
+      "path": "frontend/src/components/evals/RatingPicker.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adf1d6eb843e548ff8df88a9bd8c2460c8fcb5b7",
+      "size": 737,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/adf1d6eb843e548ff8df88a9bd8c2460c8fcb5b7"
+    },
+    {
+      "path": "frontend/src/components/evals/RunEvalsPage.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41403d36e5a8a05f61595fbe7c6179c6f655318c",
+      "size": 20800,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/41403d36e5a8a05f61595fbe7c6179c6f655318c"
+    },
+    {
+      "path": "frontend/src/components/generate-from-text",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ceac6f483b31fda1613d8c8e2126c5c132ef6fdc",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/ceac6f483b31fda1613d8c8e2126c5c132ef6fdc"
+    },
+    {
+      "path": "frontend/src/components/generate-from-text/GenerateFromText.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d0bd914923e0bb1287c5689bb4698bc2fd06c04",
+      "size": 2057,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/8d0bd914923e0bb1287c5689bb4698bc2fd06c04"
+    },
+    {
+      "path": "frontend/src/components/history",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f8a06fc4cdd8d2c36b6047b023a3fe7cfccff5c6",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/f8a06fc4cdd8d2c36b6047b023a3fe7cfccff5c6"
+    },
+    {
+      "path": "frontend/src/components/history/HistoryDisplay.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77df3e7332136ff9a0623f0c0d6dbb1349f42b34",
+      "size": 8908,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/77df3e7332136ff9a0623f0c0d6dbb1349f42b34"
+    },
+    {
+      "path": "frontend/src/components/history/utils.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f7229bc5f4bc10f9df39fe021646fdafabb214a",
+      "size": 4388,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/2f7229bc5f4bc10f9df39fe021646fdafabb214a"
+    },
+    {
+      "path": "frontend/src/components/history/utils.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67c2217119e4a7369b3720f48700486c80b502e6",
+      "size": 2801,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/67c2217119e4a7369b3720f48700486c80b502e6"
+    },
+    {
+      "path": "frontend/src/components/messages",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "574b2064be2d3d32a91422acb0ae76b1aff69424",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/574b2064be2d3d32a91422acb0ae76b1aff69424"
+    },
+    {
+      "path": "frontend/src/components/messages/OnboardingNote.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acf919f26fd11254d17313b0223afc787085c6f5",
+      "size": 936,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/acf919f26fd11254d17313b0223afc787085c6f5"
+    },
+    {
+      "path": "frontend/src/components/messages/TipLink.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b54f83ce2188c3b3cc1e9db9cc7659abe41b8889",
+      "size": 279,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/b54f83ce2188c3b3cc1e9db9cc7659abe41b8889"
+    },
+    {
+      "path": "frontend/src/components/preview",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f3a78cf0d9d22da2fc38dd0d444d78febad547ac",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/f3a78cf0d9d22da2fc38dd0d444d78febad547ac"
+    },
+    {
+      "path": "frontend/src/components/preview/CodeMirror.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1dba0ebb213008bbaa025779d813dac76c2b6a9",
+      "size": 2193,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/c1dba0ebb213008bbaa025779d813dac76c2b6a9"
+    },
+    {
+      "path": "frontend/src/components/preview/CodePreview.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f89ca97622b35b9dd2e56ba4b707b383026b50a",
+      "size": 545,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/4f89ca97622b35b9dd2e56ba4b707b383026b50a"
+    },
+    {
+      "path": "frontend/src/components/preview/CodeTab.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ae50410ff12da3f8e8ec6a069676acdfa905541",
+      "size": 2987,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/5ae50410ff12da3f8e8ec6a069676acdfa905541"
+    },
+    {
+      "path": "frontend/src/components/preview/PreviewComponent.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8be4560c734f3cae87410757631bfe364d19b9e2",
+      "size": 5666,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/8be4560c734f3cae87410757631bfe364d19b9e2"
+    },
+    {
+      "path": "frontend/src/components/preview/PreviewPane.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb17437d59b4adbd16c9e64f950d315d3906130e",
+      "size": 9543,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/eb17437d59b4adbd16c9e64f950d315d3906130e"
+    },
+    {
+      "path": "frontend/src/components/preview/download.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d87edd90e51504c231c6d8e4531657b9b62c919",
+      "size": 1291,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/3d87edd90e51504c231c6d8e4531657b9b62c919"
+    },
+    {
+      "path": "frontend/src/components/preview/extractHtml.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2090caf77e7c9db3ac1964deed204ae184a583e",
+      "size": 836,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/b2090caf77e7c9db3ac1964deed204ae184a583e"
+    },
+    {
+      "path": "frontend/src/components/preview/simpleHash.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fbd17e6c3d09d91a372c5f70eea5491c1beb721",
+      "size": 251,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/0fbd17e6c3d09d91a372c5f70eea5491c1beb721"
+    },
+    {
+      "path": "frontend/src/components/recording",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "323d329a76567632dc6804c452ed1a71807a0192",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/323d329a76567632dc6804c452ed1a71807a0192"
+    },
+    {
+      "path": "frontend/src/components/recording/ScreenRecorder.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34f3c3a16f9a8eb9184116a8aba8d70a914e5e65",
+      "size": 5030,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/34f3c3a16f9a8eb9184116a8aba8d70a914e5e65"
+    },
+    {
+      "path": "frontend/src/components/recording/utils.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b482ecfc1f62fd33c7340a92a47f5d5765f73750",
+      "size": 895,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/b482ecfc1f62fd33c7340a92a47f5d5765f73750"
+    },
+    {
+      "path": "frontend/src/components/select-and-edit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "11181f5cc02d5c880521ea0d0282de48c20a1070",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/11181f5cc02d5c880521ea0d0282de48c20a1070"
+    },
+    {
+      "path": "frontend/src/components/select-and-edit/utils.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47e62bc23cdfde14f08e0c9e0bdd2b9302fc472a",
+      "size": 311,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/47e62bc23cdfde14f08e0c9e0bdd2b9302fc472a"
+    },
+    {
+      "path": "frontend/src/components/settings",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f2f6edb6085cbcbf3952848b9ea789af73f61fcf",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/f2f6edb6085cbcbf3952848b9ea789af73f61fcf"
+    },
+    {
+      "path": "frontend/src/components/settings/DesignSystemSelector.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34e0deaac5f3ea175b4e2c96adcc4d476f5b6fa6",
+      "size": 4461,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/34e0deaac5f3ea175b4e2c96adcc4d476f5b6fa6"
+    },
+    {
+      "path": "frontend/src/components/settings/DesignSystemsManager.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2ada647e7c3d937a8479f35ddacfd0b61b7c9c5",
+      "size": 8660,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/f2ada647e7c3d937a8479f35ddacfd0b61b7c9c5"
+    },
+    {
+      "path": "frontend/src/components/settings/DesignSystemsModal.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a74d899db77688627f30e55ca7d1dc503364ae3",
+      "size": 1804,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/4a74d899db77688627f30e55ca7d1dc503364ae3"
+    },
+    {
+      "path": "frontend/src/components/settings/GenerationSettings.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "958e83581ba1be66c6fd1d134fe134a1bc0b5088",
+      "size": 1736,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/958e83581ba1be66c6fd1d134fe134a1bc0b5088"
+    },
+    {
+      "path": "frontend/src/components/settings/OutputSettingsSection.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "001df3452a40da9ac2b42bd95fe29229ce98430d",
+      "size": 1747,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/001df3452a40da9ac2b42bd95fe29229ce98430d"
+    },
+    {
+      "path": "frontend/src/components/settings/SettingsTab.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e936359858aa5d85a16aefda46896d1e99340e6",
+      "size": 10659,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/7e936359858aa5d85a16aefda46896d1e99340e6"
+    },
+    {
+      "path": "frontend/src/components/sidebar",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "38010f773f9dcbd694628bbaae93192818703160",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/38010f773f9dcbd694628bbaae93192818703160"
+    },
+    {
+      "path": "frontend/src/components/sidebar/IconStrip.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e502f8b83ef6b11f0ec929d0a73a4607ec7df3ba",
+      "size": 3741,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/e502f8b83ef6b11f0ec929d0a73a4607ec7df3ba"
+    },
+    {
+      "path": "frontend/src/components/sidebar/Sidebar.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85391be7632da2a5a4c6c2b8d152285f66476380",
+      "size": 25249,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/85391be7632da2a5a4c6c2b8d152285f66476380"
+    },
+    {
+      "path": "frontend/src/components/start-pane",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "495abe3fc05823ba9919d42ad8b667916da5912b",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/495abe3fc05823ba9919d42ad8b667916da5912b"
+    },
+    {
+      "path": "frontend/src/components/start-pane/StartPane.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36c831b51e451f29e9ccb9bde0b41b41fc528854",
+      "size": 1275,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/36c831b51e451f29e9ccb9bde0b41b41fc528854"
+    },
+    {
+      "path": "frontend/src/components/thinking",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4d4bc84ee334d75c0428416a4b92ef661cc10d90",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/4d4bc84ee334d75c0428416a4b92ef661cc10d90"
+    },
+    {
+      "path": "frontend/src/components/thinking/ThinkingIndicator.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f384058f458f53b245b5560a035a23778ef6209",
+      "size": 5386,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/4f384058f458f53b245b5560a035a23778ef6209"
+    },
+    {
+      "path": "frontend/src/components/ui",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e02c3c22a5092b6b20290067fc5f57d8a6398f67",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/e02c3c22a5092b6b20290067fc5f57d8a6398f67"
+    },
+    {
+      "path": "frontend/src/components/ui/accordion.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e84c3244e01032b100e3743c24228e3425d8b93",
+      "size": 2008,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/7e84c3244e01032b100e3743c24228e3425d8b93"
+    },
+    {
+      "path": "frontend/src/components/ui/alert-dialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc49f3960263041f74bf9d993f1690fe9bebccce",
+      "size": 4441,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/cc49f3960263041f74bf9d993f1690fe9bebccce"
+    },
+    {
+      "path": "frontend/src/components/ui/badge.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e87d62bf1a2b2a0e1cf0b0dc94c2836525f40b67",
+      "size": 1140,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/e87d62bf1a2b2a0e1cf0b0dc94c2836525f40b67"
+    },
+    {
+      "path": "frontend/src/components/ui/button.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e55451a87cb975dee42cee0bb5453be26da3f35f",
+      "size": 1924,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/e55451a87cb975dee42cee0bb5453be26da3f35f"
+    },
+    {
+      "path": "frontend/src/components/ui/checkbox.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8315322d49605c5e24c535430d3439eeb36c153",
+      "size": 1029,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/f8315322d49605c5e24c535430d3439eeb36c153"
+    },
+    {
+      "path": "frontend/src/components/ui/collapsible.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a23e7a281287e18b1c332498491b6bcc8d8e2b70",
+      "size": 315,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/a23e7a281287e18b1c332498491b6bcc8d8e2b70"
+    },
+    {
+      "path": "frontend/src/components/ui/dialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "776ca6835d45d9769da4ab5665e4d1385bf0d45c",
+      "size": 3883,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/776ca6835d45d9769da4ab5665e4d1385bf0d45c"
+    },
+    {
+      "path": "frontend/src/components/ui/hover-card.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "863ff0148f0bb239b93c44a93baf14073cd3ae23",
+      "size": 1184,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/863ff0148f0bb239b93c44a93baf14073cd3ae23"
+    },
+    {
+      "path": "frontend/src/components/ui/input.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a92b8e0e58e275294b4cbd8c0b154fd11b016c7a",
+      "size": 801,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/a92b8e0e58e275294b4cbd8c0b154fd11b016c7a"
+    },
+    {
+      "path": "frontend/src/components/ui/label.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "683faa793819982d64e21cb2939666fd6d4a7b13",
+      "size": 710,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/683faa793819982d64e21cb2939666fd6d4a7b13"
+    },
+    {
+      "path": "frontend/src/components/ui/popover.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbba7e0ebf26c29526552f2dc4e8e3ecea3d641a",
+      "size": 1230,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/bbba7e0ebf26c29526552f2dc4e8e3ecea3d641a"
+    },
+    {
+      "path": "frontend/src/components/ui/progress.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fd47adade4994bd58507f4417586240c0ae537e",
+      "size": 778,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/3fd47adade4994bd58507f4417586240c0ae537e"
+    },
+    {
+      "path": "frontend/src/components/ui/scroll-area.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf253cf17056ce04827219643e484ea99c77cf6b",
+      "size": 1642,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/cf253cf17056ce04827219643e484ea99c77cf6b"
+    },
+    {
+      "path": "frontend/src/components/ui/select.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "497710a8ccf6e6abcd2c892881e499bf15e887ba",
+      "size": 6178,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/497710a8ccf6e6abcd2c892881e499bf15e887ba"
+    },
+    {
+      "path": "frontend/src/components/ui/separator.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d7f12265ba0338704f013930ce4d52c56527dd1",
+      "size": 756,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/6d7f12265ba0338704f013930ce4d52c56527dd1"
+    },
+    {
+      "path": "frontend/src/components/ui/switch.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f15014bd47e06955d35a6da845df5ed7cf6e2bfe",
+      "size": 1154,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/f15014bd47e06955d35a6da845df5ed7cf6e2bfe"
+    },
+    {
+      "path": "frontend/src/components/ui/tabs.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85d83beab3224580318b1dd85f93e9294fae32c0",
+      "size": 1877,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/85d83beab3224580318b1dd85f93e9294fae32c0"
+    },
+    {
+      "path": "frontend/src/components/ui/textarea.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1258e47a43f352d18665f3f677b1ac89cb5fcd1",
+      "size": 732,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/d1258e47a43f352d18665f3f677b1ac89cb5fcd1"
+    },
+    {
+      "path": "frontend/src/components/unified-input",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "156164d1dce2f78044d378cd571a0a964be43282",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/156164d1dce2f78044d378cd571a0a964be43282"
+    },
+    {
+      "path": "frontend/src/components/unified-input/UnifiedInputPane.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "203ea29003800a817315cfaadd020b833de75ef0",
+      "size": 5791,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/203ea29003800a817315cfaadd020b833de75ef0"
+    },
+    {
+      "path": "frontend/src/components/unified-input/tabs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b7db40219bb7574fef828ac5b90a362461226e62",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/b7db40219bb7574fef828ac5b90a362461226e62"
+    },
+    {
+      "path": "frontend/src/components/unified-input/tabs/ImportTab.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed3dabeb1772678e036ccd9a5dc902237d4240be",
+      "size": 4324,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/ed3dabeb1772678e036ccd9a5dc902237d4240be"
+    },
+    {
+      "path": "frontend/src/components/unified-input/tabs/TextTab.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c7c249f3715abf3bae22f132373312b2ea6941d",
+      "size": 4636,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/1c7c249f3715abf3bae22f132373312b2ea6941d"
+    },
+    {
+      "path": "frontend/src/components/unified-input/tabs/UploadTab.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c848908ee1362303e4d0597caeb63f3b3a3ff8a",
+      "size": 19479,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/3c848908ee1362303e4d0597caeb63f3b3a3ff8a"
+    },
+    {
+      "path": "frontend/src/components/unified-input/tabs/UrlTab.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dde3117123243a817a84658efa59a50d51b28f3e",
+      "size": 6108,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/dde3117123243a817a84658efa59a50d51b28f3e"
+    },
+    {
+      "path": "frontend/src/components/variants",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "591e2f91f808b097aa1f9323c6c10c8cdc977a37",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/591e2f91f808b097aa1f9323c6c10c8cdc977a37"
+    },
+    {
+      "path": "frontend/src/components/variants/Variants.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a5ebc5b06832c6289852948853c4ed28aab6633",
+      "size": 5446,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/5a5ebc5b06832c6289852948853c4ed28aab6633"
+    },
+    {
+      "path": "frontend/src/config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f0de2febd0e507b69914d273c36df06360e680d",
+      "size": 451,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/4f0de2febd0e507b69914d273c36df06360e680d"
+    },
+    {
+      "path": "frontend/src/constants.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cc9373a2b0bb876a67768124f41b29405f5ad6f",
+      "size": 193,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/1cc9373a2b0bb876a67768124f41b29405f5ad6f"
+    },
+    {
+      "path": "frontend/src/generateCode.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50033fd1f451cb5143b2464ce2338810ade3c0c9",
+      "size": 4543,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/50033fd1f451cb5143b2464ce2338810ade3c0c9"
+    },
+    {
+      "path": "frontend/src/hooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "49986ed8946944d2c6b2aa4d2fa3a57a81783a33",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/49986ed8946944d2c6b2aa4d2fa3a57a81783a33"
+    },
+    {
+      "path": "frontend/src/hooks/useBrowserTabIndicator.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c04e6474b7d3293fc06be7299d536d0278ce13aa",
+      "size": 2831,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/c04e6474b7d3293fc06be7299d536d0278ce13aa"
+    },
+    {
+      "path": "frontend/src/hooks/useDesignSystems.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b27dfa6201de3a31b28d08b010384a81dcefed83",
+      "size": 1959,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/b27dfa6201de3a31b28d08b010384a81dcefed83"
+    },
+    {
+      "path": "frontend/src/hooks/usePersistedState.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1524ad770da25aa740c90082ee288e36c61e421b",
+      "size": 544,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/1524ad770da25aa740c90082ee288e36c61e421b"
+    },
+    {
+      "path": "frontend/src/hooks/useThrottle.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e5352d94d961466039813adb5ce743b1b3525c0",
+      "size": 939,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/5e5352d94d961466039813adb5ce743b1b3525c0"
+    },
+    {
+      "path": "frontend/src/index.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dacc6a6c257bf02784a818fa8c219e35b42bf6c",
+      "size": 4185,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/6dacc6a6c257bf02784a818fa8c219e35b42bf6c"
+    },
+    {
+      "path": "frontend/src/lib",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "188eed35de0d56f50d9ba5febfd753b017ea6f0c",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/188eed35de0d56f50d9ba5febfd753b017ea6f0c"
+    },
+    {
+      "path": "frontend/src/lib/design-systems.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2ede443655d5c5cfb89420c1e3e08976af90101",
+      "size": 3289,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/d2ede443655d5c5cfb89420c1e3e08976af90101"
+    },
+    {
+      "path": "frontend/src/lib/models.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fa690eb3591cf64eb4e0d090a9c8e400cce0164",
+      "size": 3792,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/5fa690eb3591cf64eb4e0d090a9c8e400cce0164"
+    },
+    {
+      "path": "frontend/src/lib/prompt-history.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e279191559842a77444fbf7f4d57e53260d36712",
+      "size": 3436,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/e279191559842a77444fbf7f4d57e53260d36712"
+    },
+    {
+      "path": "frontend/src/lib/prompt-history.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cf7cdc5b1bceec63c36a0ccf33d99838ae41582",
+      "size": 2639,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/9cf7cdc5b1bceec63c36a0ccf33d99838ae41582"
+    },
+    {
+      "path": "frontend/src/lib/stacks.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d87326daf635d8851599e928e5c2fbc5d360514d",
+      "size": 812,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/d87326daf635d8851599e928e5c2fbc5d360514d"
+    },
+    {
+      "path": "frontend/src/lib/takeScreenshot.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6559ac5c279ddbf9a54bfeb850544269d214fff8",
+      "size": 413,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/6559ac5c279ddbf9a54bfeb850544269d214fff8"
+    },
+    {
+      "path": "frontend/src/lib/utils.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "deaefb5748da2ac64b15cdb35a3d6603cd813e64",
+      "size": 267,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/deaefb5748da2ac64b15cdb35a3d6603cd813e64"
+    },
+    {
+      "path": "frontend/src/main.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1f7da899e6bb0284b1ec549357cca6384c512fc",
+      "size": 1391,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/f1f7da899e6bb0284b1ec549357cca6384c512fc"
+    },
+    {
+      "path": "frontend/src/setupTests.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1ea596ac4d56a17fdb3112c1677f0142f17afd3",
+      "size": 120,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/b1ea596ac4d56a17fdb3112c1677f0142f17afd3"
+    },
+    {
+      "path": "frontend/src/store",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3bb3d8e238c2d0e8f7ed00888715ab6e87784585",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/3bb3d8e238c2d0e8f7ed00888715ab6e87784585"
+    },
+    {
+      "path": "frontend/src/store/app-store.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5c1018bac79e17e8a1c340109cd67112b21b0ec",
+      "size": 1462,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/a5c1018bac79e17e8a1c340109cd67112b21b0ec"
+    },
+    {
+      "path": "frontend/src/store/project-store.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a4aa9e0a771942331e1d05518e95b2468647418",
+      "size": 14211,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/3a4aa9e0a771942331e1d05518e95b2468647418"
+    },
+    {
+      "path": "frontend/src/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "445b384145adbd3c0ecc2cba66405d3ef399cd1a",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/445b384145adbd3c0ecc2cba66405d3ef399cd1a"
+    },
+    {
+      "path": "frontend/src/tests/fixtures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6ad2afbc0232cfdffac60cc9d3e4e5670fac89ee",
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/trees/6ad2afbc0232cfdffac60cc9d3e4e5670fac89ee"
+    },
+    {
+      "path": "frontend/src/tests/fixtures/simple_button.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4f776bdb2c94ee0278bda3d0cf8cd8a06bbc6e4",
+      "size": 22092,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/e4f776bdb2c94ee0278bda3d0cf8cd8a06bbc6e4"
+    },
+    {
+      "path": "frontend/src/tests/fixtures/simple_page.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70192bfc2c3f4822f720c6b709d285eba5d9f0bd",
+      "size": 470,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/70192bfc2c3f4822f720c6b709d285eba5d9f0bd"
+    },
+    {
+      "path": "frontend/src/tests/fixtures/simple_ui_with_image.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7533f850ad7358af9f6a1db78b67bc85a95d69a3",
+      "size": 35542,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/7533f850ad7358af9f6a1db78b67bc85a95d69a3"
+    },
+    {
+      "path": "frontend/src/tests/qa.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbecee7213b4159aee9cad6afc240e47a32cec0c",
+      "size": 15131,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/cbecee7213b4159aee9cad6afc240e47a32cec0c"
+    },
+    {
+      "path": "frontend/src/types.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c715ba0420f8ae92e5985c57ac0741a539b73b6",
+      "size": 1963,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/1c715ba0420f8ae92e5985c57ac0741a539b73b6"
+    },
+    {
+      "path": "frontend/src/urls.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ee7578d2b2c73b410a6921263a10caa7cedbfa4",
+      "size": 159,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/1ee7578d2b2c73b410a6921263a10caa7cedbfa4"
+    },
+    {
+      "path": "frontend/src/vite-env.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11f02fe2a0061d6e6e1f271b21da95423b448b32",
+      "size": 38,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/11f02fe2a0061d6e6e1f271b21da95423b448b32"
+    },
+    {
+      "path": "frontend/tailwind.config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "208238795dd341adddd1bc5a4715ec1f7a75fb86",
+      "size": 2184,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/208238795dd341adddd1bc5a4715ec1f7a75fb86"
+    },
+    {
+      "path": "frontend/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a83aa7044cc79e1374c4f50b1efafb9ed5271cd",
+      "size": 673,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/4a83aa7044cc79e1374c4f50b1efafb9ed5271cd"
+    },
+    {
+      "path": "frontend/tsconfig.node.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42872c59f5b01c9155864572bc2fbd5833a7406c",
+      "size": 213,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/42872c59f5b01c9155864572bc2fbd5833a7406c"
+    },
+    {
+      "path": "frontend/vite.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3ad856c6013edf857ef974ca80e12c7f53f580b",
+      "size": 857,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/c3ad856c6013edf857ef974ca80e12c7f53f580b"
+    },
+    {
+      "path": "frontend/yarn.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00f8e49877a360e25922258e6a6be1940aef710c",
+      "size": 262882,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/00f8e49877a360e25922258e6a6be1940aef710c"
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "889a52a7915db501aba9b7f6451359c581d928ee",
+      "size": 425180,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/889a52a7915db501aba9b7f6451359c581d928ee"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "729377f8683c74175fa9d20fc2dd9be48d55933a",
+      "size": 332,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/729377f8683c74175fa9d20fc2dd9be48d55933a"
+    },
+    {
+      "path": "plan.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38942ad2323d86cfb437c5d55755ca451773ff42",
+      "size": 5056,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/38942ad2323d86cfb437c5d55755ca451773ff42"
+    },
+    {
+      "path": "yarn.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ea3144bc497feb12c7dd2e844e28b732ac291de",
+      "size": 266417,
+      "url": "https://api.github.com/repos/abi/screenshot-to-code/git/blobs/0ea3144bc497feb12c7dd2e844e28b732ac291de"
+    }
+  ],
+  "truncated": false
+}

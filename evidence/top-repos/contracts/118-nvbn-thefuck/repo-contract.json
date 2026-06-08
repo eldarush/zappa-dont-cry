@@ -1,0 +1,101 @@
+{
+  "harvested_at": "2026-06-07T20:47:42.7568834+03:00",
+  "rank": 118,
+  "repository": "nvbn/thefuck",
+  "url": "https://github.com/nvbn/thefuck",
+  "language": "Python",
+  "stars": 97280,
+  "default_branch": "master",
+  "contract_strength": "readme_plus_runtime_hints",
+  "candidate_qaas_surfaces": [
+    "containerized-runtime-smoke",
+    "ci-documented-command-discovery",
+    "python-cli-or-service-contract"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\118-nvbn-thefuck\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\118-nvbn-thefuck\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [],
+    "ci": [
+      ".github/workflows/test.yml"
+    ],
+    "containers": [
+      ".devcontainer/Dockerfile",
+      "tests/Dockerfile"
+    ],
+    "dotnet": [],
+    "node": [],
+    "python": [
+      "requirements.txt",
+      "setup.py",
+      "tox.ini"
+    ],
+    "go": [],
+    "java": [],
+    "rust": [],
+    "docs": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "tests/test_readme.py"
+    ],
+    "tests": [
+      "tests/Dockerfile",
+      "tests/__init__.py",
+      "tests/conftest.py",
+      "tests/entrypoints/__init__.py",
+      "tests/entrypoints/test_alias.py",
+      "tests/entrypoints/test_fix_command.py",
+      "tests/entrypoints/test_not_configured.py",
+      "tests/functional/__init__.py",
+      "tests/functional/conftest.py",
+      "tests/functional/plots.py",
+      "tests/functional/test_bash.py",
+      "tests/functional/test_fish.py",
+      "tests/functional/test_tcsh.py",
+      "tests/functional/test_zsh.py",
+      "tests/output_readers/test_rerun.py",
+      "tests/rules/__init__.py",
+      "tests/rules/test_adb_unknown_command.py",
+      "tests/rules/test_ag_literal.py",
+      "tests/rules/test_apt_get.py",
+      "tests/rules/test_apt_get_search.py",
+      "tests/rules/test_apt_invalid_operation.py",
+      "tests/rules/test_apt_list_upgradable.py",
+      "tests/rules/test_apt_upgrade.py",
+      "tests/rules/test_aws_cli.py",
+      "tests/rules/test_az_cli.py",
+      "tests/rules/test_brew_cask_dependency.py",
+      "tests/rules/test_brew_install.py",
+      "tests/rules/test_brew_link.py",
+      "tests/rules/test_brew_reinstall.py",
+      "tests/rules/test_brew_uninstall.py",
+      "tests/rules/test_brew_unknown_command.py",
+      "tests/rules/test_brew_update_formula.py",
+      "tests/rules/test_cargo_no_command.py",
+      "tests/rules/test_cat_dir.py",
+      "tests/rules/test_cd_correction.py",
+      "tests/rules/test_cd_cs.py",
+      "tests/rules/test_cd_mkdir.py",
+      "tests/rules/test_cd_parent.py",
+      "tests/rules/test_chmod_x.py",
+      "tests/rules/test_choco_install.py",
+      "tests/rules/test_composer_not_command.py",
+      "tests/rules/test_conda_mistype.py",
+      "tests/rules/test_cp_create_destination.py",
+      "tests/rules/test_cp_omitting_directory.py",
+      "tests/rules/test_dirty_untar.py",
+      "tests/rules/test_dirty_unzip.py",
+      "tests/rules/test_django_south_ghost.py",
+      "tests/rules/test_django_south_merge.py",
+      "tests/rules/test_dnf_no_such_command.py",
+      "tests/rules/test_docker_image_being_used_by_container.py"
+    ]
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\118-nvbn-thefuck\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\118-nvbn-thefuck\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

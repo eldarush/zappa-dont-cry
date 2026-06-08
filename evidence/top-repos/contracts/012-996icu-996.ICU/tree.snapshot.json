@@ -1,0 +1,2881 @@
+{
+  "sha": "f5e35f48d769bf92ed885888bfe911d3e5b5a63d",
+  "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/f5e35f48d769bf92ed885888bfe911d3e5b5a63d",
+  "tree": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19be5aba0e041ace1186f88be783ed92dc4a797a",
+      "size": 28,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/19be5aba0e041ace1186f88be783ed92dc4a797a"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e85095f350b7e668f4799c871fc91f0b289c7467",
+      "size": 146,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/e85095f350b7e668f4799c871fc91f0b289c7467"
+    },
+    {
+      "path": "ANTI-996 DAY.MD",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a2d777a497394325d691c3c0ad058a1dc64f14b",
+      "size": 941,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/8a2d777a497394325d691c3c0ad058a1dc64f14b"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3216b6868ce2b6e03107d2fc0f8206df63f631a4",
+      "size": 2600,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/3216b6868ce2b6e03107d2fc0f8206df63f631a4"
+    },
+    {
+      "path": "LICENSE_CN",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2155e4297f1245c83c4502c80ad498cd18f4a952",
+      "size": 2023,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/2155e4297f1245c83c4502c80ad498cd18f4a952"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3375c459ce6883cdc24c49ebb2ac29fe19b619b2",
+      "size": 6897,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/3375c459ce6883cdc24c49ebb2ac29fe19b619b2"
+    },
+    {
+      "path": "README_CN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3129235b528e13220884652905a30278cf097b32",
+      "size": 8672,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/3129235b528e13220884652905a30278cf097b32"
+    },
+    {
+      "path": "archived",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "54693870e1bac94e4bb28650b204321fc00ef221",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/54693870e1bac94e4bb28650b204321fc00ef221"
+    },
+    {
+      "path": "archived/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a641cc82ae6ab4a95fe522a30f2ff8c3df076f5b",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/a641cc82ae6ab4a95fe522a30f2ff8c3df076f5b"
+    },
+    {
+      "path": "archived/assets/ai",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "72f1d7462bda881c8eec8dcf1c586db71c928c4d",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/72f1d7462bda881c8eec8dcf1c586db71c928c4d"
+    },
+    {
+      "path": "archived/assets/ai/996.ICU.ai",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "913b20d847fc4eed3adf498f27c9ecd16a0bb295",
+      "size": 696497,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/913b20d847fc4eed3adf498f27c9ecd16a0bb295"
+    },
+    {
+      "path": "archived/assets/ai/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e59e4f04326bcb5109a0b04b499ea07673ddbd79",
+      "size": 155,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/e59e4f04326bcb5109a0b04b499ea07673ddbd79"
+    },
+    {
+      "path": "archived/assets/images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c0edb0f2fb0e906c6adf893abf5e13123e08a204",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/c0edb0f2fb0e906c6adf893abf5e13123e08a204"
+    },
+    {
+      "path": "archived/assets/images/github_repo_card.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e99a6e0691b6abc526e0a5681d7b4fd4a4dd143d",
+      "size": 33201,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/e99a6e0691b6abc526e0a5681d7b4fd4a4dd143d"
+    },
+    {
+      "path": "archived/assets/images/logo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eff8e142e5f0de6aa235cd3c9db67a8483ef7727",
+      "size": 11198,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/eff8e142e5f0de6aa235cd3c9db67a8483ef7727"
+    },
+    {
+      "path": "archived/assets/images/logo_1024.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4db676b3e1e3b793916442dd2ee958e4b66d9266",
+      "size": 22303,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/4db676b3e1e3b793916442dd2ee958e4b66d9266"
+    },
+    {
+      "path": "archived/assets/images/logo_128.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df9965546b2eea7c379d4a15bccd7cf0c2fb21e6",
+      "size": 3724,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/df9965546b2eea7c379d4a15bccd7cf0c2fb21e6"
+    },
+    {
+      "path": "archived/assets/images/logo_2048.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36338de8b5fb2b52160fdc7c52e7f606433c990b",
+      "size": 47440,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/36338de8b5fb2b52160fdc7c52e7f606433c990b"
+    },
+    {
+      "path": "archived/assets/images/logo_256.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a96ab6ad2c0cb6b90cea035b2e1a21fc00bef375",
+      "size": 6156,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/a96ab6ad2c0cb6b90cea035b2e1a21fc00bef375"
+    },
+    {
+      "path": "archived/assets/images/logo_512.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32b3d004240729a77498fe2404526111ecd30aaa",
+      "size": 11226,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/32b3d004240729a77498fe2404526111ecd30aaa"
+    },
+    {
+      "path": "archived/assets/sketch",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d454cf32749b8c837a920a317e86722e45612a5e",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/d454cf32749b8c837a920a317e86722e45612a5e"
+    },
+    {
+      "path": "archived/assets/sketch/996.CIU.sketch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f423436d20162ae8656bf7c249d3aeea2b8a9363",
+      "size": 215531,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/f423436d20162ae8656bf7c249d3aeea2b8a9363"
+    },
+    {
+      "path": "archived/assets/sketch/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9bb65055b75f7d03d18cc5822fc2708f21fcc03",
+      "size": 158,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/f9bb65055b75f7d03d18cc5822fc2708f21fcc03"
+    },
+    {
+      "path": "archived/licenses[WIP]",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "151ae1187f26917a5b155573ec50efbf612d20b0",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/151ae1187f26917a5b155573ec50efbf612d20b0"
+    },
+    {
+      "path": "archived/licenses[WIP]/LICENSE-MIT-996",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcd547e6c3cf4139b5ecd8c996510a32f7186b28",
+      "size": 1700,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/bcd547e6c3cf4139b5ecd8c996510a32f7186b28"
+    },
+    {
+      "path": "archived/licenses[WIP]/LICENSE.996icu.en-US",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4dd0da4d365904e26b28ef4066580e98c23ab16",
+      "size": 1892,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/d4dd0da4d365904e26b28ef4066580e98c23ab16"
+    },
+    {
+      "path": "archived/licenses[WIP]/LICENSE.996icu.zh-hans",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51967f64ab6f8c64d00b78777ef3117844e32113",
+      "size": 1480,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/51967f64ab6f8c64d00b78777ef3117844e32113"
+    },
+    {
+      "path": "archived/licenses[WIP]/LICENSE_Apache_no_overtime",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c51a015bca8ea46c53ec8811473966ab12ad412",
+      "size": 11801,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/6c51a015bca8ea46c53ec8811473966ab12ad412"
+    },
+    {
+      "path": "archived/licenses[WIP]/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2048ca9719268314b79bd835852bbaa92a9529ce",
+      "size": 634,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/2048ca9719268314b79bd835852bbaa92a9529ce"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e788b3167a1588925ce23e683788fe6b733bbfcf",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/e788b3167a1588925ce23e683788fe6b733bbfcf"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "abf30d50d954e148b9a8807c66770b8b4d12cec3",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/abf30d50d954e148b9a8807c66770b8b4d12cec3"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d07a7c49273500259be2b9d5041ce267c3bfadc",
+      "size": 2928,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/7d07a7c49273500259be2b9d5041ce267c3bfadc"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3668c827edff7216b34f92a525ea1316fa615075",
+      "size": 1266,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/3668c827edff7216b34f92a525ea1316fa615075"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go/bin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "47eadba38a39542214ad689bd5ae2ca5c58a47c3",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/47eadba38a39542214ad689bd5ae2ca5c58a47c3"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go/bin/linux",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ed229c15ee76f8bc65f0671c332c95ebbfea8a2a",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/ed229c15ee76f8bc65f0671c332c95ebbfea8a2a"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go/bin/linux/gen-license-go",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1de680478d9fb34e64c421382a5d3c66d8506d3b",
+      "size": 4011376,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/1de680478d9fb34e64c421382a5d3c66d8506d3b"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go/bin/osx",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d879861173e08317b9d5705ac5e3c744d1884322",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/d879861173e08317b9d5705ac5e3c744d1884322"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go/bin/osx/gen-license-go",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9041c32ab05b0f6410e32fa9d70df53dd4f6549a",
+      "size": 4029056,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/9041c32ab05b0f6410e32fa9d70df53dd4f6549a"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go/bin/windows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1ab2ad2d28a3ce2e33c03ef21473142b494d09b2",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/1ab2ad2d28a3ce2e33c03ef21473142b494d09b2"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go/bin/windows/gen-license-go.exe",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "198e2830cb657aea453eb1125eabfacb590185fb",
+      "size": 4093952,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/198e2830cb657aea453eb1125eabfacb590185fb"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go/cmd",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "18ce9cfa23f10418712f2985bfdaa0345c0737f4",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/18ce9cfa23f10418712f2985bfdaa0345c0737f4"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go/cmd/gen.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3ac68c2bc09de7085a20e370f86732a35603ffd",
+      "size": 3471,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/f3ac68c2bc09de7085a20e370f86732a35603ffd"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go/cmd/root.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "342c101d3af05e74a68569bd8ab3a56f4b5a5c70",
+      "size": 2580,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/342c101d3af05e74a68569bd8ab3a56f4b5a5c70"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go/go.mod",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a2c17252e6178013346e356703a064d2d18d529",
+      "size": 130,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/1a2c17252e6178013346e356703a064d2d18d529"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go/go.sum",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "385007d6071f589697e92dead3a81b7198fb3ccd",
+      "size": 326,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/385007d6071f589697e92dead3a81b7198fb3ccd"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go/licenses",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2549babdf369c3a80cfc7588775176f027550999",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/2549babdf369c3a80cfc7588775176f027550999"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go/licenses/996icu-0.1.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3a00b1c95baeef57094bc63cf3602b82f2c0a0b",
+      "size": 582,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/b3a00b1c95baeef57094bc63cf3602b82f2c0a0b"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go/licenses/agpl-3.0.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ad25db4bd1d86c452db3f9602ccdbe172438f52",
+      "size": 34523,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/0ad25db4bd1d86c452db3f9602ccdbe172438f52"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go/licenses/apache-2.0.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go/licenses/bsd-2-clause.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27cd973d35abe838ec435450b10b50986ccdc404",
+      "size": 1317,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/27cd973d35abe838ec435450b10b50986ccdc404"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go/licenses/bsd-3-clause.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "631f52dc9f9b35fd18947f25776e974015d06816",
+      "size": 1512,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/631f52dc9f9b35fd18947f25776e974015d06816"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go/licenses/epl-2.0.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3087e4c54047062ddcc0b6ecd606711bb246ab8",
+      "size": 14199,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/d3087e4c54047062ddcc0b6ecd606711bb246ab8"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go/licenses/gpl-2.0.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d159169d1050894d3ea3b98e1c965c4058208fe1",
+      "size": 18092,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/d159169d1050894d3ea3b98e1c965c4058208fe1"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go/licenses/gpl-3.0.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "size": 35149,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/f288702d2fa16d3cdf0035b15a9fcbc552cd88e7"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go/licenses/lgpl-2.1.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8000a6faacf471c537530805ab29523c7732e11a",
+      "size": 26526,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/8000a6faacf471c537530805ab29523c7732e11a"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go/licenses/lgpl-3.0.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a041280bd00a9d068f503b8ee7ce35214bd24a1",
+      "size": 7652,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/0a041280bd00a9d068f503b8ee7ce35214bd24a1"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go/licenses/mit.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8aa26455d23acf904be3ed9dfb3a3efe3e49245a",
+      "size": 1069,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/8aa26455d23acf904be3ed9dfb3a3efe3e49245a"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go/licenses/mpl-2.0.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a612ad9813b006ce81d1ee438dd784da99a54007",
+      "size": 16725,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/a612ad9813b006ce81d1ee438dd784da99a54007"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go/licenses/templates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0aed72af3586ca603e97782374326b1ad2e523fd",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/0aed72af3586ca603e97782374326b1ad2e523fd"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go/licenses/templates/996.icu.template.en-us.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c797b596ad817aba01047d0223c51a90e3b391d4",
+      "size": 1892,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/c797b596ad817aba01047d0223c51a90e3b391d4"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go/licenses/templates/996.icu.template.zh-cn.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51967f64ab6f8c64d00b78777ef3117844e32113",
+      "size": 1480,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/51967f64ab6f8c64d00b78777ef3117844e32113"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go/licenses/unlicenses.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf1ab25da0349f84a3fdd40032f0ce99db813b8b",
+      "size": 1210,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/cf1ab25da0349f84a3fdd40032f0ce99db813b8b"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-go/main.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54d9d8cbbab30ec987c51002e6868fb8d681e25a",
+      "size": 781,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/54d9d8cbbab30ec987c51002e6868fb8d681e25a"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-rs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8855a891f73d38c84d8cea4d410c33bf8df85e41",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/8855a891f73d38c84d8cea4d410c33bf8df85e41"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-rs/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53eaa21960d1b9c229de5e6ca9becd1a6089c021",
+      "size": 19,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/53eaa21960d1b9c229de5e6ca9becd1a6089c021"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-rs/Cargo.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c4245d27510809466760c95c9454220a6d11e1d",
+      "size": 5841,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/8c4245d27510809466760c95c9454220a6d11e1d"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-rs/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56f6b8e22a99b658a5638b249c946cdf9bae4e80",
+      "size": 221,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/56f6b8e22a99b658a5638b249c946cdf9bae4e80"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-rs/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "908b523ffa70e07954b5f3931680e36baa4630e3",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/908b523ffa70e07954b5f3931680e36baa4630e3"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-rs/src/licenses",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f5f25df4ee3c48620b4a69c130c7f894e682168e",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/f5f25df4ee3c48620b4a69c130c7f894e682168e"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-rs/src/licenses/996.icu.template.en-us.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c797b596ad817aba01047d0223c51a90e3b391d4",
+      "size": 1892,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/c797b596ad817aba01047d0223c51a90e3b391d4"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-rs/src/licenses/996.icu.template.zh-cn.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51967f64ab6f8c64d00b78777ef3117844e32113",
+      "size": 1480,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/51967f64ab6f8c64d00b78777ef3117844e32113"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-rs/src/licenses/996icu-0.1.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3a00b1c95baeef57094bc63cf3602b82f2c0a0b",
+      "size": 582,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/b3a00b1c95baeef57094bc63cf3602b82f2c0a0b"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-rs/src/licenses/agpl-3.0.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ad25db4bd1d86c452db3f9602ccdbe172438f52",
+      "size": 34523,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/0ad25db4bd1d86c452db3f9602ccdbe172438f52"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-rs/src/licenses/apache-2.0.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-rs/src/licenses/bsd-2-clause.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27cd973d35abe838ec435450b10b50986ccdc404",
+      "size": 1317,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/27cd973d35abe838ec435450b10b50986ccdc404"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-rs/src/licenses/bsd-3-clause.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "631f52dc9f9b35fd18947f25776e974015d06816",
+      "size": 1512,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/631f52dc9f9b35fd18947f25776e974015d06816"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-rs/src/licenses/epl-2.0.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3087e4c54047062ddcc0b6ecd606711bb246ab8",
+      "size": 14199,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/d3087e4c54047062ddcc0b6ecd606711bb246ab8"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-rs/src/licenses/gpl-2.0.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d159169d1050894d3ea3b98e1c965c4058208fe1",
+      "size": 18092,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/d159169d1050894d3ea3b98e1c965c4058208fe1"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-rs/src/licenses/gpl-3.0.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "size": 35149,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/f288702d2fa16d3cdf0035b15a9fcbc552cd88e7"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-rs/src/licenses/lgpl-2.1.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8000a6faacf471c537530805ab29523c7732e11a",
+      "size": 26526,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/8000a6faacf471c537530805ab29523c7732e11a"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-rs/src/licenses/lgpl-3.0.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a041280bd00a9d068f503b8ee7ce35214bd24a1",
+      "size": 7652,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/0a041280bd00a9d068f503b8ee7ce35214bd24a1"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-rs/src/licenses/mit.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8aa26455d23acf904be3ed9dfb3a3efe3e49245a",
+      "size": 1069,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/8aa26455d23acf904be3ed9dfb3a3efe3e49245a"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-rs/src/licenses/mpl-2.0.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a612ad9813b006ce81d1ee438dd784da99a54007",
+      "size": 16725,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/a612ad9813b006ce81d1ee438dd784da99a54007"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-rs/src/licenses/unlicenses.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf1ab25da0349f84a3fdd40032f0ce99db813b8b",
+      "size": 1210,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/cf1ab25da0349f84a3fdd40032f0ce99db813b8b"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license-rs/src/main.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44c506637164b7fc0b17c05284f4e71930d32c53",
+      "size": 4709,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/44c506637164b7fc0b17c05284f4e71930d32c53"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0a87fcc1105d8a15ebdea592814b1a5540b5ee58",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/0a87fcc1105d8a15ebdea592814b1a5540b5ee58"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b035f11c2fa8504104ee9bddc3aff3d56bf096ed",
+      "size": 1346,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/b035f11c2fa8504104ee9bddc3aff3d56bf096ed"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52bd5df7373aa1e79bee03c4fce2e0528f288c4e",
+      "size": 2604,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/52bd5df7373aa1e79bee03c4fce2e0528f288c4e"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license/MANIFEST.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b753f3e7938472c3846742d51018c9242cebf88d",
+      "size": 30,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/b753f3e7938472c3846742d51018c9242cebf88d"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license/Makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d862ec3f5c04517fa75bc91bf2ce7215ca7abb47",
+      "size": 583,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/d862ec3f5c04517fa75bc91bf2ce7215ca7abb47"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "485d9c5c9d8595c0c0778710357239934ee5cd01",
+      "size": 817,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/485d9c5c9d8595c0c0778710357239934ee5cd01"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license/debug.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fe3e86734c99d1430df4b830f1b0f79a9c14ca8",
+      "size": 102,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/8fe3e86734c99d1430df4b830f1b0f79a9c14ca8"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license/genlicense",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1d10b5958aa55b85cdaed7cb24ae454c494f51b7",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/1d10b5958aa55b85cdaed7cb24ae454c494f51b7"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license/genlicense/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "559256f96421bbf58f7a7502f1ea5041894f8c9c",
+      "size": 2396,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/559256f96421bbf58f7a7502f1ea5041894f8c9c"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license/genlicense/licenses",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f5f25df4ee3c48620b4a69c130c7f894e682168e",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/f5f25df4ee3c48620b4a69c130c7f894e682168e"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license/genlicense/licenses/996.icu.template.en-us.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c797b596ad817aba01047d0223c51a90e3b391d4",
+      "size": 1892,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/c797b596ad817aba01047d0223c51a90e3b391d4"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license/genlicense/licenses/996.icu.template.zh-cn.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51967f64ab6f8c64d00b78777ef3117844e32113",
+      "size": 1480,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/51967f64ab6f8c64d00b78777ef3117844e32113"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license/genlicense/licenses/996icu-0.1.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3a00b1c95baeef57094bc63cf3602b82f2c0a0b",
+      "size": 582,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/b3a00b1c95baeef57094bc63cf3602b82f2c0a0b"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license/genlicense/licenses/agpl-3.0.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ad25db4bd1d86c452db3f9602ccdbe172438f52",
+      "size": 34523,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/0ad25db4bd1d86c452db3f9602ccdbe172438f52"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license/genlicense/licenses/apache-2.0.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license/genlicense/licenses/bsd-2-clause.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27cd973d35abe838ec435450b10b50986ccdc404",
+      "size": 1317,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/27cd973d35abe838ec435450b10b50986ccdc404"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license/genlicense/licenses/bsd-3-clause.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "631f52dc9f9b35fd18947f25776e974015d06816",
+      "size": 1512,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/631f52dc9f9b35fd18947f25776e974015d06816"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license/genlicense/licenses/epl-2.0.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3087e4c54047062ddcc0b6ecd606711bb246ab8",
+      "size": 14199,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/d3087e4c54047062ddcc0b6ecd606711bb246ab8"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license/genlicense/licenses/gpl-2.0.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d159169d1050894d3ea3b98e1c965c4058208fe1",
+      "size": 18092,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/d159169d1050894d3ea3b98e1c965c4058208fe1"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license/genlicense/licenses/gpl-3.0.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "size": 35149,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/f288702d2fa16d3cdf0035b15a9fcbc552cd88e7"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license/genlicense/licenses/lgpl-2.1.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8000a6faacf471c537530805ab29523c7732e11a",
+      "size": 26526,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/8000a6faacf471c537530805ab29523c7732e11a"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license/genlicense/licenses/lgpl-3.0.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a041280bd00a9d068f503b8ee7ce35214bd24a1",
+      "size": 7652,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/0a041280bd00a9d068f503b8ee7ce35214bd24a1"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license/genlicense/licenses/mit.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8aa26455d23acf904be3ed9dfb3a3efe3e49245a",
+      "size": 1069,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/8aa26455d23acf904be3ed9dfb3a3efe3e49245a"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license/genlicense/licenses/mpl-2.0.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a612ad9813b006ce81d1ee438dd784da99a54007",
+      "size": 16725,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/a612ad9813b006ce81d1ee438dd784da99a54007"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license/genlicense/licenses/unlicenses.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf1ab25da0349f84a3fdd40032f0ce99db813b8b",
+      "size": 1210,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/cf1ab25da0349f84a3fdd40032f0ce99db813b8b"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/gen-license/setup.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efdf9b50e281bc08a91066f64f93ea68e784bab4",
+      "size": 1190,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/efdf9b50e281bc08a91066f64f93ea68e784bab4"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/test-gen-license",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "638133fae3e611a6ffbfcc39d03e7cfd8af96dae",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/638133fae3e611a6ffbfcc39d03e7cfd8af96dae"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/test-gen-license/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c1a8a7ed342d32ffd739b204f1b272415c085fd",
+      "size": 27,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/0c1a8a7ed342d32ffd739b204f1b272415c085fd"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/test-gen-license/Cargo.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9982b95443ddc4d8fc7dfd41634b03edf4c13d01",
+      "size": 13230,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/9982b95443ddc4d8fc7dfd41634b03edf4c13d01"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/test-gen-license/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "709f107421b122b7cad1998f66d86c92db348429",
+      "size": 191,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/709f107421b122b7cad1998f66d86c92db348429"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/test-gen-license/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d30127d7f3220c36cb6137e31bb96bbc174240b",
+      "size": 558,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/7d30127d7f3220c36cb6137e31bb96bbc174240b"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/test-gen-license/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f7b6722da7641ffba51f3ea4f42a5c73887294f8",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/f7b6722da7641ffba51f3ea4f42a5c73887294f8"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/test-gen-license/src/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "244a51cddab632bd65d89c921dbf0d3c0adba9cf",
+      "size": 1119,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/244a51cddab632bd65d89c921dbf0d3c0adba9cf"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/test-gen-license/src/test_go.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9efe41745fdae4cc35fcd2eba31ef5188fb634dd",
+      "size": 8096,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/9efe41745fdae4cc35fcd2eba31ef5188fb634dd"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/test-gen-license/src/test_py.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "280d925be61b9d7b0c49fdba57d28f3dedb55850",
+      "size": 2599,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/280d925be61b9d7b0c49fdba57d28f3dedb55850"
+    },
+    {
+      "path": "archived/licenses[WIP]/tools/test-gen-license/src/test_rust.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "awesomelist",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "44cd0093360604df45f58c0958ffa2205ef6794d",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/44cd0093360604df45f58c0958ffa2205ef6794d"
+    },
+    {
+      "path": "awesomelist/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8e1faa62bd672fb11aff73acb61d8440c1e1403",
+      "size": 67504,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/a8e1faa62bd672fb11aff73acb61d8440c1e1403"
+    },
+    {
+      "path": "awesomelist/img",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0db14cf48c2827dd3e28b9019a28d6f1dfd0279c",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/0db14cf48c2827dd3e28b9019a28d6f1dfd0279c"
+    },
+    {
+      "path": "awesomelist/img/SecurityPaper.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22e2444c41abefe4c07d0d83976b942a8394c858",
+      "size": 41849,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/22e2444c41abefe4c07d0d83976b942a8394c858"
+    },
+    {
+      "path": "awesomelist/img/awesome_golang_leetcode_logo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d37d285f233933e6bdc2ef32583906ff0839a8f",
+      "size": 52467,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/4d37d285f233933e6bdc2ef32583906ff0839a8f"
+    },
+    {
+      "path": "awesomelist/img/data_analysis_icon.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c45154bfc7be299d14fa15b38c999f1fe2e4f56a",
+      "size": 44833,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/c45154bfc7be299d14fa15b38c999f1fe2e4f56a"
+    },
+    {
+      "path": "awesomelist/img/icon.chansos.com.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb622f5c923b5190701028ea69b0fbc1988b9caa",
+      "size": 20593,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/cb622f5c923b5190701028ea69b0fbc1988b9caa"
+    },
+    {
+      "path": "awesomelist/img/kongfuofarchitecticon.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00d7b359319ba112d0cd8a162d809c19700677f4",
+      "size": 75971,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/00d7b359319ba112d0cd8a162d809c19700677f4"
+    },
+    {
+      "path": "blacklist",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f09610eda1a0b9a8486c1878ef409183ac362b62",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/f09610eda1a0b9a8486c1878ef409183ac362b62"
+    },
+    {
+      "path": "blacklist/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f427ac47ac549e7abb521a72eb51cddde63733f",
+      "size": 53226,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/6f427ac47ac549e7abb521a72eb51cddde63733f"
+    },
+    {
+      "path": "blacklist/img",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "74efa38f82bf476c7a13c905ccc6b99494f717dc",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/74efa38f82bf476c7a13c905ccc6b99494f717dc"
+    },
+    {
+      "path": "blacklist/img/23123.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17df78225d27f1e7d7983aeea417ced35da41e35",
+      "size": 142764,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/17df78225d27f1e7d7983aeea417ced35da41e35"
+    },
+    {
+      "path": "blacklist/img/996icu_not_found_1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19d1d23a122cfa9ab784c725d956534b2cce4eac",
+      "size": 185722,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/19d1d23a122cfa9ab784c725d956534b2cce4eac"
+    },
+    {
+      "path": "blacklist/img/996icu_not_found_2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7054daa38903744f5f40f3d0958b75ebd958c5d9",
+      "size": 225930,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/7054daa38903744f5f40f3d0958b75ebd958c5d9"
+    },
+    {
+      "path": "blacklist/img/996icu_not_found_3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc6673a53672d83eebf3a66f64ecde9afc67fc7b",
+      "size": 217473,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/cc6673a53672d83eebf3a66f64ecde9afc67fc7b"
+    },
+    {
+      "path": "blacklist/img/9f996.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33adac80f29f42c72b788353f12672892179d7ee",
+      "size": 127649,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/33adac80f29f42c72b788353f12672892179d7ee"
+    },
+    {
+      "path": "blacklist/img/Ximmerse制度方案.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88f851fbb754778f5e1b828f64e8141018caa652",
+      "size": 70559,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/88f851fbb754778f5e1b828f64e8141018caa652"
+    },
+    {
+      "path": "blacklist/img/Ximmerse考勤邮件.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "440bf4e37298b2b949e824dde07ec9ad5665dd4d",
+      "size": 45735,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/440bf4e37298b2b949e824dde07ec9ad5665dd4d"
+    },
+    {
+      "path": "blacklist/img/bindo_com_996.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "925facd39c710d8c808e34c370ab49e3804271c1",
+      "size": 42745,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/925facd39c710d8c808e34c370ab49e3804271c1"
+    },
+    {
+      "path": "blacklist/img/bindo_com_996_2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1acbeec99aa46ac42e1ab8ffb0fd92ad23c9729",
+      "size": 48045,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/c1acbeec99aa46ac42e1ab8ffb0fd92ad23c9729"
+    },
+    {
+      "path": "blacklist/img/caixun01.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0415d027112245696d1a8f958e43bd72ed9569b",
+      "size": 101356,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/b0415d027112245696d1a8f958e43bd72ed9569b"
+    },
+    {
+      "path": "blacklist/img/caixun02.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bdd6e21ea4c1258aad7a9e1451fd712c6244550",
+      "size": 107931,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/8bdd6e21ea4c1258aad7a9e1451fd712c6244550"
+    },
+    {
+      "path": "blacklist/img/caixun03.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31c4d82c37b70f759502d0240592cc6f59bf6cdc",
+      "size": 49433,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/31c4d82c37b70f759502d0240592cc6f59bf6cdc"
+    },
+    {
+      "path": "blacklist/img/ceo1.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b9f2e48b5698b734c187ad9d877d82256a32406",
+      "size": 182497,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/3b9f2e48b5698b734c187ad9d877d82256a32406"
+    },
+    {
+      "path": "blacklist/img/ceo2.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6645e8ee6019a035140c3bd595d16cff4ee74332",
+      "size": 111816,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/6645e8ee6019a035140c3bd595d16cff4ee74332"
+    },
+    {
+      "path": "blacklist/img/chat1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6aea5f36a2877874e6e5a1f4a1d27a845aea6fdc",
+      "size": 6835,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/6aea5f36a2877874e6e5a1f4a1d27a845aea6fdc"
+    },
+    {
+      "path": "blacklist/img/chat2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7252ba47b5d836a90c27a0f69f343f7a1bcdab4d",
+      "size": 1632,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/7252ba47b5d836a90c27a0f69f343f7a1bcdab4d"
+    },
+    {
+      "path": "blacklist/img/chat3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86b4a9d864a4864c3686efebcd3333f589444f8b",
+      "size": 3694,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/86b4a9d864a4864c3686efebcd3333f589444f8b"
+    },
+    {
+      "path": "blacklist/img/dipu996record1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea73af1820496e6683529c78ca62185e40016119",
+      "size": 590160,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/ea73af1820496e6683529c78ca62185e40016119"
+    },
+    {
+      "path": "blacklist/img/dipu996record2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccaed9bfae9cf7cb1cc1cf7e4f9657696c0f5707",
+      "size": 627746,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/ccaed9bfae9cf7cb1cc1cf7e4f9657696c0f5707"
+    },
+    {
+      "path": "blacklist/img/ecy1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "898c8ddee65c0787742d1f23c5d8ded616d81535",
+      "size": 57910,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/898c8ddee65c0787742d1f23c5d8ded616d81535"
+    },
+    {
+      "path": "blacklist/img/ecy12.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19c294e9996c22221b848d49129c6c9d9adf020c",
+      "size": 104681,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/19c294e9996c22221b848d49129c6c9d9adf020c"
+    },
+    {
+      "path": "blacklist/img/ecy2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19c294e9996c22221b848d49129c6c9d9adf020c",
+      "size": 104681,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/19c294e9996c22221b848d49129c6c9d9adf020c"
+    },
+    {
+      "path": "blacklist/img/ecy4.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0232959a3ca6b9e5062ce822f018d30ea18bea8",
+      "size": 73756,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/d0232959a3ca6b9e5062ce822f018d30ea18bea8"
+    },
+    {
+      "path": "blacklist/img/fjxxqmfj.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94a52d1ece1eb027b3c95bd20f4c6c4d38bbd173",
+      "size": 34931,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/94a52d1ece1eb027b3c95bd20f4c6c4d38bbd173"
+    },
+    {
+      "path": "blacklist/img/fjxxydfj.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5436b86fe979c5cfd3273a50f941c36caf3a271e",
+      "size": 23070,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/5436b86fe979c5cfd3273a50f941c36caf3a271e"
+    },
+    {
+      "path": "blacklist/img/fjxxydkq.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "250f908c1fc4996b51d6df71eaa87dbee322c3eb",
+      "size": 8902,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/250f908c1fc4996b51d6df71eaa87dbee322c3eb"
+    },
+    {
+      "path": "blacklist/img/globalegrow_labor_contract.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd9e9149d934819ce7a5fd85f99a1ce23002afc6",
+      "size": 90715,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/bd9e9149d934819ce7a5fd85f99a1ce23002afc6"
+    },
+    {
+      "path": "blacklist/img/globalegrow_offer.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46db3d7cd3b665386ec4db41ac842f63141445d4",
+      "size": 52389,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/46db3d7cd3b665386ec4db41ac842f63141445d4"
+    },
+    {
+      "path": "blacklist/img/goertek-1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c8f65c52cd0cb08f44721ce9c947ebbbfa74a24",
+      "size": 196408,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/9c8f65c52cd0cb08f44721ce9c947ebbbfa74a24"
+    },
+    {
+      "path": "blacklist/img/goertek-2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16a6953123b50a6e6957f9eff419dff2755a6b9f",
+      "size": 345862,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/16a6953123b50a6e6957f9eff419dff2755a6b9f"
+    },
+    {
+      "path": "blacklist/img/goertek.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f4ee9fb9abf0391933db9d300ce67ede5942226",
+      "size": 426405,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/8f4ee9fb9abf0391933db9d300ce67ede5942226"
+    },
+    {
+      "path": "blacklist/img/googosoft.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "047ff87be7bf550c886487a4d6022c9563cd0bdf",
+      "size": 11878,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/047ff87be7bf550c886487a4d6022c9563cd0bdf"
+    },
+    {
+      "path": "blacklist/img/googosoft2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44ceef487a103206fe40ec19a3f6d50181de9aef",
+      "size": 46647,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/44ceef487a103206fe40ec19a3f6d50181de9aef"
+    },
+    {
+      "path": "blacklist/img/gz_zhiyue.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "243eb7fb3fa0918e189039f1217222ec62b33768",
+      "size": 149196,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/243eb7fb3fa0918e189039f1217222ec62b33768"
+    },
+    {
+      "path": "blacklist/img/hikvision_fj.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef0d4124428ac7b5ead72ff777e2877d2e23a604",
+      "size": 1897013,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/ef0d4124428ac7b5ead72ff777e2877d2e23a604"
+    },
+    {
+      "path": "blacklist/img/huawei.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9f7a0763eee18841863aaeca3cafe91e4f9c7b3",
+      "size": 291350,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/f9f7a0763eee18841863aaeca3cafe91e4f9c7b3"
+    },
+    {
+      "path": "blacklist/img/huawei_hangzhou_timing.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58d3b20b19fb182a38677469e66ee88df3621ba5",
+      "size": 50139,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/58d3b20b19fb182a38677469e66ee88df3621ba5"
+    },
+    {
+      "path": "blacklist/img/hxqc1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1cbe55019a965ffc66b4d06180ab136c6b1af42",
+      "size": 214410,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/f1cbe55019a965ffc66b4d06180ab136c6b1af42"
+    },
+    {
+      "path": "blacklist/img/hxqc2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cba2eec2de2579186e49f9037ef428776f196197",
+      "size": 229601,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/cba2eec2de2579186e49f9037ef428776f196197"
+    },
+    {
+      "path": "blacklist/img/hxqc3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7c796afcaee9b3effbf96de5206507cd7c1832b",
+      "size": 317356,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/a7c796afcaee9b3effbf96de5206507cd7c1832b"
+    },
+    {
+      "path": "blacklist/img/lansehaiyang-boss.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ce6be08891156dde83743b72e0657ece17f9350",
+      "size": 121410,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/6ce6be08891156dde83743b72e0657ece17f9350"
+    },
+    {
+      "path": "blacklist/img/lingzhi1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a8a169e3d045565f40e7f249fb4a8724165d5de",
+      "size": 5503,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/4a8a169e3d045565f40e7f249fb4a8724165d5de"
+    },
+    {
+      "path": "blacklist/img/linkface-996.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4e1cfe0279946c15a5dd64f4f44f2fcdd45bba0",
+      "size": 67203,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/e4e1cfe0279946c15a5dd64f4f44f2fcdd45bba0"
+    },
+    {
+      "path": "blacklist/img/mbgwb.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "998ec63fe34c32b2c29a3a2a4d3add648f2e3396",
+      "size": 145841,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/998ec63fe34c32b2c29a3a2a4d3add648f2e3396"
+    },
+    {
+      "path": "blacklist/img/neuq_work_overtime_evidence.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf8525ec8257eff1ff266c8a771b28d1e80796a4",
+      "size": 93431,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/cf8525ec8257eff1ff266c8a771b28d1e80796a4"
+    },
+    {
+      "path": "blacklist/img/neuq_work_overtime_evidence2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8c96af3c53e0395e430cb533f032cd699ed18e1",
+      "size": 114317,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/b8c96af3c53e0395e430cb533f032cd699ed18e1"
+    },
+    {
+      "path": "blacklist/img/neuq_work_overtime_evidence3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24c526c5351a89ffdb8c76d11a31e00b32fa3f58",
+      "size": 117720,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/24c526c5351a89ffdb8c76d11a31e00b32fa3f58"
+    },
+    {
+      "path": "blacklist/img/qidianxueyuan1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c85bcc577cb360558de1b61f1c4db8e84fbbf725",
+      "size": 92969,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/c85bcc577cb360558de1b61f1c4db8e84fbbf725"
+    },
+    {
+      "path": "blacklist/img/qidianxueyuan2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "693df72a2f24241e46884f0e0074847e268f8bfb",
+      "size": 32093,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/693df72a2f24241e46884f0e0074847e268f8bfb"
+    },
+    {
+      "path": "blacklist/img/sbs-大小周改单休.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ee03f568288f21572fc4a0c49c5742c252b5b08",
+      "size": 104420,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/1ee03f568288f21572fc4a0c49c5742c252b5b08"
+    },
+    {
+      "path": "blacklist/img/streamax-996.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc74ec1f398e325aded6098dd79f58123672ecb8",
+      "size": 164483,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/dc74ec1f398e325aded6098dd79f58123672ecb8"
+    },
+    {
+      "path": "blacklist/img/taxi.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bddbc50a8bbb6115c46e4b2665085bcc4221b759",
+      "size": 174211,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/bddbc50a8bbb6115c46e4b2665085bcc4221b759"
+    },
+    {
+      "path": "blacklist/img/taxi2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48575796a170b0437bd9467b90de0ce44acfc589",
+      "size": 155617,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/48575796a170b0437bd9467b90de0ce44acfc589"
+    },
+    {
+      "path": "blacklist/img/taxi3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c030defe58cc81d7ab960a29c988f2b0a940a95",
+      "size": 172567,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/4c030defe58cc81d7ab960a29c988f2b0a940a95"
+    },
+    {
+      "path": "blacklist/img/tcl1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb8bd48116b00c0ef116b8d5d3a6601b39d5559b",
+      "size": 571677,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/bb8bd48116b00c0ef116b8d5d3a6601b39d5559b"
+    },
+    {
+      "path": "blacklist/img/tcl2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4ab526dd25351452bafcb8c848762c9a575f338",
+      "size": 278862,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/a4ab526dd25351452bafcb8c848762c9a575f338"
+    },
+    {
+      "path": "blacklist/img/timing360-0823.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a93a5a5589e3d8c17104698a28fcd579a073a491",
+      "size": 85681,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/a93a5a5589e3d8c17104698a28fcd579a073a491"
+    },
+    {
+      "path": "blacklist/img/timing360-1201.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65594bddfc7bfc35e5cdf75219419ca86ebafd56",
+      "size": 66230,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/65594bddfc7bfc35e5cdf75219419ca86ebafd56"
+    },
+    {
+      "path": "blacklist/img/tongsi1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d9ef21af59fddae2856adace103d838758be3ac",
+      "size": 13428,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/2d9ef21af59fddae2856adace103d838758be3ac"
+    },
+    {
+      "path": "blacklist/img/tongsi2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9467433c3cd7c3653590cb8a16d9e4e956091f49",
+      "size": 46733,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/9467433c3cd7c3653590cb8a16d9e4e956091f49"
+    },
+    {
+      "path": "blacklist/img/tongsi3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70d02775c7e7d6925fbbd2994b88eca7ea8bee06",
+      "size": 12977,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/70d02775c7e7d6925fbbd2994b88eca7ea8bee06"
+    },
+    {
+      "path": "blacklist/img/tongsi4.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c94a9f3e68ba1e9bf50ded2d2799279c45ace526",
+      "size": 29261,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/c94a9f3e68ba1e9bf50ded2d2799279c45ace526"
+    },
+    {
+      "path": "blacklist/img/wechatimg5498-meitu-1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "897fbb81d657c29214b51181c82cfadd859fcb31",
+      "size": 103988,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/897fbb81d657c29214b51181c82cfadd859fcb31"
+    },
+    {
+      "path": "blacklist/img/xf劳动仲裁书.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b19dcb876e8b37e5510e1e905fd105744cbeef79",
+      "size": 58024,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/b19dcb876e8b37e5510e1e905fd105744cbeef79"
+    },
+    {
+      "path": "blacklist/img/xf周六加班通知.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "798570074c798c9ffac40fc4461789fab0100c13",
+      "size": 106300,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/798570074c798c9ffac40fc4461789fab0100c13"
+    },
+    {
+      "path": "blacklist/img/xf提醒补加班.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24162557214ecc6ff37366eef41756c2d86842dd",
+      "size": 165560,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/24162557214ecc6ff37366eef41756c2d86842dd"
+    },
+    {
+      "path": "blacklist/img/xf被裁员拖欠薪资.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0903384b02d3f16c8ce8188fc2c26a1ed27dd8b",
+      "size": 109428,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/a0903384b02d3f16c8ce8188fc2c26a1ed27dd8b"
+    },
+    {
+      "path": "blacklist/img/yimidida.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f6496fb62f69a7c8ddcba0e752424d9f85f1d51",
+      "size": 11887,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/7f6496fb62f69a7c8ddcba0e752424d9f85f1d51"
+    },
+    {
+      "path": "blacklist/img/ynunicom_ding_talk.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05fc5113e56d5c4de8d9791899b04b6747c899d0",
+      "size": 101793,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/05fc5113e56d5c4de8d9791899b04b6747c899d0"
+    },
+    {
+      "path": "blacklist/img/yyhd.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42cdd04057d7cc4e5c4a4ec9fb1761546d272be8",
+      "size": 34559,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/42cdd04057d7cc4e5c4a4ec9fb1761546d272be8"
+    },
+    {
+      "path": "blacklist/img/zftjt.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dd50ebea8bd79e86ace47a3a0574720351cec32",
+      "size": 28881,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/8dd50ebea8bd79e86ace47a3a0574720351cec32"
+    },
+    {
+      "path": "blacklist/img/七牛云995.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "685e14621093286260a76eb9ab13c0671a511de8",
+      "size": 190101,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/685e14621093286260a76eb9ab13c0671a511de8"
+    },
+    {
+      "path": "blacklist/img/七牛云裁员1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95caa42450e243345fc1bca6c2e30b97b3ea0fda",
+      "size": 202025,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/95caa42450e243345fc1bca6c2e30b97b3ea0fda"
+    },
+    {
+      "path": "blacklist/img/七牛云裁员2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ae53fefef71ab8875c4113a4ac3ffc1918b5772",
+      "size": 497513,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/5ae53fefef71ab8875c4113a4ac3ffc1918b5772"
+    },
+    {
+      "path": "blacklist/img/七牛云裁员3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cf76e0ab0bc1f8fa772fb726e4d1c8e37f3f279",
+      "size": 393094,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/3cf76e0ab0bc1f8fa772fb726e4d1c8e37f3f279"
+    },
+    {
+      "path": "blacklist/img/上海电信CRM1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f68ee2e0d9dcb88db7c7c9e27fe6edd6d3f5dbb",
+      "size": 17633,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/7f68ee2e0d9dcb88db7c7c9e27fe6edd6d3f5dbb"
+    },
+    {
+      "path": "blacklist/img/上海电信CRM2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fd2431b329f96e20d7f53a463a2433bb5acc791",
+      "size": 85517,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/6fd2431b329f96e20d7f53a463a2433bb5acc791"
+    },
+    {
+      "path": "blacklist/img/临沂沂川电子和网络的联系1 (3).mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "059d52d352b9406f0b5c2a6f8dcc99f7eb38f611",
+      "size": 22077959,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/059d52d352b9406f0b5c2a6f8dcc99f7eb38f611"
+    },
+    {
+      "path": "blacklist/img/临沂沂川电子和网络的联系2.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "091bb2e44e83f3263e96dbb4f645dd381e8b44cf",
+      "size": 24402165,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/091bb2e44e83f3263e96dbb4f645dd381e8b44cf"
+    },
+    {
+      "path": "blacklist/img/临沂沂川电子和网络的联系3.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a8343ab053f9fc30a55a4274133fb3591a4395d",
+      "size": 69504920,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/4a8343ab053f9fc30a55a4274133fb3591a4395d"
+    },
+    {
+      "path": "blacklist/img/临沂沂川网络,请假扣2天工资.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "094c3344080f9c6009a0a73429ac580761d58df4",
+      "size": 181322,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/094c3344080f9c6009a0a73429ac580761d58df4"
+    },
+    {
+      "path": "blacklist/img/临沂沂川网络加班_间接证据.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4801f7b40eec69897fa962500f9bb9cdf5f2b5ab",
+      "size": 444600,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/4801f7b40eec69897fa962500f9bb9cdf5f2b5ab"
+    },
+    {
+      "path": "blacklist/img/临沂沂川网络加班_间接证据2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4270e8b3fd75abf86b97baff6f4f20b8e031ece2",
+      "size": 392081,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/4270e8b3fd75abf86b97baff6f4f20b8e031ece2"
+    },
+    {
+      "path": "blacklist/img/临沂沂川网络强制加班.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a8ef63bc7dda72fece943f0ed0d25eb26254831",
+      "size": 230521,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/3a8ef63bc7dda72fece943f0ed0d25eb26254831"
+    },
+    {
+      "path": "blacklist/img/临沂沂川网络节假日加班,请假需老板批准.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad9d724ca79c23f422c2d36b319113fd47449b55",
+      "size": 55020,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/ad9d724ca79c23f422c2d36b319113fd47449b55"
+    },
+    {
+      "path": "blacklist/img/临沂沂川网络节假日强制加班无加班费.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2161eca257a8d39881be2f182c1c077b8abab565",
+      "size": 405051,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/2161eca257a8d39881be2f182c1c077b8abab565"
+    },
+    {
+      "path": "blacklist/img/优学派1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19d14c479c4fc72938a9ca1db183bccd1df8fea5",
+      "size": 295595,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/19d14c479c4fc72938a9ca1db183bccd1df8fea5"
+    },
+    {
+      "path": "blacklist/img/优学派2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c6dbac683c9eeaa3842d54ea303c15874c61399",
+      "size": 296350,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/7c6dbac683c9eeaa3842d54ea303c15874c61399"
+    },
+    {
+      "path": "blacklist/img/优学派3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1a98d92e62a778925524a666a38814a4352659c",
+      "size": 269034,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/b1a98d92e62a778925524a666a38814a4352659c"
+    },
+    {
+      "path": "blacklist/img/伯图大数据.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e53d5e53e22b5a81ff2ad022eafc8daf2a0775ac",
+      "size": 314963,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/e53d5e53e22b5a81ff2ad022eafc8daf2a0775ac"
+    },
+    {
+      "path": "blacklist/img/劳动合同1 - 副本.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6d2c1edb8153135b08309fc25092b438c8c9d5a",
+      "size": 313287,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/e6d2c1edb8153135b08309fc25092b438c8c9d5a"
+    },
+    {
+      "path": "blacklist/img/劳动合同2 - 副本.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5538994deff10727e2e3a19ae87dd7bad000450c",
+      "size": 400911,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/5538994deff10727e2e3a19ae87dd7bad000450c"
+    },
+    {
+      "path": "blacklist/img/北京中广创思9107钉钉截图.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a443ff9e13a2c721d8855e44448240d6e0884e1",
+      "size": 61669,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/7a443ff9e13a2c721d8855e44448240d6e0884e1"
+    },
+    {
+      "path": "blacklist/img/北京安华金和-天津研发中心-内部群截图.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86251f4f1064a26148751e564491739528c668fd",
+      "size": 1463737,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/86251f4f1064a26148751e564491739528c668fd"
+    },
+    {
+      "path": "blacklist/img/天津云账户.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a8612b7f33294aa28aeec588716161143d99a2f",
+      "size": 95245,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/9a8612b7f33294aa28aeec588716161143d99a2f"
+    },
+    {
+      "path": "blacklist/img/天津硕烁科技有限公司1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17286a65dde0e15708d5c56af16f9b2667daa26e",
+      "size": 99659,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/17286a65dde0e15708d5c56af16f9b2667daa26e"
+    },
+    {
+      "path": "blacklist/img/天津硕烁科技有限公司2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3eff0764df599193b4c06016e73caa25f0b7d267",
+      "size": 115874,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/3eff0764df599193b4c06016e73caa25f0b7d267"
+    },
+    {
+      "path": "blacklist/img/小码联城加班.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf59e09158aa0a160101aed90f60d7ec465f80d8",
+      "size": 21600,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/cf59e09158aa0a160101aed90f60d7ec465f80d8"
+    },
+    {
+      "path": "blacklist/img/小鹏汽车.JPG",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36ac7ce92e21d12b1b38b9f05193798f17c0b82b",
+      "size": 2710282,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/36ac7ce92e21d12b1b38b9f05193798f17c0b82b"
+    },
+    {
+      "path": "blacklist/img/广东数果科技-996 文件.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9110787fb068e837c6c7ee6f9d464dfc2b38c31d",
+      "size": 85727,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/9110787fb068e837c6c7ee6f9d464dfc2b38c31d"
+    },
+    {
+      "path": "blacklist/img/广东数果科技-考勤.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a875eea1450ddc61da68cc77e4beb127428e8709",
+      "size": 72553,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/a875eea1450ddc61da68cc77e4beb127428e8709"
+    },
+    {
+      "path": "blacklist/img/微信老板认可996 - 副本.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e63768abb81bfb47c31d4017852041526dba0e2",
+      "size": 101665,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/9e63768abb81bfb47c31d4017852041526dba0e2"
+    },
+    {
+      "path": "blacklist/img/必胜课取消证据01.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba63798a4e126c37b510812db98049a90f28331d",
+      "size": 477398,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/ba63798a4e126c37b510812db98049a90f28331d"
+    },
+    {
+      "path": "blacklist/img/悠书科技网络有限公司1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23d92feacd351a410a4a3e6cc60f8dc897de05b5",
+      "size": 289800,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/23d92feacd351a410a4a3e6cc60f8dc897de05b5"
+    },
+    {
+      "path": "blacklist/img/悠书科技网络有限公司2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd7104838a296c74c39ed5233a892bc0a2dbe823",
+      "size": 208479,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/bd7104838a296c74c39ed5233a892bc0a2dbe823"
+    },
+    {
+      "path": "blacklist/img/成都几维科技1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f09f371b77243568f8ed72a154ecf575122913fe",
+      "size": 2289,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/f09f371b77243568f8ed72a154ecf575122913fe"
+    },
+    {
+      "path": "blacklist/img/成都几维科技2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "727f8305cab20a4ca7045c301d9eb3a2304b8a1d",
+      "size": 1792,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/727f8305cab20a4ca7045c301d9eb3a2304b8a1d"
+    },
+    {
+      "path": "blacklist/img/捞月狗招聘信息.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1499fc79bd60055aea644add24e3d5e60fcae00",
+      "size": 153660,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/d1499fc79bd60055aea644add24e3d5e60fcae00"
+    },
+    {
+      "path": "blacklist/img/易车996.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd7b7f80508d0e8b17c532fb641b38d47b5792fb",
+      "size": 287861,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/cd7b7f80508d0e8b17c532fb641b38d47b5792fb"
+    },
+    {
+      "path": "blacklist/img/易车脉脉.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9417810d81a14c246e3528f9429862749e5f478",
+      "size": 124952,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/e9417810d81a14c246e3528f9429862749e5f478"
+    },
+    {
+      "path": "blacklist/img/来画996.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f15cb4b57bdbfdddf5d3a8946ffc6f996d154ec1",
+      "size": 599557,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/f15cb4b57bdbfdddf5d3a8946ffc6f996d154ec1"
+    },
+    {
+      "path": "blacklist/img/欧电云加班行政邮件截图3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebd67a4dd779ef1c5ae36c64e95034855dd88a6f",
+      "size": 37860,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/ebd67a4dd779ef1c5ae36c64e95034855dd88a6f"
+    },
+    {
+      "path": "blacklist/img/欧电云加班餐票截图1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b70fb09bfe6394c1a6fca412ad8fd79bbc9b02f3",
+      "size": 122733,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/b70fb09bfe6394c1a6fca412ad8fd79bbc9b02f3"
+    },
+    {
+      "path": "blacklist/img/欧电云加班餐票截图2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ff730be052a814847c3afa53ebdde1a1f5479d7",
+      "size": 116124,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/0ff730be052a814847c3afa53ebdde1a1f5479d7"
+    },
+    {
+      "path": "blacklist/img/每日优鲜鼓吹996.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57ec30b1de67360bce6c10e13bf84b0f3fd02438",
+      "size": 291419,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/57ec30b1de67360bce6c10e13bf84b0f3fd02438"
+    },
+    {
+      "path": "blacklist/img/河北东软软件有限公司申请加班.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf8525ec8257eff1ff266c8a771b28d1e80796a4",
+      "size": 93431,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/cf8525ec8257eff1ff266c8a771b28d1e80796a4"
+    },
+    {
+      "path": "blacklist/img/浙江杭州盘石信息技术有限公司996制度.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14f6878b0a96160232d9cb89527ef0cd3a2b94b4",
+      "size": 49033,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/14f6878b0a96160232d9cb89527ef0cd3a2b94b4"
+    },
+    {
+      "path": "blacklist/img/海尔优家智能科技.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e633b5bc797dcbcc2ddae0c6a010091fac3adc1",
+      "size": 527588,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/4e633b5bc797dcbcc2ddae0c6a010091fac3adc1"
+    },
+    {
+      "path": "blacklist/img/海尔优家智能科技2-1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32a44f0fad8a337c34ead04eb36426507a448697",
+      "size": 92084,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/32a44f0fad8a337c34ead04eb36426507a448697"
+    },
+    {
+      "path": "blacklist/img/海尔优家智能科技2-2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b1caa65f236925c93daedc09b62a813ac498594",
+      "size": 79939,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/3b1caa65f236925c93daedc09b62a813ac498594"
+    },
+    {
+      "path": "blacklist/img/深圳沈鼓自愿加班承诺书.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7331a6d38b497b25884f7b794d14c94366d85314",
+      "size": 100955,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/7331a6d38b497b25884f7b794d14c94366d85314"
+    },
+    {
+      "path": "blacklist/img/深圳紫优科技.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fe8ce5109330487bce5313bc0c11ce37aca26f4",
+      "size": 50001,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/3fe8ce5109330487bce5313bc0c11ce37aca26f4"
+    },
+    {
+      "path": "blacklist/img/畅捷通-996-m.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b7c2303e717ea8bfd40199f9029e58c658a8478",
+      "size": 65711,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/6b7c2303e717ea8bfd40199f9029e58c658a8478"
+    },
+    {
+      "path": "blacklist/img/畅捷通-996-mail-m.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5414a2b2d7d656db876e6d17bc148aee666e5e6",
+      "size": 110668,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/f5414a2b2d7d656db876e6d17bc148aee666e5e6"
+    },
+    {
+      "path": "blacklist/img/签到表7.31.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16d10c07a612bc7b2c607758f6a4e38483040bc2",
+      "size": 4827932,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/16d10c07a612bc7b2c607758f6a4e38483040bc2"
+    },
+    {
+      "path": "blacklist/img/签到表8.1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be273c816a36dca4c7264179dace31234b436305",
+      "size": 143890,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/be273c816a36dca4c7264179dace31234b436305"
+    },
+    {
+      "path": "blacklist/img/精臣智慧-打卡日历.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9f39a8ffdb8c7cd99ef087fefed5572157d8e0b",
+      "size": 66143,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/b9f39a8ffdb8c7cd99ef087fefed5572157d8e0b"
+    },
+    {
+      "path": "blacklist/img/精臣智慧-考勤制度-0.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a77e0d58c6987d4517e1b7b53b3afea92381fcc",
+      "size": 276192,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/6a77e0d58c6987d4517e1b7b53b3afea92381fcc"
+    },
+    {
+      "path": "blacklist/img/精臣智慧-考勤制度-1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa7f41b8e45a1a0a26e100d598180c0b4a5545a6",
+      "size": 390453,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/fa7f41b8e45a1a0a26e100d598180c0b4a5545a6"
+    },
+    {
+      "path": "blacklist/img/精臣智慧-考勤制度-2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c92373ff4f81303615d9dbef45bde54ee9bc673",
+      "size": 361908,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/9c92373ff4f81303615d9dbef45bde54ee9bc673"
+    },
+    {
+      "path": "blacklist/img/联生活1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab8d083035509f9b72a35087a088dc577de53a29",
+      "size": 347882,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/ab8d083035509f9b72a35087a088dc577de53a29"
+    },
+    {
+      "path": "blacklist/img/联生活2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cd557c720c903c865f305a364591c672aace281",
+      "size": 170252,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/8cd557c720c903c865f305a364591c672aace281"
+    },
+    {
+      "path": "blacklist/img/联生活3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27a0972f08876705e1651a763511926881bf377f",
+      "size": 1378783,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/27a0972f08876705e1651a763511926881bf377f"
+    },
+    {
+      "path": "blacklist/img/蓝鸽集团_周末打卡.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99d28288369f5d857182b2b06af3b85dafbd483a",
+      "size": 188726,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/99d28288369f5d857182b2b06af3b85dafbd483a"
+    },
+    {
+      "path": "blacklist/img/蓝鸽集团_聊天记录.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ab86d84d998e3b3a30ce2d178c66950811be385",
+      "size": 20304,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/8ab86d84d998e3b3a30ce2d178c66950811be385"
+    },
+    {
+      "path": "blacklist/img/蝴蝶互动-报告委托截图-0.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27cff7cc09c592d58d359b04708f1f7e13a4a9d9",
+      "size": 100337,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/27cff7cc09c592d58d359b04708f1f7e13a4a9d9"
+    },
+    {
+      "path": "blacklist/img/蝴蝶互动-报告委托截图-1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "235299c9b1e9fd113bc180a95021dfb733c890b8",
+      "size": 37746,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/235299c9b1e9fd113bc180a95021dfb733c890b8"
+    },
+    {
+      "path": "blacklist/img/蝴蝶互动-聊天记录.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f84eb14ee90391d9eff019db09a0f23368362e16",
+      "size": 8751,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/f84eb14ee90391d9eff019db09a0f23368362e16"
+    },
+    {
+      "path": "blacklist/img/赢海科技-内部群截图1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "876a9ba1bb310cee32ef904f8b76575d5ee36532",
+      "size": 59368,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/876a9ba1bb310cee32ef904f8b76575d5ee36532"
+    },
+    {
+      "path": "blacklist/img/赢海科技-内部群截图2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9d99f20d123d02033d14b34e42d7b9dd703ea69",
+      "size": 98369,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/e9d99f20d123d02033d14b34e42d7b9dd703ea69"
+    },
+    {
+      "path": "blacklist/img/赢海科技-内部群截图3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a64808a72ff4db8b986bc00085bdd420db879614",
+      "size": 120452,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/a64808a72ff4db8b986bc00085bdd420db879614"
+    },
+    {
+      "path": "blacklist/img/道桥部群聊截图.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03c19cfe1c7a1ac092352235f94e3ddf0c7f8770",
+      "size": 554619,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/03c19cfe1c7a1ac092352235f94e3ddf0c7f8770"
+    },
+    {
+      "path": "blacklist/img/道桥部群聊截图1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f671fdb5d421b5cc35d8f0171674e8da5c2158ae",
+      "size": 566350,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/f671fdb5d421b5cc35d8f0171674e8da5c2158ae"
+    },
+    {
+      "path": "blacklist/img/道桥部群聊截图2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b64a477218f5111da7f87ddc586cc5fa53aa1c1",
+      "size": 545427,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/7b64a477218f5111da7f87ddc586cc5fa53aa1c1"
+    },
+    {
+      "path": "blacklist/img/邻趣工作群截图.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58d28e0e775b51bd59076a4f005ebc4de25dc1b8",
+      "size": 104979,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/58d28e0e775b51bd59076a4f005ebc4de25dc1b8"
+    },
+    {
+      "path": "blacklist/img/邻趣工作群截图2.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57c50f70baa02a952e073bcf023fc5ae6f8c3453",
+      "size": 142478,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/57c50f70baa02a952e073bcf023fc5ae6f8c3453"
+    },
+    {
+      "path": "blacklist/img/邻趣工作群截图3.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55fb844be0c605599e14d8024c20e6789183d594",
+      "size": 168560,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/55fb844be0c605599e14d8024c20e6789183d594"
+    },
+    {
+      "path": "blacklist/img/金山软件-9106.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f765df027fdfee5fe5d6b8c0fe5a8c3df0d1e784",
+      "size": 13417,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/f765df027fdfee5fe5d6b8c0fe5a8c3df0d1e784"
+    },
+    {
+      "path": "blacklist/kuaishou宣布996-20190619.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "555e31d320c8bc31d7a9b5dfb897b542c9f838f5",
+      "size": 905552,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/555e31d320c8bc31d7a9b5dfb897b542c9f838f5"
+    },
+    {
+      "path": "blacklist/蚂蚁金服996嘲讽微信.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8797696556a809663275fce38106ada08202afa",
+      "size": 619802,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/f8797696556a809663275fce38106ada08202afa"
+    },
+    {
+      "path": "externals",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e775531de91c7b24e4034b1491346063c618814e",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/e775531de91c7b24e4034b1491346063c618814e"
+    },
+    {
+      "path": "externals/article_and_discussion.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd68806db3f97eb86051f128f6936e0f13086766",
+      "size": 4151,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/dd68806db3f97eb86051f128f6936e0f13086766"
+    },
+    {
+      "path": "externals/exposure.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85cbe99d2f79fc0fbad9465ee39e6ba3fb132ebc",
+      "size": 868,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/85cbe99d2f79fc0fbad9465ee39e6ba3fb132ebc"
+    },
+    {
+      "path": "externals/instruction.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccfb9d9cedae42d39b9205e950c58f19fd01624e",
+      "size": 1275,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/ccfb9d9cedae42d39b9205e950c58f19fd01624e"
+    },
+    {
+      "path": "externals/music.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52dee39846aa108fa5f5f6e6bd4098238dffa5fa",
+      "size": 6313,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/52dee39846aa108fa5f5f6e6bd4098238dffa5fa"
+    },
+    {
+      "path": "externals/mutual_help.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6ffadaa0c788ea86f88f9e6b919f607109cb912",
+      "size": 3613,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/d6ffadaa0c788ea86f88f9e6b919f607109cb912"
+    },
+    {
+      "path": "externals/news.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7772049dc69ab49e7c17a1f5acbbc8ca1cd093fa",
+      "size": 18468,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/7772049dc69ab49e7c17a1f5acbbc8ca1cd093fa"
+    },
+    {
+      "path": "externals/news_EN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a73cd6af357790d596731e4aa59c6552af9c6eb5",
+      "size": 8469,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/a73cd6af357790d596731e4aa59c6552af9c6eb5"
+    },
+    {
+      "path": "externals/official.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f18a7c0306968dba5da18e8d42702bf575bec6d0",
+      "size": 197,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/f18a7c0306968dba5da18e8d42702bf575bec6d0"
+    },
+    {
+      "path": "externals/video.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d0a7457bbff7f2cdd0f1587459a4ee7302ea7d7",
+      "size": 110,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/2d0a7457bbff7f2cdd0f1587459a4ee7302ea7d7"
+    },
+    {
+      "path": "i18n",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fb81f0b8b3c91dffc365e09ef3c998bf1c9c0162",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/fb81f0b8b3c91dffc365e09ef3c998bf1c9c0162"
+    },
+    {
+      "path": "i18n/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1d7f19b3d240583e0b258e496b6c2994f7889ff",
+      "size": 801,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/d1d7f19b3d240583e0b258e496b6c2994f7889ff"
+    },
+    {
+      "path": "i18n/ar_EG.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48f51110c910c8bd38f1b5854e2f6c61a8844a1e",
+      "size": 11247,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/48f51110c910c8bd38f1b5854e2f6c61a8844a1e"
+    },
+    {
+      "path": "i18n/ca_ES.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8fba61292ec57201bb4cfe4362e851c88288168",
+      "size": 8550,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/e8fba61292ec57201bb4cfe4362e851c88288168"
+    },
+    {
+      "path": "i18n/de_DE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45b4a78e3b48532fe9fa3e04e67f98f1ef2d19eb",
+      "size": 2584,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/45b4a78e3b48532fe9fa3e04e67f98f1ef2d19eb"
+    },
+    {
+      "path": "i18n/el_GR.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0937c735af0dc481d7c5b3ba42e90c7a67febbd",
+      "size": 9385,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/e0937c735af0dc481d7c5b3ba42e90c7a67febbd"
+    },
+    {
+      "path": "i18n/en_US.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cfadecc0fa346aeb1c2219a912085f062b41c16",
+      "size": 7889,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/8cfadecc0fa346aeb1c2219a912085f062b41c16"
+    },
+    {
+      "path": "i18n/epo.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d6657f7752a279a7590d428a8a671af5448e814",
+      "size": 3705,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/5d6657f7752a279a7590d428a8a671af5448e814"
+    },
+    {
+      "path": "i18n/es_ES.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c098f300030a7c57027c8f0ce22b3ae57b745c59",
+      "size": 3270,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/c098f300030a7c57027c8f0ce22b3ae57b745c59"
+    },
+    {
+      "path": "i18n/es_MX.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "091a336ca68ea016cffb7731ca9f520cc01d2cff",
+      "size": 2755,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/091a336ca68ea016cffb7731ca9f520cc01d2cff"
+    },
+    {
+      "path": "i18n/fa_IR.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1bfa02c8e0e03d08ad832aae8265b561e34161d",
+      "size": 5537,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/c1bfa02c8e0e03d08ad832aae8265b561e34161d"
+    },
+    {
+      "path": "i18n/fi_FI.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dabd4442fcc0c1b892dd1e562bd0fafee74ea3f",
+      "size": 7613,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/9dabd4442fcc0c1b892dd1e562bd0fafee74ea3f"
+    },
+    {
+      "path": "i18n/fr_FR.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4bdb43dff9bbb46b65c3ecedbb576c2e4127aef",
+      "size": 6051,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/b4bdb43dff9bbb46b65c3ecedbb576c2e4127aef"
+    },
+    {
+      "path": "i18n/ga.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4e1510f01204b7c8e67265152ed0ca01e0c4b34",
+      "size": 8827,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/a4e1510f01204b7c8e67265152ed0ca01e0c4b34"
+    },
+    {
+      "path": "i18n/gsw_CH.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2a9da965fa7c4279020b24b281ee168ce0a5c56",
+      "size": 2148,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/b2a9da965fa7c4279020b24b281ee168ce0a5c56"
+    },
+    {
+      "path": "i18n/hin.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c08a9f13df72abe84ed84a11ce7771cc0c712f8",
+      "size": 12449,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/9c08a9f13df72abe84ed84a11ce7771cc0c712f8"
+    },
+    {
+      "path": "i18n/it_IT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65cccb6c5f958bf55ff7cef5ef6f058b04e49734",
+      "size": 2137,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/65cccb6c5f958bf55ff7cef5ef6f058b04e49734"
+    },
+    {
+      "path": "i18n/ja_JP.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd7baf01e15f2f6629af6cc4aebdbee0b609e4e0",
+      "size": 4680,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/fd7baf01e15f2f6629af6cc4aebdbee0b609e4e0"
+    },
+    {
+      "path": "i18n/ko_KR.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "702d950f546e62390938edc20538aa906bf9252e",
+      "size": 6749,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/702d950f546e62390938edc20538aa906bf9252e"
+    },
+    {
+      "path": "i18n/my_MY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37e02b65d28c0a5fdfb2a86565a96ab6bed05164",
+      "size": 5895,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/37e02b65d28c0a5fdfb2a86565a96ab6bed05164"
+    },
+    {
+      "path": "i18n/nl_NL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a4924cee264ecb1c0eae39bbadfbf090bff2cb3",
+      "size": 7962,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/3a4924cee264ecb1c0eae39bbadfbf090bff2cb3"
+    },
+    {
+      "path": "i18n/pt_BR.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51795fa8279e43dc24a637bf56f3e24a6ea8ade8",
+      "size": 3341,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/51795fa8279e43dc24a637bf56f3e24a6ea8ade8"
+    },
+    {
+      "path": "i18n/pt_PT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1afde73cea9d7a247e6f8d7e1bf4e33b2f4800a0",
+      "size": 3329,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/1afde73cea9d7a247e6f8d7e1bf4e33b2f4800a0"
+    },
+    {
+      "path": "i18n/ru_RU.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04bf3f50306e9a9f6f2d17075321b3b7c4d1b904",
+      "size": 6780,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/04bf3f50306e9a9f6f2d17075321b3b7c4d1b904"
+    },
+    {
+      "path": "i18n/se_SE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce3028fff8391bb1403da363105f089d3e82450a",
+      "size": 2956,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/ce3028fff8391bb1403da363105f089d3e82450a"
+    },
+    {
+      "path": "i18n/sn_LK.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5183ec1be3190e137b1d778c17dd270593b78ed7",
+      "size": 17761,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/5183ec1be3190e137b1d778c17dd270593b78ed7"
+    },
+    {
+      "path": "i18n/tg_TG.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f274105429fa6305a6db901a3aa2e75b57246ead",
+      "size": 6311,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/f274105429fa6305a6db901a3aa2e75b57246ead"
+    },
+    {
+      "path": "i18n/th_TH.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3223a8bc97bbf1503724194c5b8e33419cc4365",
+      "size": 9479,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/f3223a8bc97bbf1503724194c5b8e33419cc4365"
+    },
+    {
+      "path": "i18n/tlh.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc5f8f4399025396804227591da5bdcb4bb6c3cf",
+      "size": 2327,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/fc5f8f4399025396804227591da5bdcb4bb6c3cf"
+    },
+    {
+      "path": "i18n/tr_TR.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c4167d9ac0264ab1adedc580fcda902a868bc55",
+      "size": 7806,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/1c4167d9ac0264ab1adedc580fcda902a868bc55"
+    },
+    {
+      "path": "i18n/vi_VN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9386ff86bc24a995be0647b70af94766151ddde1",
+      "size": 9744,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/9386ff86bc24a995be0647b70af94766151ddde1"
+    },
+    {
+      "path": "i18n/yue_CN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb31af671e69d7edb216c24e1402f63d566c2fef",
+      "size": 3950,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/eb31af671e69d7edb216c24e1402f63d566c2fef"
+    },
+    {
+      "path": "i18n/zh-Hans.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17f82f27eb0948ee7424f8ab268c953da95fcd92",
+      "size": 7045,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/17f82f27eb0948ee7424f8ab268c953da95fcd92"
+    },
+    {
+      "path": "i18n/zh-Hant-HK.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7b9bbffd90fb07a34bd605c5c5617df7bfab914",
+      "size": 7047,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/b7b9bbffd90fb07a34bd605c5c5617df7bfab914"
+    },
+    {
+      "path": "i18n/zh-Hant.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e956afb7b9690fcac07b4448df28e34be8cde3c9",
+      "size": 7013,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/e956afb7b9690fcac07b4448df28e34be8cde3c9"
+    },
+    {
+      "path": "i18n/zh-lzh-Hans.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67e17de410993a1d05899db56972ce460b59b732",
+      "size": 2897,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/67e17de410993a1d05899db56972ce460b59b732"
+    },
+    {
+      "path": "i18n/zh-lzh-Hant.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f97a1cb8dd6f93b80729338d91537246f13a6f11",
+      "size": 1326,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/f97a1cb8dd6f93b80729338d91537246f13a6f11"
+    },
+    {
+      "path": "logo.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e0ab70a349e8d53b94d2940f43b591a886143ae",
+      "size": 2031,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/9e0ab70a349e8d53b94d2940f43b591a886143ae"
+    },
+    {
+      "path": "proposal",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "93f43aa7d3ecc8997602f16322ddab5668e199ec",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/93f43aa7d3ecc8997602f16322ddab5668e199ec"
+    },
+    {
+      "path": "proposal/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ddbd427a7b095a6e7f24df1f6a6c1fb7c643d43",
+      "size": 1077,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/2ddbd427a7b095a6e7f24df1f6a6c1fb7c643d43"
+    },
+    {
+      "path": "proposal/proposal_blockchain_evidence_online.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5a71536ccc989c8999f07b5ab0653156cb46663",
+      "size": 2387,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/a5a71536ccc989c8999f07b5ab0653156cb46663"
+    },
+    {
+      "path": "proposal/proposal_for_expanding_the_anti996license_for_more_fields.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e5c2d2f8b669df3a9dc6272f0e59f3668762b41",
+      "size": 2479,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/6e5c2d2f8b669df3a9dc6272f0e59f3668762b41"
+    },
+    {
+      "path": "proposal/proposal_for_other_types_of_work.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c46f65838ffdfc56eb6b95519520f2d38ac619d5",
+      "size": 1539,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/c46f65838ffdfc56eb6b95519520f2d38ac619d5"
+    },
+    {
+      "path": "proposal/proposal_gonghui.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05d65573bae870c1d90c37891d54f0974b3a81af",
+      "size": 2826,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/05d65573bae870c1d90c37891d54f0974b3a81af"
+    },
+    {
+      "path": "proposal/proposal_roadmap.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a99917cb5b68bac864bd5d0833f44c7526b6f35",
+      "size": 2864,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/5a99917cb5b68bac864bd5d0833f44c7526b6f35"
+    },
+    {
+      "path": "proposal/proposal_template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0bbfe5dc753e89cc484de3a7901e4d5aa89d56a",
+      "size": 1890,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/c0bbfe5dc753e89cc484de3a7901e4d5aa89d56a"
+    },
+    {
+      "path": "proposal/proposal_to_request_github_official_including_996icu_license.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f0dc41172c12e991857b3c85d26bdf81532cb61",
+      "size": 5756,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/7f0dc41172c12e991857b3c85d26bdf81532cb61"
+    },
+    {
+      "path": "remotelist",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e5de1b6caa4c2a06cea0cc74a1dc61ae0d1e749a",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/e5de1b6caa4c2a06cea0cc74a1dc61ae0d1e749a"
+    },
+    {
+      "path": "remotelist/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8fc31f78c1b191b8298576b1fb1894cbf39a014",
+      "size": 593,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/d8fc31f78c1b191b8298576b1fb1894cbf39a014"
+    },
+    {
+      "path": "remotelist/beijing",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bcfedff7e3c002faf16be5153ff0d3a65c9a3d61",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/bcfedff7e3c002faf16be5153ff0d3a65c9a3d61"
+    },
+    {
+      "path": "remotelist/beijing/remotelist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ef3632cc8c5e5881f7e981363ebee8f8680a182",
+      "size": 210,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/3ef3632cc8c5e5881f7e981363ebee8f8680a182"
+    },
+    {
+      "path": "remotelist/guangzhou",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "319812630f4936bbaaf85ac90caae46ec5bc3e5e",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/319812630f4936bbaaf85ac90caae46ec5bc3e5e"
+    },
+    {
+      "path": "remotelist/guangzhou/remotelist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5ead62c46287c93c2b0f50aed42aa91cbca6b5d",
+      "size": 124,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/d5ead62c46287c93c2b0f50aed42aa91cbca6b5d"
+    },
+    {
+      "path": "remotelist/hangzhou",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b9250d20806c63cb3d452e4dced3cdd977eedc43",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/b9250d20806c63cb3d452e4dced3cdd977eedc43"
+    },
+    {
+      "path": "remotelist/hangzhou/remotelist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc02e0848571e3b33805d9f7866cd65c360073ee",
+      "size": 115,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/fc02e0848571e3b33805d9f7866cd65c360073ee"
+    },
+    {
+      "path": "remotelist/shanghai",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8e648246edc3591f85524d2d7765b00fdf531210",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/8e648246edc3591f85524d2d7765b00fdf531210"
+    },
+    {
+      "path": "remotelist/shanghai/remotelist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a21fb3e318acb5ed9351b75a2439e47a67479b4b",
+      "size": 255,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/a21fb3e318acb5ed9351b75a2439e47a67479b4b"
+    },
+    {
+      "path": "remotelist/shenzhen",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6ce77f81579d1fbd90816ce716601187a2edc63b",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/6ce77f81579d1fbd90816ce716601187a2edc63b"
+    },
+    {
+      "path": "remotelist/shenzhen/remotelist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3c9432c616347e147ed073e5ac2cbf9626418c3",
+      "size": 124,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/f3c9432c616347e147ed073e5ac2cbf9626418c3"
+    },
+    {
+      "path": "whitelist",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "04b19edafee356aeea7b21b6cff1242df31b378f",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/04b19edafee356aeea7b21b6cff1242df31b378f"
+    },
+    {
+      "path": "whitelist/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "867128ee7bd95908f12358ff0af186c63b15ee04",
+      "size": 2901,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/867128ee7bd95908f12358ff0af186c63b15ee04"
+    },
+    {
+      "path": "whitelist/img",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0ad3b60125b30a8d5192bd05d7691871bf717eef",
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/trees/0ad3b60125b30a8d5192bd05d7691871bf717eef"
+    },
+    {
+      "path": "whitelist/img/30wish.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe14dcc434fb13d3d658c71d5573d367e3c92a5c",
+      "size": 75615,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/fe14dcc434fb13d3d658c71d5573d367e3c92a5c"
+    },
+    {
+      "path": "whitelist/img/PaodingAI-wiki.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac97c06fdd4fe33b1467e5dadecc364818638d86",
+      "size": 114338,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/ac97c06fdd4fe33b1467e5dadecc364818638d86"
+    },
+    {
+      "path": "whitelist/img/chain33.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7b4c1646ed7e9475fb3338f5afbb37693f4165d",
+      "size": 104236,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/d7b4c1646ed7e9475fb3338f5afbb37693f4165d"
+    },
+    {
+      "path": "whitelist/img/chillyroom_prove.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e73874c58305feafe4797aa412d7a9669acdf59",
+      "size": 220659,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/5e73874c58305feafe4797aa412d7a9669acdf59"
+    },
+    {
+      "path": "whitelist/img/gwbn.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1979b663051616497cd4ed686cebfafe2ee89e79",
+      "size": 170489,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/1979b663051616497cd4ed686cebfafe2ee89e79"
+    },
+    {
+      "path": "whitelist/img/mgtv.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d59d4479cc3ffedb801e74454393a5bc3dd61aa",
+      "size": 171324,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/1d59d4479cc3ffedb801e74454393a5bc3dd61aa"
+    },
+    {
+      "path": "whitelist/img/timing_20190401111520.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c3b5b80e402c5e35c61a4e6c6946505bb0712f2",
+      "size": 45285,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/4c3b5b80e402c5e35c61a4e6c6946505bb0712f2"
+    },
+    {
+      "path": "whitelist/img/uinnova.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c63576f38262cfed6c458ffb5c88d548b6d2eb7a",
+      "size": 19321,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/c63576f38262cfed6c458ffb5c88d548b6d2eb7a"
+    },
+    {
+      "path": "whitelist/img/yuzhi_nlp.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b31f4dda344b440afed7adcb2bc32fe8d8829f6d",
+      "size": 8588,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/b31f4dda344b440afed7adcb2bc32fe8d8829f6d"
+    },
+    {
+      "path": "whitelist/img/yvtime.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "660753ba3f2cbbe8954cf25f2b004b101cbb7806",
+      "size": 1387587,
+      "url": "https://api.github.com/repos/996icu/996.ICU/git/blobs/660753ba3f2cbbe8954cf25f2b004b101cbb7806"
+    }
+  ],
+  "truncated": false
+}

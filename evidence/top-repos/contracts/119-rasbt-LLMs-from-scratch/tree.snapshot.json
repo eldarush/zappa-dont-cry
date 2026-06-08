@@ -1,0 +1,3457 @@
+{
+  "sha": "ff0b3d92e3383f52aa732366024c601c45d869a6",
+  "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/ff0b3d92e3383f52aa732366024c601c45d869a6",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "65dc7cd507df8e9f6bc313ee32fa7699c44efd0a",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/65dc7cd507df8e9f6bc313ee32fa7699c44efd0a"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c147a8c4e360292ec867cf0b1fe0a1ee4b29a7f2",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/c147a8c4e360292ec867cf0b1fe0a1ee4b29a7f2"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/ask-a-question.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6c11d6249054de53c8a4eebab60e5ccb3e80e9d",
+      "size": 290,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/e6c11d6249054de53c8a4eebab60e5ccb3e80e9d"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug-report.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1aef230eeddd0ca951bcd484eecb51f94eed890a",
+      "size": 2607,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/1aef230eeddd0ca951bcd484eecb51f94eed890a"
+    },
+    {
+      "path": ".github/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5eeecc05ea1af4de9785672e1b756467a917d1cc",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/5eeecc05ea1af4de9785672e1b756467a917d1cc"
+    },
+    {
+      "path": ".github/scripts/check_double_quotes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef43ff1c6e5617f6115f99ce7ff87631f2a933e3",
+      "size": 4709,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/ef43ff1c6e5617f6115f99ce7ff87631f2a933e3"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2b6bbf146f2a74e1c131fecefb03b0f520066c17",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/2b6bbf146f2a74e1c131fecefb03b0f520066c17"
+    },
+    {
+      "path": ".github/workflows/basic-tests-latest-python.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "555740535c40ae47ea003f9f68fdabcc744749f2",
+      "size": 1363,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/555740535c40ae47ea003f9f68fdabcc744749f2"
+    },
+    {
+      "path": ".github/workflows/basic-tests-linux-uv.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1b137d74b67f125ef944fc2d67be2ca93d4685b",
+      "size": 2559,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/f1b137d74b67f125ef944fc2d67be2ca93d4685b"
+    },
+    {
+      "path": ".github/workflows/basic-tests-macos-uv.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cac9f049d95be75a2d57ab7f21c49c97b7330a4",
+      "size": 1989,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/3cac9f049d95be75a2d57ab7f21c49c97b7330a4"
+    },
+    {
+      "path": ".github/workflows/basic-tests-old-pytorch.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fec38842eb1f41a6f00d6971a7d424034575c3ab",
+      "size": 1585,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/fec38842eb1f41a6f00d6971a7d424034575c3ab"
+    },
+    {
+      "path": ".github/workflows/basic-tests-pip.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28fa54fa162337087e4f2540148c5dcbfe7d431c",
+      "size": 1867,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/28fa54fa162337087e4f2540148c5dcbfe7d431c"
+    },
+    {
+      "path": ".github/workflows/basic-tests-pixi.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb7de3474130fe56c7f9db9956f4c5867982d75d",
+      "size": 1650,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/bb7de3474130fe56c7f9db9956f4c5867982d75d"
+    },
+    {
+      "path": ".github/workflows/basic-tests-pytorch-rc.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b525f1310ea33abf6c8e911e257da1e63fa3a54",
+      "size": 1512,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/7b525f1310ea33abf6c8e911e257da1e63fa3a54"
+    },
+    {
+      "path": ".github/workflows/basic-tests-windows-uv-pip.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d304e44d1e5c24b2b8497ea94148888af74884d",
+      "size": 2015,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/7d304e44d1e5c24b2b8497ea94148888af74884d"
+    },
+    {
+      "path": ".github/workflows/basic-tests-windows-uv-pip.yml.disabled",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4aa7bc58049c2c47e85f666c52bc6dac84c7f170",
+      "size": 2076,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/4aa7bc58049c2c47e85f666c52bc6dac84c7f170"
+    },
+    {
+      "path": ".github/workflows/basic-tests-windows-uv.yml.disabled",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d06ac8fa2b6208a4d64d1570df69d769c45456d1",
+      "size": 1902,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/d06ac8fa2b6208a4d64d1570df69d769c45456d1"
+    },
+    {
+      "path": ".github/workflows/check-links.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c75447160fa4fdd3af6c2e58fad2bb07ad7f8fe4",
+      "size": 1485,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/c75447160fa4fdd3af6c2e58fad2bb07ad7f8fe4"
+    },
+    {
+      "path": ".github/workflows/check-spelling-errors.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e6c2fd9c20b6dd4f8a05686a560bc4f3a3b6c95",
+      "size": 637,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/5e6c2fd9c20b6dd4f8a05686a560bc4f3a3b6c95"
+    },
+    {
+      "path": ".github/workflows/pep8-linter.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8596569a2294fc4fb7e30c8d30bd99316df3e1fe",
+      "size": 583,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/8596569a2294fc4fb7e30c8d30bd99316df3e1fe"
+    },
+    {
+      "path": ".github/workflows/required-checks.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d113ceaee5c298a9ac7b676001f2b5a8fb2b3ade",
+      "size": 4742,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/d113ceaee5c298a9ac7b676001f2b5a8fb2b3ade"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef8a15893db6b287e77db00cb32c8c34954b6939",
+      "size": 9032,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/ef8a15893db6b287e77db00cb32c8c34954b6939"
+    },
+    {
+      "path": ".gitmodules",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0334313fb6a8cee774b66c7ff1202ae74a7f460b",
+      "size": 138,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/0334313fb6a8cee774b66c7ff1202ae74a7f460b"
+    },
+    {
+      "path": "CITATION.cff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38fa8f21b904159b1c0ef23df94199a006aca465",
+      "size": 746,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/38fa8f21b904159b1c0ef23df94199a006aca465"
+    },
+    {
+      "path": "LICENSE.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5d8d0bc15d82220a0cedf7e4f757a33632f72ff",
+      "size": 11505,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/b5d8d0bc15d82220a0cedf7e4f757a33632f72ff"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c2e00caab2dd63da99637f25f88cb28cacd5ba8",
+      "size": 18790,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/4c2e00caab2dd63da99637f25f88cb28cacd5ba8"
+    },
+    {
+      "path": "appendix-A",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8b97746ceb73bd897d597ad1c8389650c5b4faf2",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/8b97746ceb73bd897d597ad1c8389650c5b4faf2"
+    },
+    {
+      "path": "appendix-A/01_main-chapter-code",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3c221b6a97b9682354fa87c633deaa320e456e7e",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/3c221b6a97b9682354fa87c633deaa320e456e7e"
+    },
+    {
+      "path": "appendix-A/01_main-chapter-code/DDP-script-torchrun.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fe44b15d0389b48b287584b8efb250fc2dcc674",
+      "size": 7113,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/8fe44b15d0389b48b287584b8efb250fc2dcc674"
+    },
+    {
+      "path": "appendix-A/01_main-chapter-code/DDP-script.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9350466c0f9734b46e8d9055fa086228ec8a3e01",
+      "size": 6963,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/9350466c0f9734b46e8d9055fa086228ec8a3e01"
+    },
+    {
+      "path": "appendix-A/01_main-chapter-code/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a6787e631e86d61222c110bfd4dca1eea35aa1f",
+      "size": 1214,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/2a6787e631e86d61222c110bfd4dca1eea35aa1f"
+    },
+    {
+      "path": "appendix-A/01_main-chapter-code/code-part1.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac00d3b3bdace432e37247e9080e5da6f41f8963",
+      "size": 31619,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/ac00d3b3bdace432e37247e9080e5da6f41f8963"
+    },
+    {
+      "path": "appendix-A/01_main-chapter-code/code-part2.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "870fb772ab2922d22d774d2da8f2c4e1e42bf17a",
+      "size": 12760,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/870fb772ab2922d22d774d2da8f2c4e1e42bf17a"
+    },
+    {
+      "path": "appendix-A/01_main-chapter-code/exercise-solutions.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72b06f5e2e369a324ba1eadb17b1cea0e456e484",
+      "size": 5090,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/72b06f5e2e369a324ba1eadb17b1cea0e456e484"
+    },
+    {
+      "path": "appendix-A/02_setup-recommendations",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "48097a43651812ef1d136162ba7b088f30d4266f",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/48097a43651812ef1d136162ba7b088f30d4266f"
+    },
+    {
+      "path": "appendix-A/02_setup-recommendations/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54736a01263b3131e1ad3693e21e1a531aee60b4",
+      "size": 193,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/54736a01263b3131e1ad3693e21e1a531aee60b4"
+    },
+    {
+      "path": "appendix-A/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75db721910c615418b893f1a8c986dddc33da213",
+      "size": 284,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/75db721910c615418b893f1a8c986dddc33da213"
+    },
+    {
+      "path": "appendix-B",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "01ee3da4bb484d27e677e213a28b650a3b3ea523",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/01ee3da4bb484d27e677e213a28b650a3b3ea523"
+    },
+    {
+      "path": "appendix-B/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9a237bd3987799493250c605f4d7ae6fed5bb0f",
+      "size": 74,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/e9a237bd3987799493250c605f4d7ae6fed5bb0f"
+    },
+    {
+      "path": "appendix-C",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "27ca3b4fda42d81266f9ef0280829a23827ba091",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/27ca3b4fda42d81266f9ef0280829a23827ba091"
+    },
+    {
+      "path": "appendix-C/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3476deb6b70119032af6c0f526941ee89bb2fd02",
+      "size": 563,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/3476deb6b70119032af6c0f526941ee89bb2fd02"
+    },
+    {
+      "path": "appendix-D",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9a602b8b67e9d3393f6254641390df694a45d144",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/9a602b8b67e9d3393f6254641390df694a45d144"
+    },
+    {
+      "path": "appendix-D/01_main-chapter-code",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e590fa971c8c43d7e07a54b48b936accae9c9cec",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/e590fa971c8c43d7e07a54b48b936accae9c9cec"
+    },
+    {
+      "path": "appendix-D/01_main-chapter-code/appendix-D.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1177f0f46692c854ca2e8a8029137f173314f47",
+      "size": 131693,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/e1177f0f46692c854ca2e8a8029137f173314f47"
+    },
+    {
+      "path": "appendix-D/01_main-chapter-code/previous_chapters.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38b062f0767e027c8372c6293cdf12ed4f34223c",
+      "size": 11489,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/38b062f0767e027c8372c6293cdf12ed4f34223c"
+    },
+    {
+      "path": "appendix-D/01_main-chapter-code/the-verdict.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b651c7cdfa3ebb7d7e9bfbd1420f6d220d47bc8",
+      "size": 20479,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/6b651c7cdfa3ebb7d7e9bfbd1420f6d220d47bc8"
+    },
+    {
+      "path": "appendix-D/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1610e060feb74841589186f50092f3b7a850533c",
+      "size": 140,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/1610e060feb74841589186f50092f3b7a850533c"
+    },
+    {
+      "path": "appendix-E",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "37a9657c8b36bf32affb701c86ebb3735c9d0cdd",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/37a9657c8b36bf32affb701c86ebb3735c9d0cdd"
+    },
+    {
+      "path": "appendix-E/01_main-chapter-code",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fc2444870e7448b28cefdcf79ef302f29e7555cc",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/fc2444870e7448b28cefdcf79ef302f29e7555cc"
+    },
+    {
+      "path": "appendix-E/01_main-chapter-code/appendix-E.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d798ed71750023209436862e3454bfbd1734a1e",
+      "size": 81326,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/9d798ed71750023209436862e3454bfbd1734a1e"
+    },
+    {
+      "path": "appendix-E/01_main-chapter-code/gpt_download.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4ad38835acf29800b71d138045ed989bc7798b6",
+      "size": 6025,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/a4ad38835acf29800b71d138045ed989bc7798b6"
+    },
+    {
+      "path": "appendix-E/01_main-chapter-code/previous_chapters.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a3022f2e4d18aac4aab7951847c93892e18b366",
+      "size": 20536,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/2a3022f2e4d18aac4aab7951847c93892e18b366"
+    },
+    {
+      "path": "appendix-E/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a07d712701983b5e015b5b317339c00e508050f1",
+      "size": 134,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/a07d712701983b5e015b5b317339c00e508050f1"
+    },
+    {
+      "path": "ch01",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ebae0edcfce9e219015eee6188c9e13d5b51d71d",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/ebae0edcfce9e219015eee6188c9e13d5b51d71d"
+    },
+    {
+      "path": "ch01/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac3b776d8cff7fedbeb969db08ffcb29ec337d4c",
+      "size": 753,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/ac3b776d8cff7fedbeb969db08ffcb29ec337d4c"
+    },
+    {
+      "path": "ch01/reading-recommendations.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bb0ea8d6470f0aabe75b4f80b7a635750eee126",
+      "size": 5044,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/5bb0ea8d6470f0aabe75b4f80b7a635750eee126"
+    },
+    {
+      "path": "ch02",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8b897a61f4e2d72659f80b39816af215dc784b7d",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/8b897a61f4e2d72659f80b39816af215dc784b7d"
+    },
+    {
+      "path": "ch02/01_main-chapter-code",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "813c42ba0e38a2ce4aab3d2cb6cb214bccf177b7",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/813c42ba0e38a2ce4aab3d2cb6cb214bccf177b7"
+    },
+    {
+      "path": "ch02/01_main-chapter-code/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81c31c5822e214e77fc9e08c8d116437b57d8df6",
+      "size": 283,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/81c31c5822e214e77fc9e08c8d116437b57d8df6"
+    },
+    {
+      "path": "ch02/01_main-chapter-code/ch02.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53241d116966f19c8ab23a3a905a551496be4db1",
+      "size": 59032,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/53241d116966f19c8ab23a3a905a551496be4db1"
+    },
+    {
+      "path": "ch02/01_main-chapter-code/dataloader.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62b62f0998d1d55cf89204bebc4c71169df86027",
+      "size": 5837,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/62b62f0998d1d55cf89204bebc4c71169df86027"
+    },
+    {
+      "path": "ch02/01_main-chapter-code/exercise-solutions.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be23260d2f77353ca8c92cb58e12a04436f1a665",
+      "size": 9604,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/be23260d2f77353ca8c92cb58e12a04436f1a665"
+    },
+    {
+      "path": "ch02/01_main-chapter-code/the-verdict.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b651c7cdfa3ebb7d7e9bfbd1420f6d220d47bc8",
+      "size": 20479,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/6b651c7cdfa3ebb7d7e9bfbd1420f6d220d47bc8"
+    },
+    {
+      "path": "ch02/02_bonus_bytepair-encoder",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2a466bd9ccbcb06284ecf4ec15a17e93755e9214",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/2a466bd9ccbcb06284ecf4ec15a17e93755e9214"
+    },
+    {
+      "path": "ch02/02_bonus_bytepair-encoder/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30a194610c4794f9feb12f4eca2930ddcd5f84b3",
+      "size": 249,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/30a194610c4794f9feb12f4eca2930ddcd5f84b3"
+    },
+    {
+      "path": "ch02/02_bonus_bytepair-encoder/bpe_openai_gpt2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db1197835f853364011b4ec6f1897b4322f3ef81",
+      "size": 6634,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/db1197835f853364011b4ec6f1897b4322f3ef81"
+    },
+    {
+      "path": "ch02/02_bonus_bytepair-encoder/compare-bpe-tiktoken.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd42bb1f02562ae950db077078578c4fb841ecfa",
+      "size": 15983,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/bd42bb1f02562ae950db077078578c4fb841ecfa"
+    },
+    {
+      "path": "ch02/02_bonus_bytepair-encoder/gpt2_model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "de3ac756f1ed860391cd123771f154d3c58fa0fc",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/de3ac756f1ed860391cd123771f154d3c58fa0fc"
+    },
+    {
+      "path": "ch02/02_bonus_bytepair-encoder/gpt2_model/encoder.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f1d9aaca301414e7f6c9396df506798ff4eb9a6",
+      "size": 1042301,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/1f1d9aaca301414e7f6c9396df506798ff4eb9a6"
+    },
+    {
+      "path": "ch02/02_bonus_bytepair-encoder/gpt2_model/vocab.bpe",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "226b0752cac7789c48f0cb3ec53eda48b7be36cc",
+      "size": 456318,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/226b0752cac7789c48f0cb3ec53eda48b7be36cc"
+    },
+    {
+      "path": "ch02/02_bonus_bytepair-encoder/requirements-extra.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd1a94c09c6dd80d0f043467e88f82217b24e7a5",
+      "size": 35,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/cd1a94c09c6dd80d0f043467e88f82217b24e7a5"
+    },
+    {
+      "path": "ch02/03_bonus_embedding-vs-matmul",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e392c4ae9823ce1dd68cad5df1e6cb553fbeab9b",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/e392c4ae9823ce1dd68cad5df1e6cb553fbeab9b"
+    },
+    {
+      "path": "ch02/03_bonus_embedding-vs-matmul/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1f67efab4f7d2436a083057858390d3be3a4568",
+      "size": 254,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/a1f67efab4f7d2436a083057858390d3be3a4568"
+    },
+    {
+      "path": "ch02/03_bonus_embedding-vs-matmul/embeddings-and-linear-layers.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "527ee4087c5a2f1c0ec674cdca29f82b20ae73a7",
+      "size": 13727,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/527ee4087c5a2f1c0ec674cdca29f82b20ae73a7"
+    },
+    {
+      "path": "ch02/04_bonus_dataloader-intuition",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7a7fdb87e1481f6911c575ca2f3fb2ef6ce50e99",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/7a7fdb87e1481f6911c575ca2f3fb2ef6ce50e99"
+    },
+    {
+      "path": "ch02/04_bonus_dataloader-intuition/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54ea897674215037f25cf2cd5783e05e9fc51254",
+      "size": 209,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/54ea897674215037f25cf2cd5783e05e9fc51254"
+    },
+    {
+      "path": "ch02/04_bonus_dataloader-intuition/dataloader-intuition.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2255a21405a94feafda9b56fc962b050fbb5b337",
+      "size": 9818,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/2255a21405a94feafda9b56fc962b050fbb5b337"
+    },
+    {
+      "path": "ch02/05_bpe-from-scratch",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d5c7a0916e6a1aeaff46c1904e0d0277a379dcde",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/d5c7a0916e6a1aeaff46c1904e0d0277a379dcde"
+    },
+    {
+      "path": "ch02/05_bpe-from-scratch/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cf1f849bf3e391053ef9e695756d6aaf9468ba0",
+      "size": 534,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/0cf1f849bf3e391053ef9e695756d6aaf9468ba0"
+    },
+    {
+      "path": "ch02/05_bpe-from-scratch/bpe-from-scratch-simple.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eede14334f8a55165a291c6b5f1e6c829f23acd8",
+      "size": 36194,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/eede14334f8a55165a291c6b5f1e6c829f23acd8"
+    },
+    {
+      "path": "ch02/05_bpe-from-scratch/bpe-from-scratch.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "847ab0db8f53cad5883541b3e8d3f1c269bd848f",
+      "size": 55972,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/847ab0db8f53cad5883541b3e8d3f1c269bd848f"
+    },
+    {
+      "path": "ch02/05_bpe-from-scratch/tests.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cea966a5df1d160af8ac9b4ee7a9a42624188dff",
+      "size": 9831,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/cea966a5df1d160af8ac9b4ee7a9a42624188dff"
+    },
+    {
+      "path": "ch02/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b64e2547b4adc57665f52c39c70b71bbcdf4f89",
+      "size": 1098,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/8b64e2547b4adc57665f52c39c70b71bbcdf4f89"
+    },
+    {
+      "path": "ch03",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ee436fe5eb6614a76a75d2a927664be7b891b534",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/ee436fe5eb6614a76a75d2a927664be7b891b534"
+    },
+    {
+      "path": "ch03/01_main-chapter-code",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9f79008ed3d8555a5680ee6e41bc7fdbf7274e6e",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/9f79008ed3d8555a5680ee6e41bc7fdbf7274e6e"
+    },
+    {
+      "path": "ch03/01_main-chapter-code/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ead310d537a4575a32690998f4cc1dfd585f4a2",
+      "size": 307,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/5ead310d537a4575a32690998f4cc1dfd585f4a2"
+    },
+    {
+      "path": "ch03/01_main-chapter-code/ch03.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a7823ce29818c32e45d6edb9bf10c3caf50276f",
+      "size": 72134,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/5a7823ce29818c32e45d6edb9bf10c3caf50276f"
+    },
+    {
+      "path": "ch03/01_main-chapter-code/exercise-solutions.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f35431d4af408436502b0f953f9a00d00e4f1b54",
+      "size": 9435,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/f35431d4af408436502b0f953f9a00d00e4f1b54"
+    },
+    {
+      "path": "ch03/01_main-chapter-code/multihead-attention.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b58ee71132ecf04a85512c2093322f7d0eabf0d4",
+      "size": 12977,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/b58ee71132ecf04a85512c2093322f7d0eabf0d4"
+    },
+    {
+      "path": "ch03/01_main-chapter-code/small-text-sample.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f313354084f1d095cf471174d97a67415df7c94",
+      "size": 1962,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/8f313354084f1d095cf471174d97a67415df7c94"
+    },
+    {
+      "path": "ch03/02_bonus_efficient-multihead-attention",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "124a9f8366e69f70828a006ff13d947b6df5172f",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/124a9f8366e69f70828a006ff13d947b6df5172f"
+    },
+    {
+      "path": "ch03/02_bonus_efficient-multihead-attention/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a318caa36c4d1eb6d4c872e7a5e084d970079c0c",
+      "size": 938,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/a318caa36c4d1eb6d4c872e7a5e084d970079c0c"
+    },
+    {
+      "path": "ch03/02_bonus_efficient-multihead-attention/mha-implementations.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dc4b57e50aaed4afe701817a70c4bfe2e405fb7",
+      "size": 346919,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/8dc4b57e50aaed4afe701817a70c4bfe2e405fb7"
+    },
+    {
+      "path": "ch03/02_bonus_efficient-multihead-attention/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "614589cf23503356b6a822361ac474cd267d1a1f",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/614589cf23503356b6a822361ac474cd267d1a1f"
+    },
+    {
+      "path": "ch03/02_bonus_efficient-multihead-attention/tests/test_mha_implementations.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8f642c6c566630efa30daffb93c8cbf50c3c303",
+      "size": 1755,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/b8f642c6c566630efa30daffb93c8cbf50c3c303"
+    },
+    {
+      "path": "ch03/03_understanding-buffers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "57065a837f0adeeb4d3f63fd3bfa1bf61f714f42",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/57065a837f0adeeb4d3f63fd3bfa1bf61f714f42"
+    },
+    {
+      "path": "ch03/03_understanding-buffers/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a276c3fe3d7f0808e3dbc084d563ab47072105a",
+      "size": 409,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/9a276c3fe3d7f0808e3dbc084d563ab47072105a"
+    },
+    {
+      "path": "ch03/03_understanding-buffers/understanding-buffers.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de06dc69194af8b0854a09f43918b089a2f48712",
+      "size": 27660,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/de06dc69194af8b0854a09f43918b089a2f48712"
+    },
+    {
+      "path": "ch03/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "281c69dd41510722067a3d21a3036d65493319bd",
+      "size": 759,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/281c69dd41510722067a3d21a3036d65493319bd"
+    },
+    {
+      "path": "ch04",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "261552ee22719e70fbbcbaf379a943565f69892a",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/261552ee22719e70fbbcbaf379a943565f69892a"
+    },
+    {
+      "path": "ch04/01_main-chapter-code",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "65eb41aafa854446e190b4a26d323c672cc82fca",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/65eb41aafa854446e190b4a26d323c672cc82fca"
+    },
+    {
+      "path": "ch04/01_main-chapter-code/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62252b95831226af8d1a6cf71784c444573dd57c",
+      "size": 545,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/62252b95831226af8d1a6cf71784c444573dd57c"
+    },
+    {
+      "path": "ch04/01_main-chapter-code/ch04.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28ac9ac393d7f30ed1cd4e6155f0d964db962a38",
+      "size": 90355,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/28ac9ac393d7f30ed1cd4e6155f0d964db962a38"
+    },
+    {
+      "path": "ch04/01_main-chapter-code/exercise-solutions.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fad48ba1ba7ec67a80dd6de1dda66604ea9265b5",
+      "size": 14715,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/fad48ba1ba7ec67a80dd6de1dda66604ea9265b5"
+    },
+    {
+      "path": "ch04/01_main-chapter-code/gpt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85e37361e911bc98624f0c02f360617bde68b91b",
+      "size": 9675,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/85e37361e911bc98624f0c02f360617bde68b91b"
+    },
+    {
+      "path": "ch04/01_main-chapter-code/previous_chapters.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "716e7f85d7d51921650ff5ad50471d7ed6208643",
+      "size": 4199,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/716e7f85d7d51921650ff5ad50471d7ed6208643"
+    },
+    {
+      "path": "ch04/01_main-chapter-code/tests.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6448ef2f519db2586a6b66ca79f71c5f4188810a",
+      "size": 1353,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/6448ef2f519db2586a6b66ca79f71c5f4188810a"
+    },
+    {
+      "path": "ch04/02_performance-analysis",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "14607a3842e781069c13cb9372b867e6d91c0e91",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/14607a3842e781069c13cb9372b867e6d91c0e91"
+    },
+    {
+      "path": "ch04/02_performance-analysis/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a741ac89bd3a255759dac381cb0a53ef398aef3c",
+      "size": 363,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/a741ac89bd3a255759dac381cb0a53ef398aef3c"
+    },
+    {
+      "path": "ch04/02_performance-analysis/flops-analysis.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71e3a54652994fdbf4b5988392f6dd71a04c58f0",
+      "size": 19103,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/71e3a54652994fdbf4b5988392f6dd71a04c58f0"
+    },
+    {
+      "path": "ch04/02_performance-analysis/requirements-extra.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc842168edfae0cee7748a889d0a3486580ef475",
+      "size": 4,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/dc842168edfae0cee7748a889d0a3486580ef475"
+    },
+    {
+      "path": "ch04/03_kv-cache",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6934026afc5695fcd577f58db62b151202f11599",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/6934026afc5695fcd577f58db62b151202f11599"
+    },
+    {
+      "path": "ch04/03_kv-cache/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ee9044b16dd5c00258ad9366f14db3746c0531f",
+      "size": 13671,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/1ee9044b16dd5c00258ad9366f14db3746c0531f"
+    },
+    {
+      "path": "ch04/03_kv-cache/gpt_ch04.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a7dd6bd425fb21804429ba57fff6dc2c245d3f9",
+      "size": 8974,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/9a7dd6bd425fb21804429ba57fff6dc2c245d3f9"
+    },
+    {
+      "path": "ch04/03_kv-cache/gpt_with_kv_cache.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "760605b03a8c5c42eb12d4d1cdc8d682d3b18856",
+      "size": 13441,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/760605b03a8c5c42eb12d4d1cdc8d682d3b18856"
+    },
+    {
+      "path": "ch04/03_kv-cache/gpt_with_kv_cache_optimized.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98f15a6f0cbdd8137f24343189d971cb72d0eed4",
+      "size": 15955,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/98f15a6f0cbdd8137f24343189d971cb72d0eed4"
+    },
+    {
+      "path": "ch04/03_kv-cache/tests.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2452b5036e641c06fa2594dfa29790c4551c6a5",
+      "size": 6047,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/d2452b5036e641c06fa2594dfa29790c4551c6a5"
+    },
+    {
+      "path": "ch04/04_gqa",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7d28768ba69244bafa34e08106dcec98ebba43e1",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/7d28768ba69244bafa34e08106dcec98ebba43e1"
+    },
+    {
+      "path": "ch04/04_gqa/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98a005cff0deb281d33d8d261542fef67adb00f9",
+      "size": 5346,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/98a005cff0deb281d33d8d261542fef67adb00f9"
+    },
+    {
+      "path": "ch04/04_gqa/gpt_with_kv_gqa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0de3cfb4933fb251e79bac4d83230bae5dc7b08",
+      "size": 13853,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/c0de3cfb4933fb251e79bac4d83230bae5dc7b08"
+    },
+    {
+      "path": "ch04/04_gqa/gpt_with_kv_mha.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3c58173232ad57b13fe089fb3360d026ceacefb",
+      "size": 12901,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/c3c58173232ad57b13fe089fb3360d026ceacefb"
+    },
+    {
+      "path": "ch04/04_gqa/memory_estimator_gqa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3cc5923e1628c73733c1ecedb34ce50dbb155ec",
+      "size": 3109,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/c3cc5923e1628c73733c1ecedb34ce50dbb155ec"
+    },
+    {
+      "path": "ch04/04_gqa/plot_memory_estimates_gqa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53b8a944159037d7f4e70f1fad468551a51c09bb",
+      "size": 2455,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/53b8a944159037d7f4e70f1fad468551a51c09bb"
+    },
+    {
+      "path": "ch04/05_mla",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "220eec178896b6b5fca87099d74589f77c346dd7",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/220eec178896b6b5fca87099d74589f77c346dd7"
+    },
+    {
+      "path": "ch04/05_mla/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22e961f1d9154a47917b1ea318605cc77ac39612",
+      "size": 6214,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/22e961f1d9154a47917b1ea318605cc77ac39612"
+    },
+    {
+      "path": "ch04/05_mla/gpt_with_kv_mha.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c5abf86a75721bdbf6938c4cc5e88306bd58083",
+      "size": 12902,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/5c5abf86a75721bdbf6938c4cc5e88306bd58083"
+    },
+    {
+      "path": "ch04/05_mla/gpt_with_kv_mla.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d162308546e765e3d881a83aa5efc8df5238b652",
+      "size": 13217,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/d162308546e765e3d881a83aa5efc8df5238b652"
+    },
+    {
+      "path": "ch04/05_mla/memory_estimator_mla.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61ba99bf82a99ae4836f87672dddf6b30fbb00ea",
+      "size": 4202,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/61ba99bf82a99ae4836f87672dddf6b30fbb00ea"
+    },
+    {
+      "path": "ch04/05_mla/plot_memory_estimates_mla.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11205190c5db84f4c953bbf341e7fee454cfdcfb",
+      "size": 2821,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/11205190c5db84f4c953bbf341e7fee454cfdcfb"
+    },
+    {
+      "path": "ch04/06_swa",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "783d08a526759fabfbbca462c287338239f1112e",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/783d08a526759fabfbbca462c287338239f1112e"
+    },
+    {
+      "path": "ch04/06_swa/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b63551c8dac288a7a1f474b70b301c7d5b3d3299",
+      "size": 6074,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/b63551c8dac288a7a1f474b70b301c7d5b3d3299"
+    },
+    {
+      "path": "ch04/06_swa/gpt_with_kv_mha.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3c58173232ad57b13fe089fb3360d026ceacefb",
+      "size": 12901,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/c3c58173232ad57b13fe089fb3360d026ceacefb"
+    },
+    {
+      "path": "ch04/06_swa/gpt_with_kv_swa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4187bea005f282e2a45ebfdfed11305d336df917",
+      "size": 15412,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/4187bea005f282e2a45ebfdfed11305d336df917"
+    },
+    {
+      "path": "ch04/06_swa/memory_estimator_swa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20b91341116d7f062b8e8a27b94bbce0f0e92e2f",
+      "size": 5781,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/20b91341116d7f062b8e8a27b94bbce0f0e92e2f"
+    },
+    {
+      "path": "ch04/06_swa/plot_memory_estimates_swa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed66c366b963b599831597c65e1de01811c4d388",
+      "size": 7144,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/ed66c366b963b599831597c65e1de01811c4d388"
+    },
+    {
+      "path": "ch04/06_swa/tests.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ce30da1f6b68c7f32a2a8978f1c90a3422edd5d",
+      "size": 2434,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/0ce30da1f6b68c7f32a2a8978f1c90a3422edd5d"
+    },
+    {
+      "path": "ch04/07_moe",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0507cf929cbce440c9b92b130252b868ea1ce7a1",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/0507cf929cbce440c9b92b130252b868ea1ce7a1"
+    },
+    {
+      "path": "ch04/07_moe/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0d401f620ee609292381772b8bc1ea53e5081aa",
+      "size": 7936,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/b0d401f620ee609292381772b8bc1ea53e5081aa"
+    },
+    {
+      "path": "ch04/07_moe/gpt_with_kv_ffn.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e646ef94eb428cbf59c9d0944610f04b78d7670",
+      "size": 15493,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/1e646ef94eb428cbf59c9d0944610f04b78d7670"
+    },
+    {
+      "path": "ch04/07_moe/gpt_with_kv_moe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c473ceb53b65fcb75dc8a2acd3a46cb026d1cf5",
+      "size": 18227,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/9c473ceb53b65fcb75dc8a2acd3a46cb026d1cf5"
+    },
+    {
+      "path": "ch04/07_moe/memory_estimator_moe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5522a56051423b06a8e031d3e86d09a23af6c27",
+      "size": 4275,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/a5522a56051423b06a8e031d3e86d09a23af6c27"
+    },
+    {
+      "path": "ch04/07_moe/plot_memory_estimates_moe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c8383d150b512be7f04430df214b4f9116e25b2",
+      "size": 3911,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/4c8383d150b512be7f04430df214b4f9116e25b2"
+    },
+    {
+      "path": "ch04/08_deltanet",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e832019b7866f12c296e055f09bc24c730a60097",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/e832019b7866f12c296e055f09bc24c730a60097"
+    },
+    {
+      "path": "ch04/08_deltanet/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72b443bd3ef16f46586b00915b7ea1ccdf75e9f1",
+      "size": 18139,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/72b443bd3ef16f46586b00915b7ea1ccdf75e9f1"
+    },
+    {
+      "path": "ch04/08_deltanet/plot_memory_estimates_gated_deltanet.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e340de33d86cb833204753a66032556ca113bd4",
+      "size": 3528,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/8e340de33d86cb833204753a66032556ca113bd4"
+    },
+    {
+      "path": "ch04/09_dsa",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "da3502a7f93d0f9b6179d9de097bf53c6c3f270d",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/da3502a7f93d0f9b6179d9de097bf53c6c3f270d"
+    },
+    {
+      "path": "ch04/09_dsa/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cc9c7a85ca8cd8e03d5506c498dda4014ad501a",
+      "size": 6754,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/8cc9c7a85ca8cd8e03d5506c498dda4014ad501a"
+    },
+    {
+      "path": "ch04/09_dsa/gpt_with_kv_dsa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63224d6e2650de46970cdd08c9e5d05d65138604",
+      "size": 19309,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/63224d6e2650de46970cdd08c9e5d05d65138604"
+    },
+    {
+      "path": "ch04/09_dsa/test_dsa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd59469eec3921a26a79faba760b168d4c067760",
+      "size": 6635,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/cd59469eec3921a26a79faba760b168d4c067760"
+    },
+    {
+      "path": "ch04/10_kv-sharing",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5e21f047a54c61c2e6551f693e50474b0ac00887",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/5e21f047a54c61c2e6551f693e50474b0ac00887"
+    },
+    {
+      "path": "ch04/10_kv-sharing/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ebc5b4cec3104d986c8835fc0def3a9f9945935",
+      "size": 5491,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/5ebc5b4cec3104d986c8835fc0def3a9f9945935"
+    },
+    {
+      "path": "ch04/10_kv-sharing/gemma4-kv-sharing.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4828bdbadb1abea714c39931bb800bc34fab5510",
+      "size": 82378,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/4828bdbadb1abea714c39931bb800bc34fab5510"
+    },
+    {
+      "path": "ch04/10_kv-sharing/gpt_with_kv_mha.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45673c00274d14f182cac83f14e014e450c8fa33",
+      "size": 12923,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/45673c00274d14f182cac83f14e014e450c8fa33"
+    },
+    {
+      "path": "ch04/10_kv-sharing/gpt_with_kv_sharing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aaa4d88ec0684107b3329c41d165a89adb91ef81",
+      "size": 14081,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/aaa4d88ec0684107b3329c41d165a89adb91ef81"
+    },
+    {
+      "path": "ch04/10_kv-sharing/kv_memory_mha_gqa_kvsharing_gemma4_e2b.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "383698506deeef767aacb2d8faa73a727f526e28",
+      "size": 58360,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/383698506deeef767aacb2d8faa73a727f526e28"
+    },
+    {
+      "path": "ch04/10_kv-sharing/kv_memory_mha_gqa_kvsharing_gemma4_e4b.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eaaafc616b8ae0b060eb411eb0f630ada7dcd028",
+      "size": 60010,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/eaaafc616b8ae0b060eb411eb0f630ada7dcd028"
+    },
+    {
+      "path": "ch04/10_kv-sharing/memory_estimator_kv_sharing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2f92f51279b1e768e808756e2300e2863e8e377",
+      "size": 4132,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/a2f92f51279b1e768e808756e2300e2863e8e377"
+    },
+    {
+      "path": "ch04/10_kv-sharing/plot_memory_estimates_kv_sharing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e58d9284af6bd078d504132dc5fa0ebda0eefea2",
+      "size": 6827,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/e58d9284af6bd078d504132dc5fa0ebda0eefea2"
+    },
+    {
+      "path": "ch04/10_kv-sharing/tests.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf04ae53198eba1502c023f7e265b04935fc7f75",
+      "size": 3126,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/cf04ae53198eba1502c023f7e265b04935fc7f75"
+    },
+    {
+      "path": "ch04/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8457e43f9384af9dc12795e59a8b4791778f022",
+      "size": 2090,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/d8457e43f9384af9dc12795e59a8b4791778f022"
+    },
+    {
+      "path": "ch05",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d0358ec8073baceac89c3a1caef7de31e5f96e52",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/d0358ec8073baceac89c3a1caef7de31e5f96e52"
+    },
+    {
+      "path": "ch05/01_main-chapter-code",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "77e40570019b3364d7034652ab95722e67206846",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/77e40570019b3364d7034652ab95722e67206846"
+    },
+    {
+      "path": "ch05/01_main-chapter-code/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b069d74280aca6fe4c08e33e8ac49ef8235c257c",
+      "size": 1022,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/b069d74280aca6fe4c08e33e8ac49ef8235c257c"
+    },
+    {
+      "path": "ch05/01_main-chapter-code/ch05.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a80a115c349e0294db43a2ff9e38ff498c966f87",
+      "size": 140315,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/a80a115c349e0294db43a2ff9e38ff498c966f87"
+    },
+    {
+      "path": "ch05/01_main-chapter-code/exercise-solutions.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c831dde0096de7cedb81395958ffd1155d520fa7",
+      "size": 34046,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/c831dde0096de7cedb81395958ffd1155d520fa7"
+    },
+    {
+      "path": "ch05/01_main-chapter-code/gpt_download.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51d9c4bc458c8831a87c2da54b54226d130e6af7",
+      "size": 5972,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/51d9c4bc458c8831a87c2da54b54226d130e6af7"
+    },
+    {
+      "path": "ch05/01_main-chapter-code/gpt_generate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af380a792e7d128c5177db135b175c5f3724521e",
+      "size": 11144,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/af380a792e7d128c5177db135b175c5f3724521e"
+    },
+    {
+      "path": "ch05/01_main-chapter-code/gpt_train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cc1085cb5b05eebfdb7044ce464324aff68e0d2",
+      "size": 8362,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/3cc1085cb5b05eebfdb7044ce464324aff68e0d2"
+    },
+    {
+      "path": "ch05/01_main-chapter-code/previous_chapters.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c599d16f477268d1e728267da47c93b7fbb91e73",
+      "size": 9905,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/c599d16f477268d1e728267da47c93b7fbb91e73"
+    },
+    {
+      "path": "ch05/01_main-chapter-code/tests.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fe7607ecd71b701822ff0709dc8c68ae10bc4d8",
+      "size": 3275,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/7fe7607ecd71b701822ff0709dc8c68ae10bc4d8"
+    },
+    {
+      "path": "ch05/02_alternative_weight_loading",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "03cde0a2f1e014924aa1237ac6c5f6dd19b74314",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/03cde0a2f1e014924aa1237ac6c5f6dd19b74314"
+    },
+    {
+      "path": "ch05/02_alternative_weight_loading/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d251d3485dda2278d6ebbc0dc64727fe7fb18a3",
+      "size": 792,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/1d251d3485dda2278d6ebbc0dc64727fe7fb18a3"
+    },
+    {
+      "path": "ch05/02_alternative_weight_loading/weight-loading-hf-safetensors.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05087892bcd9e78677eebe1112c116cb4696af03",
+      "size": 11404,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/05087892bcd9e78677eebe1112c116cb4696af03"
+    },
+    {
+      "path": "ch05/02_alternative_weight_loading/weight-loading-hf-transformers.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c03f62ef8326d225c2d13a1f67f280b6435dd1ae",
+      "size": 10773,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/c03f62ef8326d225c2d13a1f67f280b6435dd1ae"
+    },
+    {
+      "path": "ch05/02_alternative_weight_loading/weight-loading-pytorch.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe80c1f7891e100f7e61d294410b7db4220ae48f",
+      "size": 10833,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/fe80c1f7891e100f7e61d294410b7db4220ae48f"
+    },
+    {
+      "path": "ch05/03_bonus_pretraining_on_gutenberg",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5dfbe9df912a448cce0d5f83562cf695fd15cc59",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/5dfbe9df912a448cce0d5f83562cf695fd15cc59"
+    },
+    {
+      "path": "ch05/03_bonus_pretraining_on_gutenberg/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb11d9245ed8ee73687fba8d1acd47669615eadf",
+      "size": 9709,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/cb11d9245ed8ee73687fba8d1acd47669615eadf"
+    },
+    {
+      "path": "ch05/03_bonus_pretraining_on_gutenberg/prepare_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59203606e337c1a855c83108a56e48780e7af023",
+      "size": 3612,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/59203606e337c1a855c83108a56e48780e7af023"
+    },
+    {
+      "path": "ch05/03_bonus_pretraining_on_gutenberg/pretraining_simple.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "287090b54923174b8d439afdcd29841e8a9da7d8",
+      "size": 9547,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/287090b54923174b8d439afdcd29841e8a9da7d8"
+    },
+    {
+      "path": "ch05/03_bonus_pretraining_on_gutenberg/tests.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a9f80adbd206f795edcb80c1992e2a28fa46173",
+      "size": 902,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/2a9f80adbd206f795edcb80c1992e2a28fa46173"
+    },
+    {
+      "path": "ch05/04_learning_rate_schedulers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a68fc52239bda445c4f05e35048feeba71ea251f",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/a68fc52239bda445c4f05e35048feeba71ea251f"
+    },
+    {
+      "path": "ch05/04_learning_rate_schedulers/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af310da59600e737b4f96d4b34dcdf1a00390ab4",
+      "size": 506,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/af310da59600e737b4f96d4b34dcdf1a00390ab4"
+    },
+    {
+      "path": "ch05/05_bonus_hparam_tuning",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d5f5d7b435162cb94e783b93dc90bdf93a6e4397",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/d5f5d7b435162cb94e783b93dc90bdf93a6e4397"
+    },
+    {
+      "path": "ch05/05_bonus_hparam_tuning/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed35a1ff9d027b8ab69c1ec27b91c59b25519e19",
+      "size": 488,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/ed35a1ff9d027b8ab69c1ec27b91c59b25519e19"
+    },
+    {
+      "path": "ch05/05_bonus_hparam_tuning/hparam_search.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e1a7992c0cbf896666c175bb4fb76d332d31a6a",
+      "size": 7881,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/7e1a7992c0cbf896666c175bb4fb76d332d31a6a"
+    },
+    {
+      "path": "ch05/05_bonus_hparam_tuning/the-verdict.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b651c7cdfa3ebb7d7e9bfbd1420f6d220d47bc8",
+      "size": 20479,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/6b651c7cdfa3ebb7d7e9bfbd1420f6d220d47bc8"
+    },
+    {
+      "path": "ch05/06_user_interface",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "193368b7e895c0c64bff6b8fb61074afc744f592",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/193368b7e895c0c64bff6b8fb61074afc744f592"
+    },
+    {
+      "path": "ch05/06_user_interface/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73e8052d9b54514b2ee1f26d1afb0da5ff7d7c4f",
+      "size": 1523,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/73e8052d9b54514b2ee1f26d1afb0da5ff7d7c4f"
+    },
+    {
+      "path": "ch05/06_user_interface/app_orig.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c36ab2bf4fcd7c77acf9bf0dd3599d25d2925283",
+      "size": 2825,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/c36ab2bf4fcd7c77acf9bf0dd3599d25d2925283"
+    },
+    {
+      "path": "ch05/06_user_interface/app_own.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a341b53c87237d2c4223506869dbe53df19ebb30",
+      "size": 2618,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/a341b53c87237d2c4223506869dbe53df19ebb30"
+    },
+    {
+      "path": "ch05/06_user_interface/requirements-extra.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e6a2e7e055c051325d9db51b30594b9ca12ed1c",
+      "size": 15,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/4e6a2e7e055c051325d9db51b30594b9ca12ed1c"
+    },
+    {
+      "path": "ch05/07_gpt_to_llama",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e1bceacc455d1b910ddbb56b608632022d9d2b3e",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/e1bceacc455d1b910ddbb56b608632022d9d2b3e"
+    },
+    {
+      "path": "ch05/07_gpt_to_llama/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3323757d49622d32a2a6b53b7f05294453233ee",
+      "size": 9397,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/a3323757d49622d32a2a6b53b7f05294453233ee"
+    },
+    {
+      "path": "ch05/07_gpt_to_llama/config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3aca4f82c4492e1f85a59b7af12f278e1dcd93db",
+      "size": 123,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/3aca4f82c4492e1f85a59b7af12f278e1dcd93db"
+    },
+    {
+      "path": "ch05/07_gpt_to_llama/converting-gpt-to-llama2.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5dd3e9c9ea0698a9b7b5c70f75d53084c6cce77",
+      "size": 57752,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/d5dd3e9c9ea0698a9b7b5c70f75d53084c6cce77"
+    },
+    {
+      "path": "ch05/07_gpt_to_llama/converting-llama2-to-llama3.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21ef1460cbdc33e6cde368115d38ff890f694af5",
+      "size": 137085,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/21ef1460cbdc33e6cde368115d38ff890f694af5"
+    },
+    {
+      "path": "ch05/07_gpt_to_llama/previous_chapters.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "787540b2d042bfb6d2a74319e150dab703e22524",
+      "size": 2607,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/787540b2d042bfb6d2a74319e150dab703e22524"
+    },
+    {
+      "path": "ch05/07_gpt_to_llama/requirements-extra.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "977a63467e7c215b0d061da8bf6babbe9bdae89b",
+      "size": 99,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/977a63467e7c215b0d061da8bf6babbe9bdae89b"
+    },
+    {
+      "path": "ch05/07_gpt_to_llama/standalone-llama32.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d10a5406a23841406e1f3aa8a183918be1811eb9",
+      "size": 67750,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/d10a5406a23841406e1f3aa8a183918be1811eb9"
+    },
+    {
+      "path": "ch05/07_gpt_to_llama/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6e132bf342ff0ba510868c27095c9adb4ff7832f",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/6e132bf342ff0ba510868c27095c9adb4ff7832f"
+    },
+    {
+      "path": "ch05/07_gpt_to_llama/tests/test-requirements-extra.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f42329052e84a0b55eb58ce11bbcba4286814b2",
+      "size": 35,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/4f42329052e84a0b55eb58ce11bbcba4286814b2"
+    },
+    {
+      "path": "ch05/07_gpt_to_llama/tests/test_llama32_nb.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c82891ec258c6073cf31a02e9c4a170e733665fe",
+      "size": 3751,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/c82891ec258c6073cf31a02e9c4a170e733665fe"
+    },
+    {
+      "path": "ch05/07_gpt_to_llama/tests/tests_rope_and_parts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ff369435f9cebe83775a0bba2cb186e94b8545e",
+      "size": 13628,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/3ff369435f9cebe83775a0bba2cb186e94b8545e"
+    },
+    {
+      "path": "ch05/08_memory_efficient_weight_loading",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1977ccd25f20934bc25706cb45f48f4bcfce4a80",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/1977ccd25f20934bc25706cb45f48f4bcfce4a80"
+    },
+    {
+      "path": "ch05/08_memory_efficient_weight_loading/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b8fef08fa8bc7c9a4ef0aa5b2b166764d3e9c9b",
+      "size": 291,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/2b8fef08fa8bc7c9a4ef0aa5b2b166764d3e9c9b"
+    },
+    {
+      "path": "ch05/08_memory_efficient_weight_loading/memory-efficient-state-dict.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7036cabd7350a183076f5a69107f55723d44a68",
+      "size": 29385,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/a7036cabd7350a183076f5a69107f55723d44a68"
+    },
+    {
+      "path": "ch05/08_memory_efficient_weight_loading/previous_chapters.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1657e9692589f47c83477c51a2ba4ce7c1bc8078",
+      "size": 6166,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/1657e9692589f47c83477c51a2ba4ce7c1bc8078"
+    },
+    {
+      "path": "ch05/09_extending-tokenizers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7acb695fc8cb14eabbb37d719e6fb7ad86e41829",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/7acb695fc8cb14eabbb37d719e6fb7ad86e41829"
+    },
+    {
+      "path": "ch05/09_extending-tokenizers/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "886a880b924265be4141e3bafe7e23d23bde2c3e",
+      "size": 256,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/886a880b924265be4141e3bafe7e23d23bde2c3e"
+    },
+    {
+      "path": "ch05/09_extending-tokenizers/extend-tiktoken.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d53a67ebbaddfeabfbe6396f16a6fda3722e0e6b",
+      "size": 23811,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/d53a67ebbaddfeabfbe6396f16a6fda3722e0e6b"
+    },
+    {
+      "path": "ch05/10_llm-training-speed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "208d83c9c69ba57966d21c69fc4c937563625420",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/208d83c9c69ba57966d21c69fc4c937563625420"
+    },
+    {
+      "path": "ch05/10_llm-training-speed/00_orig.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0f4e8d88271e9822fb724dc7c2c36d8e2b6e22d",
+      "size": 18978,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/b0f4e8d88271e9822fb724dc7c2c36d8e2b6e22d"
+    },
+    {
+      "path": "ch05/10_llm-training-speed/01_opt_single_gpu.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b99c969ad3bf539fbfa5ff84d121b224ab29eb0d",
+      "size": 17877,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/b99c969ad3bf539fbfa5ff84d121b224ab29eb0d"
+    },
+    {
+      "path": "ch05/10_llm-training-speed/02_opt_multi_gpu_ddp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec382a09d1b4d3ea5c0bd5054a35b8e108a395a6",
+      "size": 21836,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/ec382a09d1b4d3ea5c0bd5054a35b8e108a395a6"
+    },
+    {
+      "path": "ch05/10_llm-training-speed/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c96aa22e24f108623cf39b287e60e5d1f678bab3",
+      "size": 10007,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/c96aa22e24f108623cf39b287e60e5d1f678bab3"
+    },
+    {
+      "path": "ch05/11_qwen3",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3d96df671269f40185875fd960afbe89990c3fb4",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/3d96df671269f40185875fd960afbe89990c3fb4"
+    },
+    {
+      "path": "ch05/11_qwen3/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77544a5d714712c0458c7890e9ed50b7f842c5dd",
+      "size": 17009,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/77544a5d714712c0458c7890e9ed50b7f842c5dd"
+    },
+    {
+      "path": "ch05/11_qwen3/qwen3-chat-interface",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b3ae43e26590c7e1d3b998121a260561a21c0cf4",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/b3ae43e26590c7e1d3b998121a260561a21c0cf4"
+    },
+    {
+      "path": "ch05/11_qwen3/qwen3-chat-interface/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43ba9909d9efab8a644a2f59657812763253e694",
+      "size": 1588,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/43ba9909d9efab8a644a2f59657812763253e694"
+    },
+    {
+      "path": "ch05/11_qwen3/qwen3-chat-interface/public",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7615a6468b4928f2753da4909093987183f5c24d",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/7615a6468b4928f2753da4909093987183f5c24d"
+    },
+    {
+      "path": "ch05/11_qwen3/qwen3-chat-interface/public/logo_dark.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbfc655c85782ec70edfab18d71f74ca786d6bd2",
+      "size": 18410,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/fbfc655c85782ec70edfab18d71f74ca786d6bd2"
+    },
+    {
+      "path": "ch05/11_qwen3/qwen3-chat-interface/public/logo_light.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7eb29a75b3799d5ad057a5b175ff6419ba4e785",
+      "size": 21428,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/c7eb29a75b3799d5ad057a5b175ff6419ba4e785"
+    },
+    {
+      "path": "ch05/11_qwen3/qwen3-chat-interface/qwen3-chat-interface-multiturn.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9b067ac3bee7c15db6f887d17ddcc36d354cc8d",
+      "size": 6071,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/b9b067ac3bee7c15db6f887d17ddcc36d354cc8d"
+    },
+    {
+      "path": "ch05/11_qwen3/qwen3-chat-interface/qwen3-chat-interface.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "926a81785411503469faca77884d7d0c6109e741",
+      "size": 4696,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/926a81785411503469faca77884d7d0c6109e741"
+    },
+    {
+      "path": "ch05/11_qwen3/qwen3-chat-interface/requirements-extra.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e30c39b0cf58a69b92ba981756a9b99603691513",
+      "size": 136,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/e30c39b0cf58a69b92ba981756a9b99603691513"
+    },
+    {
+      "path": "ch05/11_qwen3/standalone-qwen3-moe-plus-kvcache.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7cac2ca19e9a759815d62845da16c6cd57ef2c1",
+      "size": 46284,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/c7cac2ca19e9a759815d62845da16c6cd57ef2c1"
+    },
+    {
+      "path": "ch05/11_qwen3/standalone-qwen3-moe.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85f72141506e7f7d58852fb541cb703a91da9fae",
+      "size": 43098,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/85f72141506e7f7d58852fb541cb703a91da9fae"
+    },
+    {
+      "path": "ch05/11_qwen3/standalone-qwen3-plus-kvcache.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75d8ed7e5c2d5bf73874aeb3532bf6914772564b",
+      "size": 48814,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/75d8ed7e5c2d5bf73874aeb3532bf6914772564b"
+    },
+    {
+      "path": "ch05/11_qwen3/standalone-qwen3.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdc40fbfea4c4589daab1550e1a30f7fc5dc1856",
+      "size": 46231,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/fdc40fbfea4c4589daab1550e1a30f7fc5dc1856"
+    },
+    {
+      "path": "ch05/11_qwen3/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5fabd8ccdafe80c5d387b2b80d78a93e964b875c",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/5fabd8ccdafe80c5d387b2b80d78a93e964b875c"
+    },
+    {
+      "path": "ch05/11_qwen3/tests/test_qwen3_kvcache_nb.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73b07d54da6941a1b79e973a50f2a531dfefd149",
+      "size": 3832,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/73b07d54da6941a1b79e973a50f2a531dfefd149"
+    },
+    {
+      "path": "ch05/11_qwen3/tests/test_qwen3_nb.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47c5ea33224246b44f109c297c35c5a5ffd8c0de",
+      "size": 3819,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/47c5ea33224246b44f109c297c35c5a5ffd8c0de"
+    },
+    {
+      "path": "ch05/12_gemma3",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4ea4f4e87d3b7b0a811d33c632f4f0a1efcea244",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/4ea4f4e87d3b7b0a811d33c632f4f0a1efcea244"
+    },
+    {
+      "path": "ch05/12_gemma3/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4205a78b953de2fda856ad2e32dbdcb7af603414",
+      "size": 2665,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/4205a78b953de2fda856ad2e32dbdcb7af603414"
+    },
+    {
+      "path": "ch05/12_gemma3/standalone-gemma3-plus-kvcache.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1195816e4a269fd6545e54528cae2e9f6cb15be5",
+      "size": 51819,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/1195816e4a269fd6545e54528cae2e9f6cb15be5"
+    },
+    {
+      "path": "ch05/12_gemma3/standalone-gemma3.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b3bc8859bd98cb7571a46b43939f2bfed21abcc",
+      "size": 45740,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/2b3bc8859bd98cb7571a46b43939f2bfed21abcc"
+    },
+    {
+      "path": "ch05/12_gemma3/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d954104d0dc4469198d984524595166ca5755650",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/d954104d0dc4469198d984524595166ca5755650"
+    },
+    {
+      "path": "ch05/12_gemma3/tests/gemma3-transformers-ref.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2d8e4dd3a6d8f27d02113bcedf76af00bc2dc6f",
+      "size": 4708,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/f2d8e4dd3a6d8f27d02113bcedf76af00bc2dc6f"
+    },
+    {
+      "path": "ch05/12_gemma3/tests/gemma3_layer_debugger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8f09731cfee25cf093d78b3548e8e86cbbc7e4c",
+      "size": 8311,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/a8f09731cfee25cf093d78b3548e8e86cbbc7e4c"
+    },
+    {
+      "path": "ch05/12_gemma3/tests/gemma3_layer_debugger_detailed.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0186eac0fd802e4f49661e926c08332df5063297",
+      "size": 13430,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/0186eac0fd802e4f49661e926c08332df5063297"
+    },
+    {
+      "path": "ch05/12_gemma3/tests/test_gemma3_kv_nb.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e30104f652db522d37a603672171d76477217fe",
+      "size": 3894,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/0e30104f652db522d37a603672171d76477217fe"
+    },
+    {
+      "path": "ch05/12_gemma3/tests/test_gemma3_nb.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5a13e28977028b8e57b5b52a7c75ce331a784de",
+      "size": 3881,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/b5a13e28977028b8e57b5b52a7c75ce331a784de"
+    },
+    {
+      "path": "ch05/13_olmo3",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9680667ab83f98876967e4734624ba59cf05f23b",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/9680667ab83f98876967e4734624ba59cf05f23b"
+    },
+    {
+      "path": "ch05/13_olmo3/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78ffe8a7506ead6c714e657b1327cde3d21b374f",
+      "size": 2796,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/78ffe8a7506ead6c714e657b1327cde3d21b374f"
+    },
+    {
+      "path": "ch05/13_olmo3/standalone-olmo3-plus-kv-cache.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dde815b1f5d550cab93b6e51d98ddf773ff05604",
+      "size": 50412,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/dde815b1f5d550cab93b6e51d98ddf773ff05604"
+    },
+    {
+      "path": "ch05/13_olmo3/standalone-olmo3.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab615a4f25ac44343acd87c3496b5de83224df1f",
+      "size": 45779,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/ab615a4f25ac44343acd87c3496b5de83224df1f"
+    },
+    {
+      "path": "ch05/13_olmo3/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8d10b00b88a1ccc856044550e6cb0c586020637b",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/8d10b00b88a1ccc856044550e6cb0c586020637b"
+    },
+    {
+      "path": "ch05/13_olmo3/tests/olmo3_layer_debugger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "920ec5b3358fff6e809d74842cec8b0c398d2fe5",
+      "size": 9472,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/920ec5b3358fff6e809d74842cec8b0c398d2fe5"
+    },
+    {
+      "path": "ch05/13_olmo3/tests/test_olmo3_kvcache_nb.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7efe78eb759b8707cd8c832bc33a0bb1a71e456",
+      "size": 4387,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/c7efe78eb759b8707cd8c832bc33a0bb1a71e456"
+    },
+    {
+      "path": "ch05/13_olmo3/tests/test_olmo3_nb.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ad59004f0f600b9b1851d224361efd1361fd61b",
+      "size": 4373,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/1ad59004f0f600b9b1851d224361efd1361fd61b"
+    },
+    {
+      "path": "ch05/14_ch05_with_other_llms",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "858e410359075c05c26dbf3a352fe0e8977bd0a8",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/858e410359075c05c26dbf3a352fe0e8977bd0a8"
+    },
+    {
+      "path": "ch05/14_ch05_with_other_llms/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71e3cb217e50420cd25a33f3ef4695481bc63aec",
+      "size": 151,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/71e3cb217e50420cd25a33f3ef4695481bc63aec"
+    },
+    {
+      "path": "ch05/14_ch05_with_other_llms/ch05-llama32.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65ae73c3106bb00765082c4b976ec0b6b51cb8c6",
+      "size": 92283,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/65ae73c3106bb00765082c4b976ec0b6b51cb8c6"
+    },
+    {
+      "path": "ch05/14_ch05_with_other_llms/ch05-qwen3.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea09408b495ee1e23d74aa183de9752050f4f0c3",
+      "size": 91824,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/ea09408b495ee1e23d74aa183de9752050f4f0c3"
+    },
+    {
+      "path": "ch05/15_tiny-aya",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "624626de6cef8adaea4eb9787beb4fea3a6118af",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/624626de6cef8adaea4eb9787beb4fea3a6118af"
+    },
+    {
+      "path": "ch05/15_tiny-aya/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6142514319f2debbae910577a81a2bd700f809d",
+      "size": 4310,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/d6142514319f2debbae910577a81a2bd700f809d"
+    },
+    {
+      "path": "ch05/15_tiny-aya/standalone-tiny-aya-plus-kv-cache.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0459dcf8709bc6e35ea963597abef43d465e1b29",
+      "size": 70934,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/0459dcf8709bc6e35ea963597abef43d465e1b29"
+    },
+    {
+      "path": "ch05/15_tiny-aya/standalone-tiny-aya.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7bd10e2aa577f1fba0a742e6ae45f020a49cab2",
+      "size": 67769,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/b7bd10e2aa577f1fba0a742e6ae45f020a49cab2"
+    },
+    {
+      "path": "ch05/15_tiny-aya/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e9202590387463e7fafe750390d9cd951e900af6",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/e9202590387463e7fafe750390d9cd951e900af6"
+    },
+    {
+      "path": "ch05/15_tiny-aya/tests/test_tiny_aya_kvcache_nb.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4ccdf8ad16db9f3722761e795ea7809f438b4ff",
+      "size": 3874,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/e4ccdf8ad16db9f3722761e795ea7809f438b4ff"
+    },
+    {
+      "path": "ch05/15_tiny-aya/tests/test_tiny_aya_nb.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e6b374288ef76c1da86bce5a22bfcc90d1d3360",
+      "size": 3859,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/0e6b374288ef76c1da86bce5a22bfcc90d1d3360"
+    },
+    {
+      "path": "ch05/15_tiny-aya/tests/tiny_aya_layer_debugger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e44c0487f2316d5e268cc91cd2883622b7bcc1b",
+      "size": 7950,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/7e44c0487f2316d5e268cc91cd2883622b7bcc1b"
+    },
+    {
+      "path": "ch05/16_qwen3.5",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ae2d9ad71c44bd8d648d44e5c24b2baa1dc2e1ad",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/ae2d9ad71c44bd8d648d44e5c24b2baa1dc2e1ad"
+    },
+    {
+      "path": "ch05/16_qwen3.5/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b3b5afd05b9435d176317b01096323b6574f781",
+      "size": 1435,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/4b3b5afd05b9435d176317b01096323b6574f781"
+    },
+    {
+      "path": "ch05/16_qwen3.5/qwen3.5-plus-kv-cache.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25529defbc506acdcf4414ebe93e6e2912e6919e",
+      "size": 68890,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/25529defbc506acdcf4414ebe93e6e2912e6919e"
+    },
+    {
+      "path": "ch05/16_qwen3.5/qwen3.5.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83777c3ddc6de5f97eca5cb15f8b5472d9491510",
+      "size": 63961,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/83777c3ddc6de5f97eca5cb15f8b5472d9491510"
+    },
+    {
+      "path": "ch05/16_qwen3.5/qwen3_5_transformers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a4bed2bae089475bfd7891131ed4699bddab1a3",
+      "size": 15501,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/2a4bed2bae089475bfd7891131ed4699bddab1a3"
+    },
+    {
+      "path": "ch05/16_qwen3.5/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "12f0deddc23dbc989617c18a4150b3cb0bcfa488",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/12f0deddc23dbc989617c18a4150b3cb0bcfa488"
+    },
+    {
+      "path": "ch05/16_qwen3.5/tests/qwen3_5_layer_debugger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "733a424af1d05f0b36e5df6a41260f5d769aafdd",
+      "size": 9657,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/733a424af1d05f0b36e5df6a41260f5d769aafdd"
+    },
+    {
+      "path": "ch05/16_qwen3.5/tests/test_qwen3_5_nb.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91a0892e6890aa226f1e5f320f300a8608267e23",
+      "size": 5649,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/91a0892e6890aa226f1e5f320f300a8608267e23"
+    },
+    {
+      "path": "ch05/17_gemma4",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "daa1f7baa042026061466fb2d9007f3beb178bea",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/daa1f7baa042026061466fb2d9007f3beb178bea"
+    },
+    {
+      "path": "ch05/17_gemma4/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "695c99c5341aadb2b0fd279bbcdca7f93079668c",
+      "size": 399,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/695c99c5341aadb2b0fd279bbcdca7f93079668c"
+    },
+    {
+      "path": "ch05/17_gemma4/standalone-gemma4-plus-kvcache.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae8a769f1b7254a6bf16d6b64d642c46cc153caf",
+      "size": 68021,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/ae8a769f1b7254a6bf16d6b64d642c46cc153caf"
+    },
+    {
+      "path": "ch05/17_gemma4/standalone-gemma4.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba6fc1524a233b3843538dc24f49316718e72432",
+      "size": 65309,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/ba6fc1524a233b3843538dc24f49316718e72432"
+    },
+    {
+      "path": "ch05/17_gemma4/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fca0a60bcd28c7ed5c296fa91d5332adc6df73d4",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/fca0a60bcd28c7ed5c296fa91d5332adc6df73d4"
+    },
+    {
+      "path": "ch05/17_gemma4/tests/test_e2b",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "82190815442706b9658d8edc16704fd4f593194a",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/82190815442706b9658d8edc16704fd4f593194a"
+    },
+    {
+      "path": "ch05/17_gemma4/tests/test_e2b/gemma4-e2b-transformers-ref.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b369cfa17510966d4f01ca84d80169a2b930ce5",
+      "size": 5942,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/1b369cfa17510966d4f01ca84d80169a2b930ce5"
+    },
+    {
+      "path": "ch05/17_gemma4/tests/test_e2b/gemma4_e2b_layer_debugger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7a1e3d4e5c6c871a0450619752f40b85212338b",
+      "size": 10577,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/b7a1e3d4e5c6c871a0450619752f40b85212338b"
+    },
+    {
+      "path": "ch05/17_gemma4/tests/test_e4b",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "81a73dc251668e4645bb90026863bccd3064bdd3",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/81a73dc251668e4645bb90026863bccd3064bdd3"
+    },
+    {
+      "path": "ch05/17_gemma4/tests/test_e4b/gemma4-e4b-transformers-ref.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb1f27879a49141553963d766f318e5ea114cbfb",
+      "size": 3832,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/bb1f27879a49141553963d766f318e5ea114cbfb"
+    },
+    {
+      "path": "ch05/17_gemma4/tests/test_e4b/gemma4_e4b_layer_debugger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "106d0cb8021be4a02d19541a63ce8b0f051ded50",
+      "size": 10220,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/106d0cb8021be4a02d19541a63ce8b0f051ded50"
+    },
+    {
+      "path": "ch05/17_gemma4/tests/test_gemma4_nb.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b475eb7c399280b1e7d6ca8885a2e84b5446b525",
+      "size": 14668,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/b475eb7c399280b1e7d6ca8885a2e84b5446b525"
+    },
+    {
+      "path": "ch05/18_muon",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "27c79fb68ba0a0b18d7a5d9ec8d0104efa929d6f",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/27c79fb68ba0a0b18d7a5d9ec8d0104efa929d6f"
+    },
+    {
+      "path": "ch05/18_muon/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58cb44190fda59c1d292c84724d410a306ded928",
+      "size": 15431,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/58cb44190fda59c1d292c84724d410a306ded928"
+    },
+    {
+      "path": "ch05/18_muon/gpt_train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cc1085cb5b05eebfdb7044ce464324aff68e0d2",
+      "size": 8362,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/3cc1085cb5b05eebfdb7044ce464324aff68e0d2"
+    },
+    {
+      "path": "ch05/18_muon/gpt_train_muon.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e8f403e6b33802365988b43bae125481d63c4c2",
+      "size": 10568,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/6e8f403e6b33802365988b43bae125481d63c4c2"
+    },
+    {
+      "path": "ch05/18_muon/previous_chapters.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c599d16f477268d1e728267da47c93b7fbb91e73",
+      "size": 9905,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/c599d16f477268d1e728267da47c93b7fbb91e73"
+    },
+    {
+      "path": "ch05/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81e59b8bd8e463f47742a574b740ffd333f9a777",
+      "size": 2592,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/81e59b8bd8e463f47742a574b740ffd333f9a777"
+    },
+    {
+      "path": "ch06",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "00691a3f1807e06a31f88657d068b8c45ca80c33",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/00691a3f1807e06a31f88657d068b8c45ca80c33"
+    },
+    {
+      "path": "ch06/01_main-chapter-code",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6ea9d8f15f9ceeec79d66845949d68b1fb323e6f",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/6ea9d8f15f9ceeec79d66845949d68b1fb323e6f"
+    },
+    {
+      "path": "ch06/01_main-chapter-code/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6a20ff7d8b1360525cf4f522c2d799d6244eee7",
+      "size": 952,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/a6a20ff7d8b1360525cf4f522c2d799d6244eee7"
+    },
+    {
+      "path": "ch06/01_main-chapter-code/ch06.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b3804500414d4ccabefcb879dc6675b14cabfeb",
+      "size": 147634,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/9b3804500414d4ccabefcb879dc6675b14cabfeb"
+    },
+    {
+      "path": "ch06/01_main-chapter-code/exercise-solutions.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10de5b66e2edfa2d85ace9c8b5f88befe59f5cf3",
+      "size": 5129,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/10de5b66e2edfa2d85ace9c8b5f88befe59f5cf3"
+    },
+    {
+      "path": "ch06/01_main-chapter-code/gpt_class_finetune.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05ba0255a7202e00a7029e308037eef96171c821",
+      "size": 15578,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/05ba0255a7202e00a7029e308037eef96171c821"
+    },
+    {
+      "path": "ch06/01_main-chapter-code/gpt_download.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4ad38835acf29800b71d138045ed989bc7798b6",
+      "size": 6025,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/a4ad38835acf29800b71d138045ed989bc7798b6"
+    },
+    {
+      "path": "ch06/01_main-chapter-code/load-finetuned-model.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6d210d2c873ae753fa9cc880a47444b660bcd4b",
+      "size": 8258,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/f6d210d2c873ae753fa9cc880a47444b660bcd4b"
+    },
+    {
+      "path": "ch06/01_main-chapter-code/previous_chapters.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab6e746f9576e6401e9ded2b9be978bfd561f4d6",
+      "size": 12067,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/ab6e746f9576e6401e9ded2b9be978bfd561f4d6"
+    },
+    {
+      "path": "ch06/01_main-chapter-code/tests.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40ee892ed72f75c0e26f3f8ab22ff2604e14675e",
+      "size": 597,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/40ee892ed72f75c0e26f3f8ab22ff2604e14675e"
+    },
+    {
+      "path": "ch06/02_bonus_additional-experiments",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c544cc40c3e2cd9f370098068e9c1e2afcab2554",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/c544cc40c3e2cd9f370098068e9c1e2afcab2554"
+    },
+    {
+      "path": "ch06/02_bonus_additional-experiments/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e729fc78af1f72557e08c243fed6daefcdfb2374",
+      "size": 11704,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/e729fc78af1f72557e08c243fed6daefcdfb2374"
+    },
+    {
+      "path": "ch06/02_bonus_additional-experiments/additional_experiments.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "006bf13678ac6267300d37e304c267bcfcec4529",
+      "size": 26745,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/006bf13678ac6267300d37e304c267bcfcec4529"
+    },
+    {
+      "path": "ch06/02_bonus_additional-experiments/gpt_download.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4ad38835acf29800b71d138045ed989bc7798b6",
+      "size": 6025,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/a4ad38835acf29800b71d138045ed989bc7798b6"
+    },
+    {
+      "path": "ch06/02_bonus_additional-experiments/previous_chapters.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8848afdb28bca97dbe06f03da0c272069ed59820",
+      "size": 13790,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/8848afdb28bca97dbe06f03da0c272069ed59820"
+    },
+    {
+      "path": "ch06/03_bonus_imdb-classification",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "18d4a677722f4d725bb4674cb24c80b642d8fe5a",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/18d4a677722f4d725bb4674cb24c80b642d8fe5a"
+    },
+    {
+      "path": "ch06/03_bonus_imdb-classification/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27ada6dc6c7be958bb51187db36ee7e0e436669a",
+      "size": 8538,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/27ada6dc6c7be958bb51187db36ee7e0e436669a"
+    },
+    {
+      "path": "ch06/03_bonus_imdb-classification/download_prepare_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce82aaa1933d93cc79d06d4ffef866b3918fe198",
+      "size": 3338,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/ce82aaa1933d93cc79d06d4ffef866b3918fe198"
+    },
+    {
+      "path": "ch06/03_bonus_imdb-classification/gpt_download.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4ad38835acf29800b71d138045ed989bc7798b6",
+      "size": 6025,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/a4ad38835acf29800b71d138045ed989bc7798b6"
+    },
+    {
+      "path": "ch06/03_bonus_imdb-classification/previous_chapters.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb01cc508a9377fe2f24504e0db0ca685103823c",
+      "size": 12102,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/bb01cc508a9377fe2f24504e0db0ca685103823c"
+    },
+    {
+      "path": "ch06/03_bonus_imdb-classification/requirements-extra.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ab8694b6913b8b186fa652d18ad119789a624ca",
+      "size": 40,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/7ab8694b6913b8b186fa652d18ad119789a624ca"
+    },
+    {
+      "path": "ch06/03_bonus_imdb-classification/sklearn-baseline.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcffc83dc5443c06976042c2148f3c50fd335d24",
+      "size": 8092,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/bcffc83dc5443c06976042c2148f3c50fd335d24"
+    },
+    {
+      "path": "ch06/03_bonus_imdb-classification/train_bert_hf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e83d17402990d89ed07fb48b4452fbb0ceb0b99b",
+      "size": 17245,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/e83d17402990d89ed07fb48b4452fbb0ceb0b99b"
+    },
+    {
+      "path": "ch06/03_bonus_imdb-classification/train_bert_hf_spam.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed7ab0e6f41e8a6c31dc57514de6c101dd896896",
+      "size": 18841,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/ed7ab0e6f41e8a6c31dc57514de6c101dd896896"
+    },
+    {
+      "path": "ch06/03_bonus_imdb-classification/train_gpt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "298fee37e05ffa0fa029830fa69dfd6d80d488ba",
+      "size": 15993,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/298fee37e05ffa0fa029830fa69dfd6d80d488ba"
+    },
+    {
+      "path": "ch06/03_bonus_imdb-classification/train_gpt_muon.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f93bab8bc41dfeade84708f7c96c0cffa79b5434",
+      "size": 17732,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/f93bab8bc41dfeade84708f7c96c0cffa79b5434"
+    },
+    {
+      "path": "ch06/03_bonus_imdb-classification/train_sklearn_logreg.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f03b56677d97d6e2e2480443f37325ddcb3581d",
+      "size": 2916,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/4f03b56677d97d6e2e2480443f37325ddcb3581d"
+    },
+    {
+      "path": "ch06/04_user_interface",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b75917c5bf623e3bca3723e2c93b1e89e55fcb05",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/b75917c5bf623e3bca3723e2c93b1e89e55fcb05"
+    },
+    {
+      "path": "ch06/04_user_interface/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21df3546b07217e024488f7a9c9ed697d82fa0e4",
+      "size": 1398,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/21df3546b07217e024488f7a9c9ed697d82fa0e4"
+    },
+    {
+      "path": "ch06/04_user_interface/app.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86b5f52eb751780add36e5c62c24057d44217927",
+      "size": 2559,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/86b5f52eb751780add36e5c62c24057d44217927"
+    },
+    {
+      "path": "ch06/04_user_interface/requirements-extra.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e6a2e7e055c051325d9db51b30594b9ca12ed1c",
+      "size": 15,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/4e6a2e7e055c051325d9db51b30594b9ca12ed1c"
+    },
+    {
+      "path": "ch06/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26452f38077224dc5091e69e05480f2903001648",
+      "size": 775,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/26452f38077224dc5091e69e05480f2903001648"
+    },
+    {
+      "path": "ch07",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4b74362c67e9b3d83d51245ac4b660beab55c3e0",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/4b74362c67e9b3d83d51245ac4b660beab55c3e0"
+    },
+    {
+      "path": "ch07/01_main-chapter-code",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e5809b85ec3cf01fea5a2549f1c81c90f34cd14a",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/e5809b85ec3cf01fea5a2549f1c81c90f34cd14a"
+    },
+    {
+      "path": "ch07/01_main-chapter-code/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b9a877e92e0bc0eee671c1ab6ce360544f7eba1",
+      "size": 3444,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/9b9a877e92e0bc0eee671c1ab6ce360544f7eba1"
+    },
+    {
+      "path": "ch07/01_main-chapter-code/ch07.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4faafb134f069f9b0f6168e3b3b77d6e492adb26",
+      "size": 134674,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/4faafb134f069f9b0f6168e3b3b77d6e492adb26"
+    },
+    {
+      "path": "ch07/01_main-chapter-code/exercise-solutions.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dfe05397a662fd729714106757ccdeeff6b08ef",
+      "size": 39408,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/8dfe05397a662fd729714106757ccdeeff6b08ef"
+    },
+    {
+      "path": "ch07/01_main-chapter-code/exercise_experiments.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a014a025607eac62853fbb79ad1784ae0f317b15",
+      "size": 19521,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/a014a025607eac62853fbb79ad1784ae0f317b15"
+    },
+    {
+      "path": "ch07/01_main-chapter-code/gpt_download.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5ce8874ab70a6a8f7e6c6b62255951423c57bec",
+      "size": 4687,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/b5ce8874ab70a6a8f7e6c6b62255951423c57bec"
+    },
+    {
+      "path": "ch07/01_main-chapter-code/gpt_instruction_finetuning.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79cb1f368bc0475993e9253d23f5ca55fb7f3b35",
+      "size": 11380,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/79cb1f368bc0475993e9253d23f5ca55fb7f3b35"
+    },
+    {
+      "path": "ch07/01_main-chapter-code/instruction-data-with-response.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d19190e0254eb100188df280958d3c8fe5b5a4e",
+      "size": 29279,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/1d19190e0254eb100188df280958d3c8fe5b5a4e"
+    },
+    {
+      "path": "ch07/01_main-chapter-code/instruction-data.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffda7284cf1e6d833d704d111f2e78732c727eae",
+      "size": 203524,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/ffda7284cf1e6d833d704d111f2e78732c727eae"
+    },
+    {
+      "path": "ch07/01_main-chapter-code/load-finetuned-model.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8420841f665d9010ddcb1f9a1f74c783c226de22",
+      "size": 6155,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/8420841f665d9010ddcb1f9a1f74c783c226de22"
+    },
+    {
+      "path": "ch07/01_main-chapter-code/ollama_evaluate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84c4a76f53225d3292eb3df8fd229d76c94b3cae",
+      "size": 3696,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/84c4a76f53225d3292eb3df8fd229d76c94b3cae"
+    },
+    {
+      "path": "ch07/01_main-chapter-code/previous_chapters.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2979679e27988a62e8f452f6c2c2bd3474478cfb",
+      "size": 18236,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/2979679e27988a62e8f452f6c2c2bd3474478cfb"
+    },
+    {
+      "path": "ch07/01_main-chapter-code/tests.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cfe1f3da3f43a15daff7a8e88870d3353667265",
+      "size": 605,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/1cfe1f3da3f43a15daff7a8e88870d3353667265"
+    },
+    {
+      "path": "ch07/02_dataset-utilities",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e71458b8e9b99429484de19f8d7777f0920d70ff",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/e71458b8e9b99429484de19f8d7777f0920d70ff"
+    },
+    {
+      "path": "ch07/02_dataset-utilities/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a6b8aaf74367b4eaedde9f2dab28d15d30f67cb",
+      "size": 2216,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/2a6b8aaf74367b4eaedde9f2dab28d15d30f67cb"
+    },
+    {
+      "path": "ch07/02_dataset-utilities/config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a01cb478468e101451f42e05a7c4532ea00be47a",
+      "size": 115,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/a01cb478468e101451f42e05a7c4532ea00be47a"
+    },
+    {
+      "path": "ch07/02_dataset-utilities/create-passive-voice-entries.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "818c8052fb90de682659050015c896e6d94adc53",
+      "size": 12268,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/818c8052fb90de682659050015c896e6d94adc53"
+    },
+    {
+      "path": "ch07/02_dataset-utilities/find-near-duplicates.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdf3bcebb1670a2593e1c42908fcd77b2b6d5ae4",
+      "size": 5259,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/fdf3bcebb1670a2593e1c42908fcd77b2b6d5ae4"
+    },
+    {
+      "path": "ch07/02_dataset-utilities/instruction-examples-modified.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "333b83b4519e6d3cf97a9e189a2b4bb563f9d6a2",
+      "size": 54836,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/333b83b4519e6d3cf97a9e189a2b4bb563f9d6a2"
+    },
+    {
+      "path": "ch07/02_dataset-utilities/instruction-examples.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2a157083dfbda8c1c18b71d8bbc76abdfa9d07a",
+      "size": 39348,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/d2a157083dfbda8c1c18b71d8bbc76abdfa9d07a"
+    },
+    {
+      "path": "ch07/02_dataset-utilities/requirements-extra.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4f797017ed14b2f3b7ff5b2b8cbbf887273e58d",
+      "size": 47,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/f4f797017ed14b2f3b7ff5b2b8cbbf887273e58d"
+    },
+    {
+      "path": "ch07/03_model-evaluation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5fcb349894fbdc36d11a0ada330f4c2f080a8d2a",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/5fcb349894fbdc36d11a0ada330f4c2f080a8d2a"
+    },
+    {
+      "path": "ch07/03_model-evaluation/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea1a2ce6e3d1cddb522d171f5511fed55dcffe88",
+      "size": 1043,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/ea1a2ce6e3d1cddb522d171f5511fed55dcffe88"
+    },
+    {
+      "path": "ch07/03_model-evaluation/config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a01cb478468e101451f42e05a7c4532ea00be47a",
+      "size": 115,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/a01cb478468e101451f42e05a7c4532ea00be47a"
+    },
+    {
+      "path": "ch07/03_model-evaluation/eval-example-data.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc7fe10e0efd234d23ae1c95e6d01e7fb3bdb152",
+      "size": 36874,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/cc7fe10e0efd234d23ae1c95e6d01e7fb3bdb152"
+    },
+    {
+      "path": "ch07/03_model-evaluation/llm-instruction-eval-ollama.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f752a4c23d78d28c82932e566e354e5a80726ea",
+      "size": 23259,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/0f752a4c23d78d28c82932e566e354e5a80726ea"
+    },
+    {
+      "path": "ch07/03_model-evaluation/llm-instruction-eval-openai.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c099b1b2a4e0c39cf8515bae0066b32f4ed8bbb0",
+      "size": 20600,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/c099b1b2a4e0c39cf8515bae0066b32f4ed8bbb0"
+    },
+    {
+      "path": "ch07/03_model-evaluation/requirements-extra.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6446d2ca7388e4e6612aff06017321fa61dcafec",
+      "size": 28,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/6446d2ca7388e4e6612aff06017321fa61dcafec"
+    },
+    {
+      "path": "ch07/03_model-evaluation/scores",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "50f442f519a284cb86aa3e8f20f98039bcf47918",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/50f442f519a284cb86aa3e8f20f98039bcf47918"
+    },
+    {
+      "path": "ch07/03_model-evaluation/scores/correlation-analysis.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edd0fa16a3b5a487a417b530024cc11567665c4d",
+      "size": 34611,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/edd0fa16a3b5a487a417b530024cc11567665c4d"
+    },
+    {
+      "path": "ch07/03_model-evaluation/scores/gpt4-model-1-response.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4afd2ca909802d9e0709239307a0d6bb9802bb47",
+      "size": 445,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/4afd2ca909802d9e0709239307a0d6bb9802bb47"
+    },
+    {
+      "path": "ch07/03_model-evaluation/scores/gpt4-model-2-response.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6daf9cc4997e166ccf458fad0e525e2abf8ded6c",
+      "size": 408,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/6daf9cc4997e166ccf458fad0e525e2abf8ded6c"
+    },
+    {
+      "path": "ch07/03_model-evaluation/scores/llama3-8b-model-1-response.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d991d71c7c9d369e2162fff443b9be9bd4a24035",
+      "size": 402,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/d991d71c7c9d369e2162fff443b9be9bd4a24035"
+    },
+    {
+      "path": "ch07/03_model-evaluation/scores/llama3-8b-model-2-response.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b834c71006350c5fe300574046f71eb99071cd52",
+      "size": 393,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/b834c71006350c5fe300574046f71eb99071cd52"
+    },
+    {
+      "path": "ch07/04_preference-tuning-with-dpo",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f4f0ad28d5ed54b086a19a9042b5d04800dd092a",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/f4f0ad28d5ed54b086a19a9042b5d04800dd092a"
+    },
+    {
+      "path": "ch07/04_preference-tuning-with-dpo/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b71a6475229458b93a6e08f1302d27e08756081",
+      "size": 366,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/3b71a6475229458b93a6e08f1302d27e08756081"
+    },
+    {
+      "path": "ch07/04_preference-tuning-with-dpo/create-preference-data-ollama.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a2c598d3aa2d28311721134e7553347671380ec",
+      "size": 21336,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/4a2c598d3aa2d28311721134e7553347671380ec"
+    },
+    {
+      "path": "ch07/04_preference-tuning-with-dpo/dpo-from-scratch.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "830f6f8c45dc6aed60a0b15325f2d69abf0bfbae",
+      "size": 181811,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/830f6f8c45dc6aed60a0b15325f2d69abf0bfbae"
+    },
+    {
+      "path": "ch07/04_preference-tuning-with-dpo/instruction-data-with-preference.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9e60be36c484234b34d5c9c9369dccbcd3eb321",
+      "size": 386968,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/b9e60be36c484234b34d5c9c9369dccbcd3eb321"
+    },
+    {
+      "path": "ch07/04_preference-tuning-with-dpo/previous_chapters.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3783ce0ac360e83c69929d02c7ca1ee65f91fa8",
+      "size": 18313,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/c3783ce0ac360e83c69929d02c7ca1ee65f91fa8"
+    },
+    {
+      "path": "ch07/05_dataset-generation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3bfeeaefbacf59e2ae80ec5eb358f83195a682fa",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/3bfeeaefbacf59e2ae80ec5eb358f83195a682fa"
+    },
+    {
+      "path": "ch07/05_dataset-generation/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3b0a0be017cd74e930659c8af1a296fbe4093d7",
+      "size": 437,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/a3b0a0be017cd74e930659c8af1a296fbe4093d7"
+    },
+    {
+      "path": "ch07/05_dataset-generation/config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8469974c5f38fce03d76abd815bbdc527ce14f1",
+      "size": 111,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/b8469974c5f38fce03d76abd815bbdc527ce14f1"
+    },
+    {
+      "path": "ch07/05_dataset-generation/instruction-data-llama3-7b.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e88cc20ea29095c80be7946b9bfd55a34e937b79",
+      "size": 10242,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/e88cc20ea29095c80be7946b9bfd55a34e937b79"
+    },
+    {
+      "path": "ch07/05_dataset-generation/llama3-ollama.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc247740d61a6968bb4129daa58dfcc03684ef3a",
+      "size": 29870,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/bc247740d61a6968bb4129daa58dfcc03684ef3a"
+    },
+    {
+      "path": "ch07/05_dataset-generation/reflection-gpt4.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db9e376c7415b970c1faa5653e20144c5ea2d971",
+      "size": 42859,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/db9e376c7415b970c1faa5653e20144c5ea2d971"
+    },
+    {
+      "path": "ch07/05_dataset-generation/requirements-extra.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6446d2ca7388e4e6612aff06017321fa61dcafec",
+      "size": 28,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/6446d2ca7388e4e6612aff06017321fa61dcafec"
+    },
+    {
+      "path": "ch07/06_user_interface",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cbd3fe1c9cda202668c17a6948fc00e32992aada",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/cbd3fe1c9cda202668c17a6948fc00e32992aada"
+    },
+    {
+      "path": "ch07/06_user_interface/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d94039833a923499c637ba13da7dd9f0652a7e7",
+      "size": 1384,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/5d94039833a923499c637ba13da7dd9f0652a7e7"
+    },
+    {
+      "path": "ch07/06_user_interface/app.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c035fe639a7a0ccb675b1117b806241b08964e6",
+      "size": 3064,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/4c035fe639a7a0ccb675b1117b806241b08964e6"
+    },
+    {
+      "path": "ch07/06_user_interface/requirements-extra.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e6a2e7e055c051325d9db51b30594b9ca12ed1c",
+      "size": 15,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/4e6a2e7e055c051325d9db51b30594b9ca12ed1c"
+    },
+    {
+      "path": "ch07/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af328a8c68f0d73189216a69021205080e16b5c7",
+      "size": 1009,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/af328a8c68f0d73189216a69021205080e16b5c7"
+    },
+    {
+      "path": "conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "999a4a22a0eeee26dcc638b13c1845dc836ba9e9",
+      "size": 1748,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/999a4a22a0eeee26dcc638b13c1845dc836ba9e9"
+    },
+    {
+      "path": "pixi.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd2ade388806b0d3ddf05662530cc5dba9df3fc2",
+      "size": 1166,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/fd2ade388806b0d3ddf05662530cc5dba9df3fc2"
+    },
+    {
+      "path": "pkg",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "11ae44c36be9ed159ac33544e521d36ac7a5eed5",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/11ae44c36be9ed159ac33544e521d36ac7a5eed5"
+    },
+    {
+      "path": "pkg/llms_from_scratch",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "801e34d9824bda77311d959e0663d318890539fa",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/801e34d9824bda77311d959e0663d318890539fa"
+    },
+    {
+      "path": "pkg/llms_from_scratch/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b66ce9cb4e7868a9cd02ea72f4663dc025b2721c",
+      "size": 4124,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/b66ce9cb4e7868a9cd02ea72f4663dc025b2721c"
+    },
+    {
+      "path": "pkg/llms_from_scratch/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03c0237d28640478afb4218542883a352fd7aabd",
+      "size": 263,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/03c0237d28640478afb4218542883a352fd7aabd"
+    },
+    {
+      "path": "pkg/llms_from_scratch/appendix_a.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76b3b65dbe74a8be9e242f8255ed119214569f67",
+      "size": 1148,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/76b3b65dbe74a8be9e242f8255ed119214569f67"
+    },
+    {
+      "path": "pkg/llms_from_scratch/appendix_d.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6b99238f778aee8ff25ac158bbca2961f9d8594",
+      "size": 3982,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/e6b99238f778aee8ff25ac158bbca2961f9d8594"
+    },
+    {
+      "path": "pkg/llms_from_scratch/appendix_e.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25901ad8efb4a09b78addc235b9b3895183ffc51",
+      "size": 1536,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/25901ad8efb4a09b78addc235b9b3895183ffc51"
+    },
+    {
+      "path": "pkg/llms_from_scratch/ch02.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53ab35dea50e2a675294d2086f9249b191643fb8",
+      "size": 1673,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/53ab35dea50e2a675294d2086f9249b191643fb8"
+    },
+    {
+      "path": "pkg/llms_from_scratch/ch03.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f458d006fd1d422537fbdf6469cd749de30e4de0",
+      "size": 7690,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/f458d006fd1d422537fbdf6469cd749de30e4de0"
+    },
+    {
+      "path": "pkg/llms_from_scratch/ch04.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e2e43ce892c4e6d77e58b767ee2d9df2fc4a10b",
+      "size": 7350,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/5e2e43ce892c4e6d77e58b767ee2d9df2fc4a10b"
+    },
+    {
+      "path": "pkg/llms_from_scratch/ch05.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b91baa72e9b80734ba80a920c1fa2e3cabc37b31",
+      "size": 14268,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/b91baa72e9b80734ba80a920c1fa2e3cabc37b31"
+    },
+    {
+      "path": "pkg/llms_from_scratch/ch06.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8537f9f62c4c8cd0bcd73dfd78d67b59ad3a3675",
+      "size": 9730,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/8537f9f62c4c8cd0bcd73dfd78d67b59ad3a3675"
+    },
+    {
+      "path": "pkg/llms_from_scratch/ch07.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b155b4d241229603f2ecd0d78140711acc67d4df",
+      "size": 7866,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/b155b4d241229603f2ecd0d78140711acc67d4df"
+    },
+    {
+      "path": "pkg/llms_from_scratch/generate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7c741f08083130d06cd983c339669cfe651d6aa",
+      "size": 718,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/d7c741f08083130d06cd983c339669cfe651d6aa"
+    },
+    {
+      "path": "pkg/llms_from_scratch/kv_cache",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "955e956f0b51d334357c42fee338cd15c4c5a68b",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/955e956f0b51d334357c42fee338cd15c4c5a68b"
+    },
+    {
+      "path": "pkg/llms_from_scratch/kv_cache/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d11b143325a9c17da9aed236522d8dfd180cb073",
+      "size": 264,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/d11b143325a9c17da9aed236522d8dfd180cb073"
+    },
+    {
+      "path": "pkg/llms_from_scratch/kv_cache/generate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1502a0f86906a4a3a5f77c98aec1c11f80e238eb",
+      "size": 1999,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/1502a0f86906a4a3a5f77c98aec1c11f80e238eb"
+    },
+    {
+      "path": "pkg/llms_from_scratch/kv_cache/gpt2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adb7b67d4d78cd5988108ff717d2b920331ab1ed",
+      "size": 6955,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/adb7b67d4d78cd5988108ff717d2b920331ab1ed"
+    },
+    {
+      "path": "pkg/llms_from_scratch/kv_cache/llama3.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc4adfe3c36eeba75e3ce8ee8af6f115b1c0fa37",
+      "size": 20613,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/dc4adfe3c36eeba75e3ce8ee8af6f115b1c0fa37"
+    },
+    {
+      "path": "pkg/llms_from_scratch/kv_cache/qwen3.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ca06eb73f3d8a1a5881f82f01ff338014b1ca66",
+      "size": 12794,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/9ca06eb73f3d8a1a5881f82f01ff338014b1ca66"
+    },
+    {
+      "path": "pkg/llms_from_scratch/kv_cache/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85b3a1519a06d2444ae59797dc6f5c578bb762bb",
+      "size": 646,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/85b3a1519a06d2444ae59797dc6f5c578bb762bb"
+    },
+    {
+      "path": "pkg/llms_from_scratch/kv_cache_batched",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "73a7d64f0388e773925ada874ab495f652aec8a5",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/73a7d64f0388e773925ada874ab495f652aec8a5"
+    },
+    {
+      "path": "pkg/llms_from_scratch/kv_cache_batched/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d11b143325a9c17da9aed236522d8dfd180cb073",
+      "size": 264,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/d11b143325a9c17da9aed236522d8dfd180cb073"
+    },
+    {
+      "path": "pkg/llms_from_scratch/kv_cache_batched/generate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e8b0a466b1e865091612d2a2964ddb630676289",
+      "size": 1928,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/9e8b0a466b1e865091612d2a2964ddb630676289"
+    },
+    {
+      "path": "pkg/llms_from_scratch/kv_cache_batched/qwen3.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b56c3044767780a903f5231968cda27890253f3",
+      "size": 11180,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/4b56c3044767780a903f5231968cda27890253f3"
+    },
+    {
+      "path": "pkg/llms_from_scratch/kv_cache_batched/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c6c6412f65199bfa1980ff4e3612b3af48c27e5",
+      "size": 821,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/8c6c6412f65199bfa1980ff4e3612b3af48c27e5"
+    },
+    {
+      "path": "pkg/llms_from_scratch/llama3.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd92a4432b1bb8722f35403034104b25ebdc92c0",
+      "size": 24244,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/cd92a4432b1bb8722f35403034104b25ebdc92c0"
+    },
+    {
+      "path": "pkg/llms_from_scratch/qwen3.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e68649d54eafec80b2f8854ae4eec78bef9db32c",
+      "size": 25583,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/e68649d54eafec80b2f8854ae4eec78bef9db32c"
+    },
+    {
+      "path": "pkg/llms_from_scratch/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "481301e026fe00618fcf7e99fd4144358efd320d",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/481301e026fe00618fcf7e99fd4144358efd320d"
+    },
+    {
+      "path": "pkg/llms_from_scratch/tests/test_appendix_a.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9840a6985896b3fd4f70cd56cf5be5664cc313ee",
+      "size": 1836,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/9840a6985896b3fd4f70cd56cf5be5664cc313ee"
+    },
+    {
+      "path": "pkg/llms_from_scratch/tests/test_appendix_d.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "949b69af917022b34a87338c674a4e58921b5ede",
+      "size": 4005,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/949b69af917022b34a87338c674a4e58921b5ede"
+    },
+    {
+      "path": "pkg/llms_from_scratch/tests/test_appendix_e.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "761bc1903e009df1ef304fa525a27152fe4a0d03",
+      "size": 4759,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/761bc1903e009df1ef304fa525a27152fe4a0d03"
+    },
+    {
+      "path": "pkg/llms_from_scratch/tests/test_ch02.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b4e22932f153940472b505a2ec5f19fdbd4e31c",
+      "size": 1708,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/2b4e22932f153940472b505a2ec5f19fdbd4e31c"
+    },
+    {
+      "path": "pkg/llms_from_scratch/tests/test_ch03.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dee3b2fcb8d13367c907d9ca31f6633f74f1f70b",
+      "size": 843,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/dee3b2fcb8d13367c907d9ca31f6633f74f1f70b"
+    },
+    {
+      "path": "pkg/llms_from_scratch/tests/test_ch04.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d00f9ca5289e728b4fb14e4c1d4a9a974cee277",
+      "size": 2326,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/9d00f9ca5289e728b4fb14e4c1d4a9a974cee277"
+    },
+    {
+      "path": "pkg/llms_from_scratch/tests/test_ch05.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "366f3471298ff7c36ffed4f09b80fe8b2eec88b3",
+      "size": 3539,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/366f3471298ff7c36ffed4f09b80fe8b2eec88b3"
+    },
+    {
+      "path": "pkg/llms_from_scratch/tests/test_ch06.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29bbdd3624ebc710f34834a2e721a045c133d02c",
+      "size": 4633,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/29bbdd3624ebc710f34834a2e721a045c133d02c"
+    },
+    {
+      "path": "pkg/llms_from_scratch/tests/test_ch07.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ec9618a1c4eb9a2a645116e814ba353d08c914e",
+      "size": 3394,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/5ec9618a1c4eb9a2a645116e814ba353d08c914e"
+    },
+    {
+      "path": "pkg/llms_from_scratch/tests/test_generate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11d8a521c954ec7d42172f04b43322bee28cecf6",
+      "size": 1584,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/11d8a521c954ec7d42172f04b43322bee28cecf6"
+    },
+    {
+      "path": "pkg/llms_from_scratch/tests/test_llama3.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "799bc746ce0932827e5f1064eccf481eea81ba1a",
+      "size": 10934,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/799bc746ce0932827e5f1064eccf481eea81ba1a"
+    },
+    {
+      "path": "pkg/llms_from_scratch/tests/test_qwen3.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2789274ee441aaff1a99babdfeda02f7ce44d648",
+      "size": 28600,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/2789274ee441aaff1a99babdfeda02f7ce44d648"
+    },
+    {
+      "path": "pkg/llms_from_scratch/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c3657188501c06beb6326a6a42fd43d9b8ab7ca",
+      "size": 5367,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/1c3657188501c06beb6326a6a42fd43d9b8ab7ca"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6eb62f314904623130be3c977162194ba9cdab91",
+      "size": 2035,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/6eb62f314904623130be3c977162194ba9cdab91"
+    },
+    {
+      "path": "reasoning-from-scratch",
+      "mode": "160000",
+      "type": "commit",
+      "sha": "7b6a9d0f9090201dcb66c6242812d29aec379c77"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1619beaafad887c2e5ec819de2e7fe446dee4037",
+      "size": 752,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/1619beaafad887c2e5ec819de2e7fe446dee4037"
+    },
+    {
+      "path": "setup",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5f8bf0a4c0e9990ef2c1fef068486cfe906ccea2",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/5f8bf0a4c0e9990ef2c1fef068486cfe906ccea2"
+    },
+    {
+      "path": "setup/.vscode",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3a067fd47645d3612622fc878018f9510fbd67f4",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/3a067fd47645d3612622fc878018f9510fbd67f4"
+    },
+    {
+      "path": "setup/.vscode/extensions.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a69b592fc2d17890ae07fe4cdab35d687e85412b",
+      "size": 292,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/a69b592fc2d17890ae07fe4cdab35d687e85412b"
+    },
+    {
+      "path": "setup/01_optional-python-setup-preferences",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "471f8e0b826150894a53a2547d8e4e8d46a140eb",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/471f8e0b826150894a53a2547d8e4e8d46a140eb"
+    },
+    {
+      "path": "setup/01_optional-python-setup-preferences/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d196ec5bb6d6397d1eefa6df6e38ce64c534713",
+      "size": 13621,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/8d196ec5bb6d6397d1eefa6df6e38ce64c534713"
+    },
+    {
+      "path": "setup/01_optional-python-setup-preferences/native-pixi.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea6666b0cd2363734c19ca044348f8cd9df69e33",
+      "size": 3447,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/ea6666b0cd2363734c19ca044348f8cd9df69e33"
+    },
+    {
+      "path": "setup/01_optional-python-setup-preferences/native-uv.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02bc4d7542dde6e361fa16e2437e00a684f7e6ff",
+      "size": 5889,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/02bc4d7542dde6e361fa16e2437e00a684f7e6ff"
+    },
+    {
+      "path": "setup/02_installing-python-libraries",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "baa9c509fa5d775b8a8ed1d568147697a0647826",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/baa9c509fa5d775b8a8ed1d568147697a0647826"
+    },
+    {
+      "path": "setup/02_installing-python-libraries/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dec3c09427715bf57e5bfe15f4502842949bed19",
+      "size": 3918,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/dec3c09427715bf57e5bfe15f4502842949bed19"
+    },
+    {
+      "path": "setup/02_installing-python-libraries/python_environment_check.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cffd5a7d6819d6193854aac0b9df6d7b32e1470a",
+      "size": 1729,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/cffd5a7d6819d6193854aac0b9df6d7b32e1470a"
+    },
+    {
+      "path": "setup/02_installing-python-libraries/python_environment_check.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cceb441fc27dd85e8bcf886e66f4c21c06d59ce",
+      "size": 5079,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/7cceb441fc27dd85e8bcf886e66f4c21c06d59ce"
+    },
+    {
+      "path": "setup/02_installing-python-libraries/tests.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de5fdfb3f4f9594cace06ed36032625ff032a174",
+      "size": 454,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/de5fdfb3f4f9594cace06ed36032625ff032a174"
+    },
+    {
+      "path": "setup/03_optional-docker-environment",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9f1d117267141c005bf0a15787de712920c51daf",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/9f1d117267141c005bf0a15787de712920c51daf"
+    },
+    {
+      "path": "setup/03_optional-docker-environment/.devcontainer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4f07ddffd9a09d3b9b866fef4cc4664206216f80",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/4f07ddffd9a09d3b9b866fef4cc4664206216f80"
+    },
+    {
+      "path": "setup/03_optional-docker-environment/.devcontainer/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e386d736ab45d5892332203e3df5e5d6c1cf456",
+      "size": 532,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/3e386d736ab45d5892332203e3df5e5d6c1cf456"
+    },
+    {
+      "path": "setup/03_optional-docker-environment/.devcontainer/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbddf5dcb5ea7b40beb4404e4aa922a1c5c34088",
+      "size": 282,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/fbddf5dcb5ea7b40beb4404e4aa922a1c5c34088"
+    },
+    {
+      "path": "setup/03_optional-docker-environment/.devcontainer/devcontainer.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd4a15005fe6d11fec4ff49e8120517fd24010af",
+      "size": 433,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/dd4a15005fe6d11fec4ff49e8120517fd24010af"
+    },
+    {
+      "path": "setup/03_optional-docker-environment/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d09b154b8b7fabdffa151e4b1577147edb79fca6",
+      "size": 7260,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/d09b154b8b7fabdffa151e4b1577147edb79fca6"
+    },
+    {
+      "path": "setup/04_optional-aws-sagemaker-notebook",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3e39719668b4617cbe54376d3074e4f220f5c749",
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/trees/3e39719668b4617cbe54376d3074e4f220f5c749"
+    },
+    {
+      "path": "setup/04_optional-aws-sagemaker-notebook/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4006bfe0b465e59e8065f5c82100a61a5a8f0fa0",
+      "size": 2100,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/4006bfe0b465e59e8065f5c82100a61a5a8f0fa0"
+    },
+    {
+      "path": "setup/04_optional-aws-sagemaker-notebook/cloudformation-template.yml",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "73fce6bfbbc7bdc5d7dd0b59d07c72a746bb7dbe",
+      "size": 6464,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/73fce6bfbbc7bdc5d7dd0b59d07c72a746bb7dbe"
+    },
+    {
+      "path": "setup/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f00fef6784f73544e84a6cf3e740b60ccf2d0829",
+      "size": 6719,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/f00fef6784f73544e84a6cf3e740b60ccf2d0829"
+    },
+    {
+      "path": "troubleshooting.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8ceaffdeb5a3b5eab173b7b7d4cac416e25c076",
+      "size": 4496,
+      "url": "https://api.github.com/repos/rasbt/LLMs-from-scratch/git/blobs/f8ceaffdeb5a3b5eab173b7b7d4cac416e25c076"
+    }
+  ],
+  "truncated": false
+}

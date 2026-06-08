@@ -1,0 +1,3788 @@
+{
+  "sha": "ae2f203eb5462fbb75f7e719da465c32fcd8b979",
+  "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/ae2f203eb5462fbb75f7e719da465c32fcd8b979",
+  "tree": [
+    {
+      "path": ".claude.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0e4c180bc413516946965c6445493db82844e97",
+      "size": 56,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/e0e4c180bc413516946965c6445493db82844e97"
+    },
+    {
+      "path": ".claude",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6e0afe32a0b136bc0d030c93f17d7d5df964c1cb",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/6e0afe32a0b136bc0d030c93f17d7d5df964c1cb"
+    },
+    {
+      "path": ".claude/sessions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8107d3c303c51b25db5b0981b43aa2458c5db34f",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/8107d3c303c51b25db5b0981b43aa2458c5db34f"
+    },
+    {
+      "path": ".claude/sessions/session-1774998936453.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d45e49177274beb0914290445980cf512cc15f2e",
+      "size": 27,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/d45e49177274beb0914290445980cf512cc15f2e"
+    },
+    {
+      "path": ".claude/sessions/session-1774998994373.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cda33989826766974d0ff9e0fc5fa353e4973b1",
+      "size": 432,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/8cda33989826766974d0ff9e0fc5fa353e4973b1"
+    },
+    {
+      "path": ".claude/sessions/session-1775007533836.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d45e49177274beb0914290445980cf512cc15f2e",
+      "size": 27,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/d45e49177274beb0914290445980cf512cc15f2e"
+    },
+    {
+      "path": ".claude/sessions/session-1775007622154.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eeac5e92a935a5fd7c30d3dfa7a2b07c90f8301f",
+      "size": 284,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/eeac5e92a935a5fd7c30d3dfa7a2b07c90f8301f"
+    },
+    {
+      "path": ".claude/sessions/session-1775007632904.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5476f794ae9cfff23c0d4e2abcad78aac1a31c52",
+      "size": 291,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/5476f794ae9cfff23c0d4e2abcad78aac1a31c52"
+    },
+    {
+      "path": ".claude/sessions/session-1775007846522.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62be311aa3a10e3693f26afd611f1d6d6f6ed484",
+      "size": 358,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/62be311aa3a10e3693f26afd611f1d6d6f6ed484"
+    },
+    {
+      "path": ".claude/sessions/session-1775009126105.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3792e18c5f2f7dc42d62e30f357ca4ee668fc65",
+      "size": 280,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/c3792e18c5f2f7dc42d62e30f357ca4ee668fc65"
+    },
+    {
+      "path": ".claude/sessions/session-1775009583240.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "332894e2b387a7c083f11f329cc850b904de6eff",
+      "size": 810,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/332894e2b387a7c083f11f329cc850b904de6eff"
+    },
+    {
+      "path": ".claude/sessions/session-1775009651284.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d1830e2c37bd87a32698d9c26487c8c32ec4c6d",
+      "size": 292,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/3d1830e2c37bd87a32698d9c26487c8c32ec4c6d"
+    },
+    {
+      "path": ".claude/sessions/session-1775010002596.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e77d71fe9b872adfd7127aef32c0c6d46a6b322",
+      "size": 1236,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/9e77d71fe9b872adfd7127aef32c0c6d46a6b322"
+    },
+    {
+      "path": ".claude/sessions/session-1775010229294.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f878caa8a7b1f181c038b3cc371d863c657f11e0",
+      "size": 390,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/f878caa8a7b1f181c038b3cc371d863c657f11e0"
+    },
+    {
+      "path": ".claude/sessions/session-1775010237519.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25878b4885376d6da04630c1cadbcc42091e9e7a",
+      "size": 827,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/25878b4885376d6da04630c1cadbcc42091e9e7a"
+    },
+    {
+      "path": ".claw.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f088a0b7f0f2957927b8cc79d2b12749f2f8a41b",
+      "size": 44,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/f088a0b7f0f2957927b8cc79d2b12749f2f8a41b"
+    },
+    {
+      "path": ".dockerignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c82d648b1bdd740b7a52966c114def611d0476a",
+      "size": 229,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/7c82d648b1bdd740b7a52966c114def611d0476a"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1bfa7c1c4f373de98d538ed54e5b4ffaf891a8d0",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/1bfa7c1c4f373de98d538ed54e5b4ffaf891a8d0"
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2dbff6f9ffb46e32a419cc6b8d4b26a4e7e549a",
+      "size": 41,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/c2dbff6f9ffb46e32a419cc6b8d4b26a4e7e549a"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d522d93a29fe0078b4f9d79e7a9499c6baad9c38",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/d522d93a29fe0078b4f9d79e7a9499c6baad9c38"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/anti_slop_triage.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "095942c10aa1e924635c2bfb373f54d4694303b4",
+      "size": 2136,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/095942c10aa1e924635c2bfb373f54d4694303b4"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adddb8f00fe12956a4dee951e58aebc11aa0164f",
+      "size": 910,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/adddb8f00fe12956a4dee951e58aebc11aa0164f"
+    },
+    {
+      "path": ".github/hooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "12234e21ba29655ec31158c669e88d8594333023",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/12234e21ba29655ec31158c669e88d8594333023"
+    },
+    {
+      "path": ".github/hooks/pre-push",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a6e245c0d1bcdc8b73a18f4f0ccc14ad4f72d9ba",
+      "size": 900,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/a6e245c0d1bcdc8b73a18f4f0ccc14ad4f72d9ba"
+    },
+    {
+      "path": ".github/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "803aba62d20e7f19e2216f50ce42ef1146965b47",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/803aba62d20e7f19e2216f50ce42ef1146965b47"
+    },
+    {
+      "path": ".github/scripts/check_doc_source_of_truth.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c831eb778158b2a962f7bf9dd36f82f30fcc5522",
+      "size": 1730,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/c831eb778158b2a962f7bf9dd36f82f30fcc5522"
+    },
+    {
+      "path": ".github/scripts/check_release_readiness.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d356abb2affec28e87522a009402e7d8c616daaf",
+      "size": 5850,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/d356abb2affec28e87522a009402e7d8c616daaf"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a5262af6eba1a6f813f94fcc658670c2867e8c7e",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/a5262af6eba1a6f813f94fcc658670c2867e8c7e"
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1a1d9423be2d0c4b7c685c2f3e951f56697cc8e",
+      "size": 1993,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/c1a1d9423be2d0c4b7c685c2f3e951f56697cc8e"
+    },
+    {
+      "path": ".github/workflows/rust-ci.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e41d95cb1c254ba549e1db603c68e89dbe7f3125",
+      "size": 4399,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/e41d95cb1c254ba549e1db603c68e89dbe7f3125"
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a17f3387225f27de5ba96439fb77788eb699d5db",
+      "size": 361,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/a17f3387225f27de5ba96439fb77788eb699d5db"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcf4f9fe8a721aa7621a69edf2070c26654c6ea5",
+      "size": 297,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/fcf4f9fe8a721aa7621a69edf2070c26654c6ea5"
+    },
+    {
+      "path": ".omx",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "46e3b778d3f99a0b94e456a4527a268f531d6d62",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/46e3b778d3f99a0b94e456a4527a268f531d6d62"
+    },
+    {
+      "path": ".omx/cc2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "70ae9b743f98427af1e4f3e05b44a2e783725674",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/70ae9b743f98427af1e4f3e05b44a2e783725674"
+    },
+    {
+      "path": ".omx/cc2/board.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b33d6b76d619bf64f8e766c276a5c9dcaad402a",
+      "size": 1081185,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/4b33d6b76d619bf64f8e766c276a5c9dcaad402a"
+    },
+    {
+      "path": ".omx/cc2/board.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a89297ad232b1d358632941a160e37cfe2d7a4a",
+      "size": 630387,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/4a89297ad232b1d358632941a160e37cfe2d7a4a"
+    },
+    {
+      "path": ".omx/cc2/issue-parity-intake.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cf674e917a3e2454c8be6a683c80f36f4f8bd51",
+      "size": 25516,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/7cf674e917a3e2454c8be6a683c80f36f4f8bd51"
+    },
+    {
+      "path": ".omx/cc2/issue-parity-intake.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f8f1b1b08e263ed27bbb64c9c1cef61b9ab937d",
+      "size": 3971,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/3f8f1b1b08e263ed27bbb64c9c1cef61b9ab937d"
+    },
+    {
+      "path": ".omx/cc2/render_board_md.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "afb9fada0bc9208e04d48d85952d02b712fded63",
+      "size": 12536,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/afb9fada0bc9208e04d48d85952d02b712fded63"
+    },
+    {
+      "path": ".omx/cc2/validate_issue_parity_intake.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4ed8ec1c50735e897c92490009c7bf3232755e1e",
+      "size": 2349,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/4ed8ec1c50735e897c92490009c7bf3232755e1e"
+    },
+    {
+      "path": ".omx/ultragoal",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "26dd05baffd6cc9b2237f11ceebecdde20dbc080",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/26dd05baffd6cc9b2237f11ceebecdde20dbc080"
+    },
+    {
+      "path": ".omx/ultragoal/g010-final-quality-gate-rerun.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74cf7db7d78682cb7342511e8ecabbccb2d2e06a",
+      "size": 23163,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/74cf7db7d78682cb7342511e8ecabbccb2d2e06a"
+    },
+    {
+      "path": ".omx/ultragoal/g010-final-quality-gate.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a8b6305b45b762d1be1aa144b4a5afb8993fd02",
+      "size": 26084,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/1a8b6305b45b762d1be1aa144b4a5afb8993fd02"
+    },
+    {
+      "path": ".omx/ultragoal/g010-leader-verify.log",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58d3a0ae6f479d8770aa916a5505b087550d49d1",
+      "size": 14011,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/58d3a0ae6f479d8770aa916a5505b087550d49d1"
+    },
+    {
+      "path": ".omx/ultragoal/get-goal-G009-windows-docs-release.complete.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46cb918b14e74f3c0362be95a9cc653b77b1fe49",
+      "size": 517,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/46cb918b14e74f3c0362be95a9cc653b77b1fe49"
+    },
+    {
+      "path": ".omx/ultragoal/get-goal-G010-session-hygiene.active-20260515T020857Z.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e431918b69dda6cd9129b277b876b1674c2040f",
+      "size": 517,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/2e431918b69dda6cd9129b277b876b1674c2040f"
+    },
+    {
+      "path": ".omx/ultragoal/get-goal-G010-session-hygiene.active-20260515T020953Z.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b91bd5836c09b523fd7d346419e8390e4aa1910",
+      "size": 517,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/6b91bd5836c09b523fd7d346419e8390e4aa1910"
+    },
+    {
+      "path": ".omx/ultragoal/get-goal-G010-session-hygiene.active.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6ce541aa6905826c270a1944e1f048047cdbb60",
+      "size": 517,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/e6ce541aa6905826c270a1944e1f048047cdbb60"
+    },
+    {
+      "path": ".omx/ultragoal/get-goal-G010-session-hygiene.complete.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d7401915f9de2484678c913b152744a7debf49c",
+      "size": 517,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/1d7401915f9de2484678c913b152744a7debf49c"
+    },
+    {
+      "path": ".omx/ultragoal/goals.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac8d1c920121ad176137e55ab7f7ca7fa8e422d6",
+      "size": 17262,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/ac8d1c920121ad176137e55ab7f7ca7fa8e422d6"
+    },
+    {
+      "path": ".omx/ultragoal/ledger.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3a4eaca901084001bf4784716c2aa5ab1f9661c",
+      "size": 60415,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/b3a4eaca901084001bf4784716c2aa5ab1f9661c"
+    },
+    {
+      "path": ".omx/ultragoal/quality-gate-G009-windows-docs-release.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16a69cdd236aa069ada4ae4283f182789a8b3f61",
+      "size": 4276,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/16a69cdd236aa069ada4ae4283f182789a8b3f61"
+    },
+    {
+      "path": ".omx/ultragoal/quality-gate-G010-session-hygiene.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69c0fc498970086bf81bae370bbf4f226b9df771",
+      "size": 1893,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/69c0fc498970086bf81bae370bbf4f226b9df771"
+    },
+    {
+      "path": ".port_sessions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6c1849784d09a54e5b00e760117c5b7cc4ed5132",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/6c1849784d09a54e5b00e760117c5b7cc4ed5132"
+    },
+    {
+      "path": ".port_sessions/b035f648d5b549aa836ea01f6727ec62.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af9e814b0c62303905dd4e8f76962dca336a29f9",
+      "size": 141,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/af9e814b0c62303905dd4e8f76962dca336a29f9"
+    },
+    {
+      "path": ".port_sessions/b234acb1eb8c486e80544ddc7e13e6d8.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fab4c773af9199575763b8935c1b20be8d062ca8",
+      "size": 164,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/fab4c773af9199575763b8935c1b20be8d062ca8"
+    },
+    {
+      "path": ".port_sessions/b67e062748f04e10ac5770df9285e4bd.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a79c835b2700b777156a36d18f2be2e763eac3fc",
+      "size": 164,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/a79c835b2700b777156a36d18f2be2e763eac3fc"
+    },
+    {
+      "path": ".port_sessions/bb88fd20433840a8b19237e3f306c6e3.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ce0b57fa49b4df7e6bdb2918b763e4a4cceddae",
+      "size": 164,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/3ce0b57fa49b4df7e6bdb2918b763e4a4cceddae"
+    },
+    {
+      "path": "CLAUDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc3e2b6f8aba6ffb5dbe3af1e65f3af44c193691",
+      "size": 1181,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/bc3e2b6f8aba6ffb5dbe3af1e65f3af44c193691"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9b4e0f90c6cafe84ae08feef54c8f5b288b09c8",
+      "size": 1192,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/f9b4e0f90c6cafe84ae08feef54c8f5b288b09c8"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb2c4f72e7baa820b09ad4de86209dc2638a4146",
+      "size": 3230,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/bb2c4f72e7baa820b09ad4de86209dc2638a4146"
+    },
+    {
+      "path": "Containerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eec07d3f85694857c45ba627df4db61356e502ed",
+      "size": 271,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/eec07d3f85694857c45ba627df4db61356e502ed"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28e6960dd9a2be209c308b49bc9a8973dbf4d60d",
+      "size": 1096,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/28e6960dd9a2be209c308b49bc9a8973dbf4d60d"
+    },
+    {
+      "path": "PARITY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2af136cd84bd196c23ba94b0abaf91400a828b77",
+      "size": 13752,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/2af136cd84bd196c23ba94b0abaf91400a828b77"
+    },
+    {
+      "path": "PHILOSOPHY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1914cf71739c2be1c66b31ddc4a7c2e5af691b60",
+      "size": 4053,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/1914cf71739c2be1c66b31ddc4a7c2e5af691b60"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef9a2a65a0d223438abb78099f18e890730f6630",
+      "size": 14097,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/ef9a2a65a0d223438abb78099f18e890730f6630"
+    },
+    {
+      "path": "ROADMAP.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe4c3a7d48003f5ee0d8bf681f7be0e148eb1bf4",
+      "size": 1187599,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/fe4c3a7d48003f5ee0d8bf681f7be0e148eb1bf4"
+    },
+    {
+      "path": "SECURITY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "282f6887e4f20988ee8d562284ffee3eecba48f2",
+      "size": 1777,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/282f6887e4f20988ee8d562284ffee3eecba48f2"
+    },
+    {
+      "path": "SUPPORT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "617eea0dfd9460cb37924e21ec362fbd5cdcbd60",
+      "size": 761,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/617eea0dfd9460cb37924e21ec362fbd5cdcbd60"
+    },
+    {
+      "path": "USAGE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "873dde913decc15fc286dfeb0fd2a68b3053490e",
+      "size": 34159,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/873dde913decc15fc286dfeb0fd2a68b3053490e"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "af0daae3f309f3a18040b83301ffdecfe88a85b7",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/af0daae3f309f3a18040b83301ffdecfe88a85b7"
+    },
+    {
+      "path": "assets/claw-hero.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f055c74a90f0d92be05a81bd20fdfda96f83184",
+      "size": 238804,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/2f055c74a90f0d92be05a81bd20fdfda96f83184"
+    },
+    {
+      "path": "assets/omx",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "745821a5dc69fac58ee4c443f6d3a5ad490a52ff",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/745821a5dc69fac58ee4c443f6d3a5ad490a52ff"
+    },
+    {
+      "path": "assets/omx/omx-readme-review-1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e0e3cddd997f114778e9d32035b857a0070b15b",
+      "size": 1321775,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/7e0e3cddd997f114778e9d32035b857a0070b15b"
+    },
+    {
+      "path": "assets/omx/omx-readme-review-2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6207f258b9deb44ea7317fa957851007bd35de57",
+      "size": 1486184,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/6207f258b9deb44ea7317fa957851007bd35de57"
+    },
+    {
+      "path": "assets/sigrid-photo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a70aa842cecd35cf54efecf0d51c5cfbfa54e8b4",
+      "size": 74942,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/a70aa842cecd35cf54efecf0d51c5cfbfa54e8b4"
+    },
+    {
+      "path": "assets/star-history.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca98438dcadd552b02ea2f696f2d2f70cad49d60",
+      "size": 319771,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/ca98438dcadd552b02ea2f696f2d2f70cad49d60"
+    },
+    {
+      "path": "assets/tweet-screenshot.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "045b7b557ab8caa8ee060761bea0c808716610de",
+      "size": 831642,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/045b7b557ab8caa8ee060761bea0c808716610de"
+    },
+    {
+      "path": "assets/wsj-feature.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4786a955371fb800b9f7a6b4f6b977cebf673b25",
+      "size": 894053,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/4786a955371fb800b9f7a6b4f6b977cebf673b25"
+    },
+    {
+      "path": "concept.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5139ade9ca49a4657576ed3a12e6b94d842f8a3c",
+      "size": 11457,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/5139ade9ca49a4657576ed3a12e6b94d842f8a3c"
+    },
+    {
+      "path": "docker-compose.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7dec3ab3b4fb81cb15e56128b590b12400a9a1e0",
+      "size": 1325,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/7dec3ab3b4fb81cb15e56128b590b12400a9a1e0"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0b56128422e53878ee3d39dd02ccd58e7f6cb10f",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/0b56128422e53878ee3d39dd02ccd58e7f6cb10f"
+    },
+    {
+      "path": "docs/MODEL_COMPATIBILITY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13919d421003fc0d9a770c5fff6b4d4f0bd2a07d",
+      "size": 9939,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/13919d421003fc0d9a770c5fff6b4d4f0bd2a07d"
+    },
+    {
+      "path": "docs/anti-slop-triage.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b20fbb4d66f16fbbc8e199a955eea0ea74660fe5",
+      "size": 3537,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/b20fbb4d66f16fbbc8e199a955eea0ea74660fe5"
+    },
+    {
+      "path": "docs/container.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aeaa45e3ff754ea5b9e31c27efd46a54ba2f0ff9",
+      "size": 3763,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/aeaa45e3ff754ea5b9e31c27efd46a54ba2f0ff9"
+    },
+    {
+      "path": "docs/g002-security-verification-map.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09d57da85ae838d0c709b6d680c5901b9cc69077",
+      "size": 11872,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/09d57da85ae838d0c709b6d680c5901b9cc69077"
+    },
+    {
+      "path": "docs/g003-boot-session-verification-map.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52659ba0c89d9f1671aec0967ab5df3b356000dd",
+      "size": 7353,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/52659ba0c89d9f1671aec0967ab5df3b356000dd"
+    },
+    {
+      "path": "docs/g004-events-reports-contract.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17c1f6449324ea3c558a5a2f5ac80b6fa511e324",
+      "size": 7652,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/17c1f6449324ea3c558a5a2f5ac80b6fa511e324"
+    },
+    {
+      "path": "docs/g004-events-reports-verification-map.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "963e63a2fe1844e1dd221a1d5f6d3668b4b28397",
+      "size": 4828,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/963e63a2fe1844e1dd221a1d5f6d3668b4b28397"
+    },
+    {
+      "path": "docs/g005-branch-recovery-verification-map.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e6aba32e0fdcaf232ec0c2d7b5362022b988776",
+      "size": 3749,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/0e6aba32e0fdcaf232ec0c2d7b5362022b988776"
+    },
+    {
+      "path": "docs/g006-task-policy-board-verification-map.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cdd64d89451c45999674ef1551179653195d2fc",
+      "size": 3897,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/0cdd64d89451c45999674ef1551179653195d2fc"
+    },
+    {
+      "path": "docs/g007-mcp-lifecycle-mapping.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76bd658c0c97890f4ae38160dc159518a87355ed",
+      "size": 5547,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/76bd658c0c97890f4ae38160dc159518a87355ed"
+    },
+    {
+      "path": "docs/g007-plugin-mcp-verification-map.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b365e16f7d97e2b1571073dbf7d58a6643d018b7",
+      "size": 5083,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/b365e16f7d97e2b1571073dbf7d58a6643d018b7"
+    },
+    {
+      "path": "docs/g009-windows-docs-release-verification-map.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed644f68748b260f586fc5c8b2589c56b2cb65ed",
+      "size": 7224,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/ed644f68748b260f586fc5c8b2589c56b2cb65ed"
+    },
+    {
+      "path": "docs/g010-clone-disambiguation-metadata.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b54d85e63876de59b5ee8666943e74161998c6e3",
+      "size": 7397,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/b54d85e63876de59b5ee8666943e74161998c6e3"
+    },
+    {
+      "path": "docs/g010-session-hygiene-verification-map.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aba559b883dd6ca8976f1116f6988de9cbfefc84",
+      "size": 2755,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/aba559b883dd6ca8976f1116f6988de9cbfefc84"
+    },
+    {
+      "path": "docs/g011-acp-json-rpc-status-contract.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2cd2ed2a610b27841f3680ab6494fe00947dc01",
+      "size": 1804,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/c2cd2ed2a610b27841f3680ab6494fe00947dc01"
+    },
+    {
+      "path": "docs/g011-ecosystem-ops-ux-verification-map.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cefccca5f9c42e7b69f0b558cadd9e1ebda58662",
+      "size": 7831,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/cefccca5f9c42e7b69f0b558cadd9e1ebda58662"
+    },
+    {
+      "path": "docs/g012-final-release-readiness-report.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec6a2a14a8fd5499b6909eb91ffc2c930dfb9d2c",
+      "size": 8099,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/ec6a2a14a8fd5499b6909eb91ffc2c930dfb9d2c"
+    },
+    {
+      "path": "docs/g013-roadmap-pinpoints-693-695-verification-map.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f925e884e4c3f854bb3f9d9e27a7314649ac076",
+      "size": 2393,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/2f925e884e4c3f854bb3f9d9e27a7314649ac076"
+    },
+    {
+      "path": "docs/local-openai-compatible-providers.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf3766e08243fb0c2213b7f239880c5d42c9d8cd",
+      "size": 6819,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/cf3766e08243fb0c2213b7f239880c5d42c9d8cd"
+    },
+    {
+      "path": "docs/navigation-file-context.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "897fb8fbbfa5a8d6f73e492b650b55b87b91deb5",
+      "size": 3495,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/897fb8fbbfa5a8d6f73e492b650b55b87b91deb5"
+    },
+    {
+      "path": "docs/personal-assistant-roadmap.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5948706c9229cbcb79c060c38ba97417985ba789",
+      "size": 4690,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/5948706c9229cbcb79c060c38ba97417985ba789"
+    },
+    {
+      "path": "docs/pr-issue-resolution-gate.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "236f8377620d44b8ddc04d84881e47fe31375e5c",
+      "size": 4537,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/236f8377620d44b8ddc04d84881e47fe31375e5c"
+    },
+    {
+      "path": "docs/pr-triage-g012-final-gate.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05049a024a07754ab8498ce1de4c932d6a84cb1c",
+      "size": 54003,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/05049a024a07754ab8498ce1de4c932d6a84cb1c"
+    },
+    {
+      "path": "docs/rag-web-ui.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73cafaafadaaac0e00d1776c85c7bdadd4ba8323",
+      "size": 5938,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/73cafaafadaaac0e00d1776c85c7bdadd4ba8323"
+    },
+    {
+      "path": "docs/roadmap-pr-goals.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6be87f8e8f17767175e0347a807141f73fac2f9",
+      "size": 6246,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/e6be87f8e8f17767175e0347a807141f73fac2f9"
+    },
+    {
+      "path": "docs/windows-install-release.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f90ca970939a3f1e6e90a5d13de2aa6caccb2f6d",
+      "size": 6265,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/f90ca970939a3f1e6e90a5d13de2aa6caccb2f6d"
+    },
+    {
+      "path": "how_to_run.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac8cba72d99965c3ea625422fa9ca3404378d76e",
+      "size": 27905,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/ac8cba72d99965c3ea625422fa9ca3404378d76e"
+    },
+    {
+      "path": "install.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c95cddaf8a8dd29a60e9016599b098029a0ae265",
+      "size": 11351,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/c95cddaf8a8dd29a60e9016599b098029a0ae265"
+    },
+    {
+      "path": "prd.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8faaa5418a1382ea08947d079ab819670976148f",
+      "size": 20479,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/8faaa5418a1382ea08947d079ab819670976148f"
+    },
+    {
+      "path": "progress.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7953a171e240be6ceb309b649c105806c32179b",
+      "size": 19087,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/d7953a171e240be6ceb309b649c105806c32179b"
+    },
+    {
+      "path": "rust",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a75eeb38b8cb42cf74d9c03edf9414d44982c8f7",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/a75eeb38b8cb42cf74d9c03edf9414d44982c8f7"
+    },
+    {
+      "path": "rust/.claude",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "237016adbbcbff8463d4430c0ae072c1747f13ca",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/237016adbbcbff8463d4430c0ae072c1747f13ca"
+    },
+    {
+      "path": "rust/.claude/sessions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0f322786e3439c807458051207ff5f0fa2c0e686",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/0f322786e3439c807458051207ff5f0fa2c0e686"
+    },
+    {
+      "path": "rust/.claude/sessions/session-1775007453382.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d45e49177274beb0914290445980cf512cc15f2e",
+      "size": 27,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/d45e49177274beb0914290445980cf512cc15f2e"
+    },
+    {
+      "path": "rust/.claude/sessions/session-1775007484031.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d45e49177274beb0914290445980cf512cc15f2e",
+      "size": 27,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/d45e49177274beb0914290445980cf512cc15f2e"
+    },
+    {
+      "path": "rust/.claude/sessions/session-1775007490104.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d45e49177274beb0914290445980cf512cc15f2e",
+      "size": 27,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/d45e49177274beb0914290445980cf512cc15f2e"
+    },
+    {
+      "path": "rust/.claude/sessions/session-1775007981374.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d45e49177274beb0914290445980cf512cc15f2e",
+      "size": 27,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/d45e49177274beb0914290445980cf512cc15f2e"
+    },
+    {
+      "path": "rust/.claude/sessions/session-1775008007069.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d45e49177274beb0914290445980cf512cc15f2e",
+      "size": 27,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/d45e49177274beb0914290445980cf512cc15f2e"
+    },
+    {
+      "path": "rust/.claude/sessions/session-1775008071886.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d45e49177274beb0914290445980cf512cc15f2e",
+      "size": 27,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/d45e49177274beb0914290445980cf512cc15f2e"
+    },
+    {
+      "path": "rust/.claude/sessions/session-1775008137143.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d45e49177274beb0914290445980cf512cc15f2e",
+      "size": 27,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/d45e49177274beb0914290445980cf512cc15f2e"
+    },
+    {
+      "path": "rust/.claude/sessions/session-1775008161929.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92f0c1f0fadd9a7e7e3bd6263aca060b080a47d9",
+      "size": 757,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/92f0c1f0fadd9a7e7e3bd6263aca060b080a47d9"
+    },
+    {
+      "path": "rust/.claude/sessions/session-1775008308936.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d45e49177274beb0914290445980cf512cc15f2e",
+      "size": 27,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/d45e49177274beb0914290445980cf512cc15f2e"
+    },
+    {
+      "path": "rust/.claude/sessions/session-1775008427969.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d45e49177274beb0914290445980cf512cc15f2e",
+      "size": 27,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/d45e49177274beb0914290445980cf512cc15f2e"
+    },
+    {
+      "path": "rust/.claude/sessions/session-1775008464519.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d45e49177274beb0914290445980cf512cc15f2e",
+      "size": 27,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/d45e49177274beb0914290445980cf512cc15f2e"
+    },
+    {
+      "path": "rust/.claude/sessions/session-1775008997307.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d45e49177274beb0914290445980cf512cc15f2e",
+      "size": 27,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/d45e49177274beb0914290445980cf512cc15f2e"
+    },
+    {
+      "path": "rust/.claude/sessions/session-1775009119214.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d45e49177274beb0914290445980cf512cc15f2e",
+      "size": 27,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/d45e49177274beb0914290445980cf512cc15f2e"
+    },
+    {
+      "path": "rust/.claude/sessions/session-1775009126336.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfda4060be0287be5891052efc074e78eafb7067",
+      "size": 343,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/bfda4060be0287be5891052efc074e78eafb7067"
+    },
+    {
+      "path": "rust/.claude/sessions/session-1775009145469.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d45e49177274beb0914290445980cf512cc15f2e",
+      "size": 27,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/d45e49177274beb0914290445980cf512cc15f2e"
+    },
+    {
+      "path": "rust/.claude/sessions/session-1775009431231.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d45e49177274beb0914290445980cf512cc15f2e",
+      "size": 27,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/d45e49177274beb0914290445980cf512cc15f2e"
+    },
+    {
+      "path": "rust/.claude/sessions/session-1775009769569.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d27efd5b4984aed1b227b7ed6ecb50854678de0",
+      "size": 519,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/3d27efd5b4984aed1b227b7ed6ecb50854678de0"
+    },
+    {
+      "path": "rust/.claude/sessions/session-1775009841982.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2031fba5a2df31c9c9cfad7375c26b207ca65ed6",
+      "size": 557,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/2031fba5a2df31c9c9cfad7375c26b207ca65ed6"
+    },
+    {
+      "path": "rust/.claude/sessions/session-1775009869734.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d45e49177274beb0914290445980cf512cc15f2e",
+      "size": 27,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/d45e49177274beb0914290445980cf512cc15f2e"
+    },
+    {
+      "path": "rust/.claude/sessions/session-1775010047738.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89e281ae5b04c92ecb8672d1160f9f0631207e3c",
+      "size": 4388,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/89e281ae5b04c92ecb8672d1160f9f0631207e3c"
+    },
+    {
+      "path": "rust/.claude/sessions/session-1775010333630.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9def399073fab49f045855bb802dc5ab09436475",
+      "size": 2303,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/9def399073fab49f045855bb802dc5ab09436475"
+    },
+    {
+      "path": "rust/.claude/sessions/session-1775010384918.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2ff071a9ffa1d79fdfd614d2fc953da2573b104",
+      "size": 1152,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/e2ff071a9ffa1d79fdfd614d2fc953da2573b104"
+    },
+    {
+      "path": "rust/.claude/sessions/session-1775010909274.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d45e49177274beb0914290445980cf512cc15f2e",
+      "size": 27,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/d45e49177274beb0914290445980cf512cc15f2e"
+    },
+    {
+      "path": "rust/.claude/sessions/session-1775011146355.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d45e49177274beb0914290445980cf512cc15f2e",
+      "size": 27,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/d45e49177274beb0914290445980cf512cc15f2e"
+    },
+    {
+      "path": "rust/.claude/sessions/session-1775011562247.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10134836b9d595896820b12678d924f55c552c27",
+      "size": 451647,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/10134836b9d595896820b12678d924f55c552c27"
+    },
+    {
+      "path": "rust/.claude/sessions/session-1775012674485.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c66d083a6e2eccaf0b2e4c9443a6f016558e415",
+      "size": 311,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/7c66d083a6e2eccaf0b2e4c9443a6f016558e415"
+    },
+    {
+      "path": "rust/.claude/sessions/session-1775012687059.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df02aaa0f0fb0287083b9622cf7ea85e95dfd3b3",
+      "size": 267,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/df02aaa0f0fb0287083b9622cf7ea85e95dfd3b3"
+    },
+    {
+      "path": "rust/.claude/sessions/session-1775013221875.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d45e49177274beb0914290445980cf512cc15f2e",
+      "size": 27,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/d45e49177274beb0914290445980cf512cc15f2e"
+    },
+    {
+      "path": "rust/.claw.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0e4c180bc413516946965c6445493db82844e97",
+      "size": 56,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/e0e4c180bc413516946965c6445493db82844e97"
+    },
+    {
+      "path": "rust/.claw",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "08ef69246f459590929bc9b9386ad4cf05b84b73",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/08ef69246f459590929bc9b9386ad4cf05b84b73"
+    },
+    {
+      "path": "rust/.claw/sessions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9292c8181359f1f50281368578955eb8f987dd9e",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/9292c8181359f1f50281368578955eb8f987dd9e"
+    },
+    {
+      "path": "rust/.claw/sessions/session-1775386832313-0.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eed0e858dc2f2370ad103fba2dae55c6074b5cab",
+      "size": 135,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/eed0e858dc2f2370ad103fba2dae55c6074b5cab"
+    },
+    {
+      "path": "rust/.claw/sessions/session-1775386842352-0.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a678ace1a2892539d064a966b81879da8c177f0",
+      "size": 230,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/4a678ace1a2892539d064a966b81879da8c177f0"
+    },
+    {
+      "path": "rust/.claw/sessions/session-1775386852257-0.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa8cb0320fbea84d6cc86fb11e4c2a774b21f61b",
+      "size": 230,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/fa8cb0320fbea84d6cc86fb11e4c2a774b21f61b"
+    },
+    {
+      "path": "rust/.claw/sessions/session-1775386853666-0.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2bd3033edb06793c96fdb7db5c29d9fbe7f01e2",
+      "size": 230,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/d2bd3033edb06793c96fdb7db5c29d9fbe7f01e2"
+    },
+    {
+      "path": "rust/.clawd-todos.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18efc90546049dea2aa225b04d14e7cfa4f37058",
+      "size": 575,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/18efc90546049dea2aa225b04d14e7cfa4f37058"
+    },
+    {
+      "path": "rust/.dockerignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "baae2f5e13683aeba32f701b2098bd3bb81aae82",
+      "size": 191,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/baae2f5e13683aeba32f701b2098bd3bb81aae82"
+    },
+    {
+      "path": "rust/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2ed24a59a579de0a379c1e8c89df97379da2bd0",
+      "size": 109,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/e2ed24a59a579de0a379c1e8c89df97379da2bd0"
+    },
+    {
+      "path": "rust/.omc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5ebeabc8dec165eec703ac1e884d07a2f2f3b73f",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/5ebeabc8dec165eec703ac1e884d07a2f2f3b73f"
+    },
+    {
+      "path": "rust/.omc/plans",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3bdebb9d12f7d2896fd45e7dfc37848dd0be1392",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/3bdebb9d12f7d2896fd45e7dfc37848dd0be1392"
+    },
+    {
+      "path": "rust/.omc/plans/tui-enhancement-plan.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2a0657498c949649503f0aa34cea521e14bf1aa",
+      "size": 14498,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/d2a0657498c949649503f0aa34cea521e14bf1aa"
+    },
+    {
+      "path": "rust/.sandbox-home",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "12c884dbf3cb5c40986ac52f02a4a6496434dae5",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/12c884dbf3cb5c40986ac52f02a4a6496434dae5"
+    },
+    {
+      "path": "rust/.sandbox-home/.rustup",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "db4c36889f7ec07268aaba6a3955372e0effc367",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/db4c36889f7ec07268aaba6a3955372e0effc367"
+    },
+    {
+      "path": "rust/.sandbox-home/.rustup/settings.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e34067a4951e6461b165400a7d73b6acaa7262c4",
+      "size": 28,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/e34067a4951e6461b165400a7d73b6acaa7262c4"
+    },
+    {
+      "path": "rust/CLAUDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98357b72db98e06c9b0197a0680bda6453e76db0",
+      "size": 1016,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/98357b72db98e06c9b0197a0680bda6453e76db0"
+    },
+    {
+      "path": "rust/Cargo.lock",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8f1a171dca1b54b7bfa977f499ca487ec4338b32",
+      "size": 85833,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/8f1a171dca1b54b7bfa977f499ca487ec4338b32"
+    },
+    {
+      "path": "rust/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ca7b8d81bbd73d00493c76df3947ea329278cdf",
+      "size": 432,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/4ca7b8d81bbd73d00493c76df3947ea329278cdf"
+    },
+    {
+      "path": "rust/MOCK_PARITY_HARNESS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eeeab743c8ee5ad810af55b9acce831aad119e88",
+      "size": 1483,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/eeeab743c8ee5ad810af55b9acce831aad119e88"
+    },
+    {
+      "path": "rust/PARITY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75abc6f1380ec129891904c7b101ce1b9fa3ef31",
+      "size": 9121,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/75abc6f1380ec129891904c7b101ce1b9fa3ef31"
+    },
+    {
+      "path": "rust/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edcd4fefc1e6fdb3ea2fd3e120282e0aa90403d7",
+      "size": 11078,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/edcd4fefc1e6fdb3ea2fd3e120282e0aa90403d7"
+    },
+    {
+      "path": "rust/TUI-ENHANCEMENT-PLAN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9de6c356341560ce173907c357238694787ff30",
+      "size": 14682,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/a9de6c356341560ce173907c357238694787ff30"
+    },
+    {
+      "path": "rust/USAGE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fbf14b16dc7670c37baa632fb534acdc0e8c5ba",
+      "size": 281,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/0fbf14b16dc7670c37baa632fb534acdc0e8c5ba"
+    },
+    {
+      "path": "rust/crates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bb5ad2d0bf9d9539bca21e5d38cb48586115053b",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/bb5ad2d0bf9d9539bca21e5d38cb48586115053b"
+    },
+    {
+      "path": "rust/crates/api",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1027a549e3ee4a0e86c361bd364203abb2881aad",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/1027a549e3ee4a0e86c361bd364203abb2881aad"
+    },
+    {
+      "path": "rust/crates/api/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "992ead689b661c48aa15028154ea8995b72c8f9c",
+      "size": 634,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/992ead689b661c48aa15028154ea8995b72c8f9c"
+    },
+    {
+      "path": "rust/crates/api/benches",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "49f91347efa3da282e53702700483bfa0a9616e2",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/49f91347efa3da282e53702700483bfa0a9616e2"
+    },
+    {
+      "path": "rust/crates/api/benches/request_building.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "234934772c1dd297fc8fbe4580ba65b87cf1b041",
+      "size": 10751,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/234934772c1dd297fc8fbe4580ba65b87cf1b041"
+    },
+    {
+      "path": "rust/crates/api/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "815ec6867aa296c7d7f4cbde007e239df56e7947",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/815ec6867aa296c7d7f4cbde007e239df56e7947"
+    },
+    {
+      "path": "rust/crates/api/src/client.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "240559e809f71362cee2d800e879bf0c790d2c5d",
+      "size": 9822,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/240559e809f71362cee2d800e879bf0c790d2c5d"
+    },
+    {
+      "path": "rust/crates/api/src/error.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8ec73a4c550fffba054c31b8a2239da70912e28",
+      "size": 25538,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/e8ec73a4c550fffba054c31b8a2239da70912e28"
+    },
+    {
+      "path": "rust/crates/api/src/http_client.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "648a0811f692f8f2091708d0420c10a7ce3a6ab9",
+      "size": 13937,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/648a0811f692f8f2091708d0420c10a7ce3a6ab9"
+    },
+    {
+      "path": "rust/crates/api/src/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e96e92f830ff715707b50e4a2ea864047d05d93b",
+      "size": 1908,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/e96e92f830ff715707b50e4a2ea864047d05d93b"
+    },
+    {
+      "path": "rust/crates/api/src/prompt_cache.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ee8663cc7de74a080b66d8df142317b96880bc1",
+      "size": 24160,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/0ee8663cc7de74a080b66d8df142317b96880bc1"
+    },
+    {
+      "path": "rust/crates/api/src/providers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1f0ee7793c3825302054ea4ba3f87a2f0cf63dac",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/1f0ee7793c3825302054ea4ba3f87a2f0cf63dac"
+    },
+    {
+      "path": "rust/crates/api/src/providers/anthropic.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "430b3eff6db3f5c5cab3c3e4e98842243e38deda",
+      "size": 63619,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/430b3eff6db3f5c5cab3c3e4e98842243e38deda"
+    },
+    {
+      "path": "rust/crates/api/src/providers/mod.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "054c335c303dd1b2b80daf7207b9c63d5eec2aa9",
+      "size": 65516,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/054c335c303dd1b2b80daf7207b9c63d5eec2aa9"
+    },
+    {
+      "path": "rust/crates/api/src/providers/openai_compat.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c378b58560084ea797ba0eb863ae17b22fe9c1e1",
+      "size": 114364,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/c378b58560084ea797ba0eb863ae17b22fe9c1e1"
+    },
+    {
+      "path": "rust/crates/api/src/sse.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "551dfd68789f7559f5349e6c289c6881efff51fb",
+      "size": 10740,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/551dfd68789f7559f5349e6c289c6881efff51fb"
+    },
+    {
+      "path": "rust/crates/api/src/types.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ec7f879e559db5845ca588e925d65a037f7655a",
+      "size": 10584,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/3ec7f879e559db5845ca588e925d65a037f7655a"
+    },
+    {
+      "path": "rust/crates/api/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5c5c294f97bf98c441b4d42a1df2ec5f501fb98d",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/5c5c294f97bf98c441b4d42a1df2ec5f501fb98d"
+    },
+    {
+      "path": "rust/crates/api/tests/client_integration.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c53e34c5ce4dee23fbba736a0a8e9299a45cc557",
+      "size": 35805,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/c53e34c5ce4dee23fbba736a0a8e9299a45cc557"
+    },
+    {
+      "path": "rust/crates/api/tests/openai_compat_integration.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4521ebed9db7b97139ff8baa20ed29f088956027",
+      "size": 27783,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/4521ebed9db7b97139ff8baa20ed29f088956027"
+    },
+    {
+      "path": "rust/crates/api/tests/provider_client_integration.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d8236e2af6bbc6de13f17ed48fb3e9a2027672c",
+      "size": 2703,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/3d8236e2af6bbc6de13f17ed48fb3e9a2027672c"
+    },
+    {
+      "path": "rust/crates/api/tests/proxy_integration.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e3906983f943eb2b3ee72f78d5d9aab5736c091",
+      "size": 5527,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/7e3906983f943eb2b3ee72f78d5d9aab5736c091"
+    },
+    {
+      "path": "rust/crates/claw-analog",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7bb56dfcdff71020afd20873a803487359b748dc",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/7bb56dfcdff71020afd20873a803487359b748dc"
+    },
+    {
+      "path": "rust/crates/claw-analog/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "472b45e8ee39f0434f6a33330358caaf01855cad",
+      "size": 863,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/472b45e8ee39f0434f6a33330358caaf01855cad"
+    },
+    {
+      "path": "rust/crates/claw-analog/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e82c2098788ab2abee64b0ffe0aac0309e1c0376",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/e82c2098788ab2abee64b0ffe0aac0309e1c0376"
+    },
+    {
+      "path": "rust/crates/claw-analog/src/agents.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f8111c7b91731d2299ed68fab4ea7711f788e75",
+      "size": 16623,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/7f8111c7b91731d2299ed68fab4ea7711f788e75"
+    },
+    {
+      "path": "rust/crates/claw-analog/src/config_cmd.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38ea3ae80679944466ca39f86d82147f4880a1c4",
+      "size": 4349,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/38ea3ae80679944466ca39f86d82147f4880a1c4"
+    },
+    {
+      "path": "rust/crates/claw-analog/src/doctor.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d193236eab99231fe5bb305525c7360668a5b90",
+      "size": 24760,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/2d193236eab99231fe5bb305525c7360668a5b90"
+    },
+    {
+      "path": "rust/crates/claw-analog/src/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33e4863f0c978c74ab435399f0d644747507b9de",
+      "size": 103766,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/33e4863f0c978c74ab435399f0d644747507b9de"
+    },
+    {
+      "path": "rust/crates/claw-analog/src/main.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42b5134a83eb714d7eac17a0951b37c4d5f73ad8",
+      "size": 15692,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/42b5134a83eb714d7eac17a0951b37c4d5f73ad8"
+    },
+    {
+      "path": "rust/crates/claw-rag-service",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "599fcd12412aec809b2b2ac73a0e24ab2f3e2eb0",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/599fcd12412aec809b2b2ac73a0e24ab2f3e2eb0"
+    },
+    {
+      "path": "rust/crates/claw-rag-service/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5098dba106a3f54c58e7a2a49120db6aa0c2247",
+      "size": 845,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/b5098dba106a3f54c58e7a2a49120db6aa0c2247"
+    },
+    {
+      "path": "rust/crates/claw-rag-service/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2027ed4c3df76b030f4d55a2b63b98c390ae56c5",
+      "size": 661,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/2027ed4c3df76b030f4d55a2b63b98c390ae56c5"
+    },
+    {
+      "path": "rust/crates/claw-rag-service/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b6cd935e5b9ffe34d154bd56afe320b0cba0956c",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/b6cd935e5b9ffe34d154bd56afe320b0cba0956c"
+    },
+    {
+      "path": "rust/crates/claw-rag-service/src/chunk.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db854c355c179e24591259a62d705c4a19827130",
+      "size": 1069,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/db854c355c179e24591259a62d705c4a19827130"
+    },
+    {
+      "path": "rust/crates/claw-rag-service/src/db.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b73ec74bc9c0d1b3de26957b22d167c893aecac",
+      "size": 6192,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/8b73ec74bc9c0d1b3de26957b22d167c893aecac"
+    },
+    {
+      "path": "rust/crates/claw-rag-service/src/embed.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27d690549c161cd54851416f24b3b1643c8e3bc8",
+      "size": 3802,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/27d690549c161cd54851416f24b3b1643c8e3bc8"
+    },
+    {
+      "path": "rust/crates/claw-rag-service/src/ingest.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eae4362912557f2b29d0ea662d9a322dfe2fbfa9",
+      "size": 6935,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/eae4362912557f2b29d0ea662d9a322dfe2fbfa9"
+    },
+    {
+      "path": "rust/crates/claw-rag-service/src/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "594fc7b9722c83d525627a5fca275011459ab0e3",
+      "size": 3022,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/594fc7b9722c83d525627a5fca275011459ab0e3"
+    },
+    {
+      "path": "rust/crates/claw-rag-service/src/main.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fe898dbc85772f309ec56b074fc264c1833babc",
+      "size": 4835,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/8fe898dbc85772f309ec56b074fc264c1833babc"
+    },
+    {
+      "path": "rust/crates/claw-rag-service/src/qdrant_index.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c997eb4b7d70763043d1eb4271ba6d4a76c8a12b",
+      "size": 5346,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/c997eb4b7d70763043d1eb4271ba6d4a76c8a12b"
+    },
+    {
+      "path": "rust/crates/claw-rag-service/src/search.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4fe3ca2e9474cf0a7d79003aaa5df0095836fea",
+      "size": 2319,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/c4fe3ca2e9474cf0a7d79003aaa5df0095836fea"
+    },
+    {
+      "path": "rust/crates/claw-rag-service/static",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2287941443facb24c9d921933747146921315735",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/2287941443facb24c9d921933747146921315735"
+    },
+    {
+      "path": "rust/crates/claw-rag-service/static/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3516202b14d17a6f4b72fa1c7f14fef04ffc965",
+      "size": 7128,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/c3516202b14d17a6f4b72fa1c7f14fef04ffc965"
+    },
+    {
+      "path": "rust/crates/commands",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2707847a93f9346a16e9e372c15eef597dafa828",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/2707847a93f9346a16e9e372c15eef597dafa828"
+    },
+    {
+      "path": "rust/crates/commands/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2263f7a8b99d63b5d9fdf4bdc34a1ace691fb164",
+      "size": 266,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/2263f7a8b99d63b5d9fdf4bdc34a1ace691fb164"
+    },
+    {
+      "path": "rust/crates/commands/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9557bfccf7a62d744fb7d934d1d60a17128fe3d0",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/9557bfccf7a62d744fb7d934d1d60a17128fe3d0"
+    },
+    {
+      "path": "rust/crates/commands/src/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cc7fa3fd6d955ec0b1c4f53fda9da6415a87032",
+      "size": 257167,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/7cc7fa3fd6d955ec0b1c4f53fda9da6415a87032"
+    },
+    {
+      "path": "rust/crates/compat-harness",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fda62cccc2b0f7229ecf81611b979543001bb2ba",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/fda62cccc2b0f7229ecf81611b979543001bb2ba"
+    },
+    {
+      "path": "rust/crates/compat-harness/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "507799530ff02fef39085fac20b764344488910f",
+      "size": 276,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/507799530ff02fef39085fac20b764344488910f"
+    },
+    {
+      "path": "rust/crates/compat-harness/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0afa8f79c6454adfa158d929fa618c799c4867e1",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/0afa8f79c6454adfa158d929fa618c799c4867e1"
+    },
+    {
+      "path": "rust/crates/compat-harness/src/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "225a73c6eef24398ee726383431594252f2f3754",
+      "size": 11143,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/225a73c6eef24398ee726383431594252f2f3754"
+    },
+    {
+      "path": "rust/crates/mock-anthropic-service",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "962410f1085234edfb06b2c68fbfe25740fa86dc",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/962410f1085234edfb06b2c68fbfe25740fa86dc"
+    },
+    {
+      "path": "rust/crates/mock-anthropic-service/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "daced902fb6db26e1366087bc085260e31cf9b90",
+      "size": 404,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/daced902fb6db26e1366087bc085260e31cf9b90"
+    },
+    {
+      "path": "rust/crates/mock-anthropic-service/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c76f1e5e5735156d37b55b4599e36bba34f84568",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/c76f1e5e5735156d37b55b4599e36bba34f84568"
+    },
+    {
+      "path": "rust/crates/mock-anthropic-service/src/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68968eed2ebee0f82352fc5501fae00124ab78b9",
+      "size": 38181,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/68968eed2ebee0f82352fc5501fae00124ab78b9"
+    },
+    {
+      "path": "rust/crates/mock-anthropic-service/src/main.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e81fdb1be08b4903ad56fff629f63c6fa2e4d788",
+      "size": 1109,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/e81fdb1be08b4903ad56fff629f63c6fa2e4d788"
+    },
+    {
+      "path": "rust/crates/plugins",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b4396c47792a610f30a9d3fc05586245923129bc",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/b4396c47792a610f30a9d3fc05586245923129bc"
+    },
+    {
+      "path": "rust/crates/plugins/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11213b5e5424f383b8eba5d84b97797056010a99",
+      "size": 246,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/11213b5e5424f383b8eba5d84b97797056010a99"
+    },
+    {
+      "path": "rust/crates/plugins/bundled",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "94ca5406282f75888df19b83454c0d8bc6825233",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/94ca5406282f75888df19b83454c0d8bc6825233"
+    },
+    {
+      "path": "rust/crates/plugins/bundled/example-bundled",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "36627b4ec7de779f20ed26237ab608a51be0fc45",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/36627b4ec7de779f20ed26237ab608a51be0fc45"
+    },
+    {
+      "path": "rust/crates/plugins/bundled/example-bundled/.claude-plugin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "62d82065beeff91912578924a7f0313aac6424be",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/62d82065beeff91912578924a7f0313aac6424be"
+    },
+    {
+      "path": "rust/crates/plugins/bundled/example-bundled/.claude-plugin/plugin.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81a42203396a3276346333b675425d29f7dce740",
+      "size": 255,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/81a42203396a3276346333b675425d29f7dce740"
+    },
+    {
+      "path": "rust/crates/plugins/bundled/example-bundled/hooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1f622ec022aff8d0d0cfd4bc4494263345509ddf",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/1f622ec022aff8d0d0cfd4bc4494263345509ddf"
+    },
+    {
+      "path": "rust/crates/plugins/bundled/example-bundled/hooks/post.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c9eb66fd798904cea6b148acd3924083fdfd13e8",
+      "size": 52,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/c9eb66fd798904cea6b148acd3924083fdfd13e8"
+    },
+    {
+      "path": "rust/crates/plugins/bundled/example-bundled/hooks/pre.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "af6b46bc56eb36a98175e42804c0d65f74491419",
+      "size": 51,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/af6b46bc56eb36a98175e42804c0d65f74491419"
+    },
+    {
+      "path": "rust/crates/plugins/bundled/sample-hooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0d5a01f801900ec3d72bc7856ff6f492fe98b1b2",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/0d5a01f801900ec3d72bc7856ff6f492fe98b1b2"
+    },
+    {
+      "path": "rust/crates/plugins/bundled/sample-hooks/.claude-plugin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "33da5da9338f5bbf79411a4e4c32386815a9ea9e",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/33da5da9338f5bbf79411a4e4c32386815a9ea9e"
+    },
+    {
+      "path": "rust/crates/plugins/bundled/sample-hooks/.claude-plugin/plugin.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "555f5df31d470f3ec1ef7460b95bebad22644dd9",
+      "size": 252,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/555f5df31d470f3ec1ef7460b95bebad22644dd9"
+    },
+    {
+      "path": "rust/crates/plugins/bundled/sample-hooks/hooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "29c630b2cce83ea63ba717b4d6bb764ac2c70cd7",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/29c630b2cce83ea63ba717b4d6bb764ac2c70cd7"
+    },
+    {
+      "path": "rust/crates/plugins/bundled/sample-hooks/hooks/post.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c968e6d16497dc504718f14f28c357519413fba2",
+      "size": 44,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/c968e6d16497dc504718f14f28c357519413fba2"
+    },
+    {
+      "path": "rust/crates/plugins/bundled/sample-hooks/hooks/pre.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9560881007347b6f330ab7324c82365914a7dc35",
+      "size": 43,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/9560881007347b6f330ab7324c82365914a7dc35"
+    },
+    {
+      "path": "rust/crates/plugins/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a0f5ec696b788ba92d013c22dd35e9b081710f5c",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/a0f5ec696b788ba92d013c22dd35e9b081710f5c"
+    },
+    {
+      "path": "rust/crates/plugins/src/hooks.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff02c2ac278e74ab9b1933a8ea6446a9cde188ad",
+      "size": 17780,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/ff02c2ac278e74ab9b1933a8ea6446a9cde188ad"
+    },
+    {
+      "path": "rust/crates/plugins/src/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95a87f36ed06391404241d669b452efd1b0659ca",
+      "size": 131173,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/95a87f36ed06391404241d669b452efd1b0659ca"
+    },
+    {
+      "path": "rust/crates/plugins/src/test_isolation.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f14a5bfc8d4fab75902f7705514c39bce622729",
+      "size": 2142,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/9f14a5bfc8d4fab75902f7705514c39bce622729"
+    },
+    {
+      "path": "rust/crates/runtime",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c50a1f87bd53db0d233acac8ca6b899441e716f5",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/c50a1f87bd53db0d233acac8ca6b899441e716f5"
+    },
+    {
+      "path": "rust/crates/runtime/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38436133e73d3297009aea7636d27a49cdeca561",
+      "size": 520,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/38436133e73d3297009aea7636d27a49cdeca561"
+    },
+    {
+      "path": "rust/crates/runtime/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cb7a1b0405161fd698cafbf6f8e77c56b2820510",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/cb7a1b0405161fd698cafbf6f8e77c56b2820510"
+    },
+    {
+      "path": "rust/crates/runtime/src/approval_tokens.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c47a822bdc4b96b9b22ff98a6b5170762bf233e9",
+      "size": 15903,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/c47a822bdc4b96b9b22ff98a6b5170762bf233e9"
+    },
+    {
+      "path": "rust/crates/runtime/src/bash.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2a35367db1a7e5702093ce9632d38f911292f84",
+      "size": 16946,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/c2a35367db1a7e5702093ce9632d38f911292f84"
+    },
+    {
+      "path": "rust/crates/runtime/src/bash_validation.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f00619efe82c949d70ae7a95f139558fffee1e05",
+      "size": 28830,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/f00619efe82c949d70ae7a95f139558fffee1e05"
+    },
+    {
+      "path": "rust/crates/runtime/src/bootstrap.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2faba2d2cf1ed9882bb84dc21198713ef7168a8d",
+      "size": 3072,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/2faba2d2cf1ed9882bb84dc21198713ef7168a8d"
+    },
+    {
+      "path": "rust/crates/runtime/src/branch_lock.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fbf0d0914aa8f46eb19fdb9f30f0f242f7f34f3",
+      "size": 4452,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/6fbf0d0914aa8f46eb19fdb9f30f0f242f7f34f3"
+    },
+    {
+      "path": "rust/crates/runtime/src/compact.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "797d3a6b294154f656cef78b7ea80e240ec8ef5c",
+      "size": 30739,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/797d3a6b294154f656cef78b7ea80e240ec8ef5c"
+    },
+    {
+      "path": "rust/crates/runtime/src/config.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19571fbec3fcbb5ef4bfac5a2c4cd25a6d2533cf",
+      "size": 128457,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/19571fbec3fcbb5ef4bfac5a2c4cd25a6d2533cf"
+    },
+    {
+      "path": "rust/crates/runtime/src/config_validate.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "297c018efc446451b47acc9d033d046469515583",
+      "size": 31683,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/297c018efc446451b47acc9d033d046469515583"
+    },
+    {
+      "path": "rust/crates/runtime/src/conversation.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c36329a16edf6de5b17130e57bdede8f58d5aba",
+      "size": 64367,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/9c36329a16edf6de5b17130e57bdede8f58d5aba"
+    },
+    {
+      "path": "rust/crates/runtime/src/file_ops.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa7b58135e59eb5b8adcbd6c3aacc764ee4f2fdc",
+      "size": 36059,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/aa7b58135e59eb5b8adcbd6c3aacc764ee4f2fdc"
+    },
+    {
+      "path": "rust/crates/runtime/src/g004_conformance.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88d42be7be9202d2bdcfa70b9a84fbc60da75a84",
+      "size": 12842,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/88d42be7be9202d2bdcfa70b9a84fbc60da75a84"
+    },
+    {
+      "path": "rust/crates/runtime/src/git_context.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5703ebe81f762389125d549a57a44ac14cd299c5",
+      "size": 10238,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/5703ebe81f762389125d549a57a44ac14cd299c5"
+    },
+    {
+      "path": "rust/crates/runtime/src/green_contract.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "599f874234efd14cdd2e793159175054c96beee0",
+      "size": 12123,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/599f874234efd14cdd2e793159175054c96beee0"
+    },
+    {
+      "path": "rust/crates/runtime/src/hooks.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d9f25e72b9ba09d4c14d371901fb4120c56a35b",
+      "size": 34808,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/2d9f25e72b9ba09d4c14d371901fb4120c56a35b"
+    },
+    {
+      "path": "rust/crates/runtime/src/json.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d829a1584c19308c2e061c8d9f9b0eb9c2db5c9a",
+      "size": 10384,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/d829a1584c19308c2e061c8d9f9b0eb9c2db5c9a"
+    },
+    {
+      "path": "rust/crates/runtime/src/lane_events.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52583a11e13099a1d6d2f3af2c5d2f486c40765c",
+      "size": 85056,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/52583a11e13099a1d6d2f3af2c5d2f486c40765c"
+    },
+    {
+      "path": "rust/crates/runtime/src/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1e0f27d1e5c823c9fc51aa09fa76c7f8f2dee15",
+      "size": 9219,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/e1e0f27d1e5c823c9fc51aa09fa76c7f8f2dee15"
+    },
+    {
+      "path": "rust/crates/runtime/src/lsp_client.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63027139e5e1f86b628f9e5b4f68a3fdbda2cc86",
+      "size": 23149,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/63027139e5e1f86b628f9e5b4f68a3fdbda2cc86"
+    },
+    {
+      "path": "rust/crates/runtime/src/mcp.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64500e8e616a6e3a3783065337cac3531a7e05bd",
+      "size": 10005,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/64500e8e616a6e3a3783065337cac3531a7e05bd"
+    },
+    {
+      "path": "rust/crates/runtime/src/mcp_client.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c017e494002487411b1db78dd321f878a6dd0620",
+      "size": 9069,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/c017e494002487411b1db78dd321f878a6dd0620"
+    },
+    {
+      "path": "rust/crates/runtime/src/mcp_lifecycle_hardened.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "330ff63cd1e2e179ca4b4b43dc66a4d44ea434b0",
+      "size": 27777,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/330ff63cd1e2e179ca4b4b43dc66a4d44ea434b0"
+    },
+    {
+      "path": "rust/crates/runtime/src/mcp_server.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4610ed41532b1e6011bcc7318c4b7bfaf22ee994",
+      "size": 16046,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/4610ed41532b1e6011bcc7318c4b7bfaf22ee994"
+    },
+    {
+      "path": "rust/crates/runtime/src/mcp_stdio.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b05ea4471754964e08131c68d8800012651a183c",
+      "size": 108938,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/b05ea4471754964e08131c68d8800012651a183c"
+    },
+    {
+      "path": "rust/crates/runtime/src/mcp_tool_bridge.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b7c326ca9e89ba73c322705ef7e7de09e9714da",
+      "size": 31020,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/5b7c326ca9e89ba73c322705ef7e7de09e9714da"
+    },
+    {
+      "path": "rust/crates/runtime/src/oauth.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa3ca158c7bb50f0722a6df1a2d2a67d0cce7979",
+      "size": 20200,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/aa3ca158c7bb50f0722a6df1a2d2a67d0cce7979"
+    },
+    {
+      "path": "rust/crates/runtime/src/permission_enforcer.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82abcd0a8ee13d2c7d16acd2535dba17667a792c",
+      "size": 25516,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/82abcd0a8ee13d2c7d16acd2535dba17667a792c"
+    },
+    {
+      "path": "rust/crates/runtime/src/permissions.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "300206ad7fe880c1b3214079abecfa2d70ababfd",
+      "size": 23499,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/300206ad7fe880c1b3214079abecfa2d70ababfd"
+    },
+    {
+      "path": "rust/crates/runtime/src/plugin_lifecycle.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67d435e388f2a83e708da91a686226bb3d2afd15",
+      "size": 18216,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/67d435e388f2a83e708da91a686226bb3d2afd15"
+    },
+    {
+      "path": "rust/crates/runtime/src/policy_engine.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34343766b845e683c01b0a3e26677684ce1842a9",
+      "size": 28121,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/34343766b845e683c01b0a3e26677684ce1842a9"
+    },
+    {
+      "path": "rust/crates/runtime/src/prompt.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e62e32ea5d19cf819ad191be2dd4b0d9ee7041fd",
+      "size": 53059,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/e62e32ea5d19cf819ad191be2dd4b0d9ee7041fd"
+    },
+    {
+      "path": "rust/crates/runtime/src/recovery_recipes.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ae64349992f34171a5cd019b9f53841a728d63a",
+      "size": 32770,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/2ae64349992f34171a5cd019b9f53841a728d63a"
+    },
+    {
+      "path": "rust/crates/runtime/src/remote.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24ee780c75f1d76b33ebc21b004719713a2c0373",
+      "size": 12527,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/24ee780c75f1d76b33ebc21b004719713a2c0373"
+    },
+    {
+      "path": "rust/crates/runtime/src/report_schema.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14c5b59a4ea89af7631d37fd45e2257c37a5f068",
+      "size": 19339,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/14c5b59a4ea89af7631d37fd45e2257c37a5f068"
+    },
+    {
+      "path": "rust/crates/runtime/src/sandbox.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2df08791e3b0cabcd31a24e777387d89c21a0e08",
+      "size": 12571,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/2df08791e3b0cabcd31a24e777387d89c21a0e08"
+    },
+    {
+      "path": "rust/crates/runtime/src/session.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ecfd97dab447cbfcb0398ac1410f711c99863b8",
+      "size": 67744,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/2ecfd97dab447cbfcb0398ac1410f711c99863b8"
+    },
+    {
+      "path": "rust/crates/runtime/src/session_control.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90120effad581ac699f1ae699aa7a5952fe774c2",
+      "size": 57345,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/90120effad581ac699f1ae699aa7a5952fe774c2"
+    },
+    {
+      "path": "rust/crates/runtime/src/sse.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c0cbee8a03b6873c8a08bfb1293b7013be045ad",
+      "size": 4183,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/3c0cbee8a03b6873c8a08bfb1293b7013be045ad"
+    },
+    {
+      "path": "rust/crates/runtime/src/stale_base.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b432d307b54601f15afbf3789a4a4af5d44a1b99",
+      "size": 12985,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/b432d307b54601f15afbf3789a4a4af5d44a1b99"
+    },
+    {
+      "path": "rust/crates/runtime/src/stale_branch.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccdd3f538f27d5aa80d7643853e27d0fa8582f88",
+      "size": 12315,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/ccdd3f538f27d5aa80d7643853e27d0fa8582f88"
+    },
+    {
+      "path": "rust/crates/runtime/src/summary_compression.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30ae276540366a91e8ba8214c61a92ee536e901b",
+      "size": 8609,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/30ae276540366a91e8ba8214c61a92ee536e901b"
+    },
+    {
+      "path": "rust/crates/runtime/src/task_packet.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bba3ac579c7d55fa31b72a5b3903b9977f59aa2c",
+      "size": 16263,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/bba3ac579c7d55fa31b72a5b3903b9977f59aa2c"
+    },
+    {
+      "path": "rust/crates/runtime/src/task_registry.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f88895d3b4cc20871ac8cde989d7427ea723fb01",
+      "size": 22390,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/f88895d3b4cc20871ac8cde989d7427ea723fb01"
+    },
+    {
+      "path": "rust/crates/runtime/src/team_cron_registry.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e1a65f0ef25339ebddab621e375371479d4bc84",
+      "size": 15221,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/1e1a65f0ef25339ebddab621e375371479d4bc84"
+    },
+    {
+      "path": "rust/crates/runtime/src/trident.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2346a4ea298918463e2a3aac9253212fc17cd3f1",
+      "size": 27731,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/2346a4ea298918463e2a3aac9253212fc17cd3f1"
+    },
+    {
+      "path": "rust/crates/runtime/src/trust_resolver.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb6ce965d1a221414878a676996398944f3b208e",
+      "size": 30019,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/cb6ce965d1a221414878a676996398944f3b208e"
+    },
+    {
+      "path": "rust/crates/runtime/src/usage.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9241f7c2d746d0dde9bd5b8b93bad0c11ab89412",
+      "size": 10424,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/9241f7c2d746d0dde9bd5b8b93bad0c11ab89412"
+    },
+    {
+      "path": "rust/crates/runtime/src/worker_boot.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1193db6371e0f2c3c88694a6af8e34a6be41cf7",
+      "size": 88611,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/c1193db6371e0f2c3c88694a6af8e34a6be41cf7"
+    },
+    {
+      "path": "rust/crates/runtime/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ab4b02d3dddf49a1679814302561e1646c973551",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/ab4b02d3dddf49a1679814302561e1646c973551"
+    },
+    {
+      "path": "rust/crates/runtime/tests/fixtures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cd1a3bf53af7e699982ac8657e30abfca60543a2",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/cd1a3bf53af7e699982ac8657e30abfca60543a2"
+    },
+    {
+      "path": "rust/crates/runtime/tests/fixtures/g004_contract_bundle.valid.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50ff0fb13c64836442b078459f86a7957e8ce944",
+      "size": 2291,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/50ff0fb13c64836442b078459f86a7957e8ce944"
+    },
+    {
+      "path": "rust/crates/runtime/tests/fixtures/report_schema_v1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6696cba9637b63e56f66df10fe2d3ee0e81b61f0",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/6696cba9637b63e56f66df10fe2d3ee0e81b61f0"
+    },
+    {
+      "path": "rust/crates/runtime/tests/fixtures/report_schema_v1/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "476d740b9bd7d6dc587e681faeb2e6db6c30fd0f",
+      "size": 459,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/476d740b9bd7d6dc587e681faeb2e6db6c30fd0f"
+    },
+    {
+      "path": "rust/crates/runtime/tests/g004_conformance.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a2b65e767c111796ef813c71913c7484708a6a1",
+      "size": 2924,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/4a2b65e767c111796ef813c71913c7484708a6a1"
+    },
+    {
+      "path": "rust/crates/runtime/tests/integration_tests.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c92b394832b6df637625ab6bb1a28deb84242346",
+      "size": 12574,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/c92b394832b6df637625ab6bb1a28deb84242346"
+    },
+    {
+      "path": "rust/crates/rusty-claude-cli",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6d6d8d7402719128c1c67f4305cd51a0f7ab6892",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/6d6d8d7402719128c1c67f4305cd51a0f7ab6892"
+    },
+    {
+      "path": "rust/crates/rusty-claude-cli/.claw",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fb79dc6d743f42249fa477a6c270e8283f679439",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/fb79dc6d743f42249fa477a6c270e8283f679439"
+    },
+    {
+      "path": "rust/crates/rusty-claude-cli/.claw/sessions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "410cdb0eb30b72879c239ec21e7d5f58ca64922c",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/410cdb0eb30b72879c239ec21e7d5f58ca64922c"
+    },
+    {
+      "path": "rust/crates/rusty-claude-cli/.claw/sessions/session-newer.jsonl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "183f047b46b3db40645c0141c693887d2565451e",
+      "size": 135,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/183f047b46b3db40645c0141c693887d2565451e"
+    },
+    {
+      "path": "rust/crates/rusty-claude-cli/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d044176011ccc4c5b55838302b2686fb4473898a",
+      "size": 793,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/d044176011ccc4c5b55838302b2686fb4473898a"
+    },
+    {
+      "path": "rust/crates/rusty-claude-cli/build.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc4e3c451418623f81b5898a39e567bf78997fab",
+      "size": 3272,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/fc4e3c451418623f81b5898a39e567bf78997fab"
+    },
+    {
+      "path": "rust/crates/rusty-claude-cli/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "add0d9ef4c25e79eb794640979eb7db15953a2cb",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/add0d9ef4c25e79eb794640979eb7db15953a2cb"
+    },
+    {
+      "path": "rust/crates/rusty-claude-cli/src/init.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac1923397b6da7b0c3e9a3585b80989936ddb098",
+      "size": 23183,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/ac1923397b6da7b0c3e9a3585b80989936ddb098"
+    },
+    {
+      "path": "rust/crates/rusty-claude-cli/src/input.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0664dac446df37175361e3de06be853b493cba1",
+      "size": 9752,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/b0664dac446df37175361e3de06be853b493cba1"
+    },
+    {
+      "path": "rust/crates/rusty-claude-cli/src/main.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38974eb5f392157a21cb9b9a05e3ef035969befc",
+      "size": 752315,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/38974eb5f392157a21cb9b9a05e3ef035969befc"
+    },
+    {
+      "path": "rust/crates/rusty-claude-cli/src/render.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24b77d095e604941747bb92e60b573d625e09ad9",
+      "size": 35742,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/24b77d095e604941747bb92e60b573d625e09ad9"
+    },
+    {
+      "path": "rust/crates/rusty-claude-cli/src/setup_wizard.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69fabfb36bce851ff3d7441c372f409320d3c474",
+      "size": 9242,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/69fabfb36bce851ff3d7441c372f409320d3c474"
+    },
+    {
+      "path": "rust/crates/rusty-claude-cli/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c72c8d58b5afe4503027374c3cacffa0e430549a",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/c72c8d58b5afe4503027374c3cacffa0e430549a"
+    },
+    {
+      "path": "rust/crates/rusty-claude-cli/tests/cli_flags_and_config_defaults.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95fd133da55cb6eaa2f2833ac00286be1977268a",
+      "size": 12522,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/95fd133da55cb6eaa2f2833ac00286be1977268a"
+    },
+    {
+      "path": "rust/crates/rusty-claude-cli/tests/compact_output.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f3cb538109fb34c7aa27ea233885c7dc5813102",
+      "size": 19797,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/6f3cb538109fb34c7aa27ea233885c7dc5813102"
+    },
+    {
+      "path": "rust/crates/rusty-claude-cli/tests/compact_repl_panic.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e930cf437014427f092918228ff2a8229c4f6915",
+      "size": 4199,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/e930cf437014427f092918228ff2a8229c4f6915"
+    },
+    {
+      "path": "rust/crates/rusty-claude-cli/tests/mock_parity_harness.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edaf034955be88c5a8579630e1f8e993175623d4",
+      "size": 29915,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/edaf034955be88c5a8579630e1f8e993175623d4"
+    },
+    {
+      "path": "rust/crates/rusty-claude-cli/tests/output_format_contract.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9ba752b03520cf46edd15ecc5bc604d9ee35d0a",
+      "size": 223044,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/c9ba752b03520cf46edd15ecc5bc604d9ee35d0a"
+    },
+    {
+      "path": "rust/crates/rusty-claude-cli/tests/resume_slash_commands.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aebcf86dec2607ac0fa9f7a8fcde2622f291357a",
+      "size": 21443,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/aebcf86dec2607ac0fa9f7a8fcde2622f291357a"
+    },
+    {
+      "path": "rust/crates/telemetry",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6d6b7a331ab67769e4915da6504709315e858417",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/6d6b7a331ab67769e4915da6504709315e858417"
+    },
+    {
+      "path": "rust/crates/telemetry/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d501850a1b9af79544deac6768ce1c5fcf2c8fb5",
+      "size": 237,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/d501850a1b9af79544deac6768ce1c5fcf2c8fb5"
+    },
+    {
+      "path": "rust/crates/telemetry/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ceefeb4ec69546bc87bb8e6c25eede14fa6c9800",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/ceefeb4ec69546bc87bb8e6c25eede14fa6c9800"
+    },
+    {
+      "path": "rust/crates/telemetry/src/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e369e1681e9ff4dc3640284be5c5dc256abe89c",
+      "size": 16119,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/6e369e1681e9ff4dc3640284be5c5dc256abe89c"
+    },
+    {
+      "path": "rust/crates/tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "642f73e4875b4a28f39ebd2579c56bc23a2885d4",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/642f73e4875b4a28f39ebd2579c56bc23a2885d4"
+    },
+    {
+      "path": "rust/crates/tools/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96da1ea070b3aee6f654fc4a6b15a209ef76a3e8",
+      "size": 15,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/96da1ea070b3aee6f654fc4a6b15a209ef76a3e8"
+    },
+    {
+      "path": "rust/crates/tools/Cargo.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8215c9e720dcc7168e51c87e4c91d04d0ee57d79",
+      "size": 614,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/8215c9e720dcc7168e51c87e4c91d04d0ee57d79"
+    },
+    {
+      "path": "rust/crates/tools/GIT_TOOLS_README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c937daab00ddcc0ea59f92ed71ac65a6f5b406d6",
+      "size": 5333,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/c937daab00ddcc0ea59f92ed71ac65a6f5b406d6"
+    },
+    {
+      "path": "rust/crates/tools/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bcbdd4c5876d5ffccac5a6414d4bfe598cc15991",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/bcbdd4c5876d5ffccac5a6414d4bfe598cc15991"
+    },
+    {
+      "path": "rust/crates/tools/src/lane_completion.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "947d58d9d7a9dfc9e3ffdbd6e35ee23c07be3fb1",
+      "size": 5825,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/947d58d9d7a9dfc9e3ffdbd6e35ee23c07be3fb1"
+    },
+    {
+      "path": "rust/crates/tools/src/lib.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a72261ed023c570d94e97cf1bcaa29b988b694dc",
+      "size": 396978,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/a72261ed023c570d94e97cf1bcaa29b988b694dc"
+    },
+    {
+      "path": "rust/crates/tools/src/pdf_extract.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "caa96622be587c3a346e4272ca4469cf5a8787bc",
+      "size": 18286,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/caa96622be587c3a346e4272ca4469cf5a8787bc"
+    },
+    {
+      "path": "rust/crates/tools/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7372a5f0b38ff93d432ea9a42c6388f287c3e1d6",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/7372a5f0b38ff93d432ea9a42c6388f287c3e1d6"
+    },
+    {
+      "path": "rust/crates/tools/tests/path_scope_enforcement.rs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c1c7dc929fb0bfe283cfbf07a1212a46f1da58f",
+      "size": 7068,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/4c1c7dc929fb0bfe283cfbf07a1212a46f1da58f"
+    },
+    {
+      "path": "rust/mock_parity_scenarios.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db510f191da8fd8243c8bc765dfe5de2937da7b1",
+      "size": 3646,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/db510f191da8fd8243c8bc765dfe5de2937da7b1"
+    },
+    {
+      "path": "rust/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e30c2e2de21c8eb63bdc2de39857f949437b3aef",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/e30c2e2de21c8eb63bdc2de39857f949437b3aef"
+    },
+    {
+      "path": "rust/scripts/install.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "344a7b5c62f207f8fc4e1b48d49151714e822123",
+      "size": 229,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/344a7b5c62f207f8fc4e1b48d49151714e822123"
+    },
+    {
+      "path": "rust/scripts/run_mock_parity_diff.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0ac8d09cfeb8aa4f2332448e374a95f1c0be264f",
+      "size": 4429,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/0ac8d09cfeb8aa4f2332448e374a95f1c0be264f"
+    },
+    {
+      "path": "rust/scripts/run_mock_parity_harness.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ad039af7b965612197e3c6229f3d1c37cce437cf",
+      "size": 137,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/ad039af7b965612197e3c6229f3d1c37cce437cf"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "03ed89037d30b82c67af89b52b2695ebed9e3e7a",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/03ed89037d30b82c67af89b52b2695ebed9e3e7a"
+    },
+    {
+      "path": "scripts/cc2_board.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6b73698392abb68a9c7e0faf185af8fc3f7349c6",
+      "size": 2559,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/6b73698392abb68a9c7e0faf185af8fc3f7349c6"
+    },
+    {
+      "path": "scripts/dogfood-build.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e5e8ccd2d5e809e7d942d0a706fd9487d3ae8178",
+      "size": 2791,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/e5e8ccd2d5e809e7d942d0a706fd9487d3ae8178"
+    },
+    {
+      "path": "scripts/dogfood-probe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee390665f84ee33cba1de3c64925f1a10bb018c8",
+      "size": 4674,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/ee390665f84ee33cba1de3c64925f1a10bb018c8"
+    },
+    {
+      "path": "scripts/fmt.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "83d9762420375d1dc682ca9a1e6e05d82c706d89",
+      "size": 181,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/83d9762420375d1dc682ca9a1e6e05d82c706d89"
+    },
+    {
+      "path": "scripts/generate_cc2_board.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e7aee6d61f6511292b29c0e43a49e3a4254faa60",
+      "size": 23288,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/e7aee6d61f6511292b29c0e43a49e3a4254faa60"
+    },
+    {
+      "path": "scripts/roadmap-check-ids.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "54b2afca087a3c9c164e459d48545f9e9e5631c4",
+      "size": 2093,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/54b2afca087a3c9c164e459d48545f9e9e5631c4"
+    },
+    {
+      "path": "scripts/roadmap-next-id.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c3bf65029ff3a85e87dd80f60ba58e8a3d5d62b1",
+      "size": 2100,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/c3bf65029ff3a85e87dd80f60ba58e8a3d5d62b1"
+    },
+    {
+      "path": "scripts/validate_cc2_board.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "226ffa21827f10cfc9426f553dd118afe466a026",
+      "size": 3560,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/226ffa21827f10cfc9426f553dd118afe466a026"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a0986482fc03a593fd4360578ac13e7daa97ee1b",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/a0986482fc03a593fd4360578ac13e7daa97ee1b"
+    },
+    {
+      "path": "src/QueryEngine.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9684d542c80552075d49b6151010a34341e8425",
+      "size": 712,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/a9684d542c80552075d49b6151010a34341e8425"
+    },
+    {
+      "path": "src/Tool.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16b77aa58e4b565f603217616818d977c941ccfd",
+      "size": 326,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/16b77aa58e4b565f603217616818d977c941ccfd"
+    },
+    {
+      "path": "src/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2dc0c05cef1e0c41eb65d5db987f9b98c98e391e",
+      "size": 912,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/2dc0c05cef1e0c41eb65d5db987f9b98c98e391e"
+    },
+    {
+      "path": "src/_archive_helper.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a4a271d0c79759f0ede0575b4dfda8eed4fe48d",
+      "size": 468,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/8a4a271d0c79759f0ede0575b4dfda8eed4fe48d"
+    },
+    {
+      "path": "src/assistant",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a028f40265a45ed05795c51ed23e74cb3e9ff51f",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/a028f40265a45ed05795c51ed23e74cb3e9ff51f"
+    },
+    {
+      "path": "src/assistant/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5606feaf8e3a7e3b9931f1b0881f1b927652392",
+      "size": 533,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/f5606feaf8e3a7e3b9931f1b0881f1b927652392"
+    },
+    {
+      "path": "src/bootstrap",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "be90031d0d742c7f192834ec121dc3609b2a2979",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/be90031d0d742c7f192834ec121dc3609b2a2979"
+    },
+    {
+      "path": "src/bootstrap/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e710d13147a93b3b3043b4b7c07ec9e43297ee0e",
+      "size": 533,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/e710d13147a93b3b3043b4b7c07ec9e43297ee0e"
+    },
+    {
+      "path": "src/bootstrap_graph.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a716e833d3f72b5263b8215ed46b7c1abeaf8504",
+      "size": 803,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/a716e833d3f72b5263b8215ed46b7c1abeaf8504"
+    },
+    {
+      "path": "src/bridge",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aedf25bade8bd899b68d4eac507744d453953756",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/aedf25bade8bd899b68d4eac507744d453953756"
+    },
+    {
+      "path": "src/bridge/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e14d93a41c1748110e197c801d8c98631a5f30fd",
+      "size": 527,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/e14d93a41c1748110e197c801d8c98631a5f30fd"
+    },
+    {
+      "path": "src/buddy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "949d03007b216c3f18f867cee74a6a9d2996761b",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/949d03007b216c3f18f867cee74a6a9d2996761b"
+    },
+    {
+      "path": "src/buddy/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffbccf0e0cbb22df0faba3bc91a76a6b43561985",
+      "size": 525,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/ffbccf0e0cbb22df0faba3bc91a76a6b43561985"
+    },
+    {
+      "path": "src/cli",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d83e0c088aeafdf6a7da801c82db8a3c40d3a1bc",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/d83e0c088aeafdf6a7da801c82db8a3c40d3a1bc"
+    },
+    {
+      "path": "src/cli/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf419d7323e68fa68706ec9b07be83556e2c93cb",
+      "size": 521,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/bf419d7323e68fa68706ec9b07be83556e2c93cb"
+    },
+    {
+      "path": "src/command_graph.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20ef85931f6da9ff62c819291fd37b3de67ba39a",
+      "size": 1247,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/20ef85931f6da9ff62c819291fd37b3de67ba39a"
+    },
+    {
+      "path": "src/commands.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fde3d40139b4e3ad6c8c1ed87c47d34d185b778b",
+      "size": 3165,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/fde3d40139b4e3ad6c8c1ed87c47d34d185b778b"
+    },
+    {
+      "path": "src/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3d68f36d8880af21a1db3392bc8193fdeade5578",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/3d68f36d8880af21a1db3392bc8193fdeade5578"
+    },
+    {
+      "path": "src/components/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec5330915ec062f07dfa34d64cdf779325a49b76",
+      "size": 535,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/ec5330915ec062f07dfa34d64cdf779325a49b76"
+    },
+    {
+      "path": "src/constants",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9248defb25681bb1bdc1153c98244cdca144d5ca",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/9248defb25681bb1bdc1153c98244cdca144d5ca"
+    },
+    {
+      "path": "src/constants/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "943ea964b17281ac83d19d8f2fb97f0ba3979ea8",
+      "size": 533,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/943ea964b17281ac83d19d8f2fb97f0ba3979ea8"
+    },
+    {
+      "path": "src/context.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cc59d76ae787e6772d18cca7bb0e1200c336406",
+      "size": 1580,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/4cc59d76ae787e6772d18cca7bb0e1200c336406"
+    },
+    {
+      "path": "src/coordinator",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e40ae9ec7c6fe51c3fc9eb46007c7b7fec0e264e",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/e40ae9ec7c6fe51c3fc9eb46007c7b7fec0e264e"
+    },
+    {
+      "path": "src/coordinator/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32c2c3d8fce0a3e1446ae9b1d01bf16e7b5a7581",
+      "size": 537,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/32c2c3d8fce0a3e1446ae9b1d01bf16e7b5a7581"
+    },
+    {
+      "path": "src/costHook.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85c9e02efa01d7b28cf63f3c60beb52176861808",
+      "size": 210,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/85c9e02efa01d7b28cf63f3c60beb52176861808"
+    },
+    {
+      "path": "src/cost_tracker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f95f50ceaec0451ec7dcc19739b1e7abfa92d93",
+      "size": 322,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/6f95f50ceaec0451ec7dcc19739b1e7abfa92d93"
+    },
+    {
+      "path": "src/deferred_init.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35eef4084987dba5408eeb3df60a92a483b4e0f2",
+      "size": 771,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/35eef4084987dba5408eeb3df60a92a483b4e0f2"
+    },
+    {
+      "path": "src/dialogLaunchers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78588c3b37a7d3f9ebf24474698e72b686bd9aae",
+      "size": 312,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/78588c3b37a7d3f9ebf24474698e72b686bd9aae"
+    },
+    {
+      "path": "src/direct_modes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "883f94aa6589d7468082fc998f0e351e7bd3a56e",
+      "size": 543,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/883f94aa6589d7468082fc998f0e351e7bd3a56e"
+    },
+    {
+      "path": "src/entrypoints",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1fef04a4b9d836f6ba105ea01abc2613ed2b9ca1",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/1fef04a4b9d836f6ba105ea01abc2613ed2b9ca1"
+    },
+    {
+      "path": "src/entrypoints/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9afea8f64a70b1bd292974c2b711c9e8cd22c065",
+      "size": 537,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/9afea8f64a70b1bd292974c2b711c9e8cd22c065"
+    },
+    {
+      "path": "src/execution_registry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "953d46ada9f24e2e4c67cd42fbc350b4388f7282",
+      "size": 1399,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/953d46ada9f24e2e4c67cd42fbc350b4388f7282"
+    },
+    {
+      "path": "src/history.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d6823c774e0106b374232bc4b4d9d11d6e1ae4c",
+      "size": 559,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/1d6823c774e0106b374232bc4b4d9d11d6e1ae4c"
+    },
+    {
+      "path": "src/hooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b2071cb205be6a52b0d31e689982e1c5d3eaa668",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/b2071cb205be6a52b0d31e689982e1c5d3eaa668"
+    },
+    {
+      "path": "src/hooks/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08a43b00c1b6a6b1e1118518bb6bf2975e7c4cb5",
+      "size": 525,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/08a43b00c1b6a6b1e1118518bb6bf2975e7c4cb5"
+    },
+    {
+      "path": "src/ink.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e32aa03baf2c43e604ec0f2a7bec55574d8c86b",
+      "size": 145,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/6e32aa03baf2c43e604ec0f2a7bec55574d8c86b"
+    },
+    {
+      "path": "src/interactiveHelpers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4f4d132bc8310229ec493ab4b131ca6df6252cc",
+      "size": 129,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/f4f4d132bc8310229ec493ab4b131ca6df6252cc"
+    },
+    {
+      "path": "src/keybindings",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4b7b2426451942c5769fbddd9627eb9c0656ca17",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/4b7b2426451942c5769fbddd9627eb9c0656ca17"
+    },
+    {
+      "path": "src/keybindings/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44b4dbe484968b1d0123d5dca852bcd2d9eac309",
+      "size": 537,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/44b4dbe484968b1d0123d5dca852bcd2d9eac309"
+    },
+    {
+      "path": "src/main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1fa9eda159910319b213b7ec75c4f93e38fe1d2",
+      "size": 10493,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/e1fa9eda159910319b213b7ec75c4f93e38fe1d2"
+    },
+    {
+      "path": "src/memdir",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1455df5e23e13a1f685d2ef778eaff2d570618bb",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/1455df5e23e13a1f685d2ef778eaff2d570618bb"
+    },
+    {
+      "path": "src/memdir/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a764593dae1ba1189491267d79e348ad144b250",
+      "size": 527,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/5a764593dae1ba1189491267d79e348ad144b250"
+    },
+    {
+      "path": "src/migrations",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8a2c582f7f224e42c684df14b1b7ee6f9f33411c",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/8a2c582f7f224e42c684df14b1b7ee6f9f33411c"
+    },
+    {
+      "path": "src/migrations/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46b08014a7336389cd8606e9ab1a26f85403d2a8",
+      "size": 535,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/46b08014a7336389cd8606e9ab1a26f85403d2a8"
+    },
+    {
+      "path": "src/models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ce4f9d03c4d0fe687615b8e7fca699972e9fa42",
+      "size": 1098,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/9ce4f9d03c4d0fe687615b8e7fca699972e9fa42"
+    },
+    {
+      "path": "src/moreright",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a1aac8ffc4a9eb9e768ab9f7675100ddd991de4f",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/a1aac8ffc4a9eb9e768ab9f7675100ddd991de4f"
+    },
+    {
+      "path": "src/moreright/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5668fc6e04c94ae20205edc84dbc545558cf072",
+      "size": 533,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/b5668fc6e04c94ae20205edc84dbc545558cf072"
+    },
+    {
+      "path": "src/native_ts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "184b2366efbe13a23c82c8ce735c88c4fa9a6f40",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/184b2366efbe13a23c82c8ce735c88c4fa9a6f40"
+    },
+    {
+      "path": "src/native_ts/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2941b823261410d47332037044a5a7cba310669",
+      "size": 533,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/b2941b823261410d47332037044a5a7cba310669"
+    },
+    {
+      "path": "src/outputStyles",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8de54047020e70268aec13970cfa961c9b0871e6",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/8de54047020e70268aec13970cfa961c9b0871e6"
+    },
+    {
+      "path": "src/outputStyles/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22e429e07f0d17adbc15036dfe17e8f338e5141a",
+      "size": 539,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/22e429e07f0d17adbc15036dfe17e8f338e5141a"
+    },
+    {
+      "path": "src/parity_audit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37b134c6365ec0b0fef15641652c65f44e2cce6b",
+      "size": 5268,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/37b134c6365ec0b0fef15641652c65f44e2cce6b"
+    },
+    {
+      "path": "src/path_scope.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52e7020c34ebac1d35645dff6aeb50250717b5c6",
+      "size": 5895,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/52e7020c34ebac1d35645dff6aeb50250717b5c6"
+    },
+    {
+      "path": "src/permissions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "026448b9f4c8ea4940f7bb8882c0930fb82b65ce",
+      "size": 2050,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/026448b9f4c8ea4940f7bb8882c0930fb82b65ce"
+    },
+    {
+      "path": "src/plugins",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1ac0fdad6ac869bb104f5c117b246f35c7bbb480",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/1ac0fdad6ac869bb104f5c117b246f35c7bbb480"
+    },
+    {
+      "path": "src/plugins/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a61600f843d64eb58c94a776531ce4f3fe759d51",
+      "size": 529,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/a61600f843d64eb58c94a776531ce4f3fe759d51"
+    },
+    {
+      "path": "src/port_manifest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c567e91c35de9c39317fb720b8de4a7f303c5ee",
+      "size": 1836,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/8c567e91c35de9c39317fb720b8de4a7f303c5ee"
+    },
+    {
+      "path": "src/prefetch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ba999867a0835a24b76900e4ef07e61745676a5",
+      "size": 640,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/7ba999867a0835a24b76900e4ef07e61745676a5"
+    },
+    {
+      "path": "src/projectOnboardingState.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "842a8eb6bc746a859b5de6c817d33b6bba1c0a54",
+      "size": 184,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/842a8eb6bc746a859b5de6c817d33b6bba1c0a54"
+    },
+    {
+      "path": "src/query.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26e8dee7a2e5587ff75d3bf30c30eba848b3d42b",
+      "size": 193,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/26e8dee7a2e5587ff75d3bf30c30eba848b3d42b"
+    },
+    {
+      "path": "src/query_engine.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcf2008e06b1e6821b64d2076fa788d29b7209af",
+      "size": 8063,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/dcf2008e06b1e6821b64d2076fa788d29b7209af"
+    },
+    {
+      "path": "src/reference_data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f35fdd6d92c053e8a804efc0cef575301a744f21",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/f35fdd6d92c053e8a804efc0cef575301a744f21"
+    },
+    {
+      "path": "src/reference_data/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef9b78f607a8b6521484fc075334a2b9060e6503",
+      "size": 77,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/ef9b78f607a8b6521484fc075334a2b9060e6503"
+    },
+    {
+      "path": "src/reference_data/archive_surface_snapshot.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aec56d6d942b5a5dd005952504092001ee1e92e0",
+      "size": 1078,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/aec56d6d942b5a5dd005952504092001ee1e92e0"
+    },
+    {
+      "path": "src/reference_data/commands_snapshot.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7177b2c5e815dc3482d1b607dd1b966c0947a2e5",
+      "size": 40169,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/7177b2c5e815dc3482d1b607dd1b966c0947a2e5"
+    },
+    {
+      "path": "src/reference_data/subsystems",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "58ee3e66296b09d64b0657ac9687f0130c2570e1",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/58ee3e66296b09d64b0657ac9687f0130c2570e1"
+    },
+    {
+      "path": "src/reference_data/subsystems/assistant.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3982f61c887e37d1b75b2f16d0c327e779baa868",
+      "size": 144,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/3982f61c887e37d1b75b2f16d0c327e779baa868"
+    },
+    {
+      "path": "src/reference_data/subsystems/bootstrap.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e730e07a65dee7c26b891faea4f0fc6bcb96209",
+      "size": 135,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/3e730e07a65dee7c26b891faea4f0fc6bcb96209"
+    },
+    {
+      "path": "src/reference_data/subsystems/bridge.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1abd932474d14c2a9db0d01386d7c8c1a1216608",
+      "size": 888,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/1abd932474d14c2a9db0d01386d7c8c1a1216608"
+    },
+    {
+      "path": "src/reference_data/subsystems/buddy.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f5b19e3c91e6ff7fcd2fb884969fd36ecd1730c",
+      "size": 267,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/1f5b19e3c91e6ff7fcd2fb884969fd36ecd1730c"
+    },
+    {
+      "path": "src/reference_data/subsystems/cli.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21bd38175b0b5b9af4bd7f9ff8e1a45af8784975",
+      "size": 713,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/21bd38175b0b5b9af4bd7f9ff8e1a45af8784975"
+    },
+    {
+      "path": "src/reference_data/subsystems/components.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "329e8820d24a32778984f66ad91a1347616037c3",
+      "size": 1145,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/329e8820d24a32778984f66ad91a1347616037c3"
+    },
+    {
+      "path": "src/reference_data/subsystems/constants.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b208c197d3386d5975a03a23ece3cac263f218b2",
+      "size": 739,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/b208c197d3386d5975a03a23ece3cac263f218b2"
+    },
+    {
+      "path": "src/reference_data/subsystems/coordinator.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c1c56f985c9c4e7d0d926eff3bd0ef04484ef52",
+      "size": 151,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/5c1c56f985c9c4e7d0d926eff3bd0ef04484ef52"
+    },
+    {
+      "path": "src/reference_data/subsystems/entrypoints.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2142f1e494a16b819cb0b8dca46c076559f35723",
+      "size": 379,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/2142f1e494a16b819cb0b8dca46c076559f35723"
+    },
+    {
+      "path": "src/reference_data/subsystems/hooks.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6685ca1b2522f9800c083b73b0b5414cc68b201",
+      "size": 1349,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/a6685ca1b2522f9800c083b73b0b5414cc68b201"
+    },
+    {
+      "path": "src/reference_data/subsystems/keybindings.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d94b44ef250babe2bade5bde8eff08ddd22ce4f",
+      "size": 612,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/9d94b44ef250babe2bade5bde8eff08ddd22ce4f"
+    },
+    {
+      "path": "src/reference_data/subsystems/memdir.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6bc349e8274fb0a85a157f0a207776870a4fdda",
+      "size": 334,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/a6bc349e8274fb0a85a157f0a207776870a4fdda"
+    },
+    {
+      "path": "src/reference_data/subsystems/migrations.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "735df689f0e0896bbdac311692c452372db11646",
+      "size": 683,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/735df689f0e0896bbdac311692c452372db11646"
+    },
+    {
+      "path": "src/reference_data/subsystems/moreright.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "430ad9e40747f584e67fbb57e6f0cb26e80f342a",
+      "size": 143,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/430ad9e40747f584e67fbb57e6f0cb26e80f342a"
+    },
+    {
+      "path": "src/reference_data/subsystems/native_ts.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23a19d5d6c0e272f793df30fc06638a85b4d47d9",
+      "size": 259,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/23a19d5d6c0e272f793df30fc06638a85b4d47d9"
+    },
+    {
+      "path": "src/reference_data/subsystems/outputStyles.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4f2e47ac591890f367ce053a63d7dd722c67a8a",
+      "size": 158,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/f4f2e47ac591890f367ce053a63d7dd722c67a8a"
+    },
+    {
+      "path": "src/reference_data/subsystems/plugins.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ad4394c2799c0ee1d17790e92836939476d1e28",
+      "size": 170,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/8ad4394c2799c0ee1d17790e92836939476d1e28"
+    },
+    {
+      "path": "src/reference_data/subsystems/remote.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71f05619315014d98d1ddaee27d7ed9ebf1af350",
+      "size": 251,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/71f05619315014d98d1ddaee27d7ed9ebf1af350"
+    },
+    {
+      "path": "src/reference_data/subsystems/schemas.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cce4a966d65959442ec740307d15118957ac5f0",
+      "size": 129,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/8cce4a966d65959442ec740307d15118957ac5f0"
+    },
+    {
+      "path": "src/reference_data/subsystems/screens.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "821cf93814e3fcd16f7be431e4ec148cc68820c1",
+      "size": 193,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/821cf93814e3fcd16f7be431e4ec148cc68820c1"
+    },
+    {
+      "path": "src/reference_data/subsystems/server.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81e7d72c5ee8b8ef4ce5f8430b8f056c34f29fb9",
+      "size": 208,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/81e7d72c5ee8b8ef4ce5f8430b8f056c34f29fb9"
+    },
+    {
+      "path": "src/reference_data/subsystems/services.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "554beb4809b6309e6a448a48f7ae0a4db4039123",
+      "size": 1109,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/554beb4809b6309e6a448a48f7ae0a4db4039123"
+    },
+    {
+      "path": "src/reference_data/subsystems/skills.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70ab6724e5dc48abe12fc9f9b2f3b428ac4c394a",
+      "size": 801,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/70ab6724e5dc48abe12fc9f9b2f3b428ac4c394a"
+    },
+    {
+      "path": "src/reference_data/subsystems/state.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef2b05dbd6e661723d0a00c8f0e7af30ec43d2dc",
+      "size": 274,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/ef2b05dbd6e661723d0a00c8f0e7af30ec43d2dc"
+    },
+    {
+      "path": "src/reference_data/subsystems/types.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e353903a1a2d7015c158f6bf23a65ae5562cf4c",
+      "size": 536,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/0e353903a1a2d7015c158f6bf23a65ae5562cf4c"
+    },
+    {
+      "path": "src/reference_data/subsystems/upstreamproxy.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bb92d42c949d5ce8b5a76c44f27d96854f4496a",
+      "size": 185,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/7bb92d42c949d5ce8b5a76c44f27d96854f4496a"
+    },
+    {
+      "path": "src/reference_data/subsystems/utils.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7ddcb15357697e651321ae52c0b4f48a0e13bb5",
+      "size": 814,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/b7ddcb15357697e651321ae52c0b4f48a0e13bb5"
+    },
+    {
+      "path": "src/reference_data/subsystems/vim.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e58f4017c859d0165eea9adb0cd26b8a05565e38",
+      "size": 215,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/e58f4017c859d0165eea9adb0cd26b8a05565e38"
+    },
+    {
+      "path": "src/reference_data/subsystems/voice.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bba3b59bd1568439ac3b881e31fa16abe7038c01",
+      "size": 134,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/bba3b59bd1568439ac3b881e31fa16abe7038c01"
+    },
+    {
+      "path": "src/reference_data/tools_snapshot.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb3a293092df79c706c9078a22bc65ebdaed4055",
+      "size": 36444,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/cb3a293092df79c706c9078a22bc65ebdaed4055"
+    },
+    {
+      "path": "src/remote",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "de07d84c570d691f2b9fa098f66af864b39a1ac5",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/de07d84c570d691f2b9fa098f66af864b39a1ac5"
+    },
+    {
+      "path": "src/remote/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9abbd6da08d57829905146153718475ca76db7fd",
+      "size": 527,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/9abbd6da08d57829905146153718475ca76db7fd"
+    },
+    {
+      "path": "src/remote_runtime.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dab9997460c3df7b97e3c95ce43d74c3e7c74ad",
+      "size": 753,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/9dab9997460c3df7b97e3c95ce43d74c3e7c74ad"
+    },
+    {
+      "path": "src/replLauncher.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c75a94de24ff7d605e6de908470f466d09e1ad1d",
+      "size": 169,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/c75a94de24ff7d605e6de908470f466d09e1ad1d"
+    },
+    {
+      "path": "src/runtime.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fbd953841d635fd6fde75e5bf265b5445eeb8ca",
+      "size": 9223,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/5fbd953841d635fd6fde75e5bf265b5445eeb8ca"
+    },
+    {
+      "path": "src/schemas",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "659e81005dd3795942c601accbfc7330b4c9b853",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/659e81005dd3795942c601accbfc7330b4c9b853"
+    },
+    {
+      "path": "src/schemas/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdff2b54f8bc7410b654c797069a84bca47d9d32",
+      "size": 529,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/bdff2b54f8bc7410b654c797069a84bca47d9d32"
+    },
+    {
+      "path": "src/screens",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ee92cb91dae0f754f4454f89c5fab32fb7bbfe19",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/ee92cb91dae0f754f4454f89c5fab32fb7bbfe19"
+    },
+    {
+      "path": "src/screens/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88d10fb858f0b4df5730c7dd49393357d1dcb9ca",
+      "size": 529,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/88d10fb858f0b4df5730c7dd49393357d1dcb9ca"
+    },
+    {
+      "path": "src/server",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f8ad3c717772944d29ff6d1ec63de2e36f3756fc",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/f8ad3c717772944d29ff6d1ec63de2e36f3756fc"
+    },
+    {
+      "path": "src/server/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44607cb01dbd603819b4ac6cb5b1a65a34a87696",
+      "size": 527,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/44607cb01dbd603819b4ac6cb5b1a65a34a87696"
+    },
+    {
+      "path": "src/services",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "483be86c70d6d236cc5e9e86f145d4c243875719",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/483be86c70d6d236cc5e9e86f145d4c243875719"
+    },
+    {
+      "path": "src/services/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "714ef4720fd327e35950d6bb061f69fa184e4928",
+      "size": 531,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/714ef4720fd327e35950d6bb061f69fa184e4928"
+    },
+    {
+      "path": "src/session_store.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f7502a56d1afa566a8637ff16bc0da5ac12a6e6",
+      "size": 1022,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/5f7502a56d1afa566a8637ff16bc0da5ac12a6e6"
+    },
+    {
+      "path": "src/setup.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8e5a4da584a67b583650f29c549c275fed5c164",
+      "size": 2315,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/b8e5a4da584a67b583650f29c549c275fed5c164"
+    },
+    {
+      "path": "src/skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1407232dc48c24f17f962d38a8a2626e1487c47b",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/1407232dc48c24f17f962d38a8a2626e1487c47b"
+    },
+    {
+      "path": "src/skills/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d9c7a6463af2092a4983ca93fe0ac552ec6ee1c",
+      "size": 527,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/4d9c7a6463af2092a4983ca93fe0ac552ec6ee1c"
+    },
+    {
+      "path": "src/state",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a109586f220e11b5e4ed898b666e7b74a4f15d40",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/a109586f220e11b5e4ed898b666e7b74a4f15d40"
+    },
+    {
+      "path": "src/state/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23cb13447db5a05a72c458159e99b3fd46fcb14e",
+      "size": 525,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/23cb13447db5a05a72c458159e99b3fd46fcb14e"
+    },
+    {
+      "path": "src/system_init.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f802bfae5b1a6d6607b16b01daccc6d2e0bc8c9",
+      "size": 698,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/9f802bfae5b1a6d6607b16b01daccc6d2e0bc8c9"
+    },
+    {
+      "path": "src/task.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1676d6296947e360b6ac04156f9d5a07593b96d8",
+      "size": 93,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/1676d6296947e360b6ac04156f9d5a07593b96d8"
+    },
+    {
+      "path": "src/tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "432e459375a74df0062f839667a4a76986e58cd0",
+      "size": 421,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/432e459375a74df0062f839667a4a76986e58cd0"
+    },
+    {
+      "path": "src/tool_pool.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "428a35e5850af0bf6e7b82f6637dbe3888c73dbe",
+      "size": 1044,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/428a35e5850af0bf6e7b82f6637dbe3888c73dbe"
+    },
+    {
+      "path": "src/tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4e43405994e76cdd3206f083a30e5221eb751e7",
+      "size": 4186,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/e4e43405994e76cdd3206f083a30e5221eb751e7"
+    },
+    {
+      "path": "src/transcript.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0221ca2a3bcae856cbea096429ab081d6ef26a81",
+      "size": 585,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/0221ca2a3bcae856cbea096429ab081d6ef26a81"
+    },
+    {
+      "path": "src/types",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b70f056c394833b81bfe4513d610a1c1f9d50061",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/b70f056c394833b81bfe4513d610a1c1f9d50061"
+    },
+    {
+      "path": "src/types/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9afb3b74c60944508074c23e8a037e8bdf8a305",
+      "size": 525,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/d9afb3b74c60944508074c23e8a037e8bdf8a305"
+    },
+    {
+      "path": "src/upstreamproxy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5de9605b3f595acb164648b90f50df37662e1437",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/5de9605b3f595acb164648b90f50df37662e1437"
+    },
+    {
+      "path": "src/upstreamproxy/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf8ea6d892cc4b98f1b7fda167534c0728861220",
+      "size": 541,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/bf8ea6d892cc4b98f1b7fda167534c0728861220"
+    },
+    {
+      "path": "src/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a9dc71f3a00b16322a6291d06a67f687d157093b",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/a9dc71f3a00b16322a6291d06a67f687d157093b"
+    },
+    {
+      "path": "src/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc3f766cb99eebd1f647ee642bc675cd2960f474",
+      "size": 525,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/fc3f766cb99eebd1f647ee642bc675cd2960f474"
+    },
+    {
+      "path": "src/vim",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "12ae6ae661e91bb7a899f5923494dcef6705437c",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/12ae6ae661e91bb7a899f5923494dcef6705437c"
+    },
+    {
+      "path": "src/vim/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c272c8d3dac2dc1b5770ec44426b27d4cae52986",
+      "size": 521,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/c272c8d3dac2dc1b5770ec44426b27d4cae52986"
+    },
+    {
+      "path": "src/voice",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "25cc9656561d1d726ec64f591760a85159186579",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/25cc9656561d1d726ec64f591760a85159186579"
+    },
+    {
+      "path": "src/voice/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a50e5c1671e572d448e83e60cb335d12a288a5c2",
+      "size": 525,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/a50e5c1671e572d448e83e60cb335d12a288a5c2"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "44b53bfa6f315dfddc8a7acd8b44ccbd227e6961",
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/trees/44b53bfa6f315dfddc8a7acd8b44ccbd227e6961"
+    },
+    {
+      "path": "tests/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/test_porting_workspace.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ff1e258d4f2cb73bdb2937ee7409f149ba9f82f",
+      "size": 13907,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/0ff1e258d4f2cb73bdb2937ee7409f149ba9f82f"
+    },
+    {
+      "path": "tests/test_pre_push_hook_contract.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b38a5d45ee1207b63b7ab22b987d56b2123efc3b",
+      "size": 1275,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/b38a5d45ee1207b63b7ab22b987d56b2123efc3b"
+    },
+    {
+      "path": "tests/test_roadmap_helpers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c8751980b9177223d9be05276e31deb45d9e6cc",
+      "size": 6152,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/3c8751980b9177223d9be05276e31deb45d9e6cc"
+    },
+    {
+      "path": "tests/test_security_scope.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55cba20a965f6777002927bc77673f6cdbfb74ae",
+      "size": 6258,
+      "url": "https://api.github.com/repos/ultraworkers/claw-code/git/blobs/55cba20a965f6777002927bc77673f6cdbfb74ae"
+    }
+  ],
+  "truncated": false
+}

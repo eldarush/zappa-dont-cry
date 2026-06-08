@@ -2,8 +2,8 @@
   "schema_version": 1,
   "status": "selected_candidate_packets_blocked",
   "completion_ready": false,
-  "candidate_count": 7,
-  "selected_contract_count": 7,
+  "candidate_count": 8,
+  "selected_contract_count": 8,
   "deferred_candidate_count": 0,
   "repositories": [
     "typicode/json-server",
@@ -12,6 +12,7 @@
     "fastapi/fastapi",
     "gin-gonic/gin",
     "denoland/deno",
-    "unclecode/crawl4ai"
+    "unclecode/crawl4ai",
+    "spring-projects/spring-boot"
   ]
 }

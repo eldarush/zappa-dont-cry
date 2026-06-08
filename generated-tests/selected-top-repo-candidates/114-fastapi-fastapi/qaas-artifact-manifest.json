@@ -614,8 +614,8 @@
                                  "status":  "passed",
                                  "evidence":  [
                                                   "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-lifecycle-fastapi.json",
-                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-114925-473\\evidence\\fastapi-lifecycle.transcript.txt",
-                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-114925-473\\evidence\\items-5-response.json"
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-171542-653\\evidence\\fastapi-lifecycle.transcript.txt",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-171542-653\\evidence\\items-5-response.json"
                                               ],
                                  "check_command":  "D:\\QaaS\\_tools\\zappa-harness\\scripts\\run-selected-top-repo-candidate-lifecycle-fastapi.ps1",
                                  "blocked_reason":  ""
@@ -627,8 +627,8 @@
                                  "status":  "passed",
                                  "evidence":  [
                                                   "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-lifecycle-fastapi.json",
-                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-114925-473\\evidence\\fastapi-lifecycle.transcript.txt",
-                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-114925-473\\evidence\\items-5-response.json"
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-171542-653\\evidence\\fastapi-lifecycle.transcript.txt",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-171542-653\\evidence\\items-5-response.json"
                                               ],
                                  "check_command":  "D:\\QaaS\\_tools\\zappa-harness\\scripts\\run-selected-top-repo-candidate-lifecycle-fastapi.ps1",
                                  "blocked_reason":  ""
@@ -640,7 +640,7 @@
                                  "status":  "passed",
                                  "evidence":  [
                                                   "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-live-fastapi.json",
-                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\evidence\\template-runner.transcript.txt"
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-171916-186\\evidence\\template-runner.transcript.txt"
                                               ],
                                  "check_command":  "D:\\QaaS\\_tools\\zappa-harness\\scripts\\run-selected-top-repo-candidate-live-fastapi.ps1",
                                  "blocked_reason":  ""
@@ -652,8 +652,8 @@
                                  "status":  "passed",
                                  "evidence":  [
                                                   "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-live-fastapi.json",
-                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\evidence\\live-runner-run.transcript.txt",
-                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\evidence\\items-5-response.json"
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-171916-186\\evidence\\live-runner-run.transcript.txt",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-171916-186\\evidence\\items-5-response.json"
                                               ],
                                  "check_command":  "D:\\QaaS\\_tools\\zappa-harness\\scripts\\run-selected-top-repo-candidate-live-fastapi.ps1",
                                  "blocked_reason":  ""
@@ -721,43 +721,43 @@
                                  "status":  "passed",
                                  "exit_code":  0,
                                  "command":  "fastapi dev ; GET http://127.0.0.1:8000/items/5?q=somequery ; terminate tracked process tree",
-                                 "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-114925-473\\evidence\\fastapi-lifecycle.transcript.txt",
+                                 "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-171542-653\\evidence\\fastapi-lifecycle.transcript.txt",
                                  "summary":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-lifecycle-fastapi.json",
-                                 "response":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-114925-473\\evidence\\items-5-response.json",
+                                 "response":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-171542-653\\evidence\\items-5-response.json",
                                  "cleanup_process_ids":  [
-                                                             18900,
-                                                             18184,
-                                                             8748,
-                                                             15888,
-                                                             20644
+                                                             32216,
+                                                             18480,
+                                                             34212,
+                                                             14696,
+                                                             32196
                                                          ]
                              },
     "build_validation":  {
                              "status":  "passed",
                              "exit_code":  0,
-                             "command":  "dotnet build D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\runner\\ZappaSelectedFastApi.Runner\\ZappaSelectedFastApi.Runner.csproj --nologo -clp:ErrorsOnly",
-                             "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\evidence\\build-runner.transcript.txt"
+                             "command":  "dotnet build D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-171916-186\\runner\\ZappaSelectedFastApi.Runner\\ZappaSelectedFastApi.Runner.csproj --nologo -clp:ErrorsOnly",
+                             "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-171916-186\\evidence\\build-runner.transcript.txt"
                          },
     "template_validation":  {
                                 "status":  "passed",
                                 "exit_code":  0,
-                                "command":  "dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\runner\\ZappaSelectedFastApi.Runner\\ZappaSelectedFastApi.Runner.csproj -- template D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\runner\\ZappaSelectedFastApi.Runner\\test.qaas.yaml --no-env",
-                                "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\evidence\\template-runner.transcript.txt"
+                                "command":  "dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-171916-186\\runner\\ZappaSelectedFastApi.Runner\\ZappaSelectedFastApi.Runner.csproj -- template D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-171916-186\\runner\\ZappaSelectedFastApi.Runner\\test.qaas.yaml --no-env",
+                                "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-171916-186\\evidence\\template-runner.transcript.txt"
                             },
     "live_validation":  {
                             "status":  "passed",
                             "exit_code":  0,
-                            "command":  "dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\runner\\ZappaSelectedFastApi.Runner\\ZappaSelectedFastApi.Runner.csproj -- run D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\runner\\ZappaSelectedFastApi.Runner\\test.qaas.yaml -e --no-env",
-                            "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\evidence\\live-runner-run.transcript.txt"
+                            "command":  "dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-171916-186\\runner\\ZappaSelectedFastApi.Runner\\ZappaSelectedFastApi.Runner.csproj -- run D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-171916-186\\runner\\ZappaSelectedFastApi.Runner\\test.qaas.yaml -e --no-env",
+                            "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-171916-186\\evidence\\live-runner-run.transcript.txt"
                         },
     "selected_candidate_qaas_validation":  {
                                                "status":  "passed",
                                                "exit_code":  0,
-                                               "command":  "dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\runner\\ZappaSelectedFastApi.Runner\\ZappaSelectedFastApi.Runner.csproj -- template D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\runner\\ZappaSelectedFastApi.Runner\\test.qaas.yaml --no-env ; fastapi dev ; dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\runner\\ZappaSelectedFastApi.Runner\\ZappaSelectedFastApi.Runner.csproj -- run D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\runner\\ZappaSelectedFastApi.Runner\\test.qaas.yaml -e --no-env",
-                                               "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\evidence\\selected-live-fastapi.transcript.txt",
+                                               "command":  "dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-171916-186\\runner\\ZappaSelectedFastApi.Runner\\ZappaSelectedFastApi.Runner.csproj -- template D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-171916-186\\runner\\ZappaSelectedFastApi.Runner\\test.qaas.yaml --no-env ; fastapi dev ; dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-171916-186\\runner\\ZappaSelectedFastApi.Runner\\ZappaSelectedFastApi.Runner.csproj -- run D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-171916-186\\runner\\ZappaSelectedFastApi.Runner\\test.qaas.yaml -e --no-env",
+                                               "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-171916-186\\evidence\\selected-live-fastapi.transcript.txt",
                                                "summary":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-live-fastapi.json",
-                                               "response":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\evidence\\items-5-response.json",
-                                               "run_dir":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979"
+                                               "response":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-171916-186\\evidence\\items-5-response.json",
+                                               "run_dir":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-171916-186"
                                            },
     "validation_advisories":  [
                                   {

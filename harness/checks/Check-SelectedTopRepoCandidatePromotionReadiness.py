@@ -8,13 +8,14 @@ from pathlib import Path
 
 candidate_root = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(r"D:\QaaS\_tmp\zappa-dont-cry\generated-tests\selected-top-repo-candidates")
 coverage_dir = Path(sys.argv[2]) if len(sys.argv) > 2 else Path(r"D:\QaaS\_tmp\zappa-dont-cry\coverage")
-expected_count = int(sys.argv[3]) if len(sys.argv) > 3 else 7
+expected_count = int(sys.argv[3]) if len(sys.argv) > 3 else 8
 min_deterministic_ready = int(sys.argv[4]) if len(sys.argv) > 4 else 6
 
 ADVISORY_BLOCKERS = {"httpstatus-docs-inconsistency-recorded"}
 WEAK_BLOCKERS = {"live-airgapped-weak-model-not-passed"}
 SCOPE_BLOCKERS = {
     "deno-broad-runtime-coverage-not-selected",
+    "spring-boot-broad-runtime-coverage-not-selected",
     "crawl4ai-health-body-contract-not-selected",
     "crawl4ai-crawl-endpoint-not-promoted",
 }

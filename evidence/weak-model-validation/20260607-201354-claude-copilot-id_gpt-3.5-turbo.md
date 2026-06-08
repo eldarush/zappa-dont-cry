@@ -1,0 +1,168 @@
+# weak-model-session transcript
+
+Command: DRY_RUN claude-copilot id:gpt-3.5-turbo
+CommandPreview: claude id:gpt-3.5-turbo -p You are validating a Codex/GitHub Copilot/Gemini-compatible SKILL.md workflow under a weaker model.
+
+Constraints:
+- Do not edit files.
+- Do not run destructive commands.
+- Use any explicitly requested skill if the harness exposes it.
+- Prefer direct task output over explanation.
+- Use modest reasoning; do not compensate with exhaustive analysis.
+- If the skill is unavailable, say SKILL_NOT_FOUND and list what skills you can see.
+
+Injected Codex skills:
+Follow these SKILL.md instructions exactly when the task names or implies the skill.
+If the task conflicts with the skill, say so briefly and continue with the closest safe interpretation.
+
+## Skill: zappa-dont-cry
+Path: C:\Users\eldar\.codex\skills\zappa-dont-cry\SKILL.md
+```markdown
+---
+name: zappa-dont-cry
+description: Master QaaS docs-only skill pack for planning, writing, debugging, documenting, and validating QaaS tests, hooks, configuration-as-code, and top-repository test campaigns. Use when the user asks for zappa-dont-cry, QaaS expertise from docs only, airgapped QaaS testing, recursive strong/weak model validation, or broad QaaS test generation.
+---
+
+# Zappa Dont Cry
+
+Use this as the coordinator for the `zappa-dont-cry` skill pack. The pack assumes the agent has QaaS documentation and generated schemas, not QaaS source code.
+
+## Core Rules
+
+1. Treat `D:\QaaS\qaas-docs\docs` and generated schemas as the public contract.
+2. Treat QaaS source code as unavailable unless the user explicitly gives it for a specific task.
+3. When source and docs disagree, mark the source-derived behavior as `source_only` and prefer a documented fallback.
+4. Do not invent QaaS YAML fields, hook methods, CLI flags, or configuration APIs.
+5. Ask focused intent questions when the user's intent is ambiguous. If the user forbids questions, create an `intent_assumptions` section and answer the questions yourself with conservative defaults.
+6. For airgapped validation, call `D:\QaaS\_tools\weak-model-session.ps1 -Airgapped` and inspect the transcript. If quota blocks the weak path, run a dry run and record the blocker.
+7. Strong model work is not accepted until a weak-model pass has exercised the skill prompt and a strong-model review has checked the weak output against docs evidence.
+
+## Skill Routing
+
+Use these skills inside this namespace:
+
+| Task | Skill |
+|---|---|
+| Find public QaaS docs/schema evidence | `zappa-qaas-docs-map` |
+| Turn a repo/component/story into QaaS test plans | `zappa-qaas-test-planner` |
+| Write QaaS YAML, C# configuration, manifests, and support files | `zappa-qaas-test-author` |
+| Write or review custom hooks and configuration-as-code | `zappa-qaas-hook-config` |
+| Debug QaaS template/build/run/assert/mocker failures | `zappa-qaas-debugger` |
+| Fetch and plan test campaigns for top GitHub repositories | `zappa-qaas-top-repos` |
+
+## Shared References
+
+Read only what is needed:
+
+- `references/qaas-docs-index.md` for public docs paths and schema locations.
+- `references/intent-clarification-protocol.md` before accepting vague requirements.
+- `references/artifact-contract.md` before producing YAML/code tests.
+- `references/airgapped-validation.md` before weak-model validation.
+- `references/recursive-development-loop.md` before updating this pack.
+
+## Local Scripts
+
+- `scripts/bootstrap-zappa-env.ps1` creates a persistent work area under `D:\QaaS\_tmp\zappa-dont-cry`.
+- `scripts/fetch-top-github-repos.ps1` fetches the current top starred GitHub repositories through `gh api`.
+- `scripts/generate-top-repos-campaign.ps1` turns the fetched repository list into a docs-only QaaS campaign plan with blockers.
+- `scripts/run-airgapped-validation.ps1` runs the weak-model validator against one skill or prompt.
+- `scripts/validate-zappa-pack.ps1` validates every skill in this namespace and checks for unresolved placeholders.
+
+## Required Output Shape
+
+For QaaS work, produce:
+
+- `intent_questions`: focused questions or self-answered assumptions.
+- `docs_evidence`: exact public docs/schema paths.
+- `artifact_plan`: YAML, code, hooks, config, data, variables, and manifest files.
+- `validation_sequence`: docs/schema checks, template/build checks, live commands, and blockers.
+- `airgapped_result`: transcript path, pass/fail, and what the weak model missed.
+- `strong_review`: corrections applied after reviewing weak-model output.
+```
+
+Task:
+Use the injected zappa-dont-cry skill to outline the docs-only QaaS workflow in five concise bullets.
+ExitCode: 0
+
+## prompt
+You are validating a Codex/GitHub Copilot/Gemini-compatible SKILL.md workflow under a weaker model.
+
+Constraints:
+- Do not edit files.
+- Do not run destructive commands.
+- Use any explicitly requested skill if the harness exposes it.
+- Prefer direct task output over explanation.
+- Use modest reasoning; do not compensate with exhaustive analysis.
+- If the skill is unavailable, say SKILL_NOT_FOUND and list what skills you can see.
+
+Injected Codex skills:
+Follow these SKILL.md instructions exactly when the task names or implies the skill.
+If the task conflicts with the skill, say so briefly and continue with the closest safe interpretation.
+
+## Skill: zappa-dont-cry
+Path: C:\Users\eldar\.codex\skills\zappa-dont-cry\SKILL.md
+```markdown
+---
+name: zappa-dont-cry
+description: Master QaaS docs-only skill pack for planning, writing, debugging, documenting, and validating QaaS tests, hooks, configuration-as-code, and top-repository test campaigns. Use when the user asks for zappa-dont-cry, QaaS expertise from docs only, airgapped QaaS testing, recursive strong/weak model validation, or broad QaaS test generation.
+---
+
+# Zappa Dont Cry
+
+Use this as the coordinator for the `zappa-dont-cry` skill pack. The pack assumes the agent has QaaS documentation and generated schemas, not QaaS source code.
+
+## Core Rules
+
+1. Treat `D:\QaaS\qaas-docs\docs` and generated schemas as the public contract.
+2. Treat QaaS source code as unavailable unless the user explicitly gives it for a specific task.
+3. When source and docs disagree, mark the source-derived behavior as `source_only` and prefer a documented fallback.
+4. Do not invent QaaS YAML fields, hook methods, CLI flags, or configuration APIs.
+5. Ask focused intent questions when the user's intent is ambiguous. If the user forbids questions, create an `intent_assumptions` section and answer the questions yourself with conservative defaults.
+6. For airgapped validation, call `D:\QaaS\_tools\weak-model-session.ps1 -Airgapped` and inspect the transcript. If quota blocks the weak path, run a dry run and record the blocker.
+7. Strong model work is not accepted until a weak-model pass has exercised the skill prompt and a strong-model review has checked the weak output against docs evidence.
+
+## Skill Routing
+
+Use these skills inside this namespace:
+
+| Task | Skill |
+|---|---|
+| Find public QaaS docs/schema evidence | `zappa-qaas-docs-map` |
+| Turn a repo/component/story into QaaS test plans | `zappa-qaas-test-planner` |
+| Write QaaS YAML, C# configuration, manifests, and support files | `zappa-qaas-test-author` |
+| Write or review custom hooks and configuration-as-code | `zappa-qaas-hook-config` |
+| Debug QaaS template/build/run/assert/mocker failures | `zappa-qaas-debugger` |
+| Fetch and plan test campaigns for top GitHub repositories | `zappa-qaas-top-repos` |
+
+## Shared References
+
+Read only what is needed:
+
+- `references/qaas-docs-index.md` for public docs paths and schema locations.
+- `references/intent-clarification-protocol.md` before accepting vague requirements.
+- `references/artifact-contract.md` before producing YAML/code tests.
+- `references/airgapped-validation.md` before weak-model validation.
+- `references/recursive-development-loop.md` before updating this pack.
+
+## Local Scripts
+
+- `scripts/bootstrap-zappa-env.ps1` creates a persistent work area under `D:\QaaS\_tmp\zappa-dont-cry`.
+- `scripts/fetch-top-github-repos.ps1` fetches the current top starred GitHub repositories through `gh api`.
+- `scripts/generate-top-repos-campaign.ps1` turns the fetched repository list into a docs-only QaaS campaign plan with blockers.
+- `scripts/run-airgapped-validation.ps1` runs the weak-model validator against one skill or prompt.
+- `scripts/validate-zappa-pack.ps1` validates every skill in this namespace and checks for unresolved placeholders.
+
+## Required Output Shape
+
+For QaaS work, produce:
+
+- `intent_questions`: focused questions or self-answered assumptions.
+- `docs_evidence`: exact public docs/schema paths.
+- `artifact_plan`: YAML, code, hooks, config, data, variables, and manifest files.
+- `validation_sequence`: docs/schema checks, template/build checks, live commands, and blockers.
+- `airgapped_result`: transcript path, pass/fail, and what the weak model missed.
+- `strong_review`: corrections applied after reviewing weak-model output.
+```
+
+Task:
+Use the injected zappa-dont-cry skill to outline the docs-only QaaS workflow in five concise bullets.

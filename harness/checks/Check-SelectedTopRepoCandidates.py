@@ -2445,6 +2445,273 @@ def validate_deno(record: dict, manifest: dict, selected: dict, manifest_path: P
     validate_common_gates(manifest, manifest_path, lifecycle_passed, qaas_passed, ("managed-deno-toolchain", "deno-process-lifecycle"))
 
 
+def validate_spring_boot(record: dict, manifest: dict, selected: dict, manifest_path: Path, selected_path: Path, candidate_dir: Path):
+    supports = selected_supports(selected)
+    for required_support in ("runtime-contract", "http-contract", "input-output-contract", "candidate-executable-command"):
+        if required_support not in supports:
+            failures.append(f"selected contract lacks candidate support {required_support}: {selected_path}")
+
+    artifacts, yaml, runtime_plan, runtime_plan_path = validate_common_candidate(record, manifest, selected, manifest_path, selected_path, candidate_dir)
+
+    runner_path = candidate_dir / "test.qaas.yaml"
+    app_path = candidate_dir / "app" / "src" / "main" / "java" / "com" / "example" / "Example.java"
+    expected_body_path = candidate_dir / "expectations" / "root-body.txt"
+    request_payload_path = candidate_dir / "request-payloads" / "get-root.bin"
+    hook_dir = candidate_dir / "assertion-packets" / "ExactHttpTextBody"
+    hook_code_path = hook_dir / "ExactHttpTextBody.cs"
+    hook_usage_path = hook_dir / "ExactHttpTextBody.usage.yaml.txt"
+    hook_plan_path = hook_dir / "custom-text-body-hook-plan.json"
+    for required_artifact in (app_path, expected_body_path, request_payload_path):
+        if required_artifact not in artifacts:
+            failures.append(f"required Spring Boot artifact not listed in manifest artifacts: {required_artifact}")
+        require_under(required_artifact, candidate_dir, "required Spring Boot candidate artifact")
+
+    expected_body_sha = sha256_hex(expected_body_path) or ""
+
+    readme_path = selected_file_path(selected, "README.adoc")
+    webserver_path = selected_file_path(selected, "documentation/spring-boot-docs/src/docs/antora/modules/how-to/pages/webserver.adoc")
+    if readme_path is None:
+        failures.append(f"Spring Boot selected contract missing README.adoc evidence: {selected_path}")
+    else:
+        require_under(readme_path, selected_contracts_root, "Spring Boot README evidence")
+        readme = text(readme_path)
+        for marker in (
+            "Here is a quick teaser of a complete Spring Boot application in Java:",
+            "@RestController",
+            "@SpringBootApplication",
+            '@RequestMapping("/")',
+            'return "Hello World!";',
+            "SpringApplication.run(Example.class, args);",
+            "java -jar",
+            "$ ./gradlew build",
+        ):
+            require_marker(readme, marker, readme_path)
+    if webserver_path is None:
+        failures.append(f"Spring Boot selected contract missing immutable webserver default-port evidence: {selected_path}")
+    else:
+        require_under(webserver_path, selected_contracts_root, "Spring Boot webserver docs evidence")
+        webserver = text(webserver_path)
+        require_marker(webserver, "main HTTP port defaults to `8080`", webserver_path)
+
+    qaas_fields = (
+        manifest.get("assertion_build_validation"),
+        manifest.get("build_validation"),
+        manifest.get("template_validation"),
+        manifest.get("live_validation"),
+        manifest.get("selected_candidate_qaas_validation"),
+        runtime_plan.get("qaas_validation"),
+    )
+    qaas_claimed = any(passed_validation(field) for field in qaas_fields)
+    if qaas_claimed:
+        failures.append(f"Spring Boot candidate has no adopted live QaaS validator yet and must not claim passed QaaS validation: {manifest_path}")
+    qaas_passed = False
+
+    require_marker(yaml, "Name: GetRootPayload", runner_path)
+    require_marker(yaml, "Path: './request-payloads'", runner_path)
+    require_marker(yaml, "SearchPattern: 'get-root.bin'", runner_path)
+    require_marker(yaml, "Name: SpringBootReadRoot", runner_path)
+    require_marker(yaml, "Port: 8080", runner_path)
+    require_marker(yaml, "Route: /", runner_path)
+    require_marker(yaml, "Name: GetRootReturnedOk", runner_path)
+    require_no_marker(yaml, "Assertion: ExactHttpTextBody", runner_path, "Spring Boot active YAML must not use custom assertion before schema/template/live validation")
+    require_no_marker(yaml, "java -jar", runner_path, "Spring Boot candidate YAML embeds external process command instead of runtime plan")
+    require_no_marker(yaml, "gradlew", runner_path, "Spring Boot candidate YAML embeds repository build command instead of runtime plan")
+    require_no_marker(yaml, "SpringApplication.run", runner_path, "Spring Boot candidate YAML embeds Java source instead of runtime plan")
+    require_no_marker(yaml, "Hello World!", runner_path, "Spring Boot candidate YAML embeds exact text body before custom assertion validation")
+    for invented_marker in ("ExpectedBody", "ExactTextBody", "QueryParameters", "Retries:", "OutputDataFilter:", "Candidate:", "Repository:"):
+        require_no_marker(yaml, invented_marker, runner_path, "Spring Boot candidate uses non-selected or invented YAML shape")
+    if not re.search(r"(?s)Transactions:.*DataSourceNames:\s*\n\s*-\s*GetRootPayload.*DataSourcePatterns:\s*\n\s*-\s*GetRootPayload", yaml):
+        failures.append(f"Spring Boot transaction must be driven by GetRootPayload DataSourceNames and DataSourcePatterns: {runner_path}")
+
+    app_text = text(app_path)
+    for marker in (
+        "package com.example;",
+        "import org.springframework.boot.*;",
+        "import org.springframework.boot.autoconfigure.*;",
+        "import org.springframework.web.bind.annotation.*;",
+        "@RestController",
+        "@SpringBootApplication",
+        '@RequestMapping("/")',
+        'return "Hello World!";',
+        "SpringApplication.run(Example.class, args);",
+    ):
+        require_marker(app_text, marker, app_path)
+    for forbidden_marker in ("actuator", "/health", "server.port", "mvn spring-boot:run", "bootRun"):
+        require_no_marker(app_text, forbidden_marker, app_path, "Spring Boot generated app must not invent broader runtime behavior")
+
+    if text(expected_body_path) != "Hello World!":
+        failures.append(f"Spring Boot expected body must match README evidence exactly: {expected_body_path}")
+    try:
+        if request_payload_path.read_bytes() != b"":
+            failures.append(f"Spring Boot GET payload driver must be an empty byte file: {request_payload_path}")
+    except Exception as exc:
+        failures.append(f"failed to validate Spring Boot request payload {request_payload_path}: {exc}")
+
+    hook = manifest.get("custom_assertion")
+    if not isinstance(hook, dict):
+        failures.append(f"Spring Boot candidate must include custom_assertion hook packet: {manifest_path}")
+    else:
+        if hook.get("assertion_type") != "ExactHttpTextBody" or hook.get("activation") != "sidecar_only":
+            failures.append(f"Spring Boot custom assertion must remain ExactHttpTextBody sidecar_only: {manifest_path}")
+        if hook.get("wired_into_runner_yaml") is not False:
+            failures.append(f"Spring Boot custom assertion must not be wired into source YAML: {manifest_path}")
+        for field, expected_path in (
+            ("implementation", hook_code_path),
+            ("usage_snippet", hook_usage_path),
+            ("hook_plan", hook_plan_path),
+        ):
+            hook_path = Path(str(hook.get(field, "")))
+            if hook_path.resolve() != expected_path.resolve():
+                failures.append(f"Spring Boot custom assertion {field} path mismatch: {manifest_path}")
+            require_under(hook_path, candidate_dir, f"Spring Boot custom assertion {field}")
+
+    implementation_text = text(hook_code_path)
+    for marker in (
+        "namespace ZappaDontCry.SelectedCandidates.SpringBoot.Assertions;",
+        "BaseAssertion<ExactHttpTextBodyConfig>",
+        "GetOutputByName(Configuration.OutputName).Data",
+        "item.Body is not byte[] body",
+        "Encoding.GetEncoding",
+        "StringComparison.Ordinal",
+        "AssertionMessage",
+        "return false",
+    ):
+        require_marker(implementation_text, marker, hook_code_path)
+    for forbidden_marker in (
+        "null!",
+        ".Result",
+        ".Wait()",
+        "GetAwaiter().GetResult()",
+        "Task.Run(",
+        "StringComparison.OrdinalIgnoreCase",
+        ".Trim(",
+        ".Contains(",
+        ".StartsWith(",
+        ".EndsWith(",
+        ".IndexOf(",
+        ".Normalize(",
+        "Regex.",
+    ):
+        require_no_marker(implementation_text, forbidden_marker, hook_code_path, "Spring Boot custom hook must preserve exact byte-for-byte text semantics")
+    usage_text = text(hook_usage_path)
+    if hook_usage_path.suffix.lower() in {".yaml", ".yml"}:
+        failures.append(f"Spring Boot custom assertion usage snippet must not be executable YAML before schema/template validation: {hook_usage_path}")
+    for marker in ("Assertion: ExactHttpTextBody", "OutputName: GetRoot", "ExpectedText: Hello World!", "EncodingName: utf-8"):
+        require_marker(usage_text, marker, hook_usage_path)
+
+    plan = read_json(hook_plan_path)
+    if plan.get("status") != "blocked_until_build_template_live_airgapped_validation":
+        failures.append(f"Spring Boot custom hook plan must stay blocked: {hook_plan_path}")
+    if plan.get("activation") != "sidecar_only":
+        failures.append(f"Spring Boot custom hook plan must remain sidecar_only: {hook_plan_path}")
+    validate_exact_http_text_body_packet(
+        plan.get("custom_assertion_packet"),
+        hook_plan_path,
+        expected_body_sha,
+        candidate_dir,
+        "Spring Boot custom hook plan packet",
+        expected_packet_id="spring-boot-exact-http-text-body",
+    )
+
+    packets = manifest.get("custom_assertion_packets")
+    if not isinstance(packets, list) or len(packets) != 1:
+        failures.append(f"Spring Boot candidate must include exactly one custom assertion packet: {manifest_path}")
+    else:
+        validate_exact_http_text_body_packet(
+            packets[0],
+            manifest_path,
+            expected_body_sha,
+            candidate_dir,
+            "Spring Boot custom assertion packet",
+            qaas_passed,
+            expected_packet_id="spring-boot-exact-http-text-body",
+        )
+
+    lifecycle_passed = passed_validation(manifest.get("lifecycle_validation"))
+    if lifecycle_passed:
+        failures.append(f"Spring Boot candidate has no adopted lifecycle validator yet and must not claim passed lifecycle validation: {manifest_path}")
+    validate_runtime_plan_common(runtime_plan, runtime_plan_path, "spring-projects/spring-boot", "java -jar <validated-application-jar>", False, qaas_passed)
+    if runtime_plan.get("command_support") != "partial_public_java_jar_capability_not_runnable_candidate_command":
+        failures.append(f"Spring Boot runtime plan must mark java -jar support as partial and not runnable: {runtime_plan_path}")
+    if runtime_plan.get("public_command_prefix") != "java -jar" or runtime_plan.get("command_status") != "partial_public_prefix_only":
+        failures.append(f"Spring Boot runtime plan must retain only partial java -jar prefix evidence: {runtime_plan_path}")
+    if runtime_plan.get("default_http_port") != 8080 or runtime_plan.get("root_route") != "/" or runtime_plan.get("expected_body") != "Hello World!":
+        failures.append(f"Spring Boot runtime plan route/port/body mismatch: {runtime_plan_path}")
+    if runtime_plan.get("expected_listen_url") != "http://127.0.0.1:8080/":
+        failures.append(f"Spring Boot runtime plan expected_listen_url mismatch: {runtime_plan_path}")
+    if runtime_plan.get("dependency_version_status") != "blocked" or runtime_plan.get("jar_build_status") != "blocked":
+        failures.append(f"Spring Boot runtime plan dependency and JAR build status must stay blocked: {runtime_plan_path}")
+    if runtime_plan.get("working_directory") != str(candidate_dir / "app"):
+        failures.append(f"Spring Boot runtime plan working_directory must be generated app directory: {runtime_plan_path}")
+    if runtime_plan.get("fixture") != str(app_path):
+        failures.append(f"Spring Boot runtime plan fixture must be generated Example.java: {runtime_plan_path}")
+    readiness = runtime_plan.get("readiness_probe")
+    if not isinstance(readiness, dict):
+        failures.append(f"Spring Boot runtime plan readiness_probe missing: {runtime_plan_path}")
+    else:
+        if readiness.get("status") != "blocked":
+            failures.append(f"Spring Boot runtime readiness_probe must remain blocked: {runtime_plan_path}")
+        if readiness.get("method") != "GET" or readiness.get("url") != "http://127.0.0.1:8080/" or readiness.get("expected_status") != 200:
+            failures.append(f"Spring Boot runtime readiness_probe mismatch: {runtime_plan_path}")
+        if readiness.get("expected_body") != "Hello World!":
+            failures.append(f"Spring Boot runtime readiness_probe expected_body mismatch: {runtime_plan_path}")
+    cleanup = runtime_plan.get("cleanup")
+    if not isinstance(cleanup, dict) or cleanup.get("status") != "blocked" or cleanup.get("process_family") != "java":
+        failures.append(f"Spring Boot runtime cleanup must remain blocked for Java process lifecycle: {runtime_plan_path}")
+    runtime_blockers = runtime_plan.get("blockers", [])
+    for blocker in (
+        "select_exact_spring_boot_dependency_version_or_generated_app_build_file",
+        "build_application_jar_from_selected_public_dependencies",
+        "prove_process_lifecycle_and_cleanup_without assuming private source",
+        "run_qaaS_template_validation",
+        "run_live_qaaS_act_assert_validation",
+        "run_live_airgapped_weak_model_validation",
+        "run_strong_review_against_selected_contract_evidence",
+    ):
+        if blocker not in runtime_blockers:
+            failures.append(f"Spring Boot runtime plan missing blocker {blocker}: {runtime_plan_path}")
+
+    runtime_packets = runtime_plan.get("custom_assertion_packets")
+    if not isinstance(runtime_packets, list) or len(runtime_packets) != 1:
+        failures.append(f"Spring Boot runtime plan must include exactly one custom assertion packet: {runtime_plan_path}")
+    else:
+        validate_exact_http_text_body_packet(
+            runtime_packets[0],
+            runtime_plan_path,
+            expected_body_sha,
+            candidate_dir,
+            "Spring Boot runtime plan custom assertion packet",
+            qaas_passed,
+            expected_packet_id="spring-boot-exact-http-text-body",
+        )
+
+    blockers = get_blocker_ids(manifest)
+    validate_httpstatus_docs_advisory(manifest, manifest_path, qaas_passed, "Spring Boot")
+    for blocker_id in (
+        "spring-boot-dependency-version-not-selected",
+        "spring-boot-jar-build-not-proven",
+        "spring-boot-process-lifecycle-not-proven",
+        "spring-boot-text-body-hook-not-template-validated",
+        "qaas-template-live-not-run",
+        "live-airgapped-weak-model-not-passed",
+        "spring-boot-broad-runtime-coverage-not-selected",
+    ):
+        if blocker_id not in blockers:
+            failures.append(f"Spring Boot candidate manifest missing source blocker {blocker_id}: {manifest_path}")
+
+    gates = get_gate_map(manifest)
+    port_gate = gates.get("selected-public-http-port-contract")
+    if not port_gate or port_gate.get("status") != "ready" or not port_gate.get("evidence"):
+        failures.append(f"Spring Boot candidate must have ready selected-public-http-port-contract gate: {manifest_path}")
+    body_gate = gates.get("plain-text-body-assertion-or-hook")
+    if not body_gate or body_gate.get("status") != "ready" or not body_gate.get("evidence"):
+        failures.append(f"Spring Boot candidate plain-text body assertion hook gate must be ready: {manifest_path}")
+    dependency_gate = gates.get("java-spring-boot-dependency-resolution")
+    if not dependency_gate or dependency_gate.get("status") != "blocked" or not dependency_gate.get("blocked_reason"):
+        failures.append(f"Spring Boot candidate dependency-resolution gate must stay blocked: {manifest_path}")
+    validate_common_gates(manifest, manifest_path, False, qaas_passed, ("java-spring-boot-dependency-resolution", "java-spring-boot-process-lifecycle"))
+
+
 def validate_crawl4ai(record: dict, manifest: dict, selected: dict, manifest_path: Path, selected_path: Path, candidate_dir: Path):
     supports = selected_supports(selected)
     if "candidate-executable-command" not in supports:
@@ -3123,6 +3390,7 @@ validators = {
     "gin-gonic/gin": validate_gin,
     "pallets/flask": validate_flask,
     "unclecode/crawl4ai": validate_crawl4ai,
+    "spring-projects/spring-boot": validate_spring_boot,
 }
 
 for record in records:

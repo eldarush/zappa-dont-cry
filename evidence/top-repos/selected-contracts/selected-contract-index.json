@@ -1,0 +1,87 @@
+﻿{
+    "schema_version":  1,
+    "generated_at":  "2026-06-08T17:07:37.0290046+03:00",
+    "source_contracts_directory":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts",
+    "output_directory":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts",
+    "selected_repository_count":  8,
+    "max_repositories":  8,
+    "max_file_bytes":  65536,
+    "max_files_per_repository":  8,
+    "max_total_bytes":  524288,
+    "total_fetched_bytes":  328818,
+    "policy":  "Selected contract harvest fetches exact public blob contents only and does not promote QaaS artifacts.",
+    "records":  [
+                    {
+                        "repository":  "typicode/json-server",
+                        "rank":  200,
+                        "record_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\200-typicode-json-server\\selected-contract.json",
+                        "fetched_file_count":  6,
+                        "marker_count":  6,
+                        "status":  "contract_content_harvested_not_executable",
+                        "promotion_state":  "blocked"
+                    },
+                    {
+                        "repository":  "fastapi/fastapi",
+                        "rank":  114,
+                        "record_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\selected-contract.json",
+                        "fetched_file_count":  8,
+                        "marker_count":  3,
+                        "status":  "contract_content_harvested_not_executable",
+                        "promotion_state":  "blocked"
+                    },
+                    {
+                        "repository":  "pallets/flask",
+                        "rank":  227,
+                        "record_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\227-pallets-flask\\selected-contract.json",
+                        "fetched_file_count":  8,
+                        "marker_count":  3,
+                        "status":  "contract_content_harvested_not_executable",
+                        "promotion_state":  "blocked"
+                    },
+                    {
+                        "repository":  "gin-gonic/gin",
+                        "rank":  138,
+                        "record_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\selected-contract.json",
+                        "fetched_file_count":  7,
+                        "marker_count":  2,
+                        "status":  "contract_content_harvested_not_executable",
+                        "promotion_state":  "blocked"
+                    },
+                    {
+                        "repository":  "denoland/deno",
+                        "rank":  98,
+                        "record_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\selected-contract.json",
+                        "fetched_file_count":  8,
+                        "marker_count":  5,
+                        "status":  "contract_content_harvested_not_executable",
+                        "promotion_state":  "blocked"
+                    },
+                    {
+                        "repository":  "unclecode/crawl4ai",
+                        "rank":  250,
+                        "record_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\selected-contract.json",
+                        "fetched_file_count":  8,
+                        "marker_count":  1,
+                        "status":  "contract_content_harvested_not_executable",
+                        "promotion_state":  "blocked"
+                    },
+                    {
+                        "repository":  "expressjs/express",
+                        "rank":  243,
+                        "record_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\selected-contract.json",
+                        "fetched_file_count":  8,
+                        "marker_count":  4,
+                        "status":  "contract_content_harvested_not_executable",
+                        "promotion_state":  "blocked"
+                    },
+                    {
+                        "repository":  "spring-projects/spring-boot",
+                        "rank":  177,
+                        "record_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\selected-contract.json",
+                        "fetched_file_count":  8,
+                        "marker_count":  6,
+                        "status":  "contract_content_harvested_not_executable",
+                        "promotion_state":  "blocked"
+                    }
+                ]
+}

@@ -1,0 +1,43 @@
+{
+  "harvested_at": "2026-06-07T20:42:44.3622326+03:00",
+  "rank": 2,
+  "repository": "sindresorhus/awesome",
+  "url": "https://github.com/sindresorhus/awesome",
+  "language": null,
+  "stars": 473730,
+  "default_branch": "main",
+  "contract_strength": "readme_plus_runtime_hints",
+  "candidate_qaas_surfaces": [
+    "ci-documented-command-discovery",
+    "repo-contract-discovery-needed"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\002-sindresorhus-awesome\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\002-sindresorhus-awesome\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [],
+    "ci": [
+      ".github/workflows/main.yml",
+      ".github/workflows/repo_linter.sh"
+    ],
+    "containers": [],
+    "dotnet": [],
+    "node": [],
+    "python": [],
+    "go": [],
+    "java": [],
+    "rust": [],
+    "docs": [
+      "contributing.md",
+      "media/readme.md",
+      "readme.md"
+    ],
+    "tests": []
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\002-sindresorhus-awesome\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\002-sindresorhus-awesome\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

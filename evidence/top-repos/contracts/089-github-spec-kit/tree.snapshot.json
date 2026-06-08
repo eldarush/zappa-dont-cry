@@ -1,0 +1,3652 @@
+{
+  "sha": "7106858c4e636098815fffa23f6c6b99eb0e156b",
+  "url": "https://api.github.com/repos/github/spec-kit/git/trees/7106858c4e636098815fffa23f6c6b99eb0e156b",
+  "tree": [
+    {
+      "path": ".devcontainer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8501c76394cf9a63a7e667ff6254541440197200",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/8501c76394cf9a63a7e667ff6254541440197200"
+    },
+    {
+      "path": ".devcontainer/devcontainer.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88acdcd5fd32764a2c41cfd5a6f181b010809ba1",
+      "size": 2205,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/88acdcd5fd32764a2c41cfd5a6f181b010809ba1"
+    },
+    {
+      "path": ".devcontainer/post-create.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4dd17294e78893d9a4211ce2323ce8108fafd222",
+      "size": 3271,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/4dd17294e78893d9a4211ce2323ce8108fafd222"
+    },
+    {
+      "path": ".editorconfig",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81cb478a38981fef2e761e910b3f6107e487b1f4",
+      "size": 369,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/81cb478a38981fef2e761e910b3f6107e487b1f4"
+    },
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32749f294c7639ad2c824897d13430e5109b8f9c",
+      "size": 95,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/32749f294c7639ad2c824897d13430e5109b8f9c"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4a2928416f0ac8dd06056ee707d26c75f434a614",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/4a2928416f0ac8dd06056ee707d26c75f434a614"
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf0686db1aa491988cad7cdf7171c15acd21581d",
+      "size": 243,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/cf0686db1aa491988cad7cdf7171c15acd21581d"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "73151e2e263c6e001befcd34f7ba9db8da46c964",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/73151e2e263c6e001befcd34f7ba9db8da46c964"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/agent_request.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a44adec2d5aa9e8e924a6ae0bedfa1a3600dfd1",
+      "size": 4500,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/1a44adec2d5aa9e8e924a6ae0bedfa1a3600dfd1"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd09f8e02ada7cafb9e79c456d76c49e16480c40",
+      "size": 2910,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/dd09f8e02ada7cafb9e79c456d76c49e16480c40"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04d1923b5bf302d99892157b44e9311685bade4a",
+      "size": 861,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/04d1923b5bf302d99892157b44e9311685bade4a"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/extension_submission.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d3f15872ba0e686e6f95f90c966874122452137",
+      "size": 8545,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/9d3f15872ba0e686e6f95f90c966874122452137"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b5889288bcd18b847d25f8f6ba9a06f47f76fb9",
+      "size": 2905,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/3b5889288bcd18b847d25f8f6ba9a06f47f76fb9"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/preset_submission.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f80e9cbdc57a62191186350162c2ad4c79faaa63",
+      "size": 5753,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/f80e9cbdc57a62191186350162c2ad4c79faaa63"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68c4aeb2552f174e11b9535d6b906a7847938b9e",
+      "size": 706,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/68c4aeb2552f174e11b9535d6b906a7847938b9e"
+    },
+    {
+      "path": ".github/aw",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c62bd4164a06458f3206c12ce69dcf414a07acfc",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/c62bd4164a06458f3206c12ce69dcf414a07acfc"
+    },
+    {
+      "path": ".github/aw/actions-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61c18b8f5e35adf59c8aec8adf6d86742aacdcd7",
+      "size": 368,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/61c18b8f5e35adf59c8aec8adf6d86742aacdcd7"
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14a1756d97f25fcfb2118367a310a1cd8dc32adf",
+      "size": 313,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/14a1756d97f25fcfb2118367a310a1cd8dc32adf"
+    },
+    {
+      "path": ".github/skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1ba7aa4cd4e5c1677e6e16eec9fbddafbc22f4aa",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/1ba7aa4cd4e5c1677e6e16eec9fbddafbc22f4aa"
+    },
+    {
+      "path": ".github/skills/add-community-extension",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "232f93aac4844aa5082f1ee8f451ed2a20c9b42a",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/232f93aac4844aa5082f1ee8f451ed2a20c9b42a"
+    },
+    {
+      "path": ".github/skills/add-community-extension/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d56eaa9d0237c84988d13590ee134ad27b6abfa",
+      "size": 6365,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/4d56eaa9d0237c84988d13590ee134ad27b6abfa"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bd0d701166b58c8e246b87143c11638d96765c3f",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/bd0d701166b58c8e246b87143c11638d96765c3f"
+    },
+    {
+      "path": ".github/workflows/RELEASE-PROCESS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18fe40e858956d337e4b570c6a923e1422ba10ad",
+      "size": 6416,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/18fe40e858956d337e4b570c6a923e1422ba10ad"
+    },
+    {
+      "path": ".github/workflows/add-community-extension.lock.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f516e9573aa7d94b7a9361156396ea4f003295c5",
+      "size": 94703,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/f516e9573aa7d94b7a9361156396ea4f003295c5"
+    },
+    {
+      "path": ".github/workflows/add-community-extension.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "541f8bac9c230817592d258ea561485bdc8fdc7c",
+      "size": 8556,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/541f8bac9c230817592d258ea561485bdc8fdc7c"
+    },
+    {
+      "path": ".github/workflows/add-community-preset.lock.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b33b5ae19d425a8b38fc3867a13625e82b6dec67",
+      "size": 94580,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/b33b5ae19d425a8b38fc3867a13625e82b6dec67"
+    },
+    {
+      "path": ".github/workflows/add-community-preset.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba48d7b2efbdb474e4c7962a2a407a68454c5739",
+      "size": 7966,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/ba48d7b2efbdb474e4c7962a2a407a68454c5739"
+    },
+    {
+      "path": ".github/workflows/catalog-assign.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78b4f552f3d4e4a4842eeaa1d701fbdf8f351b18",
+      "size": 2079,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/78b4f552f3d4e4a4842eeaa1d701fbdf8f351b18"
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34c3f3dc8056f18e48320cf9e33cadee2b3cd9ae",
+      "size": 813,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/34c3f3dc8056f18e48320cf9e33cadee2b3cd9ae"
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "919eed52ef3426b10862bdba8c54f3473a97b384",
+      "size": 1945,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/919eed52ef3426b10862bdba8c54f3473a97b384"
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4b1bf7d5a60c526ffc96046dc770f76eed0058c",
+      "size": 1371,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/a4b1bf7d5a60c526ffc96046dc770f76eed0058c"
+    },
+    {
+      "path": ".github/workflows/release-trigger.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dffc2386f39da6411e2b78a045ad66f4951c5dea",
+      "size": 7067,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/dffc2386f39da6411e2b78a045ad66f4951c5dea"
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b35bc30ec263be5da2c3b71f7b672cdff079b518",
+      "size": 2815,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/b35bc30ec263be5da2c3b71f7b672cdff079b518"
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "667b942df9e00e60b13e4ce7c3507786d10a70f1",
+      "size": 1971,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/667b942df9e00e60b13e4ce7c3507786d10a70f1"
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e5d03ab48e5fc54942ada9f21c86018de926278",
+      "size": 1586,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/3e5d03ab48e5fc54942ada9f21c86018de926278"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1688c8299e7c78380097061f9167f946dbf11fbd",
+      "size": 504,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/1688c8299e7c78380097061f9167f946dbf11fbd"
+    },
+    {
+      "path": ".markdownlint-cli2.jsonc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0108b9f2346df9e062a70b3bc9a42ccbb0dcf0df",
+      "size": 481,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/0108b9f2346df9e062a70b3bc9a42ccbb0dcf0df"
+    },
+    {
+      "path": ".zenodo.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72f05694024f4c0b9e118203245ca2521aa543d5",
+      "size": 853,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/72f05694024f4c0b9e118203245ca2521aa543d5"
+    },
+    {
+      "path": "AGENTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f0c9912a8567451adb36eaf0585822ef2f40a60",
+      "size": 18969,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/4f0c9912a8567451adb36eaf0585822ef2f40a60"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5731432cb429ce7896642ce7e4fdf247b605bd0f",
+      "size": 56493,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/5731432cb429ce7896642ce7e4fdf247b605bd0f"
+    },
+    {
+      "path": "CITATION.cff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "926017a4903eee02cabfa75a84b1771d9b11fd78",
+      "size": 958,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/926017a4903eee02cabfa75a84b1771d9b11fd78"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a08311e675956fbea5e70fc211d66c1d677c7d16",
+      "size": 3233,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/a08311e675956fbea5e70fc211d66c1d677c7d16"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12b095f5fc170e26c9981877d146c0d66c779e72",
+      "size": 13093,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/12b095f5fc170e26c9981877d146c0d66c779e72"
+    },
+    {
+      "path": "DEVELOPMENT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "946e071e313573f6819f7f5fc9f0b4ef9b050bf8",
+      "size": 2492,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/946e071e313573f6819f7f5fc9f0b4ef9b050bf8"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0eb787a8f3b68a8995debb0ba58c827f83a5abe",
+      "size": 1061,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/a0eb787a8f3b68a8995debb0ba58c827f83a5abe"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "996a7f04d45ee1efecae338610e08ed61ebcd5ba",
+      "size": 33454,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/996a7f04d45ee1efecae338610e08ed61ebcd5ba"
+    },
+    {
+      "path": "SECURITY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c1e92da016dc6540883e879a81ce1d12eae1002",
+      "size": 1736,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/4c1e92da016dc6540883e879a81ce1d12eae1002"
+    },
+    {
+      "path": "SUPPORT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "308abae92bbb9f1f5e527299697f3fa5bba38514",
+      "size": 1001,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/308abae92bbb9f1f5e527299697f3fa5bba38514"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f89dc33d195267b0d26d95ecb2c72ac941dbf2ff",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/f89dc33d195267b0d26d95ecb2c72ac941dbf2ff"
+    },
+    {
+      "path": "docs/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68fec76e3710b552e990e38f4c69321f584944ac",
+      "size": 73,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/68fec76e3710b552e990e38f4c69321f584944ac"
+    },
+    {
+      "path": "docs/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9edc81dc9ea677ff7cf85350811e2c8c06864d6",
+      "size": 899,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/a9edc81dc9ea677ff7cf85350811e2c8c06864d6"
+    },
+    {
+      "path": "docs/community",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "175ebb27c1fb35cddea00352f5a28f658e6b656c",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/175ebb27c1fb35cddea00352f5a28f658e6b656c"
+    },
+    {
+      "path": "docs/community/extensions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d41db95c602871d14033266de31181ab61a2161",
+      "size": 26393,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/8d41db95c602871d14033266de31181ab61a2161"
+    },
+    {
+      "path": "docs/community/friends.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31c63186993e011eaf90e0ff6891aa7e19619774",
+      "size": 1778,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/31c63186993e011eaf90e0ff6891aa7e19619774"
+    },
+    {
+      "path": "docs/community/overview.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99804be3c327e7af3b6cafeae8f3023c291093dd",
+      "size": 1245,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/99804be3c327e7af3b6cafeae8f3023c291093dd"
+    },
+    {
+      "path": "docs/community/presets.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3eabc9970ea3d22702112c356216dc16dff39433",
+      "size": 8275,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/3eabc9970ea3d22702112c356216dc16dff39433"
+    },
+    {
+      "path": "docs/community/walkthroughs.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b32c0258034f0d3f537bf940a461cd11bab59aac",
+      "size": 3489,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/b32c0258034f0d3f537bf940a461cd11bab59aac"
+    },
+    {
+      "path": "docs/concepts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f6a1a56a6c232c6125e8fcadb81bcd247632f8ee",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/f6a1a56a6c232c6125e8fcadb81bcd247632f8ee"
+    },
+    {
+      "path": "docs/concepts/sdd.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f59feb51b42a03da1cab25896a55065028d3afa",
+      "size": 2457,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/7f59feb51b42a03da1cab25896a55065028d3afa"
+    },
+    {
+      "path": "docs/docfx.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62869e1d83eef2c8709a7c261287101e6405eeee",
+      "size": 1596,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/62869e1d83eef2c8709a7c261287101e6405eeee"
+    },
+    {
+      "path": "docs/index.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8b02d98cb35012fac7b2bfaea887a3223478aeb",
+      "size": 5350,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/c8b02d98cb35012fac7b2bfaea887a3223478aeb"
+    },
+    {
+      "path": "docs/install",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "764c0f5d2ca0ac890baae8442b73d6e875041a0b",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/764c0f5d2ca0ac890baae8442b73d6e875041a0b"
+    },
+    {
+      "path": "docs/install/air-gapped.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf2a46380e057226174fe7ae71a1f92ef94570a7",
+      "size": 2114,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/bf2a46380e057226174fe7ae71a1f92ef94570a7"
+    },
+    {
+      "path": "docs/install/one-time.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "134cb0b11dad7dd283e271f8b06358f9b7726666",
+      "size": 1325,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/134cb0b11dad7dd283e271f8b06358f9b7726666"
+    },
+    {
+      "path": "docs/install/pipx.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a25b164898baaa09a6cd0916ec6d643bee37416",
+      "size": 898,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/3a25b164898baaa09a6cd0916ec6d643bee37416"
+    },
+    {
+      "path": "docs/install/uv.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21e6d23bafca823e72f3c9a8b9fe9bdc9ab6633f",
+      "size": 1526,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/21e6d23bafca823e72f3c9a8b9fe9bdc9ab6633f"
+    },
+    {
+      "path": "docs/installation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99b37f0d9fbca3cfaa36a553c9db53947595f673",
+      "size": 4573,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/99b37f0d9fbca3cfaa36a553c9db53947595f673"
+    },
+    {
+      "path": "docs/local-development.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4776204d7d6a4ac6f7d773dc4a7da05c78912d0a",
+      "size": 5124,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/4776204d7d6a4ac6f7d773dc4a7da05c78912d0a"
+    },
+    {
+      "path": "docs/quickstart.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d278465d8d084f7607007289fc10e27f4a4eb24a",
+      "size": 9282,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/d278465d8d084f7607007289fc10e27f4a4eb24a"
+    },
+    {
+      "path": "docs/reference",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "22e745c842bc91846be60314d3236ce52adf9861",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/22e745c842bc91846be60314d3236ce52adf9861"
+    },
+    {
+      "path": "docs/reference/authentication.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e25bddff842c0b1ad7727370064ae8b05ca28636",
+      "size": 4906,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/e25bddff842c0b1ad7727370064ae8b05ca28636"
+    },
+    {
+      "path": "docs/reference/core.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70c711b1cca44fdd6514b079e1930d5d336f7663",
+      "size": 4354,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/70c711b1cca44fdd6514b079e1930d5d336f7663"
+    },
+    {
+      "path": "docs/reference/extensions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "923d0b9b82e6ba2c762c5382a4d7c70b16b203ef",
+      "size": 7108,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/923d0b9b82e6ba2c762c5382a4d7c70b16b203ef"
+    },
+    {
+      "path": "docs/reference/integrations.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2bd36f31f5ef9b6386578f4968a7758794c94be",
+      "size": 19374,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/f2bd36f31f5ef9b6386578f4968a7758794c94be"
+    },
+    {
+      "path": "docs/reference/overview.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10fcdc3bcaff49e56e4ddf0c12baa25fccab13cc",
+      "size": 1897,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/10fcdc3bcaff49e56e4ddf0c12baa25fccab13cc"
+    },
+    {
+      "path": "docs/reference/presets.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a613ffc007495f168f8d35f70d791c574c4650c",
+      "size": 8314,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/4a613ffc007495f168f8d35f70d791c574c4650c"
+    },
+    {
+      "path": "docs/reference/workflows.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e0c6f2e7751f55324f40c055f604c0e2b238a37",
+      "size": 10556,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/9e0c6f2e7751f55324f40c055f604c0e2b238a37"
+    },
+    {
+      "path": "docs/template",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ed0886d392db352d8e6bae8d8d5dccd2052a590b",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/ed0886d392db352d8e6bae8d8d5dccd2052a590b"
+    },
+    {
+      "path": "docs/template/public",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f59303d65c83800618a5770df872fcddc700d370",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/f59303d65c83800618a5770df872fcddc700d370"
+    },
+    {
+      "path": "docs/template/public/main.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52ce456064e8e67cdf608fc50d97366dc572a4bf",
+      "size": 6092,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/52ce456064e8e67cdf608fc50d97366dc572a4bf"
+    },
+    {
+      "path": "docs/toc.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce91339a1b0a02aecf420ffc67ff549b4fe16fe0",
+      "size": 1434,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/ce91339a1b0a02aecf420ffc67ff549b4fe16fe0"
+    },
+    {
+      "path": "docs/upgrade.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "820cc9eabf54e55ea64bf828c093a3383814eca4",
+      "size": 17933,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/820cc9eabf54e55ea64bf828c093a3383814eca4"
+    },
+    {
+      "path": "extensions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a58a11ec04f0636e5de9e032dc932f465620f65d",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/a58a11ec04f0636e5de9e032dc932f465620f65d"
+    },
+    {
+      "path": "extensions/EXTENSION-API-REFERENCE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce0ff1775c77bfd454850bb7c8ddcbf58f25dcb8",
+      "size": 19630,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/ce0ff1775c77bfd454850bb7c8ddcbf58f25dcb8"
+    },
+    {
+      "path": "extensions/EXTENSION-DEVELOPMENT-GUIDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f24e71f0ca86e86ce0e88bc5a950dcce9cc70a7",
+      "size": 17579,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/5f24e71f0ca86e86ce0e88bc5a950dcce9cc70a7"
+    },
+    {
+      "path": "extensions/EXTENSION-PUBLISHING-GUIDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be5b37524155245ec669c8677f14cbdd56348985",
+      "size": 11215,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/be5b37524155245ec669c8677f14cbdd56348985"
+    },
+    {
+      "path": "extensions/EXTENSION-USER-GUIDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3391dbc755216e7232e94062c8132a8ff746c0e",
+      "size": 26088,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/c3391dbc755216e7232e94062c8132a8ff746c0e"
+    },
+    {
+      "path": "extensions/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca39feedc404be5519cb12013abd6d53a4c36e71",
+      "size": 5902,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/ca39feedc404be5519cb12013abd6d53a4c36e71"
+    },
+    {
+      "path": "extensions/RFC-EXTENSION-SYSTEM.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd4c97e8a2755f26976c435d22b5bda1865f853a",
+      "size": 61454,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/dd4c97e8a2755f26976c435d22b5bda1865f853a"
+    },
+    {
+      "path": "extensions/agent-context",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a34208e73cc637dcc6d667febe509da454baaa3b",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/a34208e73cc637dcc6d667febe509da454baaa3b"
+    },
+    {
+      "path": "extensions/agent-context/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dba004eb80a40d66283e6c4442c5888221112b9b",
+      "size": 2675,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/dba004eb80a40d66283e6c4442c5888221112b9b"
+    },
+    {
+      "path": "extensions/agent-context/agent-context-config.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c8d308b274864d6aac42a4676db6c084fcb59aa",
+      "size": 630,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/8c8d308b274864d6aac42a4676db6c084fcb59aa"
+    },
+    {
+      "path": "extensions/agent-context/commands",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "82c23d6efc0f13e26cb741311c5bd6509a684f4f",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/82c23d6efc0f13e26cb741311c5bd6509a684f4f"
+    },
+    {
+      "path": "extensions/agent-context/commands/speckit.agent-context.update.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02f1706926a0704d737b868bb0b2982202742ddc",
+      "size": 1292,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/02f1706926a0704d737b868bb0b2982202742ddc"
+    },
+    {
+      "path": "extensions/agent-context/extension.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "191069e32c3effd9ed97de339f73762ff7a6459a",
+      "size": 932,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/191069e32c3effd9ed97de339f73762ff7a6459a"
+    },
+    {
+      "path": "extensions/agent-context/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3ecbb0ca8706a9026aedbbd23003fd0ef2a7e3fc",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/3ecbb0ca8706a9026aedbbd23003fd0ef2a7e3fc"
+    },
+    {
+      "path": "extensions/agent-context/scripts/bash",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cdf7b28b096a5022d7125c768d9c944f2f87f5e8",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/cdf7b28b096a5022d7125c768d9c944f2f87f5e8"
+    },
+    {
+      "path": "extensions/agent-context/scripts/bash/update-agent-context.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "42ce44df9af07f0c1177463c0911249f9c792c7b",
+      "size": 6599,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/42ce44df9af07f0c1177463c0911249f9c792c7b"
+    },
+    {
+      "path": "extensions/agent-context/scripts/powershell",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d4fea87b0814a4c5bc803171d01fee3508d97b30",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/d4fea87b0814a4c5bc803171d01fee3508d97b30"
+    },
+    {
+      "path": "extensions/agent-context/scripts/powershell/update-agent-context.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dad309c03a4f07d6990bd3dfc6e2633be391d4c4",
+      "size": 7706,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/dad309c03a4f07d6990bd3dfc6e2633be391d4c4"
+    },
+    {
+      "path": "extensions/bug",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "94044f1cbdc6008e01f7d276befaca1bc22679b6",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/94044f1cbdc6008e01f7d276befaca1bc22679b6"
+    },
+    {
+      "path": "extensions/bug/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df41757a30385798bfff07082c02407ba54d5a62",
+      "size": 3759,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/df41757a30385798bfff07082c02407ba54d5a62"
+    },
+    {
+      "path": "extensions/bug/commands",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8e6cdf981808b7016067654479a695ae3c636c24",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/8e6cdf981808b7016067654479a695ae3c636c24"
+    },
+    {
+      "path": "extensions/bug/commands/speckit.bug.assess.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d98b8cd0aa8309257bfaf103ec79ef5d85899ea6",
+      "size": 9695,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/d98b8cd0aa8309257bfaf103ec79ef5d85899ea6"
+    },
+    {
+      "path": "extensions/bug/commands/speckit.bug.fix.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adcf50605d294f9f6d31275a4e1310593c6eddf9",
+      "size": 5290,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/adcf50605d294f9f6d31275a4e1310593c6eddf9"
+    },
+    {
+      "path": "extensions/bug/commands/speckit.bug.test.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1d7387c14e2f5147bcd6dc898989113c7d2b352",
+      "size": 5518,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/c1d7387c14e2f5147bcd6dc898989113c7d2b352"
+    },
+    {
+      "path": "extensions/bug/extension.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91658cc228beda3e6312fc03236909a52e392f8c",
+      "size": 975,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/91658cc228beda3e6312fc03236909a52e392f8c"
+    },
+    {
+      "path": "extensions/catalog.community.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1af994065294d8aac0463c8bb7685ed247b0d1c9",
+      "size": 129112,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/1af994065294d8aac0463c8bb7685ed247b0d1c9"
+    },
+    {
+      "path": "extensions/catalog.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ab98edb8f7bb9b1a940cb6b3987e8da496c74f8",
+      "size": 1558,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/6ab98edb8f7bb9b1a940cb6b3987e8da496c74f8"
+    },
+    {
+      "path": "extensions/git",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bbb2c854634167d3681b02bd58516d7c5e46c5c8",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/bbb2c854634167d3681b02bd58516d7c5e46c5c8"
+    },
+    {
+      "path": "extensions/git/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31ba75c30f23e1af082a405c24260b75305582fe",
+      "size": 4341,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/31ba75c30f23e1af082a405c24260b75305582fe"
+    },
+    {
+      "path": "extensions/git/commands",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2e906c9fa69eefa376257a61a27c6464bc6e6c69",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/2e906c9fa69eefa376257a61a27c6464bc6e6c69"
+    },
+    {
+      "path": "extensions/git/commands/speckit.git.commit.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e606f911df9d85bd6adcb94ec282f4a70940d996",
+      "size": 1793,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/e606f911df9d85bd6adcb94ec282f4a70940d996"
+    },
+    {
+      "path": "extensions/git/commands/speckit.git.feature.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bed9e5e57be5694dab3f5de8eee9c0081136f7f",
+      "size": 3279,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/5bed9e5e57be5694dab3f5de8eee9c0081136f7f"
+    },
+    {
+      "path": "extensions/git/commands/speckit.git.initialize.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93962c24e49806a60703d83122f5a152d885908c",
+      "size": 1570,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/93962c24e49806a60703d83122f5a152d885908c"
+    },
+    {
+      "path": "extensions/git/commands/speckit.git.remote.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "712a3e8b8c7853a3360814e6465f58575ac9a28c",
+      "size": 1396,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/712a3e8b8c7853a3360814e6465f58575ac9a28c"
+    },
+    {
+      "path": "extensions/git/commands/speckit.git.validate.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd84618cb81bc0b1e1d8f7b034855965a4f7228d",
+      "size": 1780,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/dd84618cb81bc0b1e1d8f7b034855965a4f7228d"
+    },
+    {
+      "path": "extensions/git/config-template.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c414babe65d0045d7afc817582cd142c3e925bc",
+      "size": 1987,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/8c414babe65d0045d7afc817582cd142c3e925bc"
+    },
+    {
+      "path": "extensions/git/extension.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13c1977ea173a6b6dcf0aa4cea649a6ae75508d5",
+      "size": 4571,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/13c1977ea173a6b6dcf0aa4cea649a6ae75508d5"
+    },
+    {
+      "path": "extensions/git/git-config.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c414babe65d0045d7afc817582cd142c3e925bc",
+      "size": 1987,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/8c414babe65d0045d7afc817582cd142c3e925bc"
+    },
+    {
+      "path": "extensions/git/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "df7fdc73b1be5adaaca15bb7bc9235fe48ce1c8e",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/df7fdc73b1be5adaaca15bb7bc9235fe48ce1c8e"
+    },
+    {
+      "path": "extensions/git/scripts/bash",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "039c2e2656d42c593e38e7530ca98e6f012be03d",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/039c2e2656d42c593e38e7530ca98e6f012be03d"
+    },
+    {
+      "path": "extensions/git/scripts/bash/auto-commit.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f0b423187b6ec5f46a03faddb08f183c84ec6413",
+      "size": 4872,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/f0b423187b6ec5f46a03faddb08f183c84ec6413"
+    },
+    {
+      "path": "extensions/git/scripts/bash/create-new-feature.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f7aa31610e35e4a721514970c575cf8a13e8ba3e",
+      "size": 16869,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/f7aa31610e35e4a721514970c575cf8a13e8ba3e"
+    },
+    {
+      "path": "extensions/git/scripts/bash/git-common.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b78356d1c6914121921325d0f69031193604a817",
+      "size": 2216,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/b78356d1c6914121921325d0f69031193604a817"
+    },
+    {
+      "path": "extensions/git/scripts/bash/initialize-repo.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "296e363b94d0732f52ab65f84f7412daa9cf8c12",
+      "size": 1823,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/296e363b94d0732f52ab65f84f7412daa9cf8c12"
+    },
+    {
+      "path": "extensions/git/scripts/powershell",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3af5ecc591fe2459e1dc8727d182dbe4c420789b",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/3af5ecc591fe2459e1dc8727d182dbe4c420789b"
+    },
+    {
+      "path": "extensions/git/scripts/powershell/auto-commit.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34767f8a36a2b322c3faa4191135de7bc067023f",
+      "size": 5370,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/34767f8a36a2b322c3faa4191135de7bc067023f"
+    },
+    {
+      "path": "extensions/git/scripts/powershell/create-new-feature.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b579f051608e02cabc45f9bc4b00e3314de2f8bf",
+      "size": 14649,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/b579f051608e02cabc45f9bc4b00e3314de2f8bf"
+    },
+    {
+      "path": "extensions/git/scripts/powershell/git-common.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13ea7542c4df8e5300adbc787265a98f5bcdcb31",
+      "size": 1913,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/13ea7542c4df8e5300adbc787265a98f5bcdcb31"
+    },
+    {
+      "path": "extensions/git/scripts/powershell/initialize-repo.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd835f8fe3d1ee8f78cca5e896b2661015bf3cb7",
+      "size": 2199,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/fd835f8fe3d1ee8f78cca5e896b2661015bf3cb7"
+    },
+    {
+      "path": "extensions/selftest",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "79746a35abde3d9dc44564578a3f2c944c6b64a1",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/79746a35abde3d9dc44564578a3f2c944c6b64a1"
+    },
+    {
+      "path": "extensions/selftest/commands",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8d5787176ed92ffd42a396185a512ce8a6ecce38",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/8d5787176ed92ffd42a396185a512ce8a6ecce38"
+    },
+    {
+      "path": "extensions/selftest/commands/selftest.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f5655edd5dfc510857107bd065f877faec8465c",
+      "size": 2565,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/6f5655edd5dfc510857107bd065f877faec8465c"
+    },
+    {
+      "path": "extensions/selftest/extension.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d47fdf2cfd298d21428de0369e5f17fbfed685b",
+      "size": 533,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/2d47fdf2cfd298d21428de0369e5f17fbfed685b"
+    },
+    {
+      "path": "extensions/template",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8ec479b115f52418d7ddb1920b438577514603d6",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/8ec479b115f52418d7ddb1920b438577514603d6"
+    },
+    {
+      "path": "extensions/template/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f7b132a7678e6d60cf4f4e79a3fbd1db95640a0",
+      "size": 320,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/1f7b132a7678e6d60cf4f4e79a3fbd1db95640a0"
+    },
+    {
+      "path": "extensions/template/CHANGELOG.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f2ac13a5a93f4970e58202571802ca74a02c444",
+      "size": 888,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/2f2ac13a5a93f4970e58202571802ca74a02c444"
+    },
+    {
+      "path": "extensions/template/EXAMPLE-README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "485285ae655b4d472684e19908cb1433d14cd5dd",
+      "size": 3144,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/485285ae655b4d472684e19908cb1433d14cd5dd"
+    },
+    {
+      "path": "extensions/template/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cb3215e44c66d4ee443e9b4394b630db69e910f",
+      "size": 1084,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/8cb3215e44c66d4ee443e9b4394b630db69e910f"
+    },
+    {
+      "path": "extensions/template/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f88d9ce40fbb8b267cfec2efcaa05ad44d5ada3",
+      "size": 2067,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/1f88d9ce40fbb8b267cfec2efcaa05ad44d5ada3"
+    },
+    {
+      "path": "extensions/template/commands",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "62e2d4f8651f8bf1a94436cef9839d84bbba900a",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/62e2d4f8651f8bf1a94436cef9839d84bbba900a"
+    },
+    {
+      "path": "extensions/template/commands/example.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9507120fc7c4fa1c2edb144b78e59a7fea9b80e0",
+      "size": 4444,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/9507120fc7c4fa1c2edb144b78e59a7fea9b80e0"
+    },
+    {
+      "path": "extensions/template/config-template.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74725373d74420064ae8cd79e1665ab05792633e",
+      "size": 1872,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/74725373d74420064ae8cd79e1665ab05792633e"
+    },
+    {
+      "path": "extensions/template/extension.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abf7e45afc8c6102699a9cdb1f3a623cd7528188",
+      "size": 3041,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/abf7e45afc8c6102699a9cdb1f3a623cd7528188"
+    },
+    {
+      "path": "integrations",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "23677f5446efb03827ddde0650afb0b14cca53d6",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/23677f5446efb03827ddde0650afb0b14cca53d6"
+    },
+    {
+      "path": "integrations/CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77a50d4d983ed39927b83e05eee57f9764282ab5",
+      "size": 4741,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/77a50d4d983ed39927b83e05eee57f9764282ab5"
+    },
+    {
+      "path": "integrations/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b755e0416dbf0746e4084f08668841c66ffbb8b7",
+      "size": 3620,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/b755e0416dbf0746e4084f08668841c66ffbb8b7"
+    },
+    {
+      "path": "integrations/catalog.community.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47eb6d550dc87b919f9ec1dab242c87d8d040cb8",
+      "size": 203,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/47eb6d550dc87b919f9ec1dab242c87d8d040cb8"
+    },
+    {
+      "path": "integrations/catalog.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33c6ddd931c6a1039b6676a1065bfd712a2001d4",
+      "size": 9350,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/33c6ddd931c6a1039b6676a1065bfd712a2001d4"
+    },
+    {
+      "path": "media",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8df48ae0afdb2b48125bb647cbc1f4512a93b0ac",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/8df48ae0afdb2b48125bb647cbc1f4512a93b0ac"
+    },
+    {
+      "path": "media/bootstrap-claude-code.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba3a7e98ac836779e70e1a5f3b046de93bdfe949",
+      "size": 309279,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/ba3a7e98ac836779e70e1a5f3b046de93bdfe949"
+    },
+    {
+      "path": "media/logo_large.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "209e3deeff1776f4b66ca7edf850fb24025afd13",
+      "size": 46884,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/209e3deeff1776f4b66ca7edf850fb24025afd13"
+    },
+    {
+      "path": "media/logo_small.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95b5efc30d6f192416d029f564c4b780521ad9b7",
+      "size": 6144,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/95b5efc30d6f192416d029f564c4b780521ad9b7"
+    },
+    {
+      "path": "media/spec-kit-video-header.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "783eee9cd242bc19ab61b5b6a02be3d12ba8bbe8",
+      "size": 104337,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/783eee9cd242bc19ab61b5b6a02be3d12ba8bbe8"
+    },
+    {
+      "path": "media/specify_cli.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70aae2d64609ffc3c1729100ad7060b3458da637",
+      "size": 1786474,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/70aae2d64609ffc3c1729100ad7060b3458da637"
+    },
+    {
+      "path": "newsletters",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ed62bb538c07c7c4cfbf1e1212aa38e74021d961",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/ed62bb538c07c7c4cfbf1e1212aa38e74021d961"
+    },
+    {
+      "path": "newsletters/2026-April.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "913dedaf2356d9ab141837e0da627fa078094b92",
+      "size": 24032,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/913dedaf2356d9ab141837e0da627fa078094b92"
+    },
+    {
+      "path": "newsletters/2026-February.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18a112a7f5ed215435090924de43cc599e59b708",
+      "size": 11584,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/18a112a7f5ed215435090924de43cc599e59b708"
+    },
+    {
+      "path": "newsletters/2026-March.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d97ca3960faf56b0f1ae37307870b3f6d6cc1307",
+      "size": 13209,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/d97ca3960faf56b0f1ae37307870b3f6d6cc1307"
+    },
+    {
+      "path": "newsletters/2026-May.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e3e44f07c10604ea1cd56b0bf5e42169894e53d",
+      "size": 21460,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/6e3e44f07c10604ea1cd56b0bf5e42169894e53d"
+    },
+    {
+      "path": "presets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c8ef337ac5d08940466cbf7fcf0a26cb39b5d0ff",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/c8ef337ac5d08940466cbf7fcf0a26cb39b5d0ff"
+    },
+    {
+      "path": "presets/ARCHITECTURE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a119cbd5fb215bf06e8332f6fcb7b05ddd49432",
+      "size": 8400,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/3a119cbd5fb215bf06e8332f6fcb7b05ddd49432"
+    },
+    {
+      "path": "presets/PUBLISHING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "661614e5c00bf8418016f878eff53f2bbaebe16e",
+      "size": 8861,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/661614e5c00bf8418016f878eff53f2bbaebe16e"
+    },
+    {
+      "path": "presets/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29cce642480038642a9ca4e46efb7ce4787baa81",
+      "size": 7261,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/29cce642480038642a9ca4e46efb7ce4787baa81"
+    },
+    {
+      "path": "presets/catalog.community.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c6ed46273bc0981f3028605f7fc7cc2c299da96",
+      "size": 24419,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/5c6ed46273bc0981f3028605f7fc7cc2c299da96"
+    },
+    {
+      "path": "presets/catalog.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f272617926e2baee9a08a422872100607e9bae13",
+      "size": 741,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/f272617926e2baee9a08a422872100607e9bae13"
+    },
+    {
+      "path": "presets/lean",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a5781f0df498cf986c25a0b3206782f785352540",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/a5781f0df498cf986c25a0b3206782f785352540"
+    },
+    {
+      "path": "presets/lean/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab17257f96091590d2289699aaf2b114cc05bbbe",
+      "size": 1441,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/ab17257f96091590d2289699aaf2b114cc05bbbe"
+    },
+    {
+      "path": "presets/lean/commands",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd3035ed16e027858131b7be68723caa1f5e94c3",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/fd3035ed16e027858131b7be68723caa1f5e94c3"
+    },
+    {
+      "path": "presets/lean/commands/speckit.constitution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "920337003e91150ef2d579c035aa64a45ab64b76",
+      "size": 341,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/920337003e91150ef2d579c035aa64a45ab64b76"
+    },
+    {
+      "path": "presets/lean/commands/speckit.implement.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc68a1f8b17798d813524c8c89dfcba237f17578",
+      "size": 674,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/fc68a1f8b17798d813524c8c89dfcba237f17578"
+    },
+    {
+      "path": "presets/lean/commands/speckit.plan.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fbbe4c3713203a363169b9ca4d7f0dedbd0d1e0",
+      "size": 471,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/9fbbe4c3713203a363169b9ca4d7f0dedbd0d1e0"
+    },
+    {
+      "path": "presets/lean/commands/speckit.specify.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c15353557aa941b18e811c15aef605c41ff64133",
+      "size": 618,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/c15353557aa941b18e811c15aef605c41ff64133"
+    },
+    {
+      "path": "presets/lean/commands/speckit.tasks.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "724a7b840074b8e34cf107f2ca37d211745d15be",
+      "size": 605,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/724a7b840074b8e34cf107f2ca37d211745d15be"
+    },
+    {
+      "path": "presets/lean/preset.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "973b3b7318d31c78b13901bc623b24accae80240",
+      "size": 1385,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/973b3b7318d31c78b13901bc623b24accae80240"
+    },
+    {
+      "path": "presets/scaffold",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ad15267e044faded843836ede8330e6e8dc1e567",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/ad15267e044faded843836ede8330e6e8dc1e567"
+    },
+    {
+      "path": "presets/scaffold/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b30a1ab6ac24d7576b1f0d1c5b8c1c510082ead1",
+      "size": 1750,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/b30a1ab6ac24d7576b1f0d1c5b8c1c510082ead1"
+    },
+    {
+      "path": "presets/scaffold/commands",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "760507cef081123402d109acb92d71b6d8b6fb74",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/760507cef081123402d109acb92d71b6d8b6fb74"
+    },
+    {
+      "path": "presets/scaffold/commands/speckit.myext.myextcmd.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5adef240b60d67db6f64f544a0d5b7c81cf91b98",
+      "size": 753,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/5adef240b60d67db6f64f544a0d5b7c81cf91b98"
+    },
+    {
+      "path": "presets/scaffold/commands/speckit.specify.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7926cc138c7d5a0851004b324b5e848ad464ea7f",
+      "size": 707,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/7926cc138c7d5a0851004b324b5e848ad464ea7f"
+    },
+    {
+      "path": "presets/scaffold/preset.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65111ba9f3891fe0411f6a0942cee61866906d4b",
+      "size": 4480,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/65111ba9f3891fe0411f6a0942cee61866906d4b"
+    },
+    {
+      "path": "presets/scaffold/templates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d9edfa4d40a4a6b4da36d8b21912b342fbad90fb",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/d9edfa4d40a4a6b4da36d8b21912b342fbad90fb"
+    },
+    {
+      "path": "presets/scaffold/templates/myext-template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b4f5a3fe0a1a140ff1321552d9b57f645146b0a",
+      "size": 422,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/2b4f5a3fe0a1a140ff1321552d9b57f645146b0a"
+    },
+    {
+      "path": "presets/scaffold/templates/spec-template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "432bca3ccf27c4e4c1ac9f56464f7b5d6802a485",
+      "size": 247,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/432bca3ccf27c4e4c1ac9f56464f7b5d6802a485"
+    },
+    {
+      "path": "presets/self-test",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "db66526bf30bd69ac69a70aef2bc78e935642637",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/db66526bf30bd69ac69a70aef2bc78e935642637"
+    },
+    {
+      "path": "presets/self-test/commands",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2ccfc5ba2d7d148cc6195456b4e19cb31b195201",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/2ccfc5ba2d7d148cc6195456b4e19cb31b195201"
+    },
+    {
+      "path": "presets/self-test/commands/speckit.specify.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5e2c74889d161554b4985caf4c3d2c4aa2d5bbf",
+      "size": 439,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/d5e2c74889d161554b4985caf4c3d2c4aa2d5bbf"
+    },
+    {
+      "path": "presets/self-test/commands/speckit.wrap-test.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78ace30ea889649a9835395fefe64f0fea755237",
+      "size": 201,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/78ace30ea889649a9835395fefe64f0fea755237"
+    },
+    {
+      "path": "presets/self-test/preset.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e718430aa13c2c81e515f8d5d69ba7cf4129e32",
+      "size": 1807,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/8e718430aa13c2c81e515f8d5d69ba7cf4129e32"
+    },
+    {
+      "path": "presets/self-test/templates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d76e1c818bf7d3b94fb1b1fb236902de34418f0c",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/d76e1c818bf7d3b94fb1b1fb236902de34418f0c"
+    },
+    {
+      "path": "presets/self-test/templates/agent-file-template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b9267badec66eb3d888717b7d67bf6c7d247210",
+      "size": 191,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/7b9267badec66eb3d888717b7d67bf6c7d247210"
+    },
+    {
+      "path": "presets/self-test/templates/checklist-template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c761eb02989a9221cc096b541d5b8d6f8c74763c",
+      "size": 249,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/c761eb02989a9221cc096b541d5b8d6f8c74763c"
+    },
+    {
+      "path": "presets/self-test/templates/constitution-template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c53211fb0d976fad6fc2a399ad7d3dada20afc5",
+      "size": 205,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/0c53211fb0d976fad6fc2a399ad7d3dada20afc5"
+    },
+    {
+      "path": "presets/self-test/templates/plan-template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cdaa0a41e4554c3deae0ad31e83665e5344b6a9",
+      "size": 258,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/5cdaa0a41e4554c3deae0ad31e83665e5344b6a9"
+    },
+    {
+      "path": "presets/self-test/templates/spec-template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a54956f1668284d6d53901b0170d6cf4cb01312a",
+      "size": 325,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/a54956f1668284d6d53901b0170d6cf4cb01312a"
+    },
+    {
+      "path": "presets/self-test/templates/tasks-template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80fa4c5fabea853bc7128195346e1727a35cc15f",
+      "size": 239,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/80fa4c5fabea853bc7128195346e1727a35cc15f"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b7cdc5bc1b1d05577226d299b814eddb8b715e2",
+      "size": 2524,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/2b7cdc5bc1b1d05577226d299b814eddb8b715e2"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "93c5a041586b5d0cbbf92439600c51eb85459e75",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/93c5a041586b5d0cbbf92439600c51eb85459e75"
+    },
+    {
+      "path": "scripts/bash",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c3e96c836613c5d6d564ee77980f03648c397493",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/c3e96c836613c5d6d564ee77980f03648c397493"
+    },
+    {
+      "path": "scripts/bash/check-prerequisites.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95e7344d8050eb0fa9ec23813975b7b9c7185ac3",
+      "size": 6231,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/95e7344d8050eb0fa9ec23813975b7b9c7185ac3"
+    },
+    {
+      "path": "scripts/bash/common.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d7dd21edfb25f8273e418fc3c9ad09fc742f6ea",
+      "size": 28562,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/9d7dd21edfb25f8273e418fc3c9ad09fc742f6ea"
+    },
+    {
+      "path": "scripts/bash/create-new-feature.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3537704f6e432d3bbdedec4d55c529055a6df13",
+      "size": 15915,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/c3537704f6e432d3bbdedec4d55c529055a6df13"
+    },
+    {
+      "path": "scripts/bash/setup-plan.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "945385c6433736388e122f3f336c1a461f4c50cd",
+      "size": 2854,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/945385c6433736388e122f3f336c1a461f4c50cd"
+    },
+    {
+      "path": "scripts/bash/setup-tasks.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73bc095b482b1361d0ada549c791eb4be3fb1f46",
+      "size": 3516,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/73bc095b482b1361d0ada549c791eb4be3fb1f46"
+    },
+    {
+      "path": "scripts/powershell",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b8b7849fe7253d0508d3e7a5430434de2dc1deac",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/b8b7849fe7253d0508d3e7a5430434de2dc1deac"
+    },
+    {
+      "path": "scripts/powershell/check-prerequisites.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcf3aa46c4494f42f7f8fad3133ab0106ce5b5de",
+      "size": 5055,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/bcf3aa46c4494f42f7f8fad3133ab0106ce5b5de"
+    },
+    {
+      "path": "scripts/powershell/common.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42ffdf13903aaaffc2ba1abe0fa29ac2a28ff051",
+      "size": 26697,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/42ffdf13903aaaffc2ba1abe0fa29ac2a28ff051"
+    },
+    {
+      "path": "scripts/powershell/create-new-feature.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19cd1b02c0ff0e1bfe30b6d654ae6313d2cc97c7",
+      "size": 14913,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/19cd1b02c0ff0e1bfe30b6d654ae6313d2cc97c7"
+    },
+    {
+      "path": "scripts/powershell/setup-plan.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9eecdf75c70948e764880c84f85710877dc6dfa",
+      "size": 2511,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/d9eecdf75c70948e764880c84f85710877dc6dfa"
+    },
+    {
+      "path": "scripts/powershell/setup-tasks.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41de629685849b36819c7939d3b7dfa94d85e6ff",
+      "size": 3363,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/41de629685849b36819c7939d3b7dfa94d85e6ff"
+    },
+    {
+      "path": "spec-driven.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "090071a3c4012d7a7d0efd3ae0f7647b2c45e8b0",
+      "size": 25373,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/090071a3c4012d7a7d0efd3ae0f7647b2c45e8b0"
+    },
+    {
+      "path": "spec-kit.code-workspace",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "876a1499c09dc083612f43c53c0ae71b9c30c5b1",
+      "size": 60,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/876a1499c09dc083612f43c53c0ae71b9c30c5b1"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4323b3c5a89cf6ca1b36b1129ff4e45ed26e1597",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/4323b3c5a89cf6ca1b36b1129ff4e45ed26e1597"
+    },
+    {
+      "path": "src/specify_cli",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "51134fe5cadafe66a2f385fe9c4d0dc59e7999ce",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/51134fe5cadafe66a2f385fe9c4d0dc59e7999ce"
+    },
+    {
+      "path": "src/specify_cli/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23d31cb0cf8c6f7600a0f2cb183c577e1d59daa1",
+      "size": 143573,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/23d31cb0cf8c6f7600a0f2cb183c577e1d59daa1"
+    },
+    {
+      "path": "src/specify_cli/_agent_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e3a9e6890166e5081155afbb5f30e016fb5bc73",
+      "size": 640,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/6e3a9e6890166e5081155afbb5f30e016fb5bc73"
+    },
+    {
+      "path": "src/specify_cli/_assets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31fb9708e6d6faead0d2e183cafb2502c2abff33",
+      "size": 4055,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/31fb9708e6d6faead0d2e183cafb2502c2abff33"
+    },
+    {
+      "path": "src/specify_cli/_console.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85229e4c5c6e39525db1a75eb1c3d7e3fa00f0bb",
+      "size": 8868,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/85229e4c5c6e39525db1a75eb1c3d7e3fa00f0bb"
+    },
+    {
+      "path": "src/specify_cli/_github_http.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f6abc40f0d3259c739718694c477545d5d4e6ea",
+      "size": 6538,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/8f6abc40f0d3259c739718694c477545d5d4e6ea"
+    },
+    {
+      "path": "src/specify_cli/_init_options.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6acf4a000bd904329711c96f81dfeb461152b9b5",
+      "size": 1217,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/6acf4a000bd904329711c96f81dfeb461152b9b5"
+    },
+    {
+      "path": "src/specify_cli/_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "beae25359313604753b8c2eec6a0a98a87cab803",
+      "size": 11256,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/beae25359313604753b8c2eec6a0a98a87cab803"
+    },
+    {
+      "path": "src/specify_cli/_version.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e634a4f2869e1e7c2d4477c96693a329d5dba1f5",
+      "size": 53290,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/e634a4f2869e1e7c2d4477c96693a329d5dba1f5"
+    },
+    {
+      "path": "src/specify_cli/agents.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c064180146ba0972370bb1fbfa1ca67e8843aad",
+      "size": 43011,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/3c064180146ba0972370bb1fbfa1ca67e8843aad"
+    },
+    {
+      "path": "src/specify_cli/authentication",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1e3e336b191a4a148ab4e5e00a714889579b8b98",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/1e3e336b191a4a148ab4e5e00a714889579b8b98"
+    },
+    {
+      "path": "src/specify_cli/authentication/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4963af76b73562ff658d31d046fc9517877d24d",
+      "size": 1529,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/b4963af76b73562ff658d31d046fc9517877d24d"
+    },
+    {
+      "path": "src/specify_cli/authentication/azure_devops.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d71a1957bc99ea7b5b35d59b7e71fc322c043f6",
+      "size": 4259,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/5d71a1957bc99ea7b5b35d59b7e71fc322c043f6"
+    },
+    {
+      "path": "src/specify_cli/authentication/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6e0f4b1185bcd2ec8658e68a288fd22ffecd550",
+      "size": 1806,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/d6e0f4b1185bcd2ec8658e68a288fd22ffecd550"
+    },
+    {
+      "path": "src/specify_cli/authentication/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "968cadc466ccdce9463088f1c084a5efd5c83b8b",
+      "size": 7873,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/968cadc466ccdce9463088f1c084a5efd5c83b8b"
+    },
+    {
+      "path": "src/specify_cli/authentication/github.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3797d829263fd1ddef9adc61da4bb1bd03155a12",
+      "size": 718,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/3797d829263fd1ddef9adc61da4bb1bd03155a12"
+    },
+    {
+      "path": "src/specify_cli/authentication/http.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6402e5c3e4774ae330cac6a11f1f3cd1c5ed93e",
+      "size": 5845,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/d6402e5c3e4774ae330cac6a11f1f3cd1c5ed93e"
+    },
+    {
+      "path": "src/specify_cli/catalogs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bd3b2dc06d9b0aa0c40497099757c852393f602",
+      "size": 6632,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/8bd3b2dc06d9b0aa0c40497099757c852393f602"
+    },
+    {
+      "path": "src/specify_cli/commands",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "48551fa9a37093afd722d1231529973380720d4d",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/48551fa9a37093afd722d1231529973380720d4d"
+    },
+    {
+      "path": "src/specify_cli/commands/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69ea28b9a6aec808ddd31c825c2b70f3f4f4bd19",
+      "size": 275,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/69ea28b9a6aec808ddd31c825c2b70f3f4f4bd19"
+    },
+    {
+      "path": "src/specify_cli/commands/init.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68f5bed31f0caad16f5ed474020c1df05d359e06",
+      "size": 36090,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/68f5bed31f0caad16f5ed474020c1df05d359e06"
+    },
+    {
+      "path": "src/specify_cli/extensions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bddf637cbc04e2bddc22a8cdcc8ae9c9ab3c8396",
+      "size": 121365,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/bddf637cbc04e2bddc22a8cdcc8ae9c9ab3c8396"
+    },
+    {
+      "path": "src/specify_cli/integration_runtime.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a36dcc672ca5f5883e4b543f42271e22a5f26fa6",
+      "size": 2785,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/a36dcc672ca5f5883e4b543f42271e22a5f26fa6"
+    },
+    {
+      "path": "src/specify_cli/integration_state.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b1832435182bb228cdc7e8c89f6303b63600312",
+      "size": 8300,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/2b1832435182bb228cdc7e8c89f6303b63600312"
+    },
+    {
+      "path": "src/specify_cli/integrations",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8ab7e5d3264970bc02129d54e90554538e6716a5",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/8ab7e5d3264970bc02129d54e90554538e6716a5"
+    },
+    {
+      "path": "src/specify_cli/integrations/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eae306575983adb3f109865bea73d2392b5aaa7e",
+      "size": 4288,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/eae306575983adb3f109865bea73d2392b5aaa7e"
+    },
+    {
+      "path": "src/specify_cli/integrations/_commands.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26dbcb0417cf9088c088d01abd7cc577428fff01",
+      "size": 1049,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/26dbcb0417cf9088c088d01abd7cc577428fff01"
+    },
+    {
+      "path": "src/specify_cli/integrations/_helpers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a95f36563a0ff26957e665d20ee6976c7fe2c933",
+      "size": 15530,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/a95f36563a0ff26957e665d20ee6976c7fe2c933"
+    },
+    {
+      "path": "src/specify_cli/integrations/_install_commands.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66fd2b2d268007f77e40f5eb821dbe42341b6dd2",
+      "size": 12818,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/66fd2b2d268007f77e40f5eb821dbe42341b6dd2"
+    },
+    {
+      "path": "src/specify_cli/integrations/_migrate_commands.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01cb51d6876b30642d74c5d3ae9a92cc1b972189",
+      "size": 21598,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/01cb51d6876b30642d74c5d3ae9a92cc1b972189"
+    },
+    {
+      "path": "src/specify_cli/integrations/_query_commands.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2227654790e174307cb3ef2d32499ef3568482b",
+      "size": 18829,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/b2227654790e174307cb3ef2d32499ef3568482b"
+    },
+    {
+      "path": "src/specify_cli/integrations/agy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "34e9d984a9e7d57ed349f2bfb59b837cf752a21c",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/34e9d984a9e7d57ed349f2bfb59b837cf752a21c"
+    },
+    {
+      "path": "src/specify_cli/integrations/agy/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ed69e1e0ea048e94fbe306e55eaae97769b6c3b",
+      "size": 4169,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/6ed69e1e0ea048e94fbe306e55eaae97769b6c3b"
+    },
+    {
+      "path": "src/specify_cli/integrations/amp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6175ececbf5508a6689938c5d97074b37cf20744",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/6175ececbf5508a6689938c5d97074b37cf20744"
+    },
+    {
+      "path": "src/specify_cli/integrations/amp/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39df0a9bbfbe1899e88c760e560b04235a7e9eb2",
+      "size": 517,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/39df0a9bbfbe1899e88c760e560b04235a7e9eb2"
+    },
+    {
+      "path": "src/specify_cli/integrations/auggie",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "831197e2d76488b4c0a903c51973543b32d83935",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/831197e2d76488b4c0a903c51973543b32d83935"
+    },
+    {
+      "path": "src/specify_cli/integrations/auggie/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08e20fbc254b6daf51c2b75ed0a31398d8665e29",
+      "size": 617,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/08e20fbc254b6daf51c2b75ed0a31398d8665e29"
+    },
+    {
+      "path": "src/specify_cli/integrations/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "def5ad20ba02cf5c56f796eeb45ff85a4543c725",
+      "size": 66553,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/def5ad20ba02cf5c56f796eeb45ff85a4543c725"
+    },
+    {
+      "path": "src/specify_cli/integrations/bob",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4d741b1d9a519d914b2b13d76e10d13d2997a1a0",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/4d741b1d9a519d914b2b13d76e10d13d2997a1a0"
+    },
+    {
+      "path": "src/specify_cli/integrations/bob/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78f2df0379a2a548cb59fd20aaa42ca73a8fb127",
+      "size": 484,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/78f2df0379a2a548cb59fd20aaa42ca73a8fb127"
+    },
+    {
+      "path": "src/specify_cli/integrations/catalog.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aba5877d8f2ccf0e3ab793afee17d0ab360d4d54",
+      "size": 32937,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/aba5877d8f2ccf0e3ab793afee17d0ab360d4d54"
+    },
+    {
+      "path": "src/specify_cli/integrations/claude",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a19ea670a825c11aa8f50eccbad4f19f955a0811",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/a19ea670a825c11aa8f50eccbad4f19f955a0811"
+    },
+    {
+      "path": "src/specify_cli/integrations/claude/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57ecb354ade785777cb299990057138cffc79ef2",
+      "size": 7283,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/57ecb354ade785777cb299990057138cffc79ef2"
+    },
+    {
+      "path": "src/specify_cli/integrations/cline",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ecfb63d7971adb805382293ead5180fbf7bb2558",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/ecfb63d7971adb805382293ead5180fbf7bb2558"
+    },
+    {
+      "path": "src/specify_cli/integrations/cline/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c269a16042f83a1a2370832b6392a0a7f6790371",
+      "size": 5380,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/c269a16042f83a1a2370832b6392a0a7f6790371"
+    },
+    {
+      "path": "src/specify_cli/integrations/codebuddy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "04ff20905e6bc0cf7a047c1369401cbf38d01121",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/04ff20905e6bc0cf7a047c1369401cbf38d01121"
+    },
+    {
+      "path": "src/specify_cli/integrations/codebuddy/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "980ac7fed71686941285497056fe59338fbf5984",
+      "size": 574,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/980ac7fed71686941285497056fe59338fbf5984"
+    },
+    {
+      "path": "src/specify_cli/integrations/codex",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3b7767abafdedaba591bd593636f27d654fb8337",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/3b7767abafdedaba591bd593636f27d654fb8337"
+    },
+    {
+      "path": "src/specify_cli/integrations/codex/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f7dbc601f40fb08893bd20422d3176fe9189454",
+      "size": 1746,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/1f7dbc601f40fb08893bd20422d3176fe9189454"
+    },
+    {
+      "path": "src/specify_cli/integrations/copilot",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "737f66acb227fee06bc0b0038291a3a3b63c2250",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/737f66acb227fee06bc0b0038291a3a3b63c2250"
+    },
+    {
+      "path": "src/specify_cli/integrations/copilot/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e3daeefeb845e796435ad2b7142b7e0b307908f",
+      "size": 17857,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/6e3daeefeb845e796435ad2b7142b7e0b307908f"
+    },
+    {
+      "path": "src/specify_cli/integrations/cursor_agent",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6b139890cb0d340fa41b4614f093793c42ba66a7",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/6b139890cb0d340fa41b4614f093793c42ba66a7"
+    },
+    {
+      "path": "src/specify_cli/integrations/cursor_agent/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b83ee42e5483d6daff40dcf028cb235262e3d5a7",
+      "size": 3859,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/b83ee42e5483d6daff40dcf028cb235262e3d5a7"
+    },
+    {
+      "path": "src/specify_cli/integrations/devin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3999c14b6bbee0d3d94b7dd6d26f85ab9db4d90f",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/3999c14b6bbee0d3d94b7dd6d26f85ab9db4d90f"
+    },
+    {
+      "path": "src/specify_cli/integrations/devin/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3b21b8526cc7950fa96f2f93fc551a5cd9e738c",
+      "size": 2096,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/b3b21b8526cc7950fa96f2f93fc551a5cd9e738c"
+    },
+    {
+      "path": "src/specify_cli/integrations/forge",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8bfbcc77993bc874279c0480060e10a0a84c9d1f",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/8bfbcc77993bc874279c0480060e10a0a84c9d1f"
+    },
+    {
+      "path": "src/specify_cli/integrations/forge/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47a90687dc628ed9115b6eb44fab3444fb77700b",
+      "size": 7613,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/47a90687dc628ed9115b6eb44fab3444fb77700b"
+    },
+    {
+      "path": "src/specify_cli/integrations/gemini",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "478259c71f0bfbe77b25097b3c1a90abcf2daa91",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/478259c71f0bfbe77b25097b3c1a90abcf2daa91"
+    },
+    {
+      "path": "src/specify_cli/integrations/gemini/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c6fe159c77728053a0cee6c69aacf7ae99d9738",
+      "size": 560,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/7c6fe159c77728053a0cee6c69aacf7ae99d9738"
+    },
+    {
+      "path": "src/specify_cli/integrations/generic",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e8aea5aff71c851daf4bac5bcadeebd5ba48ad60",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/e8aea5aff71c851daf4bac5bcadeebd5ba48ad60"
+    },
+    {
+      "path": "src/specify_cli/integrations/generic/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdaee4ed04171be331b28bcb4ba092e55ff851fa",
+      "size": 4668,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/fdaee4ed04171be331b28bcb4ba092e55ff851fa"
+    },
+    {
+      "path": "src/specify_cli/integrations/goose",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c95c765f784964b94380a37c64d263fc98722b5d",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/c95c765f784964b94380a37c64d263fc98722b5d"
+    },
+    {
+      "path": "src/specify_cli/integrations/goose/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fc4d9d57a4a20d2b8e24c788e57f587c3bd9503",
+      "size": 567,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/0fc4d9d57a4a20d2b8e24c788e57f587c3bd9503"
+    },
+    {
+      "path": "src/specify_cli/integrations/hermes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "74e76819a19e1a67d2b8b03b412a4dd395406455",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/74e76819a19e1a67d2b8b03b412a4dd395406455"
+    },
+    {
+      "path": "src/specify_cli/integrations/hermes/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e739002fc2b8526a564946112bc25f873ce028e",
+      "size": 10582,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/1e739002fc2b8526a564946112bc25f873ce028e"
+    },
+    {
+      "path": "src/specify_cli/integrations/iflow",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4bc09c68d8f411d9d41c5c53d867fc6c5f09229a",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/4bc09c68d8f411d9d41c5c53d867fc6c5f09229a"
+    },
+    {
+      "path": "src/specify_cli/integrations/iflow/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65d4d21c636fa1243910f703f36a6f9ce7ec9fd0",
+      "size": 561,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/65d4d21c636fa1243910f703f36a6f9ce7ec9fd0"
+    },
+    {
+      "path": "src/specify_cli/integrations/junie",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "065b6840abcd3fa82e2718a57ee96a4cced20c50",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/065b6840abcd3fa82e2718a57ee96a4cced20c50"
+    },
+    {
+      "path": "src/specify_cli/integrations/junie/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98d0494a8a1d29c4b68261b0e18ee36337724645",
+      "size": 562,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/98d0494a8a1d29c4b68261b0e18ee36337724645"
+    },
+    {
+      "path": "src/specify_cli/integrations/kilocode",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3e934a3191f502c73c9373b3148de979b5de4ca3",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/3e934a3191f502c73c9373b3148de979b5de4ca3"
+    },
+    {
+      "path": "src/specify_cli/integrations/kilocode/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11674dd9f1832610587a8d3bf3f7eda871d2cf84",
+      "size": 563,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/11674dd9f1832610587a8d3bf3f7eda871d2cf84"
+    },
+    {
+      "path": "src/specify_cli/integrations/kimi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0e70b44bf591b09b6d476fcf1bef9c8ce76afd2b",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/0e70b44bf591b09b6d476fcf1bef9c8ce76afd2b"
+    },
+    {
+      "path": "src/specify_cli/integrations/kimi/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b257768e2385ef3c1319617f17c79dd9ad9eaee",
+      "size": 3893,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/3b257768e2385ef3c1319617f17c79dd9ad9eaee"
+    },
+    {
+      "path": "src/specify_cli/integrations/kiro_cli",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "344a2a2102a5384ee5c286d9f043d10b5951aaaa",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/344a2a2102a5384ee5c286d9f043d10b5951aaaa"
+    },
+    {
+      "path": "src/specify_cli/integrations/kiro_cli/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4571b54f90b6c03326fa261b1cd2862af65d7224",
+      "size": 926,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/4571b54f90b6c03326fa261b1cd2862af65d7224"
+    },
+    {
+      "path": "src/specify_cli/integrations/lingma",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "50d1bcca5382db10eb94fce83e52ad5dd24761b8",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/50d1bcca5382db10eb94fce83e52ad5dd24761b8"
+    },
+    {
+      "path": "src/specify_cli/integrations/lingma/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5cd036033cf2483988cbac9b73e631f1433526c",
+      "size": 1074,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/b5cd036033cf2483988cbac9b73e631f1433526c"
+    },
+    {
+      "path": "src/specify_cli/integrations/manifest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df0958aa80cfce93a76c9d0409074702ad037fae",
+      "size": 18393,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/df0958aa80cfce93a76c9d0409074702ad037fae"
+    },
+    {
+      "path": "src/specify_cli/integrations/opencode",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "92c36e88d73e72b875b4fd485959f9a9e99a46fc",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/92c36e88d73e72b875b4fd485959f9a9e99a46fc"
+    },
+    {
+      "path": "src/specify_cli/integrations/opencode/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abd97ab2ae754f3c1e69354bcfd11195a91ff6db",
+      "size": 1495,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/abd97ab2ae754f3c1e69354bcfd11195a91ff6db"
+    },
+    {
+      "path": "src/specify_cli/integrations/pi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "21c7bad7081298c9a1505aa45e1ee136ce85d40b",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/21c7bad7081298c9a1505aa45e1ee136ce85d40b"
+    },
+    {
+      "path": "src/specify_cli/integrations/pi/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a25f326bae1f5efdba7be5b623ca4c93c845f98",
+      "size": 550,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/8a25f326bae1f5efdba7be5b623ca4c93c845f98"
+    },
+    {
+      "path": "src/specify_cli/integrations/qodercli",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4229c3baf4239eb04220fadaba245580ff311a65",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/4229c3baf4239eb04220fadaba245580ff311a65"
+    },
+    {
+      "path": "src/specify_cli/integrations/qodercli/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee2d4b6255f656321fb0b90b7213d862925c24aa",
+      "size": 549,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/ee2d4b6255f656321fb0b90b7213d862925c24aa"
+    },
+    {
+      "path": "src/specify_cli/integrations/qwen",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f5bb3a1d067ba8a015f8e111a6bb311e8759d943",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/f5bb3a1d067ba8a015f8e111a6bb311e8759d943"
+    },
+    {
+      "path": "src/specify_cli/integrations/qwen/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2506a57681396e40e3c3e73fee7b7c1ac435718b",
+      "size": 552,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/2506a57681396e40e3c3e73fee7b7c1ac435718b"
+    },
+    {
+      "path": "src/specify_cli/integrations/roo",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "acc233ce61cb7695fc9ef10dfa40e5b8bacf5c0e",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/acc233ce61cb7695fc9ef10dfa40e5b8bacf5c0e"
+    },
+    {
+      "path": "src/specify_cli/integrations/roo/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f610a3cc63ec49680c743b1dc1c11eaa06e0957a",
+      "size": 534,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/f610a3cc63ec49680c743b1dc1c11eaa06e0957a"
+    },
+    {
+      "path": "src/specify_cli/integrations/rovodev",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4aadb5aa2b83fcc873505efed7d12065904ea138",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/4aadb5aa2b83fcc873505efed7d12065904ea138"
+    },
+    {
+      "path": "src/specify_cli/integrations/rovodev/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8879424ac58d59881aee85bbdb5c28d989dd13e",
+      "size": 8525,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/f8879424ac58d59881aee85bbdb5c28d989dd13e"
+    },
+    {
+      "path": "src/specify_cli/integrations/shai",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0ef2c8308432e835cb168a6dc6f9dbcd75947f2e",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/0ef2c8308432e835cb168a6dc6f9dbcd75947f2e"
+    },
+    {
+      "path": "src/specify_cli/integrations/shai/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "123953da7293741106b1fdb2874701ce43d0759d",
+      "size": 538,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/123953da7293741106b1fdb2874701ce43d0759d"
+    },
+    {
+      "path": "src/specify_cli/integrations/tabnine",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "93235f0145a9a9c440837e74507d6c9912bab21c",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/93235f0145a9a9c440837e74507d6c9912bab21c"
+    },
+    {
+      "path": "src/specify_cli/integrations/tabnine/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d0076bc56cd1d6a6135c709f105be7e26c864b5",
+      "size": 593,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/0d0076bc56cd1d6a6135c709f105be7e26c864b5"
+    },
+    {
+      "path": "src/specify_cli/integrations/trae",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e688dcb950301973e5da887b67ec0a40dc16b14d",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/e688dcb950301973e5da887b67ec0a40dc16b14d"
+    },
+    {
+      "path": "src/specify_cli/integrations/trae/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4556487d072bfce5702e9831c95227271ae7ee2e",
+      "size": 1147,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/4556487d072bfce5702e9831c95227271ae7ee2e"
+    },
+    {
+      "path": "src/specify_cli/integrations/vibe",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cc2c7d7648c869e03068041de8f97333397c71e5",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/cc2c7d7648c869e03068041de8f97333397c71e5"
+    },
+    {
+      "path": "src/specify_cli/integrations/vibe/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7922aa8418398ccdcc45db7ba6a74c52d93a4849",
+      "size": 3476,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/7922aa8418398ccdcc45db7ba6a74c52d93a4849"
+    },
+    {
+      "path": "src/specify_cli/integrations/windsurf",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "acc76b5f03da058d78792d6af84b8f20d15de87f",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/acc76b5f03da058d78792d6af84b8f20d15de87f"
+    },
+    {
+      "path": "src/specify_cli/integrations/windsurf/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae5c3301f459a1b4b6547d42f882659e66f68a11",
+      "size": 565,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/ae5c3301f459a1b4b6547d42f882659e66f68a11"
+    },
+    {
+      "path": "src/specify_cli/presets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47b4240d85ef4d0f8efdb141f097c35c952c292e",
+      "size": 131202,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/47b4240d85ef4d0f8efdb141f097c35c952c292e"
+    },
+    {
+      "path": "src/specify_cli/shared_infra.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c86560461002f8079a66ba7814c90ac0bd6b8ca",
+      "size": 21429,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/1c86560461002f8079a66ba7814c90ac0bd6b8ca"
+    },
+    {
+      "path": "src/specify_cli/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "860c95289d7dd8ef1a6e505f015a08b36a5223b7",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/860c95289d7dd8ef1a6e505f015a08b36a5223b7"
+    },
+    {
+      "path": "src/specify_cli/workflows/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13782f620b3236d340b9caa9eb96c901ba4b7f0a",
+      "size": 2195,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/13782f620b3236d340b9caa9eb96c901ba4b7f0a"
+    },
+    {
+      "path": "src/specify_cli/workflows/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b144ca903d4af34d66449ca53b164a069bd6dd3d",
+      "size": 3713,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/b144ca903d4af34d66449ca53b164a069bd6dd3d"
+    },
+    {
+      "path": "src/specify_cli/workflows/catalog.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "213b443e3d96fff7ecd27be5887c427850a0462d",
+      "size": 20691,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/213b443e3d96fff7ecd27be5887c427850a0462d"
+    },
+    {
+      "path": "src/specify_cli/workflows/engine.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d24bc295019491e7bcdca3ae5aab10523cfc4195",
+      "size": 41828,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/d24bc295019491e7bcdca3ae5aab10523cfc4195"
+    },
+    {
+      "path": "src/specify_cli/workflows/expressions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cc74c76463007dfa11338745cbb061b73bad629",
+      "size": 10731,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/3cc74c76463007dfa11338745cbb061b73bad629"
+    },
+    {
+      "path": "src/specify_cli/workflows/steps",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5cf8e3756c60db48e37c7ca34476ecfb4eef5001",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/5cf8e3756c60db48e37c7ca34476ecfb4eef5001"
+    },
+    {
+      "path": "src/specify_cli/workflows/steps/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0aa9182dd069df98523d0eb544fe2d76c53e3916",
+      "size": 46,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/0aa9182dd069df98523d0eb544fe2d76c53e3916"
+    },
+    {
+      "path": "src/specify_cli/workflows/steps/command",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a959ac925049f2df634f21a187e91a628fcac30b",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/a959ac925049f2df634f21a187e91a628fcac30b"
+    },
+    {
+      "path": "src/specify_cli/workflows/steps/command/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "891b9da4e7d7e2b9defafd1b05592079cc57f21f",
+      "size": 5889,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/891b9da4e7d7e2b9defafd1b05592079cc57f21f"
+    },
+    {
+      "path": "src/specify_cli/workflows/steps/do_while",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7e4a8eb423df8543ce03ab91de224693b1e77414",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/7e4a8eb423df8543ce03ab91de224693b1e77414"
+    },
+    {
+      "path": "src/specify_cli/workflows/steps/do_while/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47a4d3443719c323a38d2bb85f010c3a29d0585b",
+      "size": 2242,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/47a4d3443719c323a38d2bb85f010c3a29d0585b"
+    },
+    {
+      "path": "src/specify_cli/workflows/steps/fan_in",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "977d8d29071e6596fb29bb02042e1a202ad17b4c",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/977d8d29071e6596fb29bb02042e1a202ad17b4c"
+    },
+    {
+      "path": "src/specify_cli/workflows/steps/fan_in/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dec3e3fd4d8b65010100cb783ef9552a45b0e403",
+      "size": 2184,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/dec3e3fd4d8b65010100cb783ef9552a45b0e403"
+    },
+    {
+      "path": "src/specify_cli/workflows/steps/fan_out",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "efe54347ce42a128368780999ced511b28d4f914",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/efe54347ce42a128368780999ced511b28d4f914"
+    },
+    {
+      "path": "src/specify_cli/workflows/steps/fan_out/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2fff1face87497ba07eff84839aa8147a7cb16d",
+      "size": 1991,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/c2fff1face87497ba07eff84839aa8147a7cb16d"
+    },
+    {
+      "path": "src/specify_cli/workflows/steps/gate",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "db2f9ad36a543d23167d060cbb9892060774a0fa",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/db2f9ad36a543d23167d060cbb9892060774a0fa"
+    },
+    {
+      "path": "src/specify_cli/workflows/steps/gate/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2e473244e5eeca753379c49c3f06f2fd2907cf0",
+      "size": 9196,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/a2e473244e5eeca753379c49c3f06f2fd2907cf0"
+    },
+    {
+      "path": "src/specify_cli/workflows/steps/if_then",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "30a30fcb1fa6221af2e16c03c2d918d690e166a9",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/30a30fcb1fa6221af2e16c03c2d918d690e166a9"
+    },
+    {
+      "path": "src/specify_cli/workflows/steps/if_then/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b921a31a57892d1ac598466d821e133a7b28b1c",
+      "size": 1851,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/5b921a31a57892d1ac598466d821e133a7b28b1c"
+    },
+    {
+      "path": "src/specify_cli/workflows/steps/prompt",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "959ab977e2b09cddf87788cb5bc8b3c261c92bcd",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/959ab977e2b09cddf87788cb5bc8b3c261c92bcd"
+    },
+    {
+      "path": "src/specify_cli/workflows/steps/prompt/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ec99b794d6df9b7867eac52851d34be92ad54ac",
+      "size": 5494,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/5ec99b794d6df9b7867eac52851d34be92ad54ac"
+    },
+    {
+      "path": "src/specify_cli/workflows/steps/shell",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b55a7bbc54bb3605be3d45c7a7baaec7e232a6b5",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/b55a7bbc54bb3605be3d45c7a7baaec7e232a6b5"
+    },
+    {
+      "path": "src/specify_cli/workflows/steps/shell/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73ac99530ada83e4e9749297b8be32bfb3103b87",
+      "size": 2594,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/73ac99530ada83e4e9749297b8be32bfb3103b87"
+    },
+    {
+      "path": "src/specify_cli/workflows/steps/switch",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3a8dd50fb42de9c81e5cd9d7f1e9471a2cdc711c",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/3a8dd50fb42de9c81e5cd9d7f1e9471a2cdc711c"
+    },
+    {
+      "path": "src/specify_cli/workflows/steps/switch/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e58d3c23c36db4b5bd8063b5d53a3fcf33aa9936",
+      "size": 2527,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/e58d3c23c36db4b5bd8063b5d53a3fcf33aa9936"
+    },
+    {
+      "path": "src/specify_cli/workflows/steps/while_loop",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "787e9d1018e0a20e711eba322b23d4296b2bf81d",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/787e9d1018e0a20e711eba322b23d4296b2bf81d"
+    },
+    {
+      "path": "src/specify_cli/workflows/steps/while_loop/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18c2f46050e1499be6f93e78ea96650cc3c382b5",
+      "size": 2342,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/18c2f46050e1499be6f93e78ea96650cc3c382b5"
+    },
+    {
+      "path": "templates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "418e560de72da0f70236666f62810b213a187bc3",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/418e560de72da0f70236666f62810b213a187bc3"
+    },
+    {
+      "path": "templates/checklist-template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9752c130ecaa62df15dca7c6604cdf9855d975ea",
+      "size": 1334,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/9752c130ecaa62df15dca7c6604cdf9855d975ea"
+    },
+    {
+      "path": "templates/commands",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e5a46bc601e7ad25f11ffd628ef2a3df5dff88a1",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/e5a46bc601e7ad25f11ffd628ef2a3df5dff88a1"
+    },
+    {
+      "path": "templates/commands/analyze.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b521cf2a4550fcbc1793d8dc9913f443e727cba",
+      "size": 10492,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/5b521cf2a4550fcbc1793d8dc9913f443e727cba"
+    },
+    {
+      "path": "templates/commands/checklist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e1b1040af70c18b320dd060f024256676155bbc",
+      "size": 19969,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/2e1b1040af70c18b320dd060f024256676155bbc"
+    },
+    {
+      "path": "templates/commands/clarify.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a83d52f026ac03dabb9d0b1d87aa220b066cb0e1",
+      "size": 17056,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/a83d52f026ac03dabb9d0b1d87aa220b066cb0e1"
+    },
+    {
+      "path": "templates/commands/constitution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29ae9a09e247bffb4e31ab1815303e09982792eb",
+      "size": 8231,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/29ae9a09e247bffb4e31ab1815303e09982792eb"
+    },
+    {
+      "path": "templates/commands/implement.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c416fa7387d8fa2427cc2fca61df151590b53290",
+      "size": 10966,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/c416fa7387d8fa2427cc2fca61df151590b53290"
+    },
+    {
+      "path": "templates/commands/plan.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44ab8403ac39c7c93b5e300997971303f49432dd",
+      "size": 7195,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/44ab8403ac39c7c93b5e300997971303f49432dd"
+    },
+    {
+      "path": "templates/commands/specify.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "469ecbfbd7e5f9cf02a735fc5526f1d8109ef7c4",
+      "size": 17116,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/469ecbfbd7e5f9cf02a735fc5526f1d8109ef7c4"
+    },
+    {
+      "path": "templates/commands/tasks.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f863e7787f74b4a125c8e757567d1ad1f8d64a16",
+      "size": 9985,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/f863e7787f74b4a125c8e757567d1ad1f8d64a16"
+    },
+    {
+      "path": "templates/commands/taskstoissues.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b24e84ee14936aef78750452bc53b8e3fa23e41b",
+      "size": 4081,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/b24e84ee14936aef78750452bc53b8e3fa23e41b"
+    },
+    {
+      "path": "templates/constitution-template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4670ff46919b276a4c9663b4ca51830108fcfc0",
+      "size": 2346,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/a4670ff46919b276a4c9663b4ca51830108fcfc0"
+    },
+    {
+      "path": "templates/plan-template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fe6c8844b04b17c6b08f3b63b4831d69728b201",
+      "size": 3791,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/4fe6c8844b04b17c6b08f3b63b4831d69728b201"
+    },
+    {
+      "path": "templates/spec-template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ceb28776215a098e977650ac090c785dcbf53651",
+      "size": 4556,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/ceb28776215a098e977650ac090c785dcbf53651"
+    },
+    {
+      "path": "templates/tasks-template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fff087cc5a3c51a889d865fd9126607a032d233",
+      "size": 9182,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/7fff087cc5a3c51a889d865fd9126607a032d233"
+    },
+    {
+      "path": "templates/vscode-settings.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d454aa6df903e9014bafcedb02aa87ce5c793c01",
+      "size": 351,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/d454aa6df903e9014bafcedb02aa87ce5c793c01"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ba145155f4a3456353eb8acac66a2e42404f2898",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/ba145155f4a3456353eb8acac66a2e42404f2898"
+    },
+    {
+      "path": "tests/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5b8b01cf1c9cb721d9244730ab7fbae6c643dec",
+      "size": 31,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/f5b8b01cf1c9cb721d9244730ab7fbae6c643dec"
+    },
+    {
+      "path": "tests/auth_helpers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "babc43e406517f6a434db2e478456d32b2a08382",
+      "size": 820,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/babc43e406517f6a434db2e478456d32b2a08382"
+    },
+    {
+      "path": "tests/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ef643e121265ad608a7e7a4a202c0e3363eaf0d",
+      "size": 5377,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/4ef643e121265ad608a7e7a4a202c0e3363eaf0d"
+    },
+    {
+      "path": "tests/extensions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "42938d19519a0667a021b08b340bb5c4925cec9e",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/42938d19519a0667a021b08b340bb5c4925cec9e"
+    },
+    {
+      "path": "tests/extensions/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97d2f6978bb7ede813d8600b62cced7da4ad6530",
+      "size": 31,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/97d2f6978bb7ede813d8600b62cced7da4ad6530"
+    },
+    {
+      "path": "tests/extensions/bug",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4fbf4ab72bdfee5335429c00f1b9b92fb6ba6c34",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/4fbf4ab72bdfee5335429c00f1b9b92fb6ba6c34"
+    },
+    {
+      "path": "tests/extensions/bug/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/extensions/bug/test_bug_extension.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36351a91c6df05855c64457bd964fc60289a80e4",
+      "size": 4315,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/36351a91c6df05855c64457bd964fc60289a80e4"
+    },
+    {
+      "path": "tests/extensions/git",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b028f139fd747883bd35ac787c550371ac545e20",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/b028f139fd747883bd35ac787c550371ac545e20"
+    },
+    {
+      "path": "tests/extensions/git/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bec5daeccc1f1a81abb2fa91ba084b0c6585b408",
+      "size": 43,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/bec5daeccc1f1a81abb2fa91ba084b0c6585b408"
+    },
+    {
+      "path": "tests/extensions/git/test_git_extension.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3fde0bd4a8089c792d37f44922f12f70ef217b7",
+      "size": 35437,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/b3fde0bd4a8089c792d37f44922f12f70ef217b7"
+    },
+    {
+      "path": "tests/extensions/test_extension_agent_context.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61ecab91af6c52f48b545a1476b3a5c644972e34",
+      "size": 18737,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/61ecab91af6c52f48b545a1476b3a5c644972e34"
+    },
+    {
+      "path": "tests/hooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e159e4d351f0409c31538dcbc3421fc2f15e7533",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/e159e4d351f0409c31538dcbc3421fc2f15e7533"
+    },
+    {
+      "path": "tests/hooks/.specify",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e8547d6c26b8e8a5ecfd8608798ffe30030eea2e",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/e8547d6c26b8e8a5ecfd8608798ffe30030eea2e"
+    },
+    {
+      "path": "tests/hooks/.specify/extensions.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a73b3254d9c6c658fff31fc85bf065db34f84f7",
+      "size": 960,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/0a73b3254d9c6c658fff31fc85bf065db34f84f7"
+    },
+    {
+      "path": "tests/hooks/TESTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ab704442f43517d34201186d4eb8c005bed52ab",
+      "size": 1832,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/6ab704442f43517d34201186d4eb8c005bed52ab"
+    },
+    {
+      "path": "tests/hooks/plan.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2694887d1174538b4fe5b2ecea5dc8e8878f7c8",
+      "size": 153,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/e2694887d1174538b4fe5b2ecea5dc8e8878f7c8"
+    },
+    {
+      "path": "tests/hooks/spec.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0285468a6763d7faa5ad89a8a02b41fa74a403b6",
+      "size": 69,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/0285468a6763d7faa5ad89a8a02b41fa74a403b6"
+    },
+    {
+      "path": "tests/hooks/tasks.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c22b0b2ac95f3299b5b0d13c2e6321dab792762",
+      "size": 70,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/3c22b0b2ac95f3299b5b0d13c2e6321dab792762"
+    },
+    {
+      "path": "tests/http_helpers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46e26806b42f4d63e5612ac99a4f950d9157db35",
+      "size": 452,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/46e26806b42f4d63e5612ac99a4f950d9157db35"
+    },
+    {
+      "path": "tests/integrations",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "921cad403537490e5f53e9288e892b9bca0ce87c",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/921cad403537490e5f53e9288e892b9bca0ce87c"
+    },
+    {
+      "path": "tests/integrations/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/integrations/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54f59e23a7abb6c806dc4efc58b43cb6117b06e1",
+      "size": 587,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/54f59e23a7abb6c806dc4efc58b43cb6117b06e1"
+    },
+    {
+      "path": "tests/integrations/test_base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47f9d0905935961f4f577f54c18d8bf70b1b7713",
+      "size": 12022,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/47f9d0905935961f4f577f54c18d8bf70b1b7713"
+    },
+    {
+      "path": "tests/integrations/test_cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "460db4897e8594ef72f020d6e763c51a3fa71b91",
+      "size": 77628,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/460db4897e8594ef72f020d6e763c51a3fa71b91"
+    },
+    {
+      "path": "tests/integrations/test_extra_args.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d192e140fbceb78d079cf0a167ebc6b42af918bc",
+      "size": 22349,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/d192e140fbceb78d079cf0a167ebc6b42af918bc"
+    },
+    {
+      "path": "tests/integrations/test_integration_agy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd7b82e120a9449cc5f6d107296428f3f6b22c60",
+      "size": 5843,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/fd7b82e120a9449cc5f6d107296428f3f6b22c60"
+    },
+    {
+      "path": "tests/integrations/test_integration_amp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a36dd471361a53526b4e8b959faff90fa65003f4",
+      "size": 299,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/a36dd471361a53526b4e8b959faff90fa65003f4"
+    },
+    {
+      "path": "tests/integrations/test_integration_auggie.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4033a23e8ed96db72e123c7bb71fb333c3be8c9",
+      "size": 332,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/e4033a23e8ed96db72e123c7bb71fb333c3be8c9"
+    },
+    {
+      "path": "tests/integrations/test_integration_base_markdown.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d1222c96567c3a2efe8ffaac6995ebb48975795",
+      "size": 15359,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/5d1222c96567c3a2efe8ffaac6995ebb48975795"
+    },
+    {
+      "path": "tests/integrations/test_integration_base_skills.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca30831985f0f0dd3918e0c76017128155720626",
+      "size": 22177,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/ca30831985f0f0dd3918e0c76017128155720626"
+    },
+    {
+      "path": "tests/integrations/test_integration_base_toml.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eac51bd206640959837d1f957000ea00e4f40c32",
+      "size": 24714,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/eac51bd206640959837d1f957000ea00e4f40c32"
+    },
+    {
+      "path": "tests/integrations/test_integration_base_yaml.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1a02b7811d6ddb63f19dbc012fb6c327ee9c29a",
+      "size": 20070,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/a1a02b7811d6ddb63f19dbc012fb6c327ee9c29a"
+    },
+    {
+      "path": "tests/integrations/test_integration_bob.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1562f0100c6fa9a6ac60aa59b4974fd84691280b",
+      "size": 293,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/1562f0100c6fa9a6ac60aa59b4974fd84691280b"
+    },
+    {
+      "path": "tests/integrations/test_integration_catalog.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e285e17e157cb07d775e2d0a4e084b08f08c160",
+      "size": 60461,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/2e285e17e157cb07d775e2d0a4e084b08f08c160"
+    },
+    {
+      "path": "tests/integrations/test_integration_claude.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1bda1fb68f2e8903182612b98797db94dfeac24",
+      "size": 32320,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/e1bda1fb68f2e8903182612b98797db94dfeac24"
+    },
+    {
+      "path": "tests/integrations/test_integration_cline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fd723dfc910cb9bfac69333cf0bd64efb98dce4",
+      "size": 8545,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/5fd723dfc910cb9bfac69333cf0bd64efb98dce4"
+    },
+    {
+      "path": "tests/integrations/test_integration_codebuddy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcc2153a7b2e0bc04d93af212ce0f33401bd8dc6",
+      "size": 326,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/dcc2153a7b2e0bc04d93af212ce0f33401bd8dc6"
+    },
+    {
+      "path": "tests/integrations/test_integration_codex.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ce0d82d64a95f574a39b965c9e3f373e46814ae",
+      "size": 6332,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/8ce0d82d64a95f574a39b965c9e3f373e46814ae"
+    },
+    {
+      "path": "tests/integrations/test_integration_copilot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d74fd52a3e17ee97b628d3d3f067d8f718066d73",
+      "size": 37710,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/d74fd52a3e17ee97b628d3d3f067d8f718066d73"
+    },
+    {
+      "path": "tests/integrations/test_integration_cursor_agent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f03238a4ea9449b4ba5913f32467e0400fbd4bc6",
+      "size": 11602,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/f03238a4ea9449b4ba5913f32467e0400fbd4bc6"
+    },
+    {
+      "path": "tests/integrations/test_integration_devin.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "642a55ce62ffeaa54e0e2c30cd06467ef9355141",
+      "size": 3010,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/642a55ce62ffeaa54e0e2c30cd06467ef9355141"
+    },
+    {
+      "path": "tests/integrations/test_integration_forge.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f63afb71e26f5bb05c2898573971e312ed345161",
+      "size": 21408,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/f63afb71e26f5bb05c2898573971e312ed345161"
+    },
+    {
+      "path": "tests/integrations/test_integration_gemini.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9be5985e29a59ad9bec9e5c190ce0f97ad436119",
+      "size": 296,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/9be5985e29a59ad9bec9e5c190ce0f97ad436119"
+    },
+    {
+      "path": "tests/integrations/test_integration_generic.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0ef38c2e90fa979ee7270b786a7971f6533eaf0",
+      "size": 18211,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/c0ef38c2e90fa979ee7270b786a7971f6533eaf0"
+    },
+    {
+      "path": "tests/integrations/test_integration_goose.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8415081d53a207e47cbab1332ebba93281722f98",
+      "size": 1346,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/8415081d53a207e47cbab1332ebba93281722f98"
+    },
+    {
+      "path": "tests/integrations/test_integration_hermes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d19a2c32ab4f72fcbcaa0c061c92bb0d80647d67",
+      "size": 15081,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/d19a2c32ab4f72fcbcaa0c061c92bb0d80647d67"
+    },
+    {
+      "path": "tests/integrations/test_integration_iflow.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea2f5ef97ad5f47a9409625951773e72f9b096c3",
+      "size": 302,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/ea2f5ef97ad5f47a9409625951773e72f9b096c3"
+    },
+    {
+      "path": "tests/integrations/test_integration_junie.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b924ce434cd0c25637f5ead2c0d0773722b077d",
+      "size": 310,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/2b924ce434cd0c25637f5ead2c0d0773722b077d"
+    },
+    {
+      "path": "tests/integrations/test_integration_kilocode.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e441c0833b34720c3ae38095cd2a4d1994309d0",
+      "size": 343,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/8e441c0833b34720c3ae38095cd2a4d1994309d0"
+    },
+    {
+      "path": "tests/integrations/test_integration_kimi.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cad3b00b3c5a8d93caaf2d78273b204e18177e1",
+      "size": 5308,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/6cad3b00b3c5a8d93caaf2d78273b204e18177e1"
+    },
+    {
+      "path": "tests/integrations/test_integration_kiro_cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da68e21a2ee08fcf4e3bcff0c724bfe4ec2b3151",
+      "size": 6919,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/da68e21a2ee08fcf4e3bcff0c724bfe4ec2b3151"
+    },
+    {
+      "path": "tests/integrations/test_integration_lingma.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "959de8d657eb114ebe0211938a3ed7163e6542e0",
+      "size": 319,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/959de8d657eb114ebe0211938a3ed7163e6542e0"
+    },
+    {
+      "path": "tests/integrations/test_integration_opencode.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba2d15711fe909258023dd51b67e1a400a466ae4",
+      "size": 7636,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/ba2d15711fe909258023dd51b67e1a400a466ae4"
+    },
+    {
+      "path": "tests/integrations/test_integration_pi.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ac5676501db059d5a004e48b2db4a62acb41af3",
+      "size": 286,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/5ac5676501db059d5a004e48b2db4a62acb41af3"
+    },
+    {
+      "path": "tests/integrations/test_integration_qodercli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dbee480a0a137fee9349f274ddce11f758b41b4",
+      "size": 311,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/1dbee480a0a137fee9349f274ddce11f758b41b4"
+    },
+    {
+      "path": "tests/integrations/test_integration_qwen.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10a3c083f439865b74a20ed2a94356873494e4cc",
+      "size": 296,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/10a3c083f439865b74a20ed2a94356873494e4cc"
+    },
+    {
+      "path": "tests/integrations/test_integration_roo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69d859c42f01b74bcb8e8f8e1373c77b231383b4",
+      "size": 311,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/69d859c42f01b74bcb8e8f8e1373c77b231383b4"
+    },
+    {
+      "path": "tests/integrations/test_integration_rovodev.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54e0c7a6f1f630ad8280e4deda92e0ae03c9d4d2",
+      "size": 13058,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/54e0c7a6f1f630ad8280e4deda92e0ae03c9d4d2"
+    },
+    {
+      "path": "tests/integrations/test_integration_shai.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74f93396b1e66174e69a09b4b834f140d42ffb53",
+      "size": 296,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/74f93396b1e66174e69a09b4b834f140d42ffb53"
+    },
+    {
+      "path": "tests/integrations/test_integration_state.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d6bdb02688a132cd666f742342c2d49d4310a42",
+      "size": 2478,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/1d6bdb02688a132cd666f742342c2d49d4310a42"
+    },
+    {
+      "path": "tests/integrations/test_integration_subcommand.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd9eada5cc96388513a02842017082d2a5c47312",
+      "size": 64705,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/fd9eada5cc96388513a02842017082d2a5c47312"
+    },
+    {
+      "path": "tests/integrations/test_integration_tabnine.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95eb47cc16a809789ce3c65413919e69276ff0f6",
+      "size": 314,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/95eb47cc16a809789ce3c65413919e69276ff0f6"
+    },
+    {
+      "path": "tests/integrations/test_integration_trae.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74b8b41c3fd5199a4b698323856c9827388bd108",
+      "size": 307,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/74b8b41c3fd5199a4b698323856c9827388bd108"
+    },
+    {
+      "path": "tests/integrations/test_integration_vibe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bab4539f1e8d81ab55b686176374222d62d78115",
+      "size": 1396,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/bab4539f1e8d81ab55b686176374222d62d78115"
+    },
+    {
+      "path": "tests/integrations/test_integration_windsurf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa8d1e622a33eb8622255efa89053e82fee71f15",
+      "size": 343,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/fa8d1e622a33eb8622255efa89053e82fee71f15"
+    },
+    {
+      "path": "tests/integrations/test_manifest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "503ee133e55b4373e07c9f53e1b87e257ebf3d22",
+      "size": 20223,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/503ee133e55b4373e07c9f53e1b87e257ebf3d22"
+    },
+    {
+      "path": "tests/integrations/test_registry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18803c485fc1170e94e8e6b52e65e16a2e4f8ae2",
+      "size": 10872,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/18803c485fc1170e94e8e6b52e65e16a2e4f8ae2"
+    },
+    {
+      "path": "tests/self_upgrade_helpers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c363f57b130d8ec6173c835af1767687cf5e4111",
+      "size": 1909,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/c363f57b130d8ec6173c835af1767687cf5e4111"
+    },
+    {
+      "path": "tests/test_agent_config_consistency.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "117600977882480f3cc2cfe73a66f96e03261896",
+      "size": 12842,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/117600977882480f3cc2cfe73a66f96e03261896"
+    },
+    {
+      "path": "tests/test_authentication.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d75355a09a956c3d2446367c50e2d3365e2588b",
+      "size": 36827,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/5d75355a09a956c3d2446367c50e2d3365e2588b"
+    },
+    {
+      "path": "tests/test_branch_numbering.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d10cd14cff13716a150753bed6a59484480ac14",
+      "size": 3078,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/4d10cd14cff13716a150753bed6a59484480ac14"
+    },
+    {
+      "path": "tests/test_check_prerequisites_paths_only.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e0302800164510d5739a0f87a01286b49b1477c",
+      "size": 7254,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/2e0302800164510d5739a0f87a01286b49b1477c"
+    },
+    {
+      "path": "tests/test_check_tool.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9520046168c9eed56194cdbbe61145cc77717266",
+      "size": 6247,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/9520046168c9eed56194cdbbe61145cc77717266"
+    },
+    {
+      "path": "tests/test_cli_version.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "041ff62e55a934b9b9f27549d0bdb54e1a57f28b",
+      "size": 3029,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/041ff62e55a934b9b9f27549d0bdb54e1a57f28b"
+    },
+    {
+      "path": "tests/test_commands_package.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2252ffc116b8e95d829eb9515c034f8f6833750",
+      "size": 1076,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/e2252ffc116b8e95d829eb9515c034f8f6833750"
+    },
+    {
+      "path": "tests/test_console_imports.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ae328732ef5a422ceb5caa2274e4e0877bda1d0",
+      "size": 1011,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/2ae328732ef5a422ceb5caa2274e4e0877bda1d0"
+    },
+    {
+      "path": "tests/test_extension_registration.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9965deae4350007d70917f93b05b21d43c7c98a7",
+      "size": 19815,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/9965deae4350007d70917f93b05b21d43c7c98a7"
+    },
+    {
+      "path": "tests/test_extension_skills.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22eb63dfd836fd6ba310cd1e4e869d6754462163",
+      "size": 52631,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/22eb63dfd836fd6ba310cd1e4e869d6754462163"
+    },
+    {
+      "path": "tests/test_extension_update_hardening.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "426e5ec7e9e61ccf62c95c6f949e22da7e9733df",
+      "size": 5719,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/426e5ec7e9e61ccf62c95c6f949e22da7e9733df"
+    },
+    {
+      "path": "tests/test_extensions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e46fdf4353c9eeaaec3286b1e8612f04f420b9ca",
+      "size": 205134,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/e46fdf4353c9eeaaec3286b1e8612f04f420b9ca"
+    },
+    {
+      "path": "tests/test_github_http.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f513680796c53aa99f4625ab1b430b57d0986328",
+      "size": 7956,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/f513680796c53aa99f4625ab1b430b57d0986328"
+    },
+    {
+      "path": "tests/test_merge.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69f946ccc5a334c25812f0b1f6548f050ce9278d",
+      "size": 6617,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/69f946ccc5a334c25812f0b1f6548f050ce9278d"
+    },
+    {
+      "path": "tests/test_presets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c2d3a508ff6551c8b563c7b2c18beed2f2292c4",
+      "size": 223514,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/9c2d3a508ff6551c8b563c7b2c18beed2f2292c4"
+    },
+    {
+      "path": "tests/test_ps1_encoding.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcd969cd295b2cf89d2b04c449c6f3060acfd168",
+      "size": 1747,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/dcd969cd295b2cf89d2b04c449c6f3060acfd168"
+    },
+    {
+      "path": "tests/test_registrar_path_traversal.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc423b40562b41cef9b9d7cabe703a50b1ea2d4f",
+      "size": 7064,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/fc423b40562b41cef9b9d7cabe703a50b1ea2d4f"
+    },
+    {
+      "path": "tests/test_self_upgrade_detection.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab575e743599ddf2d5421f854a0a822418ec3ba0",
+      "size": 37581,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/ab575e743599ddf2d5421f854a0a822418ec3ba0"
+    },
+    {
+      "path": "tests/test_self_upgrade_execution.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6696b4fc79432a1908bd928329e5072f4a7ebc61",
+      "size": 25410,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/6696b4fc79432a1908bd928329e5072f4a7ebc61"
+    },
+    {
+      "path": "tests/test_self_upgrade_guidance.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55d6c2bf7b212a6af5b8740e72d3ac1d58c1bdd8",
+      "size": 7318,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/55d6c2bf7b212a6af5b8740e72d3ac1d58c1bdd8"
+    },
+    {
+      "path": "tests/test_self_upgrade_verification.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1a018f06c56e883ee55a80341c08d60cc64af44",
+      "size": 27214,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/f1a018f06c56e883ee55a80341c08d60cc64af44"
+    },
+    {
+      "path": "tests/test_setup_plan_feature_json.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0203b367054288cfc7f3b0322cef3c59b9ea12ec",
+      "size": 6701,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/0203b367054288cfc7f3b0322cef3c59b9ea12ec"
+    },
+    {
+      "path": "tests/test_setup_plan_no_overwrite.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f29a629294af7857031750c50e0603670297f6fc",
+      "size": 7626,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/f29a629294af7857031750c50e0603670297f6fc"
+    },
+    {
+      "path": "tests/test_setup_tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "961124d3a94d2036e562c36e78923e34707e5917",
+      "size": 29024,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/961124d3a94d2036e562c36e78923e34707e5917"
+    },
+    {
+      "path": "tests/test_timestamp_branches.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f6d8bd2a8d6704fbf2c54088d95007501c6b0ce",
+      "size": 61711,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/3f6d8bd2a8d6704fbf2c54088d95007501c6b0ce"
+    },
+    {
+      "path": "tests/test_upgrade.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ad8c84f62cb18b1446b04ac5c34e6353886c705",
+      "size": 17407,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/3ad8c84f62cb18b1446b04ac5c34e6353886c705"
+    },
+    {
+      "path": "tests/test_utils_assets_imports.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df79e3e01874913acac7cb8932d793a8c353b2d6",
+      "size": 666,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/df79e3e01874913acac7cb8932d793a8c353b2d6"
+    },
+    {
+      "path": "tests/test_version_imports.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0360b6cb3a70c7f7a5af4944d057c1a2c954131b",
+      "size": 1131,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/0360b6cb3a70c7f7a5af4944d057c1a2c954131b"
+    },
+    {
+      "path": "tests/test_workflow_run_without_project.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05235493fad979c8e624c5e567bce1f14de8b603",
+      "size": 8486,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/05235493fad979c8e624c5e567bce1f14de8b603"
+    },
+    {
+      "path": "tests/test_workflows.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90f836b2eab3fb04ac6e7348bfa3f3c6c36f41f8",
+      "size": 137485,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/90f836b2eab3fb04ac6e7348bfa3f3c6c36f41f8"
+    },
+    {
+      "path": "workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b9bb3c5613648176517e9a213bd9de8029dcde58",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/b9bb3c5613648176517e9a213bd9de8029dcde58"
+    },
+    {
+      "path": "workflows/ARCHITECTURE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "892333473c85bc24004c45d63b67e2cf7d7b78f2",
+      "size": 10043,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/892333473c85bc24004c45d63b67e2cf7d7b78f2"
+    },
+    {
+      "path": "workflows/PUBLISHING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce0d25182671e439aac6115974ab268e8ba7a0e5",
+      "size": 8808,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/ce0d25182671e439aac6115974ab268e8ba7a0e5"
+    },
+    {
+      "path": "workflows/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e3e74a9242a0341ef0aeec64d684adcb5abe165",
+      "size": 12629,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/0e3e74a9242a0341ef0aeec64d684adcb5abe165"
+    },
+    {
+      "path": "workflows/catalog.community.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c654f5ed224fa3b6bc84989a4aa11c67a9edd320",
+      "size": 197,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/c654f5ed224fa3b6bc84989a4aa11c67a9edd320"
+    },
+    {
+      "path": "workflows/catalog.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "967120afb0d4bb507854c647ea7c283da6d18b13",
+      "size": 555,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/967120afb0d4bb507854c647ea7c283da6d18b13"
+    },
+    {
+      "path": "workflows/speckit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4d5f38441227797eb317a3cb7c5129335a92c22e",
+      "url": "https://api.github.com/repos/github/spec-kit/git/trees/4d5f38441227797eb317a3cb7c5129335a92c22e"
+    },
+    {
+      "path": "workflows/speckit/workflow.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f69efeaf46cff25f57487ab3f311716a069fb826",
+      "size": 2197,
+      "url": "https://api.github.com/repos/github/spec-kit/git/blobs/f69efeaf46cff25f57487ab3f311716a069fb826"
+    }
+  ],
+  "truncated": false
+}

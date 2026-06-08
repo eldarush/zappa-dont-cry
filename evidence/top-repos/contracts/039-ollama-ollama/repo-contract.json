@@ -1,0 +1,111 @@
+{
+  "harvested_at": "2026-06-07T20:44:06.4924230+03:00",
+  "rank": 39,
+  "repository": "ollama/ollama",
+  "url": "https://github.com/ollama/ollama",
+  "language": "Go",
+  "stars": 173473,
+  "default_branch": "main",
+  "contract_strength": "contract_files_found",
+  "candidate_qaas_surfaces": [
+    "api-contract-validation",
+    "runner-yaml-from-public-contract",
+    "containerized-runtime-smoke",
+    "ci-documented-command-discovery",
+    "go-cli-or-service-contract"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\039-ollama-ollama\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\039-ollama-ollama\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [
+      "app/store/schema.sql",
+      "app/store/schema_test.go",
+      "app/store/testdata/schema.sql",
+      "convert/sentencepiece_model.proto",
+      "docs/openapi.yaml"
+    ],
+    "ci": [
+      ".github/workflows/latest.yaml",
+      ".github/workflows/release.yaml",
+      ".github/workflows/test-install.yaml",
+      ".github/workflows/test-llamacpp-update.yaml",
+      ".github/workflows/test.yaml"
+    ],
+    "containers": [
+      "Dockerfile"
+    ],
+    "dotnet": [],
+    "node": [
+      "app/ui/app/package-lock.json",
+      "app/ui/app/package.json",
+      "app/ui/app/tsconfig.json"
+    ],
+    "python": [],
+    "go": [
+      "go.mod",
+      "go.sum"
+    ],
+    "java": [],
+    "rust": [],
+    "docs": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "SECURITY.md",
+      "api/client.go",
+      "api/client_test.go",
+      "api/examples/README.md",
+      "api/examples/chat/main.go",
+      "api/examples/generate-streaming/main.go",
+      "api/examples/generate/main.go",
+      "api/examples/multimodal/main.go",
+      "api/examples/pull-progress/main.go",
+      "api/types.go",
+      "api/types_test.go",
+      "api/types_typescript_test.go",
+      "app/README.md",
+      "app/ui/app/src/api.ts",
+      "app/webview/README.md",
+      "app/wintray/w32api.go",
+      "cmd/bench/README.md",
+      "docs/README.md",
+      "docs/api.md",
+      "docs/api/anthropic-compatibility.mdx",
+      "docs/api/authentication.mdx",
+      "docs/api/errors.mdx",
+      "docs/api/introduction.mdx",
+      "docs/api/openai-compatibility.mdx",
+      "docs/api/streaming.mdx",
+      "docs/api/usage.mdx",
+      "docs/capabilities/embeddings.mdx",
+      "docs/capabilities/streaming.mdx",
+      "docs/capabilities/structured-outputs.mdx",
+      "docs/capabilities/thinking.mdx",
+      "docs/capabilities/tool-calling.mdx",
+      "docs/capabilities/vision.mdx",
+      "docs/capabilities/web-search.mdx",
+      "docs/cli.mdx",
+      "docs/cloud.mdx",
+      "docs/context-length.mdx",
+      "docs/development.md",
+      "docs/docker.mdx",
+      "docs/docs.json",
+      "docs/examples.md",
+      "docs/faq.mdx",
+      "docs/favicon-dark.svg",
+      "docs/favicon.svg",
+      "docs/gpu.mdx",
+      "docs/images/claude-code-kimi-k2-6.png",
+      "docs/images/claude-cowork-kimi-k2-6.png",
+      "docs/images/cline-cli.png",
+      "docs/images/cline-kanban.png"
+    ],
+    "tests": []
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\039-ollama-ollama\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\039-ollama-ollama\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

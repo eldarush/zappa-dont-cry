@@ -1,0 +1,64 @@
+{
+  "harvested_at": "2026-06-07T20:49:14.1493427+03:00",
+  "rank": 166,
+  "repository": "animate-css/animate.css",
+  "url": "https://github.com/animate-css/animate.css",
+  "language": "CSS",
+  "stars": 82581,
+  "default_branch": "main",
+  "contract_strength": "readme_plus_runtime_hints",
+  "candidate_qaas_surfaces": [
+    "ci-documented-command-discovery",
+    "repo-contract-discovery-needed"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\166-animate-css-animate.css\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\166-animate-css-animate.css\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [],
+    "ci": [
+      ".github/workflows/codeql-analysis.yml"
+    ],
+    "containers": [],
+    "dotnet": [],
+    "node": [
+      "package.json",
+      "yarn.lock"
+    ],
+    "python": [],
+    "go": [],
+    "java": [],
+    "rust": [],
+    "docs": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "SECURITY.md",
+      "docs/CNAME",
+      "docs/animate.min.css",
+      "docs/img/animatecss-opengraph.jpg",
+      "docs/img/favicon.ico",
+      "docs/index.html",
+      "docs/main.mjs",
+      "docs/modules/buildDocsIndex.mjs",
+      "docs/modules/darkMode.mjs",
+      "docs/modules/playground.mjs",
+      "docs/modules/slowDownAnimations.mjs",
+      "docs/modules/startAnimations.mjs",
+      "docs/modules/toggle.mjs",
+      "docs/style.css",
+      "docsSource/sections/09-license-contributing.md"
+    ],
+    "tests": [
+      "source/specials/hinge.css",
+      "source/specials/jackInTheBox.css",
+      "source/specials/rollIn.css",
+      "source/specials/rollOut.css"
+    ]
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\166-animate-css-animate.css\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\166-animate-css-animate.css\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

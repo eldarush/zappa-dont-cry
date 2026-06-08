@@ -1,0 +1,100 @@
+{
+  "harvested_at": "2026-06-07T20:45:04.3583500+03:00",
+  "rank": 66,
+  "repository": "Chalarangelo/30-seconds-of-code",
+  "url": "https://github.com/Chalarangelo/30-seconds-of-code",
+  "language": "JavaScript",
+  "stars": 128033,
+  "default_branch": "master",
+  "contract_strength": "contract_files_found",
+  "candidate_qaas_surfaces": [
+    "api-contract-validation",
+    "runner-yaml-from-public-contract",
+    "ci-documented-command-discovery",
+    "node-service-or-package-contract",
+    "jvm-service-contract"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\066-Chalarangelo-30-seconds-of-code\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\066-Chalarangelo-30-seconds-of-code\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [
+      "content/snippets/js/s/classical-vs-prototypal-inheritance.md"
+    ],
+    "ci": [
+      ".github/workflows/deploy-production.yml",
+      ".github/workflows/label.yml",
+      ".github/workflows/stale.yml",
+      ".github/workflows/test.yml"
+    ],
+    "containers": [],
+    "dotnet": [],
+    "node": [
+      "package-lock.json",
+      "package.json"
+    ],
+    "python": [],
+    "go": [],
+    "java": [],
+    "rust": [],
+    "docs": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "SECURITY.md",
+      "content/snippets/articles/s/escaping-tutorial-hell.md",
+      "content/snippets/html/s/speculation-rules-api-first-look.md",
+      "content/snippets/js/s/capitalize-first-letter-of-string.md",
+      "content/snippets/js/s/user-centric-api-design.md",
+      "content/snippets/python/s/string-capitalize-camel-snake-kebab.md"
+    ],
+    "tests": [
+      "content/snippets/html/s/speculation-rules-api-first-look.md",
+      "content/snippets/js/s/specify-base-for-math-log.md",
+      "spec/core/model.test.js",
+      "spec/core/serializer.test.js",
+      "spec/factories/collectionFactory.js",
+      "spec/factories/collectionSnippetFactory.js",
+      "spec/factories/factories.js",
+      "spec/factories/languageFactory.js",
+      "spec/factories/snippetFactory.js",
+      "spec/fixtures/content/collections/css/index.yaml",
+      "spec/fixtures/content/collections/js/array-methods.yaml",
+      "spec/fixtures/content/collections/js/array.yaml",
+      "spec/fixtures/content/collections/js/index.yaml",
+      "spec/fixtures/content/collections/webdev.yaml",
+      "spec/fixtures/content/grammars.yaml",
+      "spec/fixtures/content/hub.yaml",
+      "spec/fixtures/content/languages/css.yaml",
+      "spec/fixtures/content/languages/html.yaml",
+      "spec/fixtures/content/languages/javascript.yaml",
+      "spec/fixtures/content/rankingEngine.yaml",
+      "spec/fixtures/content/snippets/articles/s/web-development-tips.md",
+      "spec/fixtures/content/snippets/css/s/content-centering.md",
+      "spec/fixtures/content/snippets/css/s/css-reset.md",
+      "spec/fixtures/content/snippets/js/s/array-compare.md",
+      "spec/fixtures/content/snippets/js/s/array-grouping.md",
+      "spec/fixtures/content/snippets/js/s/array-initialize.md",
+      "spec/fixtures/content/snippets/js/s/array-map-foreach.md",
+      "spec/lib/contentUtils/contentUtils.test.js",
+      "spec/lib/contentUtils/markdownParser/codeHighlighters/utils/metaParser.test.js",
+      "spec/lib/contentUtils/ranker.test.js",
+      "spec/lib/contentUtils/tocReader.test.js",
+      "spec/lib/search/utils.test.js",
+      "spec/lib/stringUtils.test.js",
+      "spec/mocks/lib/contentUtils/config.js",
+      "spec/models/collection.test.js",
+      "spec/models/contentModel.test.js",
+      "spec/models/snippet.test.js",
+      "spec/presenters/breadcrumbPresenter.test.js",
+      "spec/presenters/coverPresenter.test.js",
+      "spec/presenters/recommendationPresenter.test.js",
+      "spec/presenters/sublinkPresenter.test.js"
+    ]
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\066-Chalarangelo-30-seconds-of-code\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\066-Chalarangelo-30-seconds-of-code\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

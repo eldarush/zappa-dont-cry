@@ -1,0 +1,79 @@
+{
+  "harvested_at": "2026-06-07T20:51:15.2026660+03:00",
+  "rank": 229,
+  "repository": "hakimel/reveal.js",
+  "url": "https://github.com/hakimel/reveal.js",
+  "language": "JavaScript",
+  "stars": 71631,
+  "default_branch": "master",
+  "contract_strength": "readme_plus_runtime_hints",
+  "candidate_qaas_surfaces": [
+    "ci-documented-command-discovery",
+    "node-service-or-package-contract",
+    "jvm-service-contract"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\229-hakimel-reveal.js\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\229-hakimel-reveal.js\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [],
+    "ci": [
+      ".github/workflows/spellcheck.yml",
+      ".github/workflows/test.yml"
+    ],
+    "containers": [],
+    "dotnet": [],
+    "node": [
+      "package-lock.json",
+      "package.json",
+      "react/demo/package-lock.json",
+      "react/demo/package.json",
+      "react/demo/tsconfig.json",
+      "react/package-lock.json",
+      "react/package.json",
+      "react/tsconfig.json",
+      "tsconfig.json"
+    ],
+    "python": [],
+    "go": [],
+    "java": [],
+    "rust": [],
+    "docs": [
+      ".github/CONTRIBUTING.md",
+      "README.md",
+      "css/theme/README.md",
+      "react/README.md"
+    ],
+    "tests": [
+      "react/src/__tests__/setup.ts",
+      "test/assets/external-script-a.js",
+      "test/assets/external-script-b.js",
+      "test/assets/external-script-c.js",
+      "test/assets/external-script-d.js",
+      "test/simple.md",
+      "test/test-auto-animate.html",
+      "test/test-dependencies-async.html",
+      "test/test-dependencies.html",
+      "test/test-destroy.html",
+      "test/test-grid-navigation.html",
+      "test/test-iframe-backgrounds.html",
+      "test/test-iframes.html",
+      "test/test-markdown.html",
+      "test/test-mathjax4.html",
+      "test/test-multiple-instances-es5.html",
+      "test/test-multiple-instances.html",
+      "test/test-pdf.html",
+      "test/test-plugins.html",
+      "test/test-scroll.html",
+      "test/test-state.html",
+      "test/test.html",
+      "test/types/plugin-imports.ts"
+    ]
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\229-hakimel-reveal.js\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\229-hakimel-reveal.js\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

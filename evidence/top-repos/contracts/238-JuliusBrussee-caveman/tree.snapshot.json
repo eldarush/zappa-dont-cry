@@ -1,0 +1,1615 @@
+{
+  "sha": "655b7d9c5431f822264b7732e9901c5578ac84cf",
+  "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/655b7d9c5431f822264b7732e9901c5578ac84cf",
+  "tree": [
+    {
+      "path": ".agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "24e9df73f4be88aea1f4d919da353f01a22299ef",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/24e9df73f4be88aea1f4d919da353f01a22299ef"
+    },
+    {
+      "path": ".agents/plugins",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c293d959662660e6b49fb68e65f18a22c020befc",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/c293d959662660e6b49fb68e65f18a22c020befc"
+    },
+    {
+      "path": ".agents/plugins/marketplace.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "173d25ab6d8a24d4af266fc97d56634199009d19",
+      "size": 368,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/173d25ab6d8a24d4af266fc97d56634199009d19"
+    },
+    {
+      "path": ".agents/skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4f43708eea7116b711dcce50c14bc1906027c045",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/4f43708eea7116b711dcce50c14bc1906027c045"
+    },
+    {
+      "path": ".agents/skills/cavecrew",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "41f7a678cd5dbea613f8fac91a9db4684e3e35fe",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/41f7a678cd5dbea613f8fac91a9db4684e3e35fe"
+    },
+    {
+      "path": ".agents/skills/cavecrew/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efa413fd7373d92c56598e721b63167207f0f50c",
+      "size": 3936,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/efa413fd7373d92c56598e721b63167207f0f50c"
+    },
+    {
+      "path": ".claude-plugin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b91097412f1fce2061c3a9092bf5cc323aa7bc6b",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/b91097412f1fce2061c3a9092bf5cc323aa7bc6b"
+    },
+    {
+      "path": ".claude-plugin/marketplace.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7dd76845b40902808e213a1cb4e6fb6d49e38475",
+      "size": 525,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/7dd76845b40902808e213a1cb4e6fb6d49e38475"
+    },
+    {
+      "path": ".claude-plugin/plugin.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbdc9a1292c85661361a7b6137a3668d12212987",
+      "size": 882,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/fbdc9a1292c85661361a7b6137a3668d12212987"
+    },
+    {
+      "path": ".codex",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1f91f5a3b277173320b31a1984c212259410f1c8",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/1f91f5a3b277173320b31a1984c212259410f1c8"
+    },
+    {
+      "path": ".codex/config.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "146af7eb8e7c5ede8c551dba3b4fd0ccedc85b9a",
+      "size": 24,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/146af7eb8e7c5ede8c551dba3b4fd0ccedc85b9a"
+    },
+    {
+      "path": ".codex/hooks.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bbedc0065bb292ac6ceee935ee3b485df060d28",
+      "size": 622,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/4bbedc0065bb292ac6ceee935ee3b485df060d28"
+    },
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "size": 66,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/dfe0770424b2a19faf507a501ebfc23be8f54e7b"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2e6f3b3ff3f5b95efc2efbe35bc508bfaacacaae",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/2e6f3b3ff3f5b95efc2efbe35bc508bfaacacaae"
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f31bd859fa576c8f38bf96d5ca9513bb054d17a",
+      "size": 857,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/4f31bd859fa576c8f38bf96d5ca9513bb054d17a"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9ddfca0b572638837821e3a99a41239502856c4f",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/9ddfca0b572638837821e3a99a41239502856c4f"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8ecf04f9fce506dc4fa71ec4d7f3aed3ee88470",
+      "size": 373,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/a8ecf04f9fce506dc4fa71ec4d7f3aed3ee88470"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8f9d9de74175a23f62944ceee53b1bbda4aee1a",
+      "size": 272,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/e8f9d9de74175a23f62944ceee53b1bbda4aee1a"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "542c7365ff80664afcb761dc5e511444a4fac18a",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/542c7365ff80664afcb761dc5e511444a4fac18a"
+    },
+    {
+      "path": ".github/workflows/sync-skill.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fa6253f9e29bcb39fc6190b8b2d1b77bb9e36a6",
+      "size": 2600,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/4fa6253f9e29bcb39fc6190b8b2d1b77bb9e36a6"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be5bedb1b00f2edc5e88b36f9f2a922d626e5c9e",
+      "size": 261,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/be5bedb1b00f2edc5e88b36f9f2a922d626e5c9e"
+    },
+    {
+      "path": ".junie",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8e36e2407bd597e46577d11c2159e82169bebdc1",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/8e36e2407bd597e46577d11c2159e82169bebdc1"
+    },
+    {
+      "path": ".junie/skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4f43708eea7116b711dcce50c14bc1906027c045",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/4f43708eea7116b711dcce50c14bc1906027c045"
+    },
+    {
+      "path": ".junie/skills/cavecrew",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "41f7a678cd5dbea613f8fac91a9db4684e3e35fe",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/41f7a678cd5dbea613f8fac91a9db4684e3e35fe"
+    },
+    {
+      "path": ".junie/skills/cavecrew/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efa413fd7373d92c56598e721b63167207f0f50c",
+      "size": 3936,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/efa413fd7373d92c56598e721b63167207f0f50c"
+    },
+    {
+      "path": ".kiro",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8e36e2407bd597e46577d11c2159e82169bebdc1",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/8e36e2407bd597e46577d11c2159e82169bebdc1"
+    },
+    {
+      "path": ".kiro/skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4f43708eea7116b711dcce50c14bc1906027c045",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/4f43708eea7116b711dcce50c14bc1906027c045"
+    },
+    {
+      "path": ".kiro/skills/cavecrew",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "41f7a678cd5dbea613f8fac91a9db4684e3e35fe",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/41f7a678cd5dbea613f8fac91a9db4684e3e35fe"
+    },
+    {
+      "path": ".kiro/skills/cavecrew/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efa413fd7373d92c56598e721b63167207f0f50c",
+      "size": 3936,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/efa413fd7373d92c56598e721b63167207f0f50c"
+    },
+    {
+      "path": ".roo",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8e36e2407bd597e46577d11c2159e82169bebdc1",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/8e36e2407bd597e46577d11c2159e82169bebdc1"
+    },
+    {
+      "path": ".roo/skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4f43708eea7116b711dcce50c14bc1906027c045",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/4f43708eea7116b711dcce50c14bc1906027c045"
+    },
+    {
+      "path": ".roo/skills/cavecrew",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "41f7a678cd5dbea613f8fac91a9db4684e3e35fe",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/41f7a678cd5dbea613f8fac91a9db4684e3e35fe"
+    },
+    {
+      "path": ".roo/skills/cavecrew/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efa413fd7373d92c56598e721b63167207f0f50c",
+      "size": 3936,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/efa413fd7373d92c56598e721b63167207f0f50c"
+    },
+    {
+      "path": "AGENTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03df523f448361e055a77f41338aee5ba2f60621",
+      "size": 131,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/03df523f448361e055a77f41338aee5ba2f60621"
+    },
+    {
+      "path": "CLAUDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "971f5c770e0e54e55e8a044d60cb4fa472f4342b",
+      "size": 23966,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/971f5c770e0e54e55e8a044d60cb4fa472f4342b"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac9293c25aa23737aced26fded26477081711602",
+      "size": 9522,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/ac9293c25aa23737aced26fded26477081711602"
+    },
+    {
+      "path": "GEMINI.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03df523f448361e055a77f41338aee5ba2f60621",
+      "size": 131,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/03df523f448361e055a77f41338aee5ba2f60621"
+    },
+    {
+      "path": "INSTALL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4def7b62006d186facc6399bd75ff78618a609af",
+      "size": 13890,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/4def7b62006d186facc6399bd75ff78618a609af"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8c0ee8a752aeb14ee42044c3238e191f7571ac6",
+      "size": 1071,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/d8c0ee8a752aeb14ee42044c3238e191f7571ac6"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60ab574493b2bdd127235bd1d468a3d8679a737f",
+      "size": 12204,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/60ab574493b2bdd127235bd1d468a3d8679a737f"
+    },
+    {
+      "path": "agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8e318bc223b7f35072746b761dfc9a8db9fd89d2",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/8e318bc223b7f35072746b761dfc9a8db9fd89d2"
+    },
+    {
+      "path": "agents/cavecrew-builder.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65750df38b839b4af958d5d1eff072c9b923b39c",
+      "size": 1458,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/65750df38b839b4af958d5d1eff072c9b923b39c"
+    },
+    {
+      "path": "agents/cavecrew-investigator.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be274987237b82aa9d5852ba5ca80dda1a1358cc",
+      "size": 1610,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/be274987237b82aa9d5852ba5ca80dda1a1358cc"
+    },
+    {
+      "path": "agents/cavecrew-reviewer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97049ce9ef4117414e35ff040a4c77bfd98058ce",
+      "size": 1554,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/97049ce9ef4117414e35ff040a4c77bfd98058ce"
+    },
+    {
+      "path": "benchmarks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "54600a3743d1bca79511ac33dd710fdb220380af",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/54600a3743d1bca79511ac33dd710fdb220380af"
+    },
+    {
+      "path": "benchmarks/prompts.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1db983cdf4aece55eef7a344a6d51b1818f2195f",
+      "size": 2676,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/1db983cdf4aece55eef7a344a6d51b1818f2195f"
+    },
+    {
+      "path": "benchmarks/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2db0540d8188fbae478890554034472a25f1e722",
+      "size": 18,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/2db0540d8188fbae478890554034472a25f1e722"
+    },
+    {
+      "path": "benchmarks/results",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+    },
+    {
+      "path": "benchmarks/results/.gitkeep",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "benchmarks/run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e2951f53d97f7af7c8045ee1b3f8967402ad1dd",
+      "size": 8993,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/0e2951f53d97f7af7c8045ee1b3f8967402ad1dd"
+    },
+    {
+      "path": "bin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bc1b0c12395012eefd4f2a880b9022063ee0e0fc",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/bc1b0c12395012eefd4f2a880b9022063ee0e0fc"
+    },
+    {
+      "path": "bin/install.js",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "def0d14437e631e1f6c6cd4c5b399fc9985d871d",
+      "size": 59559,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/def0d14437e631e1f6c6cd4c5b399fc9985d871d"
+    },
+    {
+      "path": "bin/lib",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bb58b1e554806463b34c1260f793d1b61fc0befa",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/bb58b1e554806463b34c1260f793d1b61fc0befa"
+    },
+    {
+      "path": "bin/lib/openclaw.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ee844d28ff94535bf23eaa2c6237711fd4a4649",
+      "size": 10051,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/3ee844d28ff94535bf23eaa2c6237711fd4a4649"
+    },
+    {
+      "path": "bin/lib/settings.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45c248d93b1ae6aa907f85cab9a976cefe2273f2",
+      "size": 10581,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/45c248d93b1ae6aa907f85cab9a976cefe2273f2"
+    },
+    {
+      "path": "commands",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bcfb357f1cb17614905943f64c9af960bc397642",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/bcfb357f1cb17614905943f64c9af960bc397642"
+    },
+    {
+      "path": "commands/caveman-commit.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2487bac80790ce12afc321ddd9662a000d84f535",
+      "size": 307,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/2487bac80790ce12afc321ddd9662a000d84f535"
+    },
+    {
+      "path": "commands/caveman-init.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "222b22004efa11641f98f567aeb887749dd0011f",
+      "size": 309,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/222b22004efa11641f98f567aeb887749dd0011f"
+    },
+    {
+      "path": "commands/caveman-review.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dccf3f30812de2f88623d954eb3ce540d2e77bc",
+      "size": 254,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/6dccf3f30812de2f88623d954eb3ce540d2e77bc"
+    },
+    {
+      "path": "commands/caveman.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4707259391ba39eab96fb855dcb579a3533d6afc",
+      "size": 325,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/4707259391ba39eab96fb855dcb579a3533d6afc"
+    },
+    {
+      "path": "dist",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "93fa89db7c3473fe9ff16d098f40cfef8a78f8a0",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/93fa89db7c3473fe9ff16d098f40cfef8a78f8a0"
+    },
+    {
+      "path": "dist/caveman.skill",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62ccdd032d47c11c9a796b97dd85d53af3a2093c",
+      "size": 3504,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/62ccdd032d47c11c9a796b97dd85d53af3a2093c"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9f46c904171041a0fa6f0db0f63c6f4db2f75647",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/9f46c904171041a0fa6f0db0f63c6f4db2f75647"
+    },
+    {
+      "path": "docs/.nojekyll",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "size": 1,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/8b137891791fe96927ad78e64b0aad7bded08bdc"
+    },
+    {
+      "path": "docs/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6805de6e723c5a7c7ceaddbbd982af5ffae08681",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/6805de6e723c5a7c7ceaddbbd982af5ffae08681"
+    },
+    {
+      "path": "docs/assets/dancing-rock-32.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "602dc096fee89b42b369956cc6af882ad840cb44",
+      "size": 117,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/602dc096fee89b42b369956cc6af882ad840cb44"
+    },
+    {
+      "path": "docs/assets/dancing-rock.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5b1f13b3cd9cd15dfbfa4483dbad8927e22b1e3",
+      "size": 16736,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/e5b1f13b3cd9cd15dfbfa4483dbad8927e22b1e3"
+    },
+    {
+      "path": "docs/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "750504895847457bc42a2677924af811ed336a49",
+      "size": 23091,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/750504895847457bc42a2677924af811ed336a49"
+    },
+    {
+      "path": "docs/install-windows.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ab54023d41f5b428ddc65cd966a6a72f28b7a1f",
+      "size": 2917,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/8ab54023d41f5b428ddc65cd966a6a72f28b7a1f"
+    },
+    {
+      "path": "evals",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "53cbee177a62c19f16450e1c47f72c25f8ba5a43",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/53cbee177a62c19f16450e1c47f72c25f8ba5a43"
+    },
+    {
+      "path": "evals/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5752014065ec4e8b8dcf790fd9c9786d996fa550",
+      "size": 3119,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/5752014065ec4e8b8dcf790fd9c9786d996fa550"
+    },
+    {
+      "path": "evals/llm_run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "795ef07de3b858677d84e571e8777b82c71f1299",
+      "size": 3311,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/795ef07de3b858677d84e571e8777b82c71f1299"
+    },
+    {
+      "path": "evals/measure.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1b1092ab25b40257c6d99e4b61a0ff1751798b1",
+      "size": 3626,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/f1b1092ab25b40257c6d99e4b61a0ff1751798b1"
+    },
+    {
+      "path": "evals/plot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42aab23cd95432fa49c4c204883d9ec4155af304",
+      "size": 4550,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/42aab23cd95432fa49c4c204883d9ec4155af304"
+    },
+    {
+      "path": "evals/prompts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5d1b7e5e495ea715668cf1b48d9991f73f2810ba",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/5d1b7e5e495ea715668cf1b48d9991f73f2810ba"
+    },
+    {
+      "path": "evals/prompts/en.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e05a4dfc3f80b484060b785bc9289885b51ac9d2",
+      "size": 506,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/e05a4dfc3f80b484060b785bc9289885b51ac9d2"
+    },
+    {
+      "path": "evals/snapshots",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ff13ab04fcabd256da12a8c23fd18986bf345e99",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/ff13ab04fcabd256da12a8c23fd18986bf345e99"
+    },
+    {
+      "path": "evals/snapshots/results.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c76d9b565abd1b4d92edfabbf7d625571c21fe02",
+      "size": 37727,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/c76d9b565abd1b4d92edfabbf7d625571c21fe02"
+    },
+    {
+      "path": "gemini-extension.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4432d1e49fbc804f5a410496559f22515928472",
+      "size": 223,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/b4432d1e49fbc804f5a410496559f22515928472"
+    },
+    {
+      "path": "install.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d17778980ab411a748b7a3a3e05b6c6167ae0e0a",
+      "size": 1909,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/d17778980ab411a748b7a3a3e05b6c6167ae0e0a"
+    },
+    {
+      "path": "install.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "87dbe4a3ae64ff6e835a19c582ace61e6f505fe3",
+      "size": 2114,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/87dbe4a3ae64ff6e835a19c582ace61e6f505fe3"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27f1a304370c7722a7269ac8f1eed033b9282b7e",
+      "size": 777,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/27f1a304370c7722a7269ac8f1eed033b9282b7e"
+    },
+    {
+      "path": "plugins",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b01bf313bacb61e98d35b3fc3a9a57b495b4b638",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/b01bf313bacb61e98d35b3fc3a9a57b495b4b638"
+    },
+    {
+      "path": "plugins/caveman",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4c5fb45044ac48cca1a95a7abc09fd9f7e83548d",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/4c5fb45044ac48cca1a95a7abc09fd9f7e83548d"
+    },
+    {
+      "path": "plugins/caveman/.codex-plugin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "241b75062225f32d3f10e4b8a572ec8535045c80",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/241b75062225f32d3f10e4b8a572ec8535045c80"
+    },
+    {
+      "path": "plugins/caveman/.codex-plugin/plugin.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7822753de45c8fdc71cd1b9b5ed0ed601d09edb3",
+      "size": 1327,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/7822753de45c8fdc71cd1b9b5ed0ed601d09edb3"
+    },
+    {
+      "path": "plugins/caveman/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8e318bc223b7f35072746b761dfc9a8db9fd89d2",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/8e318bc223b7f35072746b761dfc9a8db9fd89d2"
+    },
+    {
+      "path": "plugins/caveman/agents/cavecrew-builder.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65750df38b839b4af958d5d1eff072c9b923b39c",
+      "size": 1458,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/65750df38b839b4af958d5d1eff072c9b923b39c"
+    },
+    {
+      "path": "plugins/caveman/agents/cavecrew-investigator.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be274987237b82aa9d5852ba5ca80dda1a1358cc",
+      "size": 1610,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/be274987237b82aa9d5852ba5ca80dda1a1358cc"
+    },
+    {
+      "path": "plugins/caveman/agents/cavecrew-reviewer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97049ce9ef4117414e35ff040a4c77bfd98058ce",
+      "size": 1554,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/97049ce9ef4117414e35ff040a4c77bfd98058ce"
+    },
+    {
+      "path": "plugins/caveman/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3565a3431d643d43f64dd66d2a52fc9cf5bacbb7",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/3565a3431d643d43f64dd66d2a52fc9cf5bacbb7"
+    },
+    {
+      "path": "plugins/caveman/assets/caveman-small.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d85603ea78707c58fda97e97af57486986959c6f",
+      "size": 471,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/d85603ea78707c58fda97e97af57486986959c6f"
+    },
+    {
+      "path": "plugins/caveman/assets/caveman.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c19d09ba2b9882367d4bb987c2be64ab46caeef7",
+      "size": 487,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/c19d09ba2b9882367d4bb987c2be64ab46caeef7"
+    },
+    {
+      "path": "plugins/caveman/skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ddd8be7c765264e023ae1ff06d1bed95439bac77",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/ddd8be7c765264e023ae1ff06d1bed95439bac77"
+    },
+    {
+      "path": "plugins/caveman/skills/cavecrew",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "41f7a678cd5dbea613f8fac91a9db4684e3e35fe",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/41f7a678cd5dbea613f8fac91a9db4684e3e35fe"
+    },
+    {
+      "path": "plugins/caveman/skills/cavecrew/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efa413fd7373d92c56598e721b63167207f0f50c",
+      "size": 3936,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/efa413fd7373d92c56598e721b63167207f0f50c"
+    },
+    {
+      "path": "plugins/caveman/skills/caveman-compress",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ca386cecd364d9b9de7e8ed8d8b0af494fb86684",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/ca386cecd364d9b9de7e8ed8d8b0af494fb86684"
+    },
+    {
+      "path": "plugins/caveman/skills/caveman-compress/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00ce4543b2fbd2456619657c328f5542569e76cd",
+      "size": 4535,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/00ce4543b2fbd2456619657c328f5542569e76cd"
+    },
+    {
+      "path": "plugins/caveman/skills/caveman-compress/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "658e74d82c2c21a0fc6939f1f053325510aabe21",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/658e74d82c2c21a0fc6939f1f053325510aabe21"
+    },
+    {
+      "path": "plugins/caveman/skills/caveman-compress/scripts/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16b8c53c2ca7f8c7c105a0f6c72a46acbd02fec4",
+      "size": 224,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/16b8c53c2ca7f8c7c105a0f6c72a46acbd02fec4"
+    },
+    {
+      "path": "plugins/caveman/skills/caveman-compress/scripts/__main__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e28416e104515e90fca4b69cc60d0c61fd15d61",
+      "size": 30,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/4e28416e104515e90fca4b69cc60d0c61fd15d61"
+    },
+    {
+      "path": "plugins/caveman/skills/caveman-compress/scripts/benchmark.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9e2ee011ed76672f0c09a8fb63237fc795eaec4",
+      "size": 2425,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/f9e2ee011ed76672f0c09a8fb63237fc795eaec4"
+    },
+    {
+      "path": "plugins/caveman/skills/caveman-compress/scripts/cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c314f8721c787258845d605b0b777214d5432102",
+      "size": 2064,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/c314f8721c787258845d605b0b777214d5432102"
+    },
+    {
+      "path": "plugins/caveman/skills/caveman-compress/scripts/compress.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7adc4fbaf484eec4f381f6f4ea3b94f2ece2b047",
+      "size": 8827,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/7adc4fbaf484eec4f381f6f4ea3b94f2ece2b047"
+    },
+    {
+      "path": "plugins/caveman/skills/caveman-compress/scripts/detect.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d5f6d7e77a8993156afdb6f075344a8f7d896b5",
+      "size": 4064,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/8d5f6d7e77a8993156afdb6f075344a8f7d896b5"
+    },
+    {
+      "path": "plugins/caveman/skills/caveman-compress/scripts/validate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc07307b1df2fcc8c96fdc11d2de8589ced3ff3e",
+      "size": 5752,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/dc07307b1df2fcc8c96fdc11d2de8589ced3ff3e"
+    },
+    {
+      "path": "plugins/caveman/skills/caveman-stats",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b18f5f97d4c5234dfa45bf8e0f155cdcc7755d04",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/b18f5f97d4c5234dfa45bf8e0f155cdcc7755d04"
+    },
+    {
+      "path": "plugins/caveman/skills/caveman-stats/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7348ac62199740477e2b87f7ed7eb0bfa1abaa3",
+      "size": 607,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/a7348ac62199740477e2b87f7ed7eb0bfa1abaa3"
+    },
+    {
+      "path": "plugins/caveman/skills/caveman",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "309622dcb4f658baf01762b0b95652c885ddc44e",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/309622dcb4f658baf01762b0b95652c885ddc44e"
+    },
+    {
+      "path": "plugins/caveman/skills/caveman/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "073d6bb10d2a7bad34fa8d180dc17bbfd98180f5",
+      "size": 3916,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/073d6bb10d2a7bad34fa8d180dc17bbfd98180f5"
+    },
+    {
+      "path": "plugins/caveman/skills/caveman/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "38edad74d2fb8dfea3433fd013df71c6ff307209",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/38edad74d2fb8dfea3433fd013df71c6ff307209"
+    },
+    {
+      "path": "plugins/caveman/skills/caveman/agents/openai.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7cda02191dfd56885a320ef82a77208acf0b0ab",
+      "size": 300,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/b7cda02191dfd56885a320ef82a77208acf0b0ab"
+    },
+    {
+      "path": "plugins/caveman/skills/caveman/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3565a3431d643d43f64dd66d2a52fc9cf5bacbb7",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/3565a3431d643d43f64dd66d2a52fc9cf5bacbb7"
+    },
+    {
+      "path": "plugins/caveman/skills/caveman/assets/caveman-small.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d85603ea78707c58fda97e97af57486986959c6f",
+      "size": 471,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/d85603ea78707c58fda97e97af57486986959c6f"
+    },
+    {
+      "path": "plugins/caveman/skills/caveman/assets/caveman.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c19d09ba2b9882367d4bb987c2be64ab46caeef7",
+      "size": 487,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/c19d09ba2b9882367d4bb987c2be64ab46caeef7"
+    },
+    {
+      "path": "skills-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cac7a593d662ef60e742299d4f596d134676029",
+      "size": 269,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/7cac7a593d662ef60e742299d4f596d134676029"
+    },
+    {
+      "path": "skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bb926e970d101acc53b4a0fd273f1c56aaa303da",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/bb926e970d101acc53b4a0fd273f1c56aaa303da"
+    },
+    {
+      "path": "skills/cavecrew",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "de99644a837172940aefcfab4e51f19344ba98df",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/de99644a837172940aefcfab4e51f19344ba98df"
+    },
+    {
+      "path": "skills/cavecrew/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e72295256636ae4439e2a76fe7af7ea729acc859",
+      "size": 2009,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/e72295256636ae4439e2a76fe7af7ea729acc859"
+    },
+    {
+      "path": "skills/cavecrew/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efa413fd7373d92c56598e721b63167207f0f50c",
+      "size": 3936,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/efa413fd7373d92c56598e721b63167207f0f50c"
+    },
+    {
+      "path": "skills/caveman-commit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "34e52a2870460e4ed4b79049d5a2569097c0710e",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/34e52a2870460e4ed4b79049d5a2569097c0710e"
+    },
+    {
+      "path": "skills/caveman-commit/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5aee01395009525d3b4f68e80764cbc3de6bf57",
+      "size": 1226,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/d5aee01395009525d3b4f68e80764cbc3de6bf57"
+    },
+    {
+      "path": "skills/caveman-commit/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "729318c3f9e0edd66408f2ffd2fa1371b14ac686",
+      "size": 2481,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/729318c3f9e0edd66408f2ffd2fa1371b14ac686"
+    },
+    {
+      "path": "skills/caveman-compress",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "405938e27e3c90858bc7ed88ff07d6aa0d3cbd2c",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/405938e27e3c90858bc7ed88ff07d6aa0d3cbd2c"
+    },
+    {
+      "path": "skills/caveman-compress/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ef6922b7f95bd05a289cf2273f79699b9412025",
+      "size": 5305,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/3ef6922b7f95bd05a289cf2273f79699b9412025"
+    },
+    {
+      "path": "skills/caveman-compress/SECURITY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "693108c58eb24e5763b52c8646952c95ff471d9b",
+      "size": 1557,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/693108c58eb24e5763b52c8646952c95ff471d9b"
+    },
+    {
+      "path": "skills/caveman-compress/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00ce4543b2fbd2456619657c328f5542569e76cd",
+      "size": 4535,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/00ce4543b2fbd2456619657c328f5542569e76cd"
+    },
+    {
+      "path": "skills/caveman-compress/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "658e74d82c2c21a0fc6939f1f053325510aabe21",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/658e74d82c2c21a0fc6939f1f053325510aabe21"
+    },
+    {
+      "path": "skills/caveman-compress/scripts/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16b8c53c2ca7f8c7c105a0f6c72a46acbd02fec4",
+      "size": 224,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/16b8c53c2ca7f8c7c105a0f6c72a46acbd02fec4"
+    },
+    {
+      "path": "skills/caveman-compress/scripts/__main__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e28416e104515e90fca4b69cc60d0c61fd15d61",
+      "size": 30,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/4e28416e104515e90fca4b69cc60d0c61fd15d61"
+    },
+    {
+      "path": "skills/caveman-compress/scripts/benchmark.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9e2ee011ed76672f0c09a8fb63237fc795eaec4",
+      "size": 2425,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/f9e2ee011ed76672f0c09a8fb63237fc795eaec4"
+    },
+    {
+      "path": "skills/caveman-compress/scripts/cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c314f8721c787258845d605b0b777214d5432102",
+      "size": 2064,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/c314f8721c787258845d605b0b777214d5432102"
+    },
+    {
+      "path": "skills/caveman-compress/scripts/compress.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7adc4fbaf484eec4f381f6f4ea3b94f2ece2b047",
+      "size": 8827,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/7adc4fbaf484eec4f381f6f4ea3b94f2ece2b047"
+    },
+    {
+      "path": "skills/caveman-compress/scripts/detect.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d5f6d7e77a8993156afdb6f075344a8f7d896b5",
+      "size": 4064,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/8d5f6d7e77a8993156afdb6f075344a8f7d896b5"
+    },
+    {
+      "path": "skills/caveman-compress/scripts/validate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc07307b1df2fcc8c96fdc11d2de8589ced3ff3e",
+      "size": 5752,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/dc07307b1df2fcc8c96fdc11d2de8589ced3ff3e"
+    },
+    {
+      "path": "skills/caveman-help",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "91d43545d1f02e9ef95051b42ee562867362fe6e",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/91d43545d1f02e9ef95051b42ee562867362fe6e"
+    },
+    {
+      "path": "skills/caveman-help/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5841256fad5f042860c8924ccd6dd1452ee3d0f0",
+      "size": 976,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/5841256fad5f042860c8924ccd6dd1452ee3d0f0"
+    },
+    {
+      "path": "skills/caveman-help/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "252221f386ff79020e32ba7eccf65ae3588427f0",
+      "size": 2045,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/252221f386ff79020e32ba7eccf65ae3588427f0"
+    },
+    {
+      "path": "skills/caveman-review",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2d9762b7aec395b9713fde57fb8965bc3bbd2c3f",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/2d9762b7aec395b9713fde57fb8965bc3bbd2c3f"
+    },
+    {
+      "path": "skills/caveman-review/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acf519fe7a8c3970e6fd1d2557a3c741d63992b3",
+      "size": 1210,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/acf519fe7a8c3970e6fd1d2557a3c741d63992b3"
+    },
+    {
+      "path": "skills/caveman-review/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48f4adbfc00f79e447f9c9ebd48044f58aaccdca",
+      "size": 2739,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/48f4adbfc00f79e447f9c9ebd48044f58aaccdca"
+    },
+    {
+      "path": "skills/caveman-stats",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "62b175240e2851f0b9be4f279737cbd74ed2e769",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/62b175240e2851f0b9be4f279737cbd74ed2e769"
+    },
+    {
+      "path": "skills/caveman-stats/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30b28f90db90e7f3bbb06a5babd91f7be4f06dcd",
+      "size": 936,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/30b28f90db90e7f3bbb06a5babd91f7be4f06dcd"
+    },
+    {
+      "path": "skills/caveman-stats/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7348ac62199740477e2b87f7ed7eb0bfa1abaa3",
+      "size": 607,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/a7348ac62199740477e2b87f7ed7eb0bfa1abaa3"
+    },
+    {
+      "path": "skills/caveman",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "75b63aa9ec7bbb0e72bb6b3524ff6b576c14a05a",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/75b63aa9ec7bbb0e72bb6b3524ff6b576c14a05a"
+    },
+    {
+      "path": "skills/caveman/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d749b8343a99fec075c3f29587d2f984788d67c4",
+      "size": 1891,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/d749b8343a99fec075c3f29587d2f984788d67c4"
+    },
+    {
+      "path": "skills/caveman/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "073d6bb10d2a7bad34fa8d180dc17bbfd98180f5",
+      "size": 3916,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/073d6bb10d2a7bad34fa8d180dc17bbfd98180f5"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c795bf7382574e3795194ec328ad523ae5aea425",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/c795bf7382574e3795194ec328ad523ae5aea425"
+    },
+    {
+      "path": "src/hooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e03d325a6e524bab83ab693d396a842bbd88acdf",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/e03d325a6e524bab83ab693d396a842bbd88acdf"
+    },
+    {
+      "path": "src/hooks/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04e97e58796f6e56ef988edd1f2984965ee55e84",
+      "size": 5301,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/04e97e58796f6e56ef988edd1f2984965ee55e84"
+    },
+    {
+      "path": "src/hooks/caveman-activate.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09ae04cd637ad24ad852eafef6f34c85a0c2e342",
+      "size": 6273,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/09ae04cd637ad24ad852eafef6f34c85a0c2e342"
+    },
+    {
+      "path": "src/hooks/caveman-config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d573f95869468e4172ff84f3a2e38a7955230916",
+      "size": 10032,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/d573f95869468e4172ff84f3a2e38a7955230916"
+    },
+    {
+      "path": "src/hooks/caveman-mode-tracker.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41bcb04a1b6730dc1b6f4f5bb3159064e1aa3511",
+      "size": 5771,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/41bcb04a1b6730dc1b6f4f5bb3159064e1aa3511"
+    },
+    {
+      "path": "src/hooks/caveman-stats.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "008603b49472d94d5b60c339e4c157a92fa82a3a",
+      "size": 14219,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/008603b49472d94d5b60c339e4c157a92fa82a3a"
+    },
+    {
+      "path": "src/hooks/caveman-statusline.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "345749a9c74f0c5c79eb4a135e4c692f54beccf0",
+      "size": 2563,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/345749a9c74f0c5c79eb4a135e4c692f54beccf0"
+    },
+    {
+      "path": "src/hooks/caveman-statusline.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "94f40c086d6ee5f666a8cac4abf2472fe971dfdd",
+      "size": 2260,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/94f40c086d6ee5f666a8cac4abf2472fe971dfdd"
+    },
+    {
+      "path": "src/hooks/install.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef975406c0f3c667c52417445365824cacd3d428",
+      "size": 7566,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/ef975406c0f3c667c52417445365824cacd3d428"
+    },
+    {
+      "path": "src/hooks/install.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "90be58a89639906ea570480a4548271e1b92dca1",
+      "size": 6894,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/90be58a89639906ea570480a4548271e1b92dca1"
+    },
+    {
+      "path": "src/hooks/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bbefffbabee392d1855491b84dc0a716b6a3bf2",
+      "size": 25,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/5bbefffbabee392d1855491b84dc0a716b6a3bf2"
+    },
+    {
+      "path": "src/hooks/uninstall.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10021f62b9cae4ab8e04b8222ab895c323b1dd11",
+      "size": 4960,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/10021f62b9cae4ab8e04b8222ab895c323b1dd11"
+    },
+    {
+      "path": "src/hooks/uninstall.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8d9af5436c739e6812c51b8ebe84e3dcd24427fe",
+      "size": 4612,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/8d9af5436c739e6812c51b8ebe84e3dcd24427fe"
+    },
+    {
+      "path": "src/mcp-servers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a5ea5db6d35214f916b5db44b986f24a39ffd2fd",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/a5ea5db6d35214f916b5db44b986f24a39ffd2fd"
+    },
+    {
+      "path": "src/mcp-servers/caveman-shrink",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "52925d822d20e26ca6d0143852329e5a02061c98",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/52925d822d20e26ca6d0143852329e5a02061c98"
+    },
+    {
+      "path": "src/mcp-servers/caveman-shrink/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7de2b3bdb0f0dd94f524eec12b0d68a1cc953542",
+      "size": 2202,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/7de2b3bdb0f0dd94f524eec12b0d68a1cc953542"
+    },
+    {
+      "path": "src/mcp-servers/caveman-shrink/compress.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6edbb99be59547db10c956da291a41b35b2d4142",
+      "size": 4379,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/6edbb99be59547db10c956da291a41b35b2d4142"
+    },
+    {
+      "path": "src/mcp-servers/caveman-shrink/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "074410116eff8e0cae0d61eb26c90bc5b539d42d",
+      "size": 4378,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/074410116eff8e0cae0d61eb26c90bc5b539d42d"
+    },
+    {
+      "path": "src/mcp-servers/caveman-shrink/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1dff833671b390ae718ce3fcd88ce6508479961",
+      "size": 719,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/b1dff833671b390ae718ce3fcd88ce6508479961"
+    },
+    {
+      "path": "src/plugins",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b00ed3d9ad5583adaf5475648127964d9289bdcf",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/b00ed3d9ad5583adaf5475648127964d9289bdcf"
+    },
+    {
+      "path": "src/plugins/opencode",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "574cb54c2bb2969b8fd5a26e06b27bf38de58c68",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/574cb54c2bb2969b8fd5a26e06b27bf38de58c68"
+    },
+    {
+      "path": "src/plugins/opencode/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c6819888941fcfa07a4822b453dcaa485077196",
+      "size": 2140,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/1c6819888941fcfa07a4822b453dcaa485077196"
+    },
+    {
+      "path": "src/plugins/opencode/commands",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f4dc55c519623dc87fba43bca379d492c3ca2b8a",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/f4dc55c519623dc87fba43bca379d492c3ca2b8a"
+    },
+    {
+      "path": "src/plugins/opencode/commands/caveman-commit.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c5025dbb766e580bde53f57f6c5529bc81bacd2",
+      "size": 374,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/7c5025dbb766e580bde53f57f6c5529bc81bacd2"
+    },
+    {
+      "path": "src/plugins/opencode/commands/caveman-help.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4538f8858e99d9473db792a35ccb916b72a4fc7d",
+      "size": 763,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/4538f8858e99d9473db792a35ccb916b72a4fc7d"
+    },
+    {
+      "path": "src/plugins/opencode/commands/caveman-review.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bfdc5775b3c352553419b29bd8a8a2ec4375c5e",
+      "size": 319,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/0bfdc5775b3c352553419b29bd8a8a2ec4375c5e"
+    },
+    {
+      "path": "src/plugins/opencode/commands/caveman-stats.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b76ec2720155c056cb7667e7fc66f0b74a300143",
+      "size": 337,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/b76ec2720155c056cb7667e7fc66f0b74a300143"
+    },
+    {
+      "path": "src/plugins/opencode/commands/caveman.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10f98c7cc9e1e57a688040366e83359cfcf9d726",
+      "size": 500,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/10f98c7cc9e1e57a688040366e83359cfcf9d726"
+    },
+    {
+      "path": "src/plugins/opencode/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0971a1cd8270cf86d29501c374c09584385725c",
+      "size": 213,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/f0971a1cd8270cf86d29501c374c09584385725c"
+    },
+    {
+      "path": "src/plugins/opencode/plugin.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f3a870e061709a10afe58f2e3821829aff02765",
+      "size": 5957,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/7f3a870e061709a10afe58f2e3821829aff02765"
+    },
+    {
+      "path": "src/rules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a926bfa39e36253772d9922b6b545a3f5d81b6bf",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/a926bfa39e36253772d9922b6b545a3f5d81b6bf"
+    },
+    {
+      "path": "src/rules/caveman-activate.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9ab1bbf614d98e51b0cea543975d6df906afc3c",
+      "size": 615,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/a9ab1bbf614d98e51b0cea543975d6df906afc3c"
+    },
+    {
+      "path": "src/rules/caveman-openclaw-bootstrap.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa2f1c56370262450c5a352799274da0acfcfc1d",
+      "size": 665,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/aa2f1c56370262450c5a352799274da0acfcfc1d"
+    },
+    {
+      "path": "src/tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dc8ecfbda98a9a75b624c57e1c69d755f9e0e46f",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/dc8ecfbda98a9a75b624c57e1c69d755f9e0e46f"
+    },
+    {
+      "path": "src/tools/caveman-init.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1359fb933653b0692055fdb6aed32f50ef31b2ea",
+      "size": 7768,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/1359fb933653b0692055fdb6aed32f50ef31b2ea"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5b1acef6225e3703eba418aa49a03a2bc44292fc",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/5b1acef6225e3703eba418aa49a03a2bc44292fc"
+    },
+    {
+      "path": "tests/caveman-compress",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ffa3d87227402642f8aa18e6d37e22330fabe624",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/ffa3d87227402642f8aa18e6d37e22330fabe624"
+    },
+    {
+      "path": "tests/caveman-compress/claude-md-preferences.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "734fa9dce6aca993e4ea6a2a7ca1e58423e2b762",
+      "size": 2055,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/734fa9dce6aca993e4ea6a2a7ca1e58423e2b762"
+    },
+    {
+      "path": "tests/caveman-compress/claude-md-preferences.original.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bae2a7df020d9f9cca6304b7930fe916b2fc741",
+      "size": 4345,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/5bae2a7df020d9f9cca6304b7930fe916b2fc741"
+    },
+    {
+      "path": "tests/caveman-compress/claude-md-project.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccc5c2f0d6c7db47916894c2ed76f9639d8d22e2",
+      "size": 4607,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/ccc5c2f0d6c7db47916894c2ed76f9639d8d22e2"
+    },
+    {
+      "path": "tests/caveman-compress/claude-md-project.original.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46d1ef7e3c4556e9604a06e57905ff918d939096",
+      "size": 7782,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/46d1ef7e3c4556e9604a06e57905ff918d939096"
+    },
+    {
+      "path": "tests/caveman-compress/mixed-with-code.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28744fef41011910af3da3218a6cbe0bb7b44b36",
+      "size": 4513,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/28744fef41011910af3da3218a6cbe0bb7b44b36"
+    },
+    {
+      "path": "tests/caveman-compress/mixed-with-code.original.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b992d763f5e2b3daeefa6c073afa4f26d3d365f",
+      "size": 6486,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/0b992d763f5e2b3daeefa6c073afa4f26d3d365f"
+    },
+    {
+      "path": "tests/caveman-compress/project-notes.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5486e0555d086bd2aae1d73ea26dabcac4feb602",
+      "size": 3714,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/5486e0555d086bd2aae1d73ea26dabcac4feb602"
+    },
+    {
+      "path": "tests/caveman-compress/project-notes.original.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4e0f8269941e3e0061671ad627ffc3601cca8e2",
+      "size": 7520,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/e4e0f8269941e3e0061671ad627ffc3601cca8e2"
+    },
+    {
+      "path": "tests/caveman-compress/todo-list.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0aa5f525e554b0fa7e577fc07f0d15a769c65323",
+      "size": 2529,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/0aa5f525e554b0fa7e577fc07f0d15a769c65323"
+    },
+    {
+      "path": "tests/caveman-compress/todo-list.original.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "421cdd5891efc396e4924d2cf76d578ac8aa3b2b",
+      "size": 3959,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/421cdd5891efc396e4924d2cf76d578ac8aa3b2b"
+    },
+    {
+      "path": "tests/installer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ee43d87897173d4270b5734610769a08a06b1d01",
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/trees/ee43d87897173d4270b5734610769a08a06b1d01"
+    },
+    {
+      "path": "tests/installer/e2e.dryrun.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e97f4bf2821654325d17916079aadcd76837a9ce",
+      "size": 2574,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/e97f4bf2821654325d17916079aadcd76837a9ce"
+    },
+    {
+      "path": "tests/installer/e2e.freshinstall.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf9028aa1f17bda0ec323c718626bc87aff12230",
+      "size": 19288,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/cf9028aa1f17bda0ec323c718626bc87aff12230"
+    },
+    {
+      "path": "tests/installer/opencode.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2691db81fb668c95f8a1b3207006af06b7b5e2e",
+      "size": 13575,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/f2691db81fb668c95f8a1b3207006af06b7b5e2e"
+    },
+    {
+      "path": "tests/installer/unit.argv.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5282a2326aef682a7878745d1892dbc1829c089d",
+      "size": 4681,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/5282a2326aef682a7878745d1892dbc1829c089d"
+    },
+    {
+      "path": "tests/installer/unit.settings.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3040f6b29e0e444572c9b8c1111c81cde525026",
+      "size": 6596,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/c3040f6b29e0e444572c9b8c1111c81cde525026"
+    },
+    {
+      "path": "tests/test_caveman_init.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c891b4804e67ea120f25a0030000f5d9c24c909",
+      "size": 4837,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/5c891b4804e67ea120f25a0030000f5d9c24c909"
+    },
+    {
+      "path": "tests/test_caveman_stats.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85270c29efb44e7e94c15c6159f05d9e24962bd9",
+      "size": 20398,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/85270c29efb44e7e94c15c6159f05d9e24962bd9"
+    },
+    {
+      "path": "tests/test_compress_safety.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f60a9ed368267ca19c6009183cc88e28241e9f4",
+      "size": 3920,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/6f60a9ed368267ca19c6009183cc88e28241e9f4"
+    },
+    {
+      "path": "tests/test_hooks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ae80a5523935dce982d108ea7403e27da6dd73d",
+      "size": 6090,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/6ae80a5523935dce982d108ea7403e27da6dd73d"
+    },
+    {
+      "path": "tests/test_mcp_shrink.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b87c6ee156b07ce8b8f7232e5e0281474308c00b",
+      "size": 4723,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/b87c6ee156b07ce8b8f7232e5e0281474308c00b"
+    },
+    {
+      "path": "tests/test_symlink_flag.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5194c8116adc1f5229a8202a60379e0c3a8cd134",
+      "size": 8118,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/5194c8116adc1f5229a8202a60379e0c3a8cd134"
+    },
+    {
+      "path": "tests/test_validate_inline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fec1ad4c93a7048097323149720ac75be9f2f0c",
+      "size": 2714,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/4fec1ad4c93a7048097323149720ac75be9f2f0c"
+    },
+    {
+      "path": "tests/verify_repo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "492e16f1dc28093cb672882b10da330b4bf9fd0a",
+      "size": 15966,
+      "url": "https://api.github.com/repos/JuliusBrussee/caveman/git/blobs/492e16f1dc28093cb672882b10da330b4bf9fd0a"
+    }
+  ],
+  "truncated": false
+}

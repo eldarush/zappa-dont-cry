@@ -1,100 +1,116 @@
 # zappa-dont-cry QaaS Skill Pack
 
-This repository packages the current `zappa-dont-cry` QaaS skill pack, harness, generated artifacts, and validation records.
+This repository packages the current `zappa-dont-cry` QaaS skill pack, deterministic harness, generated QaaS artifacts, public evidence snapshots, and weak-model validation records.
 
-Current state: structurally validated, not complete. The harness passes, but policy promotion remains blocked until live preferred weak-model validation succeeds.
+Current state: published current-state artifact, not objective-complete. The deterministic harness passes, but promotion remains fail-closed because live preferred weak-model validation is quota-blocked.
 
-## Contents
+Local source folder used for this package:
 
-- `skills/zappa-dont-cry/` - Codex skills for QaaS planning, docs mapping, test authoring, hooks, debugging, fixing, experiments, top-repo campaigns, and weak-model gates.
-- `harness/` - deterministic validation scripts and regression tests.
-- `generated-tests/` - generated QaaS artifacts and manifests, with `bin` and `obj` build outputs excluded.
-- `coverage/` - campaign and promotion-readiness summaries.
-- `blockers/` - current fail-closed completion and weak-model blocker records.
-- `evidence/weak-model-validation/` - latest weak-model retry transcripts.
-- `reports/full-harness-report-20260608-164833-201.json` - latest full harness report.
-- `status-overview.html` - short human-readable status snapshot.
-- `tools/weak-model-session.ps1` and `tools/weak-model-policy.json` - weak-model routing wrapper and policy.
+```text
+D:\QaaS\_deliverables\zappa-dont-cry-20260608-1607
+```
 
-## Latest Validation
+Public repository:
 
-Run completed on 2026-06-08:
+```text
+https://github.com/eldarush/zappa-dont-cry
+```
+
+## What Is Included
+
+- `skills/zappa-dont-cry/` - the QaaS skill namespace. Each child folder with `SKILL.md` is a distinct Codex skill.
+- `skills/weak-model-validator/` - the Codex helper skill for airgapped and MiniMax M2.5 proxy validation.
+- `harness/` - deterministic validation, regression checks, candidate generators, and QaaS evidence validators.
+- `generated-tests/` - generated QaaS YAML, support code, manifests, custom assertion packets, and selected top-repo candidates.
+- `coverage/` - promotion indexes, selected-candidate readiness, top-repo triage, and docs/schema coverage records.
+- `blockers/` - fail-closed completion and weak-model blocker records.
+- `evidence/top-repos/` - harvested public repo contracts and selected-contract evidence.
+- `evidence/airgapped-runs/` - prior weak-model and adversarial scenario evidence.
+- `evidence/weak-model-validation/` - current weak-model launcher transcripts and quota-blocked summaries.
+- `reports/` - final full harness report, objective-readiness snapshot, package verification note, and latest Spring Boot weak-model attempt summary.
+- `tools/weak-model-session.ps1` - hosted weak-model launcher.
+- `weak-model-policy.json` and `tools/weak-model-policy.json` - active model routing policy.
+- `status-overview.html` - one-page human status snapshot.
+
+`bin`, `obj`, cache, and transient log outputs are intentionally excluded from the published git history.
+
+## Current Validation
+
+Latest full deterministic harness run:
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite all
 ```
 
-Result:
+Result from `reports/full-harness-report-20260608-172839-931.json`:
 
-- Full harness: `61/61` passed.
-- Harness regression tests: `195` checks passed.
+- Full harness: `62/62` passed.
+- Overall status: `passed`.
+- Generated manifests: `772`.
 - Policy-executable manifests: `0`.
-- Deterministic QaaS-ready candidates: `6`.
-- Weak-only deterministic candidates: `5`.
-- Selected-scope deterministic candidates: `1`.
+- Promotable candidates: `0`.
+- Selected top-repo candidates: `8`.
+- Deterministic-ready selected candidates: `6`.
+- Selected candidates still missing live airgapped weak evidence: `8`.
 
-The completion record is `blockers/objective-completion-readiness.json`.
+Completion is still blocked by `blockers/objective-completion-readiness.json`.
 
-## Current Blockers
+## Selected Candidate State
 
-The work remains blocked by policy, not by structural harness failures:
+Deterministic-ready, blocked only by live weak-model evidence:
 
-- Preferred weak-model routes are quota-blocked: all four configured weak profiles returned Copilot API `402 additional_spend_limit_reached`.
-- No manifest is promoted to `promotion_state: executable`.
-- No promotion packet is executable.
-- Crawl4AI remains deterministic-blocked because the current public `unclecode/crawl4ai:latest` image starts with `unable to find user appuser`; cleanup is verified and promotion remains blocked.
-- Deno remains deterministic-ready but selected-scope blocked for broad runtime coverage.
+- `fastapi/fastapi`
+- `gin-gonic/gin`
+- `typicode/json-server`
+- `pallets/flask`
+- `expressjs/express`
 
-This is intentional. The harness is designed to fail closed and should not turn dry runs, quota failures, or partial weak-model attempts into completion evidence.
+Deterministic-ready, blocked by live weak-model evidence plus selected-scope coverage:
+
+- `denoland/deno`
+
+Deterministic-evidence-blocked:
+
+- `spring-projects/spring-boot` - docs-only candidate for `GET /`, `8080`, and body `Hello World!`; it is deliberately not executable because dependency version, JAR build, lifecycle, exact body hook/template, live QaaS, and weak-model evidence are not proven.
+- `unclecode/crawl4ai` - remains blocked by Docker/lifecycle and custom status-below-400 validation gaps, plus weak-model evidence.
 
 ## Weak-Model Policy
 
-Preferred weak routes are configured in `tools/weak-model-policy.json`:
+When the user says `airgapped testing`, `airgapped models`, `dumb-model testing`, or `test this with weaker models`, Codex should use the `weak-model-validator` skill and call:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\tools\weak-model-session.ps1 -Airgapped -All -ReasoningEffort none -PolicyPath .\weak-model-policy.json -OutDir .\evidence\weak-model-validation -Prompt "Validate the current QaaS artifact from public docs only. Preserve blockers unless live weak-model evidence passes."
+```
+
+Preferred hosted weak routes, in order:
 
 - `id:gpt-3.5-turbo`
 - `id:gpt-3.5-turbo-0613`
 - `gpt-4o-mini`
 - `gpt-4o-mini-2024-07-18`
 
-To retry weak validation from `D:\QaaS`:
+Latest live attempt:
+
+- File: `reports/weak-model-spring-boot-quota-blocked-20260608-173406-860.md`
+- Harness: `claude-copilot`
+- Profile: `airgapped`
+- Result: all four preferred weak routes failed with Copilot API `402 additional_spend_limit_reached`.
+
+This is an operational blocker, not a pass. Dry runs and Codex-native fallbacks do not count as MiniMax M2.5 proxy evidence. Codex-native `-Harness codex -Profile airgapped` is only a smoke test for session mechanics because the available Codex models are too strong for this policy.
+
+## Install The Skills
+
+From the cloned repository root:
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File D:\QaaS\_tools\weak-model-session.ps1 -Airgapped -All -ReasoningEffort none -Prompt "Validate the Zappa QaaS artifacts from public docs only. Preserve all blockers unless live weak-model evidence passes."
+New-Item -ItemType Directory -Force "$env:USERPROFILE\.codex\skills" | Out-Null
+Copy-Item -Recurse -Force .\skills\zappa-dont-cry "$env:USERPROFILE\.codex\skills\zappa-dont-cry"
+Copy-Item -Recurse -Force .\skills\weak-model-validator "$env:USERPROFILE\.codex\skills\weak-model-validator"
 ```
 
-Then classify the evidence:
+Then start a new Codex session so the skill list refreshes.
 
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File D:\QaaS\_tools\zappa-harness\checks\Check-AirgappedLiveEvidence.ps1 -EvidenceRoot D:\QaaS\_tmp\weak-model-validation -BlockersDir D:\QaaS\_tmp\zappa-dont-cry\blockers -PolicyPath D:\QaaS\_tools\weak-model-policy.json
-```
-
-## Running The Harness
-
-From the original `D:\QaaS` workspace:
-
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite all
-```
-
-Focused checks:
-
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite selected-live
-powershell -NoProfile -ExecutionPolicy Bypass -File D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite promotion-index
-powershell -NoProfile -ExecutionPolicy Bypass -File D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite completion-readiness
-```
-
-## Using The Skills
-
-Install or update the skills by copying `skills/zappa-dont-cry` to:
-
-```text
-C:\Users\eldar\.codex\skills\zappa-dont-cry
-```
-
-Use `zappa-qaas-orchestrator` as the entrypoint. The folder `zappa-dont-cry` is only a namespace folder; each child folder with `SKILL.md` is a distinct skill.
-
-Recommended skill order for a QaaS task:
+Use `zappa-qaas-orchestrator` as the entrypoint. The recommended sequence for QaaS work is:
 
 1. `zappa-qaas-orchestrator`
 2. `zappa-qaas-docs-map`
@@ -103,15 +119,44 @@ Recommended skill order for a QaaS task:
 5. `zappa-qaas-fixer` or `zappa-qaas-debugger`
 6. `zappa-qaas-weak-model-gate`
 
+For weak-model checks, use `weak-model-validator` directly or let `zappa-qaas-weak-model-gate` call the launcher.
+
+## Run The Harness
+
+The current harness scripts are built for the original Windows workspace layout:
+
+```text
+D:\QaaS
+C:\Users\eldar\.codex\skills
+```
+
+Replay the exact validation from that workspace:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite all
+```
+
+Focused checks:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite selected-candidates
+powershell -NoProfile -ExecutionPolicy Bypass -File D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite selected-live
+powershell -NoProfile -ExecutionPolicy Bypass -File D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite promotion-index
+powershell -NoProfile -ExecutionPolicy Bypass -File D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite completion-readiness
+```
+
+The packaged `harness/` folder is included for review and portability work, but some scripts still reference the original absolute workspace paths. Keep that limitation visible rather than treating the package as a generic installer.
+
 ## Guardrails
 
 - Use public QaaS docs and schemas as the contract unless source code is explicitly provided.
-- Do not invent QaaS YAML fields, hook APIs, CLI flags, or result files.
-- Do not promote artifacts from structure alone.
+- Do not invent QaaS YAML fields, hook APIs, CLI flags, result files, lifecycle behavior, or repository behavior.
+- Do not promote an artifact from structure alone.
 - Do not accept dry-run weak-model evidence.
-- Do not accept one preferred weak model as proof when policy requires all preferred routes.
-- Preserve selected-scope blockers such as Crawl4AI body, `/crawl`, and Deno broad-runtime coverage until exact public contracts exist.
+- Do not accept Codex fallback output as preferred weak-model evidence.
+- Preserve selected-scope blockers until exact public contracts exist.
+- If preferred weak routes are quota-blocked, record the blocker and keep completion blocked.
 
 ## Publication Status
 
-This package is safe to publish as a current-state artifact, but it is not a claim of objective completion. The next real unblockers are live weak-model quota and an upstream Crawl4AI image/runtime state that can satisfy `/health`.
+This repository is safe to publish as a current-state artifact. It is not a claim that the original recursive top-250 objective is complete. The next real unblocker is live access to the configured weak hosted models so the weak-model gates can produce non-dry-run behavioral evidence.

@@ -773,6 +773,90 @@ Assertions:
 "@
 }
 
+function New-SpringBootRunnerYaml {
+    return @"
+# Candidate QaaS Runner YAML generated from immutable public Spring Boot README and webserver docs evidence.
+# Status: blocked_until_template_live_airgapped_validation
+# Java startup, dependency resolution, JAR build, and cleanup stay in candidate-runtime-plan.json; QaaS YAML does not own process lifecycle.
+
+MetaData:
+  Team: ZappaDontCry
+  System: spring-projects-spring-boot
+
+Storages:
+  -
+    JsonStorageFormat: Indented
+    FileSystem:
+      Path: ./session-data
+
+DataSources:
+  - Name: GetRootPayload
+    Generator: FromFileSystem
+    DataSourceNames: []
+    DataSourcePatterns: []
+    GeneratorConfiguration:
+      DataArrangeOrder: AsciiAsc
+      FileSystem:
+        Path: './request-payloads'
+        SearchPattern: 'get-root.bin'
+      StorageMetaData: ItemName
+
+Sessions:
+  - Name: SpringBootReadRoot
+    Transactions:
+      - Name: GetRoot
+        TimeoutMs: 5000
+        DataSourceNames:
+          - GetRootPayload
+        DataSourcePatterns:
+          - GetRootPayload
+        Http:
+          BaseAddress: http://127.0.0.1
+          Port: 8080
+          Route: /
+          Method: Get
+
+Assertions:
+  - Name: GetRootReturnedOk
+    Assertion: HttpStatus
+    SessionNames:
+      - SpringBootReadRoot
+    DataSourceNames: []
+    DataSourcePatterns: []
+    AssertionConfiguration:
+      StatusCode: 200
+      OutputNames:
+        - GetRoot
+"@
+}
+
+function New-SpringBootExactTextBodyAssertionCode {
+    return (New-FlaskExactTextBodyAssertionCode) -replace 'namespace ZappaDontCry\.SelectedCandidates\.Flask\.Assertions;', 'namespace ZappaDontCry.SelectedCandidates.SpringBoot.Assertions;'
+}
+
+function New-SpringBootExactTextBodyUsageSnippet {
+    return @"
+# Non-executable usage snippet.
+# Do not rename this file to test.qaas.yaml or treat it as schema-valid until:
+# 1. the assertion assembly is referenced by the Runner host,
+# 2. the Runner schema has been regenerated and the bin cache cleaned,
+# 3. Runner template validation passes,
+# 4. live QaaS act/assert passes against the tracked Spring Boot process.
+
+Assertions:
+  - Name: GetRootBodyMatchesReadme
+    Assertion: ExactHttpTextBody
+    SessionNames:
+      - SpringBootReadRoot
+    DataSourceNames: []
+    DataSourcePatterns: []
+    AssertionConfiguration:
+      OutputName: GetRoot
+      ExpectedText: Hello World!
+      EncodingName: utf-8
+"@
+}
+
 function New-Crawl4AiRunnerYaml {
     return @'
 # Candidate QaaS Runner YAML generated from immutable public Crawl4AI Docker healthcheck evidence.
@@ -3141,6 +3225,383 @@ if (Test-Path -LiteralPath $crawlRecordPath -PathType Leaf) {
         artifact_count = $crawlArtifacts.Count
     }
     $records += $crawlRecord
+}
+
+$springBootRecordPath = Join-Path $SelectedContractsDir "177-spring-projects-spring-boot\selected-contract.json"
+if (Test-Path -LiteralPath $springBootRecordPath -PathType Leaf) {
+    $springSelected = Get-Content -LiteralPath $springBootRecordPath -Raw | ConvertFrom-Json
+    if ([string]$springSelected.repository -ne "spring-projects/spring-boot") {
+        throw "Expected spring-projects/spring-boot selected contract, got $($springSelected.repository)"
+    }
+    if ([string]$springSelected.status -ne "contract_content_harvested_not_executable" -or [string]$springSelected.promotion_state -ne "blocked") {
+        throw "Selected Spring Boot contract must be harvested and blocked: $springBootRecordPath"
+    }
+
+    $springSelectedPublicContracts = @($springSelected.selected_public_contracts)
+    $springReadmeRecord = $springSelectedPublicContracts | Where-Object { [string]$_.source_path -eq "README.adoc" } | Select-Object -First 1
+    $springWebServerRecord = $springSelectedPublicContracts | Where-Object { [string]$_.source_path -eq "documentation/spring-boot-docs/src/docs/antora/modules/how-to/pages/webserver.adoc" } | Select-Object -First 1
+    if ($null -eq $springReadmeRecord -or $null -eq $springWebServerRecord) {
+        throw "Spring Boot selected contract lacks README.adoc or webserver docs evidence."
+    }
+
+    $springReadmePath = Assert-UnderRoot -Path ([string]$springReadmeRecord.local_path) -Root $SelectedContractsDir -Description "Spring Boot README evidence"
+    $springWebServerPath = Assert-UnderRoot -Path ([string]$springWebServerRecord.local_path) -Root $SelectedContractsDir -Description "Spring Boot webserver docs evidence"
+    $springReadmeText = Get-Content -LiteralPath $springReadmePath -Raw
+    $springWebServerText = Get-Content -LiteralPath $springWebServerPath -Raw
+    foreach ($marker in @("@RestController", "@SpringBootApplication", '@RequestMapping("/")', 'return "Hello World!";', "SpringApplication.run(Example.class, args);", "java -jar")) {
+        if (-not $springReadmeText.Contains($marker)) {
+            throw "Spring Boot README evidence missing marker '$marker': $springReadmePath"
+        }
+    }
+    if (-not $springWebServerText.Contains('main HTTP port defaults to `8080`')) {
+        throw "Spring Boot webserver docs evidence missing default port marker: $springWebServerPath"
+    }
+
+    $springSafeRepo = "{0:D3}-{1}" -f [int]$springSelected.rank, (New-SafeName ([string]$springSelected.repository).Replace("/", "-"))
+    $springCandidateDir = Join-Path $resolvedOutDir $springSafeRepo
+    $springAppDir = Join-Path $springCandidateDir "app\src\main\java\com\example"
+    $springExpectationsDir = Join-Path $springCandidateDir "expectations"
+    $springRequestPayloadsDir = Join-Path $springCandidateDir "request-payloads"
+    $springHookDir = Join-Path $springCandidateDir "assertion-packets\ExactHttpTextBody"
+    foreach ($dir in @($springCandidateDir, $springAppDir, $springExpectationsDir, $springRequestPayloadsDir, $springHookDir)) {
+        [System.IO.Directory]::CreateDirectory($dir) | Out-Null
+    }
+
+    $springRunnerPath = Join-Path $springCandidateDir "test.qaas.yaml"
+    $springAppPath = Join-Path $springAppDir "Example.java"
+    $springExpectedBodyPath = Join-Path $springExpectationsDir "root-body.txt"
+    $springRequestPayloadPath = Join-Path $springRequestPayloadsDir "get-root.bin"
+    $springRuntimePlanPath = Join-Path $springCandidateDir "candidate-runtime-plan.json"
+    $springManifestPath = Join-Path $springCandidateDir "qaas-artifact-manifest.json"
+    $springHookCodePath = Join-Path $springHookDir "ExactHttpTextBody.cs"
+    $springHookUsagePath = Join-Path $springHookDir "ExactHttpTextBody.usage.yaml.txt"
+    $springHookPlanPath = Join-Path $springHookDir "custom-text-body-hook-plan.json"
+
+    Write-TextFile -Path $springRunnerPath -Value (New-SpringBootRunnerYaml)
+    $springApp = @"
+package com.example;
+
+import org.springframework.boot.*;
+import org.springframework.boot.autoconfigure.*;
+import org.springframework.web.bind.annotation.*;
+
+@RestController
+@SpringBootApplication
+public class Example {
+
+    @RequestMapping("/")
+    String home() {
+        return "Hello World!";
+    }
+
+    public static void main(String[] args) {
+        SpringApplication.run(Example.class, args);
+    }
+}
+"@
+    Write-TextFile -Path $springAppPath -Value $springApp
+    Write-TextFile -Path $springExpectedBodyPath -Value "Hello World!"
+    [System.IO.File]::WriteAllBytes($springRequestPayloadPath, [byte[]]::new(0))
+    Write-TextFile -Path $springHookCodePath -Value (New-SpringBootExactTextBodyAssertionCode)
+    Write-TextFile -Path $springHookUsagePath -Value (New-SpringBootExactTextBodyUsageSnippet)
+
+    $springHookDocsEvidence = @(
+        "D:\QaaS\qaas-docs\docs\assertions\index.md",
+        "D:\QaaS\qaas-docs\docs\assertions\custom-authoring-guide.md",
+        "D:\QaaS\qaas-docs\docs\assertions\availableAssertions\HttpStatus\overview.md",
+        "D:\QaaS\qaas-docs\docs\qaas\userInterfaces\runner\configurationSections\sessions\types\transactions.md",
+        "D:\QaaS\qaas-docs\docs\qaas\userInterfaces\runner\schema-extensions.md",
+        "D:\QaaS\qaas-docs\docs\assets\schemas\runner-family-schema.json"
+    )
+    $springDocsEvidence = @($docsEvidence + $springHookDocsEvidence) | Select-Object -Unique
+    $springExpectedBodySha256 = Get-Sha256Hex -Path $springExpectedBodyPath
+    $springPublicEvidence = @(
+        [string]$springBootRecordPath
+        @($springSelected.public_evidence)
+        @($springSelectedPublicContracts | ForEach-Object { [string]$_.local_path })
+    )
+    $springHookBuiltins = @(
+        "HttpStatus validates status code only and does not prove exact raw body text.",
+        "OutputContentByExpectedCsvResults is JSON/CSV oriented and is not used for a raw Spring Boot text response.",
+        "ObjectOutputJsonSchema is not applicable to a plain text body."
+    )
+
+    $springCustomAssertionPacket = [ordered]@{
+        packet_id = "spring-boot-exact-http-text-body"
+        assertion_name = "ExactHttpTextBody"
+        hook_family = "assertion"
+        assertion_type = "ExactHttpTextBody"
+        status = "blocked_until_build_template_live_airgapped_validation"
+        promotion_state = "blocked"
+        activation = "sidecar_only"
+        wired_into_runner_yaml = $false
+        source_files = @($springHookCodePath)
+        yaml_fragment = $springHookUsagePath
+        hook_plan = $springHookPlanPath
+        expected_body_path = $springExpectedBodyPath
+        expected_body_sha256 = $springExpectedBodySha256
+        encoding = "utf-8"
+        comparison = "byte_for_byte"
+        normalization = "none"
+        trim = $false
+        contains = $false
+        case_sensitive = $true
+        weak_validation_passed = $false
+        validation_records = [ordered]@{
+            build = "not_run"
+            schema = "not_run"
+            template = "not_run"
+            live = "not_run"
+            airgapped = "not_run"
+        }
+        docs_evidence = $springHookDocsEvidence
+        public_evidence = $springPublicEvidence
+    }
+
+    $springHookPlan = [ordered]@{
+        plan_id = "spring-boot-exact-http-text-body-sidecar"
+        repository = "spring-projects/spring-boot"
+        assertion_type = "ExactHttpTextBody"
+        status = "blocked_until_build_template_live_airgapped_validation"
+        activation = "sidecar_only"
+        reason = "The README-backed Spring Boot example returns a raw text body; the source YAML only asserts HttpStatus until the custom assertion is built, schema-discovered, template-validated, and live-validated."
+        builtins_considered = $springHookBuiltins
+        docs_evidence = $springHookDocsEvidence
+        artifacts = [ordered]@{
+            implementation = $springHookCodePath
+            usage_snippet = $springHookUsagePath
+            expected_body = $springExpectedBodyPath
+        }
+        validation_steps = @(
+            "Reference the assertion assembly from the Runner host.",
+            "Regenerate Runner schema and clean bin cache so Assertion: ExactHttpTextBody is discoverable.",
+            "Stage a live-only YAML copy that activates ExactHttpTextBody.",
+            "Run QaaS template validation.",
+            "Run live QaaS act/assert against a tracked Spring Boot process.",
+            "Run live airgapped weak-model validation."
+        )
+        custom_assertion_packet = $springCustomAssertionPacket
+    }
+    Write-JsonFile -Path $springHookPlanPath -Value $springHookPlan
+
+    $springRuntimePlan = [ordered]@{
+        schema_version = 1
+        repository = "spring-projects/spring-boot"
+        rank = [int]$springSelected.rank
+        status = "candidate_runtime_plan_blocked"
+        promotion_state = "blocked"
+        lifecycle_owner = "external_harness_not_qaas_yaml"
+        command = "java -jar <validated-application-jar>"
+        command_support = "partial_public_java_jar_capability_not_runnable_candidate_command"
+        public_command_prefix = "java -jar"
+        command_status = "partial_public_prefix_only"
+        working_directory = (Join-Path $springCandidateDir "app")
+        fixture = $springAppPath
+        default_http_port = 8080
+        root_route = "/"
+        expected_body = "Hello World!"
+        expected_listen_url = "http://127.0.0.1:8080/"
+        readiness_probe = [ordered]@{
+            status = "blocked"
+            method = "GET"
+            url = "http://127.0.0.1:8080/"
+            expected_status = 200
+            expected_body = "Hello World!"
+            blocked_reason = "No generated JAR has been built or started by a tracked lifecycle harness."
+        }
+        dependency_version_status = "blocked"
+        dependency_version_source = "not_selected_from_public_contract"
+        jar_build_status = "blocked"
+        cleanup = [ordered]@{
+            status = "blocked"
+            process_family = "java"
+            required_evidence = @("Tracked Java process id", "Readiness probe transcript", "Port owner before cleanup", "Port owner after cleanup", "No remaining tracked child processes")
+            blocked_reason = "Tracked Java process cleanup has not been live-validated."
+        }
+        blockers = @(
+            "select_exact_spring_boot_dependency_version_or_generated_app_build_file",
+            "build_application_jar_from_selected_public_dependencies",
+            "prove_process_lifecycle_and_cleanup_without assuming private source",
+            "run_qaaS_template_validation",
+            "run_live_qaaS_act_assert_validation",
+            "run_live_airgapped_weak_model_validation",
+            "run_strong_review_against_selected_contract_evidence"
+        )
+        custom_assertion = [ordered]@{
+            assertion_type = "ExactHttpTextBody"
+            implementation = $springHookCodePath
+            usage_snippet = $springHookUsagePath
+            hook_plan = $springHookPlanPath
+            activation = "sidecar_only"
+        }
+        custom_assertion_packets = @($springCustomAssertionPacket)
+        public_evidence = $springPublicEvidence
+    }
+    Write-JsonFile -Path $springRuntimePlanPath -Value $springRuntimePlan
+
+    $springIntentQuestions = @(
+        (New-IntentQuestion -QuestionId "behavior" -Question "What behavior must be proven?" -SelfAnswer "GET / from the README Spring Boot Example controller should return HTTP 200 and the exact body Hello World!." -AnswerSource "public_repo_contract" -RiskIfWrong "A weak model may test a different route, infer JSON, or skip the text body contract." -HowToOverride "Replace the route, port, and expected output only with exact public repository evidence." -PublicEvidence $springPublicEvidence)
+        (New-IntentQuestion -QuestionId "boundary" -Question "What is the system boundary: Runner target, Mocker dependency, hook host, or configuration-as-code?" -SelfAnswer "The Runner target is an externally-started Spring Boot HTTP process on 127.0.0.1:8080; QaaS YAML does not start or clean that process." -AnswerSource "public_repo_contract" -RiskIfWrong "Process lifecycle could be incorrectly encoded as undocumented QaaS YAML." -HowToOverride "Provide documented QaaS lifecycle support or keep startup in an external harness plan." -PublicEvidence $springPublicEvidence)
+        (New-IntentQuestion -QuestionId "docs_schema_evidence" -Question "What public docs/schema path proves the capability exists?" -SelfAnswer "QaaS public docs/schema support HTTP Transactions, FromFileSystem data-source payload bytes, HttpStatus assertions, and custom assertions by short type name; the ExactHttpTextBody hook is authored but not schema/template/live validated." -AnswerSource "public_docs" -RiskIfWrong "A weak model may invent a built-in text body assertion or treat sidecar hook code as executable validation." -HowToOverride "Provide template/build/live validation for the custom assertion packet." -PublicEvidence $springDocsEvidence)
+        (New-IntentQuestion -QuestionId "inputs_outputs_side_effects" -Question "What inputs, outputs, and side effects prove success?" -SelfAnswer "Input is a GET request to /. Outputs are HTTP status 200 and body Hello World!. Side effects should be read-only for this GET." -AnswerSource "public_repo_contract" -RiskIfWrong "A weak model may over-assert mutations, persistence, or unrelated endpoints." -HowToOverride "Provide public side-effect evidence for any additional assertion." -PublicEvidence $springPublicEvidence)
+        (New-IntentQuestion -QuestionId "negative_cases" -Question "Which negative, malformed, outage, retry, cleanup, and observability cases matter?" -SelfAnswer "Negative, malformed, retry, outage, and observability cases remain blocked; this candidate covers only one README-backed happy path plus cleanup planning." -AnswerSource "blocked" -RiskIfWrong "A weak model may claim broad Spring Boot framework coverage from one teaser route." -HowToOverride "Add exact public negative-case and observability contracts before expanding assertions." -PublicEvidence $springPublicEvidence)
+        (New-IntentQuestion -QuestionId "dependencies" -Question "Which dependencies must exist: broker, HTTP endpoint, database, Redis, S3, Kubernetes, filesystem, credentials, ports?" -SelfAnswer "Dependencies are JDK, selected Spring Boot dependency/build metadata, a built application JAR, and port 8080 availability; those dependencies are identified from public evidence but not live-validated." -AnswerSource "blocked" -RiskIfWrong "The candidate may be promoted without a real build or process lifecycle." -HowToOverride "Provide exact build metadata and validated lifecycle transcripts for the target environment." -PublicEvidence $springPublicEvidence)
+        (New-IntentQuestion -QuestionId "runnability" -Question "What can run now, and what must be deferred?" -SelfAnswer "Static candidate validation can run now. Dependency resolution, JAR build, process lifecycle, custom assertion build/schema/template validation, live act/assert execution, cleanup proof, and live weak-model validation are deferred and block promotion." -AnswerSource "blocked" -RiskIfWrong "A weak model may confuse a candidate packet with an executable Spring Boot test." -HowToOverride "Attach passing dependency, build, lifecycle, custom assertion, live, cleanup, airgapped, and strong-review evidence." -PublicEvidence $springPublicEvidence)
+    )
+
+    $springIntentAssumptions = @(
+        (New-IntentAssumption -Assumption "The README Example controller is the public behavior contract for this candidate." -WhySafe "It contains exact controller annotations, root route, SpringApplication.run, and body markers harvested from immutable Git blobs." -RiskIfWrong "The candidate may not match another Spring Boot application." -HowToOverride "Replace the selected contract with another immutable public blob." -PublicEvidence $springPublicEvidence)
+        (New-IntentAssumption -Assumption "The repository webserver docs prove the standalone default HTTP port 8080." -WhySafe "The selected webserver doc contains an exact default-port marker harvested from an immutable Git blob." -RiskIfWrong "A customized app may run on another port, so executable promotion still requires lifecycle evidence." -HowToOverride "Provide exact port evidence or configure a live harness override before promotion." -PublicEvidence $springPublicEvidence)
+        (New-IntentAssumption -Assumption "Plain-text body comparison is represented by a custom assertion sidecar, but remains blocked until build/schema/template/live validation passes." -WhySafe "The available built-ins do not prove exact raw text equality, while public custom assertion docs support sidecar authoring by short type name." -RiskIfWrong "A weak model may treat authored code as runtime validation." -HowToOverride "Provide passing custom assertion build, schema, template, and live QaaS evidence." -PublicEvidence $springDocsEvidence)
+    )
+
+    $springArtifacts = @($springRunnerPath, $springAppPath, $springExpectedBodyPath, $springRequestPayloadPath, $springRuntimePlanPath, $springManifestPath)
+    $springCases = @(
+        [ordered]@{
+            case_id = "spring-boot-read-root"
+            scenario = "Call README-backed Spring Boot GET / on documented default port 8080 and assert HTTP 200."
+            public_evidence = $springPublicEvidence
+            qaas_docs_evidence = $springDocsEvidence
+            setup = @("Build and start the Spring Boot application externally only after dependency and JAR evidence exists.", "Ensure port 8080 is free.", "Use get-root.bin as the byte payload driver for the GET transaction.")
+            act = @("QaaS Runner sends GET / to http://127.0.0.1:8080.")
+            assert = @("HttpStatus 200 in source YAML.", "Exact body Hello World! after ExactHttpTextBody is build/template/live validated.")
+            cleanup = @("Terminate the tracked Java process tree.", "Remove candidate session-data after live validation.")
+            status = "blocked"
+            artifact_paths = @($springRunnerPath, $springRequestPayloadPath, $springExpectedBodyPath)
+        }
+        [ordered]@{
+            case_id = "spring-boot-runtime-plan"
+            scenario = "Keep Java process startup, JAR build, and cleanup outside QaaS YAML until public QaaS docs prove lifecycle support."
+            public_evidence = $springPublicEvidence
+            qaas_docs_evidence = $docsEvidence
+            action = @("Select exact dependency/build metadata.", "Build a JAR from selected public dependencies.", "Start and stop Java through a tracked process runner, not through undocumented QaaS YAML fields.")
+            status = "blocked"
+            artifact_paths = @($springRuntimePlanPath, $springAppPath)
+        }
+        [ordered]@{
+            case_id = "spring-boot-contract-evidence"
+            scenario = "Tie every candidate field to immutable selected public contract evidence and QaaS public docs."
+            public_evidence = @($springPublicEvidence + $springDocsEvidence)
+            setup = @("Review selected-contract.json, README.adoc blob, webserver docs blob, and QaaS schema docs.")
+            status = "static_validation_only"
+            artifact_paths = @($springManifestPath)
+        }
+    )
+
+    $springManifest = [ordered]@{
+        schema_version = 1
+        campaign_id = "selected-top-repo-spring-boot-candidate"
+        source_repository = "spring-projects/spring-boot"
+        repository_rank = [int]$springSelected.rank
+        selected_contract = $springBootRecordPath
+        docs_evidence = $springDocsEvidence
+        public_evidence = $springPublicEvidence
+        intent_questions = $springIntentQuestions
+        intent_assumptions = $springIntentAssumptions
+        artifacts = $springArtifacts
+        artifact_count = $springArtifacts.Count
+        qaas_yaml = $springRunnerPath
+        cases = $springCases
+        status = "blocked_until_repo_contract_review"
+        promotion_state = "blocked"
+        blocked_reason = "Spring Boot candidate is docs-derived only; dependency resolution, JAR build, process lifecycle, QaaS template/live validation, cleanup, and live weak-model validation are not proven."
+        coverage_notes = @(
+            "Candidate uses only README-backed controller/root/body evidence and repository docs default-port evidence.",
+            "Candidate preserves README-backed plain-text body evidence and includes a sidecar ExactHttpTextBody custom assertion packet that is not wired into active YAML before validation.",
+            "Candidate does not claim broad Spring Boot framework coverage."
+        )
+        custom_assertion = [ordered]@{
+            assertion_type = "ExactHttpTextBody"
+            implementation = $springHookCodePath
+            usage_snippet = $springHookUsagePath
+            hook_plan = $springHookPlanPath
+            activation = "sidecar_only"
+            wired_into_runner_yaml = $false
+            expected_body_sha256 = $springExpectedBodySha256
+            builtins_considered = $springHookBuiltins
+            docs_evidence = $springHookDocsEvidence
+        }
+        custom_assertion_packets = @($springCustomAssertionPacket)
+        dependency_gates = @(
+            (New-DependencyGate -GateId "selected-public-runtime-contract" -Kind "runtime" -Required $true -Status "ready" -Evidence $springPublicEvidence -CheckCommand "" -BlockedReason "")
+            (New-DependencyGate -GateId "selected-public-input-output-contract" -Kind "runtime" -Required $true -Status "ready" -Evidence $springPublicEvidence -CheckCommand "" -BlockedReason "")
+            (New-DependencyGate -GateId "selected-public-http-port-contract" -Kind "runtime" -Required $true -Status "ready" -Evidence $springPublicEvidence -CheckCommand "" -BlockedReason "")
+            (New-DependencyGate -GateId "qaas-docs-yaml-shape" -Kind "runtime" -Required $true -Status "ready" -Evidence $springDocsEvidence -CheckCommand "D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite selected-candidates" -BlockedReason "")
+            (New-DependencyGate -GateId "java-spring-boot-dependency-resolution" -Kind "dependency" -Required $true -Status "blocked" -Evidence $springPublicEvidence -CheckCommand "" -BlockedReason "The generated app does not yet have exact selected dependency/build metadata or a built application JAR.")
+            (New-DependencyGate -GateId "java-spring-boot-process-lifecycle" -Kind "dependency" -Required $true -Status "blocked" -Evidence $springPublicEvidence -CheckCommand "" -BlockedReason "The external Java process has not been started, tracked, readiness-checked, and cleaned up by the harness.")
+            (New-DependencyGate -GateId "plain-text-body-assertion-or-hook" -Kind "qaas-build" -Required $true -Status "ready" -Evidence @($springHookDocsEvidence + @($springHookCodePath, $springHookUsagePath, $springHookPlanPath, $springExpectedBodyPath)) -CheckCommand "D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite selected-candidates" -BlockedReason "")
+            (New-DependencyGate -GateId "cleanup-contract" -Kind "cleanup" -Required $true -Status "blocked" -Evidence $springPublicEvidence -CheckCommand "" -BlockedReason "Tracked Java process cleanup and session-data cleanup are not live-validated.")
+            (New-DependencyGate -GateId "qaas-template" -Kind "qaas-template" -Required $true -Status "blocked" -Evidence $springDocsEvidence -CheckCommand "" -BlockedReason "QaaS template validation has not run for this candidate.")
+            (New-DependencyGate -GateId "qaas-live-act-assert" -Kind "qaas-build" -Required $true -Status "blocked" -Evidence $springDocsEvidence -CheckCommand "" -BlockedReason "Live QaaS run/act/assert has not run against a tracked Spring Boot process.")
+            (New-DependencyGate -GateId "airgapped-validation" -Kind "airgapped" -Required $true -Status "blocked" -Evidence @() -CheckCommand "D:\QaaS\_tools\weak-model-session.ps1 -Airgapped -All -ReasoningEffort none" -BlockedReason "Live weak-model route has not passed this candidate.")
+        )
+        promotion_requirements = [ordered]@{
+            current_state = "blocked"
+            target_state = "executable_ready"
+            required_evidence = @(
+                "Public API, CLI, or runtime contract",
+                "Public input and expected-output contract",
+                "Public dependency/stub contract",
+                "Cleanup contract",
+                "QaaS template validation result",
+                "C# build result when code artifacts exist",
+                "Live QaaS run/act/assert result when dependency gates are ready",
+                "Airgapped weak-model validation transcript"
+            )
+        }
+        validation_sequence = @(
+            "Validate selected public Git blob evidence.",
+            "Validate QaaS public docs/schema fields.",
+            "Select exact Java/Spring Boot dependency and build metadata from public evidence.",
+            "Build an application JAR from selected public dependencies.",
+            "Build and schema/template-validate the sidecar ExactHttpTextBody custom assertion before executable promotion.",
+            "Run tracked Java process lifecycle and cleanup validation.",
+            "Run QaaS template validation.",
+            "Run live QaaS act/assert against tracked Spring Boot process.",
+            "Run live airgapped weak-model validation.",
+            "Run strong review against selected public evidence."
+        )
+        airgapped_validation = [ordered]@{
+            required = $true
+            status = "not_run"
+            dry_run = $false
+            weak_model_result = "blocked_until_live_route_available"
+            required_route = "D:\QaaS\_tools\weak-model-session.ps1 -Airgapped -All -ReasoningEffort none"
+            dry_run_transcripts = @()
+        }
+        strong_review = [ordered]@{
+            status = "static_guarded"
+            reviewer = "zappa-qaas-orchestrator"
+            findings = @(
+                "Source YAML does not start Java or activate the custom assertion before validation.",
+                "Dependency resolution and JAR build are explicit blockers.",
+                "Exact body is preserved in sidecar artifacts and expected-body hash."
+            )
+        }
+        source_only_blockers = @(
+            (New-SourceOnlyBlocker -BlockerId "spring-boot-dependency-version-not-selected" -BlockerType "repository_contract" -Description "The README example proves application code, but the generated fixture does not yet have exact selected Spring Boot dependency/build metadata." -RequiredEvidence @("Immutable public dependency/build file", "Pinned dependency version", "Build transcript") -PublicEvidence $springPublicEvidence -UnblockInstruction "Select exact dependency/build metadata from public evidence, then build and hash the generated app before promotion.")
+            (New-SourceOnlyBlocker -BlockerId "spring-boot-jar-build-not-proven" -BlockerType "repository_contract" -Description "The README mentions Java applications can be started with java -jar, but no generated JAR has been built or validated." -RequiredEvidence @("JAR build transcript", "Built artifact path and hash", "Java runtime version transcript") -PublicEvidence $springPublicEvidence -UnblockInstruction "Build the generated application JAR from selected public dependencies before lifecycle validation.")
+            (New-SourceOnlyBlocker -BlockerId "spring-boot-process-lifecycle-not-proven" -BlockerType "repository_contract" -Description "The Java process startup, readiness, port ownership, and cleanup have not been executed and verified." -RequiredEvidence @("Tracked process start transcript", "Readiness probe transcript", "Tracked process cleanup transcript") -PublicEvidence $springPublicEvidence -UnblockInstruction "Run an external Spring Boot lifecycle harness and attach the transcripts before promotion.")
+            (New-SourceOnlyBlocker -BlockerId "spring-boot-text-body-hook-not-template-validated" -BlockerType "qaas_docs_contract" -Description "A docs-derived ExactHttpTextBody custom assertion has been authored, but Runner assembly discovery, schema regeneration, template validation, build validation, and live QaaS act/assert have not passed." -RequiredEvidence @("Runner host project references the assertion assembly", "Regenerated Runner schema includes Assertion: ExactHttpTextBody", "Template validation transcript for the Spring Boot candidate with the custom assertion enabled", "Live QaaS act/assert transcript against a tracked Spring Boot process") -PublicEvidence @($springHookDocsEvidence + @($springHookCodePath, $springHookUsagePath, $springHookPlanPath, $springExpectedBodyPath)) -UnblockInstruction "Reference the assertion assembly, regenerate schema/clean bin, run QaaS template validation, then run live QaaS act/assert before promotion.")
+            (New-SourceOnlyBlocker -BlockerId "qaas-template-live-not-run" -BlockerType "qaas_docs_contract" -Description "The Runner YAML is schema-derived but has not passed QaaS template or live act/assert validation." -RequiredEvidence @("QaaS template validation transcript", "Live QaaS run/act/assert transcript") -PublicEvidence $springDocsEvidence -UnblockInstruction "Run documented QaaS validation commands in an environment with Runner host and Spring Boot process.")
+            (New-SourceOnlyBlocker -BlockerId "live-airgapped-weak-model-not-passed" -BlockerType "source_boundary" -Description "Live weak-model validation has not passed for this candidate packet." -RequiredEvidence @("Airgapped transcript with dry_run false and expected output contract preserved") -PublicEvidence @((Join-Path "D:\QaaS\_tools\zappa-harness" "references\airgapped-validation.md")) -UnblockInstruction "Run D:\QaaS\_tools\weak-model-session.ps1 -Airgapped -All -ReasoningEffort none when quota/routing is available.")
+            (New-SourceOnlyBlocker -BlockerId "httpstatus-docs-inconsistency-recorded" -BlockerType "qaas_docs_contract" -Description "The quick-start example uses stale HttpStatus field names, while generated schema docs require StatusCode and OutputNames." -RequiredEvidence @("Runtime/template validation confirming schema-derived field names") -PublicEvidence $springDocsEvidence -UnblockInstruction "Keep schema-derived StatusCode/OutputNames unless public docs/schema are updated and revalidated.")
+            (New-SourceOnlyBlocker -BlockerId "spring-boot-broad-runtime-coverage-not-selected" -BlockerType "source_boundary" -Description "This candidate covers only the README Example root route and does not test the broader Spring Boot framework or application variants." -RequiredEvidence @("Additional selected public contracts for negative, configuration, actuator, servlet, and reactive behavior") -PublicEvidence $springPublicEvidence -UnblockInstruction "Add separate selected public contracts and candidate packets for additional Spring Boot surfaces.")
+        )
+    }
+    Write-JsonFile -Path $springManifestPath -Value $springManifest
+
+    $springRecord = [ordered]@{
+        rank = [int]$springSelected.rank
+        repository = "spring-projects/spring-boot"
+        directory = $springCandidateDir
+        manifest = $springManifestPath
+        selected_contract = $springBootRecordPath
+        status = "candidate_packet_blocked_until_template_live_airgapped_validation"
+        promotion_state = "blocked"
+        artifact_count = $springArtifacts.Count
+    }
+    $records += $springRecord
 }
 
 $selectedIndexPath = Join-Path $SelectedContractsDir "selected-contract-index.json"

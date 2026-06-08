@@ -1,0 +1,61 @@
+{
+  "harvested_at": "2026-06-07T20:50:41.6874409+03:00",
+  "rank": 211,
+  "repository": "caddyserver/caddy",
+  "url": "https://github.com/caddyserver/caddy",
+  "language": "Go",
+  "stars": 73247,
+  "default_branch": "master",
+  "contract_strength": "contract_files_found",
+  "candidate_qaas_surfaces": [
+    "api-contract-validation",
+    "runner-yaml-from-public-contract",
+    "ci-documented-command-discovery",
+    "go-cli-or-service-contract"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\211-caddyserver-caddy\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\211-caddyserver-caddy\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [
+      "caddytest/integration/proxyprotocol_test.go",
+      "modules/caddyhttp/proxyprotocol/listenerwrapper.go",
+      "modules/caddyhttp/proxyprotocol/module.go",
+      "modules/caddyhttp/proxyprotocol/policy.go"
+    ],
+    "ci": [
+      ".github/workflows/ai.yml",
+      ".github/workflows/auto-release-pr.yml",
+      ".github/workflows/ci.yml",
+      ".github/workflows/cross-build.yml",
+      ".github/workflows/lint.yml",
+      ".github/workflows/release-proposal.yml",
+      ".github/workflows/release.yml",
+      ".github/workflows/release_published.yml",
+      ".github/workflows/scorecard.yml"
+    ],
+    "containers": [],
+    "dotnet": [],
+    "node": [],
+    "python": [],
+    "go": [
+      "go.mod",
+      "go.sum"
+    ],
+    "java": [],
+    "rust": [],
+    "docs": [
+      ".github/CONTRIBUTING.md",
+      ".github/SECURITY.md",
+      "README.md",
+      "modules/caddypki/adminapi.go"
+    ],
+    "tests": []
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\211-caddyserver-caddy\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\211-caddyserver-caddy\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

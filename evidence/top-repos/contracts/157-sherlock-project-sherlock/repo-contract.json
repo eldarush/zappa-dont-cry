@@ -1,0 +1,74 @@
+{
+  "harvested_at": "2026-06-07T20:49:02.4434631+03:00",
+  "rank": 157,
+  "repository": "sherlock-project/sherlock",
+  "url": "https://github.com/sherlock-project/sherlock",
+  "language": "Python",
+  "stars": 84687,
+  "default_branch": "master",
+  "contract_strength": "contract_files_found",
+  "candidate_qaas_surfaces": [
+    "api-contract-validation",
+    "runner-yaml-from-public-contract",
+    "containerized-runtime-smoke",
+    "ci-documented-command-discovery",
+    "python-cli-or-service-contract"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\157-sherlock-project-sherlock\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\157-sherlock-project-sherlock\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [
+      ".actor/dataset_schema.json",
+      ".actor/input_schema.json",
+      "sherlock_project/resources/data.schema.json"
+    ],
+    "ci": [
+      ".github/workflows/exclusions.yml",
+      ".github/workflows/regression.yml",
+      ".github/workflows/update-site-list.yml",
+      ".github/workflows/validate_modified_targets.yml"
+    ],
+    "containers": [
+      ".actor/Dockerfile",
+      "Dockerfile"
+    ],
+    "dotnet": [],
+    "node": [],
+    "python": [
+      "pyproject.toml",
+      "tox.ini"
+    ],
+    "go": [],
+    "java": [],
+    "rust": [],
+    "docs": [
+      ".actor/README.md",
+      ".github/SECURITY.md",
+      "docs/CODE_OF_CONDUCT.md",
+      "docs/README.md",
+      "docs/images/banner.jpg",
+      "docs/images/demo.png",
+      "docs/images/sherlock-logo.png",
+      "docs/pyproject/README.md",
+      "docs/removed-sites.md"
+    ],
+    "tests": [
+      "tests/conftest.py",
+      "tests/few_test_basic.py",
+      "tests/sherlock_interactives.py",
+      "tests/test_manifest.py",
+      "tests/test_probes.py",
+      "tests/test_unicode.py",
+      "tests/test_ux.py",
+      "tests/test_validate_targets.py",
+      "tests/test_version.py"
+    ]
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\157-sherlock-project-sherlock\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\157-sherlock-project-sherlock\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

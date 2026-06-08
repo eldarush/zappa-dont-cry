@@ -1,0 +1,4667 @@
+{
+  "sha": "6701a44a58353d5981f3dde6d9da563e8b27858b",
+  "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/6701a44a58353d5981f3dde6d9da563e8b27858b",
+  "tree": [
+    {
+      "path": ".dockerignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ce24bf95346137d6e16fcb201d612f5cb047f7a",
+      "size": 491,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/7ce24bf95346137d6e16fcb201d612f5cb047f7a"
+    },
+    {
+      "path": ".env.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ec212851ad333561e07e9865ff40eebca51bd99",
+      "size": 2159,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/1ec212851ad333561e07e9865ff40eebca51bd99"
+    },
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e620f4c746b914d9872fb1b6203fa3c674f1a080",
+      "size": 100,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/e620f4c746b914d9872fb1b6203fa3c674f1a080"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8bcde4e3148437d9d2b51ed07763892d80a75caf",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/8bcde4e3148437d9d2b51ed07763892d80a75caf"
+    },
+    {
+      "path": ".github/.git-blame-ignore-revs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df9bfe8c81a03d63826998959f53b4fa106304c3",
+      "size": 82,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/df9bfe8c81a03d63826998959f53b4fa106304c3"
+    },
+    {
+      "path": ".github/CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67b8c7c5eae25e94521a427d82cc8a6235d8ad5c",
+      "size": 521,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/67b8c7c5eae25e94521a427d82cc8a6235d8ad5c"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "27a25e26b23b2edaa35498f0e0db6e255a208d6c",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/27a25e26b23b2edaa35498f0e0db6e255a208d6c"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/1_element_detection_bug.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c3949aef0e26ac1000e7a2455e59b2c37d35bab",
+      "size": 4958,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/6c3949aef0e26ac1000e7a2455e59b2c37d35bab"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/2_bug_report.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d64b363191bc869f1bc6ff25d494a7208840ff7",
+      "size": 2923,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/8d64b363191bc869f1bc6ff25d494a7208840ff7"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/3_feature_request.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6edcffee0c648371329659c011a7e035c2c34fa",
+      "size": 4692,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/f6edcffee0c648371329659c011a7e035c2c34fa"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/4_docs_issue.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3531932982a7474c162eb6c20753eb778166a957",
+      "size": 1938,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/3531932982a7474c162eb6c20753eb778166a957"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cab5af86d5992bd6c3dad152c1044a579d5694f7",
+      "size": 510,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/cab5af86d5992bd6c3dad152c1044a579d5694f7"
+    },
+    {
+      "path": ".github/SECURITY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67a6533784ebc59e03ecb4be1e08acec71a1b031",
+      "size": 1038,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/67a6533784ebc59e03ecb4be1e08acec71a1b031"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "71466878356dd92ff530a0624869e42bddeff220",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/71466878356dd92ff530a0624869e42bddeff220"
+    },
+    {
+      "path": ".github/workflows/build-base-image.yml.disabled",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bafc51ec9b65bc9470d274abe8948e651ddf754e",
+      "size": 1429,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/bafc51ec9b65bc9470d274abe8948e651ddf754e"
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9506d99b0c360ff150b319663c878628e62f6f75",
+      "size": 5899,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/9506d99b0c360ff150b319663c878628e62f6f75"
+    },
+    {
+      "path": ".github/workflows/cloud_evals.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dd97f4823466fb7c19a91461bbced8b686a6f70",
+      "size": 1010,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/9dd97f4823466fb7c19a91461bbced8b686a6f70"
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "455c219dafa523ff9ebc7a2095c6b43a70fcb584",
+      "size": 2085,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/455c219dafa523ff9ebc7a2095c6b43a70fcb584"
+    },
+    {
+      "path": ".github/workflows/eval-on-pr.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bd6fce68ed5331acf28b9d2879483413b48acf2",
+      "size": 1859,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/9bd6fce68ed5331acf28b9d2879483413b48acf2"
+    },
+    {
+      "path": ".github/workflows/install-script.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ab8ed047911ba68f6492998fa30f18851e2cd6d",
+      "size": 8251,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/3ab8ed047911ba68f6492998fa30f18851e2cd6d"
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af70548a89732abd90bc173533e0787ff488e2ef",
+      "size": 1331,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/af70548a89732abd90bc173533e0787ff488e2ef"
+    },
+    {
+      "path": ".github/workflows/package.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd9eb91afa8d902e8557894dfffc67955205946d",
+      "size": 1665,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/cd9eb91afa8d902e8557894dfffc67955205946d"
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbb746a5bab2da2b14225f1a81747a535b6ad929",
+      "size": 4247,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/cbb746a5bab2da2b14225f1a81747a535b6ad929"
+    },
+    {
+      "path": ".github/workflows/stale-bot.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac943c73bea0b5488de0523fa661dd77677458e0",
+      "size": 4846,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/ac943c73bea0b5488de0523fa661dd77677458e0"
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb4187235b6f883da67289978c723965beeeafa3",
+      "size": 12189,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/fb4187235b6f883da67289978c723965beeeafa3"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c91a23df64f95616286f8a0a48e0155044f0fdd",
+      "size": 906,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/1c91a23df64f95616286f8a0a48e0155044f0fdd"
+    },
+    {
+      "path": ".pre-commit-config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "597c4344d7b663f4da8a709e1729ba82e72ad50f",
+      "size": 1787,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/597c4344d7b663f4da8a709e1729ba82e72ad50f"
+    },
+    {
+      "path": ".python-version",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4fba2183587225f216eeada4c78dfab6b2e65f5",
+      "size": 5,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/e4fba2183587225f216eeada4c78dfab6b2e65f5"
+    },
+    {
+      "path": "AGENTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4f1fcd728bb6f8cdeb0318f30a1e97c79b48e38",
+      "size": 38310,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/d4f1fcd728bb6f8cdeb0318f30a1e97c79b48e38"
+    },
+    {
+      "path": "CLAUDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8600e72346bc14565a69f39ff0d7d2f281fd48a9",
+      "size": 11149,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/8600e72346bc14565a69f39ff0d7d2f281fd48a9"
+    },
+    {
+      "path": "CLOUD.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c301df7bce1c45078a717b22dad7ecbd2899586",
+      "size": 75237,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/4c301df7bce1c45078a717b22dad7ecbd2899586"
+    },
+    {
+      "path": "Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b8595d107c32063cc38f667ec77ced498e0e51e",
+      "size": 9870,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/0b8595d107c32063cc38f667ec77ced498e0e51e"
+    },
+    {
+      "path": "Dockerfile.fast",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "511d774d45b5602f28b48049c7dfd3e70c8f865b",
+      "size": 1178,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/511d774d45b5602f28b48049c7dfd3e70c8f865b"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ea3836ce58a4cd32c90c0b4f4e736d840d23780",
+      "size": 1069,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/1ea3836ce58a4cd32c90c0b4f4e736d840d23780"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b33a7e2e8342eef234507c61b7ef36cebe3fab3d",
+      "size": 12844,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/b33a7e2e8342eef234507c61b7ef36cebe3fab3d"
+    },
+    {
+      "path": "RUST_AGENT_INTEGRATION_FEATURES.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73bb382d42f7edc4f21e7e0f99aa78de6fb75e3e",
+      "size": 30595,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/73bb382d42f7edc4f21e7e0f99aa78de6fb75e3e"
+    },
+    {
+      "path": "bin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2807a7bff1a23da5a4f3ec42651dd9a23523887a",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/2807a7bff1a23da5a4f3ec42651dd9a23523887a"
+    },
+    {
+      "path": "bin/lint.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e438ce3b880cf420012a24a58961e49e2da08dbf",
+      "size": 7749,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/e438ce3b880cf420012a24a58961e49e2da08dbf"
+    },
+    {
+      "path": "bin/setup.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "83512bbe792eecd74a046fc87828774639dd192e",
+      "size": 1470,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/83512bbe792eecd74a046fc87828774639dd192e"
+    },
+    {
+      "path": "bin/test.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "741252d9a23db52be2c5fde3f110c4842b04813e",
+      "size": 321,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/741252d9a23db52be2c5fde3f110c4842b04813e"
+    },
+    {
+      "path": "browser_use",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "78e1f6abd9c85e27a8d2767a79676551fed1f9d2",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/78e1f6abd9c85e27a8d2767a79676551fed1f9d2"
+    },
+    {
+      "path": "browser_use/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed850d74033b54ae377e8021f3849a1cc273beb4",
+      "size": 877,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/ed850d74033b54ae377e8021f3849a1cc273beb4"
+    },
+    {
+      "path": "browser_use/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd217aaf09d004e8c20330c74a86fc17e24b11ba",
+      "size": 5657,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/cd217aaf09d004e8c20330c74a86fc17e24b11ba"
+    },
+    {
+      "path": "browser_use/actor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1d18689d140e70881d543a0f1c92050457793ad3",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/1d18689d140e70881d543a0f1c92050457793ad3"
+    },
+    {
+      "path": "browser_use/actor/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82e5cc3678882c79f3ec8e2e6fad682ed6248a02",
+      "size": 9537,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/82e5cc3678882c79f3ec8e2e6fad682ed6248a02"
+    },
+    {
+      "path": "browser_use/actor/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ecf7d57ff3148383e305e4c8b39fa87b828b313",
+      "size": 261,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/5ecf7d57ff3148383e305e4c8b39fa87b828b313"
+    },
+    {
+      "path": "browser_use/actor/element.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0fff62cf3f27319fab85394df274a3ab3c440c5",
+      "size": 36930,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/f0fff62cf3f27319fab85394df274a3ab3c440c5"
+    },
+    {
+      "path": "browser_use/actor/mouse.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4a05801d9b287dd9a578321d72d1c31a397baa0",
+      "size": 4243,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/c4a05801d9b287dd9a578321d72d1c31a397baa0"
+    },
+    {
+      "path": "browser_use/actor/page.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f1c83e2515deb051cecf81781a2c848a522fabd",
+      "size": 19393,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/5f1c83e2515deb051cecf81781a2c848a522fabd"
+    },
+    {
+      "path": "browser_use/actor/playground",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a35c07b0544646c75492cd6a2d0382d1797c4cbc",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/a35c07b0544646c75492cd6a2d0382d1797c4cbc"
+    },
+    {
+      "path": "browser_use/actor/playground/flights.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "417be8684968b6f81af69fbabb864ded67602048",
+      "size": 1019,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/417be8684968b6f81af69fbabb864ded67602048"
+    },
+    {
+      "path": "browser_use/actor/playground/mixed_automation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d33377b7a199b0ae94f5a009c4b567ae8e11ecaf",
+      "size": 1119,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/d33377b7a199b0ae94f5a009c4b567ae8e11ecaf"
+    },
+    {
+      "path": "browser_use/actor/playground/playground.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d732ff5ae09aa2fbf345917c835509b013f436e0",
+      "size": 7372,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/d732ff5ae09aa2fbf345917c835509b013f436e0"
+    },
+    {
+      "path": "browser_use/actor/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82985b2ea3007e897f0b2a96e53e4b14127cfa35",
+      "size": 5234,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/82985b2ea3007e897f0b2a96e53e4b14127cfa35"
+    },
+    {
+      "path": "browser_use/agent",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "51e2abca7d40a8c3266cfc67c34edde445104641",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/51e2abca7d40a8c3266cfc67c34edde445104641"
+    },
+    {
+      "path": "browser_use/agent/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d1e0c4c51ba93cf38a76d451a2d0ee74bc8fae2",
+      "size": 727,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/0d1e0c4c51ba93cf38a76d451a2d0ee74bc8fae2"
+    },
+    {
+      "path": "browser_use/agent/cloud_events.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43142f8b10285a06ddaed10afca3a816d59db421",
+      "size": 11424,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/43142f8b10285a06ddaed10afca3a816d59db421"
+    },
+    {
+      "path": "browser_use/agent/gif.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eaf5b091c77b7cb6233ea3e89f06988bdd1c237c",
+      "size": 12150,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/eaf5b091c77b7cb6233ea3e89f06988bdd1c237c"
+    },
+    {
+      "path": "browser_use/agent/judge.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d172327212ef79c1b262a43d699a12c155f8df17",
+      "size": 10184,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/d172327212ef79c1b262a43d699a12c155f8df17"
+    },
+    {
+      "path": "browser_use/agent/message_manager",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "034bda306eb8eaaf79520e4d886243d4d782d0c9",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/034bda306eb8eaaf79520e4d886243d4d782d0c9"
+    },
+    {
+      "path": "browser_use/agent/message_manager/service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c7cae11a4e98eea7b2d23fdd0ce89715a713e46",
+      "size": 23375,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/6c7cae11a4e98eea7b2d23fdd0ce89715a713e46"
+    },
+    {
+      "path": "browser_use/agent/message_manager/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fc25e53401b373d3b859c0715ed274ebd7faaa9",
+      "size": 1365,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/1fc25e53401b373d3b859c0715ed274ebd7faaa9"
+    },
+    {
+      "path": "browser_use/agent/message_manager/views.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbc4881493a10f476e8003cbfaa4e3bc4dba3aaf",
+      "size": 2976,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/dbc4881493a10f476e8003cbfaa4e3bc4dba3aaf"
+    },
+    {
+      "path": "browser_use/agent/prompts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1cb608b821fee194387add430747b045c0804d0",
+      "size": 21635,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/d1cb608b821fee194387add430747b045c0804d0"
+    },
+    {
+      "path": "browser_use/agent/service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15934fcb46e437657893150c82fff7362c3d58a5",
+      "size": 162979,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/15934fcb46e437657893150c82fff7362c3d58a5"
+    },
+    {
+      "path": "browser_use/agent/system_prompts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b275713631e96b1af06b52f82b4cbb19fab58ef7",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/b275713631e96b1af06b52f82b4cbb19fab58ef7"
+    },
+    {
+      "path": "browser_use/agent/system_prompts/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e91d5bec94b26f110e83c9cfc7e11e3c6274d8ae",
+      "size": 48,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/e91d5bec94b26f110e83c9cfc7e11e3c6274d8ae"
+    },
+    {
+      "path": "browser_use/agent/system_prompts/system_prompt.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56c67d8787ea5414c1f7672340c7aa05314b4764",
+      "size": 24145,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/56c67d8787ea5414c1f7672340c7aa05314b4764"
+    },
+    {
+      "path": "browser_use/agent/system_prompts/system_prompt_anthropic_flash.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01c0d8fa9dcbc1755c53c033176d1d1a1294c999",
+      "size": 21112,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/01c0d8fa9dcbc1755c53c033176d1d1a1294c999"
+    },
+    {
+      "path": "browser_use/agent/system_prompts/system_prompt_browser_use.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b5fe1d035fd8cc814a13b868efbbb8d4f3755e9",
+      "size": 1253,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/3b5fe1d035fd8cc814a13b868efbbb8d4f3755e9"
+    },
+    {
+      "path": "browser_use/agent/system_prompts/system_prompt_browser_use_flash.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "435d77a85ae898fe801a8c31c27f07a03291584e",
+      "size": 1011,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/435d77a85ae898fe801a8c31c27f07a03291584e"
+    },
+    {
+      "path": "browser_use/agent/system_prompts/system_prompt_browser_use_no_thinking.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e33b4f978d370348fe1a1d82a2778c8eec8f5bc3",
+      "size": 1070,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/e33b4f978d370348fe1a1d82a2778c8eec8f5bc3"
+    },
+    {
+      "path": "browser_use/agent/system_prompts/system_prompt_flash.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a254a49a53e6b564778a1573885a190c2ad461ee",
+      "size": 2421,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/a254a49a53e6b564778a1573885a190c2ad461ee"
+    },
+    {
+      "path": "browser_use/agent/system_prompts/system_prompt_flash_anthropic.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c210b16fc6217127fc96c1c7f15a65b8a9e8c7cb",
+      "size": 2502,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/c210b16fc6217127fc96c1c7f15a65b8a9e8c7cb"
+    },
+    {
+      "path": "browser_use/agent/system_prompts/system_prompt_no_thinking.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e89a985bc7372761c9258a1c994c44e1550b6079",
+      "size": 22144,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/e89a985bc7372761c9258a1c994c44e1550b6079"
+    },
+    {
+      "path": "browser_use/agent/variable_detector.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b5ee96b4a0b41286cb99ef890aa3a3b12a6d9c9",
+      "size": 8019,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/0b5ee96b4a0b41286cb99ef890aa3a3b12a6d9c9"
+    },
+    {
+      "path": "browser_use/agent/views.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbec9a534625551145e83b111184f24fa297f310",
+      "size": 37176,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/dbec9a534625551145e83b111184f24fa297f310"
+    },
+    {
+      "path": "browser_use/browser",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "946aabc39d6d9b639d618af40d57813c0d883b0a",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/946aabc39d6d9b639d618af40d57813c0d883b0a"
+    },
+    {
+      "path": "browser_use/browser/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ef9bf93b41fefa1984d0ed8d475030967cd7685",
+      "size": 1146,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/4ef9bf93b41fefa1984d0ed8d475030967cd7685"
+    },
+    {
+      "path": "browser_use/browser/_cdp_timeout.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5500a4ba290ad92ea35d39c6108f0b530aa89806",
+      "size": 4263,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/5500a4ba290ad92ea35d39c6108f0b530aa89806"
+    },
+    {
+      "path": "browser_use/browser/cloud",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4f693bb2a6fd67b47e9d0f7fbc980ab57b82d35b",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/4f693bb2a6fd67b47e9d0f7fbc980ab57b82d35b"
+    },
+    {
+      "path": "browser_use/browser/cloud/cloud.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9670394d08775d2a0f7d6ca887174e7e273d465",
+      "size": 7496,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/c9670394d08775d2a0f7d6ca887174e7e273d465"
+    },
+    {
+      "path": "browser_use/browser/cloud/views.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20459c36941177f4becbb7f13b8e83753a818e0c",
+      "size": 2535,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/20459c36941177f4becbb7f13b8e83753a818e0c"
+    },
+    {
+      "path": "browser_use/browser/demo_mode.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3eb4eb2f5b25eb1028fb53304897e47b969b8461",
+      "size": 46125,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/3eb4eb2f5b25eb1028fb53304897e47b969b8461"
+    },
+    {
+      "path": "browser_use/browser/events.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90aea0e9b2c36cd8868aee26277837ec3bb59299",
+      "size": 22200,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/90aea0e9b2c36cd8868aee26277837ec3bb59299"
+    },
+    {
+      "path": "browser_use/browser/profile.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eda73dfcfb9a090879389c479c2e31d2c1f05011",
+      "size": 52173,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/eda73dfcfb9a090879389c479c2e31d2c1f05011"
+    },
+    {
+      "path": "browser_use/browser/python_highlights.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d41b7e27e4ddfb53e461012f2736adf5e1c555b",
+      "size": 18151,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/2d41b7e27e4ddfb53e461012f2736adf5e1c555b"
+    },
+    {
+      "path": "browser_use/browser/session.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17099c4aad3e47eafbe7da597b5958bb6e6c51e0",
+      "size": 156272,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/17099c4aad3e47eafbe7da597b5958bb6e6c51e0"
+    },
+    {
+      "path": "browser_use/browser/session_manager.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b380dabed91f21421b9334e259fb31f9cb22fc7d",
+      "size": 34318,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/b380dabed91f21421b9334e259fb31f9cb22fc7d"
+    },
+    {
+      "path": "browser_use/browser/video_recorder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37c4d1ab6a270e56b6f4a9ea0427ec3d3dbccd3c",
+      "size": 4858,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/37c4d1ab6a270e56b6f4a9ea0427ec3d3dbccd3c"
+    },
+    {
+      "path": "browser_use/browser/views.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74830c29cfad88aab26e593d2c2b5058918dd4cc",
+      "size": 6272,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/74830c29cfad88aab26e593d2c2b5058918dd4cc"
+    },
+    {
+      "path": "browser_use/browser/watchdog_base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "622e6bc78d942a9a8cbd2643b1fc7a6a7e73b583",
+      "size": 13943,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/622e6bc78d942a9a8cbd2643b1fc7a6a7e73b583"
+    },
+    {
+      "path": "browser_use/browser/watchdogs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5014702dc0b0a657bd91016e157e07425f3da149",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/5014702dc0b0a657bd91016e157e07425f3da149"
+    },
+    {
+      "path": "browser_use/browser/watchdogs/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "browser_use/browser/watchdogs/aboutblank_watchdog.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6a7a740df342d703e9df11b7b5755ad2465cd83",
+      "size": 9330,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/f6a7a740df342d703e9df11b7b5755ad2465cd83"
+    },
+    {
+      "path": "browser_use/browser/watchdogs/captcha_watchdog.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bde1a727b4eaf2ad0d7fd92e23b2af0f17fbb1db",
+      "size": 7398,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/bde1a727b4eaf2ad0d7fd92e23b2af0f17fbb1db"
+    },
+    {
+      "path": "browser_use/browser/watchdogs/crash_watchdog.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eeb4eeed792011f85d3d74220cc71f447c9f2f68",
+      "size": 13177,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/eeb4eeed792011f85d3d74220cc71f447c9f2f68"
+    },
+    {
+      "path": "browser_use/browser/watchdogs/default_action_watchdog.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33c243da541db1dd034fd50712b12d25f6997a76",
+      "size": 131912,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/33c243da541db1dd034fd50712b12d25f6997a76"
+    },
+    {
+      "path": "browser_use/browser/watchdogs/dom_watchdog.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62daa0397e6b3619281b3ce4fffbbb0feb4da8e9",
+      "size": 34749,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/62daa0397e6b3619281b3ce4fffbbb0feb4da8e9"
+    },
+    {
+      "path": "browser_use/browser/watchdogs/downloads_watchdog.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9ea34cf590dfe75ee21a57e4853506ab45a04f9",
+      "size": 56091,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/b9ea34cf590dfe75ee21a57e4853506ab45a04f9"
+    },
+    {
+      "path": "browser_use/browser/watchdogs/har_recording_watchdog.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf6d6331c82a4517944486ed291c9b69beb2b663",
+      "size": 29779,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/cf6d6331c82a4517944486ed291c9b69beb2b663"
+    },
+    {
+      "path": "browser_use/browser/watchdogs/local_browser_watchdog.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb39a1377b0fabbb4bf68edd78d03d878323d2c9",
+      "size": 18799,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/eb39a1377b0fabbb4bf68edd78d03d878323d2c9"
+    },
+    {
+      "path": "browser_use/browser/watchdogs/permissions_watchdog.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c926b484e4559fdac246ba265337f791bd120f5",
+      "size": 1418,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/7c926b484e4559fdac246ba265337f791bd120f5"
+    },
+    {
+      "path": "browser_use/browser/watchdogs/popups_watchdog.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50986e2f39147fd438c63b93202963ea4082ad57",
+      "size": 6578,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/50986e2f39147fd438c63b93202963ea4082ad57"
+    },
+    {
+      "path": "browser_use/browser/watchdogs/recording_watchdog.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db33edaba4e8573173968e488d353a6af63c0a8d",
+      "size": 8262,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/db33edaba4e8573173968e488d353a6af63c0a8d"
+    },
+    {
+      "path": "browser_use/browser/watchdogs/screenshot_watchdog.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "713444ecef9019c4263009d250072366cdaa0cc6",
+      "size": 3478,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/713444ecef9019c4263009d250072366cdaa0cc6"
+    },
+    {
+      "path": "browser_use/browser/watchdogs/security_watchdog.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1348be93eeca44818bdf9888ae218fcec4293dfc",
+      "size": 9809,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/1348be93eeca44818bdf9888ae218fcec4293dfc"
+    },
+    {
+      "path": "browser_use/browser/watchdogs/storage_state_watchdog.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73623512938860e23232cbc1e7e08498f5b3fb82",
+      "size": 13415,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/73623512938860e23232cbc1e7e08498f5b3fb82"
+    },
+    {
+      "path": "browser_use/cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "631239146468137aab732f26e93d8b25421dedb6",
+      "size": 81530,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/631239146468137aab732f26e93d8b25421dedb6"
+    },
+    {
+      "path": "browser_use/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3452df4ec81e21ba1ce1e16bd54a337f9c9f88b2",
+      "size": 17106,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/3452df4ec81e21ba1ce1e16bd54a337f9c9f88b2"
+    },
+    {
+      "path": "browser_use/controller",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "73406ccc7486991f570e5516b3d0bff201030850",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/73406ccc7486991f570e5516b3d0bff201030850"
+    },
+    {
+      "path": "browser_use/controller/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30880d7ca7dd4b24581268a59d26dc01582f4e17",
+      "size": 75,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/30880d7ca7dd4b24581268a59d26dc01582f4e17"
+    },
+    {
+      "path": "browser_use/dom",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c659fe78468b4f8fd3e9e33bb53c6781acaaad43",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/c659fe78468b4f8fd3e9e33bb53c6781acaaad43"
+    },
+    {
+      "path": "browser_use/dom/enhanced_snapshot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecb110c6d78b8241baed3ea52836fe45afb0856a",
+      "size": 7336,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/ecb110c6d78b8241baed3ea52836fe45afb0856a"
+    },
+    {
+      "path": "browser_use/dom/markdown_extractor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aff9736d420a045de38a3ab8cc31447dc7e0ccbe",
+      "size": 17331,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/aff9736d420a045de38a3ab8cc31447dc7e0ccbe"
+    },
+    {
+      "path": "browser_use/dom/playground",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c50825e7cbfb6a1d918ba6f5a75c32466a6e5a7b",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/c50825e7cbfb6a1d918ba6f5a75c32466a6e5a7b"
+    },
+    {
+      "path": "browser_use/dom/playground/extraction.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1d4f9225b899bf10af0d03af43f1c99bc8d3f38",
+      "size": 12558,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/b1d4f9225b899bf10af0d03af43f1c99bc8d3f38"
+    },
+    {
+      "path": "browser_use/dom/playground/multi_act.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e606d01af6ac793356c1f3fa0aa31b9ee8a3bd2",
+      "size": 734,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/4e606d01af6ac793356c1f3fa0aa31b9ee8a3bd2"
+    },
+    {
+      "path": "browser_use/dom/serializer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1d38847ee57849246c1524adee93240a2d3f8056",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/1d38847ee57849246c1524adee93240a2d3f8056"
+    },
+    {
+      "path": "browser_use/dom/serializer/clickable_elements.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5d270e9170aa587fece780eb5dcf34dbb5b2db2",
+      "size": 8160,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/c5d270e9170aa587fece780eb5dcf34dbb5b2db2"
+    },
+    {
+      "path": "browser_use/dom/serializer/eval_serializer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64116d255053d36413f0afdebbb0601d0eaf34d4",
+      "size": 15097,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/64116d255053d36413f0afdebbb0601d0eaf34d4"
+    },
+    {
+      "path": "browser_use/dom/serializer/html_serializer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "097ca2192c0162aa00e06b4e6921089514b64a5b",
+      "size": 8796,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/097ca2192c0162aa00e06b4e6921089514b64a5b"
+    },
+    {
+      "path": "browser_use/dom/serializer/paint_order.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61032e2090243aba5dc08232344cb66d8d10344d",
+      "size": 6234,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/61032e2090243aba5dc08232344cb66d8d10344d"
+    },
+    {
+      "path": "browser_use/dom/serializer/serializer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4374dc43cf5b8e1de9db2ef331d2a2609156b563",
+      "size": 51496,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/4374dc43cf5b8e1de9db2ef331d2a2609156b563"
+    },
+    {
+      "path": "browser_use/dom/service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "416aacbc49995591741603079299cffc606c0dac",
+      "size": 46756,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/416aacbc49995591741603079299cffc606c0dac"
+    },
+    {
+      "path": "browser_use/dom/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "029aec9d62a175062e6e1669d062c40f93144fe6",
+      "size": 4284,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/029aec9d62a175062e6e1669d062c40f93144fe6"
+    },
+    {
+      "path": "browser_use/dom/views.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43df5631b62fbc5c75580c42cfafa13029092cee",
+      "size": 32967,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/43df5631b62fbc5c75580c42cfafa13029092cee"
+    },
+    {
+      "path": "browser_use/exceptions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e01cf0cdb456a3230b0eefba9fa34057a0a8a0e",
+      "size": 186,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/2e01cf0cdb456a3230b0eefba9fa34057a0a8a0e"
+    },
+    {
+      "path": "browser_use/filesystem",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "819a0c640a9ee95b6afb6ba06c1e200b02b4f381",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/819a0c640a9ee95b6afb6ba06c1e200b02b4f381"
+    },
+    {
+      "path": "browser_use/filesystem/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "browser_use/filesystem/file_system.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49946a1ea891b384916ddc77ed6491b18c54acae",
+      "size": 31027,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/49946a1ea891b384916ddc77ed6491b18c54acae"
+    },
+    {
+      "path": "browser_use/init_cmd.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e25a7a15d5cb5ddf2071ab54840f3e94d04d327",
+      "size": 13408,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/3e25a7a15d5cb5ddf2071ab54840f3e94d04d327"
+    },
+    {
+      "path": "browser_use/integrations",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "45af6cd00f18b97b3fbac7e110a196800ff977cf",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/45af6cd00f18b97b3fbac7e110a196800ff977cf"
+    },
+    {
+      "path": "browser_use/integrations/gmail",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3ffb855449bdc503527df65bfa30c8b22d0c3ad4",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/3ffb855449bdc503527df65bfa30c8b22d0c3ad4"
+    },
+    {
+      "path": "browser_use/integrations/gmail/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7402e28ab66343938b4de46cb91d61e8035ae4a",
+      "size": 1020,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/e7402e28ab66343938b4de46cb91d61e8035ae4a"
+    },
+    {
+      "path": "browser_use/integrations/gmail/actions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "999ccd9b726e1f6ebdbc1b692dfc82df442abe39",
+      "size": 4174,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/999ccd9b726e1f6ebdbc1b692dfc82df442abe39"
+    },
+    {
+      "path": "browser_use/integrations/gmail/service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00cf2f995bb79e673965cb8fda242fe912edfa64",
+      "size": 7670,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/00cf2f995bb79e673965cb8fda242fe912edfa64"
+    },
+    {
+      "path": "browser_use/llm",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3401781a684aae1206f624ee059bd69b5bb92fbd",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/3401781a684aae1206f624ee059bd69b5bb92fbd"
+    },
+    {
+      "path": "browser_use/llm/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c80fa2203b7e685708d4625b9be19c9dd24485a9",
+      "size": 800,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/c80fa2203b7e685708d4625b9be19c9dd24485a9"
+    },
+    {
+      "path": "browser_use/llm/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6d8464c929c9b0afda71ad6c2c8f94f7dfbdd14",
+      "size": 5114,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/d6d8464c929c9b0afda71ad6c2c8f94f7dfbdd14"
+    },
+    {
+      "path": "browser_use/llm/anthropic",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b3f1a86610d8de0ac5a36dc2daeefc175eca5675",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/b3f1a86610d8de0ac5a36dc2daeefc175eca5675"
+    },
+    {
+      "path": "browser_use/llm/anthropic/chat.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "274d724526d818a002f7b21d7b78446179704b59",
+      "size": 8417,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/274d724526d818a002f7b21d7b78446179704b59"
+    },
+    {
+      "path": "browser_use/llm/anthropic/serializer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "834b3efdaafb49d1b61306b3efb3036a74ec68e8",
+      "size": 10917,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/834b3efdaafb49d1b61306b3efb3036a74ec68e8"
+    },
+    {
+      "path": "browser_use/llm/aws",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bb2551946f8fd4460051e012a10a57f6ed89f175",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/bb2551946f8fd4460051e012a10a57f6ed89f175"
+    },
+    {
+      "path": "browser_use/llm/aws/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb2def92009228ad91d7ca7c1ac9fdafb6c717a4",
+      "size": 1056,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/cb2def92009228ad91d7ca7c1ac9fdafb6c717a4"
+    },
+    {
+      "path": "browser_use/llm/aws/chat_anthropic.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d4283a21bc5e9c7b9a3897c8714507d7e33e920",
+      "size": 8608,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/4d4283a21bc5e9c7b9a3897c8714507d7e33e920"
+    },
+    {
+      "path": "browser_use/llm/aws/chat_bedrock.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3796db47209db0cc09d86faeeb2a8c8b63337e13",
+      "size": 9003,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/3796db47209db0cc09d86faeeb2a8c8b63337e13"
+    },
+    {
+      "path": "browser_use/llm/aws/serializer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0a21ffc1eb130f81f953964c5b44325b6776006",
+      "size": 7958,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/e0a21ffc1eb130f81f953964c5b44325b6776006"
+    },
+    {
+      "path": "browser_use/llm/azure",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5c4924064deae4a07d902e5f9a83324594ff0742",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/5c4924064deae4a07d902e5f9a83324594ff0742"
+    },
+    {
+      "path": "browser_use/llm/azure/chat.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21b14aabc7641bcc19b849122a836c691f7f55be",
+      "size": 9880,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/21b14aabc7641bcc19b849122a836c691f7f55be"
+    },
+    {
+      "path": "browser_use/llm/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a591c62f6f32ed90428e0dc259e5bc7ee01f5ec",
+      "size": 1545,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/7a591c62f6f32ed90428e0dc259e5bc7ee01f5ec"
+    },
+    {
+      "path": "browser_use/llm/browser_use",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4213392ff6774146083ebfe625d774cd5965ed60",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/4213392ff6774146083ebfe625d774cd5965ed60"
+    },
+    {
+      "path": "browser_use/llm/browser_use/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "791a54499f3fdb346c134b67c68e6ef7a2f4ee5e",
+      "size": 90,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/791a54499f3fdb346c134b67c68e6ef7a2f4ee5e"
+    },
+    {
+      "path": "browser_use/llm/browser_use/chat.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a47ad289ef21a04042f73ceb517a2b15db7e1855",
+      "size": 10465,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/a47ad289ef21a04042f73ceb517a2b15db7e1855"
+    },
+    {
+      "path": "browser_use/llm/cerebras",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "40265f16e6bc44bbffe52a7bd9a881b0cdb47215",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/40265f16e6bc44bbffe52a7bd9a881b0cdb47215"
+    },
+    {
+      "path": "browser_use/llm/cerebras/chat.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5df138f4aebfaa71b1bdebdd5b2f51a6835d4aa1",
+      "size": 5877,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/5df138f4aebfaa71b1bdebdd5b2f51a6835d4aa1"
+    },
+    {
+      "path": "browser_use/llm/cerebras/serializer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8e470f26227c40f33b73ca0431972d442e449da",
+      "size": 3360,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/d8e470f26227c40f33b73ca0431972d442e449da"
+    },
+    {
+      "path": "browser_use/llm/deepseek",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fe9c0384a0743a0a110d523b212668cc40a6eb7f",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/fe9c0384a0743a0a110d523b212668cc40a6eb7f"
+    },
+    {
+      "path": "browser_use/llm/deepseek/chat.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26f656c8b039375502c3f0cb080f8f0d9f04a5af",
+      "size": 6831,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/26f656c8b039375502c3f0cb080f8f0d9f04a5af"
+    },
+    {
+      "path": "browser_use/llm/deepseek/serializer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af470a0a51d13ae2810b03e20a8236525b4cd677",
+      "size": 3360,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/af470a0a51d13ae2810b03e20a8236525b4cd677"
+    },
+    {
+      "path": "browser_use/llm/exceptions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "809edcc18f3b7623dd740e81558de2a7e66f1e7d",
+      "size": 613,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/809edcc18f3b7623dd740e81558de2a7e66f1e7d"
+    },
+    {
+      "path": "browser_use/llm/google",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "09671bed51f5087fe28d4e86a6984db053689b7c",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/09671bed51f5087fe28d4e86a6984db053689b7c"
+    },
+    {
+      "path": "browser_use/llm/google/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4a6dde9b5161e33c83bc4eff5825c3c5f89bea2",
+      "size": 77,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/e4a6dde9b5161e33c83bc4eff5825c3c5f89bea2"
+    },
+    {
+      "path": "browser_use/llm/google/chat.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c79e20f7e05af2072d25c57e15a16bcb1709960",
+      "size": 23160,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/9c79e20f7e05af2072d25c57e15a16bcb1709960"
+    },
+    {
+      "path": "browser_use/llm/google/serializer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56622dc913f7d91c322f346759eb11315d4c1994",
+      "size": 4270,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/56622dc913f7d91c322f346759eb11315d4c1994"
+    },
+    {
+      "path": "browser_use/llm/groq",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0ae026668712040e341c20238d62c93ca21f4755",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/0ae026668712040e341c20238d62c93ca21f4755"
+    },
+    {
+      "path": "browser_use/llm/groq/chat.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ae10b9bd8abd765d6801fe2678056ac3bfcd0e5",
+      "size": 7510,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/2ae10b9bd8abd765d6801fe2678056ac3bfcd0e5"
+    },
+    {
+      "path": "browser_use/llm/groq/parser.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "441dd5db17e016376d4df9eed1c8b15aa368ee5f",
+      "size": 4944,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/441dd5db17e016376d4df9eed1c8b15aa368ee5f"
+    },
+    {
+      "path": "browser_use/llm/groq/serializer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8917b7dedc0c25f12e19d8b20a5c091ae1f808be",
+      "size": 5194,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/8917b7dedc0c25f12e19d8b20a5c091ae1f808be"
+    },
+    {
+      "path": "browser_use/llm/litellm",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ed3e88af4974bb4128acb6e75a33fb8ffad16075",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/ed3e88af4974bb4128acb6e75a33fb8ffad16075"
+    },
+    {
+      "path": "browser_use/llm/litellm/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26d5f1e70ab28f36edebc963c79305af454176b1",
+      "size": 80,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/26d5f1e70ab28f36edebc963c79305af454176b1"
+    },
+    {
+      "path": "browser_use/llm/litellm/chat.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3510fe846746e15d98287fccc8f9442351d1d5f3",
+      "size": 6370,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/3510fe846746e15d98287fccc8f9442351d1d5f3"
+    },
+    {
+      "path": "browser_use/llm/litellm/serializer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ac90f557c58d653940007a134349a23d0468e39",
+      "size": 2684,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/6ac90f557c58d653940007a134349a23d0468e39"
+    },
+    {
+      "path": "browser_use/llm/messages.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06912a3b36a7e065461dc48542156eead946f409",
+      "size": 6577,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/06912a3b36a7e065461dc48542156eead946f409"
+    },
+    {
+      "path": "browser_use/llm/mistral",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3db6300027be6cbb370733586868ce136302d649",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/3db6300027be6cbb370733586868ce136302d649"
+    },
+    {
+      "path": "browser_use/llm/mistral/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c02dcbb9f3fd7b56ff365c31390276e8167198fc",
+      "size": 119,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/c02dcbb9f3fd7b56ff365c31390276e8167198fc"
+    },
+    {
+      "path": "browser_use/llm/mistral/chat.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5ed47e31816753236124bab15e971057e2d5aa9",
+      "size": 7093,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/f5ed47e31816753236124bab15e971057e2d5aa9"
+    },
+    {
+      "path": "browser_use/llm/mistral/schema.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d21997de7abad8b5d830761880ed0dc6c0f38e3",
+      "size": 1097,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/2d21997de7abad8b5d830761880ed0dc6c0f38e3"
+    },
+    {
+      "path": "browser_use/llm/models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21ccdfd351f11ec78fdf0252cc3a416c584be8a9",
+      "size": 10913,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/21ccdfd351f11ec78fdf0252cc3a416c584be8a9"
+    },
+    {
+      "path": "browser_use/llm/oci_raw",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "15cb3d16ed20c7b267cdb6bcb05c18a0060fe821",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/15cb3d16ed20c7b267cdb6bcb05c18a0060fe821"
+    },
+    {
+      "path": "browser_use/llm/oci_raw/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50a8152d53276be115cc13a787cddd9ef624f49d",
+      "size": 8676,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/50a8152d53276be115cc13a787cddd9ef624f49d"
+    },
+    {
+      "path": "browser_use/llm/oci_raw/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecf250c452ff7d93154c44eb101a07a36c8e46aa",
+      "size": 264,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/ecf250c452ff7d93154c44eb101a07a36c8e46aa"
+    },
+    {
+      "path": "browser_use/llm/oci_raw/chat.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7763471e906212ae70512be055f8460060fef4e8",
+      "size": 14930,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/7763471e906212ae70512be055f8460060fef4e8"
+    },
+    {
+      "path": "browser_use/llm/oci_raw/serializer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cf50c51d9ede042e5a800d62d84ac89f81e3e2e",
+      "size": 7338,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/3cf50c51d9ede042e5a800d62d84ac89f81e3e2e"
+    },
+    {
+      "path": "browser_use/llm/ollama",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "56b87c854091dcc002e327a7f7a80091dc412989",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/56b87c854091dcc002e327a7f7a80091dc412989"
+    },
+    {
+      "path": "browser_use/llm/ollama/chat.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d592d448d4e307b1de262e84431026dab67bdb8",
+      "size": 2800,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/0d592d448d4e307b1de262e84431026dab67bdb8"
+    },
+    {
+      "path": "browser_use/llm/ollama/serializer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afaf838a7148d042568a50d51ce706ca01b61e82",
+      "size": 4052,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/afaf838a7148d042568a50d51ce706ca01b61e82"
+    },
+    {
+      "path": "browser_use/llm/openai",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "af4e2c6fe398194710347d2f2cb93338913af897",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/af4e2c6fe398194710347d2f2cb93338913af897"
+    },
+    {
+      "path": "browser_use/llm/openai/chat.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "390df689f10bb8604aef88896314eb5958fd8074",
+      "size": 10436,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/390df689f10bb8604aef88896314eb5958fd8074"
+    },
+    {
+      "path": "browser_use/llm/openai/like.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c6b0f572ed4781e367a2251853bf1eac85cc714",
+      "size": 291,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/3c6b0f572ed4781e367a2251853bf1eac85cc714"
+    },
+    {
+      "path": "browser_use/llm/openai/responses_serializer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7fea9cd16afd55d5feaed0770034899d39fb0ba",
+      "size": 5050,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/e7fea9cd16afd55d5feaed0770034899d39fb0ba"
+    },
+    {
+      "path": "browser_use/llm/openai/serializer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bcdddd1d2e20dca8d3fc8fdf235814ee89074ac",
+      "size": 5899,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/2bcdddd1d2e20dca8d3fc8fdf235814ee89074ac"
+    },
+    {
+      "path": "browser_use/llm/openrouter",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "82ae21e0def94f796bc45c50f20f3a5f9dc1d73d",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/82ae21e0def94f796bc45c50f20f3a5f9dc1d73d"
+    },
+    {
+      "path": "browser_use/llm/openrouter/chat.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f71fa4e06826122063df85947776716987c8f59e",
+      "size": 6558,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/f71fa4e06826122063df85947776716987c8f59e"
+    },
+    {
+      "path": "browser_use/llm/openrouter/serializer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6985de6b49b8bf9cc17dece59d0d954c6c3f069",
+      "size": 848,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/f6985de6b49b8bf9cc17dece59d0d954c6c3f069"
+    },
+    {
+      "path": "browser_use/llm/schema.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4e01be42eac22da1545c1119e4c614b44498a21",
+      "size": 7815,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/d4e01be42eac22da1545c1119e4c614b44498a21"
+    },
+    {
+      "path": "browser_use/llm/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "41e9eff642bab409595db1b744b307c356238312",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/41e9eff642bab409595db1b744b307c356238312"
+    },
+    {
+      "path": "browser_use/llm/tests/test_anthropic_cache.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71644e9b5d70aa2063fc3f009162050de18492dc",
+      "size": 16133,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/71644e9b5d70aa2063fc3f009162050de18492dc"
+    },
+    {
+      "path": "browser_use/llm/tests/test_chat_models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92e00dabb930260453f21b3a7f6e581977dee63a",
+      "size": 10424,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/92e00dabb930260453f21b3a7f6e581977dee63a"
+    },
+    {
+      "path": "browser_use/llm/tests/test_gemini_image.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d7dcbcc5f1c161e1af1eecb4250f39567491f3f",
+      "size": 2680,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/5d7dcbcc5f1c161e1af1eecb4250f39567491f3f"
+    },
+    {
+      "path": "browser_use/llm/tests/test_groq_loop.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b70a75b0b1373d0009b56e7d4e50d8c48a4fcb9",
+      "size": 1551,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/4b70a75b0b1373d0009b56e7d4e50d8c48a4fcb9"
+    },
+    {
+      "path": "browser_use/llm/tests/test_mistral_schema.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4e6cd3c4b7fcc4f5637264cfc1df1cab564e0ca",
+      "size": 797,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/d4e6cd3c4b7fcc4f5637264cfc1df1cab564e0ca"
+    },
+    {
+      "path": "browser_use/llm/tests/test_single_step.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99cb76ddc7ac7f94de1ea8ab50df82236c0a76db",
+      "size": 7367,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/99cb76ddc7ac7f94de1ea8ab50df82236c0a76db"
+    },
+    {
+      "path": "browser_use/llm/vercel",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "009b876fe702ba9ed6b9d6a2c3f067f9f0169e48",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/009b876fe702ba9ed6b9d6a2c3f067f9f0169e48"
+    },
+    {
+      "path": "browser_use/llm/vercel/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76df66d6e09121cb1f6e78c911bb7ea479ad927e",
+      "size": 77,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/76df66d6e09121cb1f6e78c911bb7ea479ad927e"
+    },
+    {
+      "path": "browser_use/llm/vercel/chat.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4037b9075cfd32b8e8dd19959914e7780044745",
+      "size": 21564,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/f4037b9075cfd32b8e8dd19959914e7780044745"
+    },
+    {
+      "path": "browser_use/llm/vercel/serializer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d89596fb6bd81a42e3d9043f5329b5c2f27a0437",
+      "size": 879,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/d89596fb6bd81a42e3d9043f5329b5c2f27a0437"
+    },
+    {
+      "path": "browser_use/llm/views.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "830f5147181381dc2b1b27dfaafc44e968bb2f18",
+      "size": 1326,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/830f5147181381dc2b1b27dfaafc44e968bb2f18"
+    },
+    {
+      "path": "browser_use/logging_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ef16bc144744c703471732dafb8548ac1d10e6e",
+      "size": 10703,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/3ef16bc144744c703471732dafb8548ac1d10e6e"
+    },
+    {
+      "path": "browser_use/mcp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "21b76c59a96d5f3d4fee14a06110f4db3bd0e929",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/21b76c59a96d5f3d4fee14a06110f4db3bd0e929"
+    },
+    {
+      "path": "browser_use/mcp/.dxtignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ade4e2b66f5e26b92f7ff97b0397be766697d5d",
+      "size": 4094,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/2ade4e2b66f5e26b92f7ff97b0397be766697d5d"
+    },
+    {
+      "path": "browser_use/mcp/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3af3849b7a813e3a13b1163dbbca18d8f290a34e",
+      "size": 617,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/3af3849b7a813e3a13b1163dbbca18d8f290a34e"
+    },
+    {
+      "path": "browser_use/mcp/__main__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e26f758fe9c37e831415c495af79900eaefe6413",
+      "size": 199,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/e26f758fe9c37e831415c495af79900eaefe6413"
+    },
+    {
+      "path": "browser_use/mcp/client.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46db1a15e4eae289eec48c6ac6cb9ce8241fe979",
+      "size": 17252,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/46db1a15e4eae289eec48c6ac6cb9ce8241fe979"
+    },
+    {
+      "path": "browser_use/mcp/controller.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11c06e8e0e6aee5d46109bb5f19bf4596c6cec83",
+      "size": 8199,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/11c06e8e0e6aee5d46109bb5f19bf4596c6cec83"
+    },
+    {
+      "path": "browser_use/mcp/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de6e109d1c7d37a3e3befe90d5428dd13f084a3d",
+      "size": 10029,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/de6e109d1c7d37a3e3befe90d5428dd13f084a3d"
+    },
+    {
+      "path": "browser_use/mcp/server.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "400630de964b13089fe8ed148a704d66b3789c0a",
+      "size": 41862,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/400630de964b13089fe8ed148a704d66b3789c0a"
+    },
+    {
+      "path": "browser_use/observability.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5e2efe140e06b32004aaa03a30a28cb0668e69a",
+      "size": 6222,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/a5e2efe140e06b32004aaa03a30a28cb0668e69a"
+    },
+    {
+      "path": "browser_use/py.typed",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "browser_use/rust",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f3a4feda3d2c36bbc5b838956c5c372d6881b962",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/f3a4feda3d2c36bbc5b838956c5c372d6881b962"
+    },
+    {
+      "path": "browser_use/rust/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "060bbf42118d0216a918bd8d694f4b5cc3785d96",
+      "size": 216,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/060bbf42118d0216a918bd8d694f4b5cc3785d96"
+    },
+    {
+      "path": "browser_use/rust/service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91dbad3b0e71e446080ed6d73fa03ed39a1dc16e",
+      "size": 247946,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/91dbad3b0e71e446080ed6d73fa03ed39a1dc16e"
+    },
+    {
+      "path": "browser_use/sandbox",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "56361e0fbcce08d666912329f1e351612894fc54",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/56361e0fbcce08d666912329f1e351612894fc54"
+    },
+    {
+      "path": "browser_use/sandbox/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b686dce110fca5dda6ba78a9e966f145a890eb22",
+      "size": 863,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/b686dce110fca5dda6ba78a9e966f145a890eb22"
+    },
+    {
+      "path": "browser_use/sandbox/sandbox.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac3a405f957876ea19edd5ed31400a0d63395ee6",
+      "size": 23603,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/ac3a405f957876ea19edd5ed31400a0d63395ee6"
+    },
+    {
+      "path": "browser_use/sandbox/views.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74030e920756f8ce7dac81b796e2be349487382d",
+      "size": 3259,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/74030e920756f8ce7dac81b796e2be349487382d"
+    },
+    {
+      "path": "browser_use/screenshots",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "62e0c2e0357793a7dcd45a57e6baf16ba50e417d",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/62e0c2e0357793a7dcd45a57e6baf16ba50e417d"
+    },
+    {
+      "path": "browser_use/screenshots/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e721412cb514530d63e078a55c56fc222238464",
+      "size": 38,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/0e721412cb514530d63e078a55c56fc222238464"
+    },
+    {
+      "path": "browser_use/screenshots/service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "332ffa96a7270810e7e12cde984728e628ee3c6c",
+      "size": 1704,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/332ffa96a7270810e7e12cde984728e628ee3c6c"
+    },
+    {
+      "path": "browser_use/skill_cli",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "283305cc3b6606647ad87b23f6117c87e59edfc5",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/283305cc3b6606647ad87b23f6117c87e59edfc5"
+    },
+    {
+      "path": "browser_use/skill_cli/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "640c3f99c3108726e1c71210d55efd4f9da655bc",
+      "size": 13121,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/640c3f99c3108726e1c71210d55efd4f9da655bc"
+    },
+    {
+      "path": "browser_use/skill_cli/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd6f24c9074ebb5382745df7fd26d58ce0f101d8",
+      "size": 621,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/dd6f24c9074ebb5382745df7fd26d58ce0f101d8"
+    },
+    {
+      "path": "browser_use/skill_cli/__main__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84b20bf718435575bb9c27373b33ac607616ccef",
+      "size": 158,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/84b20bf718435575bb9c27373b33ac607616ccef"
+    },
+    {
+      "path": "browser_use/skill_cli/actions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cea6a96c3e0dcb7c348b351612bc30e5748b5be7",
+      "size": 7143,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/cea6a96c3e0dcb7c348b351612bc30e5748b5be7"
+    },
+    {
+      "path": "browser_use/skill_cli/browser.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9582d2a7beab5985cd883443a0a63c78bc1a7ba7",
+      "size": 7875,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/9582d2a7beab5985cd883443a0a63c78bc1a7ba7"
+    },
+    {
+      "path": "browser_use/skill_cli/commands",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fbdb88e0ef53a87409c7ab5f925b9921c356e42b",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/fbdb88e0ef53a87409c7ab5f925b9921c356e42b"
+    },
+    {
+      "path": "browser_use/skill_cli/commands/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37e4849adc1c8d1c2b65e53aa3ecdf5b5027917d",
+      "size": 197,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/37e4849adc1c8d1c2b65e53aa3ecdf5b5027917d"
+    },
+    {
+      "path": "browser_use/skill_cli/commands/browser.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0ac69a2496ca36779389ce46980d1c70ccd2037",
+      "size": 25858,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/a0ac69a2496ca36779389ce46980d1c70ccd2037"
+    },
+    {
+      "path": "browser_use/skill_cli/commands/cloud.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "198d0bc1c8dba6e593d90d9145cb3ea0458d13b2",
+      "size": 20311,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/198d0bc1c8dba6e593d90d9145cb3ea0458d13b2"
+    },
+    {
+      "path": "browser_use/skill_cli/commands/doctor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf6a190c9d8ccf8ea35d1c28e977d6a20a72ea85",
+      "size": 4190,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/bf6a190c9d8ccf8ea35d1c28e977d6a20a72ea85"
+    },
+    {
+      "path": "browser_use/skill_cli/commands/python_exec.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bb001527ac1b8d2be4d8d6c01b18119d91052d2",
+      "size": 1773,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/5bb001527ac1b8d2be4d8d6c01b18119d91052d2"
+    },
+    {
+      "path": "browser_use/skill_cli/commands/setup.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c56d11a82786941599e3e0cd9f77a450a5b50f3f",
+      "size": 7420,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/c56d11a82786941599e3e0cd9f77a450a5b50f3f"
+    },
+    {
+      "path": "browser_use/skill_cli/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47106209fb2e1b032edd343a7b83e3a5aaf977a8",
+      "size": 4318,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/47106209fb2e1b032edd343a7b83e3a5aaf977a8"
+    },
+    {
+      "path": "browser_use/skill_cli/daemon.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "502aa290eff11b1eb1c8f7bb9c05beaf5c45505e",
+      "size": 18188,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/502aa290eff11b1eb1c8f7bb9c05beaf5c45505e"
+    },
+    {
+      "path": "browser_use/skill_cli/install.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "41bb407131c732b17d72341d95231518a6357224",
+      "size": 16499,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/41bb407131c732b17d72341d95231518a6357224"
+    },
+    {
+      "path": "browser_use/skill_cli/install_lite.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d38cd73303a116ebf862093f6d6f059867d1b434",
+      "size": 14892,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/d38cd73303a116ebf862093f6d6f059867d1b434"
+    },
+    {
+      "path": "browser_use/skill_cli/main.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2790f93cc455456384aec27e394d000164e7640c",
+      "size": 48581,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/2790f93cc455456384aec27e394d000164e7640c"
+    },
+    {
+      "path": "browser_use/skill_cli/profile_use.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5fd94d60167ffaee4b785b66803f9c340ddb344",
+      "size": 3125,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/a5fd94d60167ffaee4b785b66803f9c340ddb344"
+    },
+    {
+      "path": "browser_use/skill_cli/python_session.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e96cc0b96a7dee399279663393110a1916af477e",
+      "size": 8744,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/e96cc0b96a7dee399279663393110a1916af477e"
+    },
+    {
+      "path": "browser_use/skill_cli/requirements-cli.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe682e72b06ce8ab412a6df8474bd4cac68352a3",
+      "size": 305,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/fe682e72b06ce8ab412a6df8474bd4cac68352a3"
+    },
+    {
+      "path": "browser_use/skill_cli/sessions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c41020980bbc37913dfa9a5789af7795625e36d4",
+      "size": 3675,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/c41020980bbc37913dfa9a5789af7795625e36d4"
+    },
+    {
+      "path": "browser_use/skill_cli/tunnel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f77fe34ffc6532fecf86a9a6f2d3120ef5d57ff",
+      "size": 9480,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/0f77fe34ffc6532fecf86a9a6f2d3120ef5d57ff"
+    },
+    {
+      "path": "browser_use/skill_cli/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b4314fa751a1f06fd6932ea11d8c90bd9e49c96",
+      "size": 9478,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/4b4314fa751a1f06fd6932ea11d8c90bd9e49c96"
+    },
+    {
+      "path": "browser_use/skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0295486a6e883257dd00b4deb6ff50f257cac575",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/0295486a6e883257dd00b4deb6ff50f257cac575"
+    },
+    {
+      "path": "browser_use/skills/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "101486c20e8386fcd11ce962d78e7e2b35d412ae",
+      "size": 776,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/101486c20e8386fcd11ce962d78e7e2b35d412ae"
+    },
+    {
+      "path": "browser_use/skills/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92bab595c3d56c53777f8f207cc2fff71674591f",
+      "size": 166,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/92bab595c3d56c53777f8f207cc2fff71674591f"
+    },
+    {
+      "path": "browser_use/skills/service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "256ff0572ecc379aa203395eca254c58979123ec",
+      "size": 9856,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/256ff0572ecc379aa203395eca254c58979123ec"
+    },
+    {
+      "path": "browser_use/skills/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e842bdbef683085f9d3e3dc20ed73cca156f2e9a",
+      "size": 4241,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/e842bdbef683085f9d3e3dc20ed73cca156f2e9a"
+    },
+    {
+      "path": "browser_use/skills/views.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2421c3942aba2dfb2ffef4d3218b25a70aa7cc13",
+      "size": 2296,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/2421c3942aba2dfb2ffef4d3218b25a70aa7cc13"
+    },
+    {
+      "path": "browser_use/sync",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6cd5f79225020640dced4890ef1db87183dffa4f",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/6cd5f79225020640dced4890ef1db87183dffa4f"
+    },
+    {
+      "path": "browser_use/sync/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68b172292b1e6cdcc0fcd399e34b223516bfa45f",
+      "size": 221,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/68b172292b1e6cdcc0fcd399e34b223516bfa45f"
+    },
+    {
+      "path": "browser_use/sync/auth.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96935c26c125c2286f480194ee616b53fcf68c7a",
+      "size": 10608,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/96935c26c125c2286f480194ee616b53fcf68c7a"
+    },
+    {
+      "path": "browser_use/sync/service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47c0aa53871c372938993524ab3ae91caec12d82",
+      "size": 6103,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/47c0aa53871c372938993524ab3ae91caec12d82"
+    },
+    {
+      "path": "browser_use/telemetry",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b7bb5972d9926987ff05044b6c00ec45b3d9564f",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/b7bb5972d9926987ff05044b6c00ec45b3d9564f"
+    },
+    {
+      "path": "browser_use/telemetry/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "222bc9ba1ff4614416bfa518d54035c12eb593ed",
+      "size": 1470,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/222bc9ba1ff4614416bfa518d54035c12eb593ed"
+    },
+    {
+      "path": "browser_use/telemetry/service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3edfdc9da7bb8ef8d1552fa26895f68aa5b5453",
+      "size": 3041,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/c3edfdc9da7bb8ef8d1552fa26895f68aa5b5453"
+    },
+    {
+      "path": "browser_use/telemetry/views.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "252b9c87907f9d741441be38e000dfda8a0f7df0",
+      "size": 2518,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/252b9c87907f9d741441be38e000dfda8a0f7df0"
+    },
+    {
+      "path": "browser_use/tokens",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "19dbb1624d0c7774569c718fa4658fd1d44be470",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/19dbb1624d0c7774569c718fa4658fd1d44be470"
+    },
+    {
+      "path": "browser_use/tokens/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "browser_use/tokens/custom_pricing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cab127103d3f95cdc74ac9c43bc7a838b13a1fc1",
+      "size": 2495,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/cab127103d3f95cdc74ac9c43bc7a838b13a1fc1"
+    },
+    {
+      "path": "browser_use/tokens/mappings.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba4a8055eed80772892b1121be38438021c80711",
+      "size": 267,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/ba4a8055eed80772892b1121be38438021c80711"
+    },
+    {
+      "path": "browser_use/tokens/openrouter_pricing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86ed41d7211b0b3f20fb01cde7de7e82f76f75cc",
+      "size": 4423,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/86ed41d7211b0b3f20fb01cde7de7e82f76f75cc"
+    },
+    {
+      "path": "browser_use/tokens/service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc56ddb4f68838c3122471dd94265a250f5a0fd8",
+      "size": 23160,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/dc56ddb4f68838c3122471dd94265a250f5a0fd8"
+    },
+    {
+      "path": "browser_use/tokens/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c14d0f8756a94d8ecce6d9deada728934f0cb17a",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/c14d0f8756a94d8ecce6d9deada728934f0cb17a"
+    },
+    {
+      "path": "browser_use/tokens/tests/test_cost.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8aa7de11eaa4efd3c580977967b185af3b87c168",
+      "size": 4183,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/8aa7de11eaa4efd3c580977967b185af3b87c168"
+    },
+    {
+      "path": "browser_use/tokens/views.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e96d632769f074787e2152863e1d5f0494b30f8",
+      "size": 2429,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/3e96d632769f074787e2152863e1d5f0494b30f8"
+    },
+    {
+      "path": "browser_use/tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d32a8cbc3655631d7c4125e19273c27e4d374379",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/d32a8cbc3655631d7c4125e19273c27e4d374379"
+    },
+    {
+      "path": "browser_use/tools/extraction",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "58661a95bf338ecc417849be3a24fc8d6ddd5e21",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/58661a95bf338ecc417849be3a24fc8d6ddd5e21"
+    },
+    {
+      "path": "browser_use/tools/extraction/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de1974ced4e9ec8472217899a3ed62b4869b12b1",
+      "size": 213,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/de1974ced4e9ec8472217899a3ed62b4869b12b1"
+    },
+    {
+      "path": "browser_use/tools/extraction/schema_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51f94f8363f018435e28e0af0be49c58744df1c5",
+      "size": 4677,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/51f94f8363f018435e28e0af0be49c58744df1c5"
+    },
+    {
+      "path": "browser_use/tools/extraction/views.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78e8a2a6d608ae42ddd7da0894b077456114bbf8",
+      "size": 759,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/78e8a2a6d608ae42ddd7da0894b077456114bbf8"
+    },
+    {
+      "path": "browser_use/tools/registry",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2c81d4630e47994d7312572ea5f1a25edb5defb0",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/2c81d4630e47994d7312572ea5f1a25edb5defb0"
+    },
+    {
+      "path": "browser_use/tools/registry/service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fe5259b7d39322db4b6247acad773fd643f74b2",
+      "size": 23912,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/3fe5259b7d39322db4b6247acad773fd643f74b2"
+    },
+    {
+      "path": "browser_use/tools/registry/views.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f91b6453d9d7f85d4d546fd0ca6fda2f40b586a2",
+      "size": 6009,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/f91b6453d9d7f85d4d546fd0ca6fda2f40b586a2"
+    },
+    {
+      "path": "browser_use/tools/service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf999b8497f5dfba5d77a4e221c032d32eb9a922",
+      "size": 90385,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/cf999b8497f5dfba5d77a4e221c032d32eb9a922"
+    },
+    {
+      "path": "browser_use/tools/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad839bf297346ee5b85947c61e2a265bd0493574",
+      "size": 2943,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/ad839bf297346ee5b85947c61e2a265bd0493574"
+    },
+    {
+      "path": "browser_use/tools/views.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02b274ed9d2835260d144c4384c6a62f648cbb91",
+      "size": 7142,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/02b274ed9d2835260d144c4384c6a62f648cbb91"
+    },
+    {
+      "path": "browser_use/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d768066f481f300ff563c48e00dcc4289ae3590d",
+      "size": 28902,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/d768066f481f300ff563c48e00dcc4289ae3590d"
+    },
+    {
+      "path": "docker",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7307d49f187ad283f4b909924c40c699eaecc69a",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/7307d49f187ad283f4b909924c40c699eaecc69a"
+    },
+    {
+      "path": "docker/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f807698c06450ccdbcff5da762a388b945280063",
+      "size": 1033,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/f807698c06450ccdbcff5da762a388b945280063"
+    },
+    {
+      "path": "docker/base-images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f54858e0f11e362f95eadf33254cf84b181147bd",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/f54858e0f11e362f95eadf33254cf84b181147bd"
+    },
+    {
+      "path": "docker/base-images/chromium",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8d4e5d2a3bfd8aef4802d9cb2ceb1824f6ceaee6",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/8d4e5d2a3bfd8aef4802d9cb2ceb1824f6ceaee6"
+    },
+    {
+      "path": "docker/base-images/chromium/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d530c57bd07a5349b6fbfd60807dfbcac808288d",
+      "size": 633,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/d530c57bd07a5349b6fbfd60807dfbcac808288d"
+    },
+    {
+      "path": "docker/base-images/python-deps",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f6640b58c07991da34b9e4e9e787d1af97e57ed0",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/f6640b58c07991da34b9e4e9e787d1af97e57ed0"
+    },
+    {
+      "path": "docker/base-images/python-deps/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c84647dece3cdfd8d5770eb9af39efc94e39a3e",
+      "size": 356,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/9c84647dece3cdfd8d5770eb9af39efc94e39a3e"
+    },
+    {
+      "path": "docker/base-images/system",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dbc594e5db383f2dd6bb10cf5b7140474def16f2",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/dbc594e5db383f2dd6bb10cf5b7140474def16f2"
+    },
+    {
+      "path": "docker/base-images/system/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c8fb49319829781612d5326d03880f27ed6dbf8",
+      "size": 342,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/2c8fb49319829781612d5326d03880f27ed6dbf8"
+    },
+    {
+      "path": "docker/build-base-images.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a016a92b7c25a3a19d6877f97905013a2cd9ad53",
+      "size": 1810,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/a016a92b7c25a3a19d6877f97905013a2cd9ad53"
+    },
+    {
+      "path": "examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c6a308a5c68f138ca97d61eee9fcd41e54199385",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/c6a308a5c68f138ca97d61eee9fcd41e54199385"
+    },
+    {
+      "path": "examples/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "examples/apps",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "06e5e3eabc64090b875daacf73b6bfbb31c7ed31",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/06e5e3eabc64090b875daacf73b6bfbb31c7ed31"
+    },
+    {
+      "path": "examples/apps/ad-use",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d27f03ffb00c5e7899a5071ba9fb3d36892170ee",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/d27f03ffb00c5e7899a5071ba9fb3d36892170ee"
+    },
+    {
+      "path": "examples/apps/ad-use/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f5e5b376229b10fdfd5d7a549b027fe0511e76b",
+      "size": 2667,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/9f5e5b376229b10fdfd5d7a549b027fe0511e76b"
+    },
+    {
+      "path": "examples/apps/ad-use/ad_generator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2758caf3ac267fa1d067209259eb67e5eb85d3a1",
+      "size": 14776,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/2758caf3ac267fa1d067209259eb67e5eb85d3a1"
+    },
+    {
+      "path": "examples/apps/ad-use/output",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2c91d5bce59555a34dc9cc684a0bc292e526d477",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/2c91d5bce59555a34dc9cc684a0bc292e526d477"
+    },
+    {
+      "path": "examples/apps/ad-use/output/ad_20250908_150030.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f385a70d2a520e427b66adc6a26f5c39a0e1e23a",
+      "size": 1424339,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/f385a70d2a520e427b66adc6a26f5c39a0e1e23a"
+    },
+    {
+      "path": "examples/apps/ad-use/output/landing_page_20250908_150030.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e734b647f235a2c778aa61e122c45ff46a7645d",
+      "size": 1522458,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/9e734b647f235a2c778aa61e122c45ff46a7645d"
+    },
+    {
+      "path": "examples/apps/msg-use",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a3dac0e016a9de805202a7517cdefd47c5a36b9a",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/a3dac0e016a9de805202a7517cdefd47c5a36b9a"
+    },
+    {
+      "path": "examples/apps/msg-use/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "986989c909a136d8c7bebc725e0c0955e0ff26ef",
+      "size": 2436,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/986989c909a136d8c7bebc725e0c0955e0ff26ef"
+    },
+    {
+      "path": "examples/apps/msg-use/login.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5cf40cbd97829a1a32d864cfe051264c78c6a7e",
+      "size": 2336,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/a5cf40cbd97829a1a32d864cfe051264c78c6a7e"
+    },
+    {
+      "path": "examples/apps/msg-use/scheduler.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7882aff1dbcaa68572b4607c4ba0776efb246fa5",
+      "size": 8496,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/7882aff1dbcaa68572b4607c4ba0776efb246fa5"
+    },
+    {
+      "path": "examples/apps/news-use",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cb48cdeb1e23417ffe8eb06cca766ee932f79a7f",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/cb48cdeb1e23417ffe8eb06cca766ee932f79a7f"
+    },
+    {
+      "path": "examples/apps/news-use/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7acea5d1b33d60301018c5196eb6cdfde704e2ca",
+      "size": 2039,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/7acea5d1b33d60301018c5196eb6cdfde704e2ca"
+    },
+    {
+      "path": "examples/apps/news-use/news_monitor.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "80deb4e003d11d8cc2d89bf35ae7ae85aa1a84af",
+      "size": 9078,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/80deb4e003d11d8cc2d89bf35ae7ae85aa1a84af"
+    },
+    {
+      "path": "examples/browser",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a65a427b1982e36aaf50353e3608a70407a40504",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/a65a427b1982e36aaf50353e3608a70407a40504"
+    },
+    {
+      "path": "examples/browser/cloud_browser.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72eebb9a9a8eef2cc3fc2372f203d11663c63e18",
+      "size": 1195,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/72eebb9a9a8eef2cc3fc2372f203d11663c63e18"
+    },
+    {
+      "path": "examples/browser/custom_headers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1f4b5cd51bb0d354a0beb2291a16b6537ca2c88",
+      "size": 3663,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/d1f4b5cd51bb0d354a0beb2291a16b6537ca2c88"
+    },
+    {
+      "path": "examples/browser/parallel_browser.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9776d9c6ac68a3979fbf62235b7924c7e25f8313",
+      "size": 989,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/9776d9c6ac68a3979fbf62235b7924c7e25f8313"
+    },
+    {
+      "path": "examples/browser/playwright_integration.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "786be11af73d93fe48983fbc9b469be6783059b4",
+      "size": 12778,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/786be11af73d93fe48983fbc9b469be6783059b4"
+    },
+    {
+      "path": "examples/browser/real_browser.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f761abe9e04a1fec624607307d563acc457ea378",
+      "size": 1164,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/f761abe9e04a1fec624607307d563acc457ea378"
+    },
+    {
+      "path": "examples/browser/save_cookies.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efbea95c41f79d3855f71e17326ba1b69e9c855d",
+      "size": 1242,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/efbea95c41f79d3855f71e17326ba1b69e9c855d"
+    },
+    {
+      "path": "examples/browser/using_cdp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b932de03ab8e6f52beda1e3c067e2aa53f8d4085",
+      "size": 1457,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/b932de03ab8e6f52beda1e3c067e2aa53f8d4085"
+    },
+    {
+      "path": "examples/cloud",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6ad8e970731ec9bebb38991616a401b7d13c380c",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/6ad8e970731ec9bebb38991616a401b7d13c380c"
+    },
+    {
+      "path": "examples/cloud/01_basic_task.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54b8ea561049ebdd1bc39c6174efbb8ef2a1a1cd",
+      "size": 5591,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/54b8ea561049ebdd1bc39c6174efbb8ef2a1a1cd"
+    },
+    {
+      "path": "examples/cloud/02_fast_mode_gemini.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "245da5c2099f5d8757133ea17a3ceaccb28e863c",
+      "size": 8496,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/245da5c2099f5d8757133ea17a3ceaccb28e863c"
+    },
+    {
+      "path": "examples/cloud/03_structured_output.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbe73ac113154473277cf9e4a46ceb39dad80d7a",
+      "size": 11728,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/cbe73ac113154473277cf9e4a46ceb39dad80d7a"
+    },
+    {
+      "path": "examples/cloud/04_proxy_usage.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71dca7975d94297bec83470bd4480ea23677acdc",
+      "size": 9964,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/71dca7975d94297bec83470bd4480ea23677acdc"
+    },
+    {
+      "path": "examples/cloud/05_search_api.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64c01dc0423d52dfd57f802108b5b3b4a0573cf6",
+      "size": 11068,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/64c01dc0423d52dfd57f802108b5b3b4a0573cf6"
+    },
+    {
+      "path": "examples/cloud/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2aba21d0f686e8a141d4e6fb6164bbd3595bb0e",
+      "size": 4093,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/e2aba21d0f686e8a141d4e6fb6164bbd3595bb0e"
+    },
+    {
+      "path": "examples/cloud/env.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fbbcda19e68820b4ab5e3e0b402433ab1c1d950",
+      "size": 610,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/3fbbcda19e68820b4ab5e3e0b402433ab1c1d950"
+    },
+    {
+      "path": "examples/custom-functions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a2cbcfe7a1f8b97972822b05d3f80cf293843d29",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/a2cbcfe7a1f8b97972822b05d3f80cf293843d29"
+    },
+    {
+      "path": "examples/custom-functions/2fa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e665cb5e88b3c406f5306ab23b9120a575055cb",
+      "size": 844,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/6e665cb5e88b3c406f5306ab23b9120a575055cb"
+    },
+    {
+      "path": "examples/custom-functions/action_filters.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e90cb7b2f83ad0fc25101ea2c754a8307810f0da",
+      "size": 4259,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/e90cb7b2f83ad0fc25101ea2c754a8307810f0da"
+    },
+    {
+      "path": "examples/custom-functions/actor_use.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20c4cd895422c2d77678830f070d9062e3d0399a",
+      "size": 916,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/20c4cd895422c2d77678830f070d9062e3d0399a"
+    },
+    {
+      "path": "examples/custom-functions/advanced_search.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aed3bd5b6f2c5a2b9cb65b6495131fb0334cc65a",
+      "size": 2932,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/aed3bd5b6f2c5a2b9cb65b6495131fb0334cc65a"
+    },
+    {
+      "path": "examples/custom-functions/cua.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67038feca4e3dd68dc173d1723375843d46d0299",
+      "size": 10680,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/67038feca4e3dd68dc173d1723375843d46d0299"
+    },
+    {
+      "path": "examples/custom-functions/file_upload.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f9e4794afbfbe6f34cc2bfe40e035844b34fcdc",
+      "size": 3217,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/9f9e4794afbfbe6f34cc2bfe40e035844b34fcdc"
+    },
+    {
+      "path": "examples/custom-functions/notification.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5d0e0deb6f53234119696797e978511ebc5153f",
+      "size": 1061,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/f5d0e0deb6f53234119696797e978511ebc5153f"
+    },
+    {
+      "path": "examples/custom-functions/onepassword_2fa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e21a725903dfbc373f51bb6c0a9d64e96f9a275c",
+      "size": 1688,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/e21a725903dfbc373f51bb6c0a9d64e96f9a275c"
+    },
+    {
+      "path": "examples/custom-functions/parallel_agents.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7da8a5cb2957bc94650459e8ed98997cbab943a",
+      "size": 10332,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/b7da8a5cb2957bc94650459e8ed98997cbab943a"
+    },
+    {
+      "path": "examples/custom-functions/save_to_file_hugging_face.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4099199f13722fb09b1710c0602eb7905fdfa344",
+      "size": 1084,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/4099199f13722fb09b1710c0602eb7905fdfa344"
+    },
+    {
+      "path": "examples/demo_mode_example.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6c540ba39edf424af14ad80a0c60935b26bd360",
+      "size": 384,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/b6c540ba39edf424af14ad80a0c60935b26bd360"
+    },
+    {
+      "path": "examples/features",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d5143c4779bd7386e24cbe7f3550c0c402e58dda",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/d5143c4779bd7386e24cbe7f3550c0c402e58dda"
+    },
+    {
+      "path": "examples/features/add_image_context.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f759c8b61d39feea655fedbd045e89455461e02",
+      "size": 2830,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/2f759c8b61d39feea655fedbd045e89455461e02"
+    },
+    {
+      "path": "examples/features/blocked_domains.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0cfb0640741caa91f38ebe61a31ee5d0bc88569",
+      "size": 2095,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/a0cfb0640741caa91f38ebe61a31ee5d0bc88569"
+    },
+    {
+      "path": "examples/features/csv_file_generation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efecc5480e1c75fc85fba46c67db282a60e54a85",
+      "size": 1523,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/efecc5480e1c75fc85fba46c67db282a60e54a85"
+    },
+    {
+      "path": "examples/features/custom_output.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69a7a1f814c613e736da44ed88976c2a62525d9d",
+      "size": 1182,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/69a7a1f814c613e736da44ed88976c2a62525d9d"
+    },
+    {
+      "path": "examples/features/custom_system_prompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "655f73713927eacd0b1f16d3f5d8cff196d022f9",
+      "size": 842,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/655f73713927eacd0b1f16d3f5d8cff196d022f9"
+    },
+    {
+      "path": "examples/features/download_file.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9d67b49fd1dbd8108c74cd9475b75e21c15cc53",
+      "size": 731,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/a9d67b49fd1dbd8108c74cd9475b75e21c15cc53"
+    },
+    {
+      "path": "examples/features/fallback_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d00257316d03152158c9b7e787c4c684dd44200",
+      "size": 1692,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/9d00257316d03152158c9b7e787c4c684dd44200"
+    },
+    {
+      "path": "examples/features/follow_up_task.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "505312dc18f16a00927ff1a916139b26ddb8b60a",
+      "size": 433,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/505312dc18f16a00927ff1a916139b26ddb8b60a"
+    },
+    {
+      "path": "examples/features/follow_up_tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8efd70c11da713c915ba3cfd0a17c13377b6fa8",
+      "size": 636,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/e8efd70c11da713c915ba3cfd0a17c13377b6fa8"
+    },
+    {
+      "path": "examples/features/initial_actions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a80f6f93e09f231dce6fa0efe5623e47c6dea3b",
+      "size": 648,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/4a80f6f93e09f231dce6fa0efe5623e47c6dea3b"
+    },
+    {
+      "path": "examples/features/judge_trace.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c20030041a9247860e9aea1af0da15617f6c3124",
+      "size": 1388,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/c20030041a9247860e9aea1af0da15617f6c3124"
+    },
+    {
+      "path": "examples/features/large_blocklist.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e69cef4e3455a730b151b827daf1a254de6142e",
+      "size": 3355,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/3e69cef4e3455a730b151b827daf1a254de6142e"
+    },
+    {
+      "path": "examples/features/multi_tab.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f80f94f9c4ef1cf268de1720d17279884fed16c",
+      "size": 605,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/0f80f94f9c4ef1cf268de1720d17279884fed16c"
+    },
+    {
+      "path": "examples/features/parallel_agents.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72f11c871c44a38bf30ed480ed9b116a10ae2c26",
+      "size": 1363,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/72f11c871c44a38bf30ed480ed9b116a10ae2c26"
+    },
+    {
+      "path": "examples/features/process_agent_output.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5eb63c742045816c9cb18fde8844f8e69e54fadc",
+      "size": 1372,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/5eb63c742045816c9cb18fde8844f8e69e54fadc"
+    },
+    {
+      "path": "examples/features/rerun_history.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af30cd1c1b31b749b7bb827cd1ceca05c82664bc",
+      "size": 5283,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/af30cd1c1b31b749b7bb827cd1ceca05c82664bc"
+    },
+    {
+      "path": "examples/features/restrict_urls.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a1458ceb02cf6646686923b312ce99b4e1d1fc5",
+      "size": 968,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/3a1458ceb02cf6646686923b312ce99b4e1d1fc5"
+    },
+    {
+      "path": "examples/features/save_as_pdf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b453e0d9e48ccbb1eec7b3f941c79c76f725891",
+      "size": 1198,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/5b453e0d9e48ccbb1eec7b3f941c79c76f725891"
+    },
+    {
+      "path": "examples/features/scrolling_page.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6a421a2c7645a4e0f2c772de77f1f1f997ea83d",
+      "size": 3338,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/f6a421a2c7645a4e0f2c772de77f1f1f997ea83d"
+    },
+    {
+      "path": "examples/features/secure.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ca5cfc208f0f166dc7dade6c1db8b6cecccb689",
+      "size": 2741,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/0ca5cfc208f0f166dc7dade6c1db8b6cecccb689"
+    },
+    {
+      "path": "examples/features/sensitive_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7b4bf020240fc586b726d909f7517481fff6cde",
+      "size": 1544,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/a7b4bf020240fc586b726d909f7517481fff6cde"
+    },
+    {
+      "path": "examples/features/small_model_for_extraction.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b18c0e77441ee4f5c4ced4edf421a4c77a5cce4",
+      "size": 749,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/3b18c0e77441ee4f5c4ced4edf421a4c77a5cce4"
+    },
+    {
+      "path": "examples/features/stop_externally.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b750c7fbaaf479ebb155cd9f649d8fbd620cd110",
+      "size": 1023,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/b750c7fbaaf479ebb155cd9f649d8fbd620cd110"
+    },
+    {
+      "path": "examples/features/video_recording.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d8886b6c78c38f2aa88d022cba917ed60010eda",
+      "size": 750,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/5d8886b6c78c38f2aa88d022cba917ed60010eda"
+    },
+    {
+      "path": "examples/file_system",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "597953a0cf770114d120454d5fdf563e5311bf0a",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/597953a0cf770114d120454d5fdf563e5311bf0a"
+    },
+    {
+      "path": "examples/file_system/alphabet_earnings.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcbfa82fe298a0cc9d623c74c96412423c4ba626",
+      "size": 859,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/fcbfa82fe298a0cc9d623c74c96412423c4ba626"
+    },
+    {
+      "path": "examples/file_system/excel_sheet.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f80cfe93b158541638d09a3079c7f7ab1f084b0",
+      "size": 708,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/3f80cfe93b158541638d09a3079c7f7ab1f084b0"
+    },
+    {
+      "path": "examples/file_system/file_system.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88e53efafb20aaaa0967b2b211192b7a27ac4cb6",
+      "size": 1224,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/88e53efafb20aaaa0967b2b211192b7a27ac4cb6"
+    },
+    {
+      "path": "examples/getting_started",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6a76f61b437e190f7062fd52fe88b855a3b808d0",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/6a76f61b437e190f7062fd52fe88b855a3b808d0"
+    },
+    {
+      "path": "examples/getting_started/01_basic_search.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a916287ab54a3a5962127d4d63b3ee3b6842cfd2",
+      "size": 692,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/a916287ab54a3a5962127d4d63b3ee3b6842cfd2"
+    },
+    {
+      "path": "examples/getting_started/02_form_filling.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97e44d78d6c9266912a5f1cf3b4a1589eaae56d0",
+      "size": 1320,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/97e44d78d6c9266912a5f1cf3b4a1589eaae56d0"
+    },
+    {
+      "path": "examples/getting_started/03_data_extraction.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18c8b51cd956b39ded1d15650232033bbb92d851",
+      "size": 1458,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/18c8b51cd956b39ded1d15650232033bbb92d851"
+    },
+    {
+      "path": "examples/getting_started/04_multi_step_task.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5855f90878f660c646c22536cd30dc7056edb985",
+      "size": 1648,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/5855f90878f660c646c22536cd30dc7056edb985"
+    },
+    {
+      "path": "examples/getting_started/05_fast_agent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3eb1560a094d58198db2cde2ac49814428ca2ee3",
+      "size": 1697,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/3eb1560a094d58198db2cde2ac49814428ca2ee3"
+    },
+    {
+      "path": "examples/integrations",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "05d32a2847de90eaf3bb47b932cb5d4536e632a9",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/05d32a2847de90eaf3bb47b932cb5d4536e632a9"
+    },
+    {
+      "path": "examples/integrations/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68871e483a80d69d25834ac0f72a174d4cdfea4a",
+      "size": 1532,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/68871e483a80d69d25834ac0f72a174d4cdfea4a"
+    },
+    {
+      "path": "examples/integrations/agentmail",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "51cc14659aeb3c73506f6206b17cffd011ffdc7c",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/51cc14659aeb3c73506f6206b17cffd011ffdc7c"
+    },
+    {
+      "path": "examples/integrations/agentmail/2fa.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60c1ff83fad573acd6afdecabdf22a3968374c63",
+      "size": 1240,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/60c1ff83fad573acd6afdecabdf22a3968374c63"
+    },
+    {
+      "path": "examples/integrations/agentmail/email_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "438525c6c402df6a0c93d6fd7dcc1fb0a331cb31",
+      "size": 6677,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/438525c6c402df6a0c93d6fd7dcc1fb0a331cb31"
+    },
+    {
+      "path": "examples/integrations/discord",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ce7bedd475823d1d04f44baa2bd5a555224e3e0a",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/ce7bedd475823d1d04f44baa2bd5a555224e3e0a"
+    },
+    {
+      "path": "examples/integrations/discord/discord_api.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96078afb76cd99bde4a144ecfb772d19b7f08816",
+      "size": 4000,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/96078afb76cd99bde4a144ecfb772d19b7f08816"
+    },
+    {
+      "path": "examples/integrations/discord/discord_example.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b87df1c937a6dedec71865d3a70d4c045ecc53ac",
+      "size": 3091,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/b87df1c937a6dedec71865d3a70d4c045ecc53ac"
+    },
+    {
+      "path": "examples/integrations/gmail_2fa_integration.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a20724dde3e0348647d8de735a7a2a082d22b52",
+      "size": 11549,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/8a20724dde3e0348647d8de735a7a2a082d22b52"
+    },
+    {
+      "path": "examples/integrations/slack",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "59017ac1eb821c8f813b5b25ed9d9b63893e3d4b",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/59017ac1eb821c8f813b5b25ed9d9b63893e3d4b"
+    },
+    {
+      "path": "examples/integrations/slack/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3184dbc1430a0bbe8d4fee284a7566d4e6fa4806",
+      "size": 3599,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/3184dbc1430a0bbe8d4fee284a7566d4e6fa4806"
+    },
+    {
+      "path": "examples/integrations/slack/slack_api.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a181fbd1ee4494403b834a4c2a7f4d97ced106a2",
+      "size": 4227,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/a181fbd1ee4494403b834a4c2a7f4d97ced106a2"
+    },
+    {
+      "path": "examples/integrations/slack/slack_example.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c62064d0410d3278f0d6d523a946f7c3a77e08d",
+      "size": 1404,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/1c62064d0410d3278f0d6d523a946f7c3a77e08d"
+    },
+    {
+      "path": "examples/models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e76e1c61ca2bbdeafe5389f5ed8f49a2bc30de68",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/e76e1c61ca2bbdeafe5389f5ed8f49a2bc30de68"
+    },
+    {
+      "path": "examples/models/aws.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "597c0f26fa34720b3ef33b9e89cb8793a7d72c89",
+      "size": 2617,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/597c0f26fa34720b3ef33b9e89cb8793a7d72c89"
+    },
+    {
+      "path": "examples/models/azure_openai.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "314bf2089fe17ef474aa7a39fdd5a0fc24dabdc9",
+      "size": 1278,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/314bf2089fe17ef474aa7a39fdd5a0fc24dabdc9"
+    },
+    {
+      "path": "examples/models/browser_use_llm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5b00a4e80991d8aa602a3579ebdc506f7561456",
+      "size": 649,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/b5b00a4e80991d8aa602a3579ebdc506f7561456"
+    },
+    {
+      "path": "examples/models/bu_oss.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a6355e5f4aa46ea13896296194c56d1638a7cbd",
+      "size": 623,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/9a6355e5f4aa46ea13896296194c56d1638a7cbd"
+    },
+    {
+      "path": "examples/models/cerebras_example.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1edb199e8c606f834b1156d2ada308bb4f95c529",
+      "size": 2691,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/1edb199e8c606f834b1156d2ada308bb4f95c529"
+    },
+    {
+      "path": "examples/models/claude-4-sonnet.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71b12a2ededcce7a397f820017d8bffbd326adef",
+      "size": 672,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/71b12a2ededcce7a397f820017d8bffbd326adef"
+    },
+    {
+      "path": "examples/models/deepseek-chat.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf05ceacecd1c69742f2a949bfbeba57a0f35be4",
+      "size": 847,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/cf05ceacecd1c69742f2a949bfbeba57a0f35be4"
+    },
+    {
+      "path": "examples/models/gemini-3.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfc1a06a7047f39aa344986f1d28338fe3b5e40c",
+      "size": 597,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/dfc1a06a7047f39aa344986f1d28338fe3b5e40c"
+    },
+    {
+      "path": "examples/models/gemini.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9c5ca05395b525f47c300ff157e3edbec65a424",
+      "size": 598,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/d9c5ca05395b525f47c300ff157e3edbec65a424"
+    },
+    {
+      "path": "examples/models/gpt-4.1.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97f1ffa665b1ff48d8e1463ae63ce62b13857ca9",
+      "size": 557,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/97f1ffa665b1ff48d8e1463ae63ce62b13857ca9"
+    },
+    {
+      "path": "examples/models/gpt-5-mini.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b18a3d5809d541e5322c75aa0a709b69942c3708",
+      "size": 555,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/b18a3d5809d541e5322c75aa0a709b69942c3708"
+    },
+    {
+      "path": "examples/models/langchain",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "95522cb172513698296a7f55353382e68c65a783",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/95522cb172513698296a7f55353382e68c65a783"
+    },
+    {
+      "path": "examples/models/langchain/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d05bacc22a318274d06c8b9d74973688224cc367",
+      "size": 773,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/d05bacc22a318274d06c8b9d74973688224cc367"
+    },
+    {
+      "path": "examples/models/langchain/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "examples/models/langchain/chat.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5313189e599f2b50509ba0bb8e01bf1139331898",
+      "size": 6372,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/5313189e599f2b50509ba0bb8e01bf1139331898"
+    },
+    {
+      "path": "examples/models/langchain/example.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbb0894292409f538946bfc9da2841b95a5007f1",
+      "size": 1427,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/dbb0894292409f538946bfc9da2841b95a5007f1"
+    },
+    {
+      "path": "examples/models/langchain/serializer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ad451a6e852a8c8f511288883aea89dbb827b6b",
+      "size": 4277,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/3ad451a6e852a8c8f511288883aea89dbb827b6b"
+    },
+    {
+      "path": "examples/models/lazy_import.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "424371128712da108e6dec9dbe9dde94876e3005",
+      "size": 206,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/424371128712da108e6dec9dbe9dde94876e3005"
+    },
+    {
+      "path": "examples/models/llama4-groq.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d0011d1f8bbc99ebadd634b67eabfabb8205ecc",
+      "size": 757,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/4d0011d1f8bbc99ebadd634b67eabfabb8205ecc"
+    },
+    {
+      "path": "examples/models/mistral.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da66c1dcb1a12340308716ff8090ddf43681361d",
+      "size": 525,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/da66c1dcb1a12340308716ff8090ddf43681361d"
+    },
+    {
+      "path": "examples/models/modelscope_example.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2be79cea48d5c8337a2c5278d630646e5898a731",
+      "size": 708,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/2be79cea48d5c8337a2c5278d630646e5898a731"
+    },
+    {
+      "path": "examples/models/moonshot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b88842c89eee7e8e6377550ad73845507d685d9c",
+      "size": 935,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/b88842c89eee7e8e6377550ad73845507d685d9c"
+    },
+    {
+      "path": "examples/models/novita.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77948c72fbf46a3dd2b0f76327084c38b9c72762",
+      "size": 878,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/77948c72fbf46a3dd2b0f76327084c38b9c72762"
+    },
+    {
+      "path": "examples/models/oci_models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "148c12838daa2e48a266779a7387c297a3aac8ae",
+      "size": 7817,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/148c12838daa2e48a266779a7387c297a3aac8ae"
+    },
+    {
+      "path": "examples/models/ollama.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b5379106e7ff91120c9c8a9e4eaeaea65f8db9a",
+      "size": 346,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/2b5379106e7ff91120c9c8a9e4eaeaea65f8db9a"
+    },
+    {
+      "path": "examples/models/openrouter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e761fc2f270ac5f7f880887f45c470c095298e94",
+      "size": 648,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/e761fc2f270ac5f7f880887f45c470c095298e94"
+    },
+    {
+      "path": "examples/models/qwen.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcb08e68a139fc7c516bf34396bc199ec86b49ef",
+      "size": 977,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/fcb08e68a139fc7c516bf34396bc199ec86b49ef"
+    },
+    {
+      "path": "examples/models/skills.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "228f4b2e019eb9c9c9ceb00fad8ab8127c47cb17",
+      "size": 537,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/228f4b2e019eb9c9c9ceb00fad8ab8127c47cb17"
+    },
+    {
+      "path": "examples/models/vercel_ai_gateway.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5d2a3e8b4496812d08d5bef9283e7cc5c46241b",
+      "size": 2350,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/b5d2a3e8b4496812d08d5bef9283e7cc5c46241b"
+    },
+    {
+      "path": "examples/observability",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "723ac50faa567244fd1a870cb13bb587dfd29ef3",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/723ac50faa567244fd1a870cb13bb587dfd29ef3"
+    },
+    {
+      "path": "examples/observability/openLLMetry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2841af9ae3feafb6571fdde4e15a17e7fdb87dc8",
+      "size": 479,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/2841af9ae3feafb6571fdde4e15a17e7fdb87dc8"
+    },
+    {
+      "path": "examples/rust_agent",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d17b7dba453f35da912ca972603a44c64d1b2c3e",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/d17b7dba453f35da912ca972603a44c64d1b2c3e"
+    },
+    {
+      "path": "examples/rust_agent/basic.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5222ed449d55f2dfeb486390c6ed5d53b660701",
+      "size": 845,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/c5222ed449d55f2dfeb486390c6ed5d53b660701"
+    },
+    {
+      "path": "examples/sandbox",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "876922d6e81d3f238e3c35fb211a79b55af96ad4",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/876922d6e81d3f238e3c35fb211a79b55af96ad4"
+    },
+    {
+      "path": "examples/sandbox/example.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "565a7003543771b33c562d6139e15965982d3ce4",
+      "size": 1729,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/565a7003543771b33c562d6139e15965982d3ce4"
+    },
+    {
+      "path": "examples/sandbox/structured_output.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14a8c70f5947400c6583b5f921fd60f1af991a39",
+      "size": 1681,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/14a8c70f5947400c6583b5f921fd60f1af991a39"
+    },
+    {
+      "path": "examples/simple.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "449237819b0facdba907363f73fec2beaf8a6ad9",
+      "size": 423,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/449237819b0facdba907363f73fec2beaf8a6ad9"
+    },
+    {
+      "path": "examples/ui",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "505c74db29bece14ebb0569fe3a14eb081d32d4d",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/505c74db29bece14ebb0569fe3a14eb081d32d4d"
+    },
+    {
+      "path": "examples/ui/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ffe4ddac0c866e5925d9c954f452ffdbcc154ef",
+      "size": 717,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/5ffe4ddac0c866e5925d9c954f452ffdbcc154ef"
+    },
+    {
+      "path": "examples/ui/command_line.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5600f58569434a2ecd7e22bc075e78ad86ab0c03",
+      "size": 2622,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/5600f58569434a2ecd7e22bc075e78ad86ab0c03"
+    },
+    {
+      "path": "examples/ui/gradio_demo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab404c31283365078a4e1cb9ce61c98f86d9dff5",
+      "size": 2681,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/ab404c31283365078a4e1cb9ce61c98f86d9dff5"
+    },
+    {
+      "path": "examples/ui/streamlit_demo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efa7c965162f6aeff7fc0c9ec17d8a87d94f1965",
+      "size": 2283,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/efa7c965162f6aeff7fc0c9ec17d8a87d94f1965"
+    },
+    {
+      "path": "examples/use-cases",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "830c160c5dcbab8b78838cc4a3626bac163cad45",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/830c160c5dcbab8b78838cc4a3626bac163cad45"
+    },
+    {
+      "path": "examples/use-cases/apply_to_job.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91d472dfda307e20d5cd08cabc6c539e74ec8f61",
+      "size": 5935,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/91d472dfda307e20d5cd08cabc6c539e74ec8f61"
+    },
+    {
+      "path": "examples/use-cases/buy_groceries.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2cb6852a7c39b6ab26d955462496f17f07b2584",
+      "size": 2093,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/d2cb6852a7c39b6ab26d955462496f17f07b2584"
+    },
+    {
+      "path": "examples/use-cases/captcha.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dad9189bd25b124fef51e448a39820892a93f18",
+      "size": 779,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/9dad9189bd25b124fef51e448a39820892a93f18"
+    },
+    {
+      "path": "examples/use-cases/check_appointment.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffd5a42f5c2e536d709bef8772388fca04bc32bc",
+      "size": 1379,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/ffd5a42f5c2e536d709bef8772388fca04bc32bc"
+    },
+    {
+      "path": "examples/use-cases/extract_pdf_content.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9be5633f55b911ed1c71691f7af325fe2254c404",
+      "size": 777,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/9be5633f55b911ed1c71691f7af325fe2254c404"
+    },
+    {
+      "path": "examples/use-cases/find_influencer_profiles.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4510b68ee827bbc597c6974b90b459af66888407",
+      "size": 2443,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/4510b68ee827bbc597c6974b90b459af66888407"
+    },
+    {
+      "path": "examples/use-cases/onepassword.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77d7cc9875ad5895a004006a39c557e8c0fee456",
+      "size": 7459,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/77d7cc9875ad5895a004006a39c557e8c0fee456"
+    },
+    {
+      "path": "examples/use-cases/pcpartpicker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c332c150f85acfdd09dd8ee051f683755a3bcfbd",
+      "size": 763,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/c332c150f85acfdd09dd8ee051f683755a3bcfbd"
+    },
+    {
+      "path": "examples/use-cases/phone_comparison.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65157d1c20d667f3a79cbabd8a98cd30287bc03a",
+      "size": 2526,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/65157d1c20d667f3a79cbabd8a98cd30287bc03a"
+    },
+    {
+      "path": "examples/use-cases/shopping.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c10fd381429817cf687adb5ff5f7cba2266f041",
+      "size": 3763,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/4c10fd381429817cf687adb5ff5f7cba2266f041"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f9d65db590e29c4b5de3997357f176a868f11cd",
+      "size": 7116,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/5f9d65db590e29c4b5de3997357f176a868f11cd"
+    },
+    {
+      "path": "skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "722a7fbe49678833770ad251d74cee2682cad424",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/722a7fbe49678833770ad251d74cee2682cad424"
+    },
+    {
+      "path": "skills/browser-use",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ce9e6ec52f2c23a06c05ea81bad90eead33f088e",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/ce9e6ec52f2c23a06c05ea81bad90eead33f088e"
+    },
+    {
+      "path": "skills/browser-use/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fae8c2229d4506a4f6c84b4ded975f951a47f94",
+      "size": 11256,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/4fae8c2229d4506a4f6c84b4ded975f951a47f94"
+    },
+    {
+      "path": "skills/browser-use/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b3b6186c243e57b957b67b8da97c6d9780d94fd1",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/b3b6186c243e57b957b67b8da97c6d9780d94fd1"
+    },
+    {
+      "path": "skills/browser-use/references/cdp-python.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46522647f9319acfc5d44b0374339f3d3086ecc7",
+      "size": 3621,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/46522647f9319acfc5d44b0374339f3d3086ecc7"
+    },
+    {
+      "path": "skills/browser-use/references/multi-session.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1679b5bd3c82cf64b9aa61bea1e76544ec33b956",
+      "size": 2846,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/1679b5bd3c82cf64b9aa61bea1e76544ec33b956"
+    },
+    {
+      "path": "skills/cloud",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "412d5a3f2cc1352291d376c59c23c898c87c17b4",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/412d5a3f2cc1352291d376c59c23c898c87c17b4"
+    },
+    {
+      "path": "skills/cloud/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d96b53777f279559c790b1a1d6405518812909f7",
+      "size": 2704,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/d96b53777f279559c790b1a1d6405518812909f7"
+    },
+    {
+      "path": "skills/cloud/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a977480fcf2221b4472c7134938ed143c25bbe74",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/a977480fcf2221b4472c7134938ed143c25bbe74"
+    },
+    {
+      "path": "skills/cloud/references/api-v2.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2ff38560d381652ff5ce0d1553bc9200c6ed6af",
+      "size": 11803,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/c2ff38560d381652ff5ce0d1553bc9200c6ed6af"
+    },
+    {
+      "path": "skills/cloud/references/api-v3.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1f6ef07519fe4800a46c5a7531d9bde1246b8a8",
+      "size": 8268,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/f1f6ef07519fe4800a46c5a7531d9bde1246b8a8"
+    },
+    {
+      "path": "skills/cloud/references/browser-api.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8ec6ac6ced76173e345f2fbfd38c3f990561b8a",
+      "size": 3471,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/c8ec6ac6ced76173e345f2fbfd38c3f990561b8a"
+    },
+    {
+      "path": "skills/cloud/references/features.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55a1a4a5f63a4e9eb176a4f338ae310b91aee5fb",
+      "size": 5429,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/55a1a4a5f63a4e9eb176a4f338ae310b91aee5fb"
+    },
+    {
+      "path": "skills/cloud/references/guides",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a522939ce486b106e8d5b58690ac665fb9c9e87c",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/a522939ce486b106e8d5b58690ac665fb9c9e87c"
+    },
+    {
+      "path": "skills/cloud/references/guides/chat-ui.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75b68d5dd4aad8b898e05cea7e2e1d3678b91030",
+      "size": 6673,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/75b68d5dd4aad8b898e05cea7e2e1d3678b91030"
+    },
+    {
+      "path": "skills/cloud/references/guides/subagent.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "058d895a36f89bb4367372fea0f18d096a828edb",
+      "size": 7342,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/058d895a36f89bb4367372fea0f18d096a828edb"
+    },
+    {
+      "path": "skills/cloud/references/guides/tools-integration.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f44eb93019dad8c48e591b2d35d67e80f9e86cab",
+      "size": 7138,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/f44eb93019dad8c48e591b2d35d67e80f9e86cab"
+    },
+    {
+      "path": "skills/cloud/references/patterns.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7e98e92b560b5a61ec5c0988af0522111f2a9f4",
+      "size": 4355,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/b7e98e92b560b5a61ec5c0988af0522111f2a9f4"
+    },
+    {
+      "path": "skills/cloud/references/quickstart.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69a322af4f4618a120dc3d613b847d89556faf95",
+      "size": 3867,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/69a322af4f4618a120dc3d613b847d89556faf95"
+    },
+    {
+      "path": "skills/cloud/references/sessions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cad8991945a7586210dc697cc65fcf4fb645b4a6",
+      "size": 4382,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/cad8991945a7586210dc697cc65fcf4fb645b4a6"
+    },
+    {
+      "path": "skills/open-source",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d70e34c73dbc91a4eb5c4b34dcfb1e0ba57b7ec3",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/d70e34c73dbc91a4eb5c4b34dcfb1e0ba57b7ec3"
+    },
+    {
+      "path": "skills/open-source/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a32db1476bdde8f138697210f25d07438524915",
+      "size": 2151,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/1a32db1476bdde8f138697210f25d07438524915"
+    },
+    {
+      "path": "skills/open-source/references",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dd1c5b1219514dc614a53c41ef4c0ee32a8698f3",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/dd1c5b1219514dc614a53c41ef4c0ee32a8698f3"
+    },
+    {
+      "path": "skills/open-source/references/actor.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cc8e39b8464356a6426d90931c4d0151a806190",
+      "size": 4300,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/5cc8e39b8464356a6426d90931c4d0151a806190"
+    },
+    {
+      "path": "skills/open-source/references/agent.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bb19b0978b91c0091d538c76c83bed9efbd3899",
+      "size": 9815,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/8bb19b0978b91c0091d538c76c83bed9efbd3899"
+    },
+    {
+      "path": "skills/open-source/references/browser.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b28dd4428269196e2c1026846b913d5772633ce",
+      "size": 7219,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/4b28dd4428269196e2c1026846b913d5772633ce"
+    },
+    {
+      "path": "skills/open-source/references/examples.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd6f772456acd3e1144b910dcc5dec91de106538",
+      "size": 4864,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/dd6f772456acd3e1144b910dcc5dec91de106538"
+    },
+    {
+      "path": "skills/open-source/references/integrations.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bb789238f208fa6b730e6423a8b032b681bbf64",
+      "size": 4686,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/4bb789238f208fa6b730e6423a8b032b681bbf64"
+    },
+    {
+      "path": "skills/open-source/references/models.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad277d76baef96f374deb5549e4b2d28db138298",
+      "size": 8519,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/ad277d76baef96f374deb5549e4b2d28db138298"
+    },
+    {
+      "path": "skills/open-source/references/monitoring.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46ab5be2ddc5b1cf75df07e62ce6d7cab38b69a3",
+      "size": 1903,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/46ab5be2ddc5b1cf75df07e62ce6d7cab38b69a3"
+    },
+    {
+      "path": "skills/open-source/references/quickstart.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7db46cef21b7f1d3127aafdd8a60c993fae472c",
+      "size": 5019,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/d7db46cef21b7f1d3127aafdd8a60c993fae472c"
+    },
+    {
+      "path": "skills/open-source/references/tools.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b040f7fde31739ef71dd9fef7f42f3bed4914814",
+      "size": 6072,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/b040f7fde31739ef71dd9fef7f42f3bed4914814"
+    },
+    {
+      "path": "skills/remote-browser",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8439a23eb8183729c37ba2a938c9b73607e43301",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/8439a23eb8183729c37ba2a938c9b73607e43301"
+    },
+    {
+      "path": "skills/remote-browser/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c8b0efe9c5a699be464570c44a33d2385981eea",
+      "size": 8216,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/9c8b0efe9c5a699be464570c44a33d2385981eea"
+    },
+    {
+      "path": "skills/x402",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9138c428eec53e6d342f7263725a6f99f27bb1c2",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/9138c428eec53e6d342f7263725a6f99f27bb1c2"
+    },
+    {
+      "path": "skills/x402/SKILL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e01df02a10264791f362140c59feb93082d928e",
+      "size": 15205,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/2e01df02a10264791f362140c59feb93082d928e"
+    },
+    {
+      "path": "static",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ae076e77ebd0e43ec760c64368e5c1e7e4c7dd6f",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/ae076e77ebd0e43ec760c64368e5c1e7e4c7dd6f"
+    },
+    {
+      "path": "static/NiceHack69.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6526d36d38b2b48982b5ac69b8a014f0af74521",
+      "size": 47357,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/f6526d36d38b2b48982b5ac69b8a014f0af74521"
+    },
+    {
+      "path": "static/accuracy_by_model_dark.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "938101d6cfe8c351865a9e27db9481b231a9cdb7",
+      "size": 113430,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/938101d6cfe8c351865a9e27db9481b231a9cdb7"
+    },
+    {
+      "path": "static/accuracy_by_model_light.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92ef2238d06caf88a0f41bef7ade92e68d760c24",
+      "size": 113651,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/92ef2238d06caf88a0f41bef7ade92e68d760c24"
+    },
+    {
+      "path": "static/browser-use-dark.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b84ab87956327263d49cd7f77a09c91be6f8bca",
+      "size": 20571,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/1b84ab87956327263d49cd7f77a09c91be6f8bca"
+    },
+    {
+      "path": "static/browser-use.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54685c4f4b3c721f74bbb09cfc54c6645216ae70",
+      "size": 31186,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/54685c4f4b3c721f74bbb09cfc54c6645216ae70"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b4f02f1fe7d9cebe519629ab05bbe93605b49c4e",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/b4f02f1fe7d9cebe519629ab05bbe93605b49c4e"
+    },
+    {
+      "path": "tests/agent_tasks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "784dba43907073e81098dca4da9a3eaa501fc1f4",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/784dba43907073e81098dca4da9a3eaa501fc1f4"
+    },
+    {
+      "path": "tests/agent_tasks/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fc0ddf98b1f3487263f30c2729b1b18aa1a8707",
+      "size": 712,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/8fc0ddf98b1f3487263f30c2729b1b18aa1a8707"
+    },
+    {
+      "path": "tests/agent_tasks/amazon_laptop.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0262370bf4aa27e6f0644ff2f9542f98065ded74",
+      "size": 262,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/0262370bf4aa27e6f0644ff2f9542f98065ded74"
+    },
+    {
+      "path": "tests/agent_tasks/browser_use_pip.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "850eab0cd9c269278da51b7dd0d7d6fbc18de245",
+      "size": 210,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/850eab0cd9c269278da51b7dd0d7d6fbc18de245"
+    },
+    {
+      "path": "tests/ci",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4f6c0f82306c1e2e680b83379e28499d2298c206",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/4f6c0f82306c1e2e680b83379e28499d2298c206"
+    },
+    {
+      "path": "tests/ci/browser",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3052aa01fbe2e29f308bfb9f3021effe943d9e83",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/3052aa01fbe2e29f308bfb9f3021effe943d9e83"
+    },
+    {
+      "path": "tests/ci/browser/iframe_template.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b69af62780ac3c74f514f4280cba689cad2febbf",
+      "size": 644,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/b69af62780ac3c74f514f4280cba689cad2febbf"
+    },
+    {
+      "path": "tests/ci/browser/test_cdp_headers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e38c7e272e1a3da4511f38fc1d44c278c697282d",
+      "size": 7607,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/e38c7e272e1a3da4511f38fc1d44c278c697282d"
+    },
+    {
+      "path": "tests/ci/browser/test_cloud_browser.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b30d38d6997141d6eea87d5e50c05f11a250c68",
+      "size": 8890,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/4b30d38d6997141d6eea87d5e50c05f11a250c68"
+    },
+    {
+      "path": "tests/ci/browser/test_cross_origin_click.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "116e08fadc8013bdccbb84b5db517b0b418a847a",
+      "size": 4715,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/116e08fadc8013bdccbb84b5db517b0b418a847a"
+    },
+    {
+      "path": "tests/ci/browser/test_dom_serializer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e91c9a33e6eb3eff11fbc301fdd1fa8b161e6c7c",
+      "size": 21877,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/e91c9a33e6eb3eff11fbc301fdd1fa8b161e6c7c"
+    },
+    {
+      "path": "tests/ci/browser/test_navigation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d6cd4e898a1f2be7dba2010bff51dd27ea082f1",
+      "size": 11196,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/2d6cd4e898a1f2be7dba2010bff51dd27ea082f1"
+    },
+    {
+      "path": "tests/ci/browser/test_navigation_slow_pages.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fcc7a1f767d48e5d63c3f5bc5784c6ec673e561",
+      "size": 6184,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/0fcc7a1f767d48e5d63c3f5bc5784c6ec673e561"
+    },
+    {
+      "path": "tests/ci/browser/test_output_paths.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "526cd039d3d9588d1dc5722d5d8dd69b3a406a97",
+      "size": 6576,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/526cd039d3d9588d1dc5722d5d8dd69b3a406a97"
+    },
+    {
+      "path": "tests/ci/browser/test_page_stacked_template.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7b1aeed8f0992013f309db038b6224318387269",
+      "size": 3833,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/e7b1aeed8f0992013f309db038b6224318387269"
+    },
+    {
+      "path": "tests/ci/browser/test_page_template.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cde8e161ff13150eb00cc0f2c12931baf0627387",
+      "size": 3476,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/cde8e161ff13150eb00cc0f2c12931baf0627387"
+    },
+    {
+      "path": "tests/ci/browser/test_profile_copy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d042b2d92ac66c42f71bfc6440672ef9ecab5f69",
+      "size": 2358,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/d042b2d92ac66c42f71bfc6440672ef9ecab5f69"
+    },
+    {
+      "path": "tests/ci/browser/test_proxy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9445114aefc543b4be0e03bda4c2c772830ef3f1",
+      "size": 3786,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/9445114aefc543b4be0e03bda4c2c772830ef3f1"
+    },
+    {
+      "path": "tests/ci/browser/test_screenshot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d656dd4aab07fe69b7f5f176028eedd255905568",
+      "size": 4942,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/d656dd4aab07fe69b7f5f176028eedd255905568"
+    },
+    {
+      "path": "tests/ci/browser/test_session_start.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ccce869debc27c6ff6b57ebb5d192fbe255b84c",
+      "size": 15408,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/4ccce869debc27c6ff6b57ebb5d192fbe255b84c"
+    },
+    {
+      "path": "tests/ci/browser/test_tabs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0372b92ae8242a918e4e1a69c8626c54712612b",
+      "size": 18581,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/a0372b92ae8242a918e4e1a69c8626c54712612b"
+    },
+    {
+      "path": "tests/ci/browser/test_true_cross_origin_click.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d578292680dba273e2bdfd2b728b4748110b8c5",
+      "size": 5032,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/7d578292680dba273e2bdfd2b728b4748110b8c5"
+    },
+    {
+      "path": "tests/ci/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "848fec1222eb51cf1d5c9af0b3eff3fbd42792a6",
+      "size": 6796,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/848fec1222eb51cf1d5c9af0b3eff3fbd42792a6"
+    },
+    {
+      "path": "tests/ci/evaluate_tasks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5383ff4b714a00b4909760ea8c1ea1a51fde08f5",
+      "size": 11903,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/5383ff4b714a00b4909760ea8c1ea1a51fde08f5"
+    },
+    {
+      "path": "tests/ci/infrastructure",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a7dc94d82318124b8c1188210e55d66f79ca33e0",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/a7dc94d82318124b8c1188210e55d66f79ca33e0"
+    },
+    {
+      "path": "tests/ci/infrastructure/test_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d8f3be1190baeb546417a3b354b1f16840c84bc",
+      "size": 4194,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/4d8f3be1190baeb546417a3b354b1f16840c84bc"
+    },
+    {
+      "path": "tests/ci/infrastructure/test_filesystem.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "779a5f89d52d03479a732b1a5a5e9dcf90673bda",
+      "size": 50953,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/779a5f89d52d03479a732b1a5a5e9dcf90673bda"
+    },
+    {
+      "path": "tests/ci/infrastructure/test_registry_action_parameter_injection.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3202dc4ddff8a1ba7d90852bd93d70cc75940ea5",
+      "size": 15383,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/3202dc4ddff8a1ba7d90852bd93d70cc75940ea5"
+    },
+    {
+      "path": "tests/ci/infrastructure/test_registry_core.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c6ba83fe56082e427967eadbb56d4c47f520464",
+      "size": 22354,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/4c6ba83fe56082e427967eadbb56d4c47f520464"
+    },
+    {
+      "path": "tests/ci/infrastructure/test_registry_validation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de3ff1e16d32ecbed61410d19e6535e0e9da6597",
+      "size": 19422,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/de3ff1e16d32ecbed61410d19e6535e0e9da6597"
+    },
+    {
+      "path": "tests/ci/infrastructure/test_url_shortening.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "022e6de23204b5c8bd711d90322c10408229a753",
+      "size": 7639,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/022e6de23204b5c8bd711d90322c10408229a753"
+    },
+    {
+      "path": "tests/ci/interactions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b97618c380928f8ed2a816f78339690ff0c48161",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/b97618c380928f8ed2a816f78339690ff0c48161"
+    },
+    {
+      "path": "tests/ci/interactions/test_autocomplete_interaction.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac8c97d45856d3c92c7cb55ed723fc1387377c13",
+      "size": 15029,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/ac8c97d45856d3c92c7cb55ed723fc1387377c13"
+    },
+    {
+      "path": "tests/ci/interactions/test_dropdown_aria_menus.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30d10d9dbd7af68cab859b9a229eec6d28e47467",
+      "size": 10397,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/30d10d9dbd7af68cab859b9a229eec6d28e47467"
+    },
+    {
+      "path": "tests/ci/interactions/test_dropdown_native.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7f1a226209b38e0f61b534e1feef801c9ad2003",
+      "size": 19193,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/a7f1a226209b38e0f61b534e1feef801c9ad2003"
+    },
+    {
+      "path": "tests/ci/interactions/test_radio_buttons.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e4157cea21c26bfc6d278b85d001684ee13a4b3",
+      "size": 9383,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/7e4157cea21c26bfc6d278b85d001684ee13a4b3"
+    },
+    {
+      "path": "tests/ci/models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5ad51b97dc01c8c3b5ef04b9f20e614b9773984d",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/5ad51b97dc01c8c3b5ef04b9f20e614b9773984d"
+    },
+    {
+      "path": "tests/ci/models/model_test_helper.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6eb95f2090c23932268760c3252c0f53eb89278e",
+      "size": 3051,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/6eb95f2090c23932268760c3252c0f53eb89278e"
+    },
+    {
+      "path": "tests/ci/models/test_azure_responses_api.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc229ed55296a6fde9783a06e7edff0770fccc0a",
+      "size": 9241,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/bc229ed55296a6fde9783a06e7edff0770fccc0a"
+    },
+    {
+      "path": "tests/ci/models/test_llm_anthropic.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96e0ac82ac1aa33055ff3d5c8f3410e74dbdbca8",
+      "size": 472,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/96e0ac82ac1aa33055ff3d5c8f3410e74dbdbca8"
+    },
+    {
+      "path": "tests/ci/models/test_llm_azure.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a90ff89ba574f2d1049dbb88d642b0606a52dfd4",
+      "size": 500,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/a90ff89ba574f2d1049dbb88d642b0606a52dfd4"
+    },
+    {
+      "path": "tests/ci/models/test_llm_browseruse.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4955eb0433a3bdfd9f0f991fa3b6d9012c7ca37e",
+      "size": 459,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/4955eb0433a3bdfd9f0f991fa3b6d9012c7ca37e"
+    },
+    {
+      "path": "tests/ci/models/test_llm_google.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96bbb450b1fe3a2e64ccdd5258c81057473dde4e",
+      "size": 2854,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/96bbb450b1fe3a2e64ccdd5258c81057473dde4e"
+    },
+    {
+      "path": "tests/ci/models/test_llm_model_factory.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7643de28d1def9681bb2a8649780627754c653fb",
+      "size": 420,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/7643de28d1def9681bb2a8649780627754c653fb"
+    },
+    {
+      "path": "tests/ci/models/test_llm_openai.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fef442a1ff9da1edc7493158b5e46693ec8d0ba",
+      "size": 436,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/5fef442a1ff9da1edc7493158b5e46693ec8d0ba"
+    },
+    {
+      "path": "tests/ci/models/test_llm_schema_optimizer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5aa452b0561db4f9ea79be7b7a008a6cdfc9a623",
+      "size": 3174,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/5aa452b0561db4f9ea79be7b7a008a6cdfc9a623"
+    },
+    {
+      "path": "tests/ci/security",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2377fe54e717b5760a716d7d1250ca3f4e7a20a7",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/2377fe54e717b5760a716d7d1250ca3f4e7a20a7"
+    },
+    {
+      "path": "tests/ci/security/test_daemon_socket_perms.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e79916c980d07484007b95c500549452012ef9e8",
+      "size": 2545,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/e79916c980d07484007b95c500549452012ef9e8"
+    },
+    {
+      "path": "tests/ci/security/test_domain_filtering.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a5bc29f162cf9c0268a33ea8e8d2e3a9d3b6ade",
+      "size": 26269,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/2a5bc29f162cf9c0268a33ea8e8d2e3a9d3b6ade"
+    },
+    {
+      "path": "tests/ci/security/test_download_filename_sanitization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa0c06619b72b8d40bb77f6bab09763c47b2cdab",
+      "size": 5411,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/aa0c06619b72b8d40bb77f6bab09763c47b2cdab"
+    },
+    {
+      "path": "tests/ci/security/test_ip_blocking.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e85f3b69ec56239f7d44e33f67cd86f2ef4bb1b8",
+      "size": 31977,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/e85f3b69ec56239f7d44e33f67cd86f2ef4bb1b8"
+    },
+    {
+      "path": "tests/ci/security/test_mcp_allowed_domains.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "103b2776d4d53ab7520a93e59aae87ec37fb63b6",
+      "size": 3949,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/103b2776d4d53ab7520a93e59aae87ec37fb63b6"
+    },
+    {
+      "path": "tests/ci/security/test_security_flags.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0a324cd692930c035a2596692ad0d3e6cce1fea",
+      "size": 3704,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/d0a324cd692930c035a2596692ad0d3e6cce1fea"
+    },
+    {
+      "path": "tests/ci/security/test_sensitive_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3976e31dab8a67d060dfd55301abf1f285cbe577",
+      "size": 23426,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/3976e31dab8a67d060dfd55301abf1f285cbe577"
+    },
+    {
+      "path": "tests/ci/security/test_upload_file_containment.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1646ce1438e0fc9d2c7f60c8947083fbd5d8ed0",
+      "size": 7334,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/c1646ce1438e0fc9d2c7f60c8947083fbd5d8ed0"
+    },
+    {
+      "path": "tests/ci/test_action_blank_page.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98f3995b713f8caf5f5563164b3efe1f6333759e",
+      "size": 7705,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/98f3995b713f8caf5f5563164b3efe1f6333759e"
+    },
+    {
+      "path": "tests/ci/test_action_loop_detection.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47481fd6f14ba2772264663236a1c442a8256224",
+      "size": 15762,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/47481fd6f14ba2772264663236a1c442a8256224"
+    },
+    {
+      "path": "tests/ci/test_action_record.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57d97a638a12847029a0084a6f2ee6301fea7635",
+      "size": 6396,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/57d97a638a12847029a0084a6f2ee6301fea7635"
+    },
+    {
+      "path": "tests/ci/test_action_save_as_pdf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05b3be96927728ee5066518dd5252a2cbc548cbc",
+      "size": 8799,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/05b3be96927728ee5066518dd5252a2cbc548cbc"
+    },
+    {
+      "path": "tests/ci/test_action_timeout.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1341b454a415da8661bf1827548ed7c73da64ec2",
+      "size": 6764,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/1341b454a415da8661bf1827548ed7c73da64ec2"
+    },
+    {
+      "path": "tests/ci/test_agent_planning.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad840c44ce6e5a98551d9e4b9d3847e1c0f79d4a",
+      "size": 14910,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/ad840c44ce6e5a98551d9e4b9d3847e1c0f79d4a"
+    },
+    {
+      "path": "tests/ci/test_ai_step.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99dfc273c0693cbb2a49ea47d1ddb1c0cabac2a1",
+      "size": 3531,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/99dfc273c0693cbb2a49ea47d1ddb1c0cabac2a1"
+    },
+    {
+      "path": "tests/ci/test_ax_name_matching.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9734f6c479cb08d31d9238358cd68e43a6cb09ce",
+      "size": 17265,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/9734f6c479cb08d31d9238358cd68e43a6cb09ce"
+    },
+    {
+      "path": "tests/ci/test_budget_warning.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b03d49656f73855b06df0515e94dd41fc01e48cf",
+      "size": 5181,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/b03d49656f73855b06df0515e94dd41fc01e48cf"
+    },
+    {
+      "path": "tests/ci/test_cdp_timeout.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "378e99cf5d4c6a322ccc8bd851c9979eb5bf929c",
+      "size": 4541,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/378e99cf5d4c6a322ccc8bd851c9979eb5bf929c"
+    },
+    {
+      "path": "tests/ci/test_cli_cloud.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fd88ed606dd50f1dab425097db943f5f934efab",
+      "size": 8266,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/4fd88ed606dd50f1dab425097db943f5f934efab"
+    },
+    {
+      "path": "tests/ci/test_cli_cloud_connect.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e27b2f690eb8361c5842000b2a94f2dda36df5c",
+      "size": 1363,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/4e27b2f690eb8361c5842000b2a94f2dda36df5c"
+    },
+    {
+      "path": "tests/ci/test_cli_connect.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa69ab0c700b2365030e9b7ee51df8f5ab733b47",
+      "size": 5791,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/fa69ab0c700b2365030e9b7ee51df8f5ab733b47"
+    },
+    {
+      "path": "tests/ci/test_cli_coordinate_click.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e71f95c1c727acffa540deed2be5121a27fd4dd3",
+      "size": 4557,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/e71f95c1c727acffa540deed2be5121a27fd4dd3"
+    },
+    {
+      "path": "tests/ci/test_cli_headed_flag.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a3b1f4002615b2539801ce758c37a7fbd7aebbf",
+      "size": 2311,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/2a3b1f4002615b2539801ce758c37a7fbd7aebbf"
+    },
+    {
+      "path": "tests/ci/test_cli_install_init.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3dc38957bed1e4c47f19b5fc971d812630a57f1f",
+      "size": 2224,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/3dc38957bed1e4c47f19b5fc971d812630a57f1f"
+    },
+    {
+      "path": "tests/ci/test_cli_lifecycle.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cf90122f4d525cf2d7555f47b26d27587533f3b",
+      "size": 11348,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/2cf90122f4d525cf2d7555f47b26d27587533f3b"
+    },
+    {
+      "path": "tests/ci/test_cli_lite_deps.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b448cf046cc81e53d6019ce887b2c386a4422fd",
+      "size": 2975,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/7b448cf046cc81e53d6019ce887b2c386a4422fd"
+    },
+    {
+      "path": "tests/ci/test_cli_sessions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64d46e55400df12212b9f429ff4c936e00aa2ac4",
+      "size": 3791,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/64d46e55400df12212b9f429ff4c936e00aa2ac4"
+    },
+    {
+      "path": "tests/ci/test_cli_upload.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34d9697ddc6ed8938f1cde807e22ae34bf17a831",
+      "size": 10866,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/34d9697ddc6ed8938f1cde807e22ae34bf17a831"
+    },
+    {
+      "path": "tests/ci/test_coordinate_clicking.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39575857a72e1786d4256ecf13c0fd075791568f",
+      "size": 6533,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/39575857a72e1786d4256ecf13c0fd075791568f"
+    },
+    {
+      "path": "tests/ci/test_doctor_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69160f02398fbd1740e376f791c2a23ca15ecf9b",
+      "size": 2816,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/69160f02398fbd1740e376f791c2a23ca15ecf9b"
+    },
+    {
+      "path": "tests/ci/test_downloads_watchdog.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c673bbb819371dc0a717b50e9d7658e301734b8d",
+      "size": 1528,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/c673bbb819371dc0a717b50e9d7658e301734b8d"
+    },
+    {
+      "path": "tests/ci/test_extension_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0493019e6f35bd5a4f9d3f1a10e4d8b5362ede33",
+      "size": 4237,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/0493019e6f35bd5a4f9d3f1a10e4d8b5362ede33"
+    },
+    {
+      "path": "tests/ci/test_extract_images.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee42b268e1770f9875dce9478e210252ecb6cbd8",
+      "size": 10050,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/ee42b268e1770f9875dce9478e210252ecb6cbd8"
+    },
+    {
+      "path": "tests/ci/test_fallback_llm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bc1e0972e7e06ed1c58bb201d20e8fd74ce525e",
+      "size": 14472,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/4bc1e0972e7e06ed1c58bb201d20e8fd74ce525e"
+    },
+    {
+      "path": "tests/ci/test_file_system_docx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc71d500d651ab1f9f4fa1d8ae1401a4c9d4205d",
+      "size": 5801,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/cc71d500d651ab1f9f4fa1d8ae1401a4c9d4205d"
+    },
+    {
+      "path": "tests/ci/test_file_system_images.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8325853a6af41f9ad04ce5f344b941d9e4ee8dc1",
+      "size": 8619,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/8325853a6af41f9ad04ce5f344b941d9e4ee8dc1"
+    },
+    {
+      "path": "tests/ci/test_file_system_llm_integration.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3962843b3a012e1ee11065898ee2dd07ad40d9af",
+      "size": 13934,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/3962843b3a012e1ee11065898ee2dd07ad40d9af"
+    },
+    {
+      "path": "tests/ci/test_history_wait_time.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8479e9b2907dcd9052075e18c093fad5bfd52726",
+      "size": 4228,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/8479e9b2907dcd9052075e18c093fad5bfd52726"
+    },
+    {
+      "path": "tests/ci/test_llm_retries.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cacc0a397770baa4952226238df772a2039fd56e",
+      "size": 10816,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/cacc0a397770baa4952226238df772a2039fd56e"
+    },
+    {
+      "path": "tests/ci/test_markdown_chunking.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4616bd1ee9482405a9c4ca3388f6b3a737653f1",
+      "size": 14096,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/b4616bd1ee9482405a9c4ca3388f6b3a737653f1"
+    },
+    {
+      "path": "tests/ci/test_markdown_extractor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14f21b53bd61a3a3783e703c12518c522d668f7c",
+      "size": 3477,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/14f21b53bd61a3a3783e703c12518c522d668f7c"
+    },
+    {
+      "path": "tests/ci/test_multi_act_guards.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1af94263fe6dc4b81043a120d34f5028896c2fbf",
+      "size": 10225,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/1af94263fe6dc4b81043a120d34f5028896c2fbf"
+    },
+    {
+      "path": "tests/ci/test_openrouter_token_cost.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "defafe36746cdf76774d0e7bbf44829e2ad282aa",
+      "size": 5545,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/defafe36746cdf76774d0e7bbf44829e2ad282aa"
+    },
+    {
+      "path": "tests/ci/test_prompt_step_meta_suffix.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91e415b0302c6dcebb3cdc28d928c275ad05c578",
+      "size": 4336,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/91e415b0302c6dcebb3cdc28d928c275ad05c578"
+    },
+    {
+      "path": "tests/ci/test_rerun_ai_summary.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4840a5a05f8e85f06c470d9569bf129fd733da2a",
+      "size": 40414,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/4840a5a05f8e85f06c470d9569bf129fd733da2a"
+    },
+    {
+      "path": "tests/ci/test_rust_agent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "652737d29d1b08be7e20a73eb11e6f990d3bd8b9",
+      "size": 237979,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/652737d29d1b08be7e20a73eb11e6f990d3bd8b9"
+    },
+    {
+      "path": "tests/ci/test_sandbox_structured_output.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5e1e76726c85b23eac7afffbcbcd6fe4784dd3b",
+      "size": 7255,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/c5e1e76726c85b23eac7afffbcbcd6fe4784dd3b"
+    },
+    {
+      "path": "tests/ci/test_screenshot_exclusion.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98782c651d0e671dd103ec96e6537bfe6a66a0cf",
+      "size": 6304,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/98782c651d0e671dd103ec96e6537bfe6a66a0cf"
+    },
+    {
+      "path": "tests/ci/test_search_find.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38afca2aa75673de2abee5f7da3ac25fc05cd59c",
+      "size": 16782,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/38afca2aa75673de2abee5f7da3ac25fc05cd59c"
+    },
+    {
+      "path": "tests/ci/test_setup_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "159ca9058b206db829a455403c5f7055fa3f8598",
+      "size": 799,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/159ca9058b206db829a455403c5f7055fa3f8598"
+    },
+    {
+      "path": "tests/ci/test_structured_extraction.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c81aca116d10b3f51e5922e80c63d8f8c74cfaf",
+      "size": 21027,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/2c81aca116d10b3f51e5922e80c63d8f8c74cfaf"
+    },
+    {
+      "path": "tests/ci/test_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3d8fb04edeb16213d33da0ccfa0db59edd9e2e0",
+      "size": 23527,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/c3d8fb04edeb16213d33da0ccfa0db59edd9e2e0"
+    },
+    {
+      "path": "tests/ci/test_tunnel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64dc77e2a681695fba418b9bb38f70c712352a2b",
+      "size": 2331,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/64dc77e2a681695fba418b9bb38f70c712352a2b"
+    },
+    {
+      "path": "tests/ci/test_variable_detection.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d90372c5144bdfc5fa7472630306d8fce217415b",
+      "size": 12671,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/d90372c5144bdfc5fa7472630306d8fce217415b"
+    },
+    {
+      "path": "tests/ci/test_variable_substitution.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff5be94215d2ca8b60d3d12da5afd806bf7e4e69",
+      "size": 9387,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/ff5be94215d2ca8b60d3d12da5afd806bf7e4e69"
+    },
+    {
+      "path": "tests/mind2web_data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5c227dcb1260c6aa4da1630c6c18f0d2abd7c3e7",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/5c227dcb1260c6aa4da1630c6c18f0d2abd7c3e7"
+    },
+    {
+      "path": "tests/mind2web_data/processed.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "553f2b97bad329ce75edbbe3f85c69008ca2a54d",
+      "size": 692743,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/553f2b97bad329ce75edbbe3f85c69008ca2a54d"
+    },
+    {
+      "path": "tests/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "67613e3e64d7d030682fc75f700238074c98e43e",
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/trees/67613e3e64d7d030682fc75f700238074c98e43e"
+    },
+    {
+      "path": "tests/scripts/debug_iframe_scrolling.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62682bed3efc45d6c5bbc67590105463c8e0f9e8",
+      "size": 9294,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/62682bed3efc45d6c5bbc67590105463c8e0f9e8"
+    },
+    {
+      "path": "tests/scripts/test_frame_hierarchy.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4013dc18c0afd1d1342eda117ad84b42e419362f",
+      "size": 8439,
+      "url": "https://api.github.com/repos/browser-use/browser-use/git/blobs/4013dc18c0afd1d1342eda117ad84b42e419362f"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,294 @@
+﻿{
+    "schema_version":  1,
+    "harvested_at":  "2026-06-08T17:07:30.5720975+03:00",
+    "repository":  "expressjs/express",
+    "rank":  243,
+    "source_contract":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\243-expressjs-express\\repo-contract.json",
+    "readme_snapshot":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\243-expressjs-express\\README.snapshot.md",
+    "tree_snapshot":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\243-expressjs-express\\tree.snapshot.json",
+    "status":  "contract_content_harvested_not_executable",
+    "promotion_state":  "blocked",
+    "readiness_state":  "selected_public_contract_content_harvested",
+    "policy":  "Exact small public GitHub blob contents only; no cloning, no repository execution, no executable QaaS promotion.",
+    "max_file_bytes":  65536,
+    "fetched_files":  [
+                          {
+                              "source_path":  "Readme.md",
+                              "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\Readme.md",
+                              "sha":  "3fb257a8d4a001e9c56f0a252c97a2fe283eec61",
+                              "git_blob_sha_verified":  true,
+                              "content_sha256":  "985729d9af0fa6acf57896bd682f789b1ba0415a521da428b3b21f1e525df9ea",
+                              "size":  10165,
+                              "fetched_size":  10165,
+                              "reason":  "canonical-readme-contract",
+                              "github_blob_url":  "https://api.github.com/repos/expressjs/express/git/blobs/3fb257a8d4a001e9c56f0a252c97a2fe283eec61"
+                          },
+                          {
+                              "source_path":  "examples/hello-world/index.js",
+                              "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\examples\\hello-world\\index.js",
+                              "sha":  "8c1855c2eb7b94e0967e23282215d699517c94b9",
+                              "git_blob_sha_verified":  true,
+                              "content_sha256":  "ab0bb8d99209070fa5ad9f6f37a05730bbf6388ff512954d251d30eff4946686",
+                              "size":  269,
+                              "fetched_size":  269,
+                              "reason":  "public-runtime-example",
+                              "github_blob_url":  "https://api.github.com/repos/expressjs/express/git/blobs/8c1855c2eb7b94e0967e23282215d699517c94b9"
+                          },
+                          {
+                              "source_path":  "test/acceptance/hello-world.js",
+                              "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\test\\acceptance\\hello-world.js",
+                              "sha":  "db90349c496c73a4efcf6cadf5d8097437769b87",
+                              "git_blob_sha_verified":  true,
+                              "content_sha256":  "1047572c2e458969e9ff1dba0f9671b1a32a53de3633c79f9ea83c9669e5fc92",
+                              "size":  488,
+                              "fetched_size":  488,
+                              "reason":  "public-test-contract",
+                              "github_blob_url":  "https://api.github.com/repos/expressjs/express/git/blobs/db90349c496c73a4efcf6cadf5d8097437769b87"
+                          },
+                          {
+                              "source_path":  "package.json",
+                              "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\package.json",
+                              "sha":  "16012b61c4f84ff598fb87c9a24b2213e5324640",
+                              "git_blob_sha_verified":  true,
+                              "content_sha256":  "20e467dfd5da4d36faad05efb49d266ec87a20b1c1e93472cd15fbff25dd542b",
+                              "size":  2731,
+                              "fetched_size":  2731,
+                              "reason":  "node-runtime-contract",
+                              "github_blob_url":  "https://api.github.com/repos/expressjs/express/git/blobs/16012b61c4f84ff598fb87c9a24b2213e5324640"
+                          },
+                          {
+                              "source_path":  "test/req.protocol.js",
+                              "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\test\\req.protocol.js",
+                              "sha":  "def82eda922132f7c6a7e3a9b9bd0376620d2437",
+                              "git_blob_sha_verified":  true,
+                              "content_sha256":  "95ade060958d64c6981c1a138f33628040293acaee094d93728fe84eaa9a8a3d",
+                              "size":  2579,
+                              "fetched_size":  2579,
+                              "reason":  "api-contract-match",
+                              "github_blob_url":  "https://api.github.com/repos/expressjs/express/git/blobs/def82eda922132f7c6a7e3a9b9bd0376620d2437"
+                          },
+                          {
+                              "source_path":  ".github/workflows/ci.yml",
+                              "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\.github\\workflows\\ci.yml",
+                              "sha":  "0695bd85747d822825311eaca5b46e5457edc878",
+                              "git_blob_sha_verified":  true,
+                              "content_sha256":  "25a1ee5cf662261933cba9abe62c0236319101677a5dea1eb3731efa341575d3",
+                              "size":  3230,
+                              "fetched_size":  3230,
+                              "reason":  "ci-runtime-command-contract",
+                              "github_blob_url":  "https://api.github.com/repos/expressjs/express/git/blobs/0695bd85747d822825311eaca5b46e5457edc878"
+                          },
+                          {
+                              "source_path":  ".github/workflows/codeql.yml",
+                              "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\.github\\workflows\\codeql.yml",
+                              "sha":  "85895a0451993f2a7570829fa4a1ebd6efbd97f4",
+                              "git_blob_sha_verified":  true,
+                              "content_sha256":  "4df471d9c6daf3081661878e90cf113a3f5eaa766004b90b52a62b05966645b0",
+                              "size":  2654,
+                              "fetched_size":  2654,
+                              "reason":  "ci-runtime-command-contract",
+                              "github_blob_url":  "https://api.github.com/repos/expressjs/express/git/blobs/85895a0451993f2a7570829fa4a1ebd6efbd97f4"
+                          },
+                          {
+                              "source_path":  "test/Route.js",
+                              "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\test\\Route.js",
+                              "sha":  "e4b73c7e6ecadedd4adb22cc3110a723903db5a5",
+                              "git_blob_sha_verified":  true,
+                              "content_sha256":  "4607c2b70f5b897c1cb85f8a2bc1067944c4b36828bc73d140732851acc9782e",
+                              "size":  6480,
+                              "fetched_size":  6480,
+                              "reason":  "public-test-contract",
+                              "github_blob_url":  "https://api.github.com/repos/expressjs/express/git/blobs/e4b73c7e6ecadedd4adb22cc3110a723903db5a5"
+                          }
+                      ],
+    "selected_public_contracts":  [
+                                      {
+                                          "source_path":  "Readme.md",
+                                          "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\Readme.md",
+                                          "sha":  "3fb257a8d4a001e9c56f0a252c97a2fe283eec61",
+                                          "git_blob_sha_verified":  true,
+                                          "content_sha256":  "985729d9af0fa6acf57896bd682f789b1ba0415a521da428b3b21f1e525df9ea",
+                                          "size":  10165,
+                                          "fetched_size":  10165,
+                                          "reason":  "canonical-readme-contract",
+                                          "github_blob_url":  "https://api.github.com/repos/expressjs/express/git/blobs/3fb257a8d4a001e9c56f0a252c97a2fe283eec61"
+                                      },
+                                      {
+                                          "source_path":  "examples/hello-world/index.js",
+                                          "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\examples\\hello-world\\index.js",
+                                          "sha":  "8c1855c2eb7b94e0967e23282215d699517c94b9",
+                                          "git_blob_sha_verified":  true,
+                                          "content_sha256":  "ab0bb8d99209070fa5ad9f6f37a05730bbf6388ff512954d251d30eff4946686",
+                                          "size":  269,
+                                          "fetched_size":  269,
+                                          "reason":  "public-runtime-example",
+                                          "github_blob_url":  "https://api.github.com/repos/expressjs/express/git/blobs/8c1855c2eb7b94e0967e23282215d699517c94b9"
+                                      },
+                                      {
+                                          "source_path":  "test/acceptance/hello-world.js",
+                                          "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\test\\acceptance\\hello-world.js",
+                                          "sha":  "db90349c496c73a4efcf6cadf5d8097437769b87",
+                                          "git_blob_sha_verified":  true,
+                                          "content_sha256":  "1047572c2e458969e9ff1dba0f9671b1a32a53de3633c79f9ea83c9669e5fc92",
+                                          "size":  488,
+                                          "fetched_size":  488,
+                                          "reason":  "public-test-contract",
+                                          "github_blob_url":  "https://api.github.com/repos/expressjs/express/git/blobs/db90349c496c73a4efcf6cadf5d8097437769b87"
+                                      },
+                                      {
+                                          "source_path":  "package.json",
+                                          "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\package.json",
+                                          "sha":  "16012b61c4f84ff598fb87c9a24b2213e5324640",
+                                          "git_blob_sha_verified":  true,
+                                          "content_sha256":  "20e467dfd5da4d36faad05efb49d266ec87a20b1c1e93472cd15fbff25dd542b",
+                                          "size":  2731,
+                                          "fetched_size":  2731,
+                                          "reason":  "node-runtime-contract",
+                                          "github_blob_url":  "https://api.github.com/repos/expressjs/express/git/blobs/16012b61c4f84ff598fb87c9a24b2213e5324640"
+                                      },
+                                      {
+                                          "source_path":  "test/req.protocol.js",
+                                          "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\test\\req.protocol.js",
+                                          "sha":  "def82eda922132f7c6a7e3a9b9bd0376620d2437",
+                                          "git_blob_sha_verified":  true,
+                                          "content_sha256":  "95ade060958d64c6981c1a138f33628040293acaee094d93728fe84eaa9a8a3d",
+                                          "size":  2579,
+                                          "fetched_size":  2579,
+                                          "reason":  "api-contract-match",
+                                          "github_blob_url":  "https://api.github.com/repos/expressjs/express/git/blobs/def82eda922132f7c6a7e3a9b9bd0376620d2437"
+                                      },
+                                      {
+                                          "source_path":  ".github/workflows/ci.yml",
+                                          "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\.github\\workflows\\ci.yml",
+                                          "sha":  "0695bd85747d822825311eaca5b46e5457edc878",
+                                          "git_blob_sha_verified":  true,
+                                          "content_sha256":  "25a1ee5cf662261933cba9abe62c0236319101677a5dea1eb3731efa341575d3",
+                                          "size":  3230,
+                                          "fetched_size":  3230,
+                                          "reason":  "ci-runtime-command-contract",
+                                          "github_blob_url":  "https://api.github.com/repos/expressjs/express/git/blobs/0695bd85747d822825311eaca5b46e5457edc878"
+                                      },
+                                      {
+                                          "source_path":  ".github/workflows/codeql.yml",
+                                          "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\.github\\workflows\\codeql.yml",
+                                          "sha":  "85895a0451993f2a7570829fa4a1ebd6efbd97f4",
+                                          "git_blob_sha_verified":  true,
+                                          "content_sha256":  "4df471d9c6daf3081661878e90cf113a3f5eaa766004b90b52a62b05966645b0",
+                                          "size":  2654,
+                                          "fetched_size":  2654,
+                                          "reason":  "ci-runtime-command-contract",
+                                          "github_blob_url":  "https://api.github.com/repos/expressjs/express/git/blobs/85895a0451993f2a7570829fa4a1ebd6efbd97f4"
+                                      },
+                                      {
+                                          "source_path":  "test/Route.js",
+                                          "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\test\\Route.js",
+                                          "sha":  "e4b73c7e6ecadedd4adb22cc3110a723903db5a5",
+                                          "git_blob_sha_verified":  true,
+                                          "content_sha256":  "4607c2b70f5b897c1cb85f8a2bc1067944c4b36828bc73d140732851acc9782e",
+                                          "size":  6480,
+                                          "fetched_size":  6480,
+                                          "reason":  "public-test-contract",
+                                          "github_blob_url":  "https://api.github.com/repos/expressjs/express/git/blobs/e4b73c7e6ecadedd4adb22cc3110a723903db5a5"
+                                      }
+                                  ],
+    "skipped_files":  [
+                          {
+                              "source_path":  "README.md",
+                              "reason":  "path_not_found_in_tree_snapshot"
+                          },
+                          {
+                              "source_path":  "schema.json",
+                              "reason":  "path_not_found_in_tree_snapshot"
+                          },
+                          {
+                              "source_path":  "fixtures/db.json",
+                              "reason":  "path_not_found_in_tree_snapshot"
+                          },
+                          {
+                              "source_path":  "go.mod",
+                              "reason":  "path_not_found_in_tree_snapshot"
+                          },
+                          {
+                              "source_path":  "pyproject.toml",
+                              "reason":  "path_not_found_in_tree_snapshot"
+                          },
+                          {
+                              "source_path":  "Dockerfile",
+                              "reason":  "path_not_found_in_tree_snapshot"
+                          },
+                          {
+                              "source_path":  "docker-compose.yml",
+                              "reason":  "path_not_found_in_tree_snapshot"
+                          }
+                      ],
+    "evidence_markers":  [
+                             {
+                                 "marker_id":  "runtime-url-localhost-3000",
+                                 "value":  "http://localhost:3000",
+                                 "supports":  "runtime-contract",
+                                 "evidence":  "README.snapshot.md"
+                             },
+                             {
+                                 "marker_id":  "http-route-root-hello-world-no-comma",
+                                 "value":  "Hello World",
+                                 "supports":  "input-output-contract",
+                                 "evidence":  "README.snapshot.md"
+                             },
+                             {
+                                 "marker_id":  "express-import-example",
+                                 "value":  "import express from \u0027express\u0027",
+                                 "supports":  "runtime-contract",
+                                 "evidence":  "README.snapshot.md"
+                             },
+                             {
+                                 "marker_id":  "express-listen-port-3000",
+                                 "value":  "app.listen(3000",
+                                 "supports":  "runtime-contract",
+                                 "evidence":  "README.snapshot.md"
+                             }
+                         ],
+    "candidate_promotion_contracts":  [
+                                          {
+                                              "supports":  "runtime-contract",
+                                              "status":  "candidate_evidence_harvested",
+                                              "evidence_markers":  [
+                                                                       "runtime-url-localhost-3000",
+                                                                       "express-import-example",
+                                                                       "express-listen-port-3000"
+                                                                   ]
+                                          },
+                                          {
+                                              "supports":  "input-output-contract",
+                                              "status":  "candidate_evidence_harvested",
+                                              "evidence_markers":  [
+                                                                       "http-route-root-hello-world-no-comma"
+                                                                   ]
+                                          }
+                                      ],
+    "docs_evidence":  [
+                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\helloWorldHttp.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\actionSelectionPlaybook.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json"
+                      ],
+    "public_evidence":  [
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\243-expressjs-express\\repo-contract.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\243-expressjs-express\\README.snapshot.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\243-expressjs-express\\tree.snapshot.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\Readme.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\examples\\hello-world\\index.js",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\test\\acceptance\\hello-world.js",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\package.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\test\\req.protocol.js",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\.github\\workflows\\ci.yml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\.github\\workflows\\codeql.yml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\test\\Route.js"
+                        ],
+    "remaining_blockers":  [
+                               "generate_candidate_runner_yaml_from_exact_public_contract",
+                               "prove_process_lifecycle_and_cleanup_without assuming private source",
+                               "run_qaaS_template_validation",
+                               "run_live_qaaS_act_assert_validation",
+                               "run_live_airgapped_weak_model_validation",
+                               "run_strong_review_against_selected_contract_evidence"
+                           ]
+}

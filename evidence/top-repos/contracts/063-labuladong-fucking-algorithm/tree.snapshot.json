@@ -1,0 +1,4532 @@
+{
+  "sha": "b1f23cb9605f6146ff78bafad71e795176439b99",
+  "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/b1f23cb9605f6146ff78bafad71e795176439b99",
+  "tree": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ecfd88a349b260b9f7aca0353d14d5f61782528",
+      "size": 64,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/7ecfd88a349b260b9f7aca0353d14d5f61782528"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e5a93eef50b0e94d4caa10094784cf7fbfea1f9f",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/e5a93eef50b0e94d4caa10094784cf7fbfea1f9f"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "40fc00a8a49fdd39833f82d35b479b4df36d916b",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/40fc00a8a49fdd39833f82d35b479b4df36d916b"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/01-algo-website-bug.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78a19e2e7aa72d438773c6eaab5aa06f150012db",
+      "size": 419,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/78a19e2e7aa72d438773c6eaab5aa06f150012db"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/02-algo-visualize-bug.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12244361fad291ae0b0a3803c055c5112e9edaaa",
+      "size": 156,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/12244361fad291ae0b0a3803c055c5112e9edaaa"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/03-chrome-extension-bug.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f86bb86a35750c544b3ca97ec18a408fa6c1e34c",
+      "size": 373,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/f86bb86a35750c544b3ca97ec18a408fa6c1e34c"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/04-vscode-extension-bug.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14ade83a088296bf13e77f995768afc6504348a2",
+      "size": 345,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/14ade83a088296bf13e77f995768afc6504348a2"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/05-jetbrain-plugin-bug.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edc29bf01759a15d1821694a955bb36663c5303b",
+      "size": 333,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/edc29bf01759a15d1821694a955bb36663c5303b"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/06-suggestion.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "628282c5d4bc7a92b07430315b0b980e8432a46f",
+      "size": 218,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/628282c5d4bc7a92b07430315b0b980e8432a46f"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63123fbe81571b48b7d65602f9828524f9d84b5f",
+      "size": 10,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/63123fbe81571b48b7d65602f9828524f9d84b5f"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b5116573e0a4aad38f243de52ed4950750f9f62",
+      "size": 39156,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/4b5116573e0a4aad38f243de52ed4950750f9f62"
+    },
+    {
+      "path": "contributor.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "716a4a79a09f81d117f8099cf8ed1a4c6fdd2da2",
+      "size": 101494,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/716a4a79a09f81d117f8099cf8ed1a4c6fdd2da2"
+    },
+    {
+      "path": "pictures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3bab954f8e76351e20ff8ecadd4c1d763058537d",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/3bab954f8e76351e20ff8ecadd4c1d763058537d"
+    },
+    {
+      "path": "pictures/4keyboard",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0076d1a328429dfd369cfe1e921ee42f6c50fa67",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/0076d1a328429dfd369cfe1e921ee42f6c50fa67"
+    },
+    {
+      "path": "pictures/4keyboard/1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43c7985b4e7201e0ffc8ff5c580883e60e98ed3b",
+      "size": 117377,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/43c7985b4e7201e0ffc8ff5c580883e60e98ed3b"
+    },
+    {
+      "path": "pictures/4keyboard/title.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6413dee2c83f74205c7f2d5eb0784232429512de",
+      "size": 33143,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/6413dee2c83f74205c7f2d5eb0784232429512de"
+    },
+    {
+      "path": "pictures/BST",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "22057d3bd894c15a65e35163f5b8edb734de0714",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/22057d3bd894c15a65e35163f5b8edb734de0714"
+    },
+    {
+      "path": "pictures/BST/BST_example.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e150d1d994df2021a49a95560fe9359fb8dff58",
+      "size": 10078,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/3e150d1d994df2021a49a95560fe9359fb8dff58"
+    },
+    {
+      "path": "pictures/BST/bst_deletion_case_1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "923f5e85d2b4756abff9219b81c2c52a05033351",
+      "size": 19684,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/923f5e85d2b4756abff9219b81c2c52a05033351"
+    },
+    {
+      "path": "pictures/BST/bst_deletion_case_2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8c821779723ac102b062ed6094032b17ecc896c",
+      "size": 13464,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/c8c821779723ac102b062ed6094032b17ecc896c"
+    },
+    {
+      "path": "pictures/BST/bst_deletion_case_3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a13586540a89fe13d02f4a9c463b5785c1e7cf3",
+      "size": 18431,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/1a13586540a89fe13d02f4a9c463b5785c1e7cf3"
+    },
+    {
+      "path": "pictures/BST/假BST.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47ac2b32fa23cee018cdef5e3b3a2e47de2297be",
+      "size": 4907,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/47ac2b32fa23cee018cdef5e3b3a2e47de2297be"
+    },
+    {
+      "path": "pictures/Chrome插件",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c5cdae556f371f44a909a035fc26d34329fbb6a6",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/c5cdae556f371f44a909a035fc26d34329fbb6a6"
+    },
+    {
+      "path": "pictures/Chrome插件/baidumonkey.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b02f566d2369a521952c55aec9a10090a832f021",
+      "size": 75262,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/b02f566d2369a521952c55aec9a10090a832f021"
+    },
+    {
+      "path": "pictures/Chrome插件/baidu广告.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1af676e9e7b92025380a9991213170d9217df212",
+      "size": 172112,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/1af676e9e7b92025380a9991213170d9217df212"
+    },
+    {
+      "path": "pictures/Chrome插件/csdnBlock.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b57fedc8a7e90d3e26f1c6a35daa1479b92287e",
+      "size": 147559,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/8b57fedc8a7e90d3e26f1c6a35daa1479b92287e"
+    },
+    {
+      "path": "pictures/Chrome插件/githubzip.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41fbf53a1e5b25a723ac1cbae3405fa6cf46a371",
+      "size": 102872,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/41fbf53a1e5b25a723ac1cbae3405fa6cf46a371"
+    },
+    {
+      "path": "pictures/Chrome插件/listen1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0af8e0bb34939a8cabcb39ff9de0e5648719676c",
+      "size": 276589,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/0af8e0bb34939a8cabcb39ff9de0e5648719676c"
+    },
+    {
+      "path": "pictures/Chrome插件/monkey.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b3545cbee60a72f42d22d274e34c739e80f2711",
+      "size": 73349,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/6b3545cbee60a72f42d22d274e34c739e80f2711"
+    },
+    {
+      "path": "pictures/Chrome插件/oneTab.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad84073735257e78b52124415c442bb0c782ef68",
+      "size": 68206,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/ad84073735257e78b52124415c442bb0c782ef68"
+    },
+    {
+      "path": "pictures/Chrome插件/pin.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "045d79b045c6e4049cee2cee56c27f908e9d9685",
+      "size": 67785,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/045d79b045c6e4049cee2cee56c27f908e9d9685"
+    },
+    {
+      "path": "pictures/Chrome插件/tree.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eeaa173338f37991048d8955b89497874d7c3b0a",
+      "size": 86740,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/eeaa173338f37991048d8955b89497874d7c3b0a"
+    },
+    {
+      "path": "pictures/Chrome插件/youhou优化.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae944dd791f80dbbf64901971e65be78eed093f1",
+      "size": 80681,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/ae944dd791f80dbbf64901971e65be78eed093f1"
+    },
+    {
+      "path": "pictures/LCS",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0197102ea85cff94ea123797d6b5c9f37acaa34e",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/0197102ea85cff94ea123797d6b5c9f37acaa34e"
+    },
+    {
+      "path": "pictures/LCS/1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3fa9fcf09a2bc2e7051a25df5d236b98b6be745",
+      "size": 4125,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/c3fa9fcf09a2bc2e7051a25df5d236b98b6be745"
+    },
+    {
+      "path": "pictures/LCS/2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d1db3538dd7d2996c02d54a250fc27f46706502",
+      "size": 5894,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/8d1db3538dd7d2996c02d54a250fc27f46706502"
+    },
+    {
+      "path": "pictures/LCS/3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed7a3f91fd0d302224908730f0e3227fe07dbd66",
+      "size": 3599,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/ed7a3f91fd0d302224908730f0e3227fe07dbd66"
+    },
+    {
+      "path": "pictures/LCS/dp.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "163f88307fee1a7528e84301bbca63a30ef340e7",
+      "size": 8371,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/163f88307fee1a7528e84301bbca63a30ef340e7"
+    },
+    {
+      "path": "pictures/LCS/lcs.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0a76e29a2a229fa14e1e230299a7982dc360743",
+      "size": 4443,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/b0a76e29a2a229fa14e1e230299a7982dc360743"
+    },
+    {
+      "path": "pictures/LRU算法",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d4b7fdb12119ebc25c43de50eff373a953fa616d",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/d4b7fdb12119ebc25c43de50eff373a953fa616d"
+    },
+    {
+      "path": "pictures/LRU算法/1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cd627bacf98afeff74efa4c45ee6f04146b83ab",
+      "size": 58261,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/2cd627bacf98afeff74efa4c45ee6f04146b83ab"
+    },
+    {
+      "path": "pictures/LRU算法/2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a774ec5f1f3aa831ea06dd305c115330b89dd056",
+      "size": 47214,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/a774ec5f1f3aa831ea06dd305c115330b89dd056"
+    },
+    {
+      "path": "pictures/LRU算法/3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d61f20690a0aaed755df7bd522e354757da8c304",
+      "size": 46478,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/d61f20690a0aaed755df7bd522e354757da8c304"
+    },
+    {
+      "path": "pictures/LRU算法/4.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30af4fb8bfe13c9ffb55818ccb70cc57b6c0a508",
+      "size": 30360,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/30af4fb8bfe13c9ffb55818ccb70cc57b6c0a508"
+    },
+    {
+      "path": "pictures/LRU算法/put.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca580eb634d27ec2a8f22714f741bbaf56c2b6d1",
+      "size": 39276,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/ca580eb634d27ec2a8f22714f741bbaf56c2b6d1"
+    },
+    {
+      "path": "pictures/algo4",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8e06d122e8cac8a2b77367c707aa8135085e4a93",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/8e06d122e8cac8a2b77367c707aa8135085e4a93"
+    },
+    {
+      "path": "pictures/algo4/1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbb9b05013beecbf9d5895694d373af17c870d6f",
+      "size": 107632,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/fbb9b05013beecbf9d5895694d373af17c870d6f"
+    },
+    {
+      "path": "pictures/algo4/2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "853c5c714771a1e2593cfc71672ee8145e7a7d21",
+      "size": 130962,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/853c5c714771a1e2593cfc71672ee8145e7a7d21"
+    },
+    {
+      "path": "pictures/algo4/3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0dec5070f964a5b556257741464a582bebcdbb77",
+      "size": 115261,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/0dec5070f964a5b556257741464a582bebcdbb77"
+    },
+    {
+      "path": "pictures/algo4/title.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "988f8b57372c7129300d887d890360b814fb95e7",
+      "size": 24658,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/988f8b57372c7129300d887d890360b814fb95e7"
+    },
+    {
+      "path": "pictures/backtrack",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4121928deff88a31702016801b6aeb695a6f25db",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/4121928deff88a31702016801b6aeb695a6f25db"
+    },
+    {
+      "path": "pictures/backtrack/ink-image (1).png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0df286974d6bc878787a458f9c5c57494ce819c",
+      "size": 142538,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/b0df286974d6bc878787a458f9c5c57494ce819c"
+    },
+    {
+      "path": "pictures/backtrack/ink-image (2).png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5aa69b5c21e83ccf21567b4b2718391ef8f492fb",
+      "size": 87872,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/5aa69b5c21e83ccf21567b4b2718391ef8f492fb"
+    },
+    {
+      "path": "pictures/backtrack/ink-image (3).png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd12af2bc368700d46d1d63a8af62af63f1584e5",
+      "size": 83673,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/dd12af2bc368700d46d1d63a8af62af63f1584e5"
+    },
+    {
+      "path": "pictures/backtrack/ink-image (4).png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c0c54d30790954a49364543d20aa131a2991ef9",
+      "size": 101358,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/6c0c54d30790954a49364543d20aa131a2991ef9"
+    },
+    {
+      "path": "pictures/backtrack/ink-image (5).png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb73a4dd5a94a62dcd8754abebfff7c52c146ab8",
+      "size": 145410,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/eb73a4dd5a94a62dcd8754abebfff7c52c146ab8"
+    },
+    {
+      "path": "pictures/backtrack/ink-image (6).png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75c0f4a0f6409dd19b178546ba2af14e1157514e",
+      "size": 126743,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/75c0f4a0f6409dd19b178546ba2af14e1157514e"
+    },
+    {
+      "path": "pictures/backtrack/ink-image.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5440b0667ce59b3e0eb88887d2bc27d934fa349d",
+      "size": 85670,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/5440b0667ce59b3e0eb88887d2bc27d934fa349d"
+    },
+    {
+      "path": "pictures/backtrack/nqueens.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "464ff529abe6b69dc09794df9200f0698cd7cfc5",
+      "size": 39620,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/464ff529abe6b69dc09794df9200f0698cd7cfc5"
+    },
+    {
+      "path": "pictures/backtrack/permutation.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9f4c6d3256f92577ddae0a2e61c4f14636a135e",
+      "size": 8280,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/d9f4c6d3256f92577ddae0a2e61c4f14636a135e"
+    },
+    {
+      "path": "pictures/backtrack/代码.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25d7c88cdd8d45bd57c3eda7ec6b94eb1d2a97b4",
+      "size": 39070,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/25d7c88cdd8d45bd57c3eda7ec6b94eb1d2a97b4"
+    },
+    {
+      "path": "pictures/backtrack/代码1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f156208f94d1b7e82bd5d6e4de8f9f692c0d176a",
+      "size": 30507,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/f156208f94d1b7e82bd5d6e4de8f9f692c0d176a"
+    },
+    {
+      "path": "pictures/backtrack/代码2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1671f1bfd799c3da7d21eb412bef2ac26a66e42",
+      "size": 44649,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/c1671f1bfd799c3da7d21eb412bef2ac26a66e42"
+    },
+    {
+      "path": "pictures/backtrack/代码3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0dc5eaf30bde3ee6722bef0c8b0b2bfeb5e539b1",
+      "size": 21382,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/0dc5eaf30bde3ee6722bef0c8b0b2bfeb5e539b1"
+    },
+    {
+      "path": "pictures/backtrack/全排列.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7cc064f0a1ece93f3d709283a0a2ebfd741e28a",
+      "size": 10278,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/e7cc064f0a1ece93f3d709283a0a2ebfd741e28a"
+    },
+    {
+      "path": "pictures/backtracking",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ff0625ad4e1b4493c1623b42a8fe6d9d035c5e3c",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/ff0625ad4e1b4493c1623b42a8fe6d9d035c5e3c"
+    },
+    {
+      "path": "pictures/backtracking/1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b847370747577e500942731dfbc3822c9e445e7b",
+      "size": 124407,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/b847370747577e500942731dfbc3822c9e445e7b"
+    },
+    {
+      "path": "pictures/backtracking/2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bca8736780b65bbdff30a69fb8e23c7964a1485",
+      "size": 124941,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/2bca8736780b65bbdff30a69fb8e23c7964a1485"
+    },
+    {
+      "path": "pictures/backtracking/3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b016864ae8dd85f027f4bc983eb8871baa4e68a7",
+      "size": 139488,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/b016864ae8dd85f027f4bc983eb8871baa4e68a7"
+    },
+    {
+      "path": "pictures/backtracking/4.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3690d9637ccf0f072e996376d50f5198a22fb36a",
+      "size": 121596,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/3690d9637ccf0f072e996376d50f5198a22fb36a"
+    },
+    {
+      "path": "pictures/backtracking/5.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "727ed1ecd086bf28e5c0a22ddd20246839cd34ba",
+      "size": 130689,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/727ed1ecd086bf28e5c0a22ddd20246839cd34ba"
+    },
+    {
+      "path": "pictures/backtracking/6.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "368dee24bab62b1c27fd4a8387cea9619605195f",
+      "size": 129956,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/368dee24bab62b1c27fd4a8387cea9619605195f"
+    },
+    {
+      "path": "pictures/backtracking/7.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a146fd6b92466062b1081fa9d71a1030b49334f5",
+      "size": 124354,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/a146fd6b92466062b1081fa9d71a1030b49334f5"
+    },
+    {
+      "path": "pictures/calculator",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b79f2ce6ae0e39c28ed565172f01b4d90deb083b",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/b79f2ce6ae0e39c28ed565172f01b4d90deb083b"
+    },
+    {
+      "path": "pictures/calculator/1.1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ead09ba04b7aa30d02095cecefb383decb752b3",
+      "size": 115890,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/2ead09ba04b7aa30d02095cecefb383decb752b3"
+    },
+    {
+      "path": "pictures/calculator/1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c66e7ab3790eee022190e8e11eecf6eb3045c3de",
+      "size": 119334,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/c66e7ab3790eee022190e8e11eecf6eb3045c3de"
+    },
+    {
+      "path": "pictures/calculator/2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3123387daf068af210f0421eb885f64780b1154",
+      "size": 119036,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/f3123387daf068af210f0421eb885f64780b1154"
+    },
+    {
+      "path": "pictures/calculator/3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f3b9a424724eb3c768949ddff3144d33bfb5b17",
+      "size": 112881,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/2f3b9a424724eb3c768949ddff3144d33bfb5b17"
+    },
+    {
+      "path": "pictures/calculator/4.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f878ed3b7e388d62c15045fd7fa4baf71625fa2",
+      "size": 113026,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/4f878ed3b7e388d62c15045fd7fa4baf71625fa2"
+    },
+    {
+      "path": "pictures/calculator/5.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "528309bb670ec9a2ac3d9f86bb6fa8c5e3bf144a",
+      "size": 118886,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/528309bb670ec9a2ac3d9f86bb6fa8c5e3bf144a"
+    },
+    {
+      "path": "pictures/calculator/6.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0563fd2e59994720b274b8d361dd6f3f55b0890",
+      "size": 116843,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/f0563fd2e59994720b274b8d361dd6f3f55b0890"
+    },
+    {
+      "path": "pictures/cover.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "646769e6cc47b80e9c258e0a96c5afe777a39edd",
+      "size": 336156,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/646769e6cc47b80e9c258e0a96c5afe777a39edd"
+    },
+    {
+      "path": "pictures/dupmissing",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4058158664461e0778d8d288456b135e1e1368bb",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/4058158664461e0778d8d288456b135e1e1368bb"
+    },
+    {
+      "path": "pictures/dupmissing/1.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da5c8f9a6116c36ba31dc0f5ae9a7e3cfa8c0872",
+      "size": 453112,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/da5c8f9a6116c36ba31dc0f5ae9a7e3cfa8c0872"
+    },
+    {
+      "path": "pictures/dupmissing/2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91fa41a3c294aaac73b1eb066c94a7b6b273912e",
+      "size": 117370,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/91fa41a3c294aaac73b1eb066c94a7b6b273912e"
+    },
+    {
+      "path": "pictures/dupmissing/3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "babdd3f3c354d7ef1534da35caa53d05727da39e",
+      "size": 109073,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/babdd3f3c354d7ef1534da35caa53d05727da39e"
+    },
+    {
+      "path": "pictures/editDistance",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "380796d84c5d36c0928cbd51a652628229bceda2",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/380796d84c5d36c0928cbd51a652628229bceda2"
+    },
+    {
+      "path": "pictures/editDistance/1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f2f0b50ad4671a02ce0b1ce41e7a9dbb2d2df75",
+      "size": 93615,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/3f2f0b50ad4671a02ce0b1ce41e7a9dbb2d2df75"
+    },
+    {
+      "path": "pictures/editDistance/2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1339bd16b87ab98c6323e31bf9807a21eccb3ea9",
+      "size": 116570,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/1339bd16b87ab98c6323e31bf9807a21eccb3ea9"
+    },
+    {
+      "path": "pictures/editDistance/3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "387c16886ae86afc732ddbb75facfcb43247bc80",
+      "size": 117795,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/387c16886ae86afc732ddbb75facfcb43247bc80"
+    },
+    {
+      "path": "pictures/editDistance/4.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a80c026ae2977a9b82a68baf41d563d3b517ea61",
+      "size": 112225,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/a80c026ae2977a9b82a68baf41d563d3b517ea61"
+    },
+    {
+      "path": "pictures/editDistance/5.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91063807511c7acdff5fb1068e2633e722caa335",
+      "size": 100711,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/91063807511c7acdff5fb1068e2633e722caa335"
+    },
+    {
+      "path": "pictures/editDistance/6.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5880bae6b4c7927f2732e0ceab2250bb49e4c470",
+      "size": 108302,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/5880bae6b4c7927f2732e0ceab2250bb49e4c470"
+    },
+    {
+      "path": "pictures/editDistance/delete.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36559b37dd118d77713ebc57ecfdcf11a2de599a",
+      "size": 931935,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/36559b37dd118d77713ebc57ecfdcf11a2de599a"
+    },
+    {
+      "path": "pictures/editDistance/dp.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4519d891e61e27733dfdddee345772e522dc2aaa",
+      "size": 259808,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/4519d891e61e27733dfdddee345772e522dc2aaa"
+    },
+    {
+      "path": "pictures/editDistance/edit.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1912ddf88b038ff8d0097dbb3f584989f4f2019d",
+      "size": 585834,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/1912ddf88b038ff8d0097dbb3f584989f4f2019d"
+    },
+    {
+      "path": "pictures/editDistance/insert.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8982acb93223abd6679adc3afbde71b0dd745614",
+      "size": 933767,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/8982acb93223abd6679adc3afbde71b0dd745614"
+    },
+    {
+      "path": "pictures/editDistance/replace.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2153166d681c0557bb40d2276f9b5707ba9b252",
+      "size": 936274,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/b2153166d681c0557bb40d2276f9b5707ba9b252"
+    },
+    {
+      "path": "pictures/editDistance/title.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15dc9231078a15818efd838d326c9536e1f59e43",
+      "size": 24978,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/15dc9231078a15818efd838d326c9536e1f59e43"
+    },
+    {
+      "path": "pictures/floodfill",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e2d7a0a4c16bda9fc182d227447cad2d57773bcb",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/e2d7a0a4c16bda9fc182d227447cad2d57773bcb"
+    },
+    {
+      "path": "pictures/floodfill/floodfill.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d6f7d993e4845dc742221863bb5fd8b0f0252a6",
+      "size": 9742,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/1d6f7d993e4845dc742221863bb5fd8b0f0252a6"
+    },
+    {
+      "path": "pictures/floodfill/floodfill.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c79709bcebadd921336efd28c0dac2199d6f004",
+      "size": 4414,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/3c79709bcebadd921336efd28c0dac2199d6f004"
+    },
+    {
+      "path": "pictures/floodfill/leetcode.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ffdc937a77f1761bc1e830f5b368ab45d75287e",
+      "size": 30636,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/1ffdc937a77f1761bc1e830f5b368ab45d75287e"
+    },
+    {
+      "path": "pictures/floodfill/ppt1.PNG",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1667b0f18f3c3ffed3d643bb7b6c1e503b27123c",
+      "size": 10644,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/1667b0f18f3c3ffed3d643bb7b6c1e503b27123c"
+    },
+    {
+      "path": "pictures/floodfill/ppt2.PNG",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58dd272514ebe9ba9b66add818d594871fcf2ba0",
+      "size": 8873,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/58dd272514ebe9ba9b66add818d594871fcf2ba0"
+    },
+    {
+      "path": "pictures/floodfill/ppt3.PNG",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f2a1a80f26d98a15f2c99f9d3ce18c2d80627af",
+      "size": 11017,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/0f2a1a80f26d98a15f2c99f9d3ce18c2d80627af"
+    },
+    {
+      "path": "pictures/floodfill/ppt4.PNG",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f90e4b9e6d0cd0b502d97063dd28a54269f8148f",
+      "size": 6906,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/f90e4b9e6d0cd0b502d97063dd28a54269f8148f"
+    },
+    {
+      "path": "pictures/floodfill/ppt5.PNG",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6e5cc0b256ae04a7dec32d83e65d78687a424ee",
+      "size": 5099,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/f6e5cc0b256ae04a7dec32d83e65d78687a424ee"
+    },
+    {
+      "path": "pictures/floodfill/xiaoxiaole.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcf657ac8d31b5b095b7de3635d7532f71db95ad",
+      "size": 46270,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/fcf657ac8d31b5b095b7de3635d7532f71db95ad"
+    },
+    {
+      "path": "pictures/floodfill/扫雷.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d25e1deac14b9d072a7bfb20feeffa2c675a546f",
+      "size": 7332,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/d25e1deac14b9d072a7bfb20feeffa2c675a546f"
+    },
+    {
+      "path": "pictures/floodfill/抠图.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66097dd104ad6a8cebd753080e19568f553d5f2e",
+      "size": 30210,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/66097dd104ad6a8cebd753080e19568f553d5f2e"
+    },
+    {
+      "path": "pictures/floodfill/抠图.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee5f16b6d6bb5653dc844bf083e42ac59c933756",
+      "size": 8764,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/ee5f16b6d6bb5653dc844bf083e42ac59c933756"
+    },
+    {
+      "path": "pictures/group.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d942cfcc43ad0bdf1e44d83276120a811795fd2",
+      "size": 61527,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/6d942cfcc43ad0bdf1e44d83276120a811795fd2"
+    },
+    {
+      "path": "pictures/header.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06a2048f45354c705c513d2c97c2d0affbb43dde",
+      "size": 280829,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/06a2048f45354c705c513d2c97c2d0affbb43dde"
+    },
+    {
+      "path": "pictures/heap",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "de1fd3c4a7019b134be5ad59fc34c5a4d46cca2a",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/de1fd3c4a7019b134be5ad59fc34c5a4d46cca2a"
+    },
+    {
+      "path": "pictures/heap/1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d99c0d9b168788acd7fcfd62262bc00b07b954b",
+      "size": 61893,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/8d99c0d9b168788acd7fcfd62262bc00b07b954b"
+    },
+    {
+      "path": "pictures/heap/delete.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5d61d6bb36ec2fc62aa95cec4cf1b2ab10df8fa",
+      "size": 663841,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/d5d61d6bb36ec2fc62aa95cec4cf1b2ab10df8fa"
+    },
+    {
+      "path": "pictures/heap/insert.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85674778191721a2b27d22f4d5d1bac7acbfac3f",
+      "size": 637019,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/85674778191721a2b27d22f4d5d1bac7acbfac3f"
+    },
+    {
+      "path": "pictures/heap/sink.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecc2fe30807a8e6102f0f71b96e5f0516baac61e",
+      "size": 696068,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/ecc2fe30807a8e6102f0f71b96e5f0516baac61e"
+    },
+    {
+      "path": "pictures/heap/swim.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9bcca50e7686d7a3582ea166f6d4fd96fd8fc41",
+      "size": 532085,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/c9bcca50e7686d7a3582ea166f6d4fd96fd8fc41"
+    },
+    {
+      "path": "pictures/intersection",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fa2defbf3f28f5f83363090813a023e7c1f5f5cd",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/fa2defbf3f28f5f83363090813a023e7c1f5f5cd"
+    },
+    {
+      "path": "pictures/intersection/1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97f313fe089be78f1e06bacc4473241c1357f664",
+      "size": 110915,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/97f313fe089be78f1e06bacc4473241c1357f664"
+    },
+    {
+      "path": "pictures/intersection/2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "555688e4e77dbe4fb510282b801208805193b962",
+      "size": 103306,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/555688e4e77dbe4fb510282b801208805193b962"
+    },
+    {
+      "path": "pictures/intersection/3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ba0b61d8aee225622cd15eac9b8c3d9b47009d8",
+      "size": 105895,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/9ba0b61d8aee225622cd15eac9b8c3d9b47009d8"
+    },
+    {
+      "path": "pictures/intersection/4.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8608d18686a47569e2c33a260defa7a0202f0ed",
+      "size": 498873,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/d8608d18686a47569e2c33a260defa7a0202f0ed"
+    },
+    {
+      "path": "pictures/intersection/title.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d06d89249beeaa704071375dca4fea59155f7e08",
+      "size": 31257,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/d06d89249beeaa704071375dca4fea59155f7e08"
+    },
+    {
+      "path": "pictures/interval",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dd5d2fcbdced97548ce21f072aa04ce6c3942f34",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/dd5d2fcbdced97548ce21f072aa04ce6c3942f34"
+    },
+    {
+      "path": "pictures/interval/1.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf81a44c86591ed31b8105c92898bb7f016a9b02",
+      "size": 506149,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/bf81a44c86591ed31b8105c92898bb7f016a9b02"
+    },
+    {
+      "path": "pictures/interval/2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06e34bd6a24f7e3a53e269204e227751e1dccc62",
+      "size": 116870,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/06e34bd6a24f7e3a53e269204e227751e1dccc62"
+    },
+    {
+      "path": "pictures/interval/3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68741642eadb84a69a00056b23b9bddb4633e3ac",
+      "size": 119351,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/68741642eadb84a69a00056b23b9bddb4633e3ac"
+    },
+    {
+      "path": "pictures/interval/4.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9fb1f4a19b18d16e1866decaa268363f13cc61f",
+      "size": 103189,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/d9fb1f4a19b18d16e1866decaa268363f13cc61f"
+    },
+    {
+      "path": "pictures/interval/title1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e90959bad53e55517a0e86b5378ff53da86de7ff",
+      "size": 14818,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/e90959bad53e55517a0e86b5378ff53da86de7ff"
+    },
+    {
+      "path": "pictures/interval/title2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "626d0c5c9bfece0a856eec1a86a0b042eafc7c39",
+      "size": 36827,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/626d0c5c9bfece0a856eec1a86a0b042eafc7c39"
+    },
+    {
+      "path": "pictures/kgroup",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5371f48d43a0bf60641cbf29e9406f573a34c547",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/5371f48d43a0bf60641cbf29e9406f573a34c547"
+    },
+    {
+      "path": "pictures/kgroup/1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab874fcab44f540c6624fb5e5d6d738bf903e2c2",
+      "size": 104639,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/ab874fcab44f540c6624fb5e5d6d738bf903e2c2"
+    },
+    {
+      "path": "pictures/kgroup/2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca29ffd706303b05f8d27bbfea3d10d1fe850af6",
+      "size": 108036,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/ca29ffd706303b05f8d27bbfea3d10d1fe850af6"
+    },
+    {
+      "path": "pictures/kgroup/3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2255241ec0611dfdf1f0443cf998b5873fc385f",
+      "size": 113215,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/e2255241ec0611dfdf1f0443cf998b5873fc385f"
+    },
+    {
+      "path": "pictures/kgroup/4.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6126add25143dcc1cf4195a05a6470bec60da7ac",
+      "size": 109182,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/6126add25143dcc1cf4195a05a6470bec60da7ac"
+    },
+    {
+      "path": "pictures/kgroup/5.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b626b30e4ff8e3373af75ae82d838b3c8a404d7",
+      "size": 110853,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/2b626b30e4ff8e3373af75ae82d838b3c8a404d7"
+    },
+    {
+      "path": "pictures/kgroup/6.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f11088f7cb96bedb6ef721b05124ad2c131f00a6",
+      "size": 114692,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/f11088f7cb96bedb6ef721b05124ad2c131f00a6"
+    },
+    {
+      "path": "pictures/kgroup/7.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b4bf79934601318f5733306daf402a16de3ccec",
+      "size": 102910,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/8b4bf79934601318f5733306daf402a16de3ccec"
+    },
+    {
+      "path": "pictures/kgroup/8.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19872a9373104e6de4ff98d7c6fb3e9c64b0e885",
+      "size": 500790,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/19872a9373104e6de4ff98d7c6fb3e9c64b0e885"
+    },
+    {
+      "path": "pictures/kgroup/title.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a2028185ee8735399aadc7386ad99f9b355880e",
+      "size": 15763,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/1a2028185ee8735399aadc7386ad99f9b355880e"
+    },
+    {
+      "path": "pictures/kmp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ec1eeeda05c430c446bd28e0a7001f9a0bd646a7",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/ec1eeeda05c430c446bd28e0a7001f9a0bd646a7"
+    },
+    {
+      "path": "pictures/kmp/1.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95732bf8ee3e9ee5d1c0bcd110d717032239c80a",
+      "size": 505994,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/95732bf8ee3e9ee5d1c0bcd110d717032239c80a"
+    },
+    {
+      "path": "pictures/kmp/2.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed1059d95803be12b8ec405b73f9d4d73e9b8b03",
+      "size": 488614,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/ed1059d95803be12b8ec405b73f9d4d73e9b8b03"
+    },
+    {
+      "path": "pictures/kmp/3.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e91497f4ca707a26c9fa81fe91486ef389c5f12b",
+      "size": 493982,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/e91497f4ca707a26c9fa81fe91486ef389c5f12b"
+    },
+    {
+      "path": "pictures/kmp/A.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd0800e17b6fa6f564dd228ca1b64f73a88f5151",
+      "size": 464803,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/dd0800e17b6fa6f564dd228ca1b64f73a88f5151"
+    },
+    {
+      "path": "pictures/kmp/allstate.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8e40777d114c04c010d7027835a1e4ff6bfec46",
+      "size": 120852,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/f8e40777d114c04c010d7027835a1e4ff6bfec46"
+    },
+    {
+      "path": "pictures/kmp/back.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "368d0910986f6d8751ed053bf8555f97b4edee60",
+      "size": 129769,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/368d0910986f6d8751ed053bf8555f97b4edee60"
+    },
+    {
+      "path": "pictures/kmp/dfa.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f5dc5422498303fa50e469e202ef772fff90a6a",
+      "size": 656829,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/0f5dc5422498303fa50e469e202ef772fff90a6a"
+    },
+    {
+      "path": "pictures/kmp/exp1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e413d043868f0f3f5bf68681a4592513f199a46",
+      "size": 131777,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/9e413d043868f0f3f5bf68681a4592513f199a46"
+    },
+    {
+      "path": "pictures/kmp/exp2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "244fc4ee4b2c55824c24f32452bc18d3c87935a7",
+      "size": 117795,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/244fc4ee4b2c55824c24f32452bc18d3c87935a7"
+    },
+    {
+      "path": "pictures/kmp/exp3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11eae5a6d26bff55179ae973e8982f8f5613553e",
+      "size": 123651,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/11eae5a6d26bff55179ae973e8982f8f5613553e"
+    },
+    {
+      "path": "pictures/kmp/exp4.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e969c48d8a4aa3c7a4a3d81913b49956a3385c08",
+      "size": 120016,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/e969c48d8a4aa3c7a4a3d81913b49956a3385c08"
+    },
+    {
+      "path": "pictures/kmp/exp5.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a16a868ab7fe9c6119c16b4a6bc3ab5362e2d68",
+      "size": 124025,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/2a16a868ab7fe9c6119c16b4a6bc3ab5362e2d68"
+    },
+    {
+      "path": "pictures/kmp/exp6.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87c723f3b8f8b6dae0a32279fedfff2a757221d5",
+      "size": 117097,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/87c723f3b8f8b6dae0a32279fedfff2a757221d5"
+    },
+    {
+      "path": "pictures/kmp/exp7.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95634204bdc02651023bdc6af07cf8a363d39e1d",
+      "size": 124443,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/95634204bdc02651023bdc6af07cf8a363d39e1d"
+    },
+    {
+      "path": "pictures/kmp/forward.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f887c8933d1389a18ad8c96bd42aea5a526b7a6",
+      "size": 124588,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/2f887c8933d1389a18ad8c96bd42aea5a526b7a6"
+    },
+    {
+      "path": "pictures/kmp/kmp.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18cd52dbd8de30abd380a182212ff04fb3925901",
+      "size": 552260,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/18cd52dbd8de30abd380a182212ff04fb3925901"
+    },
+    {
+      "path": "pictures/kmp/shadow.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b2f536aab8f887d014a1472eb495e958201ac9f",
+      "size": 110321,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/9b2f536aab8f887d014a1472eb495e958201ac9f"
+    },
+    {
+      "path": "pictures/kmp/shadow1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07389fc8976b1c7667b8b708b40279d361e5fbe1",
+      "size": 112784,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/07389fc8976b1c7667b8b708b40279d361e5fbe1"
+    },
+    {
+      "path": "pictures/kmp/shadow2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f68660afe0efbd29262f69fb81d65eebff39cf37",
+      "size": 113078,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/f68660afe0efbd29262f69fb81d65eebff39cf37"
+    },
+    {
+      "path": "pictures/kmp/state.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fd084cca8b63a90bce378fe563f2f9075a8c092",
+      "size": 115549,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/3fd084cca8b63a90bce378fe563f2f9075a8c092"
+    },
+    {
+      "path": "pictures/kmp/state2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f20fde5d12fb2f0ed84daf99db5a1c31c4916f1e",
+      "size": 117203,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/f20fde5d12fb2f0ed84daf99db5a1c31c4916f1e"
+    },
+    {
+      "path": "pictures/kmp/state4.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8873fd38bed9276ffdd2750844744699992537c9",
+      "size": 112159,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/8873fd38bed9276ffdd2750844744699992537c9"
+    },
+    {
+      "path": "pictures/kmp/txt1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b101916196de472c44dc0991f8f57b6e7c4b90d",
+      "size": 108776,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/3b101916196de472c44dc0991f8f57b6e7c4b90d"
+    },
+    {
+      "path": "pictures/kmp/txt2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6c5041e665652de828ffe848c88d0bbd9821ec7",
+      "size": 105680,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/c6c5041e665652de828ffe848c88d0bbd9821ec7"
+    },
+    {
+      "path": "pictures/kmp/txt3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29830ba73e2d9d8fb11bde27d8423614d1512e05",
+      "size": 108695,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/29830ba73e2d9d8fb11bde27d8423614d1512e05"
+    },
+    {
+      "path": "pictures/kmp/txt4.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55e53e7719c47021a1243a5c9dc9d9d1666cec68",
+      "size": 108885,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/55e53e7719c47021a1243a5c9dc9d9d1666cec68"
+    },
+    {
+      "path": "pictures/kmp/z.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56b945efcf71cd16af877b200ce7ab9c76b10fd4",
+      "size": 120378,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/56b945efcf71cd16af877b200ce7ab9c76b10fd4"
+    },
+    {
+      "path": "pictures/labuladong.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a63a5bd890cd57414222d2a72d60803df3ef3f46",
+      "size": 360521,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/a63a5bd890cd57414222d2a72d60803df3ef3f46"
+    },
+    {
+      "path": "pictures/linux-fs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f6083c37461f7f028a5ea602cda1e17fa0383c82",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/f6083c37461f7f028a5ea602cda1e17fa0383c82"
+    },
+    {
+      "path": "pictures/linux-fs/application.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b39088f36e436b5c54895130578b3f065703266",
+      "size": 50155,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/9b39088f36e436b5c54895130578b3f065703266"
+    },
+    {
+      "path": "pictures/linux-fs/apt.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5038c8c26798a07444023309ffc4b0ea4f074de3",
+      "size": 17739,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/5038c8c26798a07444023309ffc4b0ea4f074de3"
+    },
+    {
+      "path": "pictures/linux-fs/bin.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "353baa7bf8ef9a975372df107af9ed03871a053d",
+      "size": 24534,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/353baa7bf8ef9a975372df107af9ed03871a053d"
+    },
+    {
+      "path": "pictures/linux-fs/boot.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5848e8cd5371ed6d795dea2c377afdda9b6b331",
+      "size": 31354,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/d5848e8cd5371ed6d795dea2c377afdda9b6b331"
+    },
+    {
+      "path": "pictures/linux-fs/cpu.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12d949e9d92a35ed71dc1f1a6e5c59911194a665",
+      "size": 14425,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/12d949e9d92a35ed71dc1f1a6e5c59911194a665"
+    },
+    {
+      "path": "pictures/linux-fs/desktop.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a46ecef2171d36dbc689eb709b1f8c688b048b0",
+      "size": 588642,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/7a46ecef2171d36dbc689eb709b1f8c688b048b0"
+    },
+    {
+      "path": "pictures/linux-fs/dev.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9275dc85e8f5f840b9fc40e2c56173e4cccde53",
+      "size": 26644,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/c9275dc85e8f5f840b9fc40e2c56173e4cccde53"
+    },
+    {
+      "path": "pictures/linux-fs/etc.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5de3a4cf7800caaaa7b15fc12777e750ed4d6564",
+      "size": 24939,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/5de3a4cf7800caaaa7b15fc12777e750ed4d6564"
+    },
+    {
+      "path": "pictures/linux-fs/home.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dad402e25a55ee5ac70a80b6f1d3096f6efadfd2",
+      "size": 26895,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/dad402e25a55ee5ac70a80b6f1d3096f6efadfd2"
+    },
+    {
+      "path": "pictures/linux-fs/linux-filesystem.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "225efb8ab30b9ec32a5edea7aee47be90bf81da9",
+      "size": 14200,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/225efb8ab30b9ec32a5edea7aee47be90bf81da9"
+    },
+    {
+      "path": "pictures/linux-fs/log.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee40ca0a6ea320ecf05fff36e586a0f90fd9743c",
+      "size": 34149,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/ee40ca0a6ea320ecf05fff36e586a0f90fd9743c"
+    },
+    {
+      "path": "pictures/linux-fs/opt.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b46535ec66c7160c2d354f40eea8eb9601e81d5b",
+      "size": 17700,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/b46535ec66c7160c2d354f40eea8eb9601e81d5b"
+    },
+    {
+      "path": "pictures/linux-fs/proc.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e2820a1b579ece98bfbe489824ce10ac9e2efda",
+      "size": 21270,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/0e2820a1b579ece98bfbe489824ce10ac9e2efda"
+    },
+    {
+      "path": "pictures/linux-fs/root.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ba9697367ad99c13be44421a9ca8198d398fa17",
+      "size": 13126,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/3ba9697367ad99c13be44421a9ca8198d398fa17"
+    },
+    {
+      "path": "pictures/linux-fs/sbin.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "907c3a0f3e7e8caacdfa515159bc1a8d5df3046d",
+      "size": 25993,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/907c3a0f3e7e8caacdfa515159bc1a8d5df3046d"
+    },
+    {
+      "path": "pictures/linux-fs/tmp.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54ea9dd615e30d4cf57a3430543e6e00f1fc8e5b",
+      "size": 32125,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/54ea9dd615e30d4cf57a3430543e6e00f1fc8e5b"
+    },
+    {
+      "path": "pictures/linux-fs/usr.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0619c4493720a22783f9d571693b4a0654632d56",
+      "size": 17466,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/0619c4493720a22783f9d571693b4a0654632d56"
+    },
+    {
+      "path": "pictures/linux-fs/usrbin.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1c5e82f6cb9397f44caeb4e7f6476b4d73eb0ae",
+      "size": 29793,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/e1c5e82f6cb9397f44caeb4e7f6476b4d73eb0ae"
+    },
+    {
+      "path": "pictures/linuxProcess",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c06a36c2d010e161b98eff9ae352265c68f306ce",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/c06a36c2d010e161b98eff9ae352265c68f306ce"
+    },
+    {
+      "path": "pictures/linuxProcess/1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a42365fe734fc916feb51551778df5dc5e1c3fa4",
+      "size": 78159,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/a42365fe734fc916feb51551778df5dc5e1c3fa4"
+    },
+    {
+      "path": "pictures/linuxProcess/2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9aa08f14010a07dc292747cac8ef5f2a80b12080",
+      "size": 97600,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/9aa08f14010a07dc292747cac8ef5f2a80b12080"
+    },
+    {
+      "path": "pictures/linuxProcess/3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3800a8f218c10ac22adeca545db8011086897ee",
+      "size": 102416,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/a3800a8f218c10ac22adeca545db8011086897ee"
+    },
+    {
+      "path": "pictures/linuxProcess/4.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c74fdd37221204d44cce67e658e2c849a733258c",
+      "size": 99856,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/c74fdd37221204d44cce67e658e2c849a733258c"
+    },
+    {
+      "path": "pictures/linuxProcess/5.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7b1f74c1d8329c4d9987e0fc2fe16076b616e05",
+      "size": 98272,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/e7b1f74c1d8329c4d9987e0fc2fe16076b616e05"
+    },
+    {
+      "path": "pictures/linuxProcess/6.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e36322eba25122d203ea7c6037142a484c6bbdc",
+      "size": 103282,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/9e36322eba25122d203ea7c6037142a484c6bbdc"
+    },
+    {
+      "path": "pictures/linuxProcess/7.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80e86879cbcf0bdcc822970bfb18556e8d795781",
+      "size": 119326,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/80e86879cbcf0bdcc822970bfb18556e8d795781"
+    },
+    {
+      "path": "pictures/linuxProcess/8.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b4cb9710184dcb56d10f8b9340439238b481015",
+      "size": 109456,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/2b4cb9710184dcb56d10f8b9340439238b481015"
+    },
+    {
+      "path": "pictures/linuxshell",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ad55e32badc74dfc6c5845b51f7bed31616755bb",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/ad55e32badc74dfc6c5845b51f7bed31616755bb"
+    },
+    {
+      "path": "pictures/linuxshell/1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "292baa29d0b62e7f53f52bc151457deff4d973bb",
+      "size": 12929,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/292baa29d0b62e7f53f52bc151457deff4d973bb"
+    },
+    {
+      "path": "pictures/mergeInterval",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9bd1ce04744145b429b1d119f4ffb13910402430",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/9bd1ce04744145b429b1d119f4ffb13910402430"
+    },
+    {
+      "path": "pictures/mergeInterval/1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d8a8dbc2ee5ee98f916034397d4774c935dc2ff",
+      "size": 114499,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/5d8a8dbc2ee5ee98f916034397d4774c935dc2ff"
+    },
+    {
+      "path": "pictures/mergeInterval/2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28aabd731ac91aca5f3268e05413f587208c2866",
+      "size": 119777,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/28aabd731ac91aca5f3268e05413f587208c2866"
+    },
+    {
+      "path": "pictures/mergeInterval/3.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecc3aa6b9c37b8e7cf3f98e0e90128f9642a4c8f",
+      "size": 510096,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/ecc3aa6b9c37b8e7cf3f98e0e90128f9642a4c8f"
+    },
+    {
+      "path": "pictures/mergeInterval/title.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26e42c14e83de016f9fccc86b4cdbb73fd27522d",
+      "size": 13348,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/26e42c14e83de016f9fccc86b4cdbb73fd27522d"
+    },
+    {
+      "path": "pictures/online",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b43e60511cda38239bb18be72c7025f3c8a54d3d",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/b43e60511cda38239bb18be72c7025f3c8a54d3d"
+    },
+    {
+      "path": "pictures/online/1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68db13bada0fe6c133e55d5d16ab3258e9916004",
+      "size": 89660,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/68db13bada0fe6c133e55d5d16ab3258e9916004"
+    },
+    {
+      "path": "pictures/online/10.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec2095fd159d1986e9f5cacdf2eff67bb80ce792",
+      "size": 115123,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/ec2095fd159d1986e9f5cacdf2eff67bb80ce792"
+    },
+    {
+      "path": "pictures/online/11.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87d3368cb55c72432b95751008caf19a5c1e7e81",
+      "size": 75698,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/87d3368cb55c72432b95751008caf19a5c1e7e81"
+    },
+    {
+      "path": "pictures/online/2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de635fa8ddc8c710becd93d96b610474e4289ded",
+      "size": 40841,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/de635fa8ddc8c710becd93d96b610474e4289ded"
+    },
+    {
+      "path": "pictures/online/3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8868697a9d27d30f69ba78f5fa958cee0ae0bc8",
+      "size": 53671,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/c8868697a9d27d30f69ba78f5fa958cee0ae0bc8"
+    },
+    {
+      "path": "pictures/online/4.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7534e3e76f93276a69b6e1d96f0111533cee3fcd",
+      "size": 49513,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/7534e3e76f93276a69b6e1d96f0111533cee3fcd"
+    },
+    {
+      "path": "pictures/online/5.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d9ae0a2d8ea19b595677c882c444774437afe98",
+      "size": 39553,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/9d9ae0a2d8ea19b595677c882c444774437afe98"
+    },
+    {
+      "path": "pictures/online/6.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06c079fdcaf23830aff2a397eaec5485b29f7aba",
+      "size": 47441,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/06c079fdcaf23830aff2a397eaec5485b29f7aba"
+    },
+    {
+      "path": "pictures/online/7.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9098f63ad40ecec46d10dffaca830cec8e406ad4",
+      "size": 95903,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/9098f63ad40ecec46d10dffaca830cec8e406ad4"
+    },
+    {
+      "path": "pictures/online/8.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b462ad6d7c382bd5ab9e6b326899129956aea7da",
+      "size": 58490,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/b462ad6d7c382bd5ab9e6b326899129956aea7da"
+    },
+    {
+      "path": "pictures/online/9.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f879e255166937525206b555c14cc7f54cfac252",
+      "size": 127803,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/f879e255166937525206b555c14cc7f54cfac252"
+    },
+    {
+      "path": "pictures/others",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cc10d0ad11f2920a9cc5cc210b51046925ca5931",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/cc10d0ad11f2920a9cc5cc210b51046925ca5931"
+    },
+    {
+      "path": "pictures/others/leetcode.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fd2c684db3c4295ba50a06b6b4910cc6b4287e0",
+      "size": 158723,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/2fd2c684db3c4295ba50a06b6b4910cc6b4287e0"
+    },
+    {
+      "path": "pictures/pancakeSort",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "724bba93cb7b68b3e23cfca4dcb54cbb362851a0",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/724bba93cb7b68b3e23cfca4dcb54cbb362851a0"
+    },
+    {
+      "path": "pictures/pancakeSort/1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "903dec371be464c01fcbf870421aa56f3f2f4962",
+      "size": 105109,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/903dec371be464c01fcbf870421aa56f3f2f4962"
+    },
+    {
+      "path": "pictures/pancakeSort/2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57e16de2ddaa7496d1ab7086e24b6a128c8b6935",
+      "size": 2041,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/57e16de2ddaa7496d1ab7086e24b6a128c8b6935"
+    },
+    {
+      "path": "pictures/pancakeSort/3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b36f6fcc802bc3255b9c8e658459669b55a3192c",
+      "size": 96857,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/b36f6fcc802bc3255b9c8e658459669b55a3192c"
+    },
+    {
+      "path": "pictures/pancakeSort/4.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9245e5937c52b8d2ca651fa5b35b74534a956a2",
+      "size": 109808,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/f9245e5937c52b8d2ca651fa5b35b74534a956a2"
+    },
+    {
+      "path": "pictures/pancakeSort/title.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76a52a0f3876134ab1a7d53eeadc4cc8cd714085",
+      "size": 42517,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/76a52a0f3876134ab1a7d53eeadc4cc8cd714085"
+    },
+    {
+      "path": "pictures/pay.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39e9d402a477437181cf34cb4136dd614368ed60",
+      "size": 56055,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/39e9d402a477437181cf34cb4136dd614368ed60"
+    },
+    {
+      "path": "pictures/plugin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9ad53bbb784b93442315f14b35af704d09875edf",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/9ad53bbb784b93442315f14b35af704d09875edf"
+    },
+    {
+      "path": "pictures/plugin/chrome.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3ad03cff9c7b6146bdb3aa9db75c1f24031ecdd",
+      "size": 2957990,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/d3ad03cff9c7b6146bdb3aa9db75c1f24031ecdd"
+    },
+    {
+      "path": "pictures/plugin/chrome.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f5fc680a453f3f5cece3bf37c4efb08dc18243d",
+      "size": 143292,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/4f5fc680a453f3f5cece3bf37c4efb08dc18243d"
+    },
+    {
+      "path": "pictures/plugin/jetbrain.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2deb6d05cb8d1b8b479eeee0fdf91e2e1fb22da",
+      "size": 2755420,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/e2deb6d05cb8d1b8b479eeee0fdf91e2e1fb22da"
+    },
+    {
+      "path": "pictures/plugin/jetbrain.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "061aee41e484826dce82e5115c6ea5d8b72d2b3b",
+      "size": 181768,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/061aee41e484826dce82e5115c6ea5d8b72d2b3b"
+    },
+    {
+      "path": "pictures/plugin/vscode.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0962b45df99b8f3521f0d3fb294b56f967e8f7b",
+      "size": 5206066,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/a0962b45df99b8f3521f0d3fb294b56f967e8f7b"
+    },
+    {
+      "path": "pictures/plugin/vscode.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c68f203892e8dbb14fe42e6d37d485fe13e320a",
+      "size": 192194,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/3c68f203892e8dbb14fe42e6d37d485fe13e320a"
+    },
+    {
+      "path": "pictures/plugin/全家桶.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b97e4cbb4ba8a75b1a77e6eb102b13020aa51e09",
+      "size": 399094,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/b97e4cbb4ba8a75b1a77e6eb102b13020aa51e09"
+    },
+    {
+      "path": "pictures/prime",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8e6234d143a7fa9cc3a0ad2bb8687761c21becb4",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/8e6234d143a7fa9cc3a0ad2bb8687761c21becb4"
+    },
+    {
+      "path": "pictures/prime/1.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd385eecd310f0332a98f8679fba81609d5d0f7b",
+      "size": 157448,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/cd385eecd310f0332a98f8679fba81609d5d0f7b"
+    },
+    {
+      "path": "pictures/qrcode.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83e46cb25f6b9788c224f8beb4619cb9d4f0dad2",
+      "size": 27201,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/83e46cb25f6b9788c224f8beb4619cb9d4f0dad2"
+    },
+    {
+      "path": "pictures/redis入侵",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7df01fffd3c871dc7f467db98f927b299471d126",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/7df01fffd3c871dc7f467db98f927b299471d126"
+    },
+    {
+      "path": "pictures/redis入侵/1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e021d3eb44a1ad037090fc38592e5941b43e36cf",
+      "size": 12852,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/e021d3eb44a1ad037090fc38592e5941b43e36cf"
+    },
+    {
+      "path": "pictures/redis入侵/2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9f03e65e9ed3cc9e75f379091cb97953c6f60c7",
+      "size": 7572,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/a9f03e65e9ed3cc9e75f379091cb97953c6f60c7"
+    },
+    {
+      "path": "pictures/redis入侵/3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4c9980e832c13c6f2ed1b96df15d28451a7f1c4",
+      "size": 24709,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/b4c9980e832c13c6f2ed1b96df15d28451a7f1c4"
+    },
+    {
+      "path": "pictures/redis入侵/4.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44b390d6661dabd94a8f1777e01f884b9ef5feac",
+      "size": 9955,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/44b390d6661dabd94a8f1777e01f884b9ef5feac"
+    },
+    {
+      "path": "pictures/redis入侵/5.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60dc5ab738923316bee7bee34e2707db00669522",
+      "size": 18999,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/60dc5ab738923316bee7bee34e2707db00669522"
+    },
+    {
+      "path": "pictures/redis入侵/6.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "618c28c203170407ccb9a04dc4b5f9b476a36f01",
+      "size": 20947,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/618c28c203170407ccb9a04dc4b5f9b476a36f01"
+    },
+    {
+      "path": "pictures/robber",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "61111042cc8ee4e320c3589a0080948521823ec9",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/61111042cc8ee4e320c3589a0080948521823ec9"
+    },
+    {
+      "path": "pictures/robber/1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23b590f6a9b5bf807fa6dd23d2a51b755178a1ae",
+      "size": 120952,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/23b590f6a9b5bf807fa6dd23d2a51b755178a1ae"
+    },
+    {
+      "path": "pictures/robber/2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95761fddbc4b466827c1ad11cab4fa8ab8762ae7",
+      "size": 121614,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/95761fddbc4b466827c1ad11cab4fa8ab8762ae7"
+    },
+    {
+      "path": "pictures/robber/3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c54da1aa99538f09be51be55304cd23f100f448",
+      "size": 120738,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/6c54da1aa99538f09be51be55304cd23f100f448"
+    },
+    {
+      "path": "pictures/robber/title.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f60633f9d22dafa2a0a884a7f3cde0eb379361f",
+      "size": 37462,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/8f60633f9d22dafa2a0a884a7f3cde0eb379361f"
+    },
+    {
+      "path": "pictures/robber/title1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6096939dd35872e1154e0fd2a12ca6a90200226",
+      "size": 13615,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/b6096939dd35872e1154e0fd2a12ca6a90200226"
+    },
+    {
+      "path": "pictures/session",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b4926570d23f66fe0d20f36f8a7179ecf84928fe",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/b4926570d23f66fe0d20f36f8a7179ecf84928fe"
+    },
+    {
+      "path": "pictures/session/1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "906f7090f76e1605ddc3e8d4ea7ca5b8418dd735",
+      "size": 7488,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/906f7090f76e1605ddc3e8d4ea7ca5b8418dd735"
+    },
+    {
+      "path": "pictures/session/2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2660b22193958f9209ee4cc2b9ed23f7ae64f9f",
+      "size": 10105,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/d2660b22193958f9209ee4cc2b9ed23f7ae64f9f"
+    },
+    {
+      "path": "pictures/session/3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "622a8f707eaa67359df9ae72ce941d44e16b61fb",
+      "size": 93827,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/622a8f707eaa67359df9ae72ce941d44e16b61fb"
+    },
+    {
+      "path": "pictures/session/4.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81e92eedd11aa0d409adca08c160e3224b0e1d29",
+      "size": 138559,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/81e92eedd11aa0d409adca08c160e3224b0e1d29"
+    },
+    {
+      "path": "pictures/souyisou.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94d9f67c1eca710cb79d7c0650b0a78aec8ee380",
+      "size": 80248,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/94d9f67c1eca710cb79d7c0650b0a78aec8ee380"
+    },
+    {
+      "path": "pictures/souyisou2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "744d478f16bad2921e97b38f6979a5653dfc1548",
+      "size": 102402,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/744d478f16bad2921e97b38f6979a5653dfc1548"
+    },
+    {
+      "path": "pictures/unionfind",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1882d1e8a12e261107d0d6a9f8f0205319650051",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/1882d1e8a12e261107d0d6a9f8f0205319650051"
+    },
+    {
+      "path": "pictures/unionfind/1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77aaf0ee22be1bc456b54c76ec6c695ed71f4b21",
+      "size": 113891,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/77aaf0ee22be1bc456b54c76ec6c695ed71f4b21"
+    },
+    {
+      "path": "pictures/unionfind/2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5396986e93938201739eeb7bdd7eea4c66f5dee",
+      "size": 117616,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/a5396986e93938201739eeb7bdd7eea4c66f5dee"
+    },
+    {
+      "path": "pictures/unionfind/3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3c6051348983ce3b226f6951a5ceaff17991021",
+      "size": 113346,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/d3c6051348983ce3b226f6951a5ceaff17991021"
+    },
+    {
+      "path": "pictures/unionfind/4.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "400479177833924a24f303131950b2b7775ab597",
+      "size": 125433,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/400479177833924a24f303131950b2b7775ab597"
+    },
+    {
+      "path": "pictures/unionfind/5.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "273302945cdd2c7b45eb4f35a03714368eef5be9",
+      "size": 124364,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/273302945cdd2c7b45eb4f35a03714368eef5be9"
+    },
+    {
+      "path": "pictures/unionfind/6.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae37f8d0ba8a6de22564486c37e9c06eab9220f1",
+      "size": 108239,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/ae37f8d0ba8a6de22564486c37e9c06eab9220f1"
+    },
+    {
+      "path": "pictures/unionfind/7.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "251dd20f0537e893162c48a4b86be9bfdafbc5a8",
+      "size": 118732,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/251dd20f0537e893162c48a4b86be9bfdafbc5a8"
+    },
+    {
+      "path": "pictures/unionfind/8.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd742120753e5a59d47a4cd13fc80b2b37322149",
+      "size": 112214,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/fd742120753e5a59d47a4cd13fc80b2b37322149"
+    },
+    {
+      "path": "pictures/unionfind/9.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97c5b72a08b64233fd56aea9e90f14ece6b50498",
+      "size": 599247,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/97c5b72a08b64233fd56aea9e90f14ece6b50498"
+    },
+    {
+      "path": "pictures/unionfind应用",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "40ca5319f8549ce828a7aac56dedf691f545f979",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/40ca5319f8549ce828a7aac56dedf691f545f979"
+    },
+    {
+      "path": "pictures/unionfind应用/1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "583e66121b74dba3c6900c3cd11c8f273b944a8a",
+      "size": 121336,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/583e66121b74dba3c6900c3cd11c8f273b944a8a"
+    },
+    {
+      "path": "pictures/unionfind应用/2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e4c40b9b437c727ba7c69ff72a3463c6425e920",
+      "size": 121456,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/5e4c40b9b437c727ba7c69ff72a3463c6425e920"
+    },
+    {
+      "path": "pictures/unionfind应用/3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a21dd12d704636dbbbd8bea2e788b3dac378d8bc",
+      "size": 119011,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/a21dd12d704636dbbbd8bea2e788b3dac378d8bc"
+    },
+    {
+      "path": "pictures/youtube",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "39fc4f27db676f9eb03ecc9ce178adfcc8978fd2",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/39fc4f27db676f9eb03ecc9ce178adfcc8978fd2"
+    },
+    {
+      "path": "pictures/youtube/1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7f96878a2c6d202eada7f0496761b010deee48c",
+      "size": 7138,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/f7f96878a2c6d202eada7f0496761b010deee48c"
+    },
+    {
+      "path": "pictures/youtube/1573133096614.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27f85dc3abe5cef22c2e375416bbfd88966ff3a2",
+      "size": 142508,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/27f85dc3abe5cef22c2e375416bbfd88966ff3a2"
+    },
+    {
+      "path": "pictures/youtube/1573133131308.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c464ef3bec63231f7a425c0e915d196268ed315c",
+      "size": 175761,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/c464ef3bec63231f7a425c0e915d196268ed315c"
+    },
+    {
+      "path": "pictures/youtube/2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "490c1c40bef4c96bcf8d572b72a5fc39b72b393d",
+      "size": 119907,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/490c1c40bef4c96bcf8d572b72a5fc39b72b393d"
+    },
+    {
+      "path": "pictures/youtube/3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d24d92b33fa25bb04783ada3fcb3f60b5f177c5",
+      "size": 103397,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/7d24d92b33fa25bb04783ada3fcb3f60b5f177c5"
+    },
+    {
+      "path": "pictures/youtube/4.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ea617d104053c6b8c6d5cc5f91cd2fbd4526f62",
+      "size": 121436,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/3ea617d104053c6b8c6d5cc5f91cd2fbd4526f62"
+    },
+    {
+      "path": "pictures/二分应用",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ed6ff13e56d5893f6a2025ac85be1edeb89fa3ec",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/ed6ff13e56d5893f6a2025ac85be1edeb89fa3ec"
+    },
+    {
+      "path": "pictures/二分应用/title1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb85d759a86036b3e1b13a6c93c27909d036af01",
+      "size": 29220,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/cb85d759a86036b3e1b13a6c93c27909d036af01"
+    },
+    {
+      "path": "pictures/二分应用/title2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dc47c6c99c49689029adf8ebf6a7987c84b53a6",
+      "size": 31062,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/6dc47c6c99c49689029adf8ebf6a7987c84b53a6"
+    },
+    {
+      "path": "pictures/二分查找",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "09e2821f437139877d66e22862b4543c9beab412",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/09e2821f437139877d66e22862b4543c9beab412"
+    },
+    {
+      "path": "pictures/二分查找/1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da0a55ba889b5c1682dee99f8180d2bfcea66610",
+      "size": 23631,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/da0a55ba889b5c1682dee99f8180d2bfcea66610"
+    },
+    {
+      "path": "pictures/二分查找/2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6865c24b1317f1f65f02348fe622c829c71219c1",
+      "size": 25870,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/6865c24b1317f1f65f02348fe622c829c71219c1"
+    },
+    {
+      "path": "pictures/二分查找/3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a360ba87672e68434224884dfc1393a6039f8130",
+      "size": 29975,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/a360ba87672e68434224884dfc1393a6039f8130"
+    },
+    {
+      "path": "pictures/二分查找/4.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35e46116bf1634c51c039873136c5478600ef028",
+      "size": 26001,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/35e46116bf1634c51c039873136c5478600ef028"
+    },
+    {
+      "path": "pictures/二分查找/binarySearch1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5a410abcdfc01abb0d8556ad6f50230c6ec2692",
+      "size": 6398,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/d5a410abcdfc01abb0d8556ad6f50230c6ec2692"
+    },
+    {
+      "path": "pictures/二分查找/binarySearch2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abff601abada05840d769fb1ae15c8f98b13f055",
+      "size": 7805,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/abff601abada05840d769fb1ae15c8f98b13f055"
+    },
+    {
+      "path": "pictures/二分查找/poem.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6262c33549e980c22758927d7a57280b5213ed3f",
+      "size": 40692,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/6262c33549e980c22758927d7a57280b5213ed3f"
+    },
+    {
+      "path": "pictures/位操作",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e6ddd1142ca8a93879ea838327c013bad3d9c451",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/e6ddd1142ca8a93879ea838327c013bad3d9c451"
+    },
+    {
+      "path": "pictures/位操作/1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4463610a4ba45afda78d57c7dd860b32e447b52",
+      "size": 13146,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/c4463610a4ba45afda78d57c7dd860b32e447b52"
+    },
+    {
+      "path": "pictures/位操作/title.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "953f1c3a8686fc684c05d3db19debbe4bc6929d9",
+      "size": 11124,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/953f1c3a8686fc684c05d3db19debbe4bc6929d9"
+    },
+    {
+      "path": "pictures/信封嵌套",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b98c957a7ae62b47f3314743fd6951510ec309bf",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/b98c957a7ae62b47f3314743fd6951510ec309bf"
+    },
+    {
+      "path": "pictures/信封嵌套/0.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48728e408ccf5160d6bff386d72978567eca77cb",
+      "size": 41746,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/48728e408ccf5160d6bff386d72978567eca77cb"
+    },
+    {
+      "path": "pictures/信封嵌套/1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df0cc5fb3a72c69e2c0493d1900715a513dcd7b5",
+      "size": 47504,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/df0cc5fb3a72c69e2c0493d1900715a513dcd7b5"
+    },
+    {
+      "path": "pictures/信封嵌套/2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e256327c4ebf2b9c9c132ea6de340105d748cf7",
+      "size": 38415,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/4e256327c4ebf2b9c9c132ea6de340105d748cf7"
+    },
+    {
+      "path": "pictures/信封嵌套/title.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbd93291411d0475446a2c634be9b43088bfa0fb",
+      "size": 19298,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/fbd93291411d0475446a2c634be9b43088bfa0fb"
+    },
+    {
+      "path": "pictures/全家桶.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b97e4cbb4ba8a75b1a77e6eb102b13020aa51e09",
+      "size": 399094,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/b97e4cbb4ba8a75b1a77e6eb102b13020aa51e09"
+    },
+    {
+      "path": "pictures/前缀和",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d1b0d142ed8d2b6559d5059f1a0f2953df9e6fb3",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/d1b0d142ed8d2b6559d5059f1a0f2953df9e6fb3"
+    },
+    {
+      "path": "pictures/前缀和/1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b1c46fbb70bc4e730c0d3d5438ef57a937bf36e",
+      "size": 114193,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/3b1c46fbb70bc4e730c0d3d5438ef57a937bf36e"
+    },
+    {
+      "path": "pictures/前缀和/2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1306f903f35fa745725d1304a020053da2de8726",
+      "size": 80466,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/1306f903f35fa745725d1304a020053da2de8726"
+    },
+    {
+      "path": "pictures/前缀和/title.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb19e8180ff444ac0a65442dbd64dd2ccc4aa76c",
+      "size": 13883,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/cb19e8180ff444ac0a65442dbd64dd2ccc4aa76c"
+    },
+    {
+      "path": "pictures/动态规划详解",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fc7d1a2d87c0b79cc2e36f519851a3e62fe5a004",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/fc7d1a2d87c0b79cc2e36f519851a3e62fe5a004"
+    },
+    {
+      "path": "pictures/动态规划详解/coindp.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d1b8a0a1294a221f04f74641055de042ed5ce42",
+      "size": 109342,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/0d1b8a0a1294a221f04f74641055de042ed5ce42"
+    },
+    {
+      "path": "pictures/动态规划详解/coinfunc.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26e6460f53bd85ca3ad0b6669bb549402473a6c2",
+      "size": 149250,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/26e6460f53bd85ca3ad0b6669bb549402473a6c2"
+    },
+    {
+      "path": "pictures/动态规划详解/cointree.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26c978a9c62f6d9b28724a3ec8cbf6b3cca3ed58",
+      "size": 105799,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/26c978a9c62f6d9b28724a3ec8cbf6b3cca3ed58"
+    },
+    {
+      "path": "pictures/动态规划详解/fibdp.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f121f029fd96a0c2a05e2806630e4f0795fac82c",
+      "size": 99772,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/f121f029fd96a0c2a05e2806630e4f0795fac82c"
+    },
+    {
+      "path": "pictures/动态规划详解/fibfunc.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8657eae81b1193eb09cdf93de67ae61f5a50c40a",
+      "size": 95866,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/8657eae81b1193eb09cdf93de67ae61f5a50c40a"
+    },
+    {
+      "path": "pictures/动态规划详解/fibmemo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "359d1b0cc594175ec51b9f7b67427f6aedae6f47",
+      "size": 140230,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/359d1b0cc594175ec51b9f7b67427f6aedae6f47"
+    },
+    {
+      "path": "pictures/动态规划详解/fibtree.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5e6f028caa6a38922310869300e116ed471bee4",
+      "size": 71329,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/b5e6f028caa6a38922310869300e116ed471bee4"
+    },
+    {
+      "path": "pictures/动态规划详解/img_20190514_013033.441.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8657eae81b1193eb09cdf93de67ae61f5a50c40a",
+      "size": 95866,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/8657eae81b1193eb09cdf93de67ae61f5a50c40a"
+    },
+    {
+      "path": "pictures/动态规划详解/img_20190514_013830.397.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26e6460f53bd85ca3ad0b6669bb549402473a6c2",
+      "size": 149250,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/26e6460f53bd85ca3ad0b6669bb549402473a6c2"
+    },
+    {
+      "path": "pictures/动态规划详解/ink-image (1).png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "359d1b0cc594175ec51b9f7b67427f6aedae6f47",
+      "size": 140230,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/359d1b0cc594175ec51b9f7b67427f6aedae6f47"
+    },
+    {
+      "path": "pictures/动态规划详解/ink-image (2).png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f121f029fd96a0c2a05e2806630e4f0795fac82c",
+      "size": 99772,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/f121f029fd96a0c2a05e2806630e4f0795fac82c"
+    },
+    {
+      "path": "pictures/动态规划详解/ink-image (3).png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26c978a9c62f6d9b28724a3ec8cbf6b3cca3ed58",
+      "size": 105799,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/26c978a9c62f6d9b28724a3ec8cbf6b3cca3ed58"
+    },
+    {
+      "path": "pictures/动态规划详解/ink-image (4).png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d1b8a0a1294a221f04f74641055de042ed5ce42",
+      "size": 109342,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/0d1b8a0a1294a221f04f74641055de042ed5ce42"
+    },
+    {
+      "path": "pictures/动态规划详解/ink-image.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5e6f028caa6a38922310869300e116ed471bee4",
+      "size": 71329,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/b5e6f028caa6a38922310869300e116ed471bee4"
+    },
+    {
+      "path": "pictures/动态规划详解进阶",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c5fb98068fdb519a728e1a085684aa242cd1ca30",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/c5fb98068fdb519a728e1a085684aa242cd1ca30"
+    },
+    {
+      "path": "pictures/动态规划详解进阶/1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4732ffc9d7d2e072503195f926c3f571c9e1e43",
+      "size": 119401,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/b4732ffc9d7d2e072503195f926c3f571c9e1e43"
+    },
+    {
+      "path": "pictures/动态规划详解进阶/2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "386669df9bcef8c58a6d931a1f11cbded3dc18ef",
+      "size": 127831,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/386669df9bcef8c58a6d931a1f11cbded3dc18ef"
+    },
+    {
+      "path": "pictures/动态规划详解进阶/3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d543edcccdd5f5f3da3d643a745550f2436de8c",
+      "size": 119344,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/3d543edcccdd5f5f3da3d643a745550f2436de8c"
+    },
+    {
+      "path": "pictures/动态规划详解进阶/4.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58e2a3a53ab4be769bc3aaffc62e8cbb446a3e8e",
+      "size": 134865,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/58e2a3a53ab4be769bc3aaffc62e8cbb446a3e8e"
+    },
+    {
+      "path": "pictures/动态规划详解进阶/5.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64100c8440200d1e440423cc5bdd6fd1591feb4e",
+      "size": 134240,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/64100c8440200d1e440423cc5bdd6fd1591feb4e"
+    },
+    {
+      "path": "pictures/动态规划详解进阶/6.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbd22932b8c375d7b4c80495c6faf91c13668b01",
+      "size": 141039,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/fbd22932b8c375d7b4c80495c6faf91c13668b01"
+    },
+    {
+      "path": "pictures/动态规划详解进阶/coin.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b99fb680c5c8b32195083f14ea05b34186ea50f",
+      "size": 5738,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/2b99fb680c5c8b32195083f14ea05b34186ea50f"
+    },
+    {
+      "path": "pictures/动态规划详解进阶/fib.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c90a9c647383c887b5dfc4a98e57acbe49948ffb",
+      "size": 3347,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/c90a9c647383c887b5dfc4a98e57acbe49948ffb"
+    },
+    {
+      "path": "pictures/单调栈",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b60307fbbe07fe72788a0b72f6fa1d83a49f5e33",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/b60307fbbe07fe72788a0b72f6fa1d83a49f5e33"
+    },
+    {
+      "path": "pictures/单调栈/1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a2575d094e8d5901396aab0d110ef0590546fab",
+      "size": 57543,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/1a2575d094e8d5901396aab0d110ef0590546fab"
+    },
+    {
+      "path": "pictures/单调栈/2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa6635831bb728038df5eeb1c64bd6f3bda0ff20",
+      "size": 66505,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/aa6635831bb728038df5eeb1c64bd6f3bda0ff20"
+    },
+    {
+      "path": "pictures/单调栈/3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d067ce487ecad14a45eddcba8f8b142f614b104",
+      "size": 46931,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/4d067ce487ecad14a45eddcba8f8b142f614b104"
+    },
+    {
+      "path": "pictures/单调队列",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "429c39838450b030bbc99d2439254911a1edd2c4",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/429c39838450b030bbc99d2439254911a1edd2c4"
+    },
+    {
+      "path": "pictures/单调队列/1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "131253f93e7d337b0b3d5f490221479004dc31ad",
+      "size": 7383,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/131253f93e7d337b0b3d5f490221479004dc31ad"
+    },
+    {
+      "path": "pictures/单调队列/2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49e658cd4cd7372a9fad220e241bbd73ca7e270e",
+      "size": 4530,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/49e658cd4cd7372a9fad220e241bbd73ca7e270e"
+    },
+    {
+      "path": "pictures/单调队列/3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "500cf80a8e713663abcc01000c5d5e2b77412522",
+      "size": 4617,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/500cf80a8e713663abcc01000c5d5e2b77412522"
+    },
+    {
+      "path": "pictures/单调队列/title.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13e2a28f5ede76534df6797e2d28c2cee299cd5d",
+      "size": 14971,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/13e2a28f5ede76534df6797e2d28c2cee299cd5d"
+    },
+    {
+      "path": "pictures/博弈问题",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c7bcd1a099453e69bdfa05c10010e2e82aad982a",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/c7bcd1a099453e69bdfa05c10010e2e82aad982a"
+    },
+    {
+      "path": "pictures/博弈问题/1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "965db46ef963e1265d8b466b66c8040334eafc58",
+      "size": 9979,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/965db46ef963e1265d8b466b66c8040334eafc58"
+    },
+    {
+      "path": "pictures/博弈问题/2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5205c28ad147a7e464ff26b2a859ffb5ee39d062",
+      "size": 8454,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/5205c28ad147a7e464ff26b2a859ffb5ee39d062"
+    },
+    {
+      "path": "pictures/博弈问题/3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "469f3835f50bb08ab9653b813ce6b6c7fcc5d806",
+      "size": 9790,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/469f3835f50bb08ab9653b813ce6b6c7fcc5d806"
+    },
+    {
+      "path": "pictures/博弈问题/4.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0929ea854d11218c7d06df08b6313e3453183959",
+      "size": 11236,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/0929ea854d11218c7d06df08b6313e3453183959"
+    },
+    {
+      "path": "pictures/双指针",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b3ff037cff219d6279177f125bcc31193e17e04b",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/b3ff037cff219d6279177f125bcc31193e17e04b"
+    },
+    {
+      "path": "pictures/双指针/1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1fe49a23797f2632582ced9f3940abb6556b4c1",
+      "size": 43583,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/c1fe49a23797f2632582ced9f3940abb6556b4c1"
+    },
+    {
+      "path": "pictures/双指针/2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d7bd77193ff8a732f7ce545e4451213949dc36c",
+      "size": 63919,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/7d7bd77193ff8a732f7ce545e4451213949dc36c"
+    },
+    {
+      "path": "pictures/双指针/3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de27d35383e1b3a3557ca3015508210cf8c1adee",
+      "size": 66025,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/de27d35383e1b3a3557ca3015508210cf8c1adee"
+    },
+    {
+      "path": "pictures/双指针/center.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "586e6e38fc867534e066585789c8d034dab19b5b",
+      "size": 5200,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/586e6e38fc867534e066585789c8d034dab19b5b"
+    },
+    {
+      "path": "pictures/双指针/title.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff32a9c7e5895634fad3e1866df2bc8086374629",
+      "size": 17765,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/ff32a9c7e5895634fad3e1866df2bc8086374629"
+    },
+    {
+      "path": "pictures/反转链表",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "215d8f8ff75103e4cf77ffae4c3d74b9adbdb4cc",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/215d8f8ff75103e4cf77ffae4c3d74b9adbdb4cc"
+    },
+    {
+      "path": "pictures/反转链表/1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9fff89cb1f69f93555c158bee3adce9ca8d7487",
+      "size": 108978,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/b9fff89cb1f69f93555c158bee3adce9ca8d7487"
+    },
+    {
+      "path": "pictures/反转链表/2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c244744301acfdaae7b1a26bc92d0d63748ad675",
+      "size": 110701,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/c244744301acfdaae7b1a26bc92d0d63748ad675"
+    },
+    {
+      "path": "pictures/反转链表/3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be3eed15a20254b8d77d0f33798da8f9bf081b7b",
+      "size": 110730,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/be3eed15a20254b8d77d0f33798da8f9bf081b7b"
+    },
+    {
+      "path": "pictures/反转链表/4.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc1a5fa3257a78014037e2e7370fd6e4c804551a",
+      "size": 111881,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/bc1a5fa3257a78014037e2e7370fd6e4c804551a"
+    },
+    {
+      "path": "pictures/反转链表/5.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69362da6835ca739d63b0b54c2220a5f742dd2c7",
+      "size": 108982,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/69362da6835ca739d63b0b54c2220a5f742dd2c7"
+    },
+    {
+      "path": "pictures/反转链表/6.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df31967e270f60cb760c9c14bcae2e16dd4f7e14",
+      "size": 121107,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/df31967e270f60cb760c9c14bcae2e16dd4f7e14"
+    },
+    {
+      "path": "pictures/反转链表/7.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f962eeb29ecfd905bf9935d167455fd0f96e365f",
+      "size": 106672,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/f962eeb29ecfd905bf9935d167455fd0f96e365f"
+    },
+    {
+      "path": "pictures/反转链表/title.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "915c1a33d1b949ede314f58291d826cf5ba62d8b",
+      "size": 8014,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/915c1a33d1b949ede314f58291d826cf5ba62d8b"
+    },
+    {
+      "path": "pictures/回文",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "931f107d85af4e1b9e57b55d173927403e17227e",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/931f107d85af4e1b9e57b55d173927403e17227e"
+    },
+    {
+      "path": "pictures/回文/title.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ec4774981cdf78c5f18433ff62643aae5554227",
+      "size": 11224,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/3ec4774981cdf78c5f18433ff62643aae5554227"
+    },
+    {
+      "path": "pictures/回文链表",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "19aa97975847f5309e1cacba9dbd117723d5d47a",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/19aa97975847f5309e1cacba9dbd117723d5d47a"
+    },
+    {
+      "path": "pictures/回文链表/1.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "245e396c68dcaf769d72e909bcb98a4b97c4cefe",
+      "size": 484430,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/245e396c68dcaf769d72e909bcb98a4b97c4cefe"
+    },
+    {
+      "path": "pictures/回文链表/1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3f9643f57342c88edd155a8af2b11ab280977cc",
+      "size": 117500,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/e3f9643f57342c88edd155a8af2b11ab280977cc"
+    },
+    {
+      "path": "pictures/回文链表/2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "828ec0ae419fa1d7634bb10e4868abc74ac6d492",
+      "size": 119540,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/828ec0ae419fa1d7634bb10e4868abc74ac6d492"
+    },
+    {
+      "path": "pictures/回文链表/3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5162e61baa5d8c38b4292c73d1acec03fce6a1f",
+      "size": 116526,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/b5162e61baa5d8c38b4292c73d1acec03fce6a1f"
+    },
+    {
+      "path": "pictures/回文链表/4.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "679314382fc7999ea8c192d85f2fb1faa351588d",
+      "size": 109585,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/679314382fc7999ea8c192d85f2fb1faa351588d"
+    },
+    {
+      "path": "pictures/子序列",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2052c503f09df05e2956fa3a44560c8ecfc0f0ce",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/2052c503f09df05e2956fa3a44560c8ecfc0f0ce"
+    },
+    {
+      "path": "pictures/子序列/1.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c17a36ab85f313e1ffd199d58dd4302dc6062ca7",
+      "size": 453538,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/c17a36ab85f313e1ffd199d58dd4302dc6062ca7"
+    },
+    {
+      "path": "pictures/子序列/1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "580a9bcc9b0981209f290fb534aded734025c123",
+      "size": 64511,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/580a9bcc9b0981209f290fb534aded734025c123"
+    },
+    {
+      "path": "pictures/子序列/2.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ec04b66c18f94be1f89d0ede89fe133454d4ab2",
+      "size": 501318,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/6ec04b66c18f94be1f89d0ede89fe133454d4ab2"
+    },
+    {
+      "path": "pictures/子序列/2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92993c52d1f4fe48f554be91b3d173a5a134e1a1",
+      "size": 73958,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/92993c52d1f4fe48f554be91b3d173a5a134e1a1"
+    },
+    {
+      "path": "pictures/子序列/3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b54b6cdd8112ce2676ec6f474649b233c2cca7e0",
+      "size": 127418,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/b54b6cdd8112ce2676ec6f474649b233c2cca7e0"
+    },
+    {
+      "path": "pictures/子集",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9041287632efbb0e0935ca65ad37f49f9ad850a",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/c9041287632efbb0e0935ca65ad37f49f9ad850a"
+    },
+    {
+      "path": "pictures/子集/1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85e712e3a356b84be04c8a196b0d9a76137f7236",
+      "size": 109119,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/85e712e3a356b84be04c8a196b0d9a76137f7236"
+    },
+    {
+      "path": "pictures/子集/2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b02026d8f233be11462c69b8849fc630239b90fa",
+      "size": 105989,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/b02026d8f233be11462c69b8849fc630239b90fa"
+    },
+    {
+      "path": "pictures/子集/3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b34ef306fa0a0f90ad0059d37ecd43dbe446fa1",
+      "size": 123754,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/0b34ef306fa0a0f90ad0059d37ecd43dbe446fa1"
+    },
+    {
+      "path": "pictures/字符串乘法",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ab689b46c9bad68d5c0f0353243f8e26aea6eb3d",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/ab689b46c9bad68d5c0f0353243f8e26aea6eb3d"
+    },
+    {
+      "path": "pictures/字符串乘法/1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d771001d86b603b59ffb46c8a5cca934621af401",
+      "size": 81968,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/d771001d86b603b59ffb46c8a5cca934621af401"
+    },
+    {
+      "path": "pictures/字符串乘法/2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e3f07f896944262ab503d1ea7df19c79fab4ec2",
+      "size": 84239,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/0e3f07f896944262ab503d1ea7df19c79fab4ec2"
+    },
+    {
+      "path": "pictures/字符串乘法/3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fd5077199533954a187832c0d9ab7fd32dc3dd3",
+      "size": 86071,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/9fd5077199533954a187832c0d9ab7fd32dc3dd3"
+    },
+    {
+      "path": "pictures/字符串乘法/4.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbc4365e31819e59d606a680754fd1d94e700b9f",
+      "size": 424265,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/bbc4365e31819e59d606a680754fd1d94e700b9f"
+    },
+    {
+      "path": "pictures/字符串乘法/6.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b873dd7a50b1dfc10c750226bf19dfcadb6413b6",
+      "size": 93327,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/b873dd7a50b1dfc10c750226bf19dfcadb6413b6"
+    },
+    {
+      "path": "pictures/字符串乘法/title.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9cf410f06367d6447228a032d86a20dd4a9f060",
+      "size": 13098,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/e9cf410f06367d6447228a032d86a20dd4a9f060"
+    },
+    {
+      "path": "pictures/密码技术",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "df1d5a47f44fbf29735d178ffccd76121a606f62",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/df1d5a47f44fbf29735d178ffccd76121a606f62"
+    },
+    {
+      "path": "pictures/密码技术/1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dacbb65bd264902fae5133290b88e377a1dbd6ad",
+      "size": 109654,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/dacbb65bd264902fae5133290b88e377a1dbd6ad"
+    },
+    {
+      "path": "pictures/密码技术/2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6d28f0ef11fe427ad152f6cb192a65498ed53fa",
+      "size": 112198,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/e6d28f0ef11fe427ad152f6cb192a65498ed53fa"
+    },
+    {
+      "path": "pictures/密码技术/3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5fc5e217cc24d3e79bec6592b1fc0bef277550c",
+      "size": 111688,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/b5fc5e217cc24d3e79bec6592b1fc0bef277550c"
+    },
+    {
+      "path": "pictures/密码技术/4.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09989d4013eeca21c8b6afe3a3b29cdec24dc673",
+      "size": 113367,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/09989d4013eeca21c8b6afe3a3b29cdec24dc673"
+    },
+    {
+      "path": "pictures/密码技术/5.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27b67d7c4392f091722ac424c53b6934c4ac7c54",
+      "size": 133136,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/27b67d7c4392f091722ac424c53b6934c4ac7c54"
+    },
+    {
+      "path": "pictures/密码技术/6.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e99f74dfb813407f955aa3df26eea9b977ce09be",
+      "size": 127323,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/e99f74dfb813407f955aa3df26eea9b977ce09be"
+    },
+    {
+      "path": "pictures/密码技术/7.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a368d636dbdd73001141acd6925221480f7ac8cb",
+      "size": 61346,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/a368d636dbdd73001141acd6925221480f7ac8cb"
+    },
+    {
+      "path": "pictures/座位调度",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "449227a8ed7ed1ca87deb375317efdefabfdb414",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/449227a8ed7ed1ca87deb375317efdefabfdb414"
+    },
+    {
+      "path": "pictures/座位调度/1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0c943df93a6f1faa9763936f73c15aa69c123f9",
+      "size": 115966,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/a0c943df93a6f1faa9763936f73c15aa69c123f9"
+    },
+    {
+      "path": "pictures/座位调度/2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0d46a2c8dcccd419e1dd15958f42d8aeb06b036",
+      "size": 130886,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/b0d46a2c8dcccd419e1dd15958f42d8aeb06b036"
+    },
+    {
+      "path": "pictures/座位调度/3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "159b32bfdd565e8e4b82541da2af314e14eecf52",
+      "size": 108960,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/159b32bfdd565e8e4b82541da2af314e14eecf52"
+    },
+    {
+      "path": "pictures/座位调度/4.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1eb30ff5c931fb0f9a5760bf23b12affb4a8a595",
+      "size": 118362,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/1eb30ff5c931fb0f9a5760bf23b12affb4a8a595"
+    },
+    {
+      "path": "pictures/座位调度/5.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f88315e34410fa45742e422ac38926b9b48c69ee",
+      "size": 114617,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/f88315e34410fa45742e422ac38926b9b48c69ee"
+    },
+    {
+      "path": "pictures/座位调度/6.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1095324265786361f0c3578b5fad4f1472d9553d",
+      "size": 118246,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/1095324265786361f0c3578b5fad4f1472d9553d"
+    },
+    {
+      "path": "pictures/座位调度/7.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c22c5375c80dd82cf68c02f22027f09416b127a",
+      "size": 113486,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/0c22c5375c80dd82cf68c02f22027f09416b127a"
+    },
+    {
+      "path": "pictures/扔鸡蛋",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "81bfcb291478b0615c120525a945251f153ab7f3",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/81bfcb291478b0615c120525a945251f153ab7f3"
+    },
+    {
+      "path": "pictures/扔鸡蛋/1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bc912961b18b42089ea14b3ea8d9d0a49da023e",
+      "size": 102197,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/0bc912961b18b42089ea14b3ea8d9d0a49da023e"
+    },
+    {
+      "path": "pictures/扔鸡蛋/2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f7f9edf5814f9d524746b80f06dcc249295b687",
+      "size": 122711,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/5f7f9edf5814f9d524746b80f06dcc249295b687"
+    },
+    {
+      "path": "pictures/扔鸡蛋/3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "069d53cfb255e5699f1b0e719c9a4df0e479837f",
+      "size": 103696,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/069d53cfb255e5699f1b0e719c9a4df0e479837f"
+    },
+    {
+      "path": "pictures/扔鸡蛋/dp.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70169d3d52f023688b14af44b1ee83ab83d8b855",
+      "size": 3879,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/70169d3d52f023688b14af44b1ee83ab83d8b855"
+    },
+    {
+      "path": "pictures/接雨水",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a505894e3c63c4d41a396ebf21e630fd4abc58c2",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/a505894e3c63c4d41a396ebf21e630fd4abc58c2"
+    },
+    {
+      "path": "pictures/接雨水/0.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec17d57f5886680e84ca60a3256d2abb8c5e1d83",
+      "size": 8750,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/ec17d57f5886680e84ca60a3256d2abb8c5e1d83"
+    },
+    {
+      "path": "pictures/接雨水/1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03e5217171362342763556fa435f57fdb81c487a",
+      "size": 98931,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/03e5217171362342763556fa435f57fdb81c487a"
+    },
+    {
+      "path": "pictures/接雨水/2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "839a8bf812313afd5a33659c54b87e4399308ce9",
+      "size": 99319,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/839a8bf812313afd5a33659c54b87e4399308ce9"
+    },
+    {
+      "path": "pictures/接雨水/3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a48dc5afcc60ac686292f268ca06ce0b45c5393a",
+      "size": 81674,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/a48dc5afcc60ac686292f268ca06ce0b45c5393a"
+    },
+    {
+      "path": "pictures/接雨水/4.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f97488589e2f99447d74e64b6a52fccd5a3e861c",
+      "size": 96639,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/f97488589e2f99447d74e64b6a52fccd5a3e861c"
+    },
+    {
+      "path": "pictures/接雨水/5.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "718509a03f01250bba00911439cd1c0be7dd5aaf",
+      "size": 100844,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/718509a03f01250bba00911439cd1c0be7dd5aaf"
+    },
+    {
+      "path": "pictures/接雨水/title.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "177355ac2bcc5af425790e90cdce01379f564e8e",
+      "size": 19167,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/177355ac2bcc5af425790e90cdce01379f564e8e"
+    },
+    {
+      "path": "pictures/数组交换",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "46340340ca64b8b145866d4ca652c28b001d61ea",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/46340340ca64b8b145866d4ca652c28b001d61ea"
+    },
+    {
+      "path": "pictures/数组交换/ink-image (1).png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db21abcfb608b7bb81f429ce429a9e2b7501b83e",
+      "size": 129656,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/db21abcfb608b7bb81f429ce429a9e2b7501b83e"
+    },
+    {
+      "path": "pictures/数组交换/ink-image (2).png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "213ad2a38a771d4d5f84077e13c30155833f735f",
+      "size": 50652,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/213ad2a38a771d4d5f84077e13c30155833f735f"
+    },
+    {
+      "path": "pictures/数组交换/ink-image (3).png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c9989acf32923eb3409030690984e70662f0673",
+      "size": 69292,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/1c9989acf32923eb3409030690984e70662f0673"
+    },
+    {
+      "path": "pictures/数组交换/ink-image.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1a1afa3fcb63a237885f9d8c3986ab204020362",
+      "size": 70193,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/e1a1afa3fcb63a237885f9d8c3986ab204020362"
+    },
+    {
+      "path": "pictures/最优子结构",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ceabc2f94dcff0ac5f3434b9c59578cc7a2d58d9",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/ceabc2f94dcff0ac5f3434b9c59578cc7a2d58d9"
+    },
+    {
+      "path": "pictures/最优子结构/1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8cc3f4cbef7bbee9de2659b430e0233abfd9587",
+      "size": 100600,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/a8cc3f4cbef7bbee9de2659b430e0233abfd9587"
+    },
+    {
+      "path": "pictures/最长回文子序列",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7dccf123396f573d9a01948ab6a4b78658f97c38",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/7dccf123396f573d9a01948ab6a4b78658f97c38"
+    },
+    {
+      "path": "pictures/最长回文子序列/1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e3281a56060dae55a7c8af43e148c4e27660aac",
+      "size": 100683,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/7e3281a56060dae55a7c8af43e148c4e27660aac"
+    },
+    {
+      "path": "pictures/最长回文子序列/2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f0baa5a8da70372e04709e7de159e38f461fcbb",
+      "size": 100306,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/9f0baa5a8da70372e04709e7de159e38f461fcbb"
+    },
+    {
+      "path": "pictures/最长回文子序列/3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aafb4d028e9abaf61c6d63e6a7ad5cf7c2e01481",
+      "size": 106968,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/aafb4d028e9abaf61c6d63e6a7ad5cf7c2e01481"
+    },
+    {
+      "path": "pictures/最长回文子序列/4.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "843ffacd364579043b5a004f3c82e7a351407aa6",
+      "size": 101700,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/843ffacd364579043b5a004f3c82e7a351407aa6"
+    },
+    {
+      "path": "pictures/最长回文子序列/5.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dc29efc2b8b10061f58056ddf4b4a3beccbf815",
+      "size": 109930,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/1dc29efc2b8b10061f58056ddf4b4a3beccbf815"
+    },
+    {
+      "path": "pictures/最长递增子序列",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3e5f4a05a7e891454f20cece3d9e10a930382ce4",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/3e5f4a05a7e891454f20cece3d9e10a930382ce4"
+    },
+    {
+      "path": "pictures/最长递增子序列/1.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3640ab127ddf9ac295785885300ba5af93298cf4",
+      "size": 17684,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/3640ab127ddf9ac295785885300ba5af93298cf4"
+    },
+    {
+      "path": "pictures/最长递增子序列/2.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c96ed6399b97982e0dcf62796e58ddde7d9a1ee5",
+      "size": 17059,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/c96ed6399b97982e0dcf62796e58ddde7d9a1ee5"
+    },
+    {
+      "path": "pictures/最长递增子序列/3.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4490d13fdde822af5c3752f86ea78e2577583546",
+      "size": 25561,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/4490d13fdde822af5c3752f86ea78e2577583546"
+    },
+    {
+      "path": "pictures/最长递增子序列/gif1.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cc98963f8fb1c6670adc17363d1dc75bff58c3a",
+      "size": 42137,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/5cc98963f8fb1c6670adc17363d1dc75bff58c3a"
+    },
+    {
+      "path": "pictures/最长递增子序列/gif2.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47f8d07657dd4d10e65e07d45142547c569188fe",
+      "size": 119127,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/47f8d07657dd4d10e65e07d45142547c569188fe"
+    },
+    {
+      "path": "pictures/最长递增子序列/poker1.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "093306bee485baf3f2836d20f179d9cb52f0deb1",
+      "size": 27123,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/093306bee485baf3f2836d20f179d9cb52f0deb1"
+    },
+    {
+      "path": "pictures/最长递增子序列/poker2.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ad0c604abee801cf824a373741da730cd9f54dc",
+      "size": 40225,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/2ad0c604abee801cf824a373741da730cd9f54dc"
+    },
+    {
+      "path": "pictures/最长递增子序列/poker3.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efa99bd71793d85c086d031a491738be2244509a",
+      "size": 42338,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/efa99bd71793d85c086d031a491738be2244509a"
+    },
+    {
+      "path": "pictures/最长递增子序列/poker4.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba781198ca3e6d3a012bc6d27bf3d7d4190f5e11",
+      "size": 46003,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/ba781198ca3e6d3a012bc6d27bf3d7d4190f5e11"
+    },
+    {
+      "path": "pictures/最长递增子序列/title.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65c3aa9222de724c5540e109cd019dd2c3dde759",
+      "size": 14805,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/65c3aa9222de724c5540e109cd019dd2c3dde759"
+    },
+    {
+      "path": "pictures/有序数组去重",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b3f48ea0c299ec393eb7c7afbe0f11310fac8953",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/b3f48ea0c299ec393eb7c7afbe0f11310fac8953"
+    },
+    {
+      "path": "pictures/有序数组去重/1.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c316a8a8571797cf3ceafba90d1ced0ef15d3eb8",
+      "size": 613471,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/c316a8a8571797cf3ceafba90d1ced0ef15d3eb8"
+    },
+    {
+      "path": "pictures/有序数组去重/2.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c846ea4ad81486bb00845fd9e5f48054f88d5b3",
+      "size": 542551,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/0c846ea4ad81486bb00845fd9e5f48054f88d5b3"
+    },
+    {
+      "path": "pictures/有序数组去重/title.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b986b9d0dc4ec195071a27783d067942de46099",
+      "size": 30548,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/5b986b9d0dc4ec195071a27783d067942de46099"
+    },
+    {
+      "path": "pictures/栈队列",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4b58043effc82bb58f7cef32b81cbdff5d1bcf90",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/4b58043effc82bb58f7cef32b81cbdff5d1bcf90"
+    },
+    {
+      "path": "pictures/栈队列/1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb72cc5f72c1e3a2290620cc2bb475964b7731fd",
+      "size": 112925,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/cb72cc5f72c1e3a2290620cc2bb475964b7731fd"
+    },
+    {
+      "path": "pictures/栈队列/2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "982c344fd3fd420f105ecb9bdbd2e6b25d0d1b0c",
+      "size": 107916,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/982c344fd3fd420f105ecb9bdbd2e6b25d0d1b0c"
+    },
+    {
+      "path": "pictures/栈队列/3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae9a8ef8d78c8016f9adc332b5f31090b7afbc12",
+      "size": 111617,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/ae9a8ef8d78c8016f9adc332b5f31090b7afbc12"
+    },
+    {
+      "path": "pictures/栈队列/4.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e29c85ea556f10291ac2332f127f69ffefaed383",
+      "size": 112109,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/e29c85ea556f10291ac2332f127f69ffefaed383"
+    },
+    {
+      "path": "pictures/栈队列/5.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d19d22355b116685ad2c10637d617c3047622de5",
+      "size": 109424,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/d19d22355b116685ad2c10637d617c3047622de5"
+    },
+    {
+      "path": "pictures/栈队列/6.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "891301d6ef30763482c173082e422074ba160a5f",
+      "size": 105095,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/891301d6ef30763482c173082e422074ba160a5f"
+    },
+    {
+      "path": "pictures/概率问题",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4d0bfb2be1cf0c764798ec0027b7b3a4b6072c37",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/4d0bfb2be1cf0c764798ec0027b7b3a4b6072c37"
+    },
+    {
+      "path": "pictures/概率问题/p.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "959c02bb27cf47c3e2c27a5088920018dcb67c5a",
+      "size": 25097,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/959c02bb27cf47c3e2c27a5088920018dcb67c5a"
+    },
+    {
+      "path": "pictures/概率问题/p.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edcc87be1ca52b570dd48f388a9ed75b8b7be3da",
+      "size": 9554,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/edcc87be1ca52b570dd48f388a9ed75b8b7be3da"
+    },
+    {
+      "path": "pictures/概率问题/sanmen.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "121a3cfd141366864d07801242f63419967c0fd7",
+      "size": 5447,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/121a3cfd141366864d07801242f63419967c0fd7"
+    },
+    {
+      "path": "pictures/概率问题/sanmen.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77e54dc4c4f2e1be8d0817372b75cd4d829228e0",
+      "size": 16013,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/77e54dc4c4f2e1be8d0817372b75cd4d829228e0"
+    },
+    {
+      "path": "pictures/概率问题/tree.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98c51178dafb2624463f680670ae93345873a3e5",
+      "size": 11657,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/98c51178dafb2624463f680670ae93345873a3e5"
+    },
+    {
+      "path": "pictures/正则",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2813cc210af7f814b8b115b4657ffba63c57063d",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/2813cc210af7f814b8b115b4657ffba63c57063d"
+    },
+    {
+      "path": "pictures/正则/1.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5977fcae675cd6363c06d87fae0c56ee5237ff5",
+      "size": 117167,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/e5977fcae675cd6363c06d87fae0c56ee5237ff5"
+    },
+    {
+      "path": "pictures/正则/2.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3fa3711a5b2cb4248b6e1e360c6ec9e644f5ffc",
+      "size": 118085,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/f3fa3711a5b2cb4248b6e1e360c6ec9e644f5ffc"
+    },
+    {
+      "path": "pictures/正则/3.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11d9838ddcf3c6bc7041d378be4f5dd0befb53b9",
+      "size": 118018,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/11d9838ddcf3c6bc7041d378be4f5dd0befb53b9"
+    },
+    {
+      "path": "pictures/正则/4.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24de1689273c8af4c516fc065ac750bd6c33f5d0",
+      "size": 113449,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/24de1689273c8af4c516fc065ac750bd6c33f5d0"
+    },
+    {
+      "path": "pictures/正则/example.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9eaace9963b503809fdf361221786e1de55bc289",
+      "size": 84965,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/9eaace9963b503809fdf361221786e1de55bc289"
+    },
+    {
+      "path": "pictures/正则/title.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6debfa67d6723dda263039c0d965acbccc345384",
+      "size": 58906,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/6debfa67d6723dda263039c0d965acbccc345384"
+    },
+    {
+      "path": "pictures/洗牌算法",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7d962e48c38315ad878c0b68a8c97db57e586b06",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/7d962e48c38315ad878c0b68a8c97db57e586b06"
+    },
+    {
+      "path": "pictures/洗牌算法/1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1414c8c4dc129f52f462b1a333b0960bcd144677",
+      "size": 8920,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/1414c8c4dc129f52f462b1a333b0960bcd144677"
+    },
+    {
+      "path": "pictures/洗牌算法/2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f769de386bad5d6cd85229a8fff8f418ccabf70",
+      "size": 8992,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/9f769de386bad5d6cd85229a8fff8f418ccabf70"
+    },
+    {
+      "path": "pictures/洗牌算法/3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "157d0826138e8800a323ab11fe7d45ce93c86960",
+      "size": 5854,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/157d0826138e8800a323ab11fe7d45ce93c86960"
+    },
+    {
+      "path": "pictures/洗牌算法/4.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06f0c040926b80df56999053141e9b1378e108db",
+      "size": 3210,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/06f0c040926b80df56999053141e9b1378e108db"
+    },
+    {
+      "path": "pictures/洗牌算法/5.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a1f94a022c9bf1c7cfd835887c6c00b61703f7d",
+      "size": 30758,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/0a1f94a022c9bf1c7cfd835887c6c00b61703f7d"
+    },
+    {
+      "path": "pictures/洗牌算法/6.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44c2c35a80a813a15868089f38fdc94419be2143",
+      "size": 11215,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/44c2c35a80a813a15868089f38fdc94419be2143"
+    },
+    {
+      "path": "pictures/滑动窗口",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bb5b344d78381addac780424b0485a15b9174a09",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/bb5b344d78381addac780424b0485a15b9174a09"
+    },
+    {
+      "path": "pictures/滑动窗口/0.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "974e71fc830396fe2d9320190d4641db673502be",
+      "size": 9373,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/974e71fc830396fe2d9320190d4641db673502be"
+    },
+    {
+      "path": "pictures/滑动窗口/1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2967070a4a93366bf39a9317e0ecc45a201b0140",
+      "size": 9557,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/2967070a4a93366bf39a9317e0ecc45a201b0140"
+    },
+    {
+      "path": "pictures/滑动窗口/2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95bfa5c2fe0665b3991d9c6ce3c47e823753b254",
+      "size": 9736,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/95bfa5c2fe0665b3991d9c6ce3c47e823753b254"
+    },
+    {
+      "path": "pictures/滑动窗口/3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65b5510a3edaccc2dc5e28ed5a538eb55acbf677",
+      "size": 9625,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/65b5510a3edaccc2dc5e28ed5a538eb55acbf677"
+    },
+    {
+      "path": "pictures/滑动窗口/title1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d5d2bc76cee1f2190a7dd4fcd17445164dc7273",
+      "size": 12179,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/3d5d2bc76cee1f2190a7dd4fcd17445164dc7273"
+    },
+    {
+      "path": "pictures/滑动窗口/title2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce357d5db2fb181b788f8faae5da96ebb64dd154",
+      "size": 22281,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/ce357d5db2fb181b788f8faae5da96ebb64dd154"
+    },
+    {
+      "path": "pictures/滑动窗口/title3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0de1770c3f735dd3f01ca544e3e131e140367a3f",
+      "size": 24545,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/0de1770c3f735dd3f01ca544e3e131e140367a3f"
+    },
+    {
+      "path": "pictures/缺失元素",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4cf78ca6495f3bc4512a94402f53c9a173a5db9e",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/4cf78ca6495f3bc4512a94402f53c9a173a5db9e"
+    },
+    {
+      "path": "pictures/缺失元素/1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "180b57081aed7e3aeb58b2c16b7702b64e0dd787",
+      "size": 109707,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/180b57081aed7e3aeb58b2c16b7702b64e0dd787"
+    },
+    {
+      "path": "pictures/缺失元素/2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44e1b8076ef45236fa6d93b35f35a10b907a87c8",
+      "size": 115250,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/44e1b8076ef45236fa6d93b35f35a10b907a87c8"
+    },
+    {
+      "path": "pictures/缺失元素/3.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bec62f3fffbf17ba8bab24b5201fb065ce763d49",
+      "size": 115087,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/bec62f3fffbf17ba8bab24b5201fb065ce763d49"
+    },
+    {
+      "path": "pictures/缺失元素/title.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b2eff0e45c1c2eade0f4bb20ffecc0cada0b688",
+      "size": 8159,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/4b2eff0e45c1c2eade0f4bb20ffecc0cada0b688"
+    },
+    {
+      "path": "pictures/缺失元素/xor.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cd5e85a6f11122c04cea997a1f73dc42971886c",
+      "size": 6287,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/1cd5e85a6f11122c04cea997a1f73dc42971886c"
+    },
+    {
+      "path": "pictures/股票问题",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "80e53642c4bec26f2a0866993445d2f7d907ce6b",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/80e53642c4bec26f2a0866993445d2f7d907ce6b"
+    },
+    {
+      "path": "pictures/股票问题/1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "298b4971971d6e850923f64ab74792b86aa5c668",
+      "size": 14774,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/298b4971971d6e850923f64ab74792b86aa5c668"
+    },
+    {
+      "path": "pictures/股票问题/title.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2f977954117e3643323d2eac4c3668f502835d1",
+      "size": 37564,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/f2f977954117e3643323d2eac4c3668f502835d1"
+    },
+    {
+      "path": "pictures/设计Twitter",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9584dcb066c385e279b82ec231e227ce802dd436",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/9584dcb066c385e279b82ec231e227ce802dd436"
+    },
+    {
+      "path": "pictures/设计Twitter/design.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2427a47e3f80c8164a00b88234a270e96431ebe9",
+      "size": 93143,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/2427a47e3f80c8164a00b88234a270e96431ebe9"
+    },
+    {
+      "path": "pictures/设计Twitter/merge.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "793ca7b270f10fd0b84a7e30c501649b78ff5777",
+      "size": 222758,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/793ca7b270f10fd0b84a7e30c501649b78ff5777"
+    },
+    {
+      "path": "pictures/设计Twitter/tweet.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cee1199abdae23d695a1495a6434e06c5dd68c67",
+      "size": 70675,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/cee1199abdae23d695a1495a6434e06c5dd68c67"
+    },
+    {
+      "path": "pictures/设计Twitter/user.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dce6b67e0aee2e4cf84c5ebda8c4531e5dcf1c02",
+      "size": 147776,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/dce6b67e0aee2e4cf84c5ebda8c4531e5dcf1c02"
+    },
+    {
+      "path": "starHistory.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2847906b4b894f751f0b94208e6b04d8bdc629e2",
+      "size": 161475,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/2847906b4b894f751f0b94208e6b04d8bdc629e2"
+    },
+    {
+      "path": "starHistory.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "340e80263c7d5283e8fd24055b874eeebf4ec04f",
+      "size": 26871,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/340e80263c7d5283e8fd24055b874eeebf4ec04f"
+    },
+    {
+      "path": "动态规划系列",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f8b6aab4f1234f9c7cebb412c21336165649b5a3",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/f8b6aab4f1234f9c7cebb412c21336165649b5a3"
+    },
+    {
+      "path": "动态规划系列/LCS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08507f1b2f66d714a8c280d3b9bdd6f93add4a1c",
+      "size": 17230,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/08507f1b2f66d714a8c280d3b9bdd6f93add4a1c"
+    },
+    {
+      "path": "动态规划系列/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dae5afb4ba73882163524eab2116cb19fc96f12",
+      "size": 929,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/8dae5afb4ba73882163524eab2116cb19fc96f12"
+    },
+    {
+      "path": "动态规划系列/动态规划之KMP字符匹配算法.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6991d3049189332953ace80bab866fcd3e2fdc3",
+      "size": 23712,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/a6991d3049189332953ace80bab866fcd3e2fdc3"
+    },
+    {
+      "path": "动态规划系列/动态规划之博弈问题.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3c64f5d6a6e86aad040d2097871dd2864eab386",
+      "size": 12152,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/d3c64f5d6a6e86aad040d2097871dd2864eab386"
+    },
+    {
+      "path": "动态规划系列/动态规划之四键键盘.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6a5a79cf6ebf8ac4227aa5d981ade668e28ddf2",
+      "size": 11459,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/b6a5a79cf6ebf8ac4227aa5d981ade668e28ddf2"
+    },
+    {
+      "path": "动态规划系列/动态规划之正则表达.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bad9314251e9930ed073f284435fe96595b0da3c",
+      "size": 13308,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/bad9314251e9930ed073f284435fe96595b0da3c"
+    },
+    {
+      "path": "动态规划系列/动态规划设计：最长递增子序列.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac5a4f793997b179b4d4ca47026c45bc2ac7d190",
+      "size": 18124,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/ac5a4f793997b179b4d4ca47026c45bc2ac7d190"
+    },
+    {
+      "path": "动态规划系列/动态规划详解进阶.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95feea2b83804bfaa8206e060fce0f9f6e48550b",
+      "size": 36403,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/95feea2b83804bfaa8206e060fce0f9f6e48550b"
+    },
+    {
+      "path": "动态规划系列/单词拼接.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cba8ca949bb3849c1edbed1c77414791376011ac",
+      "size": 24911,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/cba8ca949bb3849c1edbed1c77414791376011ac"
+    },
+    {
+      "path": "动态规划系列/团灭股票问题.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff4cd9c9bebfcbc895fff5e26483143a2f5999d2",
+      "size": 35443,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/ff4cd9c9bebfcbc895fff5e26483143a2f5999d2"
+    },
+    {
+      "path": "动态规划系列/子序列问题模板.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b7fb43724c4f037162658304fe2022a00e033cc",
+      "size": 13154,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/9b7fb43724c4f037162658304fe2022a00e033cc"
+    },
+    {
+      "path": "动态规划系列/抢房子.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b27313c5accb7d862176da1cac164dd6b1a3c2f",
+      "size": 13577,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/3b27313c5accb7d862176da1cac164dd6b1a3c2f"
+    },
+    {
+      "path": "动态规划系列/最优子结构.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf32b7aed78809895fd7bd2213e49dc7de8d2471",
+      "size": 20799,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/bf32b7aed78809895fd7bd2213e49dc7de8d2471"
+    },
+    {
+      "path": "动态规划系列/状态压缩技巧.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c0c09a2bb2ccb171a460c3f74b5bdefbfcbace9",
+      "size": 13110,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/3c0c09a2bb2ccb171a460c3f74b5bdefbfcbace9"
+    },
+    {
+      "path": "动态规划系列/编辑距离.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75691018f979067cc8f6f83457e90b32597face5",
+      "size": 18756,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/75691018f979067cc8f6f83457e90b32597face5"
+    },
+    {
+      "path": "动态规划系列/背包问题.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "faff96106c0608c28c61d3275faecef72b52114b",
+      "size": 8609,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/faff96106c0608c28c61d3275faecef72b52114b"
+    },
+    {
+      "path": "动态规划系列/贪心算法之区间调度问题.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f03859a7c4bc5c57ceea5959211fefa3495058f9",
+      "size": 9406,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/f03859a7c4bc5c57ceea5959211fefa3495058f9"
+    },
+    {
+      "path": "动态规划系列/高楼扔鸡蛋问题.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56fa24f9ec56fa31d3720eb64dba2468af3376e4",
+      "size": 23289,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/56fa24f9ec56fa31d3720eb64dba2468af3376e4"
+    },
+    {
+      "path": "动态规划系列/魔塔.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8353f7f5aa205bebeb3495665a712babd3ffc40",
+      "size": 10053,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/c8353f7f5aa205bebeb3495665a712babd3ffc40"
+    },
+    {
+      "path": "多语言解法代码",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3d89248160ec4c62904dd158afd5248985244b02",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/3d89248160ec4c62904dd158afd5248985244b02"
+    },
+    {
+      "path": "多语言解法代码/contribution-guide.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0336bb3d4c9234d77105f6b250ed48ff6a0320eb",
+      "size": 4488,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/0336bb3d4c9234d77105f6b250ed48ff6a0320eb"
+    },
+    {
+      "path": "多语言解法代码/solution_code.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "900137b7e779524c3e7bd16ac044a26e19b795ee",
+      "size": 1975021,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/900137b7e779524c3e7bd16ac044a26e19b795ee"
+    },
+    {
+      "path": "技术",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6377b088339f278b09cb01638840a00af91af76f",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/6377b088339f278b09cb01638840a00af91af76f"
+    },
+    {
+      "path": "技术/linuxshell.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40770abe70919034a2f42ca4b2c30176ec40ba0b",
+      "size": 13674,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/40770abe70919034a2f42ca4b2c30176ec40ba0b"
+    },
+    {
+      "path": "技术/linux进程.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd111459fd9d266f322438fac1b3f77bac659dc9",
+      "size": 8840,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/cd111459fd9d266f322438fac1b3f77bac659dc9"
+    },
+    {
+      "path": "技术/redis入侵.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e43837d0580d1ea295681353cbab09d9a570432",
+      "size": 6512,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/1e43837d0580d1ea295681353cbab09d9a570432"
+    },
+    {
+      "path": "技术/session和cookie.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25ba2e78ff571066534c0476cd282e6a851d5a35",
+      "size": 10759,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/25ba2e78ff571066534c0476cd282e6a851d5a35"
+    },
+    {
+      "path": "技术/刷题技巧.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "158aedf18598f7784ca405228a975420634875b3",
+      "size": 12957,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/158aedf18598f7784ca405228a975420634875b3"
+    },
+    {
+      "path": "技术/在线练习平台.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "871cdd2ff71f8a0f334ac81ff3c9749b829ce7f0",
+      "size": 5773,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/871cdd2ff71f8a0f334ac81ff3c9749b829ce7f0"
+    },
+    {
+      "path": "技术/密码技术.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a795dede86547b310bb8c0f6fcc3b3c0a32a467f",
+      "size": 15791,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/a795dede86547b310bb8c0f6fcc3b3c0a32a467f"
+    },
+    {
+      "path": "数据结构系列",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "99a32b36884c8b23126754d149b52c5e1fcd1f8a",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/99a32b36884c8b23126754d149b52c5e1fcd1f8a"
+    },
+    {
+      "path": "数据结构系列/BST1.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b40e5374a994bc08fee4e27f506dfd1900cf145c",
+      "size": 11696,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/b40e5374a994bc08fee4e27f506dfd1900cf145c"
+    },
+    {
+      "path": "数据结构系列/BST2.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d85dc16dd0e1beb230633d5c053bff6bf3204b8b",
+      "size": 15410,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/d85dc16dd0e1beb230633d5c053bff6bf3204b8b"
+    },
+    {
+      "path": "数据结构系列/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b64bc4743b1a3cbd4a75f50eb9896f344f825e1",
+      "size": 340,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/4b64bc4743b1a3cbd4a75f50eb9896f344f825e1"
+    },
+    {
+      "path": "数据结构系列/dijkstra算法.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a870b9201347f07297376e43ea1f1e4750e70ef3",
+      "size": 18907,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/a870b9201347f07297376e43ea1f1e4750e70ef3"
+    },
+    {
+      "path": "数据结构系列/二叉堆详解实现优先级队列.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00e2975e55c943b3f9380ff6215e51c49908c28d",
+      "size": 2522,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/00e2975e55c943b3f9380ff6215e51c49908c28d"
+    },
+    {
+      "path": "数据结构系列/二叉树总结.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a08aea4705140d8626568607100f54b9d1c7c045",
+      "size": 69760,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/a08aea4705140d8626568607100f54b9d1c7c045"
+    },
+    {
+      "path": "数据结构系列/二叉树系列1.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38d8d5b0907470d3e5fa75c24b4640fb4feaf40f",
+      "size": 16394,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/38d8d5b0907470d3e5fa75c24b4640fb4feaf40f"
+    },
+    {
+      "path": "数据结构系列/二叉树系列2.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c116d632025616a12e26c0ab17713172d2ee2f79",
+      "size": 25088,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/c116d632025616a12e26c0ab17713172d2ee2f79"
+    },
+    {
+      "path": "数据结构系列/单调栈.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f8b9b4362dcfc4db1a17ca3a8236736848eba76",
+      "size": 14270,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/3f8b9b4362dcfc4db1a17ca3a8236736848eba76"
+    },
+    {
+      "path": "数据结构系列/单调队列.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45514d03d4928f8ad13223de80b3d1060c76b64c",
+      "size": 15052,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/45514d03d4928f8ad13223de80b3d1060c76b64c"
+    },
+    {
+      "path": "数据结构系列/图.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfcadc1e2fcb70764e97a9caece0c48481db1acf",
+      "size": 19495,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/dfcadc1e2fcb70764e97a9caece0c48481db1acf"
+    },
+    {
+      "path": "数据结构系列/实现计算器.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b309b73833e761b645c9106ce76498e348c4b83f",
+      "size": 15115,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/b309b73833e761b645c9106ce76498e348c4b83f"
+    },
+    {
+      "path": "数据结构系列/拓扑排序.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c90875efae0e5163198797128fc9ba7ee2671b00",
+      "size": 26183,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/c90875efae0e5163198797128fc9ba7ee2671b00"
+    },
+    {
+      "path": "数据结构系列/设计Twitter.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2574b870abc8231567fc00248e811c8489afd36",
+      "size": 11691,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/c2574b870abc8231567fc00248e811c8489afd36"
+    },
+    {
+      "path": "数据结构系列/递归反转链表的一部分.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd0fcb9833b96c3af445f64a0b7e3d98b40807a7",
+      "size": 20506,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/dd0fcb9833b96c3af445f64a0b7e3d98b40807a7"
+    },
+    {
+      "path": "数据结构系列/队列实现栈栈实现队列.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ef325ba29d0819e84e1009f6f4687a0ba6815a8",
+      "size": 9574,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/7ef325ba29d0819e84e1009f6f4687a0ba6815a8"
+    },
+    {
+      "path": "算法思维系列",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d26a3d64230b5468f542876da4d31a0e9ebcdd9a",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/d26a3d64230b5468f542876da4d31a0e9ebcdd9a"
+    },
+    {
+      "path": "算法思维系列/BFS框架.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80054eff736951a05110a6fbf91f2f1e5486948c",
+      "size": 34536,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/80054eff736951a05110a6fbf91f2f1e5486948c"
+    },
+    {
+      "path": "算法思维系列/BFS解决滑动拼图.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1601a6e1eff66823d76c9cadf64901a428d2e60",
+      "size": 10308,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/f1601a6e1eff66823d76c9cadf64901a428d2e60"
+    },
+    {
+      "path": "算法思维系列/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1a6268bc78f345576cdc05c596daf96ce94bfe7",
+      "size": 322,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/d1a6268bc78f345576cdc05c596daf96ce94bfe7"
+    },
+    {
+      "path": "算法思维系列/UnionFind算法详解.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6e4be4cbda1f8171b0313ade94711e837683bdc",
+      "size": 18995,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/c6e4be4cbda1f8171b0313ade94711e837683bdc"
+    },
+    {
+      "path": "算法思维系列/二分查找详解.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d03e5e7c858032255b8a48f988001788e5e00be6",
+      "size": 32270,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/d03e5e7c858032255b8a48f988001788e5e00be6"
+    },
+    {
+      "path": "算法思维系列/几个反直觉的概率问题.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7388c9d0dac47a8f178b9c6eae505780db207017",
+      "size": 9841,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/7388c9d0dac47a8f178b9c6eae505780db207017"
+    },
+    {
+      "path": "算法思维系列/前缀和技巧.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d38bd06801c872f93a37bf67869e4a8d950f775a",
+      "size": 12983,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/d38bd06801c872f93a37bf67869e4a8d950f775a"
+    },
+    {
+      "path": "算法思维系列/双指针技巧.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6662d7a0045810274d3b8219eaf847c0ca5e6eae",
+      "size": 23036,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/6662d7a0045810274d3b8219eaf847c0ca5e6eae"
+    },
+    {
+      "path": "算法思维系列/回溯算法详解修订版.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a0a536cbcb12a14bf24dd9d0f689c4215aafd25",
+      "size": 19460,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/6a0a536cbcb12a14bf24dd9d0f689c4215aafd25"
+    },
+    {
+      "path": "算法思维系列/字符串乘法.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93166895cbb118e3298643beb9bf69bb8ffecbd3",
+      "size": 5142,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/93166895cbb118e3298643beb9bf69bb8ffecbd3"
+    },
+    {
+      "path": "算法思维系列/学习数据结构和算法的高效方法.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "711687cf943e7accbc6f517cc8a4a836ec785b25",
+      "size": 21167,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/711687cf943e7accbc6f517cc8a4a836ec785b25"
+    },
+    {
+      "path": "算法思维系列/差分技巧.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97804f6b5fadf5d90ad8f18131cd5630aa681354",
+      "size": 11844,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/97804f6b5fadf5d90ad8f18131cd5630aa681354"
+    },
+    {
+      "path": "算法思维系列/常用的位操作.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d27023e17e0509e51a72b13b7ba74a799dd9345",
+      "size": 12094,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/8d27023e17e0509e51a72b13b7ba74a799dd9345"
+    },
+    {
+      "path": "算法思维系列/洗牌算法.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cbf7e7f24b9b120abff72ebd092b04be27ce0ac",
+      "size": 12790,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/0cbf7e7f24b9b120abff72ebd092b04be27ce0ac"
+    },
+    {
+      "path": "算法思维系列/滑动窗口技巧进阶.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f48ecdcd715ec166ff6f1d20157eb3de14c2796b",
+      "size": 29706,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/f48ecdcd715ec166ff6f1d20157eb3de14c2796b"
+    },
+    {
+      "path": "算法思维系列/烧饼排序.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de77684e9f320c26b138f69510686b8cb9e95af4",
+      "size": 5994,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/de77684e9f320c26b138f69510686b8cb9e95af4"
+    },
+    {
+      "path": "算法思维系列/花式遍历.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "432e92915baeab7a94ba1e0bdca27450c5ba3b7b",
+      "size": 15322,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/432e92915baeab7a94ba1e0bdca27450c5ba3b7b"
+    },
+    {
+      "path": "算法思维系列/集合划分.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ce0d45b040db03a16b2ecdab806efa5e23d0f09",
+      "size": 23312,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/1ce0d45b040db03a16b2ecdab806efa5e23d0f09"
+    },
+    {
+      "path": "高频面试系列",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0dc4c898cbae815019d8079078dd41965bacfc1b",
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/trees/0dc4c898cbae815019d8079078dd41965bacfc1b"
+    },
+    {
+      "path": "高频面试系列/LRU算法.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db28dcd7acd78e66a0181d309533737f22824c58",
+      "size": 19283,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/db28dcd7acd78e66a0181d309533737f22824c58"
+    },
+    {
+      "path": "高频面试系列/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e9823392d90e832b41bdc14ac9f60a608c47164",
+      "size": 235,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/3e9823392d90e832b41bdc14ac9f60a608c47164"
+    },
+    {
+      "path": "高频面试系列/k个一组反转链表.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62688a4d7e35e4973be774230f512fe0c61fd3ad",
+      "size": 10193,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/62688a4d7e35e4973be774230f512fe0c61fd3ad"
+    },
+    {
+      "path": "高频面试系列/一行代码解决的智力题.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e5bdc51ef4b8df492f93221a9a772ab32012e86",
+      "size": 12351,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/1e5bdc51ef4b8df492f93221a9a772ab32012e86"
+    },
+    {
+      "path": "高频面试系列/二分查找判定子序列.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6719573674589a47d8f7eacb9e31d9bbdf36923c",
+      "size": 12698,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/6719573674589a47d8f7eacb9e31d9bbdf36923c"
+    },
+    {
+      "path": "高频面试系列/二分运用.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e10782e306f8682e83bb33a7d7047cb5d6fb0c3b",
+      "size": 24783,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/e10782e306f8682e83bb33a7d7047cb5d6fb0c3b"
+    },
+    {
+      "path": "高频面试系列/判断回文链表.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5c39b7a2e31f78c7cd2ab595faab8bf7d118df9",
+      "size": 10167,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/d5c39b7a2e31f78c7cd2ab595faab8bf7d118df9"
+    },
+    {
+      "path": "高频面试系列/名人问题.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80d2b72474d94c2a5db8927d759775112550b18e",
+      "size": 11267,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/80d2b72474d94c2a5db8927d759775112550b18e"
+    },
+    {
+      "path": "高频面试系列/子集排列组合.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b71e0d0eb8e0a7d9b5ebb4b19eec110b2541564b",
+      "size": 41674,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/b71e0d0eb8e0a7d9b5ebb4b19eec110b2541564b"
+    },
+    {
+      "path": "高频面试系列/安排会议室.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69bc2b22a37e7b21b708b5dec135f6f8e7a17e7f",
+      "size": 11560,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/69bc2b22a37e7b21b708b5dec135f6f8e7a17e7f"
+    },
+    {
+      "path": "高频面试系列/岛屿题目.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1aa72d8ebee0cc66a2bdcf7beb99569841cacb24",
+      "size": 23765,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/1aa72d8ebee0cc66a2bdcf7beb99569841cacb24"
+    },
+    {
+      "path": "高频面试系列/座位调度.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c2b3dd4d62faa6a563d3d5deb381b43313d36f8",
+      "size": 13472,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/9c2b3dd4d62faa6a563d3d5deb381b43313d36f8"
+    },
+    {
+      "path": "高频面试系列/打印素数.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3444241663605376d3843c7bcd1f42c0454db27",
+      "size": 7664,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/c3444241663605376d3843c7bcd1f42c0454db27"
+    },
+    {
+      "path": "高频面试系列/接雨水.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b2173feeaefc128c0494c0b15fc927aa02e07c5",
+      "size": 11967,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/8b2173feeaefc128c0494c0b15fc927aa02e07c5"
+    },
+    {
+      "path": "高频面试系列/缺失和重复的元素.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92e5b0f7c93bfdaa7d6eb09e0f09eeaa6203dcee",
+      "size": 7642,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/92e5b0f7c93bfdaa7d6eb09e0f09eeaa6203dcee"
+    },
+    {
+      "path": "高频面试系列/随机权重.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9144fd373b71d355e159244d804a4e4421c5fad6",
+      "size": 10650,
+      "url": "https://api.github.com/repos/labuladong/fucking-algorithm/git/blobs/9144fd373b71d355e159244d804a4e4421c5fad6"
+    }
+  ],
+  "truncated": false
+}

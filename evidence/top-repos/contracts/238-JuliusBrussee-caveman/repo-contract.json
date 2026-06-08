@@ -1,0 +1,90 @@
+{
+  "harvested_at": "2026-06-07T20:51:34.9163212+03:00",
+  "rank": 238,
+  "repository": "JuliusBrussee/caveman",
+  "url": "https://github.com/JuliusBrussee/caveman",
+  "language": "JavaScript",
+  "stars": 69723,
+  "default_branch": "main",
+  "contract_strength": "readme_plus_runtime_hints",
+  "candidate_qaas_surfaces": [
+    "ci-documented-command-discovery",
+    "node-service-or-package-contract",
+    "jvm-service-contract"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\238-JuliusBrussee-caveman\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\238-JuliusBrussee-caveman\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [],
+    "ci": [
+      ".github/workflows/sync-skill.yml"
+    ],
+    "containers": [],
+    "dotnet": [],
+    "node": [
+      "package.json",
+      "src/hooks/package.json",
+      "src/mcp-servers/caveman-shrink/package.json",
+      "src/plugins/opencode/package.json"
+    ],
+    "python": [
+      "benchmarks/requirements.txt"
+    ],
+    "go": [],
+    "java": [],
+    "rust": [],
+    "docs": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "docs/.nojekyll",
+      "docs/assets/dancing-rock-32.png",
+      "docs/assets/dancing-rock.svg",
+      "docs/index.html",
+      "docs/install-windows.md",
+      "evals/README.md",
+      "skills/cavecrew/README.md",
+      "skills/caveman-commit/README.md",
+      "skills/caveman-compress/README.md",
+      "skills/caveman-compress/SECURITY.md",
+      "skills/caveman-help/README.md",
+      "skills/caveman-review/README.md",
+      "skills/caveman-stats/README.md",
+      "skills/caveman/README.md",
+      "src/hooks/README.md",
+      "src/mcp-servers/caveman-shrink/README.md",
+      "src/plugins/opencode/README.md"
+    ],
+    "tests": [
+      "tests/caveman-compress/claude-md-preferences.md",
+      "tests/caveman-compress/claude-md-preferences.original.md",
+      "tests/caveman-compress/claude-md-project.md",
+      "tests/caveman-compress/claude-md-project.original.md",
+      "tests/caveman-compress/mixed-with-code.md",
+      "tests/caveman-compress/mixed-with-code.original.md",
+      "tests/caveman-compress/project-notes.md",
+      "tests/caveman-compress/project-notes.original.md",
+      "tests/caveman-compress/todo-list.md",
+      "tests/caveman-compress/todo-list.original.md",
+      "tests/installer/e2e.dryrun.test.mjs",
+      "tests/installer/e2e.freshinstall.test.mjs",
+      "tests/installer/opencode.test.mjs",
+      "tests/installer/unit.argv.test.mjs",
+      "tests/installer/unit.settings.test.mjs",
+      "tests/test_caveman_init.js",
+      "tests/test_caveman_stats.js",
+      "tests/test_compress_safety.py",
+      "tests/test_hooks.py",
+      "tests/test_mcp_shrink.js",
+      "tests/test_symlink_flag.js",
+      "tests/test_validate_inline.py",
+      "tests/verify_repo.py"
+    ]
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\238-JuliusBrussee-caveman\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\238-JuliusBrussee-caveman\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

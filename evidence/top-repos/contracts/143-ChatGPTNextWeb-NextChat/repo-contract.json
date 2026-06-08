@@ -1,0 +1,111 @@
+{
+  "harvested_at": "2026-06-07T20:48:29.0839149+03:00",
+  "rank": 143,
+  "repository": "ChatGPTNextWeb/NextChat",
+  "url": "https://github.com/ChatGPTNextWeb/NextChat",
+  "language": "TypeScript",
+  "stars": 88186,
+  "default_branch": "main",
+  "contract_strength": "readme_plus_runtime_hints",
+  "candidate_qaas_surfaces": [
+    "containerized-runtime-smoke",
+    "ci-documented-command-discovery",
+    "node-service-or-package-contract"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\143-ChatGPTNextWeb-NextChat\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\143-ChatGPTNextWeb-NextChat\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [],
+    "ci": [
+      ".github/workflows/app.yml",
+      ".github/workflows/deploy_preview.yml",
+      ".github/workflows/docker.yml",
+      ".github/workflows/issue-translator.yml",
+      ".github/workflows/remove_deploy_preview.yml",
+      ".github/workflows/sync.yml",
+      ".github/workflows/test.yml"
+    ],
+    "containers": [
+      "Dockerfile",
+      "docker-compose.yml"
+    ],
+    "dotnet": [],
+    "node": [
+      "package.json",
+      "tsconfig.json",
+      "yarn.lock"
+    ],
+    "python": [],
+    "go": [],
+    "java": [],
+    "rust": [
+      "src-tauri/Cargo.lock",
+      "src-tauri/Cargo.toml"
+    ],
+    "docs": [
+      "README.md",
+      "README_CN.md",
+      "README_JA.md",
+      "README_KO.md",
+      "app/api/302ai.ts",
+      "app/api/[provider]/[...path]/route.ts",
+      "app/api/alibaba.ts",
+      "app/api/anthropic.ts",
+      "app/api/artifacts/route.ts",
+      "app/api/auth.ts",
+      "app/api/azure.ts",
+      "app/api/baidu.ts",
+      "app/api/bytedance.ts",
+      "app/api/common.ts",
+      "app/api/config/route.ts",
+      "app/api/deepseek.ts",
+      "app/api/glm.ts",
+      "app/api/google.ts",
+      "app/api/iflytek.ts",
+      "app/api/moonshot.ts",
+      "app/api/openai.ts",
+      "app/api/proxy.ts",
+      "app/api/siliconflow.ts",
+      "app/api/stability.ts",
+      "app/api/tencent/route.ts",
+      "app/api/upstash/[action]/[...key]/route.ts",
+      "app/api/webdav/[...path]/route.ts",
+      "app/api/xai.ts",
+      "app/client/api.ts",
+      "docs/bt-cn.md",
+      "docs/cloudflare-pages-cn.md",
+      "docs/cloudflare-pages-en.md",
+      "docs/cloudflare-pages-es.md",
+      "docs/cloudflare-pages-ja.md",
+      "docs/cloudflare-pages-ko.md",
+      "docs/faq-cn.md",
+      "docs/faq-en.md",
+      "docs/faq-es.md",
+      "docs/faq-ja.md",
+      "docs/faq-ko.md",
+      "docs/images/bt/bt-install-1.jpeg",
+      "docs/images/bt/bt-install-2.jpeg",
+      "docs/images/bt/bt-install-3.jpeg",
+      "docs/images/bt/bt-install-4.jpeg",
+      "docs/images/bt/bt-install-5.jpeg",
+      "docs/images/bt/bt-install-6.jpeg",
+      "docs/images/cover.png",
+      "docs/images/enable-actions-sync.jpg",
+      "docs/images/enable-actions.jpg",
+      "docs/images/ent.svg"
+    ],
+    "tests": [
+      "test/model-available.test.ts",
+      "test/model-provider.test.ts",
+      "test/sum-module.test.ts",
+      "test/vision-model-checker.test.ts"
+    ]
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\143-ChatGPTNextWeb-NextChat\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\143-ChatGPTNextWeb-NextChat\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

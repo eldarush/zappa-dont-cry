@@ -1,0 +1,92 @@
+{
+  "harvested_at": "2026-06-07T20:45:00.9043565+03:00",
+  "rank": 64,
+  "repository": "anthropics/claude-code",
+  "url": "https://github.com/anthropics/claude-code",
+  "language": "Python",
+  "stars": 130833,
+  "default_branch": "main",
+  "contract_strength": "contract_files_found",
+  "candidate_qaas_surfaces": [
+    "api-contract-validation",
+    "runner-yaml-from-public-contract",
+    "containerized-runtime-smoke",
+    "ci-documented-command-discovery",
+    "python-cli-or-service-contract"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\064-anthropics-claude-code\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\064-anthropics-claude-code\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [
+      "plugins/plugin-dev/skills/hook-development/scripts/validate-hook-schema.sh"
+    ],
+    "ci": [
+      ".github/workflows/auto-close-duplicates.yml",
+      ".github/workflows/backfill-duplicate-comments.yml",
+      ".github/workflows/claude-dedupe-issues.yml",
+      ".github/workflows/claude-issue-triage.yml",
+      ".github/workflows/claude.yml",
+      ".github/workflows/issue-lifecycle-comment.yml",
+      ".github/workflows/issue-opened-dispatch.yml",
+      ".github/workflows/lock-closed-issues.yml",
+      ".github/workflows/log-issue-events.yml",
+      ".github/workflows/non-write-users-check.yml",
+      ".github/workflows/remove-autoclose-label.yml",
+      ".github/workflows/sweep.yml"
+    ],
+    "containers": [
+      ".devcontainer/Dockerfile"
+    ],
+    "dotnet": [],
+    "node": [],
+    "python": [],
+    "go": [],
+    "java": [],
+    "rust": [],
+    "docs": [
+      "CHANGELOG.md",
+      "README.md",
+      "SECURITY.md",
+      "examples/mdm/README.md",
+      "examples/settings/README.md",
+      "plugins/README.md",
+      "plugins/agent-sdk-dev/README.md",
+      "plugins/claude-opus-4-5-migration/README.md",
+      "plugins/code-review/README.md",
+      "plugins/commit-commands/README.md",
+      "plugins/explanatory-output-style/README.md",
+      "plugins/feature-dev/README.md",
+      "plugins/frontend-design/README.md",
+      "plugins/hookify/README.md",
+      "plugins/learning-output-style/README.md",
+      "plugins/plugin-dev/README.md",
+      "plugins/plugin-dev/skills/command-development/README.md",
+      "plugins/plugin-dev/skills/hook-development/scripts/README.md",
+      "plugins/plugin-dev/skills/plugin-structure/README.md",
+      "plugins/pr-review-toolkit/README.md",
+      "plugins/ralph-wiggum/README.md",
+      "plugins/security-guidance/.claude-plugin/plugin.json",
+      "plugins/security-guidance/README.md",
+      "plugins/security-guidance/hooks/_base.py",
+      "plugins/security-guidance/hooks/diffstate.py",
+      "plugins/security-guidance/hooks/ensure_agent_sdk.py",
+      "plugins/security-guidance/hooks/extensibility.py",
+      "plugins/security-guidance/hooks/gitutil.py",
+      "plugins/security-guidance/hooks/hooks.json",
+      "plugins/security-guidance/hooks/llm.py",
+      "plugins/security-guidance/hooks/patterns.py",
+      "plugins/security-guidance/hooks/review_api.py",
+      "plugins/security-guidance/hooks/security_reminder_hook.py",
+      "plugins/security-guidance/hooks/session_state.py",
+      "plugins/security-guidance/hooks/sg-python.sh"
+    ],
+    "tests": []
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\064-anthropics-claude-code\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\064-anthropics-claude-code\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

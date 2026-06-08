@@ -1,0 +1,293 @@
+﻿{
+    "schema_version":  1,
+    "harvested_at":  "2026-06-08T17:07:10.1775828+03:00",
+    "repository":  "fastapi/fastapi",
+    "rank":  114,
+    "source_contract":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\repo-contract.json",
+    "readme_snapshot":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\README.snapshot.md",
+    "tree_snapshot":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\tree.snapshot.json",
+    "status":  "contract_content_harvested_not_executable",
+    "promotion_state":  "blocked",
+    "readiness_state":  "selected_public_contract_content_harvested",
+    "policy":  "Exact small public GitHub blob contents only; no cloning, no repository execution, no executable QaaS promotion.",
+    "max_file_bytes":  65536,
+    "fetched_files":  [
+                          {
+                              "source_path":  "README.md",
+                              "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\README.md",
+                              "sha":  "86e75109010e35f1eb284ccbed89cd28028dab7d",
+                              "git_blob_sha_verified":  true,
+                              "content_sha256":  "473beb2ceb4eb0fb9b7a4dc8791b7b2124aca0b0973ef786d85e53216a089831",
+                              "size":  24052,
+                              "fetched_size":  24052,
+                              "reason":  "canonical-readme-contract",
+                              "github_blob_url":  "https://api.github.com/repos/fastapi/fastapi/git/blobs/86e75109010e35f1eb284ccbed89cd28028dab7d"
+                          },
+                          {
+                              "source_path":  "pyproject.toml",
+                              "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\pyproject.toml",
+                              "sha":  "daa523ce28d8a4228f2053cb25b48b524cffa57c",
+                              "git_blob_sha_verified":  true,
+                              "content_sha256":  "e7aa37e64103ba05507140fcfbe8da41348645fd9cb7c3ee9a674a7e149d8b92",
+                              "size":  9709,
+                              "fetched_size":  9709,
+                              "reason":  "python-runtime-contract",
+                              "github_blob_url":  "https://api.github.com/repos/fastapi/fastapi/git/blobs/daa523ce28d8a4228f2053cb25b48b524cffa57c"
+                          },
+                          {
+                              "source_path":  "docs/de/docs/advanced/openapi-callbacks.md",
+                              "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-callbacks.md",
+                              "sha":  "0d2471489a756dbbc96e73dd2904638b02541a39",
+                              "git_blob_sha_verified":  true,
+                              "content_sha256":  "97c9eeaf2d3690d65e78f505bd3e605dadee1757731bdfb679c340e0de91d955",
+                              "size":  9162,
+                              "fetched_size":  9162,
+                              "reason":  "api-contract-match",
+                              "github_blob_url":  "https://api.github.com/repos/fastapi/fastapi/git/blobs/0d2471489a756dbbc96e73dd2904638b02541a39"
+                          },
+                          {
+                              "source_path":  "docs/de/docs/advanced/openapi-webhooks.md",
+                              "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-webhooks.md",
+                              "sha":  "e6984de74f5d91c006cbb82e49b4ebcfc28af4a2",
+                              "git_blob_sha_verified":  true,
+                              "content_sha256":  "a5d8eeefc485670f541c6625a14e0798d9c20f40ae43c81a88e8a3742b1b564f",
+                              "size":  3587,
+                              "fetched_size":  3587,
+                              "reason":  "api-contract-match",
+                              "github_blob_url":  "https://api.github.com/repos/fastapi/fastapi/git/blobs/e6984de74f5d91c006cbb82e49b4ebcfc28af4a2"
+                          },
+                          {
+                              "source_path":  "docs/de/docs/how-to/conditional-openapi.md",
+                              "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\how-to\\conditional-openapi.md",
+                              "sha":  "dc873c9c939133f1c6aa056c3a22a3d899dd1042",
+                              "git_blob_sha_verified":  true,
+                              "content_sha256":  "602b5accd3e083a0c90b0594ed2bcc7ee8ee82f59e4a70335696935f6a21dd1a",
+                              "size":  3021,
+                              "fetched_size":  3021,
+                              "reason":  "api-contract-match",
+                              "github_blob_url":  "https://api.github.com/repos/fastapi/fastapi/git/blobs/dc873c9c939133f1c6aa056c3a22a3d899dd1042"
+                          },
+                          {
+                              "source_path":  ".github/workflows/add-to-project.yml",
+                              "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\add-to-project.yml",
+                              "sha":  "35d089860c07306cb8c912c67f60c5679b5d3094",
+                              "git_blob_sha_verified":  true,
+                              "content_sha256":  "74f130b855a5aad1b33855f5a3408cd37e0012624f85f2e99195495d69a93515",
+                              "size":  526,
+                              "fetched_size":  526,
+                              "reason":  "ci-runtime-command-contract",
+                              "github_blob_url":  "https://api.github.com/repos/fastapi/fastapi/git/blobs/35d089860c07306cb8c912c67f60c5679b5d3094"
+                          },
+                          {
+                              "source_path":  ".github/workflows/build-docs.yml",
+                              "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\build-docs.yml",
+                              "sha":  "128b69e94d372c2ea1999afced0b8a19d7208585",
+                              "git_blob_sha_verified":  true,
+                              "content_sha256":  "a0be13b26735c5bbf2e77f93ce202a6e581576d09d04a9b881dfc4f4d46d1562",
+                              "size":  4904,
+                              "fetched_size":  4904,
+                              "reason":  "ci-runtime-command-contract",
+                              "github_blob_url":  "https://api.github.com/repos/fastapi/fastapi/git/blobs/128b69e94d372c2ea1999afced0b8a19d7208585"
+                          },
+                          {
+                              "source_path":  "scripts/tests/test_translation_fixer/conftest.py",
+                              "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\scripts\\tests\\test_translation_fixer\\conftest.py",
+                              "sha":  "5c5c0e2dc3db5236fecdbb513ec8c8bdb0c5b4ea",
+                              "git_blob_sha_verified":  true,
+                              "content_sha256":  "0a8707cb9d97ca84e6e1da9b43258ef5eefdb4974a3e54a9168710e1d5f649e2",
+                              "size":  1637,
+                              "fetched_size":  1637,
+                              "reason":  "public-test-contract",
+                              "github_blob_url":  "https://api.github.com/repos/fastapi/fastapi/git/blobs/5c5c0e2dc3db5236fecdbb513ec8c8bdb0c5b4ea"
+                          }
+                      ],
+    "selected_public_contracts":  [
+                                      {
+                                          "source_path":  "README.md",
+                                          "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\README.md",
+                                          "sha":  "86e75109010e35f1eb284ccbed89cd28028dab7d",
+                                          "git_blob_sha_verified":  true,
+                                          "content_sha256":  "473beb2ceb4eb0fb9b7a4dc8791b7b2124aca0b0973ef786d85e53216a089831",
+                                          "size":  24052,
+                                          "fetched_size":  24052,
+                                          "reason":  "canonical-readme-contract",
+                                          "github_blob_url":  "https://api.github.com/repos/fastapi/fastapi/git/blobs/86e75109010e35f1eb284ccbed89cd28028dab7d"
+                                      },
+                                      {
+                                          "source_path":  "pyproject.toml",
+                                          "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\pyproject.toml",
+                                          "sha":  "daa523ce28d8a4228f2053cb25b48b524cffa57c",
+                                          "git_blob_sha_verified":  true,
+                                          "content_sha256":  "e7aa37e64103ba05507140fcfbe8da41348645fd9cb7c3ee9a674a7e149d8b92",
+                                          "size":  9709,
+                                          "fetched_size":  9709,
+                                          "reason":  "python-runtime-contract",
+                                          "github_blob_url":  "https://api.github.com/repos/fastapi/fastapi/git/blobs/daa523ce28d8a4228f2053cb25b48b524cffa57c"
+                                      },
+                                      {
+                                          "source_path":  "docs/de/docs/advanced/openapi-callbacks.md",
+                                          "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-callbacks.md",
+                                          "sha":  "0d2471489a756dbbc96e73dd2904638b02541a39",
+                                          "git_blob_sha_verified":  true,
+                                          "content_sha256":  "97c9eeaf2d3690d65e78f505bd3e605dadee1757731bdfb679c340e0de91d955",
+                                          "size":  9162,
+                                          "fetched_size":  9162,
+                                          "reason":  "api-contract-match",
+                                          "github_blob_url":  "https://api.github.com/repos/fastapi/fastapi/git/blobs/0d2471489a756dbbc96e73dd2904638b02541a39"
+                                      },
+                                      {
+                                          "source_path":  "docs/de/docs/advanced/openapi-webhooks.md",
+                                          "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-webhooks.md",
+                                          "sha":  "e6984de74f5d91c006cbb82e49b4ebcfc28af4a2",
+                                          "git_blob_sha_verified":  true,
+                                          "content_sha256":  "a5d8eeefc485670f541c6625a14e0798d9c20f40ae43c81a88e8a3742b1b564f",
+                                          "size":  3587,
+                                          "fetched_size":  3587,
+                                          "reason":  "api-contract-match",
+                                          "github_blob_url":  "https://api.github.com/repos/fastapi/fastapi/git/blobs/e6984de74f5d91c006cbb82e49b4ebcfc28af4a2"
+                                      },
+                                      {
+                                          "source_path":  "docs/de/docs/how-to/conditional-openapi.md",
+                                          "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\how-to\\conditional-openapi.md",
+                                          "sha":  "dc873c9c939133f1c6aa056c3a22a3d899dd1042",
+                                          "git_blob_sha_verified":  true,
+                                          "content_sha256":  "602b5accd3e083a0c90b0594ed2bcc7ee8ee82f59e4a70335696935f6a21dd1a",
+                                          "size":  3021,
+                                          "fetched_size":  3021,
+                                          "reason":  "api-contract-match",
+                                          "github_blob_url":  "https://api.github.com/repos/fastapi/fastapi/git/blobs/dc873c9c939133f1c6aa056c3a22a3d899dd1042"
+                                      },
+                                      {
+                                          "source_path":  ".github/workflows/add-to-project.yml",
+                                          "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\add-to-project.yml",
+                                          "sha":  "35d089860c07306cb8c912c67f60c5679b5d3094",
+                                          "git_blob_sha_verified":  true,
+                                          "content_sha256":  "74f130b855a5aad1b33855f5a3408cd37e0012624f85f2e99195495d69a93515",
+                                          "size":  526,
+                                          "fetched_size":  526,
+                                          "reason":  "ci-runtime-command-contract",
+                                          "github_blob_url":  "https://api.github.com/repos/fastapi/fastapi/git/blobs/35d089860c07306cb8c912c67f60c5679b5d3094"
+                                      },
+                                      {
+                                          "source_path":  ".github/workflows/build-docs.yml",
+                                          "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\build-docs.yml",
+                                          "sha":  "128b69e94d372c2ea1999afced0b8a19d7208585",
+                                          "git_blob_sha_verified":  true,
+                                          "content_sha256":  "a0be13b26735c5bbf2e77f93ce202a6e581576d09d04a9b881dfc4f4d46d1562",
+                                          "size":  4904,
+                                          "fetched_size":  4904,
+                                          "reason":  "ci-runtime-command-contract",
+                                          "github_blob_url":  "https://api.github.com/repos/fastapi/fastapi/git/blobs/128b69e94d372c2ea1999afced0b8a19d7208585"
+                                      },
+                                      {
+                                          "source_path":  "scripts/tests/test_translation_fixer/conftest.py",
+                                          "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\scripts\\tests\\test_translation_fixer\\conftest.py",
+                                          "sha":  "5c5c0e2dc3db5236fecdbb513ec8c8bdb0c5b4ea",
+                                          "git_blob_sha_verified":  true,
+                                          "content_sha256":  "0a8707cb9d97ca84e6e1da9b43258ef5eefdb4974a3e54a9168710e1d5f649e2",
+                                          "size":  1637,
+                                          "fetched_size":  1637,
+                                          "reason":  "public-test-contract",
+                                          "github_blob_url":  "https://api.github.com/repos/fastapi/fastapi/git/blobs/5c5c0e2dc3db5236fecdbb513ec8c8bdb0c5b4ea"
+                                      }
+                                  ],
+    "skipped_files":  [
+                          {
+                              "source_path":  "schema.json",
+                              "reason":  "path_not_found_in_tree_snapshot"
+                          },
+                          {
+                              "source_path":  "docs_src/first_steps/tutorial001.py",
+                              "reason":  "path_not_found_in_tree_snapshot"
+                          },
+                          {
+                              "source_path":  "fixtures/db.json",
+                              "reason":  "path_not_found_in_tree_snapshot"
+                          },
+                          {
+                              "source_path":  "go.mod",
+                              "reason":  "path_not_found_in_tree_snapshot"
+                          },
+                          {
+                              "source_path":  "package.json",
+                              "reason":  "path_not_found_in_tree_snapshot"
+                          },
+                          {
+                              "source_path":  "Dockerfile",
+                              "reason":  "path_not_found_in_tree_snapshot"
+                          },
+                          {
+                              "source_path":  "docker-compose.yml",
+                              "reason":  "path_not_found_in_tree_snapshot"
+                          }
+                      ],
+    "evidence_markers":  [
+                             {
+                                 "marker_id":  "runtime-url-loopback-8000",
+                                 "value":  "http://127.0.0.1:8000",
+                                 "supports":  "runtime-contract",
+                                 "evidence":  "README.snapshot.md"
+                             },
+                             {
+                                 "marker_id":  "http-route-items-query",
+                                 "value":  "/items/5?q=somequery",
+                                 "supports":  "http-contract",
+                                 "evidence":  "README.snapshot.md"
+                             },
+                             {
+                                 "marker_id":  "fastapi-command",
+                                 "value":  "fastapi dev",
+                                 "supports":  "candidate-executable-command",
+                                 "evidence":  "README.snapshot.md"
+                             }
+                         ],
+    "candidate_promotion_contracts":  [
+                                          {
+                                              "supports":  "runtime-contract",
+                                              "status":  "candidate_evidence_harvested",
+                                              "evidence_markers":  [
+                                                                       "runtime-url-loopback-8000"
+                                                                   ]
+                                          },
+                                          {
+                                              "supports":  "http-contract",
+                                              "status":  "candidate_evidence_harvested",
+                                              "evidence_markers":  [
+                                                                       "http-route-items-query"
+                                                                   ]
+                                          },
+                                          {
+                                              "supports":  "candidate-executable-command",
+                                              "status":  "candidate_evidence_harvested",
+                                              "evidence_markers":  [
+                                                                       "fastapi-command"
+                                                                   ]
+                                          }
+                                      ],
+    "docs_evidence":  [
+                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\helloWorldHttp.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\actionSelectionPlaybook.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json"
+                      ],
+    "public_evidence":  [
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\repo-contract.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\README.snapshot.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\tree.snapshot.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\README.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\pyproject.toml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-callbacks.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-webhooks.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\how-to\\conditional-openapi.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\add-to-project.yml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\build-docs.yml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\scripts\\tests\\test_translation_fixer\\conftest.py"
+                        ],
+    "remaining_blockers":  [
+                               "generate_candidate_runner_yaml_from_exact_public_contract",
+                               "prove_process_lifecycle_and_cleanup_without assuming private source",
+                               "run_qaaS_template_validation",
+                               "run_live_qaaS_act_assert_validation",
+                               "run_live_airgapped_weak_model_validation",
+                               "run_strong_review_against_selected_contract_evidence"
+                           ]
+}

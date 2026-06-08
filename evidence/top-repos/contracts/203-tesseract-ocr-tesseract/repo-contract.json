@@ -1,0 +1,83 @@
+{
+  "harvested_at": "2026-06-07T20:50:24.9919382+03:00",
+  "rank": 203,
+  "repository": "tesseract-ocr/tesseract",
+  "url": "https://github.com/tesseract-ocr/tesseract",
+  "language": "C++",
+  "stars": 74548,
+  "default_branch": "main",
+  "contract_strength": "contract_files_found",
+  "candidate_qaas_surfaces": [
+    "api-contract-validation",
+    "runner-yaml-from-public-contract",
+    "ci-documented-command-discovery",
+    "repo-contract-discovery-needed"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\203-tesseract-ocr-tesseract\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\203-tesseract-ocr-tesseract\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [
+      "src/classify/intproto.cpp",
+      "src/classify/intproto.h",
+      "src/classify/protos.cpp",
+      "src/classify/protos.h"
+    ],
+    "ci": [
+      ".github/workflows/autotools-macos.yml",
+      ".github/workflows/autotools-openmp.yml",
+      ".github/workflows/autotools.yml",
+      ".github/workflows/cifuzz.yml",
+      ".github/workflows/cmake-win64.yml",
+      ".github/workflows/cmake.yml",
+      ".github/workflows/codeql-analysis.yml",
+      ".github/workflows/installer-for-windows.yml",
+      ".github/workflows/msys2.yml",
+      ".github/workflows/sw.yml",
+      ".github/workflows/unittest-disablelegacy.yml",
+      ".github/workflows/unittest-macos.yml",
+      ".github/workflows/unittest.yml",
+      ".github/workflows/vcpkg.yml"
+    ],
+    "containers": [],
+    "dotnet": [],
+    "node": [],
+    "python": [],
+    "go": [],
+    "java": [],
+    "rust": [],
+    "docs": [
+      "CONTRIBUTING.md",
+      "ChangeLog",
+      "README.md",
+      "include/tesseract/baseapi.h",
+      "include/tesseract/capi.h",
+      "src/api/altorenderer.cpp",
+      "src/api/baseapi.cpp",
+      "src/api/capi.cpp",
+      "src/api/hocrrenderer.cpp",
+      "src/api/lstmboxrenderer.cpp",
+      "src/api/pagerenderer.cpp",
+      "src/api/pdf_ttf.h",
+      "src/api/pdfrenderer.cpp",
+      "src/api/renderer.cpp",
+      "src/api/wordstrboxrenderer.cpp",
+      "tessdata/configs/api_config",
+      "unittest/README.md",
+      "unittest/apiexample_test.cc",
+      "unittest/baseapi_test.cc",
+      "unittest/baseapi_thread_test.cc",
+      "unittest/capiexample_c_test.c",
+      "unittest/capiexample_test.cc",
+      "unittest/cleanapi_test.cc",
+      "unittest/fuzzers/fuzzer-api.cpp"
+    ],
+    "tests": []
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\203-tesseract-ocr-tesseract\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\203-tesseract-ocr-tesseract\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

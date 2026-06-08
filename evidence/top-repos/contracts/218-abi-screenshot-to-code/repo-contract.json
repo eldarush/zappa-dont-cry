@@ -1,0 +1,83 @@
+{
+  "harvested_at": "2026-06-07T20:50:54.9326962+03:00",
+  "rank": 218,
+  "repository": "abi/screenshot-to-code",
+  "url": "https://github.com/abi/screenshot-to-code",
+  "language": "TypeScript",
+  "stars": 72826,
+  "default_branch": "main",
+  "contract_strength": "readme_plus_runtime_hints",
+  "candidate_qaas_surfaces": [
+    "containerized-runtime-smoke",
+    "node-service-or-package-contract"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\218-abi-screenshot-to-code\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\218-abi-screenshot-to-code\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [],
+    "ci": [],
+    "containers": [
+      "backend/Dockerfile",
+      "docker-compose.yml",
+      "frontend/Dockerfile"
+    ],
+    "dotnet": [],
+    "node": [
+      "frontend/package.json",
+      "frontend/pnpm-lock.yaml",
+      "frontend/tsconfig.json",
+      "frontend/yarn.lock",
+      "package-lock.json",
+      "package.json",
+      "yarn.lock"
+    ],
+    "python": [
+      "backend/pyproject.toml"
+    ],
+    "go": [],
+    "java": [],
+    "rust": [],
+    "docs": [
+      "README.md",
+      "backend/README.md"
+    ],
+    "tests": [
+      "backend/tests/__init__.py",
+      "backend/tests/test_agent_tool_runtime.py",
+      "backend/tests/test_agent_tools.py",
+      "backend/tests/test_anthropic_provider_config.py",
+      "backend/tests/test_batching.py",
+      "backend/tests/test_codegen_utils.py",
+      "backend/tests/test_design_systems.py",
+      "backend/tests/test_evals_openai_input_compare.py",
+      "backend/tests/test_export.py",
+      "backend/tests/test_gemini_prompt_report.py",
+      "backend/tests/test_image_generation_replicate.py",
+      "backend/tests/test_model_selection.py",
+      "backend/tests/test_openai_input_compare.py",
+      "backend/tests/test_openai_provider_session.py",
+      "backend/tests/test_openai_reasoning_parser.py",
+      "backend/tests/test_openai_turn_input_logging.py",
+      "backend/tests/test_parameter_extraction_stage.py",
+      "backend/tests/test_prompt_summary.py",
+      "backend/tests/test_prompts.py",
+      "backend/tests/test_request_parsing.py",
+      "backend/tests/test_screenshot.py",
+      "backend/tests/test_start.py",
+      "backend/tests/test_status_broadcast.py",
+      "backend/tests/test_token_usage.py",
+      "backend/tests/test_uploaded_assets.py",
+      "frontend/src/tests/fixtures/simple_button.png",
+      "frontend/src/tests/fixtures/simple_page.html",
+      "frontend/src/tests/fixtures/simple_ui_with_image.png",
+      "frontend/src/tests/qa.test.ts"
+    ]
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\218-abi-screenshot-to-code\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\218-abi-screenshot-to-code\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

@@ -1,0 +1,71 @@
+{
+  "harvested_at": "2026-06-07T20:44:32.4528189+03:00",
+  "rank": 54,
+  "repository": "Genymobile/scrcpy",
+  "url": "https://github.com/Genymobile/scrcpy",
+  "language": "C",
+  "stars": 143165,
+  "default_branch": "master",
+  "contract_strength": "contract_files_found",
+  "candidate_qaas_surfaces": [
+    "api-contract-validation",
+    "runner-yaml-from-public-contract",
+    "ci-documented-command-discovery",
+    "repo-contract-discovery-needed"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\054-Genymobile-scrcpy\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\054-Genymobile-scrcpy\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [
+      "server/src/main/java/com/genymobile/scrcpy/control/ControlProtocolException.java"
+    ],
+    "ci": [
+      ".github/workflows/release.yml"
+    ],
+    "containers": [],
+    "dotnet": [],
+    "node": [],
+    "python": [],
+    "go": [],
+    "java": [
+      "build.gradle",
+      "gradlew",
+      "server/build.gradle",
+      "settings.gradle"
+    ],
+    "rust": [],
+    "docs": [
+      "README.md",
+      "app/deps/README"
+    ],
+    "tests": [
+      "app/tests/test_adb_parser.c",
+      "app/tests/test_audiobuf.c",
+      "app/tests/test_binary.c",
+      "app/tests/test_cli.c",
+      "app/tests/test_command_windows.c",
+      "app/tests/test_control_msg_serialize.c",
+      "app/tests/test_device_msg_deserialize.c",
+      "app/tests/test_orientation.c",
+      "app/tests/test_str.c",
+      "app/tests/test_strbuf.c",
+      "app/tests/test_vecdeque.c",
+      "app/tests/test_vector.c",
+      "server/src/main/java/com/genymobile/scrcpy/video/CameraAspectRatio.java",
+      "server/src/test/java/com/genymobile/scrcpy/control/ControlMessageReaderTest.java",
+      "server/src/test/java/com/genymobile/scrcpy/control/DeviceMessageWriterTest.java",
+      "server/src/test/java/com/genymobile/scrcpy/model/CodecOptionsTest.java",
+      "server/src/test/java/com/genymobile/scrcpy/model/SizeTest.java",
+      "server/src/test/java/com/genymobile/scrcpy/util/BinaryTest.java",
+      "server/src/test/java/com/genymobile/scrcpy/util/CommandParserTest.java",
+      "server/src/test/java/com/genymobile/scrcpy/util/StringUtilsTest.java"
+    ]
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\054-Genymobile-scrcpy\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\054-Genymobile-scrcpy\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

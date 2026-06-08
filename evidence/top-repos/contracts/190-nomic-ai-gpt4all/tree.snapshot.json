@@ -1,0 +1,3875 @@
+{
+  "sha": "b666d16db5aeab8b91aaf7963adcee9c643734d7",
+  "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/b666d16db5aeab8b91aaf7963adcee9c643734d7",
+  "tree": [
+    {
+      "path": ".circleci",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd7a94f87432b7f2f473d1f703e52b67cc02a9f3",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/fd7a94f87432b7f2f473d1f703e52b67cc02a9f3"
+    },
+    {
+      "path": ".circleci/config.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c648f1afabd92ace5684cff1374ada279b04f48",
+      "size": 631,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/6c648f1afabd92ace5684cff1374ada279b04f48"
+    },
+    {
+      "path": ".circleci/continue_config.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05c78ecab4097717a8a5d3da8e25f80f466a634b",
+      "size": 89393,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/05c78ecab4097717a8a5d3da8e25f80f466a634b"
+    },
+    {
+      "path": ".circleci/grab_notary_id.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "947626faa666df3bdfd209ca902dc261779b4e0b",
+      "size": 389,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/947626faa666df3bdfd209ca902dc261779b4e0b"
+    },
+    {
+      "path": ".codespellrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f401f6bed3b8b60686fe4511ce143f809307f51",
+      "size": 140,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/0f401f6bed3b8b60686fe4511ce143f809307f51"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bb5d689f1227a800445f34d728451483f7fde0f0",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/bb5d689f1227a800445f34d728451483f7fde0f0"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "99fdf1d8f7e6ce682edf3609ccad1b8cd6a449ef",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/99fdf1d8f7e6ce682edf3609ccad1b8cd6a449ef"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bindings-bug.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbf0d49dd51b3aee18d9dd9db779060e4e36ff1b",
+      "size": 924,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/cbf0d49dd51b3aee18d9dd9db779060e4e36ff1b"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/chat-bug.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45f3b40992109ead9c0c52c5e73a493afd011508",
+      "size": 820,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/45f3b40992109ead9c0c52c5e73a493afd011508"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3879be90472abbb02a5596fcda60bd6128e8ec87",
+      "size": 13,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/3879be90472abbb02a5596fcda60bd6128e8ec87"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/documentation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "062c37da366837ac069094033e4d380db5e951e6",
+      "size": 222,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/062c37da366837ac069094033e4d380db5e951e6"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature-request.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d6f2ee84e22b7f4a8f534ef1238403fd58ccf14",
+      "size": 258,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/5d6f2ee84e22b7f4a8f534ef1238403fd58ccf14"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/other-bug.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de161bd78bf821f9171e944a61f2b0db9a5b5348",
+      "size": 934,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/de161bd78bf821f9171e944a61f2b0db9a5b5348"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8c1decb8871ab79f2f6911a74883c20ddd94f3f",
+      "size": 693,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/e8c1decb8871ab79f2f6911a74883c20ddd94f3f"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c7f602115c8b31698131f04c3ee8f6fc93358e77",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/c7f602115c8b31698131f04c3ee8f6fc93358e77"
+    },
+    {
+      "path": ".github/workflows/close_issues.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7053585ae25b1d1ea6fb622829f77f76daab6381",
+      "size": 1294,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/7053585ae25b1d1ea6fb622829f77f76daab6381"
+    },
+    {
+      "path": ".github/workflows/codespell.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bda7023b6c3048137a7fef22efaad2af10bddde",
+      "size": 320,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/3bda7023b6c3048137a7fef22efaad2af10bddde"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cde413260a28461e30f265d8737e1cb032dff33e",
+      "size": 3371,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/cde413260a28461e30f265d8737e1cb032dff33e"
+    },
+    {
+      "path": ".gitmodules",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82388e151a693270a674d0557d11a79fb82790a2",
+      "size": 978,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/82388e151a693270a674d0557d11a79fb82790a2"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4bf0ddf38f801e0fe23e052d139ef93ef7c6362",
+      "size": 4148,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/d4bf0ddf38f801e0fe23e052d139ef93ef7c6362"
+    },
+    {
+      "path": "LICENSE.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51aef442cb76bddfef31e6a6ad978b9b59de77f3",
+      "size": 1055,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/51aef442cb76bddfef31e6a6ad978b9b59de77f3"
+    },
+    {
+      "path": "MAINTAINERS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6838a0b82583f142f195d37307eac41d7483101c",
+      "size": 2217,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/6838a0b82583f142f195d37307eac41d7483101c"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4450198c235f997b59038dd6f9de29a9f0981367",
+      "size": 5925,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/4450198c235f997b59038dd6f9de29a9f0981367"
+    },
+    {
+      "path": "common",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "52709fd2c5c7ff364433850ffe5e96e07e05ce80",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/52709fd2c5c7ff364433850ffe5e96e07e05ce80"
+    },
+    {
+      "path": "common/common.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8b6e969a35786a9134eb39fc5c916f66827f6b8",
+      "size": 1114,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/b8b6e969a35786a9134eb39fc5c916f66827f6b8"
+    },
+    {
+      "path": "gpt4all-backend",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5816404f4c1c4ae6905baa4210166dd72bd47bb2",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/5816404f4c1c4ae6905baa4210166dd72bd47bb2"
+    },
+    {
+      "path": "gpt4all-backend/CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91d314f7a01763603aff4f4ef57f169fbd5bd49b",
+      "size": 6904,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/91d314f7a01763603aff4f4ef57f169fbd5bd49b"
+    },
+    {
+      "path": "gpt4all-backend/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d364538a939eb538812d440f66ef96e997653ecd",
+      "size": 4305,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/d364538a939eb538812d440f66ef96e997653ecd"
+    },
+    {
+      "path": "gpt4all-backend/deps",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "700fe0cd8d336f0ea953eb959d874c2b7b3c937e",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/700fe0cd8d336f0ea953eb959d874c2b7b3c937e"
+    },
+    {
+      "path": "gpt4all-backend/deps/llama.cpp-mainline",
+      "mode": "160000",
+      "type": "commit",
+      "sha": "11f734c3b0334dbae4823b4a7467764e447fc6d6"
+    },
+    {
+      "path": "gpt4all-backend/include",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "31341a2f4965006174ba3e5b01462613a48a4a24",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/31341a2f4965006174ba3e5b01462613a48a4a24"
+    },
+    {
+      "path": "gpt4all-backend/include/gpt4all-backend",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ec82c0a54b4df5335ecf04366553ded9e277fe4e",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/ec82c0a54b4df5335ecf04366553ded9e277fe4e"
+    },
+    {
+      "path": "gpt4all-backend/include/gpt4all-backend/llmodel.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8695a5b5d832b8a4952ed0ec6049affc4b5f7c26",
+      "size": 10565,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/8695a5b5d832b8a4952ed0ec6049affc4b5f7c26"
+    },
+    {
+      "path": "gpt4all-backend/include/gpt4all-backend/llmodel_c.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "271475bae480393a6d82be6bf35fdfaa9c68dbcc",
+      "size": 13825,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/271475bae480393a6d82be6bf35fdfaa9c68dbcc"
+    },
+    {
+      "path": "gpt4all-backend/include/gpt4all-backend/sysinfo.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49ac2d3ae041b6a42c5e7966f6241baf6ffeeb9b",
+      "size": 1684,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/49ac2d3ae041b6a42c5e7966f6241baf6ffeeb9b"
+    },
+    {
+      "path": "gpt4all-backend/llama.cpp.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a101af1198166d404297561aaf568da3e24c1272",
+      "size": 43964,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/a101af1198166d404297561aaf568da3e24c1272"
+    },
+    {
+      "path": "gpt4all-backend/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bd578a2233e1dc30a6d846c6834dde1a8ff5f993",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/bd578a2233e1dc30a6d846c6834dde1a8ff5f993"
+    },
+    {
+      "path": "gpt4all-backend/src/dlhandle.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0f24ab70242f088210460e3e0ab8dd15bbfa107",
+      "size": 1564,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/e0f24ab70242f088210460e3e0ab8dd15bbfa107"
+    },
+    {
+      "path": "gpt4all-backend/src/dlhandle.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0629b482d894e8ed1bfb0e64a5d804365de97fdc",
+      "size": 954,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/0629b482d894e8ed1bfb0e64a5d804365de97fdc"
+    },
+    {
+      "path": "gpt4all-backend/src/llamamodel.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba937c38febd647a22aa13ce7ca021ec9849ff07",
+      "size": 42501,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/ba937c38febd647a22aa13ce7ca021ec9849ff07"
+    },
+    {
+      "path": "gpt4all-backend/src/llamamodel_impl.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d018ddb108342e3280f51020e36b8321c7f0170",
+      "size": 4090,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/7d018ddb108342e3280f51020e36b8321c7f0170"
+    },
+    {
+      "path": "gpt4all-backend/src/llmodel.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de1305937766cd47276c84578f4f90f2b8791ab2",
+      "size": 11724,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/de1305937766cd47276c84578f4f90f2b8791ab2"
+    },
+    {
+      "path": "gpt4all-backend/src/llmodel_c.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8c5554da0d3f3e24321b38c92456a1f2ee7b239",
+      "size": 10282,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/a8c5554da0d3f3e24321b38c92456a1f2ee7b239"
+    },
+    {
+      "path": "gpt4all-backend/src/llmodel_shared.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99782f44ca551cdbf4ffa6c3d8c93769820b182b",
+      "size": 10791,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/99782f44ca551cdbf4ffa6c3d8c93769820b182b"
+    },
+    {
+      "path": "gpt4all-backend/src/utils.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "281f3707abd5e281c4ffeffe2ff4aba11a888f44",
+      "size": 400,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/281f3707abd5e281c4ffeffe2ff4aba11a888f44"
+    },
+    {
+      "path": "gpt4all-bindings",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "114e511b1bae5c6525a83a5c9581800ba68ce53b",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/114e511b1bae5c6525a83a5c9581800ba68ce53b"
+    },
+    {
+      "path": "gpt4all-bindings/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "722159fdab980101ad806ef702a7786a0459ea1b",
+      "size": 1483,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/722159fdab980101ad806ef702a7786a0459ea1b"
+    },
+    {
+      "path": "gpt4all-bindings/cli",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "804d6e1f01f219620e3818857f35e6f8ee022a4b",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/804d6e1f01f219620e3818857f35e6f8ee022a4b"
+    },
+    {
+      "path": "gpt4all-bindings/cli/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0d1e57e9d60725c91e8c417feea2aa1f7c11397",
+      "size": 1788,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/f0d1e57e9d60725c91e8c417feea2aa1f7c11397"
+    },
+    {
+      "path": "gpt4all-bindings/cli/app.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "be6b5745877de4215f9f7c83919852daf3c83d76",
+      "size": 6160,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/be6b5745877de4215f9f7c83919852daf3c83d76"
+    },
+    {
+      "path": "gpt4all-bindings/cli/developer_notes.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c1b75d5dea8c804061e4fa91d2bfead03c6ff82",
+      "size": 1038,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/0c1b75d5dea8c804061e4fa91d2bfead03c6ff82"
+    },
+    {
+      "path": "gpt4all-bindings/python",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ef5dfb4a92dc81466773140aaa02beed3be1124f",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/ef5dfb4a92dc81466773140aaa02beed3be1124f"
+    },
+    {
+      "path": "gpt4all-bindings/python/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "970db3ec936d22b52fd6a8501c46d4c6f4b35f46",
+      "size": 3108,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/970db3ec936d22b52fd6a8501c46d4c6f4b35f46"
+    },
+    {
+      "path": "gpt4all-bindings/python/.isort.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "485c85a7c3686325c1fc1f5253f3d260f87208bc",
+      "size": 158,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/485c85a7c3686325c1fc1f5253f3d260f87208bc"
+    },
+    {
+      "path": "gpt4all-bindings/python/CHANGELOG.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1007a6accf99c4bd5389f89624330f1bc3383512",
+      "size": 5396,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/1007a6accf99c4bd5389f89624330f1bc3383512"
+    },
+    {
+      "path": "gpt4all-bindings/python/LICENSE.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac07e3801e88f2d49c70d2656b3cb1fd090e8cd4",
+      "size": 1054,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/ac07e3801e88f2d49c70d2656b3cb1fd090e8cd4"
+    },
+    {
+      "path": "gpt4all-bindings/python/MANIFEST.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffee2b3ef7538b658523afe5771a75eb59b20fd7",
+      "size": 49,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/ffee2b3ef7538b658523afe5771a75eb59b20fd7"
+    },
+    {
+      "path": "gpt4all-bindings/python/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2a4037a0b2f3403d64daa9f51f89af56d70559c",
+      "size": 3102,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/e2a4037a0b2f3403d64daa9f51f89af56d70559c"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "936740e141e0401674ca8399bdbe9023a08c275e",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/936740e141e0401674ca8399bdbe9023a08c275e"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e47b73c6728d66d52521f820dc76ea674d15c445",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/e47b73c6728d66d52521f820dc76ea674d15c445"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/add.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51ccc1bda1583ca6d15ceb4fdb4f82c136a21556",
+      "size": 10165,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/51ccc1bda1583ca6d15ceb4fdb4f82c136a21556"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/add_model_gpt4.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1774c45d88d4f5730e074dfbac178e3d804fb287",
+      "size": 192706,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/1774c45d88d4f5730e074dfbac178e3d804fb287"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/attach_spreadsheet.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4078ffe5915affafc0870fc39b52b472aacc5ef7",
+      "size": 31050,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/4078ffe5915affafc0870fc39b52b472aacc5ef7"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/baelor.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a02c8e6785abd99f132d9fbbc3b57c6e4340007a",
+      "size": 130336,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/a02c8e6785abd99f132d9fbbc3b57c6e4340007a"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/before_first_chat.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "934e3b510891dbc0b00be5e3dc47d0828dba71e8",
+      "size": 242569,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/934e3b510891dbc0b00be5e3dc47d0828dba71e8"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/chat_window.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7b356e70a7afdc30c2c87d0828938998877bea2",
+      "size": 67653,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/e7b356e70a7afdc30c2c87d0828938998877bea2"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/closed_chat_panel.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3743ab153386eda8613f86ff21374c85c5a17ffc",
+      "size": 702457,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/3743ab153386eda8613f86ff21374c85c5a17ffc"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/configure_doc_collection.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d85960363a37925c59b04288e1ee1ef1a0822aed",
+      "size": 115997,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/d85960363a37925c59b04288e1ee1ef1a0822aed"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/disney_spreadsheet.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e503bfea0b2ed504c257016dc7c6aeb7a07aed6",
+      "size": 278430,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/3e503bfea0b2ed504c257016dc7c6aeb7a07aed6"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/download.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f17954febee6914579c92482cec635599c60e612",
+      "size": 9831,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/f17954febee6914579c92482cec635599c60e612"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/download_llama.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47fa059ddffb3e9c0659731cfcb7dc7493726afa",
+      "size": 83880,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/47fa059ddffb3e9c0659731cfcb7dc7493726afa"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/explore.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "671fc5e769266b27eb815028cc2ea56cb97c879a",
+      "size": 50620,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/671fc5e769266b27eb815028cc2ea56cb97c879a"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/explore_models.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1976e0e0524891369c98f6bc47151397ae7bfee",
+      "size": 326647,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/c1976e0e0524891369c98f6bc47151397ae7bfee"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/favicon.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fb029aacf4fd73361ece4c3b7b0c95a0e7c2b06",
+      "size": 15406,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/8fb029aacf4fd73361ece4c3b7b0c95a0e7c2b06"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/good_tyrion.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6839233417acc83e76a7656bdd07e70ab6decdd",
+      "size": 543541,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/c6839233417acc83e76a7656bdd07e70ab6decdd"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/got_docs_ready.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ae07ab5969c61916b1e2483d6c02a14ca6cdc73",
+      "size": 235937,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/5ae07ab5969c61916b1e2483d6c02a14ca6cdc73"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/got_done.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3e4ce78562085dc3611b5edf96d45b102831bb5",
+      "size": 123214,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/e3e4ce78562085dc3611b5edf96d45b102831bb5"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/gpt4all_home.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b49a65c7a9869363878f1906aebb86a78edf3f61",
+      "size": 512537,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/b49a65c7a9869363878f1906aebb86a78edf3f61"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/gpt4all_xlsx_attachment.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58372b5c712b153c34ff56c2c5bf90c9a0ec02db",
+      "size": 16534081,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/58372b5c712b153c34ff56c2c5bf90c9a0ec02db"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/installed_models.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3fc7754333705ee855c9e3538adaea67f936be5",
+      "size": 357558,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/b3fc7754333705ee855c9e3538adaea67f936be5"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/linux.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dda64920124625eede776838a553791321523eec",
+      "size": 304220,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/dda64920124625eede776838a553791321523eec"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/local_embed.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba3d3551add9c3c64f4e8b9732711d4adcba6285",
+      "size": 2336971,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/ba3d3551add9c3c64f4e8b9732711d4adcba6285"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/mac.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "861030e5ee1d97ae5e8e04111d6b2ba366e4d655",
+      "size": 4737,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/861030e5ee1d97ae5e8e04111d6b2ba366e4d655"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/models_page_icon.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1026b8f16dd7d148c51c33ca1c7dcfb839043e7",
+      "size": 9660,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/f1026b8f16dd7d148c51c33ca1c7dcfb839043e7"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/new_docs_annotated.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "607db9212bf17ecabe14597497579cc5c7f80b48",
+      "size": 138340,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/607db9212bf17ecabe14597497579cc5c7f80b48"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/new_docs_annotated_filled.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57febe729cd980b18083bc4b72c8be65eafce617",
+      "size": 134246,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/57febe729cd980b18083bc4b72c8be65eafce617"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/new_first_chat.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7041e13bf3c7ca88b8005ee23880da77a121cf66",
+      "size": 145903,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/7041e13bf3c7ca88b8005ee23880da77a121cf66"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/no_docs.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df51e16906ad6827de41dd2d2d349b7539ca7e36",
+      "size": 196444,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/df51e16906ad6827de41dd2d2d349b7539ca7e36"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/no_models.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b89d2da82344047a6ee5a5f7f4a3379e024558e8",
+      "size": 192042,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/b89d2da82344047a6ee5a5f7f4a3379e024558e8"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/no_models_tiny.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd6714d6f66879c553444b60dad290cd03941e93",
+      "size": 45632,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/fd6714d6f66879c553444b60dad290cd03941e93"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/nomic.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3eba3b82bc1e3fcb6b27cd9038786e19b7c2adcf",
+      "size": 25814,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/3eba3b82bc1e3fcb6b27cd9038786e19b7c2adcf"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/obsidian_adding_collection.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bc52976358956cbfb1a52cfb6d4d841ed081b58",
+      "size": 598498,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/6bc52976358956cbfb1a52cfb6d4d841ed081b58"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/obsidian_docs.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "292c9b7223e8c1e161fc0309deb1133274860ba2",
+      "size": 294064,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/292c9b7223e8c1e161fc0309deb1133274860ba2"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/obsidian_response.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ae8219d236adce800e54f5181fe49b16d7eaa44",
+      "size": 407702,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/9ae8219d236adce800e54f5181fe49b16d7eaa44"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/obsidian_sources.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e81b41e36cfe4b26a93042e28e457ddc34a39a38",
+      "size": 25579,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/e81b41e36cfe4b26a93042e28e457ddc34a39a38"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/open_chat_panel.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e0784a0ac03991bb65a11da195e2a1888892656",
+      "size": 729439,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/1e0784a0ac03991bb65a11da195e2a1888892656"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/open_local_docs.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed2353ce214ab5d9de04e9add00219490f2ea914",
+      "size": 414069,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/ed2353ce214ab5d9de04e9add00219490f2ea914"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/open_sources.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0df9240878db693b20ce2be8596615c32104e82a",
+      "size": 58601,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/0df9240878db693b20ce2be8596615c32104e82a"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/osbsidian_user_interaction.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acbf828c5c948fbf304f297bb64f0ac455be0d1e",
+      "size": 26860,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/acbf828c5c948fbf304f297bb64f0ac455be0d1e"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/search_mistral.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bf87ee56b7b21fd6408df1e489565682e2f7749",
+      "size": 252103,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/0bf87ee56b7b21fd6408df1e489565682e2f7749"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/search_settings.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e120616a59821d0abaa63d68dcd23c27e6391e1e",
+      "size": 237053,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/e120616a59821d0abaa63d68dcd23c27e6391e1e"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/spreadsheet_chat.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9385e1d97653caeaeba5d3959bcb6e9b662cf3d",
+      "size": 458282,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/d9385e1d97653caeaeba5d3959bcb6e9b662cf3d"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/syrio_snippets.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb8e4ad261022bba903b10bc9074adbc19588a6d",
+      "size": 788962,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/eb8e4ad261022bba903b10bc9074adbc19588a6d"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/three_model_options.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9296c4fe1011e10e1630508d6e44380af451e7c5",
+      "size": 43565,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/9296c4fe1011e10e1630508d6e44380af451e7c5"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/ubuntu.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60e90e083c0333ab5180db7bc67956c6d8c80a37",
+      "size": 700,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/60e90e083c0333ab5180db7bc67956c6d8c80a37"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/assets/windows.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d223654bc3b6e61d4f738056569d2ab5d3ec57e",
+      "size": 7711,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/5d223654bc3b6e61d4f738056569d2ab5d3ec57e"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/css",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "94d52fe3a1c0ae11a8481a90e47cab77e56e42f8",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/94d52fe3a1c0ae11a8481a90e47cab77e56e42f8"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/css/custom.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3e09d696956f1c10b4a8800c7bc08d7a3821a87",
+      "size": 80,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/d3e09d696956f1c10b4a8800c7bc08d7a3821a87"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/gpt4all_api_server",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "83ac483c38d9e20c6af17a85c389ea5e1622a0e6",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/83ac483c38d9e20c6af17a85c389ea5e1622a0e6"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/gpt4all_api_server/home.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d13740ecb97833fbb93d15bc7f5bf6ce3b7c04e3",
+      "size": 3259,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/d13740ecb97833fbb93d15bc7f5bf6ce3b7c04e3"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/gpt4all_desktop",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "47219a9e9be13e8446972c8a12a1f83a0b201e91",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/47219a9e9be13e8446972c8a12a1f83a0b201e91"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/gpt4all_desktop/chat_templates.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c15cf620c85fbaca62eef949067d71e3556158f",
+      "size": 12817,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/5c15cf620c85fbaca62eef949067d71e3556158f"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/gpt4all_desktop/chats.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "290051e0010ff9727c4ea70f11ef0fcc0e175a94",
+      "size": 5762,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/290051e0010ff9727c4ea70f11ef0fcc0e175a94"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/gpt4all_desktop/cookbook",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "636de7bea50dceb25dfd43e1a5de56f00f2287e4",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/636de7bea50dceb25dfd43e1a5de56f00f2287e4"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/gpt4all_desktop/cookbook/use-local-ai-models-to-privately-chat-with-Obsidian.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2660c38d8e649051ef9c270fcd4fa056717884f2",
+      "size": 5187,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/2660c38d8e649051ef9c270fcd4fa056717884f2"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/gpt4all_desktop/cookbook/use-local-ai-models-to-privately-chat-with-One-Drive.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a37a2ed910793ece8df7fc1b2f141c9dc749ef5a",
+      "size": 4643,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/a37a2ed910793ece8df7fc1b2f141c9dc749ef5a"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/gpt4all_desktop/cookbook/use-local-ai-models-to-privately-chat-with-google-drive.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f65c175415c467cd302a2c1d6b6d6a5edd0789f9",
+      "size": 4736,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/f65c175415c467cd302a2c1d6b6d6a5edd0789f9"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/gpt4all_desktop/cookbook/use-local-ai-models-to-privately-chat-with-microsoft-excel.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6efde948a45d05c8b31e6f7d7ea8110732d496ca",
+      "size": 3321,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/6efde948a45d05c8b31e6f7d7ea8110732d496ca"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/gpt4all_desktop/localdocs.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3290a92e6b57cc1d736f467262945b2d10bc5bf",
+      "size": 1945,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/c3290a92e6b57cc1d736f467262945b2d10bc5bf"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/gpt4all_desktop/models.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c94c6dc415ec40c1f07e79c46984383abca898e9",
+      "size": 4471,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/c94c6dc415ec40c1f07e79c46984383abca898e9"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/gpt4all_desktop/quickstart.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2897fbc56e4296702b5492dd929ddb876455c9b4",
+      "size": 1762,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/2897fbc56e4296702b5492dd929ddb876455c9b4"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/gpt4all_desktop/settings.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9d5eb8531ec0bb94d58fa4228e27c43d7a67438",
+      "size": 5324,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/e9d5eb8531ec0bb94d58fa4228e27c43d7a67438"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/gpt4all_help",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2284233ff4722cf034dd7298e96d878892ba511f",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/2284233ff4722cf034dd7298e96d878892ba511f"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/gpt4all_help/faq.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c94b0d04898dff1cb27a28ebe0f9cd211bc3c7ca",
+      "size": 1730,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/c94b0d04898dff1cb27a28ebe0f9cd211bc3c7ca"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/gpt4all_help/troubleshooting.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba1326165cd4de17dab8e4556a73cd7104df4e31",
+      "size": 1950,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/ba1326165cd4de17dab8e4556a73cd7104df4e31"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/gpt4all_python",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "04914f1ed05a4d4a8ecf90736f9ade9ad530a30e",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/04914f1ed05a4d4a8ecf90736f9ade9ad530a30e"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/gpt4all_python/home.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f77f7a00121de17162cf110cd6a8683f1269d859",
+      "size": 8107,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/f77f7a00121de17162cf110cd6a8683f1269d859"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/gpt4all_python/monitoring.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43809f8b0b3b41fc45def5312d4e663ded9ab45f",
+      "size": 2173,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/43809f8b0b3b41fc45def5312d4e663ded9ab45f"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/gpt4all_python/ref.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22a597b119931c4af9a4ae475cdd7d8df11fcea2",
+      "size": 89,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/22a597b119931c4af9a4ae475cdd7d8df11fcea2"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/index.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b200bf43a5b006b889cc05d304158a68036e6e7",
+      "size": 1575,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/0b200bf43a5b006b889cc05d304158a68036e6e7"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/old",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4e552f3c5be5063618b8fa4d626c2ac2ed2c055c",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/4e552f3c5be5063618b8fa4d626c2ac2ed2c055c"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/old/gpt4all_chat.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2bc9f6a0f821b3a0a9c783a24c08965e287e5cd",
+      "size": 6503,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/e2bc9f6a0f821b3a0a9c783a24c08965e287e5cd"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/old/gpt4all_cli.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f4989a022e265840de76507ffceee4c0baad19a",
+      "size": 8224,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/1f4989a022e265840de76507ffceee4c0baad19a"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/old/gpt4all_faq.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74a9577216061da10850177a7b243e6c376dafa5",
+      "size": 6123,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/74a9577216061da10850177a7b243e6c376dafa5"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/old/gpt4all_monitoring.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc606dde0b7ed393a4ca7d4f067f5ccd2d947663",
+      "size": 3452,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/bc606dde0b7ed393a4ca7d4f067f5ccd2d947663"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/old/gpt4all_nodejs.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a282a47a47084bca05cfa2bb2fe50056805e91cf",
+      "size": 35437,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/a282a47a47084bca05cfa2bb2fe50056805e91cf"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/old/gpt4all_python.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b578bcd9b34d93814cf701daa1fc7a4b0c508b67",
+      "size": 10414,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/b578bcd9b34d93814cf701daa1fc7a4b0c508b67"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/old/gpt4all_python_embedding.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a74847cff42c9d9228e01b2c0f3e370011d5e4d6",
+      "size": 6474,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/a74847cff42c9d9228e01b2c0f3e370011d5e4d6"
+    },
+    {
+      "path": "gpt4all-bindings/python/docs/old/index.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cba28b657396dbf4a7ae8f902b15a0fff3abd48",
+      "size": 4661,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/3cba28b657396dbf4a7ae8f902b15a0fff3abd48"
+    },
+    {
+      "path": "gpt4all-bindings/python/gpt4all",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c72969fc119bad7648a56ff952d27a78ab3c48b7",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/c72969fc119bad7648a56ff952d27a78ab3c48b7"
+    },
+    {
+      "path": "gpt4all-bindings/python/gpt4all/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1952119ce745fcf8f32996e2446e0e9fcb58a8c4",
+      "size": 104,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/1952119ce745fcf8f32996e2446e0e9fcb58a8c4"
+    },
+    {
+      "path": "gpt4all-bindings/python/gpt4all/_pyllmodel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "616ce80a35335ce2ef127b84552e681a84580096",
+      "size": 22096,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/616ce80a35335ce2ef127b84552e681a84580096"
+    },
+    {
+      "path": "gpt4all-bindings/python/gpt4all/gpt4all.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84b236c996dca56383f20399327b3f2f8ad9ac87",
+      "size": 29307,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/84b236c996dca56383f20399327b3f2f8ad9ac87"
+    },
+    {
+      "path": "gpt4all-bindings/python/gpt4all/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8cd9d94b68ba57ffa0a2e7e0f7ebb5db1f9dc062",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/8cd9d94b68ba57ffa0a2e7e0f7ebb5db1f9dc062"
+    },
+    {
+      "path": "gpt4all-bindings/python/gpt4all/tests/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "gpt4all-bindings/python/gpt4all/tests/test_embed_timings.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "799c035be9af7effc81407a7d67d0f2ad2d4cd69",
+      "size": 562,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/799c035be9af7effc81407a7d67d0f2ad2d4cd69"
+    },
+    {
+      "path": "gpt4all-bindings/python/gpt4all/tests/test_gpt4all.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93df49125533706d2df11f41a274048e216d1c1a",
+      "size": 5979,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/93df49125533706d2df11f41a274048e216d1c1a"
+    },
+    {
+      "path": "gpt4all-bindings/python/makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b3395e5713e30421d085d99d74dcdc06bbf5bd4",
+      "size": 843,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/0b3395e5713e30421d085d99d74dcdc06bbf5bd4"
+    },
+    {
+      "path": "gpt4all-bindings/python/mkdocs.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "651366a32ff3afcaa00a91ca2ce04858469bda48",
+      "size": 2811,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/651366a32ff3afcaa00a91ca2ce04858469bda48"
+    },
+    {
+      "path": "gpt4all-bindings/python/setup.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b316adc0ec4bafac69a34163906ed92c6c6a9f83",
+      "size": 3845,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/b316adc0ec4bafac69a34163906ed92c6c6a9f83"
+    },
+    {
+      "path": "gpt4all-bindings/typescript",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5a7ac487f7a65d5d54630797f9da557ecb672247",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/5a7ac487f7a65d5d54630797f9da557ecb672247"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/.clang-format",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98ba18a1923aac92749e86fa206917193c9f8066",
+      "size": 58,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/98ba18a1923aac92749e86fa206917193c9f8066"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fd9d3cb2e8686ac6bec88f929f6a55f8f85771c",
+      "size": 142,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/7fd9d3cb2e8686ac6bec88f929f6a55f8f85771c"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/.npmignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8921a757e22e767d8a287d5acf3749df34644b8f",
+      "size": 26,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/8921a757e22e767d8a287d5acf3749df34644b8f"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/.yarnrc.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3186f3f0795ab612d5508593672dc9ad94bccca0",
+      "size": 25,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/3186f3f0795ab612d5508593672dc9ad94bccca0"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "384e4afbe5bc7663c9629d7c00830ac87e8fab83",
+      "size": 9048,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/384e4afbe5bc7663c9629d7c00830ac87e8fab83"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/binding.ci.gyp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d5111556c5e9b6183656d80ac47282b20286156",
+      "size": 1760,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/5d5111556c5e9b6183656d80ac47282b20286156"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/binding.gyp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff5eeb03dc1f63601374cc9abd9dc5d5c92d136c",
+      "size": 1778,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/ff5eeb03dc1f63601374cc9abd9dc5d5c92d136c"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/index.cc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ebf1a7c84a7d9115b89f9bd8baf57cfa79a9b2c",
+      "size": 17915,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/5ebf1a7c84a7d9115b89f9bd8baf57cfa79a9b2c"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/index.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db3ef11e6764ce43779d003c3d4c02ee80beeef3",
+      "size": 2038,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/db3ef11e6764ce43779d003c3d4c02ee80beeef3"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f3e368ebd3680460c76fae1a004522a415c7fd2",
+      "size": 1235,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/7f3e368ebd3680460c76fae1a004522a415c7fd2"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/prompt.cc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d24a7e9072a4f5e97ed69666e98f9bf946560706",
+      "size": 6353,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/d24a7e9072a4f5e97ed69666e98f9bf946560706"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/prompt.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49c43620368c1d04ed9022a709ab40ea05d79f2d",
+      "size": 1577,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/49c43620368c1d04ed9022a709ab40ea05d79f2d"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "988335408a45e0f3c7aac5193b68ecb859edd508",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/988335408a45e0f3c7aac5193b68ecb859edd508"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/scripts/build.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e89550f81724501fb9c116a7894fa3bf257ab6a9",
+      "size": 636,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/e89550f81724501fb9c116a7894fa3bf257ab6a9"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/scripts/build_mingw.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a94d44fd90db0d422454a34fb563635474f7fabf",
+      "size": 526,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/a94d44fd90db0d422454a34fb563635474f7fabf"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/scripts/build_msvc.bat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18b215d173642c01270d9d44633098054f52d0bb",
+      "size": 747,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/18b215d173642c01270d9d44633098054f52d0bb"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/scripts/build_unix.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d60343c9fd62b09b456f97d9acd599ee7eab599a",
+      "size": 650,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/d60343c9fd62b09b456f97d9acd599ee7eab599a"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/scripts/docs.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e68495efdf46869b6c361ef1ae656d8973ea2d64",
+      "size": 305,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/e68495efdf46869b6c361ef1ae656d8973ea2d64"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/scripts/mkclangd.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20494490437a393af381209b87c40fe004b33d7b",
+      "size": 1238,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/20494490437a393af381209b87c40fe004b33d7b"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/scripts/prebuild.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ea196f78126558ba83de95c0290d2a4030c39b6",
+      "size": 1596,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/0ea196f78126558ba83de95c0290d2a4030c39b6"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/spec",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "96c03e4926ba668b1c6164440ffaab23ef14c0fe",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/96c03e4926ba668b1c6164440ffaab23ef14c0fe"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/spec/callbacks.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "461f32be22ede39ac3f79d7b0988e494b990e0b7",
+      "size": 921,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/461f32be22ede39ac3f79d7b0988e494b990e0b7"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/spec/chat-memory.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a771633f867caaa7ba8ba024eb9dd37fc75fb40",
+      "size": 1796,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/9a771633f867caaa7ba8ba024eb9dd37fc75fb40"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/spec/chat-minimal.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d822f23bc4499824b257b827a3bfb1faeefb96e",
+      "size": 429,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/6d822f23bc4499824b257b827a3bfb1faeefb96e"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/spec/concurrency.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55ba90469c0ae8c23c0854bcd04667bf481ed25a",
+      "size": 985,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/55ba90469c0ae8c23c0854bcd04667bf481ed25a"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/spec/embed-jsonl.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2eb4bcab95d1cf1d17d7a41a9df10c901c9ee88b",
+      "size": 959,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/2eb4bcab95d1cf1d17d7a41a9df10c901c9ee88b"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/spec/embed.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3dc4e1b43c7e7e28a397f310300ee867b810595",
+      "size": 358,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/d3dc4e1b43c7e7e28a397f310300ee867b810595"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/spec/llmodel.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "baa6ed76b18cb43c35bb3055ee63018cc4a4f93a",
+      "size": 1806,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/baa6ed76b18cb43c35bb3055ee63018cc4a4f93a"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/spec/long-context.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abe3f36d943a9d3a0aaee74f11c7212336bf3c16",
+      "size": 606,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/abe3f36d943a9d3a0aaee74f11c7212336bf3c16"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/spec/model-switching.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "264c71565fb197f960de9f5a29fb2b60c4e71a03",
+      "size": 1510,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/264c71565fb197f960de9f5a29fb2b60c4e71a03"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/spec/stateless.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e3f82b2b3d8f74cb924f12c9feb31936eaf1b4d",
+      "size": 1130,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/6e3f82b2b3d8f74cb924f12c9feb31936eaf1b4d"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/spec/streaming.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0dfcfd7bf95ba3bbe5e0f0c509ebe47df3b567b7",
+      "size": 1523,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/0dfcfd7bf95ba3bbe5e0f0c509ebe47df3b567b7"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/spec/system.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f80e3f3a10886dd01029998039ddb893f876cdf5",
+      "size": 649,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/f80e3f3a10886dd01029998039ddb893f876cdf5"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "93768ec5dc4f692842ebea01583acc7fab30b584",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/93768ec5dc4f692842ebea01583acc7fab30b584"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/src/chat-session.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcbdb7daa1ec33282caa2aa92f2071818e3ed34c",
+      "size": 4951,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/dcbdb7daa1ec33282caa2aa92f2071818e3ed34c"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/src/config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29ce8e49bfe293679d433ba85b032d0ee9ea5765",
+      "size": 1134,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/29ce8e49bfe293679d433ba85b032d0ee9ea5765"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/src/gpt4all.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d9bfdccebe39347a70ca4ea249c032448da1351",
+      "size": 28152,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/4d9bfdccebe39347a70ca4ea249c032448da1351"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/src/gpt4all.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aab01d91cf448eebcd76dd40db35dba41f7830a9",
+      "size": 6348,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/aab01d91cf448eebcd76dd40db35dba41f7830a9"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/src/models.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c516ccbcedd3f3c6ea0ed71a19a4b9b4d9f9e98",
+      "size": 5570,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/2c516ccbcedd3f3c6ea0ed71a19a4b9b4d9f9e98"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/src/util.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9c9979babaf5fd7ed90c6981ece5503fa57e9a1",
+      "size": 9677,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/b9c9979babaf5fd7ed90c6981ece5503fa57e9a1"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/test",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "633fa65ee80f7285b843f4ad1c9df7c05208f48a",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/633fa65ee80f7285b843f4ad1c9df7c05208f48a"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/test/gpt4all.test.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d987a3f7fb1eb90dae52029b476fb397c52e647",
+      "size": 6779,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/6d987a3f7fb1eb90dae52029b476fb397c52e647"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/test/models.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "229756464864ee9469ba5d8145187dfded13e7c1",
+      "size": 192,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/229756464864ee9469ba5d8145187dfded13e7c1"
+    },
+    {
+      "path": "gpt4all-bindings/typescript/yarn.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce9b98032ae586fe4e0cc3ef4d6522ccf7c62b9e",
+      "size": 204810,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/ce9b98032ae586fe4e0cc3ef4d6522ccf7c62b9e"
+    },
+    {
+      "path": "gpt4all-chat",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "af3fd28e480f0c9a053442a201c2307b52bbecb4",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/af3fd28e480f0c9a053442a201c2307b52bbecb4"
+    },
+    {
+      "path": "gpt4all-chat/.flake8",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a339d60f27719b3e3128a62d7173a4df3e006fc2",
+      "size": 658,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/a339d60f27719b3e3128a62d7173a4df3e006fc2"
+    },
+    {
+      "path": "gpt4all-chat/CHANGELOG.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cc0091c2bf0f92953b7d104b3f14fe642d321c1",
+      "size": 25348,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/6cc0091c2bf0f92953b7d104b3f14fe642d321c1"
+    },
+    {
+      "path": "gpt4all-chat/CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af958afdd6107f5a2154d6930027f5e2510404fd",
+      "size": 22832,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/af958afdd6107f5a2154d6930027f5e2510404fd"
+    },
+    {
+      "path": "gpt4all-chat/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73b7d2e43f5bb90e1724c08436fe8ffad4214474",
+      "size": 1441,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/73b7d2e43f5bb90e1724c08436fe8ffad4214474"
+    },
+    {
+      "path": "gpt4all-chat/build_and_run.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c94d92669c2f4d752568af151b4071d9b994f344",
+      "size": 4830,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/c94d92669c2f4d752568af151b4071d9b994f344"
+    },
+    {
+      "path": "gpt4all-chat/cmake",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "61c4aed3c69833c9dc786125b913df6fe4c21cc4",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/61c4aed3c69833c9dc786125b913df6fe4c21cc4"
+    },
+    {
+      "path": "gpt4all-chat/cmake/Modules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1bf5c93ccc1bd05569b078399ae83fd8b622c951",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/1bf5c93ccc1bd05569b078399ae83fd8b622c951"
+    },
+    {
+      "path": "gpt4all-chat/cmake/Modules/SignMacOSBinaries.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43d2a3710d3297cf38185171b518e5e0526a9657",
+      "size": 181,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/43d2a3710d3297cf38185171b518e5e0526a9657"
+    },
+    {
+      "path": "gpt4all-chat/cmake/Modules/SignWindowsBinaries.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0dc3f86f27a094f2195d5af085ffa7c909482a35",
+      "size": 589,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/0dc3f86f27a094f2195d5af085ffa7c909482a35"
+    },
+    {
+      "path": "gpt4all-chat/cmake/cpack-steal-config.cmake.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41d15ee8e27152564dd804d6c348c5a223311adb",
+      "size": 131,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/41d15ee8e27152564dd804d6c348c5a223311adb"
+    },
+    {
+      "path": "gpt4all-chat/cmake/cpack_config.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c68b7350118387620686c7df94ab580dfec50efd",
+      "size": 2638,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/c68b7350118387620686c7df94ab580dfec50efd"
+    },
+    {
+      "path": "gpt4all-chat/cmake/deploy-qt-linux.cmake.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "646b941663280777e301128bfa9e8c2a0acfe3ab",
+      "size": 727,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/646b941663280777e301128bfa9e8c2a0acfe3ab"
+    },
+    {
+      "path": "gpt4all-chat/cmake/deploy-qt-mac.cmake.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8798e21e708397ea2382d827b8f4f24c3fa85093",
+      "size": 1450,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/8798e21e708397ea2382d827b8f4f24c3fa85093"
+    },
+    {
+      "path": "gpt4all-chat/cmake/deploy-qt-windows.cmake.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96d1a56c39bacbe5ddad108ea2ee6571a3755c8e",
+      "size": 756,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/96d1a56c39bacbe5ddad108ea2ee6571a3755c8e"
+    },
+    {
+      "path": "gpt4all-chat/cmake/download_model.cmake",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11e96ddb3a53ac0575fafcc5d134893b53b30a78",
+      "size": 490,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/11e96ddb3a53ac0575fafcc5d134893b53b30a78"
+    },
+    {
+      "path": "gpt4all-chat/cmake/installer_control.qs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99478e3eb305f532eb06750607ebbae6b289caa3",
+      "size": 1675,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/99478e3eb305f532eb06750607ebbae6b289caa3"
+    },
+    {
+      "path": "gpt4all-chat/cmake/installer_gpt4all_component.qs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcedab3b22625748ca6d7f73339aa074d8a21779",
+      "size": 2896,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/dcedab3b22625748ca6d7f73339aa074d8a21779"
+    },
+    {
+      "path": "gpt4all-chat/cmake/installer_maintenancetool_component.qs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57a9ca0eb8c586c3dc4d1d7568f7cf664779da83",
+      "size": 803,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/57a9ca0eb8c586c3dc4d1d7568f7cf664779da83"
+    },
+    {
+      "path": "gpt4all-chat/cmake/sign_dmg.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "91de5a9696c9082f27ee6ab345ed3b2933b3fe8e",
+      "size": 4539,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/91de5a9696c9082f27ee6ab345ed3b2933b3fe8e"
+    },
+    {
+      "path": "gpt4all-chat/contributing_translations.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4eb0ae25e71703f11de98db8e6b94fe1ce94f6d",
+      "size": 3593,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/a4eb0ae25e71703f11de98db8e6b94fe1ce94f6d"
+    },
+    {
+      "path": "gpt4all-chat/deps",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e2209c1528bc192c57c598ac41e67f1fd263ec01",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/e2209c1528bc192c57c598ac41e67f1fd263ec01"
+    },
+    {
+      "path": "gpt4all-chat/deps/CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ef203bc06e33eebcce70b2c6c19f14a2f8e35dd",
+      "size": 1988,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/6ef203bc06e33eebcce70b2c6c19f14a2f8e35dd"
+    },
+    {
+      "path": "gpt4all-chat/deps/DuckX",
+      "mode": "160000",
+      "type": "commit",
+      "sha": "6e31dfb280e2107fbf4f6a15098c38b014f1bbcc"
+    },
+    {
+      "path": "gpt4all-chat/deps/QXlsx",
+      "mode": "160000",
+      "type": "commit",
+      "sha": "29e81b369128525749dcb6516195b6b062eda955"
+    },
+    {
+      "path": "gpt4all-chat/deps/SingleApplication",
+      "mode": "160000",
+      "type": "commit",
+      "sha": "21bdef01eddcbd78044eea1d50b9dee08d218ff2"
+    },
+    {
+      "path": "gpt4all-chat/deps/fmt",
+      "mode": "160000",
+      "type": "commit",
+      "sha": "0c9fce2ffefecfdce794e1859584e25877b7b592"
+    },
+    {
+      "path": "gpt4all-chat/deps/json",
+      "mode": "160000",
+      "type": "commit",
+      "sha": "606b6347edf0758c531abb6c36743e09a4c48a84"
+    },
+    {
+      "path": "gpt4all-chat/deps/minja",
+      "mode": "160000",
+      "type": "commit",
+      "sha": "e97bb2442cd6ab3d5bb5f5a3e8a1f7d6081d613b"
+    },
+    {
+      "path": "gpt4all-chat/deps/usearch",
+      "mode": "160000",
+      "type": "commit",
+      "sha": "9e59f1036657303b29eaf709945f339e403e5f2f"
+    },
+    {
+      "path": "gpt4all-chat/dev-requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a29ac98133d6e12a74a3af216b1ed5405e71a9d3",
+      "size": 190,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/a29ac98133d6e12a74a3af216b1ed5405e71a9d3"
+    },
+    {
+      "path": "gpt4all-chat/flatpak-manifest",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f49a3b49c147b7c83db8af29789818673cb5d7e9",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/f49a3b49c147b7c83db8af29789818673cb5d7e9"
+    },
+    {
+      "path": "gpt4all-chat/flatpak-manifest/io.gpt4all.gpt4all.appdata.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "150b659c5586add4f6c9357ede228e4ca47f998e",
+      "size": 2579,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/150b659c5586add4f6c9357ede228e4ca47f998e"
+    },
+    {
+      "path": "gpt4all-chat/flatpak-manifest/io.gpt4all.gpt4all.desktop",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "881f8ed7fe95be716710cc548b3e09645fc53d02",
+      "size": 433,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/881f8ed7fe95be716710cc548b3e09645fc53d02"
+    },
+    {
+      "path": "gpt4all-chat/flatpak-manifest/screenshots",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c3fb7e263ff33d3d200738e0666bf3696ce9f227",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/c3fb7e263ff33d3d200738e0666bf3696ce9f227"
+    },
+    {
+      "path": "gpt4all-chat/flatpak-manifest/screenshots/chat.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b06ecc746a94af74be932899f0b7f6b357fc52b0",
+      "size": 302906,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/b06ecc746a94af74be932899f0b7f6b357fc52b0"
+    },
+    {
+      "path": "gpt4all-chat/flatpak-manifest/screenshots/models.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6e71469a38273d0ed35633a8d56a885b80d0041",
+      "size": 144387,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/c6e71469a38273d0ed35633a8d56a885b80d0041"
+    },
+    {
+      "path": "gpt4all-chat/flatpak-manifest/screenshots/welcome.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8a6a26db3779aa0e274c8412b978e5cd05c9425",
+      "size": 179293,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/b8a6a26db3779aa0e274c8412b978e5cd05c9425"
+    },
+    {
+      "path": "gpt4all-chat/icons",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9953ce96ca0091be49bf57db878ebd7243f50784",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/9953ce96ca0091be49bf57db878ebd7243f50784"
+    },
+    {
+      "path": "gpt4all-chat/icons/antenna_1.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc82f5747a881b8a44c16488ef08d1494f73c9a3",
+      "size": 212,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/bc82f5747a881b8a44c16488ef08d1494f73c9a3"
+    },
+    {
+      "path": "gpt4all-chat/icons/antenna_2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e025bb69a7d154b1a66ec14b81d6491bbcabc8b",
+      "size": 1212,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/0e025bb69a7d154b1a66ec14b81d6491bbcabc8b"
+    },
+    {
+      "path": "gpt4all-chat/icons/antenna_3.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d75bd0d084f9972ce611a533b457168d9ffab90",
+      "size": 2220,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/3d75bd0d084f9972ce611a533b457168d9ffab90"
+    },
+    {
+      "path": "gpt4all-chat/icons/caret_down.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42f37b71689a06e6fc0ce202dc0dd6f76c3b2c2b",
+      "size": 238,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/42f37b71689a06e6fc0ce202dc0dd6f76c3b2c2b"
+    },
+    {
+      "path": "gpt4all-chat/icons/caret_right.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81658b07ca7fa758c090683ee72c2d9a281cea81",
+      "size": 243,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/81658b07ca7fa758c090683ee72c2d9a281cea81"
+    },
+    {
+      "path": "gpt4all-chat/icons/changelog.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9374a50fe302fbf052cf58ac0ae0cc4dae11d09b",
+      "size": 1509,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/9374a50fe302fbf052cf58ac0ae0cc4dae11d09b"
+    },
+    {
+      "path": "gpt4all-chat/icons/chat.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62a4eb14d1133e51e5934de54d15edb2e401ee6f",
+      "size": 1192,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/62a4eb14d1133e51e5934de54d15edb2e401ee6f"
+    },
+    {
+      "path": "gpt4all-chat/icons/check.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8d374215a31b5bfe185ffe5b41ec9ba0c907478",
+      "size": 239,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/a8d374215a31b5bfe185ffe5b41ec9ba0c907478"
+    },
+    {
+      "path": "gpt4all-chat/icons/close.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "707720548cf6193c042cb9d7460549016257d30e",
+      "size": 308,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/707720548cf6193c042cb9d7460549016257d30e"
+    },
+    {
+      "path": "gpt4all-chat/icons/copy.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b1334c76fa934697bf2741fb9f6b784fd21caf0",
+      "size": 303,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/1b1334c76fa934697bf2741fb9f6b784fd21caf0"
+    },
+    {
+      "path": "gpt4all-chat/icons/db.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc0816f74178805fab3c1448d75e99459af28610",
+      "size": 1001,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/fc0816f74178805fab3c1448d75e99459af28610"
+    },
+    {
+      "path": "gpt4all-chat/icons/discord.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "822821be3a1372b5442cbc0fca90a10786e95241",
+      "size": 4418,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/822821be3a1372b5442cbc0fca90a10786e95241"
+    },
+    {
+      "path": "gpt4all-chat/icons/download.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60d202b454bba17586749744659b2d97a94bc161",
+      "size": 341,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/60d202b454bba17586749744659b2d97a94bc161"
+    },
+    {
+      "path": "gpt4all-chat/icons/edit.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ceb292bbf0de55680ebc137c9181ffffc9f6ecf0",
+      "size": 372,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/ceb292bbf0de55680ebc137c9181ffffc9f6ecf0"
+    },
+    {
+      "path": "gpt4all-chat/icons/eject.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c0e004e3237eb6e0ca137bf568fd27877647348",
+      "size": 441,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/1c0e004e3237eb6e0ca137bf568fd27877647348"
+    },
+    {
+      "path": "gpt4all-chat/icons/email.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf757ac7ed4294a66dbdf90fbbcb9e6401dfab08",
+      "size": 306,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/cf757ac7ed4294a66dbdf90fbbcb9e6401dfab08"
+    },
+    {
+      "path": "gpt4all-chat/icons/file-doc.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "590be9bcb8d58067810840346154943b85e21f9c",
+      "size": 897,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/590be9bcb8d58067810840346154943b85e21f9c"
+    },
+    {
+      "path": "gpt4all-chat/icons/file-docx.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c26b4ea079613bc3388e8b9df5aa746447581e7b",
+      "size": 893,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/c26b4ea079613bc3388e8b9df5aa746447581e7b"
+    },
+    {
+      "path": "gpt4all-chat/icons/file-md.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adcb6d04e1513bd5edc26127f5dcce8ed4982b63",
+      "size": 550,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/adcb6d04e1513bd5edc26127f5dcce8ed4982b63"
+    },
+    {
+      "path": "gpt4all-chat/icons/file-pdf.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63fc1ae2e9dd3dbc5588ca3f613a1cadebf33006",
+      "size": 669,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/63fc1ae2e9dd3dbc5588ca3f613a1cadebf33006"
+    },
+    {
+      "path": "gpt4all-chat/icons/file-txt.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "265ab5e7b7a24284c15d30f44472aaf85082df14",
+      "size": 651,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/265ab5e7b7a24284c15d30f44472aaf85082df14"
+    },
+    {
+      "path": "gpt4all-chat/icons/file-xls.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5dc1a973ac3fbd6ab1ac719981bbb083bcba73d",
+      "size": 1019,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/b5dc1a973ac3fbd6ab1ac719981bbb083bcba73d"
+    },
+    {
+      "path": "gpt4all-chat/icons/file.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85a7544337fcb63c47e2c8d9ba3064517b146cdb",
+      "size": 320,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/85a7544337fcb63c47e2c8d9ba3064517b146cdb"
+    },
+    {
+      "path": "gpt4all-chat/icons/github.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81db0a322b42ae06e4e497e92203d1291eaf6177",
+      "size": 3213,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/81db0a322b42ae06e4e497e92203d1291eaf6177"
+    },
+    {
+      "path": "gpt4all-chat/icons/globe.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e19e5fbc7a39440504cf728de9e9ae6a7c7d80ff",
+      "size": 1798,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/e19e5fbc7a39440504cf728de9e9ae6a7c7d80ff"
+    },
+    {
+      "path": "gpt4all-chat/icons/gpt4all-32.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd4dbf59321ff191a0f994b57a9a86be22ca0ff3",
+      "size": 1549,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/fd4dbf59321ff191a0f994b57a9a86be22ca0ff3"
+    },
+    {
+      "path": "gpt4all-chat/icons/gpt4all-48.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4fefed5e598ecff5701e4d8bec724a1b632deaf",
+      "size": 2537,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/e4fefed5e598ecff5701e4d8bec724a1b632deaf"
+    },
+    {
+      "path": "gpt4all-chat/icons/gpt4all.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b293e8480245750076755a22c01bc4e644ce47e",
+      "size": 5844,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/9b293e8480245750076755a22c01bc4e644ce47e"
+    },
+    {
+      "path": "gpt4all-chat/icons/gpt4all_transparent.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7c0dacd3760d4fe11fb541f05475b8d8da71eaa",
+      "size": 6726,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/a7c0dacd3760d4fe11fb541f05475b8d8da71eaa"
+    },
+    {
+      "path": "gpt4all-chat/icons/groq.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f895558ca340c1b1936496373ed2aae14027d13",
+      "size": 620,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/1f895558ca340c1b1936496373ed2aae14027d13"
+    },
+    {
+      "path": "gpt4all-chat/icons/home.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a682984fd7f860361946000cb6334dd5f502453",
+      "size": 1103,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/4a682984fd7f860361946000cb6334dd5f502453"
+    },
+    {
+      "path": "gpt4all-chat/icons/image.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25a7a765111bdce3cb59bb60dec2ca4d3192fd24",
+      "size": 424,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/25a7a765111bdce3cb59bb60dec2ca4d3192fd24"
+    },
+    {
+      "path": "gpt4all-chat/icons/info.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c207ecb6885ec3f4c09bfad6b4776d8619b03dd",
+      "size": 1946,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/2c207ecb6885ec3f4c09bfad6b4776d8619b03dd"
+    },
+    {
+      "path": "gpt4all-chat/icons/left_panel_closed.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edc4b34d18e4705d6b893c15ce6a6b0f2d4cb265",
+      "size": 443,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/edc4b34d18e4705d6b893c15ce6a6b0f2d4cb265"
+    },
+    {
+      "path": "gpt4all-chat/icons/left_panel_open.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6c087456f20cbc8debd640456c168c33f541659",
+      "size": 371,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/d6c087456f20cbc8debd640456c168c33f541659"
+    },
+    {
+      "path": "gpt4all-chat/icons/local-docs.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06031c3469772d50d333db38a1d011e2c0918f49",
+      "size": 1697,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/06031c3469772d50d333db38a1d011e2c0918f49"
+    },
+    {
+      "path": "gpt4all-chat/icons/mistral.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0775fe7e02b75f9f60cae9362c6d15005725fabe",
+      "size": 3001,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/0775fe7e02b75f9f60cae9362c6d15005725fabe"
+    },
+    {
+      "path": "gpt4all-chat/icons/models.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e9b530692ffc0ed4bf0585c25f143b16eb43438",
+      "size": 911,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/4e9b530692ffc0ed4bf0585c25f143b16eb43438"
+    },
+    {
+      "path": "gpt4all-chat/icons/network.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b148276c6554f400124dff5cbe6f968d7a809ef",
+      "size": 491,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/4b148276c6554f400124dff5cbe6f968d7a809ef"
+    },
+    {
+      "path": "gpt4all-chat/icons/nomic_logo.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3bc14299dd31664f96a8dc97e55ee422de4b421",
+      "size": 1955,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/c3bc14299dd31664f96a8dc97e55ee422de4b421"
+    },
+    {
+      "path": "gpt4all-chat/icons/notes.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5378aa7a1504d93a15dfa42e6061978088b03ac",
+      "size": 479,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/a5378aa7a1504d93a15dfa42e6061978088b03ac"
+    },
+    {
+      "path": "gpt4all-chat/icons/openai.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b4eff961f37e99dd06d461ff9cee25d45581e0d",
+      "size": 1738,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/3b4eff961f37e99dd06d461ff9cee25d45581e0d"
+    },
+    {
+      "path": "gpt4all-chat/icons/paperclip.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c7feb23cef186aea42fecc0ca5fe9fb52a153b6",
+      "size": 1320,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/0c7feb23cef186aea42fecc0ca5fe9fb52a153b6"
+    },
+    {
+      "path": "gpt4all-chat/icons/plus.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79c378c6bc76d13cc9d1046a2177ed58236203e9",
+      "size": 236,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/79c378c6bc76d13cc9d1046a2177ed58236203e9"
+    },
+    {
+      "path": "gpt4all-chat/icons/plus_circle.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0365c1a4e6cf06ca429a86690c8d0ff86b9fd243",
+      "size": 340,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/0365c1a4e6cf06ca429a86690c8d0ff86b9fd243"
+    },
+    {
+      "path": "gpt4all-chat/icons/question.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7825afec1268e2ec2f6f1e1779c1cac5783fbfb4",
+      "size": 466,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/7825afec1268e2ec2f6f1e1779c1cac5783fbfb4"
+    },
+    {
+      "path": "gpt4all-chat/icons/recycle.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27cb1f08756fb63bfd4d002b35b73d7c6606620f",
+      "size": 833,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/27cb1f08756fb63bfd4d002b35b73d7c6606620f"
+    },
+    {
+      "path": "gpt4all-chat/icons/redo.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a0db9e6dd291552697af2d36677de4e6e944deb",
+      "size": 320,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/6a0db9e6dd291552697af2d36677de4e6e944deb"
+    },
+    {
+      "path": "gpt4all-chat/icons/regenerate.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25cdeedfb3815501be3b34d5759ad0475fb3081e",
+      "size": 527,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/25cdeedfb3815501be3b34d5759ad0475fb3081e"
+    },
+    {
+      "path": "gpt4all-chat/icons/search.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf4e5058947ba752560669e3d3206e3a9570e289",
+      "size": 267,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/bf4e5058947ba752560669e3d3206e3a9570e289"
+    },
+    {
+      "path": "gpt4all-chat/icons/send_message.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca4a829644a2e3d2ba5ea4f8d57c9367ec1046df",
+      "size": 453,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/ca4a829644a2e3d2ba5ea4f8d57c9367ec1046df"
+    },
+    {
+      "path": "gpt4all-chat/icons/settings.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d885b3f0b8397f7b5e77f509d3af4f23fcc73d1",
+      "size": 5133,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/3d885b3f0b8397f7b5e77f509d3af4f23fcc73d1"
+    },
+    {
+      "path": "gpt4all-chat/icons/stack.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d40c17f61fd95f3a34a37be9e10be84a5f7d1a9a",
+      "size": 600,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/d40c17f61fd95f3a34a37be9e10be84a5f7d1a9a"
+    },
+    {
+      "path": "gpt4all-chat/icons/stop_generating.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72261f00194e0d8aa0542ba39e10ddd613bcad96",
+      "size": 240,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/72261f00194e0d8aa0542ba39e10ddd613bcad96"
+    },
+    {
+      "path": "gpt4all-chat/icons/thumbs_down.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4123d9efc61a1b34586d7e3d7f7ef72ccc6e8293",
+      "size": 449,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/4123d9efc61a1b34586d7e3d7f7ef72ccc6e8293"
+    },
+    {
+      "path": "gpt4all-chat/icons/thumbs_up.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7adc0b3100534050a34e0aeb895d36d0e62d9aa6",
+      "size": 433,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/7adc0b3100534050a34e0aeb895d36d0e62d9aa6"
+    },
+    {
+      "path": "gpt4all-chat/icons/trash.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa800005abfb1ec1001cc77072e96f958faa34d9",
+      "size": 917,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/fa800005abfb1ec1001cc77072e96f958faa34d9"
+    },
+    {
+      "path": "gpt4all-chat/icons/twitter.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "633d226c818146d353b13425acc5085a89ffc1bb",
+      "size": 1454,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/633d226c818146d353b13425acc5085a89ffc1bb"
+    },
+    {
+      "path": "gpt4all-chat/icons/undo.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ced96b8733efcac25a7ccec0b6527d3bd296784c",
+      "size": 349,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/ced96b8733efcac25a7ccec0b6527d3bd296784c"
+    },
+    {
+      "path": "gpt4all-chat/icons/up_down.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e11ebadbd49b40eea3781ef4baa0813f8333c45",
+      "size": 367,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/4e11ebadbd49b40eea3781ef4baa0813f8333c45"
+    },
+    {
+      "path": "gpt4all-chat/icons/webpage.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a93f5436feec8157397a1eee16a3375f53e9dc6",
+      "size": 255,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/2a93f5436feec8157397a1eee16a3375f53e9dc6"
+    },
+    {
+      "path": "gpt4all-chat/icons/you.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4376bef8235f6af91accd9c93f00bdc944240bc2",
+      "size": 3688,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/4376bef8235f6af91accd9c93f00bdc944240bc2"
+    },
+    {
+      "path": "gpt4all-chat/main.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b60d36ae89207c7f3258e1bc161717581d86b00",
+      "size": 25356,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/5b60d36ae89207c7f3258e1bc161717581d86b00"
+    },
+    {
+      "path": "gpt4all-chat/metadata",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0f2f8631b94fd5bc7ec493f59e5b370cab1c4422",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/0f2f8631b94fd5bc7ec493f59e5b370cab1c4422"
+    },
+    {
+      "path": "gpt4all-chat/metadata/latestnews.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c95ab171f125f578b8a4b12edc68bd7eda4e54d3",
+      "size": 899,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/c95ab171f125f578b8a4b12edc68bd7eda4e54d3"
+    },
+    {
+      "path": "gpt4all-chat/metadata/models.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f1d8725adac999fd7613392c80e2b97d4b1ddd0",
+      "size": 9091,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/5f1d8725adac999fd7613392c80e2b97d4b1ddd0"
+    },
+    {
+      "path": "gpt4all-chat/metadata/models2.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "450d6b4aad7bc878f2222e2e7a7e124739e5d3f8",
+      "size": 10274,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/450d6b4aad7bc878f2222e2e7a7e124739e5d3f8"
+    },
+    {
+      "path": "gpt4all-chat/metadata/models3.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "654fe18d461033f7ec4398badd623faeda4f5a1e",
+      "size": 40987,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/654fe18d461033f7ec4398badd623faeda4f5a1e"
+    },
+    {
+      "path": "gpt4all-chat/metadata/release.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bedec447283694bdcce73aae918980c714fa89c7",
+      "size": 43597,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/bedec447283694bdcce73aae918980c714fa89c7"
+    },
+    {
+      "path": "gpt4all-chat/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12b9fc432945ebd986d9c95f1d75cd7c98296cf3",
+      "size": 701,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/12b9fc432945ebd986d9c95f1d75cd7c98296cf3"
+    },
+    {
+      "path": "gpt4all-chat/qa_checklist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7ea50ed9d540e0b6acc2bb4c05c917f922ad94a",
+      "size": 2134,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/b7ea50ed9d540e0b6acc2bb4c05c917f922ad94a"
+    },
+    {
+      "path": "gpt4all-chat/qml",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "44db366323fdfa51f725f38ea12e9712326087fd",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/44db366323fdfa51f725f38ea12e9712326087fd"
+    },
+    {
+      "path": "gpt4all-chat/qml/AddCollectionView.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed2ece8462b0ab52fb0a0a1184cc525f3c939584",
+      "size": 6616,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/ed2ece8462b0ab52fb0a0a1184cc525f3c939584"
+    },
+    {
+      "path": "gpt4all-chat/qml/AddGPT4AllModelView.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55154e6fa42722cfa4787db3b181c24feb4d6b58",
+      "size": 23066,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/55154e6fa42722cfa4787db3b181c24feb4d6b58"
+    },
+    {
+      "path": "gpt4all-chat/qml/AddHFModelView.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0435e2b5f8c88a04ed1e1172d048d58ea35e586f",
+      "size": 34010,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/0435e2b5f8c88a04ed1e1172d048d58ea35e586f"
+    },
+    {
+      "path": "gpt4all-chat/qml/AddModelView.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bb06f240b1658cdfc9171985644377b97ebd3bf",
+      "size": 4424,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/0bb06f240b1658cdfc9171985644377b97ebd3bf"
+    },
+    {
+      "path": "gpt4all-chat/qml/AddRemoteModelView.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bca281991ec903af32fba878a59f0314919b2f13",
+      "size": 6370,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/bca281991ec903af32fba878a59f0314919b2f13"
+    },
+    {
+      "path": "gpt4all-chat/qml/ApplicationSettings.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c002561563c9bc4fa22f5543790a7b3cf2471136",
+      "size": 21809,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/c002561563c9bc4fa22f5543790a7b3cf2471136"
+    },
+    {
+      "path": "gpt4all-chat/qml/ChatCollapsibleItem.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "459b8da1028f6d9f66ef390b06fda011f9306f03",
+      "size": 5536,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/459b8da1028f6d9f66ef390b06fda011f9306f03"
+    },
+    {
+      "path": "gpt4all-chat/qml/ChatDrawer.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aeb83d280fafe8316e4240537f556245dbec8ba1",
+      "size": 13942,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/aeb83d280fafe8316e4240537f556245dbec8ba1"
+    },
+    {
+      "path": "gpt4all-chat/qml/ChatItemView.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09f070ae68dc872b82b51b58d7c4657cbd3f3676",
+      "size": 29158,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/09f070ae68dc872b82b51b58d7c4657cbd3f3676"
+    },
+    {
+      "path": "gpt4all-chat/qml/ChatMessageButton.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3c0a31a7f1ed87fea1e748eda121671614a7514",
+      "size": 357,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/b3c0a31a7f1ed87fea1e748eda121671614a7514"
+    },
+    {
+      "path": "gpt4all-chat/qml/ChatTextItem.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca4c2fa2ff6e01d7fbb2680791b3f59c5f29e350",
+      "size": 4570,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/ca4c2fa2ff6e01d7fbb2680791b3f59c5f29e350"
+    },
+    {
+      "path": "gpt4all-chat/qml/ChatView.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12f6adad1bdfaf6fce2a460e2baa20e966de8e5f",
+      "size": 64902,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/12f6adad1bdfaf6fce2a460e2baa20e966de8e5f"
+    },
+    {
+      "path": "gpt4all-chat/qml/CollectionsDrawer.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93eeda9d1545e213564b833925daa37c099cf206",
+      "size": 5412,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/93eeda9d1545e213564b833925daa37c099cf206"
+    },
+    {
+      "path": "gpt4all-chat/qml/ConfirmationDialog.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4220245320c83adb7cfbdd94d78daf0fbb1f3495",
+      "size": 1673,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/4220245320c83adb7cfbdd94d78daf0fbb1f3495"
+    },
+    {
+      "path": "gpt4all-chat/qml/HomeView.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d76d5dbfd46c3565c3d6e45339810acd294aeaa",
+      "size": 10455,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/8d76d5dbfd46c3565c3d6e45339810acd294aeaa"
+    },
+    {
+      "path": "gpt4all-chat/qml/LocalDocsSettings.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95124c9c822d4e801b5525beb2bd2d7be1769db7",
+      "size": 12178,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/95124c9c822d4e801b5525beb2bd2d7be1769db7"
+    },
+    {
+      "path": "gpt4all-chat/qml/LocalDocsView.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c87586043199acab32748105801b246b14859ac3",
+      "size": 19968,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/c87586043199acab32748105801b246b14859ac3"
+    },
+    {
+      "path": "gpt4all-chat/qml/ModelSettings.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62906440c93633e1450ba2f79fd7832952a6a519",
+      "size": 41646,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/62906440c93633e1450ba2f79fd7832952a6a519"
+    },
+    {
+      "path": "gpt4all-chat/qml/ModelsView.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a24422779b4f91ab89c297c93fe0bc3ae32c522",
+      "size": 30800,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/8a24422779b4f91ab89c297c93fe0bc3ae32c522"
+    },
+    {
+      "path": "gpt4all-chat/qml/MyBusyIndicator.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cecf50858fef3a1a9fa64dafab7fda9be443d31b",
+      "size": 1886,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/cecf50858fef3a1a9fa64dafab7fda9be443d31b"
+    },
+    {
+      "path": "gpt4all-chat/qml/MyButton.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58dda2ee25e27dd9168a892869a51f49e835ed76",
+      "size": 1557,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/58dda2ee25e27dd9168a892869a51f49e835ed76"
+    },
+    {
+      "path": "gpt4all-chat/qml/MyCheckBox.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cf16bfb39c62588530424037a3c320d70e58a61",
+      "size": 980,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/9cf16bfb39c62588530424037a3c320d70e58a61"
+    },
+    {
+      "path": "gpt4all-chat/qml/MyComboBox.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c23a57ccaee7f4ab73617d5041ff0b752abb9c4",
+      "size": 3257,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/9c23a57ccaee7f4ab73617d5041ff0b752abb9c4"
+    },
+    {
+      "path": "gpt4all-chat/qml/MyDialog.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fccdc196ccb8c6ca8a9b11c6f33de3a3a183a36e",
+      "size": 1210,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/fccdc196ccb8c6ca8a9b11c6f33de3a3a183a36e"
+    },
+    {
+      "path": "gpt4all-chat/qml/MyDirectoryField.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dce2a9b12db267fa1206412b7d0a00fabfcdb38e",
+      "size": 522,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/dce2a9b12db267fa1206412b7d0a00fabfcdb38e"
+    },
+    {
+      "path": "gpt4all-chat/qml/MyFancyLink.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e3320398a3c0493f752f238118c0ed1837340d9",
+      "size": 1095,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/4e3320398a3c0493f752f238118c0ed1837340d9"
+    },
+    {
+      "path": "gpt4all-chat/qml/MyFileDialog.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a910b5796d20aa7d1023ec8c44ab1bdc2c0b7d77",
+      "size": 566,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/a910b5796d20aa7d1023ec8c44ab1bdc2c0b7d77"
+    },
+    {
+      "path": "gpt4all-chat/qml/MyFileIcon.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "036baa5b7bf9cfdca3df30b90322d84eb1c9cc8c",
+      "size": 1298,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/036baa5b7bf9cfdca3df30b90322d84eb1c9cc8c"
+    },
+    {
+      "path": "gpt4all-chat/qml/MyFolderDialog.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "885d47bf934c92e1e415007fdba15e23aa5d161a",
+      "size": 379,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/885d47bf934c92e1e415007fdba15e23aa5d161a"
+    },
+    {
+      "path": "gpt4all-chat/qml/MyMenu.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae103721134322f293eb4170a2dd23cda2d92a0c",
+      "size": 2307,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/ae103721134322f293eb4170a2dd23cda2d92a0c"
+    },
+    {
+      "path": "gpt4all-chat/qml/MyMenuItem.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9af06a99845ee8af393d55358a52d0099838f22a",
+      "size": 1434,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/9af06a99845ee8af393d55358a52d0099838f22a"
+    },
+    {
+      "path": "gpt4all-chat/qml/MyMiniButton.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d3ef7284a9e718506f09cc81534ebe2ca3679f8",
+      "size": 1370,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/2d3ef7284a9e718506f09cc81534ebe2ca3679f8"
+    },
+    {
+      "path": "gpt4all-chat/qml/MySettingsButton.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "218a329c2f57a248f08fd2399b012c39346db290",
+      "size": 1422,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/218a329c2f57a248f08fd2399b012c39346db290"
+    },
+    {
+      "path": "gpt4all-chat/qml/MySettingsDestructiveButton.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "052cb857d2310c247a7c81ac5d4a910379cc65cd",
+      "size": 1215,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/052cb857d2310c247a7c81ac5d4a910379cc65cd"
+    },
+    {
+      "path": "gpt4all-chat/qml/MySettingsLabel.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f0ba3c606b4af6369ccac128eb4d85ea3a6ed97",
+      "size": 2338,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/2f0ba3c606b4af6369ccac128eb4d85ea3a6ed97"
+    },
+    {
+      "path": "gpt4all-chat/qml/MySettingsStack.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17901325aba65abb89f6d7bdcb369bc215d5099f",
+      "size": 2313,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/17901325aba65abb89f6d7bdcb369bc215d5099f"
+    },
+    {
+      "path": "gpt4all-chat/qml/MySettingsTab.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41657f0b7c87e3d923924ebfd90533998db29d4d",
+      "size": 2371,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/41657f0b7c87e3d923924ebfd90533998db29d4d"
+    },
+    {
+      "path": "gpt4all-chat/qml/MySlug.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b990759d6f35b123ed812736939b3af1b672e914",
+      "size": 504,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/b990759d6f35b123ed812736939b3af1b672e914"
+    },
+    {
+      "path": "gpt4all-chat/qml/MyTabButton.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a460952474140245dec644dda7d62ddb6fe4dc3",
+      "size": 724,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/2a460952474140245dec644dda7d62ddb6fe4dc3"
+    },
+    {
+      "path": "gpt4all-chat/qml/MyTextArea.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bace1f26dc0440e9d9133bd7352d27556f6ac63d",
+      "size": 871,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/bace1f26dc0440e9d9133bd7352d27556f6ac63d"
+    },
+    {
+      "path": "gpt4all-chat/qml/MyTextButton.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5eb6ccca63c41051ff98412755b3ffe8425084ef",
+      "size": 437,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/5eb6ccca63c41051ff98412755b3ffe8425084ef"
+    },
+    {
+      "path": "gpt4all-chat/qml/MyTextField.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "730e33edc42184f6ee160df8d230f88d450e05d0",
+      "size": 541,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/730e33edc42184f6ee160df8d230f88d450e05d0"
+    },
+    {
+      "path": "gpt4all-chat/qml/MyToolButton.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "046c46851274ef08e48712834a784ca24bc47e31",
+      "size": 1883,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/046c46851274ef08e48712834a784ca24bc47e31"
+    },
+    {
+      "path": "gpt4all-chat/qml/MyWelcomeButton.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73c559ad035e5508d6637d0ead70356675c2a4c8",
+      "size": 2477,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/73c559ad035e5508d6637d0ead70356675c2a4c8"
+    },
+    {
+      "path": "gpt4all-chat/qml/NetworkDialog.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5720af22dd153fb73f705827edf3aad3e439902b",
+      "size": 4263,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/5720af22dd153fb73f705827edf3aad3e439902b"
+    },
+    {
+      "path": "gpt4all-chat/qml/NewVersionDialog.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ade2ca978c62e96e2696e5954f44d495c2442db",
+      "size": 1336,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/7ade2ca978c62e96e2696e5954f44d495c2442db"
+    },
+    {
+      "path": "gpt4all-chat/qml/PopupDialog.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d542b04ade564055f068b49061a3bccc63e6cc99",
+      "size": 2117,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/d542b04ade564055f068b49061a3bccc63e6cc99"
+    },
+    {
+      "path": "gpt4all-chat/qml/RemoteModelCard.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8c63765481042a7eb62c7eb64a5b0acb5808a29",
+      "size": 7593,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/e8c63765481042a7eb62c7eb64a5b0acb5808a29"
+    },
+    {
+      "path": "gpt4all-chat/qml/SettingsView.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "176d04188c6ef130c5152e2f660a2b60fe64e16e",
+      "size": 4818,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/176d04188c6ef130c5152e2f660a2b60fe64e16e"
+    },
+    {
+      "path": "gpt4all-chat/qml/StartupDialog.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a29a8a4ce280332af5794ef2a3e6d3beee7c0128",
+      "size": 13910,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/a29a8a4ce280332af5794ef2a3e6d3beee7c0128"
+    },
+    {
+      "path": "gpt4all-chat/qml/Theme.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a33bd8c168ce7d36edf3a1d29b6e21206bfc1e4",
+      "size": 39915,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/4a33bd8c168ce7d36edf3a1d29b6e21206bfc1e4"
+    },
+    {
+      "path": "gpt4all-chat/qml/ThumbsDownDialog.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea28f6b5ff7091a99ad6a822d5d19f16f471e5b3",
+      "size": 2090,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/ea28f6b5ff7091a99ad6a822d5d19f16f471e5b3"
+    },
+    {
+      "path": "gpt4all-chat/qml/Toast.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9e26254a5a5f73dd7177ac9142c9f3e800cf949",
+      "size": 2136,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/c9e26254a5a5f73dd7177ac9142c9f3e800cf949"
+    },
+    {
+      "path": "gpt4all-chat/qml/ToastManager.qml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4d509fcc47fddc18b3d17883df53d72734782df",
+      "size": 1256,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/e4d509fcc47fddc18b3d17883df53d72734782df"
+    },
+    {
+      "path": "gpt4all-chat/resources",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "266d2fe478517e30ae0d5900012353756ffe683e",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/266d2fe478517e30ae0d5900012353756ffe683e"
+    },
+    {
+      "path": "gpt4all-chat/resources/gpt4all.icns",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8eda0942a9945f79ae463b587db834f1355d2336",
+      "size": 281088,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/8eda0942a9945f79ae463b587db834f1355d2336"
+    },
+    {
+      "path": "gpt4all-chat/resources/gpt4all.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ec24debf45c12e255fe4bfd72cfe5f0041759c6",
+      "size": 328049,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/4ec24debf45c12e255fe4bfd72cfe5f0041759c6"
+    },
+    {
+      "path": "gpt4all-chat/resources/gpt4all.rc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24865d7ea123a98d120b4ae7b222dcf0abcb9859",
+      "size": 29,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/24865d7ea123a98d120b4ae7b222dcf0abcb9859"
+    },
+    {
+      "path": "gpt4all-chat/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "55173db1a80802b976c81e336f347de693f62d87",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/55173db1a80802b976c81e336f347de693f62d87"
+    },
+    {
+      "path": "gpt4all-chat/src/chat.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52e8e62927adc4005ccf7e23947340d64b22c37a",
+      "size": 16200,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/52e8e62927adc4005ccf7e23947340d64b22c37a"
+    },
+    {
+      "path": "gpt4all-chat/src/chat.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4ac654f04bde355f44d07f714b691287c7fd23a",
+      "size": 8635,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/f4ac654f04bde355f44d07f714b691287c7fd23a"
+    },
+    {
+      "path": "gpt4all-chat/src/chatapi.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa2a7f6f2dd06bb12351ed2b53c8dc7e83982385",
+      "size": 11041,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/aa2a7f6f2dd06bb12351ed2b53c8dc7e83982385"
+    },
+    {
+      "path": "gpt4all-chat/src/chatapi.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f937a20d55c35e5d9692894e51dc095c4b55ad8a",
+      "size": 5289,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/f937a20d55c35e5d9692894e51dc095c4b55ad8a"
+    },
+    {
+      "path": "gpt4all-chat/src/chatlistmodel.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eac89b83360d81be73515a834db7f3a0037a4d04",
+      "size": 10310,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/eac89b83360d81be73515a834db7f3a0037a4d04"
+    },
+    {
+      "path": "gpt4all-chat/src/chatlistmodel.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02d71a7297e666c4bb7546604e8351c2f3417d43",
+      "size": 8144,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/02d71a7297e666c4bb7546604e8351c2f3417d43"
+    },
+    {
+      "path": "gpt4all-chat/src/chatllm.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fbcce8c688019d5cf8a2ca3866e15777cbcc5e7",
+      "size": 51749,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/1fbcce8c688019d5cf8a2ca3866e15777cbcc5e7"
+    },
+    {
+      "path": "gpt4all-chat/src/chatllm.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9ec4c21d75d90ff958341ad2a7bcfc501579885",
+      "size": 9201,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/c9ec4c21d75d90ff958341ad2a7bcfc501579885"
+    },
+    {
+      "path": "gpt4all-chat/src/chatmodel.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db01df271cfe92ef1a2bc24a8b9993392b12ccf4",
+      "size": 12478,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/db01df271cfe92ef1a2bc24a8b9993392b12ccf4"
+    },
+    {
+      "path": "gpt4all-chat/src/chatmodel.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21adefcb4e28b617a7b20e13b51b98a21ad19c48",
+      "size": 44660,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/21adefcb4e28b617a7b20e13b51b98a21ad19c48"
+    },
+    {
+      "path": "gpt4all-chat/src/chatviewtextprocessor.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3aabe75faa73e9fa1c40430a4c14e727e362ec2",
+      "size": 39257,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/b3aabe75faa73e9fa1c40430a4c14e727e362ec2"
+    },
+    {
+      "path": "gpt4all-chat/src/chatviewtextprocessor.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a897c4035180456b19e97ee0d5759fe8b9c21c91",
+      "size": 3797,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/a897c4035180456b19e97ee0d5759fe8b9c21c91"
+    },
+    {
+      "path": "gpt4all-chat/src/codeinterpreter.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6143437a3c3f7fd6db7afd4304e07edd86fe1583",
+      "size": 5525,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/6143437a3c3f7fd6db7afd4304e07edd86fe1583"
+    },
+    {
+      "path": "gpt4all-chat/src/codeinterpreter.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa6db89298e82a3e3ab635ae3a38c0665476fe80",
+      "size": 2678,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/aa6db89298e82a3e3ab635ae3a38c0665476fe80"
+    },
+    {
+      "path": "gpt4all-chat/src/config.h.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c919b4bafa9622e1042345860c53344847859237",
+      "size": 164,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/c919b4bafa9622e1042345860c53344847859237"
+    },
+    {
+      "path": "gpt4all-chat/src/database.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51bc705f6f429d578ae873462ea85480dca47a04",
+      "size": 92894,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/51bc705f6f429d578ae873462ea85480dca47a04"
+    },
+    {
+      "path": "gpt4all-chat/src/database.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef98e977abd06dbece3ba3f37fc06d329c7a5b73",
+      "size": 11968,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/ef98e977abd06dbece3ba3f37fc06d329c7a5b73"
+    },
+    {
+      "path": "gpt4all-chat/src/download.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6891feeb28eafb1424153c8072be686d9dce3ffd",
+      "size": 26180,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/6891feeb28eafb1424153c8072be686d9dce3ffd"
+    },
+    {
+      "path": "gpt4all-chat/src/download.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6db0c6ce5fbd983a356ed4a8323978acc046b980",
+      "size": 3738,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/6db0c6ce5fbd983a356ed4a8323978acc046b980"
+    },
+    {
+      "path": "gpt4all-chat/src/embllm.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "964ab7b79d38fbab49137d55a3f03f7dc1d85a3d",
+      "size": 14098,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/964ab7b79d38fbab49137d55a3f03f7dc1d85a3d"
+    },
+    {
+      "path": "gpt4all-chat/src/embllm.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a55a4e02a9eb80fa2bc66e5c4caf06ff7f47452",
+      "size": 2561,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/2a55a4e02a9eb80fa2bc66e5c4caf06ff7f47452"
+    },
+    {
+      "path": "gpt4all-chat/src/jinja_helpers.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3033d78b77a1a68703a13f1da4af490bafa4e77",
+      "size": 2526,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/c3033d78b77a1a68703a13f1da4af490bafa4e77"
+    },
+    {
+      "path": "gpt4all-chat/src/jinja_helpers.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb27b75b6a73df426ffa3c5a6e08d5cd78b960b6",
+      "size": 1306,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/fb27b75b6a73df426ffa3c5a6e08d5cd78b960b6"
+    },
+    {
+      "path": "gpt4all-chat/src/jinja_replacements.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5817dd3a4a13d907da8cf82269fa00ff52002161",
+      "size": 38047,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/5817dd3a4a13d907da8cf82269fa00ff52002161"
+    },
+    {
+      "path": "gpt4all-chat/src/jinja_replacements.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90f92cba9f3491028a672101745b18abb354f1d2",
+      "size": 160,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/90f92cba9f3491028a672101745b18abb354f1d2"
+    },
+    {
+      "path": "gpt4all-chat/src/llm.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcddcae3cfdc040358addf40934e7853a3993def",
+      "size": 3111,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/bcddcae3cfdc040358addf40934e7853a3993def"
+    },
+    {
+      "path": "gpt4all-chat/src/llm.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "797a47e8c780666717b88fb98e7c5167a6f05b4f",
+      "size": 971,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/797a47e8c780666717b88fb98e7c5167a6f05b4f"
+    },
+    {
+      "path": "gpt4all-chat/src/localdocs.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e37b36cad575332ce2e9ec49b0675468c93e30a",
+      "size": 4006,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/1e37b36cad575332ce2e9ec49b0675468c93e30a"
+    },
+    {
+      "path": "gpt4all-chat/src/localdocs.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb669d3eaf3a8d68b84b7f353ec8acb4ef2501f5",
+      "size": 1751,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/eb669d3eaf3a8d68b84b7f353ec8acb4ef2501f5"
+    },
+    {
+      "path": "gpt4all-chat/src/localdocsmodel.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b155229973c73af62c004597840eaac5fe4ac3e1",
+      "size": 9552,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/b155229973c73af62c004597840eaac5fe4ac3e1"
+    },
+    {
+      "path": "gpt4all-chat/src/localdocsmodel.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c79c0fb7b7a591f015101ef6e6a0ee1a974a50aa",
+      "size": 2703,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/c79c0fb7b7a591f015101ef6e6a0ee1a974a50aa"
+    },
+    {
+      "path": "gpt4all-chat/src/logger.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4819adeac0d2deca086f2fcf3f90d42db6e90d47",
+      "size": 2045,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/4819adeac0d2deca086f2fcf3f90d42db6e90d47"
+    },
+    {
+      "path": "gpt4all-chat/src/logger.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "071680b09c997e0da6c4c93a88352d7b5b606ad4",
+      "size": 409,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/071680b09c997e0da6c4c93a88352d7b5b606ad4"
+    },
+    {
+      "path": "gpt4all-chat/src/macosdock.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac18334fe7c607a08dcdd8f1455479f8b67a9a9b",
+      "size": 134,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/ac18334fe7c607a08dcdd8f1455479f8b67a9a9b"
+    },
+    {
+      "path": "gpt4all-chat/src/macosdock.mm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20f1514387dde14f89a9b7b1bcc548066b06ff6b",
+      "size": 313,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/20f1514387dde14f89a9b7b1bcc548066b06ff6b"
+    },
+    {
+      "path": "gpt4all-chat/src/main.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf782ead5fdee870db355a8f47a23e5f5830c96f",
+      "size": 6059,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/cf782ead5fdee870db355a8f47a23e5f5830c96f"
+    },
+    {
+      "path": "gpt4all-chat/src/modellist.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "248f2f09f0514b1fa0f7dae5a1f6e6495ffc46eb",
+      "size": 90116,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/248f2f09f0514b1fa0f7dae5a1f6e6495ffc46eb"
+    },
+    {
+      "path": "gpt4all-chat/src/modellist.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "756c6ffe4318d798f66d40284022956fa55f77d9",
+      "size": 22836,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/756c6ffe4318d798f66d40284022956fa55f77d9"
+    },
+    {
+      "path": "gpt4all-chat/src/mysettings.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bc1595f959116d9588010997c3341f6eb1fe12f",
+      "size": 34299,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/4bc1595f959116d9588010997c3341f6eb1fe12f"
+    },
+    {
+      "path": "gpt4all-chat/src/mysettings.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59cf1fa09e95d18d30a6757f2a388b77ca29eb42",
+      "size": 14536,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/59cf1fa09e95d18d30a6757f2a388b77ca29eb42"
+    },
+    {
+      "path": "gpt4all-chat/src/network.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0c04f1d70e072ccc4baf6056f1c83e550c4b32e",
+      "size": 18690,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/e0c04f1d70e072ccc4baf6056f1c83e550c4b32e"
+    },
+    {
+      "path": "gpt4all-chat/src/network.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f0a8bb491a9f81a01006f27b2a4f03568012a8b",
+      "size": 2056,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/8f0a8bb491a9f81a01006f27b2a4f03568012a8b"
+    },
+    {
+      "path": "gpt4all-chat/src/server.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f04b6f7c364020b12582cb1227038d4826f497d",
+      "size": 32307,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/5f04b6f7c364020b12582cb1227038d4826f497d"
+    },
+    {
+      "path": "gpt4all-chat/src/server.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "465bf524a896711f26352a9e9a507bcb2482479c",
+      "size": 1216,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/465bf524a896711f26352a9e9a507bcb2482479c"
+    },
+    {
+      "path": "gpt4all-chat/src/tool.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca3eb0e3da53fc3b65bc577faee7efe0bb37ce2e",
+      "size": 2251,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/ca3eb0e3da53fc3b65bc577faee7efe0bb37ce2e"
+    },
+    {
+      "path": "gpt4all-chat/src/tool.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d96677404c9fa4ed3dbf898f5961c1321d64afcf",
+      "size": 4057,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/d96677404c9fa4ed3dbf898f5961c1321d64afcf"
+    },
+    {
+      "path": "gpt4all-chat/src/toolcallparser.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91cc3e33713bc135404ffd470090c2f232377151",
+      "size": 6192,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/91cc3e33713bc135404ffd470090c2f232377151"
+    },
+    {
+      "path": "gpt4all-chat/src/toolcallparser.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e50ca513febacc8864caa30e549cf0926d8b3c5",
+      "size": 2438,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/9e50ca513febacc8864caa30e549cf0926d8b3c5"
+    },
+    {
+      "path": "gpt4all-chat/src/toolmodel.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "551708ef4830a603a94eedf22269bc3c38ffea30",
+      "size": 799,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/551708ef4830a603a94eedf22269bc3c38ffea30"
+    },
+    {
+      "path": "gpt4all-chat/src/toolmodel.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "531c9af22b732b10fd19b9786054acd6c9f899c8",
+      "size": 2928,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/531c9af22b732b10fd19b9786054acd6c9f899c8"
+    },
+    {
+      "path": "gpt4all-chat/src/utils.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d2b8ecd42792233af358fa006fa19b953706302",
+      "size": 1752,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/4d2b8ecd42792233af358fa006fa19b953706302"
+    },
+    {
+      "path": "gpt4all-chat/src/utils.inl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b2a21a49b89307b7ac2886d7c3660c6b779d7b1",
+      "size": 240,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/3b2a21a49b89307b7ac2886d7c3660c6b779d7b1"
+    },
+    {
+      "path": "gpt4all-chat/src/xlsxtomd.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84121261581d64a32f0284cf1b9b53432f4ba411",
+      "size": 5124,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/84121261581d64a32f0284cf1b9b53432f4ba411"
+    },
+    {
+      "path": "gpt4all-chat/src/xlsxtomd.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a99b20799ca6af023ef8daa95da57249eb6bfd64",
+      "size": 177,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/a99b20799ca6af023ef8daa95da57249eb6bfd64"
+    },
+    {
+      "path": "gpt4all-chat/system_requirements.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cf8e9e4f7776e51a865058365e7718beb48500a",
+      "size": 1479,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/8cf8e9e4f7776e51a865058365e7718beb48500a"
+    },
+    {
+      "path": "gpt4all-chat/test-requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c15d2916ce6926070a9421e1c98d5f27da0627d5",
+      "size": 27,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/c15d2916ce6926070a9421e1c98d5f27da0627d5"
+    },
+    {
+      "path": "gpt4all-chat/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dd3d21052ca664d0d1540030d68ce52848ed9462",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/dd3d21052ca664d0d1540030d68ce52848ed9462"
+    },
+    {
+      "path": "gpt4all-chat/tests/CMakeLists.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76f3cfc64931fa4869359171f2ae110c128c7926",
+      "size": 849,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/76f3cfc64931fa4869359171f2ae110c128c7926"
+    },
+    {
+      "path": "gpt4all-chat/tests/cpp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8eca47d3bd7b23e4992c84e6471f2849333fc983",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/8eca47d3bd7b23e4992c84e6471f2849333fc983"
+    },
+    {
+      "path": "gpt4all-chat/tests/cpp/basic_test.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "326a7d56514f518cbb5421d3f8522168ccb4bf81",
+      "size": 89,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/326a7d56514f518cbb5421d3f8522168ccb4bf81"
+    },
+    {
+      "path": "gpt4all-chat/tests/cpp/test_main.cpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76f841f1b15ef149e2013921df8382beb0ddeeca",
+      "size": 134,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/76f841f1b15ef149e2013921df8382beb0ddeeca"
+    },
+    {
+      "path": "gpt4all-chat/tests/python",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "034b33e0e43a96646ad796b08851edfd58089b61",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/034b33e0e43a96646ad796b08851edfd58089b61"
+    },
+    {
+      "path": "gpt4all-chat/tests/python/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "gpt4all-chat/tests/python/config.py.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "661ec1f908ea0b1cc742c30797f04af1c491850f",
+      "size": 30,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/661ec1f908ea0b1cc742c30797f04af1c491850f"
+    },
+    {
+      "path": "gpt4all-chat/tests/python/test_server_api.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "449d8e2533c1c79d6f43250563d933bfd36d0c35",
+      "size": 8214,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/449d8e2533c1c79d6f43250563d933bfd36d0c35"
+    },
+    {
+      "path": "gpt4all-chat/translations",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cfbd8e8c339fa9fe431e5f4df1fb4c27560502ff",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/cfbd8e8c339fa9fe431e5f4df1fb4c27560502ff"
+    },
+    {
+      "path": "gpt4all-chat/translations/gpt4all_en_US.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50e39de3cc96603c6b76a8344f1e640c1c25c9a1",
+      "size": 128038,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/50e39de3cc96603c6b76a8344f1e640c1c25c9a1"
+    },
+    {
+      "path": "gpt4all-chat/translations/gpt4all_es_MX.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "389b9c245515b6ab0ea8e840235763b52a425f72",
+      "size": 160281,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/389b9c245515b6ab0ea8e840235763b52a425f72"
+    },
+    {
+      "path": "gpt4all-chat/translations/gpt4all_it_IT.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b95dcf5541c8e02e2de38e8725a9dc7260354f9",
+      "size": 156466,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/3b95dcf5541c8e02e2de38e8725a9dc7260354f9"
+    },
+    {
+      "path": "gpt4all-chat/translations/gpt4all_pt_BR.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de4e62142e580df6358961ad7c157964ffe048de",
+      "size": 160234,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/de4e62142e580df6358961ad7c157964ffe048de"
+    },
+    {
+      "path": "gpt4all-chat/translations/gpt4all_ro_RO.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1e1e76af038597e8322c6932b4a74059e09754d",
+      "size": 163836,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/a1e1e76af038597e8322c6932b4a74059e09754d"
+    },
+    {
+      "path": "gpt4all-chat/translations/gpt4all_zh_CN.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a06a464df16e2580b874f8891f6809038d80fd93",
+      "size": 142444,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/a06a464df16e2580b874f8891f6809038d80fd93"
+    },
+    {
+      "path": "gpt4all-chat/translations/gpt4all_zh_TW.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d392844d9792f4be97af25117f85d6f14e61ddd",
+      "size": 156320,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/8d392844d9792f4be97af25117f85d6f14e61ddd"
+    },
+    {
+      "path": "gpt4all-lora-demo.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2a2a293d1a78dee5f3a9c81c4c096344e12f619",
+      "size": 2686568,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/c2a2a293d1a78dee5f3a9c81c4c096344e12f619"
+    },
+    {
+      "path": "gpt4all-training",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "66e8ce915701a131f837e2675480c20446578e01",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/66e8ce915701a131f837e2675480c20446578e01"
+    },
+    {
+      "path": "gpt4all-training/GPT-J_MAP.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "670869f51493cf946d898d059bdbbadc5fa352b7",
+      "size": 367,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/670869f51493cf946d898d059bdbbadc5fa352b7"
+    },
+    {
+      "path": "gpt4all-training/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd8bca238b531d1eb22cb84276ae4c168cea8bcc",
+      "size": 2145,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/dd8bca238b531d1eb22cb84276ae4c168cea8bcc"
+    },
+    {
+      "path": "gpt4all-training/TRAINING_LOG.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2433175c07404193ca266436ff8f9f7380c475f3",
+      "size": 11912,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/2433175c07404193ca266436ff8f9f7380c475f3"
+    },
+    {
+      "path": "gpt4all-training/build_map.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "24e1b38d939ff2e1fb84aefa2bfba3b27755151a",
+      "size": 1932,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/24e1b38d939ff2e1fb84aefa2bfba3b27755151a"
+    },
+    {
+      "path": "gpt4all-training/clean.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e0ae548dfb5d2c71a8d4032f4933c38fb2aa3968",
+      "size": 2245,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/e0ae548dfb5d2c71a8d4032f4933c38fb2aa3968"
+    },
+    {
+      "path": "gpt4all-training/configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1aebed4c69abb272fc9ddd152309f9dd1bf18de6",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/1aebed4c69abb272fc9ddd152309f9dd1bf18de6"
+    },
+    {
+      "path": "gpt4all-training/configs/deepspeed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b51d03f2fb234ec7f309aea885aae36f74312ea7",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/b51d03f2fb234ec7f309aea885aae36f74312ea7"
+    },
+    {
+      "path": "gpt4all-training/configs/deepspeed/ds_config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c04bd4d06444d8b59a5256137aac2414a9aa45e",
+      "size": 851,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/6c04bd4d06444d8b59a5256137aac2414a9aa45e"
+    },
+    {
+      "path": "gpt4all-training/configs/deepspeed/ds_config_gptj.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f9b296175224d55235e1c0d0fbb85e643032aaf",
+      "size": 865,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/6f9b296175224d55235e1c0d0fbb85e643032aaf"
+    },
+    {
+      "path": "gpt4all-training/configs/deepspeed/ds_config_gptj_lora.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a578ba234d7877f318b039c35612486c5267efa",
+      "size": 849,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/0a578ba234d7877f318b039c35612486c5267efa"
+    },
+    {
+      "path": "gpt4all-training/configs/deepspeed/ds_config_mpt.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76ed092c9c0ccaecbeab08fb7639657b5f53cf0f",
+      "size": 899,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/76ed092c9c0ccaecbeab08fb7639657b5f53cf0f"
+    },
+    {
+      "path": "gpt4all-training/configs/deepspeed/ds_config_pythia.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f9b296175224d55235e1c0d0fbb85e643032aaf",
+      "size": 865,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/6f9b296175224d55235e1c0d0fbb85e643032aaf"
+    },
+    {
+      "path": "gpt4all-training/configs/eval",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8e960af952e1efe33db38e5e3719f4cb19fa09ef",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/8e960af952e1efe33db38e5e3719f4cb19fa09ef"
+    },
+    {
+      "path": "gpt4all-training/configs/eval/generate_baseline.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c70c8141403b2baa39b1718a479a6702b8fffd0",
+      "size": 120,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/7c70c8141403b2baa39b1718a479a6702b8fffd0"
+    },
+    {
+      "path": "gpt4all-training/configs/eval/generate_gpt4all_gptj.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc0df4503b420e824c6138582653c5e81a81ce34",
+      "size": 117,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/fc0df4503b420e824c6138582653c5e81a81ce34"
+    },
+    {
+      "path": "gpt4all-training/configs/eval/generate_gpt4all_gptj_lora.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f27feb09fbbd3c3d6c920cc2b89bc02fb80c88c0",
+      "size": 149,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/f27feb09fbbd3c3d6c920cc2b89bc02fb80c88c0"
+    },
+    {
+      "path": "gpt4all-training/configs/eval/generate_gpt4all_llama_lora.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1b682633018570dc0f8fbd88d246589cd97e17c",
+      "size": 122,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/e1b682633018570dc0f8fbd88d246589cd97e17c"
+    },
+    {
+      "path": "gpt4all-training/configs/generate",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a89617da72a0b736dc8a64939b0dd0f895ef0a43",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/a89617da72a0b736dc8a64939b0dd0f895ef0a43"
+    },
+    {
+      "path": "gpt4all-training/configs/generate/generate.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3953d07b24d39b603ba670d41a930b2c3fe44b48",
+      "size": 171,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/3953d07b24d39b603ba670d41a930b2c3fe44b48"
+    },
+    {
+      "path": "gpt4all-training/configs/generate/generate_gptj.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c9cad42c0ca6abf30bc8f4832dfa185d4fde2b8",
+      "size": 315,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/6c9cad42c0ca6abf30bc8f4832dfa185d4fde2b8"
+    },
+    {
+      "path": "gpt4all-training/configs/generate/generate_gptj_lora.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4444e19454f442c90437a206ac2a1f6c15c3d25d",
+      "size": 341,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/4444e19454f442c90437a206ac2a1f6c15c3d25d"
+    },
+    {
+      "path": "gpt4all-training/configs/generate/generate_llama.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "927453f1becde50ae0e45710649ec3a730210085",
+      "size": 308,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/927453f1becde50ae0e45710649ec3a730210085"
+    },
+    {
+      "path": "gpt4all-training/configs/inference",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "23f77ede4e7a0b580b5ee711adff7139bd25f111",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/23f77ede4e7a0b580b5ee711adff7139bd25f111"
+    },
+    {
+      "path": "gpt4all-training/configs/inference/gptj.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b744fdbd343dbe203282b78a7e0b1aa5a783d61",
+      "size": 243,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/8b744fdbd343dbe203282b78a7e0b1aa5a783d61"
+    },
+    {
+      "path": "gpt4all-training/configs/train",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "80fb9e33029504813ae63c254a491dc1a8fe2fc2",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/80fb9e33029504813ae63c254a491dc1a8fe2fc2"
+    },
+    {
+      "path": "gpt4all-training/configs/train/finetune.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac9d21297f2ca7723c0682621335e7d1290e6969",
+      "size": 470,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/ac9d21297f2ca7723c0682621335e7d1290e6969"
+    },
+    {
+      "path": "gpt4all-training/configs/train/finetune_falcon.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "089708bb4c90bb86038a357d01ee83b5e2716fae",
+      "size": 647,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/089708bb4c90bb86038a357d01ee83b5e2716fae"
+    },
+    {
+      "path": "gpt4all-training/configs/train/finetune_gptj.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef9802d645c03c31a257a32e0148b61659a7d003",
+      "size": 530,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/ef9802d645c03c31a257a32e0148b61659a7d003"
+    },
+    {
+      "path": "gpt4all-training/configs/train/finetune_gptj_lora.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2668ddd6edb5d66997841b933b8a8d67ab893f4",
+      "size": 530,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/c2668ddd6edb5d66997841b933b8a8d67ab893f4"
+    },
+    {
+      "path": "gpt4all-training/configs/train/finetune_lora.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e316fb11448aa588fded205498a33332bac80c4d",
+      "size": 481,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/e316fb11448aa588fded205498a33332bac80c4d"
+    },
+    {
+      "path": "gpt4all-training/configs/train/finetune_mpt.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e1f36380906e857add26465bd25a1a4bd87d264",
+      "size": 607,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/4e1f36380906e857add26465bd25a1a4bd87d264"
+    },
+    {
+      "path": "gpt4all-training/configs/train/finetune_openllama.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6862f61147a8e8fa1c1f0cd7a0b311880fd9c645",
+      "size": 610,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/6862f61147a8e8fa1c1f0cd7a0b311880fd9c645"
+    },
+    {
+      "path": "gpt4all-training/create_hostname.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8a9187f2321ddd7cbe4383c4bffdb343e4409316",
+      "size": 193,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/8a9187f2321ddd7cbe4383c4bffdb343e4409316"
+    },
+    {
+      "path": "gpt4all-training/data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f10847de5a62b2e3090d820af416af0253863897",
+      "size": 6473,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/f10847de5a62b2e3090d820af416af0253863897"
+    },
+    {
+      "path": "gpt4all-training/env.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6db10a88dab606002e1e4e2c5feb0734263e400e",
+      "size": 285,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/6db10a88dab606002e1e4e2c5feb0734263e400e"
+    },
+    {
+      "path": "gpt4all-training/eval_figures.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ce81c6ae29ba0800555f22b6e12c2d7c84dae172",
+      "size": 904,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/ce81c6ae29ba0800555f22b6e12c2d7c84dae172"
+    },
+    {
+      "path": "gpt4all-training/eval_self_instruct.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e9a6ebd707172d4e396e5e73088d2d0c6d6955b2",
+      "size": 3692,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/e9a6ebd707172d4e396e5e73088d2d0c6d6955b2"
+    },
+    {
+      "path": "gpt4all-training/figs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f7881f8a2caf0c8497afe4e627acf0c64814f53a",
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/trees/f7881f8a2caf0c8497afe4e627acf0c64814f53a"
+    },
+    {
+      "path": "gpt4all-training/figs/clustering_overfit.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30079f565be384335160fc547bf8ec3b1ba52054",
+      "size": 2414770,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/30079f565be384335160fc547bf8ec3b1ba52054"
+    },
+    {
+      "path": "gpt4all-training/figs/duplicate_loss.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae9f80e10d4655236a9ea8dece631a5cb5ff9c95",
+      "size": 370694,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/ae9f80e10d4655236a9ea8dece631a5cb5ff9c95"
+    },
+    {
+      "path": "gpt4all-training/figs/first_lora.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fcf9005bb6607226063093a027a5ef73655fc8a",
+      "size": 315550,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/1fcf9005bb6607226063093a027a5ef73655fc8a"
+    },
+    {
+      "path": "gpt4all-training/figs/overfit-gpt-j.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aecdd95f3fbf15800ae4b649053fed8b00ffacf3",
+      "size": 364829,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/aecdd95f3fbf15800ae4b649053fed8b00ffacf3"
+    },
+    {
+      "path": "gpt4all-training/figs/perplexity_hist.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be3780b07bea2c62e34b20e68cf763bd3415de4f",
+      "size": 15322,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/be3780b07bea2c62e34b20e68cf763bd3415de4f"
+    },
+    {
+      "path": "gpt4all-training/figs/single_epoch.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aaa3822a4c83e8b11d8393f66c7d650378e48f49",
+      "size": 361805,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/aaa3822a4c83e8b11d8393f66c7d650378e48f49"
+    },
+    {
+      "path": "gpt4all-training/generate.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3700f049f93ab7a62a3cd9a3e78841ca6055eb44",
+      "size": 2016,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/3700f049f93ab7a62a3cd9a3e78841ca6055eb44"
+    },
+    {
+      "path": "gpt4all-training/inference.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3392e18a3d41d4e030ced7b22045c8c2dad82209",
+      "size": 8639,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/3392e18a3d41d4e030ced7b22045c8c2dad82209"
+    },
+    {
+      "path": "gpt4all-training/launcher.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ed7b99cd94737e3577ee0be23d6ed4817b75e478",
+      "size": 2646,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/ed7b99cd94737e3577ee0be23d6ed4817b75e478"
+    },
+    {
+      "path": "gpt4all-training/old-README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a2f51ddfb725f7ea3bc9b80d47db4905fe86254",
+      "size": 16501,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/4a2f51ddfb725f7ea3bc9b80d47db4905fe86254"
+    },
+    {
+      "path": "gpt4all-training/read.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc6a69f3a7ddc688ef6209f700ea64a197954dfc",
+      "size": 221,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/bc6a69f3a7ddc688ef6209f700ea64a197954dfc"
+    },
+    {
+      "path": "gpt4all-training/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "110977d231abc3a57df42deb42d906412f349d13",
+      "size": 162,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/110977d231abc3a57df42deb42d906412f349d13"
+    },
+    {
+      "path": "gpt4all-training/train.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ae3669b2d1dd55fffb050c45e03590360987cf09",
+      "size": 9076,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/ae3669b2d1dd55fffb050c45e03590360987cf09"
+    },
+    {
+      "path": "roadmap.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e03fe79bbf9295eba76c43b3648ac11f64e19629",
+      "size": 2830,
+      "url": "https://api.github.com/repos/nomic-ai/gpt4all/git/blobs/e03fe79bbf9295eba76c43b3648ac11f64e19629"
+    }
+  ],
+  "truncated": false
+}

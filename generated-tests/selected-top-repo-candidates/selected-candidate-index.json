@@ -1,10 +1,10 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-06-08T11:48:40.1874157+03:00",
+    "generated_at":  "2026-06-08T17:07:57.8231909+03:00",
     "source_selected_contracts_directory":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts",
     "output_directory":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates",
-    "selected_candidate_count":  7,
-    "selected_contract_count":  7,
+    "selected_candidate_count":  8,
+    "selected_contract_count":  8,
     "deferred_candidate_count":  0,
     "policy":  "selected top-repo candidate packets remain blocked until template/live/cleanup/airgapped/strong-review evidence exists",
     "records":  [
@@ -84,6 +84,16 @@
                         "promotion_state":  "blocked",
                         "readiness_state":  "qaaS_candidate_authored_from_selected_contract",
                         "artifact_count":  4
+                    },
+                    {
+                        "rank":  177,
+                        "repository":  "spring-projects/spring-boot",
+                        "directory":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\177-spring-projects-spring-boot",
+                        "manifest":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\177-spring-projects-spring-boot\\qaas-artifact-manifest.json",
+                        "selected_contract":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\selected-contract.json",
+                        "status":  "candidate_packet_blocked_until_template_live_airgapped_validation",
+                        "promotion_state":  "blocked",
+                        "artifact_count":  6
                     }
                 ],
     "deferred_records":  [

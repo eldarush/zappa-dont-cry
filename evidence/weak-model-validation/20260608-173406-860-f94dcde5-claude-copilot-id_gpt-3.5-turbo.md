@@ -1,0 +1,30 @@
+# weak-model-session transcript
+
+Command: C:\Users\eldar\copilot-claude\claude.cmd id:gpt-3.5-turbo -p You are validating a Codex/GitHub Copilot/Gemini-compatible SKILL.md workflow under a weaker model.
+
+Constraints:
+- Do not edit files.
+- Do not run destructive commands.
+- Use any explicitly requested skill if the harness exposes it.
+- Prefer direct task output over explanation.
+- Use modest reasoning; do not compensate with exhaustive analysis.
+- If the skill is unavailable, say SKILL_NOT_FOUND and list what skills you can see.
+
+
+
+Task:
+You are validating a docs-only QaaS candidate for spring-projects/spring-boot. Use only the selected public evidence summarized here: the README teaser contains @RestController, @SpringBootApplication, @RequestMapping("/"), return "Hello World!";, and SpringApplication.run(Example.class, args); the selected webserver docs state the main HTTP port defaults to 8080. Decide whether this candidate may be executable now. Answer in 6 bullets: route, method assumption, expected body, port evidence, blockers, and whether airgapped weak-model validation can be considered passed. Do not invent actuator, health, Maven, bootRun, or broad Spring Boot coverage.
+ExitCode: 1
+ScenarioId: spring-boot-selected-candidate-docs-only
+ScenarioKind: scenario
+PromptHashSha256: 64411d0f8ae1d341490c880041a1820ea21e380d01f5afe0239c45c1935af773
+Harness: claude-copilot
+Profile: airgapped
+Model: id:gpt-3.5-turbo
+DryRun: False
+
+## stdout
+API Error: 402 {"error":{"message":"You've reached your additional usage limit for your plan. Go to https://github.com/settings/copilot/features for more details.","code":"additional_spend_limit_reached"}}
+
+
+## stderr

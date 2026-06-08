@@ -1,0 +1,71 @@
+{
+  "harvested_at": "2026-06-07T20:44:12.7861802+03:00",
+  "rank": 43,
+  "repository": "AUTOMATIC1111/stable-diffusion-webui",
+  "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+  "language": "Python",
+  "stars": 163530,
+  "default_branch": "master",
+  "contract_strength": "readme_plus_runtime_hints",
+  "candidate_qaas_surfaces": [
+    "ci-documented-command-discovery",
+    "python-cli-or-service-contract"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\043-AUTOMATIC1111-stable-diffusion-webui\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\043-AUTOMATIC1111-stable-diffusion-webui\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [],
+    "ci": [
+      ".github/workflows/on_pull_request.yaml",
+      ".github/workflows/run_tests.yaml",
+      ".github/workflows/warns_merge_master.yml"
+    ],
+    "containers": [],
+    "dotnet": [],
+    "node": [
+      "package.json"
+    ],
+    "python": [
+      "pyproject.toml",
+      "requirements-test.txt",
+      "requirements.txt",
+      "requirements_npu.txt",
+      "requirements_versions.txt"
+    ],
+    "go": [],
+    "java": [],
+    "rust": [],
+    "docs": [
+      "CHANGELOG.md",
+      "README.md",
+      "modules/api/api.py",
+      "modules/api/models.py"
+    ],
+    "tests": [
+      "javascript/aspectRatioOverlay.js",
+      "modules/mac_specific.py",
+      "modules/npu_specific.py",
+      "modules/xpu_specific.py",
+      "test/__init__.py",
+      "test/conftest.py",
+      "test/test_extras.py",
+      "test/test_face_restorers.py",
+      "test/test_files/empty.pt",
+      "test/test_files/img2img_basic.png",
+      "test/test_files/mask_basic.png",
+      "test/test_files/two-faces.jpg",
+      "test/test_img2img.py",
+      "test/test_outputs/.gitkeep",
+      "test/test_torch_utils.py",
+      "test/test_txt2img.py",
+      "test/test_utils.py"
+    ]
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\043-AUTOMATIC1111-stable-diffusion-webui\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\043-AUTOMATIC1111-stable-diffusion-webui\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

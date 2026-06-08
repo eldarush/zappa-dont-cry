@@ -1,0 +1,1134 @@
+{
+  "sha": "04f434e86db88e7707bf16db8ed7183f9764fe26",
+  "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/trees/04f434e86db88e7707bf16db8ed7183f9764fe26",
+  "tree": [
+    {
+      "path": ".dockerignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cac710188587fde860ee095ab2e63acfb51828d1",
+      "size": 133,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/cac710188587fde860ee095ab2e63acfb51828d1"
+    },
+    {
+      "path": ".env.enterprise.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f7bda3ddb7275ffa753b60e5aa25ce89f08bb08",
+      "size": 203,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/4f7bda3ddb7275ffa753b60e5aa25ce89f08bb08"
+    },
+    {
+      "path": ".env.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f321e54822e2ef0ca70f96e85a3f3169ea173db",
+      "size": 1582,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/8f321e54822e2ef0ca70f96e85a3f3169ea173db"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9eddc67200407c5cd739fa78e994b3c21f632a04",
+      "size": 4670,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/9eddc67200407c5cd739fa78e994b3c21f632a04"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4a6b9fc79ef5d0e1a56e860bd3c509eed4d362c",
+      "size": 17211,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/f4a6b9fc79ef5d0e1a56e860bd3c509eed4d362c"
+    },
+    {
+      "path": "Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "024c7c72dc12c2fa0ef91d2dced630cfb2dfecb7",
+      "size": 606,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/024c7c72dc12c2fa0ef91d2dced630cfb2dfecb7"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "451d4a2e7072b9d8b448fc38aedab6e9e748fa3f",
+      "size": 16514,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/451d4a2e7072b9d8b448fc38aedab6e9e748fa3f"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "71732b3a636285acae4fb5f883ce86233e908931",
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/trees/71732b3a636285acae4fb5f883ce86233e908931"
+    },
+    {
+      "path": "assets/TauricResearch.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e88994de4bec2add6d030676245c88374d96f99",
+      "size": 63581,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/3e88994de4bec2add6d030676245c88374d96f99"
+    },
+    {
+      "path": "assets/analyst.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c89a6ee3952ce4aee27036411f0bf5e158e84c8",
+      "size": 216595,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/9c89a6ee3952ce4aee27036411f0bf5e158e84c8"
+    },
+    {
+      "path": "assets/cli",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7740cb34a3a33634cf8c6e1082be169cc7532607",
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/trees/7740cb34a3a33634cf8c6e1082be169cc7532607"
+    },
+    {
+      "path": "assets/cli/cli_init.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eeb2b637a831565adb50bcd622f766725d8ab300",
+      "size": 245297,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/eeb2b637a831565adb50bcd622f766725d8ab300"
+    },
+    {
+      "path": "assets/cli/cli_news.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5d33bea42babc7e1b21b518f3ed09a2331e5b82",
+      "size": 831209,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/b5d33bea42babc7e1b21b518f3ed09a2331e5b82"
+    },
+    {
+      "path": "assets/cli/cli_technical.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fd363adb48ac778e505638632aff2257c63d6db",
+      "size": 793084,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/5fd363adb48ac778e505638632aff2257c63d6db"
+    },
+    {
+      "path": "assets/cli/cli_transaction.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab36d2bc3a4eba6dcce700cdb064f2abd0be12f8",
+      "size": 810243,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/ab36d2bc3a4eba6dcce700cdb064f2abd0be12f8"
+    },
+    {
+      "path": "assets/researcher.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83015341afd5a002b99b084de3e6a7f3386b5d8f",
+      "size": 140473,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/83015341afd5a002b99b084de3e6a7f3386b5d8f"
+    },
+    {
+      "path": "assets/risk.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5708dc49a4cbbc44d807512a46c0ec361563af08",
+      "size": 165683,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/5708dc49a4cbbc44d807512a46c0ec361563af08"
+    },
+    {
+      "path": "assets/schema.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "549f8c5bcd4107a9e9adc786e79aea8d08276ea5",
+      "size": 365329,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/549f8c5bcd4107a9e9adc786e79aea8d08276ea5"
+    },
+    {
+      "path": "assets/trader.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bd7f51dc7ea813c8fe557a25c7afa2ce801d348",
+      "size": 161842,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/2bd7f51dc7ea813c8fe557a25c7afa2ce801d348"
+    },
+    {
+      "path": "assets/wechat.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "943556803adf7696230b2f2de99ab8a9498356c2",
+      "size": 221601,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/943556803adf7696230b2f2de99ab8a9498356c2"
+    },
+    {
+      "path": "cli",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "68c1e49dc35414aa8f8334a342968231eff143ab",
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/trees/68c1e49dc35414aa8f8334a342968231eff143ab"
+    },
+    {
+      "path": "cli/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "cli/announcements.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5947cee5927672c9d8f151c6a67e160c02cc0463",
+      "size": 1507,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/5947cee5927672c9d8f151c6a67e160c02cc0463"
+    },
+    {
+      "path": "cli/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08483f42aeae634a763bdf7cb73a4066f8638c62",
+      "size": 300,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/08483f42aeae634a763bdf7cb73a4066f8638c62"
+    },
+    {
+      "path": "cli/main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f0b1c7cf687052526bd5e24f71b96ec475292d3",
+      "size": 55396,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/5f0b1c7cf687052526bd5e24f71b96ec475292d3"
+    },
+    {
+      "path": "cli/models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ab91b02d534de6f84602e427351a3f25b86bb47",
+      "size": 431,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/7ab91b02d534de6f84602e427351a3f25b86bb47"
+    },
+    {
+      "path": "cli/static",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "49356d1ddf4ef17deff8676bd04081a861715cc7",
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/trees/49356d1ddf4ef17deff8676bd04081a861715cc7"
+    },
+    {
+      "path": "cli/static/welcome.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2cf641d102b2f4024205ef5faa0538189a471cd",
+      "size": 427,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/f2cf641d102b2f4024205ef5faa0538189a471cd"
+    },
+    {
+      "path": "cli/stats_handler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10734cc34824fa81fe229638dac52347957f1a81",
+      "size": 2373,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/10734cc34824fa81fe229638dac52347957f1a81"
+    },
+    {
+      "path": "cli/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "013a2b34da6e5f4b58c2ecf9c02e4b49c4de89e5",
+      "size": 20523,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/013a2b34da6e5f4b58c2ecf9c02e4b49c4de89e5"
+    },
+    {
+      "path": "docker-compose.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d28135b3c9cc1c2ea9440357dc7f65bb39686f87",
+      "size": 611,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/d28135b3c9cc1c2ea9440357dc7f65bb39686f87"
+    },
+    {
+      "path": "main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fea2f3680aa3e579e39f7a6151a4d8621ac3bf2d",
+      "size": 756,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/fea2f3680aa3e579e39f7a6151a4d8621ac3bf2d"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9604c3381113376642d90ff58a542e7efc9621c9",
+      "size": 1303,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/9604c3381113376642d90ff58a542e7efc9621c9"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c558e357c41674e39880abb6c3209e539de42e2",
+      "size": 2,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/9c558e357c41674e39880abb6c3209e539de42e2"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "580f23aed26aa87696970b234a093407a6a493d4",
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/trees/580f23aed26aa87696970b234a093407a6a493d4"
+    },
+    {
+      "path": "scripts/smoke_structured_output.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d3cf681cac831926c32a4572895225d256a5cee",
+      "size": 6835,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/1d3cf681cac831926c32a4572895225d256a5cee"
+    },
+    {
+      "path": "test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b73783e1e72622dde09853841494760e01c6d8f7",
+      "size": 637,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/b73783e1e72622dde09853841494760e01c6d8f7"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7165cdcb432eae18acd86e539fe5c1c4e67dab79",
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/trees/7165cdcb432eae18acd86e539fe5c1c4e67dab79"
+    },
+    {
+      "path": "tests/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "size": 1,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/8b137891791fe96927ad78e64b0aad7bded08bdc"
+    },
+    {
+      "path": "tests/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "506510ceac4ea8f4c29aa61404c4e67b91da6eb2",
+      "size": 1106,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/506510ceac4ea8f4c29aa61404c4e67b91da6eb2"
+    },
+    {
+      "path": "tests/test_analyst_execution.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "896c9e21e104b43f03faa54130b4dec2562b4e95",
+      "size": 3628,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/896c9e21e104b43f03faa54130b4dec2562b4e95"
+    },
+    {
+      "path": "tests/test_anthropic_effort.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdef7317f1770576147e7dc2a0a30da9790063a7",
+      "size": 3243,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/bdef7317f1770576147e7dc2a0a30da9790063a7"
+    },
+    {
+      "path": "tests/test_api_key_env.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dde5a4886a9ae0c467446f094f62106b42357f56",
+      "size": 5603,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/dde5a4886a9ae0c467446f094f62106b42357f56"
+    },
+    {
+      "path": "tests/test_capabilities.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f29d90ff9949e9d579a2b839a47919b66d765864",
+      "size": 4890,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/f29d90ff9949e9d579a2b839a47919b66d765864"
+    },
+    {
+      "path": "tests/test_checkpoint_resume.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f2692bd81fc70b661cf76c637920c9d1f762c3c",
+      "size": 5028,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/6f2692bd81fc70b661cf76c637920c9d1f762c3c"
+    },
+    {
+      "path": "tests/test_cli_env_skip.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9497d74d17a1a8e54912baa2d400ae7da88c4ae",
+      "size": 3784,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/b9497d74d17a1a8e54912baa2d400ae7da88c4ae"
+    },
+    {
+      "path": "tests/test_crypto_asset_mode.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9b549725320686395bcc176017618b3d26b8a8c",
+      "size": 1764,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/d9b549725320686395bcc176017618b3d26b8a8c"
+    },
+    {
+      "path": "tests/test_dataflows_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab0800eee943004f5d0c65e739003edf5be265aa",
+      "size": 2375,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/ab0800eee943004f5d0c65e739003edf5be265aa"
+    },
+    {
+      "path": "tests/test_deepseek_reasoning.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62c1b3497bdb849c9da11465a75785399be74303",
+      "size": 9928,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/62c1b3497bdb849c9da11465a75785399be74303"
+    },
+    {
+      "path": "tests/test_env_overrides.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f02661ebdeebb478934094494b5ff5372fc85e01",
+      "size": 3747,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/f02661ebdeebb478934094494b5ff5372fc85e01"
+    },
+    {
+      "path": "tests/test_google_api_key.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53376ab10fdc8852be755899ba5267c894f6a2b1",
+      "size": 1167,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/53376ab10fdc8852be755899ba5267c894f6a2b1"
+    },
+    {
+      "path": "tests/test_instrument_identity.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e508785838022a4efd732ab3a18ee7fae70ac79",
+      "size": 6892,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/7e508785838022a4efd732ab3a18ee7fae70ac79"
+    },
+    {
+      "path": "tests/test_market_data_validator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40b6349e28a235e6be67e3baf6dc0da5d0800a70",
+      "size": 3319,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/40b6349e28a235e6be67e3baf6dc0da5d0800a70"
+    },
+    {
+      "path": "tests/test_memory_log.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d0261fac04ee44234616a5f016d84e41fd06e6c",
+      "size": 39907,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/2d0261fac04ee44234616a5f016d84e41fd06e6c"
+    },
+    {
+      "path": "tests/test_minimax.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62f5072f6c62892816627e250f92ad7105e2df3a",
+      "size": 2926,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/62f5072f6c62892816627e250f92ad7105e2df3a"
+    },
+    {
+      "path": "tests/test_model_validation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5392d7cd90d50aa3c897b0f3872b62b8e131fb7d",
+      "size": 1918,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/5392d7cd90d50aa3c897b0f3872b62b8e131fb7d"
+    },
+    {
+      "path": "tests/test_no_data_handling.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0fdfb7a81cd9f6811c4f68e89755bf7e28d26e2",
+      "size": 3535,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/e0fdfb7a81cd9f6811c4f68e89755bf7e28d26e2"
+    },
+    {
+      "path": "tests/test_ollama_base_url.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70c3c610ba01c96570e244ec835b1c8995b1cb8a",
+      "size": 7191,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/70c3c610ba01c96570e244ec835b1c8995b1cb8a"
+    },
+    {
+      "path": "tests/test_reddit_fallback.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecb944f71ca4435c5f214f91b666bffedda1e070",
+      "size": 4494,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/ecb944f71ca4435c5f214f91b666bffedda1e070"
+    },
+    {
+      "path": "tests/test_safe_ticker_component.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5af601725d53deea20de193e6ce4b8ebcc5d7cc4",
+      "size": 2200,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/5af601725d53deea20de193e6ce4b8ebcc5d7cc4"
+    },
+    {
+      "path": "tests/test_signal_processing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bbfb747546fa14eeed4e8516e4f03cbb4ae55a5",
+      "size": 3566,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/4bbfb747546fa14eeed4e8516e4f03cbb4ae55a5"
+    },
+    {
+      "path": "tests/test_stockstats_date_column.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e55a5c70c14f1fc33afe8dadc62bc437165b404a",
+      "size": 2649,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/e55a5c70c14f1fc33afe8dadc62bc437165b404a"
+    },
+    {
+      "path": "tests/test_structured_agents.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5927f2d112166f628c12c0be4af648eb1d57e7e0",
+      "size": 14187,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/5927f2d112166f628c12c0be4af648eb1d57e7e0"
+    },
+    {
+      "path": "tests/test_symbol_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7af509f7506dabd81e84668bb9bb550c030b581f",
+      "size": 2959,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/7af509f7506dabd81e84668bb9bb550c030b581f"
+    },
+    {
+      "path": "tests/test_temperature_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4266a1618e9e875529af63c204dd5a1a9bba5d5b",
+      "size": 2933,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/4266a1618e9e875529af63c204dd5a1a9bba5d5b"
+    },
+    {
+      "path": "tests/test_ticker_symbol_handling.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99db0b1eb80baeab88f0dd32f48c961d5291de84",
+      "size": 1015,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/99db0b1eb80baeab88f0dd32f48c961d5291de84"
+    },
+    {
+      "path": "tradingagents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7150d6f2a7d60f4b21b0082c60f60bf467703e30",
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/trees/7150d6f2a7d60f4b21b0082c60f60bf467703e30"
+    },
+    {
+      "path": "tradingagents/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f83f2a52bc53d21311d732a43361a42403bdc2e",
+      "size": 1671,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/5f83f2a52bc53d21311d732a43361a42403bdc2e"
+    },
+    {
+      "path": "tradingagents/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0e8664269dddaaba8e18c33b21c9b7fb1c54905f",
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/trees/0e8664269dddaaba8e18c33b21c9b7fb1c54905f"
+    },
+    {
+      "path": "tradingagents/agents/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8826140888a3edc17ffd740b3767f3904395b76",
+      "size": 1522,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/f8826140888a3edc17ffd740b3767f3904395b76"
+    },
+    {
+      "path": "tradingagents/agents/analysts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cf06f93bdfbd4b75154eebfddddac8ae921f450f",
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/trees/cf06f93bdfbd4b75154eebfddddac8ae921f450f"
+    },
+    {
+      "path": "tradingagents/agents/analysts/fundamentals_analyst.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2ea3bcfb18c5934e316d1d8605fe128ecdd30ba",
+      "size": 3326,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/b2ea3bcfb18c5934e316d1d8605fe128ecdd30ba"
+    },
+    {
+      "path": "tradingagents/agents/analysts/market_analyst.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87fca70de5094a222c8dbc36478e377cd3f5caf7",
+      "size": 6778,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/87fca70de5094a222c8dbc36478e377cd3f5caf7"
+    },
+    {
+      "path": "tradingagents/agents/analysts/news_analyst.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64825058e714c9a2e5a8a82d1c53f870a6d9c7ff",
+      "size": 3073,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/64825058e714c9a2e5a8a82d1c53f870a6d9c7ff"
+    },
+    {
+      "path": "tradingagents/agents/analysts/sentiment_analyst.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c797415071530163a906d2e70b0b3e6879b8822e",
+      "size": 9700,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/c797415071530163a906d2e70b0b3e6879b8822e"
+    },
+    {
+      "path": "tradingagents/agents/analysts/social_media_analyst.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c72df08215f8ee85afc87e16d23670b0068feb0",
+      "size": 787,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/8c72df08215f8ee85afc87e16d23670b0068feb0"
+    },
+    {
+      "path": "tradingagents/agents/managers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "49579e61290215e38de6a5742e76ae6680cdf2f4",
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/trees/49579e61290215e38de6a5742e76ae6680cdf2f4"
+    },
+    {
+      "path": "tradingagents/agents/managers/portfolio_manager.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36cdef549d948bbc10075cec54754491ee479f13",
+      "size": 3395,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/36cdef549d948bbc10075cec54754491ee479f13"
+    },
+    {
+      "path": "tradingagents/agents/managers/research_manager.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d39ed0b71762abc9af8e222f3ff58ffb177db3d",
+      "size": 2495,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/7d39ed0b71762abc9af8e222f3ff58ffb177db3d"
+    },
+    {
+      "path": "tradingagents/agents/researchers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b017ea5a5f161746990a262b370d277f463db84f",
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/trees/b017ea5a5f161746990a262b370d277f463db84f"
+    },
+    {
+      "path": "tradingagents/agents/researchers/bear_researcher.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "860ae4be57a15960a9b41f8531790aca64e2ff4d",
+      "size": 3231,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/860ae4be57a15960a9b41f8531790aca64e2ff4d"
+    },
+    {
+      "path": "tradingagents/agents/researchers/bull_researcher.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f939ed72fcda0483c4c2d3320d394817d0b33ef",
+      "size": 3155,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/5f939ed72fcda0483c4c2d3320d394817d0b33ef"
+    },
+    {
+      "path": "tradingagents/agents/risk_mgmt",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1c588c51965476f7cbe7815b793a6b7ffb7edc81",
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/trees/1c588c51965476f7cbe7815b793a6b7ffb7edc81"
+    },
+    {
+      "path": "tradingagents/agents/risk_mgmt/aggressive_debator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fd0e124a026062012c5326bac3aaf783ff30256",
+      "size": 3877,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/3fd0e124a026062012c5326bac3aaf783ff30256"
+    },
+    {
+      "path": "tradingagents/agents/risk_mgmt/conservative_debator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b84add0c3437bbbee223aea36e0a9f9c46d97314",
+      "size": 3782,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/b84add0c3437bbbee223aea36e0a9f9c46d97314"
+    },
+    {
+      "path": "tradingagents/agents/risk_mgmt/neutral_debator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b28ade25bb100fb4b13d14a7b824c28c96961e9e",
+      "size": 3634,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/b28ade25bb100fb4b13d14a7b824c28c96961e9e"
+    },
+    {
+      "path": "tradingagents/agents/schemas.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f89878c41e8e7ac9715dc37edddff38059cb61b5",
+      "size": 12076,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/f89878c41e8e7ac9715dc37edddff38059cb61b5"
+    },
+    {
+      "path": "tradingagents/agents/trader",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "675f515eff2d6dcd57fd60f2950d5f64f364e0da",
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/trees/675f515eff2d6dcd57fd60f2950d5f64f364e0da"
+    },
+    {
+      "path": "tradingagents/agents/trader/trader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "403a6a57df77cf443d123010a64b28a6ffa55c4a",
+      "size": 2415,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/403a6a57df77cf443d123010a64b28a6ffa55c4a"
+    },
+    {
+      "path": "tradingagents/agents/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a3a916098c46346a21bf9fc5219fccb738166ea0",
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/trees/a3a916098c46346a21bf9fc5219fccb738166ea0"
+    },
+    {
+      "path": "tradingagents/agents/utils/agent_states.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cce73c79d487b8397fbe346d23e418fe0722f6bc",
+      "size": 3229,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/cce73c79d487b8397fbe346d23e418fe0722f6bc"
+    },
+    {
+      "path": "tradingagents/agents/utils/agent_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7476654c01ab6d2e4f8163b73bf5d73afff62c5f",
+      "size": 7258,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/7476654c01ab6d2e4f8163b73bf5d73afff62c5f"
+    },
+    {
+      "path": "tradingagents/agents/utils/core_stock_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a41662229ed7e550a62b1b167de915bd1b8b949",
+      "size": 891,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/3a41662229ed7e550a62b1b167de915bd1b8b949"
+    },
+    {
+      "path": "tradingagents/agents/utils/fundamental_data_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47f6f2ebfa637948827d1d0b669f42927eb50c35",
+      "size": 2920,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/47f6f2ebfa637948827d1d0b669f42927eb50c35"
+    },
+    {
+      "path": "tradingagents/agents/utils/market_data_validation_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "356a4ac499e66d43642e20396d05d494f534158c",
+      "size": 924,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/356a4ac499e66d43642e20396d05d494f534158c"
+    },
+    {
+      "path": "tradingagents/agents/utils/memory.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9471755653eed366bf40ee700a250b813960de3",
+      "size": 11527,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/c9471755653eed366bf40ee700a250b813960de3"
+    },
+    {
+      "path": "tradingagents/agents/utils/news_data_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f503c4d3a612e0d00ee50700eaac580f22d45081",
+      "size": 2105,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/f503c4d3a612e0d00ee50700eaac580f22d45081"
+    },
+    {
+      "path": "tradingagents/agents/utils/rating.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5032346a70a6f396814af3c2afaebe0e16fbd12",
+      "size": 1733,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/d5032346a70a6f396814af3c2afaebe0e16fbd12"
+    },
+    {
+      "path": "tradingagents/agents/utils/structured.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "400e1a82b7cde4cf2d331c70d8914c05f2071fa8",
+      "size": 2690,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/400e1a82b7cde4cf2d331c70d8914c05f2071fa8"
+    },
+    {
+      "path": "tradingagents/agents/utils/technical_indicators_tools.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3dda5a510346e64ba78484706603fe592952658",
+      "size": 1544,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/a3dda5a510346e64ba78484706603fe592952658"
+    },
+    {
+      "path": "tradingagents/dataflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4e1933d93029affe3b5daaf38104a86f70945722",
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/trees/4e1933d93029affe3b5daaf38104a86f70945722"
+    },
+    {
+      "path": "tradingagents/dataflows/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tradingagents/dataflows/alpha_vantage.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2be1d6113b056d316e3b09df46be18bbcdb191b",
+      "size": 333,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/b2be1d6113b056d316e3b09df46be18bbcdb191b"
+    },
+    {
+      "path": "tradingagents/dataflows/alpha_vantage_common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b21fa4246a3ba31607912dc120f40357b87e79c8",
+      "size": 4682,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/b21fa4246a3ba31607912dc120f40357b87e79c8"
+    },
+    {
+      "path": "tradingagents/dataflows/alpha_vantage_fundamentals.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4ef24c01fb448cff4145a07b957f18f33a18689",
+      "size": 2029,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/a4ef24c01fb448cff4145a07b957f18f33a18689"
+    },
+    {
+      "path": "tradingagents/dataflows/alpha_vantage_indicator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53623ead46121a58fa827879e7a34724c3f416c5",
+      "size": 11144,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/53623ead46121a58fa827879e7a34724c3f416c5"
+    },
+    {
+      "path": "tradingagents/dataflows/alpha_vantage_news.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cf7bb0ecf0af1d581c6f4c567f9d0129c81d6f1",
+      "size": 2349,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/4cf7bb0ecf0af1d581c6f4c567f9d0129c81d6f1"
+    },
+    {
+      "path": "tradingagents/dataflows/alpha_vantage_stock.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffd3570b3ebea596fc65420f74b4c2280672b20b",
+      "size": 1309,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/ffd3570b3ebea596fc65420f74b4c2280672b20b"
+    },
+    {
+      "path": "tradingagents/dataflows/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f3076aea03ad2794b5b65b8cea476ddfc51d35a",
+      "size": 1195,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/6f3076aea03ad2794b5b65b8cea476ddfc51d35a"
+    },
+    {
+      "path": "tradingagents/dataflows/interface.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d073cb07917391029e212f7f8868dc6963534900",
+      "size": 7178,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/d073cb07917391029e212f7f8868dc6963534900"
+    },
+    {
+      "path": "tradingagents/dataflows/market_data_validator.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1992c0f8baed29e5e56d0e9b8e2c60523d30703",
+      "size": 4741,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/d1992c0f8baed29e5e56d0e9b8e2c60523d30703"
+    },
+    {
+      "path": "tradingagents/dataflows/reddit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82303d9b46ef1724d30ad1e1dcccb8266d05f344",
+      "size": 7691,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/82303d9b46ef1724d30ad1e1dcccb8266d05f344"
+    },
+    {
+      "path": "tradingagents/dataflows/stockstats_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47661e81164d049d62923809c60e4bf3cf06acb7",
+      "size": 6148,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/47661e81164d049d62923809c60e4bf3cf06acb7"
+    },
+    {
+      "path": "tradingagents/dataflows/stocktwits.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1b2992babbaa45267dd7b93d2533d9c4e7840bc",
+      "size": 3269,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/a1b2992babbaa45267dd7b93d2533d9c4e7840bc"
+    },
+    {
+      "path": "tradingagents/dataflows/symbol_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0036a8c41e565e7e57afdc1dbdd26dad5563ed89",
+      "size": 5404,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/0036a8c41e565e7e57afdc1dbdd26dad5563ed89"
+    },
+    {
+      "path": "tradingagents/dataflows/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cf6a603247aad0f7e97983120ff8ecede9e04ec",
+      "size": 2764,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/0cf6a603247aad0f7e97983120ff8ecede9e04ec"
+    },
+    {
+      "path": "tradingagents/dataflows/y_finance.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2f77cb3f897171f83e6b2d97a59c186fe76f58a",
+      "size": 18344,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/f2f77cb3f897171f83e6b2d97a59c186fe76f58a"
+    },
+    {
+      "path": "tradingagents/dataflows/yfinance_news.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55c5d2512641800eee90b0d7d86da7f489c3bf8f",
+      "size": 6886,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/55c5d2512641800eee90b0d7d86da7f489c3bf8f"
+    },
+    {
+      "path": "tradingagents/default_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9fd83f65a25e8d68753bcead9fe7ece067e10d3",
+      "size": 6585,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/d9fd83f65a25e8d68753bcead9fe7ece067e10d3"
+    },
+    {
+      "path": "tradingagents/graph",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7b4bbf11052ac791258bdb49535363e99c080de1",
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/trees/7b4bbf11052ac791258bdb49535363e99c080de1"
+    },
+    {
+      "path": "tradingagents/graph/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80982c199008116e22d9cafdb0f2eda71cf294ae",
+      "size": 417,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/80982c199008116e22d9cafdb0f2eda71cf294ae"
+    },
+    {
+      "path": "tradingagents/graph/analyst_execution.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14c375338b611e3dac29c51fb45d8ea3cf296f59",
+      "size": 4528,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/14c375338b611e3dac29c51fb45d8ea3cf296f59"
+    },
+    {
+      "path": "tradingagents/graph/checkpointer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ba19726d954d69cb53f48333e9a5bbadd27404c",
+      "size": 2930,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/3ba19726d954d69cb53f48333e9a5bbadd27404c"
+    },
+    {
+      "path": "tradingagents/graph/conditional_logic.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b032735640f024d01cc5571bdd378fc20ebe1b7d",
+      "size": 3010,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/b032735640f024d01cc5571bdd378fc20ebe1b7d"
+    },
+    {
+      "path": "tradingagents/graph/propagation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edd93f55e25dfacf454a7a070451d4963ce72dd9",
+      "size": 2917,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/edd93f55e25dfacf454a7a070451d4963ce72dd9"
+    },
+    {
+      "path": "tradingagents/graph/reflection.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0685941fe6609ea2b1d93a18b49873f07f435af2",
+      "size": 2419,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/0685941fe6609ea2b1d93a18b49873f07f435af2"
+    },
+    {
+      "path": "tradingagents/graph/setup.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e6b4da72ffa8021473b04c08678d09b14c67db7",
+      "size": 6223,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/1e6b4da72ffa8021473b04c08678d09b14c67db7"
+    },
+    {
+      "path": "tradingagents/graph/signal_processing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90fafd04b43eedc228e9fa21e28c087bacea6f72",
+      "size": 1299,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/90fafd04b43eedc228e9fa21e28c087bacea6f72"
+    },
+    {
+      "path": "tradingagents/graph/trading_graph.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a851b344ec7e5df9dea3fb7aea1bcd71f0ea274",
+      "size": 18845,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/2a851b344ec7e5df9dea3fb7aea1bcd71f0ea274"
+    },
+    {
+      "path": "tradingagents/llm_clients",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "81cdf3a21ecb39fa6b853b39afb223283870dcd7",
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/trees/81cdf3a21ecb39fa6b853b39afb223283870dcd7"
+    },
+    {
+      "path": "tradingagents/llm_clients/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e528eabef4aed18830a1fd86f8f63ca7f5694367",
+      "size": 128,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/e528eabef4aed18830a1fd86f8f63ca7f5694367"
+    },
+    {
+      "path": "tradingagents/llm_clients/anthropic_client.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ac94b99fba04178d84363655adaa75d42702f03",
+      "size": 2400,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/0ac94b99fba04178d84363655adaa75d42702f03"
+    },
+    {
+      "path": "tradingagents/llm_clients/api_key_env.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff03d441ab6da5a8bed3d6e615912ce4a1ce75e8",
+      "size": 1626,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/ff03d441ab6da5a8bed3d6e615912ce4a1ce75e8"
+    },
+    {
+      "path": "tradingagents/llm_clients/azure_client.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a17e6fc2b8c218022603a00f51d0d3ab0ebe0dd8",
+      "size": 1668,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/a17e6fc2b8c218022603a00f51d0d3ab0ebe0dd8"
+    },
+    {
+      "path": "tradingagents/llm_clients/base_client.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f29d713dd264ca36481eeea53f96aa32a6a0d5e9",
+      "size": 2082,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/f29d713dd264ca36481eeea53f96aa32a6a0d5e9"
+    },
+    {
+      "path": "tradingagents/llm_clients/capabilities.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c95d264164b7caf20b2c99bd0f59f151a8f9cef",
+      "size": 5081,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/8c95d264164b7caf20b2c99bd0f59f151a8f9cef"
+    },
+    {
+      "path": "tradingagents/llm_clients/factory.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bf1d9fbadb41a49c22ec6e4cbae0ade3b1a2453",
+      "size": 1700,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/9bf1d9fbadb41a49c22ec6e4cbae0ade3b1a2453"
+    },
+    {
+      "path": "tradingagents/llm_clients/google_client.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61a104c7c4431991703e62e60cbdd608c9cee458",
+      "size": 2483,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/61a104c7c4431991703e62e60cbdd608c9cee458"
+    },
+    {
+      "path": "tradingagents/llm_clients/model_catalog.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00f2df96e34769e8a05b6e3c67f314063627fdf9",
+      "size": 8862,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/00f2df96e34769e8a05b6e3c67f314063627fdf9"
+    },
+    {
+      "path": "tradingagents/llm_clients/openai_client.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d78893a0c0dd4bf9885b85b8877136f564da5d5",
+      "size": 11090,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/0d78893a0c0dd4bf9885b85b8877136f564da5d5"
+    },
+    {
+      "path": "tradingagents/llm_clients/validators.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e6d457b936f095dd0f27aca89a5a5f546c8c7b3",
+      "size": 639,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/4e6d457b936f095dd0f27aca89a5a5f546c8c7b3"
+    },
+    {
+      "path": "uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37bddf3605762534953b969d77b4891f55d32455",
+      "size": 666506,
+      "url": "https://api.github.com/repos/TauricResearch/TradingAgents/git/blobs/37bddf3605762534953b969d77b4891f55d32455"
+    }
+  ],
+  "truncated": false
+}

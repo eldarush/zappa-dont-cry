@@ -1,0 +1,101 @@
+{
+  "harvested_at": "2026-06-07T20:48:53.2061586+03:00",
+  "rank": 151,
+  "repository": "microsoft/ML-For-Beginners",
+  "url": "https://github.com/microsoft/ML-For-Beginners",
+  "language": "Jupyter Notebook",
+  "stars": 86456,
+  "default_branch": "main",
+  "contract_strength": "readme_plus_runtime_hints",
+  "candidate_qaas_surfaces": [
+    "containerized-runtime-smoke",
+    "ci-documented-command-discovery",
+    "repo-contract-discovery-needed"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\151-microsoft-ML-For-Beginners\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\151-microsoft-ML-For-Beginners\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [],
+    "ci": [
+      ".github/workflows/generator-generic-ossf-slsa3-publish.yml",
+      ".github/workflows/lock.yml",
+      ".github/workflows/stale.yml"
+    ],
+    "containers": [
+      ".devcontainer/Dockerfile"
+    ],
+    "dotnet": [],
+    "node": [
+      "package-lock.json",
+      "package.json",
+      "quiz-app/package-lock.json",
+      "quiz-app/package.json"
+    ],
+    "python": [
+      "3-Web-App/1-Web-App/solution/web-app/requirements.txt"
+    ],
+    "go": [],
+    "java": [],
+    "rust": [],
+    "docs": [
+      "1-Introduction/1-intro-to-ML/README.md",
+      "1-Introduction/2-history-of-ML/README.md",
+      "1-Introduction/3-fairness/README.md",
+      "1-Introduction/4-techniques-of-ML/README.md",
+      "1-Introduction/README.md",
+      "2-Regression/1-Tools/README.md",
+      "2-Regression/1-Tools/solution/Julia/README.md",
+      "2-Regression/2-Data/README.md",
+      "2-Regression/2-Data/solution/Julia/README.md",
+      "2-Regression/3-Linear/README.md",
+      "2-Regression/3-Linear/solution/Julia/README.md",
+      "2-Regression/4-Logistic/README.md",
+      "2-Regression/4-Logistic/solution/Julia/README.md",
+      "2-Regression/README.md",
+      "3-Web-App/1-Web-App/README.md",
+      "3-Web-App/README.md",
+      "4-Classification/1-Introduction/README.md",
+      "4-Classification/1-Introduction/solution/Julia/README.md",
+      "4-Classification/2-Classifiers-1/README.md",
+      "4-Classification/2-Classifiers-1/solution/Julia/README.md",
+      "4-Classification/3-Classifiers-2/README.md",
+      "4-Classification/3-Classifiers-2/solution/Julia/README.md",
+      "4-Classification/4-Applied/README.md",
+      "4-Classification/README.md",
+      "5-Clustering/1-Visualize/README.md",
+      "5-Clustering/1-Visualize/solution/Julia/README.md",
+      "5-Clustering/2-K-Means/README.md",
+      "5-Clustering/2-K-Means/solution/Julia/README.md",
+      "5-Clustering/README.md",
+      "6-NLP/1-Introduction-to-NLP/README.md",
+      "6-NLP/2-Tasks/README.md",
+      "6-NLP/3-Translation-Sentiment/README.md",
+      "6-NLP/3-Translation-Sentiment/solution/Julia/README.md",
+      "6-NLP/3-Translation-Sentiment/solution/R/README.md",
+      "6-NLP/4-Hotel-Reviews-1/README.md",
+      "6-NLP/4-Hotel-Reviews-1/solution/Julia/README.md",
+      "6-NLP/4-Hotel-Reviews-1/solution/R/README.md",
+      "6-NLP/5-Hotel-Reviews-2/README.md",
+      "6-NLP/5-Hotel-Reviews-2/solution/Julia/README.md",
+      "6-NLP/5-Hotel-Reviews-2/solution/R/README.md",
+      "6-NLP/README.md",
+      "6-NLP/data/README.md",
+      "7-TimeSeries/1-Introduction/README.md",
+      "7-TimeSeries/1-Introduction/solution/Julia/README.md",
+      "7-TimeSeries/1-Introduction/solution/R/README.md",
+      "7-TimeSeries/2-ARIMA/README.md",
+      "7-TimeSeries/2-ARIMA/solution/Julia/README.md",
+      "7-TimeSeries/2-ARIMA/solution/R/README.md",
+      "7-TimeSeries/3-SVR/README.md",
+      "7-TimeSeries/README.md"
+    ],
+    "tests": []
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\151-microsoft-ML-For-Beginners\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\151-microsoft-ML-For-Beginners\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

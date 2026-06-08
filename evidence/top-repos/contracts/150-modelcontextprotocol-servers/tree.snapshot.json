@@ -1,0 +1,1353 @@
+{
+  "sha": "25e5f3a6e8fb0435dde559607146a2b417a79c63",
+  "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/trees/25e5f3a6e8fb0435dde559607146a2b417a79c63",
+  "tree": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf9687215b2cb3f1984eb29cf0896bff9a215ab0",
+      "size": 42,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/cf9687215b2cb3f1984eb29cf0896bff9a215ab0"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e837ae0d1934044e1e91b1da5a0dc47cc57574c0",
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/trees/e837ae0d1934044e1e91b1da5a0dc47cc57574c0"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd93c479805751bdd16ea77b9cb2d1d23f634f13",
+      "size": 2086,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/dd93c479805751bdd16ea77b9cb2d1d23f634f13"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7995da9102be50cac69bbc0a401a2d48327e0a45",
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/trees/7995da9102be50cac69bbc0a401a2d48327e0a45"
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92c74fceba142d7c34c30980bbd2a83b895c0c60",
+      "size": 1939,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/92c74fceba142d7c34c30980bbd2a83b895c0c60"
+    },
+    {
+      "path": ".github/workflows/python.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df842762497b055db578fc43e082f08e5864fdbe",
+      "size": 3296,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/df842762497b055db578fc43e082f08e5864fdbe"
+    },
+    {
+      "path": ".github/workflows/readme-pr-check.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66cb3a31e678b8afda58ac3fa4bc6c4ae881728f",
+      "size": 4816,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/66cb3a31e678b8afda58ac3fa4bc6c4ae881728f"
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3ad5387d33ebd2f7599693a9200e57f13a492d1",
+      "size": 7131,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/a3ad5387d33ebd2f7599693a9200e57f13a492d1"
+    },
+    {
+      "path": ".github/workflows/typescript.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e29e524adaaf68869eac54eaa0bb27dec2ea17f",
+      "size": 2564,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/4e29e524adaaf68869eac54eaa0bb27dec2ea17f"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c924cfbc9c2d05d3960365220a9c94d73ee25e8",
+      "size": 5306,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/7c924cfbc9c2d05d3960365220a9c94d73ee25e8"
+    },
+    {
+      "path": ".mcp.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f68642aa159fa1582f62b8b0d914694d3eebc36",
+      "size": 123,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/5f68642aa159fa1582f62b8b0d914694d3eebc36"
+    },
+    {
+      "path": ".npmrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a3d6209588d5e03490ac7530827f2ec523ef44c",
+      "size": 100,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/1a3d6209588d5e03490ac7530827f2ec523ef44c"
+    },
+    {
+      "path": "ADDITIONAL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c25b3557de884374d81eb858567ef3e9a88f77d",
+      "size": 16022,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/3c25b3557de884374d81eb858567ef3e9a88f77d"
+    },
+    {
+      "path": "CLAUDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad30b915a851b1da2cba5534cd57db890a498915",
+      "size": 4155,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/ad30b915a851b1da2cba5534cd57db890a498915"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05c32c6053c1edd9a2faaf1b6ebf565c6650fa28",
+      "size": 5223,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/05c32c6053c1edd9a2faaf1b6ebf565c6650fa28"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ce9a21dd61f3e8f8366b349452c43fdd0316ae3",
+      "size": 2661,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/8ce9a21dd61f3e8f8366b349452c43fdd0316ae3"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a93985763241755401a10678395303de4e720ba",
+      "size": 12227,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/4a93985763241755401a10678395303de4e720ba"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a6fcb70facd9ec3a14485080d682b2f363b97d0",
+      "size": 8433,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/1a6fcb70facd9ec3a14485080d682b2f363b97d0"
+    },
+    {
+      "path": "SECURITY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d6cdc2be4862fb7ed3e6454a13ce82b7adf4f90",
+      "size": 1011,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/2d6cdc2be4862fb7ed3e6454a13ce82b7adf4f90"
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a5ece48b9db92c1c11f3d32f1fdefc1623109d3",
+      "size": 146113,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/9a5ece48b9db92c1c11f3d32f1fdefc1623109d3"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "386927172fd9f3e044e6c11e60a7406cb93bfb99",
+      "size": 878,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/386927172fd9f3e044e6c11e60a7406cb93bfb99"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6cddb62bb657a38dcd19e51b835e0486dcd6364f",
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/trees/6cddb62bb657a38dcd19e51b835e0486dcd6364f"
+    },
+    {
+      "path": "scripts/release.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e4ce1274c390be4e39babb4845d14691175ae2d7",
+      "size": 6024,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/e4ce1274c390be4e39babb4845d14691175ae2d7"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "69be756979ac812a204bffa7dabf1fb538edb731",
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/trees/69be756979ac812a204bffa7dabf1fb538edb731"
+    },
+    {
+      "path": "src/everything",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7e1d0ed3eb33ee2ece480f85f5759917ae8fafe6",
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/trees/7e1d0ed3eb33ee2ece480f85f5759917ae8fafe6"
+    },
+    {
+      "path": "src/everything/.prettierignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6ce5590c2b81d04982dbfcf1cb1ebf20bce9f0d",
+      "size": 37,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/b6ce5590c2b81d04982dbfcf1cb1ebf20bce9f0d"
+    },
+    {
+      "path": "src/everything/AGENTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4a6df13485e50bc08f69e4c49a4602fe856bdbd",
+      "size": 3051,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/c4a6df13485e50bc08f69e4c49a4602fe856bdbd"
+    },
+    {
+      "path": "src/everything/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6729298b0607d233400db9f2be92732e479f3969",
+      "size": 466,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/6729298b0607d233400db9f2be92732e479f3969"
+    },
+    {
+      "path": "src/everything/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34a948a2feab4aeb1ea395fa93349b1a4a1d66cc",
+      "size": 4934,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/34a948a2feab4aeb1ea395fa93349b1a4a1d66cc"
+    },
+    {
+      "path": "src/everything/__tests__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "82bddb23ebb611b1e8cd734d8ac9688c1f2b3ca4",
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/trees/82bddb23ebb611b1e8cd734d8ac9688c1f2b3ca4"
+    },
+    {
+      "path": "src/everything/__tests__/prompts.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bff176ac4775c17af089d2cdc0758b6adb7c1945",
+      "size": 6667,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/bff176ac4775c17af089d2cdc0758b6adb7c1945"
+    },
+    {
+      "path": "src/everything/__tests__/registrations.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "421d759e07c6907ce647f162152767a4fdc38714",
+      "size": 5905,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/421d759e07c6907ce647f162152767a4fdc38714"
+    },
+    {
+      "path": "src/everything/__tests__/resources.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a22b904175c9623d9bf1be0833ad515c3d7d27d4",
+      "size": 10989,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/a22b904175c9623d9bf1be0833ad515c3d7d27d4"
+    },
+    {
+      "path": "src/everything/__tests__/server.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7985dd982ec2f645b2f33c8eeab662d7b5d64a9",
+      "size": 1179,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/e7985dd982ec2f645b2f33c8eeab662d7b5d64a9"
+    },
+    {
+      "path": "src/everything/__tests__/tools.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eaa8f721b630395e720546dd1c4ad3087d24708d",
+      "size": 40098,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/eaa8f721b630395e720546dd1c4ad3087d24708d"
+    },
+    {
+      "path": "src/everything/docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "989b7852ed04ff98365113f4491dc2f7c4721aa8",
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/trees/989b7852ed04ff98365113f4491dc2f7c4721aa8"
+    },
+    {
+      "path": "src/everything/docs/architecture.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "728cfd4010925ee5a029800c2bf12d0fef0fbe5e",
+      "size": 1616,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/728cfd4010925ee5a029800c2bf12d0fef0fbe5e"
+    },
+    {
+      "path": "src/everything/docs/extension.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d777304489bce0311845761f78c9c8b0a27582c",
+      "size": 965,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/1d777304489bce0311845761f78c9c8b0a27582c"
+    },
+    {
+      "path": "src/everything/docs/features.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5429ac600d57c78fa86793b96803b670221f4af",
+      "size": 9889,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/a5429ac600d57c78fa86793b96803b670221f4af"
+    },
+    {
+      "path": "src/everything/docs/how-it-works.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "514c6f56638001d9c983fa026029682efed8e1ec",
+      "size": 2772,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/514c6f56638001d9c983fa026029682efed8e1ec"
+    },
+    {
+      "path": "src/everything/docs/instructions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5806dc0ba9613885b425765e014d1e57ddc8e178",
+      "size": 1579,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/5806dc0ba9613885b425765e014d1e57ddc8e178"
+    },
+    {
+      "path": "src/everything/docs/startup.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d006589a96a6eac1206f91a67a7fe71de6e7a77",
+      "size": 2874,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/1d006589a96a6eac1206f91a67a7fe71de6e7a77"
+    },
+    {
+      "path": "src/everything/docs/structure.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd3d70b95cdab6ce394eec5b028440736dff028d",
+      "size": 11750,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/bd3d70b95cdab6ce394eec5b028440736dff028d"
+    },
+    {
+      "path": "src/everything/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39d50fa651fc24650811377e82dcb49e0607d770",
+      "size": 1314,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/39d50fa651fc24650811377e82dcb49e0607d770"
+    },
+    {
+      "path": "src/everything/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38aec9c0d327a3c8a16b7be856d1496fc46ac862",
+      "size": 1479,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/38aec9c0d327a3c8a16b7be856d1496fc46ac862"
+    },
+    {
+      "path": "src/everything/prompts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9f284d4c03102f96d7794bdf59332a682ec3416",
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/trees/c9f284d4c03102f96d7794bdf59332a682ec3416"
+    },
+    {
+      "path": "src/everything/prompts/args.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e445a4ce41f0aac5d9c88f47ecad8b543020677",
+      "size": 1066,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/7e445a4ce41f0aac5d9c88f47ecad8b543020677"
+    },
+    {
+      "path": "src/everything/prompts/completions.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e47c36e57b4a52882e43aeeab5ae75f687dea9ff",
+      "size": 2072,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/e47c36e57b4a52882e43aeeab5ae75f687dea9ff"
+    },
+    {
+      "path": "src/everything/prompts/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6efa7b7297162e57a61e228bc29ac277f875982b",
+      "size": 587,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/6efa7b7297162e57a61e228bc29ac277f875982b"
+    },
+    {
+      "path": "src/everything/prompts/resource.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03989aaa25c6811448d4e45ba94a3a2b35a89b9b",
+      "size": 2548,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/03989aaa25c6811448d4e45ba94a3a2b35a89b9b"
+    },
+    {
+      "path": "src/everything/prompts/simple.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2a0d2eea628420ccf3ed0056cac21e93206afd7",
+      "size": 656,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/a2a0d2eea628420ccf3ed0056cac21e93206afd7"
+    },
+    {
+      "path": "src/everything/resources",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d89282781a6b7525921de38a5d395a2ecb31d21b",
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/trees/d89282781a6b7525921de38a5d395a2ecb31d21b"
+    },
+    {
+      "path": "src/everything/resources/files.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e38cb596338275d98abd2afb873f2d27cf28a2e2",
+      "size": 2535,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/e38cb596338275d98abd2afb873f2d27cf28a2e2"
+    },
+    {
+      "path": "src/everything/resources/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30c6f7dcf8d906e8a5495f9c8cbc34ef36153764",
+      "size": 1222,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/30c6f7dcf8d906e8a5495f9c8cbc34ef36153764"
+    },
+    {
+      "path": "src/everything/resources/session.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10e0db33c16d03aa2c522199acebfea6dd06438c",
+      "size": 2707,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/10e0db33c16d03aa2c522199acebfea6dd06438c"
+    },
+    {
+      "path": "src/everything/resources/subscriptions.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a5e57460f916dd354383896597fed50c8574bfc",
+      "size": 5891,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/2a5e57460f916dd354383896597fed50c8574bfc"
+    },
+    {
+      "path": "src/everything/resources/templates.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d4903f74cfca4ff4e973416851014b317bb6f81",
+      "size": 7484,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/6d4903f74cfca4ff4e973416851014b317bb6f81"
+    },
+    {
+      "path": "src/everything/server",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "36474faa7600af85e5916fb72319f0798ab48254",
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/trees/36474faa7600af85e5916fb72319f0798ab48254"
+    },
+    {
+      "path": "src/everything/server/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1459cc8122cb0ad8c3d7c251f93e7b46374351a",
+      "size": 3595,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/f1459cc8122cb0ad8c3d7c251f93e7b46374351a"
+    },
+    {
+      "path": "src/everything/server/logging.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82edea162c8fdbe6f63372ac3e7b96742c1cb185",
+      "size": 3168,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/82edea162c8fdbe6f63372ac3e7b96742c1cb185"
+    },
+    {
+      "path": "src/everything/server/roots.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34b12b21ce1c81d147fa129a24774847e27ee2fc",
+      "size": 3162,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/34b12b21ce1c81d147fa129a24774847e27ee2fc"
+    },
+    {
+      "path": "src/everything/tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "23f4390fc3f516c4edc896f0a211e208524047c9",
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/trees/23f4390fc3f516c4edc896f0a211e208524047c9"
+    },
+    {
+      "path": "src/everything/tools/echo.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0658e831954f99868a6b494f4c1351ccbbd9aa3a",
+      "size": 1153,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/0658e831954f99868a6b494f4c1351ccbbd9aa3a"
+    },
+    {
+      "path": "src/everything/tools/get-annotated-message.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5de72b029a34c1a16a4fabf58d04d94321f8b407",
+      "size": 3197,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/5de72b029a34c1a16a4fabf58d04d94321f8b407"
+    },
+    {
+      "path": "src/everything/tools/get-env.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55eabfaa9796318311a759e6daabf25c54106f49",
+      "size": 1094,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/55eabfaa9796318311a759e6daabf25c54106f49"
+    },
+    {
+      "path": "src/everything/tools/get-resource-links.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7684cb64a55698cc353137477ea3c7315ddc03dd",
+      "size": 2642,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/7684cb64a55698cc353137477ea3c7315ddc03dd"
+    },
+    {
+      "path": "src/everything/tools/get-resource-reference.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5806365868a4c05d38d3d68bd5d5a9e72361bc23",
+      "size": 3237,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/5806365868a4c05d38d3d68bd5d5a9e72361bc23"
+    },
+    {
+      "path": "src/everything/tools/get-roots-list.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8778e4c017c6bceab0d6038202a53528fb1e3f9",
+      "size": 3597,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/a8778e4c017c6bceab0d6038202a53528fb1e3f9"
+    },
+    {
+      "path": "src/everything/tools/get-structured-content.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9bde5c9e47f71ebbf7903101af71dfaa508fae4",
+      "size": 2663,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/f9bde5c9e47f71ebbf7903101af71dfaa508fae4"
+    },
+    {
+      "path": "src/everything/tools/get-sum.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "470293bf6f555f9206001b4a90e1e152cd6c48a2",
+      "size": 1677,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/470293bf6f555f9206001b4a90e1e152cd6c48a2"
+    },
+    {
+      "path": "src/everything/tools/get-tiny-image.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c38c3c698b14ad1de62dee1d84ebaea886398b6a",
+      "size": 6793,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/c38c3c698b14ad1de62dee1d84ebaea886398b6a"
+    },
+    {
+      "path": "src/everything/tools/gzip-file-as-resource.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3dd6fdae4aaca24692ecb12160a5b36f1ee1de33",
+      "size": 8385,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/3dd6fdae4aaca24692ecb12160a5b36f1ee1de33"
+    },
+    {
+      "path": "src/everything/tools/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0272126eea3ae1cada5010b901ec92013788976b",
+      "size": 2819,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/0272126eea3ae1cada5010b901ec92013788976b"
+    },
+    {
+      "path": "src/everything/tools/simulate-research-query.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c96c740c4ecbc8bca56ea80a9a618a45ca6bf293",
+      "size": 11730,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/c96c740c4ecbc8bca56ea80a9a618a45ca6bf293"
+    },
+    {
+      "path": "src/everything/tools/toggle-simulated-logging.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb9a4b1e25e290b0fdd57ba0c5a88e4f43bc286e",
+      "size": 2147,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/eb9a4b1e25e290b0fdd57ba0c5a88e4f43bc286e"
+    },
+    {
+      "path": "src/everything/tools/toggle-subscriber-updates.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "759ec20e5103725d628d6f14a4543339e9dd33f1",
+      "size": 2254,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/759ec20e5103725d628d6f14a4543339e9dd33f1"
+    },
+    {
+      "path": "src/everything/tools/trigger-elicitation-request-async.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6e61b7bf7c08e3ccb711c6a3c9d3e5b94587755",
+      "size": 8982,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/d6e61b7bf7c08e3ccb711c6a3c9d3e5b94587755"
+    },
+    {
+      "path": "src/everything/tools/trigger-elicitation-request.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca4742141ecbe01d35de896731b29e6672d45101",
+      "size": 9145,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/ca4742141ecbe01d35de896731b29e6672d45101"
+    },
+    {
+      "path": "src/everything/tools/trigger-long-running-operation.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95415e88e27e2badb143944352c813a9db50f6d3",
+      "size": 2504,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/95415e88e27e2badb143944352c813a9db50f6d3"
+    },
+    {
+      "path": "src/everything/tools/trigger-sampling-request-async.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d61daddbd2a18983b8f8e482fc7a32e931c25180",
+      "size": 7444,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/d61daddbd2a18983b8f8e482fc7a32e931c25180"
+    },
+    {
+      "path": "src/everything/tools/trigger-sampling-request.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd9b5375c4bcf612bb059a367d946ed5a14b2b4d",
+      "size": 2951,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/fd9b5375c4bcf612bb059a367d946ed5a14b2b4d"
+    },
+    {
+      "path": "src/everything/tools/trigger-url-elicitation.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7de878de7a5ff7858a1d929be4a5ec691987ee1",
+      "size": 8894,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/a7de878de7a5ff7858a1d929be4a5ec691987ee1"
+    },
+    {
+      "path": "src/everything/transports",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "25310215096e14d98c58f624a8fc29c23c4cf1c6",
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/trees/25310215096e14d98c58f624a8fc29c23c4cf1c6"
+    },
+    {
+      "path": "src/everything/transports/sse.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2406db7cfa8fb4920b90b00cc8559a3e63c192dd",
+      "size": 2463,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/2406db7cfa8fb4920b90b00cc8559a3e63c192dd"
+    },
+    {
+      "path": "src/everything/transports/stdio.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e653bcf4dca3d78f9c6e92dd6cb7741f0ef79bb",
+      "size": 872,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/3e653bcf4dca3d78f9c6e92dd6cb7741f0ef79bb"
+    },
+    {
+      "path": "src/everything/transports/streamableHttp.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e79abc554d097527fff9671af61f586d79daabb",
+      "size": 7517,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/2e79abc554d097527fff9671af61f586d79daabb"
+    },
+    {
+      "path": "src/everything/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "829d52d66b8b8799db475be955c0372025f2ecb9",
+      "size": 138,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/829d52d66b8b8799db475be955c0372025f2ecb9"
+    },
+    {
+      "path": "src/everything/vitest.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d414ec8f522637a9297fcffa03f18f1e29519423",
+      "size": 307,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/d414ec8f522637a9297fcffa03f18f1e29519423"
+    },
+    {
+      "path": "src/fetch",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e44f434b9960d7e0b4721ea650688f19b606e9d1",
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/trees/e44f434b9960d7e0b4721ea650688f19b606e9d1"
+    },
+    {
+      "path": "src/fetch/.python-version",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c0733315e415bfb5e5b353f9996ecd964d395b2",
+      "size": 5,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/2c0733315e415bfb5e5b353f9996ecd964d395b2"
+    },
+    {
+      "path": "src/fetch/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e81610cb7f3de768726548fad8f18f9739cbf93d",
+      "size": 1199,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/e81610cb7f3de768726548fad8f18f9739cbf93d"
+    },
+    {
+      "path": "src/fetch/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "596ffeee6699eaa9760900bc18ca53ae82dc6278",
+      "size": 1059,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/596ffeee6699eaa9760900bc18ca53ae82dc6278"
+    },
+    {
+      "path": "src/fetch/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c3e04892711f5c378a3392b03e8404a5d282ffb",
+      "size": 7433,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/2c3e04892711f5c378a3392b03e8404a5d282ffb"
+    },
+    {
+      "path": "src/fetch/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2d0d38d0c4a3dc3f917fea88acfcb94eee404bb",
+      "size": 1134,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/e2d0d38d0c4a3dc3f917fea88acfcb94eee404bb"
+    },
+    {
+      "path": "src/fetch/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7a03f7bc7db7af72d46a99315f5e9aac4e48cfb4",
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/trees/7a03f7bc7db7af72d46a99315f5e9aac4e48cfb4"
+    },
+    {
+      "path": "src/fetch/src/mcp_server_fetch",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f5f6f4e385c93ee45adf471323c878657bb52ffe",
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/trees/f5f6f4e385c93ee45adf471323c878657bb52ffe"
+    },
+    {
+      "path": "src/fetch/src/mcp_server_fetch/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09744ce3199f7d40867c2ac2a29d5371fd11c631",
+      "size": 717,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/09744ce3199f7d40867c2ac2a29d5371fd11c631"
+    },
+    {
+      "path": "src/fetch/src/mcp_server_fetch/__main__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "318a21e789617d2ef82097159704bad91d869ae1",
+      "size": 57,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/318a21e789617d2ef82097159704bad91d869ae1"
+    },
+    {
+      "path": "src/fetch/src/mcp_server_fetch/server.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b42c7b1f6b7ce1fea6b50a5a4554f3436cb36131",
+      "size": 10643,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/b42c7b1f6b7ce1fea6b50a5a4554f3436cb36131"
+    },
+    {
+      "path": "src/fetch/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f640c280fb65a59fff6be1c0816f258032b6fb92",
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/trees/f640c280fb65a59fff6be1c0816f258032b6fb92"
+    },
+    {
+      "path": "src/fetch/tests/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/fetch/tests/test_server.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96c1cb38c7b4eae0870f89066faec2697c980434",
+      "size": 12700,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/96c1cb38c7b4eae0870f89066faec2697c980434"
+    },
+    {
+      "path": "src/fetch/uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cde68d0aa4eee7f09ea837f57b8929b4987112ed",
+      "size": 248572,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/cde68d0aa4eee7f09ea837f57b8929b4987112ed"
+    },
+    {
+      "path": "src/filesystem",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "275ed4976ec1a4e01730c0f3688e09165d7123c2",
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/trees/275ed4976ec1a4e01730c0f3688e09165d7123c2"
+    },
+    {
+      "path": "src/filesystem/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "418b140056a6665ced7ee4275be0ca7c7927866d",
+      "size": 567,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/418b140056a6665ced7ee4275be0ca7c7927866d"
+    },
+    {
+      "path": "src/filesystem/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c099da1e8cfa5921dc6d4481574b57a919cc9802",
+      "size": 14417,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/c099da1e8cfa5921dc6d4481574b57a919cc9802"
+    },
+    {
+      "path": "src/filesystem/__tests__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6d5d7cb4022ac2ff090f83a28350e71d5f16a2ae",
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/trees/6d5d7cb4022ac2ff090f83a28350e71d5f16a2ae"
+    },
+    {
+      "path": "src/filesystem/__tests__/directory-tree.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04c8278c59c72c090398aa1dd94566ebdc5080e4",
+      "size": 6136,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/04c8278c59c72c090398aa1dd94566ebdc5080e4"
+    },
+    {
+      "path": "src/filesystem/__tests__/lib.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0ae61224f09ddc07fda7f40c0d42cb025757fb7",
+      "size": 26484,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/e0ae61224f09ddc07fda7f40c0d42cb025757fb7"
+    },
+    {
+      "path": "src/filesystem/__tests__/path-utils.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f6072377b0d95401c0534581f789893f2a3a5a2",
+      "size": 14244,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/3f6072377b0d95401c0534581f789893f2a3a5a2"
+    },
+    {
+      "path": "src/filesystem/__tests__/path-validation.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81ad247ee2bd2076530a21a857a10ed4928392d3",
+      "size": 43708,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/81ad247ee2bd2076530a21a857a10ed4928392d3"
+    },
+    {
+      "path": "src/filesystem/__tests__/roots-utils.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a39483953dee3e4705add754e9994d1cebb3fc1",
+      "size": 2913,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/1a39483953dee3e4705add754e9994d1cebb3fc1"
+    },
+    {
+      "path": "src/filesystem/__tests__/startup-validation.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3be283df745d1d488aceacd26953f3e202e43c46",
+      "size": 3517,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/3be283df745d1d488aceacd26953f3e202e43c46"
+    },
+    {
+      "path": "src/filesystem/__tests__/structured-content.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b8f92b0a39507e087e2a7bb10b8b2167bf835ea",
+      "size": 5634,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/4b8f92b0a39507e087e2a7bb10b8b2167bf835ea"
+    },
+    {
+      "path": "src/filesystem/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b67e63e58e5b72e1e02ca45264ef6a395de542f",
+      "size": 27438,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/7b67e63e58e5b72e1e02ca45264ef6a395de542f"
+    },
+    {
+      "path": "src/filesystem/lib.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce4af9f38a255f7a6c287d9dace734e78d3568ff",
+      "size": 13968,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/ce4af9f38a255f7a6c287d9dace734e78d3568ff"
+    },
+    {
+      "path": "src/filesystem/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ca74931b2d2d39d5dc3dd4821638a5f6a861bfe",
+      "size": 1166,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/1ca74931b2d2d39d5dc3dd4821638a5f6a861bfe"
+    },
+    {
+      "path": "src/filesystem/path-utils.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ab5a5969b4ab20f003a81a93397dc9b5ad6a1ef",
+      "size": 4489,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/6ab5a5969b4ab20f003a81a93397dc9b5ad6a1ef"
+    },
+    {
+      "path": "src/filesystem/path-validation.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "972e9c49d0d13bf07d03ade4e26d197f8ab617ab",
+      "size": 2731,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/972e9c49d0d13bf07d03ade4e26d197f8ab617ab"
+    },
+    {
+      "path": "src/filesystem/roots-utils.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e26bb246b5305bad3e12759baf8042f0d30b322",
+      "size": 2809,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/5e26bb246b5305bad3e12759baf8042f0d30b322"
+    },
+    {
+      "path": "src/filesystem/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db219c5b45b8bff2f9c5aa10359aa08124518b30",
+      "size": 314,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/db219c5b45b8bff2f9c5aa10359aa08124518b30"
+    },
+    {
+      "path": "src/filesystem/vitest.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d414ec8f522637a9297fcffa03f18f1e29519423",
+      "size": 307,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/d414ec8f522637a9297fcffa03f18f1e29519423"
+    },
+    {
+      "path": "src/git",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e3d92b5844b76aae2220f76709601fe11a2bf757",
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/trees/e3d92b5844b76aae2220f76709601fe11a2bf757"
+    },
+    {
+      "path": "src/git/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f7550b1ef09d330df1f95682cd0f36c0eacaff4",
+      "size": 18,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/9f7550b1ef09d330df1f95682cd0f36c0eacaff4"
+    },
+    {
+      "path": "src/git/.python-version",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8cfe3959183f8e9a50f83f54cd723f2dc9c252d",
+      "size": 5,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/c8cfe3959183f8e9a50f83f54cd723f2dc9c252d"
+    },
+    {
+      "path": "src/git/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b53886aa32c585ea572ae3bb59f856f7bd78fca",
+      "size": 1316,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/6b53886aa32c585ea572ae3bb59f856f7bd78fca"
+    },
+    {
+      "path": "src/git/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "596ffeee6699eaa9760900bc18ca53ae82dc6278",
+      "size": 1059,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/596ffeee6699eaa9760900bc18ca53ae82dc6278"
+    },
+    {
+      "path": "src/git/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9ec3140bee829569d39021108dceb0799c0d3b2",
+      "size": 10870,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/c9ec3140bee829569d39021108dceb0799c0d3b2"
+    },
+    {
+      "path": "src/git/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea46b1cfb2f2651264a8e4d6d73178c81b680c75",
+      "size": 1111,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/ea46b1cfb2f2651264a8e4d6d73178c81b680c75"
+    },
+    {
+      "path": "src/git/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "339a809cd9aaecec31c8f5a687f2efc07c20acff",
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/trees/339a809cd9aaecec31c8f5a687f2efc07c20acff"
+    },
+    {
+      "path": "src/git/src/mcp_server_git",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f4c70cb2a6af32bd9703026e201a9f2653829514",
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/trees/f4c70cb2a6af32bd9703026e201a9f2653829514"
+    },
+    {
+      "path": "src/git/src/mcp_server_git/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2270018733f5bbdb75cf097b3e69d04044e6c19a",
+      "size": 650,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/2270018733f5bbdb75cf097b3e69d04044e6c19a"
+    },
+    {
+      "path": "src/git/src/mcp_server_git/__main__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "beda6b0eab59994c118a91084d540f7663651fc7",
+      "size": 55,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/beda6b0eab59994c118a91084d540f7663651fc7"
+    },
+    {
+      "path": "src/git/src/mcp_server_git/py.typed",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/git/src/mcp_server_git/server.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ce953e5452e2a306445fc592521eb473e64d803",
+      "size": 21245,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/5ce953e5452e2a306445fc592521eb473e64d803"
+    },
+    {
+      "path": "src/git/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "04c213cd28b53f3629c253873a4b88c5fc180a2d",
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/trees/04c213cd28b53f3629c253873a4b88c5fc180a2d"
+    },
+    {
+      "path": "src/git/tests/test_server.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5492adc85dfdbae9066eb1712b5d8ae5ac75d8d",
+      "size": 17135,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/a5492adc85dfdbae9066eb1712b5d8ae5ac75d8d"
+    },
+    {
+      "path": "src/git/uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be0de2b1b362db0a1e8fc8967491425604face0b",
+      "size": 162897,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/be0de2b1b362db0a1e8fc8967491425604face0b"
+    },
+    {
+      "path": "src/memory",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cdef534643fbb54b99fd594f14ce793b4f587b7f",
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/trees/cdef534643fbb54b99fd594f14ce793b4f587b7f"
+    },
+    {
+      "path": "src/memory/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f85d0cfa2775425a33afa1111f961d8b560edb7",
+      "size": 557,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/2f85d0cfa2775425a33afa1111f961d8b560edb7"
+    },
+    {
+      "path": "src/memory/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdb8c4613efb06fe8c881494ff0418a3b2f3553b",
+      "size": 10080,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/fdb8c4613efb06fe8c881494ff0418a3b2f3553b"
+    },
+    {
+      "path": "src/memory/__tests__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "051bd694dc38e441e59f6aca68da38aaa56d1e64",
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/trees/051bd694dc38e441e59f6aca68da38aaa56d1e64"
+    },
+    {
+      "path": "src/memory/__tests__/file-path.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1a16e46002923629af159e80f8a658f66641b1f",
+      "size": 5229,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/d1a16e46002923629af159e80f8a658f66641b1f"
+    },
+    {
+      "path": "src/memory/__tests__/knowledge-graph.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "236242413a28a7d2c6813404b331776d0211c381",
+      "size": 19586,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/236242413a28a7d2c6813404b331776d0211c381"
+    },
+    {
+      "path": "src/memory/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b4c683300aeb5592cb8eed8a88eb1974d259701",
+      "size": 17210,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/7b4c683300aeb5592cb8eed8a88eb1974d259701"
+    },
+    {
+      "path": "src/memory/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e339452bcf229de8f624d4ab6958ef45f26435b3",
+      "size": 1052,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/e339452bcf229de8f624d4ab6958ef45f26435b3"
+    },
+    {
+      "path": "src/memory/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2d86555b06a3e3a021d7d2d1e5d399914b2711f",
+      "size": 209,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/d2d86555b06a3e3a021d7d2d1e5d399914b2711f"
+    },
+    {
+      "path": "src/memory/vitest.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d414ec8f522637a9297fcffa03f18f1e29519423",
+      "size": 307,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/d414ec8f522637a9297fcffa03f18f1e29519423"
+    },
+    {
+      "path": "src/sequentialthinking",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9a0131a6a37bc4e199a0ed8324b22c99f0e6d686",
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/trees/9a0131a6a37bc4e199a0ed8324b22c99f0e6d686"
+    },
+    {
+      "path": "src/sequentialthinking/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1a88195bc89b4fdf17b7e7e4e4380127e008fea",
+      "size": 570,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/f1a88195bc89b4fdf17b7e7e4e4380127e008fea"
+    },
+    {
+      "path": "src/sequentialthinking/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45d2c30f75bc47dfc0701e45e8a38a457da29173",
+      "size": 7387,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/45d2c30f75bc47dfc0701e45e8a38a457da29173"
+    },
+    {
+      "path": "src/sequentialthinking/__tests__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "00af9e4a36eb24de8fc8fb8a3d04894312ce8553",
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/trees/00af9e4a36eb24de8fc8fb8a3d04894312ce8553"
+    },
+    {
+      "path": "src/sequentialthinking/__tests__/lib.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2114c5ec18a0efee11b7a3dc25a1caf3066fa8a9",
+      "size": 8649,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/2114c5ec18a0efee11b7a3dc25a1caf3066fa8a9"
+    },
+    {
+      "path": "src/sequentialthinking/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "217845bb3daba31dbadf8301a2b62a9946c468d8",
+      "size": 5517,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/217845bb3daba31dbadf8301a2b62a9946c468d8"
+    },
+    {
+      "path": "src/sequentialthinking/lib.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31a1098644e15437538d446277a363f37cb99811",
+      "size": 2965,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/31a1098644e15437538d446277a363f37cb99811"
+    },
+    {
+      "path": "src/sequentialthinking/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a9655134cb03acc28dd5837611d3b76cba60432",
+      "size": 1157,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/1a9655134cb03acc28dd5837611d3b76cba60432"
+    },
+    {
+      "path": "src/sequentialthinking/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2d86555b06a3e3a021d7d2d1e5d399914b2711f",
+      "size": 209,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/d2d86555b06a3e3a021d7d2d1e5d399914b2711f"
+    },
+    {
+      "path": "src/sequentialthinking/vitest.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d414ec8f522637a9297fcffa03f18f1e29519423",
+      "size": 307,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/d414ec8f522637a9297fcffa03f18f1e29519423"
+    },
+    {
+      "path": "src/time",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8c5fc573f8253c29f4794ea650a0adfd966fad28",
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/trees/8c5fc573f8253c29f4794ea650a0adfd966fad28"
+    },
+    {
+      "path": "src/time/.python-version",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8cfe3959183f8e9a50f83f54cd723f2dc9c252d",
+      "size": 5,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/c8cfe3959183f8e9a50f83f54cd723f2dc9c252d"
+    },
+    {
+      "path": "src/time/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac5f752ee5e138155208c73708f5e35cd77574ff",
+      "size": 1337,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/ac5f752ee5e138155208c73708f5e35cd77574ff"
+    },
+    {
+      "path": "src/time/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51107f51de6429d72b668b7b2224920d00f4aee4",
+      "size": 7358,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/51107f51de6429d72b668b7b2224920d00f4aee4"
+    },
+    {
+      "path": "src/time/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b498a07b4ae1b2867b1495364c34da29c49e89eb",
+      "size": 974,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/b498a07b4ae1b2867b1495364c34da29c49e89eb"
+    },
+    {
+      "path": "src/time/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8d18e6add41cff9a777edfc626f4ca6e4440eee7",
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/trees/8d18e6add41cff9a777edfc626f4ca6e4440eee7"
+    },
+    {
+      "path": "src/time/src/mcp_server_time",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4709074742f3d582d867290c25a74d5c09a15c5d",
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/trees/4709074742f3d582d867290c25a74d5c09a15c5d"
+    },
+    {
+      "path": "src/time/src/mcp_server_time/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cce7ccc9ad55d3309d692685f685e074b6b4a661",
+      "size": 500,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/cce7ccc9ad55d3309d692685f685e074b6b4a661"
+    },
+    {
+      "path": "src/time/src/mcp_server_time/__main__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27adff28bdc1878718ea62a5ca0a3f25c3872194",
+      "size": 41,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/27adff28bdc1878718ea62a5ca0a3f25c3872194"
+    },
+    {
+      "path": "src/time/src/mcp_server_time/server.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cb0926134ac37962d839ce19a0cd5194fc44e80",
+      "size": 7976,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/2cb0926134ac37962d839ce19a0cd5194fc44e80"
+    },
+    {
+      "path": "src/time/test",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "712f548c8dcd1e3edf30980aeec2bffe1ba00e00",
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/trees/712f548c8dcd1e3edf30980aeec2bffe1ba00e00"
+    },
+    {
+      "path": "src/time/test/time_server_test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d963508d71d6be4d01bc1db5f6e1f58aac37d72",
+      "size": 17930,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/8d963508d71d6be4d01bc1db5f6e1f58aac37d72"
+    },
+    {
+      "path": "src/time/uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04ea7ba6026ecac176e8ab8619292f22040c10fc",
+      "size": 164467,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/04ea7ba6026ecac176e8ab8619292f22040c10fc"
+    },
+    {
+      "path": "tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "208ca01e412ce8718fbcfc9ab10f63abb1f6c588",
+      "size": 322,
+      "url": "https://api.github.com/repos/modelcontextprotocol/servers/git/blobs/208ca01e412ce8718fbcfc9ab10f63abb1f6c588"
+    }
+  ],
+  "truncated": false
+}

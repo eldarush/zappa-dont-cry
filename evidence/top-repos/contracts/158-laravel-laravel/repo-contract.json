@@ -1,0 +1,52 @@
+{
+  "harvested_at": "2026-06-07T20:49:03.7016671+03:00",
+  "rank": 158,
+  "repository": "laravel/laravel",
+  "url": "https://github.com/laravel/laravel",
+  "language": "Blade",
+  "stars": 84428,
+  "default_branch": "13.x",
+  "contract_strength": "readme_plus_runtime_hints",
+  "candidate_qaas_surfaces": [
+    "ci-documented-command-discovery",
+    "repo-contract-discovery-needed"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\158-laravel-laravel\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\158-laravel-laravel\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [],
+    "ci": [
+      ".github/workflows/dependabot-auto-merge.yml",
+      ".github/workflows/issues.yml",
+      ".github/workflows/pull-requests.yml",
+      ".github/workflows/tests.yml",
+      ".github/workflows/update-changelog.yml"
+    ],
+    "containers": [],
+    "dotnet": [],
+    "node": [
+      "package.json"
+    ],
+    "python": [],
+    "go": [],
+    "java": [],
+    "rust": [],
+    "docs": [
+      ".github/workflows/update-changelog.yml",
+      "CHANGELOG.md",
+      "README.md"
+    ],
+    "tests": [
+      "tests/Feature/ExampleTest.php",
+      "tests/TestCase.php",
+      "tests/Unit/ExampleTest.php"
+    ]
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\158-laravel-laravel\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\158-laravel-laravel\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

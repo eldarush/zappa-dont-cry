@@ -1,0 +1,1334 @@
+{
+  "sha": "f5fbfd848ec0a5c9771dd103e921e7064445c9ba",
+  "url": "https://api.github.com/repos/junegunn/fzf/git/trees/f5fbfd848ec0a5c9771dd103e921e7064445c9ba",
+  "tree": [
+    {
+      "path": ".editorconfig",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b07ad9fcecd79177f26e64ab755bfed64934308",
+      "size": 472,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/4b07ad9fcecd79177f26e64ab755bfed64934308"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "95e5f163d1dcc30e16bb4bb8a92f722f6fb98408",
+      "url": "https://api.github.com/repos/junegunn/fzf/git/trees/95e5f163d1dcc30e16bb4bb8a92f722f6fb98408"
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcb7910223af065ccb900be43451ae81e4afa622",
+      "size": 12,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/fcb7910223af065ccb900be43451ae81e4afa622"
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2848951d839a9cd63a93ed965914dcf1755f21f",
+      "size": 17,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/f2848951d839a9cd63a93ed965914dcf1755f21f"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1669b53a3c148dabd16b73c0bfd93ad1eef469f5",
+      "url": "https://api.github.com/repos/junegunn/fzf/git/trees/1669b53a3c148dabd16b73c0bfd93ad1eef469f5"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/issue_template.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06e857b4b687f3de592743f064b17693bc6204bc",
+      "size": 1162,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/06e857b4b687f3de592743f064b17693bc6204bc"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64dc144ea066f3a0106f8c9417a8680d291e7d84",
+      "size": 658,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/64dc144ea066f3a0106f8c9417a8680d291e7d84"
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a056bba775e757826fef7043a85ca22bf54b8df6",
+      "size": 209,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/a056bba775e757826fef7043a85ca22bf54b8df6"
+    },
+    {
+      "path": ".github/labeler.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4b14dba2a86a5756009701ef407b2d3fca9dfda",
+      "size": 1084,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/a4b14dba2a86a5756009701ef407b2d3fca9dfda"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f04f94a805faa46d576d2e4661c6dcd244957402",
+      "url": "https://api.github.com/repos/junegunn/fzf/git/trees/f04f94a805faa46d576d2e4661c6dcd244957402"
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef309ac651791f7dcf45dcca4c2e560814cc8552",
+      "size": 1111,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/ef309ac651791f7dcf45dcca4c2e560814cc8552"
+    },
+    {
+      "path": ".github/workflows/depsreview.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9d4dd98e1d86f0ccca30d177b47cd30c6b5f4da",
+      "size": 296,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/c9d4dd98e1d86f0ccca30d177b47cd30c6b5f4da"
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b148a0a4a5b6d7e4e8dba4338e5dc73ccf91978",
+      "size": 292,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/4b148a0a4a5b6d7e4e8dba4338e5dc73ccf91978"
+    },
+    {
+      "path": ".github/workflows/linux.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "868673df6d60c4c9c71cf57a6c43eeabc170c913",
+      "size": 1422,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/868673df6d60c4c9c71cf57a6c43eeabc170c913"
+    },
+    {
+      "path": ".github/workflows/macos.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c3fb25de4dec754b7f4d80fc8808655290f5da1",
+      "size": 1050,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/7c3fb25de4dec754b7f4d80fc8808655290f5da1"
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14b5f9dd882a8b84fc41b20e7e314eff4ecb4d4d",
+      "size": 2220,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/14b5f9dd882a8b84fc41b20e7e314eff4ecb4d4d"
+    },
+    {
+      "path": ".github/workflows/typos.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e01ed87084da4195701ffa9aded9263a9f8c7dff",
+      "size": 236,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/e01ed87084da4195701ffa9aded9263a9f8c7dff"
+    },
+    {
+      "path": ".github/workflows/winget.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51ab1651912a503964372a995def764eeaf269a1",
+      "size": 607,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/51ab1651912a503964372a995def764eeaf269a1"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddce2566ed9d2bca738348921bb5734c721ec835",
+      "size": 97,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/ddce2566ed9d2bca738348921bb5734c721ec835"
+    },
+    {
+      "path": ".goreleaser.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6512824eed132a80b5a7fa7e94e837f936badb84",
+      "size": 2488,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/6512824eed132a80b5a7fa7e94e837f936badb84"
+    },
+    {
+      "path": ".rubocop.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc20731ea81ae7ed2d93080f9cbdcf55650b22ca",
+      "size": 794,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/bc20731ea81ae7ed2d93080f9cbdcf55650b22ca"
+    },
+    {
+      "path": ".tool-versions",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a307589dfff81af786e34b35f0508b2f5d993ea",
+      "size": 32,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/5a307589dfff81af786e34b35f0508b2f5d993ea"
+    },
+    {
+      "path": "ADVANCED.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b43ca102386b1ae8571320bde9aef87fed39a57f",
+      "size": 29117,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/b43ca102386b1ae8571320bde9aef87fed39a57f"
+    },
+    {
+      "path": "BUILD.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a183d5e7790132b354ec349f1531a44c91a82511",
+      "size": 1917,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/a183d5e7790132b354ec349f1531a44c91a82511"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b33f917320130e67adba7091bea46c6c8382485",
+      "size": 135483,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/7b33f917320130e67adba7091bea46c6c8382485"
+    },
+    {
+      "path": "Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17b78f21c04a2d57c42b5576d607853b4f01559b",
+      "size": 917,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/17b78f21c04a2d57c42b5576d607853b4f01559b"
+    },
+    {
+      "path": "Gemfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2be61707a9fd0431e92a3d201998c1c026bf028",
+      "size": 180,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/f2be61707a9fd0431e92a3d201998c1c026bf028"
+    },
+    {
+      "path": "Gemfile.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30bba132e2b08540a7efed7944029d9edc86cb17",
+      "size": 1094,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/30bba132e2b08540a7efed7944029d9edc86cb17"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f63057ce12075081be3c2b3e31bafff9d9359545",
+      "size": 1085,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/f63057ce12075081be3c2b3e31bafff9d9359545"
+    },
+    {
+      "path": "Makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acf65c8faee4f895b87bfdb8058a58afc6c6a310",
+      "size": 6349,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/acf65c8faee4f895b87bfdb8058a58afc6c6a310"
+    },
+    {
+      "path": "README-VIM.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "568d276fbc8ad6c2462b7daa72c94715a619c0b3",
+      "size": 17933,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/568d276fbc8ad6c2462b7daa72c94715a619c0b3"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4d183894d5a1d87e00beca7efcc850e6a88e48b",
+      "size": 41829,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/d4d183894d5a1d87e00beca7efcc850e6a88e48b"
+    },
+    {
+      "path": "RELEASE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d50cc861983b6611efc67aa0ffda823bfad5f52f",
+      "size": 1723,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/d50cc861983b6611efc67aa0ffda823bfad5f52f"
+    },
+    {
+      "path": "SECURITY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5e6043be80f87260f69b96827c307dcad54f804",
+      "size": 1274,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/c5e6043be80f87260f69b96827c307dcad54f804"
+    },
+    {
+      "path": "bin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1bdace085a9740f5e00bbe5bc433a9ab3e213f9e",
+      "url": "https://api.github.com/repos/junegunn/fzf/git/trees/1bdace085a9740f5e00bbe5bc433a9ab3e213f9e"
+    },
+    {
+      "path": "bin/fzf-preview.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5f996973b37dd71ac77b2860083c3de526ad5906",
+      "size": 2868,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/5f996973b37dd71ac77b2860083c3de526ad5906"
+    },
+    {
+      "path": "bin/fzf-tmux",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "30409d41bb31b135eac44ab176c39d450f7bdacf",
+      "size": 7316,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/30409d41bb31b135eac44ab176c39d450f7bdacf"
+    },
+    {
+      "path": "doc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "022d5a1e4a1d1bef70eff09e3e577cd698dbf4d5",
+      "url": "https://api.github.com/repos/junegunn/fzf/git/trees/022d5a1e4a1d1bef70eff09e3e577cd698dbf4d5"
+    },
+    {
+      "path": "doc/fzf.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eacc24cf093ae71da73b580ee0d9a236a8330db0",
+      "size": 21434,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/eacc24cf093ae71da73b580ee0d9a236a8330db0"
+    },
+    {
+      "path": "go.mod",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b6e308c070e35b29552d31d40677c648515c839",
+      "size": 529,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/0b6e308c070e35b29552d31d40677c648515c839"
+    },
+    {
+      "path": "go.sum",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0c8399f96cbcc271c3361e7861be184c77d1601",
+      "size": 5021,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/d0c8399f96cbcc271c3361e7861be184c77d1601"
+    },
+    {
+      "path": "install",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "271493ec1aa892416520ca1b01e218d8d01bd242",
+      "size": 13738,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/271493ec1aa892416520ca1b01e218d8d01bd242"
+    },
+    {
+      "path": "install.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18c3563ffb386084962414d5768094924b9258ce",
+      "size": 1882,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/18c3563ffb386084962414d5768094924b9258ce"
+    },
+    {
+      "path": "main.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bad304315f49e878010773e1df3403c0cf1624c",
+      "size": 2308,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/3bad304315f49e878010773e1df3403c0cf1624c"
+    },
+    {
+      "path": "man",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a35f616978f218f7281cf8c8dc4df6fec5e8ca19",
+      "url": "https://api.github.com/repos/junegunn/fzf/git/trees/a35f616978f218f7281cf8c8dc4df6fec5e8ca19"
+    },
+    {
+      "path": "man/man1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e9f013d75429b4b6c9756ce5f1d8be3e869c9532",
+      "url": "https://api.github.com/repos/junegunn/fzf/git/trees/e9f013d75429b4b6c9756ce5f1d8be3e869c9532"
+    },
+    {
+      "path": "man/man1/fzf-tmux.1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "029f9f4058cbf547eff9dfbdde7f33bb2ea9e8d1",
+      "size": 2022,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/029f9f4058cbf547eff9dfbdde7f33bb2ea9e8d1"
+    },
+    {
+      "path": "man/man1/fzf.1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5d330d214cc60761a53c07ae18352fca7acbf8d",
+      "size": 81638,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/c5d330d214cc60761a53c07ae18352fca7acbf8d"
+    },
+    {
+      "path": "plugin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2279f680bc7c51d85da4e798c885e4e51dc17ae0",
+      "url": "https://api.github.com/repos/junegunn/fzf/git/trees/2279f680bc7c51d85da4e798c885e4e51dc17ae0"
+    },
+    {
+      "path": "plugin/fzf.vim",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "677f3560e7625c3775ea1004cc2dafe592da1102",
+      "size": 34034,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/677f3560e7625c3775ea1004cc2dafe592da1102"
+    },
+    {
+      "path": "shell",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b378cba3dc9c41058c635e3235603cf0d4cedcde",
+      "url": "https://api.github.com/repos/junegunn/fzf/git/trees/b378cba3dc9c41058c635e3235603cf0d4cedcde"
+    },
+    {
+      "path": "shell/common.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97f9387839e34b0ba0f88b5b302aacd291a7d080",
+      "size": 1867,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/97f9387839e34b0ba0f88b5b302aacd291a7d080"
+    },
+    {
+      "path": "shell/completion-examples.nu",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cd5b805c9f89fdd67345bb3ddd4fc8eb1d98714",
+      "size": 2927,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/1cd5b805c9f89fdd67345bb3ddd4fc8eb1d98714"
+    },
+    {
+      "path": "shell/completion.bash",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dda3b0279743d232f29f843815f3847abcb420d3",
+      "size": 21682,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/dda3b0279743d232f29f843815f3847abcb420d3"
+    },
+    {
+      "path": "shell/completion.fish",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca7dec4a6c2947c8fee28636139f4778d2cea3a5",
+      "size": 6334,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/ca7dec4a6c2947c8fee28636139f4778d2cea3a5"
+    },
+    {
+      "path": "shell/completion.nu",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2acf7588fa84e49ed1caf1e25ae548d3eb872a78",
+      "size": 21056,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/2acf7588fa84e49ed1caf1e25ae548d3eb872a78"
+    },
+    {
+      "path": "shell/completion.zsh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3415812f943f8665c57cdaae49fb8ca25fec6c6c",
+      "size": 16338,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/3415812f943f8665c57cdaae49fb8ca25fec6c6c"
+    },
+    {
+      "path": "shell/key-bindings.bash",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24ba708d977a517d0ac2f44076902964829258a0",
+      "size": 7250,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/24ba708d977a517d0ac2f44076902964829258a0"
+    },
+    {
+      "path": "shell/key-bindings.fish",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a52e52360d9e8698b7eafb5053a971af2439b4fb",
+      "size": 8995,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/a52e52360d9e8698b7eafb5053a971af2439b4fb"
+    },
+    {
+      "path": "shell/key-bindings.nu",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4b70aa93ea5eea6f79bd1d58d2a6b126173a23d",
+      "size": 6680,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/c4b70aa93ea5eea6f79bd1d58d2a6b126173a23d"
+    },
+    {
+      "path": "shell/key-bindings.zsh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd2e4378914f7f051000b6b8a7a07f775cd36fe7",
+      "size": 7577,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/bd2e4378914f7f051000b6b8a7a07f775cd36fe7"
+    },
+    {
+      "path": "shell/update.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "61374d35a010ccaed0589aad1b33aaf5d4c79833",
+      "size": 1470,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/61374d35a010ccaed0589aad1b33aaf5d4c79833"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e172af7377ab07877e6812cd80e9df80b9f5317b",
+      "url": "https://api.github.com/repos/junegunn/fzf/git/trees/e172af7377ab07877e6812cd80e9df80b9f5317b"
+    },
+    {
+      "path": "src/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f63057ce12075081be3c2b3e31bafff9d9359545",
+      "size": 1085,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/f63057ce12075081be3c2b3e31bafff9d9359545"
+    },
+    {
+      "path": "src/actiontype_string.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b8a085dd023a8d880f769f0c8cd3c43b47ab242",
+      "size": 9086,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/2b8a085dd023a8d880f769f0c8cd3c43b47ab242"
+    },
+    {
+      "path": "src/algo",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2122750e8f5d130c1b7c2c97b5dede6399a34e9a",
+      "url": "https://api.github.com/repos/junegunn/fzf/git/trees/2122750e8f5d130c1b7c2c97b5dede6399a34e9a"
+    },
+    {
+      "path": "src/algo/SIMD.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "330fc865db30cdaee3a8ff822ed7f83cf80eb12a",
+      "size": 4454,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/330fc865db30cdaee3a8ff822ed7f83cf80eb12a"
+    },
+    {
+      "path": "src/algo/algo.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7748a070da58371279c15158e7b175e1ea8d31b1",
+      "size": 28250,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/7748a070da58371279c15158e7b175e1ea8d31b1"
+    },
+    {
+      "path": "src/algo/algo_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd214f5de55c009bdad78fa569dea7f7fefc721c",
+      "size": 9780,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/cd214f5de55c009bdad78fa569dea7f7fefc721c"
+    },
+    {
+      "path": "src/algo/indexbyte2_amd64.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb2ee0fff0854524a0bcc810ab64a4707d09bf4d",
+      "size": 563,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/cb2ee0fff0854524a0bcc810ab64a4707d09bf4d"
+    },
+    {
+      "path": "src/algo/indexbyte2_amd64.s",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec5dc6bd92741975397b965005d03077870c0f58",
+      "size": 6426,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/ec5dc6bd92741975397b965005d03077870c0f58"
+    },
+    {
+      "path": "src/algo/indexbyte2_arm64.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e60e9e0a209aa8ab7f86a168e1e1f7043ef38be",
+      "size": 531,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/9e60e9e0a209aa8ab7f86a168e1e1f7043ef38be"
+    },
+    {
+      "path": "src/algo/indexbyte2_arm64.s",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa3b734060e6df114d31ea422317781346cca3aa",
+      "size": 6328,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/aa3b734060e6df114d31ea422317781346cca3aa"
+    },
+    {
+      "path": "src/algo/indexbyte2_other.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1a01c2109ddf56413188d58dcc4a06309cd1d35",
+      "size": 656,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/d1a01c2109ddf56413188d58dcc4a06309cd1d35"
+    },
+    {
+      "path": "src/algo/indexbyte2_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c99e43e9503c043cdbd51741e3f9ae03030bd3d",
+      "size": 7045,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/2c99e43e9503c043cdbd51741e3f9ae03030bd3d"
+    },
+    {
+      "path": "src/algo/normalize.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f020a1600ef4837a2210d5baf6d1b585b3cb3868",
+      "size": 23990,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/f020a1600ef4837a2210d5baf6d1b585b3cb3868"
+    },
+    {
+      "path": "src/ansi.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34d2312890fc224a08bbd586f1600ac8a7d2d675",
+      "size": 13381,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/34d2312890fc224a08bbd586f1600ac8a7d2d675"
+    },
+    {
+      "path": "src/ansi_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ed7b86ea6a243e318604bcc5b2f58adf4ae4262",
+      "size": 15095,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/8ed7b86ea6a243e318604bcc5b2f58adf4ae4262"
+    },
+    {
+      "path": "src/cache.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72bd153967212264fa82b6c6ac1832b24e93bb18",
+      "size": 2103,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/72bd153967212264fa82b6c6ac1832b24e93bb18"
+    },
+    {
+      "path": "src/cache_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af4110c855de1d4ef321cce8b9daf5db8949595e",
+      "size": 847,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/af4110c855de1d4ef321cce8b9daf5db8949595e"
+    },
+    {
+      "path": "src/chunklist.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2495942b59bf6750b478c3ea34ac945219fdf67",
+      "size": 3737,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/a2495942b59bf6750b478c3ea34ac945219fdf67"
+    },
+    {
+      "path": "src/chunklist_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "274f11707c9375946530d31dc9d69dabeb9d827f",
+      "size": 2830,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/274f11707c9375946530d31dc9d69dabeb9d827f"
+    },
+    {
+      "path": "src/constants.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82991ff6fc1a367352c9f790a933aab6f00a50ad",
+      "size": 1765,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/82991ff6fc1a367352c9f790a933aab6f00a50ad"
+    },
+    {
+      "path": "src/core.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28834880cb6679b8153bb66e905d5464dcea8c27",
+      "size": 17183,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/28834880cb6679b8153bb66e905d5464dcea8c27"
+    },
+    {
+      "path": "src/functions.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59ca0bad7133a407f36e880eebb9fbb98eb7caf9",
+      "size": 675,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/59ca0bad7133a407f36e880eebb9fbb98eb7caf9"
+    },
+    {
+      "path": "src/history.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e66c721468e2598b0c15e29c4ef559fbac6fe25",
+      "size": 2071,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/1e66c721468e2598b0c15e29c4ef559fbac6fe25"
+    },
+    {
+      "path": "src/history_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f3eca593785a5e73b51184ae0beefa014b3dfef",
+      "size": 1501,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/2f3eca593785a5e73b51184ae0beefa014b3dfef"
+    },
+    {
+      "path": "src/item.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19f0498e9104b9831ee6e78c8c66ce45391af8db",
+      "size": 1455,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/19f0498e9104b9831ee6e78c8c66ce45391af8db"
+    },
+    {
+      "path": "src/item_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1efb5f1d723db5963b1c1199b149926002460fde",
+      "size": 484,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/1efb5f1d723db5963b1c1199b149926002460fde"
+    },
+    {
+      "path": "src/matcher.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9637037888e7ed7fce89d762d41453a069dca23e",
+      "size": 6458,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/9637037888e7ed7fce89d762d41453a069dca23e"
+    },
+    {
+      "path": "src/merger.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "292a61a80aaceb7a541914594cbb7b7cfcbb19d1",
+      "size": 4200,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/292a61a80aaceb7a541914594cbb7b7cfcbb19d1"
+    },
+    {
+      "path": "src/merger_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d55ea5829e6e64454b1261a7080dad935fa9a08f",
+      "size": 2494,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/d55ea5829e6e64454b1261a7080dad935fa9a08f"
+    },
+    {
+      "path": "src/options.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85a21144b16bd8dea3b7e427f2a8a0811c0edec6",
+      "size": 110503,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/85a21144b16bd8dea3b7e427f2a8a0811c0edec6"
+    },
+    {
+      "path": "src/options_no_pprof.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1093fc1072c144b755da1546f5e6c3e637b8dc89",
+      "size": 332,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/1093fc1072c144b755da1546f5e6c3e637b8dc89"
+    },
+    {
+      "path": "src/options_pprof.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "968853598171fb7892e3e23157307ca323ad1c8e",
+      "size": 1628,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/968853598171fb7892e3e23157307ca323ad1c8e"
+    },
+    {
+      "path": "src/options_pprof_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad47d1f4dd8c7027259391dc2a52a31478e61548",
+      "size": 2069,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/ad47d1f4dd8c7027259391dc2a52a31478e61548"
+    },
+    {
+      "path": "src/options_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a699954c691afb92de692db47e4f9ed2a2620aa8",
+      "size": 18337,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/a699954c691afb92de692db47e4f9ed2a2620aa8"
+    },
+    {
+      "path": "src/pattern.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8215c41d52a072029c7f46b2c0911d217b5f577a",
+      "size": 13554,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/8215c41d52a072029c7f46b2c0911d217b5f577a"
+    },
+    {
+      "path": "src/pattern_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1716414426f07c7fd1cc08a4fdb2a8fb8860683a",
+      "size": 11584,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/1716414426f07c7fd1cc08a4fdb2a8fb8860683a"
+    },
+    {
+      "path": "src/protector",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b59e3d4d7340300f8cb50cec2bc9bbaffab62f27",
+      "url": "https://api.github.com/repos/junegunn/fzf/git/trees/b59e3d4d7340300f8cb50cec2bc9bbaffab62f27"
+    },
+    {
+      "path": "src/protector/protector.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9758e1e72ff128ce1a0d0146ff20fe82983e62aa",
+      "size": 122,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/9758e1e72ff128ce1a0d0146ff20fe82983e62aa"
+    },
+    {
+      "path": "src/protector/protector_openbsd.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a2731bee46ffe293c69a6ef04f9c9aa2d1493e7",
+      "size": 238,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/9a2731bee46ffe293c69a6ef04f9c9aa2d1493e7"
+    },
+    {
+      "path": "src/proxy.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c02aedcfdbef8785b0bc049344db169a91423be4",
+      "size": 4892,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/c02aedcfdbef8785b0bc049344db169a91423be4"
+    },
+    {
+      "path": "src/proxy_unix.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b67005342e83765f3f4c2c9662859631a80aa713",
+      "size": 690,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/b67005342e83765f3f4c2c9662859631a80aa713"
+    },
+    {
+      "path": "src/proxy_windows.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2aa61ab77f3279735c2613f1523935f98a95027f",
+      "size": 1558,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/2aa61ab77f3279735c2613f1523935f98a95027f"
+    },
+    {
+      "path": "src/reader.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f05d311c702121fa94c6b1f491a8fb4b38fef25a",
+      "size": 9679,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/f05d311c702121fa94c6b1f491a8fb4b38fef25a"
+    },
+    {
+      "path": "src/reader_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cab4c017cdaf1a5947f5496afc2572ff9be9720b",
+      "size": 1409,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/cab4c017cdaf1a5947f5496afc2572ff9be9720b"
+    },
+    {
+      "path": "src/result.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77db93972f11ac214598f447ff055f4cfc5558ee",
+      "size": 10091,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/77db93972f11ac214598f447ff055f4cfc5558ee"
+    },
+    {
+      "path": "src/result_others.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08c89ef303de0a055394c23d1deeba3cf4ecd35d",
+      "size": 490,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/08c89ef303de0a055394c23d1deeba3cf4ecd35d"
+    },
+    {
+      "path": "src/result_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a040e118ca0f5ddb47e76d27039c62d94b41dd64",
+      "size": 9680,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/a040e118ca0f5ddb47e76d27039c62d94b41dd64"
+    },
+    {
+      "path": "src/result_x86.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fe7a3fb803049ca3b282259ce4fb63f53b7ae60",
+      "size": 458,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/7fe7a3fb803049ca3b282259ce4fb63f53b7ae60"
+    },
+    {
+      "path": "src/server.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2080d371c943cca7622cbde62e3e66834caf657",
+      "size": 6995,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/a2080d371c943cca7622cbde62e3e66834caf657"
+    },
+    {
+      "path": "src/terminal.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b3a60b2d7a623a9e6321cfa109679a15d861c87",
+      "size": 234947,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/1b3a60b2d7a623a9e6321cfa109679a15d861c87"
+    },
+    {
+      "path": "src/terminal_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b26ad52a7e83c8fcba41a758d3283094f20211c8",
+      "size": 31803,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/b26ad52a7e83c8fcba41a758d3283094f20211c8"
+    },
+    {
+      "path": "src/terminal_unix.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7afa2220dceea79c360b8415ade88e746c847c00",
+      "size": 353,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/7afa2220dceea79c360b8415ade88e746c847c00"
+    },
+    {
+      "path": "src/terminal_windows.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b200aaab3228c02a070a7bf15af346a59abbdd3",
+      "size": 158,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/9b200aaab3228c02a070a7bf15af346a59abbdd3"
+    },
+    {
+      "path": "src/tmux.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60d81dc40708f0126cded2a37df5101754d231cf",
+      "size": 1310,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/60d81dc40708f0126cded2a37df5101754d231cf"
+    },
+    {
+      "path": "src/tokenizer.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ece5cc50ca1181acbf58453abddd3103d0b8008",
+      "size": 7569,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/9ece5cc50ca1181acbf58453abddd3103d0b8008"
+    },
+    {
+      "path": "src/tokenizer_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5a457400c46031702f138b18821d63be14b6776",
+      "size": 3055,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/e5a457400c46031702f138b18821d63be14b6776"
+    },
+    {
+      "path": "src/tui",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ed8ceeef57e1ad57e068eb7052dec5ec94ef8fd8",
+      "url": "https://api.github.com/repos/junegunn/fzf/git/trees/ed8ceeef57e1ad57e068eb7052dec5ec94ef8fd8"
+    },
+    {
+      "path": "src/tui/dummy.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32afb04e20ad73cf089aaaab480ddc2c9aaefa10",
+      "size": 2091,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/32afb04e20ad73cf089aaaab480ddc2c9aaefa10"
+    },
+    {
+      "path": "src/tui/eventtype_string.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67bb43ae422b182ae8ab5cf7c6c4775659dfa9bf",
+      "size": 5940,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/67bb43ae422b182ae8ab5cf7c6c4775659dfa9bf"
+    },
+    {
+      "path": "src/tui/light.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb4445b15a0f04f162ab8675c4aced95668d55ab",
+      "size": 35430,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/eb4445b15a0f04f162ab8675c4aced95668d55ab"
+    },
+    {
+      "path": "src/tui/light_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72e1a5c595693aeca66a2b10f38b39b31d63a2ed",
+      "size": 12922,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/72e1a5c595693aeca66a2b10f38b39b31d63a2ed"
+    },
+    {
+      "path": "src/tui/light_unix.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f38aa64e8177b3a2ba67d0318d2fcf1c3340a1e2",
+      "size": 3885,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/f38aa64e8177b3a2ba67d0318d2fcf1c3340a1e2"
+    },
+    {
+      "path": "src/tui/light_windows.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1779795952a1325eb184e45293433faf37eb0b1",
+      "size": 5628,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/d1779795952a1325eb184e45293433faf37eb0b1"
+    },
+    {
+      "path": "src/tui/tcell.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dbb6dc51ee86436fb2547261eaf8c10b8f5c74e",
+      "size": 27155,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/1dbb6dc51ee86436fb2547261eaf8c10b8f5c74e"
+    },
+    {
+      "path": "src/tui/tcell_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10be6bf0e93e5d698d56479e9e9def65941843a7",
+      "size": 23828,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/10be6bf0e93e5d698d56479e9e9def65941843a7"
+    },
+    {
+      "path": "src/tui/ttyname_unix.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d112f8985d68663fef637c23efdd8747e5578dcb",
+      "size": 978,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/d112f8985d68663fef637c23efdd8747e5578dcb"
+    },
+    {
+      "path": "src/tui/ttyname_windows.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbe97739ddd381196ffc53481bf811566fe42138",
+      "size": 304,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/dbe97739ddd381196ffc53481bf811566fe42138"
+    },
+    {
+      "path": "src/tui/tui.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc6e094e70a67747abb0c93f3f3128b6877cf15f",
+      "size": 38190,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/bc6e094e70a67747abb0c93f3f3128b6877cf15f"
+    },
+    {
+      "path": "src/tui/tui_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eea2327e232158e26748e63fa6c3f41b3192ce5c",
+      "size": 1636,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/eea2327e232158e26748e63fa6c3f41b3192ce5c"
+    },
+    {
+      "path": "src/util",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "664bd36bc2cc081b72cf75c70703aa16eaf8c608",
+      "url": "https://api.github.com/repos/junegunn/fzf/git/trees/664bd36bc2cc081b72cf75c70703aa16eaf8c608"
+    },
+    {
+      "path": "src/util/atexit.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6212378b4295340110d02280d824a1780f90b440",
+      "size": 554,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/6212378b4295340110d02280d824a1780f90b440"
+    },
+    {
+      "path": "src/util/atexit_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20b0497e1639420dadcf42d64618c4a5746c8409",
+      "size": 446,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/20b0497e1639420dadcf42d64618c4a5746c8409"
+    },
+    {
+      "path": "src/util/atomicbool.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5c7e6904cbd08876c0c240e6ef9e6a012072926",
+      "size": 748,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/c5c7e6904cbd08876c0c240e6ef9e6a012072926"
+    },
+    {
+      "path": "src/util/atomicbool_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1feff79c2ce62ec2302cbdec7e855995946494a2",
+      "size": 301,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/1feff79c2ce62ec2302cbdec7e855995946494a2"
+    },
+    {
+      "path": "src/util/chars.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee46afcf7671c3fd1bda5ceb692252f8b92cb150",
+      "size": 7223,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/ee46afcf7671c3fd1bda5ceb692252f8b92cb150"
+    },
+    {
+      "path": "src/util/chars_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f27ae45d9efae06c0c48c152b3709b36be8b7705",
+      "size": 4210,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/f27ae45d9efae06c0c48c152b3709b36be8b7705"
+    },
+    {
+      "path": "src/util/concurrent_set.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2ffc61951609d46624c705b4d60baf77625fa5c",
+      "size": 851,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/c2ffc61951609d46624c705b4d60baf77625fa5c"
+    },
+    {
+      "path": "src/util/eventbox.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91b9274e1ae194524401dbc0ab7051391da0f116",
+      "size": 1960,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/91b9274e1ae194524401dbc0ab7051391da0f116"
+    },
+    {
+      "path": "src/util/eventbox_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17868865d5e16ecc402c7702d75af9704d802da1",
+      "size": 899,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/17868865d5e16ecc402c7702d75af9704d802da1"
+    },
+    {
+      "path": "src/util/slab.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c49d2d9a728985f6f0b612ccc30a1e185833cc2",
+      "size": 185,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/0c49d2d9a728985f6f0b612ccc30a1e185833cc2"
+    },
+    {
+      "path": "src/util/util.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb94fb3cb16b4e092146ba9b67b2b4b48b76565e",
+      "size": 3290,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/fb94fb3cb16b4e092146ba9b67b2b4b48b76565e"
+    },
+    {
+      "path": "src/util/util_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a609587e66ea6287261b6dc18658c48766a5019",
+      "size": 3088,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/5a609587e66ea6287261b6dc18658c48766a5019"
+    },
+    {
+      "path": "src/util/util_unix.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "736fa01614b41689ceb4db0fbeff9b8b5073a1ef",
+      "size": 2287,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/736fa01614b41689ceb4db0fbeff9b8b5073a1ef"
+    },
+    {
+      "path": "src/util/util_windows.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea9a0fa4f4531310e3faf0d22fb5604e1ac20e8c",
+      "size": 6417,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/ea9a0fa4f4531310e3faf0d22fb5604e1ac20e8c"
+    },
+    {
+      "path": "src/winpty.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adee3b0b74fcfb3f2fb82a64ccc16ee807175ba1",
+      "size": 206,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/adee3b0b74fcfb3f2fb82a64ccc16ee807175ba1"
+    },
+    {
+      "path": "src/winpty_windows.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aba02ce22103335c11862aa709c94630747b67c3",
+      "size": 1781,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/aba02ce22103335c11862aa709c94630747b67c3"
+    },
+    {
+      "path": "src/zellij.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dce9dd40bfab288fba2ad074147ea04e4fcbd61f",
+      "size": 1112,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/dce9dd40bfab288fba2ad074147ea04e4fcbd61f"
+    },
+    {
+      "path": "test",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d8298184387f8985cf2186c069bbfc3099bedd47",
+      "url": "https://api.github.com/repos/junegunn/fzf/git/trees/d8298184387f8985cf2186c069bbfc3099bedd47"
+    },
+    {
+      "path": "test/lib",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4e6749e9398bfdecce38caaf6dcd38d2087a3f0b",
+      "url": "https://api.github.com/repos/junegunn/fzf/git/trees/4e6749e9398bfdecce38caaf6dcd38d2087a3f0b"
+    },
+    {
+      "path": "test/lib/common.fish",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "781a07f8da1a928684f830a2a3d53ea32d6ed995",
+      "size": 580,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/781a07f8da1a928684f830a2a3d53ea32d6ed995"
+    },
+    {
+      "path": "test/lib/common.rb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e62a7b6eb94c93b19a4dd19f2bb77ad8c4ab61a",
+      "size": 10712,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/4e62a7b6eb94c93b19a4dd19f2bb77ad8c4ab61a"
+    },
+    {
+      "path": "test/lib/common.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44d03622aad31679d4da47ce61ffa6d465e71fc0",
+      "size": 1281,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/44d03622aad31679d4da47ce61ffa6d465e71fc0"
+    },
+    {
+      "path": "test/runner.rb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecc40e984f8037fbcceb90e91d45312921ad108d",
+      "size": 116,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/ecc40e984f8037fbcceb90e91d45312921ad108d"
+    },
+    {
+      "path": "test/test_core.rb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91eac672e4ed026ae57650b523bcd19a17956117",
+      "size": 103834,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/91eac672e4ed026ae57650b523bcd19a17956117"
+    },
+    {
+      "path": "test/test_exec.rb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "339a2bded756d1160b55c9018a0f9bf5f40584be",
+      "size": 15463,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/339a2bded756d1160b55c9018a0f9bf5f40584be"
+    },
+    {
+      "path": "test/test_filter.rb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35b00854a123fc3e8a18d645fcb05cabbe29c11b",
+      "size": 10529,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/35b00854a123fc3e8a18d645fcb05cabbe29c11b"
+    },
+    {
+      "path": "test/test_layout.rb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e4f3a7a60a41cbf7b517779a61fe5057707df27",
+      "size": 71557,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/3e4f3a7a60a41cbf7b517779a61fe5057707df27"
+    },
+    {
+      "path": "test/test_preview.rb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b905eb64ee480c2822c1dd14e4d88263db65904",
+      "size": 27737,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/6b905eb64ee480c2822c1dd14e4d88263db65904"
+    },
+    {
+      "path": "test/test_raw.rb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f063a90a3db567979431bdaac93b004e48117e38",
+      "size": 2770,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/f063a90a3db567979431bdaac93b004e48117e38"
+    },
+    {
+      "path": "test/test_server.rb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbfbab045e70498f142983c579e1f4b75a7d212a",
+      "size": 3614,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/cbfbab045e70498f142983c579e1f4b75a7d212a"
+    },
+    {
+      "path": "test/test_shell_integration.rb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "008106c5b75084d0a0dd8b1bf6e8f86beaecca21",
+      "size": 39899,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/008106c5b75084d0a0dd8b1bf6e8f86beaecca21"
+    },
+    {
+      "path": "test/vim",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a166e26629cf4bd28547219d7815509398adeb8e",
+      "url": "https://api.github.com/repos/junegunn/fzf/git/trees/a166e26629cf4bd28547219d7815509398adeb8e"
+    },
+    {
+      "path": "test/vim/fzf.vader",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cb57887abcd3854ea32c27030102485396cf3f5",
+      "size": 5829,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/4cb57887abcd3854ea32c27030102485396cf3f5"
+    },
+    {
+      "path": "typos.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7808ccfb653db02192aaa40a266bb18f7a85deb",
+      "size": 247,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/c7808ccfb653db02192aaa40a266bb18f7a85deb"
+    },
+    {
+      "path": "uninstall",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8df8ee3937a24b5643e2ef3caecfb6be2888d1ed",
+      "size": 2996,
+      "url": "https://api.github.com/repos/junegunn/fzf/git/blobs/8df8ee3937a24b5643e2ef3caecfb6be2888d1ed"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,60 @@
+{
+  "harvested_at": "2026-06-07T20:48:20.8738300+03:00",
+  "rank": 138,
+  "repository": "gin-gonic/gin",
+  "url": "https://github.com/gin-gonic/gin",
+  "language": "Go",
+  "stars": 88632,
+  "default_branch": "master",
+  "contract_strength": "contract_files_found",
+  "candidate_qaas_surfaces": [
+    "api-contract-validation",
+    "runner-yaml-from-public-contract",
+    "ci-documented-command-discovery",
+    "go-cli-or-service-contract"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\138-gin-gonic-gin\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\138-gin-gonic-gin\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [
+      "binding/protobuf.go",
+      "render/protobuf.go",
+      "testdata/protoexample/test.pb.go",
+      "testdata/protoexample/test.proto"
+    ],
+    "ci": [
+      ".github/workflows/codeql.yml",
+      ".github/workflows/gin.yml",
+      ".github/workflows/goreleaser.yml",
+      ".github/workflows/trivy-scan.yml"
+    ],
+    "containers": [],
+    "dotnet": [],
+    "node": [],
+    "python": [],
+    "go": [
+      "go.mod",
+      "go.sum"
+    ],
+    "java": [],
+    "rust": [],
+    "docs": [
+      "CHANGELOG.md",
+      "CONTRIBUTING.md",
+      "README.md",
+      "codec/json/api.go",
+      "docs/doc.md",
+      "examples/README.md",
+      "ginS/README.md",
+      "githubapi_test.go"
+    ],
+    "tests": []
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\138-gin-gonic-gin\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\138-gin-gonic-gin\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

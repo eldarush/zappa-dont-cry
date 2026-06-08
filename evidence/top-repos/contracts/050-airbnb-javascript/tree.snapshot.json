@@ -1,0 +1,602 @@
+{
+  "sha": "8ed19247bef145e3cc41b24a02dd1fe6d9b5e681",
+  "url": "https://api.github.com/repos/airbnb/javascript/git/trees/8ed19247bef145e3cc41b24a02dd1fe6d9b5e681",
+  "tree": [
+    {
+      "path": ".editorconfig",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db6f34c77cfe6647412538be87f14093fa3d5fdc",
+      "size": 268,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/db6f34c77cfe6647412538be87f14093fa3d5fdc"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3f66e2b488208b645b43e092a05b4f0d4df7187e",
+      "url": "https://api.github.com/repos/airbnb/javascript/git/trees/3f66e2b488208b645b43e092a05b4f0d4df7187e"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "141022c6b5046ce4adb037273334c683df9fc117",
+      "url": "https://api.github.com/repos/airbnb/javascript/git/trees/141022c6b5046ce4adb037273334c683df9fc117"
+    },
+    {
+      "path": ".github/workflows/node-pretest.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cea4567406f0bd183205299720d8cc455f2e2218",
+      "size": 593,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/cea4567406f0bd183205299720d8cc455f2e2218"
+    },
+    {
+      "path": ".github/workflows/node.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af1b557d11a1eb964e2dce055cafd67f6da1a554",
+      "size": 4563,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/af1b557d11a1eb964e2dce055cafd67f6da1a554"
+    },
+    {
+      "path": ".github/workflows/rebase.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fff3ba2d33ebdfdf5ae0ffa6ff6411dadc5b28e2",
+      "size": 439,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/fff3ba2d33ebdfdf5ae0ffa6ff6411dadc5b28e2"
+    },
+    {
+      "path": ".github/workflows/require-allow-edits.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb3631b9e33b01b7df8e7e45af6a3e16ad3034e8",
+      "size": 330,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/eb3631b9e33b01b7df8e7e45af6a3e16ad3034e8"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac10dfe52800d1a858923e927c39d69abfc7d45f",
+      "size": 89,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/ac10dfe52800d1a858923e927c39d69abfc7d45f"
+    },
+    {
+      "path": ".npmrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43c97e719a5a824700932f72e6e7e6748ce45d01",
+      "size": 19,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/43c97e719a5a824700932f72e6e7e6748ce45d01"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f405009e869d0f57b0a159095039f5bdf5063a43",
+      "size": 628,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/f405009e869d0f57b0a159095039f5bdf5063a43"
+    },
+    {
+      "path": "LICENSE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69d80c025220d0b6480d4a5984ca6f4f916b637d",
+      "size": 1063,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/69d80c025220d0b6480d4a5984ca6f4f916b637d"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd91faf2ea5a751f9f9c3b72e5e44477a2846465",
+      "size": 129525,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/bd91faf2ea5a751f9f9c3b72e5e44477a2846465"
+    },
+    {
+      "path": "css-in-javascript",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2b857e0d13422a09f14a38d3f51f6aa7c0f28a98",
+      "url": "https://api.github.com/repos/airbnb/javascript/git/trees/2b857e0d13422a09f14a38d3f51f6aa7c0f28a98"
+    },
+    {
+      "path": "css-in-javascript/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e6ab68a1b32e4e579e7f91a42a22c42b1cd19a4",
+      "size": 9710,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/2e6ab68a1b32e4e579e7f91a42a22c42b1cd19a4"
+    },
+    {
+      "path": "linters",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "149ba1eb2492476b97d31bcf558aa5a34c984609",
+      "url": "https://api.github.com/repos/airbnb/javascript/git/trees/149ba1eb2492476b97d31bcf558aa5a34c984609"
+    },
+    {
+      "path": "linters/.eslintrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e203a54733db55062449d10c6aa7d923a946121",
+      "size": 146,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/9e203a54733db55062449d10c6aa7d923a946121"
+    },
+    {
+      "path": "linters/.jshintrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7a08a349e0d58fc4a8b94e87157b82708ff694d",
+      "size": 1219,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/a7a08a349e0d58fc4a8b94e87157b82708ff694d"
+    },
+    {
+      "path": "linters/.markdownlint.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "951337dbc5317f4181a3a399209546cef2ae68d9",
+      "size": 5045,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/951337dbc5317f4181a3a399209546cef2ae68d9"
+    },
+    {
+      "path": "linters/SublimeLinter",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "32ea6b61778976e1b3591b5e36c63534cc877f25",
+      "url": "https://api.github.com/repos/airbnb/javascript/git/trees/32ea6b61778976e1b3591b5e36c63534cc877f25"
+    },
+    {
+      "path": "linters/SublimeLinter/SublimeLinter.sublime-settings",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ce44c98211049f9bd2a82184b524bad7dcd670d",
+      "size": 1947,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/7ce44c98211049f9bd2a82184b524bad7dcd670d"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afe129da026b5888eb6f90023808d033e1d58007",
+      "size": 1700,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/afe129da026b5888eb6f90023808d033e1d58007"
+    },
+    {
+      "path": "packages",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d4b989e49d2fe53489b667dcb9908592b4604b94",
+      "url": "https://api.github.com/repos/airbnb/javascript/git/trees/d4b989e49d2fe53489b667dcb9908592b4604b94"
+    },
+    {
+      "path": "packages/eslint-config-airbnb-base",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c8e56d1f6a05e9377db829fd3fe72bf76d01f29f",
+      "url": "https://api.github.com/repos/airbnb/javascript/git/trees/c8e56d1f6a05e9377db829fd3fe72bf76d01f29f"
+    },
+    {
+      "path": "packages/eslint-config-airbnb-base/.babelrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0aceaae1c40e15c849e38d65a370b8a0086b4c7",
+      "size": 28,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/e0aceaae1c40e15c849e38d65a370b8a0086b4c7"
+    },
+    {
+      "path": "packages/eslint-config-airbnb-base/.editorconfig",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "1b3ce07defc7d764cfc000a47da1edcaf2636c94",
+      "size": 19,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/1b3ce07defc7d764cfc000a47da1edcaf2636c94"
+    },
+    {
+      "path": "packages/eslint-config-airbnb-base/.eslintrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7606a50a46b30ef30a5367135811e38d938a4283",
+      "size": 245,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/7606a50a46b30ef30a5367135811e38d938a4283"
+    },
+    {
+      "path": "packages/eslint-config-airbnb-base/.npmrc",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "cba44bb384cf56f20d6083a86eab1061f70e214d",
+      "size": 12,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/cba44bb384cf56f20d6083a86eab1061f70e214d"
+    },
+    {
+      "path": "packages/eslint-config-airbnb-base/CHANGELOG.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51522a3f4eaea1c2aa21affe1594ce792a291daf",
+      "size": 16927,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/51522a3f4eaea1c2aa21affe1594ce792a291daf"
+    },
+    {
+      "path": "packages/eslint-config-airbnb-base/LICENSE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69d80c025220d0b6480d4a5984ca6f4f916b637d",
+      "size": 1063,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/69d80c025220d0b6480d4a5984ca6f4f916b637d"
+    },
+    {
+      "path": "packages/eslint-config-airbnb-base/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79052b256a1b798a60b80e15dd29ff9ea199b580",
+      "size": 4662,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/79052b256a1b798a60b80e15dd29ff9ea199b580"
+    },
+    {
+      "path": "packages/eslint-config-airbnb-base/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "825456b8a48dd1220af79c72aa60f44ba7af3a59",
+      "size": 329,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/825456b8a48dd1220af79c72aa60f44ba7af3a59"
+    },
+    {
+      "path": "packages/eslint-config-airbnb-base/legacy.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5c9089c7525adf0994706628acd068ea215adf3",
+      "size": 824,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/e5c9089c7525adf0994706628acd068ea215adf3"
+    },
+    {
+      "path": "packages/eslint-config-airbnb-base/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f039d4d7cefad18ec9e2ccb52de59bc1f32b757",
+      "size": 2645,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/8f039d4d7cefad18ec9e2ccb52de59bc1f32b757"
+    },
+    {
+      "path": "packages/eslint-config-airbnb-base/rules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "38204aa96e6cb146ef3e9aa5a47051a415c132a3",
+      "url": "https://api.github.com/repos/airbnb/javascript/git/trees/38204aa96e6cb146ef3e9aa5a47051a415c132a3"
+    },
+    {
+      "path": "packages/eslint-config-airbnb-base/rules/best-practices.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09c247451afea2864f95c1836a7b1b8cb9ffe01f",
+      "size": 14608,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/09c247451afea2864f95c1836a7b1b8cb9ffe01f"
+    },
+    {
+      "path": "packages/eslint-config-airbnb-base/rules/errors.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3dda4e5101bf4b59ebd47add5f8080a3079710b",
+      "size": 6983,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/a3dda4e5101bf4b59ebd47add5f8080a3079710b"
+    },
+    {
+      "path": "packages/eslint-config-airbnb-base/rules/es6.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e59cbebf47b9e32410c8e21b62b397ec5f4e387",
+      "size": 6172,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/5e59cbebf47b9e32410c8e21b62b397ec5f4e387"
+    },
+    {
+      "path": "packages/eslint-config-airbnb-base/rules/imports.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9453924dc9aa3fdfd3fa50a9093771bab85bf05",
+      "size": 13022,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/b9453924dc9aa3fdfd3fa50a9093771bab85bf05"
+    },
+    {
+      "path": "packages/eslint-config-airbnb-base/rules/node.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b178d7f909e8e052c673346d55a6dc4dcf97794d",
+      "size": 1152,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/b178d7f909e8e052c673346d55a6dc4dcf97794d"
+    },
+    {
+      "path": "packages/eslint-config-airbnb-base/rules/strict.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67cfd5e8a35cc6bcb58fd69e6846f94f38eef082",
+      "size": 112,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/67cfd5e8a35cc6bcb58fd69e6846f94f38eef082"
+    },
+    {
+      "path": "packages/eslint-config-airbnb-base/rules/style.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad38834d88049def98184cbc15c9168247e1ad20",
+      "size": 18854,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/ad38834d88049def98184cbc15c9168247e1ad20"
+    },
+    {
+      "path": "packages/eslint-config-airbnb-base/rules/variables.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d61989e6ab3ab6b232cb91979dcca536bdb3265",
+      "size": 2021,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/7d61989e6ab3ab6b232cb91979dcca536bdb3265"
+    },
+    {
+      "path": "packages/eslint-config-airbnb-base/test",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "df492ec4c7e5b0e20f916454bbf8f3d402872453",
+      "url": "https://api.github.com/repos/airbnb/javascript/git/trees/df492ec4c7e5b0e20f916454bbf8f3d402872453"
+    },
+    {
+      "path": "packages/eslint-config-airbnb-base/test/.eslintrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5808be61865839a503479f44997f87eed4793bfa",
+      "size": 233,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/5808be61865839a503479f44997f87eed4793bfa"
+    },
+    {
+      "path": "packages/eslint-config-airbnb-base/test/requires.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8176480fe1a1f0da34cf2d25a7ac274b1bc0fe34",
+      "size": 358,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/8176480fe1a1f0da34cf2d25a7ac274b1bc0fe34"
+    },
+    {
+      "path": "packages/eslint-config-airbnb-base/test/test-base.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4380bf5567f46e5d25d46465331624e9e34a26bd",
+      "size": 1083,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/4380bf5567f46e5d25d46465331624e9e34a26bd"
+    },
+    {
+      "path": "packages/eslint-config-airbnb-base/whitespace-async.js",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "06f4f8907524aa788436b5daf19bdb7f5a04e3ff",
+      "size": 1345,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/06f4f8907524aa788436b5daf19bdb7f5a04e3ff"
+    },
+    {
+      "path": "packages/eslint-config-airbnb-base/whitespace.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01e519867165d9bc4eb0f94b202ee32cc1eedaf4",
+      "size": 1775,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/01e519867165d9bc4eb0f94b202ee32cc1eedaf4"
+    },
+    {
+      "path": "packages/eslint-config-airbnb-base/whitespaceRules.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b0d3bfec77ac5495471ee4e3ac0fcaf5f9ad9e4",
+      "size": 1180,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/6b0d3bfec77ac5495471ee4e3ac0fcaf5f9ad9e4"
+    },
+    {
+      "path": "packages/eslint-config-airbnb",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "37913aba6559ad3bbd2017b4e2449fe6e39cb161",
+      "url": "https://api.github.com/repos/airbnb/javascript/git/trees/37913aba6559ad3bbd2017b4e2449fe6e39cb161"
+    },
+    {
+      "path": "packages/eslint-config-airbnb/.babelrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0aceaae1c40e15c849e38d65a370b8a0086b4c7",
+      "size": 28,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/e0aceaae1c40e15c849e38d65a370b8a0086b4c7"
+    },
+    {
+      "path": "packages/eslint-config-airbnb/.editorconfig",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "1b3ce07defc7d764cfc000a47da1edcaf2636c94",
+      "size": 19,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/1b3ce07defc7d764cfc000a47da1edcaf2636c94"
+    },
+    {
+      "path": "packages/eslint-config-airbnb/.eslintrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab2c306fd9dac19cfd7900959e8ec37ef7f14e43",
+      "size": 226,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/ab2c306fd9dac19cfd7900959e8ec37ef7f14e43"
+    },
+    {
+      "path": "packages/eslint-config-airbnb/.npmrc",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "cba44bb384cf56f20d6083a86eab1061f70e214d",
+      "size": 12,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/cba44bb384cf56f20d6083a86eab1061f70e214d"
+    },
+    {
+      "path": "packages/eslint-config-airbnb/CHANGELOG.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68ba86b9251175824ab6241ef36a4038ad3cd25c",
+      "size": 25623,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/68ba86b9251175824ab6241ef36a4038ad3cd25c"
+    },
+    {
+      "path": "packages/eslint-config-airbnb/LICENSE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69d80c025220d0b6480d4a5984ca6f4f916b637d",
+      "size": 1063,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/69d80c025220d0b6480d4a5984ca6f4f916b637d"
+    },
+    {
+      "path": "packages/eslint-config-airbnb/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e18088143add65be0c365049edb6ee7ee3a5d614",
+      "size": 4039,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/e18088143add65be0c365049edb6ee7ee3a5d614"
+    },
+    {
+      "path": "packages/eslint-config-airbnb/base.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb1ea3911806644fb4a5240be3892b9dbfeeaee0",
+      "size": 98,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/bb1ea3911806644fb4a5240be3892b9dbfeeaee0"
+    },
+    {
+      "path": "packages/eslint-config-airbnb/hooks.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7f70284e35c9a14dcf72fb5faa1ca6409e3622b",
+      "size": 103,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/a7f70284e35c9a14dcf72fb5faa1ca6409e3622b"
+    },
+    {
+      "path": "packages/eslint-config-airbnb/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6432e10ddaba4284c1eed67578d44268d7034f73",
+      "size": 153,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/6432e10ddaba4284c1eed67578d44268d7034f73"
+    },
+    {
+      "path": "packages/eslint-config-airbnb/legacy.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e88f71224a58ba33319bcd15ea5947d7699ecb3a",
+      "size": 105,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/e88f71224a58ba33319bcd15ea5947d7699ecb3a"
+    },
+    {
+      "path": "packages/eslint-config-airbnb/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c36359ea7c5b207b4b38bb463c59c38e41f4d6ed",
+      "size": 3044,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/c36359ea7c5b207b4b38bb463c59c38e41f4d6ed"
+    },
+    {
+      "path": "packages/eslint-config-airbnb/rules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "76e321e1cc5696167aef64c7cd3294f8359ff6c2",
+      "url": "https://api.github.com/repos/airbnb/javascript/git/trees/76e321e1cc5696167aef64c7cd3294f8359ff6c2"
+    },
+    {
+      "path": "packages/eslint-config-airbnb/rules/react-a11y.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58065120a46c35321af0048a5661f7e3565eebb0",
+      "size": 11463,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/58065120a46c35321af0048a5661f7e3565eebb0"
+    },
+    {
+      "path": "packages/eslint-config-airbnb/rules/react-hooks.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be17c9a571a54f8859495ae4d4cc1d527a103be7",
+      "size": 629,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/be17c9a571a54f8859495ae4d4cc1d527a103be7"
+    },
+    {
+      "path": "packages/eslint-config-airbnb/rules/react.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4d29e0b3919ec28b646e020302d890c8f9c25b4",
+      "size": 28295,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/c4d29e0b3919ec28b646e020302d890c8f9c25b4"
+    },
+    {
+      "path": "packages/eslint-config-airbnb/test",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5794498fdb9cfb9eb649c7364cabed67750a8e87",
+      "url": "https://api.github.com/repos/airbnb/javascript/git/trees/5794498fdb9cfb9eb649c7364cabed67750a8e87"
+    },
+    {
+      "path": "packages/eslint-config-airbnb/test/.eslintrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c23197fabfb4b927b2e784456664ee3072043be",
+      "size": 233,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/9c23197fabfb4b927b2e784456664ee3072043be"
+    },
+    {
+      "path": "packages/eslint-config-airbnb/test/requires.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72f4ab8078faa9501961d3ea6995e9ecfa083a16",
+      "size": 494,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/72f4ab8078faa9501961d3ea6995e9ecfa083a16"
+    },
+    {
+      "path": "packages/eslint-config-airbnb/test/test-base.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f3f054d293f97dcd8061d76fdc136db1000780f",
+      "size": 1071,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/8f3f054d293f97dcd8061d76fdc136db1000780f"
+    },
+    {
+      "path": "packages/eslint-config-airbnb/test/test-react-order.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ab4f937f71af20e5b88184a303efe7f27267c45",
+      "size": 3904,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/0ab4f937f71af20e5b88184a303efe7f27267c45"
+    },
+    {
+      "path": "packages/eslint-config-airbnb/whitespace-async.js",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "06f4f8907524aa788436b5daf19bdb7f5a04e3ff",
+      "size": 1345,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/06f4f8907524aa788436b5daf19bdb7f5a04e3ff"
+    },
+    {
+      "path": "packages/eslint-config-airbnb/whitespace.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01e519867165d9bc4eb0f94b202ee32cc1eedaf4",
+      "size": 1775,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/01e519867165d9bc4eb0f94b202ee32cc1eedaf4"
+    },
+    {
+      "path": "packages/eslint-config-airbnb/whitespaceRules.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c4cf691c393b803882afe6d2e27e61288da7889",
+      "size": 1636,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/7c4cf691c393b803882afe6d2e27e61288da7889"
+    },
+    {
+      "path": "react",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "41819ebc7a6b59b16f9d66728ffd55df7cef20b1",
+      "url": "https://api.github.com/repos/airbnb/javascript/git/trees/41819ebc7a6b59b16f9d66728ffd55df7cef20b1"
+    },
+    {
+      "path": "react/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f61602d161a5753a7d039ee90c465101c1df5222",
+      "size": 24223,
+      "url": "https://api.github.com/repos/airbnb/javascript/git/blobs/f61602d161a5753a7d039ee90c465101c1df5222"
+    }
+  ],
+  "truncated": false
+}

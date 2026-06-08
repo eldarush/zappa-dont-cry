@@ -1,0 +1,4027 @@
+{
+  "sha": "d6bde0fa54373309bd05823a49bda8da019d2c77",
+  "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/d6bde0fa54373309bd05823a49bda8da019d2c77",
+  "tree": [
+    {
+      "path": ".dockerignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d99620b9d54cb9c2cd2e735d6b5650e18b6e279",
+      "size": 46,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/9d99620b9d54cb9c2cd2e735d6b5650e18b6e279"
+    },
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8449c702e0a9043c83827f23d34c3a0674a15773",
+      "size": 157,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/8449c702e0a9043c83827f23d34c3a0674a15773"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "369b6b7a1640b37cb3bc19527200fa8530a9399b",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/369b6b7a1640b37cb3bc19527200fa8530a9399b"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "67891ca9a4e828aebb07857fb1ab9cb5f76dacac",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/67891ca9a4e828aebb07857fb1ab9cb5f76dacac"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "639d09d490f0720bdd97bb1f203adc1b420d0613",
+      "size": 1982,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/639d09d490f0720bdd97bb1f203adc1b420d0613"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dd31301fa15626bdf84d35be54273fe41ba1acf",
+      "size": 513,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/6dd31301fa15626bdf84d35be54273fe41ba1acf"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9e87c7d97f6d8f0402184a30b899d99f14d4fd8b",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/9e87c7d97f6d8f0402184a30b899d99f14d4fd8b"
+    },
+    {
+      "path": ".github/workflows/build-with-all-capacity.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b2ee6aec6ce6ec2b48b1d51b9e2f68b98daeb51",
+      "size": 1175,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/7b2ee6aec6ce6ec2b48b1d51b9e2f68b98daeb51"
+    },
+    {
+      "path": ".github/workflows/build-with-audio-assistant.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "889e7a6964f4f49e32dc2c5fa4281ace2dd0cf56",
+      "size": 1187,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/889e7a6964f4f49e32dc2c5fa4281ace2dd0cf56"
+    },
+    {
+      "path": ".github/workflows/build-with-latex-arm.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de5bc725cf07ce6637a0432dc486c90ab36d4d81",
+      "size": 1353,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/de5bc725cf07ce6637a0432dc486c90ab36d4d81"
+    },
+    {
+      "path": ".github/workflows/build-with-latex.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "173d482a548f1e6013771546a1b563321e87d5c4",
+      "size": 1163,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/173d482a548f1e6013771546a1b563321e87d5c4"
+    },
+    {
+      "path": ".github/workflows/build-without-local-llms.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bebd06a399c7b2a34c92cafeb799832dbc415e3",
+      "size": 1162,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/7bebd06a399c7b2a34c92cafeb799832dbc415e3"
+    },
+    {
+      "path": ".github/workflows/conda-pack-windows.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a77472728c4e4544dc033070614e9cc3be7cae60",
+      "size": 1356,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/a77472728c4e4544dc033070614e9cc3be7cae60"
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4ca6f018515ed9588b28fd99146e79e45e39ce8",
+      "size": 706,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/b4ca6f018515ed9588b28fd99146e79e45e39ce8"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a06b9f2ed4a79aa522f48a38053c550cb22d7916",
+      "size": 2421,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/a06b9f2ed4a79aa522f48a38053c550cb22d7916"
+    },
+    {
+      "path": ".pre-commit-config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d877ace98d3c5d302a715b26cb76962b00fa84e",
+      "size": 1159,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/0d877ace98d3c5d302a715b26cb76962b00fa84e"
+    },
+    {
+      "path": "Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45f2b0b1956a2ae96f6d65844fad0e3ab6bb235c",
+      "size": 1847,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/45f2b0b1956a2ae96f6d65844fad0e3ab6bb235c"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3877ae0a7ff6f94ac222fd704e112723db776114",
+      "size": 35823,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/3877ae0a7ff6f94ac222fd704e112723db776114"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f4156ccf5b86270d9c3a2d87f5b2b76dcc3bee3",
+      "size": 27973,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/7f4156ccf5b86270d9c3a2d87f5b2b76dcc3bee3"
+    },
+    {
+      "path": "check_proxy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4435f151cff6fdd5fc0baa12e3a8f8ee122ac607",
+      "size": 11999,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/4435f151cff6fdd5fc0baa12e3a8f8ee122ac607"
+    },
+    {
+      "path": "config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9858596ccf4582bc4bd711d502d765c0b8f15e2e",
+      "size": 19094,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/9858596ccf4582bc4bd711d502d765c0b8f15e2e"
+    },
+    {
+      "path": "core_functional.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6765c2faf371ee2d67af8b2a6f0573e717c6569f",
+      "size": 9695,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/6765c2faf371ee2d67af8b2a6f0573e717c6569f"
+    },
+    {
+      "path": "crazy_functional.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc57851fb5999ca5ab1aa59c9a2d1a39dfa59ec2",
+      "size": 34286,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/bc57851fb5999ca5ab1aa59c9a2d1a39dfa59ec2"
+    },
+    {
+      "path": "crazy_functions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7706c1f8045b6d0342514552e414bb2342ae38a8",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/7706c1f8045b6d0342514552e414bb2342ae38a8"
+    },
+    {
+      "path": "crazy_functions/Academic_Conversation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fea68b7a98c3a888d867fb4e8570e4b81ac7c276",
+      "size": 12566,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/fea68b7a98c3a888d867fb4e8570e4b81ac7c276"
+    },
+    {
+      "path": "crazy_functions/Arxiv_Downloader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4107cfcb55269a2374071c1124d0f1b8ffa5921",
+      "size": 6533,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/e4107cfcb55269a2374071c1124d0f1b8ffa5921"
+    },
+    {
+      "path": "crazy_functions/Audio_Assistant.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff3d278e609d88bf45f03726d0bbc0ede7dcb45e",
+      "size": 9153,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/ff3d278e609d88bf45f03726d0bbc0ede7dcb45e"
+    },
+    {
+      "path": "crazy_functions/Audio_Summary.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "556fa573fb1017945aa37933904c9f761e0e2c39",
+      "size": 8144,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/556fa573fb1017945aa37933904c9f761e0e2c39"
+    },
+    {
+      "path": "crazy_functions/Commandline_Assistant.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "344c9f5388d22404ed46c8fa8a4565da59c5f4be",
+      "size": 1434,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/344c9f5388d22404ed46c8fa8a4565da59c5f4be"
+    },
+    {
+      "path": "crazy_functions/Conversation_To_File.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fb1f0ea1bb54c6e5aabc8a3d856b50c07a01add",
+      "size": 17478,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/5fb1f0ea1bb54c6e5aabc8a3d856b50c07a01add"
+    },
+    {
+      "path": "crazy_functions/Document_Conversation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dff8f6e4f7b20f4852f0ae2dffd817a14ccbdbd",
+      "size": 23250,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/8dff8f6e4f7b20f4852f0ae2dffd817a14ccbdbd"
+    },
+    {
+      "path": "crazy_functions/Document_Conversation_Wrap.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5958de5e3c6b00ecdcf0ed02dfd20f55fd2ff58d",
+      "size": 1873,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/5958de5e3c6b00ecdcf0ed02dfd20f55fd2ff58d"
+    },
+    {
+      "path": "crazy_functions/Document_Optimize.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7728afe59bfbac2f2e30e4d819d79e82893e9e6",
+      "size": 31608,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/c7728afe59bfbac2f2e30e4d819d79e82893e9e6"
+    },
+    {
+      "path": "crazy_functions/Dynamic_Function_Generate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1a6908ebb9e9d91bd8736be85b8cf1a7895af35",
+      "size": 11931,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/c1a6908ebb9e9d91bd8736be85b8cf1a7895af35"
+    },
+    {
+      "path": "crazy_functions/Google_Scholar_Assistant_Legacy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4640926b35cca920196f8b4933e0d3531a58df1f",
+      "size": 8295,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/4640926b35cca920196f8b4933e0d3531a58df1f"
+    },
+    {
+      "path": "crazy_functions/Helpers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab8a0f84de8c80f87ec09a74afd7ad565eeee7a3",
+      "size": 2117,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/ab8a0f84de8c80f87ec09a74afd7ad565eeee7a3"
+    },
+    {
+      "path": "crazy_functions/Image_Generate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e11edf65973445cbf9cba5728a006f9b2a8b87e6",
+      "size": 20212,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/e11edf65973445cbf9cba5728a006f9b2a8b87e6"
+    },
+    {
+      "path": "crazy_functions/Image_Generate_Wrap.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32edf93264a256af6c515cd997475be408b55b9e",
+      "size": 3634,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/32edf93264a256af6c515cd997475be408b55b9e"
+    },
+    {
+      "path": "crazy_functions/Interactive_Func_Template.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "600214b1763ace92cd38c97df334aef6abed8ccd",
+      "size": 3501,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/600214b1763ace92cd38c97df334aef6abed8ccd"
+    },
+    {
+      "path": "crazy_functions/Interactive_Mini_Game.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d68ad761fdee71188dae6054f9216df75707a6a7",
+      "size": 1942,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/d68ad761fdee71188dae6054f9216df75707a6a7"
+    },
+    {
+      "path": "crazy_functions/Internet_GPT.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "473cfb66f3a6ddacf88be3ea3b12a87f36a6a975",
+      "size": 15325,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/473cfb66f3a6ddacf88be3ea3b12a87f36a6a975"
+    },
+    {
+      "path": "crazy_functions/Internet_GPT_Bing_Legacy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec8e34357e0d133f3fa79a942b65794290aaa9aa",
+      "size": 5249,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/ec8e34357e0d133f3fa79a942b65794290aaa9aa"
+    },
+    {
+      "path": "crazy_functions/Internet_GPT_Legacy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6733c8e3baa6f95f29de09a1c232293371250a0",
+      "size": 5348,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/c6733c8e3baa6f95f29de09a1c232293371250a0"
+    },
+    {
+      "path": "crazy_functions/Internet_GPT_Wrap.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c59b475b446eee79d8d9492f0b6edec8947f7144",
+      "size": 2960,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/c59b475b446eee79d8d9492f0b6edec8947f7144"
+    },
+    {
+      "path": "crazy_functions/Latex_Function.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f91ecede0629703634918c1143b9bca168d71082",
+      "size": 30212,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/f91ecede0629703634918c1143b9bca168d71082"
+    },
+    {
+      "path": "crazy_functions/Latex_Function_Wrap.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edf86294e4b002f14c8eac6a06072dc362d2ac61",
+      "size": 5104,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/edf86294e4b002f14c8eac6a06072dc362d2ac61"
+    },
+    {
+      "path": "crazy_functions/Latex_Project_Polish.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9daf0f7d62daad213ea24d3ed22b1066ffcec2c",
+      "size": 11884,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/a9daf0f7d62daad213ea24d3ed22b1066ffcec2c"
+    },
+    {
+      "path": "crazy_functions/Latex_Project_Translate_Legacy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "705c6e92bd1db3412dd32a168c651a13da6e9ff6",
+      "size": 8411,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/705c6e92bd1db3412dd32a168c651a13da6e9ff6"
+    },
+    {
+      "path": "crazy_functions/Markdown_Translate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5faa4d5c57edd46a9903e9cced624ee5e8fd0df6",
+      "size": 13010,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/5faa4d5c57edd46a9903e9cced624ee5e8fd0df6"
+    },
+    {
+      "path": "crazy_functions/Math_Animation_Gen.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "819a74c9531037181affaf8360d694de8246408e",
+      "size": 6664,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/819a74c9531037181affaf8360d694de8246408e"
+    },
+    {
+      "path": "crazy_functions/Mermaid_Figure_Gen.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47e999c766616f4017370374941323eb5d58199c",
+      "size": 15498,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/47e999c766616f4017370374941323eb5d58199c"
+    },
+    {
+      "path": "crazy_functions/Multi_Agent_Legacy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f9d880e0bd3c16aa1d19139ddc7086b2aabe693",
+      "size": 5185,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/4f9d880e0bd3c16aa1d19139ddc7086b2aabe693"
+    },
+    {
+      "path": "crazy_functions/Multi_LLM_Query.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d83baa19bb9421720253d124cdfc57e4ea67ed55",
+      "size": 3590,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/d83baa19bb9421720253d124cdfc57e4ea67ed55"
+    },
+    {
+      "path": "crazy_functions/PDF_QA.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c066d5d18bf36f4952f7b6b387ca8ead9d9a802f",
+      "size": 6471,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/c066d5d18bf36f4952f7b6b387ca8ead9d9a802f"
+    },
+    {
+      "path": "crazy_functions/PDF_Summary.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26e7333bea13e513b72ca4888baaab08f238eaf4",
+      "size": 8627,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/26e7333bea13e513b72ca4888baaab08f238eaf4"
+    },
+    {
+      "path": "crazy_functions/PDF_Translate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "475bc21ccee62f9f9851bde2a967fd23aaa056d6",
+      "size": 4614,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/475bc21ccee62f9f9851bde2a967fd23aaa056d6"
+    },
+    {
+      "path": "crazy_functions/PDF_Translate_Nougat.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51263ff0838c28054cac71f27314638e10d29b46",
+      "size": 5640,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/51263ff0838c28054cac71f27314638e10d29b46"
+    },
+    {
+      "path": "crazy_functions/PDF_Translate_Wrap.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb672db21fc011f1156b0b9a07259c56e7dd3948",
+      "size": 1690,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/fb672db21fc011f1156b0b9a07259c56e7dd3948"
+    },
+    {
+      "path": "crazy_functions/Paper_Abstract_Writer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12d9bc41d7cdfd97fb6b814e0aaee2655440c739",
+      "size": 3739,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/12d9bc41d7cdfd97fb6b814e0aaee2655440c739"
+    },
+    {
+      "path": "crazy_functions/Paper_Reading.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f88b818f72a2c7a2fcd64abb2d2d56b24718240",
+      "size": 15777,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/2f88b818f72a2c7a2fcd64abb2d2d56b24718240"
+    },
+    {
+      "path": "crazy_functions/Program_Comment_Gen.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ae0b4ac670b9e5674bf62d5829763fb0519fd90",
+      "size": 2960,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/6ae0b4ac670b9e5674bf62d5829763fb0519fd90"
+    },
+    {
+      "path": "crazy_functions/Rag_Interface.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "586fd7066740717ecee4de32f35fd7e4a83e38ca",
+      "size": 6980,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/586fd7066740717ecee4de32f35fd7e4a83e38ca"
+    },
+    {
+      "path": "crazy_functions/Social_Helper.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83d81af7d40e5c6369312a6c78ff7ceb9cc6e710",
+      "size": 7424,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/83d81af7d40e5c6369312a6c78ff7ceb9cc6e710"
+    },
+    {
+      "path": "crazy_functions/SourceCode_Analyse.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8655fe82aec0e706fb994eefe0cee77bad9a6140",
+      "size": 23876,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/8655fe82aec0e706fb994eefe0cee77bad9a6140"
+    },
+    {
+      "path": "crazy_functions/SourceCode_Analyse_JupyterNotebook.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7186aa9be74d69012745330c0b12dcc06f629f4",
+      "size": 6190,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/e7186aa9be74d69012745330c0b12dcc06f629f4"
+    },
+    {
+      "path": "crazy_functions/SourceCode_Comment.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9b38ad4b8d7962b19bad5f2e0bcf6210aad6dcf",
+      "size": 8425,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/a9b38ad4b8d7962b19bad5f2e0bcf6210aad6dcf"
+    },
+    {
+      "path": "crazy_functions/SourceCode_Comment_Wrap.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0556bcd3352488204d96bcfb6ea2d7bc1b4e3a2d",
+      "size": 1660,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/0556bcd3352488204d96bcfb6ea2d7bc1b4e3a2d"
+    },
+    {
+      "path": "crazy_functions/Vectorstore_QA.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3e9da5295d848e0ba14e5b4b6d443e3d73029ca",
+      "size": 7257,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/b3e9da5295d848e0ba14e5b4b6d443e3d73029ca"
+    },
+    {
+      "path": "crazy_functions/VideoResource_GPT.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8901fa8d132f1dde6c136ff728fa0e98813f2780",
+      "size": 9581,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/8901fa8d132f1dde6c136ff728fa0e98813f2780"
+    },
+    {
+      "path": "crazy_functions/Void_Terminal.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c19ccba49e093a5a62cbf69fc40450da138a00b0",
+      "size": 9267,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/c19ccba49e093a5a62cbf69fc40450da138a00b0"
+    },
+    {
+      "path": "crazy_functions/Word_Summary.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ead8abdd3485e285e242bac33fd58e88dd368fe",
+      "size": 6002,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/9ead8abdd3485e285e242bac33fd58e88dd368fe"
+    },
+    {
+      "path": "crazy_functions/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "crazy_functions/agent_fns",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "881b330561a46cd70a40afbaaae426b0484d869b",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/881b330561a46cd70a40afbaaae426b0484d869b"
+    },
+    {
+      "path": "crazy_functions/agent_fns/auto_agent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb9ee7e319e2c5db46277276d431a5ff940178a5",
+      "size": 976,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/bb9ee7e319e2c5db46277276d431a5ff940178a5"
+    },
+    {
+      "path": "crazy_functions/agent_fns/echo_agent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cea7905de2afc4bec9201e2ab2d8ab156660cd87",
+      "size": 912,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/cea7905de2afc4bec9201e2ab2d8ab156660cd87"
+    },
+    {
+      "path": "crazy_functions/agent_fns/general.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9f4f0b8f512c81a0048291e1d3b998603b15bd3",
+      "size": 5962,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/e9f4f0b8f512c81a0048291e1d3b998603b15bd3"
+    },
+    {
+      "path": "crazy_functions/agent_fns/persistent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4eea14e1105d946f7a165de0840397363e937fc8",
+      "size": 399,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/4eea14e1105d946f7a165de0840397363e937fc8"
+    },
+    {
+      "path": "crazy_functions/agent_fns/pipe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db8e83d5f06115b3ecabc5dc56a559712516e0b0",
+      "size": 9244,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/db8e83d5f06115b3ecabc5dc56a559712516e0b0"
+    },
+    {
+      "path": "crazy_functions/agent_fns/python_comment_agent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "829e925f3be4404e6ecc917884222a872d22c8c4",
+      "size": 16986,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/829e925f3be4404e6ecc917884222a872d22c8c4"
+    },
+    {
+      "path": "crazy_functions/agent_fns/python_comment_compare.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bedc9e984b36484e958fcbc9d5be765cab36d519",
+      "size": 990,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/bedc9e984b36484e958fcbc9d5be765cab36d519"
+    },
+    {
+      "path": "crazy_functions/agent_fns/watchdog.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb9a99d1ca87e27b11da9555401d316fbfee8324",
+      "size": 821,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/bb9a99d1ca87e27b11da9555401d316fbfee8324"
+    },
+    {
+      "path": "crazy_functions/ast_fns",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "362bd95f66b015e604292378d21b780e63cecaef",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/362bd95f66b015e604292378d21b780e63cecaef"
+    },
+    {
+      "path": "crazy_functions/ast_fns/comment_remove.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3983585e79f5f939faf5125ac08351ff8afbf3f",
+      "size": 2122,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/c3983585e79f5f939faf5125ac08351ff8afbf3f"
+    },
+    {
+      "path": "crazy_functions/crazy_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5828fcf7f43bf9111afc9f1a87748a618b5d88c8",
+      "size": 31271,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/5828fcf7f43bf9111afc9f1a87748a618b5d88c8"
+    },
+    {
+      "path": "crazy_functions/diagram_fns",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "22026fbed3044bc2bc8fb15d9a4a5254ae38e812",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/22026fbed3044bc2bc8fb15d9a4a5254ae38e812"
+    },
+    {
+      "path": "crazy_functions/diagram_fns/file_tree.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea9951a469d71960ef902c23da231005e0aacd99",
+      "size": 6398,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/ea9951a469d71960ef902c23da231005e0aacd99"
+    },
+    {
+      "path": "crazy_functions/doc_fns",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a63c3eb60333bb24fd4c54007c47f0b700a8420c",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/a63c3eb60333bb24fd4c54007c47f0b700a8420c"
+    },
+    {
+      "path": "crazy_functions/doc_fns/AI_review_doc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65048cd0ee6cd2caf5b100ba534db3fa77412ffd",
+      "size": 26738,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/65048cd0ee6cd2caf5b100ba534db3fa77412ffd"
+    },
+    {
+      "path": "crazy_functions/doc_fns/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "crazy_functions/doc_fns/batch_file_query_doc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d32343cf29ebd983a4910f7509fd6233f2a7ed9c",
+      "size": 26739,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/d32343cf29ebd983a4910f7509fd6233f2a7ed9c"
+    },
+    {
+      "path": "crazy_functions/doc_fns/content_folder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d77a21ff18811dbde0918612a58ed13521827cd5",
+      "size": 7082,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/d77a21ff18811dbde0918612a58ed13521827cd5"
+    },
+    {
+      "path": "crazy_functions/doc_fns/conversation_doc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "789c1a831e8be5e29eb62e01eb7af47752c00db5",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/789c1a831e8be5e29eb62e01eb7af47752c00db5"
+    },
+    {
+      "path": "crazy_functions/doc_fns/conversation_doc/excel_doc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3001e8f9a78cf42177a4405bd33be8ae37c7435",
+      "size": 6384,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/a3001e8f9a78cf42177a4405bd33be8ae37c7435"
+    },
+    {
+      "path": "crazy_functions/doc_fns/conversation_doc/html_doc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "511fec65b63a177e4b83b2edf942ecbe5b67c0cd",
+      "size": 5340,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/511fec65b63a177e4b83b2edf942ecbe5b67c0cd"
+    },
+    {
+      "path": "crazy_functions/doc_fns/conversation_doc/markdown_doc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "869fe6ab2bb1a551f9f4ae80af16380319955e3d",
+      "size": 1109,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/869fe6ab2bb1a551f9f4ae80af16380319955e3d"
+    },
+    {
+      "path": "crazy_functions/doc_fns/conversation_doc/pdf_doc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19344f17c8ac6106557f8434fd27fa43bfb70406",
+      "size": 5466,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/19344f17c8ac6106557f8434fd27fa43bfb70406"
+    },
+    {
+      "path": "crazy_functions/doc_fns/conversation_doc/txt_doc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ec902c87ba20082c4eed87c2f548793122c9e14",
+      "size": 2996,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/3ec902c87ba20082c4eed87c2f548793122c9e14"
+    },
+    {
+      "path": "crazy_functions/doc_fns/conversation_doc/word2pdf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b926fafda86b90f4eb7aba7dbcddf4309fa62fd",
+      "size": 5669,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/8b926fafda86b90f4eb7aba7dbcddf4309fa62fd"
+    },
+    {
+      "path": "crazy_functions/doc_fns/conversation_doc/word_doc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75e11c247b696a87148b73068e3624d2af65fba6",
+      "size": 8097,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/75e11c247b696a87148b73068e3624d2af65fba6"
+    },
+    {
+      "path": "crazy_functions/doc_fns/read_fns",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ebee3683d7ab89440df29059890c78ec678a2870",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/ebee3683d7ab89440df29059890c78ec678a2870"
+    },
+    {
+      "path": "crazy_functions/doc_fns/read_fns/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "crazy_functions/doc_fns/read_fns/docx_reader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64effe5ff40402399dbdc7e581619fb069f55085",
+      "size": 172,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/64effe5ff40402399dbdc7e581619fb069f55085"
+    },
+    {
+      "path": "crazy_functions/doc_fns/read_fns/excel_reader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0f92327152a51ae7dca9687a83fa97e3cbb580e",
+      "size": 10107,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/f0f92327152a51ae7dca9687a83fa97e3cbb580e"
+    },
+    {
+      "path": "crazy_functions/doc_fns/read_fns/markitdown",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fadba44cc414a491a4ac81985a060b789853fd61",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/fadba44cc414a491a4ac81985a060b789853fd61"
+    },
+    {
+      "path": "crazy_functions/doc_fns/read_fns/markitdown/markdown_reader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc9bfe6de7e1074ce63877bc90dd5ab6feb712bd",
+      "size": 11869,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/cc9bfe6de7e1074ce63877bc90dd5ab6feb712bd"
+    },
+    {
+      "path": "crazy_functions/doc_fns/read_fns/unstructured_all",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2a76898ed008fd28edfde3a08e56cc8b5b926685",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/2a76898ed008fd28edfde3a08e56cc8b5b926685"
+    },
+    {
+      "path": "crazy_functions/doc_fns/read_fns/unstructured_all/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "crazy_functions/doc_fns/read_fns/unstructured_all/paper_metadata_extractor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c7bc2fb4215d94511faa42e528dcc055fd977d1",
+      "size": 19421,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/3c7bc2fb4215d94511faa42e528dcc055fd977d1"
+    },
+    {
+      "path": "crazy_functions/doc_fns/read_fns/unstructured_all/paper_structure_extractor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fd977748a8ab42c1b45d995097886c6f9e12cea",
+      "size": 50678,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/2fd977748a8ab42c1b45d995097886c6f9e12cea"
+    },
+    {
+      "path": "crazy_functions/doc_fns/read_fns/unstructured_all/unstructured_md.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4e675f5024b4f814c00ec70fd31d4370ba2b332",
+      "size": 2945,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/a4e675f5024b4f814c00ec70fd31d4370ba2b332"
+    },
+    {
+      "path": "crazy_functions/doc_fns/read_fns/unstructured_all/unstructured_reader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5aaba821c2a44227ed6720a67c48594b4fa87d1f",
+      "size": 7989,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/5aaba821c2a44227ed6720a67c48594b4fa87d1f"
+    },
+    {
+      "path": "crazy_functions/doc_fns/read_fns/web_reader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9981f940c7a7150f0331a225ca8f3de18c5135ea",
+      "size": 6219,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/9981f940c7a7150f0331a225ca8f3de18c5135ea"
+    },
+    {
+      "path": "crazy_functions/doc_fns/text_content_loader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e5a70cc4c247d04ecf9142f5c6d0419c07a96b9",
+      "size": 17512,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/4e5a70cc4c247d04ecf9142f5c6d0419c07a96b9"
+    },
+    {
+      "path": "crazy_functions/game_fns",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "48a802c9971485da60e0c864ddf6eebe3022d65d",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/48a802c9971485da60e0c864ddf6eebe3022d65d"
+    },
+    {
+      "path": "crazy_functions/game_fns/game_ascii_art.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b02f6b99af7d35ffaa3b88c3d1b2f0467be7ddec",
+      "size": 2420,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/b02f6b99af7d35ffaa3b88c3d1b2f0467be7ddec"
+    },
+    {
+      "path": "crazy_functions/game_fns/game_interactive_story.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a131855bcea7a58d2961f73ce45e013cd7f70ba",
+      "size": 10401,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/3a131855bcea7a58d2961f73ce45e013cd7f70ba"
+    },
+    {
+      "path": "crazy_functions/game_fns/game_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc270976bbbd9f6a1f4a3355863cc3a069085867",
+      "size": 1632,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/cc270976bbbd9f6a1f4a3355863cc3a069085867"
+    },
+    {
+      "path": "crazy_functions/gen_fns",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d5153169d07e3738c7ea5525e8de357d47c3f005",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/d5153169d07e3738c7ea5525e8de357d47c3f005"
+    },
+    {
+      "path": "crazy_functions/gen_fns/gen_fns_shared.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "756ed59f374d58f08e85be24acd7c5a770b957b6",
+      "size": 3048,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/756ed59f374d58f08e85be24acd7c5a770b957b6"
+    },
+    {
+      "path": "crazy_functions/ipc_fns",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b1e63b03213a4801c8ba24a9540945fbe2ff8cc7",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/b1e63b03213a4801c8ba24a9540945fbe2ff8cc7"
+    },
+    {
+      "path": "crazy_functions/ipc_fns/mp.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e51660e5f9512d243c3726689d55024ad203a1a6",
+      "size": 1522,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/e51660e5f9512d243c3726689d55024ad203a1a6"
+    },
+    {
+      "path": "crazy_functions/json_fns",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "72008bbb5cb5a65ae9dd63fd05ab9ef62e794379",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/72008bbb5cb5a65ae9dd63fd05ab9ef62e794379"
+    },
+    {
+      "path": "crazy_functions/json_fns/pydantic_io.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "559bbe89ab19fd8f9b288461517bc717eb4b0ce9",
+      "size": 4165,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/559bbe89ab19fd8f9b288461517bc717eb4b0ce9"
+    },
+    {
+      "path": "crazy_functions/json_fns/select_tool.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "936e94d732ac7a7d7966171b8b0b21af03548960",
+      "size": 855,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/936e94d732ac7a7d7966171b8b0b21af03548960"
+    },
+    {
+      "path": "crazy_functions/latex_fns",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d2fa2b94b6c22a3e920c991c5fcdf7812b368527",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/d2fa2b94b6c22a3e920c991c5fcdf7812b368527"
+    },
+    {
+      "path": "crazy_functions/latex_fns/latex_actions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea351be2c76095ff0399fd117490fa106c376eb0",
+      "size": 31066,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/ea351be2c76095ff0399fd117490fa106c376eb0"
+    },
+    {
+      "path": "crazy_functions/latex_fns/latex_pickle_io.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d951bf58dfb60ebffb83a6530f4b6af978e68150",
+      "size": 1605,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/d951bf58dfb60ebffb83a6530f4b6af978e68150"
+    },
+    {
+      "path": "crazy_functions/latex_fns/latex_toolbox.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9758bae727f7bd0b86d5d9b6117dcb565718fc31",
+      "size": 36898,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/9758bae727f7bd0b86d5d9b6117dcb565718fc31"
+    },
+    {
+      "path": "crazy_functions/live_audio",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a57bb014f75978999e4fe574f946dab7d210e84d",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/a57bb014f75978999e4fe574f946dab7d210e84d"
+    },
+    {
+      "path": "crazy_functions/live_audio/aliyunASR.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1d646dc18e630ebd56f5f95a7428282426668d2",
+      "size": 9823,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/c1d646dc18e630ebd56f5f95a7428282426668d2"
+    },
+    {
+      "path": "crazy_functions/live_audio/audio_io.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b83ad53a14f6358c8d05bd4ad804ba623352cc0",
+      "size": 1479,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/8b83ad53a14f6358c8d05bd4ad804ba623352cc0"
+    },
+    {
+      "path": "crazy_functions/media_fns",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "90d9b2402304dce220be6ca040c4f14d03468a3b",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/90d9b2402304dce220be6ca040c4f14d03468a3b"
+    },
+    {
+      "path": "crazy_functions/media_fns/get_media.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17a72bf6520409f2fe740e5e46ae6656ee8f3ddf",
+      "size": 2179,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/17a72bf6520409f2fe740e5e46ae6656ee8f3ddf"
+    },
+    {
+      "path": "crazy_functions/multi_stage",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "31c6650ce932ccfa1696e923ab01a2b0d8c97ed8",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/31c6650ce932ccfa1696e923ab01a2b0d8c97ed8"
+    },
+    {
+      "path": "crazy_functions/multi_stage/multi_stage_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a8982c9956c67bf90059d47645db87e6c8670ea",
+      "size": 3396,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/0a8982c9956c67bf90059d47645db87e6c8670ea"
+    },
+    {
+      "path": "crazy_functions/paper_fns",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a75be3e3ba9177f5c99f9abd144776ef1f9ec506",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/a75be3e3ba9177f5c99f9abd144776ef1f9ec506"
+    },
+    {
+      "path": "crazy_functions/paper_fns/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "crazy_functions/paper_fns/auto_git",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a09e2fb7c07af1eaf4a6d8d7f931df94d66ffafa",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/a09e2fb7c07af1eaf4a6d8d7f931df94d66ffafa"
+    },
+    {
+      "path": "crazy_functions/paper_fns/auto_git/handlers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6a0742ac0e280ba10a512b8348b6d5dcf34b97e5",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/6a0742ac0e280ba10a512b8348b6d5dcf34b97e5"
+    },
+    {
+      "path": "crazy_functions/paper_fns/auto_git/handlers/base_handler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e7c3c2ada82a44250acdfc318ac3c52d0149e33",
+      "size": 14782,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/9e7c3c2ada82a44250acdfc318ac3c52d0149e33"
+    },
+    {
+      "path": "crazy_functions/paper_fns/auto_git/handlers/code_handler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f605d5f24884fcfeb811d75e903e8a21fcc714f",
+      "size": 5719,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/0f605d5f24884fcfeb811d75e903e8a21fcc714f"
+    },
+    {
+      "path": "crazy_functions/paper_fns/auto_git/handlers/repo_handler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f68c8f167c623b2f7cc4bb7edcbc19d4f1da423",
+      "size": 6864,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/6f68c8f167c623b2f7cc4bb7edcbc19d4f1da423"
+    },
+    {
+      "path": "crazy_functions/paper_fns/auto_git/handlers/topic_handler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb7e8b55c6504e5b51b6a7107c979aecd015af15",
+      "size": 7947,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/fb7e8b55c6504e5b51b6a7107c979aecd015af15"
+    },
+    {
+      "path": "crazy_functions/paper_fns/auto_git/handlers/user_handler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69c3b3bc0c3d09c1a51a7441d43e006d187868b5",
+      "size": 5770,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/69c3b3bc0c3d09c1a51a7441d43e006d187868b5"
+    },
+    {
+      "path": "crazy_functions/paper_fns/auto_git/query_analyzer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa8719b0419a22e127bc0bf1d328674ed03209d7",
+      "size": 13656,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/aa8719b0419a22e127bc0bf1d328674ed03209d7"
+    },
+    {
+      "path": "crazy_functions/paper_fns/auto_git/sources",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "024098a194cacd29ee2339448fb0dd0f5c54ebeb",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/024098a194cacd29ee2339448fb0dd0f5c54ebeb"
+    },
+    {
+      "path": "crazy_functions/paper_fns/auto_git/sources/github_source.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3144fa4da4e584a71f6f90283682023cdf113e4f",
+      "size": 23680,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/3144fa4da4e584a71f6f90283682023cdf113e4f"
+    },
+    {
+      "path": "crazy_functions/paper_fns/document_structure_extractor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae327a5107dde43e72d9ca1de0c5bc5f29b63d0e",
+      "size": 21296,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/ae327a5107dde43e72d9ca1de0c5bc5f29b63d0e"
+    },
+    {
+      "path": "crazy_functions/paper_fns/file2file_doc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c4e2a20fa082cc1443f5de1cfd23ce108fb95c8e",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/c4e2a20fa082cc1443f5de1cfd23ce108fb95c8e"
+    },
+    {
+      "path": "crazy_functions/paper_fns/file2file_doc/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c929b82461b27b37daed0171ccc73d8160f341d2",
+      "size": 150,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/c929b82461b27b37daed0171ccc73d8160f341d2"
+    },
+    {
+      "path": "crazy_functions/paper_fns/file2file_doc/html_doc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d7db5190d4e67ef029846f83899f0e2dd733bd3",
+      "size": 9570,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/2d7db5190d4e67ef029846f83899f0e2dd733bd3"
+    },
+    {
+      "path": "crazy_functions/paper_fns/file2file_doc/markdown_doc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80ea0b805a2b52d149a0dee263e846f40f67a443",
+      "size": 1251,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/80ea0b805a2b52d149a0dee263e846f40f67a443"
+    },
+    {
+      "path": "crazy_functions/paper_fns/file2file_doc/txt_doc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ee797ef31980ae45cb86b90fc704280346180e5",
+      "size": 2575,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/9ee797ef31980ae45cb86b90fc704280346180e5"
+    },
+    {
+      "path": "crazy_functions/paper_fns/file2file_doc/word2pdf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edcff64552fd254178a753c944ce4fdac4a57577",
+      "size": 4187,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/edcff64552fd254178a753c944ce4fdac4a57577"
+    },
+    {
+      "path": "crazy_functions/paper_fns/file2file_doc/word_doc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "299716a58572d5739d668d8c39229e530d91d5f4",
+      "size": 10250,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/299716a58572d5739d668d8c39229e530d91d5f4"
+    },
+    {
+      "path": "crazy_functions/paper_fns/github_search.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8017d47fec096045f2a95016155f8d5f16b5e7d0",
+      "size": 13035,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/8017d47fec096045f2a95016155f8d5f16b5e7d0"
+    },
+    {
+      "path": "crazy_functions/paper_fns/journal_paper_recom.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fa31527628bf367ba19eea8c981c76c32ff174a",
+      "size": 30222,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/3fa31527628bf367ba19eea8c981c76c32ff174a"
+    },
+    {
+      "path": "crazy_functions/paper_fns/paper_download.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72ce3b8f6a9a8e4ac617ccc73fe05a9b074bd770",
+      "size": 10852,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/72ce3b8f6a9a8e4ac617ccc73fe05a9b074bd770"
+    },
+    {
+      "path": "crazy_functions/paper_fns/reduce_aigc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f9585dd5426f8f213980076832e5aa757708166",
+      "size": 41614,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/2f9585dd5426f8f213980076832e5aa757708166"
+    },
+    {
+      "path": "crazy_functions/paper_fns/wiki",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b2c7a719647bd7df6942ea0c9f2de6ebf9951086",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/b2c7a719647bd7df6942ea0c9f2de6ebf9951086"
+    },
+    {
+      "path": "crazy_functions/paper_fns/wiki/wikipedia_api.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8d7ed7c9a8685a6c1154fe576d95c229030128a",
+      "size": 14057,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/a8d7ed7c9a8685a6c1154fe576d95c229030128a"
+    },
+    {
+      "path": "crazy_functions/pdf_fns",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8e4708deb9c19b6b86af703cb64c979d954c532f",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/8e4708deb9c19b6b86af703cb64c979d954c532f"
+    },
+    {
+      "path": "crazy_functions/pdf_fns/breakdown_pdf_txt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d019ec72f727436a5bd09da5f2f484382bbd9abd",
+      "size": 12285,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/d019ec72f727436a5bd09da5f2f484382bbd9abd"
+    },
+    {
+      "path": "crazy_functions/pdf_fns/breakdown_txt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3bc1207218b7806beca0348aaae8a82824669af",
+      "size": 5885,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/c3bc1207218b7806beca0348aaae8a82824669af"
+    },
+    {
+      "path": "crazy_functions/pdf_fns/parse_pdf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f27a7670632464454a0c8ca43057e920b488aaa",
+      "size": 8145,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/0f27a7670632464454a0c8ca43057e920b488aaa"
+    },
+    {
+      "path": "crazy_functions/pdf_fns/parse_pdf_grobid.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2d2b06827e117694e534a6d42d1be40fd5f63b9",
+      "size": 1843,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/f2d2b06827e117694e534a6d42d1be40fd5f63b9"
+    },
+    {
+      "path": "crazy_functions/pdf_fns/parse_pdf_legacy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97cdfddd70f6f488781ce6eaad1831aabe29b325",
+      "size": 6430,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/97cdfddd70f6f488781ce6eaad1831aabe29b325"
+    },
+    {
+      "path": "crazy_functions/pdf_fns/parse_pdf_via_doc2x.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93d45b1a68e38392eb72cd5e18b79bf5df30a463",
+      "size": 12634,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/93d45b1a68e38392eb72cd5e18b79bf5df30a463"
+    },
+    {
+      "path": "crazy_functions/pdf_fns/parse_word.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8787cb7f601e9b95724922e704d3c54dd1845ee6",
+      "size": 3884,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/8787cb7f601e9b95724922e704d3c54dd1845ee6"
+    },
+    {
+      "path": "crazy_functions/pdf_fns/report_gen_html.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21829212ff13a2dfd1492f05ac9abc73907dce7b",
+      "size": 2378,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/21829212ff13a2dfd1492f05ac9abc73907dce7b"
+    },
+    {
+      "path": "crazy_functions/pdf_fns/report_template.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39a1e7ce482949978ff90c4738a9adb8803660e6",
+      "size": 110077,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/39a1e7ce482949978ff90c4738a9adb8803660e6"
+    },
+    {
+      "path": "crazy_functions/pdf_fns/report_template_v2.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd459c9fc800a4a02cbe333429895ca97451fd28",
+      "size": 2231,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/dd459c9fc800a4a02cbe333429895ca97451fd28"
+    },
+    {
+      "path": "crazy_functions/plugin_template",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bb4fd08f0c1e6e0062ec3fa7e85c5d1de327bc08",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/bb4fd08f0c1e6e0062ec3fa7e85c5d1de327bc08"
+    },
+    {
+      "path": "crazy_functions/plugin_template/plugin_class_template.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ee9726d274fe920ac2f736ee09f50f4c35f5bb5",
+      "size": 2572,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/8ee9726d274fe920ac2f736ee09f50f4c35f5bb5"
+    },
+    {
+      "path": "crazy_functions/prompts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c58bd2acd29f2b7e46620fe9170f76f6d579ba74",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/c58bd2acd29f2b7e46620fe9170f76f6d579ba74"
+    },
+    {
+      "path": "crazy_functions/prompts/internet.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d990eec8db4bb9e23d5dbba66832a446eb991c0",
+      "size": 3541,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/3d990eec8db4bb9e23d5dbba66832a446eb991c0"
+    },
+    {
+      "path": "crazy_functions/rag_fns",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0a21d2a81160c29ea16a8d6c627409568a1abc53",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/0a21d2a81160c29ea16a8d6c627409568a1abc53"
+    },
+    {
+      "path": "crazy_functions/rag_fns/llama_index_worker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99c659a9bbd0114f489b06aad1b49f7d024cc026",
+      "size": 5251,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/99c659a9bbd0114f489b06aad1b49f7d024cc026"
+    },
+    {
+      "path": "crazy_functions/rag_fns/milvus_worker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92d4a53fd233d6282367625d8e9d83310118f7cf",
+      "size": 4666,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/92d4a53fd233d6282367625d8e9d83310118f7cf"
+    },
+    {
+      "path": "crazy_functions/rag_fns/rag_file_support.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e448f09cbf09bde1244cbe5d34a148050b5fad1c",
+      "size": 1934,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/e448f09cbf09bde1244cbe5d34a148050b5fad1c"
+    },
+    {
+      "path": "crazy_functions/rag_fns/vector_store_index.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6818223f1b1462b6e81ace285c673c4dd7396598",
+      "size": 1979,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/6818223f1b1462b6e81ace285c673c4dd7396598"
+    },
+    {
+      "path": "crazy_functions/review_fns",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "17ad9c9f48f0a40b2e12ccab3921499543de82f3",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/17ad9c9f48f0a40b2e12ccab3921499543de82f3"
+    },
+    {
+      "path": "crazy_functions/review_fns/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "crazy_functions/review_fns/conversation_doc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bc2af5d3594d918ad8c36ee40a4ea90512cf4802",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/bc2af5d3594d918ad8c36ee40a4ea90512cf4802"
+    },
+    {
+      "path": "crazy_functions/review_fns/conversation_doc/endnote_doc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53dca79d0f2b3a5570c5d242534cecbc61aa1fe5",
+      "size": 2275,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/53dca79d0f2b3a5570c5d242534cecbc61aa1fe5"
+    },
+    {
+      "path": "crazy_functions/review_fns/conversation_doc/excel_doc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e21b578284a483772ffbe236de5f098c373fb63",
+      "size": 6392,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/5e21b578284a483772ffbe236de5f098c373fb63"
+    },
+    {
+      "path": "crazy_functions/review_fns/conversation_doc/html_doc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67ec270efb2a3ac9374d0c67a276b72efd025182",
+      "size": 17507,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/67ec270efb2a3ac9374d0c67a276b72efd025182"
+    },
+    {
+      "path": "crazy_functions/review_fns/conversation_doc/markdown_doc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "778c19e30dad4458e46d842fa55270ca8eb79594",
+      "size": 1549,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/778c19e30dad4458e46d842fa55270ca8eb79594"
+    },
+    {
+      "path": "crazy_functions/review_fns/conversation_doc/reference_formatter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "468010656596fb61c998fd630e48f232cff18665",
+      "size": 6688,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/468010656596fb61c998fd630e48f232cff18665"
+    },
+    {
+      "path": "crazy_functions/review_fns/conversation_doc/word2pdf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c2341544728f37f5f91abd481e0c0368d0e9cc0",
+      "size": 4763,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/1c2341544728f37f5f91abd481e0c0368d0e9cc0"
+    },
+    {
+      "path": "crazy_functions/review_fns/conversation_doc/word_doc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6216527cc035bc26376a52d1b180d173cc1529b1",
+      "size": 11042,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/6216527cc035bc26376a52d1b180d173cc1529b1"
+    },
+    {
+      "path": "crazy_functions/review_fns/data_sources",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cd588c31fb075ae6ecfea3be805bb85a3442d7e4",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/cd588c31fb075ae6ecfea3be805bb85a3442d7e4"
+    },
+    {
+      "path": "crazy_functions/review_fns/data_sources/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "crazy_functions/review_fns/data_sources/adsabs_source.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a69bf5e33d44e4928509c2c22fde899d0daa480",
+      "size": 9662,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/3a69bf5e33d44e4928509c2c22fde899d0daa480"
+    },
+    {
+      "path": "crazy_functions/review_fns/data_sources/arxiv_source.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f252f08408de66f181cbb5f9658d2c3ee4d29f0b",
+      "size": 23260,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/f252f08408de66f181cbb5f9658d2c3ee4d29f0b"
+    },
+    {
+      "path": "crazy_functions/review_fns/data_sources/base_source.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c30d5de7181b66d2dee4fa1d86ec099329e78b6",
+      "size": 2998,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/9c30d5de7181b66d2dee4fa1d86ec099329e78b6"
+    },
+    {
+      "path": "crazy_functions/review_fns/data_sources/cas_if.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a51c3355a763e849712e6e7ea469a07560b292e2",
+      "size": 2975420,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/a51c3355a763e849712e6e7ea469a07560b292e2"
+    },
+    {
+      "path": "crazy_functions/review_fns/data_sources/crossref_source.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8571eca7338b827ee83bf75a748e143e6f0d584",
+      "size": 16018,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/f8571eca7338b827ee83bf75a748e143e6f0d584"
+    },
+    {
+      "path": "crazy_functions/review_fns/data_sources/elsevier_source.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "418b4aab4f6e5eeb687da242f053599e3d9ca61b",
+      "size": 16383,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/418b4aab4f6e5eeb687da242f053599e3d9ca61b"
+    },
+    {
+      "path": "crazy_functions/review_fns/data_sources/github_source.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "918fdc4a0b9a7ae8de69f3f934303ce29ae0f7a5",
+      "size": 23598,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/918fdc4a0b9a7ae8de69f3f934303ce29ae0f7a5"
+    },
+    {
+      "path": "crazy_functions/review_fns/data_sources/journal_metrics.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87cbc105eadfc9715d63c90f88ebf34a437bb268",
+      "size": 5060,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/87cbc105eadfc9715d63c90f88ebf34a437bb268"
+    },
+    {
+      "path": "crazy_functions/review_fns/data_sources/openalex_source.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19c29c0d19ca5d616e668d1d5c61f44b11f339cc",
+      "size": 6115,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/19c29c0d19ca5d616e668d1d5c61f44b11f339cc"
+    },
+    {
+      "path": "crazy_functions/review_fns/data_sources/pubmed_source.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b492417ffebd7996225b6ad3b652644f60d57ae",
+      "size": 15499,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/1b492417ffebd7996225b6ad3b652644f60d57ae"
+    },
+    {
+      "path": "crazy_functions/review_fns/data_sources/scihub_source.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c6b986f93378a385cf6c2913f9283f1caa088a4",
+      "size": 13327,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/1c6b986f93378a385cf6c2913f9283f1caa088a4"
+    },
+    {
+      "path": "crazy_functions/review_fns/data_sources/scopus_source.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c56fea4253f8b383cfae3d1ac3f3b711796c214a",
+      "size": 13135,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/c56fea4253f8b383cfae3d1ac3f3b711796c214a"
+    },
+    {
+      "path": "crazy_functions/review_fns/data_sources/semantic_source.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f79d0b19e7504a14cbbed47c51e101d9954076ec",
+      "size": 19403,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/f79d0b19e7504a14cbbed47c51e101d9954076ec"
+    },
+    {
+      "path": "crazy_functions/review_fns/data_sources/unpaywall_source.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b5bcc11341f8548df2cfa2a22ca663bae2c925d",
+      "size": 1734,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/0b5bcc11341f8548df2cfa2a22ca663bae2c925d"
+    },
+    {
+      "path": "crazy_functions/review_fns/handlers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d4d987ca685e3c381ce2cb2a803e6c959d1b5da4",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/d4d987ca685e3c381ce2cb2a803e6c959d1b5da4"
+    },
+    {
+      "path": "crazy_functions/review_fns/handlers/base_handler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d400327e0602bd34b46ecd508daa3c214282ad2e",
+      "size": 17200,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/d400327e0602bd34b46ecd508daa3c214282ad2e"
+    },
+    {
+      "path": "crazy_functions/review_fns/handlers/latest_handler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "256e0a374206e99ce7919b5d659346068c7b3e82",
+      "size": 3574,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/256e0a374206e99ce7919b5d659346068c7b3e82"
+    },
+    {
+      "path": "crazy_functions/review_fns/handlers/paper_handler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ceb5889c069c51d46e78dfacf944a51ad2cfc33a",
+      "size": 11809,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/ceb5889c069c51d46e78dfacf944a51ad2cfc33a"
+    },
+    {
+      "path": "crazy_functions/review_fns/handlers/qa_handler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6b3766b3cace5392e8c84e9cc38d2b65862a915",
+      "size": 5527,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/b6b3766b3cace5392e8c84e9cc38d2b65862a915"
+    },
+    {
+      "path": "crazy_functions/review_fns/handlers/recommend_handler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6286b88c239457a0d8511284d7f97e931267718",
+      "size": 7704,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/c6286b88c239457a0d8511284d7f97e931267718"
+    },
+    {
+      "path": "crazy_functions/review_fns/handlers/review_handler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a508180e87ee63dc278da21f97b37d8df04e95b3",
+      "size": 7893,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/a508180e87ee63dc278da21f97b37d8df04e95b3"
+    },
+    {
+      "path": "crazy_functions/review_fns/paper_processor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ca1528260bea696289ee5dc13b8793981a3ae588",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/ca1528260bea696289ee5dc13b8793981a3ae588"
+    },
+    {
+      "path": "crazy_functions/review_fns/paper_processor/paper_llm_ranker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e82adda5e90ded7b1add003d80345005c74c3984",
+      "size": 19451,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/e82adda5e90ded7b1add003d80345005c74c3984"
+    },
+    {
+      "path": "crazy_functions/review_fns/prompts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b72984c70334528b2a3475bc094c250976df2b3d",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/b72984c70334528b2a3475bc094c250976df2b3d"
+    },
+    {
+      "path": "crazy_functions/review_fns/prompts/adsabs_prompts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "716b5ee12375da9d5474be9fbc78e7547309cdc8",
+      "size": 3153,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/716b5ee12375da9d5474be9fbc78e7547309cdc8"
+    },
+    {
+      "path": "crazy_functions/review_fns/prompts/arxiv_prompts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bc80bcdde914a0480fa949af13249806614826a",
+      "size": 11830,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/7bc80bcdde914a0480fa949af13249806614826a"
+    },
+    {
+      "path": "crazy_functions/review_fns/prompts/crossref_prompts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b751e852095644bc3ed88f42bb7b6e1bd2ffdda8",
+      "size": 2315,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/b751e852095644bc3ed88f42bb7b6e1bd2ffdda8"
+    },
+    {
+      "path": "crazy_functions/review_fns/prompts/paper_prompts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ae97f8b671dca60ec1b0bd570f88bf6d3d2c337",
+      "size": 1484,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/5ae97f8b671dca60ec1b0bd570f88bf6d3d2c337"
+    },
+    {
+      "path": "crazy_functions/review_fns/prompts/pubmed_prompts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4eaf954031657afbf6b15d5d28fdaa89bfa324e1",
+      "size": 3673,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/4eaf954031657afbf6b15d5d28fdaa89bfa324e1"
+    },
+    {
+      "path": "crazy_functions/review_fns/prompts/semantic_prompts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5b31045368141d0eed51705e0660ae187352a8d",
+      "size": 9334,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/d5b31045368141d0eed51705e0660ae187352a8d"
+    },
+    {
+      "path": "crazy_functions/review_fns/query_analyzer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdb4a6027d432de1ad20d6a518d918be5caf4ce9",
+      "size": 21311,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/bdb4a6027d432de1ad20d6a518d918be5caf4ce9"
+    },
+    {
+      "path": "crazy_functions/review_fns/query_processor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f319f7d4896159de4564079dc025848898108835",
+      "size": 2196,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/f319f7d4896159de4564079dc025848898108835"
+    },
+    {
+      "path": "crazy_functions/vector_fns",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0534eee47fbe654071f4741d14831dd2c362f6eb",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/0534eee47fbe654071f4741d14831dd2c362f6eb"
+    },
+    {
+      "path": "crazy_functions/vector_fns/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "crazy_functions/vector_fns/general_file_loader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "788c0229d10bca5cd0c8d0896cb6dc8ed7fb6bf4",
+      "size": 3664,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/788c0229d10bca5cd0c8d0896cb6dc8ed7fb6bf4"
+    },
+    {
+      "path": "crazy_functions/vector_fns/vector_database.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf36348920291e419b8338dc35844602a203cfba",
+      "size": 13423,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/cf36348920291e419b8338dc35844602a203cfba"
+    },
+    {
+      "path": "crazy_functions/vt_fns",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d230e85277ef77e6d53c3de207e8477e7f58280a",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/d230e85277ef77e6d53c3de207e8477e7f58280a"
+    },
+    {
+      "path": "crazy_functions/vt_fns/vt_call_plugin.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73bfbe4b800fbbb344bd58652711236ce0438d91",
+      "size": 6961,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/73bfbe4b800fbbb344bd58652711236ce0438d91"
+    },
+    {
+      "path": "crazy_functions/vt_fns/vt_modify_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86657f33622db350a035fc32b32e1be3530397d8",
+      "size": 4170,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/86657f33622db350a035fc32b32e1be3530397d8"
+    },
+    {
+      "path": "crazy_functions/vt_fns/vt_state.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "219ccd6d9daf706b6b978caa3d7dec052a804175",
+      "size": 934,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/219ccd6d9daf706b6b978caa3d7dec052a804175"
+    },
+    {
+      "path": "crazy_functions/word_dfa",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c62cf193dbd804ee8767021734e8afd362c1cefb",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/c62cf193dbd804ee8767021734e8afd362c1cefb"
+    },
+    {
+      "path": "crazy_functions/word_dfa/dfa_algo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19f26640216fcc296e108d3e1a3285907eb98eb3",
+      "size": 194046,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/19f26640216fcc296e108d3e1a3285907eb98eb3"
+    },
+    {
+      "path": "crazy_functions/高级功能函数模板.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2c3f45a4a5b53ff5b5f074db74326da2b128f6b",
+      "size": 8474,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/b2c3f45a4a5b53ff5b5f074db74326da2b128f6b"
+    },
+    {
+      "path": "docker-compose.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd72e3afedcbca6699c44f26576beaa62174ff15",
+      "size": 15296,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/cd72e3afedcbca6699c44f26576beaa62174ff15"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a0625965ff2090732b977bf601b34d2032a05f87",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/a0625965ff2090732b977bf601b34d2032a05f87"
+    },
+    {
+      "path": "docs/DOCUMENTATION_PLAN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7a70a1686ae5283fdf1387febe67ab2af211d23",
+      "size": 57588,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/a7a70a1686ae5283fdf1387febe67ab2af211d23"
+    },
+    {
+      "path": "docs/GithubAction+AllCapacity",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3488a1b8860dc06d853f481d7f14937f7ab06668",
+      "size": 2779,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/3488a1b8860dc06d853f481d7f14937f7ab06668"
+    },
+    {
+      "path": "docs/GithubAction+ChatGLM+Moss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c504d36ee1cd9d81cd7c0fad4d29637ff273b5f",
+      "size": 1322,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/8c504d36ee1cd9d81cd7c0fad4d29637ff273b5f"
+    },
+    {
+      "path": "docs/GithubAction+JittorLLMs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b27a04f692f8988a59bad50b3ce414aa98aaf90",
+      "size": 1398,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/7b27a04f692f8988a59bad50b3ce414aa98aaf90"
+    },
+    {
+      "path": "docs/GithubAction+NoLocal",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74b42482601913adf2eadd263697bbf68f4864f8",
+      "size": 1694,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/74b42482601913adf2eadd263697bbf68f4864f8"
+    },
+    {
+      "path": "docs/GithubAction+NoLocal+AudioAssistant",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0f58396e5d2fbffe18d4ca2832fa62465b71f8a",
+      "size": 2057,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/c0f58396e5d2fbffe18d4ca2832fa62465b71f8a"
+    },
+    {
+      "path": "docs/GithubAction+NoLocal+Latex",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77383ee1bd4ab4a3707b5d1f2bba8813ee351d0f",
+      "size": 1337,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/77383ee1bd4ab4a3707b5d1f2bba8813ee351d0f"
+    },
+    {
+      "path": "docs/GithubAction+NoLocal+Vectordb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63378d34bdf85f364dcf4885e649c7b11dceea86",
+      "size": 2379,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/63378d34bdf85f364dcf4885e649c7b11dceea86"
+    },
+    {
+      "path": "docs/README.Arabic.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d8bf3cc31d118fab8d8523bebffce77593abb5c",
+      "size": 29574,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/5d8bf3cc31d118fab8d8523bebffce77593abb5c"
+    },
+    {
+      "path": "docs/README.English.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48afdf4549f8f1a83927da857cd535a18e3e6f97",
+      "size": 24106,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/48afdf4549f8f1a83927da857cd535a18e3e6f97"
+    },
+    {
+      "path": "docs/README.French.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf136e59dc42f88b7303efc2cd98c12f55e4bced",
+      "size": 24789,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/bf136e59dc42f88b7303efc2cd98c12f55e4bced"
+    },
+    {
+      "path": "docs/README.German.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87f7db5903d3bccabae8dbee97bfe274a1864946",
+      "size": 25652,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/87f7db5903d3bccabae8dbee97bfe274a1864946"
+    },
+    {
+      "path": "docs/README.Italian.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f231e49ff792cd9510a3115f2a9415b9400efd5d",
+      "size": 25812,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/f231e49ff792cd9510a3115f2a9415b9400efd5d"
+    },
+    {
+      "path": "docs/README.Japanese.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13cbdede24b3c716a0961b72331259ed081aab2b",
+      "size": 27758,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/13cbdede24b3c716a0961b72331259ed081aab2b"
+    },
+    {
+      "path": "docs/README.Korean.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bd1f577cfa10888016873a9befc64d63a23b287",
+      "size": 25307,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/2bd1f577cfa10888016873a9befc64d63a23b287"
+    },
+    {
+      "path": "docs/README.Portuguese.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cc02c19ebbb900c4424d60d680d654d4bc3fe8d",
+      "size": 25490,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/4cc02c19ebbb900c4424d60d680d654d4bc3fe8d"
+    },
+    {
+      "path": "docs/README.Russian.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "471f17449884c06a63bcd20905fd263c574bf869",
+      "size": 36030,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/471f17449884c06a63bcd20905fd263c574bf869"
+    },
+    {
+      "path": "docs/WindowsRun.bat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90880fba9f928fa6aa7d37a0c775a109a148c859",
+      "size": 540,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/90880fba9f928fa6aa7d37a0c775a109a148c859"
+    },
+    {
+      "path": "docs/WithFastapi.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d963ddd5c44f329d9ebdd06c752ec7a0fce8a1d6",
+      "size": 1293,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/d963ddd5c44f329d9ebdd06c752ec7a0fce8a1d6"
+    },
+    {
+      "path": "docs/customization",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c0caf6a757b2a9a955878748bc2da956a36ab4d7",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/c0caf6a757b2a9a955878748bc2da956a36ab4d7"
+    },
+    {
+      "path": "docs/customization/custom_buttons.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f399ac43ea4ac37ae95b5adee5afd58acbfd74d",
+      "size": 8608,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/4f399ac43ea4ac37ae95b5adee5afd58acbfd74d"
+    },
+    {
+      "path": "docs/customization/plugin_development.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5062abd2569bead6ac77c0f6aa04af413bd1ea07",
+      "size": 14559,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/5062abd2569bead6ac77c0f6aa04af413bd1ea07"
+    },
+    {
+      "path": "docs/customization/theme_customization.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07cede5acf3f17ea4b982cf3de16ae4dab9e1636",
+      "size": 10307,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/07cede5acf3f17ea4b982cf3de16ae4dab9e1636"
+    },
+    {
+      "path": "docs/demo.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcffc19a0379d23291fd1da92c543df961206472",
+      "size": 268120,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/fcffc19a0379d23291fd1da92c543df961206472"
+    },
+    {
+      "path": "docs/demo2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38fae48edc19253fea48ee235db8c7a0ccd697b6",
+      "size": 270438,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/38fae48edc19253fea48ee235db8c7a0ccd697b6"
+    },
+    {
+      "path": "docs/deployment",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dd0b4e82b4dc77cd9a0c15f0af990bd7ca63123d",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/dd0b4e82b4dc77cd9a0c15f0af990bd7ca63123d"
+    },
+    {
+      "path": "docs/deployment/cloud_deploy.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "687a9118b8413102d1ab7b103ff8a5918aed84e0",
+      "size": 9434,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/687a9118b8413102d1ab7b103ff8a5918aed84e0"
+    },
+    {
+      "path": "docs/deployment/docker.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90bd43d08161d5aaf71f8210a16b40579b67cba8",
+      "size": 9624,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/90bd43d08161d5aaf71f8210a16b40579b67cba8"
+    },
+    {
+      "path": "docs/deployment/reverse_proxy.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bd024984baab2a34bcc1e86abcf3cbc0f1ed378",
+      "size": 11511,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/4bd024984baab2a34bcc1e86abcf3cbc0f1ed378"
+    },
+    {
+      "path": "docs/features",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e088cbaa846d4c3e6aa246c49fdf9a1529a17256",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/e088cbaa846d4c3e6aa246c49fdf9a1529a17256"
+    },
+    {
+      "path": "docs/features/academic",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c922a1eed0f6e356f5ffe707142847c19566b114",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/c922a1eed0f6e356f5ffe707142847c19566b114"
+    },
+    {
+      "path": "docs/features/academic/arxiv_download.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a0f5219c2d676bb406bfd3bb18d4bba68ad2511",
+      "size": 7066,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/3a0f5219c2d676bb406bfd3bb18d4bba68ad2511"
+    },
+    {
+      "path": "docs/features/academic/arxiv_translation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87963d806892f4ef29b33c98fe2d2601caa8c784",
+      "size": 7136,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/87963d806892f4ef29b33c98fe2d2601caa8c784"
+    },
+    {
+      "path": "docs/features/academic/batch_file_query.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82815fff08534d58dce7adfa06e3af9a883f72de",
+      "size": 9392,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/82815fff08534d58dce7adfa06e3af9a883f72de"
+    },
+    {
+      "path": "docs/features/academic/google_scholar.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e8a615fed0c346f78dc2b5917efeed9d216693a",
+      "size": 7007,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/8e8a615fed0c346f78dc2b5917efeed9d216693a"
+    },
+    {
+      "path": "docs/features/academic/latex_polish.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db10494c19a06f6edc342360ae17ce7f9e37a68c",
+      "size": 8245,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/db10494c19a06f6edc342360ae17ce7f9e37a68c"
+    },
+    {
+      "path": "docs/features/academic/latex_proofread.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e713f50a45175ee410d5aeb381d1ece06f411389",
+      "size": 9566,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/e713f50a45175ee410d5aeb381d1ece06f411389"
+    },
+    {
+      "path": "docs/features/academic/paper_reading.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b656a9746bf91e465a9c096be2e03f490d359e54",
+      "size": 8338,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/b656a9746bf91e465a9c096be2e03f490d359e54"
+    },
+    {
+      "path": "docs/features/academic/pdf_nougat.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dac32b9444ea7cb1d93df296c5b4356ebfd14553",
+      "size": 9162,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/dac32b9444ea7cb1d93df296c5b4356ebfd14553"
+    },
+    {
+      "path": "docs/features/academic/pdf_qa.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d47ee766d0cfdbd76292cec8da324096027ee9d",
+      "size": 7430,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/1d47ee766d0cfdbd76292cec8da324096027ee9d"
+    },
+    {
+      "path": "docs/features/academic/pdf_summary.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81c9a3fae88c5ba9ea4c9d1c0dcff4621f210e2b",
+      "size": 6416,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/81c9a3fae88c5ba9ea4c9d1c0dcff4621f210e2b"
+    },
+    {
+      "path": "docs/features/academic/pdf_translation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e83d5e4778cb546a9ff99fc717f8c1b6f1cb3a6",
+      "size": 7556,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/9e83d5e4778cb546a9ff99fc717f8c1b6f1cb3a6"
+    },
+    {
+      "path": "docs/features/academic/tex_abstract.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b73eb6356f746b64d2416191be68118f7593c3d",
+      "size": 5997,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/9b73eb6356f746b64d2416191be68118f7593c3d"
+    },
+    {
+      "path": "docs/features/academic/word_summary.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6712e93e13a1232e6ce671cd7d403c9b4f64c3e",
+      "size": 6147,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/c6712e93e13a1232e6ce671cd7d403c9b4f64c3e"
+    },
+    {
+      "path": "docs/features/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b582b5b0ce864b4f47168144b77a7c73adf50bbc",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/b582b5b0ce864b4f47168144b77a7c73adf50bbc"
+    },
+    {
+      "path": "docs/features/agents/code_interpreter.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f90c34ba78c659c921daa30223c5876687f9cae",
+      "size": 9149,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/9f90c34ba78c659c921daa30223c5876687f9cae"
+    },
+    {
+      "path": "docs/features/agents/void_terminal.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "054e764deabc878813d0da94bc7f036b4fd1d2b0",
+      "size": 8831,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/054e764deabc878813d0da94bc7f036b4fd1d2b0"
+    },
+    {
+      "path": "docs/features/basic_functions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8c6a2b60e8902b49c93f9b0cf1bd1c61e3e240c",
+      "size": 9686,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/d8c6a2b60e8902b49c93f9b0cf1bd1c61e3e240c"
+    },
+    {
+      "path": "docs/features/basic_operations.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2aa50e4522fbbad60c10278b1d6a56ddf5cb0e8",
+      "size": 11184,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/e2aa50e4522fbbad60c10278b1d6a56ddf5cb0e8"
+    },
+    {
+      "path": "docs/features/conversation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "99d75ab8fdfc14a979af1d32797c0a1130a08c74",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/99d75ab8fdfc14a979af1d32797c0a1130a08c74"
+    },
+    {
+      "path": "docs/features/conversation/conversation_save.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62daaa42a12acf69dd2e7d72afb7078c3b4d085a",
+      "size": 9237,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/62daaa42a12acf69dd2e7d72afb7078c3b4d085a"
+    },
+    {
+      "path": "docs/features/conversation/image_generation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d78bf8acb99daf157ac6f044aa3d15fc88f42c37",
+      "size": 7416,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/d78bf8acb99daf157ac6f044aa3d15fc88f42c37"
+    },
+    {
+      "path": "docs/features/conversation/internet_search.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0715ba4caee305dbbe416fe61ddba7fb1b63cd10",
+      "size": 6825,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/0715ba4caee305dbbe416fe61ddba7fb1b63cd10"
+    },
+    {
+      "path": "docs/features/conversation/mermaid_gen.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78ef6b0cba214446d6787ad79ffe226c2cb81d06",
+      "size": 11304,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/78ef6b0cba214446d6787ad79ffe226c2cb81d06"
+    },
+    {
+      "path": "docs/features/conversation/multi_model_query.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5effaceb931d2b9da417bd69db6f9a7a5225056e",
+      "size": 6838,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/5effaceb931d2b9da417bd69db6f9a7a5225056e"
+    },
+    {
+      "path": "docs/features/conversation/voice_assistant.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3738193a4f81663a166567db7cb6cd6b255c4701",
+      "size": 9690,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/3738193a4f81663a166567db7cb6cd6b255c4701"
+    },
+    {
+      "path": "docs/features/programming",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "667259fe69b1aa60e99c2875ad07127fa83b3ea0",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/667259fe69b1aa60e99c2875ad07127fa83b3ea0"
+    },
+    {
+      "path": "docs/features/programming/batch_comment_gen.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c8c65d49299ca9bab84008c597b8494af87e4df",
+      "size": 9753,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/2c8c65d49299ca9bab84008c597b8494af87e4df"
+    },
+    {
+      "path": "docs/features/programming/code_analysis.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea9e96721e4f29e0db40840a4ce93b1a29d7fa72",
+      "size": 9446,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/ea9e96721e4f29e0db40840a4ce93b1a29d7fa72"
+    },
+    {
+      "path": "docs/features/programming/code_comment.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d977e23218c95c49c3c674ae9494ed3f6d36f43",
+      "size": 8029,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/6d977e23218c95c49c3c674ae9494ed3f6d36f43"
+    },
+    {
+      "path": "docs/features/programming/custom_code_analysis.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28a90b645def27304fb81e6cf018e20bcc0bdaa0",
+      "size": 9655,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/28a90b645def27304fb81e6cf018e20bcc0bdaa0"
+    },
+    {
+      "path": "docs/features/programming/jupyter_analysis.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bdebaf19d4382cb8135a0a7901e0b2609332fa0",
+      "size": 9191,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/4bdebaf19d4382cb8135a0a7901e0b2609332fa0"
+    },
+    {
+      "path": "docs/features/programming/markdown_translate.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa2851e712db41309607cfdff1429db66a7c3349",
+      "size": 7595,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/aa2851e712db41309607cfdff1429db66a7c3349"
+    },
+    {
+      "path": "docs/get_started",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eb74991b4b6685bd9ca516b75f387ed6781da9ee",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/eb74991b4b6685bd9ca516b75f387ed6781da9ee"
+    },
+    {
+      "path": "docs/get_started/configuration.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cbbe56f2b6c0ca55e8ccafde3766823bc31f9e6",
+      "size": 7064,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/3cbbe56f2b6c0ca55e8ccafde3766823bc31f9e6"
+    },
+    {
+      "path": "docs/get_started/installation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35482f1ce640c008401e0f876d08e391d80595e7",
+      "size": 4932,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/35482f1ce640c008401e0f876d08e391d80595e7"
+    },
+    {
+      "path": "docs/get_started/quickstart.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06ef85287a640be846d514b77e4967ea268b9892",
+      "size": 6421,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/06ef85287a640be846d514b77e4967ea268b9892"
+    },
+    {
+      "path": "docs/index.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d08317593f6a732e7d0f39f294a607f7ec6ff5e",
+      "size": 5051,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/3d08317593f6a732e7d0f39f294a607f7ec6ff5e"
+    },
+    {
+      "path": "docs/javascripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5e78b13d39d9ac55877a648ec0f5bb9630fbae56",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/5e78b13d39d9ac55877a648ec0f5bb9630fbae56"
+    },
+    {
+      "path": "docs/javascripts/animations.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5dc584a2a2c99587531477131e7e95e4b2e722d",
+      "size": 11533,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/a5dc584a2a2c99587531477131e7e95e4b2e722d"
+    },
+    {
+      "path": "docs/javascripts/code-copy.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f66108fc4097bb9c8af4df823f0a579b6d39513",
+      "size": 6169,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/9f66108fc4097bb9c8af4df823f0a579b6d39513"
+    },
+    {
+      "path": "docs/javascripts/code-zoom.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22d3d6246c5f72c4b7784ff4256699d5e855e932",
+      "size": 30,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/22d3d6246c5f72c4b7784ff4256699d5e855e932"
+    },
+    {
+      "path": "docs/javascripts/nav-scroll-fix.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b295f8bfb75c5e5ef8baa0c006144fd4477dec5",
+      "size": 3927,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/3b295f8bfb75c5e5ef8baa0c006144fd4477dec5"
+    },
+    {
+      "path": "docs/javascripts/responsive.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d57c4db2d8ec63d9fac26da963db9e2353e0897c",
+      "size": 10527,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/d57c4db2d8ec63d9fac26da963db9e2353e0897c"
+    },
+    {
+      "path": "docs/javascripts/search-fix.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "444f2af910fbb69900f1992ed27055b07236b294",
+      "size": 31,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/444f2af910fbb69900f1992ed27055b07236b294"
+    },
+    {
+      "path": "docs/javascripts/tabbed-code.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfd19559162d1a4fe110c9c91c27b76ecf9551a5",
+      "size": 5717,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/cfd19559162d1a4fe110c9c91c27b76ecf9551a5"
+    },
+    {
+      "path": "docs/logo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "567dee1a957833b9a925cf709c6ebedce482bd43",
+      "size": 11335,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/567dee1a957833b9a925cf709c6ebedce482bd43"
+    },
+    {
+      "path": "docs/models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c3a65ee78067fca1f06913e6b9d45a9ca563b944",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/c3a65ee78067fca1f06913e6b9d45a9ca563b944"
+    },
+    {
+      "path": "docs/models/azure.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8699fc3a2c9560bbfc3590dfaf821f45300277f2",
+      "size": 9000,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/8699fc3a2c9560bbfc3590dfaf821f45300277f2"
+    },
+    {
+      "path": "docs/models/custom_models.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "389f27b7a6a9e663ff5befd3308ac49d86d12df5",
+      "size": 16738,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/389f27b7a6a9e663ff5befd3308ac49d86d12df5"
+    },
+    {
+      "path": "docs/models/local_models.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c41a006d2286efb885527fe0c5c452838e5ef52",
+      "size": 10933,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/0c41a006d2286efb885527fe0c5c452838e5ef52"
+    },
+    {
+      "path": "docs/models/openai.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a213e667eb5b6773fe563c749f5e6cee6233842",
+      "size": 8638,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/2a213e667eb5b6773fe563c749f5e6cee6233842"
+    },
+    {
+      "path": "docs/models/overview.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb0235e349a462a81a645869195a24c692612942",
+      "size": 8881,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/cb0235e349a462a81a645869195a24c692612942"
+    },
+    {
+      "path": "docs/models/transit_api.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5afb1480a196ef965a9dff58d6611343fcd52621",
+      "size": 8907,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/5afb1480a196ef965a9dff58d6611343fcd52621"
+    },
+    {
+      "path": "docs/plugin_with_secondary_menu.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "297467426cedf6123edcaa738d3a72fb1292b25c",
+      "size": 8559,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/297467426cedf6123edcaa738d3a72fb1292b25c"
+    },
+    {
+      "path": "docs/reference",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "487632a19a81f5ea923038e3cfbf0a544f27e27f",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/487632a19a81f5ea923038e3cfbf0a544f27e27f"
+    },
+    {
+      "path": "docs/reference/changelog.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f26c264d53e9665ea7860658dab557efc65a302",
+      "size": 4093,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/8f26c264d53e9665ea7860658dab557efc65a302"
+    },
+    {
+      "path": "docs/reference/config_reference.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca04c7a04ea1470ba93795305f2f679d26929d72",
+      "size": 12477,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/ca04c7a04ea1470ba93795305f2f679d26929d72"
+    },
+    {
+      "path": "docs/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db4f637c8512eb8fef08ef8e2c61f48dd75ddce8",
+      "size": 250,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/db4f637c8512eb8fef08ef8e2c61f48dd75ddce8"
+    },
+    {
+      "path": "docs/self_analysis.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb09fe23c3ec0ec01aa4614cb2866142ef59c1c0",
+      "size": 39424,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/bb09fe23c3ec0ec01aa4614cb2866142ef59c1c0"
+    },
+    {
+      "path": "docs/stylesheets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c13a3e2253ad38f3f6d3261b4e7247d964e21e9a",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/c13a3e2253ad38f3f6d3261b4e7247d964e21e9a"
+    },
+    {
+      "path": "docs/stylesheets/animations.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d390ff7d99ccfdb5a506c1cf4f1fc58fbcb4389",
+      "size": 18818,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/9d390ff7d99ccfdb5a506c1cf4f1fc58fbcb4389"
+    },
+    {
+      "path": "docs/stylesheets/code-enhancements.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "462435b7a11e26acc77857bc87b444be75ea9fb7",
+      "size": 13626,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/462435b7a11e26acc77857bc87b444be75ea9fb7"
+    },
+    {
+      "path": "docs/stylesheets/feature-cards.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d98113c37b2527d08df6db3e191c02cdd47e1ba",
+      "size": 12625,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/8d98113c37b2527d08df6db3e191c02cdd47e1ba"
+    },
+    {
+      "path": "docs/stylesheets/flowchart.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "345b94f1ac0fe85acc729d7e9dac118da6c2043b",
+      "size": 10108,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/345b94f1ac0fe85acc729d7e9dac118da6c2043b"
+    },
+    {
+      "path": "docs/stylesheets/jupyter-simple.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "864c59bd39da0bf9afef595a86a71b40f277b192",
+      "size": 6662,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/864c59bd39da0bf9afef595a86a71b40f277b192"
+    },
+    {
+      "path": "docs/stylesheets/mermaid.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6425914c861798e9f3c9bec3e6054ffc9870977",
+      "size": 2538,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/f6425914c861798e9f3c9bec3e6054ffc9870977"
+    },
+    {
+      "path": "docs/stylesheets/mkdocstrings.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77b042c632a0f6e0af9a1a8174b5e180a63bd9cf",
+      "size": 8717,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/77b042c632a0f6e0af9a1a8174b5e180a63bd9cf"
+    },
+    {
+      "path": "docs/stylesheets/nav-scroll-fix.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4fefc16eede4df9de3d0f9f8b8f0a2ac7a88a16",
+      "size": 11224,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/c4fefc16eede4df9de3d0f9f8b8f0a2ac7a88a16"
+    },
+    {
+      "path": "docs/stylesheets/readability-enhancements.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19865c41fd3a4c93af7923bdbcdfc855f9c0e695",
+      "size": 6995,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/19865c41fd3a4c93af7923bdbcdfc855f9c0e695"
+    },
+    {
+      "path": "docs/stylesheets/responsive.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67cc73629f261e94e0001a1e6656d482e58dd887",
+      "size": 19914,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/67cc73629f261e94e0001a1e6656d482e58dd887"
+    },
+    {
+      "path": "docs/stylesheets/syntax-highlight.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cfcf6ba45c89b127867c25a737ab6d034baa102",
+      "size": 6191,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/7cfcf6ba45c89b127867c25a737ab6d034baa102"
+    },
+    {
+      "path": "docs/stylesheets/tabbed-code.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "220b4d3d8be82804cdecebfb86f400d165aca36f",
+      "size": 14053,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/220b4d3d8be82804cdecebfb86f400d165aca36f"
+    },
+    {
+      "path": "docs/stylesheets/table-enhancements.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78be88b290bcc9681ad1bcddd0c339571c347233",
+      "size": 7744,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/78be88b290bcc9681ad1bcddd0c339571c347233"
+    },
+    {
+      "path": "docs/stylesheets/workflow.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bac2c943156649849d6764e183f0bd52cc7f42c",
+      "size": 5796,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/2bac2c943156649849d6764e183f0bd52cc7f42c"
+    },
+    {
+      "path": "docs/translate_english.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f98328c4dda9236fa01d0c99f4236d75da78672a",
+      "size": 446937,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/f98328c4dda9236fa01d0c99f4236d75da78672a"
+    },
+    {
+      "path": "docs/translate_japanese.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "707a731f12a6934cf0b1daf0a04c010eb138227b",
+      "size": 161826,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/707a731f12a6934cf0b1daf0a04c010eb138227b"
+    },
+    {
+      "path": "docs/translate_std.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a850d817345bbcd84ac80751b7e08da843dfda2",
+      "size": 6739,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/2a850d817345bbcd84ac80751b7e08da843dfda2"
+    },
+    {
+      "path": "docs/translate_traditionalchinese.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41cf3626ec948f573bc184ff865a34f705f7ba2d",
+      "size": 141452,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/41cf3626ec948f573bc184ff865a34f705f7ba2d"
+    },
+    {
+      "path": "docs/troubleshooting",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a715f305dee7be0b7ecd11ce279d4c69db9cd14b",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/a715f305dee7be0b7ecd11ce279d4c69db9cd14b"
+    },
+    {
+      "path": "docs/troubleshooting/faq.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84ca23f91eef5d37939f1a5b6648d7ac7bfd1ed6",
+      "size": 11103,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/84ca23f91eef5d37939f1a5b6648d7ac7bfd1ed6"
+    },
+    {
+      "path": "docs/troubleshooting/model_errors.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51dbba874e11161f3d896a0d6bc0ed7eb390e9d5",
+      "size": 10853,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/51dbba874e11161f3d896a0d6bc0ed7eb390e9d5"
+    },
+    {
+      "path": "docs/troubleshooting/network_issues.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e685f1ebee4526e3483ea806934affc29a4d5ec8",
+      "size": 11438,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/e685f1ebee4526e3483ea806934affc29a4d5ec8"
+    },
+    {
+      "path": "docs/use_audio.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0889325c9242e78d9fbf42704b0f3d8c61b18fb4",
+      "size": 3450,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/0889325c9242e78d9fbf42704b0f3d8c61b18fb4"
+    },
+    {
+      "path": "docs/use_azure.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e192ba6a215b834b5645bb8d48bba7883153240",
+      "size": 7463,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/0e192ba6a215b834b5645bb8d48bba7883153240"
+    },
+    {
+      "path": "docs/use_tts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b9df4162d2243234ceda7369309711e97a9d014",
+      "size": 1737,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/5b9df4162d2243234ceda7369309711e97a9d014"
+    },
+    {
+      "path": "docs/use_vllm.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88abeb4c8d668f2cc20e83dfddf9c98a78976278",
+      "size": 1270,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/88abeb4c8d668f2cc20e83dfddf9c98a78976278"
+    },
+    {
+      "path": "main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4672616ed776a99d1aa9c23e0e60c3ebbda8e72f",
+      "size": 24487,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/4672616ed776a99d1aa9c23e0e60c3ebbda8e72f"
+    },
+    {
+      "path": "mkdocs.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b9eb7028049903c7ad0c56bc0ce17d62419add9",
+      "size": 5373,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/0b9eb7028049903c7ad0c56bc0ce17d62419add9"
+    },
+    {
+      "path": "multi_language.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3334356efbf38b6780d8c28b5227308d1c317f13",
+      "size": 22433,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/3334356efbf38b6780d8c28b5227308d1c317f13"
+    },
+    {
+      "path": "request_llms",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f32b252d4ab2fb2d5353084383c2d42fabbfa1bb",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/f32b252d4ab2fb2d5353084383c2d42fabbfa1bb"
+    },
+    {
+      "path": "request_llms/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a51592ab8751bed5583532c8d552ba492c54c86",
+      "size": 1605,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/5a51592ab8751bed5583532c8d552ba492c54c86"
+    },
+    {
+      "path": "request_llms/bridge_all.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4562c9f10d513cc41334372148a642312764a437",
+      "size": 60377,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/4562c9f10d513cc41334372148a642312764a437"
+    },
+    {
+      "path": "request_llms/bridge_chatglm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8ef403452e2a831c00f8e849490a6bb12d7ceef",
+      "size": 3577,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/b8ef403452e2a831c00f8e849490a6bb12d7ceef"
+    },
+    {
+      "path": "request_llms/bridge_chatglm3.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "678118586028e508552237fbcc5ad12fe0398426",
+      "size": 4031,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/678118586028e508552237fbcc5ad12fe0398426"
+    },
+    {
+      "path": "request_llms/bridge_chatglm4.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e0ba854adfa5c9bc8b2c7c97a41275dff73b7c4",
+      "size": 3546,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/1e0ba854adfa5c9bc8b2c7c97a41275dff73b7c4"
+    },
+    {
+      "path": "request_llms/bridge_chatglmft.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7aac355f7b1ac7e835a7df174e0b3cd38aa0d78a",
+      "size": 9497,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/7aac355f7b1ac7e835a7df174e0b3cd38aa0d78a"
+    },
+    {
+      "path": "request_llms/bridge_chatglmonnx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc34eda24559123b43e13df272bd9ec3847f1928",
+      "size": 3115,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/bc34eda24559123b43e13df272bd9ec3847f1928"
+    },
+    {
+      "path": "request_llms/bridge_chatgpt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a6869699dac8d4ca2039611c99ab4a0dad20652",
+      "size": 29555,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/8a6869699dac8d4ca2039611c99ab4a0dad20652"
+    },
+    {
+      "path": "request_llms/bridge_chatgpt_vision.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0c14509d8d73894baae52df0db901bf54c5eec9",
+      "size": 15600,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/f0c14509d8d73894baae52df0db901bf54c5eec9"
+    },
+    {
+      "path": "request_llms/bridge_claude.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be9154fd68a7ea6ba8ac774c436ec18317032062",
+      "size": 13875,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/be9154fd68a7ea6ba8ac774c436ec18317032062"
+    },
+    {
+      "path": "request_llms/bridge_cohere.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed5f1440e90a7ae2470d414831b7d5107bf56efa",
+      "size": 16697,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/ed5f1440e90a7ae2470d414831b7d5107bf56efa"
+    },
+    {
+      "path": "request_llms/bridge_deepseekcoder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e850f29a1db6136d73e75521a3cb168e0696ab84",
+      "size": 6341,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/e850f29a1db6136d73e75521a3cb168e0696ab84"
+    },
+    {
+      "path": "request_llms/bridge_google_gemini.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da8c53acf766589e4eab44abd3dbd23ae1a91ffc",
+      "size": 6077,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/da8c53acf766589e4eab44abd3dbd23ae1a91ffc"
+    },
+    {
+      "path": "request_llms/bridge_internlm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64f38b07eca97969a192589e6bde06653233a0a7",
+      "size": 9860,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/64f38b07eca97969a192589e6bde06653233a0a7"
+    },
+    {
+      "path": "request_llms/bridge_jittorllms_llama.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37173cd72060cda65ba2acbb0af816acba0b6c52",
+      "size": 7784,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/37173cd72060cda65ba2acbb0af816acba0b6c52"
+    },
+    {
+      "path": "request_llms/bridge_jittorllms_pangualpha.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17847fa9d12fc3ffed89bc261d6c2f5b8c0fd2cf",
+      "size": 7789,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/17847fa9d12fc3ffed89bc261d6c2f5b8c0fd2cf"
+    },
+    {
+      "path": "request_llms/bridge_jittorllms_rwkv.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b430c46cf818e75c2a90cd645046a6a2310920ae",
+      "size": 7770,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/b430c46cf818e75c2a90cd645046a6a2310920ae"
+    },
+    {
+      "path": "request_llms/bridge_llama2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f66b432febfbf9a9d0aa43df34846d6fb12cabf3",
+      "size": 4438,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/f66b432febfbf9a9d0aa43df34846d6fb12cabf3"
+    },
+    {
+      "path": "request_llms/bridge_moonshot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "722cf9f90cbcfdda357f5c4b714fb5222e34b45f",
+      "size": 8892,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/722cf9f90cbcfdda357f5c4b714fb5222e34b45f"
+    },
+    {
+      "path": "request_llms/bridge_moss.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd84acd7d4463ea810b1618b8e097cfec87f987c",
+      "size": 11131,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/dd84acd7d4463ea810b1618b8e097cfec87f987c"
+    },
+    {
+      "path": "request_llms/bridge_newbingfree.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d516a51fdef0a8b35ba3440c9606ba8f0756eae3",
+      "size": 11320,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/d516a51fdef0a8b35ba3440c9606ba8f0756eae3"
+    },
+    {
+      "path": "request_llms/bridge_ollama.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3770e6a49ce655deb311af814d702c8a533947c",
+      "size": 12339,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/c3770e6a49ce655deb311af814d702c8a533947c"
+    },
+    {
+      "path": "request_llms/bridge_openrouter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "134cadc969c64d9c06d00b42796f413c4ef7b161",
+      "size": 27238,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/134cadc969c64d9c06d00b42796f413c4ef7b161"
+    },
+    {
+      "path": "request_llms/bridge_qianfan.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e409b450d9f95cc994d8d4e8831a4ca0cd5de220",
+      "size": 8146,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/e409b450d9f95cc994d8d4e8831a4ca0cd5de220"
+    },
+    {
+      "path": "request_llms/bridge_qwen.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60dd496db3dabb54d80b835bb08a8ecf62868682",
+      "size": 2838,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/60dd496db3dabb54d80b835bb08a8ecf62868682"
+    },
+    {
+      "path": "request_llms/bridge_qwen_local.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "716c8eda2bafbf9c261cee34d9c8004311a40cd3",
+      "size": 2919,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/716c8eda2bafbf9c261cee34d9c8004311a40cd3"
+    },
+    {
+      "path": "request_llms/bridge_skylark2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d4e2b0b498e42857a4631cfbb1d5ee21ce97564",
+      "size": 2818,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/0d4e2b0b498e42857a4631cfbb1d5ee21ce97564"
+    },
+    {
+      "path": "request_llms/bridge_spark.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f8e8615c11dc9a51efd7c5eaa234be6a3492ea1",
+      "size": 2615,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/5f8e8615c11dc9a51efd7c5eaa234be6a3492ea1"
+    },
+    {
+      "path": "request_llms/bridge_stackclaude.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b62b231beaa2a1d335b651f0c6a3711821a387d",
+      "size": 11580,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/0b62b231beaa2a1d335b651f0c6a3711821a387d"
+    },
+    {
+      "path": "request_llms/bridge_taichu.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a7cc6bc6b8b4d3b1922da99c9c23f35ff4ab603",
+      "size": 2842,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/4a7cc6bc6b8b4d3b1922da99c9c23f35ff4ab603"
+    },
+    {
+      "path": "request_llms/bridge_tgui.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df946533fc2aff573424792d9193c7cc65e2139c",
+      "size": 6519,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/df946533fc2aff573424792d9193c7cc65e2139c"
+    },
+    {
+      "path": "request_llms/bridge_zhipu.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e547d0fc8023a726476bfdee473c758cca84deb0",
+      "size": 4346,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/e547d0fc8023a726476bfdee473c758cca84deb0"
+    },
+    {
+      "path": "request_llms/chatglmoonx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9f0d25e65b3d46526a61af1845407d5f7d0f4f2",
+      "size": 7784,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/c9f0d25e65b3d46526a61af1845407d5f7d0f4f2"
+    },
+    {
+      "path": "request_llms/com_google.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79a1cd2ef00400852faefb84a857e0ed7287302c",
+      "size": 8178,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/79a1cd2ef00400852faefb84a857e0ed7287302c"
+    },
+    {
+      "path": "request_llms/com_qwenapi.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edbf9d7b55265ac70bb08bad0172f38b2d7fca70",
+      "size": 4933,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/edbf9d7b55265ac70bb08bad0172f38b2d7fca70"
+    },
+    {
+      "path": "request_llms/com_skylark2api.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3dca250607dfccf4e27404c8fba406af7fbbc190",
+      "size": 4164,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/3dca250607dfccf4e27404c8fba406af7fbbc190"
+    },
+    {
+      "path": "request_llms/com_sparkapi.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84e95e5d7e6d8cb4e7deebabea493e1229586c01",
+      "size": 8856,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/84e95e5d7e6d8cb4e7deebabea493e1229586c01"
+    },
+    {
+      "path": "request_llms/com_taichu.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22f8f5eb9dfa762673b3b4a48b827b65e72b5f5e",
+      "size": 2119,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/22f8f5eb9dfa762673b3b4a48b827b65e72b5f5e"
+    },
+    {
+      "path": "request_llms/com_zhipuglm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0935d2c2cb4f51492db85e342e6010f220db7e69",
+      "size": 5889,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/0935d2c2cb4f51492db85e342e6010f220db7e69"
+    },
+    {
+      "path": "request_llms/edge_gpt_free.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0122a52852fcb0f369d2269410569d8cad7c73b",
+      "size": 38088,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/d0122a52852fcb0f369d2269410569d8cad7c73b"
+    },
+    {
+      "path": "request_llms/embed_models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e684dd52949e33767f5ce77bd58110cd5dfb959f",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/e684dd52949e33767f5ce77bd58110cd5dfb959f"
+    },
+    {
+      "path": "request_llms/embed_models/bge_llm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2732efccc91c64da5efb1bdb83d20785ba1b1724",
+      "size": 4546,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/2732efccc91c64da5efb1bdb83d20785ba1b1724"
+    },
+    {
+      "path": "request_llms/embed_models/bridge_all_embed.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95dc243a4b35f632881e69d76969cc145bc62829",
+      "size": 1692,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/95dc243a4b35f632881e69d76969cc145bc62829"
+    },
+    {
+      "path": "request_llms/embed_models/openai_embed.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15d19623229beaae519007fa2590827c1c083775",
+      "size": 2942,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/15d19623229beaae519007fa2590827c1c083775"
+    },
+    {
+      "path": "request_llms/key_manager.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "321c6b1a4850812c7c0c5bdbb5cb5cd1837bbc02",
+      "size": 878,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/321c6b1a4850812c7c0c5bdbb5cb5cd1837bbc02"
+    },
+    {
+      "path": "request_llms/local_llm_class.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91d38c76a85ed1ac7b8d874d9021f695e2349ff9",
+      "size": 13517,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/91d38c76a85ed1ac7b8d874d9021f695e2349ff9"
+    },
+    {
+      "path": "request_llms/oai_std_model_template.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcd3ad6160f509bbcc894b98b51775b479e3f096",
+      "size": 17402,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/fcd3ad6160f509bbcc894b98b51775b479e3f096"
+    },
+    {
+      "path": "request_llms/queued_pipe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fc2e5bd53801898dbf0c98268de9e10c37bace9",
+      "size": 593,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/1fc2e5bd53801898dbf0c98268de9e10c37bace9"
+    },
+    {
+      "path": "request_llms/requirements_chatglm.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dabdd8ea519c3f9e59031bb6b73d55502c89f99a",
+      "size": 58,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/dabdd8ea519c3f9e59031bb6b73d55502c89f99a"
+    },
+    {
+      "path": "request_llms/requirements_chatglm4.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "327590209785a83daf696f9ac09a2c29a05c0508",
+      "size": 88,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/327590209785a83daf696f9ac09a2c29a05c0508"
+    },
+    {
+      "path": "request_llms/requirements_chatglm_onnx.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cd11f69d06adea5a276d6832e6571b7e66c2a5c",
+      "size": 90,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/2cd11f69d06adea5a276d6832e6571b7e66c2a5c"
+    },
+    {
+      "path": "request_llms/requirements_jittorllms.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bd2da8bb2b8cc3624758c52e1bd429d95df607c",
+      "size": 65,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/2bd2da8bb2b8cc3624758c52e1bd429d95df607c"
+    },
+    {
+      "path": "request_llms/requirements_moss.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1f84f0415d98a848a412d6bce77d90792de633f",
+      "size": 74,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/a1f84f0415d98a848a412d6bce77d90792de633f"
+    },
+    {
+      "path": "request_llms/requirements_newbing.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73455f48cbf6474e221b9bbb87298722c0ac80f8",
+      "size": 84,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/73455f48cbf6474e221b9bbb87298722c0ac80f8"
+    },
+    {
+      "path": "request_llms/requirements_qwen.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9617907be68516ff85ab10097a5e52423664c8e",
+      "size": 10,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/e9617907be68516ff85ab10097a5e52423664c8e"
+    },
+    {
+      "path": "request_llms/requirements_qwen_local.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4715f3f5e48ff41e828a86b69c2fa90c039fe14",
+      "size": 69,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/c4715f3f5e48ff41e828a86b69c2fa90c039fe14"
+    },
+    {
+      "path": "request_llms/requirements_slackclaude.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c8563efb570325a9145f1e9af972ee34b394904",
+      "size": 18,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/7c8563efb570325a9145f1e9af972ee34b394904"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "615dfbfece1df6eb3fca7981fbc1f7290154438d",
+      "size": 801,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/615dfbfece1df6eb3fca7981fbc1f7290154438d"
+    },
+    {
+      "path": "shared_utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6a7d97fab87bca8709b61625aecd70cfa7f7d040",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/6a7d97fab87bca8709b61625aecd70cfa7f7d040"
+    },
+    {
+      "path": "shared_utils/advanced_markdown_format.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4125894383b496cda41446dc8a2f76deef4a009",
+      "size": 19207,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/a4125894383b496cda41446dc8a2f76deef4a009"
+    },
+    {
+      "path": "shared_utils/char_visual_effect.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ad60b1e195999fc4aa2983e30cd7dbb9dc71339",
+      "size": 821,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/4ad60b1e195999fc4aa2983e30cd7dbb9dc71339"
+    },
+    {
+      "path": "shared_utils/colorful.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8166c113a1d1843619ff3a7b2ca4d56456b485c",
+      "size": 2850,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/f8166c113a1d1843619ff3a7b2ca4d56456b485c"
+    },
+    {
+      "path": "shared_utils/config_loader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a0fc1a4554f7cf450d5ce58028eb6b2a8e31921",
+      "size": 6071,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/5a0fc1a4554f7cf450d5ce58028eb6b2a8e31921"
+    },
+    {
+      "path": "shared_utils/connect_void_terminal.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "656da800acbd8a76a5ab01a37d491f0df0cff050",
+      "size": 2661,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/656da800acbd8a76a5ab01a37d491f0df0cff050"
+    },
+    {
+      "path": "shared_utils/context_clip_policy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d38c68ea5f6f6cfd0e4d6fbb4f41236a690bb91",
+      "size": 13462,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/3d38c68ea5f6f6cfd0e4d6fbb4f41236a690bb91"
+    },
+    {
+      "path": "shared_utils/cookie_manager.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13f3052baea23201d53b8e38288a3512600867c1",
+      "size": 6566,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/13f3052baea23201d53b8e38288a3512600867c1"
+    },
+    {
+      "path": "shared_utils/doc_loader_dynamic.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0f42467b18a7a687256154da91bcf34954ea0b3",
+      "size": 2956,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/a0f42467b18a7a687256154da91bcf34954ea0b3"
+    },
+    {
+      "path": "shared_utils/docker_as_service_api.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0674c7d89ed3fa70ac9d39665bd48c6aa1bf183f",
+      "size": 3976,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/0674c7d89ed3fa70ac9d39665bd48c6aa1bf183f"
+    },
+    {
+      "path": "shared_utils/fastapi_server.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f00e94f690b95b22fbacd3b8f3d7e233b22283c",
+      "size": 13860,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/3f00e94f690b95b22fbacd3b8f3d7e233b22283c"
+    },
+    {
+      "path": "shared_utils/fastapi_stream_server.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b4873b750c0ff5b7cb773bf01f8a27f8b6396a5",
+      "size": 26837,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/1b4873b750c0ff5b7cb773bf01f8a27f8b6396a5"
+    },
+    {
+      "path": "shared_utils/handle_upload.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e75d41b7bc0f55dc9b358f65421c1ee7447a125d",
+      "size": 7023,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/e75d41b7bc0f55dc9b358f65421c1ee7447a125d"
+    },
+    {
+      "path": "shared_utils/key_pattern_manager.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf746786a96ca2d4af20dcdac82426ae055838d6",
+      "size": 4688,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/bf746786a96ca2d4af20dcdac82426ae055838d6"
+    },
+    {
+      "path": "shared_utils/logging.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cf2fa6ace7a349cdda8b27f24109f3fa204b53b",
+      "size": 2598,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/3cf2fa6ace7a349cdda8b27f24109f3fa204b53b"
+    },
+    {
+      "path": "shared_utils/map_names.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f98ce1d893b1ec9b2e5f75f8b8114d6cf05d12d8",
+      "size": 1084,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/f98ce1d893b1ec9b2e5f75f8b8114d6cf05d12d8"
+    },
+    {
+      "path": "shared_utils/nltk_downloader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05e16d77ddb60761a4037142bb85dcab249c78c3",
+      "size": 93052,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/05e16d77ddb60761a4037142bb85dcab249c78c3"
+    },
+    {
+      "path": "shared_utils/text_mask.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2645ac80350039c5a624b7ff526ad405e29c343b",
+      "size": 5630,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/2645ac80350039c5a624b7ff526ad405e29c343b"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0e46df033ab10bc90b72c8a6d8da6c09827a9d65",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/0e46df033ab10bc90b72c8a6d8da6c09827a9d65"
+    },
+    {
+      "path": "tests/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/init_test.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf97fc343ba429497327f19dd591197d9c2987b3",
+      "size": 281,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/cf97fc343ba429497327f19dd591197d9c2987b3"
+    },
+    {
+      "path": "tests/test_academic_conversation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91d49608a1c2b744d50cf6237a1115cdfc69ad3e",
+      "size": 3989,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/91d49608a1c2b744d50cf6237a1115cdfc69ad3e"
+    },
+    {
+      "path": "tests/test_anim_gen.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e256d095e4835cdebf68d096849ae18b8a87cb87",
+      "size": 383,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/e256d095e4835cdebf68d096849ae18b8a87cb87"
+    },
+    {
+      "path": "tests/test_bilibili_down.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "129a26cc0faaec50e56631c9ec82ed0d9d35ee35",
+      "size": 526,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/129a26cc0faaec50e56631c9ec82ed0d9d35ee35"
+    },
+    {
+      "path": "tests/test_doc2x.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d02c4b7b350f7438cc936ac613c6084cdaec2ab",
+      "size": 317,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/9d02c4b7b350f7438cc936ac613c6084cdaec2ab"
+    },
+    {
+      "path": "tests/test_embed.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46564852a869d141415741106b636d12690724f3",
+      "size": 66964,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/46564852a869d141415741106b636d12690724f3"
+    },
+    {
+      "path": "tests/test_key_pattern_manager.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48eb4244eb1854bf993ed7f83fa9f2aabbf6a0cf",
+      "size": 3107,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/48eb4244eb1854bf993ed7f83fa9f2aabbf6a0cf"
+    },
+    {
+      "path": "tests/test_latex_auto_correct.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a69045b9b489cbb488d924804c47dae26c15ec5b",
+      "size": 997,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/a69045b9b489cbb488d924804c47dae26c15ec5b"
+    },
+    {
+      "path": "tests/test_llms.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3430e116048dd4b5367980e3b095d72c9b680589",
+      "size": 2328,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/3430e116048dd4b5367980e3b095d72c9b680589"
+    },
+    {
+      "path": "tests/test_markdown.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b25620ab331a3dc85e8b2e96f432836877338a4a",
+      "size": 11099,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/b25620ab331a3dc85e8b2e96f432836877338a4a"
+    },
+    {
+      "path": "tests/test_markdown_format.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8255478474a379fafd43a40278e6a8e802aae4f0",
+      "size": 6053,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/8255478474a379fafd43a40278e6a8e802aae4f0"
+    },
+    {
+      "path": "tests/test_media.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80987bb7324279695465485427a78c5e3c5013cc",
+      "size": 4026,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/80987bb7324279695465485427a78c5e3c5013cc"
+    },
+    {
+      "path": "tests/test_plugins.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2433bd1c191d520df9c26a38043608b3dd3deb74",
+      "size": 3977,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/2433bd1c191d520df9c26a38043608b3dd3deb74"
+    },
+    {
+      "path": "tests/test_python_auto_docstring.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bfe585c0d3bc6db1a334fa56f9b6aeae1767be6",
+      "size": 11598,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/5bfe585c0d3bc6db1a334fa56f9b6aeae1767be6"
+    },
+    {
+      "path": "tests/test_rag.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/test_safe_pickle.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf23ba556f0ab796711240eb8d461b36fe7f6963",
+      "size": 567,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/cf23ba556f0ab796711240eb8d461b36fe7f6963"
+    },
+    {
+      "path": "tests/test_save_chat_to_html.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31992716d5d0453b5e4f9f7aca2df5d9af1f5ccf",
+      "size": 4285,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/31992716d5d0453b5e4f9f7aca2df5d9af1f5ccf"
+    },
+    {
+      "path": "tests/test_searxng.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a8512db4386f8b72ccebf84cda8d7bfd9661474",
+      "size": 2261,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/2a8512db4386f8b72ccebf84cda8d7bfd9661474"
+    },
+    {
+      "path": "tests/test_social_helper.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f99b4c741dd618f5b5edf88d2a327c6d36f60098",
+      "size": 980,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/f99b4c741dd618f5b5edf88d2a327c6d36f60098"
+    },
+    {
+      "path": "tests/test_tts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e07048f31d51efaaf3d693a8d6cec670f2b67cb5",
+      "size": 1250,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/e07048f31d51efaaf3d693a8d6cec670f2b67cb5"
+    },
+    {
+      "path": "tests/test_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ae867af5994d0cc795c6f97020586aa55c2444f",
+      "size": 3084,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/2ae867af5994d0cc795c6f97020586aa55c2444f"
+    },
+    {
+      "path": "tests/test_vector_plugins.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63609ed77f1f517ef93521ca1f8e3a1d293087a0",
+      "size": 810,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/63609ed77f1f517ef93521ca1f8e3a1d293087a0"
+    },
+    {
+      "path": "themes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9124648b8dcb1a74758bc80baacebaa10dc5ed6d",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/9124648b8dcb1a74758bc80baacebaa10dc5ed6d"
+    },
+    {
+      "path": "themes/base64.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b842822bd75fdc06508b732335864a2ffd66a418",
+      "size": 96,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/b842822bd75fdc06508b732335864a2ffd66a418"
+    },
+    {
+      "path": "themes/common.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "343adfd19ee68ee2656fa7a724960b26efce7e30",
+      "size": 8191,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/343adfd19ee68ee2656fa7a724960b26efce7e30"
+    },
+    {
+      "path": "themes/common.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "754caea2c822a8e8b690de249d649694e098f9e8",
+      "size": 61114,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/754caea2c822a8e8b690de249d649694e098f9e8"
+    },
+    {
+      "path": "themes/common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3ee23d72747a7412dd8c3c894fc1baf034a4714",
+      "size": 2684,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/f3ee23d72747a7412dd8c3c894fc1baf034a4714"
+    },
+    {
+      "path": "themes/contrast.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "980a7e4fb6228723b8b83faf1892da9bad25298b",
+      "size": 20270,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/980a7e4fb6228723b8b83faf1892da9bad25298b"
+    },
+    {
+      "path": "themes/contrast.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "647e023ca02d23fb394b4ad8449bc3c3fb1c69b9",
+      "size": 4994,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/647e023ca02d23fb394b4ad8449bc3c3fb1c69b9"
+    },
+    {
+      "path": "themes/cookies.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "themes/default.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b1434042e08b37703d49ae6dc4171145ed620bc",
+      "size": 13678,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/4b1434042e08b37703d49ae6dc4171145ed620bc"
+    },
+    {
+      "path": "themes/default.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1542cb11f6644fd8599e26fdeabecaac2f4a96da",
+      "size": 4992,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/1542cb11f6644fd8599e26fdeabecaac2f4a96da"
+    },
+    {
+      "path": "themes/gradios.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "540e22bade614518aed6196d7182ed38a213c675",
+      "size": 2362,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/540e22bade614518aed6196d7182ed38a213c675"
+    },
+    {
+      "path": "themes/green.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0490b843563130eb3e9b47a8fd76ca7ac1ef1f2",
+      "size": 30834,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/b0490b843563130eb3e9b47a8fd76ca7ac1ef1f2"
+    },
+    {
+      "path": "themes/green.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7801b970d253b2372456ab0b25804189a3434bf5",
+      "size": 1257,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/7801b970d253b2372456ab0b25804189a3434bf5"
+    },
+    {
+      "path": "themes/green.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61485e7ab30a905bd2ede73fca9da009debd3657",
+      "size": 4271,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/61485e7ab30a905bd2ede73fca9da009debd3657"
+    },
+    {
+      "path": "themes/gui_advanced_plugin_class.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82f42957c0748b9123afb4533bc2b24c46a40c6a",
+      "size": 3785,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/82f42957c0748b9123afb4533bc2b24c46a40c6a"
+    },
+    {
+      "path": "themes/gui_floating_menu.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98d2de463c4f01bc1dc1c109ffd351038acb30af",
+      "size": 3863,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/98d2de463c4f01bc1dc1c109ffd351038acb30af"
+    },
+    {
+      "path": "themes/gui_toolbar.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f99aff90237591f2d5a323b2a6d13e2023ca19f5",
+      "size": 4606,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/f99aff90237591f2d5a323b2a6d13e2023ca19f5"
+    },
+    {
+      "path": "themes/init.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00298efc2b8f11e8b1ac97c64d43b47ec8576dcb",
+      "size": 15989,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/00298efc2b8f11e8b1ac97c64d43b47ec8576dcb"
+    },
+    {
+      "path": "themes/svg",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "55b35b47000325a02bed39b103f8f4d22a24f055",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/55b35b47000325a02bed39b103f8f4d22a24f055"
+    },
+    {
+      "path": "themes/svg/arxiv.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01cb68ce8010e4285b93b81e03e9e50ff9a09522",
+      "size": 941,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/01cb68ce8010e4285b93b81e03e9e50ff9a09522"
+    },
+    {
+      "path": "themes/svg/box.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebff1ef75ebe0b499925fbe58eb5b87b3870bbb7",
+      "size": 999,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/ebff1ef75ebe0b499925fbe58eb5b87b3870bbb7"
+    },
+    {
+      "path": "themes/svg/brain.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "151a7737fda3a6e614dccda2d00f325e139af6c6",
+      "size": 1034,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/151a7737fda3a6e614dccda2d00f325e139af6c6"
+    },
+    {
+      "path": "themes/svg/check.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53646dc1743b7cbb7c14e17935e9f3df14cc4c9c",
+      "size": 1012,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/53646dc1743b7cbb7c14e17935e9f3df14cc4c9c"
+    },
+    {
+      "path": "themes/svg/conf.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1127ad714f7aead952fb8c96ede5be7794866f4",
+      "size": 1028,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/b1127ad714f7aead952fb8c96ede5be7794866f4"
+    },
+    {
+      "path": "themes/svg/default.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fb8a7ed03f641e7bb3734f555b5112b78967cfd",
+      "size": 2525,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/7fb8a7ed03f641e7bb3734f555b5112b78967cfd"
+    },
+    {
+      "path": "themes/svg/doc.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc32627872f02ff7e28cba02ede32f804e0fa8a3",
+      "size": 1602,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/fc32627872f02ff7e28cba02ede32f804e0fa8a3"
+    },
+    {
+      "path": "themes/svg/img.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8abb21698b8f9e28772a0db77009805fa27954a0",
+      "size": 3412,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/8abb21698b8f9e28772a0db77009805fa27954a0"
+    },
+    {
+      "path": "themes/svg/location.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6081eb155615dea489369ed52c86b4fce30a2004",
+      "size": 1903,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/6081eb155615dea489369ed52c86b4fce30a2004"
+    },
+    {
+      "path": "themes/svg/mm.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea37ef9a3e420bb63e7c4e9e90cdd6fcc1b93cb5",
+      "size": 2497,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/ea37ef9a3e420bb63e7c4e9e90cdd6fcc1b93cb5"
+    },
+    {
+      "path": "themes/svg/polish.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d55adc996903c6305ea02d2b96012edb96246dc2",
+      "size": 1454,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/d55adc996903c6305ea02d2b96012edb96246dc2"
+    },
+    {
+      "path": "themes/svg/tts.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70b32e76430b6ae33253caf74de093eb3aa6d328",
+      "size": 1270,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/70b32e76430b6ae33253caf74de093eb3aa6d328"
+    },
+    {
+      "path": "themes/svg/vt.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccba354716a86499c905f123ba63b95139ef0502",
+      "size": 768,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/ccba354716a86499c905f123ba63b95139ef0502"
+    },
+    {
+      "path": "themes/theme.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "224dd9a5728b6b061c5e4582b3f8e9748bdea56c",
+      "size": 1416,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/224dd9a5728b6b061c5e4582b3f8e9748bdea56c"
+    },
+    {
+      "path": "themes/theme.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98365d8a729b4087d77433e1af0dd941426acd01",
+      "size": 4508,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/98365d8a729b4087d77433e1af0dd941426acd01"
+    },
+    {
+      "path": "themes/tts.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a6eb59ad1954c169839665cfeaba9413a232e37",
+      "size": 12650,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/7a6eb59ad1954c169839665cfeaba9413a232e37"
+    },
+    {
+      "path": "themes/waifu_plugin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b2fd6abfd9b857aed5eeae2ce5156dad1df1c0bb",
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/trees/b2fd6abfd9b857aed5eeae2ce5156dad1df1c0bb"
+    },
+    {
+      "path": "themes/waifu_plugin/autoload.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "themes/waifu_plugin/flat-ui-icons-regular.eot",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "536680e9f1070d3feb03038448f4ef4764a6784a",
+      "size": 25912,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/536680e9f1070d3feb03038448f4ef4764a6784a"
+    },
+    {
+      "path": "themes/waifu_plugin/flat-ui-icons-regular.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e05f3a0d31e417b72be11d5935cbb201729085dc",
+      "size": 57136,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/e05f3a0d31e417b72be11d5935cbb201729085dc"
+    },
+    {
+      "path": "themes/waifu_plugin/flat-ui-icons-regular.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4933ff3590f3c3644d32fe50f5d7148c2ede9b6",
+      "size": 25708,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/f4933ff3590f3c3644d32fe50f5d7148c2ede9b6"
+    },
+    {
+      "path": "themes/waifu_plugin/flat-ui-icons-regular.woff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9e9805e768525c296ed284e1bc803ca9e757679",
+      "size": 17844,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/f9e9805e768525c296ed284e1bc803ca9e757679"
+    },
+    {
+      "path": "themes/waifu_plugin/jquery-ui.min.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "862a649869db80cb6c8cd6d48f63ee0b56169a2c",
+      "size": 253670,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/862a649869db80cb6c8cd6d48f63ee0b56169a2c"
+    },
+    {
+      "path": "themes/waifu_plugin/jquery.min.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab28a24729b320bffd3d2f60302af949db39ab85",
+      "size": 95786,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/ab28a24729b320bffd3d2f60302af949db39ab85"
+    },
+    {
+      "path": "themes/waifu_plugin/live2d.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc563d015cf27b7bd15fa618f048908ac42838ce",
+      "size": 198088,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/dc563d015cf27b7bd15fa618f048908ac42838ce"
+    },
+    {
+      "path": "themes/waifu_plugin/source",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82d2ed01245d9ab6a6d70576398b96286b24790d",
+      "size": 38,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/82d2ed01245d9ab6a6d70576398b96286b24790d"
+    },
+    {
+      "path": "themes/waifu_plugin/waifu-tips.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56431722b0413a9b8dc51216768062d99a1636f1",
+      "size": 21445,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/56431722b0413a9b8dc51216768062d99a1636f1"
+    },
+    {
+      "path": "themes/waifu_plugin/waifu-tips.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa03901c1ac4c96333b765523a4288bfc13af666",
+      "size": 9882,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/aa03901c1ac4c96333b765523a4288bfc13af666"
+    },
+    {
+      "path": "themes/waifu_plugin/waifu.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a50344d79a66972067476f308a1544968e00a40",
+      "size": 5834,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/0a50344d79a66972067476f308a1544968e00a40"
+    },
+    {
+      "path": "themes/welcome.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2b875a052c7ba72acfe31bb9de3b7b1c0c51b58",
+      "size": 14884,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/c2b875a052c7ba72acfe31bb9de3b7b1c0c51b58"
+    },
+    {
+      "path": "toolbox.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1afa9381ec0f3d75b210f5648613d20cc2735f4d",
+      "size": 38926,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/1afa9381ec0f3d75b210f5648613d20cc2735f4d"
+    },
+    {
+      "path": "version",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0725e251ea3d6c089f03dabebe7af997aef28e60",
+      "size": 120,
+      "url": "https://api.github.com/repos/binary-husky/gpt_academic/git/blobs/0725e251ea3d6c089f03dabebe7af997aef28e60"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,74 @@
+{
+  "harvested_at": "2026-06-07T20:48:44.2046593+03:00",
+  "rank": 148,
+  "repository": "3b1b/manim",
+  "url": "https://github.com/3b1b/manim",
+  "language": "Python",
+  "stars": 87409,
+  "default_branch": "master",
+  "contract_strength": "readme_plus_runtime_hints",
+  "candidate_qaas_surfaces": [
+    "ci-documented-command-discovery",
+    "python-cli-or-service-contract"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\148-3b1b-manim\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\148-3b1b-manim\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [],
+    "ci": [
+      ".github/workflows/docs.yml",
+      ".github/workflows/publish.yml"
+    ],
+    "containers": [],
+    "dotnet": [],
+    "node": [],
+    "python": [
+      "docs/requirements.txt",
+      "pyproject.toml",
+      "requirements.txt",
+      "setup.py"
+    ],
+    "go": [],
+    "java": [],
+    "rust": [],
+    "docs": [
+      "README.md",
+      "docs/Makefile",
+      "docs/example.py",
+      "docs/make.bat",
+      "docs/requirements.txt",
+      "docs/source/_static/icon.png",
+      "docs/source/conf.py",
+      "docs/source/development/about.rst",
+      "docs/source/development/changelog.rst",
+      "docs/source/development/contributing.rst",
+      "docs/source/documentation/animation/index.rst",
+      "docs/source/documentation/camera/index.rst",
+      "docs/source/documentation/constants.rst",
+      "docs/source/documentation/custom_config.rst",
+      "docs/source/documentation/mobject/index.rst",
+      "docs/source/documentation/scene/index.rst",
+      "docs/source/documentation/shaders/index.rst",
+      "docs/source/documentation/utils/index.rst",
+      "docs/source/getting_started/configuration.rst",
+      "docs/source/getting_started/example_scenes.rst",
+      "docs/source/getting_started/installation.rst",
+      "docs/source/getting_started/quickstart.rst",
+      "docs/source/getting_started/structure.rst",
+      "docs/source/getting_started/whatsnew.rst",
+      "docs/source/index.rst",
+      "docs/source/manim_example_ext.py"
+    ],
+    "tests": [
+      "manimlib/animation/specialized.py",
+      "manimlib/mobject/svg/special_tex.py"
+    ]
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\148-3b1b-manim\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\148-3b1b-manim\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

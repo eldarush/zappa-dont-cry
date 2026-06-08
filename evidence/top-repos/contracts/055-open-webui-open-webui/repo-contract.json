@@ -1,0 +1,116 @@
+{
+  "harvested_at": "2026-06-07T20:44:34.9215898+03:00",
+  "rank": 55,
+  "repository": "open-webui/open-webui",
+  "url": "https://github.com/open-webui/open-webui",
+  "language": "Python",
+  "stars": 140483,
+  "default_branch": "main",
+  "contract_strength": "contract_files_found",
+  "candidate_qaas_surfaces": [
+    "api-contract-validation",
+    "runner-yaml-from-public-contract",
+    "containerized-runtime-smoke",
+    "ci-documented-command-discovery",
+    "python-cli-or-service-contract"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\055-open-webui-open-webui\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\055-open-webui-open-webui\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [
+      "backend/open_webui/static/swagger-ui/favicon.png",
+      "backend/open_webui/static/swagger-ui/swagger-ui-bundle.js",
+      "backend/open_webui/static/swagger-ui/swagger-ui.css"
+    ],
+    "ci": [
+      ".github/workflows/backend.yaml",
+      ".github/workflows/codespell.disabled",
+      ".github/workflows/docker.yaml",
+      ".github/workflows/frontend.yaml",
+      ".github/workflows/lint-backend.disabled",
+      ".github/workflows/lint-frontend.disabled",
+      ".github/workflows/release-pypi.yml",
+      ".github/workflows/release.yml"
+    ],
+    "containers": [
+      "Dockerfile",
+      "docker-compose-launcher.sh",
+      "docker-compose.a1111-test.yaml",
+      "docker-compose.amdgpu.yaml",
+      "docker-compose.api.yaml",
+      "docker-compose.data.yaml",
+      "docker-compose.gpu.yaml",
+      "docker-compose.otel.yaml",
+      "docker-compose.playwright.yaml",
+      "docker-compose.yaml"
+    ],
+    "dotnet": [],
+    "node": [
+      "package-lock.json",
+      "package.json",
+      "tsconfig.json"
+    ],
+    "python": [
+      "backend/open_webui/utils/telemetry/setup.py",
+      "backend/requirements-min.txt",
+      "backend/requirements.txt",
+      "pyproject.toml"
+    ],
+    "go": [],
+    "java": [],
+    "rust": [],
+    "docs": [
+      "CHANGELOG.md",
+      "README.md",
+      "backend/data/readme.txt",
+      "backend/open_webui/data/readme.txt",
+      "backend/open_webui/migrations/README",
+      "backend/open_webui/retrieval/web/searchapi.py",
+      "backend/open_webui/retrieval/web/serpapi.py",
+      "backend/open_webui/utils/security_headers.py",
+      "docker-compose.api.yaml",
+      "docs/SECURITY.md",
+      "src/lib/apis/analytics/index.ts",
+      "src/lib/apis/audio/index.ts",
+      "src/lib/apis/auths/index.ts",
+      "src/lib/apis/automations/index.ts",
+      "src/lib/apis/calendar/index.ts",
+      "src/lib/apis/channels/index.ts",
+      "src/lib/apis/chats/index.ts",
+      "src/lib/apis/configs/index.ts",
+      "src/lib/apis/evaluations/index.ts",
+      "src/lib/apis/files/index.ts",
+      "src/lib/apis/folders/index.ts",
+      "src/lib/apis/functions/index.ts",
+      "src/lib/apis/groups/index.ts",
+      "src/lib/apis/images/index.ts",
+      "src/lib/apis/index.ts",
+      "src/lib/apis/knowledge/index.ts",
+      "src/lib/apis/memories/index.ts",
+      "src/lib/apis/models/index.ts",
+      "src/lib/apis/notes/index.ts",
+      "src/lib/apis/ollama/index.ts",
+      "src/lib/apis/openai/index.ts",
+      "src/lib/apis/prompts/index.ts",
+      "src/lib/apis/retrieval/index.ts",
+      "src/lib/apis/skills/index.ts",
+      "src/lib/apis/streaming/index.ts",
+      "src/lib/apis/tasks/index.ts",
+      "src/lib/apis/terminal/index.ts",
+      "src/lib/apis/tools/index.ts",
+      "src/lib/apis/users/index.ts",
+      "src/lib/apis/utils/index.ts",
+      "src/lib/components/ChangelogModal.svelte"
+    ],
+    "tests": [
+      "test/test_files/image_gen/sd-empty.pt"
+    ]
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\055-open-webui-open-webui\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\055-open-webui-open-webui\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

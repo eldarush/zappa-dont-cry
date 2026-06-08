@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-08T13:46:26.9455008+03:00",
+  "validation_kind": "live_scenario_model_execution",
+  "index_status": "quota_blocked",
+  "records": [
+    {
+      "scenario_id": "preferred-live-smoke-20260608",
+      "scenario_kind": "scenario",
+      "prompt_hash_sha256": "d4177fc437d37c71059b99730f48fc3b1680ccdfdbec74bf946eb2193caa282e",
+      "prompt_length": 33,
+      "attempt_order": 1,
+      "match_status": "runner_recorded",
+      "harness": "claude-copilot",
+      "profile": "airgapped",
+      "model": "id:gpt-3.5-turbo",
+      "weak_validation_eligible": true,
+      "not_weak_reason": null,
+      "dry_run": false,
+      "classification": "quota_blocked",
+      "weak_validation_passed": false,
+      "transcript_exit_code": 1,
+      "summary": "D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live\\20260608-134622-452-d14bfdf0-summary.md",
+      "transcript": "D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live\\20260608-134622-452-d14bfdf0-claude-copilot-id_gpt-3.5-turbo.md"
+    }
+  ]
+}

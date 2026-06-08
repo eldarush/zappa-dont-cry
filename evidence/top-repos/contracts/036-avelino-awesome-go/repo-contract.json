@@ -1,0 +1,50 @@
+{
+  "harvested_at": "2026-06-07T20:44:02.0148481+03:00",
+  "rank": 36,
+  "repository": "avelino/awesome-go",
+  "url": "https://github.com/avelino/awesome-go",
+  "language": "Go",
+  "stars": 174840,
+  "default_branch": "main",
+  "contract_strength": "readme_plus_runtime_hints",
+  "candidate_qaas_surfaces": [
+    "ci-documented-command-discovery",
+    "go-cli-or-service-contract"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\036-avelino-awesome-go\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\036-avelino-awesome-go\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [],
+    "ci": [
+      ".github/workflows/check-for-spammy-issues.yml",
+      ".github/workflows/pr-quality-check.yaml",
+      ".github/workflows/recheck-open-prs.yaml",
+      ".github/workflows/run-check.yaml",
+      ".github/workflows/site-deploy.yaml",
+      ".github/workflows/tests.yaml"
+    ],
+    "containers": [],
+    "dotnet": [],
+    "node": [],
+    "python": [],
+    "go": [
+      "go.mod",
+      "go.sum"
+    ],
+    "java": [],
+    "rust": [],
+    "docs": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "SECURITY.md"
+    ],
+    "tests": []
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\036-avelino-awesome-go\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\036-avelino-awesome-go\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

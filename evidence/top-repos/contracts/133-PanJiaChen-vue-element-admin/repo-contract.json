@@ -1,0 +1,53 @@
+{
+  "harvested_at": "2026-06-07T20:48:11.3876962+03:00",
+  "rank": 133,
+  "repository": "PanJiaChen/vue-element-admin",
+  "url": "https://github.com/PanJiaChen/vue-element-admin",
+  "language": "Vue",
+  "stars": 90266,
+  "default_branch": "master",
+  "contract_strength": "readme_only",
+  "candidate_qaas_surfaces": "repo-contract-discovery-needed",
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\133-PanJiaChen-vue-element-admin\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\133-PanJiaChen-vue-element-admin\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [],
+    "ci": [],
+    "containers": [],
+    "dotnet": [],
+    "node": [
+      "package.json"
+    ],
+    "python": [],
+    "go": [],
+    "java": [],
+    "rust": [],
+    "docs": [
+      "README.es.md",
+      "README.ja.md",
+      "README.md",
+      "README.zh-CN.md",
+      "src/api/article.js",
+      "src/api/qiniu.js",
+      "src/api/remote-search.js",
+      "src/api/role.js",
+      "src/api/user.js"
+    ],
+    "tests": [
+      "tests/unit/.eslintrc.js",
+      "tests/unit/components/Hamburger.spec.js",
+      "tests/unit/components/SvgIcon.spec.js",
+      "tests/unit/utils/formatTime.spec.js",
+      "tests/unit/utils/param2Obj.spec.js",
+      "tests/unit/utils/parseTime.spec.js",
+      "tests/unit/utils/validate.spec.js"
+    ]
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\133-PanJiaChen-vue-element-admin\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\133-PanJiaChen-vue-element-admin\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

@@ -1,0 +1,38 @@
+﻿{
+    "schema_version":  1,
+    "generated_at":  "2026-06-08T10:57:20.9465025+03:00",
+    "fixture":  "D:\\QaaS\\_tools\\zappa-harness\\fixtures\\weak-skill-scenarios.json",
+    "skill_root":  "C:\\Users\\eldar\\.codex\\skills\\zappa-dont-cry",
+    "scenario_kind":  "scenario",
+    "dry_run":  false,
+    "out_dir":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live-scenarios",
+    "index_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live-scenarios\\weak-scenario-runner-index.json",
+    "requested_scenario_ids":  [
+                                   "zappa-qaas-hook-config-builtins"
+                               ],
+    "only_incomplete":  false,
+    "max_scenarios":  1,
+    "selected_scenario_count":  1,
+    "skipped_scenario_count":  4,
+    "scenario_count":  1,
+    "failed_invocation_count":  1,
+    "recorded_blocker_count":  1,
+    "unknown_failure_count":  0,
+    "stopped_early_reason":  "quota_blocked",
+    "duration_ms":  4292,
+    "weak_validation_passed":  false,
+    "runner_status":  "live_invocations_blocked",
+    "records":  [
+                    {
+                        "scenario_id":  "zappa-qaas-hook-config-builtins",
+                        "skill":  "zappa-qaas-hook-config",
+                        "scenario_kind":  "scenario",
+                        "dry_run":  false,
+                        "exit_code":  1,
+                        "classification":  "quota_blocked",
+                        "duration_ms":  4239,
+                        "summary":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live-scenarios\\20260608-105717-297-db6b2ce8-summary.md",
+                        "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live-scenarios\\20260608-105717-297-db6b2ce8-claude-copilot-id_gpt-3.5-turbo.md"
+                    }
+                ]
+}

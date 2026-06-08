@@ -1,0 +1,2140 @@
+{
+  "sha": "a3b940695648aa1c5b0680bc9a5b905cf43020e5",
+  "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/a3b940695648aa1c5b0680bc9a5b905cf43020e5",
+  "tree": [
+    {
+      "path": ".codespellrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcffc533227af44c591275f2d0d32776573f0ee0",
+      "size": 331,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/fcffc533227af44c591275f2d0d32776573f0ee0"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ef6b340d764c7cc645fb672a937f8ed9413b8e90",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/ef6b340d764c7cc645fb672a937f8ed9413b8e90"
+    },
+    {
+      "path": ".github/CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd0fab2901da57d6739b85d11997f0d929dcddbe",
+      "size": 1057,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/bd0fab2901da57d6739b85d11997f0d929dcddbe"
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "972831e95acf93967fc66c6fcf17068d8ee7dded",
+      "size": 18,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/972831e95acf93967fc66c6fcf17068d8ee7dded"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "530bad1cceefe38b39713ad5e528358ae813bf87",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/530bad1cceefe38b39713ad5e528358ae813bf87"
+    },
+    {
+      "path": ".github/workflows/spellcheck.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "822262f6be3086a06604fc748877eb85be5330b8",
+      "size": 495,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/822262f6be3086a06604fc748877eb85be5330b8"
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46290915f6c1a24677a867b775f05cdd10d70052",
+      "size": 502,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/46290915f6c1a24677a867b775f05cdd10d70052"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a37bf8fcbf674fa3ef7aa954943eb025a76e62ee",
+      "size": 172,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/a37bf8fcbf674fa3ef7aa954943eb025a76e62ee"
+    },
+    {
+      "path": ".prettierignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06d0866e317a50a502306a25572787659b10c4aa",
+      "size": 82,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/06d0866e317a50a502306a25572787659b10c4aa"
+    },
+    {
+      "path": ".prettierrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4f82ddb78b0f4896ba97334d8e8261cbfb6d587",
+      "size": 131,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/f4f82ddb78b0f4896ba97334d8e8261cbfb6d587"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c512bcdc6748a3a90b70a32ad90ba582d5d6e876",
+      "size": 1108,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/c512bcdc6748a3a90b70a32ad90ba582d5d6e876"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f0bad7d38319b17edf7f74578520b8103c09d96",
+      "size": 1788,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/1f0bad7d38319b17edf7f74578520b8103c09d96"
+    },
+    {
+      "path": "build",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1dddf2dfd0b3f7cb21f7a778498cec7d2cb32388",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/1dddf2dfd0b3f7cb21f7a778498cec7d2cb32388"
+    },
+    {
+      "path": "build/dts-paths.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3306dc5a628ed0b94f47411d3675320fa72e5288",
+      "size": 1138,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/3306dc5a628ed0b94f47411d3675320fa72e5288"
+    },
+    {
+      "path": "css",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "968a41d635ca9076e45736590353106f1744761f",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/968a41d635ca9076e45736590353106f1744761f"
+    },
+    {
+      "path": "css/layout.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c3b1caee7ea9fc71b5c1f2aea270a828e4d2da1",
+      "size": 1484,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/1c3b1caee7ea9fc71b5c1f2aea270a828e4d2da1"
+    },
+    {
+      "path": "css/print",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "527086117629a95feea4b7b6732067518f58deb1",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/527086117629a95feea4b7b6732067518f58deb1"
+    },
+    {
+      "path": "css/print/paper.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbf5f00ea8a2dab7b68d4478dd5c88ae686851c6",
+      "size": 3088,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/fbf5f00ea8a2dab7b68d4478dd5c88ae686851c6"
+    },
+    {
+      "path": "css/print/pdf.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c2403852db26a3b3ab5f0b5154fc94db4033a09",
+      "size": 2925,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/0c2403852db26a3b3ab5f0b5154fc94db4033a09"
+    },
+    {
+      "path": "css/reset.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c800b1105e6daceb93de74f6fabbffcc49b2b06a",
+      "size": 866,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/c800b1105e6daceb93de74f6fabbffcc49b2b06a"
+    },
+    {
+      "path": "css/reveal.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26a0860abc77436491b04d0a582cce3a876bc28f",
+      "size": 55117,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/26a0860abc77436491b04d0a582cce3a876bc28f"
+    },
+    {
+      "path": "css/theme",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9d7fe8d18666bc879e1018aaf64bc5881c828e6d",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/9d7fe8d18666bc879e1018aaf64bc5881c828e6d"
+    },
+    {
+      "path": "css/theme/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bcf5978ffd807f924c638245afc72d1f1f786d1",
+      "size": 1313,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/9bcf5978ffd807f924c638245afc72d1f1f786d1"
+    },
+    {
+      "path": "css/theme/beige.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6d4ff31e0f14aca2a5a92ff5fa5ceca26132e3d",
+      "size": 1593,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/e6d4ff31e0f14aca2a5a92ff5fa5ceca26132e3d"
+    },
+    {
+      "path": "css/theme/black-contrast.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5db65ac1362c1fb085946542cb4b860db81b726d",
+      "size": 1260,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/5db65ac1362c1fb085946542cb4b860db81b726d"
+    },
+    {
+      "path": "css/theme/black.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0decde4044852a7b30611ff2ade4d471dbecab4a",
+      "size": 1077,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/0decde4044852a7b30611ff2ade4d471dbecab4a"
+    },
+    {
+      "path": "css/theme/blood.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d493aee70ca1fc9c91697c7ed1cdff82ef59953",
+      "size": 1774,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/9d493aee70ca1fc9c91697c7ed1cdff82ef59953"
+    },
+    {
+      "path": "css/theme/dracula.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c77cc66601630ae6142b440f692ef4dc437228a1",
+      "size": 2008,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/c77cc66601630ae6142b440f692ef4dc437228a1"
+    },
+    {
+      "path": "css/theme/fonts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "51316d870b73662a014d96b2cceaf5c1b3cb09c0",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/51316d870b73662a014d96b2cceaf5c1b3cb09c0"
+    },
+    {
+      "path": "css/theme/fonts/league-gothic",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9c65884a0f86e7cdc71f09f35c5f30ee4e3cf31e",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/9c65884a0f86e7cdc71f09f35c5f30ee4e3cf31e"
+    },
+    {
+      "path": "css/theme/fonts/league-gothic/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29513e9c4b77d8614975dddfd8bc32a4f7665bff",
+      "size": 92,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/29513e9c4b77d8614975dddfd8bc32a4f7665bff"
+    },
+    {
+      "path": "css/theme/fonts/league-gothic/league-gothic.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4b0b5e39c545d35032b8a9b8a0428efc8c46d94",
+      "size": 152,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/c4b0b5e39c545d35032b8a9b8a0428efc8c46d94"
+    },
+    {
+      "path": "css/theme/fonts/league-gothic/league-gothic.woff",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8c1227b200c3432a2502e97b87ae0508183629df",
+      "size": 30764,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/8c1227b200c3432a2502e97b87ae0508183629df"
+    },
+    {
+      "path": "css/theme/fonts/source-sans-pro",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ebc1263fff015e9c66da90d42b6249959e57507a",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/ebc1263fff015e9c66da90d42b6249959e57507a"
+    },
+    {
+      "path": "css/theme/fonts/source-sans-pro/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71b7a02a22f0a02a94f4b92139a24495c8daf2a3",
+      "size": 4632,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/71b7a02a22f0a02a94f4b92139a24495c8daf2a3"
+    },
+    {
+      "path": "css/theme/fonts/source-sans-pro/source-sans-pro-italic.woff",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ceecbf17f3bb88aac360fe25cdc72fbbe78b00c9",
+      "size": 98556,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/ceecbf17f3bb88aac360fe25cdc72fbbe78b00c9"
+    },
+    {
+      "path": "css/theme/fonts/source-sans-pro/source-sans-pro-regular.woff",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "630754abf3909b4726d19fb2209b744b7847da62",
+      "size": 114324,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/630754abf3909b4726d19fb2209b744b7847da62"
+    },
+    {
+      "path": "css/theme/fonts/source-sans-pro/source-sans-pro-semibold.woff",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8888cf8d4f99491e3ff6f7cbdf2b252d888198a4",
+      "size": 115648,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/8888cf8d4f99491e3ff6f7cbdf2b252d888198a4"
+    },
+    {
+      "path": "css/theme/fonts/source-sans-pro/source-sans-pro-semibolditalic.woff",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7c2d3c74f19f951470f972bea166a7f829db55a9",
+      "size": 98816,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/7c2d3c74f19f951470f972bea166a7f829db55a9"
+    },
+    {
+      "path": "css/theme/fonts/source-sans-pro/source-sans-pro.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "587361e7a5b4edfe6e1edcbfa29879fa9b990f62",
+      "size": 656,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/587361e7a5b4edfe6e1edcbfa29879fa9b990f62"
+    },
+    {
+      "path": "css/theme/league.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c9c542f8a7327cb235def5a4c484bd0e71cedea",
+      "size": 1094,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/8c9c542f8a7327cb235def5a4c484bd0e71cedea"
+    },
+    {
+      "path": "css/theme/moon.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "970636ec61a003597831be12faaa17105aa2421b",
+      "size": 1163,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/970636ec61a003597831be12faaa17105aa2421b"
+    },
+    {
+      "path": "css/theme/night.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c02bc3f1d97bae8450f4133f020047e9442fc94b",
+      "size": 1021,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/c02bc3f1d97bae8450f4133f020047e9442fc94b"
+    },
+    {
+      "path": "css/theme/serif.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fab4596e52b2e998b365b745dabfc252149d815",
+      "size": 1152,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/5fab4596e52b2e998b365b745dabfc252149d815"
+    },
+    {
+      "path": "css/theme/simple.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c55008a384a7807c46cef859fddc3bac97ba907",
+      "size": 1350,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/2c55008a384a7807c46cef859fddc3bac97ba907"
+    },
+    {
+      "path": "css/theme/sky.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "091f15a226519cda11b384dd8929ce52bfe21e0f",
+      "size": 1162,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/091f15a226519cda11b384dd8929ce52bfe21e0f"
+    },
+    {
+      "path": "css/theme/solarized.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89d01c0dd1336445e5afd8be3cd9da6b16bc75b7",
+      "size": 1206,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/89d01c0dd1336445e5afd8be3cd9da6b16bc75b7"
+    },
+    {
+      "path": "css/theme/template",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f9b7c41769ab6f9ca75c54e80f7bd0bac01c3af2",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/f9b7c41769ab6f9ca75c54e80f7bd0bac01c3af2"
+    },
+    {
+      "path": "css/theme/template/mixins.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "942f3f18ad47a3b141cd8addf37e77692eedb465",
+      "size": 275,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/942f3f18ad47a3b141cd8addf37e77692eedb465"
+    },
+    {
+      "path": "css/theme/template/settings.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e57b154a6c919c44076033813e28b6da57fe866",
+      "size": 2940,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/1e57b154a6c919c44076033813e28b6da57fe866"
+    },
+    {
+      "path": "css/theme/template/theme.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8940a377637c71ee2993ee714965fbdc8ea6141b",
+      "size": 5800,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/8940a377637c71ee2993ee714965fbdc8ea6141b"
+    },
+    {
+      "path": "css/theme/white-contrast.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f434a9b65e163b8e99e0cc2f3d697284f81cdcec",
+      "size": 1306,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/f434a9b65e163b8e99e0cc2f3d697284f81cdcec"
+    },
+    {
+      "path": "css/theme/white.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbc3ab279f65078cf63f5a552c9129ec643dde88",
+      "size": 1116,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/dbc3ab279f65078cf63f5a552c9129ec643dde88"
+    },
+    {
+      "path": "demo.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20ed6cdf326dc09e59d5289c4e91db923bbefcde",
+      "size": 22161,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/20ed6cdf326dc09e59d5289c4e91db923bbefcde"
+    },
+    {
+      "path": "dist",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e426d5a12fefccc7efabbdfb39ab3a7578492b30",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/e426d5a12fefccc7efabbdfb39ab3a7578492b30"
+    },
+    {
+      "path": "dist/config.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cd1590e63cd8e93cc27cea056e3e9da09a103d0",
+      "size": 21676,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/4cd1590e63cd8e93cc27cea056e3e9da09a103d0"
+    },
+    {
+      "path": "dist/plugin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3b431c9b24a77a3422f6d3b7beade30c6f25c9b6",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/3b431c9b24a77a3422f6d3b7beade30c6f25c9b6"
+    },
+    {
+      "path": "dist/plugin/highlight.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cec111e06abe88bbe6c96b52cf13493f4c849fd",
+      "size": 1584,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/6cec111e06abe88bbe6c96b52cf13493f4c849fd"
+    },
+    {
+      "path": "dist/plugin/highlight.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9928c9baa08cd765fc2d0f5d0309c5bed0fc0c21",
+      "size": 921053,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/9928c9baa08cd765fc2d0f5d0309c5bed0fc0c21"
+    },
+    {
+      "path": "dist/plugin/highlight.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fdb68ae45aec24bf3a1368591837481736c0bd3",
+      "size": 1041754,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/1fdb68ae45aec24bf3a1368591837481736c0bd3"
+    },
+    {
+      "path": "dist/plugin/highlight",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "37714291da492d3ba3cc5dfaad85158dab050a21",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/37714291da492d3ba3cc5dfaad85158dab050a21"
+    },
+    {
+      "path": "dist/plugin/highlight/monokai.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af24834a99e79b9394aec92d0ae6e1de54162b85",
+      "size": 940,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/af24834a99e79b9394aec92d0ae6e1de54162b85"
+    },
+    {
+      "path": "dist/plugin/highlight/zenburn.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96b01007e1ada0212577c908356b872ce9b5789e",
+      "size": 946,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/96b01007e1ada0212577c908356b872ce9b5789e"
+    },
+    {
+      "path": "dist/plugin/markdown.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb2e94ff3e54147973b3d9a79e72f73da0f20f9c",
+      "size": 742,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/cb2e94ff3e54147973b3d9a79e72f73da0f20f9c"
+    },
+    {
+      "path": "dist/plugin/markdown.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97b6754ee5dec6df68926289de58c9af25f97722",
+      "size": 49440,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/97b6754ee5dec6df68926289de58c9af25f97722"
+    },
+    {
+      "path": "dist/plugin/markdown.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb4454a352dfe3c99a2653e81c5f458944c787ab",
+      "size": 61363,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/bb4454a352dfe3c99a2653e81c5f458944c787ab"
+    },
+    {
+      "path": "dist/plugin/math.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b9fa4a1305eb5a38e346d68ef870fdb6fe903d7",
+      "size": 590,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/9b9fa4a1305eb5a38e346d68ef870fdb6fe903d7"
+    },
+    {
+      "path": "dist/plugin/math.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5810d7419a7dfb821528237183bc476b0fa886c4",
+      "size": 4015,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/5810d7419a7dfb821528237183bc476b0fa886c4"
+    },
+    {
+      "path": "dist/plugin/math.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45fd85ebf1a2fbf6b4f0dc7aa1a56e8897071657",
+      "size": 5263,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/45fd85ebf1a2fbf6b4f0dc7aa1a56e8897071657"
+    },
+    {
+      "path": "dist/plugin/notes.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f13fec4cf267e4592c66b33d4b568bedc7705ed0",
+      "size": 193,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/f13fec4cf267e4592c66b33d4b568bedc7705ed0"
+    },
+    {
+      "path": "dist/plugin/notes.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e32762c7ef7e88253f846b0e02d7bc4059f90aa8",
+      "size": 67832,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/e32762c7ef7e88253f846b0e02d7bc4059f90aa8"
+    },
+    {
+      "path": "dist/plugin/notes.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "512a079754affe072eab25032e45e78fb2909b9f",
+      "size": 79255,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/512a079754affe072eab25032e45e78fb2909b9f"
+    },
+    {
+      "path": "dist/plugin/search.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cb733f42805c65c5b5586cb0c289e979c8ad631",
+      "size": 237,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/2cb733f42805c65c5b5586cb0c289e979c8ad631"
+    },
+    {
+      "path": "dist/plugin/search.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4db02628d70c51cba885edaca825d5ddffc6f47",
+      "size": 2870,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/f4db02628d70c51cba885edaca825d5ddffc6f47"
+    },
+    {
+      "path": "dist/plugin/search.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cca6788b59f5acea30c246ac977e71619817d18",
+      "size": 3396,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/8cca6788b59f5acea30c246ac977e71619817d18"
+    },
+    {
+      "path": "dist/plugin/zoom.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fc26cc5bab908ea4db8b26c1722583cc1a53c4d",
+      "size": 170,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/3fc26cc5bab908ea4db8b26c1722583cc1a53c4d"
+    },
+    {
+      "path": "dist/plugin/zoom.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adb8bf60eccd22479afe16239a12e236fe3383d2",
+      "size": 2875,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/adb8bf60eccd22479afe16239a12e236fe3383d2"
+    },
+    {
+      "path": "dist/plugin/zoom.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51a7f534dbec5e2bbbc0fff9768c4433ea24aa5c",
+      "size": 3435,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/51a7f534dbec5e2bbbc0fff9768c4433ea24aa5c"
+    },
+    {
+      "path": "dist/reset.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f32cc18c70bece46ac4e9e6495deba55d399ef6c",
+      "size": 594,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/f32cc18c70bece46ac4e9e6495deba55d399ef6c"
+    },
+    {
+      "path": "dist/reveal.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ea0ceaa2a2d20fd8eedaf7c27e4bb899636d815",
+      "size": 53875,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/4ea0ceaa2a2d20fd8eedaf7c27e4bb899636d815"
+    },
+    {
+      "path": "dist/reveal.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d08fbac2b975efd2a13591961976a3aac418a42",
+      "size": 21430,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/4d08fbac2b975efd2a13591961976a3aac418a42"
+    },
+    {
+      "path": "dist/reveal.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40f18292164eb05457c352e3df76c55eda322a9b",
+      "size": 118138,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/40f18292164eb05457c352e3df76c55eda322a9b"
+    },
+    {
+      "path": "dist/reveal.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cb31c2758cb934f0c81d87348c3cfb484d7d65f",
+      "size": 140051,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/5cb31c2758cb934f0c81d87348c3cfb484d7d65f"
+    },
+    {
+      "path": "dist/theme",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9f716f9cda987b0f3ffaa8abfdba534add535add",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/9f716f9cda987b0f3ffaa8abfdba534add535add"
+    },
+    {
+      "path": "dist/theme/beige.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93ff058f34bb10d0421f12fd5f24bd66f1649391",
+      "size": 46435,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/93ff058f34bb10d0421f12fd5f24bd66f1649391"
+    },
+    {
+      "path": "dist/theme/black-contrast.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1964236fda0d3c839bca4a3e022acb39fbcca188",
+      "size": 575279,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/1964236fda0d3c839bca4a3e022acb39fbcca188"
+    },
+    {
+      "path": "dist/theme/black.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8654b30d63cf3970a7cf79ce63e84a53bcea3e10",
+      "size": 575282,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/8654b30d63cf3970a7cf79ce63e84a53bcea3e10"
+    },
+    {
+      "path": "dist/theme/blood.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "871b70deb394de76f7ede993add4b5d5849ab410",
+      "size": 5684,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/871b70deb394de76f7ede993add4b5d5849ab410"
+    },
+    {
+      "path": "dist/theme/dracula.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62cb8f97048ef947820eddaebb05dddbac9984e9",
+      "size": 5678,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/62cb8f97048ef947820eddaebb05dddbac9984e9"
+    },
+    {
+      "path": "dist/theme/league.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "164a736a535857f0164f0eaad084469f8a44bafa",
+      "size": 46437,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/164a736a535857f0164f0eaad084469f8a44bafa"
+    },
+    {
+      "path": "dist/theme/moon.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2088b8e8a1405fa760d9655810cc6e5050ac5e0a",
+      "size": 46211,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/2088b8e8a1405fa760d9655810cc6e5050ac5e0a"
+    },
+    {
+      "path": "dist/theme/night.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "981f88ae348dfbc93f1aa91ebfd3f06d1c8d7b3d",
+      "size": 5136,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/981f88ae348dfbc93f1aa91ebfd3f06d1c8d7b3d"
+    },
+    {
+      "path": "dist/theme/serif.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2217d2e8903ba8332d8ddc5363dade6283453e48",
+      "size": 5074,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/2217d2e8903ba8332d8ddc5363dade6283453e48"
+    },
+    {
+      "path": "dist/theme/simple.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b894a4c8615cdcf98ee2ebb5b7d8267d26748db",
+      "size": 5122,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/3b894a4c8615cdcf98ee2ebb5b7d8267d26748db"
+    },
+    {
+      "path": "dist/theme/sky.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "864145b750bcb31a218d21f9e329c20a165f6fd8",
+      "size": 5201,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/864145b750bcb31a218d21f9e329c20a165f6fd8"
+    },
+    {
+      "path": "dist/theme/solarized.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adcd7110c7ee782dd3327d7963d5e13b41a84fdd",
+      "size": 46200,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/adcd7110c7ee782dd3327d7963d5e13b41a84fdd"
+    },
+    {
+      "path": "dist/theme/white-contrast.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01719b6bb6596407754e9621b9579432a901ab65",
+      "size": 575272,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/01719b6bb6596407754e9621b9579432a901ab65"
+    },
+    {
+      "path": "dist/theme/white.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3422f017ff5d058f0aaa8ff53769193325f5e185",
+      "size": 575268,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/3422f017ff5d058f0aaa8ff53769193325f5e185"
+    },
+    {
+      "path": "dist/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "128b1c40744beabd547eb18baf0aea551b4597c9",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/128b1c40744beabd547eb18baf0aea551b4597c9"
+    },
+    {
+      "path": "dist/utils/color.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50729c37e67df1ff1f6e3da85ba92c3a097f8354",
+      "size": 836,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/50729c37e67df1ff1f6e3da85ba92c3a097f8354"
+    },
+    {
+      "path": "dist/utils/constants.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "023238e218f173e329caeda25524379823fa72cc",
+      "size": 686,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/023238e218f173e329caeda25524379823fa72cc"
+    },
+    {
+      "path": "dist/utils/device.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c47473ba0c3bc373c00a59b2939db6d5604599ca",
+      "size": 121,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/c47473ba0c3bc373c00a59b2939db6d5604599ca"
+    },
+    {
+      "path": "dist/utils/loader.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c764c50f46ebc289ff08390a7927d0db7812f019",
+      "size": 311,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/c764c50f46ebc289ff08390a7927d0db7812f019"
+    },
+    {
+      "path": "dist/utils/util.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21e8370d2be7e1533f0048b6a9c7373b25feb40a",
+      "size": 3673,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/21e8370d2be7e1533f0048b6a9c7373b25feb40a"
+    },
+    {
+      "path": "examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "490bedb48f14aae6cfe7253a35aaa8c869884032",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/490bedb48f14aae6cfe7253a35aaa8c869884032"
+    },
+    {
+      "path": "examples/500-slides.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "995805d8b35a3f4140364857defed9f4a876ee4b",
+      "size": 18425,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/995805d8b35a3f4140364857defed9f4a876ee4b"
+    },
+    {
+      "path": "examples/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "53c4b143cc2786fbb12eef67883a2d2b4efa3d57",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/53c4b143cc2786fbb12eef67883a2d2b4efa3d57"
+    },
+    {
+      "path": "examples/assets/beeping.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf419974a47d1b5111eaff6c39d68bbbc17ba3b1",
+      "size": 92,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/bf419974a47d1b5111eaff6c39d68bbbc17ba3b1"
+    },
+    {
+      "path": "examples/assets/beeping.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38747a533a78497c52134dc0ea13ba197eec9e85",
+      "size": 422472,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/38747a533a78497c52134dc0ea13ba197eec9e85"
+    },
+    {
+      "path": "examples/assets/image1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87475945d0700ff26588a761aa87cab03d28a752",
+      "size": 21991,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/87475945d0700ff26588a761aa87cab03d28a752"
+    },
+    {
+      "path": "examples/assets/image2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c403a0d20be97d7f4ce000487fac783764dbaf7",
+      "size": 10237,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/6c403a0d20be97d7f4ce000487fac783764dbaf7"
+    },
+    {
+      "path": "examples/assets/video.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0331955329c65c60ba1e123f00b8d77ba3cbbf9",
+      "size": 4646956,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/c0331955329c65c60ba1e123f00b8d77ba3cbbf9"
+    },
+    {
+      "path": "examples/auto-animate.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b285d692799ffd996147f29880fa5559a3c654e5",
+      "size": 10664,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/b285d692799ffd996147f29880fa5559a3c654e5"
+    },
+    {
+      "path": "examples/backgrounds.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d95ef9a3bd4d6d12ea12f7c1625abcdad25a3c8a",
+      "size": 3995,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/d95ef9a3bd4d6d12ea12f7c1625abcdad25a3c8a"
+    },
+    {
+      "path": "examples/barebones.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2191493512e17307283177b3410cdd08988c5ef1",
+      "size": 685,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/2191493512e17307283177b3410cdd08988c5ef1"
+    },
+    {
+      "path": "examples/layout-helpers.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b726b49618bbdc7ee2a57c83632cf8a024319176",
+      "size": 5166,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/b726b49618bbdc7ee2a57c83632cf8a024319176"
+    },
+    {
+      "path": "examples/lightbox.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cfc102aa89ff71efd20c1992e4554df8d92a39d",
+      "size": 4400,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/3cfc102aa89ff71efd20c1992e4554df8d92a39d"
+    },
+    {
+      "path": "examples/markdown.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16afcc296063f179643e82f7e4ca4c55575d8d52",
+      "size": 4159,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/16afcc296063f179643e82f7e4ca4c55575d8d52"
+    },
+    {
+      "path": "examples/markdown.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0dd509b4dd4312f9a9168b5813112084879c3361",
+      "size": 398,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/0dd509b4dd4312f9a9168b5813112084879c3361"
+    },
+    {
+      "path": "examples/math.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46f4380d36840e98c23e1af72fe36f4bcf43247e",
+      "size": 6851,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/46f4380d36840e98c23e1af72fe36f4bcf43247e"
+    },
+    {
+      "path": "examples/media.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "211fed557d681b9057208a52a233eb8d61e1f84a",
+      "size": 1824,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/211fed557d681b9057208a52a233eb8d61e1f84a"
+    },
+    {
+      "path": "examples/multiple-presentations.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d20cd4e9759efa13610a822d07cc37bf8799c684",
+      "size": 2615,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/d20cd4e9759efa13610a822d07cc37bf8799c684"
+    },
+    {
+      "path": "examples/scroll.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57f6f492caa6f19a103d622579a4ea4ea432a07e",
+      "size": 4945,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/57f6f492caa6f19a103d622579a4ea4ea432a07e"
+    },
+    {
+      "path": "examples/transitions.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa2e2727431cab3c074f5b6ab8e33f0bd3f4af42",
+      "size": 1932,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/aa2e2727431cab3c074f5b6ab8e33f0bd3f4af42"
+    },
+    {
+      "path": "index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fdc2d3ab8f16abd8e69d4a3d02da9fd7f7a87e5",
+      "size": 1163,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/4fdc2d3ab8f16abd8e69d4a3d02da9fd7f7a87e5"
+    },
+    {
+      "path": "js",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5654d0ddf791074e4548dabe2998c5f229c67263",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/5654d0ddf791074e4548dabe2998c5f229c67263"
+    },
+    {
+      "path": "js/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "51746e180fe27b03658743fa8f8a7e59c5bfbf06",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/51746e180fe27b03658743fa8f8a7e59c5bfbf06"
+    },
+    {
+      "path": "js/components/playback.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06fa7baaf82b18c53f6db042eed324c4f6436d3a",
+      "size": 3935,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/06fa7baaf82b18c53f6db042eed324c4f6436d3a"
+    },
+    {
+      "path": "js/config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b8a9f79829ac99950ae6502abbea072839e1935",
+      "size": 21801,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/8b8a9f79829ac99950ae6502abbea072839e1935"
+    },
+    {
+      "path": "js/controllers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "38a9b5d953071b514ae8e5db86f37864f6ef1966",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/38a9b5d953071b514ae8e5db86f37864f6ef1966"
+    },
+    {
+      "path": "js/controllers/autoanimate.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b59b25abd6870d0893e580e32faa8abecaf429bf",
+      "size": 20328,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/b59b25abd6870d0893e580e32faa8abecaf429bf"
+    },
+    {
+      "path": "js/controllers/backgrounds.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f99b5b98865ebc5025f7ec37e13a5e7e170ce13",
+      "size": 15287,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/7f99b5b98865ebc5025f7ec37e13a5e7e170ce13"
+    },
+    {
+      "path": "js/controllers/controls.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "624c8420f889438f69676ae2a767f97aae8bdef0",
+      "size": 10348,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/624c8420f889438f69676ae2a767f97aae8bdef0"
+    },
+    {
+      "path": "js/controllers/focus.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be00a93734a1604dac2e8a515c64f59566a36aa0",
+      "size": 1960,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/be00a93734a1604dac2e8a515c64f59566a36aa0"
+    },
+    {
+      "path": "js/controllers/fragments.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec45e4478c6b611572bcbe3ec84b52cdf827bf81",
+      "size": 9308,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/ec45e4478c6b611572bcbe3ec84b52cdf827bf81"
+    },
+    {
+      "path": "js/controllers/jumptoslide.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0aaa2b1afbf5918fa9cd8af1b4a452ad8a3e4794",
+      "size": 4130,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/0aaa2b1afbf5918fa9cd8af1b4a452ad8a3e4794"
+    },
+    {
+      "path": "js/controllers/keyboard.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "587a72ea4e71782b9e4aa6a3a3da91dd127a4143",
+      "size": 10854,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/587a72ea4e71782b9e4aa6a3a3da91dd127a4143"
+    },
+    {
+      "path": "js/controllers/location.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94b5a4de7d14db86a7eaeb1fa8e01f59a826e1c9",
+      "size": 6399,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/94b5a4de7d14db86a7eaeb1fa8e01f59a826e1c9"
+    },
+    {
+      "path": "js/controllers/notes.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8af918c361b169b8c1fb9909852c13f1786c100e",
+      "size": 2848,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/8af918c361b169b8c1fb9909852c13f1786c100e"
+    },
+    {
+      "path": "js/controllers/overlay.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c41eac51cc33b046eb8eca11d9dbfb5117b98c6c",
+      "size": 10354,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/c41eac51cc33b046eb8eca11d9dbfb5117b98c6c"
+    },
+    {
+      "path": "js/controllers/overview.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e438ff0caba2b8dda81c14513fd86e6549e9da7f",
+      "size": 6530,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/e438ff0caba2b8dda81c14513fd86e6549e9da7f"
+    },
+    {
+      "path": "js/controllers/plugins.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "294e6c549a9b9b1518a6f362bb6357a635003fe9",
+      "size": 5444,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/294e6c549a9b9b1518a6f362bb6357a635003fe9"
+    },
+    {
+      "path": "js/controllers/pointer.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a02762d217106f726f2605416236cc630bd68e5",
+      "size": 2843,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/1a02762d217106f726f2605416236cc630bd68e5"
+    },
+    {
+      "path": "js/controllers/printview.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcdceb20655f33f8b1c083f3c74aaf7616f867ef",
+      "size": 7717,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/fcdceb20655f33f8b1c083f3c74aaf7616f867ef"
+    },
+    {
+      "path": "js/controllers/progress.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87e2aafb1b5e7ed1b8431e4098fdf987af196382",
+      "size": 2170,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/87e2aafb1b5e7ed1b8431e4098fdf987af196382"
+    },
+    {
+      "path": "js/controllers/scrollview.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a98181150b750a57552fe17c5f776d0076b8d80f",
+      "size": 27870,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/a98181150b750a57552fe17c5f776d0076b8d80f"
+    },
+    {
+      "path": "js/controllers/slidecontent.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "778754d2f0289e64ac8355c4a1ad71e978a65d00",
+      "size": 21274,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/778754d2f0289e64ac8355c4a1ad71e978a65d00"
+    },
+    {
+      "path": "js/controllers/slidenumber.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e213e29e5181c5f501102e825b188bb2e758cfeb",
+      "size": 3712,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/e213e29e5181c5f501102e825b188bb2e758cfeb"
+    },
+    {
+      "path": "js/controllers/touch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a391ab67b0a067b8731d217388be82319063b896",
+      "size": 8213,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/a391ab67b0a067b8731d217388be82319063b896"
+    },
+    {
+      "path": "js/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b459460bc2b7823b741bf466d26e94be8e18c02",
+      "size": 2003,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/1b459460bc2b7823b741bf466d26e94be8e18c02"
+    },
+    {
+      "path": "js/reveal.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c4a79103f43c1b5a147993fb93746eb72701de0",
+      "size": 21447,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/5c4a79103f43c1b5a147993fb93746eb72701de0"
+    },
+    {
+      "path": "js/reveal.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c90a9399f263d414e63d7e54e3f3d6be9be0376",
+      "size": 79900,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/2c90a9399f263d414e63d7e54e3f3d6be9be0376"
+    },
+    {
+      "path": "js/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ed888d9a6bc1e017f15a879bec9d033e533797b2",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/ed888d9a6bc1e017f15a879bec9d033e533797b2"
+    },
+    {
+      "path": "js/utils/color.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9097f7ac8c40d01cee569844bec6aaaea423aa7",
+      "size": 1793,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/b9097f7ac8c40d01cee569844bec6aaaea423aa7"
+    },
+    {
+      "path": "js/utils/constants.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cda5991273928ff804bfe878c6175a1cd38a9897",
+      "size": 950,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/cda5991273928ff804bfe878c6175a1cd38a9897"
+    },
+    {
+      "path": "js/utils/device.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a04b30c3f84de1aab5134b016b87616c79cf75cb",
+      "size": 295,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/a04b30c3f84de1aab5134b016b87616c79cf75cb"
+    },
+    {
+      "path": "js/utils/loader.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40fcec158b4fe8a74f439f4c3bfb936af8ba4683",
+      "size": 1055,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/40fcec158b4fe8a74f439f4c3bfb936af8ba4683"
+    },
+    {
+      "path": "js/utils/util.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e36951ca1d4b4f13758832ed2f2bb972d81bef3e",
+      "size": 7503,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/e36951ca1d4b4f13758832ed2f2bb972d81bef3e"
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f180ef8a49c1fba40d93eaff9a3521c373bf73f4",
+      "size": 136646,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/f180ef8a49c1fba40d93eaff9a3521c373bf73f4"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b01418b2d73ab1c4d7af0c940de1c98668c8544d",
+      "size": 3624,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/b01418b2d73ab1c4d7af0c940de1c98668c8544d"
+    },
+    {
+      "path": "plugin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5098617622b16d55372dcf63fc074bb81d7a7541",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/5098617622b16d55372dcf63fc074bb81d7a7541"
+    },
+    {
+      "path": "plugin/highlight",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c58a2cb16afaf2653315abdae273dc7b7ced2e84",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/c58a2cb16afaf2653315abdae273dc7b7ced2e84"
+    },
+    {
+      "path": "plugin/highlight/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f830eaa33e07beeea5b1d448f888b2c8d30ce605",
+      "size": 1698,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/f830eaa33e07beeea5b1d448f888b2c8d30ce605"
+    },
+    {
+      "path": "plugin/highlight/plugin.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df4294a738f78bc422bb65989a127d2b1e8ce0c4",
+      "size": 16339,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/df4294a738f78bc422bb65989a127d2b1e8ce0c4"
+    },
+    {
+      "path": "plugin/highlight/vite.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0f3e93f938e01d1c7fa3abd3268b832ca466803",
+      "size": 652,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/b0f3e93f938e01d1c7fa3abd3268b832ca466803"
+    },
+    {
+      "path": "plugin/markdown",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "286fe0ac145216bd7d896ab4868252be55ceba09",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/286fe0ac145216bd7d896ab4868252be55ceba09"
+    },
+    {
+      "path": "plugin/markdown/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88ce87be09c7939462966c5b392f9f74bb7f9227",
+      "size": 877,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/88ce87be09c7939462966c5b392f9f74bb7f9227"
+    },
+    {
+      "path": "plugin/markdown/plugin.js",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a59b570b0607a216124495f59f47c0738ca9f271",
+      "size": 14991,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/a59b570b0607a216124495f59f47c0738ca9f271"
+    },
+    {
+      "path": "plugin/markdown/vite.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b79d2a634c45d841a2161d4c4478de0c1b71e4a",
+      "size": 653,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/6b79d2a634c45d841a2161d4c4478de0c1b71e4a"
+    },
+    {
+      "path": "plugin/math",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2a3242bac2f646d004a4bb2e97fe17868227116f",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/2a3242bac2f646d004a4bb2e97fe17868227116f"
+    },
+    {
+      "path": "plugin/math/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ecfea7eb3ca06348f8041a98680cfe50b26718c",
+      "size": 723,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/3ecfea7eb3ca06348f8041a98680cfe50b26718c"
+    },
+    {
+      "path": "plugin/math/katex.js",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2cddafccfb0bf1a2a12c39cb6c8795b0b6d7f910",
+      "size": 2582,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/2cddafccfb0bf1a2a12c39cb6c8795b0b6d7f910"
+    },
+    {
+      "path": "plugin/math/mathjax2.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17df85c960bdbaf8bcd362f1aab8d1815d0227b0",
+      "size": 2102,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/17df85c960bdbaf8bcd362f1aab8d1815d0227b0"
+    },
+    {
+      "path": "plugin/math/mathjax3.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68572aa1ff2593df9f9ba0de2b2109587c1e0240",
+      "size": 2220,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/68572aa1ff2593df9f9ba0de2b2109587c1e0240"
+    },
+    {
+      "path": "plugin/math/mathjax4.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84acbab80b2f159390d9542c6b1c87fb8de2821f",
+      "size": 2527,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/84acbab80b2f159390d9542c6b1c87fb8de2821f"
+    },
+    {
+      "path": "plugin/math/plugin.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ed9a812ce751036b827df54a50077e63bbf5f3d",
+      "size": 392,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/4ed9a812ce751036b827df54a50077e63bbf5f3d"
+    },
+    {
+      "path": "plugin/math/vite.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65eb5274e6e7b2894286650e40f7a7af4f866de2",
+      "size": 641,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/65eb5274e6e7b2894286650e40f7a7af4f866de2"
+    },
+    {
+      "path": "plugin/notes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "287ba51ccba42e29743fee9e186802a7e019829d",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/287ba51ccba42e29743fee9e186802a7e019829d"
+    },
+    {
+      "path": "plugin/notes/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ff6c4ed0f6def6ab40b1557e7d8092de75f68a2",
+      "size": 342,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/2ff6c4ed0f6def6ab40b1557e7d8092de75f68a2"
+    },
+    {
+      "path": "plugin/notes/plugin.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4e6bb03f463af979617f0438b5dac50acfc54ee",
+      "size": 7082,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/c4e6bb03f463af979617f0438b5dac50acfc54ee"
+    },
+    {
+      "path": "plugin/notes/speaker-view.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f7b302d5c230fc31de14f0c16792062ff468572",
+      "size": 24236,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/1f7b302d5c230fc31de14f0c16792062ff468572"
+    },
+    {
+      "path": "plugin/notes/vite.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bdd899b3881e92aa955a1b014d0f1b10c90ecc8",
+      "size": 640,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/0bdd899b3881e92aa955a1b014d0f1b10c90ecc8"
+    },
+    {
+      "path": "plugin/search",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dcf4a14e8e2769ae1ebca0626ef38a9fe9066499",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/dcf4a14e8e2769ae1ebca0626ef38a9fe9066499"
+    },
+    {
+      "path": "plugin/search/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63ab1e8c145a07341ba65859e86c9633966abeda",
+      "size": 382,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/63ab1e8c145a07341ba65859e86c9633966abeda"
+    },
+    {
+      "path": "plugin/search/plugin.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3effe00d8fe6bf588b97e6453d68e9b0e6ecb27e",
+      "size": 6484,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/3effe00d8fe6bf588b97e6453d68e9b0e6ecb27e"
+    },
+    {
+      "path": "plugin/search/vite.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79a27516854416e0d3937721ae92865b774cfdb7",
+      "size": 643,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/79a27516854416e0d3937721ae92865b774cfdb7"
+    },
+    {
+      "path": "plugin/vite-plugin-dts.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73e41aca9c15e08b69c969b3e2ef66dea0e7f825",
+      "size": 548,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/73e41aca9c15e08b69c969b3e2ef66dea0e7f825"
+    },
+    {
+      "path": "plugin/zoom",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dbf5fd33a039f190cc6d5d9b38ae057c542f95c5",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/dbf5fd33a039f190cc6d5d9b38ae057c542f95c5"
+    },
+    {
+      "path": "plugin/zoom/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bbd0f1e240db360c8cd92d139bddb2afb823ab1",
+      "size": 320,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/0bbd0f1e240db360c8cd92d139bddb2afb823ab1"
+    },
+    {
+      "path": "plugin/zoom/plugin.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf4f371a7ea16307c17d55b639dc7235e1e58e5f",
+      "size": 6779,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/bf4f371a7ea16307c17d55b639dc7235e1e58e5f"
+    },
+    {
+      "path": "plugin/zoom/vite.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06dcf2904502967a74093e6f98eacb4e07079ee2",
+      "size": 637,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/06dcf2904502967a74093e6f98eacb4e07079ee2"
+    },
+    {
+      "path": "public",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "df288f818e5f0be39bec3cec0c1434c20f700c40",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/df288f818e5f0be39bec3cec0c1434c20f700c40"
+    },
+    {
+      "path": "public/plugin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8bddad9f6655ff70b5497c26beeb5b9b9d1c3ee4",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/8bddad9f6655ff70b5497c26beeb5b9b9d1c3ee4"
+    },
+    {
+      "path": "public/plugin/highlight",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "37714291da492d3ba3cc5dfaad85158dab050a21",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/37714291da492d3ba3cc5dfaad85158dab050a21"
+    },
+    {
+      "path": "public/plugin/highlight/monokai.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af24834a99e79b9394aec92d0ae6e1de54162b85",
+      "size": 940,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/af24834a99e79b9394aec92d0ae6e1de54162b85"
+    },
+    {
+      "path": "public/plugin/highlight/zenburn.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96b01007e1ada0212577c908356b872ce9b5789e",
+      "size": 946,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/96b01007e1ada0212577c908356b872ce9b5789e"
+    },
+    {
+      "path": "react",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e9c7947d6f68238ca101b4a304d106aed531d5f3",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/e9c7947d6f68238ca101b4a304d106aed531d5f3"
+    },
+    {
+      "path": "react/AGENTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c10b255b4fc6c0a220180d494878cc0f2feff13b",
+      "size": 4014,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/c10b255b4fc6c0a220180d494878cc0f2feff13b"
+    },
+    {
+      "path": "react/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b925c04b18067c25ec7b399977c5313eb9c9c17",
+      "size": 7174,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/1b925c04b18067c25ec7b399977c5313eb9c9c17"
+    },
+    {
+      "path": "react/demo",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "007da3d89498b0bec671670b10302e98446af7fa",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/007da3d89498b0bec671670b10302e98446af7fa"
+    },
+    {
+      "path": "react/demo/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "417c1b9fa73ed27801283dd528cee5d8a190890c",
+      "size": 317,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/417c1b9fa73ed27801283dd528cee5d8a190890c"
+    },
+    {
+      "path": "react/demo/package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e798c1a0c8d7ef7996e4d94f27fa19766d916f2",
+      "size": 26427,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/7e798c1a0c8d7ef7996e4d94f27fa19766d916f2"
+    },
+    {
+      "path": "react/demo/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d4f33df9f8987e8dfa2f56ec5dbefee8e04ed87",
+      "size": 271,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/7d4f33df9f8987e8dfa2f56ec5dbefee8e04ed87"
+    },
+    {
+      "path": "react/demo/public",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9bf529275fbc6c31bb00fb9c5a07a464670229be",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/9bf529275fbc6c31bb00fb9c5a07a464670229be"
+    },
+    {
+      "path": "react/demo/public/markdown.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f4c55659bf5621e263813f246e54ee72210093b",
+      "size": 61,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/0f4c55659bf5621e263813f246e54ee72210093b"
+    },
+    {
+      "path": "react/demo/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9792183420bdcfca9b530a5f1a87a1f33ca4724",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/c9792183420bdcfca9b530a5f1a87a1f33ca4724"
+    },
+    {
+      "path": "react/demo/src/demo-app.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f859c1bbe57fc16418b8af0c88ee87d6c299175c",
+      "size": 6680,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/f859c1bbe57fc16418b8af0c88ee87d6c299175c"
+    },
+    {
+      "path": "react/demo/src/main.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c0cfaf9db27471fc717a1b89b7afcdf5da1a0d3",
+      "size": 211,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/4c0cfaf9db27471fc717a1b89b7afcdf5da1a0d3"
+    },
+    {
+      "path": "react/demo/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10ebb2d76f9f6c1546edf58d43a1353d73249d85",
+      "size": 295,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/10ebb2d76f9f6c1546edf58d43a1353d73249d85"
+    },
+    {
+      "path": "react/demo/vite.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e3649fb8442d81176ed5edc0440faeba09517a3",
+      "size": 260,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/0e3649fb8442d81176ed5edc0440faeba09517a3"
+    },
+    {
+      "path": "react/package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2d94aa717ac17a9dd01984eaefbb2ac65fd0697",
+      "size": 122060,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/f2d94aa717ac17a9dd01984eaefbb2ac65fd0697"
+    },
+    {
+      "path": "react/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5460e79b66b58de5ecf8f087950a31aea382fa69",
+      "size": 1256,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/5460e79b66b58de5ecf8f087950a31aea382fa69"
+    },
+    {
+      "path": "react/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f25749714985e9bd48354e0ae4977b9068bab1ad",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/f25749714985e9bd48354e0ae4977b9068bab1ad"
+    },
+    {
+      "path": "react/src/__tests__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f0e4273aeb89ad8c3e6673fd77b1ce81b1bd6d42",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/f0e4273aeb89ad8c3e6673fd77b1ce81b1bd6d42"
+    },
+    {
+      "path": "react/src/__tests__/setup.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb02c60cd055452852c33afe9078e35455935fb0",
+      "size": 43,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/bb02c60cd055452852c33afe9078e35455935fb0"
+    },
+    {
+      "path": "react/src/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5c360373e95de702b265b6689a5a4e0a4a7d84b8",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/5c360373e95de702b265b6689a5a4e0a4a7d84b8"
+    },
+    {
+      "path": "react/src/components/code.test.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "635e1a11e57a1d9c0a03c915afa9002a22ecfd25",
+      "size": 4578,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/635e1a11e57a1d9c0a03c915afa9002a22ecfd25"
+    },
+    {
+      "path": "react/src/components/code.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31926c6266d38a33daef313ef10a728a30fbd7e5",
+      "size": 4236,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/31926c6266d38a33daef313ef10a728a30fbd7e5"
+    },
+    {
+      "path": "react/src/components/deck.test.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9901ce048987070712250fed459903b6cd47905a",
+      "size": 10847,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/9901ce048987070712250fed459903b6cd47905a"
+    },
+    {
+      "path": "react/src/components/deck.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e080eabb2243977ebee019779a62ea7282c70906",
+      "size": 7909,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/e080eabb2243977ebee019779a62ea7282c70906"
+    },
+    {
+      "path": "react/src/components/fragment.test.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6e67489826d76c929c7c7eddac0468af70e2ac2",
+      "size": 3829,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/d6e67489826d76c929c7c7eddac0468af70e2ac2"
+    },
+    {
+      "path": "react/src/components/fragment.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6d23d9d91dcc4021130eb70cabcf3630caf231a",
+      "size": 1668,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/f6d23d9d91dcc4021130eb70cabcf3630caf231a"
+    },
+    {
+      "path": "react/src/components/markdown.test.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8607cb66bd0c8ed4154512f7058186b001ef11b9",
+      "size": 6521,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/8607cb66bd0c8ed4154512f7058186b001ef11b9"
+    },
+    {
+      "path": "react/src/components/markdown.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ddabab3191be136e72bdb63379d77e8600ae83c",
+      "size": 6445,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/1ddabab3191be136e72bdb63379d77e8600ae83c"
+    },
+    {
+      "path": "react/src/components/slide.test.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2647e5b775eac4c0f2bab5eab195637ae9fe6af",
+      "size": 8766,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/f2647e5b775eac4c0f2bab5eab195637ae9fe6af"
+    },
+    {
+      "path": "react/src/components/slide.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb3398a303d1fd496d4a94c117f08c9273351d7b",
+      "size": 2694,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/eb3398a303d1fd496d4a94c117f08c9273351d7b"
+    },
+    {
+      "path": "react/src/components/stack.test.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e614fc624fc93adb530e16a8efc0d3201930f63",
+      "size": 1298,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/1e614fc624fc93adb530e16a8efc0d3201930f63"
+    },
+    {
+      "path": "react/src/components/stack.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb3d19bd075e9f65c3f31d2fb2147cc4f31a95db",
+      "size": 204,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/cb3d19bd075e9f65c3f31d2fb2147cc4f31a95db"
+    },
+    {
+      "path": "react/src/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0560e3f61d1d8894017eb835581c53f03d40851",
+      "size": 610,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/a0560e3f61d1d8894017eb835581c53f03d40851"
+    },
+    {
+      "path": "react/src/reveal-context.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c2c1cf59e8225dd8ff999b600137b733442e117",
+      "size": 152,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/5c2c1cf59e8225dd8ff999b600137b733442e117"
+    },
+    {
+      "path": "react/src/types.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f3e76ece56303ca22194fa424aaf44363994670",
+      "size": 3808,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/3f3e76ece56303ca22194fa424aaf44363994670"
+    },
+    {
+      "path": "react/src/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9d0620ff6ac0402aca1fdb72d08e4020cfcf188f",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/9d0620ff6ac0402aca1fdb72d08e4020cfcf188f"
+    },
+    {
+      "path": "react/src/utils/markdown.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b4a59f18923212aedc0c9f9106e111f79393f7b",
+      "size": 9872,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/2b4a59f18923212aedc0c9f9106e111f79393f7b"
+    },
+    {
+      "path": "react/src/utils/slide-attributes.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5afc644de51d5d13dff56c11381e97624d28a8aa",
+      "size": 2743,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/5afc644de51d5d13dff56c11381e97624d28a8aa"
+    },
+    {
+      "path": "react/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d7ba76b7747918da3530b6608b20766530944f6",
+      "size": 368,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/0d7ba76b7747918da3530b6608b20766530944f6"
+    },
+    {
+      "path": "react/vite.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ba78cac598992ca94c27ebda6fc4448bcfc6106",
+      "size": 747,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/8ba78cac598992ca94c27ebda6fc4448bcfc6106"
+    },
+    {
+      "path": "react/vitest.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "811c27d173df825f4402b5812377acfa39586613",
+      "size": 360,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/811c27d173df825f4402b5812377acfa39586613"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ab3473cefc3d8bc4288837a27aeff1434c79375f",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/ab3473cefc3d8bc4288837a27aeff1434c79375f"
+    },
+    {
+      "path": "scripts/add-banner.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efde7f13f3a0e4aa96be300d528d55b252051437",
+      "size": 700,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/efde7f13f3a0e4aa96be300d528d55b252051437"
+    },
+    {
+      "path": "scripts/banner.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81d8c7b6a8bcd1c8452585ff15523c0de9c43ac5",
+      "size": 158,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/81d8c7b6a8bcd1c8452585ff15523c0de9c43ac5"
+    },
+    {
+      "path": "scripts/build-es5.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34c505d6ec4ae57341e3fdade036e417f6c07f6e",
+      "size": 1691,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/34c505d6ec4ae57341e3fdade036e417f6c07f6e"
+    },
+    {
+      "path": "scripts/test.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5022da2aed4f62dbdfc9216eec7e2a33cfeb8d3a",
+      "size": 2649,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/5022da2aed4f62dbdfc9216eec7e2a33cfeb8d3a"
+    },
+    {
+      "path": "scripts/zip.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90ac0b896a8a84a81559bd3b33b697c8e345ab4a",
+      "size": 4837,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/90ac0b896a8a84a81559bd3b33b697c8e345ab4a"
+    },
+    {
+      "path": "test",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4b32f9e1d918d4fc48a5a096f428177b6e007f54",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/4b32f9e1d918d4fc48a5a096f428177b6e007f54"
+    },
+    {
+      "path": "test/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "02332b48af85e8d15a9f19879f9907cf1136e398",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/02332b48af85e8d15a9f19879f9907cf1136e398"
+    },
+    {
+      "path": "test/assets/external-script-a.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbc8da11c5b87cf40da713f574f82248bc0a7230",
+      "size": 37,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/cbc8da11c5b87cf40da713f574f82248bc0a7230"
+    },
+    {
+      "path": "test/assets/external-script-b.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5bca5ad3e0f44257d4a8717acd32568f20c9a57",
+      "size": 37,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/e5bca5ad3e0f44257d4a8717acd32568f20c9a57"
+    },
+    {
+      "path": "test/assets/external-script-c.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d4ccf6fd32be677676c74738a18561e69ccc593",
+      "size": 37,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/7d4ccf6fd32be677676c74738a18561e69ccc593"
+    },
+    {
+      "path": "test/assets/external-script-d.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c5925bf238b2d85c92dd14e3c763db2f34492c3",
+      "size": 37,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/1c5925bf238b2d85c92dd14e3c763db2f34492c3"
+    },
+    {
+      "path": "test/simple.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97bae7e5e8711958056094d9b88414dd48021ce5",
+      "size": 63,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/97bae7e5e8711958056094d9b88414dd48021ce5"
+    },
+    {
+      "path": "test/test-auto-animate.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0277bc1381370cc742372d87cb50d476d003bc3",
+      "size": 4118,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/d0277bc1381370cc742372d87cb50d476d003bc3"
+    },
+    {
+      "path": "test/test-dependencies-async.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01ab5f52fe0fc1d389650d51b71cb0203d534f0e",
+      "size": 1881,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/01ab5f52fe0fc1d389650d51b71cb0203d534f0e"
+    },
+    {
+      "path": "test/test-dependencies.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a4f411dfeda0513ef6bff5baa95b8395da4ef38",
+      "size": 1079,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/9a4f411dfeda0513ef6bff5baa95b8395da4ef38"
+    },
+    {
+      "path": "test/test-destroy.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2960940a1ed804058b86b3bdf5bf9681bf6ff63",
+      "size": 2002,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/d2960940a1ed804058b86b3bdf5bf9681bf6ff63"
+    },
+    {
+      "path": "test/test-grid-navigation.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb7d58a6ec6e2b83608ceb4621c253e4361c007f",
+      "size": 1788,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/cb7d58a6ec6e2b83608ceb4621c253e4361c007f"
+    },
+    {
+      "path": "test/test-iframe-backgrounds.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb987b21e34a0a6e4455c0e2435c80c4b0e08462",
+      "size": 3057,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/fb987b21e34a0a6e4455c0e2435c80c4b0e08462"
+    },
+    {
+      "path": "test/test-iframes.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43e17e5a6b8fac4a261733dab400a26275db24dd",
+      "size": 3033,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/43e17e5a6b8fac4a261733dab400a26275db24dd"
+    },
+    {
+      "path": "test/test-markdown.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb49ed8b8d3a86af0fa20e8ff3be3e70ee8a4f91",
+      "size": 18752,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/cb49ed8b8d3a86af0fa20e8ff3be3e70ee8a4f91"
+    },
+    {
+      "path": "test/test-mathjax4.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f43855a0596cac3aeb209987a7fe058eedf6127",
+      "size": 8333,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/6f43855a0596cac3aeb209987a7fe058eedf6127"
+    },
+    {
+      "path": "test/test-multiple-instances-es5.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f493f8c4980db32e066dc71eb3b752648072776",
+      "size": 1950,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/9f493f8c4980db32e066dc71eb3b752648072776"
+    },
+    {
+      "path": "test/test-multiple-instances.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f9ce0bbb592fb6a20be297eaf16d7eb95ceaac0",
+      "size": 2480,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/0f9ce0bbb592fb6a20be297eaf16d7eb95ceaac0"
+    },
+    {
+      "path": "test/test-pdf.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad291583b90463e7fa3ef83c625e549394edf639",
+      "size": 1886,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/ad291583b90463e7fa3ef83c625e549394edf639"
+    },
+    {
+      "path": "test/test-plugins.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bc7fbe299fab5dca83047c673a412bd169e33d8",
+      "size": 2762,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/1bc7fbe299fab5dca83047c673a412bd169e33d8"
+    },
+    {
+      "path": "test/test-scroll.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a800473c20255d63790eb0963aa7e75c8345c275",
+      "size": 4393,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/a800473c20255d63790eb0963aa7e75c8345c275"
+    },
+    {
+      "path": "test/test-state.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04db7bdc9996245015907d0bbf6926496d3d00ac",
+      "size": 3113,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/04db7bdc9996245015907d0bbf6926496d3d00ac"
+    },
+    {
+      "path": "test/test.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54088b3f662298744f05688f640b887351b59f8d",
+      "size": 39382,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/54088b3f662298744f05688f640b887351b59f8d"
+    },
+    {
+      "path": "test/types",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f74be631a10666c12921f7ffa36edefdd3fd4ee7",
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/trees/f74be631a10666c12921f7ffa36edefdd3fd4ee7"
+    },
+    {
+      "path": "test/types/plugin-imports.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "129a33ba1f07b73669ad5cb29de945e6a813dcc7",
+      "size": 2895,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/129a33ba1f07b73669ad5cb29de945e6a813dcc7"
+    },
+    {
+      "path": "tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d9ea00e46e1df27d69ceac3fdfd85477f9e01b0",
+      "size": 588,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/7d9ea00e46e1df27d69ceac3fdfd85477f9e01b0"
+    },
+    {
+      "path": "tsconfig.node.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc8a5f5a4b51872bd5c2a1700e1265487a050fb6",
+      "size": 247,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/dc8a5f5a4b51872bd5c2a1700e1265487a050fb6"
+    },
+    {
+      "path": "vite.config.styles.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cca1e99690c30eba96ff2cdd389bbf047651b2b",
+      "size": 799,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/0cca1e99690c30eba96ff2cdd389bbf047651b2b"
+    },
+    {
+      "path": "vite.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40d69d98827712de6d99791669237b00c243b5fc",
+      "size": 1336,
+      "url": "https://api.github.com/repos/hakimel/reveal.js/git/blobs/40d69d98827712de6d99791669237b00c243b5fc"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,101 @@
+{
+  "harvested_at": "2026-06-07T20:49:12.9282013+03:00",
+  "rank": 165,
+  "repository": "bregman-arie/devops-exercises",
+  "url": "https://github.com/bregman-arie/devops-exercises",
+  "language": "Python",
+  "stars": 82633,
+  "default_branch": "master",
+  "contract_strength": "readme_plus_runtime_hints",
+  "candidate_qaas_surfaces": [
+    "containerized-runtime-smoke",
+    "ci-documented-command-discovery",
+    "python-cli-or-service-contract"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\165-bregman-arie-devops-exercises\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\165-bregman-arie-devops-exercises\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [],
+    "ci": [
+      ".github/workflows/ci_workflow.yml",
+      "images/logos/circleci.png",
+      "topics/cicd/solutions/deploy_to_kubernetes/Jenkinsfile",
+      "topics/circleci/README.md"
+    ],
+    "containers": [
+      "topics/containers/write_containerfile_run_container.md"
+    ],
+    "dotnet": [],
+    "node": [],
+    "python": [
+      "scripts/aws s3 event triggering/s3-lambda/requirements.txt",
+      "topics/flask_container_ci/requirements.txt",
+      "topics/flask_container_ci2/requirements.txt"
+    ],
+    "go": [],
+    "java": [],
+    "rust": [],
+    "docs": [
+      "CONTRIBUTING-pt-BR.md",
+      "CONTRIBUTING.md",
+      "README-pt-BR.md",
+      "README-zh_CN.md",
+      "README.md",
+      "images/security.png",
+      "scripts/aws s3 event triggering/README.md",
+      "topics/ansible/README.md",
+      "topics/argo/README.md",
+      "topics/aws/README.md",
+      "topics/aws/exercises/security_groups/exercise.md",
+      "topics/aws/exercises/security_groups/solution.md",
+      "topics/azure/README.md",
+      "topics/chaos_engineering/README.md",
+      "topics/cicd/README.md",
+      "topics/cicd/solutions/deploy_to_kubernetes/README.md",
+      "topics/circleci/README.md",
+      "topics/cloud/README.md",
+      "topics/containers/README.md",
+      "topics/databases/README.md",
+      "topics/datadog/README.md",
+      "topics/devops/README.md",
+      "topics/dns/README.md",
+      "topics/flask_container_ci/README.md",
+      "topics/flask_container_ci2/README.md",
+      "topics/gcp/README.md",
+      "topics/git/README.md",
+      "topics/grafana/README.md",
+      "topics/kafka/README.md",
+      "topics/kubernetes/README.md",
+      "topics/linux/README.md",
+      "topics/linux/exercises/copy/README.md",
+      "topics/linux/exercises/create_remove/README.md",
+      "topics/linux/exercises/navigation/README.md",
+      "topics/linux/exercises/uniqe_count/README.md",
+      "topics/observability/README.md",
+      "topics/openshift/README.md",
+      "topics/perl/README.md",
+      "topics/security/README.md",
+      "topics/shell/README.md",
+      "topics/soft_skills/README.md",
+      "topics/software_development/README.md",
+      "topics/sre/README.md",
+      "topics/terraform/README.md",
+      "topics/zuul/README.md"
+    ],
+    "tests": [
+      "tests/scripts_question_utils_unittest.py",
+      "tests/syntax_checker_unittest.py",
+      "tests/syntax_lint.py",
+      "tests/testcases/testcase1.md",
+      "tests/testcases/testcase2.md",
+      "tests/testcases/testcase3.md"
+    ]
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\165-bregman-arie-devops-exercises\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\165-bregman-arie-devops-exercises\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

@@ -1,0 +1,621 @@
+{
+  "sha": "3b69413d6169472bb895234ab28fcbd7215cc176",
+  "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/trees/3b69413d6169472bb895234ab28fcbd7215cc176",
+  "tree": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+      "size": 66,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/dfe0770424b2a19faf507a501ebfc23be8f54e7b"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f287e3a78a1f40cb6ac5638c4696b4d46402e518",
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/trees/f287e3a78a1f40cb6ac5638c4696b4d46402e518"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f836dc8703601e15e9664e13be1cefc42e4aa5e9",
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/trees/f836dc8703601e15e9664e13be1cefc42e4aa5e9"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c61ccfaa772110e0bc8ec12c7e0015e8c0a59fc2",
+      "size": 699,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/c61ccfaa772110e0bc8ec12c7e0015e8c0a59fc2"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a8a9187d069d056be0384b70089d7e086653a05b",
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/trees/a8a9187d069d056be0384b70089d7e086653a05b"
+    },
+    {
+      "path": ".github/workflows/ruff.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1ec0975b2c5799a01f0f96c64125eb6386da06b",
+      "size": 280,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/f1ec0975b2c5799a01f0f96c64125eb6386da06b"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4f62ebb2e56fbe59cd5ff71843a053211a5ae08",
+      "size": 288,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/e4f62ebb2e56fbe59cd5ff71843a053211a5ae08"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "860d162ee14b3de41aa8c1a4474bb4bfaa0ae47c",
+      "size": 1592,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/860d162ee14b3de41aa8c1a4474bb4bfaa0ae47c"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ad25db4bd1d86c452db3f9602ccdbe172438f52",
+      "size": 34523,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/0ad25db4bd1d86c452db3f9602ccdbe172438f52"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17c4896aa3c7160a981419dc88ea53e67b8c965e",
+      "size": 15528,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/17c4896aa3c7160a981419dc88ea53e67b8c965e"
+    },
+    {
+      "path": "benchmark_pipeline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a1e07664fbd07bf0df88e3ed50591162dbc5e8e",
+      "size": 5824,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/6a1e07664fbd07bf0df88e3ed50591162dbc5e8e"
+    },
+    {
+      "path": "locales",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7461eb0b8435e516ed8d6d85dc28b0e07c7881b8",
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/trees/7461eb0b8435e516ed8d6d85dc28b0e07c7881b8"
+    },
+    {
+      "path": "locales/de.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e23ecd073f0e6a0cfc2af08df3169630922d7fa",
+      "size": 2365,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/9e23ecd073f0e6a0cfc2af08df3169630922d7fa"
+    },
+    {
+      "path": "locales/es.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19e175b48aa18a47a7b49e3122fbd3177ac668c6",
+      "size": 2387,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/19e175b48aa18a47a7b49e3122fbd3177ac668c6"
+    },
+    {
+      "path": "locales/fi.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "240775d8bd24d679c90e8863b9532b215d18ebd5",
+      "size": 2236,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/240775d8bd24d679c90e8863b9532b215d18ebd5"
+    },
+    {
+      "path": "locales/id.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3f4a6acc56a3fae51a04a4970aa7c9d2d39629a",
+      "size": 2149,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/f3f4a6acc56a3fae51a04a4970aa7c9d2d39629a"
+    },
+    {
+      "path": "locales/km.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17f01b71ee0bef7304b50ae6817500f3f7986710",
+      "size": 3483,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/17f01b71ee0bef7304b50ae6817500f3f7986710"
+    },
+    {
+      "path": "locales/ko.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f87c892f8a341f84657968bbd4850e2305c7f22",
+      "size": 2252,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/8f87c892f8a341f84657968bbd4850e2305c7f22"
+    },
+    {
+      "path": "locales/pt-br.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ed7931e4133c7cd6b1793cb9af752c3fcf69560",
+      "size": 2364,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/0ed7931e4133c7cd6b1793cb9af752c3fcf69560"
+    },
+    {
+      "path": "locales/ru.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebaa168c8f40f6068285cd310e509028d72ee6fb",
+      "size": 3177,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/ebaa168c8f40f6068285cd310e509028d72ee6fb"
+    },
+    {
+      "path": "locales/th.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d37a9e60e6dc31f7d5ae19d2eceb239deea52710",
+      "size": 3412,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/d37a9e60e6dc31f7d5ae19d2eceb239deea52710"
+    },
+    {
+      "path": "locales/zh.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "445edc75709435a522c8e10bc85fe58ef14c64e5",
+      "size": 2156,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/445edc75709435a522c8e10bc85fe58ef14c64e5"
+    },
+    {
+      "path": "media",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b98220dfbd5b61e57980b1507622440d8877671a",
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/trees/b98220dfbd5b61e57980b1507622440d8877671a"
+    },
+    {
+      "path": "media/Download.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8181d4e111b186e75e7170b1544c6d2ecf685c9",
+      "size": 9856,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/e8181d4e111b186e75e7170b1544c6d2ecf685c9"
+    },
+    {
+      "path": "media/avgpcperformancedemo.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "815d6220d7bd26c1b9558a76f76862dcbd18f8f3",
+      "size": 5466019,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/815d6220d7bd26c1b9558a76f76862dcbd18f8f3"
+    },
+    {
+      "path": "media/deepwarebench.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad915e593c01b9447aacf2bf5c9bcd5f48c152cc",
+      "size": 2919616,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/ad915e593c01b9447aacf2bf5c9bcd5f48c152cc"
+    },
+    {
+      "path": "media/demo.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d5d5d2e1df434ec954740f57734bed884f83309",
+      "size": 11366009,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/7d5d5d2e1df434ec954740f57734bed884f83309"
+    },
+    {
+      "path": "media/instruction.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "168d4d4ae392e44a7d8c5cda5fd347b8b499fc5e",
+      "size": 74341,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/168d4d4ae392e44a7d8c5cda5fd347b8b499fc5e"
+    },
+    {
+      "path": "media/live_show.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47cc910cc59e0075caf9f5a0ae89b0fc60fc0a47",
+      "size": 8610844,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/47cc910cc59e0075caf9f5a0ae89b0fc60fc0a47"
+    },
+    {
+      "path": "media/ludwig.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "876d318523cda7945aa3600419d66936c80a3409",
+      "size": 5577705,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/876d318523cda7945aa3600419d66936c80a3409"
+    },
+    {
+      "path": "media/meme.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c56140704e151dc6762ba390ae680042e43ecdd0",
+      "size": 5200648,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/c56140704e151dc6762ba390ae680042e43ecdd0"
+    },
+    {
+      "path": "media/movie.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ffa4b02ec36a08bafe1e4e4ce3276024d4f63c7",
+      "size": 14464775,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/6ffa4b02ec36a08bafe1e4e4ce3276024d4f63c7"
+    },
+    {
+      "path": "media/streamers.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6bbb3b861a4ea5c5e9d242c07e412ee992017fb",
+      "size": 13586148,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/f6bbb3b861a4ea5c5e9d242c07e412ee992017fb"
+    },
+    {
+      "path": "models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "70b4f2e1c09bf14333b991f3e5cb6d0ffa2200df",
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/trees/70b4f2e1c09bf14333b991f3e5cb6d0ffa2200df"
+    },
+    {
+      "path": "models/instructions.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5235fa6ed443b247a148fa567b486295c54b7e5a",
+      "size": 213,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/5235fa6ed443b247a148fa567b486295c54b7e5a"
+    },
+    {
+      "path": "modules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4a0ac82fa37cdb479393a02676e17780ad7ba9ac",
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/trees/4a0ac82fa37cdb479393a02676e17780ad7ba9ac"
+    },
+    {
+      "path": "modules/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e5a2ad7e9d78be7cbcefcce535e4894a08aa37c",
+      "size": 618,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/1e5a2ad7e9d78be7cbcefcce535e4894a08aa37c"
+    },
+    {
+      "path": "modules/capturer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dee22d1478415b0546aa229b5398424b074072d",
+      "size": 1181,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/1dee22d1478415b0546aa229b5398424b074072d"
+    },
+    {
+      "path": "modules/cluster_analysis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea1c94134d48aa58abb9f5ad6406b88252f12c3e",
+      "size": 1049,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/ea1c94134d48aa58abb9f5ad6406b88252f12c3e"
+    },
+    {
+      "path": "modules/core.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfd1081132af10a1b6554890801351ddb03ed949",
+      "size": 16345,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/dfd1081132af10a1b6554890801351ddb03ed949"
+    },
+    {
+      "path": "modules/custom_types.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f41b7f87efbbac51b7554dac1f23a77a38d3d60",
+      "size": 123,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/3f41b7f87efbbac51b7554dac1f23a77a38d3d60"
+    },
+    {
+      "path": "modules/face_analyser.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccc438a008ad0c62d37c000e3cc571fa59023f66",
+      "size": 13122,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/ccc438a008ad0c62d37c000e3cc571fa59023f66"
+    },
+    {
+      "path": "modules/gettext.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03341027c3ceaa82768c1e1d8fc7dee80ca33d47",
+      "size": 937,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/03341027c3ceaa82768c1e1d8fc7dee80ca33d47"
+    },
+    {
+      "path": "modules/globals.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d889319dc0d16b7097260ffb27d25c6ea6df7e8",
+      "size": 3178,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/3d889319dc0d16b7097260ffb27d25c6ea6df7e8"
+    },
+    {
+      "path": "modules/gpu_processing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "689843e9fe90d3f894bc7000f8ee74e854cc5020",
+      "size": 9477,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/689843e9fe90d3f894bc7000f8ee74e854cc5020"
+    },
+    {
+      "path": "modules/metadata.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bc9ba998cae7f0b6af1011f9712132d856273b3",
+      "size": 67,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/9bc9ba998cae7f0b6af1011f9712132d856273b3"
+    },
+    {
+      "path": "modules/onnx_optimize.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a299950cba4d2516552401509342cd5eed023b2",
+      "size": 19826,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/6a299950cba4d2516552401509342cd5eed023b2"
+    },
+    {
+      "path": "modules/paths.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "106605da196518ebcc1c22f44b7d7bad0d225f28",
+      "size": 188,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/106605da196518ebcc1c22f44b7d7bad0d225f28"
+    },
+    {
+      "path": "modules/platform_info.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "212db05768d67ff06a8f07051d1c6c8504edf41a",
+      "size": 2492,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/212db05768d67ff06a8f07051d1c6c8504edf41a"
+    },
+    {
+      "path": "modules/predicter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ba7d3b70fadcf74b761a122fa2a580a18f5a91b",
+      "size": 1258,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/2ba7d3b70fadcf74b761a122fa2a580a18f5a91b"
+    },
+    {
+      "path": "modules/processors",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5c8ffc0bddbbdd4d7d75d1ffcda0f12632ea87bb",
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/trees/5c8ffc0bddbbdd4d7d75d1ffcda0f12632ea87bb"
+    },
+    {
+      "path": "modules/processors/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "modules/processors/frame",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "39c2c589156386b8e08c49f6351b7e48a2e1dcf7",
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/trees/39c2c589156386b8e08c49f6351b7e48a2e1dcf7"
+    },
+    {
+      "path": "modules/processors/frame/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "modules/processors/frame/_onnx_enhancer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4eeee9814d5652923a33d332d58deb8ef5dcaf50",
+      "size": 8557,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/4eeee9814d5652923a33d332d58deb8ef5dcaf50"
+    },
+    {
+      "path": "modules/processors/frame/core.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64330c6cf0ee9a7a7a43b39ec1bcdcc9d56c20c7",
+      "size": 15534,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/64330c6cf0ee9a7a7a43b39ec1bcdcc9d56c20c7"
+    },
+    {
+      "path": "modules/processors/frame/face_enhancer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12e65aa6adda5b8820757d724550f6bd6b6457bf",
+      "size": 15740,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/12e65aa6adda5b8820757d724550f6bd6b6457bf"
+    },
+    {
+      "path": "modules/processors/frame/face_enhancer_gpen256.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9814ebd7caf5e0ce637b6a3e64524e5057cd45b0",
+      "size": 4106,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/9814ebd7caf5e0ce637b6a3e64524e5057cd45b0"
+    },
+    {
+      "path": "modules/processors/frame/face_enhancer_gpen512.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6b792a4074d8d6f2216777862ca6b3ec3ceaa47",
+      "size": 4106,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/b6b792a4074d8d6f2216777862ca6b3ec3ceaa47"
+    },
+    {
+      "path": "modules/processors/frame/face_masking.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e5811d5f9a10c15e8490d02ae48254fa29e328a",
+      "size": 24492,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/6e5811d5f9a10c15e8490d02ae48254fa29e328a"
+    },
+    {
+      "path": "modules/processors/frame/face_swapper.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "109c3590bdcc95721a2d48ecad344992910e9723",
+      "size": 72836,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/109c3590bdcc95721a2d48ecad344992910e9723"
+    },
+    {
+      "path": "modules/run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2981e7e212f969729523aeba90490a04407ea9a9",
+      "size": 201,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/2981e7e212f969729523aeba90490a04407ea9a9"
+    },
+    {
+      "path": "modules/tkinter_fix.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38d99d842864948673f341ee56ddbf21f225d8ea",
+      "size": 767,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/38d99d842864948673f341ee56ddbf21f225d8ea"
+    },
+    {
+      "path": "modules/typing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cff7440616e20bfe7b8bc287f86d11bf1b0f083",
+      "size": 122,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/1cff7440616e20bfe7b8bc287f86d11bf1b0f083"
+    },
+    {
+      "path": "modules/ui.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09545785dae8467a70cb517f28eca7301f810ee8",
+      "size": 4569,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/09545785dae8467a70cb517f28eca7301f810ee8"
+    },
+    {
+      "path": "modules/ui.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cade5f5a93aaabdaa63fd565921b656318de7dca",
+      "size": 57191,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/cade5f5a93aaabdaa63fd565921b656318de7dca"
+    },
+    {
+      "path": "modules/ui_tooltip.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a74f7ad07356049b91aa3b74b3048861d37381b",
+      "size": 2076,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/1a74f7ad07356049b91aa3b74b3048861d37381b"
+    },
+    {
+      "path": "modules/utilities.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "953ef3c37c16bfb38ef0ecf6f9fcf6d7dd519951",
+      "size": 12147,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/953ef3c37c16bfb38ef0ecf6f9fcf6d7dd519951"
+    },
+    {
+      "path": "modules/video_capture.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b374a1ab26e20a6078c0d4256e8b682a6f5c1bf5",
+      "size": 6572,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/b374a1ab26e20a6078c0d4256e8b682a6f5c1bf5"
+    },
+    {
+      "path": "mypi.ini",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64218bc23688632a08c98ec4a0451ed46f8ed5e5",
+      "size": 175,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/64218bc23688632a08c98ec4a0451ed46f8ed5e5"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4dde0da8330a2cb66e4cf708a8b91e70fbdf27cf",
+      "size": 370,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/4dde0da8330a2cb66e4cf708a8b91e70fbdf27cf"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3383d460346469fe3d620526067b09517605008f",
+      "size": 511,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/3383d460346469fe3d620526067b09517605008f"
+    },
+    {
+      "path": "run-cuda.bat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93042a77923a4c47189ca44d25a67537323710f6",
+      "size": 40,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/93042a77923a4c47189ca44d25a67537323710f6"
+    },
+    {
+      "path": "run-directml.bat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "038e9588ca904daa77a4eca4f35496860c19ab3a",
+      "size": 39,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/038e9588ca904daa77a4eca4f35496860c19ab3a"
+    },
+    {
+      "path": "run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fa4d857e9bcd44796a8c316bb901452596a5ffb",
+      "size": 3147,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/6fa4d857e9bcd44796a8c316bb901452596a5ffb"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e90ab318a0780bc3ef2a1471bfe1ee7c50dec160",
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/trees/e90ab318a0780bc3ef2a1471bfe1ee7c50dec160"
+    },
+    {
+      "path": "tests/test_face_analyser_get_one_face.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5146be06c07bff9485f8cecabb2d141b4e0fffa",
+      "size": 3041,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/a5146be06c07bff9485f8cecabb2d141b4e0fffa"
+    },
+    {
+      "path": "tkinter_fix.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f809a900f740cecb9fa9706b706526f2b791ecb",
+      "size": 831,
+      "url": "https://api.github.com/repos/hacksider/Deep-Live-Cam/git/blobs/5f809a900f740cecb9fa9706b706526f2b791ecb"
+    }
+  ],
+  "truncated": false
+}

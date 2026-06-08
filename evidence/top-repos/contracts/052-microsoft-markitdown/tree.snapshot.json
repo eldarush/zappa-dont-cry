@@ -1,0 +1,1507 @@
+{
+  "sha": "e144e0a2be95b34df17433bac904e635f2c5e551",
+  "url": "https://api.github.com/repos/microsoft/markitdown/git/trees/e144e0a2be95b34df17433bac904e635f2c5e551",
+  "tree": [
+    {
+      "path": ".devcontainer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4b6f7a934b2a041f5d34059cc10f0c740c0ec3c4",
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/trees/4b6f7a934b2a041f5d34059cc10f0c740c0ec3c4"
+    },
+    {
+      "path": ".devcontainer/devcontainer.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e13e299d637a3aaa608024b06ca11fe69b4a783f",
+      "size": 1141,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/e13e299d637a3aaa608024b06ca11fe69b4a783f"
+    },
+    {
+      "path": ".dockerignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "319b9327a5be75087cdeae361c18fc9876e9c2ce",
+      "size": 13,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/319b9327a5be75087cdeae361c18fc9876e9c2ce"
+    },
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "304de55dd64ac8b8efdb7f94a6a8785594aca252",
+      "size": 206,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/304de55dd64ac8b8efdb7f94a6a8785594aca252"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c635204d6735921319de7c7cda738956a6388f51",
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/trees/c635204d6735921319de7c7cda738956a6388f51"
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ace4600a1f26e6892982f3e2f069ebfab108d87",
+      "size": 118,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/5ace4600a1f26e6892982f3e2f069ebfab108d87"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d81ba9476a6bbf2c6b89e56bcab555fe9319ba8b",
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/trees/d81ba9476a6bbf2c6b89e56bcab555fe9319ba8b"
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09454647b993125dec6399d92a3f8bb2d5a98b5a",
+      "size": 438,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/09454647b993125dec6399d92a3f8bb2d5a98b5a"
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4785bba1accae63f598cf56c04ebbdca94a53ec2",
+      "size": 382,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/4785bba1accae63f598cf56c04ebbdca94a53ec2"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15613ea8ab04a91a65bf2bc09fe8881e7a5b2a70",
+      "size": 3197,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/15613ea8ab04a91a65bf2bc09fe8881e7a5b2a70"
+    },
+    {
+      "path": ".pre-commit-config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ed7a92a727e37b8b04421cedd58dac8e59f12f3",
+      "size": 125,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/3ed7a92a727e37b8b04421cedd58dac8e59f12f3"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9ba8cf65f3e3104dd061c178066ec8247811f33",
+      "size": 444,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/f9ba8cf65f3e3104dd061c178066ec8247811f33"
+    },
+    {
+      "path": "Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c65bf9c641d93b4ee42c14795e435411c8732321",
+      "size": 684,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/c65bf9c641d93b4ee42c14795e435411c8732321"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e841e7a26e4eb057b24511e7b92d42b257a80e5",
+      "size": 1141,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/9e841e7a26e4eb057b24511e7b92d42b257a80e5"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa2f58bb8a655fbc1a18bd57e1e2c5cf11b4d1f6",
+      "size": 15757,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/aa2f58bb8a655fbc1a18bd57e1e2c5cf11b4d1f6"
+    },
+    {
+      "path": "SECURITY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3c89efc852e22f71eabf5dfbc6ac62493425eb6",
+      "size": 2656,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/b3c89efc852e22f71eabf5dfbc6ac62493425eb6"
+    },
+    {
+      "path": "SUPPORT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "291d4d43733f4c15a81ff598ec1c99fd6c18f64c",
+      "size": 1244,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/291d4d43733f4c15a81ff598ec1c99fd6c18f64c"
+    },
+    {
+      "path": "packages",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e74cad9b0f7ad9d0a802b0d620d1609c94ddf63b",
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/trees/e74cad9b0f7ad9d0a802b0d620d1609c94ddf63b"
+    },
+    {
+      "path": "packages/markitdown-mcp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "852636c000fd0d0f07e0d124ed919b9210715d8b",
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/trees/852636c000fd0d0f07e0d124ed919b9210715d8b"
+    },
+    {
+      "path": "packages/markitdown-mcp/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "773936a15b1d6be3de4a2fafea9bf826c6f406c5",
+      "size": 570,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/773936a15b1d6be3de4a2fafea9bf826c6f406c5"
+    },
+    {
+      "path": "packages/markitdown-mcp/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7e9224b42b97e066128377521b202215c23b85a",
+      "size": 5106,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/d7e9224b42b97e066128377521b202215c23b85a"
+    },
+    {
+      "path": "packages/markitdown-mcp/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "746253be5be070accb7ec4a53730e68817b67d3d",
+      "size": 1777,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/746253be5be070accb7ec4a53730e68817b67d3d"
+    },
+    {
+      "path": "packages/markitdown-mcp/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1342a9d750cd4e965c0981f2fe5179969c71d187",
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/trees/1342a9d750cd4e965c0981f2fe5179969c71d187"
+    },
+    {
+      "path": "packages/markitdown-mcp/src/markitdown_mcp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0566aa76f04e2cb52b6d7f9d0d53dcd87c71d608",
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/trees/0566aa76f04e2cb52b6d7f9d0d53dcd87c71d608"
+    },
+    {
+      "path": "packages/markitdown-mcp/src/markitdown_mcp/__about__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64be02b7ebe54308c53c652d62a51ea8e8718bc5",
+      "size": 132,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/64be02b7ebe54308c53c652d62a51ea8e8718bc5"
+    },
+    {
+      "path": "packages/markitdown-mcp/src/markitdown_mcp/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8464d59d46df077f8323d790f4208f6e38851b25",
+      "size": 178,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/8464d59d46df077f8323d790f4208f6e38851b25"
+    },
+    {
+      "path": "packages/markitdown-mcp/src/markitdown_mcp/__main__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89f89444e7feaafa3b73a48261a81acda43e4058",
+      "size": 4512,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/89f89444e7feaafa3b73a48261a81acda43e4058"
+    },
+    {
+      "path": "packages/markitdown-mcp/src/markitdown_mcp/py.typed",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "packages/markitdown-mcp/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "24af86665e1ab4d05b17c38a8bdc45867a16935d",
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/trees/24af86665e1ab4d05b17c38a8bdc45867a16935d"
+    },
+    {
+      "path": "packages/markitdown-mcp/tests/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44af7d79bf9a5a073383c5cf4ac857975777450e",
+      "size": 108,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/44af7d79bf9a5a073383c5cf4ac857975777450e"
+    },
+    {
+      "path": "packages/markitdown-ocr",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9f35d5f524b0728c12eae881bc4a5fdffa89fdfd",
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/trees/9f35d5f524b0728c12eae881bc4a5fdffa89fdfd"
+    },
+    {
+      "path": "packages/markitdown-ocr/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e841e7a26e4eb057b24511e7b92d42b257a80e5",
+      "size": 1141,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/9e841e7a26e4eb057b24511e7b92d42b257a80e5"
+    },
+    {
+      "path": "packages/markitdown-ocr/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0883db4ac28929f3e5d41917bf205723ce680fa",
+      "size": 5956,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/d0883db4ac28929f3e5d41917bf205723ce680fa"
+    },
+    {
+      "path": "packages/markitdown-ocr/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eda3cdda589ce9b80971ec1014076415fb434e8d",
+      "size": 1710,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/eda3cdda589ce9b80971ec1014076415fb434e8d"
+    },
+    {
+      "path": "packages/markitdown-ocr/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "25cd7046df0fe362157b12b27015f8cc7704f1f8",
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/trees/25cd7046df0fe362157b12b27015f8cc7704f1f8"
+    },
+    {
+      "path": "packages/markitdown-ocr/src/markitdown_ocr",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bc18eca15c3cb60e6b3f869424cd632ca64092b4",
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/trees/bc18eca15c3cb60e6b3f869424cd632ca64092b4"
+    },
+    {
+      "path": "packages/markitdown-ocr/src/markitdown_ocr/__about__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c700dc5045132c3af08930943892dfc3f5eede6",
+      "size": 106,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/1c700dc5045132c3af08930943892dfc3f5eede6"
+    },
+    {
+      "path": "packages/markitdown-ocr/src/markitdown_ocr/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f608e96254d1f713f2d730dcf71ed5c542be4600",
+      "size": 893,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/f608e96254d1f713f2d730dcf71ed5c542be4600"
+    },
+    {
+      "path": "packages/markitdown-ocr/src/markitdown_ocr/_docx_converter_with_ocr.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2463de116e05bfd95ebde241b23f1c7e6560538",
+      "size": 6410,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/f2463de116e05bfd95ebde241b23f1c7e6560538"
+    },
+    {
+      "path": "packages/markitdown-ocr/src/markitdown_ocr/_ocr_service.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2885e1f47c0fac7f88f8abfb2feea2fd97ad6439",
+      "size": 3328,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/2885e1f47c0fac7f88f8abfb2feea2fd97ad6439"
+    },
+    {
+      "path": "packages/markitdown-ocr/src/markitdown_ocr/_pdf_converter_with_ocr.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1dc0f613600e0576e137ee09f1cd9f8a0c8af91",
+      "size": 16550,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/c1dc0f613600e0576e137ee09f1cd9f8a0c8af91"
+    },
+    {
+      "path": "packages/markitdown-ocr/src/markitdown_ocr/_plugin.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4d7bcf5a156e8d1ba1483fdd379daa41e079a7c",
+      "size": 2506,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/f4d7bcf5a156e8d1ba1483fdd379daa41e079a7c"
+    },
+    {
+      "path": "packages/markitdown-ocr/src/markitdown_ocr/_pptx_converter_with_ocr.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e91ed6b4d1b8729f60978128ac3fda32c778522",
+      "size": 8990,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/7e91ed6b4d1b8729f60978128ac3fda32c778522"
+    },
+    {
+      "path": "packages/markitdown-ocr/src/markitdown_ocr/_xlsx_converter_with_ocr.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "481e0719530e0778d3bdc448ada69719de169835",
+      "size": 7739,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/481e0719530e0778d3bdc448ada69719de169835"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aa577c84946203a92a262f5cd17121b64399e9f8",
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/trees/aa577c84946203a92a262f5cd17121b64399e9f8"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/ocr_test_data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2c34f6fdd4b25efdc39729c52cb82dc801eb359d",
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/trees/2c34f6fdd4b25efdc39729c52cb82dc801eb359d"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/ocr_test_data/docx_complex_layout.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ddd6974670012e50baaad53a097b25254c123f2",
+      "size": 42547,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/4ddd6974670012e50baaad53a097b25254c123f2"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/ocr_test_data/docx_image_end.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2a9a8694c6c39baa3f3334f22e5297a841e9db7",
+      "size": 41358,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/f2a9a8694c6c39baa3f3334f22e5297a841e9db7"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/ocr_test_data/docx_image_middle.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "200f3c6c796e30a81dba677df629752f48b167b3",
+      "size": 41465,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/200f3c6c796e30a81dba677df629752f48b167b3"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/ocr_test_data/docx_image_start.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7855bd16606fd42062bcdc56078629f9f9877b96",
+      "size": 41476,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/7855bd16606fd42062bcdc56078629f9f9877b96"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/ocr_test_data/docx_multipage.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c698b0fa26a966654bebec4620e199a8fc8555d0",
+      "size": 48583,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/c698b0fa26a966654bebec4620e199a8fc8555d0"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/ocr_test_data/docx_multiple_images.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "790ce0bcbe2e85b11c0e3955566471b5ef62ec13",
+      "size": 45052,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/790ce0bcbe2e85b11c0e3955566471b5ef62ec13"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/ocr_test_data/pdf_complex_layout.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f843ab89131bcb12b2ae89db482bddd8d10302e6",
+      "size": 6117,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/f843ab89131bcb12b2ae89db482bddd8d10302e6"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/ocr_test_data/pdf_image_end.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b020edf69894f3aebd16a54ffbaedd4959b77a0",
+      "size": 7616,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/8b020edf69894f3aebd16a54ffbaedd4959b77a0"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/ocr_test_data/pdf_image_middle.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d90bc9d3edf3834f7e141f89ff0414e17ba0cdd3",
+      "size": 7291,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/d90bc9d3edf3834f7e141f89ff0414e17ba0cdd3"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/ocr_test_data/pdf_image_start.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b57b7f96bd08a76759f7b510563540f9faad1fe",
+      "size": 6546,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/0b57b7f96bd08a76759f7b510563540f9faad1fe"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/ocr_test_data/pdf_multipage.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71ffe8d833a26528e9708bbc290f3c3ceca5fee6",
+      "size": 14418,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/71ffe8d833a26528e9708bbc290f3c3ceca5fee6"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/ocr_test_data/pdf_multiple_images.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a5e47416812f7bba8250ca69c0202e6ac1aa16c",
+      "size": 10815,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/8a5e47416812f7bba8250ca69c0202e6ac1aa16c"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/ocr_test_data/pdf_scanned_invoice.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e1caacc51e7812908631ea75ce88403e21213c2",
+      "size": 2643519,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/5e1caacc51e7812908631ea75ce88403e21213c2"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/ocr_test_data/pdf_scanned_meeting_minutes.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33c717bed45fc5c57210a457196ba4270f362980",
+      "size": 2643519,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/33c717bed45fc5c57210a457196ba4270f362980"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/ocr_test_data/pdf_scanned_minimal.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9410339e37a3d21c38afa88c10db5d70ba467b01",
+      "size": 2643519,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/9410339e37a3d21c38afa88c10db5d70ba467b01"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/ocr_test_data/pdf_scanned_report.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c2112ff74a05e779ec9f665f45b42de8011fc5b",
+      "size": 7924511,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/4c2112ff74a05e779ec9f665f45b42de8011fc5b"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/ocr_test_data/pdf_scanned_sales_report.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "178c638264457df57c271b57408c9841ed8094ea",
+      "size": 2643519,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/178c638264457df57c271b57408c9841ed8094ea"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/ocr_test_data/pptx_complex_layout.pptx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10467ea0efc895647da66ef4442efa6c848df85c",
+      "size": 32130,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/10467ea0efc895647da66ef4442efa6c848df85c"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/ocr_test_data/pptx_image_end.pptx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ed9804cd48b610a5263ae2c53c903e956d0aa05",
+      "size": 33401,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/1ed9804cd48b610a5263ae2c53c903e956d0aa05"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/ocr_test_data/pptx_image_middle.pptx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "315586a238227ea14bf15a7f0e192cab35fc5fa2",
+      "size": 34563,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/315586a238227ea14bf15a7f0e192cab35fc5fa2"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/ocr_test_data/pptx_image_start.pptx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32a50aa8c1d94bdde14652b04abcde33b3fb7007",
+      "size": 31880,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/32a50aa8c1d94bdde14652b04abcde33b3fb7007"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/ocr_test_data/pptx_multiple_images.pptx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8eaa4dee17b2ca9865ff1bd494f9142b4a25375",
+      "size": 35461,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/a8eaa4dee17b2ca9865ff1bd494f9142b4a25375"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/ocr_test_data/xlsx_complex_layout.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6052c1e30176a4cccd26289262bbe37b1ec4256b",
+      "size": 22744,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/6052c1e30176a4cccd26289262bbe37b1ec4256b"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/ocr_test_data/xlsx_image_end.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e26b33fd921ef2842da9aa3f87fdc9c7b84231d",
+      "size": 15993,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/3e26b33fd921ef2842da9aa3f87fdc9c7b84231d"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/ocr_test_data/xlsx_image_middle.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a6c91b77c7d47bc27486d87dbc348b556a5ffad",
+      "size": 15455,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/2a6c91b77c7d47bc27486d87dbc348b556a5ffad"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/ocr_test_data/xlsx_image_start.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e461821ae47a18ace2c1e9939c9a9b54b3e089d",
+      "size": 15221,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/9e461821ae47a18ace2c1e9939c9a9b54b3e089d"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/ocr_test_data/xlsx_multiple_images.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb8d0cfe6fed86b94bb7ec2c9f18d8030bd9d6c6",
+      "size": 23398,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/eb8d0cfe6fed86b94bb7ec2c9f18d8030bd9d6c6"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/test_docx_converter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fb66650431203db207ba174bd11eb010e60f468",
+      "size": 7524,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/0fb66650431203db207ba174bd11eb010e60f468"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/test_pdf_converter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d4adcc5e9991ccc623f91e0ee4e754c0745b7eb",
+      "size": 7857,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/5d4adcc5e9991ccc623f91e0ee4e754c0745b7eb"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/test_pptx_converter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "724f1039c0c12c6388190bdf73a489825d0c2efc",
+      "size": 4952,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/724f1039c0c12c6388190bdf73a489825d0c2efc"
+    },
+    {
+      "path": "packages/markitdown-ocr/tests/test_xlsx_converter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ab30c6000c192736d0495bcfa7e371ee27f8e28",
+      "size": 7897,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/4ab30c6000c192736d0495bcfa7e371ee27f8e28"
+    },
+    {
+      "path": "packages/markitdown-sample-plugin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "71848cc4c57218cd36ae31627573d555198841a5",
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/trees/71848cc4c57218cd36ae31627573d555198841a5"
+    },
+    {
+      "path": "packages/markitdown-sample-plugin/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adf1d9e7ce9b2fad15b128221a54d65b1b0598b1",
+      "size": 3434,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/adf1d9e7ce9b2fad15b128221a54d65b1b0598b1"
+    },
+    {
+      "path": "packages/markitdown-sample-plugin/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4721036de0fa2db343d5ccff3777250703d93ddb",
+      "size": 1972,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/4721036de0fa2db343d5ccff3777250703d93ddb"
+    },
+    {
+      "path": "packages/markitdown-sample-plugin/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d611571ac18a8877ebe67ee55402049c3840b2c6",
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/trees/d611571ac18a8877ebe67ee55402049c3840b2c6"
+    },
+    {
+      "path": "packages/markitdown-sample-plugin/src/markitdown_sample_plugin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7332432a882daad46a3218434857a45fd575e708",
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/trees/7332432a882daad46a3218434857a45fd575e708"
+    },
+    {
+      "path": "packages/markitdown-sample-plugin/src/markitdown_sample_plugin/__about__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91bf07bc388e55e1162a70d7638598b364b38acf",
+      "size": 132,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/91bf07bc388e55e1162a70d7638598b364b38acf"
+    },
+    {
+      "path": "packages/markitdown-sample-plugin/src/markitdown_sample_plugin/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a64f99c7405d60a82ed2c23b89a493845c4111b",
+      "size": 346,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/8a64f99c7405d60a82ed2c23b89a493845c4111b"
+    },
+    {
+      "path": "packages/markitdown-sample-plugin/src/markitdown_sample_plugin/_plugin.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ca00ccc5b4f14575e04abe5e1e72d6cc556b1a5",
+      "size": 1824,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/1ca00ccc5b4f14575e04abe5e1e72d6cc556b1a5"
+    },
+    {
+      "path": "packages/markitdown-sample-plugin/src/markitdown_sample_plugin/py.typed",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "packages/markitdown-sample-plugin/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "78f7c94af396ef075b0c27401ae338f0dff04ba9",
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/trees/78f7c94af396ef075b0c27401ae338f0dff04ba9"
+    },
+    {
+      "path": "packages/markitdown-sample-plugin/tests/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44af7d79bf9a5a073383c5cf4ac857975777450e",
+      "size": 108,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/44af7d79bf9a5a073383c5cf4ac857975777450e"
+    },
+    {
+      "path": "packages/markitdown-sample-plugin/tests/test_files",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2389780e9021b3295b054e2b61b30eb9128e11a0",
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/trees/2389780e9021b3295b054e2b61b30eb9128e11a0"
+    },
+    {
+      "path": "packages/markitdown-sample-plugin/tests/test_files/test.rtf",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "48629ef453590aee55ed2ab28546f39fca87d802",
+      "size": 51180,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/48629ef453590aee55ed2ab28546f39fca87d802"
+    },
+    {
+      "path": "packages/markitdown-sample-plugin/tests/test_sample_plugin.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "696824742eedbf4bd977708628427eb5692dc646",
+      "size": 1312,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/696824742eedbf4bd977708628427eb5692dc646"
+    },
+    {
+      "path": "packages/markitdown",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "98c71ec59171360b2cb1d4058dd96e8fc1db4541",
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/trees/98c71ec59171360b2cb1d4058dd96e8fc1db4541"
+    },
+    {
+      "path": "packages/markitdown/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bedcba183ba9b849ad150d18bbf854d9bc81d54f",
+      "size": 1891,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/bedcba183ba9b849ad150d18bbf854d9bc81d54f"
+    },
+    {
+      "path": "packages/markitdown/ThirdPartyNotices.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44edd8f26f6e089b1cb4288a32d43138f044388c",
+      "size": 12799,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/44edd8f26f6e089b1cb4288a32d43138f044388c"
+    },
+    {
+      "path": "packages/markitdown/pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4c20a402c75a76323d0b614a32d54cb382968c8",
+      "size": 2877,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/d4c20a402c75a76323d0b614a32d54cb382968c8"
+    },
+    {
+      "path": "packages/markitdown/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "33a3046cd64d1326d324aa776fd920306cde43a4",
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/trees/33a3046cd64d1326d324aa776fd920306cde43a4"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d7f553428e5633fae60cc1e72a5c0a66200da054",
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/trees/d7f553428e5633fae60cc1e72a5c0a66200da054"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/__about__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c0eb23ec3cf6384e7ff185aa02e8a92783e7c4a",
+      "size": 130,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/1c0eb23ec3cf6384e7ff185aa02e8a92783e7c4a"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af356dd630f945666b91e2ffc25ac0c121f94e73",
+      "size": 899,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/af356dd630f945666b91e2ffc25ac0c121f94e73"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/__main__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccb44b64be1f388be30e57af8d0de9bf8966c543",
+      "size": 8676,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/ccb44b64be1f388be30e57af8d0de9bf8966c543"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/_base_converter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa2b111452d96be2cd305b482a18bce3144897b8",
+      "size": 4530,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/fa2b111452d96be2cd305b482a18bce3144897b8"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/_exceptions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f87ac8b2fbf3a41335e1841bb2d8eaef39ab7b5",
+      "size": 2459,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/2f87ac8b2fbf3a41335e1841bb2d8eaef39ab7b5"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/_markitdown.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6aa4df0e549b26a7ef1eba3afc356ebcb6f734c",
+      "size": 31560,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/f6aa4df0e549b26a7ef1eba3afc356ebcb6f734c"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/_stream_info.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84a1f64033f19c438fbedc784d24a8cc3d64831f",
+      "size": 1076,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/84a1f64033f19c438fbedc784d24a8cc3d64831f"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/_uri_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "603da63e9ec6efd46e311dd7ee9f149adf356a03",
+      "size": 1580,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/603da63e9ec6efd46e311dd7ee9f149adf356a03"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converter_utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "741fd743b8f5a02d34484a83dbd93f2243ab6880",
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/trees/741fd743b8f5a02d34484a83dbd93f2243ab6880"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converter_utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converter_utils/docx",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9eca72340b34b813326062b8bbe8114fd20cf987",
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/trees/9eca72340b34b813326062b8bbe8114fd20cf987"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converter_utils/docx/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converter_utils/docx/math",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cd3fb930d11b116f496ecf2b98e70ed06ae223d7",
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/trees/cd3fb930d11b116f496ecf2b98e70ed06ae223d7"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converter_utils/docx/math/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converter_utils/docx/math/latex_dict.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b4738246d3aacdea513a3ed2f6b016b867324a5",
+      "size": 6650,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/9b4738246d3aacdea513a3ed2f6b016b867324a5"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converter_utils/docx/math/omml.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfa734cdc5e003dec140731ee3ff0192e280a837",
+      "size": 10481,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/dfa734cdc5e003dec140731ee3ff0192e280a837"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converter_utils/docx/pre_process.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6fa8db6934b89725a4ea2aff68a06069df10239",
+      "size": 6342,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/d6fa8db6934b89725a4ea2aff68a06069df10239"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converters",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4d584f62b2ceee433717104e3d0d693b13fa8aaf",
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/trees/4d584f62b2ceee433717104e3d0d693b13fa8aaf"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converters/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77f8b1acd1227dc42d6a80b5073989080342e000",
+      "size": 1668,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/77f8b1acd1227dc42d6a80b5073989080342e000"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converters/_audio_converter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d96b53c85490021269f198df94e50096f738b19",
+      "size": 3047,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/3d96b53c85490021269f198df94e50096f738b19"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converters/_bing_serp_converter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a383487202558521d68300dc84eecd1107e5e68",
+      "size": 3885,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/6a383487202558521d68300dc84eecd1107e5e68"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converters/_csv_converter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e9631e1b0dd20d9d51c9e21a75b2e33a4b6b976",
+      "size": 2278,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/7e9631e1b0dd20d9d51c9e21a75b2e33a4b6b976"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converters/_cu_converter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4080dda7bee3f7ca1151faf9abdc976b83ed808",
+      "size": 19945,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/e4080dda7bee3f7ca1151faf9abdc976b83ed808"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converters/_doc_intel_converter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd843f2316744aa5c1ebad6e6144a651f2033c36",
+      "size": 9437,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/fd843f2316744aa5c1ebad6e6144a651f2033c36"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converters/_docx_converter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3975107b1291e8e533d493e26de82635d2f85343",
+      "size": 2521,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/3975107b1291e8e533d493e26de82635d2f85343"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converters/_epub_converter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3be65b0164f4f6b1115c5d359881871c64fc0f7b",
+      "size": 5515,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/3be65b0164f4f6b1115c5d359881871c64fc0f7b"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converters/_exiftool.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f605024fd7370aec71800b3b8a5b7dc23d5caf6d",
+      "size": 1448,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/f605024fd7370aec71800b3b8a5b7dc23d5caf6d"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converters/_html_converter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "029b27f57bd5742ecd3c85462008b3d7491463eb",
+      "size": 3676,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/029b27f57bd5742ecd3c85462008b3d7491463eb"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converters/_image_converter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd8fbac61cd3625fd577a6f52e65c66c701e894a",
+      "size": 4073,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/dd8fbac61cd3625fd577a6f52e65c66c701e894a"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converters/_ipynb_converter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b15e77aa257df35c22cb511fbf44186f92f679f6",
+      "size": 3384,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/b15e77aa257df35c22cb511fbf44186f92f679f6"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converters/_llm_caption.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "004a47aefecaa421f9edc3377c12c20280fa0113",
+      "size": 1445,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/004a47aefecaa421f9edc3377c12c20280fa0113"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converters/_markdownify.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19e8a29847d3197f6440fc9fecb74f83bf52fa5c",
+      "size": 4323,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/19e8a29847d3197f6440fc9fecb74f83bf52fa5c"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converters/_outlook_msg_converter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d216beaea025ce71fc80d836478d352861be8de2",
+      "size": 4954,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/d216beaea025ce71fc80d836478d352861be8de2"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converters/_pdf_converter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffbcbd990cfc40a577404c453ebe47bf477c4929",
+      "size": 20542,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/ffbcbd990cfc40a577404c453ebe47bf477c4929"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converters/_plain_text_converter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f1306fe83d13f34c808f02d70d055dd177fc217",
+      "size": 1997,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/6f1306fe83d13f34c808f02d70d055dd177fc217"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converters/_pptx_converter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "360f17706d35a3e53b7a3a8e5a34e4456d6776d9",
+      "size": 9953,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/360f17706d35a3e53b7a3a8e5a34e4456d6776d9"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converters/_rss_converter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bec42484fbcf984e4f7f84e3bc45c72fc6ead0ec",
+      "size": 6605,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/bec42484fbcf984e4f7f84e3bc45c72fc6ead0ec"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converters/_transcribe_audio.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d558e4629f4215bc9a785ec18f8396bb2eadd926",
+      "size": 1899,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/d558e4629f4215bc9a785ec18f8396bb2eadd926"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converters/_wikipedia_converter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c200186593847c9895423a8cd3bd279cefeb54a8",
+      "size": 2589,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/c200186593847c9895423a8cd3bd279cefeb54a8"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converters/_xlsx_converter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4186ec7733b07bdce2dc7b41095b638542a30d7c",
+      "size": 4905,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/4186ec7733b07bdce2dc7b41095b638542a30d7c"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converters/_youtube_converter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c96e8f4f61fa095cf9aa6e5efa712cd0ee5cbaf3",
+      "size": 8565,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/c96e8f4f61fa095cf9aa6e5efa712cd0ee5cbaf3"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/converters/_zip_converter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f87e6c890f92854d884586af2a92119db1402a93",
+      "size": 3639,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/f87e6c890f92854d884586af2a92119db1402a93"
+    },
+    {
+      "path": "packages/markitdown/src/markitdown/py.typed",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "packages/markitdown/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7b4e957cc4d7687422e8066efba88a0970b4a550",
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/trees/7b4e957cc4d7687422e8066efba88a0970b4a550"
+    },
+    {
+      "path": "packages/markitdown/tests/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44af7d79bf9a5a073383c5cf4ac857975777450e",
+      "size": 108,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/44af7d79bf9a5a073383c5cf4ac857975777450e"
+    },
+    {
+      "path": "packages/markitdown/tests/_test_vectors.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74fa9bd0ac9b3e1c0d6bf1360bc91e3e64a88a9d",
+      "size": 9889,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/74fa9bd0ac9b3e1c0d6bf1360bc91e3e64a88a9d"
+    },
+    {
+      "path": "packages/markitdown/tests/test_cli_misc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf6c9ccc78ead53c0aec773e63e24b88b4be56a3",
+      "size": 1160,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/cf6c9ccc78ead53c0aec773e63e24b88b4be56a3"
+    },
+    {
+      "path": "packages/markitdown/tests/test_cli_vectors.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5add530b1a019298828af1f41229e383e227e0c7",
+      "size": 6944,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/5add530b1a019298828af1f41229e383e227e0c7"
+    },
+    {
+      "path": "packages/markitdown/tests/test_cu_converter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "760f5fcc793ba4182290698f8d3102e98ab88a07",
+      "size": 35216,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/760f5fcc793ba4182290698f8d3102e98ab88a07"
+    },
+    {
+      "path": "packages/markitdown/tests/test_docintel_html.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0b4caa3e6fcebdfb2d9eed66d3c1f94465d7810",
+      "size": 940,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/d0b4caa3e6fcebdfb2d9eed66d3c1f94465d7810"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "79afdfa84abb7efa108fcd70377d5ca8618f81e3",
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/trees/79afdfa84abb7efa108fcd70377d5ca8618f81e3"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/MEDRPT-2024-PAT-3847_medical_report_scan.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30e1960a09e84a0b067f4388436958abe5f6ce40",
+      "size": 282554,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/30e1960a09e84a0b067f4388436958abe5f6ce40"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/RECEIPT-2024-TXN-98765_retail_purchase.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34842dc78b8c21b6cc0e534d6374b66ec0770ccc",
+      "size": 8459,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/34842dc78b8c21b6cc0e534d6374b66ec0770ccc"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/REPAIR-2022-INV-001_multipage.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c795d9e1b8f618b9544c8b6ab19fbc618c877021",
+      "size": 176629,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/c795d9e1b8f618b9544c8b6ab19fbc618c877021"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/SPARSE-2024-INV-1234_borderless_table.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8ba29fe908c289b4ed0cbc3c3ee104ed403a3bf",
+      "size": 19649,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/e8ba29fe908c289b4ed0cbc3c3ee104ed403a3bf"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/equations.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a05cd77f62aeb61624be36c05e12773177a8071",
+      "size": 15235,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/6a05cd77f62aeb61624be36c05e12773177a8071"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/expected_outputs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "443e682c474f7123080b019f39eaea72fbca8d88",
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/trees/443e682c474f7123080b019f39eaea72fbca8d88"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/expected_outputs/MEDRPT-2024-PAT-3847_medical_report_scan.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/expected_outputs/RECEIPT-2024-TXN-98765_retail_purchase.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "379de4df7bab8138df510daa3ce5e052ea16307a",
+      "size": 1483,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/379de4df7bab8138df510daa3ce5e052ea16307a"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/expected_outputs/REPAIR-2022-INV-001_multipage.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e80967b45e631266b71a802ee1affffbed4a5e4f",
+      "size": 5089,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/e80967b45e631266b71a802ee1affffbed4a5e4f"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/expected_outputs/SPARSE-2024-INV-1234_borderless_table.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "797496452e7e1acc135736e57f53c4a5db209796",
+      "size": 2711,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/797496452e7e1acc135736e57f53c4a5db209796"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/expected_outputs/movie-theater-booking-2024.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "371cee776bafead863bc50672502eb30d78efb5f",
+      "size": 4030,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/371cee776bafead863bc50672502eb30d78efb5f"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/expected_outputs/test.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d9c90c07f8e9ce59ad90b0e75aa4609168da628",
+      "size": 5200,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/2d9c90c07f8e9ce59ad90b0e75aa4609168da628"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/masterformat_partial_numbering.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "246639a831813b1b6081aa5bdc0c0838c1bf3dfe",
+      "size": 2114,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/246639a831813b1b6081aa5bdc0c0838c1bf3dfe"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/movie-theater-booking-2024.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8555bb833d5edb63aee640e9c201288fbbeb9d46",
+      "size": 3798,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/8555bb833d5edb63aee640e9c201288fbbeb9d46"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/random.bin",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e673935e3fe247eb568b532edda79cfa6d7cfd23",
+      "size": 1024,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/e673935e3fe247eb568b532edda79cfa6d7cfd23"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/rlink.docx",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5afb49d2195393466d82f8732ac4c67a3669c671",
+      "size": 13708,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/5afb49d2195393466d82f8732ac4c67a3669c671"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/test.docx",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "79e281d71ad268cf8c5b5fe7c2bcac4d3b0c7b63",
+      "size": 135824,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/79e281d71ad268cf8c5b5fe7c2bcac4d3b0c7b63"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/test.epub",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25c77b57ecd19d84e747738f63330238f68bc2bc",
+      "size": 2677,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/25c77b57ecd19d84e747738f63330238f68bc2bc"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/test.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "214d60a206c438f3c2ed2e903500d0308cc766a3",
+      "size": 474288,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/214d60a206c438f3c2ed2e903500d0308cc766a3"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/test.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eba30594ebe0532752654265506b890e23a4b1ce",
+      "size": 229,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/eba30594ebe0532752654265506b890e23a4b1ce"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/test.m4a",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7a3b25f85c71f24d4f065752dd3971377377f7fe",
+      "size": 165924,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/7a3b25f85c71f24d4f065752dd3971377377f7fe"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/test.mp3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b13ff887059e8e6f3be8bdd2f41801f33c26b28c",
+      "size": 156258,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/b13ff887059e8e6f3be8bdd2f41801f33c26b28c"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/test.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e82861e7dcc25c24544cf439a5d585236b35ce1b",
+      "size": 92971,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/e82861e7dcc25c24544cf439a5d585236b35ce1b"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/test.pptx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb663021a11a7766e74a83ebe5c7871fd369a760",
+      "size": 277515,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/fb663021a11a7766e74a83ebe5c7871fd369a760"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/test.wav",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e872f106f0a6cbae805b5b0fc9d3adc4f4cb2602",
+      "size": 1237070,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/e872f106f0a6cbae805b5b0fc9d3adc4f4cb2602"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/test.xls",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de4f368c24d489ff7aca786acc29d80652189eb9",
+      "size": 27648,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/de4f368c24d489ff7aca786acc29d80652189eb9"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/test.xlsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a41e176eb860d6d78d92bcb2f00b2524d925df5",
+      "size": 11562,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/3a41e176eb860d6d78d92bcb2f00b2524d925df5"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/test_blog.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1325b31fd468640a288bac84ec642f191ff75a40",
+      "size": 25965,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/1325b31fd468640a288bac84ec642f191ff75a40"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/test_files.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef49dc0da803a5e3d3aa467fbb8413a996ffe725",
+      "size": 744377,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/ef49dc0da803a5e3d3aa467fbb8413a996ffe725"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/test_llm.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f358fede8994d53bc7f41fcc395e234715fe9ec",
+      "size": 148594,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/1f358fede8994d53bc7f41fcc395e234715fe9ec"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/test_mskanji.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d67f5a317fd5d781aa48a42f9cbfd3b76e36595f",
+      "size": 70,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/d67f5a317fd5d781aa48a42f9cbfd3b76e36595f"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/test_notebook.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28a546ff31929712006209db43dd90aaeaa24ba6",
+      "size": 1408,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/28a546ff31929712006209db43dd90aaeaa24ba6"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/test_outlook_msg.msg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05b087b77c785c8b57a479485b9715fb7dfecbb4",
+      "size": 13312,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/05b087b77c785c8b57a479485b9715fb7dfecbb4"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/test_rss.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "228a2b2033f9f9c25a142539ee5e91909dedab27",
+      "size": 280581,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/228a2b2033f9f9c25a142539ee5e91909dedab27"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/test_serp.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1daf5b7fb9e8614ac93874cbcad04303e6dfde5c",
+      "size": 439704,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/1daf5b7fb9e8614ac93874cbcad04303e6dfde5c"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/test_wikipedia.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ac9cbc181bb6bb3099e4394a0efb228ac96e367",
+      "size": 394444,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/3ac9cbc181bb6bb3099e4394a0efb228ac96e367"
+    },
+    {
+      "path": "packages/markitdown/tests/test_files/test_with_comment.docx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fc1745c71ef1f1d41429a4da95f8ff95e214a26",
+      "size": 12971,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/8fc1745c71ef1f1d41429a4da95f8ff95e214a26"
+    },
+    {
+      "path": "packages/markitdown/tests/test_module_misc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d62e4919c220371da24ae4e538aebb10e930808",
+      "size": 19870,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/4d62e4919c220371da24ae4e538aebb10e930808"
+    },
+    {
+      "path": "packages/markitdown/tests/test_module_vectors.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6d9d680c68734eb705dd9f03773630d8cf435c6",
+      "size": 7782,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/d6d9d680c68734eb705dd9f03773630d8cf435c6"
+    },
+    {
+      "path": "packages/markitdown/tests/test_pdf_masterformat.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d3eb0739837e4e5d10bc8fe9cc954cf2bdbe6db",
+      "size": 7255,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/8d3eb0739837e4e5d10bc8fe9cc954cf2bdbe6db"
+    },
+    {
+      "path": "packages/markitdown/tests/test_pdf_memory.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1731dd63e681e69114b66d05090fcb7ec835ce83",
+      "size": 12642,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/1731dd63e681e69114b66d05090fcb7ec835ce83"
+    },
+    {
+      "path": "packages/markitdown/tests/test_pdf_tables.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d26de0cb984fc49633ac581af7de4232db008512",
+      "size": 45659,
+      "url": "https://api.github.com/repos/microsoft/markitdown/git/blobs/d26de0cb984fc49633ac581af7de4232db008512"
+    }
+  ],
+  "truncated": false
+}

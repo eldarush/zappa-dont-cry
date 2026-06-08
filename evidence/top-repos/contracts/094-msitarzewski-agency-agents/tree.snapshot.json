@@ -1,0 +1,2539 @@
+{
+  "sha": "d6553e261e595c651064f899a6c33dd5aa71c9e3",
+  "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/d6553e261e595c651064f899a6c33dd5aa71c9e3",
+  "tree": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2bbbd76b8405824919c4fc49f9612be1debc9c3",
+      "size": 121,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/e2bbbd76b8405824919c4fc49f9612be1debc9c3"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7b2d88b4bdf10b2a71c812d247e6a71d37bad123",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/7b2d88b4bdf10b2a71c812d247e6a71d37bad123"
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "618da83367e3757c61a5bc20ac4955e147e680c3",
+      "size": 21,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/618da83367e3757c61a5bc20ac4955e147e680c3"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "16c15f1a2894f6786e9dbcf4c1c9186883111255",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/16c15f1a2894f6786e9dbcf4c1c9186883111255"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug-report.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d2cab519c0e8ce9c089fbbbaf95783b46eb518a",
+      "size": 713,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/2d2cab519c0e8ce9c089fbbbaf95783b46eb518a"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/new-agent-request.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7fdd10c7e78fa6d4a60d452a21aeca21f8bb44a",
+      "size": 1082,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/b7fdd10c7e78fa6d4a60d452a21aeca21f8bb44a"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f621b1570cbf5afc8b8436e7ce206f46a0cd1058",
+      "size": 449,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/f621b1570cbf5afc8b8436e7ce206f46a0cd1058"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "859a82f74de1a2aee369c9c173066a70c70a9186",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/859a82f74de1a2aee369c9c173066a70c70a9186"
+    },
+    {
+      "path": ".github/workflows/lint-agents.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ecde962cd28cff9c0def311e8a13f5f2fb1545f",
+      "size": 1964,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/3ecde962cd28cff9c0def311e8a13f5f2fb1545f"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d6ec02e3f8c66fd3c091d5b15b13c9e8a512832",
+      "size": 1269,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/0d6ec02e3f8c66fd3c091d5b15b13c9e8a512832"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acdedd7b1f3dfdfeddc1919402c137c595c3592b",
+      "size": 15476,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/acdedd7b1f3dfdfeddc1919402c137c595c3592b"
+    },
+    {
+      "path": "CONTRIBUTING_zh-CN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6a6fdbfb4bb8e6b00ffeb95b0147aea032e760f",
+      "size": 9677,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/b6a6fdbfb4bb8e6b00ffeb95b0147aea032e760f"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "523078c01624b9b1b1c551e75054b9d3a9f953ab",
+      "size": 1079,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/523078c01624b9b1b1c551e75054b9d3a9f953ab"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45ccaf0b12defa4f00194709a7fe51f0ca786394",
+      "size": 67535,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/45ccaf0b12defa4f00194709a7fe51f0ca786394"
+    },
+    {
+      "path": "SECURITY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "963c58be8b7a65e3680ad348942375bafa74a05e",
+      "size": 1066,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/963c58be8b7a65e3680ad348942375bafa74a05e"
+    },
+    {
+      "path": "academic",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "60d83364829144dacca6324541bbd6962b99e82f",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/60d83364829144dacca6324541bbd6962b99e82f"
+    },
+    {
+      "path": "academic/academic-anthropologist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9c811f2ff7802f05e9450423c4b98ae6a08be31",
+      "size": 7878,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/f9c811f2ff7802f05e9450423c4b98ae6a08be31"
+    },
+    {
+      "path": "academic/academic-geographer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c02b43b609c2cceb8ee057bcda9fd104fca353af",
+      "size": 7740,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/c02b43b609c2cceb8ee057bcda9fd104fca353af"
+    },
+    {
+      "path": "academic/academic-historian.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b67f5a5fcd6fb1b439a3044fcbc21e39fca2247a",
+      "size": 7272,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/b67f5a5fcd6fb1b439a3044fcbc21e39fca2247a"
+    },
+    {
+      "path": "academic/academic-narratologist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3976b6f63ac643fc8606cae701bf8e002056703b",
+      "size": 6797,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/3976b6f63ac643fc8606cae701bf8e002056703b"
+    },
+    {
+      "path": "academic/academic-psychologist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e20a812c93a94b62b5c0aec96692d3ce5c6449cc",
+      "size": 7833,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/e20a812c93a94b62b5c0aec96692d3ce5c6449cc"
+    },
+    {
+      "path": "design",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "51ac2868dd21a206f282b7d2022bf8dca372e51a",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/51ac2868dd21a206f282b7d2022bf8dca372e51a"
+    },
+    {
+      "path": "design/design-brand-guardian.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6c6feda374146d84c46087e6707994d1f17ef5c",
+      "size": 11641,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/c6c6feda374146d84c46087e6707994d1f17ef5c"
+    },
+    {
+      "path": "design/design-image-prompt-engineer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f4a8dd241a8f16e75d02fbaba055a14b3e34512",
+      "size": 11160,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/8f4a8dd241a8f16e75d02fbaba055a14b3e34512"
+    },
+    {
+      "path": "design/design-inclusive-visuals-specialist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe354f90ea4692becbe1fd7abbfe55be6778fe23",
+      "size": 6799,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/fe354f90ea4692becbe1fd7abbfe55be6778fe23"
+    },
+    {
+      "path": "design/design-persona-walkthrough.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cc677e6220ffb4c5179b28eccfed51c8777f80a",
+      "size": 16759,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/1cc677e6220ffb4c5179b28eccfed51c8777f80a"
+    },
+    {
+      "path": "design/design-ui-designer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca8886161000d62dd4429d1462b3fd473c031312",
+      "size": 13339,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/ca8886161000d62dd4429d1462b3fd473c031312"
+    },
+    {
+      "path": "design/design-ux-architect.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36e324342ca889151417439c2802445a24f471f0",
+      "size": 15758,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/36e324342ca889151417439c2802445a24f471f0"
+    },
+    {
+      "path": "design/design-ux-researcher.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e8a2480dc9bb11a47c19621a9013bdc3466865a",
+      "size": 13030,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/0e8a2480dc9bb11a47c19621a9013bdc3466865a"
+    },
+    {
+      "path": "design/design-visual-storyteller.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e48fde299d7e7ecc259e05819be64212dcf2bc25",
+      "size": 7416,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/e48fde299d7e7ecc259e05819be64212dcf2bc25"
+    },
+    {
+      "path": "design/design-whimsy-injector.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "834ed54657ae7c6dfbe351ef4cc65c4c53420ca1",
+      "size": 15851,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/834ed54657ae7c6dfbe351ef4cc65c4c53420ca1"
+    },
+    {
+      "path": "engineering",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2009929f360a7a13b04d1260318013038f81b75e",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/2009929f360a7a13b04d1260318013038f81b75e"
+    },
+    {
+      "path": "engineering/engineering-ai-data-remediation-engineer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aad8795adc7bf08c46776731b31c6cd3f41c3e6c",
+      "size": 10691,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/aad8795adc7bf08c46776731b31c6cd3f41c3e6c"
+    },
+    {
+      "path": "engineering/engineering-ai-engineer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4a8f6d548894bafaf1dfe651f44f3e7179bf569",
+      "size": 7383,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/a4a8f6d548894bafaf1dfe651f44f3e7179bf569"
+    },
+    {
+      "path": "engineering/engineering-autonomous-optimization-architect.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28a5fc6470fe089f7c69b7040dbf5870597c6e7d",
+      "size": 7953,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/28a5fc6470fe089f7c69b7040dbf5870597c6e7d"
+    },
+    {
+      "path": "engineering/engineering-backend-architect.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c3125d61e53694ef1bb876e81040ffb84d57956",
+      "size": 10928,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/7c3125d61e53694ef1bb876e81040ffb84d57956"
+    },
+    {
+      "path": "engineering/engineering-cms-developer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79bd2b553626af61c4a352b1e2eab94da3fb871b",
+      "size": 19520,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/79bd2b553626af61c4a352b1e2eab94da3fb871b"
+    },
+    {
+      "path": "engineering/engineering-code-reviewer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb93291f4b94a8d5687aa1cc0d05741c3352dd22",
+      "size": 3076,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/fb93291f4b94a8d5687aa1cc0d05741c3352dd22"
+    },
+    {
+      "path": "engineering/engineering-codebase-onboarding-engineer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc36ec153ebe38ebf51515d8591a44e1213e5aa1",
+      "size": 9569,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/cc36ec153ebe38ebf51515d8591a44e1213e5aa1"
+    },
+    {
+      "path": "engineering/engineering-data-engineer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfa7c5c12ee6494c8f58e58697e4add4c1f88c77",
+      "size": 14687,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/cfa7c5c12ee6494c8f58e58697e4add4c1f88c77"
+    },
+    {
+      "path": "engineering/engineering-database-optimizer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3af7da68e6d37c66894d123791a29ddbfa7965e2",
+      "size": 5533,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/3af7da68e6d37c66894d123791a29ddbfa7965e2"
+    },
+    {
+      "path": "engineering/engineering-devops-automator.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9e7cac04c8e78e812d230aae9f9f676b20413ac",
+      "size": 12879,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/a9e7cac04c8e78e812d230aae9f9f676b20413ac"
+    },
+    {
+      "path": "engineering/engineering-drupal-shopping-cart.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60d478e038c4a689a7390e0389e0ff0886e8739f",
+      "size": 21461,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/60d478e038c4a689a7390e0389e0ff0886e8739f"
+    },
+    {
+      "path": "engineering/engineering-email-intelligence-engineer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46b27c7f8cb0fcb28d5c7cc10b23295788c0dcc0",
+      "size": 16550,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/46b27c7f8cb0fcb28d5c7cc10b23295788c0dcc0"
+    },
+    {
+      "path": "engineering/engineering-embedded-firmware-engineer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bb971c5b21a4bda62550b322dc3485df8ea4b09",
+      "size": 6562,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/8bb971c5b21a4bda62550b322dc3485df8ea4b09"
+    },
+    {
+      "path": "engineering/engineering-feishu-integration-developer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74d208680c9000cca864404b75a47ca782811e21",
+      "size": 21127,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/74d208680c9000cca864404b75a47ca782811e21"
+    },
+    {
+      "path": "engineering/engineering-filament-optimization-specialist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dfc49b30a121a6844a9ba15f3e9d7a69581ea1e",
+      "size": 14269,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/9dfc49b30a121a6844a9ba15f3e9d7a69581ea1e"
+    },
+    {
+      "path": "engineering/engineering-frontend-developer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68cf7fe861d8af600b619d62c9cde1625e6e4578",
+      "size": 9283,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/68cf7fe861d8af600b619d62c9cde1625e6e4578"
+    },
+    {
+      "path": "engineering/engineering-git-workflow-master.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d00b608bc827ad9f60b65b15f941256c73f44c66",
+      "size": 3342,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/d00b608bc827ad9f60b65b15f941256c73f44c66"
+    },
+    {
+      "path": "engineering/engineering-incident-response-commander.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24819836fe0046eb4e38efe9f249ae28c023fc3c",
+      "size": 21121,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/24819836fe0046eb4e38efe9f249ae28c023fc3c"
+    },
+    {
+      "path": "engineering/engineering-it-service-manager.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78272c20ea0caf5f52b688c1dd0f13174f08b052",
+      "size": 27663,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/78272c20ea0caf5f52b688c1dd0f13174f08b052"
+    },
+    {
+      "path": "engineering/engineering-minimal-change-engineer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11d7660010fb70c5fcd4c36e2239afe357ecd335",
+      "size": 11231,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/11d7660010fb70c5fcd4c36e2239afe357ecd335"
+    },
+    {
+      "path": "engineering/engineering-mobile-app-builder.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71cc10024f07a0c6a19aed9f7e495284f7ce5e6a",
+      "size": 17035,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/71cc10024f07a0c6a19aed9f7e495284f7ce5e6a"
+    },
+    {
+      "path": "engineering/engineering-multi-agent-systems-architect.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ca4ebef41d7ec024158d8ed2a9221c2037a72cc",
+      "size": 29301,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/4ca4ebef41d7ec024158d8ed2a9221c2037a72cc"
+    },
+    {
+      "path": "engineering/engineering-orgscript-engineer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3ff0fd452bef0c79b5399371cb7ae9ae9780815",
+      "size": 5611,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/c3ff0fd452bef0c79b5399371cb7ae9ae9780815"
+    },
+    {
+      "path": "engineering/engineering-prompt-engineer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6ca07e34d8a8e4a7aa01b1df35a37ad53f863db",
+      "size": 9477,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/b6ca07e34d8a8e4a7aa01b1df35a37ad53f863db"
+    },
+    {
+      "path": "engineering/engineering-rapid-prototyper.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76f66c39758a3a525e16bce49d9ea9d5c9e25fc7",
+      "size": 15492,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/76f66c39758a3a525e16bce49d9ea9d5c9e25fc7"
+    },
+    {
+      "path": "engineering/engineering-senior-developer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e31edee0f69fb0a47c008d43997b5dc895e610b",
+      "size": 6252,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/5e31edee0f69fb0a47c008d43997b5dc895e610b"
+    },
+    {
+      "path": "engineering/engineering-software-architect.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a69148c99b2c170e36e035a0c7a341e98e634e9",
+      "size": 6485,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/1a69148c99b2c170e36e035a0c7a341e98e634e9"
+    },
+    {
+      "path": "engineering/engineering-solidity-smart-contract-engineer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "294abb9c86dfa7e169d0d3559698c6b1b497f50b",
+      "size": 21714,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/294abb9c86dfa7e169d0d3559698c6b1b497f50b"
+    },
+    {
+      "path": "engineering/engineering-sre.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "592c7ab92f0fa5f56da735e65eba4c7c40231568",
+      "size": 3882,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/592c7ab92f0fa5f56da735e65eba4c7c40231568"
+    },
+    {
+      "path": "engineering/engineering-technical-writer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "447c306c31458634d686ec040697808cd931a772",
+      "size": 14210,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/447c306c31458634d686ec040697808cd931a772"
+    },
+    {
+      "path": "engineering/engineering-voice-ai-integration-engineer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07745fb3bc753e813f68650a9eae494e5c91efd9",
+      "size": 27288,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/07745fb3bc753e813f68650a9eae494e5c91efd9"
+    },
+    {
+      "path": "engineering/engineering-wechat-mini-program-developer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4e804638c70416aa070642639ff9fddd983509d",
+      "size": 15566,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/e4e804638c70416aa070642639ff9fddd983509d"
+    },
+    {
+      "path": "engineering/engineering-wordpress-shopping-cart.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40bfbea344156910ecdf1abf58f8028e0260df31",
+      "size": 22177,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/40bfbea344156910ecdf1abf58f8028e0260df31"
+    },
+    {
+      "path": "examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0ba7ae801327f55bcdf37388ae382011bd8b4aea",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/0ba7ae801327f55bcdf37388ae382011bd8b4aea"
+    },
+    {
+      "path": "examples/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9887f84a33fa5d5fb3299950a4d3699dd27a89e2",
+      "size": 2402,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/9887f84a33fa5d5fb3299950a4d3699dd27a89e2"
+    },
+    {
+      "path": "examples/nexus-spatial-discovery.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af6bd12542b4e2714aceb18f3fadbd9c6c3ec13e",
+      "size": 40664,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/af6bd12542b4e2714aceb18f3fadbd9c6c3ec13e"
+    },
+    {
+      "path": "examples/workflow-book-chapter.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94986102d4360a9b08ec7b929c2295cae855127c",
+      "size": 2101,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/94986102d4360a9b08ec7b929c2295cae855127c"
+    },
+    {
+      "path": "examples/workflow-landing-page.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "391b68c098bdc57ab14dbe580efc36370c6af42a",
+      "size": 3389,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/391b68c098bdc57ab14dbe580efc36370c6af42a"
+    },
+    {
+      "path": "examples/workflow-startup-mvp.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13af00814d1508e5afd3c103724796aac23692fb",
+      "size": 4594,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/13af00814d1508e5afd3c103724796aac23692fb"
+    },
+    {
+      "path": "examples/workflow-with-memory.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9835b67c41b8fb022ca9ab9dbcd023a51bbbcdd",
+      "size": 9090,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/d9835b67c41b8fb022ca9ab9dbcd023a51bbbcdd"
+    },
+    {
+      "path": "finance",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f4e1d21108325c04b4b506b53b10636e1600c0f2",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/f4e1d21108325c04b4b506b53b10636e1600c0f2"
+    },
+    {
+      "path": "finance/finance-bookkeeper-controller.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed28a7488aa98e5e70e71392368d5a010da7882a",
+      "size": 15247,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/ed28a7488aa98e5e70e71392368d5a010da7882a"
+    },
+    {
+      "path": "finance/finance-financial-analyst.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ec0dbcbcc77eda73e6ed680dc88762aad02b609",
+      "size": 13448,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/8ec0dbcbcc77eda73e6ed680dc88762aad02b609"
+    },
+    {
+      "path": "finance/finance-fpa-analyst.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a398f97d4ea11b80f1282cd041c5e0c015c75cdb",
+      "size": 16614,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/a398f97d4ea11b80f1282cd041c5e0c015c75cdb"
+    },
+    {
+      "path": "finance/finance-investment-researcher.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50ff87cf7f4571d7796c7a4c31352c0887cb3420",
+      "size": 15678,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/50ff87cf7f4571d7796c7a4c31352c0887cb3420"
+    },
+    {
+      "path": "finance/finance-tax-strategist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcaac1dc70092e1235d933044157ea72a39d4f83",
+      "size": 13731,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/bcaac1dc70092e1235d933044157ea72a39d4f83"
+    },
+    {
+      "path": "game-development",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "49fa69cfc2371518aee0fb3a1d11bdde0cc138de",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/49fa69cfc2371518aee0fb3a1d11bdde0cc138de"
+    },
+    {
+      "path": "game-development/blender",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4677448c47ddded14b869661c12a24f5dc052258",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/4677448c47ddded14b869661c12a24f5dc052258"
+    },
+    {
+      "path": "game-development/blender/blender-addon-engineer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3174d46e14415d67deb32ef8e41f811d8f5bb158",
+      "size": 10954,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/3174d46e14415d67deb32ef8e41f811d8f5bb158"
+    },
+    {
+      "path": "game-development/game-audio-engineer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5dcf286a81d4f9bf80cb6ef94dc439ed17c44c4a",
+      "size": 12298,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/5dcf286a81d4f9bf80cb6ef94dc439ed17c44c4a"
+    },
+    {
+      "path": "game-development/game-designer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64f719fac09531dfeea308c258ade32d1d74db3c",
+      "size": 8433,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/64f719fac09531dfeea308c258ade32d1d74db3c"
+    },
+    {
+      "path": "game-development/godot",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3e8a9a7d8f2407fabeb91c7e5673ebee54c4163d",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/3e8a9a7d8f2407fabeb91c7e5673ebee54c4163d"
+    },
+    {
+      "path": "game-development/godot/godot-gameplay-scripter.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42e8d2e96a6ba18b90ce43a5ca5481b5c3f8e8ed",
+      "size": 15538,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/42e8d2e96a6ba18b90ce43a5ca5481b5c3f8e8ed"
+    },
+    {
+      "path": "game-development/godot/godot-multiplayer-engineer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45bbeddf93580a041e924514b1e3b68ec158ac6f",
+      "size": 13918,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/45bbeddf93580a041e924514b1e3b68ec158ac6f"
+    },
+    {
+      "path": "game-development/godot/godot-shader-developer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "069a7e2c5a9ef9a19a14cb76658f0771cf618547",
+      "size": 13392,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/069a7e2c5a9ef9a19a14cb76658f0771cf618547"
+    },
+    {
+      "path": "game-development/level-designer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4997edd6c2696e2754a44e96bc349e90f1c434a0",
+      "size": 10340,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/4997edd6c2696e2754a44e96bc349e90f1c434a0"
+    },
+    {
+      "path": "game-development/narrative-designer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "261a5d792c14ad46af144d06e01e21fe5a41db89",
+      "size": 13160,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/261a5d792c14ad46af144d06e01e21fe5a41db89"
+    },
+    {
+      "path": "game-development/roblox-studio",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "45579209bdb4ea4d810345ae6623d6913d2c2973",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/45579209bdb4ea4d810345ae6623d6913d2c2973"
+    },
+    {
+      "path": "game-development/roblox-studio/roblox-avatar-creator.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "752e0ed0e30764d85eb064b90568555709608b56",
+      "size": 14116,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/752e0ed0e30764d85eb064b90568555709608b56"
+    },
+    {
+      "path": "game-development/roblox-studio/roblox-experience-designer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab7b7d46b225dbd2e57fba363723f97ebd9945f5",
+      "size": 14863,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/ab7b7d46b225dbd2e57fba363723f97ebd9945f5"
+    },
+    {
+      "path": "game-development/roblox-studio/roblox-systems-scripter.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc7ca448adfd390cd322a599b593953da3aa882c",
+      "size": 15204,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/fc7ca448adfd390cd322a599b593953da3aa882c"
+    },
+    {
+      "path": "game-development/technical-artist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "293e3fcb55f73d026a6463958180e722a2a3465a",
+      "size": 11220,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/293e3fcb55f73d026a6463958180e722a2a3465a"
+    },
+    {
+      "path": "game-development/unity",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f73c01757fe16547ca4ccbcb576f2a49fffa3fda",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/f73c01757fe16547ca4ccbcb576f2a49fffa3fda"
+    },
+    {
+      "path": "game-development/unity/unity-architect.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccae7118f8afdad4f4e272fb6ffb9b0de97e13d4",
+      "size": 12244,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/ccae7118f8afdad4f4e272fb6ffb9b0de97e13d4"
+    },
+    {
+      "path": "game-development/unity/unity-editor-tool-developer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62feebc4d80e9d89b1ac2c40d9ebd42e153f74c5",
+      "size": 14889,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/62feebc4d80e9d89b1ac2c40d9ebd42e153f74c5"
+    },
+    {
+      "path": "game-development/unity/unity-multiplayer-engineer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa9886cd01f451cb6340b4729054ade9579273c7",
+      "size": 14947,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/fa9886cd01f451cb6340b4729054ade9579273c7"
+    },
+    {
+      "path": "game-development/unity/unity-shader-graph-artist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c7a0aed1ac76a5207a35c87c6a63adbca493b1c",
+      "size": 13080,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/1c7a0aed1ac76a5207a35c87c6a63adbca493b1c"
+    },
+    {
+      "path": "game-development/unreal-engine",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1863daf36159ed5e31a4974a986c176f7c8b4eb1",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/1863daf36159ed5e31a4974a986c176f7c8b4eb1"
+    },
+    {
+      "path": "game-development/unreal-engine/unreal-multiplayer-architect.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d78ad5f5a49f1930a4794b4382471e6f53656a1d",
+      "size": 14039,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/d78ad5f5a49f1930a4794b4382471e6f53656a1d"
+    },
+    {
+      "path": "game-development/unreal-engine/unreal-systems-engineer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cb8a8271bab11a273395c7dc74c6fe07ff3cfed",
+      "size": 15507,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/7cb8a8271bab11a273395c7dc74c6fe07ff3cfed"
+    },
+    {
+      "path": "game-development/unreal-engine/unreal-technical-artist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "772b39f0914705ff13b2ec93a6cbdec889d1ec8c",
+      "size": 11854,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/772b39f0914705ff13b2ec93a6cbdec889d1ec8c"
+    },
+    {
+      "path": "game-development/unreal-engine/unreal-world-builder.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "867d4e7dce87f8ff10dadce22515ba2afee309da",
+      "size": 14011,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/867d4e7dce87f8ff10dadce22515ba2afee309da"
+    },
+    {
+      "path": "integrations",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "89b2e30617df6eaab1d9c5a2b86e073be1341428",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/89b2e30617df6eaab1d9c5a2b86e073be1341428"
+    },
+    {
+      "path": "integrations/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb5b8db03503e8421aa34819782eec7c8d7138c2",
+      "size": 6266,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/cb5b8db03503e8421aa34819782eec7c8d7138c2"
+    },
+    {
+      "path": "integrations/aider",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "18e7acb2049e2568a29364b4d563baa642d141af",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/18e7acb2049e2568a29364b4d563baa642d141af"
+    },
+    {
+      "path": "integrations/aider/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8158d13d6ebe9b854d9606a2a732e71ee597ec8",
+      "size": 691,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/d8158d13d6ebe9b854d9606a2a732e71ee597ec8"
+    },
+    {
+      "path": "integrations/antigravity",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ef0a7f9b8cc00b6dc1b2e8dc14fd1b578569bad9",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/ef0a7f9b8cc00b6dc1b2e8dc14fd1b578569bad9"
+    },
+    {
+      "path": "integrations/antigravity/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "561e47619fc12015a21f8700b008d807ea9c87fd",
+      "size": 1009,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/561e47619fc12015a21f8700b008d807ea9c87fd"
+    },
+    {
+      "path": "integrations/claude-code",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "790c27997f12ceec170c68a220ed0fee2dda97f5",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/790c27997f12ceec170c68a220ed0fee2dda97f5"
+    },
+    {
+      "path": "integrations/claude-code/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f8cfcdabd68f0146942c6c3e42c9f9db665a364",
+      "size": 712,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/9f8cfcdabd68f0146942c6c3e42c9f9db665a364"
+    },
+    {
+      "path": "integrations/codex",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8a911ce555bc537156f12f506fc354ba90b1842f",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/8a911ce555bc537156f12f506fc354ba90b1842f"
+    },
+    {
+      "path": "integrations/codex/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b44d468c855cd41bd8bbed6254d5c3b569d9bee",
+      "size": 1715,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/8b44d468c855cd41bd8bbed6254d5c3b569d9bee"
+    },
+    {
+      "path": "integrations/cursor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2e69240e78d607e1ab0d81a460a3004ebc54b986",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/2e69240e78d607e1ab0d81a460a3004ebc54b986"
+    },
+    {
+      "path": "integrations/cursor/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee1bdfe10e7c58a485d1bcaeec34e2d08f58aa36",
+      "size": 729,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/ee1bdfe10e7c58a485d1bcaeec34e2d08f58aa36"
+    },
+    {
+      "path": "integrations/gemini-cli",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5fea466f5adb335c5b972c180b95648ebd0f5e35",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/5fea466f5adb335c5b972c180b95648ebd0f5e35"
+    },
+    {
+      "path": "integrations/gemini-cli/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e664a6b879c01ee4093edb6bff23afae150ce627",
+      "size": 805,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/e664a6b879c01ee4093edb6bff23afae150ce627"
+    },
+    {
+      "path": "integrations/github-copilot",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4207838fc764487765bf9b3fcae0d8d05ce8ac67",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/4207838fc764487765bf9b3fcae0d8d05ce8ac67"
+    },
+    {
+      "path": "integrations/github-copilot/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4cfc8fa4bda1ae55fa785da2842a91ca2f1f08f",
+      "size": 759,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/e4cfc8fa4bda1ae55fa785da2842a91ca2f1f08f"
+    },
+    {
+      "path": "integrations/kimi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "937152d31c030637844fded6416bd8b9d3c24908",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/937152d31c030637844fded6416bd8b9d3c24908"
+    },
+    {
+      "path": "integrations/kimi/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37381ca5cf3d07f1220ddce9ee3e2d2b39b557a3",
+      "size": 2027,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/37381ca5cf3d07f1220ddce9ee3e2d2b39b557a3"
+    },
+    {
+      "path": "integrations/mcp-memory",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "81636e94a50eb7a3b671756efdf4b5b15f28329e",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/81636e94a50eb7a3b671756efdf4b5b15f28329e"
+    },
+    {
+      "path": "integrations/mcp-memory/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6413416fe0e7f9e324ac187b3f2cecfa02752f39",
+      "size": 3760,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/6413416fe0e7f9e324ac187b3f2cecfa02752f39"
+    },
+    {
+      "path": "integrations/mcp-memory/backend-architect-with-memory.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c08f66d39fb84294d9af4050f220acb092f3179",
+      "size": 10940,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/6c08f66d39fb84294d9af4050f220acb092f3179"
+    },
+    {
+      "path": "integrations/mcp-memory/setup.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "bcde1d77d845ec308437a39689827ef77e1bc43b",
+      "size": 2227,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/bcde1d77d845ec308437a39689827ef77e1bc43b"
+    },
+    {
+      "path": "integrations/openclaw",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2fec41060cd436db50e6d1d53273a46d7a6decd4",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/2fec41060cd436db50e6d1d53273a46d7a6decd4"
+    },
+    {
+      "path": "integrations/openclaw/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7399e7a63cd90f0fc27f0261fa03fab951086f86",
+      "size": 697,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/7399e7a63cd90f0fc27f0261fa03fab951086f86"
+    },
+    {
+      "path": "integrations/opencode",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1de99cd1e3f0f7c53f659c3dfe4efe3f1be9274e",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/1de99cd1e3f0f7c53f659c3dfe4efe3f1be9274e"
+    },
+    {
+      "path": "integrations/opencode/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eef275b2d9d5fdecd39254dd11f811e0bf4af7fd",
+      "size": 1493,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/eef275b2d9d5fdecd39254dd11f811e0bf4af7fd"
+    },
+    {
+      "path": "integrations/qwen",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1bf9a62f4dee518b505a66aa3b335e7252681be8",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/1bf9a62f4dee518b505a66aa3b335e7252681be8"
+    },
+    {
+      "path": "integrations/qwen/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "602106b2a0874a8398ca4720025635cdb16f75d3",
+      "size": 957,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/602106b2a0874a8398ca4720025635cdb16f75d3"
+    },
+    {
+      "path": "integrations/windsurf",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c3a1ba1a0c165382570327aa2f5b885cf0285ff5",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/c3a1ba1a0c165382570327aa2f5b885cf0285ff5"
+    },
+    {
+      "path": "integrations/windsurf/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e3205fcf86dc6e4c30b6555979ffe9c088857a7",
+      "size": 510,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/8e3205fcf86dc6e4c30b6555979ffe9c088857a7"
+    },
+    {
+      "path": "marketing",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4f13f1209759bb949232f048b575683135b58eb8",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/4f13f1209759bb949232f048b575683135b58eb8"
+    },
+    {
+      "path": "marketing/marketing-aeo-foundations.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f4fcb7df38037f57be0204825f6701a95218b6d",
+      "size": 15548,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/5f4fcb7df38037f57be0204825f6701a95218b6d"
+    },
+    {
+      "path": "marketing/marketing-agentic-search-optimizer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "595a786479c4146decbd6c736048166d81a89a8d",
+      "size": 15674,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/595a786479c4146decbd6c736048166d81a89a8d"
+    },
+    {
+      "path": "marketing/marketing-ai-citation-strategist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "500c0e294f07c7eaf1ae477b229a04afe58950c0",
+      "size": 9380,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/500c0e294f07c7eaf1ae477b229a04afe58950c0"
+    },
+    {
+      "path": "marketing/marketing-app-store-optimizer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "031b6898d4c4f53fe0f87ba4076bf72d160de63d",
+      "size": 13087,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/031b6898d4c4f53fe0f87ba4076bf72d160de63d"
+    },
+    {
+      "path": "marketing/marketing-baidu-seo-specialist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98658b2165be91e71baf768d214271ee302ca776",
+      "size": 12968,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/98658b2165be91e71baf768d214271ee302ca776"
+    },
+    {
+      "path": "marketing/marketing-bilibili-content-strategist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "532441cc3bc3cb800797874ee14f586056690c6c",
+      "size": 11647,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/532441cc3bc3cb800797874ee14f586056690c6c"
+    },
+    {
+      "path": "marketing/marketing-book-co-author.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8ec749f5c27f273dfcf6f7b12958cf7f98f8deb",
+      "size": 5083,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/a8ec749f5c27f273dfcf6f7b12958cf7f98f8deb"
+    },
+    {
+      "path": "marketing/marketing-carousel-growth-engine.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2bd030c45d3b0ab16d29b1edaee8d094ec97e24",
+      "size": 14840,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/c2bd030c45d3b0ab16d29b1edaee8d094ec97e24"
+    },
+    {
+      "path": "marketing/marketing-china-ecommerce-operator.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "544a566313175ca5c5f23d520cf086e4adbd073e",
+      "size": 16791,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/544a566313175ca5c5f23d520cf086e4adbd073e"
+    },
+    {
+      "path": "marketing/marketing-china-market-localization-strategist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9723ece0955f275916fac8b8c40cfcdf814f283",
+      "size": 16913,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/e9723ece0955f275916fac8b8c40cfcdf814f283"
+    },
+    {
+      "path": "marketing/marketing-content-creator.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b67b4e19a87e6f071bfee4f8c8a9eba4131a4fd",
+      "size": 3129,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/4b67b4e19a87e6f071bfee4f8c8a9eba4131a4fd"
+    },
+    {
+      "path": "marketing/marketing-cross-border-ecommerce.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7054b8f705b6287b7604e45ef75a8b52c304c611",
+      "size": 17415,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/7054b8f705b6287b7604e45ef75a8b52c304c611"
+    },
+    {
+      "path": "marketing/marketing-douyin-strategist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1b321f41263be00e967398f91cc2c978989d129",
+      "size": 6954,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/e1b321f41263be00e967398f91cc2c978989d129"
+    },
+    {
+      "path": "marketing/marketing-email-strategist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89f2a81502deeed160986be6faee80b01661298a",
+      "size": 16198,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/89f2a81502deeed160986be6faee80b01661298a"
+    },
+    {
+      "path": "marketing/marketing-global-podcast-strategist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0745fa762d38a3c88b662e1d6b6e2be6fbe40f27",
+      "size": 21857,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/0745fa762d38a3c88b662e1d6b6e2be6fbe40f27"
+    },
+    {
+      "path": "marketing/marketing-growth-hacker.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "baf0836679f990e73074aecf5f5122845bafc3ba",
+      "size": 3044,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/baf0836679f990e73074aecf5f5122845bafc3ba"
+    },
+    {
+      "path": "marketing/marketing-instagram-curator.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85b373a5743f20ba27e042c65b771da047d9ac06",
+      "size": 6563,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/85b373a5743f20ba27e042c65b771da047d9ac06"
+    },
+    {
+      "path": "marketing/marketing-kuaishou-strategist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "983afa67d96764a46b485a46217886198b63670a",
+      "size": 13889,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/983afa67d96764a46b485a46217886198b63670a"
+    },
+    {
+      "path": "marketing/marketing-linkedin-content-creator.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13edc8b02f2ac651810b123767886ffbae4b4878",
+      "size": 13361,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/13edc8b02f2ac651810b123767886ffbae4b4878"
+    },
+    {
+      "path": "marketing/marketing-livestream-commerce-coach.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66c02c60f6f8e2e692488812cbf1ef35fb170b48",
+      "size": 17166,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/66c02c60f6f8e2e692488812cbf1ef35fb170b48"
+    },
+    {
+      "path": "marketing/marketing-multi-platform-publisher.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e56049823679fa654f264757b4b7b4f239b63d5",
+      "size": 14660,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/5e56049823679fa654f264757b4b7b4f239b63d5"
+    },
+    {
+      "path": "marketing/marketing-podcast-strategist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8db7e2fb90b1fae4b3461991bf65e4e4ff14821",
+      "size": 18038,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/d8db7e2fb90b1fae4b3461991bf65e4e4ff14821"
+    },
+    {
+      "path": "marketing/marketing-pr-communications-manager.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2bc725c01dfbf2d6a4214793f70bd2d88791b51",
+      "size": 24692,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/e2bc725c01dfbf2d6a4214793f70bd2d88791b51"
+    },
+    {
+      "path": "marketing/marketing-private-domain-operator.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe12f9a1f18be62065da807e05d0b53fbd2c0043",
+      "size": 16176,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/fe12f9a1f18be62065da807e05d0b53fbd2c0043"
+    },
+    {
+      "path": "marketing/marketing-reddit-community-builder.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10166a042723f432f1080e6656c54066d47f3d06",
+      "size": 7498,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/10166a042723f432f1080e6656c54066d47f3d06"
+    },
+    {
+      "path": "marketing/marketing-seo-specialist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0149fcaa77c20fce69f6c30b0662b0207a1a817e",
+      "size": 17975,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/0149fcaa77c20fce69f6c30b0662b0207a1a817e"
+    },
+    {
+      "path": "marketing/marketing-short-video-editing-coach.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ddde08d79d5032ba224dce5261829f7bd83bdac",
+      "size": 30779,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/8ddde08d79d5032ba224dce5261829f7bd83bdac"
+    },
+    {
+      "path": "marketing/marketing-social-media-strategist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd39bfa5782fa36b862472e8a2b1cd3d517609e1",
+      "size": 7414,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/fd39bfa5782fa36b862472e8a2b1cd3d517609e1"
+    },
+    {
+      "path": "marketing/marketing-tiktok-strategist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d04641cadf4aab60ba5bf1144ee1036fa539c578",
+      "size": 7559,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/d04641cadf4aab60ba5bf1144ee1036fa539c578"
+    },
+    {
+      "path": "marketing/marketing-twitter-engager.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6651b2f76afe4cb5e404e338ba500032d7fc0164",
+      "size": 7760,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/6651b2f76afe4cb5e404e338ba500032d7fc0164"
+    },
+    {
+      "path": "marketing/marketing-video-optimization-specialist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d5fbb416b05f297f8649a3ecf39279d150e2290",
+      "size": 6245,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/3d5fbb416b05f297f8649a3ecf39279d150e2290"
+    },
+    {
+      "path": "marketing/marketing-wechat-official-account.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "952ee3298191456c8b88e2af06a6de20062a9a16",
+      "size": 9832,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/952ee3298191456c8b88e2af06a6de20062a9a16"
+    },
+    {
+      "path": "marketing/marketing-weibo-strategist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64f24ac05c76f26dd11a146a1a4731f7eb5b65df",
+      "size": 15697,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/64f24ac05c76f26dd11a146a1a4731f7eb5b65df"
+    },
+    {
+      "path": "marketing/marketing-x-twitter-intelligence-analyst.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d3ca03f49e2503d719f9ba385b685de1e884828",
+      "size": 9730,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/3d3ca03f49e2503d719f9ba385b685de1e884828"
+    },
+    {
+      "path": "marketing/marketing-xiaohongshu-specialist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4dde95726abc734e0c15efcc6d1b39b5dd2ca76",
+      "size": 9609,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/e4dde95726abc734e0c15efcc6d1b39b5dd2ca76"
+    },
+    {
+      "path": "marketing/marketing-zhihu-strategist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5be4c4ebc1b5965be39e9b57a5bf60dcce4d5b5",
+      "size": 12006,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/f5be4c4ebc1b5965be39e9b57a5bf60dcce4d5b5"
+    },
+    {
+      "path": "paid-media",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7c6635e2e60bf89d48c52905fe1b2487b341f5e4",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/7c6635e2e60bf89d48c52905fe1b2487b341f5e4"
+    },
+    {
+      "path": "paid-media/paid-media-auditor.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dc2778179314b5387298b8caf3bd42af0924d98",
+      "size": 5546,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/8dc2778179314b5387298b8caf3bd42af0924d98"
+    },
+    {
+      "path": "paid-media/paid-media-creative-strategist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c5fda5a194f7b4aec3f8676effd9e27130bb0c9",
+      "size": 5151,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/0c5fda5a194f7b4aec3f8676effd9e27130bb0c9"
+    },
+    {
+      "path": "paid-media/paid-media-paid-social-strategist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1a567b110e1e9ae66fb9129ba43874cdaa2e1fd",
+      "size": 5440,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/d1a567b110e1e9ae66fb9129ba43874cdaa2e1fd"
+    },
+    {
+      "path": "paid-media/paid-media-ppc-strategist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e3dfc970b318963aa082a685f325c74cb9dfd41",
+      "size": 4984,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/0e3dfc970b318963aa082a685f325c74cb9dfd41"
+    },
+    {
+      "path": "paid-media/paid-media-programmatic-buyer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f5a8027fcefce218a976c604cd42afe6f3376dc",
+      "size": 5271,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/1f5a8027fcefce218a976c604cd42afe6f3376dc"
+    },
+    {
+      "path": "paid-media/paid-media-search-query-analyst.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eed52fc89ec4713c11d6f265d9bb9ad97447db54",
+      "size": 4930,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/eed52fc89ec4713c11d6f265d9bb9ad97447db54"
+    },
+    {
+      "path": "paid-media/paid-media-tracking-specialist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4a089f2132be8f42bc3430e4c481f33383e19e9",
+      "size": 5315,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/e4a089f2132be8f42bc3430e4c481f33383e19e9"
+    },
+    {
+      "path": "product",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f4077708ed9fdfb0245f1af887d2679bb89f8150",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/f4077708ed9fdfb0245f1af887d2679bb89f8150"
+    },
+    {
+      "path": "product/product-behavioral-nudge-engine.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d120d5300996c8bd5f1aa07d74f3f11b9b617b31",
+      "size": 5335,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/d120d5300996c8bd5f1aa07d74f3f11b9b617b31"
+    },
+    {
+      "path": "product/product-feedback-synthesizer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcd6ab854b4c94b18ea192bab0777acc121f2c91",
+      "size": 7260,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/fcd6ab854b4c94b18ea192bab0777acc121f2c91"
+    },
+    {
+      "path": "product/product-manager.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a617be2dbf1a1321b23b0b40e693041a1178cbe",
+      "size": 22687,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/6a617be2dbf1a1321b23b0b40e693041a1178cbe"
+    },
+    {
+      "path": "product/product-sprint-prioritizer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "126aec497fb452ddaa211a993d1a9d9fd9b0c959",
+      "size": 9464,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/126aec497fb452ddaa211a993d1a9d9fd9b0c959"
+    },
+    {
+      "path": "product/product-trend-researcher.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51e2ee5b0538da1c5dd40cd5890f80b43e3faeed",
+      "size": 10482,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/51e2ee5b0538da1c5dd40cd5890f80b43e3faeed"
+    },
+    {
+      "path": "project-management",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0d91f7f0bf331c767a70a8d9e2adef760b3d03a2",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/0d91f7f0bf331c767a70a8d9e2adef760b3d03a2"
+    },
+    {
+      "path": "project-management/project-management-experiment-tracker.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3e4792246a43d6bbf30c4a567e09ed81e3bbd3c",
+      "size": 9455,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/e3e4792246a43d6bbf30c4a567e09ed81e3bbd3c"
+    },
+    {
+      "path": "project-management/project-management-jira-workflow-steward.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5185f9e128cc9a6387fc98c693a39967e0107c6d",
+      "size": 13498,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/5185f9e128cc9a6387fc98c693a39967e0107c6d"
+    },
+    {
+      "path": "project-management/project-management-meeting-notes-specialist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a02904f92594986147691e5aa69191b49d1e0060",
+      "size": 5616,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/a02904f92594986147691e5aa69191b49d1e0060"
+    },
+    {
+      "path": "project-management/project-management-project-shepherd.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2b625a8905b90bd1c4a05aa23014a08621d1370",
+      "size": 9825,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/e2b625a8905b90bd1c4a05aa23014a08621d1370"
+    },
+    {
+      "path": "project-management/project-management-studio-operations.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3f8335e348de080d5a782476756f738aca011f1",
+      "size": 9926,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/d3f8335e348de080d5a782476756f738aca011f1"
+    },
+    {
+      "path": "project-management/project-management-studio-producer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78c481019a0ab3ccf269d7518759b11f1677218c",
+      "size": 10905,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/78c481019a0ab3ccf269d7518759b11f1677218c"
+    },
+    {
+      "path": "project-management/project-manager-senior.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52bb3a7012fb249e30a2d2f6ae3ed3287e6024d1",
+      "size": 5308,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/52bb3a7012fb249e30a2d2f6ae3ed3287e6024d1"
+    },
+    {
+      "path": "sales",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b14540a9c42f01e003a5cdc6d78d1c4638a9cf88",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/b14540a9c42f01e003a5cdc6d78d1c4638a9cf88"
+    },
+    {
+      "path": "sales/sales-account-strategist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ccea292f982d70c105edd0b99e646d4676110fe",
+      "size": 14844,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/9ccea292f982d70c105edd0b99e646d4676110fe"
+    },
+    {
+      "path": "sales/sales-coach.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9e5fd19114108a55e4551769e61f4262dc1fa4f",
+      "size": 21009,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/d9e5fd19114108a55e4551769e61f4262dc1fa4f"
+    },
+    {
+      "path": "sales/sales-deal-strategist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01b220ce103cbb1f816140b1039ced1838ee4e89",
+      "size": 13698,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/01b220ce103cbb1f816140b1039ced1838ee4e89"
+    },
+    {
+      "path": "sales/sales-discovery-coach.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76b82c89c7a3f90d784d8ae2e893d914b1d6dc7b",
+      "size": 13591,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/76b82c89c7a3f90d784d8ae2e893d914b1d6dc7b"
+    },
+    {
+      "path": "sales/sales-engineer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3093e53a6eccca46d18fbd1f5d225b4b87454eb7",
+      "size": 13948,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/3093e53a6eccca46d18fbd1f5d225b4b87454eb7"
+    },
+    {
+      "path": "sales/sales-offer-lead-gen-strategist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "deb1e7e18cb65de2903011dc31c366b82129c298",
+      "size": 16126,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/deb1e7e18cb65de2903011dc31c366b82129c298"
+    },
+    {
+      "path": "sales/sales-outbound-strategist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2bf4f77133386b481073f5c209f31d4b7cedb62",
+      "size": 10744,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/f2bf4f77133386b481073f5c209f31d4b7cedb62"
+    },
+    {
+      "path": "sales/sales-pipeline-analyst.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75182c76e1a17498b10295733ff75befd7d908e4",
+      "size": 18765,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/75182c76e1a17498b10295733ff75befd7d908e4"
+    },
+    {
+      "path": "sales/sales-proposal-strategist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cca0a66ddb053f487e243c8a12fc030f6b8f7f27",
+      "size": 14295,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/cca0a66ddb053f487e243c8a12fc030f6b8f7f27"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fb4f77185e68e757ee0a2ed5aedbf795ddcbe54a",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/fb4f77185e68e757ee0a2ed5aedbf795ddcbe54a"
+    },
+    {
+      "path": "scripts/agents-to-install.example",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "302ed8fa658735d0d04027fb814e879a5366c3f5",
+      "size": 363,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/302ed8fa658735d0d04027fb814e879a5366c3f5"
+    },
+    {
+      "path": "scripts/check-agent-originality.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4dec38a8bf81948a25df5d544f8100e835c6b78d",
+      "size": 6209,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/4dec38a8bf81948a25df5d544f8100e835c6b78d"
+    },
+    {
+      "path": "scripts/convert.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "02d38efc3e4ff1c3dad8c006e7f0b4d36068f190",
+      "size": 18611,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/02d38efc3e4ff1c3dad8c006e7f0b4d36068f190"
+    },
+    {
+      "path": "scripts/i18n",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f82867f0b04104ba2b66790ec4bb05d524458d9e",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/f82867f0b04104ba2b66790ec4bb05d524458d9e"
+    },
+    {
+      "path": "scripts/i18n/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "382b207512686ab7149661d6d6edd7424c4e4951",
+      "size": 1842,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/382b207512686ab7149661d6d6edd7424c4e4951"
+    },
+    {
+      "path": "scripts/i18n/agent-names-zh.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d87b6a3f33e1d6f0853a243fab4ba0f75e3b6b9",
+      "size": 22358,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/7d87b6a3f33e1d6f0853a243fab4ba0f75e3b6b9"
+    },
+    {
+      "path": "scripts/i18n/localize-agents-zh.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "422f0cd8d23fd744a392a2850b715872153d9ab3",
+      "size": 1617,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/422f0cd8d23fd744a392a2850b715872153d9ab3"
+    },
+    {
+      "path": "scripts/install.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ef51139a4226f20ecbd70c52c171aec4f966eeae",
+      "size": 45608,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/ef51139a4226f20ecbd70c52c171aec4f966eeae"
+    },
+    {
+      "path": "scripts/lib.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "270388a93132a1efb9ac521839d4504c4b090d0c",
+      "size": 6551,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/270388a93132a1efb9ac521839d4504c4b090d0c"
+    },
+    {
+      "path": "scripts/lint-agents.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9fbe28a4fa07ec2ff89c578a13fb007722ad37ae",
+      "size": 4602,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/9fbe28a4fa07ec2ff89c578a13fb007722ad37ae"
+    },
+    {
+      "path": "security",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9aadb789fe75c46a1efb62a4b5dd9a17e5aa5d92",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/9aadb789fe75c46a1efb62a4b5dd9a17e5aa5d92"
+    },
+    {
+      "path": "security/security-appsec-engineer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5f82dc0ad7c164d03e156cf4696f5570273453e",
+      "size": 25789,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/e5f82dc0ad7c164d03e156cf4696f5570273453e"
+    },
+    {
+      "path": "security/security-architect.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0dbc227249d53ff75e282a32d982e8de5e666f0c",
+      "size": 18029,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/0dbc227249d53ff75e282a32d982e8de5e666f0c"
+    },
+    {
+      "path": "security/security-blockchain-security-auditor.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4e4430d25a16b3453516a56086ab41ba0b622db",
+      "size": 21130,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/e4e4430d25a16b3453516a56086ab41ba0b622db"
+    },
+    {
+      "path": "security/security-cloud-security-architect.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91d01ca4ccd55472b5df1b196011f1edce95651c",
+      "size": 23042,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/91d01ca4ccd55472b5df1b196011f1edce95651c"
+    },
+    {
+      "path": "security/security-compliance-auditor.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6c07687324fda4e15270dc4184fd228a48b0b12",
+      "size": 7213,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/d6c07687324fda4e15270dc4184fd228a48b0b12"
+    },
+    {
+      "path": "security/security-incident-responder.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7198b4fb727c6193eb74bd4fdc44b1f71aa9acd5",
+      "size": 24298,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/7198b4fb727c6193eb74bd4fdc44b1f71aa9acd5"
+    },
+    {
+      "path": "security/security-penetration-tester.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b415cc9573fe490d6b2b623dd08ea61f87a2807",
+      "size": 21436,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/8b415cc9573fe490d6b2b623dd08ea61f87a2807"
+    },
+    {
+      "path": "security/security-senior-secops.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd66610e133d71795f8832f0d379f505471a1f0a",
+      "size": 31340,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/cd66610e133d71795f8832f0d379f505471a1f0a"
+    },
+    {
+      "path": "security/security-threat-detection-engineer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b162a71d47354397609ab486c8531179d8d79e5a",
+      "size": 24873,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/b162a71d47354397609ab486c8531179d8d79e5a"
+    },
+    {
+      "path": "security/security-threat-intelligence-analyst.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7dc0479c518e7c076adcb0627fbc497b63db3198",
+      "size": 28365,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/7dc0479c518e7c076adcb0627fbc497b63db3198"
+    },
+    {
+      "path": "spatial-computing",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "73784a071748e42b0fa68109eb6004750683f1b1",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/73784a071748e42b0fa68109eb6004750683f1b1"
+    },
+    {
+      "path": "spatial-computing/macos-spatial-metal-engineer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98ddc701740ea7472713f0f3a99f952733cb2c53",
+      "size": 12141,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/98ddc701740ea7472713f0f3a99f952733cb2c53"
+    },
+    {
+      "path": "spatial-computing/terminal-integration-specialist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95b2c2c1d402ca04d28cc4c5001654eea47d605e",
+      "size": 4110,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/95b2c2c1d402ca04d28cc4c5001654eea47d605e"
+    },
+    {
+      "path": "spatial-computing/visionos-spatial-engineer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bac788714797094263c6c0d8e4ad6f7697054a91",
+      "size": 3400,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/bac788714797094263c6c0d8e4ad6f7697054a91"
+    },
+    {
+      "path": "spatial-computing/xr-cockpit-interaction-specialist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2ee725761dc9ef207e2ed3baa2bae80cd59c8c4",
+      "size": 1795,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/b2ee725761dc9ef207e2ed3baa2bae80cd59c8c4"
+    },
+    {
+      "path": "spatial-computing/xr-immersive-developer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5452a8f530d8c55c8c3994d8c9be2ba20f619d80",
+      "size": 1847,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/5452a8f530d8c55c8c3994d8c9be2ba20f619d80"
+    },
+    {
+      "path": "spatial-computing/xr-interface-architect.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c9d16e6750cd13c4889dff5447d668fc021e0e5",
+      "size": 1700,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/3c9d16e6750cd13c4889dff5447d668fc021e0e5"
+    },
+    {
+      "path": "specialized",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "384c22584b2d61e642a8f72f4cdf9e453bb568f3",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/384c22584b2d61e642a8f72f4cdf9e453bb568f3"
+    },
+    {
+      "path": "specialized/accounts-payable-agent.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e3431890778224ec00a5c00104598ac6ecfe445",
+      "size": 6795,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/2e3431890778224ec00a5c00104598ac6ecfe445"
+    },
+    {
+      "path": "specialized/agentic-identity-trust.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a63defa69df4f5e82fe59c7c36856903a18994f0",
+      "size": 18398,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/a63defa69df4f5e82fe59c7c36856903a18994f0"
+    },
+    {
+      "path": "specialized/agents-orchestrator.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d62d814d3c5153ef7b403bb4ecba2e9dc21f8ae",
+      "size": 15725,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/9d62d814d3c5153ef7b403bb4ecba2e9dc21f8ae"
+    },
+    {
+      "path": "specialized/automation-governance-architect.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0fa2004b1ef2132aa2ce257020d3e1295bdb1e2",
+      "size": 5831,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/e0fa2004b1ef2132aa2ce257020d3e1295bdb1e2"
+    },
+    {
+      "path": "specialized/business-strategist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21b0f276c29f19ecdf0d803f5141019a2d681381",
+      "size": 25296,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/21b0f276c29f19ecdf0d803f5141019a2d681381"
+    },
+    {
+      "path": "specialized/change-management-consultant.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b38f981bcad3733fee93399a94356c198567b66a",
+      "size": 27377,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/b38f981bcad3733fee93399a94356c198567b66a"
+    },
+    {
+      "path": "specialized/chief-financial-officer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b13199e6d7f69cfc3eae2180b38368b9232445f",
+      "size": 18628,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/7b13199e6d7f69cfc3eae2180b38368b9232445f"
+    },
+    {
+      "path": "specialized/corporate-training-designer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8191adbdaab0e671fc14c884879092147261e5a",
+      "size": 15673,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/d8191adbdaab0e671fc14c884879092147261e5a"
+    },
+    {
+      "path": "specialized/customer-service.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6d8b1bdd778f89879b39921d95f3042b319aee6",
+      "size": 19184,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/f6d8b1bdd778f89879b39921d95f3042b319aee6"
+    },
+    {
+      "path": "specialized/customer-success-manager.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7e7fa4e44c26bd169e2c6f7fc1aef8b895049a8",
+      "size": 23313,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/a7e7fa4e44c26bd169e2c6f7fc1aef8b895049a8"
+    },
+    {
+      "path": "specialized/data-consolidation-agent.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac60571965067bf6d65d3c5e9a7cc16c935ad182",
+      "size": 2393,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/ac60571965067bf6d65d3c5e9a7cc16c935ad182"
+    },
+    {
+      "path": "specialized/data-privacy-officer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "955deeb093eeecb3dd2899d2cb070f334eb507bb",
+      "size": 22433,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/955deeb093eeecb3dd2899d2cb070f334eb507bb"
+    },
+    {
+      "path": "specialized/esg-sustainability-officer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "555c6873574d84ca49e54327b45f62388dfb7fcf",
+      "size": 20839,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/555c6873574d84ca49e54327b45f62388dfb7fcf"
+    },
+    {
+      "path": "specialized/government-digital-presales-consultant.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2c0ebacca2cb6f417e06a7de0689d166ae5df33",
+      "size": 22759,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/c2c0ebacca2cb6f417e06a7de0689d166ae5df33"
+    },
+    {
+      "path": "specialized/grant-writer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69a7ae54ccf2c05346b3542710c141a759fb7f6e",
+      "size": 27051,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/69a7ae54ccf2c05346b3542710c141a759fb7f6e"
+    },
+    {
+      "path": "specialized/healthcare-customer-service.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "388054fb7b47f82a1fea4921535c3adc369b2d16",
+      "size": 22100,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/388054fb7b47f82a1fea4921535c3adc369b2d16"
+    },
+    {
+      "path": "specialized/healthcare-marketing-compliance.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e958ecce049771a1ea800736cf76c1159c520a6",
+      "size": 35322,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/8e958ecce049771a1ea800736cf76c1159c520a6"
+    },
+    {
+      "path": "specialized/hospitality-guest-services.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b5bb06f8153057526fbf46b51d27200ecb118a8",
+      "size": 27773,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/3b5bb06f8153057526fbf46b51d27200ecb118a8"
+    },
+    {
+      "path": "specialized/hr-onboarding.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15aa1ac614f31c1dd1c11256ce92f3191e04abfe",
+      "size": 23923,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/15aa1ac614f31c1dd1c11256ce92f3191e04abfe"
+    },
+    {
+      "path": "specialized/identity-graph-operator.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50a126ab19244e6ea77d3cf65d3ac0078d680b38",
+      "size": 14122,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/50a126ab19244e6ea77d3cf65d3ac0078d680b38"
+    },
+    {
+      "path": "specialized/language-translator.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2bea23c4495bf17740e1e1613bc673cea550dd6",
+      "size": 16086,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/a2bea23c4495bf17740e1e1613bc673cea550dd6"
+    },
+    {
+      "path": "specialized/legal-billing-time-tracking.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a88efad414c564a63f37ab85faa9bab1324f33f",
+      "size": 27280,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/2a88efad414c564a63f37ab85faa9bab1324f33f"
+    },
+    {
+      "path": "specialized/legal-client-intake.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5da0a03e680614a9dfbab49a50afac9d9a04e026",
+      "size": 25630,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/5da0a03e680614a9dfbab49a50afac9d9a04e026"
+    },
+    {
+      "path": "specialized/legal-document-review.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d3a1ffd8d88553d760ddaae27fadc4abd49af5a",
+      "size": 24728,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/7d3a1ffd8d88553d760ddaae27fadc4abd49af5a"
+    },
+    {
+      "path": "specialized/loan-officer-assistant.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc45f86ff5d916964617efcc673b846f16ff07a7",
+      "size": 28515,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/fc45f86ff5d916964617efcc673b846f16ff07a7"
+    },
+    {
+      "path": "specialized/lsp-index-engineer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29c2a88fad8ab6e340c7ee6b97d71ee1736920e0",
+      "size": 11197,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/29c2a88fad8ab6e340c7ee6b97d71ee1736920e0"
+    },
+    {
+      "path": "specialized/ma-integration-manager.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08c258fcec7a7e0907b2e930366b3e89eb5bc00a",
+      "size": 21438,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/08c258fcec7a7e0907b2e930366b3e89eb5bc00a"
+    },
+    {
+      "path": "specialized/medical-billing-coding-specialist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4bd4450185472439f3a04f40194aa90eb0fe7b8",
+      "size": 24636,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/e4bd4450185472439f3a04f40194aa90eb0fe7b8"
+    },
+    {
+      "path": "specialized/operations-manager.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4ff42a209ca1e5ef4717bc1183a7e6fd3128fb7",
+      "size": 19209,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/c4ff42a209ca1e5ef4717bc1183a7e6fd3128fb7"
+    },
+    {
+      "path": "specialized/organizational-psychologist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "859b960780299b2fdda8917bce7b5c4bae1eca01",
+      "size": 22579,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/859b960780299b2fdda8917bce7b5c4bae1eca01"
+    },
+    {
+      "path": "specialized/personal-growth-mentor.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bc5d5cfc5623ce5f6b2e6ad1975f7fec488806a",
+      "size": 7833,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/6bc5d5cfc5623ce5f6b2e6ad1975f7fec488806a"
+    },
+    {
+      "path": "specialized/real-estate-buyer-seller.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57aaf3ab55610aa250b956ec7f984a5dda94b672",
+      "size": 31124,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/57aaf3ab55610aa250b956ec7f984a5dda94b672"
+    },
+    {
+      "path": "specialized/recruitment-specialist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0601765db432e9dafb5bb21b95ac858da4c2529e",
+      "size": 29401,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/0601765db432e9dafb5bb21b95ac858da4c2529e"
+    },
+    {
+      "path": "specialized/report-distribution-agent.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c94540ba988a7a64df6724d301b6a6ddebd483bd",
+      "size": 2653,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/c94540ba988a7a64df6724d301b6a6ddebd483bd"
+    },
+    {
+      "path": "specialized/retail-customer-returns.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "998a9d8c16b7f2931db34a5b8dff14e819b3c46e",
+      "size": 27700,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/998a9d8c16b7f2931db34a5b8dff14e819b3c46e"
+    },
+    {
+      "path": "specialized/sales-data-extraction-agent.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d1d6124ce6ea974d8972eb5660e90c2b39fa2fa",
+      "size": 2697,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/2d1d6124ce6ea974d8972eb5660e90c2b39fa2fa"
+    },
+    {
+      "path": "specialized/sales-outreach.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "842dbc2665cc8d7ed7ff096b0559f3710ac31169",
+      "size": 20656,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/842dbc2665cc8d7ed7ff096b0559f3710ac31169"
+    },
+    {
+      "path": "specialized/specialized-chief-of-staff.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ea4026aa8a187abd6f177c37591bef58286c35f",
+      "size": 18190,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/0ea4026aa8a187abd6f177c37591bef58286c35f"
+    },
+    {
+      "path": "specialized/specialized-civil-engineer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f6048ebfa99dd25ebbb419362284e29ca55d404",
+      "size": 17068,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/9f6048ebfa99dd25ebbb419362284e29ca55d404"
+    },
+    {
+      "path": "specialized/specialized-cultural-intelligence-strategist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c534589093a3bfe57f3a88af35d6bdc0bcaa53a2",
+      "size": 6643,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/c534589093a3bfe57f3a88af35d6bdc0bcaa53a2"
+    },
+    {
+      "path": "specialized/specialized-developer-advocate.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e38d30a9d4fbed9ead3db6c73693f876fca7f25f",
+      "size": 14829,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/e38d30a9d4fbed9ead3db6c73693f876fca7f25f"
+    },
+    {
+      "path": "specialized/specialized-document-generator.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1817b2a881152af9c482f6d30cdb2567e531cb35",
+      "size": 2437,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/1817b2a881152af9c482f6d30cdb2567e531cb35"
+    },
+    {
+      "path": "specialized/specialized-french-consulting-market.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62974ff9530c1f25f853b891323e76acc408783f",
+      "size": 11156,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/62974ff9530c1f25f853b891323e76acc408783f"
+    },
+    {
+      "path": "specialized/specialized-korean-business-navigator.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d4145728fea1a5d077b03ef46c836a2298b1cd9",
+      "size": 14071,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/6d4145728fea1a5d077b03ef46c836a2298b1cd9"
+    },
+    {
+      "path": "specialized/specialized-mcp-builder.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e12b89c5e04e2ef483120a672845a9d024318314",
+      "size": 12062,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/e12b89c5e04e2ef483120a672845a9d024318314"
+    },
+    {
+      "path": "specialized/specialized-model-qa.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b362aa545dc92242fd898c0775423801acec01c",
+      "size": 20143,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/0b362aa545dc92242fd898c0775423801acec01c"
+    },
+    {
+      "path": "specialized/specialized-pricing-analyst.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f16471e3ff010105d10066bb48c0fb90ba460df1",
+      "size": 12770,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/f16471e3ff010105d10066bb48c0fb90ba460df1"
+    },
+    {
+      "path": "specialized/specialized-salesforce-architect.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f5829c314ef8cffe785c90153b7e53ca9941647",
+      "size": 9904,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/1f5829c314ef8cffe785c90153b7e53ca9941647"
+    },
+    {
+      "path": "specialized/specialized-strategy-duel-agent.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17e2ac99b0e59c79a5d59148874214dfc79c0003",
+      "size": 5946,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/17e2ac99b0e59c79a5d59148874214dfc79c0003"
+    },
+    {
+      "path": "specialized/specialized-workflow-architect.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a478aef1f5d2eb4ee8493683e0dc3f022f375937",
+      "size": 26479,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/a478aef1f5d2eb4ee8493683e0dc3f022f375937"
+    },
+    {
+      "path": "specialized/study-abroad-advisor.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3dac06871207503d6e3c04bf15ddaf89f7d429db",
+      "size": 16984,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/3dac06871207503d6e3c04bf15ddaf89f7d429db"
+    },
+    {
+      "path": "specialized/supply-chain-strategist.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3b520861fe3edefd45adaf64fcb6303f9bf945d",
+      "size": 32397,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/f3b520861fe3edefd45adaf64fcb6303f9bf945d"
+    },
+    {
+      "path": "specialized/zk-steward.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3bc8972dbbc60b6c1e036dd9248606a560f34eb",
+      "size": 10892,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/c3bc8972dbbc60b6c1e036dd9248606a560f34eb"
+    },
+    {
+      "path": "strategy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2de1c0c1b64fc31ab8d23353b686382b7a86235a",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/2de1c0c1b64fc31ab8d23353b686382b7a86235a"
+    },
+    {
+      "path": "strategy/EXECUTIVE-BRIEF.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be943b390a5e1f911ecaad9c3ffd95951fbd242b",
+      "size": 5800,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/be943b390a5e1f911ecaad9c3ffd95951fbd242b"
+    },
+    {
+      "path": "strategy/QUICKSTART.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01a6a37d17e3399c3a2ae38260d0baee94a759bd",
+      "size": 8388,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/01a6a37d17e3399c3a2ae38260d0baee94a759bd"
+    },
+    {
+      "path": "strategy/coordination",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a130a949894703a59be1c0a54c9854c26947cad4",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/a130a949894703a59be1c0a54c9854c26947cad4"
+    },
+    {
+      "path": "strategy/coordination/agent-activation-prompts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "473517613089c98295a65d5cde91558c9cddd77d",
+      "size": 13158,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/473517613089c98295a65d5cde91558c9cddd77d"
+    },
+    {
+      "path": "strategy/coordination/handoff-templates.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71bff4dbe71d533d992aa7734093bd95cfb0968d",
+      "size": 10073,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/71bff4dbe71d533d992aa7734093bd95cfb0968d"
+    },
+    {
+      "path": "strategy/nexus-strategy.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "141db7deacfdd6969ae28a5837edf46ab7af156c",
+      "size": 55287,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/141db7deacfdd6969ae28a5837edf46ab7af156c"
+    },
+    {
+      "path": "strategy/playbooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a91cf63dba9af64c89be74bf86eff1e6357ced05",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/a91cf63dba9af64c89be74bf86eff1e6357ced05"
+    },
+    {
+      "path": "strategy/playbooks/phase-0-discovery.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19d8f84b70671e3da468db96b543487c1d6ab8a0",
+      "size": 6150,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/19d8f84b70671e3da468db96b543487c1d6ab8a0"
+    },
+    {
+      "path": "strategy/playbooks/phase-1-strategy.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afbf7623922d90391c9282918a6e3a6e9388472c",
+      "size": 8094,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/afbf7623922d90391c9282918a6e3a6e9388472c"
+    },
+    {
+      "path": "strategy/playbooks/phase-2-foundation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c977ae224ee9565e087a4c470f428129053c281",
+      "size": 8916,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/4c977ae224ee9565e087a4c470f428129053c281"
+    },
+    {
+      "path": "strategy/playbooks/phase-3-build.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94023c1d44a19d1967d3135a70afe684f5490945",
+      "size": 9641,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/94023c1d44a19d1967d3135a70afe684f5490945"
+    },
+    {
+      "path": "strategy/playbooks/phase-4-hardening.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db6cb4738b6fff843306acc8e0531afc13ee9311",
+      "size": 10546,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/db6cb4738b6fff843306acc8e0531afc13ee9311"
+    },
+    {
+      "path": "strategy/playbooks/phase-5-launch.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2faf0a6a6839d5767309d8234cce59e4e0f4adc6",
+      "size": 8280,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/2faf0a6a6839d5767309d8234cce59e4e0f4adc6"
+    },
+    {
+      "path": "strategy/playbooks/phase-6-operate.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dad0b03dd686a431c30f67f00dd6ce02e9adcd85",
+      "size": 9802,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/dad0b03dd686a431c30f67f00dd6ce02e9adcd85"
+    },
+    {
+      "path": "strategy/runbooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "94d873a489a3a78b470b8f28e42e84672d0efc4a",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/94d873a489a3a78b470b8f28e42e84672d0efc4a"
+    },
+    {
+      "path": "strategy/runbooks/scenario-enterprise-feature.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed37680287b7c1b060c179922c00488a6540a8e2",
+      "size": 6256,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/ed37680287b7c1b060c179922c00488a6540a8e2"
+    },
+    {
+      "path": "strategy/runbooks/scenario-incident-response.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb519f53bb13d96d61047858381a7b1130720852",
+      "size": 6789,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/fb519f53bb13d96d61047858381a7b1130720852"
+    },
+    {
+      "path": "strategy/runbooks/scenario-marketing-campaign.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "280263c7f917273b58e5f9ea28db79127a651908",
+      "size": 7072,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/280263c7f917273b58e5f9ea28db79127a651908"
+    },
+    {
+      "path": "strategy/runbooks/scenario-startup-mvp.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c2afbc330fecbf8f852a19477bf3e48bcced137",
+      "size": 5631,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/0c2afbc330fecbf8f852a19477bf3e48bcced137"
+    },
+    {
+      "path": "support",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2004af3d71ff100786e15671bb0f69162294be36",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/2004af3d71ff100786e15671bb0f69162294be36"
+    },
+    {
+      "path": "support/support-analytics-reporter.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cd2441f0415778bf1af3f8d51256017464e701b",
+      "size": 15796,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/9cd2441f0415778bf1af3f8d51256017464e701b"
+    },
+    {
+      "path": "support/support-executive-summary-generator.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8338a5eac9d8351d98687518d4471c25fa67f19",
+      "size": 8992,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/c8338a5eac9d8351d98687518d4471c25fa67f19"
+    },
+    {
+      "path": "support/support-finance-tracker.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fc4476cfe179e194a59b5b1d0a2b4d521a8cbf0",
+      "size": 19249,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/5fc4476cfe179e194a59b5b1d0a2b4d521a8cbf0"
+    },
+    {
+      "path": "support/support-infrastructure-maintainer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e38a198351f22a977cd01bc2605ed431e8f2f8b",
+      "size": 22365,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/5e38a198351f22a977cd01bc2605ed431e8f2f8b"
+    },
+    {
+      "path": "support/support-legal-compliance-checker.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9afc088ff2a7c788781097d14ce3c3af89dd67cd",
+      "size": 26545,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/9afc088ff2a7c788781097d14ce3c3af89dd67cd"
+    },
+    {
+      "path": "support/support-support-responder.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ea84672ac4906b7a50ee64573e1becd1aeb1ace",
+      "size": 24683,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/3ea84672ac4906b7a50ee64573e1becd1aeb1ace"
+    },
+    {
+      "path": "testing",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6b81ada17fe588c53971da817d4bf2bf9d19b922",
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/trees/6b81ada17fe588c53971da817d4bf2bf9d19b922"
+    },
+    {
+      "path": "testing/testing-accessibility-auditor.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c474b3a6c2ce84d9ecfc0221879e90347c4380a1",
+      "size": 15300,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/c474b3a6c2ce84d9ecfc0221879e90347c4380a1"
+    },
+    {
+      "path": "testing/testing-api-tester.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ea5e50cba0bc36a9a8ec8bfd9ca997d9e450a5c",
+      "size": 12539,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/1ea5e50cba0bc36a9a8ec8bfd9ca997d9e450a5c"
+    },
+    {
+      "path": "testing/testing-evidence-collector.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "187a2d010abb3439d91ea59aa75de8c5ee860560",
+      "size": 8354,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/187a2d010abb3439d91ea59aa75de8c5ee860560"
+    },
+    {
+      "path": "testing/testing-performance-benchmarker.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1845fb5f30af4063440dbae22a67cd8554c4c9bf",
+      "size": 12224,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/1845fb5f30af4063440dbae22a67cd8554c4c9bf"
+    },
+    {
+      "path": "testing/testing-reality-checker.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a038dc8a36c947e1d9e5a5896eb7120a4616b18",
+      "size": 9969,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/2a038dc8a36c947e1d9e5a5896eb7120a4616b18"
+    },
+    {
+      "path": "testing/testing-test-results-analyzer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a478a21673fa4fe79db4b0941610915afe54f8e9",
+      "size": 14602,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/a478a21673fa4fe79db4b0941610915afe54f8e9"
+    },
+    {
+      "path": "testing/testing-tool-evaluator.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f8a9ff68fab761aa5a8f85528de01d7762c1cd4",
+      "size": 17542,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/3f8a9ff68fab761aa5a8f85528de01d7762c1cd4"
+    },
+    {
+      "path": "testing/testing-workflow-optimizer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eecb0a47c0f295648f454687f9666bb6affe7a34",
+      "size": 22050,
+      "url": "https://api.github.com/repos/msitarzewski/agency-agents/git/blobs/eecb0a47c0f295648f454687f9666bb6affe7a34"
+    }
+  ],
+  "truncated": false
+}

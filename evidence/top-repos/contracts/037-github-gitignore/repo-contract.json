@@ -1,0 +1,45 @@
+{
+  "harvested_at": "2026-06-07T20:44:03.3392173+03:00",
+  "rank": 37,
+  "repository": "github/gitignore",
+  "url": "https://github.com/github/gitignore",
+  "language": null,
+  "stars": 174321,
+  "default_branch": "main",
+  "contract_strength": "readme_plus_runtime_hints",
+  "candidate_qaas_surfaces": [
+    "ci-documented-command-discovery",
+    "repo-contract-discovery-needed"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\037-github-gitignore\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\037-github-gitignore\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [],
+    "ci": [
+      ".github/workflows/stale.yml"
+    ],
+    "containers": [],
+    "dotnet": [],
+    "node": [],
+    "python": [],
+    "go": [],
+    "java": [],
+    "rust": [],
+    "docs": [
+      "CONTRIBUTING.md",
+      "Global/README.md",
+      "README.md",
+      "community/Strapi.gitignore"
+    ],
+    "tests": [
+      "community/NasaSpecsIntact.gitignore"
+    ]
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\037-github-gitignore\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\037-github-gitignore\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

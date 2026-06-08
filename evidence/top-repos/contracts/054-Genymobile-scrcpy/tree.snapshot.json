@@ -1,0 +1,3373 @@
+{
+  "sha": "2322868e9e256eb5fce0b3d659ab2a409f29bae1",
+  "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/2322868e9e256eb5fce0b3d659ab2a409f29bae1",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "af7d0e0f6c938a1c5d4550ca5834bf9deb31f786",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/af7d0e0f6c938a1c5d4550ca5834bf9deb31f786"
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b567129ada75a429b778bcf34d4cf4277fdddf16",
+      "size": 69,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/b567129ada75a429b778bcf34d4cf4277fdddf16"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e765d33bf89167a8a6a52fa8d7b93a84010cd0d3",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/e765d33bf89167a8a6a52fa8d7b93a84010cd0d3"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "576d4666b6cdf54929c476a64e2d6ba5938eb91d",
+      "size": 951,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/576d4666b6cdf54929c476a64e2d6ba5938eb91d"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "524c370f9a03ff025d5ed0bd840ecff738d9d9af",
+      "size": 773,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/524c370f9a03ff025d5ed0bd840ecff738d9d9af"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/question.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14dc373a3ed657e624d162b5200cb7e1dbdc3022",
+      "size": 94,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/14dc373a3ed657e624d162b5200cb7e1dbdc3022"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a9b8e1f5aa506b79d38800d9948b58ef289346c3",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/a9b8e1f5aa506b79d38800d9948b58ef289346c3"
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25575ba9e928cabd7e32477ee80b555ae061b6e6",
+      "size": 15309,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/25575ba9e928cabd7e32477ee80b555ae061b6e6"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26d977acaae522588bb1979a83db31559a513820",
+      "size": 98,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/26d977acaae522588bb1979a83db31559a513820"
+    },
+    {
+      "path": "FAQ.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9da5d1f4eba28949e5db876ee8ae341e3b995d4",
+      "size": 6583,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/f9da5d1f4eba28949e5db876ee8ae341e3b995d4"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3325e9f36a470805cf20e3088d63669bf2a527b9",
+      "size": 11387,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/3325e9f36a470805cf20e3088d63669bf2a527b9"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af602dc12d5c0a41ec772b34479fb84fa416eda4",
+      "size": 8124,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/af602dc12d5c0a41ec772b34479fb84fa416eda4"
+    },
+    {
+      "path": "app",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "97f12d0d65dc90a88c746a9ba5b6f2c1c82bb193",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/97f12d0d65dc90a88c746a9ba5b6f2c1c82bb193"
+    },
+    {
+      "path": "app/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9a82a3de503ac075f7a2155ea5b51617fc72b74c",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/9a82a3de503ac075f7a2155ea5b51617fc72b74c"
+    },
+    {
+      "path": "app/data/bash-completion",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a2d1cca515ed9438c029a7087b66c271a92ab64f",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/a2d1cca515ed9438c029a7087b66c271a92ab64f"
+    },
+    {
+      "path": "app/data/bash-completion/scrcpy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80551d7765f85557cac7e378ec2bc6e70b760f11",
+      "size": 6931,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/80551d7765f85557cac7e378ec2bc6e70b760f11"
+    },
+    {
+      "path": "app/data/disconnected.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37ff3d855ef7912a1cbc41403c551e8501dac740",
+      "size": 4703,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/37ff3d855ef7912a1cbc41403c551e8501dac740"
+    },
+    {
+      "path": "app/data/icon.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3238778fdb225a8df62c1334afb89d86f66d4a1",
+      "size": 8840,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/b3238778fdb225a8df62c1334afb89d86f66d4a1"
+    },
+    {
+      "path": "app/data/open_a_terminal_here.bat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24d557f35575815a1bbbc249bb537de39fb8a9fa",
+      "size": 5,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/24d557f35575815a1bbbc249bb537de39fb8a9fa"
+    },
+    {
+      "path": "app/data/scrcpy-console.desktop",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fccd42b7625fe9002d6fd6c43ab4d359e763b4be",
+      "size": 474,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/fccd42b7625fe9002d6fd6c43ab4d359e763b4be"
+    },
+    {
+      "path": "app/data/scrcpy-noconsole.vbs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d509ad7f1eab3cbf3e7b0d91d9c9a64fb8501e2c",
+      "size": 212,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/d509ad7f1eab3cbf3e7b0d91d9c9a64fb8501e2c"
+    },
+    {
+      "path": "app/data/scrcpy.desktop",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fb81d4768378d092f9d94c0feccd248ab27f20a",
+      "size": 438,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/9fb81d4768378d092f9d94c0feccd248ab27f20a"
+    },
+    {
+      "path": "app/data/scrcpy.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b96a1aff9b842976bae652c6fc22af7daed8bbf2",
+      "size": 6530,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/b96a1aff9b842976bae652c6fc22af7daed8bbf2"
+    },
+    {
+      "path": "app/data/scrcpy.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ab92c2ad189f6b026b31991438b1c0159ac9f10",
+      "size": 4628,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/0ab92c2ad189f6b026b31991438b1c0159ac9f10"
+    },
+    {
+      "path": "app/data/zsh-completion",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f49a6a7f21ca90c121961e09661d34f9f1cfefc5",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/f49a6a7f21ca90c121961e09661d34f9f1cfefc5"
+    },
+    {
+      "path": "app/data/zsh-completion/_scrcpy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5986af726ff3dac088f8b75a0281fe8c7a4f571",
+      "size": 8435,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/e5986af726ff3dac088f8b75a0281fe8c7a4f571"
+    },
+    {
+      "path": "app/deps",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "88db15f92bdd0299174531fdd768b7cfcc5aca48",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/88db15f92bdd0299174531fdd768b7cfcc5aca48"
+    },
+    {
+      "path": "app/deps/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccf6a49e2d3d6a05f534926d4a2d0a7518c0b763",
+      "size": 6,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/ccf6a49e2d3d6a05f534926d4a2d0a7518c0b763"
+    },
+    {
+      "path": "app/deps/README",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cfb5c06a1c8f5929e2cd15c6e081c58def53dc3",
+      "size": 964,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/9cfb5c06a1c8f5929e2cd15c6e081c58def53dc3"
+    },
+    {
+      "path": "app/deps/_init",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4612d9feeda4e8902e7543d0944e272cc0e98751",
+      "size": 1759,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/4612d9feeda4e8902e7543d0944e272cc0e98751"
+    },
+    {
+      "path": "app/deps/adb_linux.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "57a307fe5ffabf5350a57bc9f1220608f685ad02",
+      "size": 753,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/57a307fe5ffabf5350a57bc9f1220608f685ad02"
+    },
+    {
+      "path": "app/deps/adb_macos.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d8a4bb4a82b9a08b327971890b1c62fe496a4a23",
+      "size": 755,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/d8a4bb4a82b9a08b327971890b1c62fe496a4a23"
+    },
+    {
+      "path": "app/deps/adb_windows.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "96c93eb74508071f8cb026b83df641444f4c8394",
+      "size": 852,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/96c93eb74508071f8cb026b83df641444f4c8394"
+    },
+    {
+      "path": "app/deps/dav1d.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6130d9d025804df114ed562b69c5d6dd53a90621",
+      "size": 1588,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/6130d9d025804df114ed562b69c5d6dd53a90621"
+    },
+    {
+      "path": "app/deps/ffmpeg.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "76a570a88442a059ec0726d4afb8fbce9831a8c7",
+      "size": 3381,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/76a570a88442a059ec0726d4afb8fbce9831a8c7"
+    },
+    {
+      "path": "app/deps/libusb.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "72170b9e9f934a003897c16f0e43809a3e26ddbd",
+      "size": 1312,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/72170b9e9f934a003897c16f0e43809a3e26ddbd"
+    },
+    {
+      "path": "app/deps/sdl.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "78c66a5f8d5666a48a3b63e2f31a8a6712459794",
+      "size": 1849,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/78c66a5f8d5666a48a3b63e2f31a8a6712459794"
+    },
+    {
+      "path": "app/meson.build",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd58098eb50bdd868162b9334cbb05f9542095e3",
+      "size": 8260,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/fd58098eb50bdd868162b9334cbb05f9542095e3"
+    },
+    {
+      "path": "app/scrcpy-windows.manifest",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2708ecb1315d84677b1bcb3f86a0908508d28d5",
+      "size": 495,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/f2708ecb1315d84677b1bcb3f86a0908508d28d5"
+    },
+    {
+      "path": "app/scrcpy-windows.rc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e65bcf3e7567e8e3676217696d1c7676094a1c14",
+      "size": 545,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/e65bcf3e7567e8e3676217696d1c7676094a1c14"
+    },
+    {
+      "path": "app/scrcpy.1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "644206cb82e9a56c744842e1e206ebb98bdb4a02",
+      "size": 25060,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/644206cb82e9a56c744842e1e206ebb98bdb4a02"
+    },
+    {
+      "path": "app/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9aff644f9ff9dcce3b7326ac004247d0f3ba3a76",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/9aff644f9ff9dcce3b7326ac004247d0f3ba3a76"
+    },
+    {
+      "path": "app/src/adb",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3245bba23c349abf4ba4a4e91f43acce4c988dd1",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/3245bba23c349abf4ba4a4e91f43acce4c988dd1"
+    },
+    {
+      "path": "app/src/adb/adb.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e388d86233c4b70ae4ae12b28930ddcaefea4472",
+      "size": 22991,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/e388d86233c4b70ae4ae12b28930ddcaefea4472"
+    },
+    {
+      "path": "app/src/adb/adb.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e490390215a1988c36548e4e663841a2e72b0c54",
+      "size": 3131,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/e490390215a1988c36548e4e663841a2e72b0c54"
+    },
+    {
+      "path": "app/src/adb/adb_device.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2dc78c9f7a1788cb0784ccf8dabce50a140741cd",
+      "size": 1268,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/2dc78c9f7a1788cb0784ccf8dabce50a140741cd"
+    },
+    {
+      "path": "app/src/adb/adb_device.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "308663efd584534ffad824657a2319243853ddec",
+      "size": 977,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/308663efd584534ffad824657a2319243853ddec"
+    },
+    {
+      "path": "app/src/adb/adb_parser.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72fd141d60bf5c84626ac47f5dfbf573f19e0250",
+      "size": 7197,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/72fd141d60bf5c84626ac47f5dfbf573f19e0250"
+    },
+    {
+      "path": "app/src/adb/adb_parser.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8738a35961939f418212a45439762831fb0f6f9",
+      "size": 640,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/b8738a35961939f418212a45439762831fb0f6f9"
+    },
+    {
+      "path": "app/src/adb/adb_tunnel.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43e80e13ea5d88f17573b5c12990e6e95032c009",
+      "size": 5780,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/43e80e13ea5d88f17573b5c12990e6e95032c009"
+    },
+    {
+      "path": "app/src/adb/adb_tunnel.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ed5bf54863cc8d9916a358b55a8df6c1a36a987",
+      "size": 1181,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/7ed5bf54863cc8d9916a358b55a8df6c1a36a987"
+    },
+    {
+      "path": "app/src/android",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8789b36484f869aefb2a26cd2d40aa9db1690009",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/8789b36484f869aefb2a26cd2d40aa9db1690009"
+    },
+    {
+      "path": "app/src/android/input.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30c4bcb991d7c98afd2fec10bdb14254d60c93a2",
+      "size": 32121,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/30c4bcb991d7c98afd2fec10bdb14254d60c93a2"
+    },
+    {
+      "path": "app/src/android/keycodes.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03ebb9c833c1368cbabfe5a65fd9d89c93fe8ed7",
+      "size": 28337,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/03ebb9c833c1368cbabfe5a65fd9d89c93fe8ed7"
+    },
+    {
+      "path": "app/src/audio_player.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "174f84607ede5a1e335954fec7956bd9190e9890",
+      "size": 5344,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/174f84607ede5a1e335954fec7956bd9190e9890"
+    },
+    {
+      "path": "app/src/audio_player.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "786200bbe8d11416c9304855185646822ade9114",
+      "size": 986,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/786200bbe8d11416c9304855185646822ade9114"
+    },
+    {
+      "path": "app/src/audio_regulator.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16fdd08b63a546546b84f57f8014d17365780a06",
+      "size": 17298,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/16fdd08b63a546546b84f57f8014d17365780a06"
+    },
+    {
+      "path": "app/src/audio_regulator.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e18fe08a251d0a287070c2318e78c000cc4aa9c",
+      "size": 2313,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/4e18fe08a251d0a287070c2318e78c000cc4aa9c"
+    },
+    {
+      "path": "app/src/cli.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "785e8b9f090861197e75f16ceb40d33a8cc84f94",
+      "size": 113219,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/785e8b9f090861197e75f16ceb40d33a8cc84f94"
+    },
+    {
+      "path": "app/src/cli.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9aa38dc61832147f3d38b2655886fe5f34766054",
+      "size": 610,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/9aa38dc61832147f3d38b2655886fe5f34766054"
+    },
+    {
+      "path": "app/src/clock.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a77e514b3e518c2dda039a503dac08a35101e57",
+      "size": 916,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/8a77e514b3e518c2dda039a503dac08a35101e57"
+    },
+    {
+      "path": "app/src/clock.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d34ab99f647da5999817119702f85c74edf68fb",
+      "size": 1075,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/0d34ab99f647da5999817119702f85c74edf68fb"
+    },
+    {
+      "path": "app/src/common.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0382d094ba3c8055ab89054b6592b99fe4be8999",
+      "size": 368,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/0382d094ba3c8055ab89054b6592b99fe4be8999"
+    },
+    {
+      "path": "app/src/compat.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "785f843ca1b21a45ce12aa75231b51eb6375aa75",
+      "size": 2259,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/785f843ca1b21a45ce12aa75231b51eb6375aa75"
+    },
+    {
+      "path": "app/src/compat.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7ba289bc151487608b678d5462bcc6aaf274d6e",
+      "size": 2650,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/a7ba289bc151487608b678d5462bcc6aaf274d6e"
+    },
+    {
+      "path": "app/src/control_msg.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa8ce4800e54cf1368ab9addd80f932bd3655a22",
+      "size": 14827,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/fa8ce4800e54cf1368ab9addd80f932bd3655a22"
+    },
+    {
+      "path": "app/src/control_msg.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f69e1f01fe09617872b6e713add506ee5467d5d",
+      "size": 4303,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/2f69e1f01fe09617872b6e713add506ee5467d5d"
+    },
+    {
+      "path": "app/src/controller.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19e2acb860e5d0d904cae94752285412fae55133",
+      "size": 7401,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/19e2acb860e5d0d904cae94752285412fae55133"
+    },
+    {
+      "path": "app/src/controller.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "888882561135b9d792d77f7db5794381ca98c38a",
+      "size": 1854,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/888882561135b9d792d77f7db5794381ca98c38a"
+    },
+    {
+      "path": "app/src/coords.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdabb782c2f556659d734997cbd3d94c0d3047c6",
+      "size": 434,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/cdabb782c2f556659d734997cbd3d94c0d3047c6"
+    },
+    {
+      "path": "app/src/decoder.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "464414c636f879bbcc4944175a4fc7d3bd0d536e",
+      "size": 4955,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/464414c636f879bbcc4944175a4fc7d3bd0d536e"
+    },
+    {
+      "path": "app/src/decoder.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a2f24e013600f0b738ae27bc44d3493dcfacec1",
+      "size": 701,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/4a2f24e013600f0b738ae27bc44d3493dcfacec1"
+    },
+    {
+      "path": "app/src/delay_buffer.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa73585eb6ee87cfae6fe18af232957e8f34f935",
+      "size": 7857,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/aa73585eb6ee87cfae6fe18af232957e8f34f935"
+    },
+    {
+      "path": "app/src/delay_buffer.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "420684beba0673ef0017d7f35bd4d38a1d21ba06",
+      "size": 1634,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/420684beba0673ef0017d7f35bd4d38a1d21ba06"
+    },
+    {
+      "path": "app/src/demuxer.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0709424d65ecc562dcb02d9d9645a0be79c20cf",
+      "size": 11714,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/f0709424d65ecc562dcb02d9d9645a0be79c20cf"
+    },
+    {
+      "path": "app/src/demuxer.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b7cb7030871d0e3db1f02a64d291fa08b80c642",
+      "size": 1050,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/2b7cb7030871d0e3db1f02a64d291fa08b80c642"
+    },
+    {
+      "path": "app/src/device_msg.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2172d59b163b883824fdc4f151af965e3a3c7e37",
+      "size": 2593,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/2172d59b163b883824fdc4f151af965e3a3c7e37"
+    },
+    {
+      "path": "app/src/device_msg.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6c701bb10abc4d50efb5820d1371e08224e054d",
+      "size": 1061,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/d6c701bb10abc4d50efb5820d1371e08224e054d"
+    },
+    {
+      "path": "app/src/disconnect.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d494091b03d470464940e193af9768aed0cc52e9",
+      "size": 1921,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/d494091b03d470464940e193af9768aed0cc52e9"
+    },
+    {
+      "path": "app/src/disconnect.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b63ee598e1f741c1be6e93bb9c6cfdf75eede39",
+      "size": 1156,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/5b63ee598e1f741c1be6e93bb9c6cfdf75eede39"
+    },
+    {
+      "path": "app/src/events.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7a3a7a34a8e2e37771c0566c7cfaf576163721e",
+      "size": 1283,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/b7a3a7a34a8e2e37771c0566c7cfaf576163721e"
+    },
+    {
+      "path": "app/src/events.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c7b4c3718414876607e992fe6553f366b0abbc3",
+      "size": 1067,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/0c7b4c3718414876607e992fe6553f366b0abbc3"
+    },
+    {
+      "path": "app/src/file_pusher.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "681fb5d657347a92148b9276a6017504c08829a9",
+      "size": 4775,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/681fb5d657347a92148b9276a6017504c08829a9"
+    },
+    {
+      "path": "app/src/file_pusher.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ffb372191f25b06966118019584b826fa3e6fd5",
+      "size": 1224,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/0ffb372191f25b06966118019584b826fa3e6fd5"
+    },
+    {
+      "path": "app/src/fps_counter.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1daa42ba1d9d402101b4281522f4192a1ad928a5",
+      "size": 5036,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/1daa42ba1d9d402101b4281522f4192a1ad928a5"
+    },
+    {
+      "path": "app/src/fps_counter.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3eab461c3f1681e70df6477661d2d7c6b3674b61",
+      "size": 1270,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/3eab461c3f1681e70df6477661d2d7c6b3674b61"
+    },
+    {
+      "path": "app/src/frame_buffer.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "699a3f377bf7137c8f503feeb365d7fdaf4a2439",
+      "size": 1807,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/699a3f377bf7137c8f503feeb365d7fdaf4a2439"
+    },
+    {
+      "path": "app/src/frame_buffer.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6fc36d929e943feadebf2251daa1ec79286efa7",
+      "size": 994,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/f6fc36d929e943feadebf2251daa1ec79286efa7"
+    },
+    {
+      "path": "app/src/hid",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5974f2a58b751b78a2ee8eebc2e614755f230b9b",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/5974f2a58b751b78a2ee8eebc2e614755f230b9b"
+    },
+    {
+      "path": "app/src/hid/hid_event.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0d45ce804c4f508aa371a5b3c082eebc9e852dd",
+      "size": 426,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/b0d45ce804c4f508aa371a5b3c082eebc9e852dd"
+    },
+    {
+      "path": "app/src/hid/hid_gamepad.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "842eae9eb328a93f3014f4a59bbf0e566ff079ae",
+      "size": 14368,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/842eae9eb328a93f3014f4a59bbf0e566ff079ae"
+    },
+    {
+      "path": "app/src/hid/hid_gamepad.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d939ac7a8f94fa7a775c95c711f527ed6df8819",
+      "size": 1505,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/8d939ac7a8f94fa7a775c95c711f527ed6df8819"
+    },
+    {
+      "path": "app/src/hid/hid_keyboard.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6477396a55f2c7ef9f098ca480c1658f4c175879",
+      "size": 10641,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/6477396a55f2c7ef9f098ca480c1658f4c175879"
+    },
+    {
+      "path": "app/src/hid/hid_keyboard.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d249cc09e057f1ec582d227d545b8010407fd18",
+      "size": 1775,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/2d249cc09e057f1ec582d227d545b8010407fd18"
+    },
+    {
+      "path": "app/src/hid/hid_mouse.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54105a176ae5c768f1336b97a158229e108312c8",
+      "size": 6911,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/54105a176ae5c768f1336b97a158229e108312c8"
+    },
+    {
+      "path": "app/src/hid/hid_mouse.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d590267d88adfc61ea0f5991792e04821809d6c",
+      "size": 958,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/6d590267d88adfc61ea0f5991792e04821809d6c"
+    },
+    {
+      "path": "app/src/icon.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a84f5ba25454171dcb2f06622c2875b29be4eb4",
+      "size": 8309,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/0a84f5ba25454171dcb2f06622c2875b29be4eb4"
+    },
+    {
+      "path": "app/src/icon.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44951cce80bd497b34772f569a03ca4517e778b9",
+      "size": 292,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/44951cce80bd497b34772f569a03ca4517e778b9"
+    },
+    {
+      "path": "app/src/input_events.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42142beddf3e75bf3eab20a23dcc171f67b96498",
+      "size": 17329,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/42142beddf3e75bf3eab20a23dcc171f67b96498"
+    },
+    {
+      "path": "app/src/input_manager.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "103067a7bca4cd83cb3886bfa3c68f11be408523",
+      "size": 39782,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/103067a7bca4cd83cb3886bfa3c68f11be408523"
+    },
+    {
+      "path": "app/src/input_manager.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c986cbc5c481e90452a3fa0da5aa63cf4292fd24",
+      "size": 1921,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/c986cbc5c481e90452a3fa0da5aa63cf4292fd24"
+    },
+    {
+      "path": "app/src/keyboard_sdk.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "466a1aebba2efca32cc2083cc77c6320e49a0703",
+      "size": 12383,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/466a1aebba2efca32cc2083cc77c6320e49a0703"
+    },
+    {
+      "path": "app/src/keyboard_sdk.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "700ba90b14a8bb398a40c9dde0645242082d3ae9",
+      "size": 782,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/700ba90b14a8bb398a40c9dde0645242082d3ae9"
+    },
+    {
+      "path": "app/src/main.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7327e07d3e97c8879645c491e9639e0f2978a556",
+      "size": 3292,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/7327e07d3e97c8879645c491e9639e0f2978a556"
+    },
+    {
+      "path": "app/src/mouse_capture.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6fafcfb7ac7694133b3d01385fb1a83d75c7dda",
+      "size": 3445,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/f6fafcfb7ac7694133b3d01385fb1a83d75c7dda"
+    },
+    {
+      "path": "app/src/mouse_capture.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65770f8a43cdfc150ab523ab9a9c7b89e122c244",
+      "size": 899,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/65770f8a43cdfc150ab523ab9a9c7b89e122c244"
+    },
+    {
+      "path": "app/src/mouse_sdk.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7eceffa7ec6e64892883177cef67d58297f1ded2",
+      "size": 5289,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/7eceffa7ec6e64892883177cef67d58297f1ded2"
+    },
+    {
+      "path": "app/src/mouse_sdk.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe92a2d75b1a440a500b3dab57336ae8ab505b45",
+      "size": 435,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/fe92a2d75b1a440a500b3dab57336ae8ab505b45"
+    },
+    {
+      "path": "app/src/opengl.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91e8d01d8cdbff01a0627cd755ac46c165c1feec",
+      "size": 2020,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/91e8d01d8cdbff01a0627cd755ac46c165c1feec"
+    },
+    {
+      "path": "app/src/opengl.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8db4e5d42d5cf822d72d823c9da99d7bc9c2649b",
+      "size": 779,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/8db4e5d42d5cf822d72d823c9da99d7bc9c2649b"
+    },
+    {
+      "path": "app/src/options.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55a70898173855194ecda36a3bc561b643ed25b9",
+      "size": 5087,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/55a70898173855194ecda36a3bc561b643ed25b9"
+    },
+    {
+      "path": "app/src/options.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf4b2fbe110e8eda7b9c0bc7be9293b5bc76701d",
+      "size": 9538,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/cf4b2fbe110e8eda7b9c0bc7be9293b5bc76701d"
+    },
+    {
+      "path": "app/src/packet_merger.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dea038b63a5a24792a29e508bdcbc846857aa243",
+      "size": 1258,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/dea038b63a5a24792a29e508bdcbc846857aa243"
+    },
+    {
+      "path": "app/src/packet_merger.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f9972ce701e993af0a095366d6a714b4b95b072",
+      "size": 1205,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/3f9972ce701e993af0a095366d6a714b4b95b072"
+    },
+    {
+      "path": "app/src/receiver.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be0be0c7b4684306e9cfe63c0a6ffa99201df17c",
+      "size": 6638,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/be0be0c7b4684306e9cfe63c0a6ffa99201df17c"
+    },
+    {
+      "path": "app/src/receiver.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1ae4fde4d6ec610460982a8c66622a910075447",
+      "size": 1024,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/b1ae4fde4d6ec610460982a8c66622a910075447"
+    },
+    {
+      "path": "app/src/recorder.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6d5fe4cc0b2b1191184980ced8e51789a151a98",
+      "size": 25193,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/f6d5fe4cc0b2b1191184980ced8e51789a151a98"
+    },
+    {
+      "path": "app/src/recorder.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70b738362c392be05ef283ad7d64c9db6ab87b8b",
+      "size": 2208,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/70b738362c392be05ef283ad7d64c9db6ab87b8b"
+    },
+    {
+      "path": "app/src/scrcpy.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7738800abc951ab2f16deb5e7cf02ddf4c0d3d68",
+      "size": 31628,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/7738800abc951ab2f16deb5e7cf02ddf4c0d3d68"
+    },
+    {
+      "path": "app/src/scrcpy.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f6a0fb2646c6bf1a365446cef6e03feb86add46",
+      "size": 379,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/7f6a0fb2646c6bf1a365446cef6e03feb86add46"
+    },
+    {
+      "path": "app/src/screen.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c280c7f1c0166252b45332716f63c1b0c3e7156",
+      "size": 41941,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/5c280c7f1c0166252b45332716f63c1b0c3e7156"
+    },
+    {
+      "path": "app/src/screen.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8058d9ff704c68ef917ad537ba2dca820e9585d",
+      "size": 5334,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/a8058d9ff704c68ef917ad537ba2dca820e9585d"
+    },
+    {
+      "path": "app/src/sdl_hints.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7fc55b41d321f3e6012ddaa9af040d6cd114ef4",
+      "size": 1557,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/b7fc55b41d321f3e6012ddaa9af040d6cd114ef4"
+    },
+    {
+      "path": "app/src/sdl_hints.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bce55d61f7507d2849ea196f000db6e9f5fa71e",
+      "size": 182,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/7bce55d61f7507d2849ea196f000db6e9f5fa71e"
+    },
+    {
+      "path": "app/src/server.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6e33c09e8ce75910f1de95a638b9edc65f71e9e",
+      "size": 37426,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/a6e33c09e8ce75910f1de95a638b9edc65f71e9e"
+    },
+    {
+      "path": "app/src/server.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c581a3dd620de351dcb5560a7fcf6c20485feddd",
+      "size": 3693,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/c581a3dd620de351dcb5560a7fcf6c20485feddd"
+    },
+    {
+      "path": "app/src/shortcut_mod.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c53b0ff9f705dd22afb2e837aa2625c5c015f12a",
+      "size": 1870,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/c53b0ff9f705dd22afb2e837aa2625c5c015f12a"
+    },
+    {
+      "path": "app/src/sys",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5b9fe91ee01b1b08e2e006da10b73c8c2e2d7dab",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/5b9fe91ee01b1b08e2e006da10b73c8c2e2d7dab"
+    },
+    {
+      "path": "app/src/sys/unix",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0d5a738b68b5ba5f86b88e220f99af421893fd00",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/0d5a738b68b5ba5f86b88e220f99af421893fd00"
+    },
+    {
+      "path": "app/src/sys/unix/file.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f7fb074c15612f65f91490be27f4bd954964fd0",
+      "size": 2289,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/8f7fb074c15612f65f91490be27f4bd954964fd0"
+    },
+    {
+      "path": "app/src/sys/unix/process.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36d1ff7df5deb8ccb87b59eb792c89ba572c1b72",
+      "size": 5912,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/36d1ff7df5deb8ccb87b59eb792c89ba572c1b72"
+    },
+    {
+      "path": "app/src/sys/win",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e744a1da72f14e9244533c5704d1cc48461907cc",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/e744a1da72f14e9244533c5704d1cc48461907cc"
+    },
+    {
+      "path": "app/src/sys/win/file.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3cf1760fe3c02704400e3fcffc23c1251af2ea9",
+      "size": 827,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/d3cf1760fe3c02704400e3fcffc23c1251af2ea9"
+    },
+    {
+      "path": "app/src/sys/win/process.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c121bef28c0385cc64323a60a1f3c282c410f6da",
+      "size": 6778,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/c121bef28c0385cc64323a60a1f3c282c410f6da"
+    },
+    {
+      "path": "app/src/texture.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ce9a47b74138aee5fde1607ed06264b8c7d5bf3",
+      "size": 7612,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/2ce9a47b74138aee5fde1607ed06264b8c7d5bf3"
+    },
+    {
+      "path": "app/src/texture.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c0c0c71525909f9ba50b3b3561f40986033f613",
+      "size": 942,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/8c0c0c71525909f9ba50b3b3561f40986033f613"
+    },
+    {
+      "path": "app/src/trait",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2b172ee552498bde691d6976ef4f473104627cc6",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/2b172ee552498bde691d6976ef4f473104627cc6"
+    },
+    {
+      "path": "app/src/trait/frame_sink.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc94b1fc4b24d7940944b5277b48d6ccf090d89b",
+      "size": 871,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/dc94b1fc4b24d7940944b5277b48d6ccf090d89b"
+    },
+    {
+      "path": "app/src/trait/frame_source.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d34e628bbc5298d7b77fd8a29c055a580c4d09f3",
+      "size": 2158,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/d34e628bbc5298d7b77fd8a29c055a580c4d09f3"
+    },
+    {
+      "path": "app/src/trait/frame_source.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a1ea8f18d06dcb33f31a43eb2babbbd9ac08fd3",
+      "size": 1079,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/0a1ea8f18d06dcb33f31a43eb2babbbd9ac08fd3"
+    },
+    {
+      "path": "app/src/trait/gamepad_processor.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e8dc2a4ab0cfed456532e94f6d20904a50806b8",
+      "size": 1344,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/5e8dc2a4ab0cfed456532e94f6d20904a50806b8"
+    },
+    {
+      "path": "app/src/trait/key_processor.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e9bb86ed1b77b39c1fe2fda64ca398e83fc3989",
+      "size": 1649,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/9e9bb86ed1b77b39c1fe2fda64ca398e83fc3989"
+    },
+    {
+      "path": "app/src/trait/mouse_processor.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0a96e7c489d18c9e7231fd529319e5559762d6b",
+      "size": 1510,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/d0a96e7c489d18c9e7231fd529319e5559762d6b"
+    },
+    {
+      "path": "app/src/trait/packet_sink.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6312d529901d7e1ae1c4a0336e1a48571635faa5",
+      "size": 1396,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/6312d529901d7e1ae1c4a0336e1a48571635faa5"
+    },
+    {
+      "path": "app/src/trait/packet_source.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55429b61e3810bba490a4006cc11a0e5d7762b2e",
+      "size": 2488,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/55429b61e3810bba490a4006cc11a0e5d7762b2e"
+    },
+    {
+      "path": "app/src/trait/packet_source.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07be4970794671b02eca7d87ba929582e92caa7b",
+      "size": 1173,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/07be4970794671b02eca7d87ba929582e92caa7b"
+    },
+    {
+      "path": "app/src/uhid",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f954af581791f240e1e0e1ef2693cfc8ce62132c",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/f954af581791f240e1e0e1ef2693cfc8ce62132c"
+    },
+    {
+      "path": "app/src/uhid/gamepad_uhid.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ae9bb7d443e3742c6985d01b2e552d8538cecb9",
+      "size": 4982,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/2ae9bb7d443e3742c6985d01b2e552d8538cecb9"
+    },
+    {
+      "path": "app/src/uhid/gamepad_uhid.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad74760436f493274cfd6725afd339e47b9c59b8",
+      "size": 463,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/ad74760436f493274cfd6725afd339e47b9c59b8"
+    },
+    {
+      "path": "app/src/uhid/keyboard_uhid.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d381bfd7b899522b1f5151f133631e150a54077b",
+      "size": 4961,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/d381bfd7b899522b1f5151f133631e150a54077b"
+    },
+    {
+      "path": "app/src/uhid/keyboard_uhid.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1628a678fe262425d2b6e3c90a81240f92df9bdc",
+      "size": 641,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/1628a678fe262425d2b6e3c90a81240f92df9bdc"
+    },
+    {
+      "path": "app/src/uhid/mouse_uhid.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1277ed849b34dc97ec2c2c9976fc8489156adfef",
+      "size": 3366,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/1277ed849b34dc97ec2c2c9976fc8489156adfef"
+    },
+    {
+      "path": "app/src/uhid/mouse_uhid.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "998bf21a2faacaeba8e738646c7ef6b28caeaa10",
+      "size": 440,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/998bf21a2faacaeba8e738646c7ef6b28caeaa10"
+    },
+    {
+      "path": "app/src/uhid/uhid_output.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e743a73c309ea11ea043b71c84d23b6aa8789c4d",
+      "size": 742,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/e743a73c309ea11ea043b71c84d23b6aa8789c4d"
+    },
+    {
+      "path": "app/src/uhid/uhid_output.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed028b5867e383047d1b0267efdb7d5252e63dc3",
+      "size": 599,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/ed028b5867e383047d1b0267efdb7d5252e63dc3"
+    },
+    {
+      "path": "app/src/usb",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "da92ae91623fde602f868c0e2b7f9eb9c1f2020b",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/da92ae91623fde602f868c0e2b7f9eb9c1f2020b"
+    },
+    {
+      "path": "app/src/usb/aoa_hid.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "189e9b08cf731b3fc4c86fa18b4beb15770e2ceb",
+      "size": 15298,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/189e9b08cf731b3fc4c86fa18b4beb15770e2ceb"
+    },
+    {
+      "path": "app/src/usb/aoa_hid.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2755c9570f0ff469c50859c8174406e5734be845",
+      "size": 2158,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/2755c9570f0ff469c50859c8174406e5734be845"
+    },
+    {
+      "path": "app/src/usb/gamepad_aoa.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d29b1a780156ba37baf4b5d88ae97a2329c8bf1a",
+      "size": 3160,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/d29b1a780156ba37baf4b5d88ae97a2329c8bf1a"
+    },
+    {
+      "path": "app/src/usb/gamepad_aoa.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0297a3658288fba0ca4d794b732a288e5a080d4c",
+      "size": 474,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/0297a3658288fba0ca4d794b732a288e5a080d4c"
+    },
+    {
+      "path": "app/src/usb/keyboard_aoa.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f5cb75525b99802ae12a8ec1b00bd5c23cf62c8",
+      "size": 3177,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/8f5cb75525b99802ae12a8ec1b00bd5c23cf62c8"
+    },
+    {
+      "path": "app/src/usb/keyboard_aoa.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e9500a31294252fa1aedab2de89325f136df63d",
+      "size": 512,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/9e9500a31294252fa1aedab2de89325f136df63d"
+    },
+    {
+      "path": "app/src/usb/mouse_aoa.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bc76c54bf0ad6566f0f750aecac48c191f8d303",
+      "size": 2656,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/4bc76c54bf0ad6566f0f750aecac48c191f8d303"
+    },
+    {
+      "path": "app/src/usb/mouse_aoa.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a25d986e89d72d01b7dcd7d5d1102b11140bafc",
+      "size": 466,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/1a25d986e89d72d01b7dcd7d5d1102b11140bafc"
+    },
+    {
+      "path": "app/src/usb/scrcpy_otg.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba2768b315ddff938a5c47367d4982f87fef6cd8",
+      "size": 7319,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/ba2768b315ddff938a5c47367d4982f87fef6cd8"
+    },
+    {
+      "path": "app/src/usb/scrcpy_otg.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e477660b7c9a958cae068e3cac9287de568120f7",
+      "size": 180,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/e477660b7c9a958cae068e3cac9287de568120f7"
+    },
+    {
+      "path": "app/src/usb/usb.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f7505814538c3de24d39e15a2a00acdf2910aa5",
+      "size": 11362,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/4f7505814538c3de24d39e15a2a00acdf2910aa5"
+    },
+    {
+      "path": "app/src/usb/usb.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0ebbd96b66c7917cd5f2dfa313b1686626cc152",
+      "size": 1921,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/f0ebbd96b66c7917cd5f2dfa313b1686626cc152"
+    },
+    {
+      "path": "app/src/util",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ee38eabc609b331dd85636e5d17a39a45eed4df5",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/ee38eabc609b331dd85636e5d17a39a45eed4df5"
+    },
+    {
+      "path": "app/src/util/acksync.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76ecee0d853295c2a46f002dab5144f51fa21223",
+      "size": 1570,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/76ecee0d853295c2a46f002dab5144f51fa21223"
+    },
+    {
+      "path": "app/src/util/acksync.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d9c9b2f9e32d57b44bdc2fadb5ca6e37677c538",
+      "size": 1454,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/3d9c9b2f9e32d57b44bdc2fadb5ca6e37677c538"
+    },
+    {
+      "path": "app/src/util/audiobuf.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eeb2751468e940c983375148aeed40f5f8d2c516",
+      "size": 4607,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/eeb2751468e940c983375148aeed40f5f8d2c516"
+    },
+    {
+      "path": "app/src/util/audiobuf.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b55a5a5914c605cced9873ede1c3877effd37794",
+      "size": 1745,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/b55a5a5914c605cced9873ede1c3877effd37794"
+    },
+    {
+      "path": "app/src/util/average.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ace23d456c5cc4092ec49c61d97f55725f207b25",
+      "size": 483,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/ace23d456c5cc4092ec49c61d97f55725f207b25"
+    },
+    {
+      "path": "app/src/util/average.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eded998724ffadc92944edbf91c62410a2ff270f",
+      "size": 802,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/eded998724ffadc92944edbf91c62410a2ff270f"
+    },
+    {
+      "path": "app/src/util/binary.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6ce3201670a8d964f764d81ae3af7de93b79ec6",
+      "size": 2059,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/b6ce3201670a8d964f764d81ae3af7de93b79ec6"
+    },
+    {
+      "path": "app/src/util/command.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bc4a10e9603ee0fa2e918d303c1e07ecdf9da57",
+      "size": 2879,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/7bc4a10e9603ee0fa2e918d303c1e07ecdf9da57"
+    },
+    {
+      "path": "app/src/util/command.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "184973112a8b070350131147039ccd83180b3832",
+      "size": 367,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/184973112a8b070350131147039ccd83180b3832"
+    },
+    {
+      "path": "app/src/util/env.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "127f5a1f8728989129e306ad5b7196b50446bdb4",
+      "size": 541,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/127f5a1f8728989129e306ad5b7196b50446bdb4"
+    },
+    {
+      "path": "app/src/util/env.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50a311656229caa2d6d4ef46ae95d63b77701f5b",
+      "size": 221,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/50a311656229caa2d6d4ef46ae95d63b77701f5b"
+    },
+    {
+      "path": "app/src/util/file.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83b0d61264423969690845496cbc285bae53cff8",
+      "size": 1331,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/83b0d61264423969690845496cbc285bae53cff8"
+    },
+    {
+      "path": "app/src/util/file.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56c369d7306ff5b46eeeab02553768239893718d",
+      "size": 1215,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/56c369d7306ff5b46eeeab02553768239893718d"
+    },
+    {
+      "path": "app/src/util/intmap.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa11acefb454e253d513c18a0eb11aa24244dda2",
+      "size": 353,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/fa11acefb454e253d513c18a0eb11aa24244dda2"
+    },
+    {
+      "path": "app/src/util/intmap.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ab903ca5824bf7cd4e2e6fa0ade6f179678c330",
+      "size": 534,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/7ab903ca5824bf7cd4e2e6fa0ade6f179678c330"
+    },
+    {
+      "path": "app/src/util/intr.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddf4839f1c04094c3b44d98e2a6b5fb8f5b06107",
+      "size": 1948,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/ddf4839f1c04094c3b44d98e2a6b5fb8f5b06107"
+    },
+    {
+      "path": "app/src/util/intr.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35bd33753a3d867418a196e7785939542c0cc335",
+      "size": 1595,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/35bd33753a3d867418a196e7785939542c0cc335"
+    },
+    {
+      "path": "app/src/util/log.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "470f1e674e9b4be856746ee165b7820529d85437",
+      "size": 4554,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/470f1e674e9b4be856746ee165b7820529d85437"
+    },
+    {
+      "path": "app/src/util/log.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02606cb46409808c63b901218eca39d192fa686e",
+      "size": 1014,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/02606cb46409808c63b901218eca39d192fa686e"
+    },
+    {
+      "path": "app/src/util/memory.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64ee616e5c462b16637494ea9cdb3f5f8a3d2c9c",
+      "size": 259,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/64ee616e5c462b16637494ea9cdb3f5f8a3d2c9c"
+    },
+    {
+      "path": "app/src/util/memory.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fb6bc64d5266a717e9f72e9f8cb7823812ac0cc",
+      "size": 285,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/0fb6bc64d5266a717e9f72e9f8cb7823812ac0cc"
+    },
+    {
+      "path": "app/src/util/net.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e9e3ae4c3a6f0319eb29603541c1ddd902cfa3e",
+      "size": 6631,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/9e9e3ae4c3a6f0319eb29603541c1ddd902cfa3e"
+    },
+    {
+      "path": "app/src/util/net.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa99bbc4e19cbc1ba00714bebfec68f763b2b997",
+      "size": 2269,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/aa99bbc4e19cbc1ba00714bebfec68f763b2b997"
+    },
+    {
+      "path": "app/src/util/net_intr.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55286af6f5e99623c22ecebba878c9eb7f43ad20",
+      "size": 2303,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/55286af6f5e99623c22ecebba878c9eb7f43ad20"
+    },
+    {
+      "path": "app/src/util/net_intr.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2bbee88cacd46a680006a1b63a80853a16ed5a4",
+      "size": 937,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/e2bbee88cacd46a680006a1b63a80853a16ed5a4"
+    },
+    {
+      "path": "app/src/util/process.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29d89a54ac15f0e29aa920f31e0d7d4fdb5d96f0",
+      "size": 2708,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/29d89a54ac15f0e29aa920f31e0d7d4fdb5d96f0"
+    },
+    {
+      "path": "app/src/util/process.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eec51bcc116895cf55b7c79c7dae7e1b8aedbdde",
+      "size": 4331,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/eec51bcc116895cf55b7c79c7dae7e1b8aedbdde"
+    },
+    {
+      "path": "app/src/util/process_intr.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "641440abd5c5df08cab783dfb2a46699ae3ed849",
+      "size": 778,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/641440abd5c5df08cab783dfb2a46699ae3ed849"
+    },
+    {
+      "path": "app/src/util/process_intr.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "020eafa16d8437b53ae70f2ec7cc517ce30e4d8c",
+      "size": 375,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/020eafa16d8437b53ae70f2ec7cc517ce30e4d8c"
+    },
+    {
+      "path": "app/src/util/rand.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "590e4ca4b4c52e99f393981006eec9b4406a614e",
+      "size": 657,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/590e4ca4b4c52e99f393981006eec9b4406a614e"
+    },
+    {
+      "path": "app/src/util/rand.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "262b0b9b4814097c2dfd2423d9e190b0449231ec",
+      "size": 268,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/262b0b9b4814097c2dfd2423d9e190b0449231ec"
+    },
+    {
+      "path": "app/src/util/sdl.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bfcdadcbe7c990cd85d303cb893a30a36252492",
+      "size": 3244,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/5bfcdadcbe7c990cd85d303cb893a30a36252492"
+    },
+    {
+      "path": "app/src/util/sdl.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1d49cc4db681a6cf4306273c270d3984f99e6d0",
+      "size": 775,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/e1d49cc4db681a6cf4306273c270d3984f99e6d0"
+    },
+    {
+      "path": "app/src/util/str.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4f04b55645443b7b764b0090a7cc47ad2321caa",
+      "size": 7988,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/c4f04b55645443b7b764b0090a7cc47ad2321caa"
+    },
+    {
+      "path": "app/src/util/str.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b48e63344ce9d6c4936053a0616e044ece983032",
+      "size": 3700,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/b48e63344ce9d6c4936053a0616e044ece983032"
+    },
+    {
+      "path": "app/src/util/strbuf.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6196d7461e07f0e4e87c5383271d2ccb50e1ce64",
+      "size": 1825,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/6196d7461e07f0e4e87c5383271d2ccb50e1ce64"
+    },
+    {
+      "path": "app/src/util/strbuf.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1878df2f02b9ba11fb8bf0e968a6c831d44b2796",
+      "size": 1358,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/1878df2f02b9ba11fb8bf0e968a6c831d44b2796"
+    },
+    {
+      "path": "app/src/util/term.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff6bc4b13fe00b18d93eb710aeca91757ed4ae88",
+      "size": 936,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/ff6bc4b13fe00b18d93eb710aeca91757ed4ae88"
+    },
+    {
+      "path": "app/src/util/term.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0211bcb4cc1e3d2aa1191bbe98d432e1e9ac1bc9",
+      "size": 448,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/0211bcb4cc1e3d2aa1191bbe98d432e1e9ac1bc9"
+    },
+    {
+      "path": "app/src/util/thread.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22e932027a85acae851652fe3b0e5a9e12d55e5b",
+      "size": 4251,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/22e932027a85acae851652fe3b0e5a9e12d55e5b"
+    },
+    {
+      "path": "app/src/util/thread.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f47af4d65079648167833d92c86e235e5bf0409",
+      "size": 1727,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/7f47af4d65079648167833d92c86e235e5bf0409"
+    },
+    {
+      "path": "app/src/util/tick.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edef10702e0af9007c7e96b8693584e5835f1755",
+      "size": 1551,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/edef10702e0af9007c7e96b8693584e5835f1755"
+    },
+    {
+      "path": "app/src/util/tick.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b037734bd1615a7b84d2b24bacd5f7621036702c",
+      "size": 665,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/b037734bd1615a7b84d2b24bacd5f7621036702c"
+    },
+    {
+      "path": "app/src/util/timeout.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21bc3a5398a17588aaf2966a77bdf352cd0ddc5e",
+      "size": 1760,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/21bc3a5398a17588aaf2966a77bdf352cd0ddc5e"
+    },
+    {
+      "path": "app/src/util/timeout.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a45ae2ae4165e4e1bd61362c636e138319a4b3cf",
+      "size": 792,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/a45ae2ae4165e4e1bd61362c636e138319a4b3cf"
+    },
+    {
+      "path": "app/src/util/vecdeque.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "439903a8775023a7d2b6e66c207208a68be6b185",
+      "size": 9554,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/439903a8775023a7d2b6e66c207208a68be6b185"
+    },
+    {
+      "path": "app/src/util/vector.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e57f4bb3f05493839be6530d8bd4b096935082b",
+      "size": 14388,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/7e57f4bb3f05493839be6530d8bd4b096935082b"
+    },
+    {
+      "path": "app/src/v4l2_sink.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4f3b7839c65d29622a344e461228b39f32b05d6",
+      "size": 9861,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/c4f3b7839c65d29622a344e461228b39f32b05d6"
+    },
+    {
+      "path": "app/src/v4l2_sink.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b7c5b50f8b82905a1de9eecec12a05af289d1e7",
+      "size": 745,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/2b7c5b50f8b82905a1de9eecec12a05af289d1e7"
+    },
+    {
+      "path": "app/src/version.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a22a7e9b8e35054f0e64fa7431575c70c12c454",
+      "size": 2217,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/9a22a7e9b8e35054f0e64fa7431575c70c12c454"
+    },
+    {
+      "path": "app/src/version.h",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "920360e8e42b0c39b5ead524243d9e294e107251",
+      "size": 105,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/920360e8e42b0c39b5ead524243d9e294e107251"
+    },
+    {
+      "path": "app/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ec0fcdcd1c5ff7cae0177f1e8487a6b69075c685",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/ec0fcdcd1c5ff7cae0177f1e8487a6b69075c685"
+    },
+    {
+      "path": "app/tests/test_adb_parser.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "822ed798b2679686caa9b82f91425f27d5d90638",
+      "size": 10367,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/822ed798b2679686caa9b82f91425f27d5d90638"
+    },
+    {
+      "path": "app/tests/test_audiobuf.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "539ee23895b85fec49e5e18fdeca419aa661cdcf",
+      "size": 3196,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/539ee23895b85fec49e5e18fdeca419aa661cdcf"
+    },
+    {
+      "path": "app/tests/test_binary.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bce74ce291c4fac3f6b812a70548d710067c888a",
+      "size": 3611,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/bce74ce291c4fac3f6b812a70548d710067c888a"
+    },
+    {
+      "path": "app/tests/test_cli.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de605cb9640794666cf135cd99d09c56ca0b13c8",
+      "size": 4405,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/de605cb9640794666cf135cd99d09c56ca0b13c8"
+    },
+    {
+      "path": "app/tests/test_command_windows.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e041250c87be22c3f591e647cdfd0e32763a2bf7",
+      "size": 1575,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/e041250c87be22c3f591e647cdfd0e32763a2bf7"
+    },
+    {
+      "path": "app/tests/test_control_msg_serialize.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f674b70480363941f352ec5ef242e67f4375f942",
+      "size": 16371,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/f674b70480363941f352ec5ef242e67f4375f942"
+    },
+    {
+      "path": "app/tests/test_device_msg_deserialize.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a64a3eb77fb45cebe3e51e332448bd27bc9a3726",
+      "size": 2738,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/a64a3eb77fb45cebe3e51e332448bd27bc9a3726"
+    },
+    {
+      "path": "app/tests/test_orientation.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "153211fa9428947b322d25a070a6662626de6d61",
+      "size": 3070,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/153211fa9428947b322d25a070a6662626de6d61"
+    },
+    {
+      "path": "app/tests/test_str.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49cf12d5a4accc8fe0116a89163d8ed15e679aa4",
+      "size": 11614,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/49cf12d5a4accc8fe0116a89163d8ed15e679aa4"
+    },
+    {
+      "path": "app/tests/test_strbuf.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58562522cf207324d25d2c18aa0d9764272137ec",
+      "size": 972,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/58562522cf207324d25d2c18aa0d9764272137ec"
+    },
+    {
+      "path": "app/tests/test_vecdeque.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8cfdefed7f617ae1816745087de2131e0d79908",
+      "size": 4519,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/b8cfdefed7f617ae1816745087de2131e0d79908"
+    },
+    {
+      "path": "app/tests/test_vector.c",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "459b4e0fae853e79e233be9d0c866551425b4c4d",
+      "size": 9962,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/459b4e0fae853e79e233be9d0c866551425b4c4d"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4ba23932bd7e44a97e67d8c76700102bdf26b5cf",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/4ba23932bd7e44a97e67d8c76700102bdf26b5cf"
+    },
+    {
+      "path": "assets/screenshot-debian-600.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20000aa9ba346e5fb857a25355e95224d35179e7",
+      "size": 44944,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/20000aa9ba346e5fb857a25355e95224d35179e7"
+    },
+    {
+      "path": "build.gradle",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "836455dd5f02516b44c173a7b1fb235e9069a661",
+      "size": 574,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/836455dd5f02516b44c173a7b1fb235e9069a661"
+    },
+    {
+      "path": "bump_version",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a09636667f93d708f6cd3e2735202b05c0f929de",
+      "size": 935,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/a09636667f93d708f6cd3e2735202b05c0f929de"
+    },
+    {
+      "path": "config",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2fc33d4977addd32feb34add9b50dfb2ec847857",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/2fc33d4977addd32feb34add9b50dfb2ec847857"
+    },
+    {
+      "path": "config/android-checkstyle.gradle",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e5ce3ba51966c3d55fc28d5f9b36d2b89b4463f",
+      "size": 645,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/1e5ce3ba51966c3d55fc28d5f9b36d2b89b4463f"
+    },
+    {
+      "path": "config/checkstyle",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "14691e775d098dd384b9f4d4c73c187f3c3b1c2e",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/14691e775d098dd384b9f4d4c73c187f3c3b1c2e"
+    },
+    {
+      "path": "config/checkstyle/checkstyle.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edda3919afb0be50af275222de57bda56caa5f67",
+      "size": 5944,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/edda3919afb0be50af275222de57bda56caa5f67"
+    },
+    {
+      "path": "cross_win32.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddbc65f35e6c7ff3973847134879a9d146fc98de",
+      "size": 415,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/ddbc65f35e6c7ff3973847134879a9d146fc98de"
+    },
+    {
+      "path": "cross_win64.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6f16e16dae2c461b9713f192ae02563bc9e9915",
+      "size": 431,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/a6f16e16dae2c461b9713f192ae02563bc9e9915"
+    },
+    {
+      "path": "doc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "04be8943e3ded4829b04fd1d4f74963502dbdb6c",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/04be8943e3ded4829b04fd1d4f74963502dbdb6c"
+    },
+    {
+      "path": "doc/audio.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c712b4c96cec4aa06111526e6bd67e17070d1a4f",
+      "size": 6939,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/c712b4c96cec4aa06111526e6bd67e17070d1a4f"
+    },
+    {
+      "path": "doc/build.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c7d9cef4e2ae90c0e2b2ee28c115f8d1d2c1cd8",
+      "size": 7195,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/2c7d9cef4e2ae90c0e2b2ee28c115f8d1d2c1cd8"
+    },
+    {
+      "path": "doc/camera.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08b5c930bdd9b669c6ad8691f39147ec3c820f5a",
+      "size": 5622,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/08b5c930bdd9b669c6ad8691f39147ec3c820f5a"
+    },
+    {
+      "path": "doc/connection.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcf001476fa1639a96412b53b657978990cc43f0",
+      "size": 3434,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/dcf001476fa1639a96412b53b657978990cc43f0"
+    },
+    {
+      "path": "doc/control.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86c0efe6e5c4b77bf38352e254bf2bc86edcbab2",
+      "size": 4367,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/86c0efe6e5c4b77bf38352e254bf2bc86edcbab2"
+    },
+    {
+      "path": "doc/develop.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eae63a09146e42373dc519bd24db467925c03329",
+      "size": 21932,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/eae63a09146e42373dc519bd24db467925c03329"
+    },
+    {
+      "path": "doc/device.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c709533c0936e754cff174fabe3686399315e34b",
+      "size": 4500,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/c709533c0936e754cff174fabe3686399315e34b"
+    },
+    {
+      "path": "doc/gamepad.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3d27b5118445affb75fadbf9834c6d7cb22055a",
+      "size": 1604,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/d3d27b5118445affb75fadbf9834c6d7cb22055a"
+    },
+    {
+      "path": "doc/keyboard.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80dfe070fef2288b0aa5059e7ace30e541e2fe71",
+      "size": 4275,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/80dfe070fef2288b0aa5059e7ace30e541e2fe71"
+    },
+    {
+      "path": "doc/linux.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b27c8298eb5f3cd384d2169c41de5fd976c9e24",
+      "size": 2494,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/4b27c8298eb5f3cd384d2169c41de5fd976c9e24"
+    },
+    {
+      "path": "doc/macos.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "299a615f034a6b126145c795ec2c68c2b8300d6b",
+      "size": 1622,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/299a615f034a6b126145c795ec2c68c2b8300d6b"
+    },
+    {
+      "path": "doc/mouse.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f181be4dabfc8ad26f7bc7463d57d87b8a5c881",
+      "size": 4423,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/8f181be4dabfc8ad26f7bc7463d57d87b8a5c881"
+    },
+    {
+      "path": "doc/otg.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d31c0a75f864628dc7fd2eb24cf78c122d64182",
+      "size": 2061,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/7d31c0a75f864628dc7fd2eb24cf78c122d64182"
+    },
+    {
+      "path": "doc/recording.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc7e93a2f58e56e83b5b9da11a143b85dfaa61e5",
+      "size": 2093,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/dc7e93a2f58e56e83b5b9da11a143b85dfaa61e5"
+    },
+    {
+      "path": "doc/shortcuts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2826c839f338edcda94af7d8aabe13ce7a39c4f6",
+      "size": 5119,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/2826c839f338edcda94af7d8aabe13ce7a39c4f6"
+    },
+    {
+      "path": "doc/tunnels.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1aebd4e2a73060325bbc661a4ebe27945aa21fc4",
+      "size": 2571,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/1aebd4e2a73060325bbc661a4ebe27945aa21fc4"
+    },
+    {
+      "path": "doc/v4l2.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b50eb9b872f172f8a88def24a4765e1ad898aa3e",
+      "size": 1857,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/b50eb9b872f172f8a88def24a4765e1ad898aa3e"
+    },
+    {
+      "path": "doc/verify-release.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7f2a4d3bf1af0a6ab3f733b22465170b1c830b8",
+      "size": 2187,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/a7f2a4d3bf1af0a6ab3f733b22465170b1c830b8"
+    },
+    {
+      "path": "doc/video.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "172bc8f0d1bb8964960ce0b9c5c689eb940d9c61",
+      "size": 8267,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/172bc8f0d1bb8964960ce0b9c5c689eb940d9c61"
+    },
+    {
+      "path": "doc/virtual-display.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bfe6f718003202a7fbd7db267d7b993c448f0f4",
+      "size": 2851,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/3bfe6f718003202a7fbd7db267d7b993c448f0f4"
+    },
+    {
+      "path": "doc/window.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5dd4f2f523545082c69ec6300aaaed88b0afdf0",
+      "size": 2528,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/b5dd4f2f523545082c69ec6300aaaed88b0afdf0"
+    },
+    {
+      "path": "doc/windows.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "315808e16395a49ff82c15adf5a4949590d1f1cb",
+      "size": 2603,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/315808e16395a49ff82c15adf5a4949590d1f1cb"
+    },
+    {
+      "path": "gradle.properties",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2a767fd0d2acb372116a82211d21db0887d0f68",
+      "size": 894,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/f2a767fd0d2acb372116a82211d21db0887d0f68"
+    },
+    {
+      "path": "gradle",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6d0def7d5e6fabd8c279bff7e07590d774640f7f",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/6d0def7d5e6fabd8c279bff7e07590d774640f7f"
+    },
+    {
+      "path": "gradle/wrapper",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b5ad514d2147c8cdc5ae3eadd2caddc8907b3fe4",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/b5ad514d2147c8cdc5ae3eadd2caddc8907b3fe4"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.jar",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "490fda8577df6c95960ba7077c43220e5bb2c0d9",
+      "size": 58694,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/490fda8577df6c95960ba7077c43220e5bb2c0d9"
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c4f2c7a0e1ac07cc56a1655eb8f6cb64bf324b1",
+      "size": 329,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/7c4f2c7a0e1ac07cc56a1655eb8f6cb64bf324b1"
+    },
+    {
+      "path": "gradlew",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2fe81a7d95e4f9ad2c9b2a046707d36ceb3980b3",
+      "size": 5764,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/2fe81a7d95e4f9ad2c9b2a046707d36ceb3980b3"
+    },
+    {
+      "path": "gradlew.bat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9109989e3cbf666b0a3c8f48fd92bd03bb53b968",
+      "size": 3056,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/9109989e3cbf666b0a3c8f48fd92bd03bb53b968"
+    },
+    {
+      "path": "install_release.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "492479976ec95fdca1ed13031df4b9c80573e89a",
+      "size": 675,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/492479976ec95fdca1ed13031df4b9c80573e89a"
+    },
+    {
+      "path": "meson.build",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0d38de45b5e210285ef3fc7c595d8fe3bd535a3",
+      "size": 386,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/e0d38de45b5e210285ef3fc7c595d8fe3bd535a3"
+    },
+    {
+      "path": "meson_options.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd347734dceb4559f8f558d8aed958ef946f8e33",
+      "size": 807,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/fd347734dceb4559f8f558d8aed958ef946f8e33"
+    },
+    {
+      "path": "release",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5c7ceca9151243c980faacc7ed1085ac5a4a9053",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/5c7ceca9151243c980faacc7ed1085ac5a4a9053"
+    },
+    {
+      "path": "release/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed363cdfb19956bd319dacddda5ffe8dc1be002b",
+      "size": 14,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/ed363cdfb19956bd319dacddda5ffe8dc1be002b"
+    },
+    {
+      "path": "release/build_common",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "199a80b600bc87f5b449943e6d4291b7a6e7e60c",
+      "size": 164,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/199a80b600bc87f5b449943e6d4291b7a6e7e60c"
+    },
+    {
+      "path": "release/build_linux.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "37dc763bf54d766e1f48d4ef0dd58082124f3176",
+      "size": 1280,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/37dc763bf54d766e1f48d4ef0dd58082124f3176"
+    },
+    {
+      "path": "release/build_macos.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b8b2436af46c45dd23de1ce2d0a3f1e7edba552c",
+      "size": 1280,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/b8b2436af46c45dd23de1ce2d0a3f1e7edba552c"
+    },
+    {
+      "path": "release/build_server.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f52672de33a400e788eeca53be3a5f09ac0b36a7",
+      "size": 378,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/f52672de33a400e788eeca53be3a5f09ac0b36a7"
+    },
+    {
+      "path": "release/build_windows.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a38ca725f9fc28cc6c409b8b1380e6d5baafd257",
+      "size": 1559,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/a38ca725f9fc28cc6c409b8b1380e6d5baafd257"
+    },
+    {
+      "path": "release/generate_checksums.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2785c6c3ab76e56157ade337fd506af0486883fd",
+      "size": 412,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/2785c6c3ab76e56157ade337fd506af0486883fd"
+    },
+    {
+      "path": "release/package_client.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "51997e75d6a7eb266ae5fcc6b21e213d4dd7858c",
+      "size": 1185,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/51997e75d6a7eb266ae5fcc6b21e213d4dd7858c"
+    },
+    {
+      "path": "release/package_server.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a856cebb3ff6c4d5ec23bcf0462d46834df204ae",
+      "size": 283,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/a856cebb3ff6c4d5ec23bcf0462d46834df204ae"
+    },
+    {
+      "path": "release/release.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ddba585bffeb5555de353d7c57eb99e3a5002796",
+      "size": 447,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/ddba585bffeb5555de353d7c57eb99e3a5002796"
+    },
+    {
+      "path": "release/test_client.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6059541d0c608644002983aa1ed702db176bd1df",
+      "size": 281,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/6059541d0c608644002983aa1ed702db176bd1df"
+    },
+    {
+      "path": "release/test_server.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "940e8c1a97b02200ad1fd57f1ac448cca9a4aef6",
+      "size": 152,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/940e8c1a97b02200ad1fd57f1ac448cca9a4aef6"
+    },
+    {
+      "path": "run",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "abc4c9a09e173539ed4aeb77368fed9ac62d64a3",
+      "size": 552,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/abc4c9a09e173539ed4aeb77368fed9ac62d64a3"
+    },
+    {
+      "path": "server",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "126366b7bf8313f466b406958bd53d37e2f0d774",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/126366b7bf8313f466b406958bd53d37e2f0d774"
+    },
+    {
+      "path": "server/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0df7064d66e779373977228905e967f4702c971a",
+      "size": 88,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/0df7064d66e779373977228905e967f4702c971a"
+    },
+    {
+      "path": "server/build.gradle",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22d8db039d57e64bd545a0db0bf484d9d5cbb81a",
+      "size": 710,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/22d8db039d57e64bd545a0db0bf484d9d5cbb81a"
+    },
+    {
+      "path": "server/build_without_gradle.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fea9b085dcc0ca5217097d8aff15d9126f9db8d2",
+      "size": 3142,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/fea9b085dcc0ca5217097d8aff15d9126f9db8d2"
+    },
+    {
+      "path": "server/meson.build",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55828e2df02a1f487cc4b2c695b779d24a1fdc61",
+      "size": 1371,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/55828e2df02a1f487cc4b2c695b779d24a1fdc61"
+    },
+    {
+      "path": "server/proguard-rules.pro",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1b424510da51fd82143bc74a0a801ae5a1e2fcd",
+      "size": 751,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/f1b424510da51fd82143bc74a0a801ae5a1e2fcd"
+    },
+    {
+      "path": "server/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0052e8f48e729767703e60a7332f254e8844a2c6",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/0052e8f48e729767703e60a7332f254e8844a2c6"
+    },
+    {
+      "path": "server/scripts/build-wrapper.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7e16dc9464e65bb4ab0ec96d759843931ed0824b",
+      "size": 815,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/7e16dc9464e65bb4ab0ec96d759843931ed0824b"
+    },
+    {
+      "path": "server/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "130b392078d1b6816d54092026e3eb6b9c1f6881",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/130b392078d1b6816d54092026e3eb6b9c1f6881"
+    },
+    {
+      "path": "server/src/main",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "87b2d5e9c9710fedcb9a340bd442788974dfa57c",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/87b2d5e9c9710fedcb9a340bd442788974dfa57c"
+    },
+    {
+      "path": "server/src/main/AndroidManifest.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a94ad86b940779e71ba44e3fd30e6b1b334bcede",
+      "size": 88,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/a94ad86b940779e71ba44e3fd30e6b1b334bcede"
+    },
+    {
+      "path": "server/src/main/aidl",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3e1ba0647c7a3161b2beeeb0dbfe09b21b026c34",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/3e1ba0647c7a3161b2beeeb0dbfe09b21b026c34"
+    },
+    {
+      "path": "server/src/main/aidl/android",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0b7ae67dd33de4a013ae34d15aa6bce4ca5b8e3f",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/0b7ae67dd33de4a013ae34d15aa6bce4ca5b8e3f"
+    },
+    {
+      "path": "server/src/main/aidl/android/content",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "125c851ecf342021a1f7caa3d8f1e474df777c3f",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/125c851ecf342021a1f7caa3d8f1e474df777c3f"
+    },
+    {
+      "path": "server/src/main/aidl/android/content/IOnPrimaryClipChangedListener.aidl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46d7f7cab9d8ce6246e9be11cce09354a30eb217",
+      "size": 757,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/46d7f7cab9d8ce6246e9be11cce09354a30eb217"
+    },
+    {
+      "path": "server/src/main/aidl/android/view",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bef58973e33479698a721ddb1d537fe8d78547c5",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/bef58973e33479698a721ddb1d537fe8d78547c5"
+    },
+    {
+      "path": "server/src/main/aidl/android/view/IDisplayWindowListener.aidl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d1f19795832946bff15c90776603e9faa266180",
+      "size": 1801,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/0d1f19795832946bff15c90776603e9faa266180"
+    },
+    {
+      "path": "server/src/main/java",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b9949b7e5c0841cd0a3d8f2dcc083f750ae400f0",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/b9949b7e5c0841cd0a3d8f2dcc083f750ae400f0"
+    },
+    {
+      "path": "server/src/main/java/android",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a1d9d6e03d36dacb484767be1d90484503a4c3d0",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/a1d9d6e03d36dacb484767be1d90484503a4c3d0"
+    },
+    {
+      "path": "server/src/main/java/android/content",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "01b5ddcc9e739c4903e2a2c60de36fd5dea19493",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/01b5ddcc9e739c4903e2a2c60de36fd5dea19493"
+    },
+    {
+      "path": "server/src/main/java/android/content/IContentProvider.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb907dd37ada877582315293331773113054ac50",
+      "size": 168,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/bb907dd37ada877582315293331773113054ac50"
+    },
+    {
+      "path": "server/src/main/java/com",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a821dc8e0d52f60c203fba1266e7ec103ede359f",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/a821dc8e0d52f60c203fba1266e7ec103ede359f"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5ee82404c4292f75a982110a36d014ce9addbd60",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/5ee82404c4292f75a982110a36d014ce9addbd60"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4987a64b690d76159870d6da6f3b56bd41ecc4bf",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/4987a64b690d76159870d6da6f3b56bd41ecc4bf"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/AndroidVersions.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5303924aab7ec75178ea47f52cafb58724e90f0f",
+      "size": 1419,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/5303924aab7ec75178ea47f52cafb58724e90f0f"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/AsyncProcessor.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5da6a90f5c0312c1f953f8518d43129d3d8d24f",
+      "size": 448,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/d5da6a90f5c0312c1f953f8518d43129d3d8d24f"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/CleanUp.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5816c32a1bd2a169e437df60c6244208e8eb188",
+      "size": 10085,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/a5816c32a1bd2a169e437df60c6244208e8eb188"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/FakeContext.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d41a8f3e8b5b176800f7856f1cace604c12559f",
+      "size": 3951,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/5d41a8f3e8b5b176800f7856f1cace604c12559f"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/Options.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bca7b5965905856a2e3817b6ae7a24506037d04",
+      "size": 23555,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/3bca7b5965905856a2e3817b6ae7a24506037d04"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/Server.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7d1a76ba80b411a7acec02bde505fc83fe1821b",
+      "size": 10937,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/d7d1a76ba80b411a7acec02bde505fc83fe1821b"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/Workarounds.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e012de6cb45a0791e32cf7bfcc0a1aa14bc0a09",
+      "size": 16129,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/1e012de6cb45a0791e32cf7bfcc0a1aa14bc0a09"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/audio",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6c0832f6f62c46e4bcf97f3d01f89b19e0a12858",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/6c0832f6f62c46e4bcf97f3d01f89b19e0a12858"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/audio/AudioCapture.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62903f83cbd406cd7e8ecc4503982773c15dfe4e",
+      "size": 588,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/62903f83cbd406cd7e8ecc4503982773c15dfe4e"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/audio/AudioCaptureException.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b0b7e833d4c0d7903fe139a30274b2af32a636b",
+      "size": 465,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/4b0b7e833d4c0d7903fe139a30274b2af32a636b"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/audio/AudioCodec.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e20a2a69fcda5946880b47717f41b988b3e53fe",
+      "size": 1215,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/5e20a2a69fcda5946880b47717f41b988b3e53fe"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/audio/AudioConfig.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c77165a7b9b0781eb4f874c2518ac3415fc486bf",
+      "size": 1266,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/c77165a7b9b0781eb4f874c2518ac3415fc486bf"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/audio/AudioDirectCapture.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf870bee87981b056bf62f561496ecfc4724a8a0",
+      "size": 5755,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/bf870bee87981b056bf62f561496ecfc4724a8a0"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/audio/AudioEncoder.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1be21ebd3412f5a9c9b3abfdd1f1ef387decdfa1",
+      "size": 14104,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/1be21ebd3412f5a9c9b3abfdd1f1ef387decdfa1"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/audio/AudioPlaybackCapture.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "009a239ac573728a3a5b418d7241a7320c5bf601",
+      "size": 6832,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/009a239ac573728a3a5b418d7241a7320c5bf601"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/audio/AudioRawRecorder.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9645bbbdc54fae5dd4adfec79cddb970ae51487d",
+      "size": 3038,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/9645bbbdc54fae5dd4adfec79cddb970ae51487d"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/audio/AudioRecordReader.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32b42257487ee239b0813164b9c96325a70e55d8",
+      "size": 2394,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/32b42257487ee239b0813164b9c96325a70e55d8"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/audio/AudioSource.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d16b5e3879abc2ae6a2f584f9b0aa07e46427365",
+      "size": 1616,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/d16b5e3879abc2ae6a2f584f9b0aa07e46427365"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/control",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8ce7463aa4d318abbef0fde4a75938e4b43966ac",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/8ce7463aa4d318abbef0fde4a75938e4b43966ac"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/control/ControlChannel.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f12cdb3e59a714ed15c98c508d766dcc8e39bac",
+      "size": 651,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/2f12cdb3e59a714ed15c98c508d766dcc8e39bac"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/control/ControlMessage.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7a5c78ee00ddc7d068037548b0de77037bc6347",
+      "size": 7764,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/d7a5c78ee00ddc7d068037548b0de77037bc6347"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/control/ControlMessageReader.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2e3a4a7c6d8544e8f7a95a25e56eceb27b0adde",
+      "size": 7649,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/a2e3a4a7c6d8544e8f7a95a25e56eceb27b0adde"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/control/ControlProtocolException.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cabf63ee158a36859f6997bb169930f07bc55c5c",
+      "size": 215,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/cabf63ee158a36859f6997bb169930f07bc55c5c"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/control/Controller.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e604b35415003b4328e26c512dfd492f73a409e",
+      "size": 36165,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/2e604b35415003b4328e26c512dfd492f73a409e"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/control/DeviceMessage.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "079a7a04fb9fc183aa4c03ea26d4ecc35192cd77",
+      "size": 1343,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/079a7a04fb9fc183aa4c03ea26d4ecc35192cd77"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/control/DeviceMessageSender.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc5e6be095b0663fba76532d7c072776d484acfa",
+      "size": 1495,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/dc5e6be095b0663fba76532d7c072776d484acfa"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/control/DeviceMessageWriter.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a18a2e5dcd8888399e17f79425f6b536339bd6ab",
+      "size": 1669,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/a18a2e5dcd8888399e17f79425f6b536339bd6ab"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/control/KeyComposition.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b988f53fe923517813943cf3c6608cc974030fd",
+      "size": 5857,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/5b988f53fe923517813943cf3c6608cc974030fd"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/control/Pointer.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4624a159782e549ac25ddccbfae957b52f6cb9f6",
+      "size": 1087,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/4624a159782e549ac25ddccbfae957b52f6cb9f6"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/control/PointersState.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efe16f0ce73c758b2f48f9945c58703a08be2710",
+      "size": 2935,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/efe16f0ce73c758b2f48f9945c58703a08be2710"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/control/PositionMapper.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8daed9a04d890fec1f7bbcc5fbe3f4d2e4f1a2b",
+      "size": 1732,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/e8daed9a04d890fec1f7bbcc5fbe3f4d2e4f1a2b"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/control/UhidManager.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20532c0b00894f081b580377eed71103a1d395a4",
+      "size": 9509,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/20532c0b00894f081b580377eed71103a1d395a4"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/device",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0f10582f54d192ce8416b72516a2dcd535742ade",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/0f10582f54d192ce8416b72516a2dcd535742ade"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/device/DesktopConnection.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db75aec671ab0531bfa63762587cd2337f1b8c4b",
+      "size": 6221,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/db75aec671ab0531bfa63762587cd2337f1b8c4b"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/device/Device.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6efe254c71974d0f769e134a370ffc17fadc1e5b",
+      "size": 12820,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/6efe254c71974d0f769e134a370ffc17fadc1e5b"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/device/Streamer.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e793f67b54489be65c692b04af3db40e619f4f50",
+      "size": 8093,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/e793f67b54489be65c692b04af3db40e619f4f50"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/display",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "42308edd432b7b848a08cc550e1365a2437dc5e5",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/42308edd432b7b848a08cc550e1365a2437dc5e5"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/display/DisplayInfo.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea966a3ebb6d2195f606925b32f944174cc3724b",
+      "size": 1183,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/ea966a3ebb6d2195f606925b32f944174cc3724b"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/display/DisplayMonitor.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6d871c9bd393b4211cf5e1cfd2dc222e0616534",
+      "size": 5961,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/f6d871c9bd393b4211cf5e1cfd2dc222e0616534"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/display/DisplayProperties.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3658334e39f52dfe076aa296ff8250c14e9732b",
+      "size": 1154,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/d3658334e39f52dfe076aa296ff8250c14e9732b"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/display/DisplayPropertiesTracker.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adc606aafe5646d953b18b3ffaf970608fd9ab0a",
+      "size": 2344,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/adc606aafe5646d953b18b3ffaf970608fd9ab0a"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/display/DisplayResizeDebouncer.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b961c6947d573af309603d15ee44b7db77b8c36",
+      "size": 2255,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/0b961c6947d573af309603d15ee44b7db77b8c36"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dd4fe51e765815387506ff9cdb976988eb0d4433",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/dd4fe51e765815387506ff9cdb976988eb0d4433"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/model/Codec.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1117102f1a31d10f027678a3b4045dd42b72052",
+      "size": 416,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/b1117102f1a31d10f027678a3b4045dd42b72052"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/model/CodecOption.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b356cd95125fd27f6bec75332a8d8a9c334fc6a",
+      "size": 3256,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/8b356cd95125fd27f6bec75332a8d8a9c334fc6a"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/model/ConfigurationException.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e5deaaa4b9ea262a24ddfa5220acfb1f13f50bf",
+      "size": 178,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/0e5deaaa4b9ea262a24ddfa5220acfb1f13f50bf"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/model/DeviceApp.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60e7e8798bb7d198785aa04b5171f14c42f9eb36",
+      "size": 542,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/60e7e8798bb7d198785aa04b5171f14c42f9eb36"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/model/NewDisplay.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2544f076d82f26e5c764ce4599a7fd65d34173b5",
+      "size": 533,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/2544f076d82f26e5c764ce4599a7fd65d34173b5"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/model/Orientation.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e189d774c75eee7358ef21dbb00432204469fd5",
+      "size": 1315,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/8e189d774c75eee7358ef21dbb00432204469fd5"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/model/Point.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a8458f390e16e6afad8d0fb08e452393e1a9fda",
+      "size": 795,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/8a8458f390e16e6afad8d0fb08e452393e1a9fda"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/model/Position.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61fd1247603a0fcbf49adcc36ef72f0f9182efdb",
+      "size": 1724,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/61fd1247603a0fcbf49adcc36ef72f0f9182efdb"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/model/Size.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63648a9e8fdfb10eb4d3ecc42889db50c8d898be",
+      "size": 4023,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/63648a9e8fdfb10eb4d3ecc42889db50c8d898be"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/opengl",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "260784a2daa7e3e93b8a0ff7eef7877dbd7a2494",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/260784a2daa7e3e93b8a0ff7eef7877dbd7a2494"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/opengl/AffineOpenGLFilter.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7608a57443b13101febfd37f513b177b2998f861",
+      "size": 4637,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/7608a57443b13101febfd37f513b177b2998f861"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/opengl/GLUtils.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72a3f400fc768eb072b42aa2b456e7923fa3e982",
+      "size": 3836,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/72a3f400fc768eb072b42aa2b456e7923fa3e982"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/opengl/OpenGLException.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbc9539b1dd0be7d73ec9deece97f646d88c5b8e",
+      "size": 296,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/cbc9539b1dd0be7d73ec9deece97f646d88c5b8e"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/opengl/OpenGLFilter.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f27777ea2d7d9d0e865cf978776c1c8a7e6a108",
+      "size": 468,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/6f27777ea2d7d9d0e865cf978776c1c8a7e6a108"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/opengl/OpenGLRunner.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "232f68d12eef9738295ad909e67e689b7898bcc7",
+      "size": 8179,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/232f68d12eef9738295ad909e67e689b7898bcc7"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/util",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c8fd8834e1474d574e5f306f825cfce582906ccb",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/c8fd8834e1474d574e5f306f825cfce582906ccb"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/util/AffineMatrix.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb507ba84fbe843ac021d85226fac02b9879fdad",
+      "size": 10349,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/fb507ba84fbe843ac021d85226fac02b9879fdad"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/util/Binary.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f46ba695dbad1c0d96cad42f9fce0ff4209b3ff4",
+      "size": 1023,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/f46ba695dbad1c0d96cad42f9fce0ff4209b3ff4"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/util/CodecUtils.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a01256a52ce155e4d5b497946962c9431b87bd3",
+      "size": 1253,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/3a01256a52ce155e4d5b497946962c9431b87bd3"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/util/Command.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b26158e6088688a5fdaf51cb0bddc741d27f15df",
+      "size": 1537,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/b26158e6088688a5fdaf51cb0bddc741d27f15df"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/util/HandlerExecutor.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03309989f6d8bcf781bb80dd69f635ee298525fb",
+      "size": 579,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/03309989f6d8bcf781bb80dd69f635ee298525fb"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/util/IO.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16ddaedde3cdfab3d30331c9b6a68401378ae6e7",
+      "size": 2739,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/16ddaedde3cdfab3d30331c9b6a68401378ae6e7"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/util/Ln.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "811a4f31f8e98b3e4675ddbead9346f574fa2cb3",
+      "size": 3339,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/811a4f31f8e98b3e4675ddbead9346f574fa2cb3"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/util/LogUtils.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f4605ea18be5536ccba818b8311fa7473b4d84f",
+      "size": 12480,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/4f4605ea18be5536ccba818b8311fa7473b4d84f"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/util/Settings.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4eb67d186b0fb46f05112c6cfaf0e66f29510d00",
+      "size": 1429,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/4eb67d186b0fb46f05112c6cfaf0e66f29510d00"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/util/SettingsException.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87fa3884c4df337cd29b6430286a50e6d43ed234",
+      "size": 485,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/87fa3884c4df337cd29b6430286a50e6d43ed234"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/util/StringUtils.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b19ca3dc2b692c256f52ac8c2f776dd9bf983d4",
+      "size": 684,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/8b19ca3dc2b692c256f52ac8c2f776dd9bf983d4"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/util/Threads.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c561d1ef64fdc59a01fdcc1ebc71ff4ec8220872",
+      "size": 1190,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/c561d1ef64fdc59a01fdcc1ebc71ff4ec8220872"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/video",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c6f814fe245a6bd0593044dea1390b40e930f131",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/c6f814fe245a6bd0593044dea1390b40e930f131"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/video/CameraAspectRatio.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf1cba5df2fa0aaf5c143bb9bd8b5ebd9dda67d3",
+      "size": 931,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/bf1cba5df2fa0aaf5c143bb9bd8b5ebd9dda67d3"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/video/CameraCapture.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "554195462ca547759b304894d66a4efeee81f4fa",
+      "size": 20149,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/554195462ca547759b304894d66a4efeee81f4fa"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/video/CameraFacing.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f818e6653c984dbabbac0f13d20043eb08014460",
+      "size": 865,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/f818e6653c984dbabbac0f13d20043eb08014460"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/video/CaptureControl.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7933ea725f1382707fa3e1ae6024c9a68365d5c6",
+      "size": 1177,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/7933ea725f1382707fa3e1ae6024c9a68365d5c6"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/video/NewDisplayCapture.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "375b4d1af0a10407296925995ea2808279ff909c",
+      "size": 15803,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/375b4d1af0a10407296925995ea2808279ff909c"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/video/ScreenCapture.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afe934572d6d3a9bd203b9c26b42c260084b30b0",
+      "size": 9298,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/afe934572d6d3a9bd203b9c26b42c260084b30b0"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/video/SurfaceCapture.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4dd2879bd91ceab626b184217e9ecf85fdee4042",
+      "size": 2335,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/4dd2879bd91ceab626b184217e9ecf85fdee4042"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/video/SurfaceEncoder.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ccb775abcec7a3e4e3e32ff8f35104f7e4c07bc",
+      "size": 16422,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/1ccb775abcec7a3e4e3e32ff8f35104f7e4c07bc"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/video/VideoCodec.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f19603d81f1f3dd368caf5ffe1b466a21b5ed7f",
+      "size": 1247,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/5f19603d81f1f3dd368caf5ffe1b466a21b5ed7f"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/video/VideoConstraints.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39b28682cf0e6e54f65616a4d74d26cada744d6e",
+      "size": 2380,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/39b28682cf0e6e54f65616a4d74d26cada744d6e"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/video/VideoFilter.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a0dec6b2cd64ddda1f6eef2e37902020d0dd233",
+      "size": 3867,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/9a0dec6b2cd64ddda1f6eef2e37902020d0dd233"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/video/VideoSource.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53b54a522650a23d79f5e733190993635bf6c26a",
+      "size": 465,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/53b54a522650a23d79f5e733190993635bf6c26a"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/video/VirtualDisplayListener.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c079265e4e0530773b766adaa4dd313893fc321e",
+      "size": 212,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/c079265e4e0530773b766adaa4dd313893fc321e"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/wrappers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5484ee45901887ed301576966802673e7d70fde5",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/5484ee45901887ed301576966802673e7d70fde5"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/wrappers/ActivityManager.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "255483c60295d786640b0878b8ce69e73d757c7c",
+      "size": 6777,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/255483c60295d786640b0878b8ce69e73d757c7c"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/wrappers/ClipboardManager.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5493612208e378f2461cca88e4d4bc6b0f83ed8a",
+      "size": 1464,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/5493612208e378f2461cca88e4d4bc6b0f83ed8a"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/wrappers/ContentProvider.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f625b398d5a867dd32e891de76dc2292fc008331",
+      "size": 6206,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/f625b398d5a867dd32e891de76dc2292fc008331"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/wrappers/DisplayControl.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88ca3d3d72aa523c6f30f72393f0e8fb58f49962",
+      "size": 3221,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/88ca3d3d72aa523c6f30f72393f0e8fb58f49962"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/wrappers/DisplayManager.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1be04c3a799720af62837f8eda5f76fa559ae429",
+      "size": 10974,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/1be04c3a799720af62837f8eda5f76fa559ae429"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/wrappers/DisplayWindowListener.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1573d8176d35306c106889676cf926569519539b",
+      "size": 1134,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/1573d8176d35306c106889676cf926569519539b"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/wrappers/InputManager.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f55648d548d8bf0f27b135105796ca6d7336ac25",
+      "size": 6006,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/f55648d548d8bf0f27b135105796ca6d7336ac25"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/wrappers/PowerManager.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7ba3f17abce116323636d2e4d88e9e3425fd0c8",
+      "size": 2876,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/c7ba3f17abce116323636d2e4d88e9e3425fd0c8"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/wrappers/ServiceManager.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1123b55fc07593dde7c4fd725cc2d8a47847b11",
+      "size": 3584,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/b1123b55fc07593dde7c4fd725cc2d8a47847b11"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/wrappers/StatusBarManager.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca80dde2ed36a1be6f4d2e4f3af1a05d1f355e99",
+      "size": 3592,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/ca80dde2ed36a1be6f4d2e4f3af1a05d1f355e99"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/wrappers/SurfaceControl.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bae4a375d62e8df494615d513a1038751718c36",
+      "size": 6618,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/3bae4a375d62e8df494615d513a1038751718c36"
+    },
+    {
+      "path": "server/src/main/java/com/genymobile/scrcpy/wrappers/WindowManager.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ba5cc06dfe33550f0238350e720e668d78be068",
+      "size": 11609,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/7ba5cc06dfe33550f0238350e720e668d78be068"
+    },
+    {
+      "path": "server/src/test",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fa7bbb97d92a7b79ee61ea5f5a885ae098a87813",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/fa7bbb97d92a7b79ee61ea5f5a885ae098a87813"
+    },
+    {
+      "path": "server/src/test/java",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b290c5354c63355de2ccfd7c907dc675faa33c05",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/b290c5354c63355de2ccfd7c907dc675faa33c05"
+    },
+    {
+      "path": "server/src/test/java/com",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2baf8fe72e41ac979100ebf505baa9642f9cc546",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/2baf8fe72e41ac979100ebf505baa9642f9cc546"
+    },
+    {
+      "path": "server/src/test/java/com/genymobile",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8ae7d78c48049a8b9cd880a40aaf256416fda9ab",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/8ae7d78c48049a8b9cd880a40aaf256416fda9ab"
+    },
+    {
+      "path": "server/src/test/java/com/genymobile/scrcpy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5e84b31f4e84fce75eef71b17ae6d080e75a7f13",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/5e84b31f4e84fce75eef71b17ae6d080e75a7f13"
+    },
+    {
+      "path": "server/src/test/java/com/genymobile/scrcpy/control",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ec37f97477fb8a5b3e17acdb2c0debb44e9a422a",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/ec37f97477fb8a5b3e17acdb2c0debb44e9a422a"
+    },
+    {
+      "path": "server/src/test/java/com/genymobile/scrcpy/control/ControlMessageReaderTest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57ff063d47340f5a4da8bf0228eeb17ab502009b",
+      "size": 23165,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/57ff063d47340f5a4da8bf0228eeb17ab502009b"
+    },
+    {
+      "path": "server/src/test/java/com/genymobile/scrcpy/control/DeviceMessageWriterTest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e4717fd782663b6df6858d1fde947ef870f6232",
+      "size": 2445,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/4e4717fd782663b6df6858d1fde947ef870f6232"
+    },
+    {
+      "path": "server/src/test/java/com/genymobile/scrcpy/model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "90e5ff0bb35c01dddbfcc43bb144b1d585d46ebf",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/90e5ff0bb35c01dddbfcc43bb144b1d585d46ebf"
+    },
+    {
+      "path": "server/src/test/java/com/genymobile/scrcpy/model/CodecOptionsTest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36f1d86e137eaf38360726441edd7fc38319d223",
+      "size": 3884,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/36f1d86e137eaf38360726441edd7fc38319d223"
+    },
+    {
+      "path": "server/src/test/java/com/genymobile/scrcpy/model/SizeTest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d86048fac5c06ba380cf49fbe646eab190ea4fd0",
+      "size": 3580,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/d86048fac5c06ba380cf49fbe646eab190ea4fd0"
+    },
+    {
+      "path": "server/src/test/java/com/genymobile/scrcpy/util",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "79b4e8d8814e30a4f26874db7e0b58d61da43014",
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/trees/79b4e8d8814e30a4f26874db7e0b58d61da43014"
+    },
+    {
+      "path": "server/src/test/java/com/genymobile/scrcpy/util/BinaryTest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ee95ac57bb77b2149f385e18329c3e461f5f9e8",
+      "size": 2445,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/7ee95ac57bb77b2149f385e18329c3e461f5f9e8"
+    },
+    {
+      "path": "server/src/test/java/com/genymobile/scrcpy/util/CommandParserTest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e690b3daa50889218df771e98c4ad85dfc9288e4",
+      "size": 20052,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/e690b3daa50889218df771e98c4ad85dfc9288e4"
+    },
+    {
+      "path": "server/src/test/java/com/genymobile/scrcpy/util/StringUtilsTest.java",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c72b112ab4353998343a0898ba2a1e98a2a23fc6",
+      "size": 1238,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/c72b112ab4353998343a0898ba2a1e98a2a23fc6"
+    },
+    {
+      "path": "settings.gradle",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f51035f9bb654281153868380aaec89e6a96f1f",
+      "size": 18,
+      "url": "https://api.github.com/repos/Genymobile/scrcpy/git/blobs/8f51035f9bb654281153868380aaec89e6a96f1f"
+    }
+  ],
+  "truncated": false
+}

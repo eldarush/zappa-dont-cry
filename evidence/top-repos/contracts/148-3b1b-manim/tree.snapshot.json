@@ -1,0 +1,1602 @@
+{
+  "sha": "c5e23d93659d604ff495ffe300bf7d4ef890e538",
+  "url": "https://api.github.com/repos/3b1b/manim/git/trees/c5e23d93659d604ff495ffe300bf7d4ef890e538",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "21a969fba05931dc39a0d75b26d01dcba88d5502",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/21a969fba05931dc39a0d75b26d01dcba88d5502"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5e9b655d506fe601245af6554c5c4ab153bd7c83",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/5e9b655d506fe601245af6554c5c4ab153bd7c83"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bad3125ec3307b2940a1f859cb7463bf13abf956",
+      "size": 443,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/bad3125ec3307b2940a1f859cb7463bf13abf956"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5581a02a415fd0a76928f5f6fa95532838413830",
+      "size": 186,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/5581a02a415fd0a76928f5f6fa95532838413830"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/error-when-using.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0686dfd37a3172a2e46809272f3efb99c12739c8",
+      "size": 481,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/0686dfd37a3172a2e46809272f3efb99c12739c8"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ca8f4745bb4cab578b071ffa86a92e2db886499",
+      "size": 362,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/3ca8f4745bb4cab578b071ffa86a92e2db886499"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3d24a92bdc72425c154947e7631b9a6889bd7429",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/3d24a92bdc72425c154947e7631b9a6889bd7429"
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee86f066e92ba18742b12078b556cbaa9bb7d19c",
+      "size": 947,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/ee86f066e92ba18742b12078b556cbaa9bb7d19c"
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4abc9e350ca68fd7bdafde7b3e3e276127e875e7",
+      "size": 783,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/4abc9e350ca68fd7bdafde7b3e3e276127e875e7"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2822abd4359eb099ddddea9c440dbff093548b65",
+      "size": 2251,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/2822abd4359eb099ddddea9c440dbff093548b65"
+    },
+    {
+      "path": "LICENSE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "376297d623856cb9a4807572add16920556550ab",
+      "size": 1077,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/376297d623856cb9a4807572add16920556550ab"
+    },
+    {
+      "path": "MANIFEST.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b97adbb295a302f7d691bb321788256bddeb8d66",
+      "size": 58,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/b97adbb295a302f7d691bb321788256bddeb8d66"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78d01bd960090b7afda9ced84b28e417db61f475",
+      "size": 7182,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/78d01bd960090b7afda9ced84b28e417db61f475"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0a7e04eb169a3df67c26f7955f8097da21625176",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/0a7e04eb169a3df67c26f7955f8097da21625176"
+    },
+    {
+      "path": "docs/Makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0c3cbf1020d5c292abdedf27627c6abe25e2293",
+      "size": 638,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/d0c3cbf1020d5c292abdedf27627c6abe25e2293"
+    },
+    {
+      "path": "docs/example.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6510e7ff7a95eb7e4c1b039014a6450f8167486",
+      "size": 1276,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/d6510e7ff7a95eb7e4c1b039014a6450f8167486"
+    },
+    {
+      "path": "docs/make.bat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9534b018135ed7d5caed6298980c55e8b1d2ec82",
+      "size": 764,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/9534b018135ed7d5caed6298980c55e8b1d2ec82"
+    },
+    {
+      "path": "docs/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8704109710e5879b7285fb5b7feb3134dde30ba",
+      "size": 56,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/d8704109710e5879b7285fb5b7feb3134dde30ba"
+    },
+    {
+      "path": "docs/source",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "219bdf7b6d743dfada0fba3a37b0cd03957c3c26",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/219bdf7b6d743dfada0fba3a37b0cd03957c3c26"
+    },
+    {
+      "path": "docs/source/_static",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "84a7aa487d41f7e2a16639d146b182c01596cecf",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/84a7aa487d41f7e2a16639d146b182c01596cecf"
+    },
+    {
+      "path": "docs/source/_static/icon.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c1a33f40b8b35739ed612cd5ebad3ba675e6012",
+      "size": 188788,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/0c1a33f40b8b35739ed612cd5ebad3ba675e6012"
+    },
+    {
+      "path": "docs/source/conf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9d0844cea7a3db69f0f525f8f9a560aeb08a304",
+      "size": 1122,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/e9d0844cea7a3db69f0f525f8f9a560aeb08a304"
+    },
+    {
+      "path": "docs/source/development",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "488cf05a2edff18a8d44d231e8c43c8bae3afebd",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/488cf05a2edff18a8d44d231e8c43c8bae3afebd"
+    },
+    {
+      "path": "docs/source/development/about.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02bf7c3572c58e3bbf64c724819b39cc547346dd",
+      "size": 1158,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/02bf7c3572c58e3bbf64c724819b39cc547346dd"
+    },
+    {
+      "path": "docs/source/development/changelog.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "681a055cb1e904880b645155fd6ada73cbb00052",
+      "size": 34447,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/681a055cb1e904880b645155fd6ada73cbb00052"
+    },
+    {
+      "path": "docs/source/development/contributing.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce19472c2adf0c53359baedf320f134e82791418",
+      "size": 1783,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/ce19472c2adf0c53359baedf320f134e82791418"
+    },
+    {
+      "path": "docs/source/documentation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd4eb8f2706d9ff9c8e7d56c91fd68e1a3c332c0",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/fd4eb8f2706d9ff9c8e7d56c91fd68e1a3c332c0"
+    },
+    {
+      "path": "docs/source/documentation/animation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6a02ee59ad354c9d5de75cb38c33d3db05b964c3",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/6a02ee59ad354c9d5de75cb38c33d3db05b964c3"
+    },
+    {
+      "path": "docs/source/documentation/animation/index.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "209acb94aa345308827c6cba16b72b761b08fdd9",
+      "size": 33,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/209acb94aa345308827c6cba16b72b761b08fdd9"
+    },
+    {
+      "path": "docs/source/documentation/camera",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e97704cc2261924fccd191484a25b2b3bda1cd32",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/e97704cc2261924fccd191484a25b2b3bda1cd32"
+    },
+    {
+      "path": "docs/source/documentation/camera/index.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6be1fab9e3d3a829e59f970369d984c6be35cd8",
+      "size": 27,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/a6be1fab9e3d3a829e59f970369d984c6be35cd8"
+    },
+    {
+      "path": "docs/source/documentation/constants.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c27515b0a5c699c2564205c8e21c31a77376a888",
+      "size": 6671,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/c27515b0a5c699c2564205c8e21c31a77376a888"
+    },
+    {
+      "path": "docs/source/documentation/custom_config.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "271399ce2b1bbc627b71a94c86bbf40baed4b3eb",
+      "size": 4995,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/271399ce2b1bbc627b71a94c86bbf40baed4b3eb"
+    },
+    {
+      "path": "docs/source/documentation/mobject",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7268c49e6e0092d9dba364c3effa13a66cb7c180",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/7268c49e6e0092d9dba364c3effa13a66cb7c180"
+    },
+    {
+      "path": "docs/source/documentation/mobject/index.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6c97d2417c6e1900f952be3c683e1ebe31d76ca",
+      "size": 29,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/f6c97d2417c6e1900f952be3c683e1ebe31d76ca"
+    },
+    {
+      "path": "docs/source/documentation/scene",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "27ecbbe78ec17d1ade6a91aeb631e16163285f72",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/27ecbbe78ec17d1ade6a91aeb631e16163285f72"
+    },
+    {
+      "path": "docs/source/documentation/scene/index.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d0a35e8ca0054b158a0dd224760622affc82922",
+      "size": 25,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/7d0a35e8ca0054b158a0dd224760622affc82922"
+    },
+    {
+      "path": "docs/source/documentation/shaders",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "df2de9fbb39fd1d074bd644a0a4fa68ea79e029f",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/df2de9fbb39fd1d074bd644a0a4fa68ea79e029f"
+    },
+    {
+      "path": "docs/source/documentation/shaders/index.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fec1cbfdadddf8efaa8ff485cb2d946b6797d3ef",
+      "size": 29,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/fec1cbfdadddf8efaa8ff485cb2d946b6797d3ef"
+    },
+    {
+      "path": "docs/source/documentation/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5f8dd9764f399c0386cc9cbe3e9781721dadaa5b",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/5f8dd9764f399c0386cc9cbe3e9781721dadaa5b"
+    },
+    {
+      "path": "docs/source/documentation/utils/index.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6ecc3f2cc491713743aab05c0ee28cc01031736",
+      "size": 25,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/c6ecc3f2cc491713743aab05c0ee28cc01031736"
+    },
+    {
+      "path": "docs/source/getting_started",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c461420ca3d16e847111880323bf2695f5081bc4",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/c461420ca3d16e847111880323bf2695f5081bc4"
+    },
+    {
+      "path": "docs/source/getting_started/configuration.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "465203c63a5749ee0fe110f35360897021324832",
+      "size": 6468,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/465203c63a5749ee0fe110f35360897021324832"
+    },
+    {
+      "path": "docs/source/getting_started/example_scenes.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "486cc92eabb305d039a223ea8ef926c93133eeee",
+      "size": 30148,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/486cc92eabb305d039a223ea8ef926c93133eeee"
+    },
+    {
+      "path": "docs/source/getting_started/installation.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf5cea3359c40acdb8b7dd52ad3f23240dd51b96",
+      "size": 2116,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/bf5cea3359c40acdb8b7dd52ad3f23240dd51b96"
+    },
+    {
+      "path": "docs/source/getting_started/quickstart.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e79e693ea78a94525f1c44fa99fed9f4c25763d",
+      "size": 7654,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/4e79e693ea78a94525f1c44fa99fed9f4c25763d"
+    },
+    {
+      "path": "docs/source/getting_started/structure.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7a0b2a778c0487b72550655d253eeb3193a0bbc",
+      "size": 7412,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/b7a0b2a778c0487b72550655d253eeb3193a0bbc"
+    },
+    {
+      "path": "docs/source/getting_started/whatsnew.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "200cd6adad8bae8cdc8efa285a36e4b7881455e1",
+      "size": 10619,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/200cd6adad8bae8cdc8efa285a36e4b7881455e1"
+    },
+    {
+      "path": "docs/source/index.rst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "965f3a83f72830c6045dffb302194e5a4c2b8799",
+      "size": 914,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/965f3a83f72830c6045dffb302194e5a4c2b8799"
+    },
+    {
+      "path": "docs/source/manim_example_ext.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5defb9d9598028c5174c0090268602d7dfdd675",
+      "size": 2482,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/e5defb9d9598028c5174c0090268602d7dfdd675"
+    },
+    {
+      "path": "example_scenes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d6a6cee84f9e92dd120d51a6092050348622898",
+      "size": 26519,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/9d6a6cee84f9e92dd120d51a6092050348622898"
+    },
+    {
+      "path": "logo",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e102168cffbe3df67da361f082c2469049a7c0e6",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/e102168cffbe3df67da361f082c2469049a7c0e6"
+    },
+    {
+      "path": "logo/cropped.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b584ca9706491f5ddd570cd3e5c0c86965ac0a1",
+      "size": 154686,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/8b584ca9706491f5ddd570cd3e5c0c86965ac0a1"
+    },
+    {
+      "path": "logo/graph.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ce65e9b182a0153ae0894dc9f2baaf83501318d",
+      "size": 116608,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/9ce65e9b182a0153ae0894dc9f2baaf83501318d"
+    },
+    {
+      "path": "logo/logo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f44da45dae2412d4d4408e421bbb91a9acb1a08c",
+      "size": 6003,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/f44da45dae2412d4d4408e421bbb91a9acb1a08c"
+    },
+    {
+      "path": "logo/transparent_graph.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61d5a25bc8ec951be5a0d7623a10720bea6686f9",
+      "size": 93155,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/61d5a25bc8ec951be5a0d7623a10720bea6686f9"
+    },
+    {
+      "path": "logo/white_with_name.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63ee0a82a78afdca8bd01b65b16ac7e24cac5b74",
+      "size": 77512,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/63ee0a82a78afdca8bd01b65b16ac7e24cac5b74"
+    },
+    {
+      "path": "logo/with_name.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04b710ab04d6f9cc009d192c21fa4011d6d9a6e8",
+      "size": 111118,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/04b710ab04d6f9cc009d192c21fa4011d6d9a6e8"
+    },
+    {
+      "path": "logo/with_subtext.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1e818dc4d5ee7798e8c836d96e0ef9520b4f716",
+      "size": 161453,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/f1e818dc4d5ee7798e8c836d96e0ef9520b4f716"
+    },
+    {
+      "path": "manimlib",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "43bc51dcad6c1b50ae75e3dfc7e85c0d8eb79dfb",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/43bc51dcad6c1b50ae75e3dfc7e85c0d8eb79dfb"
+    },
+    {
+      "path": "manimlib/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea7811391c506ca5d97a36b9204e2dcc96f24282",
+      "size": 3056,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/ea7811391c506ca5d97a36b9204e2dcc96f24282"
+    },
+    {
+      "path": "manimlib/__main__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fb944d65a5aa27a8d7f3e6c180091a31417da23",
+      "size": 1621,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/3fb944d65a5aa27a8d7f3e6c180091a31417da23"
+    },
+    {
+      "path": "manimlib/animation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5080ca1edd4ebea6c4ca0acaa5f5bead2fb08092",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/5080ca1edd4ebea6c4ca0acaa5f5bead2fb08092"
+    },
+    {
+      "path": "manimlib/animation/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "manimlib/animation/animation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53b9684c991f091c9106d1cdbaa66ef2ba5ac48f",
+      "size": 7377,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/53b9684c991f091c9106d1cdbaa66ef2ba5ac48f"
+    },
+    {
+      "path": "manimlib/animation/composition.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa99860b83ff9a3366076e7b3075e31eca0d9fd9",
+      "size": 6094,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/aa99860b83ff9a3366076e7b3075e31eca0d9fd9"
+    },
+    {
+      "path": "manimlib/animation/creation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "098d29ec1ab9e88de232a63664d54e2d74ca1105",
+      "size": 7724,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/098d29ec1ab9e88de232a63664d54e2d74ca1105"
+    },
+    {
+      "path": "manimlib/animation/fading.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18fa9ff8861a7d946553cb17198b4f3781f7f361",
+      "size": 6026,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/18fa9ff8861a7d946553cb17198b4f3781f7f361"
+    },
+    {
+      "path": "manimlib/animation/growing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96b34edb26f48ace900fe27fe5f6098992fbf219",
+      "size": 1494,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/96b34edb26f48ace900fe27fe5f6098992fbf219"
+    },
+    {
+      "path": "manimlib/animation/indication.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d82cdcaed6754396dd00b51f3faacc9fd5fb6d2e",
+      "size": 13305,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/d82cdcaed6754396dd00b51f3faacc9fd5fb6d2e"
+    },
+    {
+      "path": "manimlib/animation/movement.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c208aea93f24226e83fd9a5c3d2da85a72cc8b4e",
+      "size": 3329,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/c208aea93f24226e83fd9a5c3d2da85a72cc8b4e"
+    },
+    {
+      "path": "manimlib/animation/numbers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d62b5ae4d210a3892bf35dbc6e75c7883c0e40c6",
+      "size": 1795,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/d62b5ae4d210a3892bf35dbc6e75c7883c0e40c6"
+    },
+    {
+      "path": "manimlib/animation/rotation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "037113123d31003b04e01d82d64865c7e1399db1",
+      "size": 2193,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/037113123d31003b04e01d82d64865c7e1399db1"
+    },
+    {
+      "path": "manimlib/animation/specialized.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c9dc456d46a05e72c5f4bee452b9c298495127b",
+      "size": 1655,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/7c9dc456d46a05e72c5f4bee452b9c298495127b"
+    },
+    {
+      "path": "manimlib/animation/transform.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cc4e5a608c63a1986ffacaac969a888dafc5e33",
+      "size": 9988,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/2cc4e5a608c63a1986ffacaac969a888dafc5e33"
+    },
+    {
+      "path": "manimlib/animation/transform_matching_parts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72a79e4825ff902b42156c068c08d26b408e8bee",
+      "size": 6639,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/72a79e4825ff902b42156c068c08d26b408e8bee"
+    },
+    {
+      "path": "manimlib/animation/update.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed3324475ec9ad7c65f4ee96ac822f8fdfb3ce44",
+      "size": 2017,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/ed3324475ec9ad7c65f4ee96ac822f8fdfb3ce44"
+    },
+    {
+      "path": "manimlib/camera",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f3a5f2ecf9317fb04c6bc86f1e89ee885215a712",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/f3a5f2ecf9317fb04c6bc86f1e89ee885215a712"
+    },
+    {
+      "path": "manimlib/camera/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "manimlib/camera/camera.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a423465dda73c2184ac2ed8da324af34977f2758",
+      "size": 8706,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/a423465dda73c2184ac2ed8da324af34977f2758"
+    },
+    {
+      "path": "manimlib/camera/camera_frame.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1982599e6522e5ed230000b9ae04baced6683fe",
+      "size": 8798,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/e1982599e6522e5ed230000b9ae04baced6683fe"
+    },
+    {
+      "path": "manimlib/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3947f6bb77d7bfab9dc569b1feb3b42f54cb1fb4",
+      "size": 13146,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/3947f6bb77d7bfab9dc569b1feb3b42f54cb1fb4"
+    },
+    {
+      "path": "manimlib/constants.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62192825f9f55d2dc551350fae878eadb2062360",
+      "size": 6311,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/62192825f9f55d2dc551350fae878eadb2062360"
+    },
+    {
+      "path": "manimlib/default_config.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4a7b9ac6d542cbdfc67f1f3cc2794838bb3c555",
+      "size": 6036,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/a4a7b9ac6d542cbdfc67f1f3cc2794838bb3c555"
+    },
+    {
+      "path": "manimlib/event_handler",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0e8f28a370d1a7fd64228979db42e06f167d8caa",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/0e8f28a370d1a7fd64228979db42e06f167d8caa"
+    },
+    {
+      "path": "manimlib/event_handler/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6c25536068f1cfcc913b79f2a35a6a5b5de6214",
+      "size": 219,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/c6c25536068f1cfcc913b79f2a35a6a5b5de6214"
+    },
+    {
+      "path": "manimlib/event_handler/event_dispatcher.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31471d6c228344111cdc29c956095e197efb5fec",
+      "size": 3856,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/31471d6c228344111cdc29c956095e197efb5fec"
+    },
+    {
+      "path": "manimlib/event_handler/event_listner.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e742f311396f511c80108a53c2064955b879118",
+      "size": 815,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/5e742f311396f511c80108a53c2064955b879118"
+    },
+    {
+      "path": "manimlib/event_handler/event_type.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cd9f73e62c6ac1c238f45bc1917c0b668b53f2f",
+      "size": 343,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/6cd9f73e62c6ac1c238f45bc1917c0b668b53f2f"
+    },
+    {
+      "path": "manimlib/extract_scene.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28e22256ee22061b702f824fa84863f0d3fd8933",
+      "size": 6722,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/28e22256ee22061b702f824fa84863f0d3fd8933"
+    },
+    {
+      "path": "manimlib/logger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de6c2f9d7ebafb69026a3a038f4c47a1087843e1",
+      "size": 239,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/de6c2f9d7ebafb69026a3a038f4c47a1087843e1"
+    },
+    {
+      "path": "manimlib/mobject",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b644469ab05d046c7fb5efce457c18c331a1d586",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/b644469ab05d046c7fb5efce457c18c331a1d586"
+    },
+    {
+      "path": "manimlib/mobject/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "manimlib/mobject/boolean_ops.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "321f970f822c5293884073d05c064e94ec824e28",
+      "size": 4384,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/321f970f822c5293884073d05c064e94ec824e28"
+    },
+    {
+      "path": "manimlib/mobject/changing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d56d0f4f1f90b672f021088df63afffb0dbc4cb",
+      "size": 5785,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/5d56d0f4f1f90b672f021088df63afffb0dbc4cb"
+    },
+    {
+      "path": "manimlib/mobject/coordinate_systems.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9837db9177db8f9e3f5a57b16e9d1ea507acebe",
+      "size": 25634,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/c9837db9177db8f9e3f5a57b16e9d1ea507acebe"
+    },
+    {
+      "path": "manimlib/mobject/frame.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efe71ccec49d4ee15fa73243aa54b719516653da",
+      "size": 1369,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/efe71ccec49d4ee15fa73243aa54b719516653da"
+    },
+    {
+      "path": "manimlib/mobject/functions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ff37e53ed8bc74eb6af6b0d53113d9a38a40eef",
+      "size": 3840,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/1ff37e53ed8bc74eb6af6b0d53113d9a38a40eef"
+    },
+    {
+      "path": "manimlib/mobject/geometry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6f96bb0b93cf84f87b873d820cdebb3e67efc3e",
+      "size": 47562,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/d6f96bb0b93cf84f87b873d820cdebb3e67efc3e"
+    },
+    {
+      "path": "manimlib/mobject/interactive.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aaadaeb33fb3540a1237888e4245d205bf877110",
+      "size": 19387,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/aaadaeb33fb3540a1237888e4245d205bf877110"
+    },
+    {
+      "path": "manimlib/mobject/matrix.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05945f0edb73009ba7aff47c0aef97d667abc64b",
+      "size": 9423,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/05945f0edb73009ba7aff47c0aef97d667abc64b"
+    },
+    {
+      "path": "manimlib/mobject/mobject.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a5253acd25e069946ee647784766cb4aa3d4c16",
+      "size": 81705,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/7a5253acd25e069946ee647784766cb4aa3d4c16"
+    },
+    {
+      "path": "manimlib/mobject/mobject_update_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b76a1fb587ca89308fa5668e58bfecf88fd5a8ec",
+      "size": 3064,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/b76a1fb587ca89308fa5668e58bfecf88fd5a8ec"
+    },
+    {
+      "path": "manimlib/mobject/number_line.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07ad4b23449f9d607c60f30ec2fec63db7579223",
+      "size": 10438,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/07ad4b23449f9d607c60f30ec2fec63db7579223"
+    },
+    {
+      "path": "manimlib/mobject/numbers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b427f2db5ffb28b00a260dd664d2000a636284a",
+      "size": 8617,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/7b427f2db5ffb28b00a260dd664d2000a636284a"
+    },
+    {
+      "path": "manimlib/mobject/probability.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "128057649f10195d92a606116c885971c62ea394",
+      "size": 10410,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/128057649f10195d92a606116c885971c62ea394"
+    },
+    {
+      "path": "manimlib/mobject/shape_matchers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "123f717ac8754b1015f88365b956cf5c8a0985ee",
+      "size": 3851,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/123f717ac8754b1015f88365b956cf5c8a0985ee"
+    },
+    {
+      "path": "manimlib/mobject/svg",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bd4e4b3efc97d41ca6b8e41c7881aae2bdb77741",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/bd4e4b3efc97d41ca6b8e41c7881aae2bdb77741"
+    },
+    {
+      "path": "manimlib/mobject/svg/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "manimlib/mobject/svg/brace.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33e83bf34d51af93beac03f8381935950d90ba15",
+      "size": 6070,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/33e83bf34d51af93beac03f8381935950d90ba15"
+    },
+    {
+      "path": "manimlib/mobject/svg/drawings.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c26a9f19db0b9a50e7a17fa5e84a670d52af90a3",
+      "size": 24827,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/c26a9f19db0b9a50e7a17fa5e84a670d52af90a3"
+    },
+    {
+      "path": "manimlib/mobject/svg/old_tex_mobject.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bef9aff6d1c890920858f2cbb153d9e861413974",
+      "size": 10762,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/bef9aff6d1c890920858f2cbb153d9e861413974"
+    },
+    {
+      "path": "manimlib/mobject/svg/special_tex.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9adb5d7a449d55d619ccbc624b4f5c8f012658b1",
+      "size": 2945,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/9adb5d7a449d55d619ccbc624b4f5c8f012658b1"
+    },
+    {
+      "path": "manimlib/mobject/svg/string_mobject.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "660a6b32fa4a6dd5669c8c22a2dd4ec03fdd331a",
+      "size": 21275,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/660a6b32fa4a6dd5669c8c22a2dd4ec03fdd331a"
+    },
+    {
+      "path": "manimlib/mobject/svg/svg_mobject.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7642c1cf849b1ec5d82386405084a2bc2b86d232",
+      "size": 15672,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/7642c1cf849b1ec5d82386405084a2bc2b86d232"
+    },
+    {
+      "path": "manimlib/mobject/svg/tex_mobject.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9439d348a94ffcc12172c57f71fba6907a345f60",
+      "size": 9537,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/9439d348a94ffcc12172c57f71fba6907a345f60"
+    },
+    {
+      "path": "manimlib/mobject/svg/text_mobject.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91bfada8fc877b840a8ee9d2008ece7ab448a2ab",
+      "size": 16611,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/91bfada8fc877b840a8ee9d2008ece7ab448a2ab"
+    },
+    {
+      "path": "manimlib/mobject/three_dimensions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9990c9942742975a76a4a8ce4624fb3e9f6f3ee7",
+      "size": 12043,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/9990c9942742975a76a4a8ce4624fb3e9f6f3ee7"
+    },
+    {
+      "path": "manimlib/mobject/types",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4dbe3b37abfceaf084d940bb6224857d5e8b0371",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/4dbe3b37abfceaf084d940bb6224857d5e8b0371"
+    },
+    {
+      "path": "manimlib/mobject/types/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "manimlib/mobject/types/dot_cloud.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2174350f488fbf0b4466295372f87e6a21bc55ec",
+      "size": 5482,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/2174350f488fbf0b4466295372f87e6a21bc55ec"
+    },
+    {
+      "path": "manimlib/mobject/types/image_mobject.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40d945676db7fb3a47971a4ac45c3440e59fcdee",
+      "size": 2541,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/40d945676db7fb3a47971a4ac45c3440e59fcdee"
+    },
+    {
+      "path": "manimlib/mobject/types/point_cloud_mobject.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9483f021272789f4f102deac95f3bc0f4cba2556",
+      "size": 3710,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/9483f021272789f4f102deac95f3bc0f4cba2556"
+    },
+    {
+      "path": "manimlib/mobject/types/surface.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e17bba8a8a58e1d747d70a5d543a1bd660d7a5d",
+      "size": 16467,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/6e17bba8a8a58e1d747d70a5d543a1bd660d7a5d"
+    },
+    {
+      "path": "manimlib/mobject/types/vectorized_mobject.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7df6eb270dae6f5f859b429ffa15b7eac4157d37",
+      "size": 54070,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/7df6eb270dae6f5f859b429ffa15b7eac4157d37"
+    },
+    {
+      "path": "manimlib/mobject/value_tracker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5afa7342fe668672136ffb9b4391626825d17ac4",
+      "size": 1881,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/5afa7342fe668672136ffb9b4391626825d17ac4"
+    },
+    {
+      "path": "manimlib/mobject/vector_field.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1758d22b99da4904b7dca6a4c9fd567c8db6b71",
+      "size": 16445,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/c1758d22b99da4904b7dca6a4c9fd567c8db6b71"
+    },
+    {
+      "path": "manimlib/module_loader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc5e70764ca79274728cddad27cc9780d2ef5418",
+      "size": 6411,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/fc5e70764ca79274728cddad27cc9780d2ef5418"
+    },
+    {
+      "path": "manimlib/scene",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bf0fb165367c58b65fa8c13da7a3209806e668b5",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/bf0fb165367c58b65fa8c13da7a3209806e668b5"
+    },
+    {
+      "path": "manimlib/scene/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "manimlib/scene/interactive_scene.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ad20d5a20e0485c0d3722b1b4b2abc325e7ed10",
+      "size": 23822,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/1ad20d5a20e0485c0d3722b1b4b2abc325e7ed10"
+    },
+    {
+      "path": "manimlib/scene/scene.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "defeaa680c1b9473943cbb36007cc0441af25929",
+      "size": 32167,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/defeaa680c1b9473943cbb36007cc0441af25929"
+    },
+    {
+      "path": "manimlib/scene/scene_embed.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03f9cef97dc4f953103b2eafd2f023072ceb511a",
+      "size": 9163,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/03f9cef97dc4f953103b2eafd2f023072ceb511a"
+    },
+    {
+      "path": "manimlib/scene/scene_file_writer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "479e3b4c8aebed1b1bcb30880a4c9196a302b3da",
+      "size": 13353,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/479e3b4c8aebed1b1bcb30880a4c9196a302b3da"
+    },
+    {
+      "path": "manimlib/shader_wrapper.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "154cb60f77900bfff3daa4afcc53daaf3e1caead",
+      "size": 18632,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/154cb60f77900bfff3daa4afcc53daaf3e1caead"
+    },
+    {
+      "path": "manimlib/shaders",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9aeb250598af049d0ae908f219979d5d2fa9749",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/c9aeb250598af049d0ae908f219979d5d2fa9749"
+    },
+    {
+      "path": "manimlib/shaders/image",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "03e952c29c07800943dd95634191e606e97d1394",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/03e952c29c07800943dd95634191e606e97d1394"
+    },
+    {
+      "path": "manimlib/shaders/image/frag.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebfc99a45e571547194214b8fabf789673fa3163",
+      "size": 200,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/ebfc99a45e571547194214b8fabf789673fa3163"
+    },
+    {
+      "path": "manimlib/shaders/image/vert.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f7a812db2eb56ade32510c61428ce764c8b7d87",
+      "size": 302,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/4f7a812db2eb56ade32510c61428ce764c8b7d87"
+    },
+    {
+      "path": "manimlib/shaders/inserts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "77a811d1a8bdbb2572db1121000f44aaaad70d8a",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/77a811d1a8bdbb2572db1121000f44aaaad70d8a"
+    },
+    {
+      "path": "manimlib/shaders/inserts/NOTE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a08ccfe28cf1031883506d34cbbd93ccf17b0d29",
+      "size": 562,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/a08ccfe28cf1031883506d34cbbd93ccf17b0d29"
+    },
+    {
+      "path": "manimlib/shaders/inserts/complex_functions.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d9a0ec137c46df1433bd436d65a91f0aa8b5f9e",
+      "size": 376,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/0d9a0ec137c46df1433bd436d65a91f0aa8b5f9e"
+    },
+    {
+      "path": "manimlib/shaders/inserts/emit_gl_Position.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4fac6965676a43f490da95ff4653b2c1fc46cf8",
+      "size": 1158,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/b4fac6965676a43f490da95ff4653b2c1fc46cf8"
+    },
+    {
+      "path": "manimlib/shaders/inserts/finalize_color.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0656c7d02ae57c1be510460d3f132bbcbdfef8f7",
+      "size": 1768,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/0656c7d02ae57c1be510460d3f132bbcbdfef8f7"
+    },
+    {
+      "path": "manimlib/shaders/inserts/get_unit_normal.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2327375e4968818b97bd40fafb3fd611bf92ccc",
+      "size": 615,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/f2327375e4968818b97bd40fafb3fd611bf92ccc"
+    },
+    {
+      "path": "manimlib/shaders/inserts/get_xyz_to_uv.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc22dd5bb26a7c2f4c18c9b0afba5580316731b3",
+      "size": 3210,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/dc22dd5bb26a7c2f4c18c9b0afba5580316731b3"
+    },
+    {
+      "path": "manimlib/shaders/mandelbrot_fractal",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5ca1923d8d8077127855140b269c08a9226cee00",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/5ca1923d8d8077127855140b269c08a9226cee00"
+    },
+    {
+      "path": "manimlib/shaders/mandelbrot_fractal/frag.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b00a8ba827df5db8adfbd0d883d73398a42f2cb",
+      "size": 1383,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/8b00a8ba827df5db8adfbd0d883d73398a42f2cb"
+    },
+    {
+      "path": "manimlib/shaders/mandelbrot_fractal/vert.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "674abc67266116cb26c98d27b29dead6ec3f2996",
+      "size": 225,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/674abc67266116cb26c98d27b29dead6ec3f2996"
+    },
+    {
+      "path": "manimlib/shaders/newton_fractal",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4715eab1486e72d3d25fcec1b03995b2faaf78d7",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/4715eab1486e72d3d25fcec1b03995b2faaf78d7"
+    },
+    {
+      "path": "manimlib/shaders/newton_fractal/frag.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3323a215f89365d2805beb831f5b1dd63c7c5bea",
+      "size": 3895,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/3323a215f89365d2805beb831f5b1dd63c7c5bea"
+    },
+    {
+      "path": "manimlib/shaders/newton_fractal/vert.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "674abc67266116cb26c98d27b29dead6ec3f2996",
+      "size": 225,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/674abc67266116cb26c98d27b29dead6ec3f2996"
+    },
+    {
+      "path": "manimlib/shaders/quadratic_bezier",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8a1c5c58b95354953aef335e42c86e7cb5c4c3dd",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/8a1c5c58b95354953aef335e42c86e7cb5c4c3dd"
+    },
+    {
+      "path": "manimlib/shaders/quadratic_bezier/depth",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "758b9332880a66448e2413ab0adb178fa1e55bd7",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/758b9332880a66448e2413ab0adb178fa1e55bd7"
+    },
+    {
+      "path": "manimlib/shaders/quadratic_bezier/depth/frag.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d68a9659e9b15d5f55c1cf2af6c12038392f557",
+      "size": 86,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/5d68a9659e9b15d5f55c1cf2af6c12038392f557"
+    },
+    {
+      "path": "manimlib/shaders/quadratic_bezier/depth/geom.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca29d2450ef7589ebb5d89e1a4fca19951963b80",
+      "size": 648,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/ca29d2450ef7589ebb5d89e1a4fca19951963b80"
+    },
+    {
+      "path": "manimlib/shaders/quadratic_bezier/depth/vert.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "231d6746f617e74662679cee4c3d93a8deba3aa4",
+      "size": 156,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/231d6746f617e74662679cee4c3d93a8deba3aa4"
+    },
+    {
+      "path": "manimlib/shaders/quadratic_bezier/fill",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ece582ebb37b0c6d0fefb902f99a232f52e3c9e7",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/ece582ebb37b0c6d0fefb902f99a232f52e3c9e7"
+    },
+    {
+      "path": "manimlib/shaders/quadratic_bezier/fill/frag.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2235a3cbb88e540cdaa3c1e125e11eec8b4d3541",
+      "size": 1371,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/2235a3cbb88e540cdaa3c1e125e11eec8b4d3541"
+    },
+    {
+      "path": "manimlib/shaders/quadratic_bezier/fill/geom.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44a9953c9ee1a43cebac72d1cde9cf6bc379aea3",
+      "size": 1721,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/44a9953c9ee1a43cebac72d1cde9cf6bc379aea3"
+    },
+    {
+      "path": "manimlib/shaders/quadratic_bezier/fill/vert.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86dc3a26918a7b52542ab20e95ded632292aa54a",
+      "size": 245,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/86dc3a26918a7b52542ab20e95ded632292aa54a"
+    },
+    {
+      "path": "manimlib/shaders/quadratic_bezier/stroke",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "faf825abee7bbf865659ac16e3e096682275c929",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/faf825abee7bbf865659ac16e3e096682275c929"
+    },
+    {
+      "path": "manimlib/shaders/quadratic_bezier/stroke/frag.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a2ef46726e43db234c0516a1246f6e684b9fb9a",
+      "size": 506,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/2a2ef46726e43db234c0516a1246f6e684b9fb9a"
+    },
+    {
+      "path": "manimlib/shaders/quadratic_bezier/stroke/geom.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe85b611a750611dd5aa8f335523142192e76a71",
+      "size": 7312,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/fe85b611a750611dd5aa8f335523142192e76a71"
+    },
+    {
+      "path": "manimlib/shaders/quadratic_bezier/stroke/vert.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c76d14f5aa6193707b039c08b723d339e21c604e",
+      "size": 629,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/c76d14f5aa6193707b039c08b723d339e21c604e"
+    },
+    {
+      "path": "manimlib/shaders/simple_vert.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8934dd0e0bdd6996a8f8d530ef03337d1b65253",
+      "size": 104,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/c8934dd0e0bdd6996a8f8d530ef03337d1b65253"
+    },
+    {
+      "path": "manimlib/shaders/surface",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e103d64da4daffd17d845828a725c66d86a8d03c",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/e103d64da4daffd17d845828a725c66d86a8d03c"
+    },
+    {
+      "path": "manimlib/shaders/surface/frag.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e71b36a629b0e36ddb0ddbd5d5c4c2a4a0a2549",
+      "size": 94,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/6e71b36a629b0e36ddb0ddbd5d5c4c2a4a0a2549"
+    },
+    {
+      "path": "manimlib/shaders/surface/vert.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62303847997e789291496f0f329f44f369cd34d8",
+      "size": 362,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/62303847997e789291496f0f329f44f369cd34d8"
+    },
+    {
+      "path": "manimlib/shaders/textured_surface",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9bc3bf3318d067eeb8b96e9a1cc92309f4a33586",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/9bc3bf3318d067eeb8b96e9a1cc92309f4a33586"
+    },
+    {
+      "path": "manimlib/shaders/textured_surface/frag.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de859c16796a9b3c2f2271531c44d4d7411e3834",
+      "size": 810,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/de859c16796a9b3c2f2271531c44d4d7411e3834"
+    },
+    {
+      "path": "manimlib/shaders/textured_surface/vert.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91e69b9bbb2a7afa21593c7f19f545ff6ad53390",
+      "size": 488,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/91e69b9bbb2a7afa21593c7f19f545ff6ad53390"
+    },
+    {
+      "path": "manimlib/shaders/true_dot",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5ca29069c8b5088f48a6a2a7cb03402a6915ada3",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/5ca29069c8b5088f48a6a2a7cb03402a6915ada3"
+    },
+    {
+      "path": "manimlib/shaders/true_dot/frag.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f6bf251b929a982d2d3af6f5335ab05b0f68aa7",
+      "size": 758,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/6f6bf251b929a982d2d3af6f5335ab05b0f68aa7"
+    },
+    {
+      "path": "manimlib/shaders/true_dot/geom.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af7b36b2e1052e1bff53c7c353eaa98a9d33a8e5",
+      "size": 1023,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/af7b36b2e1052e1bff53c7c353eaa98a9d33a8e5"
+    },
+    {
+      "path": "manimlib/shaders/true_dot/vert.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55658063a777f5c322cb7339c8ff66b8a096c4fa",
+      "size": 195,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/55658063a777f5c322cb7339c8ff66b8a096c4fa"
+    },
+    {
+      "path": "manimlib/tex_templates.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "301ad7d4109d2b3e1193713c8a204e5a16d3294f",
+      "size": 19573,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/301ad7d4109d2b3e1193713c8a204e5a16d3294f"
+    },
+    {
+      "path": "manimlib/typing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d51a5b54ed7b1a508adb5cca8ee090d68eb1f5d",
+      "size": 1694,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/9d51a5b54ed7b1a508adb5cca8ee090d68eb1f5d"
+    },
+    {
+      "path": "manimlib/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ca9f6922c6c256fd676d5185e0b5d9b2c500149a",
+      "url": "https://api.github.com/repos/3b1b/manim/git/trees/ca9f6922c6c256fd676d5185e0b5d9b2c500149a"
+    },
+    {
+      "path": "manimlib/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "manimlib/utils/bezier.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a701f67554143ebd4af1e70cd75a4f58626b6a7d",
+      "size": 13063,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/a701f67554143ebd4af1e70cd75a4f58626b6a7d"
+    },
+    {
+      "path": "manimlib/utils/cache.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6454057370fe3d7cfc6a2e194f538909b18d161",
+      "size": 798,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/e6454057370fe3d7cfc6a2e194f538909b18d161"
+    },
+    {
+      "path": "manimlib/utils/color.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6106e4ff60fd548b726f845dadc3d71cdcb5f637",
+      "size": 5483,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/6106e4ff60fd548b726f845dadc3d71cdcb5f637"
+    },
+    {
+      "path": "manimlib/utils/debug.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3e5ce990d9c686bd21804f4e81e97217d7f33a8",
+      "size": 887,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/f3e5ce990d9c686bd21804f4e81e97217d7f33a8"
+    },
+    {
+      "path": "manimlib/utils/dict_ops.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa0a68a911b6aacaf97f639bcabb0e2b382b7815",
+      "size": 699,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/aa0a68a911b6aacaf97f639bcabb0e2b382b7815"
+    },
+    {
+      "path": "manimlib/utils/directories.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c67e00b8a713136f67da281d4d7d74b383684c11",
+      "size": 1131,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/c67e00b8a713136f67da281d4d7d74b383684c11"
+    },
+    {
+      "path": "manimlib/utils/family_ops.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d494ae2b09ed61e23f0d10f101bf130ded7cdddd",
+      "size": 1468,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/d494ae2b09ed61e23f0d10f101bf130ded7cdddd"
+    },
+    {
+      "path": "manimlib/utils/file_ops.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9a27421bbe4282e588404da2c3aa2b49a8a01e6",
+      "size": 1658,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/f9a27421bbe4282e588404da2c3aa2b49a8a01e6"
+    },
+    {
+      "path": "manimlib/utils/images.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "800bb68599ec16142153fa567256e9668f29b274",
+      "size": 1180,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/800bb68599ec16142153fa567256e9668f29b274"
+    },
+    {
+      "path": "manimlib/utils/iterables.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "854067cb6281b86d93139e2a9ead5bb558a84978",
+      "size": 4766,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/854067cb6281b86d93139e2a9ead5bb558a84978"
+    },
+    {
+      "path": "manimlib/utils/paths.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "414b4a554c21833400154d836b135045f6a343a4",
+      "size": 2813,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/414b4a554c21833400154d836b135045f6a343a4"
+    },
+    {
+      "path": "manimlib/utils/rate_functions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "672e5f30beeaeba9696658d0dd10fcef6525264a",
+      "size": 2675,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/672e5f30beeaeba9696658d0dd10fcef6525264a"
+    },
+    {
+      "path": "manimlib/utils/shaders.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "264c37fe2e15866c8d1df529e4ecc401a61e2e06",
+      "size": 3086,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/264c37fe2e15866c8d1df529e4ecc401a61e2e06"
+    },
+    {
+      "path": "manimlib/utils/simple_functions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3336ee68dc7c2abbfacf4c723280d9c44075c8c0",
+      "size": 2389,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/3336ee68dc7c2abbfacf4c723280d9c44075c8c0"
+    },
+    {
+      "path": "manimlib/utils/sounds.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0ddc8f342c9c4212725bb927681e6351441adc5",
+      "size": 1130,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/c0ddc8f342c9c4212725bb927681e6351441adc5"
+    },
+    {
+      "path": "manimlib/utils/space_ops.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74a522256b726ece52d52ac38633325a8d017d70",
+      "size": 13781,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/74a522256b726ece52d52ac38633325a8d017d70"
+    },
+    {
+      "path": "manimlib/utils/tex.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88b7a8e42d79316077799b57bac89c06f76252d5",
+      "size": 1353,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/88b7a8e42d79316077799b57bac89c06f76252d5"
+    },
+    {
+      "path": "manimlib/utils/tex_file_writing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c85564e2e68f33a62120e722c2b8c83e0998336",
+      "size": 4351,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/6c85564e2e68f33a62120e722c2b8c83e0998336"
+    },
+    {
+      "path": "manimlib/utils/tex_to_symbol_count.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00cca5f31e6eb3108c619202df3dd8724a1a3512",
+      "size": 3563,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/00cca5f31e6eb3108c619202df3dd8724a1a3512"
+    },
+    {
+      "path": "manimlib/window.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad2a92d3ee21a4af71abc773734b1f76d953d83f",
+      "size": 8345,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/ad2a92d3ee21a4af71abc773734b1f76d953d83f"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9538153fde09bb712f1a2d9f97232c06d346e3d",
+      "size": 49,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/c9538153fde09bb712f1a2d9f97232c06d346e3d"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be161a7a95cc66274a0e683cc62e918941f23259",
+      "size": 378,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/be161a7a95cc66274a0e683cc62e918941f23259"
+    },
+    {
+      "path": "setup.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5adbee3cecbc6513c7f5ba48be1ea26c06928b72",
+      "size": 1604,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/5adbee3cecbc6513c7f5ba48be1ea26c06928b72"
+    },
+    {
+      "path": "setup.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "864b617c60c20a643114f3851fa2ba1739a17b26",
+      "size": 36,
+      "url": "https://api.github.com/repos/3b1b/manim/git/blobs/864b617c60c20a643114f3851fa2ba1739a17b26"
+    }
+  ],
+  "truncated": false
+}

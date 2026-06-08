@@ -1,0 +1,307 @@
+﻿{
+    "schema_version":  1,
+    "harvested_at":  "2026-06-08T17:07:23.2893743+03:00",
+    "repository":  "denoland/deno",
+    "rank":  98,
+    "source_contract":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\098-denoland-deno\\repo-contract.json",
+    "readme_snapshot":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\098-denoland-deno\\README.snapshot.md",
+    "tree_snapshot":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\098-denoland-deno\\tree.snapshot.json",
+    "status":  "contract_content_harvested_not_executable",
+    "promotion_state":  "blocked",
+    "readiness_state":  "selected_public_contract_content_harvested",
+    "policy":  "Exact small public GitHub blob contents only; no cloning, no repository execution, no executable QaaS promotion.",
+    "max_file_bytes":  65536,
+    "fetched_files":  [
+                          {
+                              "source_path":  "README.md",
+                              "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\README.md",
+                              "sha":  "19337c3d02ae6dca5790a9f40ecba1e77ad15143",
+                              "git_blob_sha_verified":  true,
+                              "content_sha256":  "f2f46e9ea7c142ded604a46de3d5524e49c9a04580358a35b737b2ca1e11a1cc",
+                              "size":  3797,
+                              "fetched_size":  3797,
+                              "reason":  "canonical-readme-contract",
+                              "github_blob_url":  "https://api.github.com/repos/denoland/deno/git/blobs/19337c3d02ae6dca5790a9f40ecba1e77ad15143"
+                          },
+                          {
+                              "source_path":  "cli/schemas/permission-audit.v1.json",
+                              "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\cli\\schemas\\permission-audit.v1.json",
+                              "sha":  "b9a6486f7e2ae7f6797d681e494eec8c1fdcc60e",
+                              "git_blob_sha_verified":  true,
+                              "content_sha256":  "d9333c2eaff51c88390ea463f34f218cbc105cb924036595ecf814c81f85088b",
+                              "size":  1189,
+                              "fetched_size":  1189,
+                              "reason":  "public-schema-contract",
+                              "github_blob_url":  "https://api.github.com/repos/denoland/deno/git/blobs/b9a6486f7e2ae7f6797d681e494eec8c1fdcc60e"
+                          },
+                          {
+                              "source_path":  "cli/schemas/config-file.v1.json",
+                              "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\cli\\schemas\\config-file.v1.json",
+                              "sha":  "73b1ba488cdece9e417862aad269f0a1f6c369ca",
+                              "git_blob_sha_verified":  true,
+                              "content_sha256":  "8e061b6de4d092c3e9b2f9522a5dcb7290dd2f6748cb652b047fd1bfc74831f5",
+                              "size":  46769,
+                              "fetched_size":  46769,
+                              "reason":  "api-contract-match",
+                              "github_blob_url":  "https://api.github.com/repos/denoland/deno/git/blobs/73b1ba488cdece9e417862aad269f0a1f6c369ca"
+                          },
+                          {
+                              "source_path":  "cli/schemas/kv-metadata-exchange-response.v1.json",
+                              "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\cli\\schemas\\kv-metadata-exchange-response.v1.json",
+                              "sha":  "7cac5b4f86d6dfa05982b38bed0791c9eda37ce1",
+                              "git_blob_sha_verified":  true,
+                              "content_sha256":  "14f33cb6b0dba75bbe589c152a42bd8125437832ff1ea762cdf06c0adb1774ca",
+                              "size":  1381,
+                              "fetched_size":  1381,
+                              "reason":  "api-contract-match",
+                              "github_blob_url":  "https://api.github.com/repos/denoland/deno/git/blobs/7cac5b4f86d6dfa05982b38bed0791c9eda37ce1"
+                          },
+                          {
+                              "source_path":  "cli/schemas/lint-rules.v1.json",
+                              "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\cli\\schemas\\lint-rules.v1.json",
+                              "sha":  "7e565ae0e90783f48fe570723bcab9d5fe829d86",
+                              "git_blob_sha_verified":  true,
+                              "content_sha256":  "812bed720112cd09434037f91f41f147bca8d869b4f1d30eef5545933539221d",
+                              "size":  3916,
+                              "fetched_size":  3916,
+                              "reason":  "api-contract-match",
+                              "github_blob_url":  "https://api.github.com/repos/denoland/deno/git/blobs/7e565ae0e90783f48fe570723bcab9d5fe829d86"
+                          },
+                          {
+                              "source_path":  ".devcontainer/Dockerfile",
+                              "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\.devcontainer\\Dockerfile",
+                              "sha":  "6cd22a14cc2e32a22cfe0cf1191269bc327e9d4d",
+                              "git_blob_sha_verified":  true,
+                              "content_sha256":  "39d6b7dd974fb48ea1c2f7fb5b0a42efa2ebed5178f1ea5cf358b8f06b67e12f",
+                              "size":  257,
+                              "fetched_size":  257,
+                              "reason":  "container-contract-match",
+                              "github_blob_url":  "https://api.github.com/repos/denoland/deno/git/blobs/6cd22a14cc2e32a22cfe0cf1191269bc327e9d4d"
+                          },
+                          {
+                              "source_path":  ".github/workflows/cargo_publish.generated.yml",
+                              "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\.github\\workflows\\cargo_publish.generated.yml",
+                              "sha":  "cb082d89dd109d4932ad81b2fcdb014f5a6d6aff",
+                              "git_blob_sha_verified":  true,
+                              "content_sha256":  "703916dae76a8c8986cff04c0daa8c7d8fe9dd84f4f7792f11f1aed16dc8b277",
+                              "size":  1746,
+                              "fetched_size":  1746,
+                              "reason":  "ci-runtime-command-contract",
+                              "github_blob_url":  "https://api.github.com/repos/denoland/deno/git/blobs/cb082d89dd109d4932ad81b2fcdb014f5a6d6aff"
+                          },
+                          {
+                              "source_path":  ".github/workflows/cargo_publish.ts",
+                              "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\.github\\workflows\\cargo_publish.ts",
+                              "sha":  "ce8d94daa41e67adba78ca919dd5e241c29a8e0c",
+                              "git_blob_sha_verified":  true,
+                              "content_sha256":  "18d568120438c462efe85aeab608bf8408562d686f3d32f8fbb804072e191683",
+                              "size":  2249,
+                              "fetched_size":  2249,
+                              "reason":  "ci-runtime-command-contract",
+                              "github_blob_url":  "https://api.github.com/repos/denoland/deno/git/blobs/ce8d94daa41e67adba78ca919dd5e241c29a8e0c"
+                          }
+                      ],
+    "selected_public_contracts":  [
+                                      {
+                                          "source_path":  "README.md",
+                                          "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\README.md",
+                                          "sha":  "19337c3d02ae6dca5790a9f40ecba1e77ad15143",
+                                          "git_blob_sha_verified":  true,
+                                          "content_sha256":  "f2f46e9ea7c142ded604a46de3d5524e49c9a04580358a35b737b2ca1e11a1cc",
+                                          "size":  3797,
+                                          "fetched_size":  3797,
+                                          "reason":  "canonical-readme-contract",
+                                          "github_blob_url":  "https://api.github.com/repos/denoland/deno/git/blobs/19337c3d02ae6dca5790a9f40ecba1e77ad15143"
+                                      },
+                                      {
+                                          "source_path":  "cli/schemas/permission-audit.v1.json",
+                                          "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\cli\\schemas\\permission-audit.v1.json",
+                                          "sha":  "b9a6486f7e2ae7f6797d681e494eec8c1fdcc60e",
+                                          "git_blob_sha_verified":  true,
+                                          "content_sha256":  "d9333c2eaff51c88390ea463f34f218cbc105cb924036595ecf814c81f85088b",
+                                          "size":  1189,
+                                          "fetched_size":  1189,
+                                          "reason":  "public-schema-contract",
+                                          "github_blob_url":  "https://api.github.com/repos/denoland/deno/git/blobs/b9a6486f7e2ae7f6797d681e494eec8c1fdcc60e"
+                                      },
+                                      {
+                                          "source_path":  "cli/schemas/config-file.v1.json",
+                                          "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\cli\\schemas\\config-file.v1.json",
+                                          "sha":  "73b1ba488cdece9e417862aad269f0a1f6c369ca",
+                                          "git_blob_sha_verified":  true,
+                                          "content_sha256":  "8e061b6de4d092c3e9b2f9522a5dcb7290dd2f6748cb652b047fd1bfc74831f5",
+                                          "size":  46769,
+                                          "fetched_size":  46769,
+                                          "reason":  "api-contract-match",
+                                          "github_blob_url":  "https://api.github.com/repos/denoland/deno/git/blobs/73b1ba488cdece9e417862aad269f0a1f6c369ca"
+                                      },
+                                      {
+                                          "source_path":  "cli/schemas/kv-metadata-exchange-response.v1.json",
+                                          "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\cli\\schemas\\kv-metadata-exchange-response.v1.json",
+                                          "sha":  "7cac5b4f86d6dfa05982b38bed0791c9eda37ce1",
+                                          "git_blob_sha_verified":  true,
+                                          "content_sha256":  "14f33cb6b0dba75bbe589c152a42bd8125437832ff1ea762cdf06c0adb1774ca",
+                                          "size":  1381,
+                                          "fetched_size":  1381,
+                                          "reason":  "api-contract-match",
+                                          "github_blob_url":  "https://api.github.com/repos/denoland/deno/git/blobs/7cac5b4f86d6dfa05982b38bed0791c9eda37ce1"
+                                      },
+                                      {
+                                          "source_path":  "cli/schemas/lint-rules.v1.json",
+                                          "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\cli\\schemas\\lint-rules.v1.json",
+                                          "sha":  "7e565ae0e90783f48fe570723bcab9d5fe829d86",
+                                          "git_blob_sha_verified":  true,
+                                          "content_sha256":  "812bed720112cd09434037f91f41f147bca8d869b4f1d30eef5545933539221d",
+                                          "size":  3916,
+                                          "fetched_size":  3916,
+                                          "reason":  "api-contract-match",
+                                          "github_blob_url":  "https://api.github.com/repos/denoland/deno/git/blobs/7e565ae0e90783f48fe570723bcab9d5fe829d86"
+                                      },
+                                      {
+                                          "source_path":  ".devcontainer/Dockerfile",
+                                          "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\.devcontainer\\Dockerfile",
+                                          "sha":  "6cd22a14cc2e32a22cfe0cf1191269bc327e9d4d",
+                                          "git_blob_sha_verified":  true,
+                                          "content_sha256":  "39d6b7dd974fb48ea1c2f7fb5b0a42efa2ebed5178f1ea5cf358b8f06b67e12f",
+                                          "size":  257,
+                                          "fetched_size":  257,
+                                          "reason":  "container-contract-match",
+                                          "github_blob_url":  "https://api.github.com/repos/denoland/deno/git/blobs/6cd22a14cc2e32a22cfe0cf1191269bc327e9d4d"
+                                      },
+                                      {
+                                          "source_path":  ".github/workflows/cargo_publish.generated.yml",
+                                          "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\.github\\workflows\\cargo_publish.generated.yml",
+                                          "sha":  "cb082d89dd109d4932ad81b2fcdb014f5a6d6aff",
+                                          "git_blob_sha_verified":  true,
+                                          "content_sha256":  "703916dae76a8c8986cff04c0daa8c7d8fe9dd84f4f7792f11f1aed16dc8b277",
+                                          "size":  1746,
+                                          "fetched_size":  1746,
+                                          "reason":  "ci-runtime-command-contract",
+                                          "github_blob_url":  "https://api.github.com/repos/denoland/deno/git/blobs/cb082d89dd109d4932ad81b2fcdb014f5a6d6aff"
+                                      },
+                                      {
+                                          "source_path":  ".github/workflows/cargo_publish.ts",
+                                          "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\.github\\workflows\\cargo_publish.ts",
+                                          "sha":  "ce8d94daa41e67adba78ca919dd5e241c29a8e0c",
+                                          "git_blob_sha_verified":  true,
+                                          "content_sha256":  "18d568120438c462efe85aeab608bf8408562d686f3d32f8fbb804072e191683",
+                                          "size":  2249,
+                                          "fetched_size":  2249,
+                                          "reason":  "ci-runtime-command-contract",
+                                          "github_blob_url":  "https://api.github.com/repos/denoland/deno/git/blobs/ce8d94daa41e67adba78ca919dd5e241c29a8e0c"
+                                      }
+                                  ],
+    "skipped_files":  [
+                          {
+                              "source_path":  "schema.json",
+                              "reason":  "path_not_found_in_tree_snapshot"
+                          },
+                          {
+                              "source_path":  "fixtures/db.json",
+                              "reason":  "path_not_found_in_tree_snapshot"
+                          },
+                          {
+                              "source_path":  "go.mod",
+                              "reason":  "path_not_found_in_tree_snapshot"
+                          },
+                          {
+                              "source_path":  "package.json",
+                              "reason":  "path_not_found_in_tree_snapshot"
+                          },
+                          {
+                              "source_path":  "pyproject.toml",
+                              "reason":  "path_not_found_in_tree_snapshot"
+                          },
+                          {
+                              "source_path":  "Dockerfile",
+                              "reason":  "path_not_found_in_tree_snapshot"
+                          },
+                          {
+                              "source_path":  "docker-compose.yml",
+                              "reason":  "path_not_found_in_tree_snapshot"
+                          }
+                      ],
+    "evidence_markers":  [
+                             {
+                                 "marker_id":  "runtime-url-localhost-8000",
+                                 "value":  "http://localhost:8000",
+                                 "supports":  "runtime-contract",
+                                 "evidence":  "README.snapshot.md"
+                             },
+                             {
+                                 "marker_id":  "deno-run-command",
+                                 "value":  "deno run --allow-net server.ts",
+                                 "supports":  "candidate-executable-command",
+                                 "evidence":  "README.snapshot.md"
+                             },
+                             {
+                                 "marker_id":  "deno-serve-example",
+                                 "value":  "Deno.serve",
+                                 "supports":  "runtime-contract",
+                                 "evidence":  "README.snapshot.md"
+                             },
+                             {
+                                 "marker_id":  "deno-server-ts-fixture",
+                                 "value":  "server.ts",
+                                 "supports":  "runtime-contract",
+                                 "evidence":  "README.snapshot.md"
+                             },
+                             {
+                                 "marker_id":  "deno-root-hello-world",
+                                 "value":  "Hello, world!",
+                                 "supports":  "input-output-contract",
+                                 "evidence":  "README.snapshot.md"
+                             }
+                         ],
+    "candidate_promotion_contracts":  [
+                                          {
+                                              "supports":  "runtime-contract",
+                                              "status":  "candidate_evidence_harvested",
+                                              "evidence_markers":  [
+                                                                       "runtime-url-localhost-8000",
+                                                                       "deno-serve-example",
+                                                                       "deno-server-ts-fixture"
+                                                                   ]
+                                          },
+                                          {
+                                              "supports":  "candidate-executable-command",
+                                              "status":  "candidate_evidence_harvested",
+                                              "evidence_markers":  [
+                                                                       "deno-run-command"
+                                                                   ]
+                                          },
+                                          {
+                                              "supports":  "input-output-contract",
+                                              "status":  "candidate_evidence_harvested",
+                                              "evidence_markers":  [
+                                                                       "deno-root-hello-world"
+                                                                   ]
+                                          }
+                                      ],
+    "docs_evidence":  [
+                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\helloWorldHttp.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\actionSelectionPlaybook.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json"
+                      ],
+    "public_evidence":  [
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\098-denoland-deno\\repo-contract.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\098-denoland-deno\\README.snapshot.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\098-denoland-deno\\tree.snapshot.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\README.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\cli\\schemas\\permission-audit.v1.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\cli\\schemas\\config-file.v1.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\cli\\schemas\\kv-metadata-exchange-response.v1.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\cli\\schemas\\lint-rules.v1.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\.devcontainer\\Dockerfile",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\.github\\workflows\\cargo_publish.generated.yml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\.github\\workflows\\cargo_publish.ts"
+                        ],
+    "remaining_blockers":  [
+                               "generate_candidate_runner_yaml_from_exact_public_contract",
+                               "prove_process_lifecycle_and_cleanup_without assuming private source",
+                               "run_qaaS_template_validation",
+                               "run_live_qaaS_act_assert_validation",
+                               "run_live_airgapped_weak_model_validation",
+                               "run_strong_review_against_selected_contract_evidence"
+                           ]
+}

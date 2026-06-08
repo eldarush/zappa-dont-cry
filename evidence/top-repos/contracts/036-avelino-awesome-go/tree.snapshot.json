@@ -1,0 +1,857 @@
+{
+  "sha": "d38cf133ede90bc78d7c1e1334be3b9704ba41d9",
+  "url": "https://api.github.com/repos/avelino/awesome-go/git/trees/d38cf133ede90bc78d7c1e1334be3b9704ba41d9",
+  "tree": [
+    {
+      "path": ".codeclimate.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74753d80929ad327ff758ea3684721f5fab23126",
+      "size": 199,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/74753d80929ad327ff758ea3684721f5fab23126"
+    },
+    {
+      "path": ".cursorrules",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "47dc3e3d863cfb5727b87d785d09abf9743c0a72",
+      "size": 9,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/47dc3e3d863cfb5727b87d785d09abf9743c0a72"
+    },
+    {
+      "path": ".dockerignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b8710a711f3b689885aa5c26c6c06bde348e82b",
+      "size": 5,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/6b8710a711f3b689885aa5c26c6c06bde348e82b"
+    },
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9b66bb9af7fa3f33e15a1318ca83e21172e8a05",
+      "size": 104,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/b9b66bb9af7fa3f33e15a1318ca83e21172e8a05"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "97fdf2da96fc1f4cdd976b17e82adb7d78798a99",
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/trees/97fdf2da96fc1f4cdd976b17e82adb7d78798a99"
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "534a9a101e695065022603a668378eaa2d669e7a",
+      "size": 16,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/534a9a101e695065022603a668378eaa2d669e7a"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "49aeeb1c546e8eb863135fdc6ace8388e2461d4f",
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/trees/49aeeb1c546e8eb863135fdc6ace8388e2461d4f"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69c606f17f590278342b88508dac344fbf60972e",
+      "size": 1192,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/69c606f17f590278342b88508dac344fbf60972e"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e6d5851df579d459919592f357edda628e75177",
+      "size": 307,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/1e6d5851df579d459919592f357edda628e75177"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5404a0c0e9e233b59284ec44a83b8999b4081975",
+      "size": 2283,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/5404a0c0e9e233b59284ec44a83b8999b4081975"
+    },
+    {
+      "path": ".github/copilot-instructions.md",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "47dc3e3d863cfb5727b87d785d09abf9743c0a72",
+      "size": 9,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/47dc3e3d863cfb5727b87d785d09abf9743c0a72"
+    },
+    {
+      "path": ".github/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ab39233d661bee566a6c2f71f04bd0c1a98be1ea",
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/trees/ab39233d661bee566a6c2f71f04bd0c1a98be1ea"
+    },
+    {
+      "path": ".github/scripts/check-pr-diff",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7805b6595ba28f51af877c1eb21a6a0e4ace4262",
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/trees/7805b6595ba28f51af877c1eb21a6a0e4ace4262"
+    },
+    {
+      "path": ".github/scripts/check-pr-diff/main.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "414a1a24d2df71d36be1ba244a3d5c8ea26c3ac0",
+      "size": 12276,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/414a1a24d2df71d36be1ba244a3d5c8ea26c3ac0"
+    },
+    {
+      "path": ".github/scripts/check-quality",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "98767522a8ee45ce1f0c352b953954e400498df1",
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/trees/98767522a8ee45ce1f0c352b953954e400498df1"
+    },
+    {
+      "path": ".github/scripts/check-quality/main.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62ccfa7281f2e1cfcf0d27d11c0e33ef7e43267f",
+      "size": 16731,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/62ccfa7281f2e1cfcf0d27d11c0e33ef7e43267f"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "12113d8f645757d0f33a5fc41dee3db80839d22c",
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/trees/12113d8f645757d0f33a5fc41dee3db80839d22c"
+    },
+    {
+      "path": ".github/workflows/check-for-spammy-issues.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50c87f5d73d3565aeecff421bf16e4c7eca03eb3",
+      "size": 332,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/50c87f5d73d3565aeecff421bf16e4c7eca03eb3"
+    },
+    {
+      "path": ".github/workflows/pr-quality-check.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b29938d779df04879bd0f1925a22bdfcedbc149",
+      "size": 4995,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/3b29938d779df04879bd0f1925a22bdfcedbc149"
+    },
+    {
+      "path": ".github/workflows/recheck-open-prs.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f4f330ec7dfd8468c84c89b4696893c2600af37",
+      "size": 1727,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/8f4f330ec7dfd8468c84c89b4696893c2600af37"
+    },
+    {
+      "path": ".github/workflows/run-check.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9f99732010fe2c3b6d164e4af8a7878a55cb765",
+      "size": 493,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/a9f99732010fe2c3b6d164e4af8a7878a55cb765"
+    },
+    {
+      "path": ".github/workflows/site-deploy.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce2172fe1b2763a69bbd9fdc2dfc15114537acf7",
+      "size": 1356,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/ce2172fe1b2763a69bbd9fdc2dfc15114537acf7"
+    },
+    {
+      "path": ".github/workflows/tests.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d7843c3692181a7b0b7af8b279785cc8b387f3f",
+      "size": 400,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/7d7843c3692181a7b0b7af8b279785cc8b387f3f"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "815c6b1b724a48f290d574e4068829a0286f50fa",
+      "size": 123,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/815c6b1b724a48f290d574e4068829a0286f50fa"
+    },
+    {
+      "path": "AGENTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49f07baeb02a3ad8f3895342d62039907d72d841",
+      "size": 2834,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/49f07baeb02a3ad8f3895342d62039907d72d841"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b85b915e7200ff721192348df6572581f8390b9",
+      "size": 5529,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/5b85b915e7200ff721192348df6572581f8390b9"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85d4681b11c71ee2d66b36879f07243bcc7acc21",
+      "size": 15206,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/85d4681b11c71ee2d66b36879f07243bcc7acc21"
+    },
+    {
+      "path": "COVERAGE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfba16a3d5bc23e0728715f9517f0276b8ebecb9",
+      "size": 2117,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/dfba16a3d5bc23e0728715f9517f0276b8ebecb9"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35eab442fffee55b945fc09dbc2105fb717594a4",
+      "size": 1080,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/35eab442fffee55b945fc09dbc2105fb717594a4"
+    },
+    {
+      "path": "MAINTAINERS",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "717cf09d04c90f729cdf2972565d11a51d9148f3",
+      "size": 706,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/717cf09d04c90f729cdf2972565d11a51d9148f3"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69c0369f0df117b595139656e39832c3a3bb7125",
+      "size": 392939,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/69c0369f0df117b595139656e39832c3a3bb7125"
+    },
+    {
+      "path": "SECURITY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d1830c3a53f7d0bf4b3b757443732e9d61beedf",
+      "size": 1147,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/3d1830c3a53f7d0bf4b3b757443732e9d61beedf"
+    },
+    {
+      "path": "go.mod",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a842fdbf9b49d1ad66a0902d66c2a6f44d827613",
+      "size": 497,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/a842fdbf9b49d1ad66a0902d66c2a6f44d827613"
+    },
+    {
+      "path": "go.sum",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d31040cedfe3d098f2b411b6ee20ed47d9c65de6",
+      "size": 5000,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/d31040cedfe3d098f2b411b6ee20ed47d9c65de6"
+    },
+    {
+      "path": "main.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77ad9bc3ed850e00e0a8ef4d5ef2d0a8e5f8921e",
+      "size": 18682,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/77ad9bc3ed850e00e0a8ef4d5ef2d0a8e5f8921e"
+    },
+    {
+      "path": "main_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d59d22a24304fe36f783bc94b7cef04175a5ad6",
+      "size": 3448,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/3d59d22a24304fe36f783bc94b7cef04175a5ad6"
+    },
+    {
+      "path": "maturity_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60f075484c003885f9a3dd3035e7c22591705e7f",
+      "size": 2096,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/60f075484c003885f9a3dd3035e7c22591705e7f"
+    },
+    {
+      "path": "netlify.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a87f9546ec07a1bad7e38b4e984031afac296d7",
+      "size": 1516,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/8a87f9546ec07a1bad7e38b4e984031afac296d7"
+    },
+    {
+      "path": "pkg",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d88fc28052606f6465fea5413879e4644c3f2d2e",
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/trees/d88fc28052606f6465fea5413879e4644c3f2d2e"
+    },
+    {
+      "path": "pkg/markdown",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "920f6db41901861f789f6e20ce1bf6ce67829346",
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/trees/920f6db41901861f789f6e20ce1bf6ce67829346"
+    },
+    {
+      "path": "pkg/markdown/convert.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31a77e5e50858688877be3138ffe1e5a7f95d6f9",
+      "size": 1342,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/31a77e5e50858688877be3138ffe1e5a7f95d6f9"
+    },
+    {
+      "path": "pkg/markdown/convert_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f2c58c25bc1d24055bcd2206c12ca880cc2223c",
+      "size": 1296,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/9f2c58c25bc1d24055bcd2206c12ca880cc2223c"
+    },
+    {
+      "path": "pkg/slug",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "052d0b2b9f4c2c7919398d168c8b678c437daf15",
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/trees/052d0b2b9f4c2c7919398d168c8b678c437daf15"
+    },
+    {
+      "path": "pkg/slug/generator.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2f79403c84ce9cf8636b87bf0ebc3b5f62ccf6f",
+      "size": 326,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/d2f79403c84ce9cf8636b87bf0ebc3b5f62ccf6f"
+    },
+    {
+      "path": "pkg/slug/generator_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "680ee332828904690be6aab0aa55098ef0a6d20b",
+      "size": 882,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/680ee332828904690be6aab0aa55098ef0a6d20b"
+    },
+    {
+      "path": "stale_repositories_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44e4699765d7afe7b65c9edd71ea35c2ff40a557",
+      "size": 8235,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/44e4699765d7afe7b65c9edd71ea35c2ff40a557"
+    },
+    {
+      "path": "tmpl",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5588b682581973219cc05d20290b4b96445fcad8",
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/trees/5588b682581973219cc05d20290b4b96445fcad8"
+    },
+    {
+      "path": "tmpl/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "40583dfd23273a85ca7620c28c03c819df91696a",
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/trees/40583dfd23273a85ca7620c28c03c819df91696a"
+    },
+    {
+      "path": "tmpl/assets/awesome-go.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cdb3a1dce684801d64467e0bfc3cf0857b34190",
+      "size": 22468,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/2cdb3a1dce684801d64467e0bfc3cf0857b34190"
+    },
+    {
+      "path": "tmpl/assets/favicon",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0cbb7016e476587f2cb135c4568e791e30b6f2ef",
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/trees/0cbb7016e476587f2cb135c4568e791e30b6f2ef"
+    },
+    {
+      "path": "tmpl/assets/favicon/android-chrome-192x192.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9596cfcbc6b28695e0eda35785df34d21e8b0e15",
+      "size": 39436,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/9596cfcbc6b28695e0eda35785df34d21e8b0e15"
+    },
+    {
+      "path": "tmpl/assets/favicon/android-chrome-512x512.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84fe314b29a01f3f1b6f8e67a894f135beb21af3",
+      "size": 175483,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/84fe314b29a01f3f1b6f8e67a894f135beb21af3"
+    },
+    {
+      "path": "tmpl/assets/favicon/apple-touch-icon.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18c182f40d5a561b3c6551b8021e62cdd5992cd1",
+      "size": 35655,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/18c182f40d5a561b3c6551b8021e62cdd5992cd1"
+    },
+    {
+      "path": "tmpl/assets/favicon/favicon.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1eba1ab979e0fb39d5d8412882e00d8daad78a4a",
+      "size": 15406,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/1eba1ab979e0fb39d5d8412882e00d8daad78a4a"
+    },
+    {
+      "path": "tmpl/assets/favicon/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d423ac6598e40f2075e83702aae40dd44aed432",
+      "size": 382,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/2d423ac6598e40f2075e83702aae40dd44aed432"
+    },
+    {
+      "path": "tmpl/assets/fonts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9194ea353238ecbaaca9ac9930ffbc28aa9851fa",
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/trees/9194ea353238ecbaaca9ac9930ffbc28aa9851fa"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasans.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b52258d7dd3beff86f0d6ee8fcf48a5346bb9819",
+      "size": 4890,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/b52258d7dd3beff86f0d6ee8fcf48a5346bb9819"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasans.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ea949d23c094dabf64c26616527d8600a852bb9",
+      "size": 57640,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/5ea949d23c094dabf64c26616527d8600a852bb9"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasans.woff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5259871cc3b82aa61f2d6c325717e265e1ec4a87",
+      "size": 26168,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/5259871cc3b82aa61f2d6c325717e265e1ec4a87"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasans.woff2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b28d3362ca275d84b495e72c8a929ff0a5bad63b",
+      "size": 20516,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/b28d3362ca275d84b495e72c8a929ff0a5bad63b"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasansbold.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcf62411d2b33293b94c42db3e7f5fade82c888b",
+      "size": 67080,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/bcf62411d2b33293b94c42db3e7f5fade82c888b"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasansbold.woff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dae100fbe0f070e71f6bf3e1690b48ceeadf3e13",
+      "size": 28712,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/dae100fbe0f070e71f6bf3e1690b48ceeadf3e13"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasansbold.woff2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05c5da2f5074ae36071a53a72b583eed2c6d5591",
+      "size": 22592,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/05c5da2f5074ae36071a53a72b583eed2c6d5591"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasansbolditalic.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fab739eb10273196ee50295f7c96a9be88fd5b91",
+      "size": 71852,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/fab739eb10273196ee50295f7c96a9be88fd5b91"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasansbolditalic.woff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48ca8dccde9bf110283ed8277e3a1e1ad1e54a21",
+      "size": 31564,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/48ca8dccde9bf110283ed8277e3a1e1ad1e54a21"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasansbolditalic.woff2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "426dda7b106100474e0b792a464c4201b4b59ed7",
+      "size": 24892,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/426dda7b106100474e0b792a464c4201b4b59ed7"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasansbook.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bfe3037be139626e9d8217f04ec7869459bdee1",
+      "size": 57564,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/8bfe3037be139626e9d8217f04ec7869459bdee1"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasansbook.woff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "239780f979b52ef5aac382f1c76e3876361c2211",
+      "size": 26592,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/239780f979b52ef5aac382f1c76e3876361c2211"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasansbook.woff2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d880f927544c481bec4410c8c02d27d9d3390c2",
+      "size": 20864,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/2d880f927544c481bec4410c8c02d27d9d3390c2"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasansbookitalic.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4b76ed459c605d21329e05a0bf28c60f2505606",
+      "size": 62364,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/d4b76ed459c605d21329e05a0bf28c60f2505606"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasansbookitalic.woff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61674f3491ee2e1d4def249f26db569ca06b34bb",
+      "size": 28692,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/61674f3491ee2e1d4def249f26db569ca06b34bb"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasansbookitalic.woff2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4ddd45fbbc0bb3a0f9b5d8873309ead63393ca9",
+      "size": 22644,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/b4ddd45fbbc0bb3a0f9b5d8873309ead63393ca9"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasansextralight.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92fa7ddbe6072798fcb6759d23bc7776d28938bb",
+      "size": 56564,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/92fa7ddbe6072798fcb6759d23bc7776d28938bb"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasansextralight.woff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02f741226f927f535997c61acf9500757d558b24",
+      "size": 25708,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/02f741226f927f535997c61acf9500757d558b24"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasansextralight.woff2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e207ed3094afb14fb6e4ba85a78f98128e75a64",
+      "size": 20084,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/0e207ed3094afb14fb6e4ba85a78f98128e75a64"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasansextralightitalic.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "226bd9a5a9183c33caad9dab7e4c2d6d08182ef9",
+      "size": 60864,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/226bd9a5a9183c33caad9dab7e4c2d6d08182ef9"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasansextralightitalic.woff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbd889abf9c435f5591535a7412458798f959ce6",
+      "size": 28036,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/fbd889abf9c435f5591535a7412458798f959ce6"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasansextralightitalic.woff2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7340a406bc4bbea091c9ad4c13976626a620d97",
+      "size": 21968,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/c7340a406bc4bbea091c9ad4c13976626a620d97"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasansitalic.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa45c66c4b6b3c2e7a682a4af7bea743f5612153",
+      "size": 61996,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/aa45c66c4b6b3c2e7a682a4af7bea743f5612153"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasansitalic.woff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff5a05aacaeabe4431a7e8f5d969a7d3bd36309e",
+      "size": 28312,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/ff5a05aacaeabe4431a7e8f5d969a7d3bd36309e"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasansitalic.woff2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f86040d3a7f6286c4738c2e7a8de319098e4575e",
+      "size": 22268,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/f86040d3a7f6286c4738c2e7a8de319098e4575e"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasanslight.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c22cfa36469f98548d2ebc83d311cc090ec90eeb",
+      "size": 56048,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/c22cfa36469f98548d2ebc83d311cc090ec90eeb"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasanslight.woff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31ab37deb09ab1ac656500fefdfed63582411b6d",
+      "size": 25720,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/31ab37deb09ab1ac656500fefdfed63582411b6d"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasanslight.woff2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65fb70a793e6a2da651406cdb58cc0418a895576",
+      "size": 20128,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/65fb70a793e6a2da651406cdb58cc0418a895576"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasanslightitalic.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b442b2b32b3b2263963cf5909694420ba40ff25a",
+      "size": 60688,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/b442b2b32b3b2263963cf5909694420ba40ff25a"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasanslightitalic.woff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19a3a199189e19bffc979c68d7242787a48b8001",
+      "size": 27900,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/19a3a199189e19bffc979c68d7242787a48b8001"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasanslightitalic.woff2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "367e5b1c80b8db84d29158236f5ccc929f15594b",
+      "size": 21884,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/367e5b1c80b8db84d29158236f5ccc929f15594b"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasansmedium.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81f97072f7965dfde4f59c2d5dc99f82caae98c2",
+      "size": 57332,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/81f97072f7965dfde4f59c2d5dc99f82caae98c2"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasansmedium.woff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12b998bb7f82b771a96666cbfaa584b9c793dc9e",
+      "size": 26212,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/12b998bb7f82b771a96666cbfaa584b9c793dc9e"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasansmedium.woff2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e23dc487e6dbbc6579a2bc1ada871110026fc0d",
+      "size": 20604,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/4e23dc487e6dbbc6579a2bc1ada871110026fc0d"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasansmediumitalic.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1beedda552162dfdc045e91fc733d0e25d2d19ea",
+      "size": 61796,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/1beedda552162dfdc045e91fc733d0e25d2d19ea"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasansmediumitalic.woff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e694422596d0515ce1892a719f0deb261b67d44c",
+      "size": 28548,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/e694422596d0515ce1892a719f0deb261b67d44c"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasansmediumitalic.woff2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01de8266d8e519d509d9a1ffcdd9acc87ec668f6",
+      "size": 22528,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/01de8266d8e519d509d9a1ffcdd9acc87ec668f6"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasanssemibold.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69a4be5aa0e867841d38011e09d7abbb10848696",
+      "size": 67644,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/69a4be5aa0e867841d38011e09d7abbb10848696"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasanssemibold.woff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe733039f04773c8ce535983dd33377ba478998c",
+      "size": 28728,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/fe733039f04773c8ce535983dd33377ba478998c"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasanssemibold.woff2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b828fd27545bc42da1fed742eb5dfbf457672ee8",
+      "size": 22472,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/b828fd27545bc42da1fed742eb5dfbf457672ee8"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasanssemibolditalic.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd5c7eee85eb61bb036697c70d412391fd5c493b",
+      "size": 72096,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/dd5c7eee85eb61bb036697c70d412391fd5c493b"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasanssemibolditalic.woff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bbb771b7097499cc24ca9e4fa653f733a764d3e",
+      "size": 31568,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/9bbb771b7097499cc24ca9e4fa653f733a764d3e"
+    },
+    {
+      "path": "tmpl/assets/fonts/firasanssemibolditalic.woff2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc18c3237d47154052285e29d74472396020b771",
+      "size": 24876,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/dc18c3237d47154052285e29d74472396020b771"
+    },
+    {
+      "path": "tmpl/assets/logo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "982d648913b92f6c1c6527c0810b599cb8f91c80",
+      "size": 42123,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/982d648913b92f6c1c6527c0810b599cb8f91c80"
+    },
+    {
+      "path": "tmpl/assets/normalize.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08f895079efffa6e7e8fa4005930f812a53c3fbe",
+      "size": 7783,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/08f895079efffa6e7e8fa4005930f812a53c3fbe"
+    },
+    {
+      "path": "tmpl/assets/sponsors",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9df20313b98c04ae78ccdba1ac23f6a3ff028de3",
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/trees/9df20313b98c04ae78ccdba1ac23f6a3ff028de3"
+    },
+    {
+      "path": "tmpl/assets/sponsors/doppler.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0ada11835521cd8200f86107448246f97aff7b2",
+      "size": 42339,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/a0ada11835521cd8200f86107448246f97aff7b2"
+    },
+    {
+      "path": "tmpl/category-index.tmpl.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27dfc1dbfe9222ce6169c7b25ccd25d809367d3c",
+      "size": 6019,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/27dfc1dbfe9222ce6169c7b25ccd25d809367d3c"
+    },
+    {
+      "path": "tmpl/index.tmpl.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c044acb91ab5b898ad291115d9fb456ff93aa44d",
+      "size": 5002,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/c044acb91ab5b898ad291115d9fb456ff93aa44d"
+    },
+    {
+      "path": "tmpl/project.tmpl.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79162ffde85989b5775d485231189e7624f596b3",
+      "size": 9006,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/79162ffde85989b5775d485231189e7624f596b3"
+    },
+    {
+      "path": "tmpl/robots.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e6184cdce2b00184249021af6ac9e96351709d1",
+      "size": 68,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/7e6184cdce2b00184249021af6ac9e96351709d1"
+    },
+    {
+      "path": "tmpl/sitemap.tmpl.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a41ebe2c43d3df24a04aac5cbf4cbb146ae223c6",
+      "size": 875,
+      "url": "https://api.github.com/repos/avelino/awesome-go/git/blobs/a41ebe2c43d3df24a04aac5cbf4cbb146ae223c6"
+    }
+  ],
+  "truncated": false
+}

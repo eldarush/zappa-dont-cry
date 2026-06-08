@@ -1,0 +1,173 @@
+{
+  "sha": "a417467a2c6c4a02f7a0ef2a322a8d2c7ccb6938",
+  "url": "https://api.github.com/repos/base/node/git/trees/a417467a2c6c4a02f7a0ef2a322a8d2c7ccb6938",
+  "tree": [
+    {
+      "path": ".dockerignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "034a5c2d3a274f1927efea3bf4430e00daee1dce",
+      "size": 11,
+      "url": "https://api.github.com/repos/base/node/git/blobs/034a5c2d3a274f1927efea3bf4430e00daee1dce"
+    },
+    {
+      "path": ".env",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "060f7b4a61da016895af99dbfb56b698c7883ce4",
+      "size": 26,
+      "url": "https://api.github.com/repos/base/node/git/blobs/060f7b4a61da016895af99dbfb56b698c7883ce4"
+    },
+    {
+      "path": ".env.mainnet",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac9e52b6659655357e22b03d1edc4674bb5f7016",
+      "size": 3120,
+      "url": "https://api.github.com/repos/base/node/git/blobs/ac9e52b6659655357e22b03d1edc4674bb5f7016"
+    },
+    {
+      "path": ".env.sepolia",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e518129fbd371d88e257f4f1ca5003b30426acd3",
+      "size": 3154,
+      "url": "https://api.github.com/repos/base/node/git/blobs/e518129fbd371d88e257f4f1ca5003b30426acd3"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5a48375ba169bb5a48263780e1ac875c5020ae04",
+      "url": "https://api.github.com/repos/base/node/git/trees/5a48375ba169bb5a48263780e1ac875c5020ae04"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "65e4bd52ecfd8a71d5c6a4f2325f5dff9ab0197e",
+      "url": "https://api.github.com/repos/base/node/git/trees/65e4bd52ecfd8a71d5c6a4f2325f5dff9ab0197e"
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a3d299c1af5cf1b2d332daa93e6de587da1e016",
+      "size": 4501,
+      "url": "https://api.github.com/repos/base/node/git/blobs/7a3d299c1af5cf1b2d332daa93e6de587da1e016"
+    },
+    {
+      "path": ".github/workflows/pr.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ddfbfc4afc847c4c839a89f05a25192496361b4",
+      "size": 1270,
+      "url": "https://api.github.com/repos/base/node/git/blobs/8ddfbfc4afc847c4c839a89f05a25192496361b4"
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2cd5902534d6f909f3aab48d8768ff8bab8738d",
+      "size": 1285,
+      "url": "https://api.github.com/repos/base/node/git/blobs/f2cd5902534d6f909f3aab48d8768ff8bab8738d"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dc513860fc0ca558e73b7fa6b81928b18b06b35",
+      "size": 69,
+      "url": "https://api.github.com/repos/base/node/git/blobs/1dc513860fc0ca558e73b7fa6b81928b18b06b35"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59b2b6c8ce30c79c47b88a82ae2404f94419db5b",
+      "size": 2252,
+      "url": "https://api.github.com/repos/base/node/git/blobs/59b2b6c8ce30c79c47b88a82ae2404f94419db5b"
+    },
+    {
+      "path": "Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46fd2dfa1160612bc3a40094229668c1b7d9841f",
+      "size": 2131,
+      "url": "https://api.github.com/repos/base/node/git/blobs/46fd2dfa1160612bc3a40094229668c1b7d9841f"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de1f94d48550fa685afec797c57b979921a81baa",
+      "size": 1083,
+      "url": "https://api.github.com/repos/base/node/git/blobs/de1f94d48550fa685afec797c57b979921a81baa"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e0b6299895a7401e2ff2da0f4d33675ca457e1e",
+      "size": 3797,
+      "url": "https://api.github.com/repos/base/node/git/blobs/2e0b6299895a7401e2ff2da0f4d33675ca457e1e"
+    },
+    {
+      "path": "SECURITY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01c472c392d63cd3868e05768fce329fd6c0d239",
+      "size": 1530,
+      "url": "https://api.github.com/repos/base/node/git/blobs/01c472c392d63cd3868e05768fce329fd6c0d239"
+    },
+    {
+      "path": "consensus-entrypoint",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "05b89467a43d1e47ccfa0e6fd6cacb668eda607c",
+      "size": 1538,
+      "url": "https://api.github.com/repos/base/node/git/blobs/05b89467a43d1e47ccfa0e6fd6cacb668eda607c"
+    },
+    {
+      "path": "docker-compose.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c88064344e2e81559e2bba47a35bf450a155a41f",
+      "size": 956,
+      "url": "https://api.github.com/repos/base/node/git/blobs/c88064344e2e81559e2bba47a35bf450a155a41f"
+    },
+    {
+      "path": "execution-entrypoint",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "cea2260169e917129a76809b7bdcddb884305bef",
+      "size": 4869,
+      "url": "https://api.github.com/repos/base/node/git/blobs/cea2260169e917129a76809b7bdcddb884305bef"
+    },
+    {
+      "path": "logo.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6e1d9e093944ecc390d5aea98fb380c5487437f",
+      "size": 80630,
+      "url": "https://api.github.com/repos/base/node/git/blobs/c6e1d9e093944ecc390d5aea98fb380c5487437f"
+    },
+    {
+      "path": "supervisord.conf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77d11a461eb40779a5b4232f8f1ee9a8658f6fa4",
+      "size": 358,
+      "url": "https://api.github.com/repos/base/node/git/blobs/77d11a461eb40779a5b4232f8f1ee9a8658f6fa4"
+    },
+    {
+      "path": "versions.env",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f214a3cab30f8f153915c40966523effd116c8b",
+      "size": 163,
+      "url": "https://api.github.com/repos/base/node/git/blobs/1f214a3cab30f8f153915c40966523effd116c8b"
+    }
+  ],
+  "truncated": false
+}

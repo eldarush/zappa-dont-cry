@@ -1,0 +1,70 @@
+{
+  "harvested_at": "2026-06-07T20:49:29.4166903+03:00",
+  "rank": 176,
+  "repository": "junegunn/fzf",
+  "url": "https://github.com/junegunn/fzf",
+  "language": "Go",
+  "stars": 80940,
+  "default_branch": "master",
+  "contract_strength": "readme_plus_runtime_hints",
+  "candidate_qaas_surfaces": [
+    "containerized-runtime-smoke",
+    "ci-documented-command-discovery",
+    "go-cli-or-service-contract"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\176-junegunn-fzf\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\176-junegunn-fzf\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [],
+    "ci": [
+      ".github/workflows/codeql-analysis.yml",
+      ".github/workflows/depsreview.yaml",
+      ".github/workflows/labeler.yml",
+      ".github/workflows/linux.yml",
+      ".github/workflows/macos.yml",
+      ".github/workflows/release.yml",
+      ".github/workflows/typos.yml",
+      ".github/workflows/winget.yml"
+    ],
+    "containers": [
+      "Dockerfile"
+    ],
+    "dotnet": [],
+    "node": [],
+    "python": [],
+    "go": [
+      "go.mod",
+      "go.sum"
+    ],
+    "java": [],
+    "rust": [],
+    "docs": [
+      "CHANGELOG.md",
+      "README-VIM.md",
+      "README.md",
+      "SECURITY.md"
+    ],
+    "tests": [
+      "test/lib/common.fish",
+      "test/lib/common.rb",
+      "test/lib/common.sh",
+      "test/runner.rb",
+      "test/test_core.rb",
+      "test/test_exec.rb",
+      "test/test_filter.rb",
+      "test/test_layout.rb",
+      "test/test_preview.rb",
+      "test/test_raw.rb",
+      "test/test_server.rb",
+      "test/test_shell_integration.rb",
+      "test/vim/fzf.vader"
+    ]
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\176-junegunn-fzf\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\176-junegunn-fzf\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

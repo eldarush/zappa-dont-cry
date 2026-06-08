@@ -1,0 +1,142 @@
+{
+    "schema_version":  1,
+    "repository":  "spring-projects/spring-boot",
+    "rank":  177,
+    "status":  "candidate_runtime_plan_blocked",
+    "promotion_state":  "blocked",
+    "lifecycle_owner":  "external_harness_not_qaas_yaml",
+    "command":  "java -jar \u003cvalidated-application-jar\u003e",
+    "command_support":  "partial_public_java_jar_capability_not_runnable_candidate_command",
+    "public_command_prefix":  "java -jar",
+    "command_status":  "partial_public_prefix_only",
+    "working_directory":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\177-spring-projects-spring-boot\\app",
+    "fixture":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\177-spring-projects-spring-boot\\app\\src\\main\\java\\com\\example\\Example.java",
+    "default_http_port":  8080,
+    "root_route":  "/",
+    "expected_body":  "Hello World!",
+    "expected_listen_url":  "http://127.0.0.1:8080/",
+    "readiness_probe":  {
+                            "status":  "blocked",
+                            "method":  "GET",
+                            "url":  "http://127.0.0.1:8080/",
+                            "expected_status":  200,
+                            "expected_body":  "Hello World!",
+                            "blocked_reason":  "No generated JAR has been built or started by a tracked lifecycle harness."
+                        },
+    "dependency_version_status":  "blocked",
+    "dependency_version_source":  "not_selected_from_public_contract",
+    "jar_build_status":  "blocked",
+    "cleanup":  {
+                    "status":  "blocked",
+                    "process_family":  "java",
+                    "required_evidence":  [
+                                              "Tracked Java process id",
+                                              "Readiness probe transcript",
+                                              "Port owner before cleanup",
+                                              "Port owner after cleanup",
+                                              "No remaining tracked child processes"
+                                          ],
+                    "blocked_reason":  "Tracked Java process cleanup has not been live-validated."
+                },
+    "blockers":  [
+                     "select_exact_spring_boot_dependency_version_or_generated_app_build_file",
+                     "build_application_jar_from_selected_public_dependencies",
+                     "prove_process_lifecycle_and_cleanup_without assuming private source",
+                     "run_qaaS_template_validation",
+                     "run_live_qaaS_act_assert_validation",
+                     "run_live_airgapped_weak_model_validation",
+                     "run_strong_review_against_selected_contract_evidence"
+                 ],
+    "custom_assertion":  {
+                             "assertion_type":  "ExactHttpTextBody",
+                             "implementation":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\177-spring-projects-spring-boot\\assertion-packets\\ExactHttpTextBody\\ExactHttpTextBody.cs",
+                             "usage_snippet":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\177-spring-projects-spring-boot\\assertion-packets\\ExactHttpTextBody\\ExactHttpTextBody.usage.yaml.txt",
+                             "hook_plan":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\177-spring-projects-spring-boot\\assertion-packets\\ExactHttpTextBody\\custom-text-body-hook-plan.json",
+                             "activation":  "sidecar_only"
+                         },
+    "custom_assertion_packets":  [
+                                     {
+                                         "packet_id":  "spring-boot-exact-http-text-body",
+                                         "assertion_name":  "ExactHttpTextBody",
+                                         "hook_family":  "assertion",
+                                         "assertion_type":  "ExactHttpTextBody",
+                                         "status":  "blocked_until_build_template_live_airgapped_validation",
+                                         "promotion_state":  "blocked",
+                                         "activation":  "sidecar_only",
+                                         "wired_into_runner_yaml":  false,
+                                         "source_files":  [
+                                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\177-spring-projects-spring-boot\\assertion-packets\\ExactHttpTextBody\\ExactHttpTextBody.cs"
+                                                          ],
+                                         "yaml_fragment":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\177-spring-projects-spring-boot\\assertion-packets\\ExactHttpTextBody\\ExactHttpTextBody.usage.yaml.txt",
+                                         "hook_plan":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\177-spring-projects-spring-boot\\assertion-packets\\ExactHttpTextBody\\custom-text-body-hook-plan.json",
+                                         "expected_body_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\177-spring-projects-spring-boot\\expectations\\root-body.txt",
+                                         "expected_body_sha256":  "7f83b1657ff1fc53b92dc18148a1d65dfc2d4b1fa3d677284addd200126d9069",
+                                         "encoding":  "utf-8",
+                                         "comparison":  "byte_for_byte",
+                                         "normalization":  "none",
+                                         "trim":  false,
+                                         "contains":  false,
+                                         "case_sensitive":  true,
+                                         "weak_validation_passed":  false,
+                                         "validation_records":  {
+                                                                    "build":  "not_run",
+                                                                    "schema":  "not_run",
+                                                                    "template":  "not_run",
+                                                                    "live":  "not_run",
+                                                                    "airgapped":  "not_run"
+                                                                },
+                                         "docs_evidence":  [
+                                                               "D:\\QaaS\\qaas-docs\\docs\\assertions\\index.md",
+                                                               "D:\\QaaS\\qaas-docs\\docs\\assertions\\custom-authoring-guide.md",
+                                                               "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
+                                                               "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions.md",
+                                                               "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\schema-extensions.md",
+                                                               "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json"
+                                                           ],
+                                         "public_evidence":  [
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\selected-contract.json",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\177-spring-projects-spring-boot\\repo-contract.json",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\177-spring-projects-spring-boot\\README.snapshot.md",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\177-spring-projects-spring-boot\\tree.snapshot.json",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\README.adoc",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\documentation\\spring-boot-docs\\src\\docs\\antora\\modules\\how-to\\pages\\webserver.adoc",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\build.gradle",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\gradlew",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\build-plugin\\spring-boot-gradle-plugin\\src\\main\\java\\org\\springframework\\boot\\gradle\\plugin\\ProtobufPluginAction.java",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\build-plugin\\spring-boot-gradle-plugin\\src\\test\\java\\org\\springframework\\boot\\gradle\\plugin\\ProtobufPluginActionIntegrationTests.java",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\build-plugin\\spring-boot-gradle-plugin\\src\\test\\resources\\org\\springframework\\boot\\gradle\\plugin\\ProtobufPluginActionIntegrationTests-usesVersionOfGrpcPluginDependencyWhenSpecified.gradle",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\core\\spring-boot-docker-compose\\build.gradle",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\README.adoc",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\documentation\\spring-boot-docs\\src\\docs\\antora\\modules\\how-to\\pages\\webserver.adoc",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\build.gradle",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\gradlew",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\build-plugin\\spring-boot-gradle-plugin\\src\\main\\java\\org\\springframework\\boot\\gradle\\plugin\\ProtobufPluginAction.java",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\build-plugin\\spring-boot-gradle-plugin\\src\\test\\java\\org\\springframework\\boot\\gradle\\plugin\\ProtobufPluginActionIntegrationTests.java",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\build-plugin\\spring-boot-gradle-plugin\\src\\test\\resources\\org\\springframework\\boot\\gradle\\plugin\\ProtobufPluginActionIntegrationTests-usesVersionOfGrpcPluginDependencyWhenSpecified.gradle",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\core\\spring-boot-docker-compose\\build.gradle"
+                                                             ]
+                                     }
+                                 ],
+    "public_evidence":  [
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\selected-contract.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\177-spring-projects-spring-boot\\repo-contract.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\177-spring-projects-spring-boot\\README.snapshot.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\177-spring-projects-spring-boot\\tree.snapshot.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\README.adoc",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\documentation\\spring-boot-docs\\src\\docs\\antora\\modules\\how-to\\pages\\webserver.adoc",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\build.gradle",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\gradlew",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\build-plugin\\spring-boot-gradle-plugin\\src\\main\\java\\org\\springframework\\boot\\gradle\\plugin\\ProtobufPluginAction.java",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\build-plugin\\spring-boot-gradle-plugin\\src\\test\\java\\org\\springframework\\boot\\gradle\\plugin\\ProtobufPluginActionIntegrationTests.java",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\build-plugin\\spring-boot-gradle-plugin\\src\\test\\resources\\org\\springframework\\boot\\gradle\\plugin\\ProtobufPluginActionIntegrationTests-usesVersionOfGrpcPluginDependencyWhenSpecified.gradle",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\core\\spring-boot-docker-compose\\build.gradle",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\README.adoc",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\documentation\\spring-boot-docs\\src\\docs\\antora\\modules\\how-to\\pages\\webserver.adoc",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\build.gradle",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\gradlew",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\build-plugin\\spring-boot-gradle-plugin\\src\\main\\java\\org\\springframework\\boot\\gradle\\plugin\\ProtobufPluginAction.java",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\build-plugin\\spring-boot-gradle-plugin\\src\\test\\java\\org\\springframework\\boot\\gradle\\plugin\\ProtobufPluginActionIntegrationTests.java",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\build-plugin\\spring-boot-gradle-plugin\\src\\test\\resources\\org\\springframework\\boot\\gradle\\plugin\\ProtobufPluginActionIntegrationTests-usesVersionOfGrpcPluginDependencyWhenSpecified.gradle",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\core\\spring-boot-docker-compose\\build.gradle"
+                        ]
+}

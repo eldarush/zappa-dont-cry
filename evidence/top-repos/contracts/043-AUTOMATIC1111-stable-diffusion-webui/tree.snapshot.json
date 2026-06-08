@@ -1,0 +1,2898 @@
+{
+  "sha": "82a973c04367123ae98bd9abdf80d9eda9b910e2",
+  "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/82a973c04367123ae98bd9abdf80d9eda9b910e2",
+  "tree": [
+    {
+      "path": ".eslintignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cfd9487674ff4db01a4285097f5eae74010b2ae",
+      "size": 48,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/1cfd9487674ff4db01a4285097f5eae74010b2ae"
+    },
+    {
+      "path": ".eslintrc.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e7258f6b135709026b99147214848aca7ec0c90",
+      "size": 3423,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/2e7258f6b135709026b99147214848aca7ec0c90"
+    },
+    {
+      "path": ".git-blame-ignore-revs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4104da632b8fcacf3a6f52eba093e63059749725",
+      "size": 55,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/4104da632b8fcacf3a6f52eba093e63059749725"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a73587426f771b0ad6600fcbae1edb0450372a16",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/a73587426f771b0ad6600fcbae1edb0450372a16"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5732817099812ad8201042b896e8f67ffb31126a",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/5732817099812ad8201042b896e8f67ffb31126a"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c86bd8a680b4cfe9a853bf3ec3621b8c912e8ae8",
+      "size": 4417,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/c86bd8a680b4cfe9a853bf3ec3621b8c912e8ae8"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f58c94a9be6847193a971ac67aa83e9a6d75c0ae",
+      "size": 203,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/f58c94a9be6847193a971ac67aa83e9a6d75c0ae"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35a887408c1a0cb7d5bbf0a8444d0903a708be75",
+      "size": 1413,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/35a887408c1a0cb7d5bbf0a8444d0903a708be75"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9fcda2e2790861c7bf4aa4cb37e01545c48fb95",
+      "size": 577,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/c9fcda2e2790861c7bf4aa4cb37e01545c48fb95"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4c6743a3daa4f7272e67ecbbc1e3a4b1af26fc63",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/4c6743a3daa4f7272e67ecbbc1e3a4b1af26fc63"
+    },
+    {
+      "path": ".github/workflows/on_pull_request.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9326c6a45e9e1f825bd75ab145e314be3d7460d0",
+      "size": 1231,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/9326c6a45e9e1f825bd75ab145e314be3d7460d0"
+    },
+    {
+      "path": ".github/workflows/run_tests.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0610f4f543613f8ec57053b146e451b3a16dee41",
+      "size": 2529,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/0610f4f543613f8ec57053b146e451b3a16dee41"
+    },
+    {
+      "path": ".github/workflows/warns_merge_master.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae2aab6ba8ce5684755b5fb4083267111bcd23cd",
+      "size": 424,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/ae2aab6ba8ce5684755b5fb4083267111bcd23cd"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e81ad31f53af07d88cfd05df5c66aaaa6b0bce06",
+      "size": 573,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/e81ad31f53af07d88cfd05df5c66aaaa6b0bce06"
+    },
+    {
+      "path": ".pylintrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53254e5dcfd871c8c0f0f4dec9dceeb1ba967eda",
+      "size": 119,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/53254e5dcfd871c8c0f0f4dec9dceeb1ba967eda"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f7e59351cba4e39ac894fa1887345e77f4fb787",
+      "size": 97085,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/5f7e59351cba4e39ac894fa1887345e77f4fb787"
+    },
+    {
+      "path": "CITATION.cff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c781aff450c8604eb3cf876d2c3585a96a5a590",
+      "size": 243,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/2c781aff450c8604eb3cf876d2c3585a96a5a590"
+    },
+    {
+      "path": "CODEOWNERS",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7438c9bc69d2a53df3dffd053ca82a689f97adb2",
+      "size": 657,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/7438c9bc69d2a53df3dffd053ca82a689f97adb2"
+    },
+    {
+      "path": "LICENSE.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1457754386456039688ccf0f6268dfcc2a94587c",
+      "size": 35240,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/1457754386456039688ccf0f6268dfcc2a94587c"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc62945c0c566f85c30434fd482fde9ee6116c26",
+      "size": 12924,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/bc62945c0c566f85c30434fd482fde9ee6116c26"
+    },
+    {
+      "path": "_typos.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c63fe7033122ec47c61088e01b6905ca34ca1c5",
+      "size": 146,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/1c63fe7033122ec47c61088e01b6905ca34ca1c5"
+    },
+    {
+      "path": "configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5a93c6da4b9bb42f9309c7a80bc5d4902d7c1231",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/5a93c6da4b9bb42f9309c7a80bc5d4902d7c1231"
+    },
+    {
+      "path": "configs/alt-diffusion-inference.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4944ab5c8dcb99ae7b8689596f9d748134d98e72",
+      "size": 1913,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/4944ab5c8dcb99ae7b8689596f9d748134d98e72"
+    },
+    {
+      "path": "configs/alt-diffusion-m18-inference.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c60dca8c7b33dec4271856bf2fbefb59ac720034",
+      "size": 1968,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/c60dca8c7b33dec4271856bf2fbefb59ac720034"
+    },
+    {
+      "path": "configs/instruct-pix2pix.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "564e50ae2465178d8309a167be077b9d4719833f",
+      "size": 2601,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/564e50ae2465178d8309a167be077b9d4719833f"
+    },
+    {
+      "path": "configs/sd3-inference.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bccb69d2ea35e7adf061e1bebcc913c835b6f7ba",
+      "size": 104,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/bccb69d2ea35e7adf061e1bebcc913c835b6f7ba"
+    },
+    {
+      "path": "configs/sd_xl_inpaint.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f40f45e3316823dedffabe9b332ef21ecb69a6fe",
+      "size": 3248,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/f40f45e3316823dedffabe9b332ef21ecb69a6fe"
+    },
+    {
+      "path": "configs/v1-inference.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25c4d9ed066af295b6a613b4d9b35ad54e4a270a",
+      "size": 1874,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/25c4d9ed066af295b6a613b4d9b35ad54e4a270a"
+    },
+    {
+      "path": "configs/v1-inpainting-inference.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68c199f99c38c8b9f7a45d897d6783bbdd60580d",
+      "size": 1992,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/68c199f99c38c8b9f7a45d897d6783bbdd60580d"
+    },
+    {
+      "path": "embeddings",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "13f739e13c9164dccf1d039b70f3cafe38d2facd",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/13f739e13c9164dccf1d039b70f3cafe38d2facd"
+    },
+    {
+      "path": "embeddings/Place Textual Inversion embeddings here.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "environment-wsl2.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c4ae6809997ec38e7cf62cf0f71360b8cb61a7e",
+      "size": 167,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/0c4ae6809997ec38e7cf62cf0f71360b8cb61a7e"
+    },
+    {
+      "path": "extensions-builtin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "47e69b03f4f9e600f634b720115a1023c9f2229e",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/47e69b03f4f9e600f634b720115a1023c9f2229e"
+    },
+    {
+      "path": "extensions-builtin/LDSR",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4af4128ebe0bbd308cd75d73c0497b32e4cf0860",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/4af4128ebe0bbd308cd75d73c0497b32e4cf0860"
+    },
+    {
+      "path": "extensions-builtin/LDSR/ldsr_model_arch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cac36ce55ae295c6d0e444a93ea12bf8cfe893c",
+      "size": 9759,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/7cac36ce55ae295c6d0e444a93ea12bf8cfe893c"
+    },
+    {
+      "path": "extensions-builtin/LDSR/preload.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d746007c7cc83b037b6ae82b766475b56c3fd778",
+      "size": 221,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/d746007c7cc83b037b6ae82b766475b56c3fd778"
+    },
+    {
+      "path": "extensions-builtin/LDSR/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d42f067edb15c5e95a8581d6b1dd60d8b7abb493",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/d42f067edb15c5e95a8581d6b1dd60d8b7abb493"
+    },
+    {
+      "path": "extensions-builtin/LDSR/scripts/ldsr_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd78decea1ec9fc66d61d66ee64457458a290f72",
+      "size": 3128,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/bd78decea1ec9fc66d61d66ee64457458a290f72"
+    },
+    {
+      "path": "extensions-builtin/LDSR/sd_hijack_autoencoder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c29d274da825d2500b77a2022db3421b40b18886",
+      "size": 11836,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/c29d274da825d2500b77a2022db3421b40b18886"
+    },
+    {
+      "path": "extensions-builtin/LDSR/sd_hijack_ddpm_v1.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51ab182128256ba8595fefd6288374642ad72a84",
+      "size": 67254,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/51ab182128256ba8595fefd6288374642ad72a84"
+    },
+    {
+      "path": "extensions-builtin/LDSR/vqvae_quantize.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd14b8fda5ce25a8cea8b70eb1d387b9c46c80d8",
+      "size": 6479,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/dd14b8fda5ce25a8cea8b70eb1d387b9c46c80d8"
+    },
+    {
+      "path": "extensions-builtin/Lora",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "81e0db1a0ea4c790d1bf8d64fee940bebb2ddb09",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/81e0db1a0ea4c790d1bf8d64fee940bebb2ddb09"
+    },
+    {
+      "path": "extensions-builtin/Lora/extra_networks_lora.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17a620f77e384ce682ad132db0c1570d172e590a",
+      "size": 2647,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/17a620f77e384ce682ad132db0c1570d172e590a"
+    },
+    {
+      "path": "extensions-builtin/Lora/lora.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9365aa74b4fe30afbb27fa08284ccd6bcb094fe7",
+      "size": 357,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/9365aa74b4fe30afbb27fa08284ccd6bcb094fe7"
+    },
+    {
+      "path": "extensions-builtin/Lora/lora_logger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d51de29704f72b80958dbabda021c6648aef8177",
+      "size": 929,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/d51de29704f72b80958dbabda021c6648aef8177"
+    },
+    {
+      "path": "extensions-builtin/Lora/lora_patches.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b394d8e9ed41ff2fc56de03d6e6194aa50b5f2b2",
+      "size": 2556,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/b394d8e9ed41ff2fc56de03d6e6194aa50b5f2b2"
+    },
+    {
+      "path": "extensions-builtin/Lora/lyco_helpers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f134d54eb19d2ba575137d4271b4a12f0f275ce",
+      "size": 2409,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/6f134d54eb19d2ba575137d4271b4a12f0f275ce"
+    },
+    {
+      "path": "extensions-builtin/Lora/network.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98ff367fd8a22f379bd588d149754ce640700222",
+      "size": 7944,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/98ff367fd8a22f379bd588d149754ce640700222"
+    },
+    {
+      "path": "extensions-builtin/Lora/network_full.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f221c95f3b557bd994cbaa2bd8cd15160dbb8df3",
+      "size": 904,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/f221c95f3b557bd994cbaa2bd8cd15160dbb8df3"
+    },
+    {
+      "path": "extensions-builtin/Lora/network_glora.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efe5c6814fa5c327e0db7ca3a8f5e7b21ccda8fe",
+      "size": 1246,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/efe5c6814fa5c327e0db7ca3a8f5e7b21ccda8fe"
+    },
+    {
+      "path": "extensions-builtin/Lora/network_hada.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d95a0fd18e3734aeeb041f9b00bc390d7b4fb699",
+      "size": 1985,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/d95a0fd18e3734aeeb041f9b00bc390d7b4fb699"
+    },
+    {
+      "path": "extensions-builtin/Lora/network_ia3.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96faeaf3ede2f172a8452e3396ac2c07ecbbcb49",
+      "size": 908,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/96faeaf3ede2f172a8452e3396ac2c07ecbbcb49"
+    },
+    {
+      "path": "extensions-builtin/Lora/network_lokr.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcdaeafd896086eab900cc5a07f6c1b0793d0682",
+      "size": 2354,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/fcdaeafd896086eab900cc5a07f6c1b0793d0682"
+    },
+    {
+      "path": "extensions-builtin/Lora/network_lora.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7a088949eab0b80ac2fabd4e493a71ef1912745",
+      "size": 4116,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/a7a088949eab0b80ac2fabd4e493a71ef1912745"
+    },
+    {
+      "path": "extensions-builtin/Lora/network_norm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d25afcbb9287773c20dca2e96f5a844608d413ac",
+      "size": 889,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/d25afcbb9287773c20dca2e96f5a844608d413ac"
+    },
+    {
+      "path": "extensions-builtin/Lora/network_oft.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c515ebb739c43db1a999a4214c8d3d41c640940",
+      "size": 5247,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/1c515ebb739c43db1a999a4214c8d3d41c640940"
+    },
+    {
+      "path": "extensions-builtin/Lora/networks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67f9abe2a37d683162912653718607625757b23e",
+      "size": 29205,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/67f9abe2a37d683162912653718607625757b23e"
+    },
+    {
+      "path": "extensions-builtin/Lora/preload.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52fab29b08b200e8b4a5941163d56e9cb8857834",
+      "size": 513,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/52fab29b08b200e8b4a5941163d56e9cb8857834"
+    },
+    {
+      "path": "extensions-builtin/Lora/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f33fd248aab59eaa59eea8abf2b08f660adfde73",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/f33fd248aab59eaa59eea8abf2b08f660adfde73"
+    },
+    {
+      "path": "extensions-builtin/Lora/scripts/lora_script.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3ea369ae2674066ec5e5fe0997634f3812569ca",
+      "size": 4182,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/d3ea369ae2674066ec5e5fe0997634f3812569ca"
+    },
+    {
+      "path": "extensions-builtin/Lora/ui_edit_user_metadata.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6c4d1c6acbee205d69ccb88134bfa73f2a35970",
+      "size": 8703,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/b6c4d1c6acbee205d69ccb88134bfa73f2a35970"
+    },
+    {
+      "path": "extensions-builtin/Lora/ui_extra_networks_lora.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e34d69dca42490908573b9fb92b15c827d85cc5",
+      "size": 3796,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/3e34d69dca42490908573b9fb92b15c827d85cc5"
+    },
+    {
+      "path": "extensions-builtin/ScuNET",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1f7ed0f7e625180e6b0e7022446a31e884c1653d",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/1f7ed0f7e625180e6b0e7022446a31e884c1653d"
+    },
+    {
+      "path": "extensions-builtin/ScuNET/preload.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f12c5b90ed2984ef16d8d8dd30d1ebef34cbf7c3",
+      "size": 227,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/f12c5b90ed2984ef16d8d8dd30d1ebef34cbf7c3"
+    },
+    {
+      "path": "extensions-builtin/ScuNET/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2aa3119e752daa7c584956a1f716db7fa0b16c38",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/2aa3119e752daa7c584956a1f716db7fa0b16c38"
+    },
+    {
+      "path": "extensions-builtin/ScuNET/scripts/scunet_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe5e5a19265cfc3eb2527abbff04dc79a74feb7e",
+      "size": 3095,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/fe5e5a19265cfc3eb2527abbff04dc79a74feb7e"
+    },
+    {
+      "path": "extensions-builtin/SwinIR",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e5fd112a0e5fac59112b7523877ab274e73833f0",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/e5fd112a0e5fac59112b7523877ab274e73833f0"
+    },
+    {
+      "path": "extensions-builtin/SwinIR/preload.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "567e44bcaa1d40ca5dabed7744c94c5b2c68e87f",
+      "size": 227,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/567e44bcaa1d40ca5dabed7744c94c5b2c68e87f"
+    },
+    {
+      "path": "extensions-builtin/SwinIR/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "adee0c45ec333b32ee4dcece2810e905bfed05dc",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/adee0c45ec333b32ee4dcece2810e905bfed05dc"
+    },
+    {
+      "path": "extensions-builtin/SwinIR/scripts/swinir_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16bf9b792fc11c68f8f17bb69a1afea68ea0b664",
+      "size": 3767,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/16bf9b792fc11c68f8f17bb69a1afea68ea0b664"
+    },
+    {
+      "path": "extensions-builtin/canvas-zoom-and-pan",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f2e5d101b3a1311669cef58821e1a2f105458ac6",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/f2e5d101b3a1311669cef58821e1a2f105458ac6"
+    },
+    {
+      "path": "extensions-builtin/canvas-zoom-and-pan/javascript",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c27f79a62a2712f49323891bc6ab7b54ca0e264f",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/c27f79a62a2712f49323891bc6ab7b54ca0e264f"
+    },
+    {
+      "path": "extensions-builtin/canvas-zoom-and-pan/javascript/zoom.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7807f7f6185faa652c155bc522badacb2854a700",
+      "size": 36827,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/7807f7f6185faa652c155bc522badacb2854a700"
+    },
+    {
+      "path": "extensions-builtin/canvas-zoom-and-pan/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c1e85c342196d21e7e1dd35415bb1440d237a642",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/c1e85c342196d21e7e1dd35415bb1440d237a642"
+    },
+    {
+      "path": "extensions-builtin/canvas-zoom-and-pan/scripts/hotkey_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17b27b2741bccc9b54751dde9784d65ce62f4898",
+      "size": 1961,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/17b27b2741bccc9b54751dde9784d65ce62f4898"
+    },
+    {
+      "path": "extensions-builtin/canvas-zoom-and-pan/style.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d8054e65196408c97791727088088650f102b21",
+      "size": 1097,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/5d8054e65196408c97791727088088650f102b21"
+    },
+    {
+      "path": "extensions-builtin/extra-options-section",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b0c69ac75a23f732b3421d82a568e837df2754ca",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/b0c69ac75a23f732b3421d82a568e837df2754ca"
+    },
+    {
+      "path": "extensions-builtin/extra-options-section/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0bd50c0c1e604f345926a48434c26d0d1d03f90e",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/0bd50c0c1e604f345926a48434c26d0d1d03f90e"
+    },
+    {
+      "path": "extensions-builtin/extra-options-section/scripts/extra_options_section.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a91bea4fa9d4fba8bddc4741b41919ed5eeb4351",
+      "size": 4065,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/a91bea4fa9d4fba8bddc4741b41919ed5eeb4351"
+    },
+    {
+      "path": "extensions-builtin/hypertile",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1b05bd8c086cedbffb4a94ebaf14f9b51a472956",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/1b05bd8c086cedbffb4a94ebaf14f9b51a472956"
+    },
+    {
+      "path": "extensions-builtin/hypertile/hypertile.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f40e2d39256deb69a3694adb627f726a568de8f",
+      "size": 14160,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/0f40e2d39256deb69a3694adb627f726a568de8f"
+    },
+    {
+      "path": "extensions-builtin/hypertile/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4acc4777c442e702e673fb3155e42f6f68c95ac3",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/4acc4777c442e702e673fb3155e42f6f68c95ac3"
+    },
+    {
+      "path": "extensions-builtin/hypertile/scripts/hypertile_script.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59e7f9907e525071d84464ab17bfb4d2f42e9e25",
+      "size": 7451,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/59e7f9907e525071d84464ab17bfb4d2f42e9e25"
+    },
+    {
+      "path": "extensions-builtin/mobile",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "78301ccd3aba3a136876d40c15eb3a43c712d924",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/78301ccd3aba3a136876d40c15eb3a43c712d924"
+    },
+    {
+      "path": "extensions-builtin/mobile/javascript",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "23ba966bdecc922049e43a39261e5387d4d1f785",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/23ba966bdecc922049e43a39261e5387d4d1f785"
+    },
+    {
+      "path": "extensions-builtin/mobile/javascript/mobile.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bff1acedff37d3683a01eb2bd6be76a8d33c0296",
+      "size": 1089,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/bff1acedff37d3683a01eb2bd6be76a8d33c0296"
+    },
+    {
+      "path": "extensions-builtin/postprocessing-for-training",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b01e5e47cebbe7ca12e251d846ba64bbac531360",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/b01e5e47cebbe7ca12e251d846ba64bbac531360"
+    },
+    {
+      "path": "extensions-builtin/postprocessing-for-training/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e8182f6c41d528b7ebef1bbc795ea48acf0ba18c",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/e8182f6c41d528b7ebef1bbc795ea48acf0ba18c"
+    },
+    {
+      "path": "extensions-builtin/postprocessing-for-training/scripts/postprocessing_autosized_crop.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e6749898148b615831370f74370f8cba0deea04",
+      "size": 3145,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/7e6749898148b615831370f74370f8cba0deea04"
+    },
+    {
+      "path": "extensions-builtin/postprocessing-for-training/scripts/postprocessing_caption.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5592a89870e278f212cfc0102c9fda736dbed08d",
+      "size": 971,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/5592a89870e278f212cfc0102c9fda736dbed08d"
+    },
+    {
+      "path": "extensions-builtin/postprocessing-for-training/scripts/postprocessing_create_flipped_copies.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b673003b6eae3345ce69e59cc446150f4582b71a",
+      "size": 1150,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/b673003b6eae3345ce69e59cc446150f4582b71a"
+    },
+    {
+      "path": "extensions-builtin/postprocessing-for-training/scripts/postprocessing_focal_crop.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cff1dbc54707187a55f32405fd9125b295d0be5b",
+      "size": 2392,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/cff1dbc54707187a55f32405fd9125b295d0be5b"
+    },
+    {
+      "path": "extensions-builtin/postprocessing-for-training/scripts/postprocessing_split_oversized.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "133e199b83858bc20093d78cb7e58a1970618e96",
+      "size": 2481,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/133e199b83858bc20093d78cb7e58a1970618e96"
+    },
+    {
+      "path": "extensions-builtin/prompt-bracket-checker",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ea526c4e26a22647476a985986df4e4974cba5d9",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/ea526c4e26a22647476a985986df4e4974cba5d9"
+    },
+    {
+      "path": "extensions-builtin/prompt-bracket-checker/javascript",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d8e2d6f0f184894c4b20f105f7d46ef77bd349d1",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/d8e2d6f0f184894c4b20f105f7d46ef77bd349d1"
+    },
+    {
+      "path": "extensions-builtin/prompt-bracket-checker/javascript/prompt-bracket-checker.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "114cf94ccbf69b473757f2fc46443a39723a9269",
+      "size": 1714,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/114cf94ccbf69b473757f2fc46443a39723a9269"
+    },
+    {
+      "path": "extensions-builtin/soft-inpainting",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ddbd94857e2d218b875c4d7922deb3c8a14eb40d",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/ddbd94857e2d218b875c4d7922deb3c8a14eb40d"
+    },
+    {
+      "path": "extensions-builtin/soft-inpainting/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b93ba203d4934f377fb70ed5f9db853c67d5aff8",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/b93ba203d4934f377fb70ed5f9db853c67d5aff8"
+    },
+    {
+      "path": "extensions-builtin/soft-inpainting/scripts/soft_inpainting.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e629963af46b2b77d1f25217188d1cf88bd2f11",
+      "size": 30877,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/0e629963af46b2b77d1f25217188d1cf88bd2f11"
+    },
+    {
+      "path": "extensions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7856621cd9179dbcdd8f69c1b0075d24c86611fe",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/7856621cd9179dbcdd8f69c1b0075d24c86611fe"
+    },
+    {
+      "path": "extensions/put extensions here.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "html",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3b93be3dc953c628db16d2bfeb300834966c007c",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/3b93be3dc953c628db16d2bfeb300834966c007c"
+    },
+    {
+      "path": "html/card-no-preview.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2beb2692067db56ac5f7bd5bfc3d895d9063371",
+      "size": 84440,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/e2beb2692067db56ac5f7bd5bfc3d895d9063371"
+    },
+    {
+      "path": "html/extra-networks-card.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1d959a6733b3c714dbadedba46c36329b759700",
+      "size": 360,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/f1d959a6733b3c714dbadedba46c36329b759700"
+    },
+    {
+      "path": "html/extra-networks-copy-path-button.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50304b42d4bf69b587fadb66c9f80735029de61f",
+      "size": 168,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/50304b42d4bf69b587fadb66c9f80735029de61f"
+    },
+    {
+      "path": "html/extra-networks-edit-item-button.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd728600f6d26fabf9ae9aaf21956682158f8c40",
+      "size": 162,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/fd728600f6d26fabf9ae9aaf21956682158f8c40"
+    },
+    {
+      "path": "html/extra-networks-metadata-button.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ef013bc02a4ef78fd173888d25d5ce8d6eedd6d",
+      "size": 161,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/4ef013bc02a4ef78fd173888d25d5ce8d6eedd6d"
+    },
+    {
+      "path": "html/extra-networks-no-cards.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "389358d6c4b383fdc3c5686e029e7b3b1ae9a493",
+      "size": 119,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/389358d6c4b383fdc3c5686e029e7b3b1ae9a493"
+    },
+    {
+      "path": "html/extra-networks-pane-dirs.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ce04289a5aec357583aaaf98917c6122d000ebc",
+      "size": 322,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/5ce04289a5aec357583aaaf98917c6122d000ebc"
+    },
+    {
+      "path": "html/extra-networks-pane-tree.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88561fcdc8542b995af7b5ebcabd3b7e94c558dd",
+      "size": 423,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/88561fcdc8542b995af7b5ebcabd3b7e94c558dd"
+    },
+    {
+      "path": "html/extra-networks-pane.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a67baea90f0e12a4a5e02f5affeabf4c36b7454",
+      "size": 3675,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/9a67baea90f0e12a4a5e02f5affeabf4c36b7454"
+    },
+    {
+      "path": "html/extra-networks-tree-button.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dc2e2a40c8f0f14cb14dbc04f566d9254e659f5",
+      "size": 912,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/9dc2e2a40c8f0f14cb14dbc04f566d9254e659f5"
+    },
+    {
+      "path": "html/footer.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69b2372c755298066a177f2f60a228f4aa11a944",
+      "size": 556,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/69b2372c755298066a177f2f60a228f4aa11a944"
+    },
+    {
+      "path": "html/licenses.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f5d1e9dc5ca675b2c565a37c0410269db8e0bf9",
+      "size": 20645,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/9f5d1e9dc5ca675b2c565a37c0410269db8e0bf9"
+    },
+    {
+      "path": "javascript",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "53291758bf972cb790a67562b8b302c091c176eb",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/53291758bf972cb790a67562b8b302c091c176eb"
+    },
+    {
+      "path": "javascript/aspectRatioOverlay.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8751fe494f987b4515418ea72f49161e3a72bfa",
+      "size": 3994,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/c8751fe494f987b4515418ea72f49161e3a72bfa"
+    },
+    {
+      "path": "javascript/contextMenus.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e01fd67e80e0eb912d531bf560224cd059e1f8d0",
+      "size": 5658,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/e01fd67e80e0eb912d531bf560224cd059e1f8d0"
+    },
+    {
+      "path": "javascript/dragdrop.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "882562d73676e85dcd88d7f6a0befa6be42f39a2",
+      "size": 5150,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/882562d73676e85dcd88d7f6a0befa6be42f39a2"
+    },
+    {
+      "path": "javascript/edit-attention.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b07ba97cb9ba9c4d6dbcd3412a940797f4786f53",
+      "size": 5842,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/b07ba97cb9ba9c4d6dbcd3412a940797f4786f53"
+    },
+    {
+      "path": "javascript/edit-order.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed4ef9ac399a6d0bd83435958dc4d46837760c6a",
+      "size": 1597,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/ed4ef9ac399a6d0bd83435958dc4d46837760c6a"
+    },
+    {
+      "path": "javascript/extensions.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc8ee220b170f2df39d5267a1181f856c53d2c83",
+      "size": 3072,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/cc8ee220b170f2df39d5267a1181f856c53d2c83"
+    },
+    {
+      "path": "javascript/extraNetworks.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5cced973998953e43b4742850c7fcd115174501",
+      "size": 26954,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/c5cced973998953e43b4742850c7fcd115174501"
+    },
+    {
+      "path": "javascript/generationParams.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c0fd221d63313ab063f545570eb0da780b9da3a",
+      "size": 1504,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/7c0fd221d63313ab063f545570eb0da780b9da3a"
+    },
+    {
+      "path": "javascript/hints.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6de9372e8ea8c9fb032351e241d0f9c265995290",
+      "size": 14565,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/6de9372e8ea8c9fb032351e241d0f9c265995290"
+    },
+    {
+      "path": "javascript/hires_fix.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d04ab3b424338634af3e71a2f9d8796a5f00224",
+      "size": 886,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/0d04ab3b424338634af3e71a2f9d8796a5f00224"
+    },
+    {
+      "path": "javascript/imageMaskFix.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "900c56f32fdf7128f0433621df25a0fbd14c4e42",
+      "size": 1354,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/900c56f32fdf7128f0433621df25a0fbd14c4e42"
+    },
+    {
+      "path": "javascript/imageviewer.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b23f4700b3fa681ba64054a3df37e5054bd18d0",
+      "size": 9450,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/9b23f4700b3fa681ba64054a3df37e5054bd18d0"
+    },
+    {
+      "path": "javascript/imageviewerGamepad.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a22c7e6e6435f677c7a86dbbae5da86af8fdc9eb",
+      "size": 1844,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/a22c7e6e6435f677c7a86dbbae5da86af8fdc9eb"
+    },
+    {
+      "path": "javascript/inputAccordion.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7570309aa73fe051b41481db0da46dca94e57ab9",
+      "size": 2325,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/7570309aa73fe051b41481db0da46dca94e57ab9"
+    },
+    {
+      "path": "javascript/localStorage.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc1a36c328799ea3df1843001d397aa638935952",
+      "size": 534,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/dc1a36c328799ea3df1843001d397aa638935952"
+    },
+    {
+      "path": "javascript/localization.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f00c18686057e3e12154f657170b014b13320a5",
+      "size": 5708,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/8f00c18686057e3e12154f657170b014b13320a5"
+    },
+    {
+      "path": "javascript/notification.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ee972ae1661b62066171e01af69b84b854aeef7",
+      "size": 1676,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/3ee972ae1661b62066171e01af69b84b854aeef7"
+    },
+    {
+      "path": "javascript/profilerVisualization.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9822f4b2a2a34d38501278002c7441f69e11eb18",
+      "size": 4939,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/9822f4b2a2a34d38501278002c7441f69e11eb18"
+    },
+    {
+      "path": "javascript/progressbar.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23dea64ceda34e955ce1dd173d0cb40f7aba0eee",
+      "size": 6542,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/23dea64ceda34e955ce1dd173d0cb40f7aba0eee"
+    },
+    {
+      "path": "javascript/resizeHandle.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4aeb14b41f3f6119d3c44ab315db2f215f673ab4",
+      "size": 6623,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/4aeb14b41f3f6119d3c44ab315db2f215f673ab4"
+    },
+    {
+      "path": "javascript/settings.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2d981c2144703fd9e3d89faaf5c788fd7b3356a",
+      "size": 2272,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/b2d981c2144703fd9e3d89faaf5c788fd7b3356a"
+    },
+    {
+      "path": "javascript/textualInversion.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20443fcca01bbba6712e40136c57dbcdb78ca945",
+      "size": 441,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/20443fcca01bbba6712e40136c57dbcdb78ca945"
+    },
+    {
+      "path": "javascript/token-counters.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eeea7a5d26c7832836ae982b02b6f0924048c2d1",
+      "size": 2737,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/eeea7a5d26c7832836ae982b02b6f0924048c2d1"
+    },
+    {
+      "path": "javascript/ui.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20309634fb66cea469814d2b67a8fb9459e34342",
+      "size": 13380,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/20309634fb66cea469814d2b67a8fb9459e34342"
+    },
+    {
+      "path": "javascript/ui_settings_hints.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d088f9494f826d9534dc105ac2f99bda702d22c0",
+      "size": 2311,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/d088f9494f826d9534dc105ac2f99bda702d22c0"
+    },
+    {
+      "path": "launch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f83820d2534ff5aa5ec9dd0aaa76f18928bacc3d",
+      "size": 1297,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/f83820d2534ff5aa5ec9dd0aaa76f18928bacc3d"
+    },
+    {
+      "path": "localizations",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "556e09cce758222925e793b2342877a47d208874",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/556e09cce758222925e793b2342877a47d208874"
+    },
+    {
+      "path": "localizations/Put localization files here.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6965f1aee300233ab4ccdd713bd032a77869a6f7",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/6965f1aee300233ab4ccdd713bd032a77869a6f7"
+    },
+    {
+      "path": "models/Stable-diffusion",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "17a26212c80874cd961522694d6d37828f20d137",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/17a26212c80874cd961522694d6d37828f20d137"
+    },
+    {
+      "path": "models/Stable-diffusion/Put Stable Diffusion checkpoints here.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "models/VAE-approx",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4a04ced52541b07335cb4f33d5847bc7e731d388",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/4a04ced52541b07335cb4f33d5847bc7e731d388"
+    },
+    {
+      "path": "models/VAE-approx/model.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bda9d6e952041db7733eff61238a26dd1ea6cda",
+      "size": 213777,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/8bda9d6e952041db7733eff61238a26dd1ea6cda"
+    },
+    {
+      "path": "models/VAE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3584c7c7c857185c0ab67db8028ca99b22bfcbdf",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/3584c7c7c857185c0ab67db8028ca99b22bfcbdf"
+    },
+    {
+      "path": "models/VAE/Put VAE here.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "models/deepbooru",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7fd645965c7f45750bbf12cf7f76e2c1e5e2c3ee",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/7fd645965c7f45750bbf12cf7f76e2c1e5e2c3ee"
+    },
+    {
+      "path": "models/deepbooru/Put your deepbooru release project folder here.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "models/karlo",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7abcc97abb23c764e576219b09434553acfc23d4",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/7abcc97abb23c764e576219b09434553acfc23d4"
+    },
+    {
+      "path": "models/karlo/ViT-L-14_stats.th",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6a06e94ecaa4f2977972ff991f75db6c90403ea",
+      "size": 7079,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/a6a06e94ecaa4f2977972ff991f75db6c90403ea"
+    },
+    {
+      "path": "modules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9b9fda43b976a80b3c253bd0c3855dc855f8743b",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/9b9fda43b976a80b3c253bd0c3855dc855f8743b"
+    },
+    {
+      "path": "modules/Roboto-Regular.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "500b1045b0c94d83d2e6798aaf1faa55a2dab6fc",
+      "size": 305608,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/500b1045b0c94d83d2e6798aaf1faa55a2dab6fc"
+    },
+    {
+      "path": "modules/api",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c82b69e05beb6865504f5555c407ef2423afbedf",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/c82b69e05beb6865504f5555c407ef2423afbedf"
+    },
+    {
+      "path": "modules/api/api.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97ec7514ea15a23e5346c127d6d61a24942b456f",
+      "size": 42038,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/97ec7514ea15a23e5346c127d6d61a24942b456f"
+    },
+    {
+      "path": "modules/api/models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79c4cbbbbbc84c57075e091361c7656ce424bf31",
+      "size": 16555,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/79c4cbbbbbc84c57075e091361c7656ce424bf31"
+    },
+    {
+      "path": "modules/cache.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4e5f702b42d98b88ac17dfc7d79a4d6035dd421",
+      "size": 4132,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/f4e5f702b42d98b88ac17dfc7d79a4d6035dd421"
+    },
+    {
+      "path": "modules/call_queue.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "555c35312ddb6acc30f308c5e9ba18054eef097a",
+      "size": 5012,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/555c35312ddb6acc30f308c5e9ba18054eef097a"
+    },
+    {
+      "path": "modules/cmd_args.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d71982b2c12d4fa8f4551ca6398b15a1e6fd71ba",
+      "size": 18344,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/d71982b2c12d4fa8f4551ca6398b15a1e6fd71ba"
+    },
+    {
+      "path": "modules/codeformer_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b353353be221d64ad127626a3c9f9f1827a26f7",
+      "size": 1911,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/0b353353be221d64ad127626a3c9f9f1827a26f7"
+    },
+    {
+      "path": "modules/config_states.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "651793c7f6f659f8751e35f894a8f588f276d9ac",
+      "size": 5875,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/651793c7f6f659f8751e35f894a8f588f276d9ac"
+    },
+    {
+      "path": "modules/dat_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "495d5f4937dc38e0ed06d21c612ca8f27021a2ce",
+      "size": 2684,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/495d5f4937dc38e0ed06d21c612ca8f27021a2ce"
+    },
+    {
+      "path": "modules/deepbooru.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb043feb296c1ea475e7ea3e5916b25cc60677ba",
+      "size": 3039,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/fb043feb296c1ea475e7ea3e5916b25cc60677ba"
+    },
+    {
+      "path": "modules/deepbooru_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83d2ff0902f965ac3c69d830203ad36d0b067089",
+      "size": 36341,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/83d2ff0902f965ac3c69d830203ad36d0b067089"
+    },
+    {
+      "path": "modules/devices.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee679141ad7f7e4f6d6d94e86562ed2dc56a7c5d",
+      "size": 8827,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/ee679141ad7f7e4f6d6d94e86562ed2dc56a7c5d"
+    },
+    {
+      "path": "modules/errors.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48aa13a1728755cc8795cf491cf656460e6c3643",
+      "size": 4585,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/48aa13a1728755cc8795cf491cf656460e6c3643"
+    },
+    {
+      "path": "modules/esrgan_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70041ab023406c15d49d8caa5ee79f35c40f6461",
+      "size": 2188,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/70041ab023406c15d49d8caa5ee79f35c40f6461"
+    },
+    {
+      "path": "modules/extensions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24de766eb908c502d523229ca99557914b5b54e9",
+      "size": 11320,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/24de766eb908c502d523229ca99557914b5b54e9"
+    },
+    {
+      "path": "modules/extra_networks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae8d42d9b382572e762fe5f1aefdf50180ee2590",
+      "size": 7290,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/ae8d42d9b382572e762fe5f1aefdf50180ee2590"
+    },
+    {
+      "path": "modules/extra_networks_hypernet.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6a6dc0e1d0d169f292b6ad72a9d236baef0ed23",
+      "size": 1148,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/b6a6dc0e1d0d169f292b6ad72a9d236baef0ed23"
+    },
+    {
+      "path": "modules/extras.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a310ae3f25304f6d3cf6c1c071c77ca4a5e5e4c",
+      "size": 12610,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/2a310ae3f25304f6d3cf6c1c071c77ca4a5e5e4c"
+    },
+    {
+      "path": "modules/face_restoration.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ae53d21bef3e0783481d7c3cf3a9b2fedc4c092",
+      "size": 494,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/4ae53d21bef3e0783481d7c3cf3a9b2fedc4c092"
+    },
+    {
+      "path": "modules/face_restoration_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cbac2364805e8fd21700dc5183c38cc65937030",
+      "size": 6443,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/1cbac2364805e8fd21700dc5183c38cc65937030"
+    },
+    {
+      "path": "modules/fifo_lock.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c35b3ae25a3cf383c8beae04db3e0a3d66785135",
+      "size": 1020,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/c35b3ae25a3cf383c8beae04db3e0a3d66785135"
+    },
+    {
+      "path": "modules/gfpgan_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01ef899e4a68664582d5b70bdc3b239cc6f002fe",
+      "size": 2097,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/01ef899e4a68664582d5b70bdc3b239cc6f002fe"
+    },
+    {
+      "path": "modules/gitpython_hack.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b55f0640e5ecb945ec72e9aeccd525c6dd9d7cb8",
+      "size": 1464,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/b55f0640e5ecb945ec72e9aeccd525c6dd9d7cb8"
+    },
+    {
+      "path": "modules/gradio_extensons.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d88dc984bbb380e1fa0c35b435f2eba13e81b08",
+      "size": 2743,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/7d88dc984bbb380e1fa0c35b435f2eba13e81b08"
+    },
+    {
+      "path": "modules/hashes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d22e5fadc47e57773a2b7f898ffeda7aeaa6872c",
+      "size": 2197,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/d22e5fadc47e57773a2b7f898ffeda7aeaa6872c"
+    },
+    {
+      "path": "modules/hat_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f2abb41660a78a04ce5fccf04cfd720dc7b0db7",
+      "size": 1685,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/7f2abb41660a78a04ce5fccf04cfd720dc7b0db7"
+    },
+    {
+      "path": "modules/hypernetworks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "239be39be7f64be98eaeefc4d4c8be27384939b3",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/239be39be7f64be98eaeefc4d4c8be27384939b3"
+    },
+    {
+      "path": "modules/hypernetworks/hypernetwork.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17454665f28e65bc385daa16d6b540a97f329a0f",
+      "size": 35924,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/17454665f28e65bc385daa16d6b540a97f329a0f"
+    },
+    {
+      "path": "modules/hypernetworks/ui.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b6255e2b674ca32a861ab63c2da225bc902892f",
+      "size": 1520,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/8b6255e2b674ca32a861ab63c2da225bc902892f"
+    },
+    {
+      "path": "modules/images.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfdfb338446a748642fe48b3ffe7bad7e8d462b5",
+      "size": 35653,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/cfdfb338446a748642fe48b3ffe7bad7e8d462b5"
+    },
+    {
+      "path": "modules/img2img.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24f869f5c6a9660b959e152596dcd86f61621787",
+      "size": 11799,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/24f869f5c6a9660b959e152596dcd86f61621787"
+    },
+    {
+      "path": "modules/import_hook.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eba9a3729292c8b79a7ec9c25ddd7b606c6170cc",
+      "size": 654,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/eba9a3729292c8b79a7ec9c25ddd7b606c6170cc"
+    },
+    {
+      "path": "modules/infotext_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32dbafa65186437bb0c6889c74f6e10285218085",
+      "size": 19851,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/32dbafa65186437bb0c6889c74f6e10285218085"
+    },
+    {
+      "path": "modules/infotext_versions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cea676cda61c5a93d9b525afcf043ed192ffc1fc",
+      "size": 1113,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/cea676cda61c5a93d9b525afcf043ed192ffc1fc"
+    },
+    {
+      "path": "modules/initialize.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0365bbb3093257d806d457a32eb71d7aa065d5e3",
+      "size": 5887,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/0365bbb3093257d806d457a32eb71d7aa065d5e3"
+    },
+    {
+      "path": "modules/initialize_util.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79a72cb3aba2eff1dfe87f9d42ba2198c125df1a",
+      "size": 8465,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/79a72cb3aba2eff1dfe87f9d42ba2198c125df1a"
+    },
+    {
+      "path": "modules/interrogate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c93e7aa861d70b74c6f036f7abc5dc9e1c527be6",
+      "size": 8589,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/c93e7aa861d70b74c6f036f7abc5dc9e1c527be6"
+    },
+    {
+      "path": "modules/launch_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20c7dc127a7ed96b73458215989f94c23542f9b8",
+      "size": 20319,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/20c7dc127a7ed96b73458215989f94c23542f9b8"
+    },
+    {
+      "path": "modules/localization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "108f792e96f30d4392c43ec8d6dbe78a3bd7fa54",
+      "size": 1084,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/108f792e96f30d4392c43ec8d6dbe78a3bd7fa54"
+    },
+    {
+      "path": "modules/logging_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e31d8c9fd16ec1a0cb4c97736f23ff0c53268bc",
+      "size": 1616,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/8e31d8c9fd16ec1a0cb4c97736f23ff0c53268bc"
+    },
+    {
+      "path": "modules/lowvram.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6728c337b646fd77114028d018cf91b4104ff68a",
+      "size": 6239,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/6728c337b646fd77114028d018cf91b4104ff68a"
+    },
+    {
+      "path": "modules/mac_specific.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "039689f32e133bd10995f8159f466d597e9200f6",
+      "size": 5902,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/039689f32e133bd10995f8159f466d597e9200f6"
+    },
+    {
+      "path": "modules/masking.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fc83031953c33fd615d081ef214363eaf08c25c",
+      "size": 3751,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/2fc83031953c33fd615d081ef214363eaf08c25c"
+    },
+    {
+      "path": "modules/memmon.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4018edcc7ef1c36d6f71fddc43f773aba6c078e4",
+      "size": 2755,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/4018edcc7ef1c36d6f71fddc43f773aba6c078e4"
+    },
+    {
+      "path": "modules/modelloader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36e7415af4318df7f9a5e8f46a78116eda4a296c",
+      "size": 7022,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/36e7415af4318df7f9a5e8f46a78116eda4a296c"
+    },
+    {
+      "path": "modules/models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8090ccba49e5bb08e84fd2dec57451b02433386b",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/8090ccba49e5bb08e84fd2dec57451b02433386b"
+    },
+    {
+      "path": "modules/models/diffusion",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "16ce29cace8b0288671c9249b2f16a6980930c59",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/16ce29cace8b0288671c9249b2f16a6980930c59"
+    },
+    {
+      "path": "modules/models/diffusion/ddpm_edit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b51c83c5d91724725d390b0f846c4a179f193d9",
+      "size": 67976,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/7b51c83c5d91724725d390b0f846c4a179f193d9"
+    },
+    {
+      "path": "modules/models/diffusion/uni_pc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ccc4d6031c0d9872bcc8c50cbef94557fcb1d10a",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/ccc4d6031c0d9872bcc8c50cbef94557fcb1d10a"
+    },
+    {
+      "path": "modules/models/diffusion/uni_pc/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbb35964ce08f4d3e1b2f77d2a5359c87bf6f3fa",
+      "size": 48,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/dbb35964ce08f4d3e1b2f77d2a5359c87bf6f3fa"
+    },
+    {
+      "path": "modules/models/diffusion/uni_pc/sampler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a9defa108b8e61adb8665b031c9770158654714",
+      "size": 3897,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/0a9defa108b8e61adb8665b031c9770158654714"
+    },
+    {
+      "path": "modules/models/diffusion/uni_pc/uni_pc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3333bc808d036f88b93ae1b248fd411bd01548c9",
+      "size": 37903,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/3333bc808d036f88b93ae1b248fd411bd01548c9"
+    },
+    {
+      "path": "modules/models/sd3",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d78f51bafb73a0db024c6a6375bc32effe69a6c0",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/d78f51bafb73a0db024c6a6375bc32effe69a6c0"
+    },
+    {
+      "path": "modules/models/sd3/mmdit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ddf49a4e3e3ceffe6b8633026acfe0957b85cce",
+      "size": 24480,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/8ddf49a4e3e3ceffe6b8633026acfe0957b85cce"
+    },
+    {
+      "path": "modules/models/sd3/other_impls.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78c1dc68758d442d68146567ea5ec906c1136a93",
+      "size": 24104,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/78c1dc68758d442d68146567ea5ec906c1136a93"
+    },
+    {
+      "path": "modules/models/sd3/sd3_cond.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "325c512d5945b85c9707efe1875c3948226dcc72",
+      "size": 8119,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/325c512d5945b85c9707efe1875c3948226dcc72"
+    },
+    {
+      "path": "modules/models/sd3/sd3_impls.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59f11b2cbe15e5ae9de48e21cc2b18f85f8038c9",
+      "size": 16415,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/59f11b2cbe15e5ae9de48e21cc2b18f85f8038c9"
+    },
+    {
+      "path": "modules/models/sd3/sd3_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37cf85eb36fef77f3a64f6e7ed361c9b998e41ca",
+      "size": 3903,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/37cf85eb36fef77f3a64f6e7ed361c9b998e41ca"
+    },
+    {
+      "path": "modules/ngrok.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c713e2765d293186313661474e21bd8779199ec",
+      "size": 1146,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/0c713e2765d293186313661474e21bd8779199ec"
+    },
+    {
+      "path": "modules/npu_specific.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9410069110f3cfb9aac3113ceaa141d5c7408e13",
+      "size": 649,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/9410069110f3cfb9aac3113ceaa141d5c7408e13"
+    },
+    {
+      "path": "modules/options.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a78a825ee2d801ca678faf6e3218a29841d3db2",
+      "size": 13089,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/2a78a825ee2d801ca678faf6e3218a29841d3db2"
+    },
+    {
+      "path": "modules/patches.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "348235e7e32aa60f1c5cf295dc873dcfc648b70f",
+      "size": 1831,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/348235e7e32aa60f1c5cf295dc873dcfc648b70f"
+    },
+    {
+      "path": "modules/paths.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "030646519c360a752ef7ecdd959986aa0438351e",
+      "size": 2367,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/030646519c360a752ef7ecdd959986aa0438351e"
+    },
+    {
+      "path": "modules/paths_internal.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67521f5cd5decb77582981a6d6399d214644ec14",
+      "size": 1679,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/67521f5cd5decb77582981a6d6399d214644ec14"
+    },
+    {
+      "path": "modules/postprocessing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a413d1027c75f89284bb19001419e87dd01cc096",
+      "size": 6640,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/a413d1027c75f89284bb19001419e87dd01cc096"
+    },
+    {
+      "path": "modules/processing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7535b56e18c004da696465b594287adab29aed52",
+      "size": 81170,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/7535b56e18c004da696465b594287adab29aed52"
+    },
+    {
+      "path": "modules/processing_scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "034a8db423b880d92577a78c79202025b2c238b1",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/034a8db423b880d92577a78c79202025b2c238b1"
+    },
+    {
+      "path": "modules/processing_scripts/comments.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf81dfd8b494b601ee8772504caba751daa2be10",
+      "size": 1743,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/cf81dfd8b494b601ee8772504caba751daa2be10"
+    },
+    {
+      "path": "modules/processing_scripts/refiner.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba33d8a4b80f526b6315607c118f91b34fc09292",
+      "size": 2320,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/ba33d8a4b80f526b6315607c118f91b34fc09292"
+    },
+    {
+      "path": "modules/processing_scripts/sampler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d50a162cee9219ae08956f4261b51fa2a1db528",
+      "size": 2252,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/5d50a162cee9219ae08956f4261b51fa2a1db528"
+    },
+    {
+      "path": "modules/processing_scripts/seed.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a4c015983109bb799b0ac3b9c15d8a20c3f3d89",
+      "size": 5515,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/7a4c015983109bb799b0ac3b9c15d8a20c3f3d89"
+    },
+    {
+      "path": "modules/profiling.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95b59f71a2008b284776b85a0ace7bf51c03a904",
+      "size": 1347,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/95b59f71a2008b284776b85a0ace7bf51c03a904"
+    },
+    {
+      "path": "modules/progress.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85255e821f569e8905de06bade1fcf54c859a738",
+      "size": 5977,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/85255e821f569e8905de06bade1fcf54c859a738"
+    },
+    {
+      "path": "modules/prompt_parser.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e393d2866f6bc93a527d5eb6827a1613ca08097",
+      "size": 16743,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/4e393d2866f6bc93a527d5eb6827a1613ca08097"
+    },
+    {
+      "path": "modules/realesrgan_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff9d8ac0d6932ed39e4fdde167708c2141377ae8",
+      "size": 4058,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/ff9d8ac0d6932ed39e4fdde167708c2141377ae8"
+    },
+    {
+      "path": "modules/restart.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2dd6493b45019ba3a634bfb596ecff982068745d",
+      "size": 638,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/2dd6493b45019ba3a634bfb596ecff982068745d"
+    },
+    {
+      "path": "modules/rng.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5390d1bb73e342a749dcd5e1281fb5b7e8a2106a",
+      "size": 6516,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/5390d1bb73e342a749dcd5e1281fb5b7e8a2106a"
+    },
+    {
+      "path": "modules/rng_philox.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5532cf9dd676012ae37b7fda3433b9b1d122f80a",
+      "size": 3089,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/5532cf9dd676012ae37b7fda3433b9b1d122f80a"
+    },
+    {
+      "path": "modules/safe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af019ffd980a832c9bf463c14441d5f41d048551",
+      "size": 7126,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/af019ffd980a832c9bf463c14441d5f41d048551"
+    },
+    {
+      "path": "modules/script_callbacks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9059d4d938575b95023b350502634a31502ee089",
+      "size": 22112,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/9059d4d938575b95023b350502634a31502ee089"
+    },
+    {
+      "path": "modules/script_loading.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cccb309665fd871f5deb8eecd494d3bcbcfaf042",
+      "size": 1052,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/cccb309665fd871f5deb8eecd494d3bcbcfaf042"
+    },
+    {
+      "path": "modules/scripts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8eca396b14034ad0af461ee7569f2b965663981b",
+      "size": 41802,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/8eca396b14034ad0af461ee7569f2b965663981b"
+    },
+    {
+      "path": "modules/scripts_auto_postprocessing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d63078de50e1eef18d3ee7e8c46aebe488d91a3e",
+      "size": 1491,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/d63078de50e1eef18d3ee7e8c46aebe488d91a3e"
+    },
+    {
+      "path": "modules/scripts_postprocessing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b3b7afda1c50aa31f666a673540b2a7b5b561cf",
+      "size": 7226,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/4b3b7afda1c50aa31f666a673540b2a7b5b561cf"
+    },
+    {
+      "path": "modules/sd_disable_initialization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "273a7edd8b42ecee7e2447c5309f9172e25e94ad",
+      "size": 11425,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/273a7edd8b42ecee7e2447c5309f9172e25e94ad"
+    },
+    {
+      "path": "modules/sd_emphasis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49ef1a6acb3c72f2c3cea1870884d8d04558ff34",
+      "size": 2131,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/49ef1a6acb3c72f2c3cea1870884d8d04558ff34"
+    },
+    {
+      "path": "modules/sd_hijack.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0de8305418699be9048a6cef55949070848051c0",
+      "size": 17795,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/0de8305418699be9048a6cef55949070848051c0"
+    },
+    {
+      "path": "modules/sd_hijack_checkpoint.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2604d969f910ffdd65aff66acc0b6ab09b793b38",
+      "size": 1253,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/2604d969f910ffdd65aff66acc0b6ab09b793b38"
+    },
+    {
+      "path": "modules/sd_hijack_clip.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a479148fc2175baf8b96d29cdc63cddc5b4e84aa",
+      "size": 15725,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/a479148fc2175baf8b96d29cdc63cddc5b4e84aa"
+    },
+    {
+      "path": "modules/sd_hijack_clip_old.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43e9b9529e833e5b30bf8ecc5e938b8db2df10fc",
+      "size": 3586,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/43e9b9529e833e5b30bf8ecc5e938b8db2df10fc"
+    },
+    {
+      "path": "modules/sd_hijack_ip2p.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fe6b6ffec64d78a615e001398f3272decf348a5",
+      "size": 360,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/6fe6b6ffec64d78a615e001398f3272decf348a5"
+    },
+    {
+      "path": "modules/sd_hijack_open_clip.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25c5e9831a3527b9555971b5d9add68519a2208e",
+      "size": 2620,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/25c5e9831a3527b9555971b5d9add68519a2208e"
+    },
+    {
+      "path": "modules/sd_hijack_optimizations.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0269f1f5b4b376ef59ca03b46ccf80628b94018c",
+      "size": 24557,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/0269f1f5b4b376ef59ca03b46ccf80628b94018c"
+    },
+    {
+      "path": "modules/sd_hijack_unet.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4f03b138a43cb614118d40e70382fc6b454a5d8",
+      "size": 7267,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/b4f03b138a43cb614118d40e70382fc6b454a5d8"
+    },
+    {
+      "path": "modules/sd_hijack_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "546f2eda4ec1ea0e06bad6183f3517cf16ad0af3",
+      "size": 1558,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/546f2eda4ec1ea0e06bad6183f3517cf16ad0af3"
+    },
+    {
+      "path": "modules/sd_hijack_xlmr.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28528329b60013c50f683ca6f3ec91f42f842071",
+      "size": 1449,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/28528329b60013c50f683ca6f3ec91f42f842071"
+    },
+    {
+      "path": "modules/sd_models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55bd9ca5e439cac0e4cfa98ecca46c7164df5d3d",
+      "size": 37536,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/55bd9ca5e439cac0e4cfa98ecca46c7164df5d3d"
+    },
+    {
+      "path": "modules/sd_models_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb44c5a8d98a2106402387535f53047f283bdccd",
+      "size": 5597,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/fb44c5a8d98a2106402387535f53047f283bdccd"
+    },
+    {
+      "path": "modules/sd_models_types.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fce2777b2f0de4f849fa95a314adc0642197959",
+      "size": 1284,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/2fce2777b2f0de4f849fa95a314adc0642197959"
+    },
+    {
+      "path": "modules/sd_models_xl.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1242a59369f738cc0e5ec4b2d7baa87fa2c4153f",
+      "size": 5007,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/1242a59369f738cc0e5ec4b2d7baa87fa2c4153f"
+    },
+    {
+      "path": "modules/sd_samplers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "963da5be0bfb970338ef4d56364bfee0a4ed7733",
+      "size": 4528,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/963da5be0bfb970338ef4d56364bfee0a4ed7733"
+    },
+    {
+      "path": "modules/sd_samplers_cfg_denoiser.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6fbf33724380aee15295f9066d1073b85b51049",
+      "size": 14455,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/b6fbf33724380aee15295f9066d1073b85b51049"
+    },
+    {
+      "path": "modules/sd_samplers_common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c060cccb24b5a5c0d12417aa35718a52201c0707",
+      "size": 13566,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/c060cccb24b5a5c0d12417aa35718a52201c0707"
+    },
+    {
+      "path": "modules/sd_samplers_compvis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "modules/sd_samplers_extra.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72fd0aa5e60fd4262b498de608640975ec1d7635",
+      "size": 3174,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/72fd0aa5e60fd4262b498de608640975ec1d7635"
+    },
+    {
+      "path": "modules/sd_samplers_kdiffusion.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c94d100d25de3994d2f0e3d4e6343279e5756d3",
+      "size": 11120,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/0c94d100d25de3994d2f0e3d4e6343279e5756d3"
+    },
+    {
+      "path": "modules/sd_samplers_lcm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59839b720dd9fa722151a43da5822f0e8e27d3a4",
+      "size": 3904,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/59839b720dd9fa722151a43da5822f0e8e27d3a4"
+    },
+    {
+      "path": "modules/sd_samplers_timesteps.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81edd67d6e49465caff903133eeb61bc1ce32154",
+      "size": 6568,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/81edd67d6e49465caff903133eeb61bc1ce32154"
+    },
+    {
+      "path": "modules/sd_samplers_timesteps_impl.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "180e43899887e5af50287831b6a44fa928ada41e",
+      "size": 7483,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/180e43899887e5af50287831b6a44fa928ada41e"
+    },
+    {
+      "path": "modules/sd_schedulers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4d16e309ff4c97d9080a4bfd460b73602a9d174",
+      "size": 4951,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/f4d16e309ff4c97d9080a4bfd460b73602a9d174"
+    },
+    {
+      "path": "modules/sd_unet.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a771849c8c2ac93bb63742292d81a246fcd1213c",
+      "size": 2635,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/a771849c8c2ac93bb63742292d81a246fcd1213c"
+    },
+    {
+      "path": "modules/sd_vae.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43687e48dcf73a8e00fc88a19ba155c418aff35f",
+      "size": 8502,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/43687e48dcf73a8e00fc88a19ba155c418aff35f"
+    },
+    {
+      "path": "modules/sd_vae_approx.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5dda7431f1e0204ab08f9fe2ac6233a2c8a9afe",
+      "size": 3836,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/c5dda7431f1e0204ab08f9fe2ac6233a2c8a9afe"
+    },
+    {
+      "path": "modules/sd_vae_taesd.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d06253d2a8834cf16650e027482ab00eaef7186a",
+      "size": 4859,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/d06253d2a8834cf16650e027482ab00eaef7186a"
+    },
+    {
+      "path": "modules/shared.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a3787f990da0f0920caebf2720538bcdeb12a70",
+      "size": 2942,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/2a3787f990da0f0920caebf2720538bcdeb12a70"
+    },
+    {
+      "path": "modules/shared_cmd_options.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9626667fb8e56955d710cb2d92d4688475979eb",
+      "size": 874,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/c9626667fb8e56955d710cb2d92d4688475979eb"
+    },
+    {
+      "path": "modules/shared_gradio_themes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4e3f32bc9fdffb15db9af4d5e513c02c88645d1",
+      "size": 4080,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/b4e3f32bc9fdffb15db9af4d5e513c02c88645d1"
+    },
+    {
+      "path": "modules/shared_init.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6ad0433d6f7d5fc330ff171fcb5123e2d14ab45",
+      "size": 2388,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/a6ad0433d6f7d5fc330ff171fcb5123e2d14ab45"
+    },
+    {
+      "path": "modules/shared_items.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11f10b3f7b10b29bab8971aaa99e113f64b2d214",
+      "size": 5053,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/11f10b3f7b10b29bab8971aaa99e113f64b2d214"
+    },
+    {
+      "path": "modules/shared_options.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f4520274b10f30742f36141d23d57b0104b9a84",
+      "size": 49656,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/9f4520274b10f30742f36141d23d57b0104b9a84"
+    },
+    {
+      "path": "modules/shared_state.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cd53af6271245ba509638ce7760bdaed0338ee1",
+      "size": 5566,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/4cd53af6271245ba509638ce7760bdaed0338ee1"
+    },
+    {
+      "path": "modules/shared_total_tqdm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf82e10478f853d4fccacd7b75962006aa6b4293",
+      "size": 993,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/cf82e10478f853d4fccacd7b75962006aa6b4293"
+    },
+    {
+      "path": "modules/styles.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25f22d3dd49e61531d04440c03a208d26b57b68d",
+      "size": 9572,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/25f22d3dd49e61531d04440c03a208d26b57b68d"
+    },
+    {
+      "path": "modules/sub_quadratic_attention.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cb561ef207ccbbcb5dc24edddf163251c51d3f0",
+      "size": 7302,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/4cb561ef207ccbbcb5dc24edddf163251c51d3f0"
+    },
+    {
+      "path": "modules/sysinfo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9a83d74e03ed3ab719022afbb0cec1c300e1fb0",
+      "size": 6634,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/e9a83d74e03ed3ab719022afbb0cec1c300e1fb0"
+    },
+    {
+      "path": "modules/textual_inversion",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9134fe30c1b5b6287235e099b3e350adc0b3ecf4",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/9134fe30c1b5b6287235e099b3e350adc0b3ecf4"
+    },
+    {
+      "path": "modules/textual_inversion/autocrop.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca858ef4c4aa160c4b4e2aacaf120a17d4f38568",
+      "size": 12141,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/ca858ef4c4aa160c4b4e2aacaf120a17d4f38568"
+    },
+    {
+      "path": "modules/textual_inversion/dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71c032df76ddc3910d827c90c4c464db454b8839",
+      "size": 10184,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/71c032df76ddc3910d827c90c4c464db454b8839"
+    },
+    {
+      "path": "modules/textual_inversion/image_embedding.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eac0f9760abfb45e288c7b395a4cf7a2311274fc",
+      "size": 8583,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/eac0f9760abfb45e288c7b395a4cf7a2311274fc"
+    },
+    {
+      "path": "modules/textual_inversion/learn_schedule.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c56bea45eb53731d609a04075309bb4a1b0ea704",
+      "size": 2797,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/c56bea45eb53731d609a04075309bb4a1b0ea704"
+    },
+    {
+      "path": "modules/textual_inversion/saving_settings.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45823eb115d63e0c9a0ff7cf8e4f148c08f137ee",
+      "size": 1640,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/45823eb115d63e0c9a0ff7cf8e4f148c08f137ee"
+    },
+    {
+      "path": "modules/textual_inversion/test_embedding.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07e2d9afaeaff3751b68a7c0f49d8b3466474282",
+      "size": 489220,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/07e2d9afaeaff3751b68a7c0f49d8b3466474282"
+    },
+    {
+      "path": "modules/textual_inversion/textual_inversion.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc7833e9394b567f48f817f4b54193d8dab8c166",
+      "size": 31672,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/dc7833e9394b567f48f817f4b54193d8dab8c166"
+    },
+    {
+      "path": "modules/textual_inversion/ui.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f149ad1f0f2cc74d84cea4e3ab9de65941c38467",
+      "size": 1269,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/f149ad1f0f2cc74d84cea4e3ab9de65941c38467"
+    },
+    {
+      "path": "modules/timer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d38595c7fff24a9047a619f440811007f6cde44",
+      "size": 2844,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/1d38595c7fff24a9047a619f440811007f6cde44"
+    },
+    {
+      "path": "modules/torch_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ea3da094c597b8487876ec9d51d910ec720edb0",
+      "size": 684,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/5ea3da094c597b8487876ec9d51d910ec720edb0"
+    },
+    {
+      "path": "modules/txt2img.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f20253aecf09b25b8ee3ba862e578065738dfbd",
+      "size": 4845,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/6f20253aecf09b25b8ee3ba862e578065738dfbd"
+    },
+    {
+      "path": "modules/ui.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f48638f69adaa43c6fe0366ed534f491d0e35797",
+      "size": 69101,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/f48638f69adaa43c6fe0366ed534f491d0e35797"
+    },
+    {
+      "path": "modules/ui_checkpoint_merger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9c5dd6bb6773eaf3a6a507f3162cef637c9338f",
+      "size": 7889,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/f9c5dd6bb6773eaf3a6a507f3162cef637c9338f"
+    },
+    {
+      "path": "modules/ui_common.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "395bb3b61ee0889275cc49b23731c437351c10ba",
+      "size": 13703,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/395bb3b61ee0889275cc49b23731c437351c10ba"
+    },
+    {
+      "path": "modules/ui_components.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cf67722a3d4a2bdfe527bc1561bcf1bc6f35861",
+      "size": 4074,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/9cf67722a3d4a2bdfe527bc1561bcf1bc6f35861"
+    },
+    {
+      "path": "modules/ui_extensions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23aff70962772370cf2cf24f4931e3e9ba9f68ae",
+      "size": 30694,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/23aff70962772370cf2cf24f4931e3e9ba9f68ae"
+    },
+    {
+      "path": "modules/ui_extra_networks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e9ec1645522718b862c5af8d2a3bfc2d5015dfd",
+      "size": 33805,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/6e9ec1645522718b862c5af8d2a3bfc2d5015dfd"
+    },
+    {
+      "path": "modules/ui_extra_networks_checkpoints.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d69d144dba40229718d4169d4905b11ce1b8ab1b",
+      "size": 2054,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/d69d144dba40229718d4169d4905b11ce1b8ab1b"
+    },
+    {
+      "path": "modules/ui_extra_networks_checkpoints_user_metadata.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25df0a8079ba82d606c5246256c13427fd8f13e0",
+      "size": 2448,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/25df0a8079ba82d606c5246256c13427fd8f13e0"
+    },
+    {
+      "path": "modules/ui_extra_networks_hypernets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fb4bd190a1bd2795da3cfd5c5e8beb73c804989",
+      "size": 1795,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/2fb4bd190a1bd2795da3cfd5c5e8beb73c804989"
+    },
+    {
+      "path": "modules/ui_extra_networks_textual_inversion.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "deb7cb8733b2b41082dbc4bd5006a058a411dbe3",
+      "size": 1825,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/deb7cb8733b2b41082dbc4bd5006a058a411dbe3"
+    },
+    {
+      "path": "modules/ui_extra_networks_user_metadata.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a07db105429dd1bda24799ac21f8009d7aebb94",
+      "size": 8013,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/3a07db105429dd1bda24799ac21f8009d7aebb94"
+    },
+    {
+      "path": "modules/ui_gradio_extensions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed57c1e98968a12258bda2bf50a7a50c7519608a",
+      "size": 2404,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/ed57c1e98968a12258bda2bf50a7a50c7519608a"
+    },
+    {
+      "path": "modules/ui_loadsave.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cc1ab82af4a1fd1c44287acf42368a7a738b6bf",
+      "size": 9204,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/0cc1ab82af4a1fd1c44287acf42368a7a738b6bf"
+    },
+    {
+      "path": "modules/ui_postprocessing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc08350d12655728d04ace7ddb9125768907e28d",
+      "size": 3086,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/dc08350d12655728d04ace7ddb9125768907e28d"
+    },
+    {
+      "path": "modules/ui_prompt_styles.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f71b40c419b021507dd8b5aa3b9606905c049848",
+      "size": 5976,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/f71b40c419b021507dd8b5aa3b9606905c049848"
+    },
+    {
+      "path": "modules/ui_settings.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e53ad50f8f40a0c56c98e8845680e1bb63278aea",
+      "size": 14883,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/e53ad50f8f40a0c56c98e8845680e1bb63278aea"
+    },
+    {
+      "path": "modules/ui_tempdir.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecd6bdec355a23684182f23d099de71a227e7eb9",
+      "size": 3242,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/ecd6bdec355a23684182f23d099de71a227e7eb9"
+    },
+    {
+      "path": "modules/ui_toprow.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc3c3aa383727878da74bb72885693a6248598fb",
+      "size": 7300,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/dc3c3aa383727878da74bb72885693a6248598fb"
+    },
+    {
+      "path": "modules/upscaler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "507881fede2ee20a281da4b68e87fde5c1c5d927",
+      "size": 4208,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/507881fede2ee20a281da4b68e87fde5c1c5d927"
+    },
+    {
+      "path": "modules/upscaler_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8408f05bcaaf094662739cce9763cb99672d982",
+      "size": 6103,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/a8408f05bcaaf094662739cce9763cb99672d982"
+    },
+    {
+      "path": "modules/util.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7911b0db72c63b32a6ade54543f21e3337d8f7cb",
+      "size": 6692,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/7911b0db72c63b32a6ade54543f21e3337d8f7cb"
+    },
+    {
+      "path": "modules/xlmr.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "319771b7bf08ea322cee252f92632a38ce8e9a6c",
+      "size": 5996,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/319771b7bf08ea322cee252f92632a38ce8e9a6c"
+    },
+    {
+      "path": "modules/xlmr_m18.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f60555049f586f76ff34dc282181a3c3b06f6d31",
+      "size": 7165,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/f60555049f586f76ff34dc282181a3c3b06f6d31"
+    },
+    {
+      "path": "modules/xpu_specific.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2971dbc3cf5ce64c3546ac99ed4cc1f2cfe5b2aa",
+      "size": 5851,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/2971dbc3cf5ce64c3546ac99ed4cc1f2cfe5b2aa"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0ba406787db88b636d72767866274554f77381b",
+      "size": 185,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/c0ba406787db88b636d72767866274554f77381b"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10ebc84b35fb429e139966f71643c386b27e3c43",
+      "size": 841,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/10ebc84b35fb429e139966f71643c386b27e3c43"
+    },
+    {
+      "path": "requirements-test.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37838ca25e87551365de00a940f82654b0f7762b",
+      "size": 49,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/37838ca25e87551365de00a940f82654b0f7762b"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d6bac600e14fc314977cf26812ad88b27753ba3",
+      "size": 389,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/0d6bac600e14fc314977cf26812ad88b27753ba3"
+    },
+    {
+      "path": "requirements_npu.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e6a43646a07fd469e1873dd1ef4a789002ab39f",
+      "size": 42,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/5e6a43646a07fd469e1873dd1ef4a789002ab39f"
+    },
+    {
+      "path": "requirements_versions.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0306ce94fdadbe041dbe04344a71b28f44b0ba03",
+      "size": 693,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/0306ce94fdadbe041dbe04344a71b28f44b0ba03"
+    },
+    {
+      "path": "screenshot.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47a1be4ec43e315f3e47139b10b0f9a8045904f3",
+      "size": 420577,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/47a1be4ec43e315f3e47139b10b0f9a8045904f3"
+    },
+    {
+      "path": "script.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de1a9000d4ffae9009df11df3392e166c82808cd",
+      "size": 6600,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/de1a9000d4ffae9009df11df3392e166c82808cd"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c7fa20b2cdaf35178714b46e184c8a3e06e16bb7",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/c7fa20b2cdaf35178714b46e184c8a3e06e16bb7"
+    },
+    {
+      "path": "scripts/custom_code.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc6f0d4908e89a865b8477de9b575515857c0923",
+      "size": 2502,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/cc6f0d4908e89a865b8477de9b575515857c0923"
+    },
+    {
+      "path": "scripts/img2imgalt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e833fa898fdc686231c50c2dfbb085d8346a8c2",
+      "size": 9170,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/1e833fa898fdc686231c50c2dfbb085d8346a8c2"
+    },
+    {
+      "path": "scripts/loopback.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "800ee882a16cb3e98afc3358bfc7e6302534804c",
+      "size": 5340,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/800ee882a16cb3e98afc3358bfc7e6302534804c"
+    },
+    {
+      "path": "scripts/outpainting_mk_2.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5df9dff9c4897f5469917cb70635a688f7558432",
+      "size": 13590,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/5df9dff9c4897f5469917cb70635a688f7558432"
+    },
+    {
+      "path": "scripts/poor_mans_outpainting.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea0632b68c1d8fc8ecc4109814fe1305d0101d3d",
+      "size": 5713,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/ea0632b68c1d8fc8ecc4109814fe1305d0101d3d"
+    },
+    {
+      "path": "scripts/postprocessing_codeformer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53a0cc44cdeb3b252d632367d8745e649bfabfa4",
+      "size": 1585,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/53a0cc44cdeb3b252d632367d8745e649bfabfa4"
+    },
+    {
+      "path": "scripts/postprocessing_gfpgan.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57e3623995c2b4be2ed1d1ee40c27528df826a14",
+      "size": 1143,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/57e3623995c2b4be2ed1d1ee40c27528df826a14"
+    },
+    {
+      "path": "scripts/postprocessing_upscale.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2409fd2073e86cc78b1376d8a9d374f9750ce7e7",
+      "size": 10384,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/2409fd2073e86cc78b1376d8a9d374f9750ce7e7"
+    },
+    {
+      "path": "scripts/prompt_matrix.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88324fe6a74e952204abdeb6efb53d394a7d2af4",
+      "size": 4777,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/88324fe6a74e952204abdeb6efb53d394a7d2af4"
+    },
+    {
+      "path": "scripts/prompts_from_file.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4a2f24dd25d0bf982a48c6dc7258aa4b9a1153a",
+      "size": 6603,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/a4a2f24dd25d0bf982a48c6dc7258aa4b9a1153a"
+    },
+    {
+      "path": "scripts/sd_upscale.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e614c23b987ca47daf822aa91183de0ab58ee960",
+      "size": 3957,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/e614c23b987ca47daf822aa91183de0ab58ee960"
+    },
+    {
+      "path": "scripts/xyz_grid.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a42a04d9a3768a49d79e2c584f504e20f1187d4",
+      "size": 38985,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/6a42a04d9a3768a49d79e2c584f504e20f1187d4"
+    },
+    {
+      "path": "style.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64ef61bad4626c479052d8929031584e9e9e765a",
+      "size": 43454,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/64ef61bad4626c479052d8929031584e9e9e765a"
+    },
+    {
+      "path": "test",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e516fb3d36562b8d0900ad00360791d676a78ab3",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/e516fb3d36562b8d0900ad00360791d676a78ab3"
+    },
+    {
+      "path": "test/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "test/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4fc567854de568fc94bec6dfa65ab085b269966",
+      "size": 1034,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/e4fc567854de568fc94bec6dfa65ab085b269966"
+    },
+    {
+      "path": "test/test_extras.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "799d9fadda106cb9feb7c49548a69eb90c228b98",
+      "size": 1165,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/799d9fadda106cb9feb7c49548a69eb90c228b98"
+    },
+    {
+      "path": "test/test_face_restorers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7760d51bfbec74619cf50388c320ce5bac44201c",
+      "size": 1135,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/7760d51bfbec74619cf50388c320ce5bac44201c"
+    },
+    {
+      "path": "test/test_files",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "18af91c96853fb0a28c815ef929513eaf8876e6f",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/18af91c96853fb0a28c815ef929513eaf8876e6f"
+    },
+    {
+      "path": "test/test_files/empty.pt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6ac59eb01fcb778290a85f12bdb7867de3dfdd1",
+      "size": 431,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/c6ac59eb01fcb778290a85f12bdb7867de3dfdd1"
+    },
+    {
+      "path": "test/test_files/img2img_basic.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49a420482d0a70b9f5986d776a66cb3ea39d1a97",
+      "size": 9932,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/49a420482d0a70b9f5986d776a66cb3ea39d1a97"
+    },
+    {
+      "path": "test/test_files/mask_basic.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c2e9a6899e5c0381ce7c7364b31d684464ab423",
+      "size": 362,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/0c2e9a6899e5c0381ce7c7364b31d684464ab423"
+    },
+    {
+      "path": "test/test_files/two-faces.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9d1b01032a7298d76608c8b65cbb243463491c5",
+      "size": 14768,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/c9d1b01032a7298d76608c8b65cbb243463491c5"
+    },
+    {
+      "path": "test/test_img2img.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "117d2d1eb4599fcd3019ed3e980b686d769b2f57",
+      "size": 2174,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/117d2d1eb4599fcd3019ed3e980b686d769b2f57"
+    },
+    {
+      "path": "test/test_outputs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+    },
+    {
+      "path": "test/test_outputs/.gitkeep",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "test/test_torch_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23ccb93a464b4fc9b196a5a4c841cfd890003c80",
+      "size": 473,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/23ccb93a464b4fc9b196a5a4c841cfd890003c80"
+    },
+    {
+      "path": "test/test_txt2img.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6eb94f0a8596bb42dd2bed6bc51e1f4d51fee7a6",
+      "size": 3143,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/6eb94f0a8596bb42dd2bed6bc51e1f4d51fee7a6"
+    },
+    {
+      "path": "test/test_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edba0b185345f5fa20193c7d8e8fc71fb069fd73",
+      "size": 934,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/edba0b185345f5fa20193c7d8e8fc71fb069fd73"
+    },
+    {
+      "path": "textual_inversion_templates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e2972caaa49a3d1b3cd59001a6151174bbeb63ee",
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/trees/e2972caaa49a3d1b3cd59001a6151174bbeb63ee"
+    },
+    {
+      "path": "textual_inversion_templates/hypernetwork.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91e06890571c7e4974d5a76c30fab62e8587c7d2",
+      "size": 836,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/91e06890571c7e4974d5a76c30fab62e8587c7d2"
+    },
+    {
+      "path": "textual_inversion_templates/none.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f77af4612b289a56b718c3bee62c66a6151f75be",
+      "size": 8,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/f77af4612b289a56b718c3bee62c66a6151f75be"
+    },
+    {
+      "path": "textual_inversion_templates/style.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15af2d6b85f259d0bf41fbe0c8ca7a3340e1b259",
+      "size": 588,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/15af2d6b85f259d0bf41fbe0c8ca7a3340e1b259"
+    },
+    {
+      "path": "textual_inversion_templates/style_filewords.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3a8159a869a7890bdd42470664fadf015e0658d",
+      "size": 873,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/b3a8159a869a7890bdd42470664fadf015e0658d"
+    },
+    {
+      "path": "textual_inversion_templates/subject.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79f36aa0543fc2151b7f7e28725309c0c9a4912a",
+      "size": 701,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/79f36aa0543fc2151b7f7e28725309c0c9a4912a"
+    },
+    {
+      "path": "textual_inversion_templates/subject_filewords.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "008652a6bf4277f12a1759f5f3c815ae754dcfcf",
+      "size": 1052,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/008652a6bf4277f12a1759f5f3c815ae754dcfcf"
+    },
+    {
+      "path": "webui-macos-env.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00a36e1770efd15ae010e837393c2fcc0e57c997",
+      "size": 751,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/00a36e1770efd15ae010e837393c2fcc0e57c997"
+    },
+    {
+      "path": "webui-user.bat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5a257bef06f5bfcaff1c8b33c64a767eb8b3fe5",
+      "size": 84,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/e5a257bef06f5bfcaff1c8b33c64a767eb8b3fe5"
+    },
+    {
+      "path": "webui-user.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70306c60d5b495bebd87da8f06da58fb72706553",
+      "size": 1332,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/70306c60d5b495bebd87da8f06da58fb72706553"
+    },
+    {
+      "path": "webui.bat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b162ce27ccfb633b5774820c356f9b616b0a381",
+      "size": 2547,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/7b162ce27ccfb633b5774820c356f9b616b0a381"
+    },
+    {
+      "path": "webui.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c417168aa6058bdf9ef8a67db009525a8405665",
+      "size": 5413,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/2c417168aa6058bdf9ef8a67db009525a8405665"
+    },
+    {
+      "path": "webui.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "89dae163a8289351b8b88170c7993d6129009a8b",
+      "size": 11221,
+      "url": "https://api.github.com/repos/AUTOMATIC1111/stable-diffusion-webui/git/blobs/89dae163a8289351b8b88170c7993d6129009a8b"
+    }
+  ],
+  "truncated": false
+}

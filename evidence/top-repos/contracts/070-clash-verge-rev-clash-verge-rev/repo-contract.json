@@ -1,0 +1,94 @@
+{
+  "harvested_at": "2026-06-07T20:45:13.2021823+03:00",
+  "rank": 70,
+  "repository": "clash-verge-rev/clash-verge-rev",
+  "url": "https://github.com/clash-verge-rev/clash-verge-rev",
+  "language": "TypeScript",
+  "stars": 123872,
+  "default_branch": "dev",
+  "contract_strength": "readme_plus_runtime_hints",
+  "candidate_qaas_surfaces": [
+    "ci-documented-command-discovery",
+    "node-service-or-package-contract"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\070-clash-verge-rev-clash-verge-rev\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\070-clash-verge-rev-clash-verge-rev\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [],
+    "ci": [
+      ".github/workflows/autobuild-check-test.yml",
+      ".github/workflows/autobuild.yml",
+      ".github/workflows/cargo-audit.yml",
+      ".github/workflows/check-commit-needs-build.yml",
+      ".github/workflows/clean-old-assets.yml",
+      ".github/workflows/cross_check.yaml",
+      ".github/workflows/dev.yml",
+      ".github/workflows/frontend-check.yml",
+      ".github/workflows/lint-clippy.yml",
+      ".github/workflows/pr-ai-slop-review.lock.yml",
+      ".github/workflows/pr-ai-slop-review.md",
+      ".github/workflows/release.yml",
+      ".github/workflows/rustfmt.yml",
+      ".github/workflows/sync-mihomo-changelog.yml",
+      ".github/workflows/telegram-notify.yml",
+      ".github/workflows/updater.yml"
+    ],
+    "containers": [],
+    "dotnet": [],
+    "node": [
+      "package.json",
+      "pnpm-lock.yaml",
+      "tsconfig.json"
+    ],
+    "python": [],
+    "go": [],
+    "java": [],
+    "rust": [
+      "Cargo.lock",
+      "Cargo.toml",
+      "crates/clash-verge-draft/Cargo.toml",
+      "crates/clash-verge-i18n/Cargo.toml",
+      "crates/clash-verge-limiter/Cargo.toml",
+      "crates/clash-verge-logging/Cargo.toml",
+      "crates/clash-verge-signal/Cargo.toml",
+      "crates/tauri-plugin-clash-verge-sysinfo/Cargo.toml",
+      "src-tauri/Cargo.toml"
+    ],
+    "docs": [
+      ".github/workflows/sync-mihomo-changelog.yml",
+      "CONTRIBUTING.md",
+      "Changelog.md",
+      "README.md",
+      "docs/CONTRIBUTING_i18n.md",
+      "docs/Changelog.history.md",
+      "docs/README_en.md",
+      "docs/README_es.md",
+      "docs/README_fa.md",
+      "docs/README_ja.md",
+      "docs/README_ko.md",
+      "docs/README_ru.md",
+      "docs/preview_dark.png",
+      "docs/preview_light.png",
+      "scripts-workflow/bump_changelog.sh",
+      "src/services/api.ts",
+      "template/Changelog.md"
+    ],
+    "tests": [
+      "crates/clash-verge-draft/tests/test_me.rs",
+      "src/assets/image/test/apple.svg",
+      "src/assets/image/test/github.svg",
+      "src/assets/image/test/google.svg",
+      "src/assets/image/test/youtube.svg",
+      "src/components/test/test-box.tsx",
+      "src/components/test/test-item.tsx",
+      "src/components/test/test-viewer.tsx"
+    ]
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\070-clash-verge-rev-clash-verge-rev\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\070-clash-verge-rev-clash-verge-rev\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

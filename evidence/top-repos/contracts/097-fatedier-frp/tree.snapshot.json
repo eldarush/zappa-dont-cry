@@ -1,0 +1,4929 @@
+{
+  "sha": "9bde0b07de61c27b627980d47f625ba41d3ceca8",
+  "url": "https://api.github.com/repos/fatedier/frp/git/trees/9bde0b07de61c27b627980d47f625ba41d3ceca8",
+  "tree": [
+    {
+      "path": ".circleci",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "09745d1b4c742f6c188a1c6c80bfa1ff30cee08f",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/09745d1b4c742f6c188a1c6c80bfa1ff30cee08f"
+    },
+    {
+      "path": ".circleci/config.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21f4159da3e166a09e07e9f79b2b5a9983b16b49",
+      "size": 492,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/21f4159da3e166a09e07e9f79b2b5a9983b16b49"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e6975508bcacd5f0bfb27b07611204ec9264203a",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/e6975508bcacd5f0bfb27b07611204ec9264203a"
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e87e0d49f2b0f919798d837e23d37fafbe8130d1",
+      "size": 108,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/e87e0d49f2b0f919798d837e23d37fafbe8130d1"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d0558cbf96d1d5c4d7f7107210124b72a3253c5f",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/d0558cbf96d1d5c4d7f7107210124b72a3253c5f"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1e968efee058694afaac9d2b3874a9893a363a4",
+      "size": 2082,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/c1e968efee058694afaac9d2b3874a9893a363a4"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ba13e0cec6cbbfd462e9ebf529dd2093148cd69",
+      "size": 28,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/3ba13e0cec6cbbfd462e9ebf529dd2093148cd69"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc48b279fae86aea9fbf4d7d8ce369a49e615e48",
+      "size": 912,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/bc48b279fae86aea9fbf4d7d8ce369a49e615e48"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7724848141fc54fe33007a074e73b0c30adfa22d",
+      "size": 37,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/7724848141fc54fe33007a074e73b0c30adfa22d"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8290a2d8bb5344315c51d3ba0ba9d0feba136a02",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/8290a2d8bb5344315c51d3ba0ba9d0feba136a02"
+    },
+    {
+      "path": ".github/workflows/build-and-push-image.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "425f7e39ef3fe7167e1db275e48ff7e678ef5fd6",
+      "size": 2596,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/425f7e39ef3fe7167e1db275e48ff7e678ef5fd6"
+    },
+    {
+      "path": ".github/workflows/golangci-lint.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3217c234a27947451e0604644604c0e35232220c",
+      "size": 895,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/3217c234a27947451e0604644604c0e35232220c"
+    },
+    {
+      "path": ".github/workflows/goreleaser.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f3f156fb0967e0884dc2766a01066d4414b607b",
+      "size": 875,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/5f3f156fb0967e0884dc2766a01066d4414b607b"
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8960807be6ad51cfcc288cc3cf508e817aa0f1bb",
+      "size": 1331,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/8960807be6ad51cfcc288cc3cf508e817aa0f1bb"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38917e90d6e882f425f5e7a06346c5531cccc00e",
+      "size": 324,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/38917e90d6e882f425f5e7a06346c5531cccc00e"
+    },
+    {
+      "path": ".golangci.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "886b55fb5b72edebd4b65182929080cf013ee562",
+      "size": 2088,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/886b55fb5b72edebd4b65182929080cf013ee562"
+    },
+    {
+      "path": ".goreleaser.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c81f7d55afdb463923808895840d2536bbdfb97",
+      "size": 596,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/2c81f7d55afdb463923808895840d2536bbdfb97"
+    },
+    {
+      "path": "AGENTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23f0e734a3a8b678e01850454727c0c2267b9e7f",
+      "size": 1063,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/23f0e734a3a8b678e01850454727c0c2267b9e7f"
+    },
+    {
+      "path": "CLAUDE.md",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "47dc3e3d863cfb5727b87d785d09abf9743c0a72",
+      "size": 9,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/47dc3e3d863cfb5727b87d785d09abf9743c0a72"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f71f43fee3f78649d238238cbde51e6d7055c82",
+      "size": 11358,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/8f71f43fee3f78649d238238cbde51e6d7055c82"
+    },
+    {
+      "path": "Makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bac5601a350639008562fcbb413a7d1270c5659a",
+      "size": 2127,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/bac5601a350639008562fcbb413a7d1270c5659a"
+    },
+    {
+      "path": "Makefile.cross-compiles",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d084bbef44a1fd05fe1ff9ce49df3e2d883c75ac",
+      "size": 1740,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/d084bbef44a1fd05fe1ff9ce49df3e2d883c75ac"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d850c854f5af356ca3f339a56af186370bb1fe94",
+      "size": 44668,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/d850c854f5af356ca3f339a56af186370bb1fe94"
+    },
+    {
+      "path": "README_zh.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a08d44018b3337cc0204f2949a1f7b03779f9320",
+      "size": 7567,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/a08d44018b3337cc0204f2949a1f7b03779f9320"
+    },
+    {
+      "path": "Release.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2549a736ce9bf457787e5c7edf5a017330ae6e89",
+      "size": 639,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/2549a736ce9bf457787e5c7edf5a017330ae6e89"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8ce75cc18bb229a2827b2fcab41e29daf26edb00",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/8ce75cc18bb229a2827b2fcab41e29daf26edb00"
+    },
+    {
+      "path": "assets/assets.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "713087adf6b4fa2afc23365e38137bb1f44f851e",
+      "size": 1407,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/713087adf6b4fa2afc23365e38137bb1f44f851e"
+    },
+    {
+      "path": "client",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d66b251f9e6a01abece68ea0130b079d33849ac0",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/d66b251f9e6a01abece68ea0130b079d33849ac0"
+    },
+    {
+      "path": "client/api_router.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82b730460e97b8c7d0dedaa5c47a3a57f9abdc5f",
+      "size": 4368,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/82b730460e97b8c7d0dedaa5c47a3a57f9abdc5f"
+    },
+    {
+      "path": "client/config_manager.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24512e9fbb9df769ab7cfffc9b3e7652c986eeeb",
+      "size": 12985,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/24512e9fbb9df769ab7cfffc9b3e7652c986eeeb"
+    },
+    {
+      "path": "client/config_manager_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07ae3297889ad6cbb95459492981d7e7513d1966",
+      "size": 3614,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/07ae3297889ad6cbb95459492981d7e7513d1966"
+    },
+    {
+      "path": "client/configmgmt",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9fc2cf4254a662b5e5b3169bda51cd0a5faed97f",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/9fc2cf4254a662b5e5b3169bda51cd0a5faed97f"
+    },
+    {
+      "path": "client/configmgmt/types.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a51a5e5f0fe1f3a9293a4751d8d9966f46349c7",
+      "size": 1404,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/5a51a5e5f0fe1f3a9293a4751d8d9966f46349c7"
+    },
+    {
+      "path": "client/connector.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34b24f0d2f44332735329878446b2044fcfebe9a",
+      "size": 7703,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/34b24f0d2f44332735329878446b2044fcfebe9a"
+    },
+    {
+      "path": "client/control.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e3002bceca01203c04b4295d34eab852bfdddf1",
+      "size": 8705,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/6e3002bceca01203c04b4295d34eab852bfdddf1"
+    },
+    {
+      "path": "client/control_session.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d533ba2d4f00cda3dd8809132ba5858561fd7ca2",
+      "size": 5979,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/d533ba2d4f00cda3dd8809132ba5858561fd7ca2"
+    },
+    {
+      "path": "client/control_session_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0778fba69a60ba155b39b8d984f058e502b5925",
+      "size": 8086,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/a0778fba69a60ba155b39b8d984f058e502b5925"
+    },
+    {
+      "path": "client/event",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "484fde4e6c5231e4a7e184bdb3531ff0b9b95c8e",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/484fde4e6c5231e4a7e184bdb3531ff0b9b95c8e"
+    },
+    {
+      "path": "client/event/event.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acdc96ba2b949e1ced6de66eddb95b2429437cd0",
+      "size": 293,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/acdc96ba2b949e1ced6de66eddb95b2429437cd0"
+    },
+    {
+      "path": "client/health",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "42bee7a1bf750015ab395054a5b3fc98215f24fa",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/42bee7a1bf750015ab395054a5b3fc98215f24fa"
+    },
+    {
+      "path": "client/health/health.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d298e61520d84362966cdf745e124aa83b1a10b8",
+      "size": 4351,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/d298e61520d84362966cdf745e124aa83b1a10b8"
+    },
+    {
+      "path": "client/http",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a986fa5b4be6610fa64361b923be7fdc893b681f",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/a986fa5b4be6610fa64361b923be7fdc893b681f"
+    },
+    {
+      "path": "client/http/controller.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57e8165d35c9bbaeafd73e6cccbaf4b49e3b02d2",
+      "size": 12315,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/57e8165d35c9bbaeafd73e6cccbaf4b49e3b02d2"
+    },
+    {
+      "path": "client/http/controller_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "719fbcd4f7e64c5d658d36997802ae5712c0c522",
+      "size": 19397,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/719fbcd4f7e64c5d658d36997802ae5712c0c522"
+    },
+    {
+      "path": "client/http/model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "667bb2f72c195d0551d087b69657791135ee62b5",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/667bb2f72c195d0551d087b69657791135ee62b5"
+    },
+    {
+      "path": "client/http/model/proxy_definition.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dae4b4b84d71a816b7a7ab95cb4c0ebda5ec3b0d",
+      "size": 3243,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/dae4b4b84d71a816b7a7ab95cb4c0ebda5ec3b0d"
+    },
+    {
+      "path": "client/http/model/types.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "637048506c146d4fac5c17ee31fdcbc3f06dae8a",
+      "size": 1412,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/637048506c146d4fac5c17ee31fdcbc3f06dae8a"
+    },
+    {
+      "path": "client/http/model/visitor_definition.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a108982d0a43bcb2d69cf01a6499896319c18b68",
+      "size": 2386,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/a108982d0a43bcb2d69cf01a6499896319c18b68"
+    },
+    {
+      "path": "client/proxy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0dd8539541780b7156318afb31d0ee243d055bb6",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/0dd8539541780b7156318afb31d0ee243d055bb6"
+    },
+    {
+      "path": "client/proxy/general_tcp.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3923085503b03c7d0ead22c0bb35584d89714ce",
+      "size": 1345,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/c3923085503b03c7d0ead22c0bb35584d89714ce"
+    },
+    {
+      "path": "client/proxy/proxy.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84ff49a1e8be7543f7b71dd71c1f730e65cfd4c8",
+      "size": 7676,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/84ff49a1e8be7543f7b71dd71c1f730e65cfd4c8"
+    },
+    {
+      "path": "client/proxy/proxy_manager.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42f9f5890400eb22370dbc735385448835ad0c18",
+      "size": 4409,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/42f9f5890400eb22370dbc735385448835ad0c18"
+    },
+    {
+      "path": "client/proxy/proxy_wrapper.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "718c02e68d26bc096c49e9ae1dd988cedcfc8d92",
+      "size": 7116,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/718c02e68d26bc096c49e9ae1dd988cedcfc8d92"
+    },
+    {
+      "path": "client/proxy/sudp.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7db6d991120dcb6ab70d7eebdae3699fefcfa975",
+      "size": 4665,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/7db6d991120dcb6ab70d7eebdae3699fefcfa975"
+    },
+    {
+      "path": "client/proxy/udp.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "110c01ace0b98a6f6f8ab2873544cd796528e713",
+      "size": 4294,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/110c01ace0b98a6f6f8ab2873544cd796528e713"
+    },
+    {
+      "path": "client/proxy/xtcp.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aef66780625b3c4769211a10054d2692adec1414",
+      "size": 6466,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/aef66780625b3c4769211a10054d2692adec1414"
+    },
+    {
+      "path": "client/proxy/xtcp_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd295a0717e8e1b0fcc980b2098695a68f9cdeb3",
+      "size": 1765,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/bd295a0717e8e1b0fcc980b2098695a68f9cdeb3"
+    },
+    {
+      "path": "client/service.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6e42e461665ad3e6f025d5bab65a1df083e1e3c",
+      "size": 15158,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/e6e42e461665ad3e6f025d5bab65a1df083e1e3c"
+    },
+    {
+      "path": "client/service_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29f141a196122fe04ca386fe2ba7eab0f1d5b26a",
+      "size": 6380,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/29f141a196122fe04ca386fe2ba7eab0f1d5b26a"
+    },
+    {
+      "path": "client/visitor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "66ea9f8f511d33c382eccc7f8a8f8d28cdd1b182",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/66ea9f8f511d33c382eccc7f8a8f8d28cdd1b182"
+    },
+    {
+      "path": "client/visitor/stcp.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03ec51feb6e2f1022390c5ca8b46f375a0bef12d",
+      "size": 2062,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/03ec51feb6e2f1022390c5ca8b46f375a0bef12d"
+    },
+    {
+      "path": "client/visitor/sudp.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91d57da63449c91662c1b2fe26593520e08683b5",
+      "size": 5622,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/91d57da63449c91662c1b2fe26593520e08683b5"
+    },
+    {
+      "path": "client/visitor/visitor.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dff0bb9475cfd2e2c1b46ffbd5c8a96858aa3a49",
+      "size": 5794,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/dff0bb9475cfd2e2c1b46ffbd5c8a96858aa3a49"
+    },
+    {
+      "path": "client/visitor/visitor_manager.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ca194bdce900738fd9a8fc8c2ae31c6eaccb15c",
+      "size": 5538,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/1ca194bdce900738fd9a8fc8c2ae31c6eaccb15c"
+    },
+    {
+      "path": "client/visitor/xtcp.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7a60895336b9eed2f13114bcf1fc950f92eb6cc",
+      "size": 12035,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/e7a60895336b9eed2f13114bcf1fc950f92eb6cc"
+    },
+    {
+      "path": "cmd",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a22a8b03bb615d65721cc9ee4cf09b4508339fb2",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/a22a8b03bb615d65721cc9ee4cf09b4508339fb2"
+    },
+    {
+      "path": "cmd/frpc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7850c71ec83ec67c4b3eeeeb360d57853dad2c0c",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/7850c71ec83ec67c4b3eeeeb360d57853dad2c0c"
+    },
+    {
+      "path": "cmd/frpc/main.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c44216674e8fb35b7659269c771c16cda650a3f6",
+      "size": 818,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/c44216674e8fb35b7659269c771c16cda650a3f6"
+    },
+    {
+      "path": "cmd/frpc/sub",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "456e75576c1d4ca62eb3b11e897e18ad07df42d1",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/456e75576c1d4ca62eb3b11e897e18ad07df42d1"
+    },
+    {
+      "path": "cmd/frpc/sub/admin.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abe8063585c4e4ea0f53e415c48a95da7c452d50",
+      "size": 3659,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/abe8063585c4e4ea0f53e415c48a95da7c452d50"
+    },
+    {
+      "path": "cmd/frpc/sub/nathole.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b76c8ab70d8a2b8d924a75a62b2020333880f035",
+      "size": 2973,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/b76c8ab70d8a2b8d924a75a62b2020333880f035"
+    },
+    {
+      "path": "cmd/frpc/sub/proxy.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8651f0b3bf8e21263e3cafd56d573cbadc284c9c",
+      "size": 4319,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/8651f0b3bf8e21263e3cafd56d573cbadc284c9c"
+    },
+    {
+      "path": "cmd/frpc/sub/root.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d83cabfd93e064b58c3998ec87261830794655a",
+      "size": 6647,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/5d83cabfd93e064b58c3998ec87261830794655a"
+    },
+    {
+      "path": "cmd/frpc/sub/verify.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "830f7bf1118fffac0259726158ea614dbae0cf13",
+      "size": 1626,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/830f7bf1118fffac0259726158ea614dbae0cf13"
+    },
+    {
+      "path": "cmd/frps",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e17c9f9be286f86ebc57c1bd63844d45e46a6e90",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/e17c9f9be286f86ebc57c1bd63844d45e46a6e90"
+    },
+    {
+      "path": "cmd/frps/main.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4eda4f1f3f4059196862392098fa920d91da03c5",
+      "size": 815,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/4eda4f1f3f4059196862392098fa920d91da03c5"
+    },
+    {
+      "path": "cmd/frps/root.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6ab008a343c6b75fdfb496952719a46028cdd60",
+      "size": 3566,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/e6ab008a343c6b75fdfb496952719a46028cdd60"
+    },
+    {
+      "path": "cmd/frps/verify.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ddef1abcf6ebc472a82070106d8852f9db1b717",
+      "size": 1619,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/7ddef1abcf6ebc472a82070106d8852f9db1b717"
+    },
+    {
+      "path": "conf",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6faf9af55dcb68aeff463cd85ff3ddc813e94349",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/6faf9af55dcb68aeff463cd85ff3ddc813e94349"
+    },
+    {
+      "path": "conf/frpc.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6438f040e9b3abe3fd42093f704d2aaf21861407",
+      "size": 142,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/6438f040e9b3abe3fd42093f704d2aaf21861407"
+    },
+    {
+      "path": "conf/frpc_full_example.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b141b0ed583bf9c8fbc4ce2c9dd06891acda7814",
+      "size": 15972,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/b141b0ed583bf9c8fbc4ce2c9dd06891acda7814"
+    },
+    {
+      "path": "conf/frps.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28e6d968b9521efe0dbb6d2d427cdd7d1fd94393",
+      "size": 16,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/28e6d968b9521efe0dbb6d2d427cdd7d1fd94393"
+    },
+    {
+      "path": "conf/frps_full_example.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aba37435ffcf250b63ca3e5a687b20f66dc23a95",
+      "size": 6360,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/aba37435ffcf250b63ca3e5a687b20f66dc23a95"
+    },
+    {
+      "path": "conf/legacy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c2b2a603b5f9a97fd0c524b423aebb4c1fb6e2a4",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/c2b2a603b5f9a97fd0c524b423aebb4c1fb6e2a4"
+    },
+    {
+      "path": "conf/legacy/frpc_legacy_full.ini",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51ac9c47725c45a62299b33d9f9791142572ce5c",
+      "size": 12668,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/51ac9c47725c45a62299b33d9f9791142572ce5c"
+    },
+    {
+      "path": "conf/legacy/frps_legacy_full.ini",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "525072dc87dfeb9b8f96badc0f034c86cc40ceb8",
+      "size": 5933,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/525072dc87dfeb9b8f96badc0f034c86cc40ceb8"
+    },
+    {
+      "path": "doc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a1d6fa7947dd2bc3dfe8a41c012b0f73f9340a9f",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/a1d6fa7947dd2bc3dfe8a41c012b0f73f9340a9f"
+    },
+    {
+      "path": "doc/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "79842cb8b8a503085c5d02d625548e0b4392bdc2",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/79842cb8b8a503085c5d02d625548e0b4392bdc2"
+    },
+    {
+      "path": "doc/agents/release.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d353a088c48bb00ad3bd91581d74ee0aa47db0ae",
+      "size": 3000,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/d353a088c48bb00ad3bd91581d74ee0aa47db0ae"
+    },
+    {
+      "path": "doc/deprecations.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5d394c56954c9f1f0207011f0b3e4c2f231241b",
+      "size": 1826,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/a5d394c56954c9f1f0207011f0b3e4c2f231241b"
+    },
+    {
+      "path": "doc/pic",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "280c551d2296ae03574408cce1276813af213ff0",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/280c551d2296ae03574408cce1276813af213ff0"
+    },
+    {
+      "path": "doc/pic/architecture.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d9b78b36a2bc6d8b662c900b5ea2e7225334d60",
+      "size": 85770,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/5d9b78b36a2bc6d8b662c900b5ea2e7225334d60"
+    },
+    {
+      "path": "doc/pic/dashboard.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6dff6474f9f9da0361b0a31119ea12c5b7739c2",
+      "size": 31889,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/d6dff6474f9f9da0361b0a31119ea12c5b7739c2"
+    },
+    {
+      "path": "doc/pic/sponsor_daytona.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e36b6bba4aff4a5396ef46a09023e97b7e107673",
+      "size": 14455,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/e36b6bba4aff4a5396ef46a09023e97b7e107673"
+    },
+    {
+      "path": "doc/pic/sponsor_jetbrains.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be2113cbc49aff52efd96fcf1fb558b9256c8482",
+      "size": 35889,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/be2113cbc49aff52efd96fcf1fb558b9256c8482"
+    },
+    {
+      "path": "doc/pic/sponsor_olares.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "375c2a7ddb86f2a31bd1de168c601fe1bb5afdb2",
+      "size": 46760,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/375c2a7ddb86f2a31bd1de168c601fe1bb5afdb2"
+    },
+    {
+      "path": "doc/server_plugin.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ddef82747023a09b18bce119842dd7e56bf717d",
+      "size": 5700,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/6ddef82747023a09b18bce119842dd7e56bf717d"
+    },
+    {
+      "path": "doc/ssh_tunnel_gateway.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3dd4c343760da24ce2faba9fc7c515633f2a974",
+      "size": 6843,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/b3dd4c343760da24ce2faba9fc7c515633f2a974"
+    },
+    {
+      "path": "doc/virtual_net.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f135dfc2fc6846737f4792b86334459022a77d5",
+      "size": 2169,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/6f135dfc2fc6846737f4792b86334459022a77d5"
+    },
+    {
+      "path": "dockerfiles",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ea716aa0e58c31b63df603e4027bf6c51191f9a6",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/ea716aa0e58c31b63df603e4027bf6c51191f9a6"
+    },
+    {
+      "path": "dockerfiles/Dockerfile-for-frpc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6760bb16ce175eb1c0aecbb2606c4b984014ee50",
+      "size": 543,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/6760bb16ce175eb1c0aecbb2606c4b984014ee50"
+    },
+    {
+      "path": "dockerfiles/Dockerfile-for-frps",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ef7dff482cde494f8acdb3ec711b3a3aba688ab",
+      "size": 543,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/8ef7dff482cde494f8acdb3ec711b3a3aba688ab"
+    },
+    {
+      "path": "go.mod",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9d53c845cdf59af29cd8649a2b979132468eb36",
+      "size": 3334,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/d9d53c845cdf59af29cd8649a2b979132468eb36"
+    },
+    {
+      "path": "go.sum",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fad6ea2b44a15705cad9129a3bc005a8290e8f5",
+      "size": 23198,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/2fad6ea2b44a15705cad9129a3bc005a8290e8f5"
+    },
+    {
+      "path": "hack",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4571da0983a26f733a26ba71eef286c015b6822a",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/4571da0983a26f733a26ba71eef286c015b6822a"
+    },
+    {
+      "path": "hack/download.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "acdf033aff773c39babd649fb15c0ca577c72369",
+      "size": 1676,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/acdf033aff773c39babd649fb15c0ca577c72369"
+    },
+    {
+      "path": "hack/run-e2e-compatibility.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "988d89b487e3615bb74bd3d9abfe7c17eedb5d45",
+      "size": 5342,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/988d89b487e3615bb74bd3d9abfe7c17eedb5d45"
+    },
+    {
+      "path": "hack/run-e2e.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d1b20b527f3b8bc46d79ce61de3652abd8ab97c6",
+      "size": 836,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/d1b20b527f3b8bc46d79ce61de3652abd8ab97c6"
+    },
+    {
+      "path": "package.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "16dfcee03eaa67576773789205da1994ed7daa6a",
+      "size": 2070,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/16dfcee03eaa67576773789205da1994ed7daa6a"
+    },
+    {
+      "path": "pkg",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f6fc3cec21f0e31136f902b3f4be3893c79684af",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/f6fc3cec21f0e31136f902b3f4be3893c79684af"
+    },
+    {
+      "path": "pkg/auth",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "efd971c6ca7407fb6736e43a2cc0edac4e330211",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/efd971c6ca7407fb6736e43a2cc0edac4e330211"
+    },
+    {
+      "path": "pkg/auth/auth.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "366b62ef31e0cdffbfc6d2bf287aa6c9ac3785fd",
+      "size": 3570,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/366b62ef31e0cdffbfc6d2bf287aa6c9ac3785fd"
+    },
+    {
+      "path": "pkg/auth/legacy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7712cff81eea82ed276785e43b3006656892beb7",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/7712cff81eea82ed276785e43b3006656892beb7"
+    },
+    {
+      "path": "pkg/auth/legacy/legacy.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c16d38f2c91cc8f22627def6de374d4076244989",
+      "size": 6012,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/c16d38f2c91cc8f22627def6de374d4076244989"
+    },
+    {
+      "path": "pkg/auth/oidc.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "826a67152dd89c3c3a17fc29dc3c591707e4054b",
+      "size": 10321,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/826a67152dd89c3c3a17fc29dc3c591707e4054b"
+    },
+    {
+      "path": "pkg/auth/oidc_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70e5988383ebb9a671b34ed6e2dd87904eba9dfe",
+      "size": 7776,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/70e5988383ebb9a671b34ed6e2dd87904eba9dfe"
+    },
+    {
+      "path": "pkg/auth/pass.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2eaf3f0bd70e88da348f0a7128609167459801b8",
+      "size": 956,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/2eaf3f0bd70e88da348f0a7128609167459801b8"
+    },
+    {
+      "path": "pkg/auth/token.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ee993f9d504478b6c7f8cd931380bbd13112022",
+      "size": 2852,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/9ee993f9d504478b6c7f8cd931380bbd13112022"
+    },
+    {
+      "path": "pkg/config",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd88811928571787e83a7c63ce63371373b45036",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/fd88811928571787e83a7c63ce63371373b45036"
+    },
+    {
+      "path": "pkg/config/flags.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1f2251d4e045aef162dd8fe2a438374d165693d",
+      "size": 11031,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/e1f2251d4e045aef162dd8fe2a438374d165693d"
+    },
+    {
+      "path": "pkg/config/legacy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dcc3cf2cadcec395f22dac41b4a536b15da70d24",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/dcc3cf2cadcec395f22dac41b4a536b15da70d24"
+    },
+    {
+      "path": "pkg/config/legacy/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d74f756e2071d36aea98ad2a354d471d93da2b78",
+      "size": 835,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/d74f756e2071d36aea98ad2a354d471d93da2b78"
+    },
+    {
+      "path": "pkg/config/legacy/client.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cc026147987a195f05c37f0761848783d063d34",
+      "size": 15951,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/8cc026147987a195f05c37f0761848783d063d34"
+    },
+    {
+      "path": "pkg/config/legacy/conversion.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec8d069899c359d12f9ce21062c1b47071e8bfa1",
+      "size": 12421,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/ec8d069899c359d12f9ce21062c1b47071e8bfa1"
+    },
+    {
+      "path": "pkg/config/legacy/parse.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80850f6f95764c6ba2d7f4e8179ab08150932cd1",
+      "size": 2572,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/80850f6f95764c6ba2d7f4e8179ab08150932cd1"
+    },
+    {
+      "path": "pkg/config/legacy/proxy.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d7cf9a081b1f7bbdb96b2addf38d1797e18867f",
+      "size": 12414,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/8d7cf9a081b1f7bbdb96b2addf38d1797e18867f"
+    },
+    {
+      "path": "pkg/config/legacy/server.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cfa1bdca7f8300db33aaaef21fb368067fe4309",
+      "size": 13372,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/1cfa1bdca7f8300db33aaaef21fb368067fe4309"
+    },
+    {
+      "path": "pkg/config/legacy/utils.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad53f1c590eef079a7c90dd9274490825d76fa1c",
+      "size": 1163,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/ad53f1c590eef079a7c90dd9274490825d76fa1c"
+    },
+    {
+      "path": "pkg/config/legacy/value.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecf805c991270b13531664470e0528a49bdf67a1",
+      "size": 1526,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/ecf805c991270b13531664470e0528a49bdf67a1"
+    },
+    {
+      "path": "pkg/config/legacy/visitor.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "110a214d183dedd95c9d11670ecd4732e52ebf22",
+      "size": 5386,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/110a214d183dedd95c9d11670ecd4732e52ebf22"
+    },
+    {
+      "path": "pkg/config/load.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38634fc56800bec094697ffe0020f4fd426c5f28",
+      "size": 14795,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/38634fc56800bec094697ffe0020f4fd426c5f28"
+    },
+    {
+      "path": "pkg/config/load_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b711a5c1986d826ec50b7dff9ee722b8559c966e",
+      "size": 15557,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/b711a5c1986d826ec50b7dff9ee722b8559c966e"
+    },
+    {
+      "path": "pkg/config/source",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4800e5691ac14b42277e49b81c67445583e2345e",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/4800e5691ac14b42277e49b81c67445583e2345e"
+    },
+    {
+      "path": "pkg/config/source/aggregator.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58496932f70c6dda2aec8f116125fc3d5038a842",
+      "size": 2803,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/58496932f70c6dda2aec8f116125fc3d5038a842"
+    },
+    {
+      "path": "pkg/config/source/aggregator_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "380c05cfb4a0e24b0f372d99b52ccaf763f147c1",
+      "size": 6528,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/380c05cfb4a0e24b0f372d99b52ccaf763f147c1"
+    },
+    {
+      "path": "pkg/config/source/base_source.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab1f59fe0daf1019fe0efe4c855f349bec2ca612",
+      "size": 1999,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/ab1f59fe0daf1019fe0efe4c855f349bec2ca612"
+    },
+    {
+      "path": "pkg/config/source/base_source_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34ea9d9d6ae4a1c628cd338b08ec90c28eb28754",
+      "size": 1102,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/34ea9d9d6ae4a1c628cd338b08ec90c28eb28754"
+    },
+    {
+      "path": "pkg/config/source/clone.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cacd5dbb8cbc0251d8d60455ea07725181d0ab18",
+      "size": 1324,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/cacd5dbb8cbc0251d8d60455ea07725181d0ab18"
+    },
+    {
+      "path": "pkg/config/source/config_source.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95c8cfa1ffc8275491e6666910e758a806ffa436",
+      "size": 1573,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/95c8cfa1ffc8275491e6666910e758a806ffa436"
+    },
+    {
+      "path": "pkg/config/source/config_source_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "793284e19d99653ea07af56843cd5455e4bfbb03",
+      "size": 4930,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/793284e19d99653ea07af56843cd5455e4bfbb03"
+    },
+    {
+      "path": "pkg/config/source/source.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6cff226122cea1746b6c6a97774e10c68038f2d",
+      "size": 1585,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/a6cff226122cea1746b6c6a97774e10c68038f2d"
+    },
+    {
+      "path": "pkg/config/source/store.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f568f8853c0cfc1c0a41bfe334c52932e4568b4b",
+      "size": 8406,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/f568f8853c0cfc1c0a41bfe334c52932e4568b4b"
+    },
+    {
+      "path": "pkg/config/source/store_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bb107c531fe25b3a56254b0711044396e9abdfc",
+      "size": 7231,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/8bb107c531fe25b3a56254b0711044396e9abdfc"
+    },
+    {
+      "path": "pkg/config/source/validation.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55bc42204d8c69830b9a70aa36bac5c2e8e9deab",
+      "size": 1220,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/55bc42204d8c69830b9a70aa36bac5c2e8e9deab"
+    },
+    {
+      "path": "pkg/config/template.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16fe069f2ff9e402e0b8572e82aba93b7aee5519",
+      "size": 1493,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/16fe069f2ff9e402e0b8572e82aba93b7aee5519"
+    },
+    {
+      "path": "pkg/config/types",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e2c96d04f3b5830126595cd724480f76133d6e11",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/e2c96d04f3b5830126595cd724480f76133d6e11"
+    },
+    {
+      "path": "pkg/config/types/types.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "972908ed3bb7f7a03f317c8499bb819de1ef982c",
+      "size": 3951,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/972908ed3bb7f7a03f317c8499bb819de1ef982c"
+    },
+    {
+      "path": "pkg/config/types/types_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c05ac9eef66629abfd9a0a441887caebe88e2bf2",
+      "size": 2248,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/c05ac9eef66629abfd9a0a441887caebe88e2bf2"
+    },
+    {
+      "path": "pkg/config/v1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "598b9ea4a58441cc1410474fc4bdbde9c78c1dfa",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/598b9ea4a58441cc1410474fc4bdbde9c78c1dfa"
+    },
+    {
+      "path": "pkg/config/v1/api.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0991fc935139bdbbf11a2e5567f1b1569f20e0ce",
+      "size": 666,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/0991fc935139bdbbf11a2e5567f1b1569f20e0ce"
+    },
+    {
+      "path": "pkg/config/v1/client.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05d02c944af9f709dba226d4663d5b628e1647b7",
+      "size": 11416,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/05d02c944af9f709dba226d4663d5b628e1647b7"
+    },
+    {
+      "path": "pkg/config/v1/client_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67214a5df5ff572bc7af0678858dcbfef0af5998",
+      "size": 1396,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/67214a5df5ff572bc7af0678858dcbfef0af5998"
+    },
+    {
+      "path": "pkg/config/v1/clone_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b108528ada3a37f2ed033eb075df161081ec8ea",
+      "size": 3262,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/9b108528ada3a37f2ed033eb075df161081ec8ea"
+    },
+    {
+      "path": "pkg/config/v1/common.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41bd9a4caa1d79c004a247dee7bfa376fc96f197",
+      "size": 4838,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/41bd9a4caa1d79c004a247dee7bfa376fc96f197"
+    },
+    {
+      "path": "pkg/config/v1/decode.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "427cea7fff195ea12a89c5907d2c4754d216acc9",
+      "size": 5953,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/427cea7fff195ea12a89c5907d2c4754d216acc9"
+    },
+    {
+      "path": "pkg/config/v1/decode_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cba433adb034cde8a4e7454083a6c91321e3b292",
+      "size": 2258,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/cba433adb034cde8a4e7454083a6c91321e3b292"
+    },
+    {
+      "path": "pkg/config/v1/proxy.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7d1a6b79b3cd5e9ddaa9f518a4ef2ae1a0b2318",
+      "size": 15807,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/e7d1a6b79b3cd5e9ddaa9f518a4ef2ae1a0b2318"
+    },
+    {
+      "path": "pkg/config/v1/proxy_plugin.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d6ca3d0868d0c91071b75665f8a5eca06970414",
+      "size": 7370,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/0d6ca3d0868d0c91071b75665f8a5eca06970414"
+    },
+    {
+      "path": "pkg/config/v1/proxy_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64753250818221668bb9cf4554fb226331c589fe",
+      "size": 1282,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/64753250818221668bb9cf4554fb226331c589fe"
+    },
+    {
+      "path": "pkg/config/v1/server.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a92aac97aab6e133a14fd4c6b3c74e33f33aabb5",
+      "size": 9305,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/a92aac97aab6e133a14fd4c6b3c74e33f33aabb5"
+    },
+    {
+      "path": "pkg/config/v1/server_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd9381c509d76d516bfbcb2f521df55e0096c87e",
+      "size": 1186,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/cd9381c509d76d516bfbcb2f521df55e0096c87e"
+    },
+    {
+      "path": "pkg/config/v1/store.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f992c3bb1353dec5bcd368380a9e00d456a8d46",
+      "size": 893,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/7f992c3bb1353dec5bcd368380a9e00d456a8d46"
+    },
+    {
+      "path": "pkg/config/v1/validation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6ced5d132690a2ab44c9767f633d0d87d6c5027d",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/6ced5d132690a2ab44c9767f633d0d87d6c5027d"
+    },
+    {
+      "path": "pkg/config/v1/validation/auth.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c70235dc37b52e1e1dbff95959bba4e0bbeec214",
+      "size": 1388,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/c70235dc37b52e1e1dbff95959bba4e0bbeec214"
+    },
+    {
+      "path": "pkg/config/v1/validation/auth_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e90b44c1948d81248ac56aa28fbed877b6dc7e3",
+      "size": 6366,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/4e90b44c1948d81248ac56aa28fbed877b6dc7e3"
+    },
+    {
+      "path": "pkg/config/v1/validation/client.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "770043176694dd877bdf95ad85338f97ebe346fa",
+      "size": 6145,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/770043176694dd877bdf95ad85338f97ebe346fa"
+    },
+    {
+      "path": "pkg/config/v1/validation/common.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7b93a32243ba6571a5252d094909cdb75321e7e",
+      "size": 1485,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/c7b93a32243ba6571a5252d094909cdb75321e7e"
+    },
+    {
+      "path": "pkg/config/v1/validation/oidc.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c905e8e5a61ec8684386cae22e8925de6794690f",
+      "size": 1799,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/c905e8e5a61ec8684386cae22e8925de6794690f"
+    },
+    {
+      "path": "pkg/config/v1/validation/oidc_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc21da6e55268ffca350ec21c64bb906ded97360",
+      "size": 2541,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/bc21da6e55268ffca350ec21c64bb906ded97360"
+    },
+    {
+      "path": "pkg/config/v1/validation/plugin.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30a66d8372820a378a4b587ca6519a3601f47d6b",
+      "size": 2254,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/30a66d8372820a378a4b587ca6519a3601f47d6b"
+    },
+    {
+      "path": "pkg/config/v1/validation/proxy.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "744620f04ee2bc9e41a0b47c4e0fd4583855d84c",
+      "size": 8132,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/744620f04ee2bc9e41a0b47c4e0fd4583855d84c"
+    },
+    {
+      "path": "pkg/config/v1/validation/server.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8be740aab77f7d400d7ec5a84cb02e1c02c3852b",
+      "size": 2170,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/8be740aab77f7d400d7ec5a84cb02e1c02c3852b"
+    },
+    {
+      "path": "pkg/config/v1/validation/validation.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "417cec0f29a502015f4689872b4254f39f0040a6",
+      "size": 1472,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/417cec0f29a502015f4689872b4254f39f0040a6"
+    },
+    {
+      "path": "pkg/config/v1/validation/validator.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cfe3b2129976a2e859bbcd301fc18ada81aca7e",
+      "size": 809,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/1cfe3b2129976a2e859bbcd301fc18ada81aca7e"
+    },
+    {
+      "path": "pkg/config/v1/validation/visitor.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50efc47ddb6013f470ddb2119a912067081a687f",
+      "size": 1572,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/50efc47ddb6013f470ddb2119a912067081a687f"
+    },
+    {
+      "path": "pkg/config/v1/value_source.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88dbaff3641f72acc4849f21ede15e3c660e948a",
+      "size": 4154,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/88dbaff3641f72acc4849f21ede15e3c660e948a"
+    },
+    {
+      "path": "pkg/config/v1/value_source_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "685151f44adabafa7b9cc20d72400a77cd6bdbb9",
+      "size": 4938,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/685151f44adabafa7b9cc20d72400a77cd6bdbb9"
+    },
+    {
+      "path": "pkg/config/v1/visitor.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1035d4f473215599df3f4ebd185a0301c8e93f7",
+      "size": 4911,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/d1035d4f473215599df3f4ebd185a0301c8e93f7"
+    },
+    {
+      "path": "pkg/config/v1/visitor_plugin.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6541e3de10a615ad90c02c43b43ef3adebe4a552",
+      "size": 1861,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/6541e3de10a615ad90c02c43b43ef3adebe4a552"
+    },
+    {
+      "path": "pkg/errors",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8fdabdee86a3da37d8555e54a9af1a88baec413f",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/8fdabdee86a3da37d8555e54a9af1a88baec413f"
+    },
+    {
+      "path": "pkg/errors/errors.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0f229e3c33b57b4e2dc28ded7d083ea8243e4d7",
+      "size": 749,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/e0f229e3c33b57b4e2dc28ded7d083ea8243e4d7"
+    },
+    {
+      "path": "pkg/metrics",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e7b8a38a32294a5acb4c58eae17a4cbcc69abb91",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/e7b8a38a32294a5acb4c58eae17a4cbcc69abb91"
+    },
+    {
+      "path": "pkg/metrics/aggregate",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "04ae97e52c515bd2fb1e240e3e553abf5479cfd4",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/04ae97e52c515bd2fb1e240e3e553abf5479cfd4"
+    },
+    {
+      "path": "pkg/metrics/aggregate/server.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ef70ebd39c358e821c2edf4beea4ba9b1d4be12",
+      "size": 2316,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/9ef70ebd39c358e821c2edf4beea4ba9b1d4be12"
+    },
+    {
+      "path": "pkg/metrics/mem",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7efee1a27dddbb23fc8db9046e4cf86d2338af26",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/7efee1a27dddbb23fc8db9046e4cf86d2338af26"
+    },
+    {
+      "path": "pkg/metrics/mem/server.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3c2bb65f43c73121486882c9ca9b6db9d276918",
+      "size": 7421,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/a3c2bb65f43c73121486882c9ca9b6db9d276918"
+    },
+    {
+      "path": "pkg/metrics/mem/server_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe9f99846e9c8829dd813bdf90d9579e049fa283",
+      "size": 2171,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/fe9f99846e9c8829dd813bdf90d9579e049fa283"
+    },
+    {
+      "path": "pkg/metrics/mem/types.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7661ba8f2d30068c7ee27b5801df7df80ffde2f",
+      "size": 2144,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/b7661ba8f2d30068c7ee27b5801df7df80ffde2f"
+    },
+    {
+      "path": "pkg/metrics/metrics.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12c388a5229aaa4b055b8d5fd7833af8c1786935",
+      "size": 766,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/12c388a5229aaa4b055b8d5fd7833af8c1786935"
+    },
+    {
+      "path": "pkg/metrics/prometheus",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2e9cac22fb8facaa60b6ef4c7dca252ec785f2d6",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/2e9cac22fb8facaa60b6ef4c7dca252ec785f2d6"
+    },
+    {
+      "path": "pkg/metrics/prometheus/server.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a300ffe0f43226533bbaffcaaf524bcce201dc4",
+      "size": 3303,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/6a300ffe0f43226533bbaffcaaf524bcce201dc4"
+    },
+    {
+      "path": "pkg/msg",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5f0f0e3ccaa2dd1c038397e50bfa9d7de4a84c77",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/5f0f0e3ccaa2dd1c038397e50bfa9d7de4a84c77"
+    },
+    {
+      "path": "pkg/msg/conn_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3498f031ba88f7b62d7ba68b0897204aea45470",
+      "size": 1475,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/f3498f031ba88f7b62d7ba68b0897204aea45470"
+    },
+    {
+      "path": "pkg/msg/ctl.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57681b12fd1dd1436833e87890d8a8e7e947d39d",
+      "size": 1132,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/57681b12fd1dd1436833e87890d8a8e7e947d39d"
+    },
+    {
+      "path": "pkg/msg/handler.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f2775c947e186f23a6f7a4575430c3ff634b809",
+      "size": 3639,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/1f2775c947e186f23a6f7a4575430c3ff634b809"
+    },
+    {
+      "path": "pkg/msg/msg.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52948bd5c9891d99f684334277422d288e64a8e6",
+      "size": 9036,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/52948bd5c9891d99f684334277422d288e64a8e6"
+    },
+    {
+      "path": "pkg/msg/msg_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06272faf959ed21c2c15e0a315f27fb7c5a535c9",
+      "size": 1853,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/06272faf959ed21c2c15e0a315f27fb7c5a535c9"
+    },
+    {
+      "path": "pkg/msg/wire_v2.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d2cd88d65db83b815e72dc701631c938845af29",
+      "size": 5509,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/8d2cd88d65db83b815e72dc701631c938845af29"
+    },
+    {
+      "path": "pkg/msg/wire_v2_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6f25e5589a6a3c01c73137fc3f4e1a919f87f91",
+      "size": 4896,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/f6f25e5589a6a3c01c73137fc3f4e1a919f87f91"
+    },
+    {
+      "path": "pkg/naming",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "32908747d3e5106457299571da8726d0da6c2c6e",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/32908747d3e5106457299571da8726d0da6c2c6e"
+    },
+    {
+      "path": "pkg/naming/names.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ca4dd9ca463eb92ad38090941273690fdd566c3",
+      "size": 870,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/3ca4dd9ca463eb92ad38090941273690fdd566c3"
+    },
+    {
+      "path": "pkg/naming/names_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3792af42a490b42bf8a4a00cf68966a68aac839e",
+      "size": 823,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/3792af42a490b42bf8a4a00cf68966a68aac839e"
+    },
+    {
+      "path": "pkg/nathole",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "da6618dd9ce5e94db31253703e0eb20d5b9d6910",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/da6618dd9ce5e94db31253703e0eb20d5b9d6910"
+    },
+    {
+      "path": "pkg/nathole/analysis.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ff28e0ee9971cd827252a68dd85af242281d46c",
+      "size": 13068,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/2ff28e0ee9971cd827252a68dd85af242281d46c"
+    },
+    {
+      "path": "pkg/nathole/analysis_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05d0f8dcdca78928f6f14d483f66b4a8d1a129f2",
+      "size": 1013,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/05d0f8dcdca78928f6f14d483f66b4a8d1a129f2"
+    },
+    {
+      "path": "pkg/nathole/classify.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e00a5836b4b3d1b4769dd83d4f66b42fe749418",
+      "size": 2908,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/6e00a5836b4b3d1b4769dd83d4f66b42fe749418"
+    },
+    {
+      "path": "pkg/nathole/controller.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22a5ec5334af7b635f287bd4296bf113fa0dfb42",
+      "size": 11552,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/22a5ec5334af7b635f287bd4296bf113fa0dfb42"
+    },
+    {
+      "path": "pkg/nathole/discovery.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fa0140f1d704058a7a0027051d4c360368945c2",
+      "size": 4379,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/6fa0140f1d704058a7a0027051d4c360368945c2"
+    },
+    {
+      "path": "pkg/nathole/nathole.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bea3d3719081a30c0b926e758e402d7a438cb324",
+      "size": 13495,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/bea3d3719081a30c0b926e758e402d7a438cb324"
+    },
+    {
+      "path": "pkg/nathole/utils.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a8828302562c0f2b5cfb0da9b70d70693a8e062",
+      "size": 2416,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/2a8828302562c0f2b5cfb0da9b70d70693a8e062"
+    },
+    {
+      "path": "pkg/plugin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dbbd97672a859c4c6ce4080b81f3567e585296cb",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/dbbd97672a859c4c6ce4080b81f3567e585296cb"
+    },
+    {
+      "path": "pkg/plugin/client",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8d559a8104114adfbcf74836046508481ad68a61",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/8d559a8104114adfbcf74836046508481ad68a61"
+    },
+    {
+      "path": "pkg/plugin/client/http2http.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f92daddd6541684531876a8d6917c699e32253e1",
+      "size": 1395,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/f92daddd6541684531876a8d6917c699e32253e1"
+    },
+    {
+      "path": "pkg/plugin/client/http2https.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5a61602e251d87b92198fd2a50304582bdd47c1",
+      "size": 1739,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/f5a61602e251d87b92198fd2a50304582bdd47c1"
+    },
+    {
+      "path": "pkg/plugin/client/http_common.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5010a4e934acb0b9cdd5a4094ad17b9d80a42b5f",
+      "size": 3092,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/5010a4e934acb0b9cdd5a4094ad17b9d80a42b5f"
+    },
+    {
+      "path": "pkg/plugin/client/http_proxy.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0145f4445f5f297a062b7671abe53816d8933e7b",
+      "size": 5147,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/0145f4445f5f297a062b7671abe53816d8933e7b"
+    },
+    {
+      "path": "pkg/plugin/client/http_proxy_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4557ecee2c7fff3e8aaeeb82d2da16225977caa",
+      "size": 2606,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/c4557ecee2c7fff3e8aaeeb82d2da16225977caa"
+    },
+    {
+      "path": "pkg/plugin/client/https2http.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8722bec94a361180e025c68efd3aafafe98a660e",
+      "size": 1618,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/8722bec94a361180e025c68efd3aafafe98a660e"
+    },
+    {
+      "path": "pkg/plugin/client/https2https.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b9e455e8aebeba0f1d0a8ee7b6d0293ed542688",
+      "size": 1739,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/7b9e455e8aebeba0f1d0a8ee7b6d0293ed542688"
+    },
+    {
+      "path": "pkg/plugin/client/internal",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4b5a75cd95a5ce74beb7109b0e52c51b288b7453",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/4b5a75cd95a5ce74beb7109b0e52c51b288b7453"
+    },
+    {
+      "path": "pkg/plugin/client/internal/httpsserver",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1a4b95dc1d77aba83e485b1a1e6504894f2117dd",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/1a4b95dc1d77aba83e485b1a1e6504894f2117dd"
+    },
+    {
+      "path": "pkg/plugin/client/internal/httpsserver/server.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2047b9008d9b81926bf33c263ac32190018befc",
+      "size": 1772,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/a2047b9008d9b81926bf33c263ac32190018befc"
+    },
+    {
+      "path": "pkg/plugin/client/plugin.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bcd04893f5c670942e1305063a8cb4edfc76c15",
+      "size": 2514,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/7bcd04893f5c670942e1305063a8cb4edfc76c15"
+    },
+    {
+      "path": "pkg/plugin/client/socks5.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "752dd1e198e2d20d4c627c9247374e957f3d5daf",
+      "size": 1719,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/752dd1e198e2d20d4c627c9247374e957f3d5daf"
+    },
+    {
+      "path": "pkg/plugin/client/static_file.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bab120aa2283995504fbd21a025ff78ba5cde39",
+      "size": 2137,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/0bab120aa2283995504fbd21a025ff78ba5cde39"
+    },
+    {
+      "path": "pkg/plugin/client/tls2raw.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccb7514968b407b293c3a5342919f804fb49eeeb",
+      "size": 2039,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/ccb7514968b407b293c3a5342919f804fb49eeeb"
+    },
+    {
+      "path": "pkg/plugin/client/unix_domain_socket.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3046aadeade4d963a0e7aee86a3ec349bb4823fe",
+      "size": 1947,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/3046aadeade4d963a0e7aee86a3ec349bb4823fe"
+    },
+    {
+      "path": "pkg/plugin/client/virtual_net.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53570035c557242321930273899db6af87231793",
+      "size": 2344,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/53570035c557242321930273899db6af87231793"
+    },
+    {
+      "path": "pkg/plugin/server",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "664ebb19f181053e2c41519ec611456599348bff",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/664ebb19f181053e2c41519ec611456599348bff"
+    },
+    {
+      "path": "pkg/plugin/server/http.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b05b909e59a04afe08ebb44e2002fc95b51dfc7e",
+      "size": 2736,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/b05b909e59a04afe08ebb44e2002fc95b51dfc7e"
+    },
+    {
+      "path": "pkg/plugin/server/manager.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f1061c69aa26ca625a0406e22867c94d6bbcbd2",
+      "size": 4881,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/6f1061c69aa26ca625a0406e22867c94d6bbcbd2"
+    },
+    {
+      "path": "pkg/plugin/server/manager_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92391d4ba0439d24bd568a5bd040c029c94c0b15",
+      "size": 8909,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/92391d4ba0439d24bd568a5bd040c029c94c0b15"
+    },
+    {
+      "path": "pkg/plugin/server/plugin.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d3c8cfdd656b70892014cfbe4cea52256aa2e53",
+      "size": 1012,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/3d3c8cfdd656b70892014cfbe4cea52256aa2e53"
+    },
+    {
+      "path": "pkg/plugin/server/tracer.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b6ede182ec7171b3a8caa7d00c2338d3c3f81de",
+      "size": 922,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/5b6ede182ec7171b3a8caa7d00c2338d3c3f81de"
+    },
+    {
+      "path": "pkg/plugin/server/types.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a5b75271850fc2bbd7ec7d6dddbbd2ebac7a651",
+      "size": 1716,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/4a5b75271850fc2bbd7ec7d6dddbbd2ebac7a651"
+    },
+    {
+      "path": "pkg/plugin/visitor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7bf843cecc49f0b3d12a9191047c5d6b636db6bf",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/7bf843cecc49f0b3d12a9191047c5d6b636db6bf"
+    },
+    {
+      "path": "pkg/plugin/visitor/plugin.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27eecc82fd12e59679a25261ee749404aceaa46f",
+      "size": 2082,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/27eecc82fd12e59679a25261ee749404aceaa46f"
+    },
+    {
+      "path": "pkg/plugin/visitor/virtual_net.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa8c700e46036731c65ff5ec7363bea46281b33e",
+      "size": 6602,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/fa8c700e46036731c65ff5ec7363bea46281b33e"
+    },
+    {
+      "path": "pkg/policy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "491ea82841c1cfd55c702ec07e19e2895bb52421",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/491ea82841c1cfd55c702ec07e19e2895bb52421"
+    },
+    {
+      "path": "pkg/policy/featuregate",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "648efcc5463fc391b02f84d6c7ce27dc404af428",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/648efcc5463fc391b02f84d6c7ce27dc404af428"
+    },
+    {
+      "path": "pkg/policy/featuregate/feature_gate.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f27aecf3fd3d923cafd00ed3c7020c1ee66a37b5",
+      "size": 6056,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/f27aecf3fd3d923cafd00ed3c7020c1ee66a37b5"
+    },
+    {
+      "path": "pkg/policy/security",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f78b18fdcb5c34e9856d1a257fdd853d3f1221f5",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/f78b18fdcb5c34e9856d1a257fdd853d3f1221f5"
+    },
+    {
+      "path": "pkg/policy/security/unsafe.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3f84a852786b1e4758e2d91b4d3152aac182dec",
+      "size": 561,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/b3f84a852786b1e4758e2d91b4d3152aac182dec"
+    },
+    {
+      "path": "pkg/proto",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7d1d2a40a18464a6e54bd050c197ed5494967bec",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/7d1d2a40a18464a6e54bd050c197ed5494967bec"
+    },
+    {
+      "path": "pkg/proto/udp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "123f29d88b48c2e73547eec5551a0be37a9f6b32",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/123f29d88b48c2e73547eec5551a0be37a9f6b32"
+    },
+    {
+      "path": "pkg/proto/udp/udp.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70b519009112199abea5325d63fd811eff9ef64d",
+      "size": 3696,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/70b519009112199abea5325d63fd811eff9ef64d"
+    },
+    {
+      "path": "pkg/proto/udp/udp_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a7f009117c1c799cb28f1432f82613c4473c7e7",
+      "size": 302,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/1a7f009117c1c799cb28f1432f82613c4473c7e7"
+    },
+    {
+      "path": "pkg/proto/wire",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "691afe0ee7c5770a0d5423df8e88dab1b9664d89",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/691afe0ee7c5770a0d5423df8e88dab1b9664d89"
+    },
+    {
+      "path": "pkg/proto/wire/crypto.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69aedc69a06219e4e3b7e6768adc9edd49464ddd",
+      "size": 5934,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/69aedc69a06219e4e3b7e6768adc9edd49464ddd"
+    },
+    {
+      "path": "pkg/proto/wire/wire.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47bf598402c19a8cb3c46e6b22ffae6f590d0602",
+      "size": 5945,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/47bf598402c19a8cb3c46e6b22ffae6f590d0602"
+    },
+    {
+      "path": "pkg/proto/wire/wire_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b564f7128ceedb3ffce8ed4b1cdf0d7f665feb8b",
+      "size": 7973,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/b564f7128ceedb3ffce8ed4b1cdf0d7f665feb8b"
+    },
+    {
+      "path": "pkg/sdk",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2938d5d8fb27ee1052eae25ede14c73b67ad0860",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/2938d5d8fb27ee1052eae25ede14c73b67ad0860"
+    },
+    {
+      "path": "pkg/sdk/client",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cb1dd8e4e1df405a8bf69e9dc54be99463f0d061",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/cb1dd8e4e1df405a8bf69e9dc54be99463f0d061"
+    },
+    {
+      "path": "pkg/sdk/client/client.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "088d3f8ff0e7cccc59bfb5bfaad1d85566cfcfae",
+      "size": 3275,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/088d3f8ff0e7cccc59bfb5bfaad1d85566cfcfae"
+    },
+    {
+      "path": "pkg/ssh",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4c7c6ef344277ae1d86268ffa12ebf86c28a82f1",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/4c7c6ef344277ae1d86268ffa12ebf86c28a82f1"
+    },
+    {
+      "path": "pkg/ssh/gateway.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d90f3383854f1e99a23c05ceb11fd50ae3ea397",
+      "size": 3710,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/4d90f3383854f1e99a23c05ceb11fd50ae3ea397"
+    },
+    {
+      "path": "pkg/ssh/server.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bffc40bc974ca1d6dd369b4b97a93c1e86ba6d59",
+      "size": 10309,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/bffc40bc974ca1d6dd369b4b97a93c1e86ba6d59"
+    },
+    {
+      "path": "pkg/ssh/terminal.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2e9a6ff36241e4b0e85fd128313e20a7c612048",
+      "size": 1052,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/a2e9a6ff36241e4b0e85fd128313e20a7c612048"
+    },
+    {
+      "path": "pkg/transport",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cb9ec21748250737ef917129b639171df2a19e10",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/cb9ec21748250737ef917129b639171df2a19e10"
+    },
+    {
+      "path": "pkg/transport/message.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40165f5dc4a2d5ca354df455c6e67980d835d6ef",
+      "size": 3325,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/40165f5dc4a2d5ca354df455c6e67980d835d6ef"
+    },
+    {
+      "path": "pkg/transport/tls.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19ebca73b3868852bb12ef7d45f44c75193978d8",
+      "size": 3969,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/19ebca73b3868852bb12ef7d45f44c75193978d8"
+    },
+    {
+      "path": "pkg/util",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "84f4ac5d224ab04c9fd2c63918a5378496e264cb",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/84f4ac5d224ab04c9fd2c63918a5378496e264cb"
+    },
+    {
+      "path": "pkg/util/http",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0c3034356faa6e8b7b2b9e05517fb93a19642ad7",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/0c3034356faa6e8b7b2b9e05517fb93a19642ad7"
+    },
+    {
+      "path": "pkg/util/http/context.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae4b7ea638fa9d3fa468c5a7abbbaa631d75b702",
+      "size": 1288,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/ae4b7ea638fa9d3fa468c5a7abbbaa631d75b702"
+    },
+    {
+      "path": "pkg/util/http/error.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8206141bd2da178c0b33a7339cfdf20526cd82ff",
+      "size": 835,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/8206141bd2da178c0b33a7339cfdf20526cd82ff"
+    },
+    {
+      "path": "pkg/util/http/handler.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55de29323bbbf3fc74c740debace4cc0f4009f45",
+      "size": 2694,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/55de29323bbbf3fc74c740debace4cc0f4009f45"
+    },
+    {
+      "path": "pkg/util/http/http.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a763727c8eab5be3d4b32e1ed35de348a7b435d",
+      "size": 2550,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/8a763727c8eab5be3d4b32e1ed35de348a7b435d"
+    },
+    {
+      "path": "pkg/util/http/middleware.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40009a403e4f77d27d6fb30a73203b41b70bb553",
+      "size": 1175,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/40009a403e4f77d27d6fb30a73203b41b70bb553"
+    },
+    {
+      "path": "pkg/util/http/server.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bca899311a9ca1f1c6abacba03acab9cc52f411",
+      "size": 2991,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/0bca899311a9ca1f1c6abacba03acab9cc52f411"
+    },
+    {
+      "path": "pkg/util/jsonx",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f2a1d0efa93f7ce6b2bd7aac02f92e9d8258866c",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/f2a1d0efa93f7ce6b2bd7aac02f92e9d8258866c"
+    },
+    {
+      "path": "pkg/util/jsonx/json_v1.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fb982903d9de2a543f1b4a444910495b0afd630",
+      "size": 1234,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/1fb982903d9de2a543f1b4a444910495b0afd630"
+    },
+    {
+      "path": "pkg/util/jsonx/raw_message.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3eda462839d250a55d4fedebda7714f9ede91ffa",
+      "size": 1058,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/3eda462839d250a55d4fedebda7714f9ede91ffa"
+    },
+    {
+      "path": "pkg/util/limit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1b91edaf498c5cb9d54c4cf2930ef0e2dbc81a12",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/1b91edaf498c5cb9d54c4cf2930ef0e2dbc81a12"
+    },
+    {
+      "path": "pkg/util/limit/reader.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efa828f48d41a0dbb1d701f8f40710d345e27167",
+      "size": 1109,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/efa828f48d41a0dbb1d701f8f40710d345e27167"
+    },
+    {
+      "path": "pkg/util/limit/writer.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5256d1e227666df4252860ac908246d73a4a020d",
+      "size": 1220,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/5256d1e227666df4252860ac908246d73a4a020d"
+    },
+    {
+      "path": "pkg/util/log",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1f2a514f819d183b0b51df7d688ef4385f833dee",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/1f2a514f819d183b0b51df7d688ef4385f833dee"
+    },
+    {
+      "path": "pkg/util/log/log.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "327d4ef654d143a9bfbc6ab96e7c65038367adc1",
+      "size": 2475,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/327d4ef654d143a9bfbc6ab96e7c65038367adc1"
+    },
+    {
+      "path": "pkg/util/metric",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5da589d824bdd7fba9fe36ffcc27fa52a15c5829",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/5da589d824bdd7fba9fe36ffcc27fa52a15c5829"
+    },
+    {
+      "path": "pkg/util/metric/counter.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae16b675ee4ad15dd7af73bcfe8f7046cff5a87c",
+      "size": 1306,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/ae16b675ee4ad15dd7af73bcfe8f7046cff5a87c"
+    },
+    {
+      "path": "pkg/util/metric/counter_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dca72052ed3aedd3ccea83225e6ff3ec54060e21",
+      "size": 361,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/dca72052ed3aedd3ccea83225e6ff3ec54060e21"
+    },
+    {
+      "path": "pkg/util/metric/date_counter.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e6b889f92fb186e32b8d75a05d7781b9077a6dc",
+      "size": 3239,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/5e6b889f92fb186e32b8d75a05d7781b9077a6dc"
+    },
+    {
+      "path": "pkg/util/metric/date_counter_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbd29386f7edd8358882f8036a3aae82e1db6b8d",
+      "size": 3347,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/cbd29386f7edd8358882f8036a3aae82e1db6b8d"
+    },
+    {
+      "path": "pkg/util/metric/metrics.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fbefc5de14b8361da9ab79e0154f7281f0783aa",
+      "size": 998,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/0fbefc5de14b8361da9ab79e0154f7281f0783aa"
+    },
+    {
+      "path": "pkg/util/net",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fa7547b3960e0d680249730bf8eafbf77fece910",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/fa7547b3960e0d680249730bf8eafbf77fece910"
+    },
+    {
+      "path": "pkg/util/net/conn.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5dd605a5bb410ffa7b745a01d026240bb7f6a613",
+      "size": 8383,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/5dd605a5bb410ffa7b745a01d026240bb7f6a613"
+    },
+    {
+      "path": "pkg/util/net/conn_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42d3c06be140c20e055e957303d276851de371aa",
+      "size": 3076,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/42d3c06be140c20e055e957303d276851de371aa"
+    },
+    {
+      "path": "pkg/util/net/dial.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a3859edfa721617dfbca763688d00ba0c161a5a",
+      "size": 1131,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/1a3859edfa721617dfbca763688d00ba0c161a5a"
+    },
+    {
+      "path": "pkg/util/net/dns.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "441b1e67a3fc373f1ebfc3002b097bed12b955ac",
+      "size": 1006,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/441b1e67a3fc373f1ebfc3002b097bed12b955ac"
+    },
+    {
+      "path": "pkg/util/net/http.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9fc52609fc8f667498481af475f0b0fb46595a7",
+      "size": 2423,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/e9fc52609fc8f667498481af475f0b0fb46595a7"
+    },
+    {
+      "path": "pkg/util/net/kcp.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1d1fb93a4844643326b3accce2513f0e8ef7d61",
+      "size": 2411,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/b1d1fb93a4844643326b3accce2513f0e8ef7d61"
+    },
+    {
+      "path": "pkg/util/net/listener.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3aebcd6f6b6b21622aa6cf36846548c00983c11",
+      "size": 1799,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/c3aebcd6f6b6b21622aa6cf36846548c00983c11"
+    },
+    {
+      "path": "pkg/util/net/proxyprotocol.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f0cd51fab8f16eae4398a37b74259464078e5d0",
+      "size": 1317,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/5f0cd51fab8f16eae4398a37b74259464078e5d0"
+    },
+    {
+      "path": "pkg/util/net/proxyprotocol_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "187801f67aaaa25bac56ec7a554ddb073ef3a312",
+      "size": 5871,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/187801f67aaaa25bac56ec7a554ddb073ef3a312"
+    },
+    {
+      "path": "pkg/util/net/tls.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6645dfaf5465f32f7a3986705dbe7e047cbce4cb",
+      "size": 1461,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/6645dfaf5465f32f7a3986705dbe7e047cbce4cb"
+    },
+    {
+      "path": "pkg/util/net/udp.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa4d98342274f752693e9738778b9071eaffad66",
+      "size": 5346,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/aa4d98342274f752693e9738778b9071eaffad66"
+    },
+    {
+      "path": "pkg/util/net/websocket.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c2f39c4e7506a55114023f0efcdbb34bf753ba2",
+      "size": 1300,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/6c2f39c4e7506a55114023f0efcdbb34bf753ba2"
+    },
+    {
+      "path": "pkg/util/system",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b2356fa9b926bb06eccebb29222452e51c0549d9",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/b2356fa9b926bb06eccebb29222452e51c0549d9"
+    },
+    {
+      "path": "pkg/util/system/system.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae40e85e2148bf554c886f340bfb01a269da66d2",
+      "size": 857,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/ae40e85e2148bf554c886f340bfb01a269da66d2"
+    },
+    {
+      "path": "pkg/util/system/system_android.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fcfdbc1361c73af72d139515f5d52861df0661a",
+      "size": 2389,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/6fcfdbc1361c73af72d139515f5d52861df0661a"
+    },
+    {
+      "path": "pkg/util/tcpmux",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7d199a68e31c22cc73d14ce08451055f1c1543e8",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/7d199a68e31c22cc73d14ce08451055f1c1543e8"
+    },
+    {
+      "path": "pkg/util/tcpmux/httpconnect.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d43b5904e4e0d5865d66158d5f8a5a33b3059f7c",
+      "size": 3388,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/d43b5904e4e0d5865d66158d5f8a5a33b3059f7c"
+    },
+    {
+      "path": "pkg/util/util",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "24ad1fccb2b9bb66154669f76f782bc0dbd3efbe",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/24ad1fccb2b9bb66154669f76f782bc0dbd3efbe"
+    },
+    {
+      "path": "pkg/util/util/types.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "784b8f193ada41471db21d291687f005e59717de",
+      "size": 716,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/784b8f193ada41471db21d291687f005e59717de"
+    },
+    {
+      "path": "pkg/util/util/util.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3199748516d8fde1be0dec1ba6635d319ccbf42c",
+      "size": 3666,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/3199748516d8fde1be0dec1ba6635d319ccbf42c"
+    },
+    {
+      "path": "pkg/util/util/util_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd53f48ea2c47b80831965b7f49149490ec4f5e2",
+      "size": 1187,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/bd53f48ea2c47b80831965b7f49149490ec4f5e2"
+    },
+    {
+      "path": "pkg/util/version",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3c794dfe8d253d3018115cc6b329592af57d4298",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/3c794dfe8d253d3018115cc6b329592af57d4298"
+    },
+    {
+      "path": "pkg/util/version/version.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d2e668d737e1121031331aae82886558d16dcda",
+      "size": 686,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/3d2e668d737e1121031331aae82886558d16dcda"
+    },
+    {
+      "path": "pkg/util/vhost",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "73bc81678fabf2d733b8685760a5270da17e157a",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/73bc81678fabf2d733b8685760a5270da17e157a"
+    },
+    {
+      "path": "pkg/util/vhost/http.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "865ff9d5a77a5d2aeb6b689fbd68ae4843e5b330",
+      "size": 9085,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/865ff9d5a77a5d2aeb6b689fbd68ae4843e5b330"
+    },
+    {
+      "path": "pkg/util/vhost/http_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "237ae9036fd81e025a75ffe38f3a4f46c30c25b3",
+      "size": 3687,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/237ae9036fd81e025a75ffe38f3a4f46c30c25b3"
+    },
+    {
+      "path": "pkg/util/vhost/https.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "857a10d2da28e77f06cd7c34a3f7545e3eb44227",
+      "size": 2847,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/857a10d2da28e77f06cd7c34a3f7545e3eb44227"
+    },
+    {
+      "path": "pkg/util/vhost/https_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c30368747ba42f51ef38cb666a80be39faa964c",
+      "size": 1309,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/6c30368747ba42f51ef38cb666a80be39faa964c"
+    },
+    {
+      "path": "pkg/util/vhost/resource.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a65e29973ea9949b17820406a69dbc55bdce8691",
+      "size": 2068,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/a65e29973ea9949b17820406a69dbc55bdce8691"
+    },
+    {
+      "path": "pkg/util/vhost/router.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8ec99d384c0fac7084445e22a25ec5529ff4bc8",
+      "size": 4153,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/f8ec99d384c0fac7084445e22a25ec5529ff4bc8"
+    },
+    {
+      "path": "pkg/util/vhost/router_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7931edcf0d0fc0b6c2e130ab508bebea91ec512",
+      "size": 6870,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/f7931edcf0d0fc0b6c2e130ab508bebea91ec512"
+    },
+    {
+      "path": "pkg/util/vhost/vhost.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "637c8dcf1746aec5d496e02d53a43d2c6442f945",
+      "size": 6814,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/637c8dcf1746aec5d496e02d53a43d2c6442f945"
+    },
+    {
+      "path": "pkg/util/wait",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "46cd4ce5faf8aba536e72cd64e7d3b48b4121d80",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/46cd4ce5faf8aba536e72cd64e7d3b48b4121d80"
+    },
+    {
+      "path": "pkg/util/wait/backoff.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ee5db71babf3a69bb5836e84c622a9875a9ecdb",
+      "size": 4864,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/0ee5db71babf3a69bb5836e84c622a9875a9ecdb"
+    },
+    {
+      "path": "pkg/util/wait/backoff_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edea3669381503b09c9038f2dd543743bbdf3eb0",
+      "size": 695,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/edea3669381503b09c9038f2dd543743bbdf3eb0"
+    },
+    {
+      "path": "pkg/util/xlog",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "37c25017e157d7c557a3941e79b0ea422d4bb960",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/37c25017e157d7c557a3941e79b0ea422d4bb960"
+    },
+    {
+      "path": "pkg/util/xlog/ctx.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d3619beb4913241c96b2b1836ce0622d13ee617",
+      "size": 1042,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/1d3619beb4913241c96b2b1836ce0622d13ee617"
+    },
+    {
+      "path": "pkg/util/xlog/log_writer.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28ddc22bbc39eee7de19c8054359eea228d8abe5",
+      "size": 1566,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/28ddc22bbc39eee7de19c8054359eea228d8abe5"
+    },
+    {
+      "path": "pkg/util/xlog/xlog.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8f4116a78b2353ae30220d2a32055b7fc49a8f8",
+      "size": 2775,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/f8f4116a78b2353ae30220d2a32055b7fc49a8f8"
+    },
+    {
+      "path": "pkg/virtual",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6beaa143cacccd2d2c59d8b8643e69b38f1c697a",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/6beaa143cacccd2d2c59d8b8643e69b38f1c697a"
+    },
+    {
+      "path": "pkg/virtual/client.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7006ce71570067ebc9d4b23685229386bf4cf1e",
+      "size": 2671,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/c7006ce71570067ebc9d4b23685229386bf4cf1e"
+    },
+    {
+      "path": "pkg/vnet",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "63d33d29069e106dcc0344b278ad732679493a22",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/63d33d29069e106dcc0344b278ad732679493a22"
+    },
+    {
+      "path": "pkg/vnet/controller.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "348d50d26124019258c8e5b2fff4646fd731dafe",
+      "size": 9493,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/348d50d26124019258c8e5b2fff4646fd731dafe"
+    },
+    {
+      "path": "pkg/vnet/message.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68ac7704c121479fc352bf9a0126720eb5651a6e",
+      "size": 2078,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/68ac7704c121479fc352bf9a0126720eb5651a6e"
+    },
+    {
+      "path": "pkg/vnet/tun.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d26314d053e63e0a682d9b95c8a247b919f651bf",
+      "size": 2404,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/d26314d053e63e0a682d9b95c8a247b919f651bf"
+    },
+    {
+      "path": "pkg/vnet/tun_darwin.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fa7d42c58f5115b97eb1488cc8e9976ec481f43",
+      "size": 2163,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/9fa7d42c58f5115b97eb1488cc8e9976ec481f43"
+    },
+    {
+      "path": "pkg/vnet/tun_linux.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e0cc56b23410ed239e1063a61d791b3f13a5031",
+      "size": 3090,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/2e0cc56b23410ed239e1063a61d791b3f13a5031"
+    },
+    {
+      "path": "pkg/vnet/tun_unsupported.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "731a06cda9e06c500c1c7bffa845d8f377b59a63",
+      "size": 890,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/731a06cda9e06c500c1c7bffa845d8f377b59a63"
+    },
+    {
+      "path": "server",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b4fdf63870f4b2bb0024b1e76c43a39e1b432472",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/b4fdf63870f4b2bb0024b1e76c43a39e1b432472"
+    },
+    {
+      "path": "server/api_router.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff9123f398fb6c025cae74376e3e975aebeb6ed2",
+      "size": 3323,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/ff9123f398fb6c025cae74376e3e975aebeb6ed2"
+    },
+    {
+      "path": "server/control.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "084b4eea51391d5fe54fefc8915d0d4017331dd5",
+      "size": 14172,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/084b4eea51391d5fe54fefc8915d0d4017331dd5"
+    },
+    {
+      "path": "server/controller",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2cf81aa305154bf1d658a80be2b259c10e8146e7",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/2cf81aa305154bf1d658a80be2b259c10e8146e7"
+    },
+    {
+      "path": "server/controller/resource.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "717c961676b79f4201b8c835f885b3be30158ccb",
+      "size": 2110,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/717c961676b79f4201b8c835f885b3be30158ccb"
+    },
+    {
+      "path": "server/group",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a1d8c7ef79efda057642bd6f6a75c23af442cc68",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/a1d8c7ef79efda057642bd6f6a75c23af442cc68"
+    },
+    {
+      "path": "server/group/base.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5684d8efc4da29dbe782f14c4c549e74744ee5d8",
+      "size": 1921,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/5684d8efc4da29dbe782f14c4c549e74744ee5d8"
+    },
+    {
+      "path": "server/group/base_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b470841e3148ccf1af5f40d3c94b9beba481889",
+      "size": 3304,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/1b470841e3148ccf1af5f40d3c94b9beba481889"
+    },
+    {
+      "path": "server/group/group.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fbedf5cf3e7c4ec14b3bde43db4e1b1e99997a0",
+      "size": 1017,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/1fbedf5cf3e7c4ec14b3bde43db4e1b1e99997a0"
+    },
+    {
+      "path": "server/group/http.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21bbfd29df910362e178d45b1171ee5660d7d39b",
+      "size": 4660,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/21bbfd29df910362e178d45b1171ee5660d7d39b"
+    },
+    {
+      "path": "server/group/https.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ab975788fc39c4d956cdd8c3c3df3ab43a4ecba",
+      "size": 2502,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/1ab975788fc39c4d956cdd8c3c3df3ab43a4ecba"
+    },
+    {
+      "path": "server/group/listener.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33c5c0df550d83dd3ed437c285d0900fb8b9f949",
+      "size": 899,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/33c5c0df550d83dd3ed437c285d0900fb8b9f949"
+    },
+    {
+      "path": "server/group/listener_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e3e30e60447a72461501c23cd4bfd93cffd507b",
+      "size": 1622,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/4e3e30e60447a72461501c23cd4bfd93cffd507b"
+    },
+    {
+      "path": "server/group/registry.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4064c535e8dab578963ed6ef34e03ace9f64aea3",
+      "size": 1211,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/4064c535e8dab578963ed6ef34e03ace9f64aea3"
+    },
+    {
+      "path": "server/group/registry_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "106d39984649673db06f844ae99d905245f15c6e",
+      "size": 2418,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/106d39984649673db06f844ae99d905245f15c6e"
+    },
+    {
+      "path": "server/group/tcp.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6bfbcff0f237f973cd2e080bcc475e2f0c5bb8d",
+      "size": 3256,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/d6bfbcff0f237f973cd2e080bcc475e2f0c5bb8d"
+    },
+    {
+      "path": "server/group/tcpmux.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e17a152ac1dfa6afa497ea2abf9c71c181a8dede",
+      "size": 3759,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/e17a152ac1dfa6afa497ea2abf9c71c181a8dede"
+    },
+    {
+      "path": "server/http",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "810cffa1c2465fd4fa59e0ec85531161baae223d",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/810cffa1c2465fd4fa59e0ec85531161baae223d"
+    },
+    {
+      "path": "server/http/controller.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65f6c00ffb26ff5120e6b5c7b61d1fe01808a0c5",
+      "size": 10357,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/65f6c00ffb26ff5120e6b5c7b61d1fe01808a0c5"
+    },
+    {
+      "path": "server/http/controller_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44509371e6911463ed8ad7e273387c8d29d6fc2b",
+      "size": 2772,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/44509371e6911463ed8ad7e273387c8d29d6fc2b"
+    },
+    {
+      "path": "server/http/controller_v2.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a50a54f79d5d12ca31b3d16ee85b857cc107521",
+      "size": 10034,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/8a50a54f79d5d12ca31b3d16ee85b857cc107521"
+    },
+    {
+      "path": "server/http/controller_v2_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb3c91ae2e5f3a6588368e7961b61662b2d145fa",
+      "size": 12908,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/eb3c91ae2e5f3a6588368e7961b61662b2d145fa"
+    },
+    {
+      "path": "server/http/model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4cbad214229dfc4b3ecd301a419c41f2b5a08bbf",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/4cbad214229dfc4b3ecd301a419c41f2b5a08bbf"
+    },
+    {
+      "path": "server/http/model/types.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "010c507924430c6c8616914eb3078a7cffa31bec",
+      "size": 4206,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/010c507924430c6c8616914eb3078a7cffa31bec"
+    },
+    {
+      "path": "server/http/model/v2.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edd3212d73c70473413539191b3cddb8d539ef90",
+      "size": 1497,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/edd3212d73c70473413539191b3cddb8d539ef90"
+    },
+    {
+      "path": "server/metrics",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b371a6c56f4387d3c105ec5b1a8cc03332cf8fa4",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/b371a6c56f4387d3c105ec5b1a8cc03332cf8fa4"
+    },
+    {
+      "path": "server/metrics/metrics.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68be2677d35446a8d61232cdbbd3428d0c800f33",
+      "size": 1185,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/68be2677d35446a8d61232cdbbd3428d0c800f33"
+    },
+    {
+      "path": "server/ports",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "708f4e397ee50254378ffb53c371d23267feaa79",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/708f4e397ee50254378ffb53c371d23267feaa79"
+    },
+    {
+      "path": "server/ports/ports.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "653715eace1e3be6f42d5e450d6ff634cca42de7",
+      "size": 4616,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/653715eace1e3be6f42d5e450d6ff634cca42de7"
+    },
+    {
+      "path": "server/ports/ports_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd560b25da986b737273b38b557eedaa1f2eacdc",
+      "size": 1854,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/cd560b25da986b737273b38b557eedaa1f2eacdc"
+    },
+    {
+      "path": "server/proxy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6b9f5fc7aa3090ffab1bc197b42218c22e55b45f",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/6b9f5fc7aa3090ffab1bc197b42218c22e55b45f"
+    },
+    {
+      "path": "server/proxy/http.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05afc2e9826d16cc3785ac5f09f8a935a6368826",
+      "size": 4777,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/05afc2e9826d16cc3785ac5f09f8a935a6368826"
+    },
+    {
+      "path": "server/proxy/https.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2efc736f0c43c9e204fb7eefaec16bb88bde000",
+      "size": 2358,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/e2efc736f0c43c9e204fb7eefaec16bb88bde000"
+    },
+    {
+      "path": "server/proxy/proxy.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9ace04638e83c4b89168b45d6ef210c6194501d",
+      "size": 15288,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/e9ace04638e83c4b89168b45d6ef210c6194501d"
+    },
+    {
+      "path": "server/proxy/proxy_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "381c743e453bbd2727b6e231d3175a1e802aea51",
+      "size": 3111,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/381c743e453bbd2727b6e231d3175a1e802aea51"
+    },
+    {
+      "path": "server/proxy/stcp.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8c17a46fdadf68e785f534beee5baca57d7ed69",
+      "size": 1320,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/f8c17a46fdadf68e785f534beee5baca57d7ed69"
+    },
+    {
+      "path": "server/proxy/sudp.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d409fed63b6b7d22eda0b26ff2dfcf1f3362d370",
+      "size": 1320,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/d409fed63b6b7d22eda0b26ff2dfcf1f3362d370"
+    },
+    {
+      "path": "server/proxy/sudp_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2986eed5360434c2b2367b478f39e0d5e1bac4c",
+      "size": 4178,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/e2986eed5360434c2b2367b478f39e0d5e1bac4c"
+    },
+    {
+      "path": "server/proxy/tcp.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c305e779a84f849058a3bcd677f5dbe0f2765895",
+      "size": 2505,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/c305e779a84f849058a3bcd677f5dbe0f2765895"
+    },
+    {
+      "path": "server/proxy/tcpmux.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c421c8eb32ce1d62782c72b829dabe2b57d6605",
+      "size": 2983,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/0c421c8eb32ce1d62782c72b829dabe2b57d6605"
+    },
+    {
+      "path": "server/proxy/udp.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "609d9c420985319bc63aa272570f77bf571c8ce1",
+      "size": 7409,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/609d9c420985319bc63aa272570f77bf571c8ce1"
+    },
+    {
+      "path": "server/proxy/xtcp.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6488d4277089a32863594734d2b3fb07154185c",
+      "size": 2466,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/a6488d4277089a32863594734d2b3fb07154185c"
+    },
+    {
+      "path": "server/proxy/xtcp_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2e6c1ad4f815f3cb3bf8bb72f493dc46489882a",
+      "size": 2573,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/b2e6c1ad4f815f3cb3bf8bb72f493dc46489882a"
+    },
+    {
+      "path": "server/registry",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "11d5667c921c1ae235de3087695f658c7d418042",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/11d5667c921c1ae235de3087695f658c7d418042"
+    },
+    {
+      "path": "server/registry/registry.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21771bce985f7229f8a123e63157adcc6755414f",
+      "size": 4495,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/21771bce985f7229f8a123e63157adcc6755414f"
+    },
+    {
+      "path": "server/registry/registry_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ff083b8b48b4f93047aeeab23411cbd70dfffd1",
+      "size": 2331,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/0ff083b8b48b4f93047aeeab23411cbd70dfffd1"
+    },
+    {
+      "path": "server/service.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3f9e323d67af81d02f919a0638c5df9017330c4",
+      "size": 25962,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/f3f9e323d67af81d02f919a0638c5df9017330c4"
+    },
+    {
+      "path": "server/service_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf5eec5e90d25bed001478978f03d36c29c0458a",
+      "size": 1616,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/cf5eec5e90d25bed001478978f03d36c29c0458a"
+    },
+    {
+      "path": "server/visitor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0089afa1831d4306046314d48926f5f7eddb1d94",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/0089afa1831d4306046314d48926f5f7eddb1d94"
+    },
+    {
+      "path": "server/visitor/visitor.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11a44367ddfc2ddb892a2fb4b86169167ceb7df3",
+      "size": 2935,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/11a44367ddfc2ddb892a2fb4b86169167ceb7df3"
+    },
+    {
+      "path": "server/visitor/visitor_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67b907fd980d4ac0b9681f6e7608657f260256f5",
+      "size": 1524,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/67b907fd980d4ac0b9681f6e7608657f260256f5"
+    },
+    {
+      "path": "test",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9898b0c054c51b487b851d642058303aa19f1653",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/9898b0c054c51b487b851d642058303aa19f1653"
+    },
+    {
+      "path": "test/e2e",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3bce6f5291ae8b20910fa621499b226980f6839e",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/3bce6f5291ae8b20910fa621499b226980f6839e"
+    },
+    {
+      "path": "test/e2e/compatibility",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "290bbc2d332ec5213f1dff804aab55ebec7eb412",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/290bbc2d332ec5213f1dff804aab55ebec7eb412"
+    },
+    {
+      "path": "test/e2e/compatibility/compatibility_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "246bcac114c635292fefac81078d9e445160c319",
+      "size": 8624,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/246bcac114c635292fefac81078d9e445160c319"
+    },
+    {
+      "path": "test/e2e/e2e.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee00e1031e2bd9472534254766e89296b834d0f1",
+      "size": 2571,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/ee00e1031e2bd9472534254766e89296b834d0f1"
+    },
+    {
+      "path": "test/e2e/e2e_test.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e32f89f083febef4204c607c40041e5e14e2fcc4",
+      "size": 983,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/e32f89f083febef4204c607c40041e5e14e2fcc4"
+    },
+    {
+      "path": "test/e2e/examples.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f0bc3358524edd9c36efb9f8908e1ee400e43b1",
+      "size": 752,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/9f0bc3358524edd9c36efb9f8908e1ee400e43b1"
+    },
+    {
+      "path": "test/e2e/framework",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9e8232f9bdd56db05b4d304c16f8f7bee7dccb1f",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/9e8232f9bdd56db05b4d304c16f8f7bee7dccb1f"
+    },
+    {
+      "path": "test/e2e/framework/client.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c13cee10a46c7a68e4bfb505bfa42589db0736a1",
+      "size": 193,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/c13cee10a46c7a68e4bfb505bfa42589db0736a1"
+    },
+    {
+      "path": "test/e2e/framework/consts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ae43e220c25aaf5b495c8dbe252e8f8bdc429311",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/ae43e220c25aaf5b495c8dbe252e8f8bdc429311"
+    },
+    {
+      "path": "test/e2e/framework/consts/consts.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c7c2f13cc19019ab0b36c06997f47f872c910b2",
+      "size": 1174,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/4c7c2f13cc19019ab0b36c06997f47f872c910b2"
+    },
+    {
+      "path": "test/e2e/framework/expect.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea80ecb8bb7d3e745c8340955e4fb7ae5af265d2",
+      "size": 2391,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/ea80ecb8bb7d3e745c8340955e4fb7ae5af265d2"
+    },
+    {
+      "path": "test/e2e/framework/framework.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34c0eb63a1c5b1055669ade47868799e7ed42442",
+      "size": 6327,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/34c0eb63a1c5b1055669ade47868799e7ed42442"
+    },
+    {
+      "path": "test/e2e/framework/log.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a466f68bf1f7bad294dd0f276d8f10515511106f",
+      "size": 755,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/a466f68bf1f7bad294dd0f276d8f10515511106f"
+    },
+    {
+      "path": "test/e2e/framework/mockservers.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65d9f6210e167ec06a1dbf42a974c3df9a1ff8a7",
+      "size": 2246,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/65d9f6210e167ec06a1dbf42a974c3df9a1ff8a7"
+    },
+    {
+      "path": "test/e2e/framework/process.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d27e8877b75a4f6c87d7cf1b68201e2c53836cb",
+      "size": 6483,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/8d27e8877b75a4f6c87d7cf1b68201e2c53836cb"
+    },
+    {
+      "path": "test/e2e/framework/request.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6ac565a7c2d1dffe8878fae38ebfac1f068978a",
+      "size": 2706,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/a6ac565a7c2d1dffe8878fae38ebfac1f068978a"
+    },
+    {
+      "path": "test/e2e/framework/test_context.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38f0fb2578231eda142ceb0b7bcf5068657e6c42",
+      "size": 1441,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/38f0fb2578231eda142ceb0b7bcf5068657e6c42"
+    },
+    {
+      "path": "test/e2e/framework/util.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "841288cc6dcfd39d53cfb3a72607a5ddb90ecacf",
+      "size": 282,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/841288cc6dcfd39d53cfb3a72607a5ddb90ecacf"
+    },
+    {
+      "path": "test/e2e/legacy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8ae5d636943a08f6371eb5e7d63a8c7199d6e12f",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/8ae5d636943a08f6371eb5e7d63a8c7199d6e12f"
+    },
+    {
+      "path": "test/e2e/legacy/basic",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8cf5c769ea86f7eb55b2b0329505c982ce65e49b",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/8cf5c769ea86f7eb55b2b0329505c982ce65e49b"
+    },
+    {
+      "path": "test/e2e/legacy/basic/basic.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0115c6cb926f6b2e751864278def4652553e5c5e",
+      "size": 14970,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/0115c6cb926f6b2e751864278def4652553e5c5e"
+    },
+    {
+      "path": "test/e2e/legacy/basic/client.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9b9b6dadfc6928339e4fc93780119a5c7387c48",
+      "size": 3557,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/d9b9b6dadfc6928339e4fc93780119a5c7387c48"
+    },
+    {
+      "path": "test/e2e/legacy/basic/client_server.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "330b9cfc2c3d0c5b0ee837cf5d5661efdde2da28",
+      "size": 9574,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/330b9cfc2c3d0c5b0ee837cf5d5661efdde2da28"
+    },
+    {
+      "path": "test/e2e/legacy/basic/cmd.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d86233a0ad3053cd3b6dc0fb74800f312aa03ee",
+      "size": 3469,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/7d86233a0ad3053cd3b6dc0fb74800f312aa03ee"
+    },
+    {
+      "path": "test/e2e/legacy/basic/config.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "334cc062e5b4fdade585a8b7b0bcf915dec89382",
+      "size": 2130,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/334cc062e5b4fdade585a8b7b0bcf915dec89382"
+    },
+    {
+      "path": "test/e2e/legacy/basic/http.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1807ecddb8ead1045f918868e074eb9b9d423c6",
+      "size": 10039,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/f1807ecddb8ead1045f918868e074eb9b9d423c6"
+    },
+    {
+      "path": "test/e2e/legacy/basic/server.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3407a16569575fdae84ca36d94fc26bc5adb8cee",
+      "size": 5172,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/3407a16569575fdae84ca36d94fc26bc5adb8cee"
+    },
+    {
+      "path": "test/e2e/legacy/basic/tcpmux.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3872ea04acc6e9816c23328aae64b5273aed7b9d",
+      "size": 5684,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/3872ea04acc6e9816c23328aae64b5273aed7b9d"
+    },
+    {
+      "path": "test/e2e/legacy/basic/xtcp.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e72f2e16950af10380141ef809ed2417da95719",
+      "size": 1144,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/6e72f2e16950af10380141ef809ed2417da95719"
+    },
+    {
+      "path": "test/e2e/legacy/features",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "166ae9149887f1527fc07fc6b911d273b4cb9529",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/166ae9149887f1527fc07fc6b911d273b4cb9529"
+    },
+    {
+      "path": "test/e2e/legacy/features/bandwidth_limit.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a54866b87943e317e45b9b068c105a19c151514f",
+      "size": 3162,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/a54866b87943e317e45b9b068c105a19c151514f"
+    },
+    {
+      "path": "test/e2e/legacy/features/chaos.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fccc4cb5cefb4243deb07ef4b9ea7550510fe19",
+      "size": 1736,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/9fccc4cb5cefb4243deb07ef4b9ea7550510fe19"
+    },
+    {
+      "path": "test/e2e/legacy/features/group.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57c143c5ab10519d2c8328642e9dd217bb045acc",
+      "size": 7171,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/57c143c5ab10519d2c8328642e9dd217bb045acc"
+    },
+    {
+      "path": "test/e2e/legacy/features/heartbeat.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c1758f2c946760b46f575266065ad510f4aa273",
+      "size": 1050,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/3c1758f2c946760b46f575266065ad510f4aa273"
+    },
+    {
+      "path": "test/e2e/legacy/features/monitor.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b19a85eeb795c84718b5c5b5879e3882f212484",
+      "size": 1371,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/0b19a85eeb795c84718b5c5b5879e3882f212484"
+    },
+    {
+      "path": "test/e2e/legacy/features/real_ip.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dae74e565beace4f627bae6a0ea51f926750d66b",
+      "size": 4193,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/dae74e565beace4f627bae6a0ea51f926750d66b"
+    },
+    {
+      "path": "test/e2e/legacy/plugin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "26674ad64e8fa55dad3120d9ce2354b7e8c11e66",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/26674ad64e8fa55dad3120d9ce2354b7e8c11e66"
+    },
+    {
+      "path": "test/e2e/legacy/plugin/client.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca2942803d3f91642bc7621902753ed2656798f0",
+      "size": 9123,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/ca2942803d3f91642bc7621902753ed2656798f0"
+    },
+    {
+      "path": "test/e2e/legacy/plugin/server.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b00b1bac35749296995b2a9040cc6f10845fbc04",
+      "size": 10165,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/b00b1bac35749296995b2a9040cc6f10845fbc04"
+    },
+    {
+      "path": "test/e2e/mock",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4cb92c378d8ae6f02dd016c59c91839b637458cd",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/4cb92c378d8ae6f02dd016c59c91839b637458cd"
+    },
+    {
+      "path": "test/e2e/mock/server",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "47937eb7e941ba956d92fe38a4694f26cdea85c4",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/47937eb7e941ba956d92fe38a4694f26cdea85c4"
+    },
+    {
+      "path": "test/e2e/mock/server/httpserver",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9cee5485989c88fbd23945d59c6a24a30c38cf81",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/9cee5485989c88fbd23945d59c6a24a30c38cf81"
+    },
+    {
+      "path": "test/e2e/mock/server/httpserver/server.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb80288f02c454c38f3c726d219f8f61fd2dca04",
+      "size": 1771,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/fb80288f02c454c38f3c726d219f8f61fd2dca04"
+    },
+    {
+      "path": "test/e2e/mock/server/interface.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1f320acdbeaab902a1cc6208c22ebffb5fd3c53",
+      "size": 105,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/f1f320acdbeaab902a1cc6208c22ebffb5fd3c53"
+    },
+    {
+      "path": "test/e2e/mock/server/oidcserver",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e1428963318d36046514150e1fe4b34a4f35f823",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/e1428963318d36046514150e1fe4b34a4f35f823"
+    },
+    {
+      "path": "test/e2e/mock/server/oidcserver/oidcserver.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb7ce2e4aa1ad34adbfc6367586e7956a6279cb7",
+      "size": 6439,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/eb7ce2e4aa1ad34adbfc6367586e7956a6279cb7"
+    },
+    {
+      "path": "test/e2e/mock/server/streamserver",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bdc250abc15a010f6230bbdb44a3952a8acc0bcb",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/bdc250abc15a010f6230bbdb44a3952a8acc0bcb"
+    },
+    {
+      "path": "test/e2e/mock/server/streamserver/server.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e237d96fbabc8f0fb8a06824bc6b6b60f55a877",
+      "size": 2203,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/9e237d96fbabc8f0fb8a06824bc6b6b60f55a877"
+    },
+    {
+      "path": "test/e2e/pkg",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "63a5b5a66a15a9035354967f83673c040dca1da7",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/63a5b5a66a15a9035354967f83673c040dca1da7"
+    },
+    {
+      "path": "test/e2e/pkg/cert",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "17a2d97d22ab86c4797c58b60cfe68b8271c0a4f",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/17a2d97d22ab86c4797c58b60cfe68b8271c0a4f"
+    },
+    {
+      "path": "test/e2e/pkg/cert/generator.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb22522bec08a75c2872fd367cd12cc9263d8e72",
+      "size": 1697,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/fb22522bec08a75c2872fd367cd12cc9263d8e72"
+    },
+    {
+      "path": "test/e2e/pkg/cert/selfsigned.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82762d0990cf54adffa3e02639b9af63736574b3",
+      "size": 4625,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/82762d0990cf54adffa3e02639b9af63736574b3"
+    },
+    {
+      "path": "test/e2e/pkg/plugin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5275eaefc12ac809f8c753ec09210108b40b0bfd",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/5275eaefc12ac809f8c753ec09210108b40b0bfd"
+    },
+    {
+      "path": "test/e2e/pkg/plugin/plugin.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b807a060a0d1c1b608cb7a195390c9b8454fce59",
+      "size": 1031,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/b807a060a0d1c1b608cb7a195390c9b8454fce59"
+    },
+    {
+      "path": "test/e2e/pkg/port",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "be2ffef4232fb26a4bf1a3803c4600fd03eb5a10",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/be2ffef4232fb26a4bf1a3803c4600fd03eb5a10"
+    },
+    {
+      "path": "test/e2e/pkg/port/port.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82ac8586361ee136433997fe3f22f0e9f585d9a3",
+      "size": 2112,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/82ac8586361ee136433997fe3f22f0e9f585d9a3"
+    },
+    {
+      "path": "test/e2e/pkg/port/util.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "073bf3c7787c1adfe97e1470d99977001eda1324",
+      "size": 1612,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/073bf3c7787c1adfe97e1470d99977001eda1324"
+    },
+    {
+      "path": "test/e2e/pkg/process",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fdd577a678753de28a193c9a40d71e7fbcb7983c",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/fdd577a678753de28a193c9a40d71e7fbcb7983c"
+    },
+    {
+      "path": "test/e2e/pkg/process/process.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e05b90d146c7f25695a6f6227ad7053a54b0c1b",
+      "size": 2995,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/0e05b90d146c7f25695a6f6227ad7053a54b0c1b"
+    },
+    {
+      "path": "test/e2e/pkg/request",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4593d4217076b1fada946ec8c14c5c6aed7f79b2",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/4593d4217076b1fada946ec8c14c5c6aed7f79b2"
+    },
+    {
+      "path": "test/e2e/pkg/request/request.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3b726693f09a334d12d70863147fe3efe5be483",
+      "size": 5239,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/c3b726693f09a334d12d70863147fe3efe5be483"
+    },
+    {
+      "path": "test/e2e/pkg/rpc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "add4b122bc5f1d9eac4d67ea10910e92f5faf0fc",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/add4b122bc5f1d9eac4d67ea10910e92f5faf0fc"
+    },
+    {
+      "path": "test/e2e/pkg/rpc/rpc.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48b240d758763d92d9c083b04b79fbf15a7bc31a",
+      "size": 744,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/48b240d758763d92d9c083b04b79fbf15a7bc31a"
+    },
+    {
+      "path": "test/e2e/pkg/ssh",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "974e0cb7783e14e79862e69296685fe98cb322aa",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/974e0cb7783e14e79862e69296685fe98cb322aa"
+    },
+    {
+      "path": "test/e2e/pkg/ssh/client.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2525871cf9c57e5f9760fbacc25c554e66f754d",
+      "size": 1556,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/d2525871cf9c57e5f9760fbacc25c554e66f754d"
+    },
+    {
+      "path": "test/e2e/suites.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1201bd3ba6245a7f6f5ce695642ed79c9203b4a8",
+      "size": 595,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/1201bd3ba6245a7f6f5ce695642ed79c9203b4a8"
+    },
+    {
+      "path": "test/e2e/v1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2d19d5bf13c7a306aa56b58954a7935cc2f50d78",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/2d19d5bf13c7a306aa56b58954a7935cc2f50d78"
+    },
+    {
+      "path": "test/e2e/v1/basic",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a0b61ed0aaad9bd54126f717cb67ecd593772b04",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/a0b61ed0aaad9bd54126f717cb67ecd593772b04"
+    },
+    {
+      "path": "test/e2e/v1/basic/annotations.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78e94a167db94bf2e8884e0fde0eb11e614b9bb8",
+      "size": 1413,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/78e94a167db94bf2e8884e0fde0eb11e614b9bb8"
+    },
+    {
+      "path": "test/e2e/v1/basic/basic.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8994ba73d56568e851549bd9053c9971d3ad191f",
+      "size": 15462,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/8994ba73d56568e851549bd9053c9971d3ad191f"
+    },
+    {
+      "path": "test/e2e/v1/basic/client.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec2011ea4c489a3124c57d0e044d3e6e0c8ef2f7",
+      "size": 3657,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/ec2011ea4c489a3124c57d0e044d3e6e0c8ef2f7"
+    },
+    {
+      "path": "test/e2e/v1/basic/client_server.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a2fa28d15ceca6ecabb621e0e9790d1c051b079",
+      "size": 10729,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/3a2fa28d15ceca6ecabb621e0e9790d1c051b079"
+    },
+    {
+      "path": "test/e2e/v1/basic/cmd.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44aa35990cb65b49a20fab2076a2824a32adea1f",
+      "size": 3433,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/44aa35990cb65b49a20fab2076a2824a32adea1f"
+    },
+    {
+      "path": "test/e2e/v1/basic/config.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e290109e98db5461eef011b868e6dce83346699a",
+      "size": 4661,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/e290109e98db5461eef011b868e6dce83346699a"
+    },
+    {
+      "path": "test/e2e/v1/basic/http.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a44ba214425dea1dce84cdd927a9bcd46aa7665",
+      "size": 15261,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/1a44ba214425dea1dce84cdd927a9bcd46aa7665"
+    },
+    {
+      "path": "test/e2e/v1/basic/oidc.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19539c76511d24ef8bfd9a30810d1a7e4e893a9c",
+      "size": 5740,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/19539c76511d24ef8bfd9a30810d1a7e4e893a9c"
+    },
+    {
+      "path": "test/e2e/v1/basic/server.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04ae01b7cf324a2d11a147cc67ec5377425edba3",
+      "size": 5409,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/04ae01b7cf324a2d11a147cc67ec5377425edba3"
+    },
+    {
+      "path": "test/e2e/v1/basic/tcpmux.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b839faa8dfe890b49de9d9713634d9f64e567a9",
+      "size": 5801,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/9b839faa8dfe890b49de9d9713634d9f64e567a9"
+    },
+    {
+      "path": "test/e2e/v1/basic/token_source.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d12dd4de49c9443133394ff5f7ee9bd295e9a1e1",
+      "size": 10675,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/d12dd4de49c9443133394ff5f7ee9bd295e9a1e1"
+    },
+    {
+      "path": "test/e2e/v1/basic/wire.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "051e6a6cb1bdc4b90222a000c5e7cfc95d7ad5e6",
+      "size": 6236,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/051e6a6cb1bdc4b90222a000c5e7cfc95d7ad5e6"
+    },
+    {
+      "path": "test/e2e/v1/basic/xtcp.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57905f0dc09ad705824cc62ecf09c855f4ca33bc",
+      "size": 1166,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/57905f0dc09ad705824cc62ecf09c855f4ca33bc"
+    },
+    {
+      "path": "test/e2e/v1/features",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "adc5ca04e59579db5c5e96cb55c136dafb4131d2",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/adc5ca04e59579db5c5e96cb55c136dafb4131d2"
+    },
+    {
+      "path": "test/e2e/v1/features/bandwidth_limit.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11503adbf24d7d1845de0118ecae5a28e7ae5404",
+      "size": 3219,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/11503adbf24d7d1845de0118ecae5a28e7ae5404"
+    },
+    {
+      "path": "test/e2e/v1/features/chaos.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c515251163b9b196fdecfed555055f0665899a9",
+      "size": 2008,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/8c515251163b9b196fdecfed555055f0665899a9"
+    },
+    {
+      "path": "test/e2e/v1/features/group.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85b938a94c89dba52b5242e88818c7121caabebb",
+      "size": 11997,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/85b938a94c89dba52b5242e88818c7121caabebb"
+    },
+    {
+      "path": "test/e2e/v1/features/heartbeat.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08a1b5d96adad939836c5f0d8c0c5f9c84d368b7",
+      "size": 1091,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/08a1b5d96adad939836c5f0d8c0c5f9c84d368b7"
+    },
+    {
+      "path": "test/e2e/v1/features/monitor.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f70dce16400ae290e9b99cdb2fe141804a0fca44",
+      "size": 1381,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/f70dce16400ae290e9b99cdb2fe141804a0fca44"
+    },
+    {
+      "path": "test/e2e/v1/features/real_ip.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bebfc2b31c976ff32fe3a6e4098bd996df7b634",
+      "size": 9200,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/6bebfc2b31c976ff32fe3a6e4098bd996df7b634"
+    },
+    {
+      "path": "test/e2e/v1/features/ssh_tunnel.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c120eab0743e0f2785f374855a85655c1c1692c5",
+      "size": 5968,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/c120eab0743e0f2785f374855a85655c1c1692c5"
+    },
+    {
+      "path": "test/e2e/v1/features/store.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76a9b05aef7682cd967688b7f3b7d5d262b93a5c",
+      "size": 11055,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/76a9b05aef7682cd967688b7f3b7d5d262b93a5c"
+    },
+    {
+      "path": "test/e2e/v1/plugin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2fa66353c71a912f7ae6bc55b0d90948f27992ac",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/2fa66353c71a912f7ae6bc55b0d90948f27992ac"
+    },
+    {
+      "path": "test/e2e/v1/plugin/client.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ea25a6efd46696b577e03e1c7d8aec6a6833a11",
+      "size": 12616,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/1ea25a6efd46696b577e03e1c7d8aec6a6833a11"
+    },
+    {
+      "path": "test/e2e/v1/plugin/server.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd684ef5d4e7b0564d9a9af5963897e5069167c9",
+      "size": 10501,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/fd684ef5d4e7b0564d9a9af5963897e5069167c9"
+    },
+    {
+      "path": "web",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "375faf61f6a062d1b1353753ea52c46c1552b223",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/375faf61f6a062d1b1353753ea52c46c1552b223"
+    },
+    {
+      "path": "web/frpc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5a77d30a5455327d5ee443f06eacb40354a82494",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/5a77d30a5455327d5ee443f06eacb40354a82494"
+    },
+    {
+      "path": "web/frpc/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38adffa64e8300a31b749218081149e1fe3deaaa",
+      "size": 302,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/38adffa64e8300a31b749218081149e1fe3deaaa"
+    },
+    {
+      "path": "web/frpc/.prettierrc.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8dec5b18972c1d0046d22c2a74028268e574350",
+      "size": 60,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/f8dec5b18972c1d0046d22c2a74028268e574350"
+    },
+    {
+      "path": "web/frpc/Makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adf015e50a22efa7358ba75773f68d01255bce5c",
+      "size": 175,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/adf015e50a22efa7358ba75773f68d01255bce5c"
+    },
+    {
+      "path": "web/frpc/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acbdbb087eeb997793304dc934e071e40ef6b3b2",
+      "size": 262,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/acbdbb087eeb997793304dc934e071e40ef6b3b2"
+    },
+    {
+      "path": "web/frpc/auto-imports.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d89ee8c4833d5972293125ae111ea45d41f2e83",
+      "size": 163,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/1d89ee8c4833d5972293125ae111ea45d41f2e83"
+    },
+    {
+      "path": "web/frpc/components.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c58d0bcab4889ba46a09a7f71d3eeaed6eb278a3",
+      "size": 3159,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/c58d0bcab4889ba46a09a7f71d3eeaed6eb278a3"
+    },
+    {
+      "path": "web/frpc/embed.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77b4863e9e297b0497091c2d0f55c4864c421ddb",
+      "size": 169,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/77b4863e9e297b0497091c2d0f55c4864c421ddb"
+    },
+    {
+      "path": "web/frpc/embed_stub.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "591a770a563a33af5d265211872e4aae60b83faf",
+      "size": 31,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/591a770a563a33af5d265211872e4aae60b83faf"
+    },
+    {
+      "path": "web/frpc/env.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11f02fe2a0061d6e6e1f271b21da95423b448b32",
+      "size": 38,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/11f02fe2a0061d6e6e1f271b21da95423b448b32"
+    },
+    {
+      "path": "web/frpc/eslint.config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4cce6d4b142d29e13b11d46b12c4be9918117ce",
+      "size": 874,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/a4cce6d4b142d29e13b11d46b12c4be9918117ce"
+    },
+    {
+      "path": "web/frpc/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a893c9c1d5f21eaea123a783250db7ffc106c40c",
+      "size": 286,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/a893c9c1d5f21eaea123a783250db7ffc106c40c"
+    },
+    {
+      "path": "web/frpc/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e20d893b3d198b74d4b46ac66d590239c20ae88",
+      "size": 1068,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/6e20d893b3d198b74d4b46ac66d590239c20ae88"
+    },
+    {
+      "path": "web/frpc/public",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "89da1fdf91497bc4db789c3c48928eec62adffc5",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/89da1fdf91497bc4db789c3c48928eec62adffc5"
+    },
+    {
+      "path": "web/frpc/public/favicon.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4347765571a827fe6bcc4931a4ff925d07574299",
+      "size": 9662,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/4347765571a827fe6bcc4931a4ff925d07574299"
+    },
+    {
+      "path": "web/frpc/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4de5025cf62fa57a850f1be4281c09e7c01eb07c",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/4de5025cf62fa57a850f1be4281c09e7c01eb07c"
+    },
+    {
+      "path": "web/frpc/src/App.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b75c8a6915f5e93cad664eab15621cacc79f31e9",
+      "size": 10269,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/b75c8a6915f5e93cad664eab15621cacc79f31e9"
+    },
+    {
+      "path": "web/frpc/src/api",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "138f325d8dfdbeaeaccd38afb508353f20d0ee2c",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/138f325d8dfdbeaeaccd38afb508353f20d0ee2c"
+    },
+    {
+      "path": "web/frpc/src/api/frpc.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7af90c0aa5b29c904c777910cbdf890b0e60d1a",
+      "size": 2295,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/c7af90c0aa5b29c904c777910cbdf890b0e60d1a"
+    },
+    {
+      "path": "web/frpc/src/api/http.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f5b8c64e4f3dae33a450e0356199600de4b3819",
+      "size": 2301,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/5f5b8c64e4f3dae33a450e0356199600de4b3819"
+    },
+    {
+      "path": "web/frpc/src/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "76b33f5d1e738304aa1e10722ea15ec260a7eefd",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/76b33f5d1e738304aa1e10722ea15ec260a7eefd"
+    },
+    {
+      "path": "web/frpc/src/assets/css",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a0bfbf107d0d2eeefd9d8e0d51ca9d09108d7fb4",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/a0bfbf107d0d2eeefd9d8e0d51ca9d09108d7fb4"
+    },
+    {
+      "path": "web/frpc/src/assets/css/_form-layout.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca84433f6577cbd5cc5f06ff44e1d4ba308e8e1a",
+      "size": 532,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/ca84433f6577cbd5cc5f06ff44e1d4ba308e8e1a"
+    },
+    {
+      "path": "web/frpc/src/assets/css/dark.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d090aec5b197d152e7c61730fe35a989f3fdde4",
+      "size": 3482,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/1d090aec5b197d152e7c61730fe35a989f3fdde4"
+    },
+    {
+      "path": "web/frpc/src/assets/css/var.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "388a0521fb2c3ae6b63ede05e84f587b4c354b1c",
+      "size": 3391,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/388a0521fb2c3ae6b63ede05e84f587b4c354b1c"
+    },
+    {
+      "path": "web/frpc/src/assets/icons",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d65d1769603bf8de77ad2b7d52628c7491c6f619",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/d65d1769603bf8de77ad2b7d52628c7491c6f619"
+    },
+    {
+      "path": "web/frpc/src/assets/icons/github.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "160a7939320c8377422586412855247534d72fdc",
+      "size": 671,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/160a7939320c8377422586412855247534d72fdc"
+    },
+    {
+      "path": "web/frpc/src/assets/icons/logo.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fee4a82a394fbe6be2787047515fd7807e767a00",
+      "size": 448,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/fee4a82a394fbe6be2787047515fd7807e767a00"
+    },
+    {
+      "path": "web/frpc/src/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a3632f88081c11383435567e78da348cf27b00f2",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/a3632f88081c11383435567e78da348cf27b00f2"
+    },
+    {
+      "path": "web/frpc/src/components/ConfigField.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27719847a2b4bb8e338c549551e9a3c0aa739ee4",
+      "size": 6740,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/27719847a2b4bb8e338c549551e9a3c0aa739ee4"
+    },
+    {
+      "path": "web/frpc/src/components/ConfigSection.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a795afb93298f2b6c03079fa1db0424011ca345",
+      "size": 3777,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/1a795afb93298f2b6c03079fa1db0424011ca345"
+    },
+    {
+      "path": "web/frpc/src/components/KeyValueEditor.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b4676703b809baa7b43e8be259af9bbe1611a06",
+      "size": 4444,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/9b4676703b809baa7b43e8be259af9bbe1611a06"
+    },
+    {
+      "path": "web/frpc/src/components/ProxyCard.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93f815a6a655a54449baa49283931c431d64f2d4",
+      "size": 4984,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/93f815a6a655a54449baa49283931c431d64f2d4"
+    },
+    {
+      "path": "web/frpc/src/components/StatusPills.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "054dfaadcbfe753761aeed6833c0d759d083722d",
+      "size": 2083,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/054dfaadcbfe753761aeed6833c0d759d083722d"
+    },
+    {
+      "path": "web/frpc/src/components/StringListEditor.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c48c2083575a245faa7e395e061c70c40c50fa70",
+      "size": 3288,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/c48c2083575a245faa7e395e061c70c40c50fa70"
+    },
+    {
+      "path": "web/frpc/src/components/proxy-form",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "73bfebd4215c60d6344286384ff8802906f8924f",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/73bfebd4215c60d6344286384ff8802906f8924f"
+    },
+    {
+      "path": "web/frpc/src/components/proxy-form/ProxyAuthSection.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54e39b3da6f1d34a3e98adabb9d000db0b0f17ce",
+      "size": 1523,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/54e39b3da6f1d34a3e98adabb9d000db0b0f17ce"
+    },
+    {
+      "path": "web/frpc/src/components/proxy-form/ProxyBackendSection.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "633d3e61308ee06563ff79be934482311ad830eb",
+      "size": 6336,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/633d3e61308ee06563ff79be934482311ad830eb"
+    },
+    {
+      "path": "web/frpc/src/components/proxy-form/ProxyBaseSection.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0c01bd62497f1abb7829db1595041163e1a1b81",
+      "size": 1582,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/f0c01bd62497f1abb7829db1595041163e1a1b81"
+    },
+    {
+      "path": "web/frpc/src/components/proxy-form/ProxyFormLayout.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb954c9a549cab0d14abd25c16e08f29783f83ee",
+      "size": 2096,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/cb954c9a549cab0d14abd25c16e08f29783f83ee"
+    },
+    {
+      "path": "web/frpc/src/components/proxy-form/ProxyHealthSection.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e146d9dcc5cc8f7dd6a7cbaac28e56651a494fe",
+      "size": 2184,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/6e146d9dcc5cc8f7dd6a7cbaac28e56651a494fe"
+    },
+    {
+      "path": "web/frpc/src/components/proxy-form/ProxyHttpSection.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "beccc96f9efa17f41a9ba119bc13e60986a129bc",
+      "size": 1380,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/beccc96f9efa17f41a9ba119bc13e60986a129bc"
+    },
+    {
+      "path": "web/frpc/src/components/proxy-form/ProxyLoadBalanceSection.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef22e07af8c2737b1dec1525647c78e61753ef92",
+      "size": 1018,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/ef22e07af8c2737b1dec1525647c78e61753ef92"
+    },
+    {
+      "path": "web/frpc/src/components/proxy-form/ProxyMetadataSection.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adc627aff52bf3b64178f76ee8c22fec1dfdaa8a",
+      "size": 954,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/adc627aff52bf3b64178f76ee8c22fec1dfdaa8a"
+    },
+    {
+      "path": "web/frpc/src/components/proxy-form/ProxyNatSection.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "191aeb27103cc8695e5545d06230c5ab810c0f41",
+      "size": 940,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/191aeb27103cc8695e5545d06230c5ab810c0f41"
+    },
+    {
+      "path": "web/frpc/src/components/proxy-form/ProxyRemoteSection.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cba7652e40fd07beba80e809e215a94bf0d2ef34",
+      "size": 1529,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/cba7652e40fd07beba80e809e215a94bf0d2ef34"
+    },
+    {
+      "path": "web/frpc/src/components/proxy-form/ProxyTransportSection.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b290d59bce81f812e4ade161101e313c8539aa5f",
+      "size": 1795,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/b290d59bce81f812e4ade161101e313c8539aa5f"
+    },
+    {
+      "path": "web/frpc/src/components/visitor-form",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f84274fbfa04db08cd43650df144eafcc5f7ff3d",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/f84274fbfa04db08cd43650df144eafcc5f7ff3d"
+    },
+    {
+      "path": "web/frpc/src/components/visitor-form/VisitorBaseSection.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e5e526dcd5ac436cf657ba2868bb4e4a43cdd53",
+      "size": 1520,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/8e5e526dcd5ac436cf657ba2868bb4e4a43cdd53"
+    },
+    {
+      "path": "web/frpc/src/components/visitor-form/VisitorConnectionSection.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00dfca96b092787eaef0327c744bdcda5245c36d",
+      "size": 1603,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/00dfca96b092787eaef0327c744bdcda5245c36d"
+    },
+    {
+      "path": "web/frpc/src/components/visitor-form/VisitorFormLayout.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d50a58f14d57c1960fb8dfb19692be6130062aa",
+      "size": 1205,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/1d50a58f14d57c1960fb8dfb19692be6130062aa"
+    },
+    {
+      "path": "web/frpc/src/components/visitor-form/VisitorTransportSection.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7d2fadbfad6d43838d74afff39a397feacdc906",
+      "size": 1033,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/f7d2fadbfad6d43838d74afff39a397feacdc906"
+    },
+    {
+      "path": "web/frpc/src/components/visitor-form/VisitorXtcpSection.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bca4b9b49eeafc4e92f5fc275e6997794742c8c",
+      "size": 2183,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/2bca4b9b49eeafc4e92f5fc275e6997794742c8c"
+    },
+    {
+      "path": "web/frpc/src/composables",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1f9078603a228a6e55138f6ee3210b515054afd6",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/1f9078603a228a6e55138f6ee3210b515054afd6"
+    },
+    {
+      "path": "web/frpc/src/composables/useResponsive.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6cf177439df706bb50ba31e804da5d841fdbaf5",
+      "size": 231,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/f6cf177439df706bb50ba31e804da5d841fdbaf5"
+    },
+    {
+      "path": "web/frpc/src/main.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c433176b7f4704582fbf59ef5e1f57ae4db6b14f",
+      "size": 327,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/c433176b7f4704582fbf59ef5e1f57ae4db6b14f"
+    },
+    {
+      "path": "web/frpc/src/router",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9c2df1549c7855bd799ad1558f4e430e20cc46db",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/9c2df1549c7855bd799ad1558f4e430e20cc46db"
+    },
+    {
+      "path": "web/frpc/src/router/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75457207d4f81779aa2845a267ab700993aa7694",
+      "size": 2141,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/75457207d4f81779aa2845a267ab700993aa7694"
+    },
+    {
+      "path": "web/frpc/src/stores",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5e59df3cda7e8f368321da6c18f8836af5e87496",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/5e59df3cda7e8f368321da6c18f8836af5e87496"
+    },
+    {
+      "path": "web/frpc/src/stores/client.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f576b4b7092aefaa7b1e5171b9f73f54ac9d951",
+      "size": 636,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/4f576b4b7092aefaa7b1e5171b9f73f54ac9d951"
+    },
+    {
+      "path": "web/frpc/src/stores/proxy.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7b6449bd916f79f8eadb5e606228db95524bfd6",
+      "size": 3457,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/b7b6449bd916f79f8eadb5e606228db95524bfd6"
+    },
+    {
+      "path": "web/frpc/src/stores/visitor.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b817c39f937d28da57bb6a818aa2b19ee3faf3b",
+      "size": 1673,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/9b817c39f937d28da57bb6a818aa2b19ee3faf3b"
+    },
+    {
+      "path": "web/frpc/src/svg.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f7dabe59c125082e95f612ea17f2b219fa4b830",
+      "size": 169,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/2f7dabe59c125082e95f612ea17f2b219fa4b830"
+    },
+    {
+      "path": "web/frpc/src/types",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "09722586833f575821768c9dd4744aba376c56ec",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/09722586833f575821768c9dd4744aba376c56ec"
+    },
+    {
+      "path": "web/frpc/src/types/constants.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b135f8b6fce38e5be102934336ea2a5662937ad8",
+      "size": 564,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/b135f8b6fce38e5be102934336ea2a5662937ad8"
+    },
+    {
+      "path": "web/frpc/src/types/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c24111ef90b337afc9e17c0410eadaf24f842a98",
+      "size": 153,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/c24111ef90b337afc9e17c0410eadaf24f842a98"
+    },
+    {
+      "path": "web/frpc/src/types/proxy-converters.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6587986ef05d986bf5197853c100a956dfe37453",
+      "size": 12547,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/6587986ef05d986bf5197853c100a956dfe37453"
+    },
+    {
+      "path": "web/frpc/src/types/proxy-form.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f6bd6140b753dc7bad37fd96a5a9e2b288cd072",
+      "size": 3778,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/8f6bd6140b753dc7bad37fd96a5a9e2b288cd072"
+    },
+    {
+      "path": "web/frpc/src/types/proxy-status.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b4ea648f103fe8bdf49e7d2cc25654d4101a54c",
+      "size": 265,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/3b4ea648f103fe8bdf49e7d2cc25654d4101a54c"
+    },
+    {
+      "path": "web/frpc/src/types/proxy-store.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7ef95b065deaf8757de72aebeefe0d875f2eaa2",
+      "size": 659,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/f7ef95b065deaf8757de72aebeefe0d875f2eaa2"
+    },
+    {
+      "path": "web/frpc/src/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2faeb79e92d67182cec0c8695e9ae0719b4ad083",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/2faeb79e92d67182cec0c8695e9ae0719b4ad083"
+    },
+    {
+      "path": "web/frpc/src/utils/format.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11cd398f1429e91c5d6a4bf8181c5fd81feaf808",
+      "size": 1144,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/11cd398f1429e91c5d6a4bf8181c5fd81feaf808"
+    },
+    {
+      "path": "web/frpc/src/views",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9dd2ddf23fe50d948f1282d7839d9f968f5a395a",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/9dd2ddf23fe50d948f1282d7839d9f968f5a395a"
+    },
+    {
+      "path": "web/frpc/src/views/ClientConfigure.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa9c4c4e17c5109a6b8a2f7b5535e2638131fe90",
+      "size": 4175,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/aa9c4c4e17c5109a6b8a2f7b5535e2638131fe90"
+    },
+    {
+      "path": "web/frpc/src/views/ProxyDetail.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b238b4a85f9d89f644828249078c8a4ef857800",
+      "size": 7317,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/9b238b4a85f9d89f644828249078c8a4ef857800"
+    },
+    {
+      "path": "web/frpc/src/views/ProxyEdit.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a45d695355c555acebfa5c202d63ba2b9cba8d8",
+      "size": 6995,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/0a45d695355c555acebfa5c202d63ba2b9cba8d8"
+    },
+    {
+      "path": "web/frpc/src/views/ProxyList.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "616619839692cae6dde30675ab184b4af450e8a7",
+      "size": 11725,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/616619839692cae6dde30675ab184b4af450e8a7"
+    },
+    {
+      "path": "web/frpc/src/views/VisitorDetail.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b038b1e5d5ce012d1099f7688f8cf43e475835db",
+      "size": 4676,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/b038b1e5d5ce012d1099f7688f8cf43e475835db"
+    },
+    {
+      "path": "web/frpc/src/views/VisitorEdit.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "615e97e95b5a93fa4a0122ed12bb57903b59c753",
+      "size": 6901,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/615e97e95b5a93fa4a0122ed12bb57903b59c753"
+    },
+    {
+      "path": "web/frpc/src/views/VisitorList.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "506b57f251b044aa1a281e66606b6729ff08b49b",
+      "size": 8932,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/506b57f251b044aa1a281e66606b6729ff08b49b"
+    },
+    {
+      "path": "web/frpc/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8795fb5cec2aba698a9dcac4ca4747ac5f2306e1",
+      "size": 770,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/8795fb5cec2aba698a9dcac4ca4747ac5f2306e1"
+    },
+    {
+      "path": "web/frpc/tsconfig.node.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42872c59f5b01c9155864572bc2fbd5833a7406c",
+      "size": 213,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/42872c59f5b01c9155864572bc2fbd5833a7406c"
+    },
+    {
+      "path": "web/frpc/vite.config.mts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a9205d03e0f28bd2c03efc74a2f4a476bc536db",
+      "size": 1631,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/6a9205d03e0f28bd2c03efc74a2f4a476bc536db"
+    },
+    {
+      "path": "web/frps",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "af1e675814758b380cb4be3c77c8aca80a112103",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/af1e675814758b380cb4be3c77c8aca80a112103"
+    },
+    {
+      "path": "web/frps/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38adffa64e8300a31b749218081149e1fe3deaaa",
+      "size": 302,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/38adffa64e8300a31b749218081149e1fe3deaaa"
+    },
+    {
+      "path": "web/frps/.prettierrc.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8dec5b18972c1d0046d22c2a74028268e574350",
+      "size": 60,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/f8dec5b18972c1d0046d22c2a74028268e574350"
+    },
+    {
+      "path": "web/frps/Makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adf015e50a22efa7358ba75773f68d01255bce5c",
+      "size": 175,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/adf015e50a22efa7358ba75773f68d01255bce5c"
+    },
+    {
+      "path": "web/frps/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2e08e66d98e5490586422e24d8b5d0f0ee3655a",
+      "size": 262,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/a2e08e66d98e5490586422e24d8b5d0f0ee3655a"
+    },
+    {
+      "path": "web/frps/auto-imports.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d89ee8c4833d5972293125ae111ea45d41f2e83",
+      "size": 163,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/1d89ee8c4833d5972293125ae111ea45d41f2e83"
+    },
+    {
+      "path": "web/frps/components.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5a18d7930d2d8a1c6e6b11e9214316904707fc2",
+      "size": 1440,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/b5a18d7930d2d8a1c6e6b11e9214316904707fc2"
+    },
+    {
+      "path": "web/frps/embed.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1264d7ca9a93e3c915848c73c6713315c6013b2",
+      "size": 169,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/a1264d7ca9a93e3c915848c73c6713315c6013b2"
+    },
+    {
+      "path": "web/frps/embed_stub.go",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35c9d9c81962ed314d3e798c609f5810a84939dd",
+      "size": 31,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/35c9d9c81962ed314d3e798c609f5810a84939dd"
+    },
+    {
+      "path": "web/frps/env.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11f02fe2a0061d6e6e1f271b21da95423b448b32",
+      "size": 38,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/11f02fe2a0061d6e6e1f271b21da95423b448b32"
+    },
+    {
+      "path": "web/frps/eslint.config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e13d4e48b42483629463f76f36291f2e2748dfa6",
+      "size": 895,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/e13d4e48b42483629463f76f36291f2e2748dfa6"
+    },
+    {
+      "path": "web/frps/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c43e45b44e9fb8d64f39bb733c5cea496585690a",
+      "size": 224,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/c43e45b44e9fb8d64f39bb733c5cea496585690a"
+    },
+    {
+      "path": "web/frps/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c44c0dd4c2e6c442d3310e1122cfbba2427fffa6",
+      "size": 1045,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/c44c0dd4c2e6c442d3310e1122cfbba2427fffa6"
+    },
+    {
+      "path": "web/frps/public",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "89da1fdf91497bc4db789c3c48928eec62adffc5",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/89da1fdf91497bc4db789c3c48928eec62adffc5"
+    },
+    {
+      "path": "web/frps/public/favicon.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4347765571a827fe6bcc4931a4ff925d07574299",
+      "size": 9662,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/4347765571a827fe6bcc4931a4ff925d07574299"
+    },
+    {
+      "path": "web/frps/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fdf4b093d1e9552ff9fdcd5dfddad45351f61542",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/fdf4b093d1e9552ff9fdcd5dfddad45351f61542"
+    },
+    {
+      "path": "web/frps/src/App.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11b2790af1eb298d48d659af794ae3e55e5d5dc3",
+      "size": 10051,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/11b2790af1eb298d48d659af794ae3e55e5d5dc3"
+    },
+    {
+      "path": "web/frps/src/api",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cbc4be6c4a1a5ff1c29204fd5c0a76a236f089d2",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/cbc4be6c4a1a5ff1c29204fd5c0a76a236f089d2"
+    },
+    {
+      "path": "web/frps/src/api/client.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2be7d23936c8358b03a5776656688c08cd2dfea5",
+      "size": 821,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/2be7d23936c8358b03a5776656688c08cd2dfea5"
+    },
+    {
+      "path": "web/frps/src/api/http.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44100b07c5c4fb20d143ce250abdbc04586701c7",
+      "size": 2905,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/44100b07c5c4fb20d143ce250abdbc04586701c7"
+    },
+    {
+      "path": "web/frps/src/api/proxy.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20125842832f2eb7a858e31c7942ca02d9e7f5ec",
+      "size": 1772,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/20125842832f2eb7a858e31c7942ca02d9e7f5ec"
+    },
+    {
+      "path": "web/frps/src/api/server.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f46f21d37ebc50de5dce14ad5560e7ee153f2651",
+      "size": 171,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/f46f21d37ebc50de5dce14ad5560e7ee153f2651"
+    },
+    {
+      "path": "web/frps/src/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "72592686e7ad7180367cf94a803de0dde99bf054",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/72592686e7ad7180367cf94a803de0dde99bf054"
+    },
+    {
+      "path": "web/frps/src/assets/css",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "031c9ea385b718c0c3e230f888b82668df9357c4",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/031c9ea385b718c0c3e230f888b82668df9357c4"
+    },
+    {
+      "path": "web/frps/src/assets/css/dark.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb08805c5b82a992f6bb2d9b3deff59c1fb73c42",
+      "size": 3806,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/bb08805c5b82a992f6bb2d9b3deff59c1fb73c42"
+    },
+    {
+      "path": "web/frps/src/assets/css/var.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "170fccd7996a9a656b711c030d10277d4b3dc8eb",
+      "size": 3205,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/170fccd7996a9a656b711c030d10277d4b3dc8eb"
+    },
+    {
+      "path": "web/frps/src/assets/icons",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d65d1769603bf8de77ad2b7d52628c7491c6f619",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/d65d1769603bf8de77ad2b7d52628c7491c6f619"
+    },
+    {
+      "path": "web/frps/src/assets/icons/github.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "160a7939320c8377422586412855247534d72fdc",
+      "size": 671,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/160a7939320c8377422586412855247534d72fdc"
+    },
+    {
+      "path": "web/frps/src/assets/icons/logo.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fee4a82a394fbe6be2787047515fd7807e767a00",
+      "size": 448,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/fee4a82a394fbe6be2787047515fd7807e767a00"
+    },
+    {
+      "path": "web/frps/src/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f89dab5b1d91ad5468c8525b9a7f0563938858bf",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/f89dab5b1d91ad5468c8525b9a7f0563938858bf"
+    },
+    {
+      "path": "web/frps/src/components/ClientCard.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ccd7441512b7c7e84aec1c2f219a94b83983e31",
+      "size": 5435,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/4ccd7441512b7c7e84aec1c2f219a94b83983e31"
+    },
+    {
+      "path": "web/frps/src/components/ProxyCard.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "850ebb1895088d2b3a62d0be4dd948d8171a9bf3",
+      "size": 5111,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/850ebb1895088d2b3a62d0be4dd948d8171a9bf3"
+    },
+    {
+      "path": "web/frps/src/components/StatCard.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c62c1235d32c49247162cbeb35c160a313d707df",
+      "size": 3638,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/c62c1235d32c49247162cbeb35c160a313d707df"
+    },
+    {
+      "path": "web/frps/src/components/Traffic.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9142f3e053af0bf468977749ba7f8eb93fc9da59",
+      "size": 5826,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/9142f3e053af0bf468977749ba7f8eb93fc9da59"
+    },
+    {
+      "path": "web/frps/src/composables",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1f9078603a228a6e55138f6ee3210b515054afd6",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/1f9078603a228a6e55138f6ee3210b515054afd6"
+    },
+    {
+      "path": "web/frps/src/composables/useResponsive.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6cf177439df706bb50ba31e804da5d841fdbaf5",
+      "size": 231,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/f6cf177439df706bb50ba31e804da5d841fdbaf5"
+    },
+    {
+      "path": "web/frps/src/main.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53441a4e3b2229343ae90797cd9c5730250b6efd",
+      "size": 268,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/53441a4e3b2229343ae90797cd9c5730250b6efd"
+    },
+    {
+      "path": "web/frps/src/router",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "efd0abec7c21f3f37a369e7a7cb121c1c0459d56",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/efd0abec7c21f3f37a369e7a7cb121c1c0459d56"
+    },
+    {
+      "path": "web/frps/src/router/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7689e8868be3b86428e89cfdde667110802d3008",
+      "size": 939,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/7689e8868be3b86428e89cfdde667110802d3008"
+    },
+    {
+      "path": "web/frps/src/svg.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f7dabe59c125082e95f612ea17f2b219fa4b830",
+      "size": 169,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/2f7dabe59c125082e95f612ea17f2b219fa4b830"
+    },
+    {
+      "path": "web/frps/src/types",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9f16a214f282fc14664beb88f40bcb20e4c27b89",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/9f16a214f282fc14664beb88f40bcb20e4c27b89"
+    },
+    {
+      "path": "web/frps/src/types/client.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96700fe98f543dd6283f1d62990d3dd43cb5b486",
+      "size": 495,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/96700fe98f543dd6283f1d62990d3dd43cb5b486"
+    },
+    {
+      "path": "web/frps/src/types/proxy.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53645d48ca481805eb6a627aaa730e711c33ad7a",
+      "size": 898,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/53645d48ca481805eb6a627aaa730e711c33ad7a"
+    },
+    {
+      "path": "web/frps/src/types/server.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ada31cc5676a0c632d7cbef5af4bbc2e768f5d27",
+      "size": 487,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/ada31cc5676a0c632d7cbef5af4bbc2e768f5d27"
+    },
+    {
+      "path": "web/frps/src/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "183dbe97f621c8b49c3712990a75299f96781d7a",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/183dbe97f621c8b49c3712990a75299f96781d7a"
+    },
+    {
+      "path": "web/frps/src/utils/client.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d26eeb8a3eba5563cab2b974ee9aa3b763620a6",
+      "size": 2560,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/8d26eeb8a3eba5563cab2b974ee9aa3b763620a6"
+    },
+    {
+      "path": "web/frps/src/utils/format.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11cd398f1429e91c5d6a4bf8181c5fd81feaf808",
+      "size": 1144,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/11cd398f1429e91c5d6a4bf8181c5fd81feaf808"
+    },
+    {
+      "path": "web/frps/src/utils/proxy.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a883f097a5cfdbbd9621759caecede2f1ca94eb3",
+      "size": 4055,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/a883f097a5cfdbbd9621759caecede2f1ca94eb3"
+    },
+    {
+      "path": "web/frps/src/views",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6bbb46713dc6a1b62289cf311de106031c1ae55d",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/6bbb46713dc6a1b62289cf311de106031c1ae55d"
+    },
+    {
+      "path": "web/frps/src/views/ClientDetail.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42c9a25e114ef0afcb9b21a1498db18713f5cc61",
+      "size": 12675,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/42c9a25e114ef0afcb9b21a1498db18713f5cc61"
+    },
+    {
+      "path": "web/frps/src/views/Clients.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43d9f25b4f1353b7028c2447a241d7554ee36296",
+      "size": 7771,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/43d9f25b4f1353b7028c2447a241d7554ee36296"
+    },
+    {
+      "path": "web/frps/src/views/Proxies.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80548bb8ae14ad496173ee0268b0c251f3583527",
+      "size": 14889,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/80548bb8ae14ad496173ee0268b0c251f3583527"
+    },
+    {
+      "path": "web/frps/src/views/ProxyDetail.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6720424423b1ceabaa905a858a5b61fdb48e33a",
+      "size": 19719,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/a6720424423b1ceabaa905a858a5b61fdb48e33a"
+    },
+    {
+      "path": "web/frps/src/views/ServerOverview.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed3c4a64aa632bdc706bfa0f6872b37dc64c2a8a",
+      "size": 11493,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/ed3c4a64aa632bdc706bfa0f6872b37dc64c2a8a"
+    },
+    {
+      "path": "web/frps/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8795fb5cec2aba698a9dcac4ca4747ac5f2306e1",
+      "size": 770,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/8795fb5cec2aba698a9dcac4ca4747ac5f2306e1"
+    },
+    {
+      "path": "web/frps/tsconfig.node.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42872c59f5b01c9155864572bc2fbd5833a7406c",
+      "size": 213,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/42872c59f5b01c9155864572bc2fbd5833a7406c"
+    },
+    {
+      "path": "web/frps/vite.config.mts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91f099f83e5920cc157731335a4d4120f6e63233",
+      "size": 1631,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/91f099f83e5920cc157731335a4d4120f6e63233"
+    },
+    {
+      "path": "web/package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5dd491cf8af37fb1a3613327000a1ea166853c1f",
+      "size": 270629,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/5dd491cf8af37fb1a3613327000a1ea166853c1f"
+    },
+    {
+      "path": "web/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5df16a5927d5ef894c4ffd1a342be4f2da0253aa",
+      "size": 87,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/5df16a5927d5ef894c4ffd1a342be4f2da0253aa"
+    },
+    {
+      "path": "web/shared",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6f323a02a582841c38fe7601032e2d3e9b66f0f1",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/6f323a02a582841c38fe7601032e2d3e9b66f0f1"
+    },
+    {
+      "path": "web/shared/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c7089bfbb871c45678ec70e622bc4591beb630c7",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/c7089bfbb871c45678ec70e622bc4591beb630c7"
+    },
+    {
+      "path": "web/shared/components/ActionButton.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bbaae828e106faee532e0299c3ddb491ac6d591",
+      "size": 2897,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/6bbaae828e106faee532e0299c3ddb491ac6d591"
+    },
+    {
+      "path": "web/shared/components/BaseDialog.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29dc0496506f662e074d89ef56cbfad83748e2fa",
+      "size": 2728,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/29dc0496506f662e074d89ef56cbfad83748e2fa"
+    },
+    {
+      "path": "web/shared/components/ConfirmDialog.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4de6975a42a41a41055c1545a45de983d7b0a1a3",
+      "size": 1754,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/4de6975a42a41a41055c1545a45de983d7b0a1a3"
+    },
+    {
+      "path": "web/shared/components/FilterDropdown.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8aedd227972a767a2739fe18b636b74987db33b6",
+      "size": 2382,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/8aedd227972a767a2739fe18b636b74987db33b6"
+    },
+    {
+      "path": "web/shared/components/PopoverMenu.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8abd91ed78b83eb9ee12542414ffd4fe3646b77b",
+      "size": 6888,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/8abd91ed78b83eb9ee12542414ffd4fe3646b77b"
+    },
+    {
+      "path": "web/shared/components/PopoverMenuItem.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8df1e49b9c499e334692ff48d518e88e1fca9814",
+      "size": 2360,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/8df1e49b9c499e334692ff48d518e88e1fca9814"
+    },
+    {
+      "path": "web/shared/css",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bde03114120b8f8cbb6839752963c2ac27e5154a",
+      "url": "https://api.github.com/repos/fatedier/frp/git/trees/bde03114120b8f8cbb6839752963c2ac27e5154a"
+    },
+    {
+      "path": "web/shared/css/_index.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b70de87b2ebd5f0412bb394593d476172e0fbec9",
+      "size": 45,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/b70de87b2ebd5f0412bb394593d476172e0fbec9"
+    },
+    {
+      "path": "web/shared/css/_mixins.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3861971bd0503d829419bf8aec7cdc1d3fcd8ed7",
+      "size": 726,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/3861971bd0503d829419bf8aec7cdc1d3fcd8ed7"
+    },
+    {
+      "path": "web/shared/css/_variables.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3df1ef193f8f4417a9504adee52f1e0028589c7c",
+      "size": 1491,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/3df1ef193f8f4417a9504adee52f1e0028589c7c"
+    },
+    {
+      "path": "web/shared/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2d05f93cd6bbd4c62c9be0156bf16a85a19f1ae",
+      "size": 46,
+      "url": "https://api.github.com/repos/fatedier/frp/git/blobs/a2d05f93cd6bbd4c62c9be0156bf16a85a19f1ae"
+    }
+  ],
+  "truncated": false
+}

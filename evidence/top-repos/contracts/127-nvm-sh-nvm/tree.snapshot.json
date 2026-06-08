@@ -1,0 +1,3657 @@
+{
+  "sha": "7079a5d61c2b49c7d35a72006860ce5edb0fac51",
+  "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/7079a5d61c2b49c7d35a72006860ce5edb0fac51",
+  "tree": [
+    {
+      "path": ".dockerignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52e5428498676305cff6d40b95c2084482ca08c5",
+      "size": 155,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/52e5428498676305cff6d40b95c2084482ca08c5"
+    },
+    {
+      "path": ".editorconfig",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bec81051ca5bf32e1ac34207707bb678193b2d95",
+      "size": 658,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/bec81051ca5bf32e1ac34207707bb678193b2d95"
+    },
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6313b56c57848efce05faa7aa7e901ccfc2886ea",
+      "size": 19,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/6313b56c57848efce05faa7aa7e901ccfc2886ea"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "199c8c9b893a50b89ea447277e07fab04364ae26",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/199c8c9b893a50b89ea447277e07fab04364ae26"
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb0ece67c67a15b337348b4be69b62ce3c3114d9",
+      "size": 574,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/cb0ece67c67a15b337348b4be69b62ce3c3114d9"
+    },
+    {
+      "path": ".github/INCIDENT_RESPONSE_PLAN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29ed33cc0feb979c5da8a789abcd0f9918195178",
+      "size": 3636,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/29ed33cc0feb979c5da8a789abcd0f9918195178"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "40ab521e99ec799bdffc3db5dfc1f262df21644e",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/40ab521e99ec799bdffc3db5dfc1f262df21644e"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ba13e0cec6cbbfd462e9ebf529dd2093148cd69",
+      "size": 28,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/3ba13e0cec6cbbfd462e9ebf529dd2093148cd69"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/issue_template.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d735df4875d6c87dc1db955cf8ed0d278749fef",
+      "size": 1188,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/5d735df4875d6c87dc1db955cf8ed0d278749fef"
+    },
+    {
+      "path": ".github/SECURITY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83f7041e30cab2e32342342a8bf114c60fe0dbcd",
+      "size": 1480,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/83f7041e30cab2e32342342a8bf114c60fe0dbcd"
+    },
+    {
+      "path": ".github/THREAT_MODEL.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5b37942558a9538c985c06e9d3e0de75897e980",
+      "size": 8745,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/f5b37942558a9538c985c06e9d3e0de75897e980"
+    },
+    {
+      "path": ".github/external-threat-actor.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0a47b9656c054fcaacb73b60ff3fc2a8b2e44d9",
+      "size": 137404,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/e0a47b9656c054fcaacb73b60ff3fc2a8b2e44d9"
+    },
+    {
+      "path": ".github/insider-threat-actor-and-libs.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fafc4732111fa31b1426b0ff9c310388fbc467db",
+      "size": 56062,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/fafc4732111fa31b1426b0ff9c310388fbc467db"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "45122fd3c48960a82d0f4b7f9eaf909d022f3fad",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/45122fd3c48960a82d0f4b7f9eaf909d022f3fad"
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50a70299c243efb84b9c941dc830b917f124792d",
+      "size": 1560,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/50a70299c243efb84b9c941dc830b917f124792d"
+    },
+    {
+      "path": ".github/workflows/latest-npm.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b095ab543251ad7f4bee50dd717aed3429ed9a6",
+      "size": 2196,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/1b095ab543251ad7f4bee50dd717aed3429ed9a6"
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04aa3b76e593553cbc90e327bafc0a1dbfc9d7b1",
+      "size": 2169,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/04aa3b76e593553cbc90e327bafc0a1dbfc9d7b1"
+    },
+    {
+      "path": ".github/workflows/nodejs-org.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1da0130ddd10baf38d228f2cea14d7ac048f9cd6",
+      "size": 6104,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/1da0130ddd10baf38d228f2cea14d7ac048f9cd6"
+    },
+    {
+      "path": ".github/workflows/nvm-install-test.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0db46ddf930223fc746babb1e270f7659ec5ba76",
+      "size": 3551,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/0db46ddf930223fc746babb1e270f7659ec5ba76"
+    },
+    {
+      "path": ".github/workflows/rebase.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ecb3b09c0d93ddaccd6eea8ff9685b163467a1e",
+      "size": 288,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/8ecb3b09c0d93ddaccd6eea8ff9685b163467a1e"
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b190a0e6e981380a223505eb782fdd7618fa608",
+      "size": 1138,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/3b190a0e6e981380a223505eb782fdd7618fa608"
+    },
+    {
+      "path": ".github/workflows/require-allow-edits.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9428b1df89d4e23484f58de9eb199c49d538c1ee",
+      "size": 218,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/9428b1df89d4e23484f58de9eb199c49d538c1ee"
+    },
+    {
+      "path": ".github/workflows/shellcheck.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89707da1d481f5454966cdfc698418a18b44dcf2",
+      "size": 1392,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/89707da1d481f5454966cdfc698418a18b44dcf2"
+    },
+    {
+      "path": ".github/workflows/tests-fast.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6bec6b947fa5f1bb28d52869e2a57e5b8a115d6",
+      "size": 3879,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/e6bec6b947fa5f1bb28d52869e2a57e5b8a115d6"
+    },
+    {
+      "path": ".github/workflows/tests-installation-iojs.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "941b96816a61b10cd8abcd7ac0bdd50146e4bee6",
+      "size": 3727,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/941b96816a61b10cd8abcd7ac0bdd50146e4bee6"
+    },
+    {
+      "path": ".github/workflows/tests-installation-node.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef53c15f1678020bd7c7de57d6930fc99044db40",
+      "size": 4618,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/ef53c15f1678020bd7c7de57d6930fc99044db40"
+    },
+    {
+      "path": ".github/workflows/tests-xenial.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca946c504ab671cd19b2b268d1d05a649a9d0a3b",
+      "size": 4180,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/ca946c504ab671cd19b2b268d1d05a649a9d0a3b"
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3be3016e6328489ef1469938eec2a96ed8d7992c",
+      "size": 2557,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/3be3016e6328489ef1469938eec2a96ed8d7992c"
+    },
+    {
+      "path": ".github/workflows/toc.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a133ae9251af48fd005712b3e613fdaf89e7c78",
+      "size": 1016,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/1a133ae9251af48fd005712b3e613fdaf89e7c78"
+    },
+    {
+      "path": ".github/workflows/windows-npm.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c00572380b155d8d4844407aa4fddefeb368b79",
+      "size": 7854,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/8c00572380b155d8d4844407aa4fddefeb368b79"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e6f5095b0f165d190d5bd4b0ccbcce3ea7e5ec1",
+      "size": 277,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/4e6f5095b0f165d190d5bd4b0ccbcce3ea7e5ec1"
+    },
+    {
+      "path": ".gitmodules",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dabb927666e3afce9654bd674fe240e28f619fb5",
+      "size": 84,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/dabb927666e3afce9654bd674fe240e28f619fb5"
+    },
+    {
+      "path": ".mailmap",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f2f86feb54950846ae4796d5b950366ee5d5031",
+      "size": 51,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/1f2f86feb54950846ae4796d5b950366ee5d5031"
+    },
+    {
+      "path": ".npmrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43c97e719a5a824700932f72e6e7e6748ce45d01",
+      "size": 19,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/43c97e719a5a824700932f72e6e7e6748ce45d01"
+    },
+    {
+      "path": "AGENTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55efa27d68c70d6fba9a38ccbf482f0ccd2ee225",
+      "size": 17433,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/55efa27d68c70d6fba9a38ccbf482f0ccd2ee225"
+    },
+    {
+      "path": "CLAUDE.md",
+      "mode": "120000",
+      "type": "blob",
+      "sha": "47dc3e3d863cfb5727b87d785d09abf9743c0a72",
+      "size": 9,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/47dc3e3d863cfb5727b87d785d09abf9743c0a72"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84d2f85eec6ca4eab84237fbc201551fee2f7977",
+      "size": 7560,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/84d2f85eec6ca4eab84237fbc201551fee2f7977"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d374ce529cd5f0ff947e46d634ed3e2a2b42af0",
+      "size": 5817,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/6d374ce529cd5f0ff947e46d634ed3e2a2b42af0"
+    },
+    {
+      "path": "Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97ff98ccb67e64f6c9dbaa1d6b4a57d488eca1c7",
+      "size": 3696,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/97ff98ccb67e64f6c9dbaa1d6b4a57d488eca1c7"
+    },
+    {
+      "path": "GOVERNANCE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea2d09c27e0d2e1d93cd49b198874e880296a694",
+      "size": 467,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/ea2d09c27e0d2e1d93cd49b198874e880296a694"
+    },
+    {
+      "path": "LICENSE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54a112f38dbad066c5558e51d0c3014403f46da7",
+      "size": 1113,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/54a112f38dbad066c5558e51d0c3014403f46da7"
+    },
+    {
+      "path": "Makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adb81d61a2a229b7f85c7c7ea35a2ad40ab118a9",
+      "size": 5440,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/adb81d61a2a229b7f85c7c7ea35a2ad40ab118a9"
+    },
+    {
+      "path": "PROJECT_CHARTER.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8af15e7c498d59ea2a59050636ad3f561d922a4",
+      "size": 2935,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/a8af15e7c498d59ea2a59050636ad3f561d922a4"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0241526997329dd86c185b9602cb1750d32d7164",
+      "size": 51582,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/0241526997329dd86c185b9602cb1750d32d7164"
+    },
+    {
+      "path": "ROADMAP.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28d4b493c2e16f254e568fca599fd46d39f4fabd",
+      "size": 882,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/28d4b493c2e16f254e568fca599fd46d39f4fabd"
+    },
+    {
+      "path": "bash_completion",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1f987ca204b37b2f9ce9808089fe2bab4304d61",
+      "size": 2299,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/e1f987ca204b37b2f9ce9808089fe2bab4304d61"
+    },
+    {
+      "path": "install.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "799c075a3797968de8ce427e96c0d498fa38acb9",
+      "size": 17051,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/799c075a3797968de8ce427e96c0d498fa38acb9"
+    },
+    {
+      "path": "nvm-exec",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "696a4ab1382dfa23b01000a4b3691b26f76fb022",
+      "size": 493,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/696a4ab1382dfa23b01000a4b3691b26f76fb022"
+    },
+    {
+      "path": "nvm.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1554b5b1455c7359d3f4f77eab19a827b01fa95f",
+      "size": 156857,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/1554b5b1455c7359d3f4f77eab19a827b01fa95f"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3f3a95acef5fcc649111a29f22007e77d5964b6",
+      "size": 2925,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/c3f3a95acef5fcc649111a29f22007e77d5964b6"
+    },
+    {
+      "path": "rename_test.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5530862fa23f999f16f23306f2672a3537e33e6f",
+      "size": 1235,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/5530862fa23f999f16f23306f2672a3537e33e6f"
+    },
+    {
+      "path": "test",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b2a3d9c9059c23d09dead0992ec92e5086e4318c",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/b2a3d9c9059c23d09dead0992ec92e5086e4318c"
+    },
+    {
+      "path": "test/common.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "586a7f349f8d2e3a1d2d49e57021ed842cc5ccfb",
+      "size": 6058,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/586a7f349f8d2e3a1d2d49e57021ed842cc5ccfb"
+    },
+    {
+      "path": "test/fast",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5f20c0e30f1e13e4af37a933e252ac47db7eeb42",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/5f20c0e30f1e13e4af37a933e252ac47db7eeb42"
+    },
+    {
+      "path": "test/fast/Aliases",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "33c387eadeb495966a3b5993dc04509a316e0499",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/33c387eadeb495966a3b5993dc04509a316e0499"
+    },
+    {
+      "path": "test/fast/Aliases/'nvm alias' should ignore leading blank lines in the file",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "38bd1cc0c9e1921acea131cdf0dac1aa58820a26",
+      "size": 465,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/38bd1cc0c9e1921acea131cdf0dac1aa58820a26"
+    },
+    {
+      "path": "test/fast/Aliases/'nvm alias' should not accept aliases with a hash",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "15ac230d28e553b133e30492ffbc0ad193962511",
+      "size": 1276,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/15ac230d28e553b133e30492ffbc0ad193962511"
+    },
+    {
+      "path": "test/fast/Aliases/'nvm alias' should not accept aliases with slashes",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5a363eb1ee284e500b36eabfd0dc1361a89924be",
+      "size": 1248,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/5a363eb1ee284e500b36eabfd0dc1361a89924be"
+    },
+    {
+      "path": "test/fast/Aliases/'nvm unalias' should accept aliases when they shadow a built-in alias",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ff692080c83a87b5e6c493f723dc3a3b381f90f3",
+      "size": 667,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/ff692080c83a87b5e6c493f723dc3a3b381f90f3"
+    },
+    {
+      "path": "test/fast/Aliases/'nvm unalias' should not accept aliases with names equal to built-in alias",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a2dbad18980fd238dc380ec4893555329350829e",
+      "size": 1287,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/a2dbad18980fd238dc380ec4893555329350829e"
+    },
+    {
+      "path": "test/fast/Aliases/'nvm unalias' should not accept aliases with slashes",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b89cfa56823019291faf0870a2542146fd404175",
+      "size": 1242,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/b89cfa56823019291faf0870a2542146fd404175"
+    },
+    {
+      "path": "test/fast/Aliases/Running 'nvm alias ˂aliasname˃ ˂target˃' again should change the target",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c4861887c11ef92275eed1d990a273796b7cbc1c",
+      "size": 877,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/c4861887c11ef92275eed1d990a273796b7cbc1c"
+    },
+    {
+      "path": "test/fast/Aliases/Running 'nvm alias ˂aliasname˃' should list but one alias",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2ad01ec68a4e61baed29ae9d8133372cb6d63cf9",
+      "size": 84,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/2ad01ec68a4e61baed29ae9d8133372cb6d63cf9"
+    },
+    {
+      "path": "test/fast/Aliases/Running 'nvm alias' lists implicit aliases when they do not exist",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2452b786fc171fe3aa9c72a8c6d9fa1771bd45d5",
+      "size": 1266,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/2452b786fc171fe3aa9c72a8c6d9fa1771bd45d5"
+    },
+    {
+      "path": "test/fast/Aliases/Running 'nvm alias' lists manual aliases instead of implicit aliases when present",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "99c274746e96828fcea9a348176c3f714e70e9fe",
+      "size": 1682,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/99c274746e96828fcea9a348176c3f714e70e9fe"
+    },
+    {
+      "path": "test/fast/Aliases/Running 'nvm alias' should list all aliases",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "cf9064888ae3c3d6ab35f0d3f48bab8162c3173c",
+      "size": 3106,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/cf9064888ae3c3d6ab35f0d3f48bab8162c3173c"
+    },
+    {
+      "path": "test/fast/Aliases/circular",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fc1ed64ff752d3c1d144b2d218f6c428cc739bb3",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/fc1ed64ff752d3c1d144b2d218f6c428cc739bb3"
+    },
+    {
+      "path": "test/fast/Aliases/circular/nvm_resolve_alias",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "37f9ca2c7a50e2a693b636a3d539a7a2c128492b",
+      "size": 1663,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/37f9ca2c7a50e2a693b636a3d539a7a2c128492b"
+    },
+    {
+      "path": "test/fast/Aliases/circular/nvm_resolve_local_alias",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "acb0c75995b7fc693dd5d66a7780b97e870bd151",
+      "size": 1723,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/acb0c75995b7fc693dd5d66a7780b97e870bd151"
+    },
+    {
+      "path": "test/fast/Aliases/circular/setup",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4af6dc07316765bd9ce74db14c6d2eca2b8cb89a",
+      "size": 193,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/4af6dc07316765bd9ce74db14c6d2eca2b8cb89a"
+    },
+    {
+      "path": "test/fast/Aliases/circular/teardown",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d83ee8197ee67fb807f39f6bf077ea79b01cc54e",
+      "size": 161,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/d83ee8197ee67fb807f39f6bf077ea79b01cc54e"
+    },
+    {
+      "path": "test/fast/Aliases/lts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b38b7bd3e44de9115b21d4f489113e24b7a00b93",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/b38b7bd3e44de9115b21d4f489113e24b7a00b93"
+    },
+    {
+      "path": "test/fast/Aliases/lts/'nvm alias' should ensure LTS alias dir exists",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ff2baef222d80b28f723ba3ab13af57b1d928365",
+      "size": 364,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/ff2baef222d80b28f723ba3ab13af57b1d928365"
+    },
+    {
+      "path": "test/fast/Aliases/lts/setup_dir",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "cf96db694ecf717a6be142402e7f46f384d9c749",
+      "size": 200,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/cf96db694ecf717a6be142402e7f46f384d9c749"
+    },
+    {
+      "path": "test/fast/Aliases/lts/teardown_dir",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "cf3581bfcb8142c31e3433aa13d1da4aa1ff8236",
+      "size": 204,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/cf3581bfcb8142c31e3433aa13d1da4aa1ff8236"
+    },
+    {
+      "path": "test/fast/Aliases/nvm_ensure_default_set",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "40e217aa91eb5b361e1bbdbaacbffac7022c3e3b",
+      "size": 706,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/40e217aa91eb5b361e1bbdbaacbffac7022c3e3b"
+    },
+    {
+      "path": "test/fast/Aliases/nvm_list_aliases calls nvm_get_colors",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "730700c2547bac44b68340e2d2c4d3163405386e",
+      "size": 555,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/730700c2547bac44b68340e2d2c4d3163405386e"
+    },
+    {
+      "path": "test/fast/Aliases/nvm_list_aliases propagates NVM_HAS_COLORS through pipeline",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a53f3f0fd81221c0597de2479fdb9b12ce8a3d0e",
+      "size": 772,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/a53f3f0fd81221c0597de2479fdb9b12ce8a3d0e"
+    },
+    {
+      "path": "test/fast/Aliases/nvm_list_aliases works with LTS aliases",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "75e88847035d6884e022b96618ee41d9f2fce86b",
+      "size": 729,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/75e88847035d6884e022b96618ee41d9f2fce86b"
+    },
+    {
+      "path": "test/fast/Aliases/nvm_list_aliases works with no LTS aliases present",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6a2a25f9e5459f68bd9b1684f8795ac4210cad2d",
+      "size": 384,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/6a2a25f9e5459f68bd9b1684f8795ac4210cad2d"
+    },
+    {
+      "path": "test/fast/Aliases/nvm_print_alias_path calls nvm_get_colors",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "69bc4dbee8be62efae4bdb21659bb24481093e76",
+      "size": 688,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/69bc4dbee8be62efae4bdb21659bb24481093e76"
+    },
+    {
+      "path": "test/fast/Aliases/nvm_print_formatted_alias calls nvm_get_colors",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c4ee469ee147bf6ce37d5af52db0b7ff3c03cd45",
+      "size": 690,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/c4ee469ee147bf6ce37d5af52db0b7ff3c03cd45"
+    },
+    {
+      "path": "test/fast/Aliases/nvm_print_formatted_alias respects NVM_HAS_COLORS in pipeline",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c2c597b15bef947f796821716f35269e6bc7b2c5",
+      "size": 937,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/c2c597b15bef947f796821716f35269e6bc7b2c5"
+    },
+    {
+      "path": "test/fast/Aliases/nvm_resolve_alias",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "960c92b70811cf304d40fd1f9b1d9bd1a954ec1a",
+      "size": 1663,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/960c92b70811cf304d40fd1f9b1d9bd1a954ec1a"
+    },
+    {
+      "path": "test/fast/Aliases/nvm_resolve_local_alias",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "db6a5d3c44d1de3876a911eefbe53f6f19b9ca80",
+      "size": 1553,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/db6a5d3c44d1de3876a911eefbe53f6f19b9ca80"
+    },
+    {
+      "path": "test/fast/Aliases/percent in alias name",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9ab539973f04ac436ed3aeddaa03a7e011753c19",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/9ab539973f04ac436ed3aeddaa03a7e011753c19"
+    },
+    {
+      "path": "test/fast/Aliases/percent in alias name/nvm_resolve_alias",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4d44af6c8933ebe5e4765208351b605d751d6721",
+      "size": 764,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/4d44af6c8933ebe5e4765208351b605d751d6721"
+    },
+    {
+      "path": "test/fast/Aliases/percent in alias name/nvm_resolve_local_alias",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "37f0e976cc95bdef20b1005298fc83b9e8176b9a",
+      "size": 800,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/37f0e976cc95bdef20b1005298fc83b9e8176b9a"
+    },
+    {
+      "path": "test/fast/Aliases/percent in alias name/setup",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a926bb18e61d58eac62a5f078a24708656a09de3",
+      "size": 111,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/a926bb18e61d58eac62a5f078a24708656a09de3"
+    },
+    {
+      "path": "test/fast/Aliases/percent in alias name/teardown",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "49dee712ac8c1e4499891bb7c3b25d4f272bdf5f",
+      "size": 88,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/49dee712ac8c1e4499891bb7c3b25d4f272bdf5f"
+    },
+    {
+      "path": "test/fast/Aliases/setup",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9b07b5a0ca45fc44a7a6942c2d25ec9b60fa2153",
+      "size": 343,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/9b07b5a0ca45fc44a7a6942c2d25ec9b60fa2153"
+    },
+    {
+      "path": "test/fast/Aliases/teardown",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "08724ade0a9b9def51c4b050ec9d72d053f228a7",
+      "size": 492,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/08724ade0a9b9def51c4b050ec9d72d053f228a7"
+    },
+    {
+      "path": "test/fast/Aliases/uppercase alias names should work",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ed38974fa6e250e270c942083223ce7d5b512692",
+      "size": 1265,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/ed38974fa6e250e270c942083223ce7d5b512692"
+    },
+    {
+      "path": "test/fast/Listing paths",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6cc5fc9b90e704d07a452a22725298aa283b3c4c",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/6cc5fc9b90e704d07a452a22725298aa283b3c4c"
+    },
+    {
+      "path": "test/fast/Listing paths/Running 'nvm which 0.0.2' should display only version 0.0.2",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "24ea621ff7e690a00aad6be75c8fa3a41324bd08",
+      "size": 863,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/24ea621ff7e690a00aad6be75c8fa3a41324bd08"
+    },
+    {
+      "path": "test/fast/Listing paths/Running 'nvm which foo' should return a nonzero exit code when not found",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0df7da64f54537993014a1db6c660cdcc1a8efd0",
+      "size": 87,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/0df7da64f54537993014a1db6c660cdcc1a8efd0"
+    },
+    {
+      "path": "test/fast/Listing paths/Running 'nvm which' should respect alias pointing to system",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e50a270b172fb354a9170eda154545056864c021",
+      "size": 738,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/e50a270b172fb354a9170eda154545056864c021"
+    },
+    {
+      "path": "test/fast/Listing paths/teardown",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7c3e727bf1f58fe4b37b0a47f543cf0f15a6d558",
+      "size": 71,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/7c3e727bf1f58fe4b37b0a47f543cf0f15a6d558"
+    },
+    {
+      "path": "test/fast/Listing versions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0c8c57c0832995cbb467f56e4cb32b93956a3364",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/0c8c57c0832995cbb467f56e4cb32b93956a3364"
+    },
+    {
+      "path": "test/fast/Listing versions/Running 'nvm ls --no-alias' does not call into nvm_alias",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "50d2ad98933b10d766322ce80c13b5d60ccc2058",
+      "size": 905,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/50d2ad98933b10d766322ce80c13b5d60ccc2058"
+    },
+    {
+      "path": "test/fast/Listing versions/Running 'nvm ls --no-alias' with a pattern errors",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "38d0c5f7399bd74fe553de429f575ce2b593918f",
+      "size": 509,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/38d0c5f7399bd74fe553de429f575ce2b593918f"
+    },
+    {
+      "path": "test/fast/Listing versions/Running 'nvm ls 0.0.2' should display only version 0.0.2",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "963ea50bda5e5996770eea8bcb02533285a6a700",
+      "size": 420,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/963ea50bda5e5996770eea8bcb02533285a6a700"
+    },
+    {
+      "path": "test/fast/Listing versions/Running 'nvm ls 0.2' should display only 0.2.x versions",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d1377acd63d0991736a825dac00283f6af8a6a9e",
+      "size": 870,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/d1377acd63d0991736a825dac00283f6af8a6a9e"
+    },
+    {
+      "path": "test/fast/Listing versions/Running 'nvm ls default' should show system version when available",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1fb016643d0a92a3da5634d364758752418440ad",
+      "size": 553,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/1fb016643d0a92a3da5634d364758752418440ad"
+    },
+    {
+      "path": "test/fast/Listing versions/Running 'nvm ls foo' should return a nonzero exit code when not found",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fc0a22d64bab941061fec68980b158076a249b5f",
+      "size": 82,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/fc0a22d64bab941061fec68980b158076a249b5f"
+    },
+    {
+      "path": "test/fast/Listing versions/Running 'nvm ls io' should return NA",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4632fc1f60251f593817770417d11a529ee83fbd",
+      "size": 65,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/4632fc1f60251f593817770417d11a529ee83fbd"
+    },
+    {
+      "path": "test/fast/Listing versions/Running 'nvm ls node_' should return a nonzero exit code when not found",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fbf60a4dc5a9c73dcac8e90752be1dd115d39f56",
+      "size": 68,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/fbf60a4dc5a9c73dcac8e90752be1dd115d39f56"
+    },
+    {
+      "path": "test/fast/Listing versions/Running 'nvm ls stable' and 'nvm ls unstable' should return the appropriate implicit alias",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a612e2086f56337da30370dde23bb98e39d3233c",
+      "size": 911,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/a612e2086f56337da30370dde23bb98e39d3233c"
+    },
+    {
+      "path": "test/fast/Listing versions/Running 'nvm ls system' should include 'system' when appropriate",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c7e72a43467f8f8fe9e65707dd9e29a10c8b825b",
+      "size": 567,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/c7e72a43467f8f8fe9e65707dd9e29a10c8b825b"
+    },
+    {
+      "path": "test/fast/Listing versions/Running 'nvm ls' calls into nvm_alias",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "64cac55c9ca385e3a276a201491fbd4d04123558",
+      "size": 899,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/64cac55c9ca385e3a276a201491fbd4d04123558"
+    },
+    {
+      "path": "test/fast/Listing versions/Running 'nvm ls' should display all installed versions",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5fed306bbb9df1954b1d1fc59cd7334fc45a6ab7",
+      "size": 1469,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/5fed306bbb9df1954b1d1fc59cd7334fc45a6ab7"
+    },
+    {
+      "path": "test/fast/Listing versions/Running 'nvm ls' should filter out '.nvm'",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fa51b4dc24f161d3a19193a095d9473d44778cb2",
+      "size": 201,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/fa51b4dc24f161d3a19193a095d9473d44778cb2"
+    },
+    {
+      "path": "test/fast/Listing versions/Running 'nvm ls' should filter out 'versions'",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1f4b4bba99badd62a8beb1dce42712a15d3e71d8",
+      "size": 208,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/1f4b4bba99badd62a8beb1dce42712a15d3e71d8"
+    },
+    {
+      "path": "test/fast/Listing versions/Running 'nvm ls' should include 'system' when appropriate",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6d76fe25e37fefa83a0f8fdf14129e5d74cabca8",
+      "size": 539,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/6d76fe25e37fefa83a0f8fdf14129e5d74cabca8"
+    },
+    {
+      "path": "test/fast/Listing versions/Running 'nvm ls' should list versions in the 'versions' directory",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e5fbd5bf482191ebd9f9c548cf4c2518da1fbb61",
+      "size": 329,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/e5fbd5bf482191ebd9f9c548cf4c2518da1fbb61"
+    },
+    {
+      "path": "test/fast/Listing versions/Running 'nvm ls' should not show a trailing slash",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e00db851601d0167b6db01f24c73cbc7383e2bf1",
+      "size": 1022,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/e00db851601d0167b6db01f24c73cbc7383e2bf1"
+    },
+    {
+      "path": "test/fast/Listing versions/Running 'nvm ls' with node-like versioning vx.x.x should only list a matched version",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2f2c74b10fda9bc8ddb35d44620c03f44a6c1ef0",
+      "size": 197,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/2f2c74b10fda9bc8ddb35d44620c03f44a6c1ef0"
+    },
+    {
+      "path": "test/fast/Listing versions/Running 'nvm ls' with nounset should not fail",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f6770917b62da65f857b235a8a2cc121c4a01eaa",
+      "size": 631,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/f6770917b62da65f857b235a8a2cc121c4a01eaa"
+    },
+    {
+      "path": "test/fast/Listing versions/Using a nonstandard IFS should not break",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "26c26b2769c1f1bce43649e0c68950b6d03db338",
+      "size": 306,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/26c26b2769c1f1bce43649e0c68950b6d03db338"
+    },
+    {
+      "path": "test/fast/Listing versions/teardown",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "eb9610baeeefe7c46bac1501b15b23e39b39ef71",
+      "size": 384,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/eb9610baeeefe7c46bac1501b15b23e39b39ef71"
+    },
+    {
+      "path": "test/fast/Running 'nvm alias' should create a file in the alias directory",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2316274c0ca9894b0263316f980d1e0d0b18cd73",
+      "size": 155,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/2316274c0ca9894b0263316f980d1e0d0b18cd73"
+    },
+    {
+      "path": "test/fast/Running 'nvm current' should display current nvm environment",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "21540df727b234063f63d256d3b5b336d1e93f82",
+      "size": 275,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/21540df727b234063f63d256d3b5b336d1e93f82"
+    },
+    {
+      "path": "test/fast/Running 'nvm deactivate' should unset the nvm environment variables",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3cb2cc64050d2a670b43bd44f36e9efef1079e32",
+      "size": 1019,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/3cb2cc64050d2a670b43bd44f36e9efef1079e32"
+    },
+    {
+      "path": "test/fast/Running 'nvm install' with '--reinstall-packages-from' requires a valid version",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7e2fd3a05e4b419ff7fd2079c4a62102dab04fe2",
+      "size": 2557,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/7e2fd3a05e4b419ff7fd2079c4a62102dab04fe2"
+    },
+    {
+      "path": "test/fast/Running 'nvm install' with an invalid version fails nicely",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "51d7792b69ed0a107dfaebec9ef3c51e1b703c23",
+      "size": 421,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/51d7792b69ed0a107dfaebec9ef3c51e1b703c23"
+    },
+    {
+      "path": "test/fast/Running 'nvm unalias' should remove the alias file",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b741eb2308fcbf4399714b585f07646450325c6a",
+      "size": 156,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/b741eb2308fcbf4399714b585f07646450325c6a"
+    },
+    {
+      "path": "test/fast/Running 'nvm uninstall' should clean up aliases pointing to uninstalled version",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "58f23bdc09153881187d56f878c6a82d97890450",
+      "size": 569,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/58f23bdc09153881187d56f878c6a82d97890450"
+    },
+    {
+      "path": "test/fast/Running 'nvm uninstall' should remove the appropriate directory",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "59233d26507d0c27fbfe8051be03e821a1d2fd92",
+      "size": 125,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/59233d26507d0c27fbfe8051be03e821a1d2fd92"
+    },
+    {
+      "path": "test/fast/Running 'nvm uninstall' with an inferred version shows the inferred message",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2a080762a0d3b88d332438b3d62493981b760e80",
+      "size": 349,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/2a080762a0d3b88d332438b3d62493981b760e80"
+    },
+    {
+      "path": "test/fast/Running 'nvm uninstall' with an uninstalled version shows the requested version",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "25ba2029c2898a79e09d9c8f810f0e978dd7a1fd",
+      "size": 238,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/25ba2029c2898a79e09d9c8f810f0e978dd7a1fd"
+    },
+    {
+      "path": "test/fast/Running 'nvm uninstall' with incorrect file permissions fails nicely",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "95d89f989f3eac66710fd1124dffda67ce47924a",
+      "size": 329,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/95d89f989f3eac66710fd1124dffda67ce47924a"
+    },
+    {
+      "path": "test/fast/Running 'nvm unload' should unset all function and variables",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7ef208e1818cea4e517749b56ee8b5fc2a39b013",
+      "size": 732,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/7ef208e1818cea4e517749b56ee8b5fc2a39b013"
+    },
+    {
+      "path": "test/fast/Running 'nvm use foo' where 'foo' is circular aborts",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d2b36ac9a693bd99aefdd7972cfc6603fb44644a",
+      "size": 819,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/d2b36ac9a693bd99aefdd7972cfc6603fb44644a"
+    },
+    {
+      "path": "test/fast/Running 'nvm use iojs' uses latest io.js version",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c5932e1860f9190569e11f80d8d6a7e228bd1312",
+      "size": 1038,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/c5932e1860f9190569e11f80d8d6a7e228bd1312"
+    },
+    {
+      "path": "test/fast/Running 'nvm use system' should work as expected",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7d4856218a8e0b2e622a0851d13b02350c8ab005",
+      "size": 1565,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/7d4856218a8e0b2e622a0851d13b02350c8ab005"
+    },
+    {
+      "path": "test/fast/Running 'nvm use x' should create and change the 'current' symlink",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f5a9f4d070412af5b97129d4aed65ba5474db534",
+      "size": 779,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/f5a9f4d070412af5b97129d4aed65ba5474db534"
+    },
+    {
+      "path": "test/fast/Running 'nvm use x' should not create the 'current' symlink if $NVM_SYMLINK_CURRENT is false",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f0de053751431f06c1df1cfe43577fb707d2c5ac",
+      "size": 2034,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/f0de053751431f06c1df1cfe43577fb707d2c5ac"
+    },
+    {
+      "path": "test/fast/Running 'nvm use' should drop CR char automatically",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "39525928858c1c9c6b74375f08e31b5d83642a03",
+      "size": 536,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/39525928858c1c9c6b74375f08e31b5d83642a03"
+    },
+    {
+      "path": "test/fast/Running 'nvm use' should respect alias pointing to system",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "97fbac9f2d839c2697bc2f7b6e0b246e2295bf68",
+      "size": 907,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/97fbac9f2d839c2697bc2f7b6e0b246e2295bf68"
+    },
+    {
+      "path": "test/fast/Running 'nvm use' should respect system in .nvmrc",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "03909b98b0198370070b56ecd5bc82b43c287429",
+      "size": 1056,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/03909b98b0198370070b56ecd5bc82b43c287429"
+    },
+    {
+      "path": "test/fast/Running 'nvm which' with circular alias shows alias name",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d968c5d6ea73a316e175321072a3f81211773924",
+      "size": 571,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/d968c5d6ea73a316e175321072a3f81211773924"
+    },
+    {
+      "path": "test/fast/Running 'nvm-exec' should display required node version",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "66ab9a62af275a75b9cb639baa8e640f7e1883d9",
+      "size": 620,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/66ab9a62af275a75b9cb639baa8e640f7e1883d9"
+    },
+    {
+      "path": "test/fast/Set Colors",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ec0993baa9221b78cb3f2c39640e9e6922432db1",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/ec0993baa9221b78cb3f2c39640e9e6922432db1"
+    },
+    {
+      "path": "test/fast/Set Colors/nvm_echo_with_colors",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "54223eb95dfbb67cc6f0ca5dd670c054a05cea3b",
+      "size": 351,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/54223eb95dfbb67cc6f0ca5dd670c054a05cea3b"
+    },
+    {
+      "path": "test/fast/Set Colors/nvm_err_with_colors",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "316cced5555eaa463d5fffc05d978e1b6b5226b2",
+      "size": 340,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/316cced5555eaa463d5fffc05d978e1b6b5226b2"
+    },
+    {
+      "path": "test/fast/Set Colors/nvm_print_default_alias calls nvm_get_colors",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fd7b2202209342b4006edc84a4bf55928ad4e086",
+      "size": 622,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/fd7b2202209342b4006edc84a4bf55928ad4e086"
+    },
+    {
+      "path": "test/fast/Set Colors/nvm_print_versions calls nvm_get_colors",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4602fd49a27db1f4324f280c5812e4ba3bd1be95",
+      "size": 1182,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/4602fd49a27db1f4324f280c5812e4ba3bd1be95"
+    },
+    {
+      "path": "test/fast/Sourcing nvm.sh should make the nvm command available",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1490c3a036e9a7c350a5ad6bdc41de8de04e67a9",
+      "size": 50,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/1490c3a036e9a7c350a5ad6bdc41de8de04e67a9"
+    },
+    {
+      "path": "test/fast/Sourcing nvm.sh should not modify parameters of caller",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "98f623077de6bd8a31829296667c7397ae0e8942",
+      "size": 71,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/98f623077de6bd8a31829296667c7397ae0e8942"
+    },
+    {
+      "path": "test/fast/Unit tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "902aeb223d6cd8f1bb67c593098a8bcba3417661",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/902aeb223d6cd8f1bb67c593098a8bcba3417661"
+    },
+    {
+      "path": "test/fast/Unit tests/Running 'nvm install --save' works as expected'",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d5b24eee8fecce97403adf933a9f974a32edd258",
+      "size": 1373,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/d5b24eee8fecce97403adf933a9f974a32edd258"
+    },
+    {
+      "path": "test/fast/Unit tests/Running 'nvm use --save' works as expected'",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ebabc565ec7c8425dc0fc00730de6a07090a2ea0",
+      "size": 1365,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/ebabc565ec7c8425dc0fc00730de6a07090a2ea0"
+    },
+    {
+      "path": "test/fast/Unit tests/Running 'nvm use --save' works with a .nvmrc in the parent dir",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "dbed35672b27d58c8d04bc8d4efd3b6b457b50b4",
+      "size": 1205,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/dbed35672b27d58c8d04bc8d4efd3b6b457b50b4"
+    },
+    {
+      "path": "test/fast/Unit tests/Running 'nvm use --silent --save' doesn't output anything",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "80fc371b04fe75e02b4435656f4786ef39d2c4c5",
+      "size": 1247,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/80fc371b04fe75e02b4435656f4786ef39d2c4c5"
+    },
+    {
+      "path": "test/fast/Unit tests/assert_not_ok",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f864da751823f1b8498119aec94c0593611e57b4",
+      "size": 457,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/f864da751823f1b8498119aec94c0593611e57b4"
+    },
+    {
+      "path": "test/fast/Unit tests/assert_ok",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "69db621342c843b59a4a6a4519c8064f8653ed1a",
+      "size": 433,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/69db621342c843b59a4a6a4519c8064f8653ed1a"
+    },
+    {
+      "path": "test/fast/Unit tests/make_echo",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c3576cb75b86e3fbdf6b20a82f6f348d554a572c",
+      "size": 521,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/c3576cb75b86e3fbdf6b20a82f6f348d554a572c"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "96f48df07bc3de4b7b13b79b7038f7e1bf4326a3",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/96f48df07bc3de4b7b13b79b7038f7e1bf4326a3"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/LTS_names.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e098fe0130febf76a043e1f621dc9b98b7520dc",
+      "size": 68,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/7e098fe0130febf76a043e1f621dc9b98b7520dc"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/iojs.org-dist-index.tab",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8589bb918955e4cd53fd54738965ab308eb2e2b1",
+      "size": 7395,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/8589bb918955e4cd53fd54738965ab308eb2e2b1"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/lts-star.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "deed13c0169be5146a2830bf696eebe43c8bbf48",
+      "size": 8,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/deed13c0169be5146a2830bf696eebe43c8bbf48"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/nodejs.org-dist-index.tab",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61c36cc74ffac5b1eb880def8e1523650a03ef1f",
+      "size": 179944,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/61c36cc74ffac5b1eb880def8e1523650a03ef1f"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/nodejs.org-download-nightly-index.tab",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96032373f325ed3e591783cfe8f1977e987706e5",
+      "size": 207673,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/96032373f325ed3e591783cfe8f1977e987706e5"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/nvm ls-remote iojs.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f2e5987d5932bcc5bebe12fd3223885ad54ca70",
+      "size": 656,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/5f2e5987d5932bcc5bebe12fd3223885ad54ca70"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/nvm ls-remote lts.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cedd86f839f0e29be1318acc972e938eb147f51",
+      "size": 10147,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/2cedd86f839f0e29be1318acc972e938eb147f51"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/nvm ls-remote node.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8661819ee38995499e011050e5c8afb67d0fa3f6",
+      "size": 18547,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/8661819ee38995499e011050e5c8afb67d0fa3f6"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/nvm ls-remote.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2de5a9181f0941959cd38333b0502f9c74ade591",
+      "size": 19203,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/2de5a9181f0941959cd38333b0502f9c74ade591"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/nvm_ls_remote LTS argon.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78d685da48dc7fee6bcf0c993563d5027ccf4657",
+      "size": 470,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/78d685da48dc7fee6bcf0c993563d5027ccf4657"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/nvm_ls_remote LTS nightly argon.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0a2463315806b0665e584c68db31c3c0a5c37eb",
+      "size": 4,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/f0a2463315806b0665e584c68db31c3c0a5c37eb"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/nvm_ls_remote LTS nightly.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8466e58678545245018e0bbab3ed466234eb7b58",
+      "size": 301,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/8466e58678545245018e0bbab3ed466234eb7b58"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/nvm_ls_remote LTS.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2abd6fb0ca281869e8930ac0b3626940b6c25462",
+      "size": 3645,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/2abd6fb0ca281869e8930ac0b3626940b6c25462"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/nvm_ls_remote nightly.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78f0381fd8bb6b86faf3b3754c0913ef77a2ae33",
+      "size": 1849,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/78f0381fd8bb6b86faf3b3754c0913ef77a2ae33"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/nvm_ls_remote stable nightly.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "473a1240292164b5bb3fde59b21d0cbfe0be7f68",
+      "size": 34,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/473a1240292164b5bb3fde59b21d0cbfe0be7f68"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/nvm_ls_remote stable.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f2835a64a09cae61ba0d7542daffd7475b5f03b",
+      "size": 8,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/6f2835a64a09cae61ba0d7542daffd7475b5f03b"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/nvm_ls_remote.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f95787074e062b65f54d981bb2f6288cd76f118",
+      "size": 7794,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/7f95787074e062b65f54d981bb2f6288cd76f118"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/nvm_ls_remote_iojs.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d263a7330dd27c5d5294d8dfa0bf156ebc316461",
+      "size": 492,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/d263a7330dd27c5d5294d8dfa0bf156ebc316461"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/nvm_make_alias LTS alias calls.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "202fec11703717a8f78c9d6197a7303b11d0221b",
+      "size": 209,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/202fec11703717a8f78c9d6197a7303b11d0221b"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/nvm_print_implicit_alias remote stable nightly.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9133a54b63d2fa1cfd62ea267aeda55b6945666",
+      "size": 5,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/d9133a54b63d2fa1cfd62ea267aeda55b6945666"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/nvm_print_implicit_alias remote stable.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a12b18e43725f8db3e90188eaf6c82f7ddd527c1",
+      "size": 5,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/a12b18e43725f8db3e90188eaf6c82f7ddd527c1"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e90a0dd7933a1f4ddc863a09238ea457fc61c4c6",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/e90a0dd7933a1f4ddc863a09238ea457fc61c4c6"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/inside-n_m-nested-pkg",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "37a83748a6b390bc0f2f8a6a4a132f61ef438945",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/37a83748a6b390bc0f2f8a6a4a132f61ef438945"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/inside-n_m-nested-pkg/node_modules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a6172e8c359b09c42bb64e4cab88264de9557a90",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/a6172e8c359b09c42bb64e4cab88264de9557a90"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/inside-n_m-nested-pkg/node_modules/foo",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "be98b7dc5f63ea2614cd1ecc6fb86b0922185955",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/be98b7dc5f63ea2614cd1ecc6fb86b0922185955"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/inside-n_m-nested-pkg/node_modules/foo/bar",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/inside-n_m-nested-pkg/node_modules/foo/bar/.gitkeep",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/inside-n_m-nested-pkg/node_modules/foo/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/inside-n_m-nested",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5d6dc49f9f03462eaf6949443201b1a1b72b841c",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/5d6dc49f9f03462eaf6949443201b1a1b72b841c"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/inside-n_m-nested/node_modules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fa4a5f090cc3d3f855149ea7e4b424f0523e63f1",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/fa4a5f090cc3d3f855149ea7e4b424f0523e63f1"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/inside-n_m-nested/node_modules/foo",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "54efb2a7442d92cddbb6fb53164b03b275712fcf",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/54efb2a7442d92cddbb6fb53164b03b275712fcf"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/inside-n_m-nested/node_modules/foo/bar",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/inside-n_m-nested/node_modules/foo/bar/.gitkeep",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/nested-both",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "860f558e90dc91e31f7ddd73ad97b6e69a219e46",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/860f558e90dc91e31f7ddd73ad97b6e69a219e46"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/nested-both/a",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "406936ee501738b8728bb5fd50dfb190cc8fe168",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/406936ee501738b8728bb5fd50dfb190cc8fe168"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/nested-both/a/b",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b14045026b113559a80e081082afc0418cc92570",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/b14045026b113559a80e081082afc0418cc92570"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/nested-both/a/b/c",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "961ded3c5ad1d151e614810cedc399d4cada6bd2",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/961ded3c5ad1d151e614810cedc399d4cada6bd2"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/nested-both/a/b/c/d",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/nested-both/a/b/c/d/.gitkeep",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/nested-both/node_modules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/nested-both/node_modules/.gitkeep",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/nested-both/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/nested-n_m",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e5d9e4354d0402eb7ead9845fcf8292c804fd3f4",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/e5d9e4354d0402eb7ead9845fcf8292c804fd3f4"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/nested-n_m/a",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "406936ee501738b8728bb5fd50dfb190cc8fe168",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/406936ee501738b8728bb5fd50dfb190cc8fe168"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/nested-n_m/a/b",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b14045026b113559a80e081082afc0418cc92570",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/b14045026b113559a80e081082afc0418cc92570"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/nested-n_m/a/b/c",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "961ded3c5ad1d151e614810cedc399d4cada6bd2",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/961ded3c5ad1d151e614810cedc399d4cada6bd2"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/nested-n_m/a/b/c/d",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/nested-n_m/a/b/c/d/.gitkeep",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/nested-n_m/node_modules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/nested-n_m/node_modules/.gitkeep",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/nested-pkg",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c6b05e336e163cc25ed9cbfa36c8f1104dc0e221",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/c6b05e336e163cc25ed9cbfa36c8f1104dc0e221"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/nested-pkg/a",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "406936ee501738b8728bb5fd50dfb190cc8fe168",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/406936ee501738b8728bb5fd50dfb190cc8fe168"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/nested-pkg/a/b",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b14045026b113559a80e081082afc0418cc92570",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/b14045026b113559a80e081082afc0418cc92570"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/nested-pkg/a/b/c",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "961ded3c5ad1d151e614810cedc399d4cada6bd2",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/961ded3c5ad1d151e614810cedc399d4cada6bd2"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/nested-pkg/a/b/c/d",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/nested-pkg/a/b/c/d/.gitkeep",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/nested-pkg/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/no-nesting-both",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "130fd81c2b8259be19c620782b95dca76ab89474",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/130fd81c2b8259be19c620782b95dca76ab89474"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/no-nesting-both/node_modules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/no-nesting-both/node_modules/.gitkeep",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/no-nesting-both/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/no-nesting-n_m",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bac460a404d77cc54f38105b8ee1dd5593298870",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/bac460a404d77cc54f38105b8ee1dd5593298870"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/no-nesting-n_m/node_modules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/no-nesting-n_m/node_modules/.gitkeep",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/no-nesting-pkg",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9dd84684c8b709d5a7b04cf6aa32a715927e2961",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/9dd84684c8b709d5a7b04cf6aa32a715927e2961"
+    },
+    {
+      "path": "test/fast/Unit tests/mocks/project_dirs/no-nesting-pkg/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm install --offline",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7247163f72f8579d9fe0897da6f04dd99b1d0ff3",
+      "size": 1484,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/7247163f72f8579d9fe0897da6f04dd99b1d0ff3"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm install -b",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8bc4c6598f06b8c6fdb6fa872c83d5b79d40017e",
+      "size": 434,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/8bc4c6598f06b8c6fdb6fa872c83d5b79d40017e"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm install -s and -b conflict",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "787bbca85d3132b53c5be79332b68e6896a5ad1f",
+      "size": 682,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/787bbca85d3132b53c5be79332b68e6896a5ad1f"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm install with nonlowercase LTS name",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "bc647f16c800a5e85bd03ea0c6f11e727710fd3a",
+      "size": 869,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/bc647f16c800a5e85bd03ea0c6f11e727710fd3a"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm ls-remote",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e1e5363fb84470e8766ecaaa9157ea6bbd2183b9",
+      "size": 3170,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/e1e5363fb84470e8766ecaaa9157ea6bbd2183b9"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm ls-remote with nounset should not fail",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "89d1eaa03c0253e77a7b0eaf4f7e8811fc731385",
+      "size": 698,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/89d1eaa03c0253e77a7b0eaf4f7e8811fc731385"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm set_colors",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "20f9622fa7feb8a8bdce19b651614450989815a4",
+      "size": 1890,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/20f9622fa7feb8a8bdce19b651614450989815a4"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm version-remote",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1c4026a64525247cfb66c156a700a1b8871718ae",
+      "size": 2280,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/1c4026a64525247cfb66c156a700a1b8871718ae"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_add_iojs_prefix",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b619cc251040a1cda51a8d9e3d58230d755d6bc5",
+      "size": 417,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/b619cc251040a1cda51a8d9e3d58230d755d6bc5"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_alias",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "90b5fca130511e7dc2067dad96a8f4de48f22ff8",
+      "size": 997,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/90b5fca130511e7dc2067dad96a8f4de48f22ff8"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_alias LTS-N",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5e3702d22627bba1533cad9f83f1b039bdbad021",
+      "size": 1032,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/5e3702d22627bba1533cad9f83f1b039bdbad021"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_alias handles comments",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0b118e98fa539029982b7963ffc1e85b703a361d",
+      "size": 1201,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/0b118e98fa539029982b7963ffc1e85b703a361d"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_alias_path",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1d1653ea896e3ac113ba4ab4762327d0092dd36c",
+      "size": 173,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/1d1653ea896e3ac113ba4ab4762327d0092dd36c"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_change_path",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "aa1642b2aeed19ecd3714a5d2a19848be15cd4a3",
+      "size": 2169,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/aa1642b2aeed19ecd3714a5d2a19848be15cd4a3"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_check_for_help",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "562ca3b42f5eee0bb9e0762fc218ceed5757fa64",
+      "size": 315,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/562ca3b42f5eee0bb9e0762fc218ceed5757fa64"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_clang_version",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "dda1dad4417fd985a632767d8a931d021dda33ea",
+      "size": 1608,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/dda1dad4417fd985a632767d8a931d021dda33ea"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_command_info",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6d13490bcf87eb0d78362c68100689108339a6fc",
+      "size": 1887,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/6d13490bcf87eb0d78362c68100689108339a6fc"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_compare_checksum",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c07698424fdfa9e46945480fbbf7091812b2e73e",
+      "size": 2267,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/c07698424fdfa9e46945480fbbf7091812b2e73e"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_compute_checksum",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c149db40e5008d4cb8f8c6613efe88cbb5fd6120",
+      "size": 698,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/c149db40e5008d4cb8f8c6613efe88cbb5fd6120"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_curl_libz_support",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "acab56fb5599545c4add5925c0938d380e8c1d51",
+      "size": 1261,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/acab56fb5599545c4add5925c0938d380e8c1d51"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_curl_use_compression",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e2638641f3096c8af22f1c470ddb8bc5fa1fc12a",
+      "size": 1750,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/e2638641f3096c8af22f1c470ddb8bc5fa1fc12a"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_curl_version",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d61014eebdd6b9fac9f10fe360ef7672ff7713a6",
+      "size": 865,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/d61014eebdd6b9fac9f10fe360ef7672ff7713a6"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_die_on_prefix",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3be5a98516383b115187f7d81b073a89fdf5067a",
+      "size": 9967,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/3be5a98516383b115187f7d81b073a89fdf5067a"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_download",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ced5489539ba25c6451b22c604afe10d79561695",
+      "size": 1769,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/ced5489539ba25c6451b22c604afe10d79561695"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_download no eval injection",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8e6b3d493c79028f4a6342612305a7fb0ad160ed",
+      "size": 3882,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/8e6b3d493c79028f4a6342612305a7fb0ad160ed"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_download wget Authorization header",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a291d2789155ed55336b2abe89a652f4a6e917dd",
+      "size": 1376,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/a291d2789155ed55336b2abe89a652f4a6e917dd"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_download_artifact",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ec450d97e98bafef315b5e55b49bdfceee03d0ff",
+      "size": 2046,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/ec450d97e98bafef315b5e55b49bdfceee03d0ff"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_download_artifact error propagation",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e220ccd9fe2bf5abfd50e0e414c378d815ac1c0a",
+      "size": 1679,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/e220ccd9fe2bf5abfd50e0e414c378d815ac1c0a"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_download_artifact version injection",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b7b7932967c65bfcead97a5fd5040e2d402c4047",
+      "size": 1580,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/b7b7932967c65bfcead97a5fd5040e2d402c4047"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_ensure_default_set",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c8170bc2c5e2c2f4997d044e003aab90957e362c",
+      "size": 532,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/c8170bc2c5e2c2f4997d044e003aab90957e362c"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_ensure_version_installed",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d2e11492d5ce80ed0dc4cfdf239803fc33e17c98",
+      "size": 3283,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/d2e11492d5ce80ed0dc4cfdf239803fc33e17c98"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_ensure_version_prefix",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "68db1455f95648e32013131b10c9c9c9b1315010",
+      "size": 648,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/68db1455f95648e32013131b10c9c9c9b1315010"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_extract_tarball",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6119e72405b62342cd1f56f6fea2169ab14e650e",
+      "size": 872,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/6119e72405b62342cd1f56f6fea2169ab14e650e"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_find_project_dir",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "bf1f489bc2d47531d06654dbb79dddd5c2525ab3",
+      "size": 1496,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/bf1f489bc2d47531d06654dbb79dddd5c2525ab3"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_find_up",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fff3e5f3e4d991f0917650ca5c27ad6526125a68",
+      "size": 916,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/fff3e5f3e4d991f0917650ca5c27ad6526125a68"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_format_version",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d4dd86c7bfce8f7ddc06e30e26389c377788711b",
+      "size": 664,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/d4dd86c7bfce8f7ddc06e30e26389c377788711b"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_get_arch",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b759b594358cbdc95eaa2bf715b1c1f8c59cd65e",
+      "size": 2210,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/b759b594358cbdc95eaa2bf715b1c1f8c59cd65e"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_get_arch alpine",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "560a89a2a3b142107655d345abe4ec2398f1e27f",
+      "size": 1391,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/560a89a2a3b142107655d345abe4ec2398f1e27f"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_get_arch_unofficial",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e5ba900e8f2a06caed26f5d199b783cf06cdf505",
+      "size": 2751,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/e5ba900e8f2a06caed26f5d199b783cf06cdf505"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_get_artifact_compression",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f099000d922ab0457ba8037bf361fcf268a359ee",
+      "size": 670,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/f099000d922ab0457ba8037bf361fcf268a359ee"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_get_checksum",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "559f781d934753014f0303bd8a5233a205a670cd",
+      "size": 1153,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/559f781d934753014f0303bd8a5233a205a670cd"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_get_checksum awk injection",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "63914e30adc3003b618dd13248ecdf44b8f7179a",
+      "size": 967,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/63914e30adc3003b618dd13248ecdf44b8f7179a"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_get_checksum_alg",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "74aa11f25b7eff55998321dd671dcf79003d5ccb",
+      "size": 281,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/74aa11f25b7eff55998321dd671dcf79003d5ccb"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_get_checksum_binary",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "532c1e5fb03455559b0af6d343fb850f73651b6f",
+      "size": 408,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/532c1e5fb03455559b0af6d343fb850f73651b6f"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_get_colors",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c90da499d5fe33270d8c852ae8b482aba3eae5e6",
+      "size": 3153,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/c90da499d5fe33270d8c852ae8b482aba3eae5e6"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_get_default_packages",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9e10214fc674a8c6b7e0f3640e331a05543ac4ad",
+      "size": 2066,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/9e10214fc674a8c6b7e0f3640e331a05543ac4ad"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_get_default_packages mawk compat",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "35c8d4f08baaf68db6314907b58b9fcc459a43b1",
+      "size": 1636,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/35c8d4f08baaf68db6314907b58b9fcc459a43b1"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_get_download_slug",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "eeb72ac7b48d10ac530708f3e4c212ca5a5a5f4a",
+      "size": 4416,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/eeb72ac7b48d10ac530708f3e4c212ca5a5a5f4a"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_get_latest missing curl or wget",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "23788dac379c136538a210f078acb6bb7372041b",
+      "size": 455,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/23788dac379c136538a210f078acb6bb7372041b"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_get_minor_version",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1d2a618a125448e920dd5a0b804732abc5f12803",
+      "size": 1034,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/1d2a618a125448e920dd5a0b804732abc5f12803"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_get_mirror",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0c16ff4d72f58aad7be5a21f297de92f0fd821e5",
+      "size": 2187,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/0c16ff4d72f58aad7be5a21f297de92f0fd821e5"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_has",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0987801d08700acbfa37935b9d37b8432470423c",
+      "size": 361,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/0987801d08700acbfa37935b9d37b8432470423c"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_has_colors",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e5cc86a99101b412ab14bdc0da66a1a7ed40c2d6",
+      "size": 1380,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/e5cc86a99101b412ab14bdc0da66a1a7ed40c2d6"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_has_non_aliased",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "03564d40cfe9e6680e87b77292cf0a9e2cdbb987",
+      "size": 849,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/03564d40cfe9e6680e87b77292cf0a9e2cdbb987"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_has_solaris_binary",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "522231220f202a76423abcc525edc84c417023c9",
+      "size": 972,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/522231220f202a76423abcc525edc84c417023c9"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_has_system_iojs",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "78dec06e375995eef8f43340d9195abfabf00601",
+      "size": 384,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/78dec06e375995eef8f43340d9195abfabf00601"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_has_system_node",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8390a63317613e813148087436bba5513561d2a3",
+      "size": 363,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/8390a63317613e813148087436bba5513561d2a3"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_install_binary_extract",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "bd7eb277798d79c3caa7f19dc2fd3e7015c5f733",
+      "size": 1766,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/bd7eb277798d79c3caa7f19dc2fd3e7015c5f733"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_install_binary_nosource",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1c77ccba37ceeaf0363c6b68c89eaec13880887c",
+      "size": 1135,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/1c77ccba37ceeaf0363c6b68c89eaec13880887c"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_install_latest_npm",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a1f8f0f5007786d9cd71ce7bf22b1a932df0d773",
+      "size": 1148,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/a1f8f0f5007786d9cd71ce7bf22b1a932df0d773"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_install_no_progress_bar",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "18f2d048a07b47425cf37aebd27f67406c871f99",
+      "size": 2610,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/18f2d048a07b47425cf37aebd27f67406c871f99"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_install_source SHELL override",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f92b0b995e35be554cb2c6e90d022410f0b7bb64",
+      "size": 2107,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/f92b0b995e35be554cb2c6e90d022410f0b7bb64"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_iojs_prefix",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d5d9f2e108ae1ffd1be4a90208a9eb62c35f59db",
+      "size": 187,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/d5d9f2e108ae1ffd1be4a90208a9eb62c35f59db"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_iojs_version_has_solaris_binary",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b6d03b4b85b32c6f31b826fd0a5e7620c72cf1ba",
+      "size": 885,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/b6d03b4b85b32c6f31b826fd0a5e7620c72cf1ba"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_is_alias",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1fb69e9bf7633a37fed99f65af005c9b3e696587",
+      "size": 529,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/1fb69e9bf7633a37fed99f65af005c9b3e696587"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_is_iojs_version",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b1b75fc5359fb84f18410c504ddc0113baec1e44",
+      "size": 390,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/b1b75fc5359fb84f18410c504ddc0113baec1e44"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_is_merged_node_version",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "897b943c2615c2c9579ede24491a2e1c51bdd889",
+      "size": 435,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/897b943c2615c2c9579ede24491a2e1c51bdd889"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_is_natural_num",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "caf56cf901b2c4d2eec9ff7dd95227f63dabf814",
+      "size": 600,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/caf56cf901b2c4d2eec9ff7dd95227f63dabf814"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_is_valid_version",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8bdf9410b07668d4183542de58a297b517ce1a42",
+      "size": 634,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/8bdf9410b07668d4183542de58a297b517ce1a42"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_is_version_installed",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8b6e775c5527d08298a3f7a4c1b1f5f64b03de3e",
+      "size": 1519,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/8b6e775c5527d08298a3f7a4c1b1f5f64b03de3e"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_ls handles hash in pattern",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "cb3a0c93225340a89dbf9a5784b5043f72d537b8",
+      "size": 996,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/cb3a0c93225340a89dbf9a5784b5043f72d537b8"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_ls_current",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "69de68ec5e05463ebbd854dd94e3d83339a56431",
+      "size": 1548,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/69de68ec5e05463ebbd854dd94e3d83339a56431"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_ls_remote",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4bc328380a156449c3e38cd051c0bb74f301608a",
+      "size": 2785,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/4bc328380a156449c3e38cd051c0bb74f301608a"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_ls_remote LTS aliases",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e6037b3298f2eb9aa8fd2d646f7a81aca5c918ed",
+      "size": 1270,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/e6037b3298f2eb9aa8fd2d646f7a81aca5c918ed"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_ls_remote nightly",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c3393b7618b77adef5b861cb0dcc93c83c0d2f10",
+      "size": 2625,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/c3393b7618b77adef5b861cb0dcc93c83c0d2f10"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_ls_remote_iojs",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "668f5e93fe1a4bbc38bb8e0dc20b36539d3b3e40",
+      "size": 1043,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/668f5e93fe1a4bbc38bb8e0dc20b36539d3b3e40"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_make_alias",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d5e213a8d42642912714d8d2f4bda271dd934c2e",
+      "size": 737,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/d5e213a8d42642912714d8d2f4bda271dd934c2e"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_node_prefix",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d186a9df91c478823e35608016d881ecff34b4ff",
+      "size": 187,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/d186a9df91c478823e35608016d881ecff34b4ff"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_node_version_has_solaris_binary",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a9237c0c69111a8d85af254714513c6fe3d5b747",
+      "size": 1189,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/a9237c0c69111a8d85af254714513c6fe3d5b747"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_normalize_lts",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1e0722b169d4c9f79c3f574891c618c885b93663",
+      "size": 1565,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/1e0722b169d4c9f79c3f574891c618c885b93663"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_num_version_groups",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "282da15751acccded5965d400394cbb43d48d273",
+      "size": 1169,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/282da15751acccded5965d400394cbb43d48d273"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_offline_version",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8da02f0ed9c8313914c6c18d658efc6fd74b808e",
+      "size": 1324,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/8da02f0ed9c8313914c6c18d658efc6fd74b808e"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_print_alias_path",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "bf0eea99173b44633686696d9bd57cfb58f9d8ae",
+      "size": 1538,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/bf0eea99173b44633686696d9bd57cfb58f9d8ae"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_print_color_code",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4b9cfc82cdde2f84c51841436257571bea7b4e31",
+      "size": 653,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/4b9cfc82cdde2f84c51841436257571bea7b4e31"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_print_default_alias",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b126f06ffea156f32440604dc48e577264616150",
+      "size": 1253,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/b126f06ffea156f32440604dc48e577264616150"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_print_implicit_alias errors",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ffff6e0104bfd9ef636bd9944243e8956a55f99f",
+      "size": 1338,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/ffff6e0104bfd9ef636bd9944243e8956a55f99f"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_print_implicit_alias success",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8a0d22e24df860281ae85f33dd9c63416137ce60",
+      "size": 3325,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/8a0d22e24df860281ae85f33dd9c63416137ce60"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_print_npm_version",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "65409ad51adc3154df81d927942fe8b80c1d1f98",
+      "size": 632,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/65409ad51adc3154df81d927942fe8b80c1d1f98"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_process_nvmrc",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "701477ef011b8e1e830521411d6fa955607c9e82",
+      "size": 1117,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/701477ef011b8e1e830521411d6fa955607c9e82"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_remote_version",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "11ceb98361184b144566300bb8d97322bb20ce98",
+      "size": 3710,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/11ceb98361184b144566300bb8d97322bb20ce98"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_remote_versions",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ba3f7186ca8fe19116210d6f3edbaf5c02050561",
+      "size": 2998,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/ba3f7186ca8fe19116210d6f3edbaf5c02050561"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_remote_versions propagates iojs failure",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "39ccdf555b51240e0e0fe8df8508f6dc10254458",
+      "size": 1543,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/39ccdf555b51240e0e0fe8df8508f6dc10254458"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_stdout_is_terminal",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "69d56490b2d085b5494078fdee33c6890d66a562",
+      "size": 1807,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/69d56490b2d085b5494078fdee33c6890d66a562"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_strip_iojs_prefix",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "cd4e846b9d4c01c807a754a51f442e46655a0d28",
+      "size": 530,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/cd4e846b9d4c01c807a754a51f442e46655a0d28"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_strip_path",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a900cab4ec043b49407914265795a71b22ac72d4",
+      "size": 952,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/a900cab4ec043b49407914265795a71b22ac72d4"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_supports_xz",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "19e001c1c50e1079cf18a6ae09d82066a5588cba",
+      "size": 893,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/19e001c1c50e1079cf18a6ae09d82066a5588cba"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_tree_contains_path",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "efaa90881c97e98c4c4165f21a8d4faeffa52f5c",
+      "size": 1030,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/efaa90881c97e98c4c4165f21a8d4faeffa52f5c"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_use_if_needed",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "04af1ba717d61c40f0294c5ca554361f804295f9",
+      "size": 505,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/04af1ba717d61c40f0294c5ca554361f804295f9"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_validate_implicit_alias",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8c35fedf9c6df496d7b662a5940972d0e9b36dec",
+      "size": 1055,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/8c35fedf9c6df496d7b662a5940972d0e9b36dec"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_version",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9334f40f1b2d6739f7c2b51c43c92be8610230d9",
+      "size": 1868,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/9334f40f1b2d6739f7c2b51c43c92be8610230d9"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_version_dir",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fc91daea6312965be4de2d6a142ea0394e7ea7ff",
+      "size": 617,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/fc91daea6312965be4de2d6a142ea0394e7ea7ff"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_version_greater",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e88c28d6b68063fcfd07c8619d2376b5ff8c7a4b",
+      "size": 396,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/e88c28d6b68063fcfd07c8619d2376b5ff8c7a4b"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_version_path",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "acf9aa150162b76c1880ac0a761969f60f7f65a7",
+      "size": 701,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/acf9aa150162b76c1880ac0a761969f60f7f65a7"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_wrap_with_color_code",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "size": 1,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/8b137891791fe96927ad78e64b0aad7bded08bdc"
+    },
+    {
+      "path": "test/fast/Unit tests/nvm_write_nvmrc",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b98490bab76ab73118379478a30b622cab8a4c57",
+      "size": 1757,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/b98490bab76ab73118379478a30b622cab8a4c57"
+    },
+    {
+      "path": "test/fast/Unit tests/security_wget_injection",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d51fd8709ae540469e1d5f9f1fbacd4232eb5c4",
+      "size": 2646,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/0d51fd8709ae540469e1d5f9f1fbacd4232eb5c4"
+    },
+    {
+      "path": "test/fast/nvm should remove the last trailing slash in $NVM_DIR",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0f9f804ba822f4c43ac37d6fe7ba04e361a0a3c0",
+      "size": 413,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/0f9f804ba822f4c43ac37d6fe7ba04e361a0a3c0"
+    },
+    {
+      "path": "test/fast/setup",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6de3378ed049ff090decb541485110b8f2e07b9f",
+      "size": 189,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/6de3378ed049ff090decb541485110b8f2e07b9f"
+    },
+    {
+      "path": "test/fast/setup_dir",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fd36775c062b5fbcb774f8558e38fb8d891aa6e0",
+      "size": 195,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/fd36775c062b5fbcb774f8558e38fb8d891aa6e0"
+    },
+    {
+      "path": "test/fast/teardown",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "75a406e7eee1f2727167e7c647eeb930f308c097",
+      "size": 196,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/75a406e7eee1f2727167e7c647eeb930f308c097"
+    },
+    {
+      "path": "test/fast/teardown_dir",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9efb49e0652fae38aaf5bfbacb8f98ae4140b4b3",
+      "size": 157,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/9efb49e0652fae38aaf5bfbacb8f98ae4140b4b3"
+    },
+    {
+      "path": "test/fixtures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "104b57ba3b1a0c69605527c7b432107584c657ff",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/104b57ba3b1a0c69605527c7b432107584c657ff"
+    },
+    {
+      "path": "test/fixtures/nvmrc",
+      "mode": "160000",
+      "type": "commit",
+      "sha": "0d325aa903893072cb07daf43ae04b491e104d6c"
+    },
+    {
+      "path": "test/install_script",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0863413c3a07a2483162f2dd74cbbeddd856f45f",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/0863413c3a07a2483162f2dd74cbbeddd856f45f"
+    },
+    {
+      "path": "test/install_script/install_nvm_from_git",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8d1ea030fb4b088a8d84c9acc4aa16c0260a5cea",
+      "size": 4318,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/8d1ea030fb4b088a8d84c9acc4aa16c0260a5cea"
+    },
+    {
+      "path": "test/install_script/nvm_check_global_modules",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8c3072f9725f4aaae0797fbf6a31f95d5bd863da",
+      "size": 2043,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/8c3072f9725f4aaae0797fbf6a31f95d5bd863da"
+    },
+    {
+      "path": "test/install_script/nvm_detect_profile",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "61d070e3bc0d6dfcf4fd151f9fbd234d1db8eb33",
+      "size": 5118,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/61d070e3bc0d6dfcf4fd151f9fbd234d1db8eb33"
+    },
+    {
+      "path": "test/install_script/nvm_do_install",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8b3d1db9bf2d3137f9c56e004fb2d63ba2524889",
+      "size": 645,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/8b3d1db9bf2d3137f9c56e004fb2d63ba2524889"
+    },
+    {
+      "path": "test/install_script/nvm_do_install_printf_format",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8961e552fb5a9bde802f9c8f143581b1e72e7b95",
+      "size": 1873,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/8961e552fb5a9bde802f9c8f143581b1e72e7b95"
+    },
+    {
+      "path": "test/install_script/nvm_do_install_tried_profile",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ee0ed62241672fe11d481717c9aa0e5342b1ad81",
+      "size": 2092,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/ee0ed62241672fe11d481717c9aa0e5342b1ad81"
+    },
+    {
+      "path": "test/install_script/nvm_download",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1bc44337ac64ae741e3c0abb65fae3b20df15911",
+      "size": 527,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/1bc44337ac64ae741e3c0abb65fae3b20df15911"
+    },
+    {
+      "path": "test/install_script/nvm_install_dir",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "78da6115508a47a48b6a6ea078f40e85f47d234c",
+      "size": 677,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/78da6115508a47a48b6a6ea078f40e85f47d234c"
+    },
+    {
+      "path": "test/install_script/nvm_install_profile_skip",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "dce68881b66899875fe24ed0c2872d91de3ff7ee",
+      "size": 1682,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/dce68881b66899875fe24ed0c2872d91de3ff7ee"
+    },
+    {
+      "path": "test/install_script/nvm_install_with_aliased_dot",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e1b19a108ebbeb6d0c923b777be3392fc3268627",
+      "size": 454,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/e1b19a108ebbeb6d0c923b777be3392fc3268627"
+    },
+    {
+      "path": "test/install_script/nvm_install_with_node_version",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5dd1a9b858efccaf93221bfc89a85d0971ea70d7",
+      "size": 303,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/5dd1a9b858efccaf93221bfc89a85d0971ea70d7"
+    },
+    {
+      "path": "test/install_script/nvm_mkdir_error_handling",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d92476a0d37bdd815c3c302685d670a44505567f",
+      "size": 2002,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/d92476a0d37bdd815c3c302685d670a44505567f"
+    },
+    {
+      "path": "test/install_script/nvm_profile_is_bash_or_zsh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "768d6ec5adc9b0c9d3f5260229f7a11505657e58",
+      "size": 817,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/768d6ec5adc9b0c9d3f5260229f7a11505657e58"
+    },
+    {
+      "path": "test/install_script/nvm_reset",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "77bac0a4b292e4087bd9def3970d82c4cc2f6e7c",
+      "size": 1376,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/77bac0a4b292e4087bd9def3970d82c4cc2f6e7c"
+    },
+    {
+      "path": "test/install_script/nvm_source",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "82e25aa85e94542139356751745d9f8b87fe1fb8",
+      "size": 3110,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/82e25aa85e94542139356751745d9f8b87fe1fb8"
+    },
+    {
+      "path": "test/installation_iojs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c5bb022ab13c94f4fac5ba9b14cae498c039c473",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/c5bb022ab13c94f4fac5ba9b14cae498c039c473"
+    },
+    {
+      "path": "test/installation_iojs/install already installed uses it",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "981c9818155a27d6109a59bcdd75e141f26d860c",
+      "size": 1007,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/981c9818155a27d6109a59bcdd75e141f26d860c"
+    },
+    {
+      "path": "test/installation_iojs/install from binary",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3ffe8aa79a35f3f7bcab29a921a969b8f7eac7df",
+      "size": 996,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/3ffe8aa79a35f3f7bcab29a921a969b8f7eac7df"
+    },
+    {
+      "path": "test/installation_iojs/install from source",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d834e78693595e3f153ab2f3e6668b5d56e983df",
+      "size": 664,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/d834e78693595e3f153ab2f3e6668b5d56e983df"
+    },
+    {
+      "path": "test/installation_iojs/install two versions and use the latest one",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2ec99cddcc7e051d3889510cc904feb621d0de3c",
+      "size": 924,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/2ec99cddcc7e051d3889510cc904feb621d0de3c"
+    },
+    {
+      "path": "test/installation_iojs/install version specified in .nvmrc from binary",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "30e8b7002e1427e2385d67ce9069c646b2e9cc1c",
+      "size": 652,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/30e8b7002e1427e2385d67ce9069c646b2e9cc1c"
+    },
+    {
+      "path": "test/installation_iojs/install version specified in .nvmrc from source",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d02ddc7bfeb935a7192e1f080649644355a68966",
+      "size": 632,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/d02ddc7bfeb935a7192e1f080649644355a68966"
+    },
+    {
+      "path": "test/installation_iojs/install while reinstalling packages",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "072eb91f8d59bcad4ec9fe47a24a12b7ed79fe1e",
+      "size": 1161,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/072eb91f8d59bcad4ec9fe47a24a12b7ed79fe1e"
+    },
+    {
+      "path": "test/installation_iojs/nvm install v1 works",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4498ee2ecc759f7ef5b011c1ecdc3241ffb8e65a",
+      "size": 679,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/4498ee2ecc759f7ef5b011c1ecdc3241ffb8e65a"
+    },
+    {
+      "path": "test/installation_iojs/setup_dir",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "cb4522d100bc15f2ba84466a4c8dfc8fe8a45ad3",
+      "size": 62,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/cb4522d100bc15f2ba84466a4c8dfc8fe8a45ad3"
+    },
+    {
+      "path": "test/installation_iojs/teardown_dir",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2ca9cf11aa867db1dbb872e611920c0831eb8c91",
+      "size": 243,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/2ca9cf11aa867db1dbb872e611920c0831eb8c91"
+    },
+    {
+      "path": "test/installation_node",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "56a74f046d5bc89490e2e181a68f2dce41a08e7f",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/56a74f046d5bc89490e2e181a68f2dce41a08e7f"
+    },
+    {
+      "path": "test/installation_node/default-packages",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7b1cfca94f58beb463b1034a3da4de228596eda2",
+      "size": 2666,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/7b1cfca94f58beb463b1034a3da4de228596eda2"
+    },
+    {
+      "path": "test/installation_node/install LTS",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f5c859625e9440b5c0c8ef98d86640518a4605bf",
+      "size": 1189,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/f5c859625e9440b5c0c8ef98d86640518a4605bf"
+    },
+    {
+      "path": "test/installation_node/install already installed uses it",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a346d7d2587a5f12eeaac5335a32572fd8cb6cce",
+      "size": 705,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/a346d7d2587a5f12eeaac5335a32572fd8cb6cce"
+    },
+    {
+      "path": "test/installation_node/install from binary",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d0f101f43da5f7dde5397ea9b4a0dccd6ec0f493",
+      "size": 887,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/d0f101f43da5f7dde5397ea9b4a0dccd6ec0f493"
+    },
+    {
+      "path": "test/installation_node/install from binary with binary flag set",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c484431c4de45807b4632dad487a83f0e9ee35d1",
+      "size": 1826,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/c484431c4de45807b4632dad487a83f0e9ee35d1"
+    },
+    {
+      "path": "test/installation_node/install from source",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d458c87b42282827aeb6f18c8afff5a787286b73",
+      "size": 834,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/d458c87b42282827aeb6f18c8afff5a787286b73"
+    },
+    {
+      "path": "test/installation_node/install from source with thread parameter",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1b3faae97b5ed0c9c135e1810c6acfef05f97c08",
+      "size": 950,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/1b3faae97b5ed0c9c135e1810c6acfef05f97c08"
+    },
+    {
+      "path": "test/installation_node/install from source without V8 snapshot for ARM",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fe8241d94a0c41938cf8a5d2361c65e94cedd829",
+      "size": 762,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/fe8241d94a0c41938cf8a5d2361c65e94cedd829"
+    },
+    {
+      "path": "test/installation_node/install hook",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4290bb1bb52a5852d5a2b84d15e53e8219077843",
+      "size": 1404,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/4290bb1bb52a5852d5a2b84d15e53e8219077843"
+    },
+    {
+      "path": "test/installation_node/install latest npm",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6cbac8a7063a4b721eb6d9df6d9088f20ee1209b",
+      "size": 2437,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/6cbac8a7063a4b721eb6d9df6d9088f20ee1209b"
+    },
+    {
+      "path": "test/installation_node/install on bash with ERR trap and set -E",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "edfad0c682b5b7eb69606ed74481463501b9501c",
+      "size": 1005,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/edfad0c682b5b7eb69606ed74481463501b9501c"
+    },
+    {
+      "path": "test/installation_node/install two versions and use the latest one",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1fac27863cca94b10dad17d2afc5c2f16e83b0ca",
+      "size": 682,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/1fac27863cca94b10dad17d2afc5c2f16e83b0ca"
+    },
+    {
+      "path": "test/installation_node/install version specified in .nvmrc from binary",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0c90c999e013592887a4e7b928ba4fcd2bfad9fd",
+      "size": 510,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/0c90c999e013592887a4e7b928ba4fcd2bfad9fd"
+    },
+    {
+      "path": "test/installation_node/install while reinstalling packages",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b180bcc8a6df65149f12985a3c1bd101f5cacf28",
+      "size": 1568,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/b180bcc8a6df65149f12985a3c1bd101f5cacf28"
+    },
+    {
+      "path": "test/installation_node/install with --alias",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8be8cbd11337a5e9458625042c41fab3c0a5e96d",
+      "size": 244,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/8be8cbd11337a5e9458625042c41fab3c0a5e96d"
+    },
+    {
+      "path": "test/installation_node/install with --default",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5a06d34274e2f0b220309a0789c922b00040782c",
+      "size": 251,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/5a06d34274e2f0b220309a0789c922b00040782c"
+    },
+    {
+      "path": "test/installation_node/install with --latest-npm",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "55ac74b107019be33e925c7f24c4b662fc354c92",
+      "size": 269,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/55ac74b107019be33e925c7f24c4b662fc354c92"
+    },
+    {
+      "path": "test/installation_node/setup_dir",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "cb4522d100bc15f2ba84466a4c8dfc8fe8a45ad3",
+      "size": 62,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/cb4522d100bc15f2ba84466a4c8dfc8fe8a45ad3"
+    },
+    {
+      "path": "test/installation_node/teardown_dir",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "adb23c4ddceaf82490a1258249bb211ad22cbddd",
+      "size": 268,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/adb23c4ddceaf82490a1258249bb211ad22cbddd"
+    },
+    {
+      "path": "test/mocks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6e09f901c85ebfe1a95ca508cf473d24eaa79a6e",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/6e09f901c85ebfe1a95ca508cf473d24eaa79a6e"
+    },
+    {
+      "path": "test/mocks/isainfo_amd64",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "37f805bef465210fcfc226428807c8a67fc113e3",
+      "size": 70,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/37f805bef465210fcfc226428807c8a67fc113e3"
+    },
+    {
+      "path": "test/mocks/isainfo_x86",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4658d2ade5b3c356c07ff855bd9010bf243d5a61",
+      "size": 63,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/4658d2ade5b3c356c07ff855bd9010bf243d5a61"
+    },
+    {
+      "path": "test/mocks/pkg_info_amd64",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d25c527abf74314050b8ee3da01e509af2d8c1c8",
+      "size": 153,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/d25c527abf74314050b8ee3da01e509af2d8c1c8"
+    },
+    {
+      "path": "test/mocks/pkg_info_fail",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "379a4c986e3265e08e9da42c56ec747619c56a33",
+      "size": 7,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/379a4c986e3265e08e9da42c56ec747619c56a33"
+    },
+    {
+      "path": "test/mocks/pkg_info_x86",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a55546970785dab64065dc3c60220854993c7abe",
+      "size": 12,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/a55546970785dab64065dc3c60220854993c7abe"
+    },
+    {
+      "path": "test/mocks/uname_linux_aarch64",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fc0c32d12f41c7cddf2a3ae0fdd2ea002072e253",
+      "size": 126,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/fc0c32d12f41c7cddf2a3ae0fdd2ea002072e253"
+    },
+    {
+      "path": "test/mocks/uname_linux_armv8l",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3bd5284077181dd1aedc20768816fb992b915960",
+      "size": 157,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/3bd5284077181dd1aedc20768816fb992b915960"
+    },
+    {
+      "path": "test/mocks/uname_linux_x86_64",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ce4046525f8a2c9eebb44953dc3de1d35187ebb8",
+      "size": 122,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/ce4046525f8a2c9eebb44953dc3de1d35187ebb8"
+    },
+    {
+      "path": "test/mocks/uname_osx_amd64",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "03805ee9347793c3cba43015346667c29cf4a608",
+      "size": 188,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/03805ee9347793c3cba43015346667c29cf4a608"
+    },
+    {
+      "path": "test/mocks/uname_osx_x86",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1a345a3b6ac9ec8d31f857e0560a49fd9557e5fe",
+      "size": 182,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/1a345a3b6ac9ec8d31f857e0560a49fd9557e5fe"
+    },
+    {
+      "path": "test/mocks/uname_smartos_amd64",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "452f3bcfd6f6285e6a88b9dfd06b0a59d60c3579",
+      "size": 123,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/452f3bcfd6f6285e6a88b9dfd06b0a59d60c3579"
+    },
+    {
+      "path": "test/mocks/uname_smartos_x86",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "452f3bcfd6f6285e6a88b9dfd06b0a59d60c3579",
+      "size": 123,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/452f3bcfd6f6285e6a88b9dfd06b0a59d60c3579"
+    },
+    {
+      "path": "test/slow",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0de5b2e8c0df0aa9454644c7929bfa75d1948a34",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/0de5b2e8c0df0aa9454644c7929bfa75d1948a34"
+    },
+    {
+      "path": "test/slow/Running 'nvm current' should display current nvm environment",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "01d765de90016e3de59504f4c71e23e79864edb6",
+      "size": 203,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/01d765de90016e3de59504f4c71e23e79864edb6"
+    },
+    {
+      "path": "test/slow/nvm exec",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "56fc6af047b02269becaf45abdbba31ffa6be1ae",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/56fc6af047b02269becaf45abdbba31ffa6be1ae"
+    },
+    {
+      "path": "test/slow/nvm exec/Running 'nvm exec --lts' should work",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1be7c61f6afc2c746ff5a449c83d6bf30a6adb4a",
+      "size": 549,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/1be7c61f6afc2c746ff5a449c83d6bf30a6adb4a"
+    },
+    {
+      "path": "test/slow/nvm exec/Running 'nvm exec --silent' should work",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "08d0410e28048f26f96bc6c6d4dfb453112a6b1a",
+      "size": 1267,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/08d0410e28048f26f96bc6c6d4dfb453112a6b1a"
+    },
+    {
+      "path": "test/slow/nvm exec/Running 'nvm exec 0.x' should work",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "88ff70a408eecee75446045736bea316d712be27",
+      "size": 500,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/88ff70a408eecee75446045736bea316d712be27"
+    },
+    {
+      "path": "test/slow/nvm exec/Running 'nvm exec' should pick up .nvmrc version",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "8d3dcaeed8cfd78c0167252da09489daf7cfa48d",
+      "size": 506,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/8d3dcaeed8cfd78c0167252da09489daf7cfa48d"
+    },
+    {
+      "path": "test/slow/nvm exec/Running 'nvm exec' with help should not parse",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e8b6327123dd17cd59540474ed28ee84bcd5af1",
+      "size": 206,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/4e8b6327123dd17cd59540474ed28ee84bcd5af1"
+    },
+    {
+      "path": "test/slow/nvm exec/setup_dir",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "792174273361e92db23f7ae83a8071eaf444133b",
+      "size": 137,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/792174273361e92db23f7ae83a8071eaf444133b"
+    },
+    {
+      "path": "test/slow/nvm exec/teardown_dir",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b16b41695a1c3837da53a07c3aa6ba5921ed757c",
+      "size": 175,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/b16b41695a1c3837da53a07c3aa6ba5921ed757c"
+    },
+    {
+      "path": "test/slow/nvm reinstall-packages",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1bc192df96beb62821945099776ba0e73f237e47",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/1bc192df96beb62821945099776ba0e73f237e47"
+    },
+    {
+      "path": "test/slow/nvm reinstall-packages/Running 'nvm copy-packages $(nvm ls current)' should error out",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d5f8571e985c5b9b42aa19f41a6a1d45885196d5",
+      "size": 767,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/d5f8571e985c5b9b42aa19f41a6a1d45885196d5"
+    },
+    {
+      "path": "test/slow/nvm reinstall-packages/setup_dir",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2dd0f3eeefc7165b480d75fa1d416cfd7539cd76",
+      "size": 158,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/2dd0f3eeefc7165b480d75fa1d416cfd7539cd76"
+    },
+    {
+      "path": "test/slow/nvm reinstall-packages/should work as expected",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "b70518896906223ebe49bcfdb73752cb76d5f5f6",
+      "size": 1433,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/b70518896906223ebe49bcfdb73752cb76d5f5f6"
+    },
+    {
+      "path": "test/slow/nvm reinstall-packages/teardown_dir",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "95bd476c43bc0c3d959ffc9e63413b9b2b7ed6ff",
+      "size": 188,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/95bd476c43bc0c3d959ffc9e63413b9b2b7ed6ff"
+    },
+    {
+      "path": "test/slow/nvm reinstall-packages/test-npmlink",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "59b15d54ccb8ff3295b1c1d2d1ed41f2ebd567b7",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/59b15d54ccb8ff3295b1c1d2d1ed41f2ebd567b7"
+    },
+    {
+      "path": "test/slow/nvm reinstall-packages/test-npmlink/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9558516aad0c79565162c5c0cc95d49d5763f5be",
+      "size": 38,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/9558516aad0c79565162c5c0cc95d49d5763f5be"
+    },
+    {
+      "path": "test/slow/nvm reinstall-packages/test-npmlink/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e596ea4601a956808f2c630e45b172bc1d2f0d35",
+      "size": 191,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/e596ea4601a956808f2c630e45b172bc1d2f0d35"
+    },
+    {
+      "path": "test/slow/nvm reinstall-packages/works with no installs",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ccd4632a7e5f14629ebce22105c52376557951a0",
+      "size": 791,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/ccd4632a7e5f14629ebce22105c52376557951a0"
+    },
+    {
+      "path": "test/slow/nvm run",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5431f9c08cfea05c18746f5f0463f55cfb815c74",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/5431f9c08cfea05c18746f5f0463f55cfb815c74"
+    },
+    {
+      "path": "test/slow/nvm run/Running 'nvm run --harmony --version' should work",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "28912d158ffd07efa7b88b9c84bb271082896049",
+      "size": 258,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/28912d158ffd07efa7b88b9c84bb271082896049"
+    },
+    {
+      "path": "test/slow/nvm run/Running 'nvm run --lts' should work",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ead0dbdc2e45594862923ebce2b83094ffc84caa",
+      "size": 579,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/ead0dbdc2e45594862923ebce2b83094ffc84caa"
+    },
+    {
+      "path": "test/slow/nvm run/Running 'nvm run --silent' should work",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "38db0323f770721a4ef473397873b6cd2e48238e",
+      "size": 885,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/38db0323f770721a4ef473397873b6cd2e48238e"
+    },
+    {
+      "path": "test/slow/nvm run/Running 'nvm run 0.x' should error out sensibly when 0.x is not installed",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c38b4288d31e825ae4fb252dc6a7d730f7f476b1",
+      "size": 602,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/c38b4288d31e825ae4fb252dc6a7d730f7f476b1"
+    },
+    {
+      "path": "test/slow/nvm run/Running 'nvm run 0.x' should work",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d537d4a1d608d41ac48c9521472f6140eec235ab",
+      "size": 180,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/d537d4a1d608d41ac48c9521472f6140eec235ab"
+    },
+    {
+      "path": "test/slow/nvm run/Running 'nvm run' should pick up .nvmrc version",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a34968954d5f89d8264d967da9b3daa9d6605b5f",
+      "size": 917,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/a34968954d5f89d8264d967da9b3daa9d6605b5f"
+    },
+    {
+      "path": "test/slow/nvm run/setup_dir",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0fde4d4b0e3aa66409682243096eb046d4bfa0ed",
+      "size": 144,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/0fde4d4b0e3aa66409682243096eb046d4bfa0ed"
+    },
+    {
+      "path": "test/slow/nvm run/teardown_dir",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "53e2838ad09b22f8744c074e182ae3c27b8dc0fd",
+      "size": 181,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/53e2838ad09b22f8744c074e182ae3c27b8dc0fd"
+    },
+    {
+      "path": "test/slow/nvm uninstall",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a04586d896eaa3818b1a853cf99aac5c1835a257",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/a04586d896eaa3818b1a853cf99aac5c1835a257"
+    },
+    {
+      "path": "test/slow/nvm uninstall/Running 'nvm uninstall 0.12.6' uninstalls v0.12.6",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ec6a658880019a6bec73e905a95f23e32245df97",
+      "size": 739,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/ec6a658880019a6bec73e905a95f23e32245df97"
+    },
+    {
+      "path": "test/slow/nvm uninstall/Running 'nvm uninstall' with incorrect file permissions fails nicely",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c19db8fd681f4240b9af987afbfbbe4b04a13f1",
+      "size": 849,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/0c19db8fd681f4240b9af987afbfbbe4b04a13f1"
+    },
+    {
+      "path": "test/slow/nvm uninstall/setup_dir",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "108dbe3374647a45e2cd75670519919541918c45",
+      "size": 49,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/108dbe3374647a45e2cd75670519919541918c45"
+    },
+    {
+      "path": "test/slow/nvm uninstall/teardown_dir",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2fad54c93383a09b96c73cec48ddc4c23ecbbac6",
+      "size": 66,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/2fad54c93383a09b96c73cec48ddc4c23ecbbac6"
+    },
+    {
+      "path": "test/slow/nvm use",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f8ca7f032b48f792d0a1ca03bd7a94bf280f1ab9",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/f8ca7f032b48f792d0a1ca03bd7a94bf280f1ab9"
+    },
+    {
+      "path": "test/slow/nvm use/Running 'nvm use --lts' uses latest LTS version",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f5b9ec033129483d951520232ec564287c086189",
+      "size": 567,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/f5b9ec033129483d951520232ec564287c086189"
+    },
+    {
+      "path": "test/slow/nvm use/Running 'nvm use --lts=foo' uses latest 'foo' LTS version",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "08016738a97cf640c3a3e404394299f809047940",
+      "size": 613,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/08016738a97cf640c3a3e404394299f809047940"
+    },
+    {
+      "path": "test/slow/nvm use/Running 'nvm use iojs' uses latest io.js version",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9b83d082c0a98396cc26f58fcacabe285fc62f30",
+      "size": 536,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/9b83d082c0a98396cc26f58fcacabe285fc62f30"
+    },
+    {
+      "path": "test/slow/nvm use/Running 'nvm use lts' shows actionable error",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ae7448dd2a7149db6f0f178b63caf7bc0627b7db",
+      "size": 572,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/ae7448dd2a7149db6f0f178b63caf7bc0627b7db"
+    },
+    {
+      "path": "test/slow/nvm use/Running 'nvm use node --silent' doesn't print anything",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1da47e8ed3dedaa21bb4b9b2a5618469871ad5d7",
+      "size": 338,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/1da47e8ed3dedaa21bb4b9b2a5618469871ad5d7"
+    },
+    {
+      "path": "test/slow/nvm use/Running 'nvm use node' uses latest stable node version",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c87f3b4352e0a44619d5f2a4ad3a9e8af5474a49",
+      "size": 546,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/c87f3b4352e0a44619d5f2a4ad3a9e8af5474a49"
+    },
+    {
+      "path": "test/slow/nvm use/Running 'nvm use v1.0.0' uses iojs-v1.0.0 iojs version",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d47a48af85d6e06fe904efefe52ac63e506b0898",
+      "size": 560,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/d47a48af85d6e06fe904efefe52ac63e506b0898"
+    },
+    {
+      "path": "test/slow/nvm use/Running 'nvm use' calls 'nvm_die_on_prefix'",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1a3d74a7c81ef474f3bcce43e5fd09a1748a5f47",
+      "size": 658,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/1a3d74a7c81ef474f3bcce43e5fd09a1748a5f47"
+    },
+    {
+      "path": "test/slow/nvm use/Running 'nvm use' with nvmrc containing not installed version",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "122aa96d379eeb917acadf33ccabf300b0c71519",
+      "size": 881,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/122aa96d379eeb917acadf33ccabf300b0c71519"
+    },
+    {
+      "path": "test/slow/nvm use/setup_dir",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e917f0bd70c35a8370a3be6c8f37c37c25177791",
+      "size": 530,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/e917f0bd70c35a8370a3be6c8f37c37c25177791"
+    },
+    {
+      "path": "test/slow/nvm use/teardown_dir",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "947be6114f09c14cb54888a2a19bbb987dcea6c8",
+      "size": 519,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/947be6114f09c14cb54888a2a19bbb987dcea6c8"
+    },
+    {
+      "path": "test/slow/nvm_get_latest",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b53193338aee1d986aa0066a5af7e0b0a3a0c4e0",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/b53193338aee1d986aa0066a5af7e0b0a3a0c4e0"
+    },
+    {
+      "path": "test/slow/nvm_get_latest/nvm_get_latest",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "870c6c218aaa3708c3954d602fa5c5dc599f574e",
+      "size": 4930,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/870c6c218aaa3708c3954d602fa5c5dc599f574e"
+    },
+    {
+      "path": "test/slow/nvm_get_latest/nvm_get_latest failed redirect",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f03cf6faa8da25a67d001c375344bd66c2a055a2",
+      "size": 509,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/f03cf6faa8da25a67d001c375344bd66c2a055a2"
+    },
+    {
+      "path": "test/sourcing",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fbdf4c21ed0a9a34a1bb05579868dbc83b7ad0e1",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/fbdf4c21ed0a9a34a1bb05579868dbc83b7ad0e1"
+    },
+    {
+      "path": "test/sourcing/Sourcing nvm.sh global alias bug",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "181a2a6f961685c4121da66f6189599bbe7e8dbd",
+      "size": 863,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/181a2a6f961685c4121da66f6189599bbe7e8dbd"
+    },
+    {
+      "path": "test/sourcing/Sourcing nvm.sh should keep version if one is active",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "dbfcafb23cd0c3265aff2abeb790376461b3ecf0",
+      "size": 629,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/dbfcafb23cd0c3265aff2abeb790376461b3ecf0"
+    },
+    {
+      "path": "test/sourcing/Sourcing nvm.sh should use the default if available and no nvm node is loaded",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "69750d2eaad5df45e716cdeb9591cdd83c5d2a44",
+      "size": 1502,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/69750d2eaad5df45e716cdeb9591cdd83c5d2a44"
+    },
+    {
+      "path": "test/sourcing/Sourcing nvm.sh with --install and .nvmrc should install it",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0774c0e4e7bb338b25d51e20992e045f6c1cc263",
+      "size": 933,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/0774c0e4e7bb338b25d51e20992e045f6c1cc263"
+    },
+    {
+      "path": "test/sourcing/Sourcing nvm.sh with --install should install the default",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4928f318128197a65c6c5e6aaba540a065721651",
+      "size": 1544,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/4928f318128197a65c6c5e6aaba540a065721651"
+    },
+    {
+      "path": "test/sourcing/Sourcing nvm.sh with --no-use should not use anything",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5b98d4b28e7e0937877619227da1fe0e31483cb5",
+      "size": 992,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/5b98d4b28e7e0937877619227da1fe0e31483cb5"
+    },
+    {
+      "path": "test/sourcing/Sourcing nvm.sh with no default should return 0",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "7fd4fc799a66eba7ad2108b0bbc7840a74503381",
+      "size": 314,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/7fd4fc799a66eba7ad2108b0bbc7840a74503381"
+    },
+    {
+      "path": "test/sourcing/setup_dir",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a7f6be89759fe17d4024f6165ba0c333a1c79eee",
+      "size": 373,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/a7f6be89759fe17d4024f6165ba0c333a1c79eee"
+    },
+    {
+      "path": "test/sourcing/teardown_dir",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fb6ba3b9277b664e8fb4444c2a2a24b8ed3e792c",
+      "size": 146,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/fb6ba3b9277b664e8fb4444c2a2a24b8ed3e792c"
+    },
+    {
+      "path": "test/xenial",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9721edc26d9f87d7e28848c55a0ac7ad20d19b65",
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/trees/9721edc26d9f87d7e28848c55a0ac7ad20d19b65"
+    },
+    {
+      "path": "test/xenial/install from source",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "d458c87b42282827aeb6f18c8afff5a787286b73",
+      "size": 834,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/d458c87b42282827aeb6f18c8afff5a787286b73"
+    },
+    {
+      "path": "test/xenial/install from source implicitly",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a07efc74f7a35d94d535892aa9daaa326b693f11",
+      "size": 587,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/a07efc74f7a35d94d535892aa9daaa326b693f11"
+    },
+    {
+      "path": "test/xenial/install from source with thread parameter",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1b3faae97b5ed0c9c135e1810c6acfef05f97c08",
+      "size": 950,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/1b3faae97b5ed0c9c135e1810c6acfef05f97c08"
+    },
+    {
+      "path": "test/xenial/install from source without V8 snapshot for ARM",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fe8241d94a0c41938cf8a5d2361c65e94cedd829",
+      "size": 762,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/fe8241d94a0c41938cf8a5d2361c65e94cedd829"
+    },
+    {
+      "path": "test/xenial/install hook",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4290bb1bb52a5852d5a2b84d15e53e8219077843",
+      "size": 1404,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/4290bb1bb52a5852d5a2b84d15e53e8219077843"
+    },
+    {
+      "path": "test/xenial/install version specified in .nvmrc from source",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "85ede4d08fbf1dee845e883473d356c5634ec0ff",
+      "size": 514,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/85ede4d08fbf1dee845e883473d356c5634ec0ff"
+    },
+    {
+      "path": "test/xenial/node 0.6.21 should install 0.6.21-pre",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f326adde2c3c6da0026fc6c96288f051034a462d",
+      "size": 324,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/f326adde2c3c6da0026fc6c96288f051034a462d"
+    },
+    {
+      "path": "update_test_mocks.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "3abc3595a64f5dd49c622d68b228a9aedc732dd1",
+      "size": 2478,
+      "url": "https://api.github.com/repos/nvm-sh/nvm/git/blobs/3abc3595a64f5dd49c622d68b228a9aedc732dd1"
+    }
+  ],
+  "truncated": false
+}

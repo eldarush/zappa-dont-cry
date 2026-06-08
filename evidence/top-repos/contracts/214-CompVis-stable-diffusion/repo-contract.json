@@ -1,0 +1,39 @@
+{
+  "harvested_at": "2026-06-07T20:50:48.5823216+03:00",
+  "rank": 214,
+  "repository": "CompVis/stable-diffusion",
+  "url": "https://github.com/CompVis/stable-diffusion",
+  "language": "Jupyter Notebook",
+  "stars": 73088,
+  "default_branch": "main",
+  "contract_strength": "readme_only",
+  "candidate_qaas_surfaces": "repo-contract-discovery-needed",
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\214-CompVis-stable-diffusion\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\214-CompVis-stable-diffusion\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [],
+    "ci": [],
+    "containers": [],
+    "dotnet": [],
+    "node": [],
+    "python": [
+      "setup.py"
+    ],
+    "go": [],
+    "java": [],
+    "rust": [],
+    "docs": [
+      "README.md"
+    ],
+    "tests": [
+      "scripts/tests/test_watermark.py"
+    ]
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\214-CompVis-stable-diffusion\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\214-CompVis-stable-diffusion\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

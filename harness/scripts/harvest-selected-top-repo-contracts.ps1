@@ -8,9 +8,10 @@ param(
         "gin-gonic/gin",
         "denoland/deno",
         "unclecode/crawl4ai",
-        "expressjs/express"
+        "expressjs/express",
+        "spring-projects/spring-boot"
     ),
-    [int]$MaxRepositories = 7,
+    [int]$MaxRepositories = 8,
     [int]$MaxFileBytes = 65536,
     [int]$MaxFilesPerRepository = 8,
     [int]$MaxTotalBytes = 524288,
@@ -222,6 +223,12 @@ function Get-ReadmeMarkers {
     Add-Marker -Id "deno-serve-example" -Value "Deno.serve" -Supports "runtime-contract"
     Add-Marker -Id "deno-server-ts-fixture" -Value "server.ts" -Supports "runtime-contract"
     Add-Marker -Id "deno-root-hello-world" -Value "Hello, world!" -Supports "input-output-contract"
+    Add-Marker -Id "spring-boot-restcontroller-example" -Value "@RestController" -Supports "runtime-contract"
+    Add-Marker -Id "spring-boot-application-example" -Value "@SpringBootApplication" -Supports "runtime-contract"
+    Add-Marker -Id "spring-boot-root-request-mapping" -Value '@RequestMapping("/")' -Supports "http-contract"
+    Add-Marker -Id "spring-boot-root-hello-world" -Value 'return "Hello World!";' -Supports "input-output-contract"
+    Add-Marker -Id "spring-boot-java-jar" -Value "java -jar" -Supports "candidate-executable-command"
+    Add-Marker -Id "spring-boot-default-http-port-8080" -Value 'main HTTP port defaults to `8080`' -Supports "http-contract"
     Add-Marker -Id "expected-json-id-one" -Value '"id": "1"' -Supports "input-output-contract"
     Add-Marker -Id "expected-json-title" -Value '"title": "a title"' -Supports "input-output-contract"
     Add-Marker -Id "expected-json-views" -Value '"views": 100' -Supports "input-output-contract"
@@ -321,6 +328,12 @@ function Add-RepositorySpecificCandidates {
             Add-CandidatePath -Candidates $Candidates -Path "package.json" -Reason "node-runtime-contract" -Priority 20
             Add-CandidatePath -Candidates $Candidates -Path "examples/hello-world/index.js" -Reason "public-runtime-example" -Priority 25
             Add-CandidatePath -Candidates $Candidates -Path "test/acceptance/hello-world.js" -Reason "public-test-contract" -Priority 35
+        }
+        "spring-projects/spring-boot" {
+            Add-CandidatePath -Candidates $Candidates -Path "README.adoc" -Reason "canonical-readme-contract" -Priority 5
+            Add-CandidatePath -Candidates $Candidates -Path "documentation/spring-boot-docs/src/docs/antora/modules/how-to/pages/webserver.adoc" -Reason "default-http-port-contract" -Priority 6
+            Add-CandidatePath -Candidates $Candidates -Path "build.gradle" -Reason "repo-build-contract" -Priority 20
+            Add-CandidatePath -Candidates $Candidates -Path "gradlew" -Reason "repo-build-command-contract" -Priority 25
         }
     }
 }

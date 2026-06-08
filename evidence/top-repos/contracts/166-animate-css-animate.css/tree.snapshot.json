@@ -1,0 +1,1389 @@
+{
+  "sha": "3f8ab233dbbd9d2fe577528d2296382954be3d1a",
+  "url": "https://api.github.com/repos/animate-css/animate.css/git/trees/3f8ab233dbbd9d2fe577528d2296382954be3d1a",
+  "tree": [
+    {
+      "path": ".editorconfig",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19afc8370a69ba11aa642efac52eeb6157042aa7",
+      "size": 202,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/19afc8370a69ba11aa642efac52eeb6157042aa7"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "93ae67698a5c9505061999f2a82d2cfd7538dff8",
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/trees/93ae67698a5c9505061999f2a82d2cfd7538dff8"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bf0ce16a3aedf216bc96d85c93b4f954d4a1764b",
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/trees/bf0ce16a3aedf216bc96d85c93b4f954d4a1764b"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bugs.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bb474594dae37e9701c5e796119c7deba985ae4",
+      "size": 1794,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/6bb474594dae37e9701c5e796119c7deba985ae4"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/features.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ee588b778117de606bdeecd67f040a951ec1f54",
+      "size": 1061,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/1ee588b778117de606bdeecd67f040a951ec1f54"
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "856d80740f1b144bc78da8ad3844c83936cf9dab",
+      "size": 176,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/856d80740f1b144bc78da8ad3844c83936cf9dab"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6dc30e6c739942bb91df56440246886d713c4826",
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/trees/6dc30e6c739942bb91df56440246886d713c4826"
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf21876b9eb1b281ff074f1f1699e21e005a481e",
+      "size": 2448,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/bf21876b9eb1b281ff074f1f1699e21e005a481e"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7029390d957bfdde221238425b3ffd1f6ae444b0",
+      "size": 109,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/7029390d957bfdde221238425b3ffd1f6ae444b0"
+    },
+    {
+      "path": ".husky",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5a0a2afd7ac787cf3158fb59ad53537783396c9d",
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/trees/5a0a2afd7ac787cf3158fb59ad53537783396c9d"
+    },
+    {
+      "path": ".husky/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31354ec1389994b5f6708c7d915fdcc6bb76ba6e",
+      "size": 2,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/31354ec1389994b5f6708c7d915fdcc6bb76ba6e"
+    },
+    {
+      "path": ".husky/pre-commit",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "36af219892fda8ea669cd4b6725cd7b892231967",
+      "size": 58,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/36af219892fda8ea669cd4b6725cd7b892231967"
+    },
+    {
+      "path": ".prettierignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4edf290102f94b432ba039082c1bf2e8e2eef629",
+      "size": 73,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/4edf290102f94b432ba039082c1bf2e8e2eef629"
+    },
+    {
+      "path": ".prettierrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbf405257bf5362bab6eaf99ddafa980916e6612",
+      "size": 103,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/dbf405257bf5362bab6eaf99ddafa980916e6612"
+    },
+    {
+      "path": ".travis.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4072d07c316da093790d9d498902de6bfa8de9cb",
+      "size": 87,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/4072d07c316da093790d9d498902de6bfa8de9cb"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e208e8eb9d610ec49541be2fe7a69264b1eb521",
+      "size": 3354,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/9e208e8eb9d610ec49541be2fe7a69264b1eb521"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b68fc4a305ae114130acefbf132ec42a081ed7b",
+      "size": 2608,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/5b68fc4a305ae114130acefbf132ec42a081ed7b"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4debcfffb97abd7e10f0917ab5c04dae24be8f94",
+      "size": 8397,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/4debcfffb97abd7e10f0917ab5c04dae24be8f94"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7ae5e378fed2c1981cd155f986e6428e1c3049f",
+      "size": 2845,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/c7ae5e378fed2c1981cd155f986e6428e1c3049f"
+    },
+    {
+      "path": "SECURITY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "388044151b52ff0059c94e3e29cd4a59b19a71f6",
+      "size": 245,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/388044151b52ff0059c94e3e29cd4a59b19a71f6"
+    },
+    {
+      "path": "animate.compat.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "350aa9c2c2abaea58703f5c1a03f1027e2b7988b",
+      "size": 70583,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/350aa9c2c2abaea58703f5c1a03f1027e2b7988b"
+    },
+    {
+      "path": "animate.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adaab2fb3df56a718f097f19a7470650a4d7615d",
+      "size": 95378,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/adaab2fb3df56a718f097f19a7470650a4d7615d"
+    },
+    {
+      "path": "animate.min.css",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6991b249285701a0890397d9fe3f9c1e826c6300",
+      "size": 71726,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/6991b249285701a0890397d9fe3f9c1e826c6300"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "24fc776f476d763eb97f3a66581965b8bb459a2c",
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/trees/24fc776f476d763eb97f3a66581965b8bb459a2c"
+    },
+    {
+      "path": "docs/CNAME",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2cea5b5ea677bef3b7212eee65a4f04ce05d303",
+      "size": 13,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/d2cea5b5ea677bef3b7212eee65a4f04ce05d303"
+    },
+    {
+      "path": "docs/animate.min.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6991b249285701a0890397d9fe3f9c1e826c6300",
+      "size": 71726,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/6991b249285701a0890397d9fe3f9c1e826c6300"
+    },
+    {
+      "path": "docs/img",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5ec5517ccce42ad0dab52795900b69815314b8a9",
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/trees/5ec5517ccce42ad0dab52795900b69815314b8a9"
+    },
+    {
+      "path": "docs/img/animatecss-opengraph.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b4fd76ed9da610e522460952ed1b125a21e152a",
+      "size": 26232,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/5b4fd76ed9da610e522460952ed1b125a21e152a"
+    },
+    {
+      "path": "docs/img/favicon.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e95f3c6d71fef373a744df37a06876122bf3f1ee",
+      "size": 1150,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/e95f3c6d71fef373a744df37a06876122bf3f1ee"
+    },
+    {
+      "path": "docs/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f44fa664d7d1432b0d9f32112a4ed5d45da88567",
+      "size": 62556,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/f44fa664d7d1432b0d9f32112a4ed5d45da88567"
+    },
+    {
+      "path": "docs/main.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be70fa928a4a028db8d751b97da191e199d4740c",
+      "size": 975,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/be70fa928a4a028db8d751b97da191e199d4740c"
+    },
+    {
+      "path": "docs/modules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "902df34ec27daa5b9224af9547408a6d950db469",
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/trees/902df34ec27daa5b9224af9547408a6d950db469"
+    },
+    {
+      "path": "docs/modules/buildDocsIndex.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa61f31360f59c43144d58a8e5da6bf5494fde60",
+      "size": 978,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/fa61f31360f59c43144d58a8e5da6bf5494fde60"
+    },
+    {
+      "path": "docs/modules/darkMode.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec60fb188b42150ab33901feaa71cde60b498650",
+      "size": 539,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/ec60fb188b42150ab33901feaa71cde60b498650"
+    },
+    {
+      "path": "docs/modules/playground.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0237e7013a75e09d8446c512f38ff58213bc8cc9",
+      "size": 1378,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/0237e7013a75e09d8446c512f38ff58213bc8cc9"
+    },
+    {
+      "path": "docs/modules/slowDownAnimations.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "380f9885590ed9179ada4ace6f716304b56caaa4",
+      "size": 509,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/380f9885590ed9179ada4ace6f716304b56caaa4"
+    },
+    {
+      "path": "docs/modules/startAnimations.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d9b0ff919993e0a364fadea842f19b0a2dd6e8b",
+      "size": 795,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/8d9b0ff919993e0a364fadea842f19b0a2dd6e8b"
+    },
+    {
+      "path": "docs/modules/toggle.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab8117d7253120e50c98e8bdbdad4f569cc3d59c",
+      "size": 300,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/ab8117d7253120e50c98e8bdbdad4f569cc3d59c"
+    },
+    {
+      "path": "docs/style.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94123ceb9af8b9196c9133bf5079fa9ddb75d363",
+      "size": 10514,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/94123ceb9af8b9196c9133bf5079fa9ddb75d363"
+    },
+    {
+      "path": "docsSource",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2c3473d9bc1c8ef200fcf8efdd8df32c5606025a",
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/trees/2c3473d9bc1c8ef200fcf8efdd8df32c5606025a"
+    },
+    {
+      "path": "docsSource/compileAnimationList.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "058d9fdc3d9d619afd248639a312fd4898a84570",
+      "size": 1762,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/058d9fdc3d9d619afd248639a312fd4898a84570"
+    },
+    {
+      "path": "docsSource/compileMD.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "753d18cfe3558581dc03c12fa29be4b85ee9b499",
+      "size": 1511,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/753d18cfe3558581dc03c12fa29be4b85ee9b499"
+    },
+    {
+      "path": "docsSource/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "516a29c9c0b4b0adc365d2cd639423ead3891ee4",
+      "size": 854,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/516a29c9c0b4b0adc365d2cd639423ead3891ee4"
+    },
+    {
+      "path": "docsSource/sections",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a3c514b80d2cf6f79e40bfa42611ec3aac3aa144",
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/trees/a3c514b80d2cf6f79e40bfa42611ec3aac3aa144"
+    },
+    {
+      "path": "docsSource/sections/00-intro.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5345d8057dcfaa8356c21889d4dbbe9e07eb2622",
+      "size": 311,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/5345d8057dcfaa8356c21889d4dbbe9e07eb2622"
+    },
+    {
+      "path": "docsSource/sections/01-usage.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fff8852ce34686532f06134ffec1a2ee571a2e3d",
+      "size": 3150,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/fff8852ce34686532f06134ffec1a2ee571a2e3d"
+    },
+    {
+      "path": "docsSource/sections/02-utilities.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dd97b119db9ffe0d72ac80b93feef7e737d7a76",
+      "size": 3335,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/9dd97b119db9ffe0d72ac80b93feef7e737d7a76"
+    },
+    {
+      "path": "docsSource/sections/03-best-practices.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3c821c3da3afb0d6a41d7fe9ea46de7dab6fc61",
+      "size": 4813,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/b3c821c3da3afb0d6a41d7fe9ea46de7dab6fc61"
+    },
+    {
+      "path": "docsSource/sections/04-javascript.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75097a660066947ce901b42795bf1c8a3ba3bf96",
+      "size": 2104,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/75097a660066947ce901b42795bf1c8a3ba3bf96"
+    },
+    {
+      "path": "docsSource/sections/06-migration.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd80f2750e1e09046e820ec238bb24a52d9d2b39",
+      "size": 1375,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/bd80f2750e1e09046e820ec238bb24a52d9d2b39"
+    },
+    {
+      "path": "docsSource/sections/07-custom-builds.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e112c96f2c58f01a0daee44fc4c3be950fa65f54",
+      "size": 1951,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/e112c96f2c58f01a0daee44fc4c3be950fa65f54"
+    },
+    {
+      "path": "docsSource/sections/08-accessibility.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5f1e4ee2fe99892313e66052cedc5907fe67c54",
+      "size": 444,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/d5f1e4ee2fe99892313e66052cedc5907fe67c54"
+    },
+    {
+      "path": "docsSource/sections/09-contributors.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0a223eb6d81a7f115065d13cd80052cd0be3bea",
+      "size": 569,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/a0a223eb6d81a7f115065d13cd80052cd0be3bea"
+    },
+    {
+      "path": "docsSource/sections/09-license-contributing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b810d691d4f1c434dd02cb4713c4df2909d82eb",
+      "size": 767,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/1b810d691d4f1c434dd02cb4713c4df2909d82eb"
+    },
+    {
+      "path": "docsSource/template.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "292e29c57d23cc6ee42b4982a99337664311a8a5",
+      "size": 9449,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/292e29c57d23cc6ee42b4982a99337664311a8a5"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ed88acefb160e65a1c9c3c6a1ba7352bd3bd682",
+      "size": 2104,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/4ed88acefb160e65a1c9c3c6a1ba7352bd3bd682"
+    },
+    {
+      "path": "postcss.config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14d6401f3ee1c6cfce8ee090963319b3e81b67b7",
+      "size": 1121,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/14d6401f3ee1c6cfce8ee090963319b3e81b67b7"
+    },
+    {
+      "path": "source",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "85c98ed1c3a5cba6dbbfb1ccd1a610e9ee77ec75",
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/trees/85c98ed1c3a5cba6dbbfb1ccd1a610e9ee77ec75"
+    },
+    {
+      "path": "source/_base.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccbfd151caaac76de4f34d6bbcd990d74333632d",
+      "size": 1325,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/ccbfd151caaac76de4f34d6bbcd990d74333632d"
+    },
+    {
+      "path": "source/_vars.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43ea190e5ec4599332996c31a3d11b867a0df7eb",
+      "size": 82,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/43ea190e5ec4599332996c31a3d11b867a0df7eb"
+    },
+    {
+      "path": "source/animate.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c7f27a66954c24da0d5d3b7b38a0688295e9c15",
+      "size": 4468,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/1c7f27a66954c24da0d5d3b7b38a0688295e9c15"
+    },
+    {
+      "path": "source/attention_seekers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cf9d37af35a6b5331372e48f481e779d3e33f274",
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/trees/cf9d37af35a6b5331372e48f481e779d3e33f274"
+    },
+    {
+      "path": "source/attention_seekers/bounce.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0cf19b34140c0a2ea10dbf11079357e45ee13f7",
+      "size": 714,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/d0cf19b34140c0a2ea10dbf11079357e45ee13f7"
+    },
+    {
+      "path": "source/attention_seekers/flash.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8e9fd13b6ac114468ffb7fd7abec9a62e4ecc7d",
+      "size": 136,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/e8e9fd13b6ac114468ffb7fd7abec9a62e4ecc7d"
+    },
+    {
+      "path": "source/attention_seekers/headShake.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6298b27b8d76b0da0904e239fd4cb096bf23fadb",
+      "size": 443,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/6298b27b8d76b0da0904e239fd4cb096bf23fadb"
+    },
+    {
+      "path": "source/attention_seekers/heartBeat.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59204bac3c4a4e3398ae885d06d7268fb2af66d2",
+      "size": 363,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/59204bac3c4a4e3398ae885d06d7268fb2af66d2"
+    },
+    {
+      "path": "source/attention_seekers/jello.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92d4c493c6008767e8b0344d461309077147971d",
+      "size": 616,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/92d4c493c6008767e8b0344d461309077147971d"
+    },
+    {
+      "path": "source/attention_seekers/pulse.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28d28035a54d38c73840a4a86287e6d962c01636",
+      "size": 326,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/28d28035a54d38c73840a4a86287e6d962c01636"
+    },
+    {
+      "path": "source/attention_seekers/rubberBand.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "656ddd729c8a3e07c8b4570e9473e520759af6c2",
+      "size": 424,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/656ddd729c8a3e07c8b4570e9473e520759af6c2"
+    },
+    {
+      "path": "source/attention_seekers/shake.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22f7ff61ae0af622d1e3e690f756292443329bed",
+      "size": 270,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/22f7ff61ae0af622d1e3e690f756292443329bed"
+    },
+    {
+      "path": "source/attention_seekers/shakeX.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "860fd5ee59fd140e4c97da8fc33916d0de95b31e",
+      "size": 273,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/860fd5ee59fd140e4c97da8fc33916d0de95b31e"
+    },
+    {
+      "path": "source/attention_seekers/shakeY.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07bfdabf95fada01aea6411f1873ecfb79746cb6",
+      "size": 273,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/07bfdabf95fada01aea6411f1873ecfb79746cb6"
+    },
+    {
+      "path": "source/attention_seekers/swing.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3390c24b7a5aff33e2a12cd614c16b1c931ae511",
+      "size": 357,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/3390c24b7a5aff33e2a12cd614c16b1c931ae511"
+    },
+    {
+      "path": "source/attention_seekers/tada.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22506163d911f170adbd3595d5287d7efe4bd198",
+      "size": 418,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/22506163d911f170adbd3595d5287d7efe4bd198"
+    },
+    {
+      "path": "source/attention_seekers/wobble.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c2828f21a3605b2ca63b94bc3d3652bf1748824",
+      "size": 625,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/5c2828f21a3605b2ca63b94bc3d3652bf1748824"
+    },
+    {
+      "path": "source/back_entrances",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b10635e01081b6da11886992950d7d3362320d2e",
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/trees/b10635e01081b6da11886992950d7d3362320d2e"
+    },
+    {
+      "path": "source/back_entrances/backInDown.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36e358a05b674f8634533d3d905162dfc0cd1d63",
+      "size": 278,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/36e358a05b674f8634533d3d905162dfc0cd1d63"
+    },
+    {
+      "path": "source/back_entrances/backInLeft.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca7628b636cec3e0599f1f80c715cc7624f1cb96",
+      "size": 278,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/ca7628b636cec3e0599f1f80c715cc7624f1cb96"
+    },
+    {
+      "path": "source/back_entrances/backInRight.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bf8930661dd2a32d10eb64b4dea469451ea5853",
+      "size": 280,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/4bf8930661dd2a32d10eb64b4dea469451ea5853"
+    },
+    {
+      "path": "source/back_entrances/backInUp.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "621fc68d4c88dedb8b2e94b75433d623300b2a92",
+      "size": 271,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/621fc68d4c88dedb8b2e94b75433d623300b2a92"
+    },
+    {
+      "path": "source/back_exits",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c601687dc3422f677ce63e420702efa1741b17b6",
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/trees/c601687dc3422f677ce63e420702efa1741b17b6"
+    },
+    {
+      "path": "source/back_exits/backOutDown.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4273c9b9723617d98e1dd9b5bfe1d80d0067d4ba",
+      "size": 279,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/4273c9b9723617d98e1dd9b5bfe1d80d0067d4ba"
+    },
+    {
+      "path": "source/back_exits/backOutLeft.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35b411487adc100e6e85da4e3e9c52a4d131ad00",
+      "size": 281,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/35b411487adc100e6e85da4e3e9c52a4d131ad00"
+    },
+    {
+      "path": "source/back_exits/backOutRight.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ceeb193380ce66269a0ed3a6a74a0907cdeef3b",
+      "size": 283,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/8ceeb193380ce66269a0ed3a6a74a0907cdeef3b"
+    },
+    {
+      "path": "source/back_exits/backOutUp.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d4e5f49d98b71b44a9a66a161c9e519b8d33264",
+      "size": 274,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/8d4e5f49d98b71b44a9a66a161c9e519b8d33264"
+    },
+    {
+      "path": "source/bouncing_entrances",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0761e89eb3113a094675b1217d64e1d49545b314",
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/trees/0761e89eb3113a094675b1217d64e1d49545b314"
+    },
+    {
+      "path": "source/bouncing_entrances/bounceIn.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0bbf345c05a7865fe581ea1d7ada10f0b8a668c",
+      "size": 600,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/d0bbf345c05a7865fe581ea1d7ada10f0b8a668c"
+    },
+    {
+      "path": "source/bouncing_entrances/bounceInDown.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3063365eb9bfff016b9460bdc2f86086fa5bc956",
+      "size": 531,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/3063365eb9bfff016b9460bdc2f86086fa5bc956"
+    },
+    {
+      "path": "source/bouncing_entrances/bounceInLeft.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0ac842514e933b4bf7d2adadeb75df15fce0a93",
+      "size": 529,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/c0ac842514e933b4bf7d2adadeb75df15fce0a93"
+    },
+    {
+      "path": "source/bouncing_entrances/bounceInRight.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c4b4afc960f5d21c36f51c74cb9af1d01e89b1c",
+      "size": 534,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/7c4b4afc960f5d21c36f51c74cb9af1d01e89b1c"
+    },
+    {
+      "path": "source/bouncing_entrances/bounceInUp.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "954caf9c6bb53d928bb8193e67ee06f093c989c7",
+      "size": 527,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/954caf9c6bb53d928bb8193e67ee06f093c989c7"
+    },
+    {
+      "path": "source/bouncing_exits",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "33e5b5f1e81a02549627e3d4aa42d97cc40fe2df",
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/trees/33e5b5f1e81a02549627e3d4aa42d97cc40fe2df"
+    },
+    {
+      "path": "source/bouncing_exits/bounceOut.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f19ddaddd2a40ec85f9089ce25772943b845e88e",
+      "size": 323,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/f19ddaddd2a40ec85f9089ce25772943b845e88e"
+    },
+    {
+      "path": "source/bouncing_exits/bounceOutDown.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61c83c6d2bcf4202dc333aa73838b414137cc395",
+      "size": 317,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/61c83c6d2bcf4202dc333aa73838b414137cc395"
+    },
+    {
+      "path": "source/bouncing_exits/bounceOutLeft.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d08e9404a2b0244603a58288b111025bec7db6f",
+      "size": 243,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/8d08e9404a2b0244603a58288b111025bec7db6f"
+    },
+    {
+      "path": "source/bouncing_exits/bounceOutRight.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0684ba8a9afe155b3b230381f7a0c188da24efb",
+      "size": 246,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/f0684ba8a9afe155b3b230381f7a0c188da24efb"
+    },
+    {
+      "path": "source/bouncing_exits/bounceOutUp.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4811adf1054e11fdf8927a02fbf1b75a7f0b2dab",
+      "size": 312,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/4811adf1054e11fdf8927a02fbf1b75a7f0b2dab"
+    },
+    {
+      "path": "source/fading_entrances",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "07e6200320c206db32538271336649da7c2edd2e",
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/trees/07e6200320c206db32538271336649da7c2edd2e"
+    },
+    {
+      "path": "source/fading_entrances/fadeIn.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2177964fa445410a225a093e769b542c7aef5093",
+      "size": 118,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/2177964fa445410a225a093e769b542c7aef5093"
+    },
+    {
+      "path": "source/fading_entrances/fadeInBottomLeft.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1efef19734e60a1fc800df9d82626d2cefe3e63a",
+      "size": 228,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/1efef19734e60a1fc800df9d82626d2cefe3e63a"
+    },
+    {
+      "path": "source/fading_entrances/fadeInBottomRight.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f551c576679ed487de6398aad466b21948242fb8",
+      "size": 230,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/f551c576679ed487de6398aad466b21948242fb8"
+    },
+    {
+      "path": "source/fading_entrances/fadeInDown.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3134f742a52c6938032f1e70ebd5ce6c4a80db90",
+      "size": 208,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/3134f742a52c6938032f1e70ebd5ce6c4a80db90"
+    },
+    {
+      "path": "source/fading_entrances/fadeInDownBig.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86e3703ae47ee03d241674cf54788daf097406ba",
+      "size": 219,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/86e3703ae47ee03d241674cf54788daf097406ba"
+    },
+    {
+      "path": "source/fading_entrances/fadeInLeft.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "629edcad29e4832302d36eb43dbfd711e9988aa9",
+      "size": 208,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/629edcad29e4832302d36eb43dbfd711e9988aa9"
+    },
+    {
+      "path": "source/fading_entrances/fadeInLeftBig.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c7e6c16cfd1aef93568b36d8842c6d58be98be4",
+      "size": 219,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/1c7e6c16cfd1aef93568b36d8842c6d58be98be4"
+    },
+    {
+      "path": "source/fading_entrances/fadeInRight.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5e0eeaae86704b81fc9cca64478c3b06f175cef",
+      "size": 210,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/a5e0eeaae86704b81fc9cca64478c3b06f175cef"
+    },
+    {
+      "path": "source/fading_entrances/fadeInRightBig.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d646a7d31d60808e6d56e211fea1449c2a0868e9",
+      "size": 221,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/d646a7d31d60808e6d56e211fea1449c2a0868e9"
+    },
+    {
+      "path": "source/fading_entrances/fadeInTopLeft.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfcf37fcde6a63ebf31c05c0e33ff650885461e8",
+      "size": 220,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/cfcf37fcde6a63ebf31c05c0e33ff650885461e8"
+    },
+    {
+      "path": "source/fading_entrances/fadeInTopRight.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "900cfd9e53abd60f4159e6c70dcb5d9cadcdcfd3",
+      "size": 222,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/900cfd9e53abd60f4159e6c70dcb5d9cadcdcfd3"
+    },
+    {
+      "path": "source/fading_entrances/fadeInUp.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed65b3645d01a4ce4e588337a980bda79418699f",
+      "size": 201,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/ed65b3645d01a4ce4e588337a980bda79418699f"
+    },
+    {
+      "path": "source/fading_entrances/fadeInUpBig.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af212fa5336bb58f0cf91955819843a5575d57b8",
+      "size": 212,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/af212fa5336bb58f0cf91955819843a5575d57b8"
+    },
+    {
+      "path": "source/fading_exits",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f24058fec06babcb6bc1e0c1dc89dcfcdb3df06c",
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/trees/f24058fec06babcb6bc1e0c1dc89dcfcdb3df06c"
+    },
+    {
+      "path": "source/fading_exits/fadeOut.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d19c396ad9313b80e95fcbcf2a0dd4b7a7dd5f0f",
+      "size": 121,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/d19c396ad9313b80e95fcbcf2a0dd4b7a7dd5f0f"
+    },
+    {
+      "path": "source/fading_exits/fadeOutBottomLeft.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72f33e9517ab0f8e0ba6e2ec26cfd63b7dc4a575",
+      "size": 231,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/72f33e9517ab0f8e0ba6e2ec26cfd63b7dc4a575"
+    },
+    {
+      "path": "source/fading_exits/fadeOutBottomRight.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcc5f384da2c7e973d446f4c2d58da59c47631fd",
+      "size": 233,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/dcc5f384da2c7e973d446f4c2d58da59c47631fd"
+    },
+    {
+      "path": "source/fading_exits/fadeOutDown.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "839b990c5a573c091ef2dbbbe7d47793c25c8762",
+      "size": 173,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/839b990c5a573c091ef2dbbbe7d47793c25c8762"
+    },
+    {
+      "path": "source/fading_exits/fadeOutDownBig.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b58d1af7453ea1fe18848a5cdf266df4c91212b",
+      "size": 184,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/5b58d1af7453ea1fe18848a5cdf266df4c91212b"
+    },
+    {
+      "path": "source/fading_exits/fadeOutLeft.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16f2fc9c3cafa9153daa98878dddaf21414572f0",
+      "size": 174,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/16f2fc9c3cafa9153daa98878dddaf21414572f0"
+    },
+    {
+      "path": "source/fading_exits/fadeOutLeftBig.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e50b468f6c35c31d84210b5768de69bd0d5b64b7",
+      "size": 185,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/e50b468f6c35c31d84210b5768de69bd0d5b64b7"
+    },
+    {
+      "path": "source/fading_exits/fadeOutRight.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf0cbb63fdf1ba2c5021f35cfef702fb39194066",
+      "size": 176,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/bf0cbb63fdf1ba2c5021f35cfef702fb39194066"
+    },
+    {
+      "path": "source/fading_exits/fadeOutRightBig.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f60617093db167efb79e8a19cf6122509f6ace21",
+      "size": 187,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/f60617093db167efb79e8a19cf6122509f6ace21"
+    },
+    {
+      "path": "source/fading_exits/fadeOutTopLeft.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87d4de0e7d0f5f7727817b64d7a41416af742f4d",
+      "size": 223,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/87d4de0e7d0f5f7727817b64d7a41416af742f4d"
+    },
+    {
+      "path": "source/fading_exits/fadeOutTopRight.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65bcc18bb3a3c4bff74058a38a2dbe6346b7731a",
+      "size": 225,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/65bcc18bb3a3c4bff74058a38a2dbe6346b7731a"
+    },
+    {
+      "path": "source/fading_exits/fadeOutUp.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbafcac7884ae29750572c35201789782bf30fa2",
+      "size": 168,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/fbafcac7884ae29750572c35201789782bf30fa2"
+    },
+    {
+      "path": "source/fading_exits/fadeOutUpBig.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5583bd04eeb991f96e321ae95f846b5fb67953fb",
+      "size": 179,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/5583bd04eeb991f96e321ae95f846b5fb67953fb"
+    },
+    {
+      "path": "source/flippers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4b6f71055f34d219d151259808c9901d0656a5a5",
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/trees/4b6f71055f34d219d151259808c9901d0656a5a5"
+    },
+    {
+      "path": "source/flippers/flip.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05e553ecdadea11d68af5f39a1e54ad4a7762ecc",
+      "size": 891,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/05e553ecdadea11d68af5f39a1e54ad4a7762ecc"
+    },
+    {
+      "path": "source/flippers/flipInX.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2135029f35d8fe672a35cd1ed4770b9b21742f7b",
+      "size": 559,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/2135029f35d8fe672a35cd1ed4770b9b21742f7b"
+    },
+    {
+      "path": "source/flippers/flipInY.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "950886292b9bdecbe7b354242ecb7dcd8ce60a83",
+      "size": 559,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/950886292b9bdecbe7b354242ecb7dcd8ce60a83"
+    },
+    {
+      "path": "source/flippers/flipOutX.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67720abfe5585968e653581600a8419b7104191d",
+      "size": 396,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/67720abfe5585968e653581600a8419b7104191d"
+    },
+    {
+      "path": "source/flippers/flipOutY.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd791b32df7439b97ebeda95a8640c162c7ba5af",
+      "size": 396,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/cd791b32df7439b97ebeda95a8640c162c7ba5af"
+    },
+    {
+      "path": "source/lightspeed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "80a54ae95603e0147590d2f1dd9eedd4de147103",
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/trees/80a54ae95603e0147590d2f1dd9eedd4de147103"
+    },
+    {
+      "path": "source/lightspeed/lightSpeedInLeft.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d57912c311cf353777eef07f27b24ddd6ac8345",
+      "size": 362,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/8d57912c311cf353777eef07f27b24ddd6ac8345"
+    },
+    {
+      "path": "source/lightspeed/lightSpeedInRight.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e52e917fe7fbbc47273a9295b975cfc0827e1e31",
+      "size": 365,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/e52e917fe7fbbc47273a9295b975cfc0827e1e31"
+    },
+    {
+      "path": "source/lightspeed/lightSpeedOutLeft.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55edc4448adaea4b8afcd9588d29e4ec5be17e27",
+      "size": 244,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/55edc4448adaea4b8afcd9588d29e4ec5be17e27"
+    },
+    {
+      "path": "source/lightspeed/lightSpeedOutRight.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dabaf61214a525875739450f2bdadea9a08cf5e3",
+      "size": 245,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/dabaf61214a525875739450f2bdadea9a08cf5e3"
+    },
+    {
+      "path": "source/rotating_entrances",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1c3c1ac487296d2ec8c926c46cf0427120d8c3a1",
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/trees/1c3c1ac487296d2ec8c926c46cf0427120d8c3a1"
+    },
+    {
+      "path": "source/rotating_entrances/rotateIn.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e62b2eae6390c910b307a88d3094c713311750be",
+      "size": 232,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/e62b2eae6390c910b307a88d3094c713311750be"
+    },
+    {
+      "path": "source/rotating_entrances/rotateInDownLeft.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85af5c636741a57adef1cbc55029c715166c552e",
+      "size": 260,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/85af5c636741a57adef1cbc55029c715166c552e"
+    },
+    {
+      "path": "source/rotating_entrances/rotateInDownRight.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00029d83a31fa99418949c4f2dd3747ac46b6ec8",
+      "size": 263,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/00029d83a31fa99418949c4f2dd3747ac46b6ec8"
+    },
+    {
+      "path": "source/rotating_entrances/rotateInUpLeft.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b29ce91e29447bfca4fce7a58158cff4f54b800f",
+      "size": 253,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/b29ce91e29447bfca4fce7a58158cff4f54b800f"
+    },
+    {
+      "path": "source/rotating_entrances/rotateInUpRight.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b0ea1b1055b11c3d30ae5dc8bba978b0a888255",
+      "size": 258,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/8b0ea1b1055b11c3d30ae5dc8bba978b0a888255"
+    },
+    {
+      "path": "source/rotating_exits",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1ba28ba0be704b7407f797331c9084adab52bd5f",
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/trees/1ba28ba0be704b7407f797331c9084adab52bd5f"
+    },
+    {
+      "path": "source/rotating_exits/rotateOut.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "914c90480b5892a278c401e68fa535bb17b3c380",
+      "size": 197,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/914c90480b5892a278c401e68fa535bb17b3c380"
+    },
+    {
+      "path": "source/rotating_exits/rotateOutDownLeft.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4ccabcd008236e1859568e1da801bcd2d0e1795",
+      "size": 225,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/c4ccabcd008236e1859568e1da801bcd2d0e1795"
+    },
+    {
+      "path": "source/rotating_exits/rotateOutDownRight.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81113fee30c2e20fd856c5cba30a24c77e866d27",
+      "size": 230,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/81113fee30c2e20fd856c5cba30a24c77e866d27"
+    },
+    {
+      "path": "source/rotating_exits/rotateOutUpLeft.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "885c9d00b7d693d14cee10b66d9631d91d4ada08",
+      "size": 220,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/885c9d00b7d693d14cee10b66d9631d91d4ada08"
+    },
+    {
+      "path": "source/rotating_exits/rotateOutUpRight.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ac68fbbc8223c5076354c171b865ba6a4e5533f",
+      "size": 223,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/3ac68fbbc8223c5076354c171b865ba6a4e5533f"
+    },
+    {
+      "path": "source/sliding_entrances",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a0146b14701f437fca988a8ff12f0cb1c261c578",
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/trees/a0146b14701f437fca988a8ff12f0cb1c261c578"
+    },
+    {
+      "path": "source/sliding_entrances/slideInDown.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6373677d0b10d5f54d8f0c6cef98375488b560b",
+      "size": 204,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/d6373677d0b10d5f54d8f0c6cef98375488b560b"
+    },
+    {
+      "path": "source/sliding_entrances/slideInLeft.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93370a8309fae2d78b510ac9bdf4daeebd55f683",
+      "size": 204,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/93370a8309fae2d78b510ac9bdf4daeebd55f683"
+    },
+    {
+      "path": "source/sliding_entrances/slideInRight.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "209a99c718773a3e93961487912579516100e9d7",
+      "size": 206,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/209a99c718773a3e93961487912579516100e9d7"
+    },
+    {
+      "path": "source/sliding_entrances/slideInUp.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37b6cde6035751052c7e208eed984fd3f2109842",
+      "size": 197,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/37b6cde6035751052c7e208eed984fd3f2109842"
+    },
+    {
+      "path": "source/sliding_exits",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "701588543d3abf467283b9d1428f725ba7cb3b07",
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/trees/701588543d3abf467283b9d1428f725ba7cb3b07"
+    },
+    {
+      "path": "source/sliding_exits/slideOutDown.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8e0c7d4759709c99dc580552d91a5bba4dfd194",
+      "size": 205,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/e8e0c7d4759709c99dc580552d91a5bba4dfd194"
+    },
+    {
+      "path": "source/sliding_exits/slideOutLeft.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf444546b8a31d1540775d37bf34a1ee3941dec4",
+      "size": 206,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/cf444546b8a31d1540775d37bf34a1ee3941dec4"
+    },
+    {
+      "path": "source/sliding_exits/slideOutRight.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95f7f22f11a15a89037b4d06001411c16b3402b0",
+      "size": 208,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/95f7f22f11a15a89037b4d06001411c16b3402b0"
+    },
+    {
+      "path": "source/sliding_exits/slideOutUp.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27541b534ad8f4ab675111fd3247b05b5f58fbad",
+      "size": 200,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/27541b534ad8f4ab675111fd3247b05b5f58fbad"
+    },
+    {
+      "path": "source/specials",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e0b977612491f896c6b481f4580ec83e46944d85",
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/trees/e0b977612491f896c6b481f4580ec83e46944d85"
+    },
+    {
+      "path": "source/specials/hinge.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a728ea709b9f7023aa24cd79eef7d70dcb3d5813",
+      "size": 495,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/a728ea709b9f7023aa24cd79eef7d70dcb3d5813"
+    },
+    {
+      "path": "source/specials/jackInTheBox.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c88f06c075ee44336db76e3d599f66fab8acb01",
+      "size": 325,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/7c88f06c075ee44336db76e3d599f66fab8acb01"
+    },
+    {
+      "path": "source/specials/rollIn.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66f6b65d07ea510fee64a231909967a077de7b61",
+      "size": 303,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/66f6b65d07ea510fee64a231909967a077de7b61"
+    },
+    {
+      "path": "source/specials/rollOut.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52750f77aa59c8e77371456a56e2670a6b110e39",
+      "size": 267,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/52750f77aa59c8e77371456a56e2670a6b110e39"
+    },
+    {
+      "path": "source/zooming_entrances",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "97f638983594c4ddafd1a975ced8e5f01ea83542",
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/trees/97f638983594c4ddafd1a975ced8e5f01ea83542"
+    },
+    {
+      "path": "source/zooming_entrances/zoomIn.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "460afc51995118af1f3e952d9901d38e004c2d0f",
+      "size": 158,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/460afc51995118af1f3e952d9901d38e004c2d0f"
+    },
+    {
+      "path": "source/zooming_entrances/zoomInDown.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "156e37150a9f72f69b9a9e89d3ceca730465ab58",
+      "size": 405,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/156e37150a9f72f69b9a9e89d3ceca730465ab58"
+    },
+    {
+      "path": "source/zooming_entrances/zoomInLeft.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7b89213b0d56e6b8ac81f60317f4476550488d4",
+      "size": 405,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/e7b89213b0d56e6b8ac81f60317f4476550488d4"
+    },
+    {
+      "path": "source/zooming_entrances/zoomInRight.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5362f4b6a6250f27a8900c9a8076da705f457a88",
+      "size": 408,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/5362f4b6a6250f27a8900c9a8076da705f457a88"
+    },
+    {
+      "path": "source/zooming_entrances/zoomInUp.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "639e992f35543b86c791a7661029c8b4771caf47",
+      "size": 399,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/639e992f35543b86c791a7661029c8b4771caf47"
+    },
+    {
+      "path": "source/zooming_exits",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ac5d64b8c1e358d8a3dba799a40cb5b9e227d205",
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/trees/ac5d64b8c1e358d8a3dba799a40cb5b9e227d205"
+    },
+    {
+      "path": "source/zooming_exits/zoomOut.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b284cd58c206b17faede856376e69ed568f21f5b",
+      "size": 189,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/b284cd58c206b17faede856376e69ed568f21f5b"
+    },
+    {
+      "path": "source/zooming_exits/zoomOutDown.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "168e0a7f29e55bc825cfd2a2f18119b534e8ef2f",
+      "size": 441,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/168e0a7f29e55bc825cfd2a2f18119b534e8ef2f"
+    },
+    {
+      "path": "source/zooming_exits/zoomOutLeft.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68753653fb5e1bd3f13945f480bd0f986ea32d7e",
+      "size": 288,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/68753653fb5e1bd3f13945f480bd0f986ea32d7e"
+    },
+    {
+      "path": "source/zooming_exits/zoomOutRight.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76ec95a33e7888e75c0287e565fb18aca4f77212",
+      "size": 292,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/76ec95a33e7888e75c0287e565fb18aca4f77212"
+    },
+    {
+      "path": "source/zooming_exits/zoomOutUp.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4e505136e7b4ee3183ee76dc693844ffea07a5f",
+      "size": 435,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/a4e505136e7b4ee3183ee76dc693844ffea07a5f"
+    },
+    {
+      "path": "yarn.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "613cfa40daf239652770e1a4cbe0ee9a2824d88a",
+      "size": 126120,
+      "url": "https://api.github.com/repos/animate-css/animate.css/git/blobs/613cfa40daf239652770e1a4cbe0ee9a2824d88a"
+    }
+  ],
+  "truncated": false
+}

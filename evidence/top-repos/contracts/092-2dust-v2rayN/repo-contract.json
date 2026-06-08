@@ -1,0 +1,64 @@
+{
+  "harvested_at": "2026-06-07T20:46:35.8055339+03:00",
+  "rank": 92,
+  "repository": "2dust/v2rayN",
+  "url": "https://github.com/2dust/v2rayN",
+  "language": "C#",
+  "stars": 108273,
+  "default_branch": "master",
+  "contract_strength": "contract_files_found",
+  "candidate_qaas_surfaces": [
+    "api-contract-validation",
+    "runner-yaml-from-public-contract",
+    "ci-documented-command-discovery",
+    "dotnet-configuration-as-code"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\092-2dust-v2rayN\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\092-2dust-v2rayN\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [
+      "v2rayN/ServiceLib/Enums/EInboundProtocol.cs",
+      "v2rayN/ServiceLib/Models/Entities/ProtocolExtraItem.cs"
+    ],
+    "ci": [
+      ".github/workflows/build-all.yml",
+      ".github/workflows/build-linux.yml",
+      ".github/workflows/build-osx.yml",
+      ".github/workflows/build-windows-desktop.yml",
+      ".github/workflows/build-windows.yml",
+      ".github/workflows/build.yml",
+      ".github/workflows/package-zip.yml",
+      ".github/workflows/test.yml",
+      ".github/workflows/winget-publish.yml"
+    ],
+    "containers": [],
+    "dotnet": [
+      "v2rayN/AmazTool/AmazTool.csproj",
+      "v2rayN/Directory.Build.props",
+      "v2rayN/ServiceLib.Tests/ServiceLib.Tests.csproj",
+      "v2rayN/ServiceLib.UdpTest/ServiceLib.UdpTest.csproj",
+      "v2rayN/ServiceLib/ServiceLib.csproj",
+      "v2rayN/v2rayN.Desktop/v2rayN.Desktop.csproj",
+      "v2rayN/v2rayN.sln",
+      "v2rayN/v2rayN/v2rayN.csproj"
+    ],
+    "node": [],
+    "python": [],
+    "go": [],
+    "java": [],
+    "rust": [],
+    "docs": [
+      "README.md",
+      "v2rayN/ServiceLib/Manager/ClashApiManager.cs",
+      "v2rayN/ServiceLib/Models/Dto/IPAPIInfo.cs"
+    ],
+    "tests": []
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\092-2dust-v2rayN\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\092-2dust-v2rayN\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

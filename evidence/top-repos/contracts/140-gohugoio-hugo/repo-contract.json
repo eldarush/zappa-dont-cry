@@ -1,0 +1,122 @@
+{
+  "harvested_at": "2026-06-07T20:48:24.8129320+03:00",
+  "rank": 140,
+  "repository": "gohugoio/hugo",
+  "url": "https://github.com/gohugoio/hugo",
+  "language": "Go",
+  "stars": 88447,
+  "default_branch": "master",
+  "contract_strength": "contract_files_found",
+  "candidate_qaas_surfaces": [
+    "api-contract-validation",
+    "runner-yaml-from-public-contract",
+    "containerized-runtime-smoke",
+    "ci-documented-command-discovery",
+    "go-cli-or-service-contract"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\140-gohugoio-hugo\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\140-gohugoio-hugo\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [
+      "docs/content/en/functions/openapi3/Unmarshal.md",
+      "docs/content/en/functions/openapi3/_index.md",
+      "tpl/openapi/docs.go",
+      "tpl/openapi/openapi3/init.go",
+      "tpl/openapi/openapi3/openapi3.go",
+      "tpl/openapi/openapi3/openapi3_integration_test.go",
+      "tpl/tplimpl/embedded/templates/_partials/schema.html"
+    ],
+    "ci": [
+      ".circleci/config.yml",
+      ".github/workflows/image.yml",
+      ".github/workflows/stale.yml",
+      ".github/workflows/test.yml"
+    ],
+    "containers": [
+      "Dockerfile"
+    ],
+    "dotnet": [],
+    "node": [
+      "docs/package.json",
+      "internal/warpc/deps/parson/package.json",
+      "internal/warpc/js/package.json"
+    ],
+    "python": [],
+    "go": [
+      "docs/go.mod",
+      "go.mod",
+      "go.sum",
+      "internal/warpc/genavif/go.mod",
+      "internal/warpc/genwebp/go.mod"
+    ],
+    "java": [],
+    "rust": [],
+    "docs": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "SECURITY.md",
+      "config/security/securityConfig.go",
+      "config/security/securityConfig_test.go",
+      "config/security/whitelist.go",
+      "config/security/whitelist_test.go",
+      "docs/.codespellrc",
+      "docs/.cspell.json",
+      "docs/.editorconfig",
+      "docs/.github/ISSUE_TEMPLATE/config.yml",
+      "docs/.github/ISSUE_TEMPLATE/default.md",
+      "docs/.github/SUPPORT.md",
+      "docs/.github/workflows/codeql-analysis.yml",
+      "docs/.github/workflows/lint.yml",
+      "docs/.github/workflows/stale.yml",
+      "docs/.gitignore",
+      "docs/.markdownlint-cli2.yaml",
+      "docs/.prettierignore",
+      "docs/.prettierrc",
+      "docs/AGENTS.md",
+      "docs/CLAUDE.md",
+      "docs/LICENSE.md",
+      "docs/README.md",
+      "docs/archetypes/default.md",
+      "docs/archetypes/functions.md",
+      "docs/archetypes/glossary.md",
+      "docs/archetypes/methods.md",
+      "docs/archetypes/news.md",
+      "docs/assets/css/components/all.css",
+      "docs/assets/css/components/chroma.css",
+      "docs/assets/css/components/chroma_dark.css",
+      "docs/assets/css/components/content.css",
+      "docs/assets/css/components/fonts.css",
+      "docs/assets/css/components/helpers.css",
+      "docs/assets/css/components/highlight.css",
+      "docs/assets/css/components/shortcodes.css",
+      "docs/assets/css/components/tableofcontents.css",
+      "docs/assets/css/components/todo-lists.css",
+      "docs/assets/css/components/view-transitions.css",
+      "docs/assets/css/styles.css",
+      "docs/assets/images/examples/landscape-exif-orientation-5.jpg",
+      "docs/assets/images/examples/mask.png",
+      "docs/assets/images/examples/zion-national-park.jpg",
+      "docs/assets/images/hugo-github-screenshot.png",
+      "docs/assets/images/logos/logo-128x128.png",
+      "docs/assets/images/logos/logo-256x256.png",
+      "docs/assets/images/logos/logo-512x512.png",
+      "docs/assets/images/logos/logo-64x64.png",
+      "docs/assets/images/logos/logo-96x96.png"
+    ],
+    "tests": [
+      "docs/content/en/_common/methods/resource/processing-spec.md",
+      "docs/content/en/troubleshooting/inspection.md",
+      "helpers/pathspec.go",
+      "resources/resource_spec.go",
+      "resources/resource_spec_test.go",
+      "source/sourceSpec.go"
+    ]
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\140-gohugoio-hugo\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\140-gohugoio-hugo\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

@@ -1,0 +1,257 @@
+﻿{
+    "schema_version":  1,
+    "harvested_at":  "2026-06-08T17:07:16.3311149+03:00",
+    "repository":  "gin-gonic/gin",
+    "rank":  138,
+    "source_contract":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\138-gin-gonic-gin\\repo-contract.json",
+    "readme_snapshot":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\138-gin-gonic-gin\\README.snapshot.md",
+    "tree_snapshot":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\138-gin-gonic-gin\\tree.snapshot.json",
+    "status":  "contract_content_harvested_not_executable",
+    "promotion_state":  "blocked",
+    "readiness_state":  "selected_public_contract_content_harvested",
+    "policy":  "Exact small public GitHub blob contents only; no cloning, no repository execution, no executable QaaS promotion.",
+    "max_file_bytes":  65536,
+    "fetched_files":  [
+                          {
+                              "source_path":  "README.md",
+                              "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\README.md",
+                              "sha":  "96b0ae3c10204e14099683602217c10541ace230",
+                              "git_blob_sha_verified":  true,
+                              "content_sha256":  "0c71595f35bbc7a303d2fb793b0e4639e1f3c3d1eff6a1771b705354f4e8359b",
+                              "size":  11827,
+                              "fetched_size":  11827,
+                              "reason":  "canonical-readme-contract",
+                              "github_blob_url":  "https://api.github.com/repos/gin-gonic/gin/git/blobs/96b0ae3c10204e14099683602217c10541ace230"
+                          },
+                          {
+                              "source_path":  "go.mod",
+                              "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\go.mod",
+                              "sha":  "df181253ee63f8d7075c0cbb30e213ba904e4c1e",
+                              "git_blob_sha_verified":  true,
+                              "content_sha256":  "03d4516bb50bbd081c36a9b16f2a3f4e161439bf3d7cb83d5a18c7e2e75fcfaa",
+                              "size":  1600,
+                              "fetched_size":  1600,
+                              "reason":  "go-runtime-contract",
+                              "github_blob_url":  "https://api.github.com/repos/gin-gonic/gin/git/blobs/df181253ee63f8d7075c0cbb30e213ba904e4c1e"
+                          },
+                          {
+                              "source_path":  "binding/protobuf.go",
+                              "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\binding\\protobuf.go",
+                              "sha":  "259ae8e7082cff8624b3fa9d16b42ebfffa8e477",
+                              "git_blob_sha_verified":  true,
+                              "content_sha256":  "ecf334672b445c9344eee175a12fa222fbb7941153530772b28af6561fb8b828",
+                              "size":  923,
+                              "fetched_size":  923,
+                              "reason":  "api-contract-match",
+                              "github_blob_url":  "https://api.github.com/repos/gin-gonic/gin/git/blobs/259ae8e7082cff8624b3fa9d16b42ebfffa8e477"
+                          },
+                          {
+                              "source_path":  "render/protobuf.go",
+                              "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\render\\protobuf.go",
+                              "sha":  "9331c40583a2ceec2cf278181eb3fd08af8b944a",
+                              "git_blob_sha_verified":  true,
+                              "content_sha256":  "f602a8b82e658c19d075e44a3cdc3ef230905a44ba783afd13f3dd24e9e6491a",
+                              "size":  852,
+                              "fetched_size":  852,
+                              "reason":  "api-contract-match",
+                              "github_blob_url":  "https://api.github.com/repos/gin-gonic/gin/git/blobs/9331c40583a2ceec2cf278181eb3fd08af8b944a"
+                          },
+                          {
+                              "source_path":  "testdata/protoexample/test.pb.go",
+                              "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\testdata\\protoexample\\test.pb.go",
+                              "sha":  "6687aae2be60cb8ada776a9682ed4d0a2c2e05e6",
+                              "git_blob_sha_verified":  true,
+                              "content_sha256":  "2bbdc09231bd05659423cd3dc41c608aacdb17219d9c91031a69fe7a72ec3f0e",
+                              "size":  8374,
+                              "fetched_size":  8374,
+                              "reason":  "api-contract-match",
+                              "github_blob_url":  "https://api.github.com/repos/gin-gonic/gin/git/blobs/6687aae2be60cb8ada776a9682ed4d0a2c2e05e6"
+                          },
+                          {
+                              "source_path":  ".github/workflows/codeql.yml",
+                              "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\.github\\workflows\\codeql.yml",
+                              "sha":  "f287c26504476013b6f4d0115de179fc7deea213",
+                              "git_blob_sha_verified":  true,
+                              "content_sha256":  "1bbebe5f5c35a4394b0eb02b214fd33f8b7414b9ef1f94367d039b1576383fce",
+                              "size":  1561,
+                              "fetched_size":  1561,
+                              "reason":  "ci-runtime-command-contract",
+                              "github_blob_url":  "https://api.github.com/repos/gin-gonic/gin/git/blobs/f287c26504476013b6f4d0115de179fc7deea213"
+                          },
+                          {
+                              "source_path":  ".github/workflows/gin.yml",
+                              "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\.github\\workflows\\gin.yml",
+                              "sha":  "8857bebc2910027a3c55c9450e09da1a05de9201",
+                              "git_blob_sha_verified":  true,
+                              "content_sha256":  "8afac336799636af2087642ec12113ec0f545aee30d8953bd415f4cad413fa28",
+                              "size":  1967,
+                              "fetched_size":  1967,
+                              "reason":  "ci-runtime-command-contract",
+                              "github_blob_url":  "https://api.github.com/repos/gin-gonic/gin/git/blobs/8857bebc2910027a3c55c9450e09da1a05de9201"
+                          }
+                      ],
+    "selected_public_contracts":  [
+                                      {
+                                          "source_path":  "README.md",
+                                          "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\README.md",
+                                          "sha":  "96b0ae3c10204e14099683602217c10541ace230",
+                                          "git_blob_sha_verified":  true,
+                                          "content_sha256":  "0c71595f35bbc7a303d2fb793b0e4639e1f3c3d1eff6a1771b705354f4e8359b",
+                                          "size":  11827,
+                                          "fetched_size":  11827,
+                                          "reason":  "canonical-readme-contract",
+                                          "github_blob_url":  "https://api.github.com/repos/gin-gonic/gin/git/blobs/96b0ae3c10204e14099683602217c10541ace230"
+                                      },
+                                      {
+                                          "source_path":  "go.mod",
+                                          "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\go.mod",
+                                          "sha":  "df181253ee63f8d7075c0cbb30e213ba904e4c1e",
+                                          "git_blob_sha_verified":  true,
+                                          "content_sha256":  "03d4516bb50bbd081c36a9b16f2a3f4e161439bf3d7cb83d5a18c7e2e75fcfaa",
+                                          "size":  1600,
+                                          "fetched_size":  1600,
+                                          "reason":  "go-runtime-contract",
+                                          "github_blob_url":  "https://api.github.com/repos/gin-gonic/gin/git/blobs/df181253ee63f8d7075c0cbb30e213ba904e4c1e"
+                                      },
+                                      {
+                                          "source_path":  "binding/protobuf.go",
+                                          "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\binding\\protobuf.go",
+                                          "sha":  "259ae8e7082cff8624b3fa9d16b42ebfffa8e477",
+                                          "git_blob_sha_verified":  true,
+                                          "content_sha256":  "ecf334672b445c9344eee175a12fa222fbb7941153530772b28af6561fb8b828",
+                                          "size":  923,
+                                          "fetched_size":  923,
+                                          "reason":  "api-contract-match",
+                                          "github_blob_url":  "https://api.github.com/repos/gin-gonic/gin/git/blobs/259ae8e7082cff8624b3fa9d16b42ebfffa8e477"
+                                      },
+                                      {
+                                          "source_path":  "render/protobuf.go",
+                                          "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\render\\protobuf.go",
+                                          "sha":  "9331c40583a2ceec2cf278181eb3fd08af8b944a",
+                                          "git_blob_sha_verified":  true,
+                                          "content_sha256":  "f602a8b82e658c19d075e44a3cdc3ef230905a44ba783afd13f3dd24e9e6491a",
+                                          "size":  852,
+                                          "fetched_size":  852,
+                                          "reason":  "api-contract-match",
+                                          "github_blob_url":  "https://api.github.com/repos/gin-gonic/gin/git/blobs/9331c40583a2ceec2cf278181eb3fd08af8b944a"
+                                      },
+                                      {
+                                          "source_path":  "testdata/protoexample/test.pb.go",
+                                          "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\testdata\\protoexample\\test.pb.go",
+                                          "sha":  "6687aae2be60cb8ada776a9682ed4d0a2c2e05e6",
+                                          "git_blob_sha_verified":  true,
+                                          "content_sha256":  "2bbdc09231bd05659423cd3dc41c608aacdb17219d9c91031a69fe7a72ec3f0e",
+                                          "size":  8374,
+                                          "fetched_size":  8374,
+                                          "reason":  "api-contract-match",
+                                          "github_blob_url":  "https://api.github.com/repos/gin-gonic/gin/git/blobs/6687aae2be60cb8ada776a9682ed4d0a2c2e05e6"
+                                      },
+                                      {
+                                          "source_path":  ".github/workflows/codeql.yml",
+                                          "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\.github\\workflows\\codeql.yml",
+                                          "sha":  "f287c26504476013b6f4d0115de179fc7deea213",
+                                          "git_blob_sha_verified":  true,
+                                          "content_sha256":  "1bbebe5f5c35a4394b0eb02b214fd33f8b7414b9ef1f94367d039b1576383fce",
+                                          "size":  1561,
+                                          "fetched_size":  1561,
+                                          "reason":  "ci-runtime-command-contract",
+                                          "github_blob_url":  "https://api.github.com/repos/gin-gonic/gin/git/blobs/f287c26504476013b6f4d0115de179fc7deea213"
+                                      },
+                                      {
+                                          "source_path":  ".github/workflows/gin.yml",
+                                          "local_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\.github\\workflows\\gin.yml",
+                                          "sha":  "8857bebc2910027a3c55c9450e09da1a05de9201",
+                                          "git_blob_sha_verified":  true,
+                                          "content_sha256":  "8afac336799636af2087642ec12113ec0f545aee30d8953bd415f4cad413fa28",
+                                          "size":  1967,
+                                          "fetched_size":  1967,
+                                          "reason":  "ci-runtime-command-contract",
+                                          "github_blob_url":  "https://api.github.com/repos/gin-gonic/gin/git/blobs/8857bebc2910027a3c55c9450e09da1a05de9201"
+                                      }
+                                  ],
+    "skipped_files":  [
+                          {
+                              "source_path":  "schema.json",
+                              "reason":  "path_not_found_in_tree_snapshot"
+                          },
+                          {
+                              "source_path":  "examples/basic/main.go",
+                              "reason":  "path_not_found_in_tree_snapshot"
+                          },
+                          {
+                              "source_path":  "fixtures/db.json",
+                              "reason":  "path_not_found_in_tree_snapshot"
+                          },
+                          {
+                              "source_path":  "package.json",
+                              "reason":  "path_not_found_in_tree_snapshot"
+                          },
+                          {
+                              "source_path":  "pyproject.toml",
+                              "reason":  "path_not_found_in_tree_snapshot"
+                          },
+                          {
+                              "source_path":  "Dockerfile",
+                              "reason":  "path_not_found_in_tree_snapshot"
+                          },
+                          {
+                              "source_path":  "docker-compose.yml",
+                              "reason":  "path_not_found_in_tree_snapshot"
+                          }
+                      ],
+    "evidence_markers":  [
+                             {
+                                 "marker_id":  "go-run-command",
+                                 "value":  "go run main.go",
+                                 "supports":  "candidate-executable-command",
+                                 "evidence":  "README.snapshot.md"
+                             },
+                             {
+                                 "marker_id":  "expected-json-pong",
+                                 "value":  "\"message\": \"pong\"",
+                                 "supports":  "input-output-contract",
+                                 "evidence":  "README.snapshot.md"
+                             }
+                         ],
+    "candidate_promotion_contracts":  [
+                                          {
+                                              "supports":  "candidate-executable-command",
+                                              "status":  "candidate_evidence_harvested",
+                                              "evidence_markers":  [
+                                                                       "go-run-command"
+                                                                   ]
+                                          },
+                                          {
+                                              "supports":  "input-output-contract",
+                                              "status":  "candidate_evidence_harvested",
+                                              "evidence_markers":  [
+                                                                       "expected-json-pong"
+                                                                   ]
+                                          }
+                                      ],
+    "docs_evidence":  [
+                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\helloWorldHttp.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\actionSelectionPlaybook.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json"
+                      ],
+    "public_evidence":  [
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\138-gin-gonic-gin\\repo-contract.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\138-gin-gonic-gin\\README.snapshot.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\138-gin-gonic-gin\\tree.snapshot.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\README.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\go.mod",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\binding\\protobuf.go",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\render\\protobuf.go",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\testdata\\protoexample\\test.pb.go",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\.github\\workflows\\codeql.yml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\.github\\workflows\\gin.yml"
+                        ],
+    "remaining_blockers":  [
+                               "generate_candidate_runner_yaml_from_exact_public_contract",
+                               "prove_process_lifecycle_and_cleanup_without assuming private source",
+                               "run_qaaS_template_validation",
+                               "run_live_qaaS_act_assert_validation",
+                               "run_live_airgapped_weak_model_validation",
+                               "run_strong_review_against_selected_contract_evidence"
+                           ]
+}

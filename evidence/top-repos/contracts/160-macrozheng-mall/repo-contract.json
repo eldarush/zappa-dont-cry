@@ -1,0 +1,87 @@
+{
+  "harvested_at": "2026-06-07T20:49:06.1485220+03:00",
+  "rank": 160,
+  "repository": "macrozheng/mall",
+  "url": "https://github.com/macrozheng/mall",
+  "language": "Java",
+  "stars": 83820,
+  "default_branch": "master",
+  "contract_strength": "contract_files_found",
+  "candidate_qaas_surfaces": [
+    "api-contract-validation",
+    "runner-yaml-from-public-contract",
+    "containerized-runtime-smoke",
+    "jvm-service-contract"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\160-macrozheng-mall\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\160-macrozheng-mall\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [
+      "mall-common/src/main/java/com/macro/mall/common/domain/SwaggerProperties.java"
+    ],
+    "ci": [],
+    "containers": [
+      "document/docker/docker-compose-app.yml",
+      "document/docker/docker-compose-env.yml",
+      "document/sh/Dockerfile"
+    ],
+    "dotnet": [],
+    "node": [],
+    "python": [],
+    "go": [],
+    "java": [
+      "mall-admin/pom.xml",
+      "mall-common/pom.xml",
+      "mall-demo/pom.xml",
+      "mall-mbg/pom.xml",
+      "mall-portal/pom.xml",
+      "mall-search/pom.xml",
+      "mall-security/pom.xml",
+      "pom.xml"
+    ],
+    "rust": [],
+    "docs": [
+      "README.md",
+      "mall-admin/src/main/java/com/macro/mall/config/MallSecurityConfig.java",
+      "mall-common/src/main/java/com/macro/mall/common/api/CommonPage.java",
+      "mall-common/src/main/java/com/macro/mall/common/api/CommonResult.java",
+      "mall-common/src/main/java/com/macro/mall/common/api/IErrorCode.java",
+      "mall-common/src/main/java/com/macro/mall/common/api/ResultCode.java",
+      "mall-common/src/main/java/com/macro/mall/common/exception/ApiException.java",
+      "mall-demo/src/main/java/com/macro/mall/demo/config/SecurityConfig.java",
+      "mall-portal/src/main/java/com/macro/mall/portal/config/MallSecurityConfig.java",
+      "mall-security/.gitignore",
+      "mall-security/pom.xml",
+      "mall-security/src/main/java/com/macro/mall/security/annotation/CacheException.java",
+      "mall-security/src/main/java/com/macro/mall/security/aspect/RedisCacheAspect.java",
+      "mall-security/src/main/java/com/macro/mall/security/component/DynamicAuthorizationManager.java",
+      "mall-security/src/main/java/com/macro/mall/security/component/DynamicSecurityMetadataSource.java",
+      "mall-security/src/main/java/com/macro/mall/security/component/DynamicSecurityService.java",
+      "mall-security/src/main/java/com/macro/mall/security/component/JwtAuthenticationTokenFilter.java",
+      "mall-security/src/main/java/com/macro/mall/security/component/RestAuthenticationEntryPoint.java",
+      "mall-security/src/main/java/com/macro/mall/security/component/RestfulAccessDeniedHandler.java",
+      "mall-security/src/main/java/com/macro/mall/security/config/CommonSecurityConfig.java",
+      "mall-security/src/main/java/com/macro/mall/security/config/IgnoreUrlsConfig.java",
+      "mall-security/src/main/java/com/macro/mall/security/config/RedisConfig.java",
+      "mall-security/src/main/java/com/macro/mall/security/config/SecurityConfig.java",
+      "mall-security/src/main/java/com/macro/mall/security/util/JwtTokenUtil.java",
+      "mall-security/src/main/java/com/macro/mall/security/util/SpringUtil.java"
+    ],
+    "tests": [
+      "mall-admin/src/test/com/macro/mall/PmsDaoTests.java",
+      "mall-common/src/main/java/com/macro/mall/common/log/WebLogAspect.java",
+      "mall-demo/src/test/java/com/macro/mall/demo/MallDemoApplicationTests.java",
+      "mall-portal/src/test/java/com/macro/mall/portal/MallPortalApplicationTests.java",
+      "mall-portal/src/test/java/com/macro/mall/portal/PortalProductDaoTests.java",
+      "mall-search/src/test/java/com/macro/mall/search/MallSearchApplicationTests.java",
+      "mall-security/src/main/java/com/macro/mall/security/aspect/RedisCacheAspect.java"
+    ]
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\160-macrozheng-mall\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\160-macrozheng-mall\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

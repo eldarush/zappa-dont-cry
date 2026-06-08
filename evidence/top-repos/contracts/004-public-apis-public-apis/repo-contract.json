@@ -1,0 +1,51 @@
+{
+  "harvested_at": "2026-06-07T20:42:49.9562124+03:00",
+  "rank": 4,
+  "repository": "public-apis/public-apis",
+  "url": "https://github.com/public-apis/public-apis",
+  "language": "Python",
+  "stars": 439980,
+  "default_branch": "master",
+  "contract_strength": "readme_plus_runtime_hints",
+  "candidate_qaas_surfaces": [
+    "ci-documented-command-discovery",
+    "python-cli-or-service-contract"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\004-public-apis-public-apis\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\004-public-apis-public-apis\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [],
+    "ci": [
+      ".github/workflows/test_of_push_and_pull.yml",
+      ".github/workflows/test_of_validate_package.yml",
+      ".github/workflows/validate_links.yml"
+    ],
+    "containers": [],
+    "dotnet": [],
+    "node": [],
+    "python": [
+      "scripts/requirements.txt"
+    ],
+    "go": [],
+    "java": [],
+    "rust": [],
+    "docs": [
+      ".github/cs1586-APILayerLogoUpdate2022-LJ_v2-HighRes.png",
+      "CONTRIBUTING.md",
+      "README.md",
+      "scripts/README.md"
+    ],
+    "tests": [
+      "scripts/tests/__init__.py",
+      "scripts/tests/test_validate_format.py",
+      "scripts/tests/test_validate_links.py"
+    ]
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\004-public-apis-public-apis\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\004-public-apis-public-apis\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

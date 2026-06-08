@@ -1,0 +1,327 @@
+{
+  "sha": "c0b80fd75fca6b683703f015388346c1386689de",
+  "url": "https://api.github.com/repos/vinta/awesome-python/git/trees/c0b80fd75fca6b683703f015388346c1386689de",
+  "tree": [
+    {
+      "path": ".claude",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "294b3b8fe183ccdfef9cf484cd5116fe373404be",
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/trees/294b3b8fe183ccdfef9cf484cd5116fe373404be"
+    },
+    {
+      "path": ".claude/commands",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7c8bcbc1413deddaff5a114e25db769cd06abdb5",
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/trees/7c8bcbc1413deddaff5a114e25db769cd06abdb5"
+    },
+    {
+      "path": ".claude/commands/review-pending-prs.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a026ce92e9a0a338e18e880d59e1496c347d32d2",
+      "size": 2257,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/a026ce92e9a0a338e18e880d59e1496c347d32d2"
+    },
+    {
+      "path": ".claude/settings.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73febfbf3ba601b5b8641c6e812ec6b10e8ece2d",
+      "size": 374,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/73febfbf3ba601b5b8641c6e812ec6b10e8ece2d"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d708e778ad2bc51d156687c2ea5839c0510570c8",
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/trees/d708e778ad2bc51d156687c2ea5839c0510570c8"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05c3b80477a4f7e047139d3e8864fb4b6fa844dc",
+      "size": 606,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/05c3b80477a4f7e047139d3e8864fb4b6fa844dc"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0bd08702f16b253afeee767bf96c25b5f1bea6e9",
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/trees/0bd08702f16b253afeee767bf96c25b5f1bea6e9"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02898b64ca1aa4d620214840324ef8a2fd17f9e6",
+      "size": 578,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/02898b64ca1aa4d620214840324ef8a2fd17f9e6"
+    },
+    {
+      "path": ".github/workflows/deploy-website.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd748bb5639fc3d0fb3be372b3b61469b5122d20",
+      "size": 2088,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/dd748bb5639fc3d0fb3be372b3b61469b5122d20"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f081c83359075d92614dc561794ad31e1addaf6f",
+      "size": 212,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/f081c83359075d92614dc561794ad31e1addaf6f"
+    },
+    {
+      "path": "AGENTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29c863bcd4a98ab001e68807a907ba5ee72fa1d0",
+      "size": 1990,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/29c863bcd4a98ab001e68807a907ba5ee72fa1d0"
+    },
+    {
+      "path": "CLAUDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6a15c166551a874b3488b209f34bdd6853262e2",
+      "size": 1726,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/a6a15c166551a874b3488b209f34bdd6853262e2"
+    },
+    {
+      "path": "CODE_OF_CONDUCT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f13d736d08511df83f8f108b80857c37a7c95993",
+      "size": 1467,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/f13d736d08511df83f8f108b80857c37a7c95993"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3dd6c78f2aebe32da29f7fe96268c0d42f721f1",
+      "size": 3622,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/c3dd6c78f2aebe32da29f7fe96268c0d42f721f1"
+    },
+    {
+      "path": "DESIGN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e678f2b149a13166e359cdfb44fdad3f286c0a7",
+      "size": 18076,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/1e678f2b149a13166e359cdfb44fdad3f286c0a7"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81901d37c3942e47506e20cdebbaf531615e43de",
+      "size": 112,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/81901d37c3942e47506e20cdebbaf531615e43de"
+    },
+    {
+      "path": "Makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6430945e8debc1a946bbe55feb9694ba82336cc1",
+      "size": 589,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/6430945e8debc1a946bbe55feb9694ba82336cc1"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a29388512e88e80f9be804d56b6f810c887f856",
+      "size": 79767,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/1a29388512e88e80f9be804d56b6f810c887f856"
+    },
+    {
+      "path": "SPONSORSHIP.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e61b9955ee1845b4111b9e01d3bdc3c8621681ba",
+      "size": 3624,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/e61b9955ee1845b4111b9e01d3bdc3c8621681ba"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1f09178f5ae89c7d1ec8e6f83eed58b83b4687e",
+      "size": 1198,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/a1f09178f5ae89c7d1ec8e6f83eed58b83b4687e"
+    },
+    {
+      "path": "uv.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ac5047c3f136da7f64b843d02d1d77910dd3be0",
+      "size": 42550,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/6ac5047c3f136da7f64b843d02d1d77910dd3be0"
+    },
+    {
+      "path": "website",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b80a3d919bc0bfe59c86e0c154baf216cb4197e8",
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/trees/b80a3d919bc0bfe59c86e0c154baf216cb4197e8"
+    },
+    {
+      "path": "website/build.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "347c4fb0227a3b75d702d4e19a1eaef1b178ce6a",
+      "size": 26898,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/347c4fb0227a3b75d702d4e19a1eaef1b178ce6a"
+    },
+    {
+      "path": "website/fetch_github_stars.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48aaacf79c1e8dfd7089a30c5f5af928d9a5a662",
+      "size": 6308,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/48aaacf79c1e8dfd7089a30c5f5af928d9a5a662"
+    },
+    {
+      "path": "website/readme_parser.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61bf1e982e672e882e2b2698e32c8a6637bf9425",
+      "size": 15587,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/61bf1e982e672e882e2b2698e32c8a6637bf9425"
+    },
+    {
+      "path": "website/static",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "711517a1325d87210eca8d422f633368364fd4ba",
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/trees/711517a1325d87210eca8d422f633368364fd4ba"
+    },
+    {
+      "path": "website/static/favicon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "660a7c6f3159e02419a610161860e91393a42acc",
+      "size": 320,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/660a7c6f3159e02419a610161860e91393a42acc"
+    },
+    {
+      "path": "website/static/main.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5b337b341ebcd2dce04bd96d3b3ae5a9ee95862",
+      "size": 14137,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/d5b337b341ebcd2dce04bd96d3b3ae5a9ee95862"
+    },
+    {
+      "path": "website/static/og-image.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d41e78098d4dd4f4da20c887fa8439c4b7c2f263",
+      "size": 149905,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/d41e78098d4dd4f4da20c887fa8439c4b7c2f263"
+    },
+    {
+      "path": "website/static/og-image.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4aeda17b79ced65a9cd4511cd566d2a06debc9c1",
+      "size": 2787,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/4aeda17b79ced65a9cd4511cd566d2a06debc9c1"
+    },
+    {
+      "path": "website/static/style.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93056570aa4b8510a0b27044a5c68d03ffb7cc14",
+      "size": 33403,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/93056570aa4b8510a0b27044a5c68d03ffb7cc14"
+    },
+    {
+      "path": "website/templates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d588936be1a02dfc3b1d05bfde510ac884a5b450",
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/trees/d588936be1a02dfc3b1d05bfde510ac884a5b450"
+    },
+    {
+      "path": "website/templates/base.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc164347d575eed5ec456255d6f514e688b9fbdf",
+      "size": 4081,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/dc164347d575eed5ec456255d6f514e688b9fbdf"
+    },
+    {
+      "path": "website/templates/category.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e4b03e792a1ebf9131f28dea61c898494892630",
+      "size": 10233,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/6e4b03e792a1ebf9131f28dea61c898494892630"
+    },
+    {
+      "path": "website/templates/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7f1c9ea569d7f661320f8bcae31e97b8f547503",
+      "size": 11399,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/e7f1c9ea569d7f661320f8bcae31e97b8f547503"
+    },
+    {
+      "path": "website/templates/llms.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "401a1d3863f80e01429cecb9ae08019d1dfaa35f",
+      "size": 780,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/401a1d3863f80e01429cecb9ae08019d1dfaa35f"
+    },
+    {
+      "path": "website/templates/sponsorship.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "224d87e7656ee7e622a4fc182137c426bc476f5a",
+      "size": 10410,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/224d87e7656ee7e622a4fc182137c426bc476f5a"
+    },
+    {
+      "path": "website/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d346c8badc828659a450390456a98dd9058696de",
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/trees/d346c8badc828659a450390456a98dd9058696de"
+    },
+    {
+      "path": "website/tests/test_build.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0af6c0de2ce207cceac58c0786e13580a3ec0191",
+      "size": 44003,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/0af6c0de2ce207cceac58c0786e13580a3ec0191"
+    },
+    {
+      "path": "website/tests/test_fetch_github_stars.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f0297b658086861ebf813d8044dd822ac1d5580",
+      "size": 9939,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/6f0297b658086861ebf813d8044dd822ac1d5580"
+    },
+    {
+      "path": "website/tests/test_readme_parser.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d0b7ae73f3ab0b9ed5f56d01eb4575b12892fea",
+      "size": 16550,
+      "url": "https://api.github.com/repos/vinta/awesome-python/git/blobs/4d0b7ae73f3ab0b9ed5f56d01eb4575b12892fea"
+    }
+  ],
+  "truncated": false
+}

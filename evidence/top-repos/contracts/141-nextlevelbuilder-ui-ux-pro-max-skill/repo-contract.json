@@ -1,0 +1,58 @@
+{
+  "harvested_at": "2026-06-07T20:48:26.2528446+03:00",
+  "rank": 141,
+  "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
+  "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+  "language": "Python",
+  "stars": 88434,
+  "default_branch": "main",
+  "contract_strength": "readme_plus_runtime_hints",
+  "candidate_qaas_surfaces": [
+    "ci-documented-command-discovery",
+    "python-cli-or-service-contract"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [],
+    "ci": [
+      ".github/workflows/claude-code-review.yml",
+      ".github/workflows/claude.yml",
+      ".github/workflows/python-package-conda.yml"
+    ],
+    "containers": [],
+    "dotnet": [],
+    "node": [
+      "cli/package-lock.json",
+      "cli/package.json",
+      "cli/tsconfig.json"
+    ],
+    "python": [
+      ".claude/skills/ui-styling/scripts/requirements.txt",
+      ".claude/skills/ui-styling/scripts/tests/requirements.txt"
+    ],
+    "go": [],
+    "java": [],
+    "rust": [],
+    "docs": [
+      "README.md",
+      "cli/README.md",
+      "docs/三个 data-scripts-templates 的区别.md"
+    ],
+    "tests": [
+      ".claude/skills/brand/references/typography-specifications.md",
+      ".claude/skills/design-system/references/component-specs.md",
+      ".claude/skills/ui-styling/scripts/tests/coverage-ui.json",
+      ".claude/skills/ui-styling/scripts/tests/requirements.txt",
+      ".claude/skills/ui-styling/scripts/tests/test_shadcn_add.py",
+      ".claude/skills/ui-styling/scripts/tests/test_tailwind_config_gen.py"
+    ]
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

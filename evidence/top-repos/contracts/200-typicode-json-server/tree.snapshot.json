@@ -1,0 +1,327 @@
+{
+  "sha": "89a34a44b7a6a5311dc84f3b8a1b8b45c0905aea",
+  "url": "https://api.github.com/repos/typicode/json-server/git/trees/89a34a44b7a6a5311dc84f3b8a1b8b45c0905aea",
+  "tree": [
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60404ce837260e0b7e75cc6fedc9fa7ffc188da1",
+      "size": 52,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/60404ce837260e0b7e75cc6fedc9fa7ffc188da1"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "910f6f73935f5ecfc60125afd202eb66c26b29fa",
+      "url": "https://api.github.com/repos/typicode/json-server/git/trees/910f6f73935f5ecfc60125afd202eb66c26b29fa"
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f433b7e283a527282bb2e612ae891b9667373442",
+      "size": 17,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/f433b7e283a527282bb2e612ae891b9667373442"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fdc04318ae7062db798b51fa834086a2bde7203b",
+      "url": "https://api.github.com/repos/typicode/json-server/git/trees/fdc04318ae7062db798b51fa834086a2bde7203b"
+    },
+    {
+      "path": ".github/workflows/node.js.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb9b4230dac1112dcf5010cf35fcaba6c47c9a31",
+      "size": 399,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/eb9b4230dac1112dcf5010cf35fcaba6c47c9a31"
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e37b630d4d5ff859363680bdfc2eee7fea43405c",
+      "size": 600,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/e37b630d4d5ff859363680bdfc2eee7fea43405c"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0b3ff284e03bc1158403bba502100fa3e8a75fb",
+      "size": 64,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/e0b3ff284e03bc1158403bba502100fa3e8a75fb"
+    },
+    {
+      "path": ".husky",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4dbe819eb437b7aebe1b6deba146c0013f138fa7",
+      "url": "https://api.github.com/repos/typicode/json-server/git/trees/4dbe819eb437b7aebe1b6deba146c0013f138fa7"
+    },
+    {
+      "path": ".husky/pre-commit",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98475b507b5307b4ea7328bf44d5628c87828139",
+      "size": 10,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/98475b507b5307b4ea7328bf44d5628c87828139"
+    },
+    {
+      "path": ".oxfmtrc.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c745d5323e413defde1f7fcec6cf4ec7b8ff2cd9",
+      "size": 44,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/c745d5323e413defde1f7fcec6cf4ec7b8ff2cd9"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3621fe68b88b86cc5433db95ff403975697dceda",
+      "size": 1065,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/3621fe68b88b86cc5433db95ff403975697dceda"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fc9ded8eb5e5afd6c8ba6368eba08f6f4105b0d",
+      "size": 8202,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/2fc9ded8eb5e5afd6c8ba6368eba08f6f4105b0d"
+    },
+    {
+      "path": "fixtures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "96444efe5b63f508263e209b4a39ca7a178162d3",
+      "url": "https://api.github.com/repos/typicode/json-server/git/trees/96444efe5b63f508263e209b4a39ca7a178162d3"
+    },
+    {
+      "path": "fixtures/db.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74f0f95fe3e7931b8fea3bd8c0b2618d76e92b94",
+      "size": 309,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/74f0f95fe3e7931b8fea3bd8c0b2618d76e92b94"
+    },
+    {
+      "path": "fixtures/db.json5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0fb7d0c444b4737abbb451a1ee692ef6c540865",
+      "size": 365,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/c0fb7d0c444b4737abbb451a1ee692ef6c540865"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1ac7be2b1c1fe2646880d83ee92129f761a26f9",
+      "size": 1624,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/a1ac7be2b1c1fe2646880d83ee92129f761a26f9"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79a1bca8e51564caa666971827920feb5b669a2b",
+      "size": 26262,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/79a1bca8e51564caa666971827920feb5b669a2b"
+    },
+    {
+      "path": "public",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b2bec4443c3dca17b2e20c01702d986f4318e7bb",
+      "url": "https://api.github.com/repos/typicode/json-server/git/trees/b2bec4443c3dca17b2e20c01702d986f4318e7bb"
+    },
+    {
+      "path": "public/test.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c0d1409189af472b8f807717c2395d3bf1cb431",
+      "size": 73,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/7c0d1409189af472b8f807717c2395d3bf1cb431"
+    },
+    {
+      "path": "schema.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ebd85748275811f99853b66981520f66c40840f",
+      "size": 192,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/5ebd85748275811f99853b66981520f66c40840f"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f4b0e1f2404c1006ef2db5844d48348f6c576467",
+      "url": "https://api.github.com/repos/typicode/json-server/git/trees/f4b0e1f2404c1006ef2db5844d48348f6c576467"
+    },
+    {
+      "path": "src/adapters",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "35421c84ca3dda3281da789ef627e8da33bcba08",
+      "url": "https://api.github.com/repos/typicode/json-server/git/trees/35421c84ca3dda3281da789ef627e8da33bcba08"
+    },
+    {
+      "path": "src/adapters/normalized-adapter.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67f85a3ec548d6007f192ea82c0299a85f58d418",
+      "size": 1737,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/67f85a3ec548d6007f192ea82c0299a85f58d418"
+    },
+    {
+      "path": "src/adapters/normalized-adapter.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2d9e7284c66fcdabbec0ce3a3af37bc3103c6d6",
+      "size": 1122,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/e2d9e7284c66fcdabbec0ce3a3af37bc3103c6d6"
+    },
+    {
+      "path": "src/adapters/observer.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a44ef397f09300871a88800f81882257cf6bde4c",
+      "size": 651,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/a44ef397f09300871a88800f81882257cf6bde4c"
+    },
+    {
+      "path": "src/app.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bac286d988f07168ee82b749ea32694cfe01ee0e",
+      "size": 6473,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/bac286d988f07168ee82b749ea32694cfe01ee0e"
+    },
+    {
+      "path": "src/app.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40a70c0461e567cf7dce2ee9b4be89810769c6e1",
+      "size": 4733,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/40a70c0461e567cf7dce2ee9b4be89810769c6e1"
+    },
+    {
+      "path": "src/bin.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cc39d83bbe83a24c17cb9feb0a6557cd49d4781",
+      "size": 5767,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/3cc39d83bbe83a24c17cb9feb0a6557cd49d4781"
+    },
+    {
+      "path": "src/matches-where.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26a2be4a98de37d3a91b7e069f8f961ef9380e00",
+      "size": 2158,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/26a2be4a98de37d3a91b7e069f8f961ef9380e00"
+    },
+    {
+      "path": "src/matches-where.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "036b00c69aba1750f5050bd0a9e5507764eaf6e6",
+      "size": 2870,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/036b00c69aba1750f5050bd0a9e5507764eaf6e6"
+    },
+    {
+      "path": "src/paginate.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9888786b761209294c6b0cb0703f247ca50d16b",
+      "size": 2095,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/b9888786b761209294c6b0cb0703f247ca50d16b"
+    },
+    {
+      "path": "src/paginate.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de42bf0d0dc12cf72bb6166e1325a9e3a32a653c",
+      "size": 989,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/de42bf0d0dc12cf72bb6166e1325a9e3a32a653c"
+    },
+    {
+      "path": "src/parse-where.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95c2018cabe5ed0b69b0d1a164150e0f3987da70",
+      "size": 2207,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/95c2018cabe5ed0b69b0d1a164150e0f3987da70"
+    },
+    {
+      "path": "src/parse-where.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06b3bc6c95fe666de3e24f4d25d9768a8bb711fb",
+      "size": 1794,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/06b3bc6c95fe666de3e24f4d25d9768a8bb711fb"
+    },
+    {
+      "path": "src/random-id.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e457aa0315bb9b98820a58f79b8d86fe89adfb6f",
+      "size": 128,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/e457aa0315bb9b98820a58f79b8d86fe89adfb6f"
+    },
+    {
+      "path": "src/service.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d89e0654ebaefbe8c21183e1711808060c1325a1",
+      "size": 5333,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/d89e0654ebaefbe8c21183e1711808060c1325a1"
+    },
+    {
+      "path": "src/service.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad06bfa8f9dd68a92b7c8a8ce5cfb0c501bdfc4b",
+      "size": 6028,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/ad06bfa8f9dd68a92b7c8a8ce5cfb0c501bdfc4b"
+    },
+    {
+      "path": "src/where-operators.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29d601acc26db20e0f3ce4dc29fdbd3818c785d1",
+      "size": 348,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/29d601acc26db20e0f3ce4dc29fdbd3818c785d1"
+    },
+    {
+      "path": "tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89dbd235f8ee1fb3be8aa359eaf098ad91c72f9f",
+      "size": 335,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/89dbd235f8ee1fb3be8aa359eaf098ad91c72f9f"
+    },
+    {
+      "path": "views",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cdb2d71556c26b5b47d058161bee6b6fe0d0c306",
+      "url": "https://api.github.com/repos/typicode/json-server/git/trees/cdb2d71556c26b5b47d058161bee6b6fe0d0c306"
+    },
+    {
+      "path": "views/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c77fa7a129a29825ff21ff89e5465f6e8ae62f1",
+      "size": 3925,
+      "url": "https://api.github.com/repos/typicode/json-server/git/blobs/8c77fa7a129a29825ff21ff89e5465f6e8ae62f1"
+    }
+  ],
+  "truncated": false
+}

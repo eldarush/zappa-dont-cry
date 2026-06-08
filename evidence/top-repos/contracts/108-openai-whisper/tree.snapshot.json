@@ -1,0 +1,423 @@
+{
+  "sha": "04f449b8a437f1bbd3dba5c9f826aca972e7709a",
+  "url": "https://api.github.com/repos/openai/whisper/git/trees/04f449b8a437f1bbd3dba5c9f826aca972e7709a",
+  "tree": [
+    {
+      "path": ".flake8",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c61c928faf178d508236bb7806f4c87bd6217eed",
+      "size": 53,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/c61c928faf178d508236bb7806f4c87bd6217eed"
+    },
+    {
+      "path": ".gitattributes",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2d461810955a6a601f9f743cf744215da557e27",
+      "size": 214,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/b2d461810955a6a601f9f743cf744215da557e27"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6ed3049ab2a2c65f02a450cf0e0cc411152cd9ae",
+      "url": "https://api.github.com/repos/openai/whisper/git/trees/6ed3049ab2a2c65f02a450cf0e0cc411152cd9ae"
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be006de9a1ae3b9628e796c74277cd6d61e0a34a",
+      "size": 579,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/be006de9a1ae3b9628e796c74277cd6d61e0a34a"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eeb655b946f5e7059bb89be4cc1d563627e51d46",
+      "url": "https://api.github.com/repos/openai/whisper/git/trees/eeb655b946f5e7059bb89be4cc1d563627e51d46"
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f70e0a37bae2dca627cf8f69ee455cf0aea5f635",
+      "size": 1174,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/f70e0a37bae2dca627cf8f69ee455cf0aea5f635"
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a37a88f662ad1248e45bf60028add8ecad25cc6e",
+      "size": 2936,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/a37a88f662ad1248e45bf60028add8ecad25cc6e"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ae8fabc67c21dafacfa3a4738d105de6f689303",
+      "size": 106,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/7ae8fabc67c21dafacfa3a4738d105de6f689303"
+    },
+    {
+      "path": ".pre-commit-config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "471da0573b74319d4097921d94943425622344ae",
+      "size": 987,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/471da0573b74319d4097921d94943425622344ae"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0876010eefb6a79aa719bf038a59c40fb8734a16",
+      "size": 9024,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/0876010eefb6a79aa719bf038a59c40fb8734a16"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d25552598bb9c5400612159ed4bab92ce12a5ce5",
+      "size": 1063,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/d25552598bb9c5400612159ed4bab92ce12a5ce5"
+    },
+    {
+      "path": "MANIFEST.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08134dedeae14d28110d6395576073d4a2f93b31",
+      "size": 125,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/08134dedeae14d28110d6395576073d4a2f93b31"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "196b48f62d3b6f0b77bac2b7dbc2df5e4cfb070b",
+      "size": 8246,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/196b48f62d3b6f0b77bac2b7dbc2df5e4cfb070b"
+    },
+    {
+      "path": "approach.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "355c500b2deb26057bd6bbbb37447d341c577466",
+      "size": 925107,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/355c500b2deb26057bd6bbbb37447d341c577466"
+    },
+    {
+      "path": "data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4c1f915bbf287aafca3c122dc1b7bbfc5bb697bc",
+      "url": "https://api.github.com/repos/openai/whisper/git/trees/4c1f915bbf287aafca3c122dc1b7bbfc5bb697bc"
+    },
+    {
+      "path": "data/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcb3200010072f0dbf22616d2f5acd27f82c6b63",
+      "size": 6211,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/fcb3200010072f0dbf22616d2f5acd27f82c6b63"
+    },
+    {
+      "path": "data/meanwhile.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "863e50d0907ade1d6dc179b3af7f55493a679294",
+      "size": 67802,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/863e50d0907ade1d6dc179b3af7f55493a679294"
+    },
+    {
+      "path": "language-breakdown.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "616fd57ea7f7e17e8267c9bb02c6b1b32ad95179",
+      "size": 278981,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/616fd57ea7f7e17e8267c9bb02c6b1b32ad95179"
+    },
+    {
+      "path": "model-card.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "291bc4bb1f484e6553a5f87faee5568809b0b9ff",
+      "size": 7307,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/291bc4bb1f484e6553a5f87faee5568809b0b9ff"
+    },
+    {
+      "path": "notebooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b8c51be2f54d09517233631f1c110daae7bd9552",
+      "url": "https://api.github.com/repos/openai/whisper/git/trees/b8c51be2f54d09517233631f1c110daae7bd9552"
+    },
+    {
+      "path": "notebooks/LibriSpeech.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "602bbe452ce937a9318ab13099da2696ce5c7bcd",
+      "size": 31973,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/602bbe452ce937a9318ab13099da2696ce5c7bcd"
+    },
+    {
+      "path": "notebooks/Multilingual_ASR.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f19e3e00984aa80798d73ebbb0776f48b07d1ea5",
+      "size": 5987357,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/f19e3e00984aa80798d73ebbb0776f48b07d1ea5"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21b90e737abc3fea0bf0270deb81e6e79e03e4d7",
+      "size": 1418,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/21b90e737abc3fea0bf0270deb81e6e79e03e4d7"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ee59200898cbdbae7a22720f35564167e262114",
+      "size": 140,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/8ee59200898cbdbae7a22720f35564167e262114"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "861791949c1ad9c61afa52ec982bbdc55f8a19b4",
+      "url": "https://api.github.com/repos/openai/whisper/git/trees/861791949c1ad9c61afa52ec982bbdc55f8a19b4"
+    },
+    {
+      "path": "tests/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31f1d6b4851362ae3af405b09309ec38ac884c36",
+      "size": 214,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/31f1d6b4851362ae3af405b09309ec38ac884c36"
+    },
+    {
+      "path": "tests/jfk.flac",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e44b7c13897eae7f78beb220c61fe77429a3961d",
+      "size": 1152693,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/e44b7c13897eae7f78beb220c61fe77429a3961d"
+    },
+    {
+      "path": "tests/test_audio.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfd78bc09628ec841a482e93f4ba1b89a030ea13",
+      "size": 571,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/dfd78bc09628ec841a482e93f4ba1b89a030ea13"
+    },
+    {
+      "path": "tests/test_normalizer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bc65744c4e37a5b07c068eb016d897100bde79e",
+      "size": 3378,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/3bc65744c4e37a5b07c068eb016d897100bde79e"
+    },
+    {
+      "path": "tests/test_timing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bab838e8f56fdc98a036664e2fca35fb0f334e0",
+      "size": 2368,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/9bab838e8f56fdc98a036664e2fca35fb0f334e0"
+    },
+    {
+      "path": "tests/test_tokenizer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be424e5fe4eec1458846f93f8868647f6bf2ba61",
+      "size": 1309,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/be424e5fe4eec1458846f93f8868647f6bf2ba61"
+    },
+    {
+      "path": "tests/test_transcribe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "599221af593a0381463e462ceacd9740c1b81d1b",
+      "size": 1524,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/599221af593a0381463e462ceacd9740c1b81d1b"
+    },
+    {
+      "path": "whisper",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5e1e35cb6755202c7da7c9100cb32bfc8c84de85",
+      "url": "https://api.github.com/repos/openai/whisper/git/trees/5e1e35cb6755202c7da7c9100cb32bfc8c84de85"
+    },
+    {
+      "path": "whisper/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f284ec0453b2c5efb025963f6a56a5dc404f78a7",
+      "size": 7432,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/f284ec0453b2c5efb025963f6a56a5dc404f78a7"
+    },
+    {
+      "path": "whisper/__main__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d14f2058e759f8444666e5c58073ae688b61f900",
+      "size": 35,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/d14f2058e759f8444666e5c58073ae688b61f900"
+    },
+    {
+      "path": "whisper/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ac6b4bb3ea2cf2556dd97ef39ae0ea0228d52c38",
+      "url": "https://api.github.com/repos/openai/whisper/git/trees/ac6b4bb3ea2cf2556dd97ef39ae0ea0228d52c38"
+    },
+    {
+      "path": "whisper/assets/gpt2.tiktoken",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3480e077d2fc94c521e1cadb2e66cde18138b3ef",
+      "size": 835554,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/3480e077d2fc94c521e1cadb2e66cde18138b3ef"
+    },
+    {
+      "path": "whisper/assets/mel_filters.npz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28ea26909dbdfd608aef67afc4d74d7961ae4bb6",
+      "size": 4271,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/28ea26909dbdfd608aef67afc4d74d7961ae4bb6"
+    },
+    {
+      "path": "whisper/assets/multilingual.tiktoken",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4edf0b719c10d28cd83f8c294449f99ff5d5dc0",
+      "size": 816730,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/a4edf0b719c10d28cd83f8c294449f99ff5d5dc0"
+    },
+    {
+      "path": "whisper/audio.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "826250f372c9234e13b8f06a24373d9fa7ceeca0",
+      "size": 4945,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/826250f372c9234e13b8f06a24373d9fa7ceeca0"
+    },
+    {
+      "path": "whisper/decoding.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49485d0090fc0b8bf7b052d0b9b031cd95a8a28f",
+      "size": 32155,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/49485d0090fc0b8bf7b052d0b9b031cd95a8a28f"
+    },
+    {
+      "path": "whisper/model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5374473878efe6c23b9ff2a6a3acb3f66f9c62f",
+      "size": 11749,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/e5374473878efe6c23b9ff2a6a3acb3f66f9c62f"
+    },
+    {
+      "path": "whisper/normalizers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "507f9c7fcb3f9c32c61422622f5274d75b3d553a",
+      "url": "https://api.github.com/repos/openai/whisper/git/trees/507f9c7fcb3f9c32c61422622f5274d75b3d553a"
+    },
+    {
+      "path": "whisper/normalizers/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "896d5e3364156efbcf74d8c6961448ef46f1ea1c",
+      "size": 130,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/896d5e3364156efbcf74d8c6961448ef46f1ea1c"
+    },
+    {
+      "path": "whisper/normalizers/basic.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8690ae71c5f24c96e1adce0ae26ce1f46fb769aa",
+      "size": 2064,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/8690ae71c5f24c96e1adce0ae26ce1f46fb769aa"
+    },
+    {
+      "path": "whisper/normalizers/english.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74a1c3521d9af4a84a0aa65d95b0859138640799",
+      "size": 56128,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/74a1c3521d9af4a84a0aa65d95b0859138640799"
+    },
+    {
+      "path": "whisper/normalizers/english.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4932042bc5b7e9c3fed75a03af66948e4225a2b0",
+      "size": 20868,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/4932042bc5b7e9c3fed75a03af66948e4225a2b0"
+    },
+    {
+      "path": "whisper/timing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2340000bc450b127911b5c53080042b60cd79520",
+      "size": 12697,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/2340000bc450b127911b5c53080042b60cd79520"
+    },
+    {
+      "path": "whisper/tokenizer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2af837570b1e6e87457179f07d63d046cbe0d4f3",
+      "size": 12338,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/2af837570b1e6e87457179f07d63d046cbe0d4f3"
+    },
+    {
+      "path": "whisper/transcribe.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a4cc3623991154263814409f20bd44e8c6ad394",
+      "size": 30366,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/0a4cc3623991154263814409f20bd44e8c6ad394"
+    },
+    {
+      "path": "whisper/triton_ops.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13d417bb20440b0bbe79871a47cb6135b42be5bd",
+      "size": 3646,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/13d417bb20440b0bbe79871a47cb6135b42be5bd"
+    },
+    {
+      "path": "whisper/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13792f7642f569e09beffc04c93c405649ca76a5",
+      "size": 11529,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/13792f7642f569e09beffc04c93c405649ca76a5"
+    },
+    {
+      "path": "whisper/version.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67426aa1c9e68af9408a51fff224c3ac566634a4",
+      "size": 25,
+      "url": "https://api.github.com/repos/openai/whisper/git/blobs/67426aa1c9e68af9408a51fff224c3ac566634a4"
+    }
+  ],
+  "truncated": false
+}

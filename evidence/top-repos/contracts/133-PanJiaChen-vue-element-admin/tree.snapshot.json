@@ -1,0 +1,3303 @@
+{
+  "sha": "6858a9ad67483025f6a9432a926beb9327037be3",
+  "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/6858a9ad67483025f6a9432a926beb9327037be3",
+  "tree": [
+    {
+      "path": ".editorconfig",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3454886e3a5743c9c3ab8ec8ac3547d3c9343a47",
+      "size": 244,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/3454886e3a5743c9c3ab8ec8ac3547d3c9343a47"
+    },
+    {
+      "path": ".env.development",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de583d0940d6ec7a20f3b3a29172729e87173fcf",
+      "size": 76,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/de583d0940d6ec7a20f3b3a29172729e87173fcf"
+    },
+    {
+      "path": ".env.production",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80c810301f3fbaca271b9f3ef4fc1011a3904d8a",
+      "size": 77,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/80c810301f3fbaca271b9f3ef4fc1011a3904d8a"
+    },
+    {
+      "path": ".env.staging",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8793a0989163f3c5258c47fb62f1c02ad08bc5a",
+      "size": 98,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/a8793a0989163f3c5258c47fb62f1c02ad08bc5a"
+    },
+    {
+      "path": ".eslintignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6529fc09c9bf8b29e9ea2999e5c4d717e99d9df",
+      "size": 34,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/e6529fc09c9bf8b29e9ea2999e5c4d717e99d9df"
+    },
+    {
+      "path": ".eslintrc.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c977505478d92a4975213812eb1f58b981235b2d",
+      "size": 5120,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/c977505478d92a4975213812eb1f58b981235b2d"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4ec507e6d886f271575dc68beb292fba4e928a4a",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/4ec507e6d886f271575dc68beb292fba4e928a4a"
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d540802752b68722d30255acccea3609e3f1f18b",
+      "size": 134,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/d540802752b68722d30255acccea3609e3f1f18b"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ba06414f8307bad37ea70f5efd4e6233b3369e92",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/ba06414f8307bad37ea70f5efd4e6233b3369e92"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1a114bc0044306aaa0d9c5a20fbefa8897044690",
+      "size": 852,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/1a114bc0044306aaa0d9c5a20fbefa8897044690"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "c33d10d4621be7a05f397140899324ac334043b4",
+      "size": 133,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/c33d10d4621be7a05f397140899324ac334043b4"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/question.md",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "76083546d3008cd9f7a575c172aab7bd73912ed6",
+      "size": 912,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/76083546d3008cd9f7a575c172aab7bd73912ed6"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78a752d87e8427f84570300f62bdfb5b183a9931",
+      "size": 256,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/78a752d87e8427f84570300f62bdfb5b183a9931"
+    },
+    {
+      "path": ".travis.yml",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f4be7a085597785fd16e9f1bcec912dc6b340326",
+      "size": 81,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/f4be7a085597785fd16e9f1bcec912dc6b340326"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61515750df8d215937d8a5c58202d649dcdff957",
+      "size": 1075,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/61515750df8d215937d8a5c58202d649dcdff957"
+    },
+    {
+      "path": "README.es.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc20fa421248559b18b2f2ce0f95209982e8e843",
+      "size": 9587,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/dc20fa421248559b18b2f2ce0f95209982e8e843"
+    },
+    {
+      "path": "README.ja.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bc3ce8bf0ffdeffeb6c4b7f968c5ceb7dcf276f",
+      "size": 9062,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/3bc3ce8bf0ffdeffeb6c4b7f968c5ceb7dcf276f"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb677a4383a6b64600e9f1d3fb328aafbc9a25fc",
+      "size": 9116,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/bb677a4383a6b64600e9f1d3fb328aafbc9a25fc"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a14858a4d0859bb19a42f0c1354c0e077c7d6468",
+      "size": 10978,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/a14858a4d0859bb19a42f0c1354c0e077c7d6468"
+    },
+    {
+      "path": "babel.config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb82b2715f46a87182f3e004dcc731f5a5f49fe8",
+      "size": 557,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/fb82b2715f46a87182f3e004dcc731f5a5f49fe8"
+    },
+    {
+      "path": "build",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a1c9a4edddd405cbd80442c8da56e007b9d40f91",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/a1c9a4edddd405cbd80442c8da56e007b9d40f91"
+    },
+    {
+      "path": "build/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c57de2aad9ee533046b71c08b56943be304d867",
+      "size": 892,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/0c57de2aad9ee533046b71c08b56943be304d867"
+    },
+    {
+      "path": "jest.config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "143cdc868cbc529ca55eff89bbc0dc3f23fba65d",
+      "size": 766,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/143cdc868cbc529ca55eff89bbc0dc3f23fba65d"
+    },
+    {
+      "path": "jsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "958df0467f1fbdde303bf11f08e3ba9a4de3078a",
+      "size": 137,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/958df0467f1fbdde303bf11f08e3ba9a4de3078a"
+    },
+    {
+      "path": "mock",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bc0dc1aacff3f04e58a6bfcf79fdd67d973612b8",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/bc0dc1aacff3f04e58a6bfcf79fdd67d973612b8"
+    },
+    {
+      "path": "mock/article.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23d8ba510567a90a149be2beff5547148d937ccd",
+      "size": 2642,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/23d8ba510567a90a149be2beff5547148d937ccd"
+    },
+    {
+      "path": "mock/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2eed65db83bc1c539666af7716f9641b23cb6eef",
+      "size": 1487,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/2eed65db83bc1c539666af7716f9641b23cb6eef"
+    },
+    {
+      "path": "mock/mock-server.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8941ec0f8035485e9c432ae7789ffd817e96ef42",
+      "size": 2283,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/8941ec0f8035485e9c432ae7789ffd817e96ef42"
+    },
+    {
+      "path": "mock/remote-search.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fc4926743d7a160f61fea5e6f90ff0b91bd2c06",
+      "size": 1106,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/8fc4926743d7a160f61fea5e6f90ff0b91bd2c06"
+    },
+    {
+      "path": "mock/role",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a7a062fc18cec3f4cb50a0d15ea73d72f95bae85",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/a7a062fc18cec3f4cb50a0d15ea73d72f95bae85"
+    },
+    {
+      "path": "mock/role/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4643f006d9cb26a1c5a4aee243e0f4d1604ec659",
+      "size": 1870,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/4643f006d9cb26a1c5a4aee243e0f4d1604ec659"
+    },
+    {
+      "path": "mock/role/routes.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d33f1624418b84cc3ff5af1aa1fe7e95b3a23d6f",
+      "size": 11817,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/d33f1624418b84cc3ff5af1aa1fe7e95b3a23d6f"
+    },
+    {
+      "path": "mock/user.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d82e079d58c4a9292c07e43505599e14fd704ed7",
+      "size": 1549,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/d82e079d58c4a9292c07e43505599e14fd704ed7"
+    },
+    {
+      "path": "mock/utils.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f909a29362aea40dfdf7d2a46c665c64cea7b70a",
+      "size": 1136,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/f909a29362aea40dfdf7d2a46c665c64cea7b70a"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02f68e2376412a8414f9d93aa6dd480551faa3b9",
+      "size": 2944,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/02f68e2376412a8414f9d93aa6dd480551faa3b9"
+    },
+    {
+      "path": "plop-templates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5305bb87a9efaf656326323431f551bff2ac2567",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/5305bb87a9efaf656326323431f551bff2ac2567"
+    },
+    {
+      "path": "plop-templates/component",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd1a2b33f5b3b675bf482990a7c6df383ad54fec",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/fd1a2b33f5b3b675bf482990a7c6df383ad54fec"
+    },
+    {
+      "path": "plop-templates/component/index.hbs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76610552d74a630957f9510f81223590c887f856",
+      "size": 302,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/76610552d74a630957f9510f81223590c887f856"
+    },
+    {
+      "path": "plop-templates/component/prompt.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3723e8e1357a94cb211921a6c6f51dffa42e5d4b",
+      "size": 1202,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/3723e8e1357a94cb211921a6c6f51dffa42e5d4b"
+    },
+    {
+      "path": "plop-templates/store",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9aac6f483bc7bf840f07c936c741ee56be906185",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/9aac6f483bc7bf840f07c936c741ee56be906185"
+    },
+    {
+      "path": "plop-templates/store/index.hbs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f8e2dc0b44ccdb18abfba87156b5611f2e3dd90",
+      "size": 185,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/4f8e2dc0b44ccdb18abfba87156b5611f2e3dd90"
+    },
+    {
+      "path": "plop-templates/store/prompt.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcbc11d1f5b983062499c5d2f9c4071d8bc15d0d",
+      "size": 1319,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/bcbc11d1f5b983062499c5d2f9c4071d8bc15d0d"
+    },
+    {
+      "path": "plop-templates/utils.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "049875397992e2a75bfc71bb537b24844d7726fc",
+      "size": 87,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/049875397992e2a75bfc71bb537b24844d7726fc"
+    },
+    {
+      "path": "plop-templates/view",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e28f9f45397d4b8d4ed32510de3a6b1868a9c4d7",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/e28f9f45397d4b8d4ed32510de3a6b1868a9c4d7"
+    },
+    {
+      "path": "plop-templates/view/index.hbs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76610552d74a630957f9510f81223590c887f856",
+      "size": 302,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/76610552d74a630957f9510f81223590c887f856"
+    },
+    {
+      "path": "plop-templates/view/prompt.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d490ee82421f4a67a41a8ed8dae01e50b5982bf",
+      "size": 1163,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/1d490ee82421f4a67a41a8ed8dae01e50b5982bf"
+    },
+    {
+      "path": "plopfile.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57387bf17ab64d915db5ff2ca9f0369d8e55b9bc",
+      "size": 379,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/57387bf17ab64d915db5ff2ca9f0369d8e55b9bc"
+    },
+    {
+      "path": "postcss.config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "961986e2b11eeebe1d4ddabdf2e6c85e2a2562e0",
+      "size": 59,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/961986e2b11eeebe1d4ddabdf2e6c85e2a2562e0"
+    },
+    {
+      "path": "public",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "357b9175ce05c7609799c4341c48f0d032b62a94",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/357b9175ce05c7609799c4341c48f0d032b62a94"
+    },
+    {
+      "path": "public/favicon.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34b63ac63a87ee3ea8e7a0f3f5b5406c437e2112",
+      "size": 67646,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/34b63ac63a87ee3ea8e7a0f3f5b5406c437e2112"
+    },
+    {
+      "path": "public/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e91850091e771e9db4bd7114c1d2340970f17c83",
+      "size": 488,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/e91850091e771e9db4bd7114c1d2340970f17c83"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ccfa541e50f5867a27eadbb70e65aa3d8a784c1d",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/ccfa541e50f5867a27eadbb70e65aa3d8a784c1d"
+    },
+    {
+      "path": "src/App.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec9032c1c638e918ec97e413aa081993a95048f4",
+      "size": 122,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/ec9032c1c638e918ec97e413aa081993a95048f4"
+    },
+    {
+      "path": "src/api",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "673e648790bb73f27db3a4af59d2daf293b5d6fa",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/673e648790bb73f27db3a4af59d2daf293b5d6fa"
+    },
+    {
+      "path": "src/api/article.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "407bda163feb2f1c01ba64faf2c45cf53b4eaf9d",
+      "size": 744,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/407bda163feb2f1c01ba64faf2c45cf53b4eaf9d"
+    },
+    {
+      "path": "src/api/qiniu.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0375844f37340f25a779b3e9dfbeefca5e655d4",
+      "size": 170,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/a0375844f37340f25a779b3e9dfbeefca5e655d4"
+    },
+    {
+      "path": "src/api/remote-search.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02e42b46e56ac4dbb0bf6e4afb341562cc66eca5",
+      "size": 336,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/02e42b46e56ac4dbb0bf6e4afb341562cc66eca5"
+    },
+    {
+      "path": "src/api/role.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "959bbd213f6524042f7e3f7a7f98c4c83da6fe32",
+      "size": 645,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/959bbd213f6524042f7e3f7a7f98c4c83da6fe32"
+    },
+    {
+      "path": "src/api/user.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8b8741caffb06423f39aafc1abd3cb6cf62ebb4",
+      "size": 424,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/b8b8741caffb06423f39aafc1abd3cb6cf62ebb4"
+    },
+    {
+      "path": "src/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "10b041e4633f122d39c19de41d2162fbbdb67924",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/10b041e4633f122d39c19de41d2162fbbdb67924"
+    },
+    {
+      "path": "src/assets/401_images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0fac50c9fb0355616bc5d4ea3451b43bbfdb25be",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/0fac50c9fb0355616bc5d4ea3451b43bbfdb25be"
+    },
+    {
+      "path": "src/assets/401_images/401.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd6e0d9433421b3f29d0ec0c40f755e354728000",
+      "size": 164227,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/cd6e0d9433421b3f29d0ec0c40f755e354728000"
+    },
+    {
+      "path": "src/assets/404_images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "727f608e7fdc4155f61532ad26e9090e83d24029",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/727f608e7fdc4155f61532ad26e9090e83d24029"
+    },
+    {
+      "path": "src/assets/404_images/404.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d8e2305cc973ad2121403aee4bf08728f76c461",
+      "size": 98071,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/3d8e2305cc973ad2121403aee4bf08728f76c461"
+    },
+    {
+      "path": "src/assets/404_images/404_cloud.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6281d09013e0a2c5f8e699a0a6038d9480291e5",
+      "size": 4766,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/c6281d09013e0a2c5f8e699a0a6038d9480291e5"
+    },
+    {
+      "path": "src/assets/custom-theme",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "40e8a700c0b87aa88eebb86078122d7da0a8296c",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/40e8a700c0b87aa88eebb86078122d7da0a8296c"
+    },
+    {
+      "path": "src/assets/custom-theme/fonts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b23efc42d836178e31fe5d00b4c8b64d49e18263",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/b23efc42d836178e31fe5d00b4c8b64d49e18263"
+    },
+    {
+      "path": "src/assets/custom-theme/fonts/element-icons.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "570a3e11b2f002c146d7fdc20528951442f6fd93",
+      "size": 11028,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/570a3e11b2f002c146d7fdc20528951442f6fd93"
+    },
+    {
+      "path": "src/assets/custom-theme/fonts/element-icons.woff",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2bcc00509acd81fe152f08f39eef93984a0453a",
+      "size": 6124,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/c2bcc00509acd81fe152f08f39eef93984a0453a"
+    },
+    {
+      "path": "src/assets/custom-theme/index.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8b4e08be87b205c0f59ee65b4291022081733a2",
+      "size": 423600,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/e8b4e08be87b205c0f59ee65b4291022081733a2"
+    },
+    {
+      "path": "src/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1912e94815ab5ca09f67babf5efb63d076824f82",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/1912e94815ab5ca09f67babf5efb63d076824f82"
+    },
+    {
+      "path": "src/components/BackToTop",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fde43773b5666d7aa85898f1d57cfd0e2ad42d20",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/fde43773b5666d7aa85898f1d57cfd0e2ad42d20"
+    },
+    {
+      "path": "src/components/BackToTop/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36522f4a18d08216c8800b99532eaeba8c4695e5",
+      "size": 2599,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/36522f4a18d08216c8800b99532eaeba8c4695e5"
+    },
+    {
+      "path": "src/components/Breadcrumb",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7e33d5690c72f580320f4e615c136f5cffdb718e",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/7e33d5690c72f580320f4e615c136f5cffdb718e"
+    },
+    {
+      "path": "src/components/Breadcrumb/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e224ff73ebd2661a6dc7b528c892e383405d81b7",
+      "size": 2161,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/e224ff73ebd2661a6dc7b528c892e383405d81b7"
+    },
+    {
+      "path": "src/components/Charts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0f671f54a4d7e930e59280dc7dc9128f98bf5aab",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/0f671f54a4d7e930e59280dc7dc9128f98bf5aab"
+    },
+    {
+      "path": "src/components/Charts/Keyboard.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b258f3648c7e0a5e2b902fcb3e105256b15bd88",
+      "size": 3249,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/0b258f3648c7e0a5e2b902fcb3e105256b15bd88"
+    },
+    {
+      "path": "src/components/Charts/LineMarker.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3dd743691ebf2a9926637be3022816a2c9601765",
+      "size": 5365,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/3dd743691ebf2a9926637be3022816a2c9601765"
+    },
+    {
+      "path": "src/components/Charts/MixChart.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c416542ef581efa04a7dc908cd3ffae83fc29fe0",
+      "size": 5586,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/c416542ef581efa04a7dc908cd3ffae83fc29fe0"
+    },
+    {
+      "path": "src/components/Charts/mixins",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ecbd1b5df773cb057687b8ad0915352616e6ed43",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/ecbd1b5df773cb057687b8ad0915352616e6ed43"
+    },
+    {
+      "path": "src/components/Charts/mixins/resize.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1e76e947aef4ef6f386250c5b486dff3cefba34",
+      "size": 1418,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/b1e76e947aef4ef6f386250c5b486dff3cefba34"
+    },
+    {
+      "path": "src/components/DndList",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "69c16dc0a7a07ed4ed0c23df1c7b2a925d44e004",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/69c16dc0a7a07ed4ed0c23df1c7b2a925d44e004"
+    },
+    {
+      "path": "src/components/DndList/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23ca006efb9dd2772ab382e3049fc309a30b8a1c",
+      "size": 3706,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/23ca006efb9dd2772ab382e3049fc309a30b8a1c"
+    },
+    {
+      "path": "src/components/DragSelect",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "44859f0875e492d11dba1db45b9052ddf72f6108",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/44859f0875e492d11dba1db45b9052ddf72f6108"
+    },
+    {
+      "path": "src/components/DragSelect/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47f42474f1d2661414d974c79a8f1bc10733e6ce",
+      "size": 1382,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/47f42474f1d2661414d974c79a8f1bc10733e6ce"
+    },
+    {
+      "path": "src/components/Dropzone",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2049b8f0f1f3c815fb27a3bc1dc5c0953a45b71f",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/2049b8f0f1f3c815fb27a3bc1dc5c0953a45b71f"
+    },
+    {
+      "path": "src/components/Dropzone/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bad9eb90d4c701a3cd4ae094a75ba3c2e9cede07",
+      "size": 8402,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/bad9eb90d4c701a3cd4ae094a75ba3c2e9cede07"
+    },
+    {
+      "path": "src/components/ErrorLog",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2f8212f4ba71b638e3ef4d7147170568fec3005e",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/2f8212f4ba71b638e3ef4d7147170568fec3005e"
+    },
+    {
+      "path": "src/components/ErrorLog/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6119c0374f351b4a8f2286f5ae8cd1dbcf050ed6",
+      "size": 2134,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/6119c0374f351b4a8f2286f5ae8cd1dbcf050ed6"
+    },
+    {
+      "path": "src/components/GithubCorner",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a1317e0944b3d1489d2b0c5c8f540b6c9ffeb85a",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/a1317e0944b3d1489d2b0c5c8f540b6c9ffeb85a"
+    },
+    {
+      "path": "src/components/GithubCorner/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "970faaf179cd53ccd52c2996827c06be42748772",
+      "size": 1766,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/970faaf179cd53ccd52c2996827c06be42748772"
+    },
+    {
+      "path": "src/components/Hamburger",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "81e55ff2770b32bae8242190c09d8755187598dd",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/81e55ff2770b32bae8242190c09d8755187598dd"
+    },
+    {
+      "path": "src/components/Hamburger/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "368b002154ef7dfb2625e15a43d2ad264bfa040c",
+      "size": 1156,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/368b002154ef7dfb2625e15a43d2ad264bfa040c"
+    },
+    {
+      "path": "src/components/HeaderSearch",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6172efd2107b415d566d494f53dcccd5c69d98b5",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/6172efd2107b415d566d494f53dcccd5c69d98b5"
+    },
+    {
+      "path": "src/components/HeaderSearch/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6026ebb416cbd80eb44ffb1294020e49c45ac31e",
+      "size": 4173,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/6026ebb416cbd80eb44ffb1294020e49c45ac31e"
+    },
+    {
+      "path": "src/components/ImageCropper",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "148f7ba1a873839467773241170ef64a630e2515",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/148f7ba1a873839467773241170ef64a630e2515"
+    },
+    {
+      "path": "src/components/ImageCropper/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65a4262bebfb38b99255c42fe2d6c8a3322e9e0b",
+      "size": 43239,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/65a4262bebfb38b99255c42fe2d6c8a3322e9e0b"
+    },
+    {
+      "path": "src/components/ImageCropper/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b76e5f783886a03cc7c9d4df292e1ea3e69d94f6",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/b76e5f783886a03cc7c9d4df292e1ea3e69d94f6"
+    },
+    {
+      "path": "src/components/ImageCropper/utils/data2blob.js",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "9c47f8af5328686c427acf090c3e7eba96ec2765",
+      "size": 616,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/9c47f8af5328686c427acf090c3e7eba96ec2765"
+    },
+    {
+      "path": "src/components/ImageCropper/utils/effectRipple.js",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "46a01640a1e9eed6d2d81c87d9bf96b858c77271",
+      "size": 1380,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/46a01640a1e9eed6d2d81c87d9bf96b858c77271"
+    },
+    {
+      "path": "src/components/ImageCropper/utils/language.js",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "727872d96f4c2d054a4bc47108a93e6b0d44b379",
+      "size": 7277,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/727872d96f4c2d054a4bc47108a93e6b0d44b379"
+    },
+    {
+      "path": "src/components/ImageCropper/utils/mimes.js",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e20c085ca318859ce609f0d2e53c0b47238ff092",
+      "size": 139,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/e20c085ca318859ce609f0d2e53c0b47238ff092"
+    },
+    {
+      "path": "src/components/JsonEditor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8b42def8d3cfa5a4097d65e59be5b4829381e709",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/8b42def8d3cfa5a4097d65e59be5b4829381e709"
+    },
+    {
+      "path": "src/components/JsonEditor/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c05b090c3b45e78844a5316b79fb60df0e67ee51",
+      "size": 1616,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/c05b090c3b45e78844a5316b79fb60df0e67ee51"
+    },
+    {
+      "path": "src/components/Kanban",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dc27571a000689a29dd4ff2ddf0ae5f2a6829a05",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/dc27571a000689a29dd4ff2ddf0ae5f2a6829a05"
+    },
+    {
+      "path": "src/components/Kanban/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82f7dd7e05ba30410132789f879b1188586b788c",
+      "size": 1896,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/82f7dd7e05ba30410132789f879b1188586b788c"
+    },
+    {
+      "path": "src/components/MDinput",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2dff34203aa8faf36e4bd7f03ba26d5f8f6a5153",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/2dff34203aa8faf36e4bd7f03ba26d5f8f6a5153"
+    },
+    {
+      "path": "src/components/MDinput/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c59ea34a2d3c8d6a5539981714f6de9c8cb6b80c",
+      "size": 8451,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/c59ea34a2d3c8d6a5539981714f6de9c8cb6b80c"
+    },
+    {
+      "path": "src/components/MarkdownEditor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "91ef842b675724ba9c9394929c89555dfa9f09b8",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/91ef842b675724ba9c9394929c89555dfa9f09b8"
+    },
+    {
+      "path": "src/components/MarkdownEditor/default-options.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "303aa13d377a68406101de08a8f7fe703c1edecb",
+      "size": 556,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/303aa13d377a68406101de08a8f7fe703c1edecb"
+    },
+    {
+      "path": "src/components/MarkdownEditor/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a8a01ee767b515b32a4ebae76a2b84c30bdbc7e",
+      "size": 2508,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/1a8a01ee767b515b32a4ebae76a2b84c30bdbc7e"
+    },
+    {
+      "path": "src/components/Pagination",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9d0dd6341439d3bdbc530c59a9a46688e353f772",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/9d0dd6341439d3bdbc530c59a9a46688e353f772"
+    },
+    {
+      "path": "src/components/Pagination/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c815e132ce2d5ccb63d4a9a9aed80841ec884633",
+      "size": 1882,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/c815e132ce2d5ccb63d4a9a9aed80841ec884633"
+    },
+    {
+      "path": "src/components/PanThumb",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0815015b529d368fbf590db462d1c6cf86ae7174",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/0815015b529d368fbf590db462d1c6cf86ae7174"
+    },
+    {
+      "path": "src/components/PanThumb/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bcf41709c2dbe47a053530b78dc945411765670",
+      "size": 2850,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/1bcf41709c2dbe47a053530b78dc945411765670"
+    },
+    {
+      "path": "src/components/RightPanel",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7fb98f721ac9960d27d2f036e031202e3c048724",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/7fb98f721ac9960d27d2f036e031202e3c048724"
+    },
+    {
+      "path": "src/components/RightPanel/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55e8c1e5c0a95c487dbe27b7851925e4e0ae1629",
+      "size": 2838,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/55e8c1e5c0a95c487dbe27b7851925e4e0ae1629"
+    },
+    {
+      "path": "src/components/Screenfull",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9c035729fa632041a369653bb5a527f366804c2d",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/9c035729fa632041a369653bb5a527f366804c2d"
+    },
+    {
+      "path": "src/components/Screenfull/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "260c90de51c1d9dab6586692c24905d31414524e",
+      "size": 1049,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/260c90de51c1d9dab6586692c24905d31414524e"
+    },
+    {
+      "path": "src/components/Share",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0d0c5d252348add3f573b4ca784acfeb07ff6a18",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/0d0c5d252348add3f573b4ca784acfeb07ff6a18"
+    },
+    {
+      "path": "src/components/Share/DropdownMenu.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d194a517a8de97715c1ec641139fbaf7d3f7329c",
+      "size": 2098,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/d194a517a8de97715c1ec641139fbaf7d3f7329c"
+    },
+    {
+      "path": "src/components/SizeSelect",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5ae0b242cd16860b64bf8933404cc6b5918655a8",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/5ae0b242cd16860b64bf8933404cc6b5918655a8"
+    },
+    {
+      "path": "src/components/SizeSelect/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e88065b49f0d1a17e202e14301df07127e94ced4",
+      "size": 1344,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/e88065b49f0d1a17e202e14301df07127e94ced4"
+    },
+    {
+      "path": "src/components/Sticky",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aa58b37aebd329d1eac31794a861042dfaf92774",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/aa58b37aebd329d1eac31794a861042dfaf92774"
+    },
+    {
+      "path": "src/components/Sticky/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97ce0e96b95899a9d511365c73391b4bed23200d",
+      "size": 1932,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/97ce0e96b95899a9d511365c73391b4bed23200d"
+    },
+    {
+      "path": "src/components/SvgIcon",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bc80644dc2c50c29e229eda457242f7a8b3583b4",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/bc80644dc2c50c29e229eda457242f7a8b3583b4"
+    },
+    {
+      "path": "src/components/SvgIcon/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b07ded2af39d367113e28f68ca581b74b2625718",
+      "size": 1312,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/b07ded2af39d367113e28f68ca581b74b2625718"
+    },
+    {
+      "path": "src/components/TextHoverEffect",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "90b8cb111a29b6905d1b8b2b7c3b1a0422f7cca3",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/90b8cb111a29b6905d1b8b2b7c3b1a0422f7cca3"
+    },
+    {
+      "path": "src/components/TextHoverEffect/Mallki.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d6d16ca8008177e830750ba2a14e3f54049ae31",
+      "size": 2315,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/5d6d16ca8008177e830750ba2a14e3f54049ae31"
+    },
+    {
+      "path": "src/components/ThemePicker",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "48452d42e45646bb97c4d3aa307ae4fa921345d5",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/48452d42e45646bb97c4d3aa307ae4fa921345d5"
+    },
+    {
+      "path": "src/components/ThemePicker/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3879c5ad027dbb259063410ecde826529d26b43b",
+      "size": 4915,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/3879c5ad027dbb259063410ecde826529d26b43b"
+    },
+    {
+      "path": "src/components/Tinymce",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a33d1e01dd9b857ff27a9357417da8fda3665ec5",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/a33d1e01dd9b857ff27a9357417da8fda3665ec5"
+    },
+    {
+      "path": "src/components/Tinymce/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5aa3100f43c4911287c555ba3742dc562fe8cd2c",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/5aa3100f43c4911287c555ba3742dc562fe8cd2c"
+    },
+    {
+      "path": "src/components/Tinymce/components/EditorImage.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07d48e6cfda8c113904e4b382874fca190c9c5bb",
+      "size": 3086,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/07d48e6cfda8c113904e4b382874fca190c9c5bb"
+    },
+    {
+      "path": "src/components/Tinymce/dynamicLoadScript.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "185f58dcedcdec86ac5b00e6a016c8479f5d73e2",
+      "size": 1597,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/185f58dcedcdec86ac5b00e6a016c8479f5d73e2"
+    },
+    {
+      "path": "src/components/Tinymce/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb6b91c790d74ee3d7fc5d0bd1b56cd5e88990ff",
+      "size": 6625,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/cb6b91c790d74ee3d7fc5d0bd1b56cd5e88990ff"
+    },
+    {
+      "path": "src/components/Tinymce/plugins.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "058d2aef744cdca31983512519441a578a21d45e",
+      "size": 569,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/058d2aef744cdca31983512519441a578a21d45e"
+    },
+    {
+      "path": "src/components/Tinymce/toolbar.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f8a5450aa6d23a45ca06220a3563b1f695eb8c8",
+      "size": 484,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/4f8a5450aa6d23a45ca06220a3563b1f695eb8c8"
+    },
+    {
+      "path": "src/components/Upload",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "35edaf8f81438840067ddc961717ecd4f214ee4d",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/35edaf8f81438840067ddc961717ecd4f214ee4d"
+    },
+    {
+      "path": "src/components/Upload/SingleImage.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d16bbf37ae20fa0679875f10a1450a1a43cc5506",
+      "size": 3257,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/d16bbf37ae20fa0679875f10a1450a1a43cc5506"
+    },
+    {
+      "path": "src/components/Upload/SingleImage2.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07637a9e2e9dcbc05ef1f9a7a4d6eeb1155e72a5",
+      "size": 2708,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/07637a9e2e9dcbc05ef1f9a7a4d6eeb1155e72a5"
+    },
+    {
+      "path": "src/components/Upload/SingleImage3.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6300da4bd44752186c53f5ff448a3206a35ebcba",
+      "size": 3427,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/6300da4bd44752186c53f5ff448a3206a35ebcba"
+    },
+    {
+      "path": "src/components/UploadExcel",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "965930ddbdce89b814b53ab572ba15311957cee8",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/965930ddbdce89b814b53ab572ba15311957cee8"
+    },
+    {
+      "path": "src/components/UploadExcel/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e8ba8b6420a776f895f57481b3cfbd735772a24",
+      "size": 3791,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/9e8ba8b6420a776f895f57481b3cfbd735772a24"
+    },
+    {
+      "path": "src/directive",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1819efad65eae257138b4812ba1fa041b3ca8414",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/1819efad65eae257138b4812ba1fa041b3ca8414"
+    },
+    {
+      "path": "src/directive/clipboard",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a3d8f57d6dff5c570f7b3ca4dfef3a0bab58cd98",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/a3d8f57d6dff5c570f7b3ca4dfef3a0bab58cd98"
+    },
+    {
+      "path": "src/directive/clipboard/clipboard.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "514aad20d408f0344ac77bbfcf8e2e56fc249476",
+      "size": 1546,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/514aad20d408f0344ac77bbfcf8e2e56fc249476"
+    },
+    {
+      "path": "src/directive/clipboard/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02c98163f40b9dc1603717026d9b03639546c81e",
+      "size": 260,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/02c98163f40b9dc1603717026d9b03639546c81e"
+    },
+    {
+      "path": "src/directive/el-drag-dialog",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c64886f6ec0cbf4d1d3b52fdbb317270ddcfa862",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/c64886f6ec0cbf4d1d3b52fdbb317270ddcfa862"
+    },
+    {
+      "path": "src/directive/el-drag-dialog/drag.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "299e9854400aa55f20e1cca8f9f862c6b249be8a",
+      "size": 2521,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/299e9854400aa55f20e1cca8f9f862c6b249be8a"
+    },
+    {
+      "path": "src/directive/el-drag-dialog/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29facbfb3e9584bf0cca58619ffd77da963deb82",
+      "size": 243,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/29facbfb3e9584bf0cca58619ffd77da963deb82"
+    },
+    {
+      "path": "src/directive/el-table",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "210e48dc485fbd1726d169050132c8644c38821a",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/210e48dc485fbd1726d169050132c8644c38821a"
+    },
+    {
+      "path": "src/directive/el-table/adaptive.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d229e9fd9b421e333370367502a49d597e601b47",
+      "size": 1166,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/d229e9fd9b421e333370367502a49d597e601b47"
+    },
+    {
+      "path": "src/directive/el-table/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3d45150cec3f588d756028057da1213f28eb1d2",
+      "size": 287,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/d3d45150cec3f588d756028057da1213f28eb1d2"
+    },
+    {
+      "path": "src/directive/permission",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4ff9263b8841f136c67282f0b81937b7b181d4a1",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/4ff9263b8841f136c67282f0b81937b7b181d4a1"
+    },
+    {
+      "path": "src/directive/permission/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5dadd36ad275c37bd278d4f37fa177e2d7c266a",
+      "size": 271,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/e5dadd36ad275c37bd278d4f37fa177e2d7c266a"
+    },
+    {
+      "path": "src/directive/permission/permission.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49d1f889680e85d3f02d8783ff72d609fe07fa8a",
+      "size": 695,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/49d1f889680e85d3f02d8783ff72d609fe07fa8a"
+    },
+    {
+      "path": "src/directive/sticky.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc2346607e026e792004ddc3eb6c2a2735ef0d7e",
+      "size": 2496,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/bc2346607e026e792004ddc3eb6c2a2735ef0d7e"
+    },
+    {
+      "path": "src/directive/waves",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "25249b063f30fd310a9422618ca4a446c070a636",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/25249b063f30fd310a9422618ca4a446c070a636"
+    },
+    {
+      "path": "src/directive/waves/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65f9b3084c2a1f02c1a91f4814fa95b82106ae8d",
+      "size": 228,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/65f9b3084c2a1f02c1a91f4814fa95b82106ae8d"
+    },
+    {
+      "path": "src/directive/waves/waves.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af7a7efd9f1a0d239a34906c4a49eb2200df55c2",
+      "size": 825,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/af7a7efd9f1a0d239a34906c4a49eb2200df55c2"
+    },
+    {
+      "path": "src/directive/waves/waves.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec2ff439f77d4815eda95f2259830c7bb057099b",
+      "size": 2203,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/ec2ff439f77d4815eda95f2259830c7bb057099b"
+    },
+    {
+      "path": "src/filters",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "77168b920107dd49b270df8bbe4e5698513874da",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/77168b920107dd49b270df8bbe4e5698513874da"
+    },
+    {
+      "path": "src/filters/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98222339daf144ba52b587a931d463c915799512",
+      "size": 1603,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/98222339daf144ba52b587a931d463c915799512"
+    },
+    {
+      "path": "src/icons",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f565a96dd0836d728d77c1e2dd8f54e29d62bfae",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/f565a96dd0836d728d77c1e2dd8f54e29d62bfae"
+    },
+    {
+      "path": "src/icons/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c6b309c96cc2e43761a691860858f232f6d5d1a",
+      "size": 288,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/2c6b309c96cc2e43761a691860858f232f6d5d1a"
+    },
+    {
+      "path": "src/icons/svg",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ab7dbc34a1d187651632ed8537d3bc8f798bec63",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/ab7dbc34a1d187651632ed8537d3bc8f798bec63"
+    },
+    {
+      "path": "src/icons/svg/404.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6df50190aab43bd3a727b580fe2699ba36a4712c",
+      "size": 1444,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/6df50190aab43bd3a727b580fe2699ba36a4712c"
+    },
+    {
+      "path": "src/icons/svg/bug.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05a150dc3905ef7516e1b57b32bc49510c0f8763",
+      "size": 1575,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/05a150dc3905ef7516e1b57b32bc49510c0f8763"
+    },
+    {
+      "path": "src/icons/svg/chart.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27728fb0baae52c4430ef9d0332d1f0bbedaa564",
+      "size": 179,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/27728fb0baae52c4430ef9d0332d1f0bbedaa564"
+    },
+    {
+      "path": "src/icons/svg/clipboard.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90923ff6282ec6aa403936bbe44b68e134cb9bcf",
+      "size": 971,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/90923ff6282ec6aa403936bbe44b68e134cb9bcf"
+    },
+    {
+      "path": "src/icons/svg/component.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "207ada34f2143df86fc79f5b207ed2140311c54b",
+      "size": 319,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/207ada34f2143df86fc79f5b207ed2140311c54b"
+    },
+    {
+      "path": "src/icons/svg/dashboard.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5317d37029218281b4da78eccf40ce9e94941301",
+      "size": 2335,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/5317d37029218281b4da78eccf40ce9e94941301"
+    },
+    {
+      "path": "src/icons/svg/documentation.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "704312289e6ad2f65a3ace229e73fb5c7f3e94e9",
+      "size": 418,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/704312289e6ad2f65a3ace229e73fb5c7f3e94e9"
+    },
+    {
+      "path": "src/icons/svg/drag.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4185d3cee36930abb40838829058537388cc6dc6",
+      "size": 356,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/4185d3cee36930abb40838829058537388cc6dc6"
+    },
+    {
+      "path": "src/icons/svg/edit.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d26101f29893ee07c575d62caf1d0d684e76b3bc",
+      "size": 818,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/d26101f29893ee07c575d62caf1d0d684e76b3bc"
+    },
+    {
+      "path": "src/icons/svg/education.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bfb01d180f9ac9cf45429412129a7b7be4d8daf",
+      "size": 627,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/7bfb01d180f9ac9cf45429412129a7b7be4d8daf"
+    },
+    {
+      "path": "src/icons/svg/email.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74d25e21a6f98b90b34b2b8d2ce2dd90b38eb000",
+      "size": 347,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/74d25e21a6f98b90b34b2b8d2ce2dd90b38eb000"
+    },
+    {
+      "path": "src/icons/svg/example.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46f42b5323d11686c44b573729db0df115343d5c",
+      "size": 497,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/46f42b5323d11686c44b573729db0df115343d5c"
+    },
+    {
+      "path": "src/icons/svg/excel.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74d97b802f8bf84caf4c623e77f890f74516d50f",
+      "size": 459,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/74d97b802f8bf84caf4c623e77f890f74516d50f"
+    },
+    {
+      "path": "src/icons/svg/exit-fullscreen.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "485c128b6133188ae755c275a1c667634e4129b6",
+      "size": 1803,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/485c128b6133188ae755c275a1c667634e4129b6"
+    },
+    {
+      "path": "src/icons/svg/eye-open.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88dcc98e6c80d145e3807f00a6e5ed91ce5371e4",
+      "size": 1290,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/88dcc98e6c80d145e3807f00a6e5ed91ce5371e4"
+    },
+    {
+      "path": "src/icons/svg/eye.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16ed2d872d1cadeb36fc9101cbf77397fbf4fd70",
+      "size": 944,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/16ed2d872d1cadeb36fc9101cbf77397fbf4fd70"
+    },
+    {
+      "path": "src/icons/svg/form.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcbaa185a845cdf01a7fdfb849c224ce9c4af011",
+      "size": 2494,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/dcbaa185a845cdf01a7fdfb849c224ce9c4af011"
+    },
+    {
+      "path": "src/icons/svg/fullscreen.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e86b6fa803dbe964cae74f4432622d435b007bf",
+      "size": 421,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/0e86b6fa803dbe964cae74f4432622d435b007bf"
+    },
+    {
+      "path": "src/icons/svg/guide.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2710017933e9088e002873cde651bac54cea449",
+      "size": 320,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/b2710017933e9088e002873cde651bac54cea449"
+    },
+    {
+      "path": "src/icons/svg/icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82be8eeedb3d3cc9161f4a4094ac20d2f91e3970",
+      "size": 1076,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/82be8eeedb3d3cc9161f4a4094ac20d2f91e3970"
+    },
+    {
+      "path": "src/icons/svg/international.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9b56eee2c59774f0431186b9af2ba7593bffcc0",
+      "size": 1117,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/e9b56eee2c59774f0431186b9af2ba7593bffcc0"
+    },
+    {
+      "path": "src/icons/svg/language.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0082b577ab28523f353fa71c00cb338446b2bb9c",
+      "size": 1259,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/0082b577ab28523f353fa71c00cb338446b2bb9c"
+    },
+    {
+      "path": "src/icons/svg/link.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48197ba4da7b4314a16a19a698fe96c1b2a7ad0b",
+      "size": 285,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/48197ba4da7b4314a16a19a698fe96c1b2a7ad0b"
+    },
+    {
+      "path": "src/icons/svg/list.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20259eddb7c0cf77efe9cb1c561d2df8961094f5",
+      "size": 1017,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/20259eddb7c0cf77efe9cb1c561d2df8961094f5"
+    },
+    {
+      "path": "src/icons/svg/lock.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74fee543dd1d9bc0ceb3310cc87bf65e268bf364",
+      "size": 444,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/74fee543dd1d9bc0ceb3310cc87bf65e268bf364"
+    },
+    {
+      "path": "src/icons/svg/message.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14ca81728a3de16e103a858b4ce31f8e0f550bce",
+      "size": 669,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/14ca81728a3de16e103a858b4ce31f8e0f550bce"
+    },
+    {
+      "path": "src/icons/svg/money.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1580de10e1f1c504f7bfcaba4f41b24d816d8f2",
+      "size": 335,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/c1580de10e1f1c504f7bfcaba4f41b24d816d8f2"
+    },
+    {
+      "path": "src/icons/svg/nested.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06713a86c6a3db0cd5eeb26cf81ffb27b538e9a1",
+      "size": 821,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/06713a86c6a3db0cd5eeb26cf81ffb27b538e9a1"
+    },
+    {
+      "path": "src/icons/svg/password.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e291d85df22083536bb2e40fd18120ef6d6b141d",
+      "size": 623,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/e291d85df22083536bb2e40fd18120ef6d6b141d"
+    },
+    {
+      "path": "src/icons/svg/pdf.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "957aa0cc3597c1277ded6367716067c9874552e0",
+      "size": 1714,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/957aa0cc3597c1277ded6367716067c9874552e0"
+    },
+    {
+      "path": "src/icons/svg/people.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bd54aeb728197066e987e8d8d98364f50ed5be6",
+      "size": 1207,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/2bd54aeb728197066e987e8d8d98364f50ed5be6"
+    },
+    {
+      "path": "src/icons/svg/peoples.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aab852e52a33a5823fcdd5302111b45f4a4e13a7",
+      "size": 731,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/aab852e52a33a5823fcdd5302111b45f4a4e13a7"
+    },
+    {
+      "path": "src/icons/svg/qq.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee13d4ec2e54dbbe64009db689c502b05629721a",
+      "size": 3675,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/ee13d4ec2e54dbbe64009db689c502b05629721a"
+    },
+    {
+      "path": "src/icons/svg/search.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84233ddaa98a45d407cacdc869d9b7634f72d390",
+      "size": 600,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/84233ddaa98a45d407cacdc869d9b7634f72d390"
+    },
+    {
+      "path": "src/icons/svg/shopping.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87513e7c5fdd4260e48f7ead3501e0b9f9798c2a",
+      "size": 2236,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/87513e7c5fdd4260e48f7ead3501e0b9f9798c2a"
+    },
+    {
+      "path": "src/icons/svg/size.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddb25b8d58c52f1f0323483b1cbfd7a113512e0d",
+      "size": 211,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/ddb25b8d58c52f1f0323483b1cbfd7a113512e0d"
+    },
+    {
+      "path": "src/icons/svg/skill.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3b7312186fbd305a0c0ab902e2cc01e2f804f32",
+      "size": 1188,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/a3b7312186fbd305a0c0ab902e2cc01e2f804f32"
+    },
+    {
+      "path": "src/icons/svg/star.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cf86e66add37b5562fc4793dd9a218163f485b4",
+      "size": 563,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/6cf86e66add37b5562fc4793dd9a218163f485b4"
+    },
+    {
+      "path": "src/icons/svg/tab.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4b48e48085bb21b18da5386a6d4692a70301977",
+      "size": 655,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/b4b48e48085bb21b18da5386a6d4692a70301977"
+    },
+    {
+      "path": "src/icons/svg/table.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e3dc9dea5a0ff92d617cdfee4f10ef600a02433",
+      "size": 597,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/0e3dc9dea5a0ff92d617cdfee4f10ef600a02433"
+    },
+    {
+      "path": "src/icons/svg/theme.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5982a2f784052994f07138239eae96d8024531e9",
+      "size": 689,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/5982a2f784052994f07138239eae96d8024531e9"
+    },
+    {
+      "path": "src/icons/svg/tree-table.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8aafdb829ebbe289f352a533d9764c4f9395e533",
+      "size": 906,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/8aafdb829ebbe289f352a533d9764c4f9395e533"
+    },
+    {
+      "path": "src/icons/svg/tree.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd4b7dd22fe06076831935066592caec48e323b0",
+      "size": 1814,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/dd4b7dd22fe06076831935066592caec48e323b0"
+    },
+    {
+      "path": "src/icons/svg/user.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ba0716a62a92f7cb2f2e6f3c745ace2be6b3b31",
+      "size": 440,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/0ba0716a62a92f7cb2f2e6f3c745ace2be6b3b31"
+    },
+    {
+      "path": "src/icons/svg/wechat.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c586e5511722843f9c741d7530db146dfab864a4",
+      "size": 1173,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/c586e5511722843f9c741d7530db146dfab864a4"
+    },
+    {
+      "path": "src/icons/svg/zip.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f806fc4825739224caf820e6edf54e808961b1a6",
+      "size": 1460,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/f806fc4825739224caf820e6edf54e808961b1a6"
+    },
+    {
+      "path": "src/icons/svgo.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d11906aec26dd14372dd1b298f72270c38cce1b7",
+      "size": 248,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/d11906aec26dd14372dd1b298f72270c38cce1b7"
+    },
+    {
+      "path": "src/layout",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fec9578a033109910129786de604d37271752cef",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/fec9578a033109910129786de604d37271752cef"
+    },
+    {
+      "path": "src/layout/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "90f5ea6916dfc183a323d45e7b9b723e6cccb127",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/90f5ea6916dfc183a323d45e7b9b723e6cccb127"
+    },
+    {
+      "path": "src/layout/components/AppMain.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a89763806df2d5cb76afd06744ed4faf06d43a94",
+      "size": 969,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/a89763806df2d5cb76afd06744ed4faf06d43a94"
+    },
+    {
+      "path": "src/layout/components/Navbar.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37bc1e69a6a1fc9feacf22d1fbf24e1ebd7b26a9",
+      "size": 4078,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/37bc1e69a6a1fc9feacf22d1fbf24e1ebd7b26a9"
+    },
+    {
+      "path": "src/layout/components/Settings",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "09bcd798184a84692019c49eee3d9f3a2b49564f",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/09bcd798184a84692019c49eee3d9f3a2b49564f"
+    },
+    {
+      "path": "src/layout/components/Settings/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32ef0189e40d1fc0acad2a594a5b80dfcc650606",
+      "size": 2213,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/32ef0189e40d1fc0acad2a594a5b80dfcc650606"
+    },
+    {
+      "path": "src/layout/components/Sidebar",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5751c3d8fd7c36526b3189f64b3db2628f7db3df",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/5751c3d8fd7c36526b3189f64b3db2628f7db3df"
+    },
+    {
+      "path": "src/layout/components/Sidebar/FixiOSBug.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc14856f0768d6b1aed2f59bbfed3f2775977ac8",
+      "size": 633,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/bc14856f0768d6b1aed2f59bbfed3f2775977ac8"
+    },
+    {
+      "path": "src/layout/components/Sidebar/Item.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa1f5da4de23482ad3fdb4a0d8d07772117ecd36",
+      "size": 682,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/aa1f5da4de23482ad3fdb4a0d8d07772117ecd36"
+    },
+    {
+      "path": "src/layout/components/Sidebar/Link.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "530b3d5b3749538745ffbf2fcb32547a4de3bfa3",
+      "size": 657,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/530b3d5b3749538745ffbf2fcb32547a4de3bfa3"
+    },
+    {
+      "path": "src/layout/components/Sidebar/Logo.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac0c8d8fa9c43c32e55d0b198421ecaf1b9c3895",
+      "size": 1746,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/ac0c8d8fa9c43c32e55d0b198421ecaf1b9c3895"
+    },
+    {
+      "path": "src/layout/components/Sidebar/SidebarItem.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a418c3d712a6d23a6aa70f4fa779011cac3b64ef",
+      "size": 2653,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/a418c3d712a6d23a6aa70f4fa779011cac3b64ef"
+    },
+    {
+      "path": "src/layout/components/Sidebar/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb014a23fa97acd98634e7fe5baa5193e764c530",
+      "size": 1391,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/fb014a23fa97acd98634e7fe5baa5193e764c530"
+    },
+    {
+      "path": "src/layout/components/TagsView",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "875159facac04fbe92fb14e64e82a9709b64cb1c",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/875159facac04fbe92fb14e64e82a9709b64cb1c"
+    },
+    {
+      "path": "src/layout/components/TagsView/ScrollPane.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb753a12421f90bb05d559a33c34c92e07ef0124",
+      "size": 2633,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/bb753a12421f90bb05d559a33c34c92e07ef0124"
+    },
+    {
+      "path": "src/layout/components/TagsView/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2a56e70800fa9efb959ed45a26a696041336a48",
+      "size": 7718,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/d2a56e70800fa9efb959ed45a26a696041336a48"
+    },
+    {
+      "path": "src/layout/components/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "104bd3ac63fdad6e0d1c1fc60a21239b174006db",
+      "size": 257,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/104bd3ac63fdad6e0d1c1fc60a21239b174006db"
+    },
+    {
+      "path": "src/layout/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "965bcd1b1df67b0bab716b8e1e41f96d4a5788f4",
+      "size": 2268,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/965bcd1b1df67b0bab716b8e1e41f96d4a5788f4"
+    },
+    {
+      "path": "src/layout/mixin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fccbd488c93e8be1fef9ecef5c1c0f71a446796e",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/fccbd488c93e8be1fef9ecef5c1c0f71a446796e"
+    },
+    {
+      "path": "src/layout/mixin/ResizeHandler.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8d0df8c237c20405aacc19a1e317ce5b09cd5d1",
+      "size": 1235,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/e8d0df8c237c20405aacc19a1e317ce5b09cd5d1"
+    },
+    {
+      "path": "src/main.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5fa135dec2e8e0f59342d7c330ab63eae42212c",
+      "size": 1341,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/b5fa135dec2e8e0f59342d7c330ab63eae42212c"
+    },
+    {
+      "path": "src/permission.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff5eaad24da9bbedd9b983010fe29231af7c2e5b",
+      "size": 2445,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/ff5eaad24da9bbedd9b983010fe29231af7c2e5b"
+    },
+    {
+      "path": "src/router",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bb02905845ac40c40858fb050bdb8532b667d171",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/bb02905845ac40c40858fb050bdb8532b667d171"
+    },
+    {
+      "path": "src/router/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2be959d295739ff5730cc49174dcc716332a476b",
+      "size": 9911,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/2be959d295739ff5730cc49174dcc716332a476b"
+    },
+    {
+      "path": "src/router/modules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "156cae75e8967c090baaad93850c48c84a64627d",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/156cae75e8967c090baaad93850c48c84a64627d"
+    },
+    {
+      "path": "src/router/modules/charts.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29684dec0ed39d7f78c95de3295d08f663ddf6dd",
+      "size": 834,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/29684dec0ed39d7f78c95de3295d08f663ddf6dd"
+    },
+    {
+      "path": "src/router/modules/components.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0da96f97683489a169e72e9180e1cd7ec98f8701",
+      "size": 2738,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/0da96f97683489a169e72e9180e1cd7ec98f8701"
+    },
+    {
+      "path": "src/router/modules/nested.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48033ed19781c7fa28d78bdb67c5542a620b2a48",
+      "size": 1795,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/48033ed19781c7fa28d78bdb67c5542a620b2a48"
+    },
+    {
+      "path": "src/router/modules/table.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec28c527c82184908cde14c64fbe0607d0eaf49a",
+      "size": 1013,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/ec28c527c82184908cde14c64fbe0607d0eaf49a"
+    },
+    {
+      "path": "src/settings.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ebc7f293553abac09b984d8cc3174db1e1fd16b",
+      "size": 805,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/1ebc7f293553abac09b984d8cc3174db1e1fd16b"
+    },
+    {
+      "path": "src/store",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "422f10a352e77f36bb7736e9be5a86f651d85f61",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/422f10a352e77f36bb7736e9be5a86f651d85f61"
+    },
+    {
+      "path": "src/store/getters.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fcf5a59d1da67ca4d0f12f6ba506aed2506159a",
+      "size": 549,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/8fcf5a59d1da67ca4d0f12f6ba506aed2506159a"
+    },
+    {
+      "path": "src/store/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fd8395561c93326be8518c074f5f69ecee418c9",
+      "size": 687,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/0fd8395561c93326be8518c074f5f69ecee418c9"
+    },
+    {
+      "path": "src/store/modules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2260f220a81144e8f47a5d4f1d093982674106b0",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/2260f220a81144e8f47a5d4f1d093982674106b0"
+    },
+    {
+      "path": "src/store/modules/app.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45d89bb964f723a18a30281f991393336aa226ac",
+      "size": 1249,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/45d89bb964f723a18a30281f991393336aa226ac"
+    },
+    {
+      "path": "src/store/modules/errorLog.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b01f957543a78e2fff174283ebef65b8c9aa886",
+      "size": 406,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/6b01f957543a78e2fff174283ebef65b8c9aa886"
+    },
+    {
+      "path": "src/store/modules/permission.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aeb5ee53979ed0350694be9e673f233878f9bc7e",
+      "size": 1378,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/aeb5ee53979ed0350694be9e673f233878f9bc7e"
+    },
+    {
+      "path": "src/store/modules/settings.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "110533f7389080d1f01f0c2856cd55cfa4f084a5",
+      "size": 692,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/110533f7389080d1f01f0c2856cd55cfa4f084a5"
+    },
+    {
+      "path": "src/store/modules/tagsView.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57e72421e6b12fa20906ac59a7a442bfe5343c7a",
+      "size": 4075,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/57e72421e6b12fa20906ac59a7a442bfe5343c7a"
+    },
+    {
+      "path": "src/store/modules/user.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78009412befd6b7e3f93ae7bab9e5145b4dc6756",
+      "size": 3149,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/78009412befd6b7e3f93ae7bab9e5145b4dc6756"
+    },
+    {
+      "path": "src/styles",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6c238e0e49bb923b53614e3f22011d5662294b5b",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/6c238e0e49bb923b53614e3f22011d5662294b5b"
+    },
+    {
+      "path": "src/styles/btn.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6ba1a8e197532a3435f0d028717b21fc2c30c9f",
+      "size": 1370,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/e6ba1a8e197532a3435f0d028717b21fc2c30c9f"
+    },
+    {
+      "path": "src/styles/element-ui.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49474de3bd3ddc8e6b78d54c8a30c5481dfb2d61",
+      "size": 1137,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/49474de3bd3ddc8e6b78d54c8a30c5481dfb2d61"
+    },
+    {
+      "path": "src/styles/element-variables.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bdc4dadc42a88a16efc51d2911f18de8ae77373",
+      "size": 790,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/5bdc4dadc42a88a16efc51d2911f18de8ae77373"
+    },
+    {
+      "path": "src/styles/index.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96095ef6b3a52fca8dbbc65e59551594da02a477",
+      "size": 2750,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/96095ef6b3a52fca8dbbc65e59551594da02a477"
+    },
+    {
+      "path": "src/styles/mixin.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06fa06125834695b9ca9b679faaf46c574168c46",
+      "size": 1311,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/06fa06125834695b9ca9b679faaf46c574168c46"
+    },
+    {
+      "path": "src/styles/sidebar.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94760cc76136d17fe1350793dd07b98e85d370bb",
+      "size": 3980,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/94760cc76136d17fe1350793dd07b98e85d370bb"
+    },
+    {
+      "path": "src/styles/transition.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cb27cc811e28605bb6d0657a6257f0c901f6809",
+      "size": 714,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/4cb27cc811e28605bb6d0657a6257f0c901f6809"
+    },
+    {
+      "path": "src/styles/variables.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a19c27c1453d5e5f5666b3274836daba54e16acf",
+      "size": 771,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/a19c27c1453d5e5f5666b3274836daba54e16acf"
+    },
+    {
+      "path": "src/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e415e0f4105cd2f19eed55f2734d5c0d274d7a23",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/e415e0f4105cd2f19eed55f2734d5c0d274d7a23"
+    },
+    {
+      "path": "src/utils/auth.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08a43d6e299227a695497dd2d8a312096315958b",
+      "size": 271,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/08a43d6e299227a695497dd2d8a312096315958b"
+    },
+    {
+      "path": "src/utils/clipboard.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf5b07a1123934f014191fe2108bf92de93b2455",
+      "size": 633,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/cf5b07a1123934f014191fe2108bf92de93b2455"
+    },
+    {
+      "path": "src/utils/error-log.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7f5b55fd896bac15b4f3d4dadac7762c5cae67c",
+      "size": 920,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/a7f5b55fd896bac15b4f3d4dadac7762c5cae67c"
+    },
+    {
+      "path": "src/utils/get-page-title.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cab7fd912b18915d064278c366941f2f44ac937e",
+      "size": 234,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/cab7fd912b18915d064278c366941f2f44ac937e"
+    },
+    {
+      "path": "src/utils/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3225d3c4c2052c218a06d0dcbcc333230b517df2",
+      "size": 8299,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/3225d3c4c2052c218a06d0dcbcc333230b517df2"
+    },
+    {
+      "path": "src/utils/open-window.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a655d777ff6c5be13ee11b5a8ceca7584bbc1a7",
+      "size": 1173,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/1a655d777ff6c5be13ee11b5a8ceca7584bbc1a7"
+    },
+    {
+      "path": "src/utils/permission.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e2bbadad0b3837edc2565b6cf5c323680855a6c",
+      "size": 561,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/8e2bbadad0b3837edc2565b6cf5c323680855a6c"
+    },
+    {
+      "path": "src/utils/request.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fb95ac0fa781dd3c17f30b41b13dcd4dffbf2e9",
+      "size": 2343,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/2fb95ac0fa781dd3c17f30b41b13dcd4dffbf2e9"
+    },
+    {
+      "path": "src/utils/scroll-to.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5d8e04e07b21b45da43c4dadd7c65ee0d946289",
+      "size": 1714,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/c5d8e04e07b21b45da43c4dadd7c65ee0d946289"
+    },
+    {
+      "path": "src/utils/validate.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b3ac41809d8ee2307c8b361b51e8c41ba986d0e",
+      "size": 1932,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/6b3ac41809d8ee2307c8b361b51e8c41ba986d0e"
+    },
+    {
+      "path": "src/vendor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a5d34c952fb317250de1d89c67bfb97361d65174",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/a5d34c952fb317250de1d89c67bfb97361d65174"
+    },
+    {
+      "path": "src/vendor/Export2Excel.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8a2af3d4b4d16fd906a940933cd24e38ad0dee2",
+      "size": 5361,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/d8a2af3d4b4d16fd906a940933cd24e38ad0dee2"
+    },
+    {
+      "path": "src/vendor/Export2Zip.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db70707d6d58a45cc74ca4aef6212a6041c8ac89",
+      "size": 602,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/db70707d6d58a45cc74ca4aef6212a6041c8ac89"
+    },
+    {
+      "path": "src/views",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d4c465b9f07b444051d8695af91ed676a4ac7a0d",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/d4c465b9f07b444051d8695af91ed676a4ac7a0d"
+    },
+    {
+      "path": "src/views/charts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a07fefb1c08eb7b8d0eb07292186e27396cc2d6b",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/a07fefb1c08eb7b8d0eb07292186e27396cc2d6b"
+    },
+    {
+      "path": "src/views/charts/keyboard.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "917f8eebdf00b5ad07441adde6430410556a96ca",
+      "size": 356,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/917f8eebdf00b5ad07441adde6430410556a96ca"
+    },
+    {
+      "path": "src/views/charts/line.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fea1497ef5de9e6b0bfd94023bc2b18d5e4c1589",
+      "size": 354,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/fea1497ef5de9e6b0bfd94023bc2b18d5e4c1589"
+    },
+    {
+      "path": "src/views/charts/mix-chart.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c57db75a7a1c1f5e36f9521db6f4f3d9fb667f42",
+      "size": 351,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/c57db75a7a1c1f5e36f9521db6f4f3d9fb667f42"
+    },
+    {
+      "path": "src/views/clipboard",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6cd5041b0d9e4931891063ff7893f0290fdada75",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/6cd5041b0d9e4931891063ff7893f0290fdada75"
+    },
+    {
+      "path": "src/views/clipboard/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a6bdd1e2741589ebde74c38a235020b86a65dc2",
+      "size": 1411,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/4a6bdd1e2741589ebde74c38a235020b86a65dc2"
+    },
+    {
+      "path": "src/views/components-demo",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2b36c3ddd3fc57e771c5fa4c7e608665a22ad3b7",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/2b36c3ddd3fc57e771c5fa4c7e608665a22ad3b7"
+    },
+    {
+      "path": "src/views/components-demo/avatar-upload.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cb20a56aeaa448aa92681482201613ee33f6a94",
+      "size": 1588,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/5cb20a56aeaa448aa92681482201613ee33f6a94"
+    },
+    {
+      "path": "src/views/components-demo/back-to-top.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df5370befeae189a815050bd1b45d64b1832452d",
+      "size": 4576,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/df5370befeae189a815050bd1b45d64b1832452d"
+    },
+    {
+      "path": "src/views/components-demo/count-to.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70681df691eace66b598ac4dd8fcd55240f348cb",
+      "size": 5088,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/70681df691eace66b598ac4dd8fcd55240f348cb"
+    },
+    {
+      "path": "src/views/components-demo/dnd-list.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e299fa68b6da2fbafd950636926eb6a969ac369b",
+      "size": 838,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/e299fa68b6da2fbafd950636926eb6a969ac369b"
+    },
+    {
+      "path": "src/views/components-demo/drag-dialog.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c815b282e147f195ca04513cae43d110fa8cf0c6",
+      "size": 1898,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/c815b282e147f195ca04513cae43d110fa8cf0c6"
+    },
+    {
+      "path": "src/views/components-demo/drag-kanban.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "943be455328ba73397331e1b72e1a5027f0f2031",
+      "size": 1401,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/943be455328ba73397331e1b72e1a5027f0f2031"
+    },
+    {
+      "path": "src/views/components-demo/drag-select.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "905ecb94e906a744e15cfa56d5f85c7a26503aff",
+      "size": 1009,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/905ecb94e906a744e15cfa56d5f85c7a26503aff"
+    },
+    {
+      "path": "src/views/components-demo/dropzone.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8c1040056843a87e3e99ec518d3c090b7a21b18",
+      "size": 986,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/a8c1040056843a87e3e99ec518d3c090b7a21b18"
+    },
+    {
+      "path": "src/views/components-demo/json-editor.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85bf3834d2cf997bf67b49e26d4b9e9755a7545f",
+      "size": 1524,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/85bf3834d2cf997bf67b49e26d4b9e9755a7545f"
+    },
+    {
+      "path": "src/views/components-demo/markdown.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25cf3e3763955f93c62ecfa668df6fce04f89c80",
+      "size": 2354,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/25cf3e3763955f93c62ecfa668df6fce04f89c80"
+    },
+    {
+      "path": "src/views/components-demo/mixin.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "425cf4fb431388c48b5946211e3e5fba8dbe5fbd",
+      "size": 5241,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/425cf4fb431388c48b5946211e3e5fba8dbe5fbd"
+    },
+    {
+      "path": "src/views/components-demo/split-pane.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7dba353fe0915df81329c1b02d584bb86bc290b6",
+      "size": 1488,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/7dba353fe0915df81329c1b02d584bb86bc290b6"
+    },
+    {
+      "path": "src/views/components-demo/sticky.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f01d088a2d712235a7b1b35848ac91be801c5619",
+      "size": 3757,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/f01d088a2d712235a7b1b35848ac91be801c5619"
+    },
+    {
+      "path": "src/views/components-demo/tinymce.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f03389a00a6700b5f475899b38ea1479b1bdfb1a",
+      "size": 1592,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/f03389a00a6700b5f475899b38ea1479b1bdfb1a"
+    },
+    {
+      "path": "src/views/dashboard",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "221be7dba561e9128c3c3c30d19ac40a5e7c7f5d",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/221be7dba561e9128c3c3c30d19ac40a5e7c7f5d"
+    },
+    {
+      "path": "src/views/dashboard/admin",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b5f4e71c030a5f1e315fb33431474647aa99e3d7",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/b5f4e71c030a5f1e315fb33431474647aa99e3d7"
+    },
+    {
+      "path": "src/views/dashboard/admin/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8231d2765596d75a9469544ae33cc094f3d06628",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/8231d2765596d75a9469544ae33cc094f3d06628"
+    },
+    {
+      "path": "src/views/dashboard/admin/components/BarChart.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be0af34f841d40aeaaa4ff25bc6bf5d6afb256a1",
+      "size": 2153,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/be0af34f841d40aeaaa4ff25bc6bf5d6afb256a1"
+    },
+    {
+      "path": "src/views/dashboard/admin/components/BoxCard.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ec1d378b90c2aafb79943026ab9322ce634ff48",
+      "size": 2547,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/1ec1d378b90c2aafb79943026ab9322ce634ff48"
+    },
+    {
+      "path": "src/views/dashboard/admin/components/LineChart.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e654168dd32191ffd232f3ab3bed942fbee0fa37",
+      "size": 2707,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/e654168dd32191ffd232f3ab3bed942fbee0fa37"
+    },
+    {
+      "path": "src/views/dashboard/admin/components/PanelGroup.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "589236ed5fc61f27b5de267f31d4eb4a4cd42a1c",
+      "size": 4259,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/589236ed5fc61f27b5de267f31d4eb4a4cd42a1c"
+    },
+    {
+      "path": "src/views/dashboard/admin/components/PieChart.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d2ef32a5cf2bac3818596ad54ed2956afd8ab67",
+      "size": 1680,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/4d2ef32a5cf2bac3818596ad54ed2956afd8ab67"
+    },
+    {
+      "path": "src/views/dashboard/admin/components/RaddarChart.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52c8f9fb7f6559a7f69519dd43d635276fe0721b",
+      "size": 2782,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/52c8f9fb7f6559a7f69519dd43d635276fe0721b"
+    },
+    {
+      "path": "src/views/dashboard/admin/components/TodoList",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1ccddb98cf971a4814cb4100938fc761d96ed49c",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/1ccddb98cf971a4814cb4100938fc761d96ed49c"
+    },
+    {
+      "path": "src/views/dashboard/admin/components/TodoList/Todo.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4b3cae2166496cd6f758f139f46a33a048a2d48",
+      "size": 1594,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/c4b3cae2166496cd6f758f139f46a33a048a2d48"
+    },
+    {
+      "path": "src/views/dashboard/admin/components/TodoList/index.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74ce0d54ff0389b864906b96409be9670234de36",
+      "size": 7712,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/74ce0d54ff0389b864906b96409be9670234de36"
+    },
+    {
+      "path": "src/views/dashboard/admin/components/TodoList/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8000d4146b5b1461533a80a241545dbac13f6dda",
+      "size": 3448,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/8000d4146b5b1461533a80a241545dbac13f6dda"
+    },
+    {
+      "path": "src/views/dashboard/admin/components/TransactionTable.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d07b0edf6b07d2648b05ae1d1c23cfb52fbc831e",
+      "size": 1278,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/d07b0edf6b07d2648b05ae1d1c23cfb52fbc831e"
+    },
+    {
+      "path": "src/views/dashboard/admin/components/mixins",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f0cb5b21656aa0bd60c903ac5a99951cffe40a21",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/f0cb5b21656aa0bd60c903ac5a99951cffe40a21"
+    },
+    {
+      "path": "src/views/dashboard/admin/components/mixins/resize.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "234953b18aaf76fcbe81083c5c23a63b5f7c66ce",
+      "size": 1563,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/234953b18aaf76fcbe81083c5c23a63b5f7c66ce"
+    },
+    {
+      "path": "src/views/dashboard/admin/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cb557be1f48edf79fc1d5a7f747e446d8cd150e",
+      "size": 3118,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/8cb557be1f48edf79fc1d5a7f747e446d8cd150e"
+    },
+    {
+      "path": "src/views/dashboard/editor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2b9914f977f5b7c143c2fd5677cfa3bd04263d60",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/2b9914f977f5b7c143c2fd5677cfa3bd04263d60"
+    },
+    {
+      "path": "src/views/dashboard/editor/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9723bcce3783d8b91fb854e8f730712180019005",
+      "size": 1721,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/9723bcce3783d8b91fb854e8f730712180019005"
+    },
+    {
+      "path": "src/views/dashboard/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1720ea8fae903d5af54c50e0afbb7dfc0db500e1",
+      "size": 565,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/1720ea8fae903d5af54c50e0afbb7dfc0db500e1"
+    },
+    {
+      "path": "src/views/documentation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d852d35e9b58b831e55ffeaab28d973e841fdd69",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/d852d35e9b58b831e55ffeaab28d973e841fdd69"
+    },
+    {
+      "path": "src/views/documentation/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09f5951bc15f2736d5bc23162579120bf50ebca4",
+      "size": 2403,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/09f5951bc15f2736d5bc23162579120bf50ebca4"
+    },
+    {
+      "path": "src/views/error-log",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9b54d160d47776d7c3aeaf2e8edf9018a3949efa",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/9b54d160d47776d7c3aeaf2e8edf9018a3949efa"
+    },
+    {
+      "path": "src/views/error-log/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d2da4cfa2a8fe2feaa060e9580f4e71e0b3083a1",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/d2da4cfa2a8fe2feaa060e9580f4e71e0b3083a1"
+    },
+    {
+      "path": "src/views/error-log/components/ErrorTestA.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52654e0e2e37f7df6b16795e0db7834a2e81365a",
+      "size": 158,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/52654e0e2e37f7df6b16795e0db7834a2e81365a"
+    },
+    {
+      "path": "src/views/error-log/components/ErrorTestB.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d796beefdcaab23f6a06ad3ed1946a28595ef9cc",
+      "size": 128,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/d796beefdcaab23f6a06ad3ed1946a28595ef9cc"
+    },
+    {
+      "path": "src/views/error-log/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e999c85bc064095157f12f1ffe2ed511485d2157",
+      "size": 1046,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/e999c85bc064095157f12f1ffe2ed511485d2157"
+    },
+    {
+      "path": "src/views/error-page",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fb451cd7cc66dcecf0c32fc744ca9357bb5428c3",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/fb451cd7cc66dcecf0c32fc744ca9357bb5428c3"
+    },
+    {
+      "path": "src/views/error-page/401.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a52ed23b84650f8a79a44f4da685a3d647acd0ac",
+      "size": 2366,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/a52ed23b84650f8a79a44f4da685a3d647acd0ac"
+    },
+    {
+      "path": "src/views/error-page/404.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1791f55a34ef18dae1cbd583d62f997bf33fffa9",
+      "size": 5227,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/1791f55a34ef18dae1cbd583d62f997bf33fffa9"
+    },
+    {
+      "path": "src/views/example",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c22bd348df00fc977eb59c0a0217d9d277dbcf0f",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/c22bd348df00fc977eb59c0a0217d9d277dbcf0f"
+    },
+    {
+      "path": "src/views/example/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "110a3ec0b3636b2aac62f048275b9deae2534547",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/110a3ec0b3636b2aac62f048275b9deae2534547"
+    },
+    {
+      "path": "src/views/example/components/ArticleDetail.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "157497b244eeb50b3744aacf6af3e19e67bd06d8",
+      "size": 8944,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/157497b244eeb50b3744aacf6af3e19e67bd06d8"
+    },
+    {
+      "path": "src/views/example/components/Dropdown",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "25293c2cb61dfa5699117d3cfad3df8d3484fc24",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/25293c2cb61dfa5699117d3cfad3df8d3484fc24"
+    },
+    {
+      "path": "src/views/example/components/Dropdown/Comment.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d34b2b906d24cc0f58b99eff63ee2122fd7e0acf",
+      "size": 924,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/d34b2b906d24cc0f58b99eff63ee2122fd7e0acf"
+    },
+    {
+      "path": "src/views/example/components/Dropdown/Platform.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a527264577f1731c794341a687733bd92491ea4",
+      "size": 1077,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/0a527264577f1731c794341a687733bd92491ea4"
+    },
+    {
+      "path": "src/views/example/components/Dropdown/SourceUrl.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f47485a3587abacd7c764fe98163f92f7e2310c",
+      "size": 850,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/8f47485a3587abacd7c764fe98163f92f7e2310c"
+    },
+    {
+      "path": "src/views/example/components/Dropdown/index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc0c171b9d4b9b92fab4513731107b59a6bfd6e0",
+      "size": 171,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/bc0c171b9d4b9b92fab4513731107b59a6bfd6e0"
+    },
+    {
+      "path": "src/views/example/components/Warning.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d2a7e5ad36c23500f042cbbe4a86f37ce8f551a",
+      "size": 575,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/8d2a7e5ad36c23500f042cbbe4a86f37ce8f551a"
+    },
+    {
+      "path": "src/views/example/create.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f28ce287cbb5cbfcdf26ceb283e05eca52338882",
+      "size": 214,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/f28ce287cbb5cbfcdf26ceb283e05eca52338882"
+    },
+    {
+      "path": "src/views/example/edit.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87b612601c1ad7a6b039af8e8453d2333af069cf",
+      "size": 208,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/87b612601c1ad7a6b039af8e8453d2333af069cf"
+    },
+    {
+      "path": "src/views/example/list.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cdc4ac092e5c176f342af176c5712fc3ce1515a",
+      "size": 3065,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/7cdc4ac092e5c176f342af176c5712fc3ce1515a"
+    },
+    {
+      "path": "src/views/excel",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "557a09db4f79ee14ce0a88fc5ac53703af20992f",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/557a09db4f79ee14ce0a88fc5ac53703af20992f"
+    },
+    {
+      "path": "src/views/excel/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "956f9136474e53f68a66cf28ad4ebf000b6c24e8",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/956f9136474e53f68a66cf28ad4ebf000b6c24e8"
+    },
+    {
+      "path": "src/views/excel/components/AutoWidthOption.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9050e659408f5b2127c28609764f2f1befb655b2",
+      "size": 593,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/9050e659408f5b2127c28609764f2f1befb655b2"
+    },
+    {
+      "path": "src/views/excel/components/BookTypeOption.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af9fed391b6f511b56ae3cfddc1d1f831d400b38",
+      "size": 652,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/af9fed391b6f511b56ae3cfddc1d1f831d400b38"
+    },
+    {
+      "path": "src/views/excel/components/FilenameOption.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75092235ce9db8721c497debc80e9e32a73a5cdd",
+      "size": 553,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/75092235ce9db8721c497debc80e9e32a73a5cdd"
+    },
+    {
+      "path": "src/views/excel/export-excel.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4d7500b49f6065fbe44a9d247738b56baf84694",
+      "size": 3459,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/b4d7500b49f6065fbe44a9d247738b56baf84694"
+    },
+    {
+      "path": "src/views/excel/merge-header.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4be0227d76980a0a459015c15e4738da705d5052",
+      "size": 2867,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/4be0227d76980a0a459015c15e4738da705d5052"
+    },
+    {
+      "path": "src/views/excel/select-excel.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05b85fb81f323b401ed8d563f99d993c9f7bd98a",
+      "size": 3327,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/05b85fb81f323b401ed8d563f99d993c9f7bd98a"
+    },
+    {
+      "path": "src/views/excel/upload-excel.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1772b7fdad0882129ecadb8c20df38bd5b6f779b",
+      "size": 1013,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/1772b7fdad0882129ecadb8c20df38bd5b6f779b"
+    },
+    {
+      "path": "src/views/guide",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cebd73ff503493983c236b49b2ef22392d721558",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/cebd73ff503493983c236b49b2ef22392d721558"
+    },
+    {
+      "path": "src/views/guide/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4897c8fb4adf0f405000331f3df6515b7dfad6f4",
+      "size": 866,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/4897c8fb4adf0f405000331f3df6515b7dfad6f4"
+    },
+    {
+      "path": "src/views/guide/steps.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "283c672e07a5bef630f5150d1acc1971096ede9c",
+      "size": 1048,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/283c672e07a5bef630f5150d1acc1971096ede9c"
+    },
+    {
+      "path": "src/views/icons",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4068b656823a61082ebf0c3f20236adc1bb3aa8b",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/4068b656823a61082ebf0c3f20236adc1bb3aa8b"
+    },
+    {
+      "path": "src/views/icons/element-icons.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ea4d63fdeed8af3c21c728e9fbfc5153d8ecd46",
+      "size": 3631,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/9ea4d63fdeed8af3c21c728e9fbfc5153d8ecd46"
+    },
+    {
+      "path": "src/views/icons/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c483db4ffaa7a7ed098fad412f43ffd612696f4",
+      "size": 2436,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/4c483db4ffaa7a7ed098fad412f43ffd612696f4"
+    },
+    {
+      "path": "src/views/icons/svg-icons.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e3c66d26d271172c32ea8da11c35c91c6d7c518",
+      "size": 248,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/1e3c66d26d271172c32ea8da11c35c91c6d7c518"
+    },
+    {
+      "path": "src/views/login",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c98e56c5dde88a6950f79aa353d5ff108270f237",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/c98e56c5dde88a6950f79aa353d5ff108270f237"
+    },
+    {
+      "path": "src/views/login/auth-redirect.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7df89342ac3a978e07f804db8d12325463966194",
+      "size": 318,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/7df89342ac3a978e07f804db8d12325463966194"
+    },
+    {
+      "path": "src/views/login/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ebb088e6bc65b0d389ab12b68bbde88c020b080b",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/ebb088e6bc65b0d389ab12b68bbde88c020b080b"
+    },
+    {
+      "path": "src/views/login/components/SocialSignin.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9bf4f21a7196b67ba6942b94b0bd6efdede613f",
+      "size": 2166,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/e9bf4f21a7196b67ba6942b94b0bd6efdede613f"
+    },
+    {
+      "path": "src/views/login/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "259064059442806a74c841ec1faa246334484b07",
+      "size": 7927,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/259064059442806a74c841ec1faa246334484b07"
+    },
+    {
+      "path": "src/views/nested",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "15ad2d830396f8caea949f972840832bc7d97c6b",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/15ad2d830396f8caea949f972840832bc7d97c6b"
+    },
+    {
+      "path": "src/views/nested/menu1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2620f44ef5bada36db9dde5a3d8ed5ae164c3a11",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/2620f44ef5bada36db9dde5a3d8ed5ae164c3a11"
+    },
+    {
+      "path": "src/views/nested/menu1/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30cb670118ee7441850a6f8f83bda2b3514d8e0c",
+      "size": 148,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/30cb670118ee7441850a6f8f83bda2b3514d8e0c"
+    },
+    {
+      "path": "src/views/nested/menu1/menu1-1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f63b6748944eeea58f7e5271310bc9efeeb5b24e",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/f63b6748944eeea58f7e5271310bc9efeeb5b24e"
+    },
+    {
+      "path": "src/views/nested/menu1/menu1-1/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27e173a6b473d2eb308f059384bf9c4790894a5f",
+      "size": 165,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/27e173a6b473d2eb308f059384bf9c4790894a5f"
+    },
+    {
+      "path": "src/views/nested/menu1/menu1-2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "707851a89dbb3ed8caf0f18ed89c7b762da87432",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/707851a89dbb3ed8caf0f18ed89c7b762da87432"
+    },
+    {
+      "path": "src/views/nested/menu1/menu1-2/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c86276e0162396768de0d2781927e7d0322130f",
+      "size": 165,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/0c86276e0162396768de0d2781927e7d0322130f"
+    },
+    {
+      "path": "src/views/nested/menu1/menu1-2/menu1-2-1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "09130919e2f3404619a4b6908a0d65fb9941fd59",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/09130919e2f3404619a4b6908a0d65fb9941fd59"
+    },
+    {
+      "path": "src/views/nested/menu1/menu1-2/menu1-2-1/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f87d88f4908681b45eae1fbb26389b86b5f9cc1d",
+      "size": 142,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/f87d88f4908681b45eae1fbb26389b86b5f9cc1d"
+    },
+    {
+      "path": "src/views/nested/menu1/menu1-2/menu1-2-2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "37909a50bc489aa205902b5bfeb17db1da1179b2",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/37909a50bc489aa205902b5bfeb17db1da1179b2"
+    },
+    {
+      "path": "src/views/nested/menu1/menu1-2/menu1-2-2/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d88789f205ed5bbba622bfb1b6291ad827e6004d",
+      "size": 142,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/d88789f205ed5bbba622bfb1b6291ad827e6004d"
+    },
+    {
+      "path": "src/views/nested/menu1/menu1-3",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "55eb7908d5273ec78dd368c6fc8fceaae65fd9fc",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/55eb7908d5273ec78dd368c6fc8fceaae65fd9fc"
+    },
+    {
+      "path": "src/views/nested/menu1/menu1-3/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7cd0738f1b36e662bf6b088b337c79865878c4c",
+      "size": 140,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/f7cd0738f1b36e662bf6b088b337c79865878c4c"
+    },
+    {
+      "path": "src/views/nested/menu2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "64d006aa5fe043e661609869132e890d0dc7ec90",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/64d006aa5fe043e661609869132e890d0dc7ec90"
+    },
+    {
+      "path": "src/views/nested/menu2/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19dd48f0edf37f54317f14b0cfb707d00ab04f11",
+      "size": 112,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/19dd48f0edf37f54317f14b0cfb707d00ab04f11"
+    },
+    {
+      "path": "src/views/pdf",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c03aabf43bd3978c9b44e180da978316e5fe97c3",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/c03aabf43bd3978c9b44e180da978316e5fe97c3"
+    },
+    {
+      "path": "src/views/pdf/content.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e62b1a2b17f0c2f4862f35dc35c007f42bff5ec5",
+      "size": 10761,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/e62b1a2b17f0c2f4862f35dc35c007f42bff5ec5"
+    },
+    {
+      "path": "src/views/pdf/download.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a348c6978b06d4a2812d7364ae5562df3685b24a",
+      "size": 3831,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/a348c6978b06d4a2812d7364ae5562df3685b24a"
+    },
+    {
+      "path": "src/views/pdf/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86278b38a0b0ec3e4368df05ed2c0bb720de571d",
+      "size": 345,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/86278b38a0b0ec3e4368df05ed2c0bb720de571d"
+    },
+    {
+      "path": "src/views/permission",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "de4efad72e9a70480db1c2fe4a3cc05aa0606f0e",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/de4efad72e9a70480db1c2fe4a3cc05aa0606f0e"
+    },
+    {
+      "path": "src/views/permission/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "072abd528fb443708ffc1ac0679021ea64a8f111",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/072abd528fb443708ffc1ac0679021ea64a8f111"
+    },
+    {
+      "path": "src/views/permission/components/SwitchRoles.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fabbe19e58dc6a6a4c013786b6035af8fc2b51d",
+      "size": 611,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/9fabbe19e58dc6a6a4c013786b6035af8fc2b51d"
+    },
+    {
+      "path": "src/views/permission/directive.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a497928f1b3daf32023391c1d0f60f3da008e90",
+      "size": 3401,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/4a497928f1b3daf32023391c1d0f60f3da008e90"
+    },
+    {
+      "path": "src/views/permission/page.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5291a78294e9a91675a01f006fa86add8f22fa62",
+      "size": 378,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/5291a78294e9a91675a01f006fa86add8f22fa62"
+    },
+    {
+      "path": "src/views/permission/role.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd7ecd4cb695ecdb5f48b0a2cfe8ebc5e0c2dca0",
+      "size": 7914,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/cd7ecd4cb695ecdb5f48b0a2cfe8ebc5e0c2dca0"
+    },
+    {
+      "path": "src/views/profile",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "792c326b13fef68b4300039b8463757376919013",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/792c326b13fef68b4300039b8463757376919013"
+    },
+    {
+      "path": "src/views/profile/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "064bc509b87ef1a3cf7a634fa1bd8d4f1bf3a30a",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/064bc509b87ef1a3cf7a634fa1bd8d4f1bf3a30a"
+    },
+    {
+      "path": "src/views/profile/components/Account.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f2e3865a4edcf4185a296aec733a0312a28b0ba",
+      "size": 727,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/9f2e3865a4edcf4185a296aec733a0312a28b0ba"
+    },
+    {
+      "path": "src/views/profile/components/Activity.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd5db3a5c553ece8512a994a1e6b663184441089",
+      "size": 4598,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/dd5db3a5c553ece8512a994a1e6b663184441089"
+    },
+    {
+      "path": "src/views/profile/components/Timeline.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba90b3d27b9edc7c2ba054b4e3b5a7c18cb6e609",
+      "size": 1052,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/ba90b3d27b9edc7c2ba054b4e3b5a7c18cb6e609"
+    },
+    {
+      "path": "src/views/profile/components/UserCard.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2476f04a4b6a41bc7e8bd71d7e8aaf2a8f217ab0",
+      "size": 2859,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/2476f04a4b6a41bc7e8bd71d7e8aaf2a8f217ab0"
+    },
+    {
+      "path": "src/views/profile/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87e4f94fe72fdebf02fa283af0da5e4718e6fa88",
+      "size": 1487,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/87e4f94fe72fdebf02fa283af0da5e4718e6fa88"
+    },
+    {
+      "path": "src/views/qiniu",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9e30383a822c704bd435e1ef4648faf9de5fe1c4",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/9e30383a822c704bd435e1ef4648faf9de5fe1c4"
+    },
+    {
+      "path": "src/views/qiniu/upload.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dc9aedadab005fbf7aab9dc068e210ce4c533e8",
+      "size": 1074,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/9dc9aedadab005fbf7aab9dc068e210ce4c533e8"
+    },
+    {
+      "path": "src/views/redirect",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3f69cc794f50a3694834a6fc5803a7817429c989",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/3f69cc794f50a3694834a6fc5803a7817429c989"
+    },
+    {
+      "path": "src/views/redirect/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db4c1d66d13ee0e5e29baef1b4b05347a45f7377",
+      "size": 249,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/db4c1d66d13ee0e5e29baef1b4b05347a45f7377"
+    },
+    {
+      "path": "src/views/tab",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5bac19ffe0b783c8d6591943e4626101cf54a8f4",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/5bac19ffe0b783c8d6591943e4626101cf54a8f4"
+    },
+    {
+      "path": "src/views/tab/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dc42c35399cec7b46554ce172ff6b7a03c0398e5",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/dc42c35399cec7b46554ce172ff6b7a03c0398e5"
+    },
+    {
+      "path": "src/views/tab/components/TabPane.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fb1439e98bb4ee3e6e45914d2eb8db1652c1f84",
+      "size": 2471,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/3fb1439e98bb4ee3e6e45914d2eb8db1652c1f84"
+    },
+    {
+      "path": "src/views/tab/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a35fa5840a467b18934ae4bed693f71c1c51b5d",
+      "size": 1436,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/2a35fa5840a467b18934ae4bed693f71c1c51b5d"
+    },
+    {
+      "path": "src/views/table",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d9d89edb73432842c843a59c333c85a187e64086",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/d9d89edb73432842c843a59c333c85a187e64086"
+    },
+    {
+      "path": "src/views/table/complex-table.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "295c5fc49642abeea4e990f6705d8839fe65dc1c",
+      "size": 13334,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/295c5fc49642abeea4e990f6705d8839fe65dc1c"
+    },
+    {
+      "path": "src/views/table/drag-table.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b5c890a0ebbb9dd062b58c9b41a4bf1dcfbcba4",
+      "size": 4186,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/3b5c890a0ebbb9dd062b58c9b41a4bf1dcfbcba4"
+    },
+    {
+      "path": "src/views/table/dynamic-table",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1a919310879e6130898d81c81e02d6ca1073c7fd",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/1a919310879e6130898d81c81e02d6ca1073c7fd"
+    },
+    {
+      "path": "src/views/table/dynamic-table/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "11b5d6277f28ebbe89deb91ba2713782cd3046d8",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/11b5d6277f28ebbe89deb91ba2713782cd3046d8"
+    },
+    {
+      "path": "src/views/table/dynamic-table/components/FixedThead.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3deb925ff2218b8135a04251143cabfb15b70e9",
+      "size": 1668,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/c3deb925ff2218b8135a04251143cabfb15b70e9"
+    },
+    {
+      "path": "src/views/table/dynamic-table/components/UnfixedThead.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "831b070acc071f1d5b53df504b89e22ff41bf79a",
+      "size": 1189,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/831b070acc071f1d5b53df504b89e22ff41bf79a"
+    },
+    {
+      "path": "src/views/table/dynamic-table/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a4dd363e534babea7bd08268d7cdd23ac8e50cd",
+      "size": 506,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/5a4dd363e534babea7bd08268d7cdd23ac8e50cd"
+    },
+    {
+      "path": "src/views/table/inline-edit-table.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31e0065fc013504c5bc1fc45c17ea333298abd27",
+      "size": 3899,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/31e0065fc013504c5bc1fc45c17ea333298abd27"
+    },
+    {
+      "path": "src/views/theme",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c5237aa272a61c845e55cf5b395a53c8be125387",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/c5237aa272a61c845e55cf5b395a53c8be125387"
+    },
+    {
+      "path": "src/views/theme/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0af7711a040fcd2098834b74484c8f907248185c",
+      "size": 2842,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/0af7711a040fcd2098834b74484c8f907248185c"
+    },
+    {
+      "path": "src/views/zip",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5d0c0be908d6a242c08e32046b842979d867320f",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/5d0c0be908d6a242c08e32046b842979d867320f"
+    },
+    {
+      "path": "src/views/zip/index.vue",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "412608f8bad7a5b2f2160c77a9b6cee2a8a87538",
+      "size": 2482,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/412608f8bad7a5b2f2160c77a9b6cee2a8a87538"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e205ac71acc7e17a91ebcf88bc1ce5ad4a795ce4",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/e205ac71acc7e17a91ebcf88bc1ce5ad4a795ce4"
+    },
+    {
+      "path": "tests/unit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "97c34e8b0a5fd90aa73c960a9ff080c8ef6d8b41",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/97c34e8b0a5fd90aa73c960a9ff080c8ef6d8b41"
+    },
+    {
+      "path": "tests/unit/.eslintrc.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "958d51ba27f55d294e6950088886d7ad71199d74",
+      "size": 49,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/958d51ba27f55d294e6950088886d7ad71199d74"
+    },
+    {
+      "path": "tests/unit/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "73e740e85e6ca9ceb91142a115aff3cbf288b22f",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/73e740e85e6ca9ceb91142a115aff3cbf288b22f"
+    },
+    {
+      "path": "tests/unit/components/Hamburger.spec.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01ea303a5e16f875972722d7665383836b20654c",
+      "size": 641,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/01ea303a5e16f875972722d7665383836b20654c"
+    },
+    {
+      "path": "tests/unit/components/SvgIcon.spec.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31467a9f6fba16a81a90923db02da289248e2bc6",
+      "size": 621,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/31467a9f6fba16a81a90923db02da289248e2bc6"
+    },
+    {
+      "path": "tests/unit/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a7321033a8b6e6a557e323426689f6c1a581f44e",
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/trees/a7321033a8b6e6a557e323426689f6c1a581f44e"
+    },
+    {
+      "path": "tests/unit/utils/formatTime.spec.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d07e414f0a7153e4c0b30605270ff8976fa3e3bf",
+      "size": 1067,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/d07e414f0a7153e4c0b30605270ff8976fa3e3bf"
+    },
+    {
+      "path": "tests/unit/utils/param2Obj.spec.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e106ed88b54ea85bf0c714dc73f8f4c740877d24",
+      "size": 397,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/e106ed88b54ea85bf0c714dc73f8f4c740877d24"
+    },
+    {
+      "path": "tests/unit/utils/parseTime.spec.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e138d0073ce2fb8eb481eaa93a1e76f0f1a35c3",
+      "size": 1147,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/3e138d0073ce2fb8eb481eaa93a1e76f0f1a35c3"
+    },
+    {
+      "path": "tests/unit/utils/validate.spec.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef2efe614276df4ad3d30fc06a76bf88748d112e",
+      "size": 1120,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/ef2efe614276df4ad3d30fc06a76bf88748d112e"
+    },
+    {
+      "path": "vue.config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33a634836ee90b0ef4c26b005efdc5412dd89b01",
+      "size": 4159,
+      "url": "https://api.github.com/repos/PanJiaChen/vue-element-admin/git/blobs/33a634836ee90b0ef4c26b005efdc5412dd89b01"
+    }
+  ],
+  "truncated": false
+}

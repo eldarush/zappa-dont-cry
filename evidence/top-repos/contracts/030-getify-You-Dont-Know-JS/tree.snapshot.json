@@ -1,0 +1,740 @@
+{
+  "sha": "044120ef55564939cd35f5ddaf3f6c0a45d7b02c",
+  "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/trees/044120ef55564939cd35f5ddaf3f6c0a45d7b02c",
+  "tree": [
+    {
+      "path": ".editorconfig",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cfe60c3cc29394ea9aa18ec9ae25e3c6f986d78",
+      "size": 158,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/1cfe60c3cc29394ea9aa18ec9ae25e3c6f986d78"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "61675a884fbb8fe188a4cfd7f7dbb1437d7284b8",
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/trees/61675a884fbb8fe188a4cfd7f7dbb1437d7284b8"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0a8efdc81c2e12f10a08c38c760cf0808a2f4924",
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/trees/0a8efdc81c2e12f10a08c38c760cf0808a2f4924"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/content-question.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "567bec190b4d4f01c528a16602acb18bb970baf2",
+      "size": 281,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/567bec190b4d4f01c528a16602acb18bb970baf2"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/foreign-translation-request.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2efa9d213198abb206845dac74f3e7f376f7568a",
+      "size": 1193,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/2efa9d213198abb206845dac74f3e7f376f7568a"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/report-technical-mistake.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc7d2972c3f0ddfd2aa7dba6ba17a319a224f43f",
+      "size": 270,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/dc7d2972c3f0ddfd2aa7dba6ba17a319a224f43f"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/textual-grammar-typo.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94a1934e275c52318c81364c7eb5dee3b788aeae",
+      "size": 288,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/94a1934e275c52318c81364c7eb5dee3b788aeae"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bd8a8adb06653930e51bbfa130769e9583ec9ef",
+      "size": 2749,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/6bd8a8adb06653930e51bbfa130769e9583ec9ef"
+    },
+    {
+      "path": "LICENSE.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5c7faebb9f634d0e2f366ac069f6b03bcef8251",
+      "size": 19126,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/f5c7faebb9f634d0e2f366ac069f6b03bcef8251"
+    },
+    {
+      "path": "PULL_REQUEST_TEMPLATE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "217780c2a15943896de0864406ff8c8b23f6fcd9",
+      "size": 791,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/217780c2a15943896de0864406ff8c8b23f6fcd9"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31843390204ab7d658e7911acb52a32730e36be0",
+      "size": 4213,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/31843390204ab7d658e7911acb52a32730e36be0"
+    },
+    {
+      "path": "es-next-beyond",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "749819f2758ddfca2a2f0f0db9068934eaa9cd55",
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/trees/749819f2758ddfca2a2f0f0db9068934eaa9cd55"
+    },
+    {
+      "path": "es-next-beyond/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4921b82f4bda1f44418082bfdd61ebc1369266b6",
+      "size": 217,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/4921b82f4bda1f44418082bfdd61ebc1369266b6"
+    },
+    {
+      "path": "es-next-beyond/ch1.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c26f5f291ea8c7e73c027e0a5ff27ead70cb764",
+      "size": 116,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/1c26f5f291ea8c7e73c027e0a5ff27ead70cb764"
+    },
+    {
+      "path": "es-next-beyond/foreword.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "338065e9a5f048342ddcd9fd6b34e5e38b240467",
+      "size": 108,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/338065e9a5f048342ddcd9fd6b34e5e38b240467"
+    },
+    {
+      "path": "es-next-beyond/toc.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe78105c311c31c54ca891d17cec8b45348ae349",
+      "size": 170,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/fe78105c311c31c54ca891d17cec8b45348ae349"
+    },
+    {
+      "path": "external-logos",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "67c1ad1408cb7d0a3c017832cd8d1b5b48b0ba48",
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/trees/67c1ad1408cb7d0a3c017832cd8d1b5b48b0ba48"
+    },
+    {
+      "path": "external-logos/doppler_logo-light.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1429945062ad90a2d085dd95e55715db14f03836",
+      "size": 8879,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/1429945062ad90a2d085dd95e55715db14f03836"
+    },
+    {
+      "path": "external-logos/doppler_logo.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a54a470fe4452fdccb9247f80fd79aec43b4b30",
+      "size": 8823,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/3a54a470fe4452fdccb9247f80fd79aec43b4b30"
+    },
+    {
+      "path": "external-logos/fem_logo-light.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "177323d879f4867cd140e619a8426dc0f8d0e58f",
+      "size": 19296,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/177323d879f4867cd140e619a8426dc0f8d0e58f"
+    },
+    {
+      "path": "external-logos/fem_logo.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a924693d82897c7c8dd5efce2a3a52d36d5debc",
+      "size": 19320,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/7a924693d82897c7c8dd5efce2a3a52d36d5debc"
+    },
+    {
+      "path": "fixed-it-for-you.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8fc8823343024eb20729fcd4ce4295ed15af681",
+      "size": 1268589,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/b8fc8823343024eb20729fcd4ce4295ed15af681"
+    },
+    {
+      "path": "get-started",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "15709d43a7eaa44cb2c09655ee884a8bb214f461",
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/trees/15709d43a7eaa44cb2c09655ee884a8bb214f461"
+    },
+    {
+      "path": "get-started/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8e80b436a8bd411a3a7ac8b4bb35875ba0dd970",
+      "size": 582,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/b8e80b436a8bd411a3a7ac8b4bb35875ba0dd970"
+    },
+    {
+      "path": "get-started/apA.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b6571f208fd2634cdd2a34fd41c0e31a4b4946d",
+      "size": 12599,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/9b6571f208fd2634cdd2a34fd41c0e31a4b4946d"
+    },
+    {
+      "path": "get-started/apB.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa66cd229879ad5a0f79ab95d66ad6246071bcf4",
+      "size": 9768,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/aa66cd229879ad5a0f79ab95d66ad6246071bcf4"
+    },
+    {
+      "path": "get-started/ch1.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1efedd6e9f39c456413259e3b2ec38fbc3f727c0",
+      "size": 44519,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/1efedd6e9f39c456413259e3b2ec38fbc3f727c0"
+    },
+    {
+      "path": "get-started/ch2.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cf1bb6969f2bd356fb5b0421a0433df693ce793",
+      "size": 42036,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/2cf1bb6969f2bd356fb5b0421a0433df693ce793"
+    },
+    {
+      "path": "get-started/ch3.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43be80556a67b66a977bed394d0692a1d5cd5bac",
+      "size": 24902,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/43be80556a67b66a977bed394d0692a1d5cd5bac"
+    },
+    {
+      "path": "get-started/ch4.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cdfce2e32f725776ae73b7a774e477ceef638c2",
+      "size": 14928,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/0cdfce2e32f725776ae73b7a774e477ceef638c2"
+    },
+    {
+      "path": "get-started/foreword.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72b2730bbbffd0754d34c70216f9450e78b8d40c",
+      "size": 3331,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/72b2730bbbffd0754d34c70216f9450e78b8d40c"
+    },
+    {
+      "path": "get-started/images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c533b0011e46b8b590dd5135d0145b40d459ae0d",
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/trees/c533b0011e46b8b590dd5135d0145b40d459ae0d"
+    },
+    {
+      "path": "get-started/images/cover.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b95a8ead5b75268a0b5c6c1dcd2f886d920cacbb",
+      "size": 56979,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/b95a8ead5b75268a0b5c6c1dcd2f886d920cacbb"
+    },
+    {
+      "path": "get-started/images/fig1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "456b13ad9cb4ee38aec6d664e8fedf313de8e002",
+      "size": 18268,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/456b13ad9cb4ee38aec6d664e8fedf313de8e002"
+    },
+    {
+      "path": "get-started/images/fig1.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ac0233f1dcf14ccef484e43cd9032302a95456a",
+      "size": 9629,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/7ac0233f1dcf14ccef484e43cd9032302a95456a"
+    },
+    {
+      "path": "get-started/images/fig2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "032fee7d63f1d893a9536523b0298b2e40a4b168",
+      "size": 37953,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/032fee7d63f1d893a9536523b0298b2e40a4b168"
+    },
+    {
+      "path": "get-started/images/fig2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30481ea3f2736bf6b845bf017f991a937c824e26",
+      "size": 511250,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/30481ea3f2736bf6b845bf017f991a937c824e26"
+    },
+    {
+      "path": "get-started/images/fig3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db75f763e92e59c61a6ab8f01ee11eab49e7c58c",
+      "size": 40460,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/db75f763e92e59c61a6ab8f01ee11eab49e7c58c"
+    },
+    {
+      "path": "get-started/images/fig3.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7e63f0efec2dd8dce58e0d97c93662ada994b0b",
+      "size": 1474332,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/b7e63f0efec2dd8dce58e0d97c93662ada994b0b"
+    },
+    {
+      "path": "get-started/images/fig4.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1852d1efb58d7e4a52bcab2c92665f19268e5ed",
+      "size": 31206,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/a1852d1efb58d7e4a52bcab2c92665f19268e5ed"
+    },
+    {
+      "path": "get-started/images/fig4.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49eb9382ab6bebc045c1cdfaaf38e92ee77ea659",
+      "size": 964903,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/49eb9382ab6bebc045c1cdfaaf38e92ee77ea659"
+    },
+    {
+      "path": "get-started/images/fig5.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16eb21b3428d6074914bfec70fe25628d67c1d17",
+      "size": 34930,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/16eb21b3428d6074914bfec70fe25628d67c1d17"
+    },
+    {
+      "path": "get-started/images/fig5.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "812b5b7b7664d5702202b78b027c0b341451aed0",
+      "size": 965140,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/812b5b7b7664d5702202b78b027c0b341451aed0"
+    },
+    {
+      "path": "get-started/images/fig6.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "faed05545f20d73c55c363358bb8b3864c58578f",
+      "size": 44589,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/faed05545f20d73c55c363358bb8b3864c58578f"
+    },
+    {
+      "path": "get-started/images/fig6.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a119a5ee05bc466b575a3cb9ef395208d4858bc5",
+      "size": 966553,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/a119a5ee05bc466b575a3cb9ef395208d4858bc5"
+    },
+    {
+      "path": "get-started/toc.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c92e8f016afb5b971d97736e78881f982f7a7e02",
+      "size": 1119,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/c92e8f016afb5b971d97736e78881f982f7a7e02"
+    },
+    {
+      "path": "objects-classes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4b4b6ddbb8773646fb123cbfcc3cb6be687a8b1b",
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/trees/4b4b6ddbb8773646fb123cbfcc3cb6be687a8b1b"
+    },
+    {
+      "path": "objects-classes/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "304198b2710284b7e62ed6625c667f1a07054559",
+      "size": 445,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/304198b2710284b7e62ed6625c667f1a07054559"
+    },
+    {
+      "path": "objects-classes/ch1.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9bcc4617ac1be7fc56e632401a4e38b94e1027f",
+      "size": 39674,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/c9bcc4617ac1be7fc56e632401a4e38b94e1027f"
+    },
+    {
+      "path": "objects-classes/ch2.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8912b289c3b0c39aa21aeb1e8a7795df792b7ea0",
+      "size": 23217,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/8912b289c3b0c39aa21aeb1e8a7795df792b7ea0"
+    },
+    {
+      "path": "objects-classes/ch3.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0105066095b9819482fd35fb9ab4778248cb15d5",
+      "size": 59160,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/0105066095b9819482fd35fb9ab4778248cb15d5"
+    },
+    {
+      "path": "objects-classes/ch4.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5aaef5e51f9ac5982044a14a13e781fe569ae2d",
+      "size": 61644,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/e5aaef5e51f9ac5982044a14a13e781fe569ae2d"
+    },
+    {
+      "path": "objects-classes/ch5.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2261f846eecab52ec925f23a1c487c4aab60ebc3",
+      "size": 24619,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/2261f846eecab52ec925f23a1c487c4aab60ebc3"
+    },
+    {
+      "path": "objects-classes/foreword.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0a6f374b05c800576ece05c41f51d962a294d04",
+      "size": 1825,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/b0a6f374b05c800576ece05c41f51d962a294d04"
+    },
+    {
+      "path": "objects-classes/thanks.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f885291f153472c54234a8b0896dc2ffc539e6db",
+      "size": 5780,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/f885291f153472c54234a8b0896dc2ffc539e6db"
+    },
+    {
+      "path": "objects-classes/toc.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3841fef37847d110b9245e8ea8bbb0a718aa9a4a",
+      "size": 1428,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/3841fef37847d110b9245e8ea8bbb0a718aa9a4a"
+    },
+    {
+      "path": "preface.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47c9afc53d60f17862e5f55fc3f4d54361cde6d3",
+      "size": 9281,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/47c9afc53d60f17862e5f55fc3f4d54361cde6d3"
+    },
+    {
+      "path": "scope-closures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b21d5cb9538dce4cbf48d2184093365bedc4289e",
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/trees/b21d5cb9538dce4cbf48d2184093365bedc4289e"
+    },
+    {
+      "path": "scope-closures/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3726c43b90ace146138cec0081cac6ce69c7a60",
+      "size": 763,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/a3726c43b90ace146138cec0081cac6ce69c7a60"
+    },
+    {
+      "path": "scope-closures/apA.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c28ad93e6f230adbf58f1983fca6085f4a20f7f",
+      "size": 52139,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/9c28ad93e6f230adbf58f1983fca6085f4a20f7f"
+    },
+    {
+      "path": "scope-closures/apB.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d7ffdcb66457078835462415d312285a19261a3",
+      "size": 22660,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/3d7ffdcb66457078835462415d312285a19261a3"
+    },
+    {
+      "path": "scope-closures/ch1.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1eb7ec4bff795b8c795d4afbfb7257c84894c362",
+      "size": 21654,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/1eb7ec4bff795b8c795d4afbfb7257c84894c362"
+    },
+    {
+      "path": "scope-closures/ch2.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ffefb345dbedffb76c06712cb548a2014a5c94b",
+      "size": 21801,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/2ffefb345dbedffb76c06712cb548a2014a5c94b"
+    },
+    {
+      "path": "scope-closures/ch3.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ebd94c30142059b18924c43618283f392ff7c41",
+      "size": 20379,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/8ebd94c30142059b18924c43618283f392ff7c41"
+    },
+    {
+      "path": "scope-closures/ch4.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84e77a92cc6b71fa2cdaa53e68521783f5880950",
+      "size": 22410,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/84e77a92cc6b71fa2cdaa53e68521783f5880950"
+    },
+    {
+      "path": "scope-closures/ch5.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b4ad339ca9bbcb04d60520e8a5f13e8b89c901d",
+      "size": 30820,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/0b4ad339ca9bbcb04d60520e8a5f13e8b89c901d"
+    },
+    {
+      "path": "scope-closures/ch6.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f54896ffeb7c8934f608196a05028e5408246b13",
+      "size": 36914,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/f54896ffeb7c8934f608196a05028e5408246b13"
+    },
+    {
+      "path": "scope-closures/ch7.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "113adacd5f930e3a31064652bbfa97f8fd0b4a50",
+      "size": 43596,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/113adacd5f930e3a31064652bbfa97f8fd0b4a50"
+    },
+    {
+      "path": "scope-closures/ch8.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed5e1aafe6ae25ce7038fae81fc494fdc69b9b8c",
+      "size": 19921,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/ed5e1aafe6ae25ce7038fae81fc494fdc69b9b8c"
+    },
+    {
+      "path": "scope-closures/foreword.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a75edfcc1a1333268f35acf114dcb4b78ba36a86",
+      "size": 2346,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/a75edfcc1a1333268f35acf114dcb4b78ba36a86"
+    },
+    {
+      "path": "scope-closures/images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5602f76fef7ad4b946d47dd21b7499be3cfa18e9",
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/trees/5602f76fef7ad4b946d47dd21b7499be3cfa18e9"
+    },
+    {
+      "path": "scope-closures/images/cover.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84af0f1437fcd5e7eb84f40d0d83cab7eecff546",
+      "size": 83469,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/84af0f1437fcd5e7eb84f40d0d83cab7eecff546"
+    },
+    {
+      "path": "scope-closures/images/fig1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f083a5d829017754ab90a4f93a353fdb62d53cb9",
+      "size": 63244,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/f083a5d829017754ab90a4f93a353fdb62d53cb9"
+    },
+    {
+      "path": "scope-closures/images/fig2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1ad3dbbe5ff9e420b4b40c699910918b84d0853",
+      "size": 88402,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/c1ad3dbbe5ff9e420b4b40c699910918b84d0853"
+    },
+    {
+      "path": "scope-closures/images/fig3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "daa915ea76203322ae170061791df1f18b1b5252",
+      "size": 19410,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/daa915ea76203322ae170061791df1f18b1b5252"
+    },
+    {
+      "path": "scope-closures/images/fig4.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed34e438577335afe171d929057e8aa9549fd090",
+      "size": 43278,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/ed34e438577335afe171d929057e8aa9549fd090"
+    },
+    {
+      "path": "scope-closures/images/fig5.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b4bf415f2f7cfeda33e2f3f0683e0ac0c35e049",
+      "size": 55029,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/9b4bf415f2f7cfeda33e2f3f0683e0ac0c35e049"
+    },
+    {
+      "path": "scope-closures/toc.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9917643d4a81729f9636ef138a9b0fad5afefc6d",
+      "size": 1935,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/9917643d4a81729f9636ef138a9b0fad5afefc6d"
+    },
+    {
+      "path": "sync-async",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "51e2926dcfea2459b4ec757d50014b6d4daf4d88",
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/trees/51e2926dcfea2459b4ec757d50014b6d4daf4d88"
+    },
+    {
+      "path": "sync-async/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bb5ed6a052f702318cd17e2caeb6d9f3ddbfc41",
+      "size": 220,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/8bb5ed6a052f702318cd17e2caeb6d9f3ddbfc41"
+    },
+    {
+      "path": "sync-async/ch1.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ade6f8845fc5de5cb72a862dee44f7fa4918c3f",
+      "size": 112,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/8ade6f8845fc5de5cb72a862dee44f7fa4918c3f"
+    },
+    {
+      "path": "sync-async/foreword.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "103b9e8cf8899c802af031271ecbc5ff28723b7c",
+      "size": 111,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/103b9e8cf8899c802af031271ecbc5ff28723b7c"
+    },
+    {
+      "path": "sync-async/toc.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c8db6e06907f654859a99f0fa6b2744c01fe52f",
+      "size": 166,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/5c8db6e06907f654859a99f0fa6b2744c01fe52f"
+    },
+    {
+      "path": "types-grammar",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "603b7072bf80ef49101cf9ad007db3f1226455bd",
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/trees/603b7072bf80ef49101cf9ad007db3f1226455bd"
+    },
+    {
+      "path": "types-grammar/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1b4c949d6c2dd23c8872bd0b815066fbad5b8f9",
+      "size": 391,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/a1b4c949d6c2dd23c8872bd0b815066fbad5b8f9"
+    },
+    {
+      "path": "types-grammar/ch1.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eaf9e4d73ba4411f648177a384cfb7661b9130ac",
+      "size": 62316,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/eaf9e4d73ba4411f648177a384cfb7661b9130ac"
+    },
+    {
+      "path": "types-grammar/ch2.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f8456286f053ec62a251ac24c8174994c38021c",
+      "size": 57411,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/1f8456286f053ec62a251ac24c8174994c38021c"
+    },
+    {
+      "path": "types-grammar/ch3.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ebe61f57ec82ccace2e656f7a1af5bdedd9ae63",
+      "size": 10340,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/3ebe61f57ec82ccace2e656f7a1af5bdedd9ae63"
+    },
+    {
+      "path": "types-grammar/ch4.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14f09fb55567d6d49205000e3c644f096a4a3133",
+      "size": 98884,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/14f09fb55567d6d49205000e3c644f096a4a3133"
+    },
+    {
+      "path": "types-grammar/foreword.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0284e60a8035a16dff35981f017de383c304c148",
+      "size": 107,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/0284e60a8035a16dff35981f017de383c304c148"
+    },
+    {
+      "path": "types-grammar/thanks.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1605bf7d253c3b991265cacb2d6121022ed7bdbb",
+      "size": 5778,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/1605bf7d253c3b991265cacb2d6121022ed7bdbb"
+    },
+    {
+      "path": "types-grammar/toc.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1560d0f999a092d3bb893d2c95ccf954157e285",
+      "size": 925,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/a1560d0f999a092d3bb893d2c95ccf954157e285"
+    },
+    {
+      "path": "unbooks-cover.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8077d9d790fc1398388964b695e3d95b97054ff2",
+      "size": 2141526,
+      "url": "https://api.github.com/repos/getify/You-Dont-Know-JS/git/blobs/8077d9d790fc1398388964b695e3d95b97054ff2"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,95 @@
+{
+    "plan_id":  "spring-boot-exact-http-text-body-sidecar",
+    "repository":  "spring-projects/spring-boot",
+    "assertion_type":  "ExactHttpTextBody",
+    "status":  "blocked_until_build_template_live_airgapped_validation",
+    "activation":  "sidecar_only",
+    "reason":  "The README-backed Spring Boot example returns a raw text body; the source YAML only asserts HttpStatus until the custom assertion is built, schema-discovered, template-validated, and live-validated.",
+    "builtins_considered":  [
+                                "HttpStatus validates status code only and does not prove exact raw body text.",
+                                "OutputContentByExpectedCsvResults is JSON/CSV oriented and is not used for a raw Spring Boot text response.",
+                                "ObjectOutputJsonSchema is not applicable to a plain text body."
+                            ],
+    "docs_evidence":  [
+                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\index.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\custom-authoring-guide.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\schema-extensions.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json"
+                      ],
+    "artifacts":  {
+                      "implementation":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\177-spring-projects-spring-boot\\assertion-packets\\ExactHttpTextBody\\ExactHttpTextBody.cs",
+                      "usage_snippet":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\177-spring-projects-spring-boot\\assertion-packets\\ExactHttpTextBody\\ExactHttpTextBody.usage.yaml.txt",
+                      "expected_body":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\177-spring-projects-spring-boot\\expectations\\root-body.txt"
+                  },
+    "validation_steps":  [
+                             "Reference the assertion assembly from the Runner host.",
+                             "Regenerate Runner schema and clean bin cache so Assertion: ExactHttpTextBody is discoverable.",
+                             "Stage a live-only YAML copy that activates ExactHttpTextBody.",
+                             "Run QaaS template validation.",
+                             "Run live QaaS act/assert against a tracked Spring Boot process.",
+                             "Run live airgapped weak-model validation."
+                         ],
+    "custom_assertion_packet":  {
+                                    "packet_id":  "spring-boot-exact-http-text-body",
+                                    "assertion_name":  "ExactHttpTextBody",
+                                    "hook_family":  "assertion",
+                                    "assertion_type":  "ExactHttpTextBody",
+                                    "status":  "blocked_until_build_template_live_airgapped_validation",
+                                    "promotion_state":  "blocked",
+                                    "activation":  "sidecar_only",
+                                    "wired_into_runner_yaml":  false,
+                                    "source_files":  [
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\177-spring-projects-spring-boot\\assertion-packets\\ExactHttpTextBody\\ExactHttpTextBody.cs"
+                                                     ],
+                                    "yaml_fragment":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\177-spring-projects-spring-boot\\assertion-packets\\ExactHttpTextBody\\ExactHttpTextBody.usage.yaml.txt",
+                                    "hook_plan":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\177-spring-projects-spring-boot\\assertion-packets\\ExactHttpTextBody\\custom-text-body-hook-plan.json",
+                                    "expected_body_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\177-spring-projects-spring-boot\\expectations\\root-body.txt",
+                                    "expected_body_sha256":  "7f83b1657ff1fc53b92dc18148a1d65dfc2d4b1fa3d677284addd200126d9069",
+                                    "encoding":  "utf-8",
+                                    "comparison":  "byte_for_byte",
+                                    "normalization":  "none",
+                                    "trim":  false,
+                                    "contains":  false,
+                                    "case_sensitive":  true,
+                                    "weak_validation_passed":  false,
+                                    "validation_records":  {
+                                                               "build":  "not_run",
+                                                               "schema":  "not_run",
+                                                               "template":  "not_run",
+                                                               "live":  "not_run",
+                                                               "airgapped":  "not_run"
+                                                           },
+                                    "docs_evidence":  [
+                                                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\index.md",
+                                                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\custom-authoring-guide.md",
+                                                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
+                                                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions.md",
+                                                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\schema-extensions.md",
+                                                          "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json"
+                                                      ],
+                                    "public_evidence":  [
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\selected-contract.json",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\177-spring-projects-spring-boot\\repo-contract.json",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\177-spring-projects-spring-boot\\README.snapshot.md",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\177-spring-projects-spring-boot\\tree.snapshot.json",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\README.adoc",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\documentation\\spring-boot-docs\\src\\docs\\antora\\modules\\how-to\\pages\\webserver.adoc",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\build.gradle",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\gradlew",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\build-plugin\\spring-boot-gradle-plugin\\src\\main\\java\\org\\springframework\\boot\\gradle\\plugin\\ProtobufPluginAction.java",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\build-plugin\\spring-boot-gradle-plugin\\src\\test\\java\\org\\springframework\\boot\\gradle\\plugin\\ProtobufPluginActionIntegrationTests.java",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\build-plugin\\spring-boot-gradle-plugin\\src\\test\\resources\\org\\springframework\\boot\\gradle\\plugin\\ProtobufPluginActionIntegrationTests-usesVersionOfGrpcPluginDependencyWhenSpecified.gradle",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\core\\spring-boot-docker-compose\\build.gradle",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\README.adoc",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\documentation\\spring-boot-docs\\src\\docs\\antora\\modules\\how-to\\pages\\webserver.adoc",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\build.gradle",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\gradlew",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\build-plugin\\spring-boot-gradle-plugin\\src\\main\\java\\org\\springframework\\boot\\gradle\\plugin\\ProtobufPluginAction.java",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\build-plugin\\spring-boot-gradle-plugin\\src\\test\\java\\org\\springframework\\boot\\gradle\\plugin\\ProtobufPluginActionIntegrationTests.java",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\build-plugin\\spring-boot-gradle-plugin\\src\\test\\resources\\org\\springframework\\boot\\gradle\\plugin\\ProtobufPluginActionIntegrationTests-usesVersionOfGrpcPluginDependencyWhenSpecified.gradle",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\core\\spring-boot-docker-compose\\build.gradle"
+                                                        ]
+                                }
+}

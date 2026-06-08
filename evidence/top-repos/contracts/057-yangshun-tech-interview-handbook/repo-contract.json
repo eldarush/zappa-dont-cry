@@ -1,0 +1,70 @@
+{
+  "harvested_at": "2026-06-07T20:44:37.7789413+03:00",
+  "rank": 57,
+  "repository": "yangshun/tech-interview-handbook",
+  "url": "https://github.com/yangshun/tech-interview-handbook",
+  "language": "TypeScript",
+  "stars": 140169,
+  "default_branch": "main",
+  "contract_strength": "contract_files_found",
+  "candidate_qaas_surfaces": [
+    "api-contract-validation",
+    "runner-yaml-from-public-contract",
+    "ci-documented-command-discovery",
+    "node-service-or-package-contract"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\057-yangshun-tech-interview-handbook\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\057-yangshun-tech-interview-handbook\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [
+      "apps/portal/prisma/migrations/20221006090216_add_resume_schemas/migration.sql",
+      "apps/portal/prisma/migrations/20221009093357_update_question_encounter_schema/migration.sql",
+      "apps/portal/prisma/migrations/20221023102619_add_list_schema/migration.sql",
+      "apps/portal/prisma/migrations/20221024123252_add_upvotes_to_schema/migration.sql",
+      "apps/portal/prisma/schema.prisma",
+      "apps/portal/src/env/schema.mjs"
+    ],
+    "ci": [
+      ".github/workflows/lint.yml",
+      ".github/workflows/tsc.yml"
+    ],
+    "containers": [],
+    "dotnet": [],
+    "node": [
+      "apps/portal/package.json",
+      "apps/portal/tsconfig.json",
+      "apps/website/package.json",
+      "package.json",
+      "packages/tailwind-config/package.json",
+      "packages/tsconfig/package.json",
+      "pnpm-lock.yaml"
+    ],
+    "python": [],
+    "go": [],
+    "java": [],
+    "rust": [],
+    "docs": [
+      "CONTRIBUTING.md",
+      "README.md",
+      "algorithms/README.md",
+      "apps/portal/README.md",
+      "apps/portal/src/pages/api/auth/[...nextauth].ts",
+      "apps/portal/src/pages/api/file-storage.ts",
+      "apps/portal/src/pages/api/restricted.ts",
+      "apps/portal/src/pages/api/trpc/[trpc].ts",
+      "apps/website/README.md",
+      "apps/website/experimental/front-end/README.md"
+    ],
+    "tests": [
+      "apps/portal/prisma/migrations/20221024154046_remove_specialization_and_make_base_bonus_and_stocks_optional/migration.sql",
+      "apps/website/static/img/interview-hire-spectrum.jpg"
+    ]
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\057-yangshun-tech-interview-handbook\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\057-yangshun-tech-interview-handbook\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

@@ -1,0 +1,43 @@
+{
+  "harvested_at": "2026-06-07T20:50:35.8040874+03:00",
+  "rank": 208,
+  "repository": "vuejs/awesome-vue",
+  "url": "https://github.com/vuejs/awesome-vue",
+  "language": null,
+  "stars": 73566,
+  "default_branch": "master",
+  "contract_strength": "readme_plus_runtime_hints",
+  "candidate_qaas_surfaces": [
+    "ci-documented-command-discovery",
+    "repo-contract-discovery-needed"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\208-vuejs-awesome-vue\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\208-vuejs-awesome-vue\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [],
+    "ci": [
+      ".github/workflows/readme-lint-double-link.yml",
+      ".github/workflows/toc.yml"
+    ],
+    "containers": [],
+    "dotnet": [],
+    "node": [],
+    "python": [],
+    "go": [],
+    "java": [],
+    "rust": [],
+    "docs": [
+      ".github/contributing.md",
+      ".github/workflows/readme-lint-double-link.yml",
+      "README.md"
+    ],
+    "tests": []
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\208-vuejs-awesome-vue\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\208-vuejs-awesome-vue\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

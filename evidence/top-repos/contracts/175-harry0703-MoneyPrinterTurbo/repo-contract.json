@@ -1,0 +1,91 @@
+{
+  "harvested_at": "2026-06-07T20:49:27.9092522+03:00",
+  "rank": 175,
+  "repository": "harry0703/MoneyPrinterTurbo",
+  "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+  "language": "Python",
+  "stars": 81013,
+  "default_branch": "main",
+  "contract_strength": "contract_files_found",
+  "candidate_qaas_surfaces": [
+    "api-contract-validation",
+    "runner-yaml-from-public-contract",
+    "containerized-runtime-smoke",
+    "python-cli-or-service-contract"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\175-harry0703-MoneyPrinterTurbo\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\175-harry0703-MoneyPrinterTurbo\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [
+      "app/models/schema.py"
+    ],
+    "ci": [],
+    "containers": [
+      "Dockerfile",
+      "Dockerfile.gpu",
+      "docker-compose.gpu.yml",
+      "docker-compose.yml"
+    ],
+    "dotnet": [],
+    "node": [],
+    "python": [
+      "pyproject.toml",
+      "requirements.txt"
+    ],
+    "go": [],
+    "java": [],
+    "rust": [],
+    "docs": [
+      ".github/SECURITY.md",
+      "README-ar.md",
+      "README-en.md",
+      "README.md",
+      "app/utils/file_security.py",
+      "docs/GPU_DOCKER_DEPLOYMENT.md",
+      "docs/MoneyPrinterTurbo.ipynb",
+      "docs/PR_MERGE_RECORD_2026-04-02.md",
+      "docs/api.jpg",
+      "docs/picwish.com.jpg",
+      "docs/picwish.jpg",
+      "docs/reccloud.cn.jpg",
+      "docs/reccloud.com.jpg",
+      "docs/voice-list.txt",
+      "docs/webui-en.jpg",
+      "docs/webui.jpg",
+      "test/README.md"
+    ],
+    "tests": [
+      "test/README.md",
+      "test/__init__.py",
+      "test/resources/1.png",
+      "test/resources/1.png.mp4",
+      "test/resources/2.png",
+      "test/resources/2.png.mp4",
+      "test/resources/3.png",
+      "test/resources/3.png.mp4",
+      "test/resources/4.png",
+      "test/resources/5.png",
+      "test/resources/6.png",
+      "test/resources/7.png",
+      "test/resources/8.png",
+      "test/resources/9.png",
+      "test/services/__init__.py",
+      "test/services/test_llm.py",
+      "test/services/test_material.py",
+      "test/services/test_state.py",
+      "test/services/test_subtitle.py",
+      "test/services/test_subtitle_background_settings.py",
+      "test/services/test_task.py",
+      "test/services/test_video.py",
+      "test/services/test_voice.py",
+      "test/services/test_webui_i18n.py"
+    ]
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\175-harry0703-MoneyPrinterTurbo\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\175-harry0703-MoneyPrinterTurbo\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

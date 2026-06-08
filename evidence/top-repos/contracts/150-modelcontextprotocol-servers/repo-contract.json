@@ -1,0 +1,106 @@
+{
+  "harvested_at": "2026-06-07T20:48:48.5212445+03:00",
+  "rank": 150,
+  "repository": "modelcontextprotocol/servers",
+  "url": "https://github.com/modelcontextprotocol/servers",
+  "language": "TypeScript",
+  "stars": 86861,
+  "default_branch": "main",
+  "contract_strength": "readme_plus_runtime_hints",
+  "candidate_qaas_surfaces": [
+    "containerized-runtime-smoke",
+    "ci-documented-command-discovery",
+    "node-service-or-package-contract"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\150-modelcontextprotocol-servers\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\150-modelcontextprotocol-servers\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [],
+    "ci": [
+      ".github/workflows/claude.yml",
+      ".github/workflows/python.yml",
+      ".github/workflows/readme-pr-check.yml",
+      ".github/workflows/release.yml",
+      ".github/workflows/typescript.yml"
+    ],
+    "containers": [
+      "src/everything/Dockerfile",
+      "src/fetch/Dockerfile",
+      "src/filesystem/Dockerfile",
+      "src/git/Dockerfile",
+      "src/memory/Dockerfile",
+      "src/sequentialthinking/Dockerfile",
+      "src/time/Dockerfile"
+    ],
+    "dotnet": [],
+    "node": [
+      "package-lock.json",
+      "package.json",
+      "src/everything/package.json",
+      "src/everything/tsconfig.json",
+      "src/filesystem/package.json",
+      "src/filesystem/tsconfig.json",
+      "src/memory/package.json",
+      "src/memory/tsconfig.json",
+      "src/sequentialthinking/package.json",
+      "src/sequentialthinking/tsconfig.json",
+      "tsconfig.json"
+    ],
+    "python": [
+      "src/fetch/pyproject.toml",
+      "src/git/pyproject.toml",
+      "src/time/pyproject.toml"
+    ],
+    "go": [],
+    "java": [],
+    "rust": [],
+    "docs": [
+      ".github/workflows/readme-pr-check.yml",
+      "CONTRIBUTING.md",
+      "README.md",
+      "SECURITY.md",
+      "src/everything/README.md",
+      "src/everything/docs/architecture.md",
+      "src/everything/docs/extension.md",
+      "src/everything/docs/features.md",
+      "src/everything/docs/how-it-works.md",
+      "src/everything/docs/instructions.md",
+      "src/everything/docs/startup.md",
+      "src/everything/docs/structure.md",
+      "src/fetch/README.md",
+      "src/filesystem/README.md",
+      "src/git/README.md",
+      "src/memory/README.md",
+      "src/sequentialthinking/README.md",
+      "src/time/README.md"
+    ],
+    "tests": [
+      "src/everything/__tests__/prompts.test.ts",
+      "src/everything/__tests__/registrations.test.ts",
+      "src/everything/__tests__/resources.test.ts",
+      "src/everything/__tests__/server.test.ts",
+      "src/everything/__tests__/tools.test.ts",
+      "src/fetch/tests/__init__.py",
+      "src/fetch/tests/test_server.py",
+      "src/filesystem/__tests__/directory-tree.test.ts",
+      "src/filesystem/__tests__/lib.test.ts",
+      "src/filesystem/__tests__/path-utils.test.ts",
+      "src/filesystem/__tests__/path-validation.test.ts",
+      "src/filesystem/__tests__/roots-utils.test.ts",
+      "src/filesystem/__tests__/startup-validation.test.ts",
+      "src/filesystem/__tests__/structured-content.test.ts",
+      "src/git/tests/test_server.py",
+      "src/memory/__tests__/file-path.test.ts",
+      "src/memory/__tests__/knowledge-graph.test.ts",
+      "src/sequentialthinking/__tests__/lib.test.ts",
+      "src/time/test/time_server_test.py"
+    ]
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\150-modelcontextprotocol-servers\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\150-modelcontextprotocol-servers\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

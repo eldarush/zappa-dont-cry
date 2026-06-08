@@ -1,0 +1,59 @@
+{
+  "harvested_at": "2026-06-07T20:43:03.9800795+03:00",
+  "rank": 12,
+  "repository": "996icu/996.ICU",
+  "url": "https://github.com/996icu/996.ICU",
+  "language": null,
+  "stars": 276269,
+  "default_branch": "master",
+  "contract_strength": "readme_only",
+  "candidate_qaas_surfaces": "repo-contract-discovery-needed",
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\012-996icu-996.ICU\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\012-996icu-996.ICU\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [],
+    "ci": [],
+    "containers": [],
+    "dotnet": [],
+    "node": [],
+    "python": [
+      "archived/licenses[WIP]/tools/gen-license/setup.py"
+    ],
+    "go": [
+      "archived/licenses[WIP]/tools/gen-license-go/go.mod",
+      "archived/licenses[WIP]/tools/gen-license-go/go.sum"
+    ],
+    "java": [],
+    "rust": [
+      "archived/licenses[WIP]/tools/gen-license-rs/Cargo.lock",
+      "archived/licenses[WIP]/tools/gen-license-rs/Cargo.toml",
+      "archived/licenses[WIP]/tools/test-gen-license/Cargo.lock",
+      "archived/licenses[WIP]/tools/test-gen-license/Cargo.toml"
+    ],
+    "docs": [
+      "README.md",
+      "README_CN.md",
+      "archived/assets/ai/README.md",
+      "archived/assets/sketch/README.md",
+      "archived/licenses[WIP]/README.md",
+      "archived/licenses[WIP]/tools/gen-license-go/README.md",
+      "archived/licenses[WIP]/tools/gen-license/README.md",
+      "archived/licenses[WIP]/tools/test-gen-license/README.md",
+      "awesomelist/README.md",
+      "awesomelist/img/SecurityPaper.png",
+      "blacklist/README.md",
+      "i18n/README.md",
+      "proposal/README.md",
+      "remotelist/README.md",
+      "whitelist/README.md"
+    ],
+    "tests": []
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\012-996icu-996.ICU\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\012-996icu-996.ICU\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

@@ -1,0 +1,51 @@
+{
+  "harvested_at": "2026-06-07T20:50:00.1626262+03:00",
+  "rank": 191,
+  "repository": "Z4nzu/hackingtool",
+  "url": "https://github.com/Z4nzu/hackingtool",
+  "language": "Python",
+  "stars": 77243,
+  "default_branch": "master",
+  "contract_strength": "readme_plus_runtime_hints",
+  "candidate_qaas_surfaces": [
+    "containerized-runtime-smoke",
+    "ci-documented-command-discovery",
+    "python-cli-or-service-contract"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\191-Z4nzu-hackingtool\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\191-Z4nzu-hackingtool\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [],
+    "ci": [
+      ".github/workflows/lint_python.yml",
+      ".github/workflows/test_install.yml"
+    ],
+    "containers": [
+      "Dockerfile",
+      "docker-compose.yml"
+    ],
+    "dotnet": [],
+    "node": [],
+    "python": [
+      "requirements.txt"
+    ],
+    "go": [],
+    "java": [],
+    "rust": [],
+    "docs": [
+      "README.md",
+      "README_template.md",
+      "generate_readme.py",
+      "tools/cloud_security.py",
+      "tools/mobile_security.py"
+    ],
+    "tests": []
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\191-Z4nzu-hackingtool\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\191-Z4nzu-hackingtool\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

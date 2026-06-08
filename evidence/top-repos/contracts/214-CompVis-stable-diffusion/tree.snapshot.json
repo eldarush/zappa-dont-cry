@@ -1,0 +1,1452 @@
+{
+  "sha": "21f890f9da3cfbeaba8e2ac3c425ee9e998d5229",
+  "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/21f890f9da3cfbeaba8e2ac3c425ee9e998d5229",
+  "tree": [
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e609df0d8cd3b5d11a1ea962a56b604b70846a5",
+      "size": 14385,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/0e609df0d8cd3b5d11a1ea962a56b604b70846a5"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9e6c3bb13a18fc5fc0f31ab819bf6eccda81bf0",
+      "size": 12441,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/c9e6c3bb13a18fc5fc0f31ab819bf6eccda81bf0"
+    },
+    {
+      "path": "Stable_Diffusion_v1_Model_Card.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad76ad2ee6da62ad21c8a92e9082a31b272740f3",
+      "size": 9344,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/ad76ad2ee6da62ad21c8a92e9082a31b272740f3"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3a48dfa16754ab3f71e015382ee204bd535fa4df",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/3a48dfa16754ab3f71e015382ee204bd535fa4df"
+    },
+    {
+      "path": "assets/a-painting-of-a-fire.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d3b9bde4852fbd1b6a0dd88b53a2d7611c2ec73",
+      "size": 666734,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/3d3b9bde4852fbd1b6a0dd88b53a2d7611c2ec73"
+    },
+    {
+      "path": "assets/a-photograph-of-a-fire.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e246bc1a0d7b1261be9dac7fb8f5e1f7f487fcd0",
+      "size": 610752,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/e246bc1a0d7b1261be9dac7fb8f5e1f7f487fcd0"
+    },
+    {
+      "path": "assets/a-shirt-with-a-fire-printed-on-it.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa68f188a8ab325808b44077526e5b3d44209eaf",
+      "size": 623587,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/aa68f188a8ab325808b44077526e5b3d44209eaf"
+    },
+    {
+      "path": "assets/a-shirt-with-the-inscription-'fire'.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f058b97df860faeccc661cc6209d862872487887",
+      "size": 560600,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/f058b97df860faeccc661cc6209d862872487887"
+    },
+    {
+      "path": "assets/a-watercolor-painting-of-a-fire.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4ebe136773e12fe35a9d010ad2541bccd670afc",
+      "size": 722120,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/e4ebe136773e12fe35a9d010ad2541bccd670afc"
+    },
+    {
+      "path": "assets/birdhouse.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "872d49c0e2c16de6b2c303cedf4b5ec85851aeae",
+      "size": 774949,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/872d49c0e2c16de6b2c303cedf4b5ec85851aeae"
+    },
+    {
+      "path": "assets/fire.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64c24feae84669ce3c0df564ca44c25d2b40ea13",
+      "size": 626415,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/64c24feae84669ce3c0df564ca44c25d2b40ea13"
+    },
+    {
+      "path": "assets/inpainting.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6b9ef85fe7cc74c258b40e2f0be4932f93cbee9",
+      "size": 319244,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/d6b9ef85fe7cc74c258b40e2f0be4932f93cbee9"
+    },
+    {
+      "path": "assets/modelfigure.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b1d3e6b9d59fd8d38468e7bce47c903a4e1c932",
+      "size": 73775,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/6b1d3e6b9d59fd8d38468e7bce47c903a4e1c932"
+    },
+    {
+      "path": "assets/rdm-preview.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3838b0f6bb71a092c8ea1739c5d577fd4ba4ac0a",
+      "size": 326537,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/3838b0f6bb71a092c8ea1739c5d577fd4ba4ac0a"
+    },
+    {
+      "path": "assets/reconstruction1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0752799ccc98c2555218d48ede6fcc42bc4693e2",
+      "size": 806594,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/0752799ccc98c2555218d48ede6fcc42bc4693e2"
+    },
+    {
+      "path": "assets/reconstruction2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8e7a36c1f00bf60ce0e7e24c2a1f8e0e04b23d7",
+      "size": 980874,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/b8e7a36c1f00bf60ce0e7e24c2a1f8e0e04b23d7"
+    },
+    {
+      "path": "assets/results.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82b6590e670a32196093cc6333ea19e6547d07de",
+      "size": 9849833,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/82b6590e670a32196093cc6333ea19e6547d07de"
+    },
+    {
+      "path": "assets/rick.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "995486061ba50bd0ae2e213c72de87a27326632f",
+      "size": 232064,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/995486061ba50bd0ae2e213c72de87a27326632f"
+    },
+    {
+      "path": "assets/stable-samples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cfbe12309c8a5fa9abff753506699ba005d25272",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/cfbe12309c8a5fa9abff753506699ba005d25272"
+    },
+    {
+      "path": "assets/stable-samples/img2img",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f1713629433bfe1dfc17ce7eaa3a8a66cb4ba647",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/f1713629433bfe1dfc17ce7eaa3a8a66cb4ba647"
+    },
+    {
+      "path": "assets/stable-samples/img2img/mountains-1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d01b8350743e3bd4fdf653d1563ee7d5c2153323",
+      "size": 625121,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/d01b8350743e3bd4fdf653d1563ee7d5c2153323"
+    },
+    {
+      "path": "assets/stable-samples/img2img/mountains-2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9f4e708535f0e5b53372a3a39e6aa31dce383fd",
+      "size": 658286,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/e9f4e708535f0e5b53372a3a39e6aa31dce383fd"
+    },
+    {
+      "path": "assets/stable-samples/img2img/mountains-3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "017de3012c2f03e4f87cce21b4d3342713b9ae95",
+      "size": 656393,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/017de3012c2f03e4f87cce21b4d3342713b9ae95"
+    },
+    {
+      "path": "assets/stable-samples/img2img/sketch-mountains-input.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79d652b8003bbcd1d0c0ba2d984dbbe299ac5916",
+      "size": 178529,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/79d652b8003bbcd1d0c0ba2d984dbbe299ac5916"
+    },
+    {
+      "path": "assets/stable-samples/img2img/upscaling-in.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "501c31c21751664957e69ce52cad1818b6d2f4ce",
+      "size": 1167237,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/501c31c21751664957e69ce52cad1818b6d2f4ce"
+    },
+    {
+      "path": "assets/stable-samples/img2img/upscaling-out.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c4bb25a779f34d86b2d90e584ac67af91bb1303",
+      "size": 1317941,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/1c4bb25a779f34d86b2d90e584ac67af91bb1303"
+    },
+    {
+      "path": "assets/stable-samples/txt2img",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "70a76afef98d8cd68c9b15d714e9b3b41d06156c",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/70a76afef98d8cd68c9b15d714e9b3b41d06156c"
+    },
+    {
+      "path": "assets/stable-samples/txt2img/000002025.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66891c142e9cfe3e0b0193d16b5a45d7b72a7d8a",
+      "size": 967634,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/66891c142e9cfe3e0b0193d16b5a45d7b72a7d8a"
+    },
+    {
+      "path": "assets/stable-samples/txt2img/000002035.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c707c130932a13fae76584324368fedc33faeba4",
+      "size": 995616,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/c707c130932a13fae76584324368fedc33faeba4"
+    },
+    {
+      "path": "assets/stable-samples/txt2img/merged-0005.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca0a1af206555f0f208a1ab879e95efedc1b1c5b",
+      "size": 2576264,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/ca0a1af206555f0f208a1ab879e95efedc1b1c5b"
+    },
+    {
+      "path": "assets/stable-samples/txt2img/merged-0006.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "999f3703230580e8c89e9081abd6a1f8f50896d4",
+      "size": 2638534,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/999f3703230580e8c89e9081abd6a1f8f50896d4"
+    },
+    {
+      "path": "assets/stable-samples/txt2img/merged-0007.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af390acaf601283782d6f479d4cade4d78e30b26",
+      "size": 2406799,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/af390acaf601283782d6f479d4cade4d78e30b26"
+    },
+    {
+      "path": "assets/the-earth-is-on-fire,-oil-on-canvas.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90797208da649c0fd48825800411a0a99161128c",
+      "size": 678446,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/90797208da649c0fd48825800411a0a99161128c"
+    },
+    {
+      "path": "assets/txt2img-convsample.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "255c265864692d1b65cbd1aae84c5e0590a38e71",
+      "size": 309500,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/255c265864692d1b65cbd1aae84c5e0590a38e71"
+    },
+    {
+      "path": "assets/txt2img-preview.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51ee1c235dfdc63d4c41de7d303d03730e43c33c",
+      "size": 2256167,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/51ee1c235dfdc63d4c41de7d303d03730e43c33c"
+    },
+    {
+      "path": "assets/v1-variants-scores.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d997ba52e3bb4a3a8e285512cb9e75e5a70f9bb",
+      "size": 76252,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/7d997ba52e3bb4a3a8e285512cb9e75e5a70f9bb"
+    },
+    {
+      "path": "configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1c5ef3e7a1c924687f209e1cfaa7bd71f7d2cb48",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/1c5ef3e7a1c924687f209e1cfaa7bd71f7d2cb48"
+    },
+    {
+      "path": "configs/autoencoder",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6caa4c1d3c48509c21104e6266c20ea0ed6edbd6",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/6caa4c1d3c48509c21104e6266c20ea0ed6edbd6"
+    },
+    {
+      "path": "configs/autoencoder/autoencoder_kl_16x16x16.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f1d10ec75e5de5932cdcf0e8d3c712feac7578e",
+      "size": 1145,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/5f1d10ec75e5de5932cdcf0e8d3c712feac7578e"
+    },
+    {
+      "path": "configs/autoencoder/autoencoder_kl_32x32x4.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab8b36fe6e3e95df2942a437b7d9c919b60d5c86",
+      "size": 1140,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/ab8b36fe6e3e95df2942a437b7d9c919b60d5c86"
+    },
+    {
+      "path": "configs/autoencoder/autoencoder_kl_64x64x3.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e3db5c4e28bcb58be4ee0872511059f5cc965ad",
+      "size": 1139,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/5e3db5c4e28bcb58be4ee0872511059f5cc965ad"
+    },
+    {
+      "path": "configs/autoencoder/autoencoder_kl_8x8x64.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ccd09d38e4926706fb1d287f4f65619627e0eb7",
+      "size": 1148,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/5ccd09d38e4926706fb1d287f4f65619627e0eb7"
+    },
+    {
+      "path": "configs/latent-diffusion",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "75f5aefb7f76727e76bcb2da40c7fac24aa8cdeb",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/75f5aefb7f76727e76bcb2da40c7fac24aa8cdeb"
+    },
+    {
+      "path": "configs/latent-diffusion/celebahq-ldm-vq-4.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89b3df4fe1822295d509dca2237ea891cdd964bf",
+      "size": 2028,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/89b3df4fe1822295d509dca2237ea891cdd964bf"
+    },
+    {
+      "path": "configs/latent-diffusion/cin-ldm-vq-f8.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8cd9e2ef5d26870bdbb26bf04a9b47aaa78feeb",
+      "size": 2360,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/b8cd9e2ef5d26870bdbb26bf04a9b47aaa78feeb"
+    },
+    {
+      "path": "configs/latent-diffusion/cin256-v2.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7c1aa240c740d1e5b7693f9543f996d727a302d",
+      "size": 1553,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/b7c1aa240c740d1e5b7693f9543f996d727a302d"
+    },
+    {
+      "path": "configs/latent-diffusion/ffhq-ldm-vq-4.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1899e30f77222142d7b33f45a6dcff086a31e174",
+      "size": 2020,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/1899e30f77222142d7b33f45a6dcff086a31e174"
+    },
+    {
+      "path": "configs/latent-diffusion/lsun_bedrooms-ldm-vq-4.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4ca66c16c00a0c3fd13ae1ad03635039161e7ad",
+      "size": 2024,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/c4ca66c16c00a0c3fd13ae1ad03635039161e7ad"
+    },
+    {
+      "path": "configs/latent-diffusion/lsun_churches-ldm-kl-8.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18dc8c2d9cfb925b0f45e5b89186d71e3274b086",
+      "size": 2284,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/18dc8c2d9cfb925b0f45e5b89186d71e3274b086"
+    },
+    {
+      "path": "configs/latent-diffusion/txt2img-1p4B-eval.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e331cbfdff7ece1ef9008754e97f60f68585a07",
+      "size": 1614,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/8e331cbfdff7ece1ef9008754e97f60f68585a07"
+    },
+    {
+      "path": "configs/retrieval-augmented-diffusion",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d6a9fe91193eac4942eea58575ef1dcdc888f9ff",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/d6a9fe91193eac4942eea58575ef1dcdc888f9ff"
+    },
+    {
+      "path": "configs/retrieval-augmented-diffusion/768x768.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b51b1d8373ca7a259320deaffc154f89ad2b8cf4",
+      "size": 1615,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/b51b1d8373ca7a259320deaffc154f89ad2b8cf4"
+    },
+    {
+      "path": "configs/stable-diffusion",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "34234b1ec8d09022067168080bd2e60c2ca1ef8e",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/34234b1ec8d09022067168080bd2e60c2ca1ef8e"
+    },
+    {
+      "path": "configs/stable-diffusion/v1-inference.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4effe569e897369918625f9d8be5603a0e6a0d6",
+      "size": 1873,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/d4effe569e897369918625f9d8be5603a0e6a0d6"
+    },
+    {
+      "path": "data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a7cbf5ac59438dd717e5aca62d3f39af0c785f1a",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/a7cbf5ac59438dd717e5aca62d3f39af0c785f1a"
+    },
+    {
+      "path": "data/DejaVuSans.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5f7eecce43be41ff0703ed99e1553029b849f14",
+      "size": 757076,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/e5f7eecce43be41ff0703ed99e1553029b849f14"
+    },
+    {
+      "path": "data/example_conditioning",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c653b0499d5113e0cc53585667d52f09ac7173fb",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/c653b0499d5113e0cc53585667d52f09ac7173fb"
+    },
+    {
+      "path": "data/example_conditioning/superresolution",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "580c61fe0b3ab1c135b0653ab4adab01cce8030c",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/580c61fe0b3ab1c135b0653ab4adab01cce8030c"
+    },
+    {
+      "path": "data/example_conditioning/superresolution/sample_0.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09abe80ae7cf61f3071882e5eea6d15c730ab0cc",
+      "size": 14816,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/09abe80ae7cf61f3071882e5eea6d15c730ab0cc"
+    },
+    {
+      "path": "data/example_conditioning/text_conditional",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "06895aee6661b80b987ff82f52914fd22b8b4974",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/06895aee6661b80b987ff82f52914fd22b8b4974"
+    },
+    {
+      "path": "data/example_conditioning/text_conditional/sample_0.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de60c5c9a38bbead2956aa0c60129a26985cbf6d",
+      "size": 20,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/de60c5c9a38bbead2956aa0c60129a26985cbf6d"
+    },
+    {
+      "path": "data/imagenet_clsidx_to_label.txt",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "e2fe435526be7e0dd6675885c6c74b2f9276459b",
+      "size": 30563,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/e2fe435526be7e0dd6675885c6c74b2f9276459b"
+    },
+    {
+      "path": "data/imagenet_train_hr_indices.p",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8d6d4689d2ecf32147e9cc2f5e6c50e072df26f",
+      "size": 5641045,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/b8d6d4689d2ecf32147e9cc2f5e6c50e072df26f"
+    },
+    {
+      "path": "data/imagenet_val_hr_indices.p",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "744ad64b430f82b6fac24d3015a147ba1436b408",
+      "size": 145756,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/744ad64b430f82b6fac24d3015a147ba1436b408"
+    },
+    {
+      "path": "data/index_synset.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "635ea71a0da40d42072fee110143520daa203ce6",
+      "size": 14890,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/635ea71a0da40d42072fee110143520daa203ce6"
+    },
+    {
+      "path": "data/inpainting_examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d5b867a0964960dfb2a957c6ee3d8f50baa777f1",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/d5b867a0964960dfb2a957c6ee3d8f50baa777f1"
+    },
+    {
+      "path": "data/inpainting_examples/6458524847_2f4c361183_k.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3eb5a2242e6ae0e59fb25bcc0265aa86b6435855",
+      "size": 477051,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/3eb5a2242e6ae0e59fb25bcc0265aa86b6435855"
+    },
+    {
+      "path": "data/inpainting_examples/6458524847_2f4c361183_k_mask.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c77130e04992544d717cd5d76856a3206237f89",
+      "size": 7583,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/6c77130e04992544d717cd5d76856a3206237f89"
+    },
+    {
+      "path": "data/inpainting_examples/8399166846_f6fb4e4b8e_k.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63ac9891e4646fda9e990cee2efca75493038913",
+      "size": 552063,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/63ac9891e4646fda9e990cee2efca75493038913"
+    },
+    {
+      "path": "data/inpainting_examples/8399166846_f6fb4e4b8e_k_mask.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7eb67e45fabccd74bb98863ebc8d383966fc62cb",
+      "size": 7734,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/7eb67e45fabccd74bb98863ebc8d383966fc62cb"
+    },
+    {
+      "path": "data/inpainting_examples/alex-iby-G_Pk4D9rMLs.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7714a1f7d51998e85c83c857c858e47b97f389f3",
+      "size": 461110,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/7714a1f7d51998e85c83c857c858e47b97f389f3"
+    },
+    {
+      "path": "data/inpainting_examples/alex-iby-G_Pk4D9rMLs_mask.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0324f677ebb0b2e335143397c2cda462c3ff3024",
+      "size": 11871,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/0324f677ebb0b2e335143397c2cda462c3ff3024"
+    },
+    {
+      "path": "data/inpainting_examples/bench2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09be46d1ba6ea47ac8cdadb854a0cf9b135195d4",
+      "size": 566137,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/09be46d1ba6ea47ac8cdadb854a0cf9b135195d4"
+    },
+    {
+      "path": "data/inpainting_examples/bench2_mask.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bacadfa5da74fc69d0da7b698561e1d5d7e161ed",
+      "size": 12102,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/bacadfa5da74fc69d0da7b698561e1d5d7e161ed"
+    },
+    {
+      "path": "data/inpainting_examples/bertrand-gabioud-CpuFzIsHYJ0.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "618f200e56f4dea89bf4a4afe7cadba247b0bb7f",
+      "size": 427470,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/618f200e56f4dea89bf4a4afe7cadba247b0bb7f"
+    },
+    {
+      "path": "data/inpainting_examples/bertrand-gabioud-CpuFzIsHYJ0_mask.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd18be987f8667748b005782815a51b3cc4772f9",
+      "size": 6239,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/fd18be987f8667748b005782815a51b3cc4772f9"
+    },
+    {
+      "path": "data/inpainting_examples/billow926-12-Wc-Zgx6Y.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbd246e906b74c6b1f735e4433d60914ac60c0d5",
+      "size": 554948,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/cbd246e906b74c6b1f735e4433d60914ac60c0d5"
+    },
+    {
+      "path": "data/inpainting_examples/billow926-12-Wc-Zgx6Y_mask.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e5121400687e553d9ed306e245f3b7810c7aeaa",
+      "size": 9751,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/7e5121400687e553d9ed306e245f3b7810c7aeaa"
+    },
+    {
+      "path": "data/inpainting_examples/overture-creations-5sI6fQgYIuo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e84dfc8554d344a69afb1fe8c7b8b2997d4e5e11",
+      "size": 404753,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/e84dfc8554d344a69afb1fe8c7b8b2997d4e5e11"
+    },
+    {
+      "path": "data/inpainting_examples/overture-creations-5sI6fQgYIuo_mask.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f3c753058c58ee3b96814722562b42af3588be2",
+      "size": 12106,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/7f3c753058c58ee3b96814722562b42af3588be2"
+    },
+    {
+      "path": "data/inpainting_examples/photo-1583445095369-9c651e7e5d34.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8999de888b2f57c7af9db2f858fce7bfee1e1d1",
+      "size": 475895,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/e8999de888b2f57c7af9db2f858fce7bfee1e1d1"
+    },
+    {
+      "path": "data/inpainting_examples/photo-1583445095369-9c651e7e5d34_mask.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "093d0c1819aa6056a993897c9b0dce51cba7d96e",
+      "size": 7955,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/093d0c1819aa6056a993897c9b0dce51cba7d96e"
+    },
+    {
+      "path": "environment.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "025ced87018b87c8e23a80fd77cde85e4715d897",
+      "size": 734,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/025ced87018b87c8e23a80fd77cde85e4715d897"
+    },
+    {
+      "path": "ldm",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "df0f73600fd5e5b493c0879302da334cc331e943",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/df0f73600fd5e5b493c0879302da334cc331e943"
+    },
+    {
+      "path": "ldm/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "20c57658d8906c193ad8cb9b7edb523014694c32",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/20c57658d8906c193ad8cb9b7edb523014694c32"
+    },
+    {
+      "path": "ldm/data/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "ldm/data/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b196c2f7aa583a3e8bc4aad9f943df0c4dae0da7",
+      "size": 693,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/b196c2f7aa583a3e8bc4aad9f943df0c4dae0da7"
+    },
+    {
+      "path": "ldm/data/imagenet.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c473f9c6965b22315dbb289eff8247c71bdc790",
+      "size": 15497,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/1c473f9c6965b22315dbb289eff8247c71bdc790"
+    },
+    {
+      "path": "ldm/data/lsun.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6256e45715ff0b57c53f985594d27cbbbff0e68e",
+      "size": 3274,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/6256e45715ff0b57c53f985594d27cbbbff0e68e"
+    },
+    {
+      "path": "ldm/lr_scheduler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be39da9ca6dacc22bf3df9c7389bbb403a4a3ade",
+      "size": 3882,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/be39da9ca6dacc22bf3df9c7389bbb403a4a3ade"
+    },
+    {
+      "path": "ldm/models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c05d720fb48ab17b7d4aee945aa7edfea004bc15",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/c05d720fb48ab17b7d4aee945aa7edfea004bc15"
+    },
+    {
+      "path": "ldm/models/autoencoder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a9c4f45498561953b8085981609b2a3298a5473",
+      "size": 17619,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/6a9c4f45498561953b8085981609b2a3298a5473"
+    },
+    {
+      "path": "ldm/models/diffusion",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ac7440dd29c26ac911ceb810e391637a43c45e15",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/ac7440dd29c26ac911ceb810e391637a43c45e15"
+    },
+    {
+      "path": "ldm/models/diffusion/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "ldm/models/diffusion/classifier.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67e98b9d8ffb96a150b517497ace0a242d7163ef",
+      "size": 10276,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/67e98b9d8ffb96a150b517497ace0a242d7163ef"
+    },
+    {
+      "path": "ldm/models/diffusion/ddim.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb31215db5c3f3f703f15987d7eee6a179c9f7ec",
+      "size": 12797,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/fb31215db5c3f3f703f15987d7eee6a179c9f7ec"
+    },
+    {
+      "path": "ldm/models/diffusion/ddpm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbedd04cfd6f736ac066434a75618b9ba5125be7",
+      "size": 67425,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/bbedd04cfd6f736ac066434a75618b9ba5125be7"
+    },
+    {
+      "path": "ldm/models/diffusion/dpm_solver",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "43d2b88b42eb37e180e37f905bc7d6b0d01c1b98",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/43d2b88b42eb37e180e37f905bc7d6b0d01c1b98"
+    },
+    {
+      "path": "ldm/models/diffusion/dpm_solver/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7427f38c07530afbab79154ea8aaf88c4bf70a08",
+      "size": 37,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/7427f38c07530afbab79154ea8aaf88c4bf70a08"
+    },
+    {
+      "path": "ldm/models/diffusion/dpm_solver/dpm_solver.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdb64e0c78cc3520f92d79db3124c85fc3cfb9b4",
+      "size": 64058,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/bdb64e0c78cc3520f92d79db3124c85fc3cfb9b4"
+    },
+    {
+      "path": "ldm/models/diffusion/dpm_solver/sampler.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c42d6f964d92658e769df95a81dec92250e5a99",
+      "size": 2908,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/2c42d6f964d92658e769df95a81dec92250e5a99"
+    },
+    {
+      "path": "ldm/models/diffusion/plms.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78eeb1003aa45d27bdbfc6b4a1d7ccbff57cd2e3",
+      "size": 12450,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/78eeb1003aa45d27bdbfc6b4a1d7ccbff57cd2e3"
+    },
+    {
+      "path": "ldm/modules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "016e33db02ad78bc2a4a5d2ba4693fb81f2b918f",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/016e33db02ad78bc2a4a5d2ba4693fb81f2b918f"
+    },
+    {
+      "path": "ldm/modules/attention.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4eff39ccb6d75daa764f6eb70a7cef024fb5a3f",
+      "size": 8531,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/f4eff39ccb6d75daa764f6eb70a7cef024fb5a3f"
+    },
+    {
+      "path": "ldm/modules/diffusionmodules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "98d3a46b2580eaa2183579d8f47b50fecaa5d3c3",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/98d3a46b2580eaa2183579d8f47b50fecaa5d3c3"
+    },
+    {
+      "path": "ldm/modules/diffusionmodules/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "ldm/modules/diffusionmodules/model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "533e589a2024f1d7c52093d8c472c3b1b6617e26",
+      "size": 33409,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/533e589a2024f1d7c52093d8c472c3b1b6617e26"
+    },
+    {
+      "path": "ldm/modules/diffusionmodules/openaimodel.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcf95d1ea8a078dd259915109203789f78f0643a",
+      "size": 34953,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/fcf95d1ea8a078dd259915109203789f78f0643a"
+    },
+    {
+      "path": "ldm/modules/diffusionmodules/util.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a952e6c40308c33edd422da0ce6a60f47e73661b",
+      "size": 9561,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/a952e6c40308c33edd422da0ce6a60f47e73661b"
+    },
+    {
+      "path": "ldm/modules/distributions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d497c7d55a8fae283f91c86b4af90f939d7ba6da",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/d497c7d55a8fae283f91c86b4af90f939d7ba6da"
+    },
+    {
+      "path": "ldm/modules/distributions/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "ldm/modules/distributions/distributions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2b8ef901130efc171aa69742ca0244d94d3f2e9",
+      "size": 2970,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/f2b8ef901130efc171aa69742ca0244d94d3f2e9"
+    },
+    {
+      "path": "ldm/modules/ema.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8c75af43565f6e140287644aaaefa97dd6e67c5",
+      "size": 2982,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/c8c75af43565f6e140287644aaaefa97dd6e67c5"
+    },
+    {
+      "path": "ldm/modules/encoders",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a145723f25abb4328e1d50708742210359c06582",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/a145723f25abb4328e1d50708742210359c06582"
+    },
+    {
+      "path": "ldm/modules/encoders/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "ldm/modules/encoders/modules.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ededbe43e9e0466b9979079060692e38f561d4d3",
+      "size": 8154,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/ededbe43e9e0466b9979079060692e38f561d4d3"
+    },
+    {
+      "path": "ldm/modules/image_degradation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0cb42af18ba1693d3c2491fb632b66e2a64aa2ba",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/0cb42af18ba1693d3c2491fb632b66e2a64aa2ba"
+    },
+    {
+      "path": "ldm/modules/image_degradation/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7836cada81f90ded99c58d5942eea4c3477f58fc",
+      "size": 208,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/7836cada81f90ded99c58d5942eea4c3477f58fc"
+    },
+    {
+      "path": "ldm/modules/image_degradation/bsrgan.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32ef56169978e550090261cddbcf5eb611a6173b",
+      "size": 25198,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/32ef56169978e550090261cddbcf5eb611a6173b"
+    },
+    {
+      "path": "ldm/modules/image_degradation/bsrgan_light.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e1f823996bf559e9b015ea9aa2b3cd38dd13af1",
+      "size": 22238,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/9e1f823996bf559e9b015ea9aa2b3cd38dd13af1"
+    },
+    {
+      "path": "ldm/modules/image_degradation/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4228c4b20e5d11169614f40d8e2b874a254a1081",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/4228c4b20e5d11169614f40d8e2b874a254a1081"
+    },
+    {
+      "path": "ldm/modules/image_degradation/utils/test.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4249b43de0f22707758d13c240268a401642f6e6",
+      "size": 441072,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/4249b43de0f22707758d13c240268a401642f6e6"
+    },
+    {
+      "path": "ldm/modules/image_degradation/utils_image.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0175f155ad900ae33c3c46ed87f49b352e3faf98",
+      "size": 29024,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/0175f155ad900ae33c3c46ed87f49b352e3faf98"
+    },
+    {
+      "path": "ldm/modules/losses",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3deb2ac3462f251335e6fe994525126143178a30",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/3deb2ac3462f251335e6fe994525126143178a30"
+    },
+    {
+      "path": "ldm/modules/losses/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "876d7c5bd6e3245ee77feb4c482b7a8143604ad5",
+      "size": 68,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/876d7c5bd6e3245ee77feb4c482b7a8143604ad5"
+    },
+    {
+      "path": "ldm/modules/losses/contperceptual.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "672c1e32a1389def02461c0781339681060c540e",
+      "size": 5581,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/672c1e32a1389def02461c0781339681060c540e"
+    },
+    {
+      "path": "ldm/modules/losses/vqperceptual.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f69981769e4bd5462600458c4fcf26620f7e4306",
+      "size": 7941,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/f69981769e4bd5462600458c4fcf26620f7e4306"
+    },
+    {
+      "path": "ldm/modules/x_transformer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fc15bf9cfe0111a910e7de33d04ffdec3877576",
+      "size": 20168,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/5fc15bf9cfe0111a910e7de33d04ffdec3877576"
+    },
+    {
+      "path": "ldm/util.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ba38853e7a07228cc2c187742b5c45d7359b3f9",
+      "size": 5857,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/8ba38853e7a07228cc2c187742b5c45d7359b3f9"
+    },
+    {
+      "path": "main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8e18c18fbb01f2e16d9376ea1bfb51f3b5df601",
+      "size": 28175,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/e8e18c18fbb01f2e16d9376ea1bfb51f3b5df601"
+    },
+    {
+      "path": "models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b3aa272516a1be9593ff4d08386a78f1033564f5",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/b3aa272516a1be9593ff4d08386a78f1033564f5"
+    },
+    {
+      "path": "models/first_stage_models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f43acbe3d151cf7d753f158e81fc38e6966dd5ff",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/f43acbe3d151cf7d753f158e81fc38e6966dd5ff"
+    },
+    {
+      "path": "models/first_stage_models/kl-f16",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5e004ce5a266212d347e33dbfac6031a019b4f75",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/5e004ce5a266212d347e33dbfac6031a019b4f75"
+    },
+    {
+      "path": "models/first_stage_models/kl-f16/config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "661921cf75a0b803c5eca41039dd058e24930452",
+      "size": 909,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/661921cf75a0b803c5eca41039dd058e24930452"
+    },
+    {
+      "path": "models/first_stage_models/kl-f32",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "57b8341d4ec50594203117b3e951561bb738f9d2",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/57b8341d4ec50594203117b3e951561bb738f9d2"
+    },
+    {
+      "path": "models/first_stage_models/kl-f32/config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b642b136aaaf909ccd8766372eeffc4dffec342",
+      "size": 929,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/7b642b136aaaf909ccd8766372eeffc4dffec342"
+    },
+    {
+      "path": "models/first_stage_models/kl-f4",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0cfc2de718283a8fab67c79e5ecc3e61e1f0bf74",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/0cfc2de718283a8fab67c79e5ecc3e61e1f0bf74"
+    },
+    {
+      "path": "models/first_stage_models/kl-f4/config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85cfb3e94e2ffa867ab49af82fcd8a4dc238e2ad",
+      "size": 880,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/85cfb3e94e2ffa867ab49af82fcd8a4dc238e2ad"
+    },
+    {
+      "path": "models/first_stage_models/kl-f8",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "753e62b9257e6a50f06bdd36e03c8ee498ad4f98",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/753e62b9257e6a50f06bdd36e03c8ee498ad4f98"
+    },
+    {
+      "path": "models/first_stage_models/kl-f8/config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "921aa425335aced7a1a53307d39da0eba267efd6",
+      "size": 889,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/921aa425335aced7a1a53307d39da0eba267efd6"
+    },
+    {
+      "path": "models/first_stage_models/vq-f16",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f289aa2c5f71e5e7fe7acec0fecff779e6a99fb6",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/f289aa2c5f71e5e7fe7acec0fecff779e6a99fb6"
+    },
+    {
+      "path": "models/first_stage_models/vq-f16/config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91c74549064bfd158424cba9c79cd2618395fc9f",
+      "size": 1026,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/91c74549064bfd158424cba9c79cd2618395fc9f"
+    },
+    {
+      "path": "models/first_stage_models/vq-f4-noattn",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1673ee31400f9897b8b7afedfec4bf577ec7611e",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/1673ee31400f9897b8b7afedfec4bf577ec7611e"
+    },
+    {
+      "path": "models/first_stage_models/vq-f4-noattn/config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8e499fa2aa891ea18f2cdbdd423c22bc1db6901",
+      "size": 978,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/f8e499fa2aa891ea18f2cdbdd423c22bc1db6901"
+    },
+    {
+      "path": "models/first_stage_models/vq-f4",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "49a85624ad8eee533e4537c1ca80a346039d6b96",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/49a85624ad8eee533e4537c1ca80a346039d6b96"
+    },
+    {
+      "path": "models/first_stage_models/vq-f4/config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d8cef3252742d70855d1a0df011a82223c17c4f",
+      "size": 955,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/7d8cef3252742d70855d1a0df011a82223c17c4f"
+    },
+    {
+      "path": "models/first_stage_models/vq-f8-n256",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d0aba1dab2c018bb5902b728d145f02a4c216d0f",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/d0aba1dab2c018bb5902b728d145f02a4c216d0f"
+    },
+    {
+      "path": "models/first_stage_models/vq-f8-n256/config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8519e13d618fe04792e59fc6eb826c1804fcdc28",
+      "size": 1013,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/8519e13d618fe04792e59fc6eb826c1804fcdc28"
+    },
+    {
+      "path": "models/first_stage_models/vq-f8",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eb06e4566cb46d0fbfff1a2931972736a838e926",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/eb06e4566cb46d0fbfff1a2931972736a838e926"
+    },
+    {
+      "path": "models/first_stage_models/vq-f8/config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efd6801ca965baf7119b171de8338bd16e120332",
+      "size": 1035,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/efd6801ca965baf7119b171de8338bd16e120332"
+    },
+    {
+      "path": "models/ldm",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0898d91e67a93b182888f4a5c10a88ac36806a08",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/0898d91e67a93b182888f4a5c10a88ac36806a08"
+    },
+    {
+      "path": "models/ldm/bsr_sr",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9050d6bf35b3e08327142b501e66903e4d679d62",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/9050d6bf35b3e08327142b501e66903e4d679d62"
+    },
+    {
+      "path": "models/ldm/bsr_sr/config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "861692a8d10b1764519576fd12200524faa32753",
+      "size": 1900,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/861692a8d10b1764519576fd12200524faa32753"
+    },
+    {
+      "path": "models/ldm/celeba256",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d03867f5b0a7dea6c700188b5e851882a6ee9dd7",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/d03867f5b0a7dea6c700188b5e851882a6ee9dd7"
+    },
+    {
+      "path": "models/ldm/celeba256/config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a12f4e9d399afe23e6bcc824bddc8bad7ee5456d",
+      "size": 1599,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/a12f4e9d399afe23e6bcc824bddc8bad7ee5456d"
+    },
+    {
+      "path": "models/ldm/cin256",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "27ac79bbdf04398fa4d421a02f88f232acd774cb",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/27ac79bbdf04398fa4d421a02f88f232acd774cb"
+    },
+    {
+      "path": "models/ldm/cin256/config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bc1b4566af8b53a2a20eb2b6dc68445f5fb4eb8",
+      "size": 1862,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/9bc1b4566af8b53a2a20eb2b6dc68445f5fb4eb8"
+    },
+    {
+      "path": "models/ldm/ffhq256",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ce6b3040492c2dcad63ad4334f886c60ee10d496",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/ce6b3040492c2dcad63ad4334f886c60ee10d496"
+    },
+    {
+      "path": "models/ldm/ffhq256/config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ddfd1b93e8e52c9de2e981f9f4bbaf83e75b38e",
+      "size": 1591,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/0ddfd1b93e8e52c9de2e981f9f4bbaf83e75b38e"
+    },
+    {
+      "path": "models/ldm/inpainting_big",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bca6a40937e4353f2a2020a463ea441416d73090",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/bca6a40937e4353f2a2020a463ea441416d73090"
+    },
+    {
+      "path": "models/ldm/inpainting_big/config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da5fd5ea508ea0998b75519bc297411946e4a5bb",
+      "size": 1619,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/da5fd5ea508ea0998b75519bc297411946e4a5bb"
+    },
+    {
+      "path": "models/ldm/layout2img-openimages256",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e8df735c394f733b22135fdf1b7db7cb2617e559",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/e8df735c394f733b22135fdf1b7db7cb2617e559"
+    },
+    {
+      "path": "models/ldm/layout2img-openimages256/config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e1dc15fe2732c70b918ceba4255aef895031efd",
+      "size": 1924,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/9e1dc15fe2732c70b918ceba4255aef895031efd"
+    },
+    {
+      "path": "models/ldm/lsun_beds256",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "15d7c7c1d63bc27488b7a6043565ab1390aae2b7",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/15d7c7c1d63bc27488b7a6043565ab1390aae2b7"
+    },
+    {
+      "path": "models/ldm/lsun_beds256/config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a50c766a5e571545e4f15f897de73f9df49d85c",
+      "size": 1601,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/1a50c766a5e571545e4f15f897de73f9df49d85c"
+    },
+    {
+      "path": "models/ldm/lsun_churches256",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c8eba0fbc58f6d5541a1ca58690c2ab429822831",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/c8eba0fbc58f6d5541a1ca58690c2ab429822831"
+    },
+    {
+      "path": "models/ldm/lsun_churches256/config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "424d0914c9a1b9d4df3a2862ee7764404fe8adc1",
+      "size": 2018,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/424d0914c9a1b9d4df3a2862ee7764404fe8adc1"
+    },
+    {
+      "path": "models/ldm/semantic_synthesis256",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f23029e284f3dda83f6360c6381bdf6a4f2f9ff1",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/f23029e284f3dda83f6360c6381bdf6a4f2f9ff1"
+    },
+    {
+      "path": "models/ldm/semantic_synthesis256/config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a721cfffa5f0cd627be56c07cf5306ae4933cd1",
+      "size": 1378,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/1a721cfffa5f0cd627be56c07cf5306ae4933cd1"
+    },
+    {
+      "path": "models/ldm/semantic_synthesis512",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8f3dcbf4d4001274a944650f89a06a66dd08e08e",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/8f3dcbf4d4001274a944650f89a06a66dd08e08e"
+    },
+    {
+      "path": "models/ldm/semantic_synthesis512/config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8faded2eec5899064fc464a1b543d3a1b9c0613f",
+      "size": 1820,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/8faded2eec5899064fc464a1b543d3a1b9c0613f"
+    },
+    {
+      "path": "models/ldm/text2img256",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7dd4726556ae83b7d044be12060c387390151013",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/7dd4726556ae83b7d044be12060c387390151013"
+    },
+    {
+      "path": "models/ldm/text2img256/config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f54a0151569fafcd0df37a480e5ea920fe7ffb5",
+      "size": 1831,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/3f54a0151569fafcd0df37a480e5ea920fe7ffb5"
+    },
+    {
+      "path": "notebook_helpers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d0ebd7e1f8095053f34b1d7652b55d165097f0e",
+      "size": 10099,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/5d0ebd7e1f8095053f34b1d7652b55d165097f0e"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1f6390f610b47aa2aac08a5292e6c804438e87ad",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/1f6390f610b47aa2aac08a5292e6c804438e87ad"
+    },
+    {
+      "path": "scripts/download_first_stages.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8d79e99ccdff0a8d8762f23f3c0642401f32f6c",
+      "size": 1324,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/a8d79e99ccdff0a8d8762f23f3c0642401f32f6c"
+    },
+    {
+      "path": "scripts/download_models.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84297d7b8b9a78d241edcd5adaf7d9aa273790de",
+      "size": 1681,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/84297d7b8b9a78d241edcd5adaf7d9aa273790de"
+    },
+    {
+      "path": "scripts/img2img.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "421e2151d9e9de75a142f5d5f532333645a36287",
+      "size": 9181,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/421e2151d9e9de75a142f5d5f532333645a36287"
+    },
+    {
+      "path": "scripts/inpaint.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6e6387a9a3b0afa73fae8af25f43a8ba856240e",
+      "size": 3644,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/d6e6387a9a3b0afa73fae8af25f43a8ba856240e"
+    },
+    {
+      "path": "scripts/knn2img.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6eaaecab53eac9c97051c9a5cb457a240679725",
+      "size": 13707,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/e6eaaecab53eac9c97051c9a5cb457a240679725"
+    },
+    {
+      "path": "scripts/latent_imagenet_diffusion.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "607f94fc7d3ef6d8d1627017215476d9dfc7ddc4",
+      "size": 4172390,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/607f94fc7d3ef6d8d1627017215476d9dfc7ddc4"
+    },
+    {
+      "path": "scripts/sample_diffusion.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "876fe3c3642fcc8c7209e4f763c0134166615f78",
+      "size": 9606,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/876fe3c3642fcc8c7209e4f763c0134166615f78"
+    },
+    {
+      "path": "scripts/tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1a8c60fcb4ebb10c5f2beb462e70621da1a87f55",
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/trees/1a8c60fcb4ebb10c5f2beb462e70621da1a87f55"
+    },
+    {
+      "path": "scripts/tests/test_watermark.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f93f8a6e70763c0e284157bc8225827520b2f5ef",
+      "size": 357,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/f93f8a6e70763c0e284157bc8225827520b2f5ef"
+    },
+    {
+      "path": "scripts/train_searcher.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e7904889c0145f9fb740fd4ae8e45c08728b255",
+      "size": 5807,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/1e7904889c0145f9fb740fd4ae8e45c08728b255"
+    },
+    {
+      "path": "scripts/txt2img.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc3864043f676c829b623f444f689f6fe7e4824b",
+      "size": 11666,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/bc3864043f676c829b623f444f689f6fe7e4824b"
+    },
+    {
+      "path": "setup.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a24d541676407eee1bea271179ffd1d80c6a8e79",
+      "size": 233,
+      "url": "https://api.github.com/repos/CompVis/stable-diffusion/git/blobs/a24d541676407eee1bea271179ffd1d80c6a8e79"
+    }
+  ],
+  "truncated": false
+}

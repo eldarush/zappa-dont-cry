@@ -1,0 +1,3621 @@
+{
+  "sha": "c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
+  "url": "https://api.github.com/repos/nvbn/thefuck/git/trees/c7e7e1d884d3bb241ea6448f72a989434c2a35ec",
+  "tree": [
+    {
+      "path": ".devcontainer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4c9eee9d8e6ed7003964464fafa2647f9042ebf7",
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/trees/4c9eee9d8e6ed7003964464fafa2647f9042ebf7"
+    },
+    {
+      "path": ".devcontainer/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0682570f00eb6e69aba698ed9a943737fecc258",
+      "size": 536,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/c0682570f00eb6e69aba698ed9a943737fecc258"
+    },
+    {
+      "path": ".devcontainer/devcontainer.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bf7e467c408430e4958606c1afb1fbd34b4b87a",
+      "size": 1500,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/8bf7e467c408430e4958606c1afb1fbd34b4b87a"
+    },
+    {
+      "path": ".editorconfig",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f65e6333bbe5aae68c32d1f1a229c14bc37d8e93",
+      "size": 145,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/f65e6333bbe5aae68c32d1f1a229c14bc37d8e93"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cafc468ed9a240555ec60d04091852cc105e7a6c",
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/trees/cafc468ed9a240555ec60d04091852cc105e7a6c"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c0b95a1730b399b127a42dfe342eacc832bbbc2",
+      "size": 1081,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/4c0b95a1730b399b127a42dfe342eacc832bbbc2"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8073a3d0627e23cba9c09aa4b817c11ab71003fc",
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/trees/8073a3d0627e23cba9c09aa4b817c11ab71003fc"
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea7312ea3c5b3f699d150b1484f43d5233a51439",
+      "size": 2547,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/ea7312ea3c5b3f699d150b1484f43d5233a51439"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5b7ac73979da1a821a146450dbf8b6eff742962",
+      "size": 744,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/b5b7ac73979da1a821a146450dbf8b6eff742962"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfccd47f8638bf9652f632712e04dc9a2da2f012",
+      "size": 3193,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/cfccd47f8638bf9652f632712e04dc9a2da2f012"
+    },
+    {
+      "path": "LICENSE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0b5651363af42e957dbbf45db38b8f1b2d30077",
+      "size": 1111,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/a0b5651363af42e957dbbf45db38b8f1b2d30077"
+    },
+    {
+      "path": "MANIFEST.in",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d402c7c34bce518a9b7483c5a3cda9a3adfe5f5a",
+      "size": 46,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/d402c7c34bce518a9b7483c5a3cda9a3adfe5f5a"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8182035492ec293007a8ffcbb9fbb7236b0b0dac",
+      "size": 26495,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/8182035492ec293007a8ffcbb9fbb7236b0b0dac"
+    },
+    {
+      "path": "example.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d9f19b30927a7a9178e01b5d58f71e85d59fd81",
+      "size": 646278,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/5d9f19b30927a7a9178e01b5d58f71e85d59fd81"
+    },
+    {
+      "path": "example_instant_mode.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0fd62ade82f7173fb13f357505cef21182d7299",
+      "size": 468384,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/b0fd62ade82f7173fb13f357505cef21182d7299"
+    },
+    {
+      "path": "fastentrypoints.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bddb468b8bbc14fbd098e2bfd78bb330478edd8",
+      "size": 3952,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/7bddb468b8bbc14fbd098e2bfd78bb330478edd8"
+    },
+    {
+      "path": "install.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "366e4ae6d1b4a072b4c1ec52ff52cacb0d41bb1d",
+      "size": 134,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/366e4ae6d1b4a072b4c1ec52ff52cacb0d41bb1d"
+    },
+    {
+      "path": "release.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "82c07f3bb3b476553c337e3228f77dd38c83e9be",
+      "size": 1024,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/82c07f3bb3b476553c337e3228f77dd38c83e9be"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33ae7a9dcf8c029a0e1d04b7424377a39754d697",
+      "size": 116,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/33ae7a9dcf8c029a0e1d04b7424377a39754d697"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8d95ce7245dd1413d5b105ad0805de1b751d5bad",
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/trees/8d95ce7245dd1413d5b105ad0805de1b751d5bad"
+    },
+    {
+      "path": "scripts/fuck.bat",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb6bd344289248be8094ad333a52f6d0ee379a8d",
+      "size": 130,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/eb6bd344289248be8094ad333a52f6d0ee379a8d"
+    },
+    {
+      "path": "scripts/fuck.ps1",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad76c3c1f9bb5acf2ede6fef2d48e13cd5ca0937",
+      "size": 622,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/ad76c3c1f9bb5acf2ede6fef2d48e13cd5ca0937"
+    },
+    {
+      "path": "setup.cfg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a9acf13daa95e85642ea255d3e3bd1ef8252804",
+      "size": 28,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/2a9acf13daa95e85642ea255d3e3bd1ef8252804"
+    },
+    {
+      "path": "setup.py",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1105aef495f766fa84b86321d6553915625d6829",
+      "size": 2481,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/1105aef495f766fa84b86321d6553915625d6829"
+    },
+    {
+      "path": "snapcraft.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d9e892dbdbf08900ad1a9fbc711e13a7c0cb6d6",
+      "size": 598,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/3d9e892dbdbf08900ad1a9fbc711e13a7c0cb6d6"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c48d8bcb8e07d669703a2256ffadca6ada4ddb79",
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/trees/c48d8bcb8e07d669703a2256ffadca6ada4ddb79"
+    },
+    {
+      "path": "tests/Dockerfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62634af00576b51507dd749b546dd7aba4ba2181",
+      "size": 218,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/62634af00576b51507dd749b546dd7aba4ba2181"
+    },
+    {
+      "path": "tests/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "964458b67e6c387df6e2bb97b24b9483b22cc488",
+      "size": 1754,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/964458b67e6c387df6e2bb97b24b9483b22cc488"
+    },
+    {
+      "path": "tests/entrypoints",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1a98e528124566d7720b58ac9b69b7e6566fd17a",
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/trees/1a98e528124566d7720b58ac9b69b7e6566fd17a"
+    },
+    {
+      "path": "tests/entrypoints/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/entrypoints/test_alias.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddb13e1f53085778d41602ac98c099999b35ae2f",
+      "size": 1443,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/ddb13e1f53085778d41602ac98c099999b35ae2f"
+    },
+    {
+      "path": "tests/entrypoints/test_fix_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3012bb4f83555d0c1641a6e1fb95aa87e98bff8e",
+      "size": 975,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/3012bb4f83555d0c1641a6e1fb95aa87e98bff8e"
+    },
+    {
+      "path": "tests/entrypoints/test_not_configured.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79ed29f51e9c33fb6e0c07eeccc258adb13b3069",
+      "size": 4398,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/79ed29f51e9c33fb6e0c07eeccc258adb13b3069"
+    },
+    {
+      "path": "tests/functional",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "23ac7c2faf217d3b7ecd088d9506fff1d281a93d",
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/trees/23ac7c2faf217d3b7ecd088d9506fff1d281a93d"
+    },
+    {
+      "path": "tests/functional/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/functional/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a5601f7bd802dfb292587efdf20fb1d687d9fd6",
+      "size": 558,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/8a5601f7bd802dfb292587efdf20fb1d687d9fd6"
+    },
+    {
+      "path": "tests/functional/plots.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60c68a7daa659b0115268e4919eedc9764961c56",
+      "size": 2529,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/60c68a7daa659b0115268e4919eedc9764961c56"
+    },
+    {
+      "path": "tests/functional/test_bash.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "489ca257888e3e2e69f7caa87b4b3ee9c15b9237",
+      "size": 1813,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/489ca257888e3e2e69f7caa87b4b3ee9c15b9237"
+    },
+    {
+      "path": "tests/functional/test_fish.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbf04f27e6c7a03cc27c2c4d4e1c8b3bd4d79153",
+      "size": 967,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/cbf04f27e6c7a03cc27c2c4d4e1c8b3bd4d79153"
+    },
+    {
+      "path": "tests/functional/test_tcsh.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06dcad0ec10c5bf21cd7810883a0dd05c98cec83",
+      "size": 996,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/06dcad0ec10c5bf21cd7810883a0dd05c98cec83"
+    },
+    {
+      "path": "tests/functional/test_zsh.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6c27335085f82ed88ff61e649e9fcd166aa8097",
+      "size": 1847,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/a6c27335085f82ed88ff61e649e9fcd166aa8097"
+    },
+    {
+      "path": "tests/output_readers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "29aa7d195f8cd3ae0269677e2dbd093660d5bbaa",
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/trees/29aa7d195f8cd3ae0269677e2dbd093660d5bbaa"
+    },
+    {
+      "path": "tests/output_readers/test_rerun.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adae9024daca74c6698495e2e97265e5a8ff3f06",
+      "size": 3055,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/adae9024daca74c6698495e2e97265e5a8ff3f06"
+    },
+    {
+      "path": "tests/rules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1985d239e46aac694c0155cbaab3e5cdb107b243",
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/trees/1985d239e46aac694c0155cbaab3e5cdb107b243"
+    },
+    {
+      "path": "tests/rules/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/rules/test_adb_unknown_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2c32562e81f5d781ffd7e255494875747c9ff77",
+      "size": 1541,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/f2c32562e81f5d781ffd7e255494875747c9ff77"
+    },
+    {
+      "path": "tests/rules/test_ag_literal.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4727699aea7d8912703c4b63f33aeb3b30c17ba1",
+      "size": 732,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/4727699aea7d8912703c4b63f33aeb3b30c17ba1"
+    },
+    {
+      "path": "tests/rules/test_apt_get.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acedc7e126151ab3ca2a0158293c4be258b76cc6",
+      "size": 2245,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/acedc7e126151ab3ca2a0158293c4be258b76cc6"
+    },
+    {
+      "path": "tests/rules/test_apt_get_search.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21a8376aa57b0e7e811cdbfa0d08c853f7fe9a24",
+      "size": 732,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/21a8376aa57b0e7e811cdbfa0d08c853f7fe9a24"
+    },
+    {
+      "path": "tests/rules/test_apt_invalid_operation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4ccc8408c64c34556aa7b85b8b29508507a7546",
+      "size": 6388,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/e4ccc8408c64c34556aa7b85b8b29508507a7546"
+    },
+    {
+      "path": "tests/rules/test_apt_list_upgradable.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdb9168da00a8eca0cc5066609a04fb5bcb1f169",
+      "size": 3942,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/fdb9168da00a8eca0cc5066609a04fb5bcb1f169"
+    },
+    {
+      "path": "tests/rules/test_apt_upgrade.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "687d70639d4b534bc3378d6c5086c118b2c82aa7",
+      "size": 1189,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/687d70639d4b534bc3378d6c5086c118b2c82aa7"
+    },
+    {
+      "path": "tests/rules/test_aws_cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f40dcb58798a4e4a303fc9c34150c53863fd2039",
+      "size": 2674,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/f40dcb58798a4e4a303fc9c34150c53863fd2039"
+    },
+    {
+      "path": "tests/rules/test_az_cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cb19f1e9e3f5582630d9406548fba10add489f6",
+      "size": 1175,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/1cb19f1e9e3f5582630d9406548fba10add489f6"
+    },
+    {
+      "path": "tests/rules/test_brew_cask_dependency.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b30b020afb0534a1e2b69b0bfcde2760a657ba76",
+      "size": 943,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/b30b020afb0534a1e2b69b0bfcde2760a657ba76"
+    },
+    {
+      "path": "tests/rules/test_brew_install.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e56cf7647ea7243be2c927c9a78d47c97e89840e",
+      "size": 2610,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/e56cf7647ea7243be2c927c9a78d47c97e89840e"
+    },
+    {
+      "path": "tests/rules/test_brew_link.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ccce952626b1503347266a69ff93d3128fc3c8f",
+      "size": 1220,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/6ccce952626b1503347266a69ff93d3128fc3c8f"
+    },
+    {
+      "path": "tests/rules/test_brew_reinstall.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1ca0b47d3bec50b375d4b82646ca16991e12e12",
+      "size": 820,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/e1ca0b47d3bec50b375d4b82646ca16991e12e12"
+    },
+    {
+      "path": "tests/rules/test_brew_uninstall.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b91c2ae04b486b578386e6e1bd03eef310934308",
+      "size": 1069,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/b91c2ae04b486b578386e6e1bd03eef310934308"
+    },
+    {
+      "path": "tests/rules/test_brew_unknown_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1ad6f9d814c29366b791f1abcfc1fa688464dc3",
+      "size": 884,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/a1ad6f9d814c29366b791f1abcfc1fa688464dc3"
+    },
+    {
+      "path": "tests/rules/test_brew_update_formula.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a35e1d9a5837eb62d8fef7b3738ea12c07215192",
+      "size": 807,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/a35e1d9a5837eb62d8fef7b3738ea12c07215192"
+    },
+    {
+      "path": "tests/rules/test_cargo_no_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fed4fcb81528afe3b9927dc261644b3ab453537e",
+      "size": 755,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/fed4fcb81528afe3b9927dc261644b3ab453537e"
+    },
+    {
+      "path": "tests/rules/test_cat_dir.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "117fe91cfd407c99e3eb4b502d14fba1899fd788",
+      "size": 1208,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/117fe91cfd407c99e3eb4b502d14fba1899fd788"
+    },
+    {
+      "path": "tests/rules/test_cd_correction.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2576584b226e09e4bc11d1da0be0201d56204c2",
+      "size": 756,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/d2576584b226e09e4bc11d1da0be0201d56204c2"
+    },
+    {
+      "path": "tests/rules/test_cd_cs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "204c651d9af6ae5ef0953e68e5a8a9e3d0faa006",
+      "size": 346,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/204c651d9af6ae5ef0953e68e5a8a9e3d0faa006"
+    },
+    {
+      "path": "tests/rules/test_cd_mkdir.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa3d82ef8486db1fb3262d490eeaa483ea68338a",
+      "size": 911,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/aa3d82ef8486db1fb3262d490eeaa483ea68338a"
+    },
+    {
+      "path": "tests/rules/test_cd_parent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cb7176c7820fb24e8d4c8295d6c1c66794832a7",
+      "size": 301,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/7cb7176c7820fb24e8d4c8295d6c1c66794832a7"
+    },
+    {
+      "path": "tests/rules/test_chmod_x.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fc62bebe2028f6fecd314af01411b567403ccc1",
+      "size": 1418,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/9fc62bebe2028f6fecd314af01411b567403ccc1"
+    },
+    {
+      "path": "tests/rules/test_choco_install.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bfbb0d2198a2869c2907ec324d33897b9ea858d",
+      "size": 4174,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/0bfbb0d2198a2869c2907ec324d33897b9ea858d"
+    },
+    {
+      "path": "tests/rules/test_composer_not_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bae920c22225c8ff0e0ff8d60d2a6460dfe3026",
+      "size": 2444,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/2bae920c22225c8ff0e0ff8d60d2a6460dfe3026"
+    },
+    {
+      "path": "tests/rules/test_conda_mistype.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f05d8295b095f34353a8e87dea356d89ad3e981",
+      "size": 588,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/0f05d8295b095f34353a8e87dea356d89ad3e981"
+    },
+    {
+      "path": "tests/rules/test_cp_create_destination.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c40946627caba4610fd0f0f0091de2790b9ccf1",
+      "size": 1018,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/1c40946627caba4610fd0f0f0091de2790b9ccf1"
+    },
+    {
+      "path": "tests/rules/test_cp_omitting_directory.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e42437992498fe28d47f4740d6277a396589c040",
+      "size": 672,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/e42437992498fe28d47f4740d6277a396589c040"
+    },
+    {
+      "path": "tests/rules/test_dirty_untar.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0aa57542ab9e6594ce5c1920265d3f5a95f7a9e",
+      "size": 2475,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/e0aa57542ab9e6594ce5c1920265d3f5a95f7a9e"
+    },
+    {
+      "path": "tests/rules/test_dirty_unzip.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed1f8881a7d15f303e9b272c07e462956a6ab451",
+      "size": 2168,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/ed1f8881a7d15f303e9b272c07e462956a6ab451"
+    },
+    {
+      "path": "tests/rules/test_django_south_ghost.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9f13d6ae411f921729c0e615176b51d45f04603",
+      "size": 2407,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/c9f13d6ae411f921729c0e615176b51d45f04603"
+    },
+    {
+      "path": "tests/rules/test_django_south_merge.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6548a8cc02b17e3d0198123b17f7bb258a914d36",
+      "size": 2060,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/6548a8cc02b17e3d0198123b17f7bb258a914d36"
+    },
+    {
+      "path": "tests/rules/test_dnf_no_such_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6229828f389170abbc1f3b6f0b355ccfa5d71ea7",
+      "size": 8968,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/6229828f389170abbc1f3b6f0b355ccfa5d71ea7"
+    },
+    {
+      "path": "tests/rules/test_docker_image_being_used_by_container.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00d9e674213d1572780e319d1bb97cba4a6c86a4",
+      "size": 1245,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/00d9e674213d1572780e319d1bb97cba4a6c86a4"
+    },
+    {
+      "path": "tests/rules/test_docker_login.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e62ae2ab0cb4fd0fcfe57650f3ab91d6e80ae2d",
+      "size": 1480,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/2e62ae2ab0cb4fd0fcfe57650f3ab91d6e80ae2d"
+    },
+    {
+      "path": "tests/rules/test_docker_not_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d13ecb963de9627e9a6f6bc8bcc241b46adbf27f",
+      "size": 13012,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/d13ecb963de9627e9a6f6bc8bcc241b46adbf27f"
+    },
+    {
+      "path": "tests/rules/test_dry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9973f84bd2e996e4905a1891a887c12f5bdea05c",
+      "size": 540,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/9973f84bd2e996e4905a1891a887c12f5bdea05c"
+    },
+    {
+      "path": "tests/rules/test_fab_command_not_found.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "240028863f39ea4c9bbe93d63c5f2cb0742f8b73",
+      "size": 1410,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/240028863f39ea4c9bbe93d63c5f2cb0742f8b73"
+    },
+    {
+      "path": "tests/rules/test_fix_alt_space.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76975661afb14d0f4063db0c3b39087884a091c8",
+      "size": 741,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/76975661afb14d0f4063db0c3b39087884a091c8"
+    },
+    {
+      "path": "tests/rules/test_fix_file.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "909e8ed77a6a954fd75a71564f5fe9ced486feaa",
+      "size": 7117,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/909e8ed77a6a954fd75a71564f5fe9ced486feaa"
+    },
+    {
+      "path": "tests/rules/test_gem_unknown_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3da0fa71376afc3c5a2118f79f6b29c9ca261b4c",
+      "size": 3517,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/3da0fa71376afc3c5a2118f79f6b29c9ca261b4c"
+    },
+    {
+      "path": "tests/rules/test_git_add.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3be7f4c8f0aaea7ea8fb204d6450bbabdc6b7063",
+      "size": 1353,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/3be7f4c8f0aaea7ea8fb204d6450bbabdc6b7063"
+    },
+    {
+      "path": "tests/rules/test_git_add_force.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f7ac0614acbbe758f4afa1c9f0a611b2230de07",
+      "size": 657,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/4f7ac0614acbbe758f4afa1c9f0a611b2230de07"
+    },
+    {
+      "path": "tests/rules/test_git_bisect_usage.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9d57cd7d13e24d0523260ba24ed18ea13789020",
+      "size": 993,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/a9d57cd7d13e24d0523260ba24ed18ea13789020"
+    },
+    {
+      "path": "tests/rules/test_git_branch_0flag.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c96e512efe7a2b6dae6b33c1b890b481348c418",
+      "size": 1984,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/1c96e512efe7a2b6dae6b33c1b890b481348c418"
+    },
+    {
+      "path": "tests/rules/test_git_branch_delete.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a8c977d910fd7d035cd2625a228ed46baeb6479",
+      "size": 606,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/2a8c977d910fd7d035cd2625a228ed46baeb6479"
+    },
+    {
+      "path": "tests/rules/test_git_branch_delete_checked_out.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bf551bf203a5b9f071cf40646b74627a0c29f36",
+      "size": 913,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/2bf551bf203a5b9f071cf40646b74627a0c29f36"
+    },
+    {
+      "path": "tests/rules/test_git_branch_exists.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6e0df6bb286efef545566bff58ecaf1a4cae0bb",
+      "size": 1463,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/b6e0df6bb286efef545566bff58ecaf1a4cae0bb"
+    },
+    {
+      "path": "tests/rules/test_git_branch_list.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1c21a4d5671561ad37fb1b1269ed2c19cbe6fa5",
+      "size": 570,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/b1c21a4d5671561ad37fb1b1269ed2c19cbe6fa5"
+    },
+    {
+      "path": "tests/rules/test_git_checkout.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c72b1dcbaf2a9ccb60eaf3d51cbda5d79d2a2816",
+      "size": 2639,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/c72b1dcbaf2a9ccb60eaf3d51cbda5d79d2a2816"
+    },
+    {
+      "path": "tests/rules/test_git_clone_git_clone.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2efc6899d1a03fba41710f8dcdfe792b3f07aa87",
+      "size": 648,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/2efc6899d1a03fba41710f8dcdfe792b3f07aa87"
+    },
+    {
+      "path": "tests/rules/test_git_clone_missing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcd95fd124bab78a75cfc9193580dc3b07215a64",
+      "size": 1613,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/dcd95fd124bab78a75cfc9193580dc3b07215a64"
+    },
+    {
+      "path": "tests/rules/test_git_commit_add.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a244f33ee770b78a7a4a7644cd92916dbeb617f",
+      "size": 1039,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/1a244f33ee770b78a7a4a7644cd92916dbeb617f"
+    },
+    {
+      "path": "tests/rules/test_git_commit_amend.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "743ccbf567a889c49705fc5b6eab589f0f99350d",
+      "size": 696,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/743ccbf567a889c49705fc5b6eab589f0f99350d"
+    },
+    {
+      "path": "tests/rules/test_git_commit_reset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f406472310a36912df0018606b744c4058cd528",
+      "size": 693,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/6f406472310a36912df0018606b744c4058cd528"
+    },
+    {
+      "path": "tests/rules/test_git_diff_no_index.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "889f787679f0b1f01506a0b60a249fc2ca7f04dc",
+      "size": 689,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/889f787679f0b1f01506a0b60a249fc2ca7f04dc"
+    },
+    {
+      "path": "tests/rules/test_git_diff_staged.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72d68565e328bdccd7b726980fa7eabfd011a211",
+      "size": 757,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/72d68565e328bdccd7b726980fa7eabfd011a211"
+    },
+    {
+      "path": "tests/rules/test_git_fix_stash.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca63ee709bb2b27afe9025ecff7d667e07cb7a77",
+      "size": 1108,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/ca63ee709bb2b27afe9025ecff7d667e07cb7a77"
+    },
+    {
+      "path": "tests/rules/test_git_flag_after_filename.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cee4fa1bdd469cbb8468f5f0e87e47c16358008d",
+      "size": 1649,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/cee4fa1bdd469cbb8468f5f0e87e47c16358008d"
+    },
+    {
+      "path": "tests/rules/test_git_help_aliased.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "baa2ec4fc090e52054685aecd4e3903e40926c11",
+      "size": 959,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/baa2ec4fc090e52054685aecd4e3903e40926c11"
+    },
+    {
+      "path": "tests/rules/test_git_hook_bypass.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cd8715a84a370047e0b0d3110452ea095da6a2a",
+      "size": 1143,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/8cd8715a84a370047e0b0d3110452ea095da6a2a"
+    },
+    {
+      "path": "tests/rules/test_git_lfs_mistype.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1aae66fc291861ed8aac27b292c339a4a6cbb375",
+      "size": 732,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/1aae66fc291861ed8aac27b292c339a4a6cbb375"
+    },
+    {
+      "path": "tests/rules/test_git_main_master.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf6f5b46a979126878aab8ac6eeb9aedb7fc9585",
+      "size": 1284,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/bf6f5b46a979126878aab8ac6eeb9aedb7fc9585"
+    },
+    {
+      "path": "tests/rules/test_git_merge.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0829d2822b9803050d25a440143900772c4152c1",
+      "size": 808,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/0829d2822b9803050d25a440143900772c4152c1"
+    },
+    {
+      "path": "tests/rules/test_git_merge_unrelated.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dee0f97e2c387eda636aa00e30a696513fa6fcb7",
+      "size": 832,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/dee0f97e2c387eda636aa00e30a696513fa6fcb7"
+    },
+    {
+      "path": "tests/rules/test_git_not_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a9740c54f274291be3caf7ad8cc3d3f63c48ac8",
+      "size": 1450,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/8a9740c54f274291be3caf7ad8cc3d3f63c48ac8"
+    },
+    {
+      "path": "tests/rules/test_git_pull.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2a7154dddc2875313a8cff0d1b17b9d98354052",
+      "size": 797,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/b2a7154dddc2875313a8cff0d1b17b9d98354052"
+    },
+    {
+      "path": "tests/rules/test_git_pull_clone.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "307e3a242ff22f9124d8f61b9276d44e74afc96e",
+      "size": 693,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/307e3a242ff22f9124d8f61b9276d44e74afc96e"
+    },
+    {
+      "path": "tests/rules/test_git_pull_uncommitted_changes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac29bc0d8c5168a341cadd1793b737711b8e57ce",
+      "size": 546,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/ac29bc0d8c5168a341cadd1793b737711b8e57ce"
+    },
+    {
+      "path": "tests/rules/test_git_pull_unstaged_changes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3600e749383c3307c901d51d29f3134294a143a6",
+      "size": 560,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/3600e749383c3307c901d51d29f3134294a143a6"
+    },
+    {
+      "path": "tests/rules/test_git_push.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b9792925cf586998e02d94efbbe7c64a1525e16",
+      "size": 2598,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/7b9792925cf586998e02d94efbbe7c64a1525e16"
+    },
+    {
+      "path": "tests/rules/test_git_push_different_branch_names.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "626c47e20b68a44146b92d17b4490910f311316f",
+      "size": 1029,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/626c47e20b68a44146b92d17b4490910f311316f"
+    },
+    {
+      "path": "tests/rules/test_git_push_force.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96e056a86dfc947ff86ec8c55c57eb9f1b41c548",
+      "size": 1757,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/96e056a86dfc947ff86ec8c55c57eb9f1b41c548"
+    },
+    {
+      "path": "tests/rules/test_git_push_pull.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74cea4f84f5487b5134db14546cd51701cd13947",
+      "size": 2614,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/74cea4f84f5487b5134db14546cd51701cd13947"
+    },
+    {
+      "path": "tests/rules/test_git_push_without_commits.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ea4823f4617b97fa2f281f5b9ea8e906a8b17a3",
+      "size": 719,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/7ea4823f4617b97fa2f281f5b9ea8e906a8b17a3"
+    },
+    {
+      "path": "tests/rules/test_git_rebase_merge_dir.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55f6285f2d353961cf96d482773a450122eb05db",
+      "size": 1602,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/55f6285f2d353961cf96d482773a450122eb05db"
+    },
+    {
+      "path": "tests/rules/test_git_rebase_no_changes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f70d8858c160355ce2e4c4e67267abae44d1517d",
+      "size": 930,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/f70d8858c160355ce2e4c4e67267abae44d1517d"
+    },
+    {
+      "path": "tests/rules/test_git_remote_delete.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7a1e4f29fce3a10b895a3c378f0f053ebf776ce",
+      "size": 702,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/b7a1e4f29fce3a10b895a3c378f0f053ebf776ce"
+    },
+    {
+      "path": "tests/rules/test_git_remote_seturl_add.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f73dd16d9cd7a3ef584d923eb3ba51f32c287d7b",
+      "size": 920,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/f73dd16d9cd7a3ef584d923eb3ba51f32c287d7b"
+    },
+    {
+      "path": "tests/rules/test_git_rm_local_modifications.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f09b4485f5ea2f4c4d5ce725dbba9399adda38d9",
+      "size": 1003,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/f09b4485f5ea2f4c4d5ce725dbba9399adda38d9"
+    },
+    {
+      "path": "tests/rules/test_git_rm_recursive.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecc437cec47bbc60f794686b5be27d8c63831837",
+      "size": 852,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/ecc437cec47bbc60f794686b5be27d8c63831837"
+    },
+    {
+      "path": "tests/rules/test_git_rm_staged.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbdd7d2717300e83af0a4b163126b4b275fd4e54",
+      "size": 998,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/dbdd7d2717300e83af0a4b163126b4b275fd4e54"
+    },
+    {
+      "path": "tests/rules/test_git_stash.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "125bf9731b4b3ba3a0668b7a5ef16a15292637e5",
+      "size": 1155,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/125bf9731b4b3ba3a0668b7a5ef16a15292637e5"
+    },
+    {
+      "path": "tests/rules/test_git_stash_pop.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35cde465f1733b9345977010f4ea7f6098925028",
+      "size": 529,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/35cde465f1733b9345977010f4ea7f6098925028"
+    },
+    {
+      "path": "tests/rules/test_git_tag_force.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "193e6271ad48b1a46fd3776a120c637c2a796ae7",
+      "size": 460,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/193e6271ad48b1a46fd3776a120c637c2a796ae7"
+    },
+    {
+      "path": "tests/rules/test_git_two_dashes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abd413c4a85dcf8745d798402ff01031a4353eb6",
+      "size": 1559,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/abd413c4a85dcf8745d798402ff01031a4353eb6"
+    },
+    {
+      "path": "tests/rules/test_go_run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f00cd25f7101f4fcd3f8be6bebf5237adb9ea7c8",
+      "size": 511,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/f00cd25f7101f4fcd3f8be6bebf5237adb9ea7c8"
+    },
+    {
+      "path": "tests/rules/test_go_unknown_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2118c3c269c530dc80674d49f931db27c7cdc69c",
+      "size": 2564,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/2118c3c269c530dc80674d49f931db27c7cdc69c"
+    },
+    {
+      "path": "tests/rules/test_gradle_not_task.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f66fa02a7bd8b85db80567b243ac0e55691d3723",
+      "size": 6101,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/f66fa02a7bd8b85db80567b243ac0e55691d3723"
+    },
+    {
+      "path": "tests/rules/test_gradle_wrapper.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a953e7cc521f3e59a21a93edb048db892e935bce",
+      "size": 1318,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/a953e7cc521f3e59a21a93edb048db892e935bce"
+    },
+    {
+      "path": "tests/rules/test_grep_arguments_order.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fdee1cceceb1ac7bf6381b087c07e62e349a78e",
+      "size": 1411,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/3fdee1cceceb1ac7bf6381b087c07e62e349a78e"
+    },
+    {
+      "path": "tests/rules/test_grep_recursive.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87c1590faf5c681a181defb9e376ca685e247fe0",
+      "size": 503,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/87c1590faf5c681a181defb9e376ca685e247fe0"
+    },
+    {
+      "path": "tests/rules/test_grunt_task_not_found.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d40ebaeed8f9cf3b89f08996e8babcedfd64ec84",
+      "size": 5413,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/d40ebaeed8f9cf3b89f08996e8babcedfd64ec84"
+    },
+    {
+      "path": "tests/rules/test_gulp_not_task.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26bc18f345ab37e8de724ac64f3849ed0c0b4de2",
+      "size": 875,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/26bc18f345ab37e8de724ac64f3849ed0c0b4de2"
+    },
+    {
+      "path": "tests/rules/test_has_exists_script.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7814a7535c85d92339ec29754114e865be4244a3",
+      "size": 637,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/7814a7535c85d92339ec29754114e865be4244a3"
+    },
+    {
+      "path": "tests/rules/test_heroku_multiple_apps.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6b4f1e5fc9267f9e14707180ca8847de9ba55d9",
+      "size": 1723,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/c6b4f1e5fc9267f9e14707180ca8847de9ba55d9"
+    },
+    {
+      "path": "tests/rules/test_heroku_not_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "824b5b3c877180dd49eabb513a9ba7d276bfd275",
+      "size": 859,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/824b5b3c877180dd49eabb513a9ba7d276bfd275"
+    },
+    {
+      "path": "tests/rules/test_history.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98812876e8e231695383acaf19b8c1f39b79ca46",
+      "size": 765,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/98812876e8e231695383acaf19b8c1f39b79ca46"
+    },
+    {
+      "path": "tests/rules/test_hostscli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "671d502c1df66f5d26f3ec7323e4506366a7aadf",
+      "size": 858,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/671d502c1df66f5d26f3ec7323e4506366a7aadf"
+    },
+    {
+      "path": "tests/rules/test_ifconfig_device_not_found.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09d20b132cec811b0596a17b52c0cb88093ddddb",
+      "size": 1726,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/09d20b132cec811b0596a17b52c0cb88093ddddb"
+    },
+    {
+      "path": "tests/rules/test_java.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86ab7669fd75ed24049fa68762d883d0ed3d0ff9",
+      "size": 511,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/86ab7669fd75ed24049fa68762d883d0ed3d0ff9"
+    },
+    {
+      "path": "tests/rules/test_javac.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8363ccc2f14d99fd75a299c51caadcec3a3b2ba8",
+      "size": 508,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/8363ccc2f14d99fd75a299c51caadcec3a3b2ba8"
+    },
+    {
+      "path": "tests/rules/test_lein_not_task.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84b9fec816fda5da212b45bc0cc5cbce497dacb6",
+      "size": 548,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/84b9fec816fda5da212b45bc0cc5cbce497dacb6"
+    },
+    {
+      "path": "tests/rules/test_ln_no_hard_link.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fa91ea32c3d43434244e8e98633db140c636f81",
+      "size": 1189,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/2fa91ea32c3d43434244e8e98633db140c636f81"
+    },
+    {
+      "path": "tests/rules/test_ln_s_order.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38f5519eebeaeac55d75e6b4a4b7393c132c2062",
+      "size": 1088,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/38f5519eebeaeac55d75e6b4a4b7393c132c2062"
+    },
+    {
+      "path": "tests/rules/test_long_form_help.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3a12befe30e8eb0d793684712ab25f82cccc721",
+      "size": 613,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/e3a12befe30e8eb0d793684712ab25f82cccc721"
+    },
+    {
+      "path": "tests/rules/test_ls_all.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c5b44f79e74401f39be128727041e095e52eb85",
+      "size": 359,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/0c5b44f79e74401f39be128727041e095e52eb85"
+    },
+    {
+      "path": "tests/rules/test_ls_lah.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4ddb2b713e81727e2dd22bb4d93a011be2308fa",
+      "size": 543,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/c4ddb2b713e81727e2dd22bb4d93a011be2308fa"
+    },
+    {
+      "path": "tests/rules/test_man.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27abcf2836fe95d3e850e9d2457618a3aeb5cbdd",
+      "size": 1181,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/27abcf2836fe95d3e850e9d2457618a3aeb5cbdd"
+    },
+    {
+      "path": "tests/rules/test_man_no_space.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d4b692587284f36c3f891511a752c64827cf0e2",
+      "size": 316,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/7d4b692587284f36c3f891511a752c64827cf0e2"
+    },
+    {
+      "path": "tests/rules/test_mercurial.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "277dfca6867332d1cb5d6817df0048ef97140b0f",
+      "size": 4260,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/277dfca6867332d1cb5d6817df0048ef97140b0f"
+    },
+    {
+      "path": "tests/rules/test_missing_space_before_subcommand.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53b6009d4e419dba4934d0b59dcf1dabf2f528cb",
+      "size": 929,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/53b6009d4e419dba4934d0b59dcf1dabf2f528cb"
+    },
+    {
+      "path": "tests/rules/test_mkdir_p.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f229a857096f0c101b678a265a3daf13777d0440",
+      "size": 1186,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/f229a857096f0c101b678a265a3daf13777d0440"
+    },
+    {
+      "path": "tests/rules/test_mvn_no_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4aa723db9e11de00d5cc9b319188d2657091627",
+      "size": 3596,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/e4aa723db9e11de00d5cc9b319188d2657091627"
+    },
+    {
+      "path": "tests/rules/test_mvn_unknown_lifecycle_phase.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aff6ad27d2d98fe1398fec168a61d1b37fdd8cc5",
+      "size": 3547,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/aff6ad27d2d98fe1398fec168a61d1b37fdd8cc5"
+    },
+    {
+      "path": "tests/rules/test_nixos_cmd_not_found.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4370334547fcc9862aa96d04f3dba5d7e898e199",
+      "size": 892,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/4370334547fcc9862aa96d04f3dba5d7e898e199"
+    },
+    {
+      "path": "tests/rules/test_no_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96f0f069aac718c1718d926c5e6e47bdfa0e9025",
+      "size": 1771,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/96f0f069aac718c1718d926c5e6e47bdfa0e9025"
+    },
+    {
+      "path": "tests/rules/test_no_such_file.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bef720a57fdee78b7bbe17680c3fc274eddf88d8",
+      "size": 990,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/bef720a57fdee78b7bbe17680c3fc274eddf88d8"
+    },
+    {
+      "path": "tests/rules/test_npm_missing_script.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db10549d273ff72ee0832b78ced5dd57b62a1f4e",
+      "size": 2120,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/db10549d273ff72ee0832b78ced5dd57b62a1f4e"
+    },
+    {
+      "path": "tests/rules/test_npm_run_script.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bf2f710b8825871531128c2507a8c23b9320e05",
+      "size": 2870,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/8bf2f710b8825871531128c2507a8c23b9320e05"
+    },
+    {
+      "path": "tests/rules/test_npm_wrong_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f93da580ba538b164eca957cfd64d953cfc00922",
+      "size": 1919,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/f93da580ba538b164eca957cfd64d953cfc00922"
+    },
+    {
+      "path": "tests/rules/test_omnienv_no_such_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45f84a6c0b112157e955cb53098e1296ef7f8fa7",
+      "size": 2037,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/45f84a6c0b112157e955cb53098e1296ef7f8fa7"
+    },
+    {
+      "path": "tests/rules/test_open.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f1b276deb96749f1f040a8859ea9c1ed0fa6260",
+      "size": 1418,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/2f1b276deb96749f1f040a8859ea9c1ed0fa6260"
+    },
+    {
+      "path": "tests/rules/test_pacman.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "985b8b899c9a93f8756c87db1e2d80923c36d692",
+      "size": 3677,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/985b8b899c9a93f8756c87db1e2d80923c36d692"
+    },
+    {
+      "path": "tests/rules/test_pacman_invalid_option.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e04209c037fc68ad0c9b0432901b0fe794e8c0c",
+      "size": 1004,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/0e04209c037fc68ad0c9b0432901b0fe794e8c0c"
+    },
+    {
+      "path": "tests/rules/test_pacman_not_found.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22c0609bc2a9223e33b30c941e55a28e0bfb7f07",
+      "size": 3053,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/22c0609bc2a9223e33b30c941e55a28e0bfb7f07"
+    },
+    {
+      "path": "tests/rules/test_path_from_history.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99ab331863d8d41821cf2ddf98bcc559e40f0afb",
+      "size": 1362,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/99ab331863d8d41821cf2ddf98bcc559e40f0afb"
+    },
+    {
+      "path": "tests/rules/test_php_s.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18f68f3960f4463b62c3df22c2954af02b8748c4",
+      "size": 761,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/18f68f3960f4463b62c3df22c2954af02b8748c4"
+    },
+    {
+      "path": "tests/rules/test_pip_install.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c920b7cc1a9ee9a54eba6461a6c6be387489a679",
+      "size": 1292,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/c920b7cc1a9ee9a54eba6461a6c6be387489a679"
+    },
+    {
+      "path": "tests/rules/test_pip_unknown_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36d23dafbc14bb9f11889cb3c88bfcc84f411eeb",
+      "size": 1085,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/36d23dafbc14bb9f11889cb3c88bfcc84f411eeb"
+    },
+    {
+      "path": "tests/rules/test_port_already_in_use.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1297647e42efb42803915af23be5bce6c948ba5",
+      "size": 3441,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/c1297647e42efb42803915af23be5bce6c948ba5"
+    },
+    {
+      "path": "tests/rules/test_prove_recursively.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f6f3c71ff87d8a9489b879b05a2d6bec076d4fb",
+      "size": 1173,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/6f6f3c71ff87d8a9489b879b05a2d6bec076d4fb"
+    },
+    {
+      "path": "tests/rules/test_python_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e642a13373fa7b240fc67585264113ebe86c008",
+      "size": 343,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/9e642a13373fa7b240fc67585264113ebe86c008"
+    },
+    {
+      "path": "tests/rules/test_python_execute.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7034142ae87ec755ecf245b7177bac4a07de049d",
+      "size": 519,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/7034142ae87ec755ecf245b7177bac4a07de049d"
+    },
+    {
+      "path": "tests/rules/test_python_module_error.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "838f9561a108157a0e3706370e007c4a60a522f9",
+      "size": 1629,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/838f9561a108157a0e3706370e007c4a60a522f9"
+    },
+    {
+      "path": "tests/rules/test_quotation_marks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "050d59b55214b08154a4cbf684619d06a469c9b4",
+      "size": 763,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/050d59b55214b08154a4cbf684619d06a469c9b4"
+    },
+    {
+      "path": "tests/rules/test_rails_migrations_pending.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06002344577f88d3ce1fac9bef39a6e4901f1a08",
+      "size": 1169,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/06002344577f88d3ce1fac9bef39a6e4901f1a08"
+    },
+    {
+      "path": "tests/rules/test_react_native_command_unrecognized.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e294971c1b828aa3997b2f97dd8c6b87dfb8b2bc",
+      "size": 2567,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/e294971c1b828aa3997b2f97dd8c6b87dfb8b2bc"
+    },
+    {
+      "path": "tests/rules/test_remove_shell_prompt_literal.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f3cb0c12489fd0df6b827a760766e9e9e1533a9",
+      "size": 1169,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/7f3cb0c12489fd0df6b827a760766e9e9e1533a9"
+    },
+    {
+      "path": "tests/rules/test_remove_trailing_cedilla.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4707ac2564be5991dd40416ee489857734cb250",
+      "size": 571,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/f4707ac2564be5991dd40416ee489857734cb250"
+    },
+    {
+      "path": "tests/rules/test_rm_dir.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a201094f62c41e6b519f69adc88246b4efaa267",
+      "size": 918,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/9a201094f62c41e6b519f69adc88246b4efaa267"
+    },
+    {
+      "path": "tests/rules/test_rm_root.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99cb0af9674383659582d8acf8ed5e05507ffe18",
+      "size": 558,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/99cb0af9674383659582d8acf8ed5e05507ffe18"
+    },
+    {
+      "path": "tests/rules/test_scm_correction.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2f00a583eb1db6723e7e0b45f7ca4f6d8727e75",
+      "size": 1697,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/a2f00a583eb1db6723e7e0b45f7ca4f6d8727e75"
+    },
+    {
+      "path": "tests/rules/test_sed_unterminated_s.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "500d7c5bafe68d6561a3f31224a21054a2b23b18",
+      "size": 1186,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/500d7c5bafe68d6561a3f31224a21054a2b23b18"
+    },
+    {
+      "path": "tests/rules/test_sl_ls.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09cb0a236e9462b559cd95b980b32ca938f8731b",
+      "size": 270,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/09cb0a236e9462b559cd95b980b32ca938f8731b"
+    },
+    {
+      "path": "tests/rules/test_ssh_known_host.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5820e7905b788d02f1be82cb1f28a0b4ac3517a2",
+      "size": 2383,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/5820e7905b788d02f1be82cb1f28a0b4ac3517a2"
+    },
+    {
+      "path": "tests/rules/test_sudo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a4931c6b321393addb47856eb16572e98f3661f",
+      "size": 1225,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/4a4931c6b321393addb47856eb16572e98f3661f"
+    },
+    {
+      "path": "tests/rules/test_sudo_command_from_user_path.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e9e04ee4ca55e81c397e4f6e22c9789c5f9f754",
+      "size": 1388,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/7e9e04ee4ca55e81c397e4f6e22c9789c5f9f754"
+    },
+    {
+      "path": "tests/rules/test_switch_lang.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81634d17a4ef3359c882a0a8d5b0efe012d3d17e",
+      "size": 1517,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/81634d17a4ef3359c882a0a8d5b0efe012d3d17e"
+    },
+    {
+      "path": "tests/rules/test_systemctl.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84601873c57469c6cf76fd1e6915ad126e0c8544",
+      "size": 938,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/84601873c57469c6cf76fd1e6915ad126e0c8544"
+    },
+    {
+      "path": "tests/rules/test_terraform_init.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1bd744c26b1d045706c7271cb6dc50569e0c962d",
+      "size": 1455,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/1bd744c26b1d045706c7271cb6dc50569e0c962d"
+    },
+    {
+      "path": "tests/rules/test_terraform_no_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a45f65df40bbcaaffff05e499d5a25c0a5eff2d",
+      "size": 1218,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/9a45f65df40bbcaaffff05e499d5a25c0a5eff2d"
+    },
+    {
+      "path": "tests/rules/test_tmux.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e27ee9181dcc808502f40c35f50f859905f30ff7",
+      "size": 585,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/e27ee9181dcc808502f40c35f50f859905f30ff7"
+    },
+    {
+      "path": "tests/rules/test_touch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0438b2544900c7fb3aa59826bf235c812e73de05",
+      "size": 948,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/0438b2544900c7fb3aa59826bf235c812e73de05"
+    },
+    {
+      "path": "tests/rules/test_tsuru_login.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7457f835b7515f6ea2dc8638b12557b8dfae9cd4",
+      "size": 1078,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/7457f835b7515f6ea2dc8638b12557b8dfae9cd4"
+    },
+    {
+      "path": "tests/rules/test_tsuru_not_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c91854368a4101ec0205f14ca668c06d6e0f167",
+      "size": 2671,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/9c91854368a4101ec0205f14ca668c06d6e0f167"
+    },
+    {
+      "path": "tests/rules/test_unknown_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77913b30a6af41763192f5ca08c155db53a56eb9",
+      "size": 1612,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/77913b30a6af41763192f5ca08c155db53a56eb9"
+    },
+    {
+      "path": "tests/rules/test_unsudo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f22599ae13564b845cbf28fa00cba47f8ecc0f8",
+      "size": 694,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/7f22599ae13564b845cbf28fa00cba47f8ecc0f8"
+    },
+    {
+      "path": "tests/rules/test_vagrant_up.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5ee0531faf1d544842a7e9e3c47ea5f4d3fbebc",
+      "size": 2165,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/f5ee0531faf1d544842a7e9e3c47ea5f4d3fbebc"
+    },
+    {
+      "path": "tests/rules/test_whois.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "135d4eb5ff08a13776a4371fc5d4189b1dc57606",
+      "size": 953,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/135d4eb5ff08a13776a4371fc5d4189b1dc57606"
+    },
+    {
+      "path": "tests/rules/test_workon_doesnt_exists.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e84506154c2a833bbd1191402c6c1f795114b0fd",
+      "size": 922,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/e84506154c2a833bbd1191402c6c1f795114b0fd"
+    },
+    {
+      "path": "tests/rules/test_wrong_hyphen_before_subcommand.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30c91ab16646b7b6a0800802a1cdea8ee0bf3941",
+      "size": 890,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/30c91ab16646b7b6a0800802a1cdea8ee0bf3941"
+    },
+    {
+      "path": "tests/rules/test_yarn_alias.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5493f6dfbb9beca4e3610574b39bbfa74379d071",
+      "size": 796,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/5493f6dfbb9beca4e3610574b39bbfa74379d071"
+    },
+    {
+      "path": "tests/rules/test_yarn_command_not_found.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6745163ef675d67b148f5771ea620017f177a1b1",
+      "size": 3812,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/6745163ef675d67b148f5771ea620017f177a1b1"
+    },
+    {
+      "path": "tests/rules/test_yarn_command_replaced.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f46aa28ba9d407fe5c41bfd848bd6b101ff1d000",
+      "size": 1026,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/f46aa28ba9d407fe5c41bfd848bd6b101ff1d000"
+    },
+    {
+      "path": "tests/rules/test_yarn_help.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed810390b2e2f8ca4fd2845ce81b8526924d995e",
+      "size": 2689,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/ed810390b2e2f8ca4fd2845ce81b8526924d995e"
+    },
+    {
+      "path": "tests/rules/test_yum_invalid_operation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbbe44a987de9447c52c4ac1f6e5b52d08f98261",
+      "size": 7982,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/dbbe44a987de9447c52c4ac1f6e5b52d08f98261"
+    },
+    {
+      "path": "tests/shells",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3aa57ae010f8280a518af1be3c3be69a75c785cc",
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/trees/3aa57ae010f8280a518af1be3c3be69a75c785cc"
+    },
+    {
+      "path": "tests/shells/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/shells/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "069673fccb2c34e93f89142cd60a78d36c8dcc51",
+      "size": 651,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/069673fccb2c34e93f89142cd60a78d36c8dcc51"
+    },
+    {
+      "path": "tests/shells/test_bash.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a55eb5ecf545709c755dab3f5f2078a475eaaf5",
+      "size": 3189,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/9a55eb5ecf545709c755dab3f5f2078a475eaaf5"
+    },
+    {
+      "path": "tests/shells/test_fish.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2384dad8be4a68891ad31fc85d648b2f0c3279ed",
+      "size": 5880,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/2384dad8be4a68891ad31fc85d648b2f0c3279ed"
+    },
+    {
+      "path": "tests/shells/test_generic.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05f20e631d5371f01a421083ec0c1104a19610a6",
+      "size": 1941,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/05f20e631d5371f01a421083ec0c1104a19610a6"
+    },
+    {
+      "path": "tests/shells/test_powershell.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "417174fb530b1d371f39e0f6235f6bbfaec70d40",
+      "size": 1762,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/417174fb530b1d371f39e0f6235f6bbfaec70d40"
+    },
+    {
+      "path": "tests/shells/test_tcsh.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f024b589f287d523df75620b9ae0aca03c0f7271",
+      "size": 2863,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/f024b589f287d523df75620b9ae0aca03c0f7271"
+    },
+    {
+      "path": "tests/shells/test_zsh.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05b3d62ef87589f3b818ef2fcbde5ea88ffeb796",
+      "size": 2956,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/05b3d62ef87589f3b818ef2fcbde5ea88ffeb796"
+    },
+    {
+      "path": "tests/specific",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "59b5113d3af15dfc0c0094d92be6cf277fb8dbba",
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/trees/59b5113d3af15dfc0c0094d92be6cf277fb8dbba"
+    },
+    {
+      "path": "tests/specific/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/specific/test_git.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10acb6cde50a8e4c3e569615ad553c88330d283b",
+      "size": 1314,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/10acb6cde50a8e4c3e569615ad553c88330d283b"
+    },
+    {
+      "path": "tests/specific/test_npm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4176c3a241e741c4a48ed53777d7205226fcf99",
+      "size": 742,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/b4176c3a241e741c4a48ed53777d7205226fcf99"
+    },
+    {
+      "path": "tests/specific/test_sudo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1eb0070dedbbf69f71427f05b52be7cc1cc719dc",
+      "size": 662,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/1eb0070dedbbf69f71427f05b52be7cc1cc719dc"
+    },
+    {
+      "path": "tests/test_argument_parser.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5f1f44bb4b2df264772d9a772dd2454ee9fa470",
+      "size": 1631,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/e5f1f44bb4b2df264772d9a772dd2454ee9fa470"
+    },
+    {
+      "path": "tests/test_conf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e03473ab5282865ad29f833fd5e664f2f5883ee5",
+      "size": 5392,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/e03473ab5282865ad29f833fd5e664f2f5883ee5"
+    },
+    {
+      "path": "tests/test_corrector.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d28819dfb36ad0db795ee26c6339986413c273dd",
+      "size": 3020,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/d28819dfb36ad0db795ee26c6339986413c273dd"
+    },
+    {
+      "path": "tests/test_logs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59aefd22ab02be8e197490a66de16cfeafef9fa8",
+      "size": 478,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/59aefd22ab02be8e197490a66de16cfeafef9fa8"
+    },
+    {
+      "path": "tests/test_readme.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96e8e1b3ce37f0def50b98cf067429e950b1200a",
+      "size": 445,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/96e8e1b3ce37f0def50b98cf067429e950b1200a"
+    },
+    {
+      "path": "tests/test_types.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a322d21e897731cddca6fd0a410aff9bf583c1ed",
+      "size": 6530,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/a322d21e897731cddca6fd0a410aff9bf583c1ed"
+    },
+    {
+      "path": "tests/test_ui.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e53965115268a46326b8606d98fbd6566ccde75",
+      "size": 3896,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/1e53965115268a46326b8606d98fbd6566ccde75"
+    },
+    {
+      "path": "tests/test_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95f92bcba7161e4de7293fd0473acc9488bc8af4",
+      "size": 9218,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/95f92bcba7161e4de7293fd0473acc9488bc8af4"
+    },
+    {
+      "path": "tests/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3e135319d126e7529b4c5409d517b1a54e86927",
+      "size": 775,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/a3e135319d126e7529b4c5409d517b1a54e86927"
+    },
+    {
+      "path": "thefuck",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "df9e5ea41a08535c34a0c795e2a352d5886c15a1",
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/trees/df9e5ea41a08535c34a0c795e2a352d5886c15a1"
+    },
+    {
+      "path": "thefuck/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "thefuck/argument_parser.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69c247f11e66ff3c0932ac84c0be4073917b17e6",
+      "size": 3082,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/69c247f11e66ff3c0932ac84c0be4073917b17e6"
+    },
+    {
+      "path": "thefuck/conf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "611ec84b7fd1b1547442b53fa9492ef00920774a",
+      "size": 4816,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/611ec84b7fd1b1547442b53fa9492ef00920774a"
+    },
+    {
+      "path": "thefuck/const.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d339264d6d699d83fd92561e78d4a96f5356ae8",
+      "size": 2944,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/8d339264d6d699d83fd92561e78d4a96f5356ae8"
+    },
+    {
+      "path": "thefuck/corrector.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdd469834d7358209fb265fc7749787282ab5da6",
+      "size": 2509,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/fdd469834d7358209fb265fc7749787282ab5da6"
+    },
+    {
+      "path": "thefuck/entrypoints",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "53e1c5403135a07b7281289e6a56875f32de0c73",
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/trees/53e1c5403135a07b7281289e6a56875f32de0c73"
+    },
+    {
+      "path": "thefuck/entrypoints/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "thefuck/entrypoints/alias.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7094d4eb4bcf8bb39611acb6b3844f85a813c33",
+      "size": 741,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/c7094d4eb4bcf8bb39611acb6b3844f85a813c33"
+    },
+    {
+      "path": "thefuck/entrypoints/fix_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "018ba580f83d0985f244f7f69acee3167de6ac63",
+      "size": 1572,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/018ba580f83d0985f244f7f69acee3167de6ac63"
+    },
+    {
+      "path": "thefuck/entrypoints/main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "856a3d252852735d9cdfaca15eac1baaa5a39c39",
+      "size": 1406,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/856a3d252852735d9cdfaca15eac1baaa5a39c39"
+    },
+    {
+      "path": "thefuck/entrypoints/not_configured.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5d7e8527cb1c11a36790aeef3d4142fbb8cd66d",
+      "size": 3354,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/f5d7e8527cb1c11a36790aeef3d4142fbb8cd66d"
+    },
+    {
+      "path": "thefuck/entrypoints/shell_logger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "584b5508cecc650ce317f66441790768de5f344a",
+      "size": 2009,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/584b5508cecc650ce317f66441790768de5f344a"
+    },
+    {
+      "path": "thefuck/exceptions.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fc5dcd63921df1e64b9f905e40cf037b59d7c27",
+      "size": 248,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/5fc5dcd63921df1e64b9f905e40cf037b59d7c27"
+    },
+    {
+      "path": "thefuck/logs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e064de67ab75bfd226f26ffa575645278ca73239",
+      "size": 4841,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/e064de67ab75bfd226f26ffa575645278ca73239"
+    },
+    {
+      "path": "thefuck/output_readers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "24b6114f37a272a3d60d5dc756b4c7baa4aa9bf2",
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/trees/24b6114f37a272a3d60d5dc756b4c7baa4aa9bf2"
+    },
+    {
+      "path": "thefuck/output_readers/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94434d0e041071c70572a387e5d84097857e0adc",
+      "size": 523,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/94434d0e041071c70572a387e5d84097857e0adc"
+    },
+    {
+      "path": "thefuck/output_readers/read_log.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0224a0dd380e74e8f61d7a90c5c340fbb6011fc1",
+      "size": 3094,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/0224a0dd380e74e8f61d7a90c5c340fbb6011fc1"
+    },
+    {
+      "path": "thefuck/output_readers/rerun.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7ffe249d2397b46f6c50eb87d61797fa7a908ae",
+      "size": 2032,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/b7ffe249d2397b46f6c50eb87d61797fa7a908ae"
+    },
+    {
+      "path": "thefuck/output_readers/shell_logger.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aefcda3e8d578d4848ded4de3a7c150ecef47371",
+      "size": 1616,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/aefcda3e8d578d4848ded4de3a7c150ecef47371"
+    },
+    {
+      "path": "thefuck/rules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "21ebcd6f75190c7cd40f815b72ef4d9dadd9fa37",
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/trees/21ebcd6f75190c7cd40f815b72ef4d9dadd9fa37"
+    },
+    {
+      "path": "thefuck/rules/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "thefuck/rules/adb_unknown_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd33ca17b4b6dbd951aed02a08aa46f39654a31e",
+      "size": 1216,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/bd33ca17b4b6dbd951aed02a08aa46f39654a31e"
+    },
+    {
+      "path": "thefuck/rules/ag_literal.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6972bf63006d95d79eadba46dfc682e3e4c884ee",
+      "size": 210,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/6972bf63006d95d79eadba46dfc682e3e4c884ee"
+    },
+    {
+      "path": "thefuck/rules/apt_get.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed6033b0ed40979f2b8b26506941a2da656a7c7f",
+      "size": 1386,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/ed6033b0ed40979f2b8b26506941a2da656a7c7f"
+    },
+    {
+      "path": "thefuck/rules/apt_get_search.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95b6f75fb775be744846810ef303c6439a6cd88f",
+      "size": 316,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/95b6f75fb775be744846810ef303c6439a6cd88f"
+    },
+    {
+      "path": "thefuck/rules/apt_invalid_operation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8641939f2da1faf17287ffd4ce4e6c22f3050309",
+      "size": 1813,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/8641939f2da1faf17287ffd4ce4e6c22f3050309"
+    },
+    {
+      "path": "thefuck/rules/apt_list_upgradable.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "128c82312b443c65087a409c6b9c96a70308f918",
+      "size": 350,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/128c82312b443c65087a409c6b9c96a70308f918"
+    },
+    {
+      "path": "thefuck/rules/apt_upgrade.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6beb719fcefd00507e2c40d1ec0303715b6fb453",
+      "size": 388,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/6beb719fcefd00507e2c40d1ec0303715b6fb453"
+    },
+    {
+      "path": "thefuck/rules/aws_cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b22e459daf88e07769fd3a925a4b1b66ca8ce36",
+      "size": 520,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/8b22e459daf88e07769fd3a925a4b1b66ca8ce36"
+    },
+    {
+      "path": "thefuck/rules/az_cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3583228dd86ffccda95c9845938b7aa2586dff97",
+      "size": 560,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/3583228dd86ffccda95c9845938b7aa2586dff97"
+    },
+    {
+      "path": "thefuck/rules/brew_cask_dependency.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a0ad201be4b0a02eb5b15ce008861e61c00d252",
+      "size": 866,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/8a0ad201be4b0a02eb5b15ce008861e61c00d252"
+    },
+    {
+      "path": "thefuck/rules/brew_install.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d285a2d462d8e25c9ef46a439a5863340cf55cdf",
+      "size": 776,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/d285a2d462d8e25c9ef46a439a5863340cf55cdf"
+    },
+    {
+      "path": "thefuck/rules/brew_link.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8a158f9aa98caf1acfee2a55a159d4e2e0882ed",
+      "size": 433,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/b8a158f9aa98caf1acfee2a55a159d4e2e0882ed"
+    },
+    {
+      "path": "thefuck/rules/brew_reinstall.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc14e69bf4583e5c6cf9f9151793ad064bb8ffd0",
+      "size": 571,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/bc14e69bf4583e5c6cf9f9151793ad064bb8ffd0"
+    },
+    {
+      "path": "thefuck/rules/brew_uninstall.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "222a25f2eff41eae32f2711634bc2eff6eaf122f",
+      "size": 399,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/222a25f2eff41eae32f2711634bc2eff6eaf122f"
+    },
+    {
+      "path": "thefuck/rules/brew_unknown_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "244f48ace1e1b672a56bb812a54da2a899260b27",
+      "size": 2850,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/244f48ace1e1b672a56bb812a54da2a899260b27"
+    },
+    {
+      "path": "thefuck/rules/brew_update_formula.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f2264aa7db0abc8e7a6fec1ba9943aea0dd08fc",
+      "size": 342,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/4f2264aa7db0abc8e7a6fec1ba9943aea0dd08fc"
+    },
+    {
+      "path": "thefuck/rules/cargo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a0418d109ab2abce1c1c981f8ddf7d6101bc059",
+      "size": 114,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/3a0418d109ab2abce1c1c981f8ddf7d6101bc059"
+    },
+    {
+      "path": "thefuck/rules/cargo_no_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "687f40afd55c80ed5372576cec21158927be17e4",
+      "size": 417,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/687f40afd55c80ed5372576cec21158927be17e4"
+    },
+    {
+      "path": "thefuck/rules/cat_dir.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c0f3d893ec34e4d351201c5945be1e0f1ea73ca",
+      "size": 289,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/7c0f3d893ec34e4d351201c5945be1e0f1ea73ca"
+    },
+    {
+      "path": "thefuck/rules/cd_correction.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc45636a5042cba997a059f022aaace695498a5f",
+      "size": 1843,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/dc45636a5042cba997a059f022aaace695498a5f"
+    },
+    {
+      "path": "thefuck/rules/cd_cs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f95415d9716cb28456c496feefbfce011ff1f4bb",
+      "size": 416,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/f95415d9716cb28456c496feefbfce011ff1f4bb"
+    },
+    {
+      "path": "thefuck/rules/cd_mkdir.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "363b92d4d5fb56590f4812dbfef2bd919eeceb6c",
+      "size": 578,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/363b92d4d5fb56590f4812dbfef2bd919eeceb6c"
+    },
+    {
+      "path": "thefuck/rules/cd_parent.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f808f0df71677f419e801519023715f9c52fb3b5",
+      "size": 321,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/f808f0df71677f419e801519023715f9c52fb3b5"
+    },
+    {
+      "path": "thefuck/rules/chmod_x.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09e685eee3612b4d1f5ced5e612f47b7df0f0bb8",
+      "size": 430,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/09e685eee3612b4d1f5ced5e612f47b7df0f0bb8"
+    },
+    {
+      "path": "thefuck/rules/choco_install.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c073022bc3f2a4eec994c7109b2bb470009e3c1",
+      "size": 926,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/8c073022bc3f2a4eec994c7109b2bb470009e3c1"
+    },
+    {
+      "path": "thefuck/rules/composer_not_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b67880094f645c1659b53f06ec969be10a5bd758",
+      "size": 928,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/b67880094f645c1659b53f06ec969be10a5bd758"
+    },
+    {
+      "path": "thefuck/rules/conda_mistype.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbba60942562c9f201e3e71c7a9ffbffb7abff68",
+      "size": 404,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/fbba60942562c9f201e3e71c7a9ffbffb7abff68"
+    },
+    {
+      "path": "thefuck/rules/cp_create_destination.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a1fbc594541e1dd1dec19f0c0979cd73749a5be",
+      "size": 419,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/6a1fbc594541e1dd1dec19f0c0979cd73749a5be"
+    },
+    {
+      "path": "thefuck/rules/cp_omitting_directory.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ccf0ba97d48d95b6ed9a416c9263c328af4cf05",
+      "size": 347,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/7ccf0ba97d48d95b6ed9a416c9263c328af4cf05"
+    },
+    {
+      "path": "thefuck/rules/cpp11.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99bbf340c209ed3976e7e692d2f5132ec403a07b",
+      "size": 338,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/99bbf340c209ed3976e7e692d2f5132ec403a07b"
+    },
+    {
+      "path": "thefuck/rules/dirty_untar.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "638aa8767378f6a54a1d9017757fcc1c2962e6a5",
+      "size": 1510,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/638aa8767378f6a54a1d9017757fcc1c2962e6a5"
+    },
+    {
+      "path": "thefuck/rules/dirty_unzip.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b5079876e9702fcbd2c9ce6e1b1c49afacc9b38",
+      "size": 1577,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/6b5079876e9702fcbd2c9ce6e1b1c49afacc9b38"
+    },
+    {
+      "path": "thefuck/rules/django_south_ghost.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75a2aec1b2b50608bbb04fc01d0bd33b8207d6e7",
+      "size": 275,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/75a2aec1b2b50608bbb04fc01d0bd33b8207d6e7"
+    },
+    {
+      "path": "thefuck/rules/django_south_merge.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "155b945299990b60afcb9444db382c1fcd7d9f1e",
+      "size": 264,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/155b945299990b60afcb9444db382c1fcd7d9f1e"
+    },
+    {
+      "path": "thefuck/rules/dnf_no_such_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "579f5781e393a4dcb45d6529473585acf60f8501",
+      "size": 963,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/579f5781e393a4dcb45d6529473585acf60f8501"
+    },
+    {
+      "path": "thefuck/rules/docker_image_being_used_by_container.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d68f9192dd1e3612978602ffa16634b12390b47f",
+      "size": 631,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/d68f9192dd1e3612978602ffa16634b12390b47f"
+    },
+    {
+      "path": "thefuck/rules/docker_login.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81acb45883e5b1bb3755f5557bff2c999db62acf",
+      "size": 347,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/81acb45883e5b1bb3755f5557bff2c999db62acf"
+    },
+    {
+      "path": "thefuck/rules/docker_not_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9eb1c248ceff80e1fb36ce0292a02a77df602f8",
+      "size": 1854,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/d9eb1c248ceff80e1fb36ce0292a02a77df602f8"
+    },
+    {
+      "path": "thefuck/rules/dry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dce9b3d785b919f3a2a88c710a9c2467c88c42a2",
+      "size": 431,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/dce9b3d785b919f3a2a88c710a9c2467c88c42a2"
+    },
+    {
+      "path": "thefuck/rules/fab_command_not_found.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05d6df0c80a31c168444ba870a6dbb186ba898b9",
+      "size": 1041,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/05d6df0c80a31c168444ba870a6dbb186ba898b9"
+    },
+    {
+      "path": "thefuck/rules/fix_alt_space.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf2d3204a357d7c38f56c3d790d4c0d9ae5eb90f",
+      "size": 311,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/bf2d3204a357d7c38f56c3d790d4c0d9ae5eb90f"
+    },
+    {
+      "path": "thefuck/rules/fix_file.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d091c2ab9d5e08e15ba603451bbf01559c0bfb87",
+      "size": 2352,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/d091c2ab9d5e08e15ba603451bbf01559c0bfb87"
+    },
+    {
+      "path": "thefuck/rules/gem_unknown_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96da2f20b457cc6451f7ad1ce4d8042d26cccdf1",
+      "size": 963,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/96da2f20b457cc6451f7ad1ce4d8042d26cccdf1"
+    },
+    {
+      "path": "thefuck/rules/git_add.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0230d47e443703dcf812a747bae700eb236ed193",
+      "size": 739,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/0230d47e443703dcf812a747bae700eb236ed193"
+    },
+    {
+      "path": "thefuck/rules/git_add_force.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91aba575e3f8ec16ff24aa180d1914a589199066",
+      "size": 352,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/91aba575e3f8ec16ff24aa180d1914a589199066"
+    },
+    {
+      "path": "thefuck/rules/git_bisect_usage.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37b05f47629d0556c7e3d9a1cafe62afdca8e137",
+      "size": 485,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/37b05f47629d0556c7e3d9a1cafe62afdca8e137"
+    },
+    {
+      "path": "thefuck/rules/git_branch_0flag.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90dbdcb65cab5dbfd07b0dfaabddf3d54311abc9",
+      "size": 801,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/90dbdcb65cab5dbfd07b0dfaabddf3d54311abc9"
+    },
+    {
+      "path": "thefuck/rules/git_branch_delete.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e45102cf199f9e0f7940cbe41ab741f06299730e",
+      "size": 341,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/e45102cf199f9e0f7940cbe41ab741f06299730e"
+    },
+    {
+      "path": "thefuck/rules/git_branch_delete_checked_out.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eadc2d4d0e16c0a64fcedaa7a7ccc70ffaeb24c1",
+      "size": 524,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/eadc2d4d0e16c0a64fcedaa7a7ccc70ffaeb24c1"
+    },
+    {
+      "path": "thefuck/rules/git_branch_exists.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a7a8227b9ac811d35128c83b15aaa988484c504",
+      "size": 938,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/4a7a8227b9ac811d35128c83b15aaa988484c504"
+    },
+    {
+      "path": "thefuck/rules/git_branch_list.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc259afb6c0962563f729b02532e648a3de20d24",
+      "size": 379,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/bc259afb6c0962563f729b02532e648a3de20d24"
+    },
+    {
+      "path": "thefuck/rules/git_checkout.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e487973126303696a98b131ae8b1215ab100cc13",
+      "size": 1635,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/e487973126303696a98b131ae8b1215ab100cc13"
+    },
+    {
+      "path": "thefuck/rules/git_clone_git_clone.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38bab253ba12f071ffcd0796366a960c45cb939a",
+      "size": 290,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/38bab253ba12f071ffcd0796366a960c45cb939a"
+    },
+    {
+      "path": "thefuck/rules/git_clone_missing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc5c0986a9405b19b0de517618e35708f4200e87",
+      "size": 1140,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/bc5c0986a9405b19b0de517618e35708f4200e87"
+    },
+    {
+      "path": "thefuck/rules/git_commit_add.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4db1634a4fa090ceed80888d92fe402c4006dfc7",
+      "size": 412,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/4db1634a4fa090ceed80888d92fe402c4006dfc7"
+    },
+    {
+      "path": "thefuck/rules/git_commit_amend.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd0ae6dbb931a3b73befbc86f7ce81a474c678fc",
+      "size": 203,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/dd0ae6dbb931a3b73befbc86f7ce81a474c678fc"
+    },
+    {
+      "path": "thefuck/rules/git_commit_reset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc74cb25517ac08834944d2cee8b0312bb45c181",
+      "size": 200,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/bc74cb25517ac08834944d2cee8b0312bb45c181"
+    },
+    {
+      "path": "thefuck/rules/git_diff_no_index.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a40caefe9354458815dffb9bb8c76e87def538c7",
+      "size": 454,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/a40caefe9354458815dffb9bb8c76e87def538c7"
+    },
+    {
+      "path": "thefuck/rules/git_diff_staged.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8afd29f77ca9162203c0315b004e3ef8e42ef51e",
+      "size": 324,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/8afd29f77ca9162203c0315b004e3ef8e42ef51e"
+    },
+    {
+      "path": "thefuck/rules/git_fix_stash.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e68aa0638cd35abe13aab7c4b78806229f258a47",
+      "size": 901,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/e68aa0638cd35abe13aab7c4b78806229f258a47"
+    },
+    {
+      "path": "thefuck/rules/git_flag_after_filename.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2a1ac2e79e1b959172433de060cba08d61750b6",
+      "size": 906,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/c2a1ac2e79e1b959172433de060cba08d61750b6"
+    },
+    {
+      "path": "thefuck/rules/git_help_aliased.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "014393c6153ca7d7039996ff986d0ef9b7a06507",
+      "size": 322,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/014393c6153ca7d7039996ff986d0ef9b7a06507"
+    },
+    {
+      "path": "thefuck/rules/git_hook_bypass.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4afcf7549f97d39157d5e6a4e14c4132a32308d",
+      "size": 620,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/f4afcf7549f97d39157d5e6a4e14c4132a32308d"
+    },
+    {
+      "path": "thefuck/rules/git_lfs_mistype.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afa3d5b7a5905d52fc453919907c8476d6c878a2",
+      "size": 569,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/afa3d5b7a5905d52fc453919907c8476d6c878a2"
+    },
+    {
+      "path": "thefuck/rules/git_main_master.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f595344c236e080888b1077d895bd721d573b605",
+      "size": 358,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/f595344c236e080888b1077d895bd721d573b605"
+    },
+    {
+      "path": "thefuck/rules/git_merge.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2420b67d528c13485ce228e249d345bdf97812a5",
+      "size": 596,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/2420b67d528c13485ce228e249d345bdf97812a5"
+    },
+    {
+      "path": "thefuck/rules/git_merge_unrelated.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e32642a0c8b6a6403e3814283a5087dcb7731d2",
+      "size": 304,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/8e32642a0c8b6a6403e3814283a5087dcb7731d2"
+    },
+    {
+      "path": "thefuck/rules/git_not_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd2a1bd1223a205f4988eeca4beeeb77569422c8",
+      "size": 666,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/fd2a1bd1223a205f4988eeca4beeeb77569422c8"
+    },
+    {
+      "path": "thefuck/rules/git_pull.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60a36567e6842482a991dbbc9c9e95c2f710d662",
+      "size": 473,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/60a36567e6842482a991dbbc9c9e95c2f710d662"
+    },
+    {
+      "path": "thefuck/rules/git_pull_clone.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c61b0353257313105ab6009c58faf7136afed3d6",
+      "size": 401,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/c61b0353257313105ab6009c58faf7136afed3d6"
+    },
+    {
+      "path": "thefuck/rules/git_pull_uncommitted_changes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "152503c8faf71294dfa43c5d7df0808672f8e6dc",
+      "size": 393,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/152503c8faf71294dfa43c5d7df0808672f8e6dc"
+    },
+    {
+      "path": "thefuck/rules/git_push.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "018ff152fd6b29e5d1b10c6c57bbc593a9361982",
+      "size": 1735,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/018ff152fd6b29e5d1b10c6c57bbc593a9361982"
+    },
+    {
+      "path": "thefuck/rules/git_push_different_branch_names.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ec5a408b360eb1308f0ab06e66b12a94cd8fbce",
+      "size": 340,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/3ec5a408b360eb1308f0ab06e66b12a94cd8fbce"
+    },
+    {
+      "path": "thefuck/rules/git_push_force.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45c56ec60d14efd15c472c6944bc13afb682590d",
+      "size": 534,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/45c56ec60d14efd15c472c6944bc13afb682590d"
+    },
+    {
+      "path": "thefuck/rules/git_push_pull.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59ab1d547e37ce09a2422ef0ec42b698e376d0e5",
+      "size": 706,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/59ab1d547e37ce09a2422ef0ec42b698e376d0e5"
+    },
+    {
+      "path": "thefuck/rules/git_push_without_commits.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "408d2d7b45cff976848e2c6e0955a5306f80d8cf",
+      "size": 309,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/408d2d7b45cff976848e2c6e0955a5306f80d8cf"
+    },
+    {
+      "path": "thefuck/rules/git_rebase_merge_dir.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8251dd16f185ac3b761030c3a2e4e588d26d3903",
+      "size": 627,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/8251dd16f185ac3b761030c3a2e4e588d26d3903"
+    },
+    {
+      "path": "thefuck/rules/git_rebase_no_changes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28a39f25608c60f7901693e2b001b1c7cd87909f",
+      "size": 306,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/28a39f25608c60f7901693e2b001b1c7cd87909f"
+    },
+    {
+      "path": "thefuck/rules/git_remote_delete.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f98a70ddc5a96f059bb6efbd2a02dc922be927ad",
+      "size": 239,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/f98a70ddc5a96f059bb6efbd2a02dc922be927ad"
+    },
+    {
+      "path": "thefuck/rules/git_remote_seturl_add.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39fcc931873bf48622892ec86edb4ff3bb3fc37c",
+      "size": 316,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/39fcc931873bf48622892ec86edb4ff3bb3fc37c"
+    },
+    {
+      "path": "thefuck/rules/git_rm_local_modifications.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "602fb300fbfe3e42567cda23bd9d9ec7abb01880",
+      "size": 621,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/602fb300fbfe3e42567cda23bd9d9ec7abb01880"
+    },
+    {
+      "path": "thefuck/rules/git_rm_recursive.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5870e253f71096fdcfa43f8a3f7262405cfa415f",
+      "size": 442,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/5870e253f71096fdcfa43f8a3f7262405cfa415f"
+    },
+    {
+      "path": "thefuck/rules/git_rm_staged.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f8e585d80593c5cf0d76f00afb9f6f06a553957",
+      "size": 629,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/1f8e585d80593c5cf0d76f00afb9f6f06a553957"
+    },
+    {
+      "path": "thefuck/rules/git_stash.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c4effa83e848ad14ad23e12bbcfa78b7f10afff",
+      "size": 421,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/5c4effa83e848ad14ad23e12bbcfa78b7f10afff"
+    },
+    {
+      "path": "thefuck/rules/git_stash_pop.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e143ffd813b34c0326ae221f2e00e2d36363417",
+      "size": 485,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/0e143ffd813b34c0326ae221f2e00e2d36363417"
+    },
+    {
+      "path": "thefuck/rules/git_tag_force.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63e8e3918a37e574e8dd4b8ef00e71835b78c3f0",
+      "size": 328,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/63e8e3918a37e574e8dd4b8ef00e71835b78c3f0"
+    },
+    {
+      "path": "thefuck/rules/git_two_dashes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3569dca516280de16358ebe9ba7ab5f4702fcb76",
+      "size": 375,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/3569dca516280de16358ebe9ba7ab5f4702fcb76"
+    },
+    {
+      "path": "thefuck/rules/go_run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30db699b422b0e342860dc80257c4b0e3b455fb0",
+      "size": 340,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/30db699b422b0e342860dc80257c4b0e3b455fb0"
+    },
+    {
+      "path": "thefuck/rules/go_unknown_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20d524211045d27c0d0513b67d8bd3a52bb40051",
+      "size": 921,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/20d524211045d27c0d0513b67d8bd3a52bb40051"
+    },
+    {
+      "path": "thefuck/rules/gradle_no_task.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a07479471734dbfc5ffc559c5d3fe01d657874d",
+      "size": 946,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/4a07479471734dbfc5ffc559c5d3fe01d657874d"
+    },
+    {
+      "path": "thefuck/rules/gradle_wrapper.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94b750c51c77a7752e1f581e99fe1ffa1b28586c",
+      "size": 330,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/94b750c51c77a7752e1f581e99fe1ffa1b28586c"
+    },
+    {
+      "path": "thefuck/rules/grep_arguments_order.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5513cc5dd33ca0665152393cc4a3e665858360fb",
+      "size": 598,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/5513cc5dd33ca0665152393cc4a3e665858360fb"
+    },
+    {
+      "path": "thefuck/rules/grep_recursive.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "268d9d1a440d465b28234593f8c2fc0257f64f83",
+      "size": 211,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/268d9d1a440d465b28234593f8c2fc0257f64f83"
+    },
+    {
+      "path": "thefuck/rules/grunt_task_not_found.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49bf0b4ffb364537409703f5cce28f780a32c677",
+      "size": 962,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/49bf0b4ffb364537409703f5cce28f780a32c677"
+    },
+    {
+      "path": "thefuck/rules/gulp_not_task.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0d8589b5b01dc8fd1f6d8efbb5309c0638adf8a",
+      "size": 635,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/e0d8589b5b01dc8fd1f6d8efbb5309c0638adf8a"
+    },
+    {
+      "path": "thefuck/rules/has_exists_script.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73924fb8bbbf7acfcec7de32f33ecd95f72d7727",
+      "size": 309,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/73924fb8bbbf7acfcec7de32f33ecd95f72d7727"
+    },
+    {
+      "path": "thefuck/rules/heroku_multiple_apps.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dddc2a838d0b5f87d72774ff04a5245ddfe4e23f",
+      "size": 331,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/dddc2a838d0b5f87d72774ff04a5245ddfe4e23f"
+    },
+    {
+      "path": "thefuck/rules/heroku_not_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5182ff118555f3f36027165fa6c967851149afcc",
+      "size": 240,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/5182ff118555f3f36027165fa6c967851149afcc"
+    },
+    {
+      "path": "thefuck/rules/history.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ebe548ba3368da17f64417c4f8c416b65f93070",
+      "size": 403,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/0ebe548ba3368da17f64417c4f8c416b65f93070"
+    },
+    {
+      "path": "thefuck/rules/hostscli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "debc9ac122f38a56b329146b935a5832baccb02a",
+      "size": 753,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/debc9ac122f38a56b329146b935a5832baccb02a"
+    },
+    {
+      "path": "thefuck/rules/ifconfig_device_not_found.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f65c77ad6c644f8e49d678e05a9a5856a3428300",
+      "size": 704,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/f65c77ad6c644f8e49d678e05a9a5856a3428300"
+    },
+    {
+      "path": "thefuck/rules/java.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "264be4320c15c163826d70badc6d90cb5ced4bb5",
+      "size": 298,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/264be4320c15c163826d70badc6d90cb5ced4bb5"
+    },
+    {
+      "path": "thefuck/rules/javac.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07c08172cedcaf33c6605cc11e871e0528509017",
+      "size": 357,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/07c08172cedcaf33c6605cc11e871e0528509017"
+    },
+    {
+      "path": "thefuck/rules/lein_not_task.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b960b1a4c5377aad1920c2ac8e5ef2a7d051cd20",
+      "size": 641,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/b960b1a4c5377aad1920c2ac8e5ef2a7d051cd20"
+    },
+    {
+      "path": "thefuck/rules/ln_no_hard_link.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68766d35223edd9aeb279e6035a5e9f638ac642e",
+      "size": 518,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/68766d35223edd9aeb279e6035a5e9f638ac642e"
+    },
+    {
+      "path": "thefuck/rules/ln_s_order.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "963a4424be5b03b959fe1f7b8f933c3c9351398e",
+      "size": 783,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/963a4424be5b03b959fe1f7b8f933c3c9351398e"
+    },
+    {
+      "path": "thefuck/rules/long_form_help.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ff7a23f349bcb43a57ab6c18e5c67389f18c533",
+      "size": 678,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/3ff7a23f349bcb43a57ab6c18e5c67389f18c533"
+    },
+    {
+      "path": "thefuck/rules/ls_all.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dcef0b2db3e536834a67b69c574187adff5c880",
+      "size": 204,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/6dcef0b2db3e536834a67b69c574187adff5c880"
+    },
+    {
+      "path": "thefuck/rules/ls_lah.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93c0da5dae131452a11c64623c49b141623922f5",
+      "size": 262,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/93c0da5dae131452a11c64623c49b141623922f5"
+    },
+    {
+      "path": "thefuck/rules/man.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c88785687af8b53eabe3ae6f4f0f2e9788e6d978",
+      "size": 860,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/c88785687af8b53eabe3ae6f4f0f2e9788e6d978"
+    },
+    {
+      "path": "thefuck/rules/man_no_space.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86e77167e9ee85ce0cda0649863df52f5f5a3b84",
+      "size": 228,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/86e77167e9ee85ce0cda0649863df52f5f5a3b84"
+    },
+    {
+      "path": "thefuck/rules/mercurial.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae6f7aa36045e38758c0362c16cf522937a89fb6",
+      "size": 807,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/ae6f7aa36045e38758c0362c16cf522937a89fb6"
+    },
+    {
+      "path": "thefuck/rules/missing_space_before_subcommand.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd4fbd7eb876923f6413c33ed6d815afba86cea5",
+      "size": 575,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/fd4fbd7eb876923f6413c33ed6d815afba86cea5"
+    },
+    {
+      "path": "thefuck/rules/mkdir_p.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f781e14fb456158d29769a6be015d64e7aaeba9",
+      "size": 307,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/3f781e14fb456158d29769a6be015d64e7aaeba9"
+    },
+    {
+      "path": "thefuck/rules/mvn_no_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36c2a0a3fbf9cf10ebf114538647816531bffabd",
+      "size": 273,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/36c2a0a3fbf9cf10ebf114538647816531bffabd"
+    },
+    {
+      "path": "thefuck/rules/mvn_unknown_lifecycle_phase.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa2cf20ffd6078c65565c3481278e2e6a805b119",
+      "size": 1011,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/fa2cf20ffd6078c65565c3481278e2e6a805b119"
+    },
+    {
+      "path": "thefuck/rules/nixos_cmd_not_found.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40d9d550cf548908e10ca3d060e11fc983e8ac51",
+      "size": 378,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/40d9d550cf548908e10ca3d060e11fc983e8ac51"
+    },
+    {
+      "path": "thefuck/rules/no_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0862329357548a651370eaa1bd9179f7a7f6dea0",
+      "size": 1254,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/0862329357548a651370eaa1bd9179f7a7f6dea0"
+    },
+    {
+      "path": "thefuck/rules/no_such_file.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc790a25ae260959816ef13d2e73ad1ef28a7a44",
+      "size": 787,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/dc790a25ae260959816ef13d2e73ad1ef28a7a44"
+    },
+    {
+      "path": "thefuck/rules/npm_missing_script.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc9d5a4a1b7201eaad7063de66b96aeae4694a95",
+      "size": 524,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/fc9d5a4a1b7201eaad7063de66b96aeae4694a95"
+    },
+    {
+      "path": "thefuck/rules/npm_run_script.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d932f44b38ba8028b4e9ae6fabcfd2b2ec7d91e",
+      "size": 488,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/6d932f44b38ba8028b4e9ae6fabcfd2b2ec7d91e"
+    },
+    {
+      "path": "thefuck/rules/npm_wrong_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3511fe8daeb8a8d7cff6099d78f786dbf246c82",
+      "size": 1290,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/e3511fe8daeb8a8d7cff6099d78f786dbf246c82"
+    },
+    {
+      "path": "thefuck/rules/omnienv_no_such_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca8cc36d60e0812931eda03bd3ecdc353be0eaad",
+      "size": 1061,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/ca8cc36d60e0812931eda03bd3ecdc353be0eaad"
+    },
+    {
+      "path": "thefuck/rules/open.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c701122bb24909d70f168c99ee783060c2097ed",
+      "size": 1302,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/1c701122bb24909d70f168c99ee783060c2097ed"
+    },
+    {
+      "path": "thefuck/rules/pacman.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92a48e88549e19cb6c216b72e7c65fb4639bbd12",
+      "size": 459,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/92a48e88549e19cb6c216b72e7c65fb4639bbd12"
+    },
+    {
+      "path": "thefuck/rules/pacman_invalid_option.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc50fd3bf7758f3328cc7fb1e275c9e36b2ee757",
+      "size": 541,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/cc50fd3bf7758f3328cc7fb1e275c9e36b2ee757"
+    },
+    {
+      "path": "thefuck/rules/pacman_not_found.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1ce29220e91264a64392ed473238bfb635226e1",
+      "size": 706,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/c1ce29220e91264a64392ed473238bfb635226e1"
+    },
+    {
+      "path": "thefuck/rules/path_from_history.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d05bb9ae391d018f9e542ae93676f15695ef5aad",
+      "size": 1493,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/d05bb9ae391d018f9e542ae93676f15695ef5aad"
+    },
+    {
+      "path": "thefuck/rules/php_s.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65f50392388b3209fb11076bc1582ce2e167da40",
+      "size": 281,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/65f50392388b3209fb11076bc1582ce2e167da40"
+    },
+    {
+      "path": "thefuck/rules/pip_install.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ee013c0244dd48bb12004ebcedeb6165446e656",
+      "size": 518,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/8ee013c0244dd48bb12004ebcedeb6165446e656"
+    },
+    {
+      "path": "thefuck/rules/pip_unknown_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2720cda5e2aabd92b5339d8b655ccc0f1315d72e",
+      "size": 602,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/2720cda5e2aabd92b5339d8b655ccc0f1315d72e"
+    },
+    {
+      "path": "thefuck/rules/port_already_in_use.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d35524314a2ffc6d1d2bd9fc011691bb645146e0",
+      "size": 1064,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/d35524314a2ffc6d1d2bd9fc011691bb645146e0"
+    },
+    {
+      "path": "thefuck/rules/prove_recursively.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "224a4e6769b128442bb61fbe08206df0b84d77bf",
+      "size": 653,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/224a4e6769b128442bb61fbe08206df0b84d77bf"
+    },
+    {
+      "path": "thefuck/rules/python_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08699373a6ecf47e28ec798dbdc544d6a869aff9",
+      "size": 501,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/08699373a6ecf47e28ec798dbdc544d6a869aff9"
+    },
+    {
+      "path": "thefuck/rules/python_execute.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23321e75e9eb02fe34e01003822eabe27de69a53",
+      "size": 333,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/23321e75e9eb02fe34e01003822eabe27de69a53"
+    },
+    {
+      "path": "thefuck/rules/python_module_error.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4696d63b1d8fbbcd93c231ad6b8cb8938159b981",
+      "size": 381,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/4696d63b1d8fbbcd93c231ad6b8cb8938159b981"
+    },
+    {
+      "path": "thefuck/rules/quotation_marks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ba491cf1f92e678e111d92c477b76c515803266",
+      "size": 236,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/6ba491cf1f92e678e111d92c477b76c515803266"
+    },
+    {
+      "path": "thefuck/rules/rails_migrations_pending.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "866c5058bd675b9c3012b88bbf1e3bdd1215ca07",
+      "size": 374,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/866c5058bd675b9c3012b88bbf1e3bdd1215ca07"
+    },
+    {
+      "path": "thefuck/rules/react_native_command_unrecognized.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41a25ce118509f234a00c59fce9e9d06df221e01",
+      "size": 883,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/41a25ce118509f234a00c59fce9e9d06df221e01"
+    },
+    {
+      "path": "thefuck/rules/remove_shell_prompt_literal.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0d064e42823a57b8fbdf5faf60eee93f4756972",
+      "size": 534,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/d0d064e42823a57b8fbdf5faf60eee93f4756972"
+    },
+    {
+      "path": "thefuck/rules/remove_trailing_cedilla.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7ec17738f9fddbccaa8f50394adcf8bdab0a53b",
+      "size": 172,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/d7ec17738f9fddbccaa8f50394adcf8bdab0a53b"
+    },
+    {
+      "path": "thefuck/rules/rm_dir.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c6449fd1de0add2779d00826988b70143bdd18c",
+      "size": 390,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/6c6449fd1de0add2779d00826988b70143bdd18c"
+    },
+    {
+      "path": "thefuck/rules/rm_root.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3eb3047d2135ec2f9b2a28bdfae13e272d81b39b",
+      "size": 423,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/3eb3047d2135ec2f9b2a28bdfae13e272d81b39b"
+    },
+    {
+      "path": "thefuck/rules/scm_correction.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78c44949bb107c6601665afdbd388e7eef82790f",
+      "size": 675,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/78c44949bb107c6601665afdbd388e7eef82790f"
+    },
+    {
+      "path": "thefuck/rules/sed_unterminated_s.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41cad2d048772e18f1220d3869230d489738f831",
+      "size": 419,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/41cad2d048772e18f1220d3869230d489738f831"
+    },
+    {
+      "path": "thefuck/rules/sl_ls.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e384df7df03ff0a1f592dc4240a4655b1267f5fb",
+      "size": 233,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/e384df7df03ff0a1f592dc4240a4655b1267f5fb"
+    },
+    {
+      "path": "thefuck/rules/ssh_known_hosts.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ebce5d61cb8328dd33d8dd060217bd96376269e",
+      "size": 1068,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/7ebce5d61cb8328dd33d8dd060217bd96376269e"
+    },
+    {
+      "path": "thefuck/rules/sudo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c83ba7b846967d8dedb8574566737b4cfc59c19",
+      "size": 1711,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/0c83ba7b846967d8dedb8574566737b4cfc59c19"
+    },
+    {
+      "path": "thefuck/rules/sudo_command_from_user_path.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "256f8aa3f5bec53196001ac908a95f5c8827cab2",
+      "size": 593,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/256f8aa3f5bec53196001ac908a95f5c8827cab2"
+    },
+    {
+      "path": "thefuck/rules/switch_lang.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f8d7632c241ef6a35f25206c09d767256ecefb8",
+      "size": 5622,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/6f8d7632c241ef6a35f25206c09d767256ecefb8"
+    },
+    {
+      "path": "thefuck/rules/systemctl.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3968819e451baccb4f5936100c201e42f8f71a4a",
+      "size": 595,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/3968819e451baccb4f5936100c201e42f8f71a4a"
+    },
+    {
+      "path": "thefuck/rules/terraform_init.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29dd44fd8a04a298745e66683a78a8aab7bb2143",
+      "size": 353,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/29dd44fd8a04a298745e66683a78a8aab7bb2143"
+    },
+    {
+      "path": "thefuck/rules/terraform_no_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cbb9a9a28fcd72e2dab9466c29dc88fe5356482",
+      "size": 466,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/6cbb9a9a28fcd72e2dab9466c29dc88fe5356482"
+    },
+    {
+      "path": "thefuck/rules/test.py.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47406b894e15ac54b069b58878acce9b98325b04",
+      "size": 208,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/47406b894e15ac54b069b58878acce9b98325b04"
+    },
+    {
+      "path": "thefuck/rules/tmux.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7f9b01db6002922de530914a5bcf6cb2d0a72ba",
+      "size": 478,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/b7f9b01db6002922de530914a5bcf6cb2d0a72ba"
+    },
+    {
+      "path": "thefuck/rules/touch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56d86c03a645d3ba34bf2413940e598fc3504a38",
+      "size": 364,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/56d86c03a645d3ba34bf2413940e598fc3504a38"
+    },
+    {
+      "path": "thefuck/rules/tsuru_login.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2a5ef89051e2c43470998101284cd7ae9a3313f",
+      "size": 299,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/e2a5ef89051e2c43470998101284cd7ae9a3313f"
+    },
+    {
+      "path": "thefuck/rules/tsuru_not_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2535104d079b4d858640682638c5e4add47a51e1",
+      "size": 527,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/2535104d079b4d858640682638c5e4add47a51e1"
+    },
+    {
+      "path": "thefuck/rules/unknown_command.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7deaf2a0edcf2728c003f16976acacc4b4cf9723",
+      "size": 470,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/7deaf2a0edcf2728c003f16976acacc4b4cf9723"
+    },
+    {
+      "path": "thefuck/rules/unsudo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "beeac7a5913b22729d06f42b3a11d4611fe88d65",
+      "size": 362,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/beeac7a5913b22729d06f42b3a11d4611fe88d65"
+    },
+    {
+      "path": "thefuck/rules/vagrant_up.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68783ff0224ae20952f3a9c9f77b48e616bdaad8",
+      "size": 550,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/68783ff0224ae20952f3a9c9f77b48e616bdaad8"
+    },
+    {
+      "path": "thefuck/rules/whois.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c16bd703bde04a856f6d3d09591a3592fd631552",
+      "size": 1290,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/c16bd703bde04a856f6d3d09591a3592fd631552"
+    },
+    {
+      "path": "thefuck/rules/workon_doesnt_exists.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41d17c07b951b6b59e890f8c5943ccfd930b5c15",
+      "size": 811,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/41d17c07b951b6b59e890f8c5943ccfd930b5c15"
+    },
+    {
+      "path": "thefuck/rules/wrong_hyphen_before_subcommand.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fbaf64f1153b742039d40974d2138dd10fd697c",
+      "size": 473,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/4fbaf64f1153b742039d40974d2138dd10fd697c"
+    },
+    {
+      "path": "thefuck/rules/yarn_alias.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8905e979625316eb057785880677946b043e5ebd",
+      "size": 368,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/8905e979625316eb057785880677946b043e5ebd"
+    },
+    {
+      "path": "thefuck/rules/yarn_command_not_found.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91507754bcce2b0f2b9ac6622ee63b22c42c4284",
+      "size": 1131,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/91507754bcce2b0f2b9ac6622ee63b22c42c4284"
+    },
+    {
+      "path": "thefuck/rules/yarn_command_replaced.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "faa191e6004a7fe028b9272eb59f5b140def612a",
+      "size": 255,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/faa191e6004a7fe028b9272eb59f5b140def612a"
+    },
+    {
+      "path": "thefuck/rules/yarn_help.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c360dd01647481ba1906320edbc67fc13229bb6",
+      "size": 431,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/6c360dd01647481ba1906320edbc67fc13229bb6"
+    },
+    {
+      "path": "thefuck/rules/yum_invalid_operation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13a9001401d8d192d2ed0dc5f5d9b0cd7aa3f08d",
+      "size": 1131,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/13a9001401d8d192d2ed0dc5f5d9b0cd7aa3f08d"
+    },
+    {
+      "path": "thefuck/shells",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0750383e80b7a9e06099d4623c9aa0330daef205",
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/trees/0750383e80b7a9e06099d4623c9aa0330daef205"
+    },
+    {
+      "path": "thefuck/shells/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3da6497dbf72b2383482352b3cbf6451ca1de403",
+      "size": 1152,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/3da6497dbf72b2383482352b3cbf6451ca1de403"
+    },
+    {
+      "path": "thefuck/shells/bash.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa7a20728bbfcb530c1b33d0f1e63332697945a2",
+      "size": 3434,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/fa7a20728bbfcb530c1b33d0f1e63332697945a2"
+    },
+    {
+      "path": "thefuck/shells/fish.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb7e9153c67c8f3d66864dca2eec6c76e686ec94",
+      "size": 4790,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/eb7e9153c67c8f3d66864dca2eec6c76e686ec94"
+    },
+    {
+      "path": "thefuck/shells/generic.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa81e2aca41348bd409455143769346483394733",
+      "size": 4917,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/aa81e2aca41348bd409455143769346483394733"
+    },
+    {
+      "path": "thefuck/shells/powershell.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95226d0d09ee692d29e9adfecd515a37c2147eb3",
+      "size": 1699,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/95226d0d09ee692d29e9adfecd515a37c2147eb3"
+    },
+    {
+      "path": "thefuck/shells/tcsh.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9075f938a6f20792d45ed9f39b4edb13ae49102",
+      "size": 1489,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/b9075f938a6f20792d45ed9f39b4edb13ae49102"
+    },
+    {
+      "path": "thefuck/shells/zsh.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1fdf207cfb706ca322310e9861303d19eaca872",
+      "size": 3457,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/e1fdf207cfb706ca322310e9861303d19eaca872"
+    },
+    {
+      "path": "thefuck/specific",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f43d65350036a32554926d77cc124670a94180b7",
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/trees/f43d65350036a32554926d77cc124670a94180b7"
+    },
+    {
+      "path": "thefuck/specific/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "thefuck/specific/apt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "322b3869391875f1202f36cc04e727348717f69c",
+      "size": 72,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/322b3869391875f1202f36cc04e727348717f69c"
+    },
+    {
+      "path": "thefuck/specific/archlinux.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a64bfda99dccd1a9766f0a4a125bd8bd170088b1",
+      "size": 1263,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/a64bfda99dccd1a9766f0a4a125bd8bd170088b1"
+    },
+    {
+      "path": "thefuck/specific/brew.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0362c7cc20259da335c6ae356bc7adacd79c825",
+      "size": 342,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/d0362c7cc20259da335c6ae356bc7adacd79c825"
+    },
+    {
+      "path": "thefuck/specific/dnf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e34cfd9e757a078fcd0414b089d85c2f0c73352",
+      "size": 68,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/0e34cfd9e757a078fcd0414b089d85c2f0c73352"
+    },
+    {
+      "path": "thefuck/specific/git.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9793146510e79f070741788db68d17eb8cd4c755",
+      "size": 1165,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/9793146510e79f070741788db68d17eb8cd4c755"
+    },
+    {
+      "path": "thefuck/specific/nix.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87b1f1d79f9e9cc15b84a7849942610fddef8d45",
+      "size": 68,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/87b1f1d79f9e9cc15b84a7849942610fddef8d45"
+    },
+    {
+      "path": "thefuck/specific/npm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c49199a62f3e50091d8d1d87dee35b6b5d949e7",
+      "size": 558,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/3c49199a62f3e50091d8d1d87dee35b6b5d949e7"
+    },
+    {
+      "path": "thefuck/specific/sudo.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddc6d40982db01b403bcb499bbefb2a377e04940",
+      "size": 500,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/ddc6d40982db01b403bcb499bbefb2a377e04940"
+    },
+    {
+      "path": "thefuck/specific/yum.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aeff11cc417240e9d1b8adef3723ee627bec5f41",
+      "size": 68,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/aeff11cc417240e9d1b8adef3723ee627bec5f41"
+    },
+    {
+      "path": "thefuck/system",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1d27a56d2375552a25ddc3c14c1a2660fc7cb590",
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/trees/1d27a56d2375552a25ddc3c14c1a2660fc7cb590"
+    },
+    {
+      "path": "thefuck/system/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb13c30b4ebe381423caa00d85838fe8962cdca3",
+      "size": 134,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/bb13c30b4ebe381423caa00d85838fe8962cdca3"
+    },
+    {
+      "path": "thefuck/system/unix.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ae01cf4ca3debb0abb47a99c8c01540d80f111f",
+      "size": 1087,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/9ae01cf4ca3debb0abb47a99c8c01540d80f111f"
+    },
+    {
+      "path": "thefuck/system/win32.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f83e945aef59e2685fb71546fdf44e14325925b8",
+      "size": 860,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/f83e945aef59e2685fb71546fdf44e14325925b8"
+    },
+    {
+      "path": "thefuck/types.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3b64c35d13bba75fde074b9ede3d53e5b4b5651",
+      "size": 8348,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/b3b64c35d13bba75fde074b9ede3d53e5b4b5651"
+    },
+    {
+      "path": "thefuck/ui.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c05db33c0b744ea670505e0875539a056398bd2",
+      "size": 2776,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/9c05db33c0b744ea670505e0875539a056398bd2"
+    },
+    {
+      "path": "thefuck/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "466e4ba5111470f1f46673a3487dba45cf960aa0",
+      "size": 9507,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/466e4ba5111470f1f46673a3487dba45cf960aa0"
+    },
+    {
+      "path": "tox.ini",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e95f48116b0590cc687c400ffd4463f51228efa2",
+      "size": 206,
+      "url": "https://api.github.com/repos/nvbn/thefuck/git/blobs/e95f48116b0590cc687c400ffd4463f51228efa2"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,62 @@
+{
+  "harvested_at": "2026-06-07T20:44:24.4979087+03:00",
+  "rank": 50,
+  "repository": "airbnb/javascript",
+  "url": "https://github.com/airbnb/javascript",
+  "language": "JavaScript",
+  "stars": 148100,
+  "default_branch": "master",
+  "contract_strength": "readme_plus_runtime_hints",
+  "candidate_qaas_surfaces": [
+    "ci-documented-command-discovery",
+    "node-service-or-package-contract",
+    "jvm-service-contract"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\050-airbnb-javascript\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\050-airbnb-javascript\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [],
+    "ci": [
+      ".github/workflows/node-pretest.yml",
+      ".github/workflows/node.yml",
+      ".github/workflows/rebase.yml",
+      ".github/workflows/require-allow-edits.yml"
+    ],
+    "containers": [],
+    "dotnet": [],
+    "node": [
+      "package.json",
+      "packages/eslint-config-airbnb-base/package.json",
+      "packages/eslint-config-airbnb/package.json"
+    ],
+    "python": [],
+    "go": [],
+    "java": [],
+    "rust": [],
+    "docs": [
+      "README.md",
+      "css-in-javascript/README.md",
+      "packages/eslint-config-airbnb-base/CHANGELOG.md",
+      "packages/eslint-config-airbnb-base/README.md",
+      "packages/eslint-config-airbnb/CHANGELOG.md",
+      "packages/eslint-config-airbnb/README.md",
+      "react/README.md"
+    ],
+    "tests": [
+      "packages/eslint-config-airbnb-base/test/.eslintrc",
+      "packages/eslint-config-airbnb-base/test/requires.js",
+      "packages/eslint-config-airbnb-base/test/test-base.js",
+      "packages/eslint-config-airbnb/test/.eslintrc",
+      "packages/eslint-config-airbnb/test/requires.js",
+      "packages/eslint-config-airbnb/test/test-base.js",
+      "packages/eslint-config-airbnb/test/test-react-order.js"
+    ]
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\050-airbnb-javascript\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\050-airbnb-javascript\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

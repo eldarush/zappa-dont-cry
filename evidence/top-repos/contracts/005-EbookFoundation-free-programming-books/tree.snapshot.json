@@ -1,0 +1,1948 @@
+{
+  "sha": "c1eb691dba387969d41f8b37c62402ae5c8c6fb0",
+  "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/trees/c1eb691dba387969d41f8b37c62402ae5c8c6fb0",
+  "tree": [
+    {
+      "path": ".editorconfig",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f459aad2f7726bd231787abb9fc970582f34271",
+      "size": 1101,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/5f459aad2f7726bd231787abb9fc970582f34271"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "879a8e4bc058f05da6256f98862a5644a026639b",
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/trees/879a8e4bc058f05da6256f98862a5644a026639b"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1adbad38e1450d63de2dd9821565f38fc4db0e06",
+      "size": 1077,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/1adbad38e1450d63de2dd9821565f38fc4db0e06"
+    },
+    {
+      "path": ".github/actions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2561c3d41d90694f4caca5fa25531389a16fe412",
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/trees/2561c3d41d90694f4caca5fa25531389a16fe412"
+    },
+    {
+      "path": ".github/actions/awesomebot-gh-summary-action",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0bdbe5f288feff34309ab6015d046fae07a350ad",
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/trees/0bdbe5f288feff34309ab6015d046fae07a350ad"
+    },
+    {
+      "path": ".github/actions/awesomebot-gh-summary-action/action.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afdb72ec55d1deb8263b53beb9d2b775dbc37df9",
+      "size": 3843,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/afdb72ec55d1deb8263b53beb9d2b775dbc37df9"
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cb1dfffeb729e0818e123674bf7aea00cd3ac18",
+      "size": 1221,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/7cb1dfffeb729e0818e123674bf7aea00cd3ac18"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3d84699f8ebc1d9df7d7932909afd8b17ba74bc3",
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/trees/3d84699f8ebc1d9df7d7932909afd8b17ba74bc3"
+    },
+    {
+      "path": ".github/workflows/check-urls.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3d91cddc0517c57b44773b34da78373b482549b",
+      "size": 4830,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/a3d91cddc0517c57b44773b34da78373b482549b"
+    },
+    {
+      "path": ".github/workflows/comment-pr.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "679b7cb26bed0877a6c0f9ea6bbce9660c9efdae",
+      "size": 1685,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/679b7cb26bed0877a6c0f9ea6bbce9660c9efdae"
+    },
+    {
+      "path": ".github/workflows/detect-conflicting-prs.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc5448bc7b69f04526be16767b95c327153a42d4",
+      "size": 2905,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/dc5448bc7b69f04526be16767b95c327153a42d4"
+    },
+    {
+      "path": ".github/workflows/fpb-lint.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be5a34e1c90bba75e06761c66e0b157642081a42",
+      "size": 797,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/be5a34e1c90bba75e06761c66e0b157642081a42"
+    },
+    {
+      "path": ".github/workflows/issues-pinner.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57f31584019afdc5d931960479cf1b4afc3fdbe9",
+      "size": 1991,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/57f31584019afdc5d931960479cf1b4afc3fdbe9"
+    },
+    {
+      "path": ".github/workflows/rtl-ltr-linter.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ae174650bd99fc6ca739810401d543a3d636144",
+      "size": 4060,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/1ae174650bd99fc6ca739810401d543a3d636144"
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2261c3ad400ca6de202f7fdc1309689679929228",
+      "size": 1833,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/2261c3ad400ca6de202f7fdc1309689679929228"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c19995a8e612ab3af4dce8ad6d8bd40fb584acb",
+      "size": 4898,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/1c19995a8e612ab3af4dce8ad6d8bd40fb584acb"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10fabd90118f7ce38bb2e4753e105e744442a429",
+      "size": 18658,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/10fabd90118f7ce38bb2e4753e105e744442a429"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1eea22a20cce737553381fdacbaefddf0343904",
+      "size": 15921,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/c1eea22a20cce737553381fdacbaefddf0343904"
+    },
+    {
+      "path": "_config.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a218ad6b62b92f38e00c15e3eccd0b8d5088d2c",
+      "size": 349,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/6a218ad6b62b92f38e00c15e3eccd0b8d5088d2c"
+    },
+    {
+      "path": "_includes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "37cd2d23edd44f2fe439c01daa96e4b93192d068",
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/trees/37cd2d23edd44f2fe439c01daa96e4b93192d068"
+    },
+    {
+      "path": "_includes/head-custom.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f839d7a2dffeaba3ae6b698a51ced1208af93332",
+      "size": 292,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/f839d7a2dffeaba3ae6b698a51ced1208af93332"
+    },
+    {
+      "path": "books",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "79d50332bc32d0953ccd47b57df2eb65a5d58dd4",
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/trees/79d50332bc32d0953ccd47b57df2eb65a5d58dd4"
+    },
+    {
+      "path": "books/free-programming-books-ar.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2357de9841d50484def5af913b59984b9bd2249d",
+      "size": 5428,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/2357de9841d50484def5af913b59984b9bd2249d"
+    },
+    {
+      "path": "books/free-programming-books-az.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbfb16406295d5e5611c6abb2c3b07f073f32c0b",
+      "size": 589,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/bbfb16406295d5e5611c6abb2c3b07f073f32c0b"
+    },
+    {
+      "path": "books/free-programming-books-bg.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c17eaeec65862bb427b887d01153d8f7f8148ade",
+      "size": 2509,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/c17eaeec65862bb427b887d01153d8f7f8148ade"
+    },
+    {
+      "path": "books/free-programming-books-bn.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2a1b5da308f4f3911d2e990f4d1c9c06c09855e",
+      "size": 5026,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/b2a1b5da308f4f3911d2e990f4d1c9c06c09855e"
+    },
+    {
+      "path": "books/free-programming-books-ca.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29ddb1303a5ec86d99fa796b8d6a5b56f53f0d59",
+      "size": 771,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/29ddb1303a5ec86d99fa796b8d6a5b56f53f0d59"
+    },
+    {
+      "path": "books/free-programming-books-cs-cp.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "books/free-programming-books-cs.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f22628dc04c6a7acdc16d70d54cdec0eccf9750c",
+      "size": 5075,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/f22628dc04c6a7acdc16d70d54cdec0eccf9750c"
+    },
+    {
+      "path": "books/free-programming-books-da.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b300947eb6359a55238a53eb4d5d98131ad484b7",
+      "size": 1048,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/b300947eb6359a55238a53eb4d5d98131ad484b7"
+    },
+    {
+      "path": "books/free-programming-books-de.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1104088dfe1709a91b602159f9f5a5c27827c1e",
+      "size": 12405,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/f1104088dfe1709a91b602159f9f5a5c27827c1e"
+    },
+    {
+      "path": "books/free-programming-books-el.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d9f0a87453937d57cf968ff114f8a6f45d7d3a6",
+      "size": 5149,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/5d9f0a87453937d57cf968ff114f8a6f45d7d3a6"
+    },
+    {
+      "path": "books/free-programming-books-en.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa0faf46963a85de7e36878b55ef409e9691b4e6",
+      "size": 231,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/aa0faf46963a85de7e36878b55ef409e9691b4e6"
+    },
+    {
+      "path": "books/free-programming-books-es.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5024b072ba32ebb0d86b597039c67ede45cf3f6",
+      "size": 28445,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/f5024b072ba32ebb0d86b597039c67ede45cf3f6"
+    },
+    {
+      "path": "books/free-programming-books-et.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5dbcdb1328e69624f414838341d5b4d7fa3af2ad",
+      "size": 2767,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/5dbcdb1328e69624f414838341d5b4d7fa3af2ad"
+    },
+    {
+      "path": "books/free-programming-books-fa_IR.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49f95c2f2050e240c2b0092508ea60c7582ccb27",
+      "size": 3674,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/49f95c2f2050e240c2b0092508ea60c7582ccb27"
+    },
+    {
+      "path": "books/free-programming-books-fi.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afa847ec50a1c19f4ad2b2b6f2d79d40cd445e6e",
+      "size": 3340,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/afa847ec50a1c19f4ad2b2b6f2d79d40cd445e6e"
+    },
+    {
+      "path": "books/free-programming-books-fr.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97d4678cd9eca3007c87538fca6ccfebbfc3fbd0",
+      "size": 15637,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/97d4678cd9eca3007c87538fca6ccfebbfc3fbd0"
+    },
+    {
+      "path": "books/free-programming-books-he.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b134fc995c04f6ce450b990a800f7270f64c2de",
+      "size": 1771,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/7b134fc995c04f6ce450b990a800f7270f64c2de"
+    },
+    {
+      "path": "books/free-programming-books-hi.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a98c446a45704016b92baae5690ed17b194da2ea",
+      "size": 3630,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/a98c446a45704016b92baae5690ed17b194da2ea"
+    },
+    {
+      "path": "books/free-programming-books-hu.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5870fafae0e996c41909ee37d5739a93a58920ef",
+      "size": 6260,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/5870fafae0e996c41909ee37d5739a93a58920ef"
+    },
+    {
+      "path": "books/free-programming-books-hy.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e1c941d65b44af56bb8cae90e85dec85857b918",
+      "size": 191,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/8e1c941d65b44af56bb8cae90e85dec85857b918"
+    },
+    {
+      "path": "books/free-programming-books-id.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ea9e3c5e02e83a8e798740228404368d943f5f3",
+      "size": 13447,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/1ea9e3c5e02e83a8e798740228404368d943f5f3"
+    },
+    {
+      "path": "books/free-programming-books-it.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3913ea5f55783fb0f6ac1bb791f7a98b88faaa3",
+      "size": 13839,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/f3913ea5f55783fb0f6ac1bb791f7a98b88faaa3"
+    },
+    {
+      "path": "books/free-programming-books-ja.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9283fb1dc574005b83edb5c744805ac5d760348a",
+      "size": 42326,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/9283fb1dc574005b83edb5c744805ac5d760348a"
+    },
+    {
+      "path": "books/free-programming-books-ko.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e54966669502d72af15bd837da91a1f0fa4b08bc",
+      "size": 9667,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/e54966669502d72af15bd837da91a1f0fa4b08bc"
+    },
+    {
+      "path": "books/free-programming-books-langs.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1d9f4f93bf745403a76b8334b1ccf23df9079cf",
+      "size": 198252,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/c1d9f4f93bf745403a76b8334b1ccf23df9079cf"
+    },
+    {
+      "path": "books/free-programming-books-lv.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf3201df28aee6798c07b42d5ff68698052594f4",
+      "size": 592,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/bf3201df28aee6798c07b42d5ff68698052594f4"
+    },
+    {
+      "path": "books/free-programming-books-ml.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a53d1a2954b8d1759106f9ddab4842eb0919e1d6",
+      "size": 792,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/a53d1a2954b8d1759106f9ddab4842eb0919e1d6"
+    },
+    {
+      "path": "books/free-programming-books-my.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f36c8943f1d65be0751eb85272cc28a97b2c80f6",
+      "size": 2261,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/f36c8943f1d65be0751eb85272cc28a97b2c80f6"
+    },
+    {
+      "path": "books/free-programming-books-nl.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d24004e8a82497e7c979d35cadaeeba83b19e903",
+      "size": 1402,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/d24004e8a82497e7c979d35cadaeeba83b19e903"
+    },
+    {
+      "path": "books/free-programming-books-no.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "121248337e56614bd1dfedb2e613a7a8c5313f8c",
+      "size": 403,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/121248337e56614bd1dfedb2e613a7a8c5313f8c"
+    },
+    {
+      "path": "books/free-programming-books-pl.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bfbef3e052248f3ac728795faecebe0cb1f4374",
+      "size": 8419,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/7bfbef3e052248f3ac728795faecebe0cb1f4374"
+    },
+    {
+      "path": "books/free-programming-books-pt_BR.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "484b30340d0dc5f78cd8a775f5f046d1cc68fdae",
+      "size": 25404,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/484b30340d0dc5f78cd8a775f5f046d1cc68fdae"
+    },
+    {
+      "path": "books/free-programming-books-pt_PT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8d9991852039f24d279a0dc640f630ab4f713f1",
+      "size": 1333,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/a8d9991852039f24d279a0dc640f630ab4f713f1"
+    },
+    {
+      "path": "books/free-programming-books-ro.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "971cf9c07822a12d81f05324938c150491aae64a",
+      "size": 935,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/971cf9c07822a12d81f05324938c150491aae64a"
+    },
+    {
+      "path": "books/free-programming-books-ru.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd3a14f07fb21738cb8223d5b9c37181c8298264",
+      "size": 34177,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/dd3a14f07fb21738cb8223d5b9c37181c8298264"
+    },
+    {
+      "path": "books/free-programming-books-sk.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a69d6b469edef0575000335ab57c63ce2c25a47",
+      "size": 898,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/9a69d6b469edef0575000335ab57c63ce2c25a47"
+    },
+    {
+      "path": "books/free-programming-books-sl.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b726084e158c1af12153e5bdb3096c93ea169e4",
+      "size": 115,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/9b726084e158c1af12153e5bdb3096c93ea169e4"
+    },
+    {
+      "path": "books/free-programming-books-sr.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e04fb4926590e2dda68f813da60ab0e07369c7eb",
+      "size": 2203,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/e04fb4926590e2dda68f813da60ab0e07369c7eb"
+    },
+    {
+      "path": "books/free-programming-books-subjects.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fa311b455acfd23b78581c8af4f668989a14c4e",
+      "size": 107961,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/7fa311b455acfd23b78581c8af4f668989a14c4e"
+    },
+    {
+      "path": "books/free-programming-books-sv.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1d17229dd0eb7d7527ca7af5d7c18c3a92e3162",
+      "size": 978,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/d1d17229dd0eb7d7527ca7af5d7c18c3a92e3162"
+    },
+    {
+      "path": "books/free-programming-books-ta.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2215b3d6bb7722b3298f4d1fe36f30672c342c0a",
+      "size": 5086,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/2215b3d6bb7722b3298f4d1fe36f30672c342c0a"
+    },
+    {
+      "path": "books/free-programming-books-te.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e71767559b5c3b7146ae62dec4eb20574236369",
+      "size": 874,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/6e71767559b5c3b7146ae62dec4eb20574236369"
+    },
+    {
+      "path": "books/free-programming-books-th.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3448fc84c03f467eaf2df5f1632ba7af8a4eb4c",
+      "size": 2911,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/c3448fc84c03f467eaf2df5f1632ba7af8a4eb4c"
+    },
+    {
+      "path": "books/free-programming-books-tr.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35f889b62dc32ab744bc48c43ab40f6ca50643a7",
+      "size": 7619,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/35f889b62dc32ab744bc48c43ab40f6ca50643a7"
+    },
+    {
+      "path": "books/free-programming-books-uk.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0d0d5627676fa6778b7be54c26e31a82536c672",
+      "size": 1959,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/f0d0d5627676fa6778b7be54c26e31a82536c672"
+    },
+    {
+      "path": "books/free-programming-books-ur.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e560ac7c0e999d4b9527fcbc7d0f9a2de3e7d990",
+      "size": 355,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/e560ac7c0e999d4b9527fcbc7d0f9a2de3e7d990"
+    },
+    {
+      "path": "books/free-programming-books-vi.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63df24e85f1fd7207883044ef98a14bef71c1a2b",
+      "size": 688,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/63df24e85f1fd7207883044ef98a14bef71c1a2b"
+    },
+    {
+      "path": "books/free-programming-books-zh.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bc285a80182c28454733679b3a230a9750eeacc",
+      "size": 37240,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/2bc285a80182c28454733679b3a230a9750eeacc"
+    },
+    {
+      "path": "casts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "df60703c71cdd07971176cc5daca915f1ad04564",
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/trees/df60703c71cdd07971176cc5daca915f1ad04564"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-ar.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "156d2a58172656da9cb27a0ab783215ed5ae30cc",
+      "size": 1345,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/156d2a58172656da9cb27a0ab783215ed5ae30cc"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-cs.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb9cf35147caed1cd6b7d462ac5b80a93f8141a2",
+      "size": 347,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/cb9cf35147caed1cd6b7d462ac5b80a93f8141a2"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-de.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71ad389798425f266986bda9c506366c21d97b77",
+      "size": 124,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/71ad389798425f266986bda9c506366c21d97b77"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-en.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5983f62e6ccd53db0351a5b6a3f2c6829b474b6",
+      "size": 31151,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/b5983f62e6ccd53db0351a5b6a3f2c6829b474b6"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-es.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bc8447597fff9929507f2aa55ed5beb2728f840",
+      "size": 6682,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/8bc8447597fff9929507f2aa55ed5beb2728f840"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-fa_IR.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "facb6920570814b714af8a7ee41780ad5253770a",
+      "size": 994,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/facb6920570814b714af8a7ee41780ad5253770a"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-fi.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4de14a8a9b9ea60851b267edf0b6356becc59731",
+      "size": 674,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/4de14a8a9b9ea60851b267edf0b6356becc59731"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-fr.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf3e35ed44e03ec1de21355e5a8878202e50e7e4",
+      "size": 1033,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/cf3e35ed44e03ec1de21355e5a8878202e50e7e4"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-he.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4508314807424d89186a1850246e59b2f5ac64a9",
+      "size": 589,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/4508314807424d89186a1850246e59b2f5ac64a9"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-id.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f20eab3087da131eff5b0f4298c29c6ef41bcd4f",
+      "size": 238,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/f20eab3087da131eff5b0f4298c29c6ef41bcd4f"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-my.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a71ed7233d5ea1ba44b382b5b6db4c9b8cdadffc",
+      "size": 190,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/a71ed7233d5ea1ba44b382b5b6db4c9b8cdadffc"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-nl.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f02a9cd79657b6cb208eefd71e10cc91a53864ef",
+      "size": 255,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/f02a9cd79657b6cb208eefd71e10cc91a53864ef"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-pl.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20b739032a05ecce5921c1ff88ff5d3647ddc779",
+      "size": 1307,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/20b739032a05ecce5921c1ff88ff5d3647ddc779"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-pt_BR.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f28ab63498cf753cc93835b6581e39b4eb53358b",
+      "size": 6642,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/f28ab63498cf753cc93835b6581e39b4eb53358b"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-pt_PT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acfa8052e24a1b3dcf59c6a860670d6598f3c1f9",
+      "size": 446,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/acfa8052e24a1b3dcf59c6a860670d6598f3c1f9"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-ru.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44622d9c4f178f26188b873d40af587a549a6245",
+      "size": 4727,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/44622d9c4f178f26188b873d40af587a549a6245"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-si.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "041ed54e0b47af6718745bf5042f4326c41e9c57",
+      "size": 231,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/041ed54e0b47af6718745bf5042f4326c41e9c57"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-sv.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f978db6dcdb14133219af2afbf79d36fca2d6859",
+      "size": 972,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/f978db6dcdb14133219af2afbf79d36fca2d6859"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-tr.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2f55bd586f4a29c5bf4104a419b16cc173063e3",
+      "size": 514,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/c2f55bd586f4a29c5bf4104a419b16cc173063e3"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-uk.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54f031f64071ffc88ef90f2ebd64ff406b4e0a3e",
+      "size": 374,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/54f031f64071ffc88ef90f2ebd64ff406b4e0a3e"
+    },
+    {
+      "path": "casts/free-podcasts-screencasts-zh.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "542f325d449cb4de572f769e275b55749787e372",
+      "size": 485,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/542f325d449cb4de572f769e275b55749787e372"
+    },
+    {
+      "path": "courses",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4978f1559d5b747762925333262e2e506671e106",
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/trees/4978f1559d5b747762925333262e2e506671e106"
+    },
+    {
+      "path": "courses/free-courses-ar.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9063ce380d02c37a82390c2fae0c171ffd77951",
+      "size": 55947,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/f9063ce380d02c37a82390c2fae0c171ffd77951"
+    },
+    {
+      "path": "courses/free-courses-bg.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e9d00000dca1920384854a5f689645cba1f65b0",
+      "size": 208,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/3e9d00000dca1920384854a5f689645cba1f65b0"
+    },
+    {
+      "path": "courses/free-courses-bn.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ecec834c946a8f674a0af32654b63344ee1dd52",
+      "size": 26159,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/6ecec834c946a8f674a0af32654b63344ee1dd52"
+    },
+    {
+      "path": "courses/free-courses-de.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7771a6ea090bb5111a192be5dfcd3130a3a88f58",
+      "size": 4011,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/7771a6ea090bb5111a192be5dfcd3130a3a88f58"
+    },
+    {
+      "path": "courses/free-courses-el.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5df1028e383829cecfebeb08d5f408ee53fe63c6",
+      "size": 244,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/5df1028e383829cecfebeb08d5f408ee53fe63c6"
+    },
+    {
+      "path": "courses/free-courses-en.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce41d084a76cab31e9f327343b473d0e112862cf",
+      "size": 173526,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/ce41d084a76cab31e9f327343b473d0e112862cf"
+    },
+    {
+      "path": "courses/free-courses-es.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f694db00ccebcfbb3effd5e730729a8344e8bcc7",
+      "size": 22945,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/f694db00ccebcfbb3effd5e730729a8344e8bcc7"
+    },
+    {
+      "path": "courses/free-courses-fa_IR.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12818e9a1d9e23b304086f42dd1e35ee932fd940",
+      "size": 9744,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/12818e9a1d9e23b304086f42dd1e35ee932fd940"
+    },
+    {
+      "path": "courses/free-courses-fi.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6de4eb9489a12ecba131da698d28848e04130a2d",
+      "size": 875,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/6de4eb9489a12ecba131da698d28848e04130a2d"
+    },
+    {
+      "path": "courses/free-courses-fr.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f087114aabde1bb9e1862ba1c040961397c9cf4",
+      "size": 7584,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/1f087114aabde1bb9e1862ba1c040961397c9cf4"
+    },
+    {
+      "path": "courses/free-courses-he.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6480ac49d394e7421c8c93812e54eabf99d70a0",
+      "size": 1090,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/c6480ac49d394e7421c8c93812e54eabf99d70a0"
+    },
+    {
+      "path": "courses/free-courses-hi.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5879f2860ec384cd326d47a210e9500bc616b0fd",
+      "size": 71571,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/5879f2860ec384cd326d47a210e9500bc616b0fd"
+    },
+    {
+      "path": "courses/free-courses-id.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1b06b739cd6baddb84e4f5632d4f8e540daa92f",
+      "size": 33290,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/d1b06b739cd6baddb84e4f5632d4f8e540daa92f"
+    },
+    {
+      "path": "courses/free-courses-it.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fb4dce735c3e8d242d3c513f00761656c194180",
+      "size": 13772,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/1fb4dce735c3e8d242d3c513f00761656c194180"
+    },
+    {
+      "path": "courses/free-courses-ja.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51b0f3a2730ca4be5b46c217a8f94c885ace292d",
+      "size": 699,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/51b0f3a2730ca4be5b46c217a8f94c885ace292d"
+    },
+    {
+      "path": "courses/free-courses-kk.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5759d4dbe6fbe3f7a75375de52c9736a62a1857f",
+      "size": 1232,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/5759d4dbe6fbe3f7a75375de52c9736a62a1857f"
+    },
+    {
+      "path": "courses/free-courses-km.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9885dcf7183d923676bd54fc2cbc63b446d32f69",
+      "size": 1846,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/9885dcf7183d923676bd54fc2cbc63b446d32f69"
+    },
+    {
+      "path": "courses/free-courses-kn.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6398088b797d8725f8889d6daa14d90e894aa3b6",
+      "size": 1417,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/6398088b797d8725f8889d6daa14d90e894aa3b6"
+    },
+    {
+      "path": "courses/free-courses-ko.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdade524ce671a5bdf0db648ce9736394a4ff6e3",
+      "size": 12945,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/fdade524ce671a5bdf0db648ce9736394a4ff6e3"
+    },
+    {
+      "path": "courses/free-courses-ml.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8b36fe93b50b0419d4266c2f5a8d7f518846b01",
+      "size": 12013,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/b8b36fe93b50b0419d4266c2f5a8d7f518846b01"
+    },
+    {
+      "path": "courses/free-courses-mr.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "737993d0347b200295a7d6caa68a252368511bfd",
+      "size": 3925,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/737993d0347b200295a7d6caa68a252368511bfd"
+    },
+    {
+      "path": "courses/free-courses-my.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc29d78a1bc68894d1a5d02ebe298bfb63d5ea25",
+      "size": 459,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/cc29d78a1bc68894d1a5d02ebe298bfb63d5ea25"
+    },
+    {
+      "path": "courses/free-courses-ne.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d7ac4c4e142aaf54497caac57627eaf7aebb926",
+      "size": 2994,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/4d7ac4c4e142aaf54497caac57627eaf7aebb926"
+    },
+    {
+      "path": "courses/free-courses-no.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08fa3d162aa67f61f949df4238d480b51b054a6c",
+      "size": 145,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/08fa3d162aa67f61f949df4238d480b51b054a6c"
+    },
+    {
+      "path": "courses/free-courses-pa.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f94ae7d969be52d2565fce76821d444b3de82227",
+      "size": 223,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/f94ae7d969be52d2565fce76821d444b3de82227"
+    },
+    {
+      "path": "courses/free-courses-pl.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bea6b4c671fed3bcda2fe77905a23865880da4c2",
+      "size": 6505,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/bea6b4c671fed3bcda2fe77905a23865880da4c2"
+    },
+    {
+      "path": "courses/free-courses-pt_BR.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27d6412451401d689631ecb3d321bf5975428b79",
+      "size": 42734,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/27d6412451401d689631ecb3d321bf5975428b79"
+    },
+    {
+      "path": "courses/free-courses-pt_PT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbbab78e81e95f1de952d96db06dc138560e5841",
+      "size": 276,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/fbbab78e81e95f1de952d96db06dc138560e5841"
+    },
+    {
+      "path": "courses/free-courses-ro.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ece2011a9dcaaa524b591012b82f8d7d02002362",
+      "size": 962,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/ece2011a9dcaaa524b591012b82f8d7d02002362"
+    },
+    {
+      "path": "courses/free-courses-ru.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be14f759885453f9c0a2ca472fc5c758963573fd",
+      "size": 10705,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/be14f759885453f9c0a2ca472fc5c758963573fd"
+    },
+    {
+      "path": "courses/free-courses-si.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "446364bfc8eb17e342622ad59f8afccdeea0b20a",
+      "size": 4356,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/446364bfc8eb17e342622ad59f8afccdeea0b20a"
+    },
+    {
+      "path": "courses/free-courses-sv.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cf79b487368afac53051bf74016a27a0ab65a93",
+      "size": 114,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/5cf79b487368afac53051bf74016a27a0ab65a93"
+    },
+    {
+      "path": "courses/free-courses-ta.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86bb9bcc66177772f08d279215ab275ba4454db9",
+      "size": 16013,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/86bb9bcc66177772f08d279215ab275ba4454db9"
+    },
+    {
+      "path": "courses/free-courses-te.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8fd79b7de87c564afa33833b15ad3baccd11d79",
+      "size": 14085,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/b8fd79b7de87c564afa33833b15ad3baccd11d79"
+    },
+    {
+      "path": "courses/free-courses-th.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b908760ca9240fac071d080cd47f00a743381a8",
+      "size": 4925,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/1b908760ca9240fac071d080cd47f00a743381a8"
+    },
+    {
+      "path": "courses/free-courses-tr.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cb65995ea970c75c8d0bcd4279956ebed9ee42c",
+      "size": 6161,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/7cb65995ea970c75c8d0bcd4279956ebed9ee42c"
+    },
+    {
+      "path": "courses/free-courses-uk.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdaccf47bb7339b7a01016415102ca996f3e8d48",
+      "size": 1703,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/cdaccf47bb7339b7a01016415102ca996f3e8d48"
+    },
+    {
+      "path": "courses/free-courses-ur.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3742bd04e3b2c80eec90303771db6e657ef4ab2",
+      "size": 4140,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/c3742bd04e3b2c80eec90303771db6e657ef4ab2"
+    },
+    {
+      "path": "courses/free-courses-vi.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30d1b70bc8e3be3f7c2ecbaefbf3c436d6307f0e",
+      "size": 55732,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/30d1b70bc8e3be3f7c2ecbaefbf3c436d6307f0e"
+    },
+    {
+      "path": "courses/free-courses-zh.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "631aa2dfcceaaaaa4933bf3ca871d4e330e0ee19",
+      "size": 1360,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/631aa2dfcceaaaaa4933bf3ca871d4e330e0ee19"
+    },
+    {
+      "path": "courses/free-courses-zh_TW.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71c4e14cc85cc18cbbf4569576a5ae7c9bd9413c",
+      "size": 186,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/71c4e14cc85cc18cbbf4569576a5ae7c9bd9413c"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d13c932470c435e75100cb9db691613a36729b5f",
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/trees/d13c932470c435e75100cb9db691613a36729b5f"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-bn.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a63fdf93aafa97e15681d589c99a899a39f771b",
+      "size": 5226,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/0a63fdf93aafa97e15681d589c99a899a39f771b"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-bs.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cc446858df556dbf57a732ccd56617070dff54e",
+      "size": 2386,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/9cc446858df556dbf57a732ccd56617070dff54e"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-de.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8da69b36c69cfbe6a066ee8f2f1ebbf142b7c753",
+      "size": 2900,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/8da69b36c69cfbe6a066ee8f2f1ebbf142b7c753"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-el.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fb500eb302e607f4d88c6112839667845d30a05",
+      "size": 4548,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/4fb500eb302e607f4d88c6112839667845d30a05"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-es.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48461bf2a76a0089d643f2e4138378f44dbe6d60",
+      "size": 2742,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/48461bf2a76a0089d643f2e4138378f44dbe6d60"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-fa_IR.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b65556a6cabebe0b1fbdbfd0d5902f38948a7c03",
+      "size": 3713,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/b65556a6cabebe0b1fbdbfd0d5902f38948a7c03"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-fil.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aef2813ac1e3bb8957f78d4dc3732a4595db2952",
+      "size": 2799,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/aef2813ac1e3bb8957f78d4dc3732a4595db2952"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-fr.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d1b38b37509fe8941a26dc7a9448b2fde6c9ba2",
+      "size": 2841,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/7d1b38b37509fe8941a26dc7a9448b2fde6c9ba2"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-hi.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21e8e05d23c33c46962f5e1fd5b1d171ddd6d2bf",
+      "size": 5543,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/21e8e05d23c33c46962f5e1fd5b1d171ddd6d2bf"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-id.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e118a700adb9627471d2a059ffa60005cb388d6",
+      "size": 2339,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/0e118a700adb9627471d2a059ffa60005cb388d6"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-it.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc12200664bf2196537d6eb00215c0678ec94753",
+      "size": 2624,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/cc12200664bf2196537d6eb00215c0678ec94753"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-ja.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1054cca4dfd81a3bfbc6030c361e5f7c703bf869",
+      "size": 3456,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/1054cca4dfd81a3bfbc6030c361e5f7c703bf869"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-km.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f5376f6596fef1d6a686204573cec045097b1be",
+      "size": 5708,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/4f5376f6596fef1d6a686204573cec045097b1be"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-kn.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7dbf79575ae6718901eebb8def7907e9c2a54315",
+      "size": 6187,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/7dbf79575ae6718901eebb8def7907e9c2a54315"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-ko.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e87e4d3469cb9d579518d86bcb27705e4425101",
+      "size": 2604,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/6e87e4d3469cb9d579518d86bcb27705e4425101"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-ml.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44962fd5fd9522ade9f52d4d0ac390caab90290f",
+      "size": 5170,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/44962fd5fd9522ade9f52d4d0ac390caab90290f"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-mr.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e663a00252f3975b3bd8191fb026b3d8859ffe3d",
+      "size": 5761,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/e663a00252f3975b3bd8191fb026b3d8859ffe3d"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-no.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "247aecfd2abe447e71579cb1459c58d92886e8b4",
+      "size": 2547,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/247aecfd2abe447e71579cb1459c58d92886e8b4"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-np.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b5564b71d5d3ef3146e51bbbdb9e6f4bfee074b",
+      "size": 5480,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/5b5564b71d5d3ef3146e51bbbdb9e6f4bfee074b"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-pl.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6c7dd3e157c0fc37ea382f74740cfe2086068d5",
+      "size": 2698,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/c6c7dd3e157c0fc37ea382f74740cfe2086068d5"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-pt_BR.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4fa421b54b217d16cef606feb1681870b343102",
+      "size": 2577,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/b4fa421b54b217d16cef606feb1681870b343102"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-ru.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8cbc8bb8d94b9b3eda79f08ad2efb11dbf60d1e",
+      "size": 4344,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/c8cbc8bb8d94b9b3eda79f08ad2efb11dbf60d1e"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-si.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5992e6d4a24af08751e0620b220cbfa31ac4c74f",
+      "size": 5836,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/5992e6d4a24af08751e0620b220cbfa31ac4c74f"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-sl.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbea4098be44d191f0d976221ced3f32fac0588c",
+      "size": 2372,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/bbea4098be44d191f0d976221ced3f32fac0588c"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-sv.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43f0d6274c4bf0cd99ad6654fd0b0b8b31754359",
+      "size": 2529,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/43f0d6274c4bf0cd99ad6654fd0b0b8b31754359"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-ta.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98a49dbf9eecea35d1e2c62ef8f478863b70e2d9",
+      "size": 7101,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/98a49dbf9eecea35d1e2c62ef8f478863b70e2d9"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-te.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf08cf357cabc95fac0e6cfc7b9978c42cd5c61e",
+      "size": 6387,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/bf08cf357cabc95fac0e6cfc7b9978c42cd5c61e"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-th.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23be2ba69e7ff9f5c6908abad9dee1ae126562ab",
+      "size": 5596,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/23be2ba69e7ff9f5c6908abad9dee1ae126562ab"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-tr.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39e46692f7dae7a8d6468f164bca20ba645728cb",
+      "size": 2449,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/39e46692f7dae7a8d6468f164bca20ba645728cb"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-uk.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "600d70d11383859d9cd5ed55a49614d05c71f0ee",
+      "size": 3928,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/600d70d11383859d9cd5ed55a49614d05c71f0ee"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-vi.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10da9756f1c26633ad03cb54ad0866f21990cd02",
+      "size": 3193,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/10da9756f1c26633ad03cb54ad0866f21990cd02"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT-zh.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e09e753a5b0152475b8b63902daa5284490f62b",
+      "size": 1895,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/0e09e753a5b0152475b8b63902daa5284490f62b"
+    },
+    {
+      "path": "docs/CODE_OF_CONDUCT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de58f83c5bee9f3f3642c8006d93dff51482b0c7",
+      "size": 2372,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/de58f83c5bee9f3f3642c8006d93dff51482b0c7"
+    },
+    {
+      "path": "docs/CONTRIBUTING-ca.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f735e7e43afa0d76f4ba4cd367115565e5ffc01c",
+      "size": 18815,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/f735e7e43afa0d76f4ba4cd367115565e5ffc01c"
+    },
+    {
+      "path": "docs/CONTRIBUTING-de.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3fdcc4cf6d9d40afb9d531bb5ba8c01af3480bf",
+      "size": 17350,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/a3fdcc4cf6d9d40afb9d531bb5ba8c01af3480bf"
+    },
+    {
+      "path": "docs/CONTRIBUTING-el.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "373b4b76dfa2b92f69c31ac817bd9b90b8447da7",
+      "size": 26474,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/373b4b76dfa2b92f69c31ac817bd9b90b8447da7"
+    },
+    {
+      "path": "docs/CONTRIBUTING-es.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fac8ff248bc188d3d0726cea51195cd17c38334",
+      "size": 19981,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/5fac8ff248bc188d3d0726cea51195cd17c38334"
+    },
+    {
+      "path": "docs/CONTRIBUTING-fa_IR.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60778be0f3e1df49f7679d9c3a7bdfa58f3d6944",
+      "size": 19327,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/60778be0f3e1df49f7679d9c3a7bdfa58f3d6944"
+    },
+    {
+      "path": "docs/CONTRIBUTING-fil.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36a211c5201a477b4b4c60f3df7648e82357035e",
+      "size": 17142,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/36a211c5201a477b4b4c60f3df7648e82357035e"
+    },
+    {
+      "path": "docs/CONTRIBUTING-fr.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "840d8e6ad426f046ffdf75a541aded7df3d0f5c9",
+      "size": 16913,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/840d8e6ad426f046ffdf75a541aded7df3d0f5c9"
+    },
+    {
+      "path": "docs/CONTRIBUTING-hi.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81566420054ad2baf9b2fc71adbc1b30d26ff4a9",
+      "size": 27668,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/81566420054ad2baf9b2fc71adbc1b30d26ff4a9"
+    },
+    {
+      "path": "docs/CONTRIBUTING-id.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0b3e8e0c37a3e6af34ec176c1f48779eaa9b720",
+      "size": 18769,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/c0b3e8e0c37a3e6af34ec176c1f48779eaa9b720"
+    },
+    {
+      "path": "docs/CONTRIBUTING-it.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87d54b081c28508755ad874245708f0eabe39f94",
+      "size": 16697,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/87d54b081c28508755ad874245708f0eabe39f94"
+    },
+    {
+      "path": "docs/CONTRIBUTING-ja.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dc623521d5d1b464562b892212fa3fe1f084cb1",
+      "size": 19676,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/9dc623521d5d1b464562b892212fa3fe1f084cb1"
+    },
+    {
+      "path": "docs/CONTRIBUTING-kn.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb02fd597062f4f5d80c4941a53cacf037734bc1",
+      "size": 33482,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/fb02fd597062f4f5d80c4941a53cacf037734bc1"
+    },
+    {
+      "path": "docs/CONTRIBUTING-ko.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58056d0c1e8a6e3da2c3c9ec3b5dc913756c8d4c",
+      "size": 16604,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/58056d0c1e8a6e3da2c3c9ec3b5dc913756c8d4c"
+    },
+    {
+      "path": "docs/CONTRIBUTING-ml.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb76fa0de05096fe8e7219de81df7d2d2e2f700a",
+      "size": 49984,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/cb76fa0de05096fe8e7219de81df7d2d2e2f700a"
+    },
+    {
+      "path": "docs/CONTRIBUTING-np.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfe5a7ef3874ba4b60c1a8f4c21cdbc4f23c188e",
+      "size": 36818,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/dfe5a7ef3874ba4b60c1a8f4c21cdbc4f23c188e"
+    },
+    {
+      "path": "docs/CONTRIBUTING-pt_BR.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "911833bef7c2d77d88431003896ee6128b750f38",
+      "size": 15920,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/911833bef7c2d77d88431003896ee6128b750f38"
+    },
+    {
+      "path": "docs/CONTRIBUTING-ru.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c73a4788c78a56cf53a3e1824755c4e3405b7e24",
+      "size": 26112,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/c73a4788c78a56cf53a3e1824755c4e3405b7e24"
+    },
+    {
+      "path": "docs/CONTRIBUTING-sv.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "487fe64bfa8cfd79b54ceda952a76305cf49ccc0",
+      "size": 15432,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/487fe64bfa8cfd79b54ceda952a76305cf49ccc0"
+    },
+    {
+      "path": "docs/CONTRIBUTING-ta.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ef42066c5d142c8bfea452a2066b73b7eed18d9",
+      "size": 48499,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/2ef42066c5d142c8bfea452a2066b73b7eed18d9"
+    },
+    {
+      "path": "docs/CONTRIBUTING-te.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3dcc91e16636a80840d198490cd5cada645d0fb0",
+      "size": 33913,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/3dcc91e16636a80840d198490cd5cada645d0fb0"
+    },
+    {
+      "path": "docs/CONTRIBUTING-vi.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9bf029606245544e1c1c32bd236f6dd81931c63",
+      "size": 21064,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/d9bf029606245544e1c1c32bd236f6dd81931c63"
+    },
+    {
+      "path": "docs/CONTRIBUTING-zh.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a265754219e63a7606c6889aa9ab5eef3254514e",
+      "size": 16274,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/a265754219e63a7606c6889aa9ab5eef3254514e"
+    },
+    {
+      "path": "docs/CONTRIBUTING-zh_TW.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b133063a159133f5497bdba928229cae8b57efc6",
+      "size": 15516,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/b133063a159133f5497bdba928229cae8b57efc6"
+    },
+    {
+      "path": "docs/CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40adee23080afc95ecc2e171a1a57b03f884ae13",
+      "size": 18409,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/40adee23080afc95ecc2e171a1a57b03f884ae13"
+    },
+    {
+      "path": "docs/HOWTO-ar.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c498255a9a30ba1ec6779ed802224c17cc358387",
+      "size": 4104,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/c498255a9a30ba1ec6779ed802224c17cc358387"
+    },
+    {
+      "path": "docs/HOWTO-bn.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d96deed5717b36cffe8c9d09aef6b3e26d55860c",
+      "size": 5076,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/d96deed5717b36cffe8c9d09aef6b3e26d55860c"
+    },
+    {
+      "path": "docs/HOWTO-bs.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec91ceca2b1613af12e1205cc6bd45c960bf0108",
+      "size": 2874,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/ec91ceca2b1613af12e1205cc6bd45c960bf0108"
+    },
+    {
+      "path": "docs/HOWTO-de.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2aeb8d6ab3decb125376772573e8affe8074789e",
+      "size": 2986,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/2aeb8d6ab3decb125376772573e8affe8074789e"
+    },
+    {
+      "path": "docs/HOWTO-el.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a9cc6cfa775d902c8b1264a8b54ed598d6217b4",
+      "size": 3813,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/8a9cc6cfa775d902c8b1264a8b54ed598d6217b4"
+    },
+    {
+      "path": "docs/HOWTO-es.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7309a66463ac6092ffbb34d0dd3be2738725fe9",
+      "size": 3341,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/d7309a66463ac6092ffbb34d0dd3be2738725fe9"
+    },
+    {
+      "path": "docs/HOWTO-fa_IR.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a382fc2a246a2d8d9ec87dd8430cff8214e8ef4",
+      "size": 3604,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/4a382fc2a246a2d8d9ec87dd8430cff8214e8ef4"
+    },
+    {
+      "path": "docs/HOWTO-fil.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "472d91e7c13442bb49f7e27409a3def2675fd890",
+      "size": 2850,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/472d91e7c13442bb49f7e27409a3def2675fd890"
+    },
+    {
+      "path": "docs/HOWTO-fr.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76f89fa8714cb05d4878453f232d6e66d7fc5325",
+      "size": 2928,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/76f89fa8714cb05d4878453f232d6e66d7fc5325"
+    },
+    {
+      "path": "docs/HOWTO-he.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b70a1170cc80d2f44f2655f89df64a7edcefc379",
+      "size": 3401,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/b70a1170cc80d2f44f2655f89df64a7edcefc379"
+    },
+    {
+      "path": "docs/HOWTO-hi.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99e4418fd51dfbecb61927abf57ed3d33b468045",
+      "size": 4933,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/99e4418fd51dfbecb61927abf57ed3d33b468045"
+    },
+    {
+      "path": "docs/HOWTO-id.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f4e0d7651e7daef54a97548fa207e454ea1e1bd",
+      "size": 3233,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/1f4e0d7651e7daef54a97548fa207e454ea1e1bd"
+    },
+    {
+      "path": "docs/HOWTO-it.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10a7e16419c4513c8776386e96cb8284ad825662",
+      "size": 2939,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/10a7e16419c4513c8776386e96cb8284ad825662"
+    },
+    {
+      "path": "docs/HOWTO-ja.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4280c53bd579547ad6815a4bab0763914f5b9d7",
+      "size": 3216,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/d4280c53bd579547ad6815a4bab0763914f5b9d7"
+    },
+    {
+      "path": "docs/HOWTO-km.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4367b1e05b470e56a79cffbf498f2e1e3007748",
+      "size": 3701,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/d4367b1e05b470e56a79cffbf498f2e1e3007748"
+    },
+    {
+      "path": "docs/HOWTO-kn.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64cb412ba578792480198eec0aba70254dc23cb0",
+      "size": 5663,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/64cb412ba578792480198eec0aba70254dc23cb0"
+    },
+    {
+      "path": "docs/HOWTO-ko.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed9fc443248b84583d7505131722018cd5c99b0a",
+      "size": 2952,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/ed9fc443248b84583d7505131722018cd5c99b0a"
+    },
+    {
+      "path": "docs/HOWTO-ml.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1785ed94918fc7a70a165d920e353c24ae8c749f",
+      "size": 5458,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/1785ed94918fc7a70a165d920e353c24ae8c749f"
+    },
+    {
+      "path": "docs/HOWTO-nl.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f79e03304fa3c6e4f635d9ec3ae80eab6484e2cb",
+      "size": 2936,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/f79e03304fa3c6e4f635d9ec3ae80eab6484e2cb"
+    },
+    {
+      "path": "docs/HOWTO-no.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9573f5f132d833a9945c7a740609d5936309e7e8",
+      "size": 2772,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/9573f5f132d833a9945c7a740609d5936309e7e8"
+    },
+    {
+      "path": "docs/HOWTO-np.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eeddb5e6ea3876b7a7ab32cef2a8baec91054795",
+      "size": 4974,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/eeddb5e6ea3876b7a7ab32cef2a8baec91054795"
+    },
+    {
+      "path": "docs/HOWTO-pl.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69c313bf45afab1aee59cf4e5f28be4f5dd20d2f",
+      "size": 3050,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/69c313bf45afab1aee59cf4e5f28be4f5dd20d2f"
+    },
+    {
+      "path": "docs/HOWTO-pt_BR.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e71b03014b1f3907f49bc9f74dd721f77ae20ec",
+      "size": 2903,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/6e71b03014b1f3907f49bc9f74dd721f77ae20ec"
+    },
+    {
+      "path": "docs/HOWTO-pt_PT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a739490b470254ac0b82cdc0d08727f5dfc5601",
+      "size": 2842,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/4a739490b470254ac0b82cdc0d08727f5dfc5601"
+    },
+    {
+      "path": "docs/HOWTO-ru.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cb1b80674d4ae7d7e03ad018cb9fa9904130827",
+      "size": 4300,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/5cb1b80674d4ae7d7e03ad018cb9fa9904130827"
+    },
+    {
+      "path": "docs/HOWTO-sl.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec1228a849b7e89eef0993c1a0af45f8d63c81a7",
+      "size": 2990,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/ec1228a849b7e89eef0993c1a0af45f8d63c81a7"
+    },
+    {
+      "path": "docs/HOWTO-sv.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18848bdf7ce824ffef72b0f93467f90a9d4e6cfb",
+      "size": 3280,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/18848bdf7ce824ffef72b0f93467f90a9d4e6cfb"
+    },
+    {
+      "path": "docs/HOWTO-ta.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4af4de1af72449a7a8632a5cf7195c252c2a5899",
+      "size": 5258,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/4af4de1af72449a7a8632a5cf7195c252c2a5899"
+    },
+    {
+      "path": "docs/HOWTO-te.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fff67ebe7ed5b6d26ab6012561a42c3b00c3071",
+      "size": 4945,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/5fff67ebe7ed5b6d26ab6012561a42c3b00c3071"
+    },
+    {
+      "path": "docs/HOWTO-th.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1e1bca73c3af1dccfa99883c9733560d4deb3ea",
+      "size": 4419,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/b1e1bca73c3af1dccfa99883c9733560d4deb3ea"
+    },
+    {
+      "path": "docs/HOWTO-tr.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72e9f35f95c83e13d9a0522be9e023f64ab8fabb",
+      "size": 3092,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/72e9f35f95c83e13d9a0522be9e023f64ab8fabb"
+    },
+    {
+      "path": "docs/HOWTO-uk.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d725675e52401011d15104a65ba523f60927b24",
+      "size": 3657,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/1d725675e52401011d15104a65ba523f60927b24"
+    },
+    {
+      "path": "docs/HOWTO-vi.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40c20ea716e52364e6f0208824a01855724c972c",
+      "size": 3394,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/40c20ea716e52364e6f0208824a01855724c972c"
+    },
+    {
+      "path": "docs/HOWTO-zh.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7230151ce6b387336a74037afbc13b541c5c96b",
+      "size": 2837,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/b7230151ce6b387336a74037afbc13b541c5c96b"
+    },
+    {
+      "path": "docs/HOWTO-zh_TW.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5919949edc704496a6b41aa1c8c887e419e1bc35",
+      "size": 2785,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/5919949edc704496a6b41aa1c8c887e419e1bc35"
+    },
+    {
+      "path": "docs/HOWTO.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a54b21c78c2ffd304452d1dacc7f9ebe164be402",
+      "size": 2762,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/a54b21c78c2ffd304452d1dacc7f9ebe164be402"
+    },
+    {
+      "path": "docs/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34c74100cd691ade6b68a1b978f178fc9226f7a4",
+      "size": 5344,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/34c74100cd691ade6b68a1b978f178fc9226f7a4"
+    },
+    {
+      "path": "favicon.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6097b20682afbdbb75d929aa54c75eb06309192e",
+      "size": 15406,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/6097b20682afbdbb75d929aa54c75eb06309192e"
+    },
+    {
+      "path": "more",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "67a6f66ebfe0a0b8737c66d88f8254e0e1bb2fa2",
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/trees/67a6f66ebfe0a0b8737c66d88f8254e0e1bb2fa2"
+    },
+    {
+      "path": "more/free-programming-cheatsheets.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ff1a6e9292c70f1a51aaf6de03871746d5fe7e3",
+      "size": 39446,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/0ff1a6e9292c70f1a51aaf6de03871746d5fe7e3"
+    },
+    {
+      "path": "more/free-programming-interactive-tutorials-de.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17a8ff2701b5be1b453249f82237e91239c4542c",
+      "size": 197,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/17a8ff2701b5be1b453249f82237e91239c4542c"
+    },
+    {
+      "path": "more/free-programming-interactive-tutorials-en.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5517bd78701f75f772cb07a34d6bee4fca279e1",
+      "size": 20209,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/c5517bd78701f75f772cb07a34d6bee4fca279e1"
+    },
+    {
+      "path": "more/free-programming-interactive-tutorials-ja.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b11ad408aad2e3be6d520a6414851fa7e61978f",
+      "size": 1094,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/3b11ad408aad2e3be6d520a6414851fa7e61978f"
+    },
+    {
+      "path": "more/free-programming-interactive-tutorials-ru.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "171f5714dfe3d85ae6db80af450dfad3e5198bf1",
+      "size": 1180,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/171f5714dfe3d85ae6db80af450dfad3e5198bf1"
+    },
+    {
+      "path": "more/free-programming-interactive-tutorials-zh.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b069cd493d58b877c710395d67b8c8460310839",
+      "size": 251,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/2b069cd493d58b877c710395d67b8c8460310839"
+    },
+    {
+      "path": "more/free-programming-playgrounds-de.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7975461d7467461bbee8982a577e7236adf3e41",
+      "size": 117,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/a7975461d7467461bbee8982a577e7236adf3e41"
+    },
+    {
+      "path": "more/free-programming-playgrounds-zh.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b90e056b4bcd22f2e882db19284b071e522fddb",
+      "size": 197,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/6b90e056b4bcd22f2e882db19284b071e522fddb"
+    },
+    {
+      "path": "more/free-programming-playgrounds.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07274cf9e12ccbf31b037e72894618d8d05952bd",
+      "size": 13324,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/07274cf9e12ccbf31b037e72894618d8d05952bd"
+    },
+    {
+      "path": "more/problem-sets-competitive-programming.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c533b97a7302231e154c4d22dcc371b57d85c882",
+      "size": 8411,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/c533b97a7302231e154c4d22dcc371b57d85c882"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9b48a0011bff1c35a12ace333c44cea1e3fc9aad",
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/trees/9b48a0011bff1c35a12ace333c44cea1e3fc9aad"
+    },
+    {
+      "path": "scripts/rtl_ltr_linter.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c990c9717467094dbb6830021dd45e9be18efdc",
+      "size": 27037,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/8c990c9717467094dbb6830021dd45e9be18efdc"
+    },
+    {
+      "path": "scripts/rtl_ltr_linter_config.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c926c9ae8690fd8da0ffd299a896b9743f188a7",
+      "size": 2014,
+      "url": "https://api.github.com/repos/EbookFoundation/free-programming-books/git/blobs/1c926c9ae8690fd8da0ffd299a896b9743f188a7"
+    }
+  ],
+  "truncated": false
+}

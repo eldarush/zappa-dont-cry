@@ -1,0 +1,133 @@
+{
+  "harvested_at": "2026-06-07T20:45:47.3795703+03:00",
+  "rank": 80,
+  "repository": "rustdesk/rustdesk",
+  "url": "https://github.com/rustdesk/rustdesk",
+  "language": "Rust",
+  "stars": 115771,
+  "default_branch": "master",
+  "contract_strength": "readme_plus_runtime_hints",
+  "candidate_qaas_surfaces": [
+    "containerized-runtime-smoke",
+    "ci-documented-command-discovery",
+    "rust-cli-or-service-contract"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\080-rustdesk-rustdesk\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\080-rustdesk-rustdesk\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [],
+    "ci": [
+      ".github/workflows/bridge.yml",
+      ".github/workflows/ci.yml",
+      ".github/workflows/clear-cache.yml",
+      ".github/workflows/fdroid.yml",
+      ".github/workflows/flutter-build.yml",
+      ".github/workflows/flutter-ci.yml",
+      ".github/workflows/flutter-nightly.yml",
+      ".github/workflows/flutter-tag.yml",
+      ".github/workflows/playground.yml",
+      ".github/workflows/third-party-RustDeskTempTopMostWindow.yml",
+      ".github/workflows/wf-cliprdr-ci.yml"
+    ],
+    "containers": [
+      "Dockerfile"
+    ],
+    "dotnet": [
+      "res/msi/msi.sln"
+    ],
+    "node": [],
+    "python": [
+      "libs/portable/requirements.txt"
+    ],
+    "go": [],
+    "java": [
+      "flutter/android/app/build.gradle",
+      "flutter/android/build.gradle",
+      "flutter/android/settings.gradle"
+    ],
+    "rust": [
+      "Cargo.lock",
+      "Cargo.toml",
+      "libs/clipboard/Cargo.toml",
+      "libs/enigo/Cargo.toml",
+      "libs/libxdo-sys-stub/Cargo.toml",
+      "libs/portable/Cargo.lock",
+      "libs/portable/Cargo.toml",
+      "libs/remote_printer/Cargo.toml",
+      "libs/scrap/Cargo.toml",
+      "libs/virtual_display/Cargo.lock",
+      "libs/virtual_display/Cargo.toml",
+      "libs/virtual_display/dylib/Cargo.toml"
+    ],
+    "docs": [
+      "README.md",
+      "docs/CODE_OF_CONDUCT-DE.md",
+      "docs/CODE_OF_CONDUCT-FR.md",
+      "docs/CODE_OF_CONDUCT-JP.md",
+      "docs/CODE_OF_CONDUCT-KR.md",
+      "docs/CODE_OF_CONDUCT-NL.md",
+      "docs/CODE_OF_CONDUCT-NO.md",
+      "docs/CODE_OF_CONDUCT-PL.md",
+      "docs/CODE_OF_CONDUCT-RO.md",
+      "docs/CODE_OF_CONDUCT-RU.md",
+      "docs/CODE_OF_CONDUCT-TR.md",
+      "docs/CODE_OF_CONDUCT-ZH.md",
+      "docs/CODE_OF_CONDUCT.md",
+      "docs/CONTRIBUTING-DE.md",
+      "docs/CONTRIBUTING-FR.md",
+      "docs/CONTRIBUTING-ID.md",
+      "docs/CONTRIBUTING-IT.md",
+      "docs/CONTRIBUTING-JP.md",
+      "docs/CONTRIBUTING-KR.md",
+      "docs/CONTRIBUTING-NL.md",
+      "docs/CONTRIBUTING-NO.md",
+      "docs/CONTRIBUTING-PL.md",
+      "docs/CONTRIBUTING-RO.md",
+      "docs/CONTRIBUTING-RU.md",
+      "docs/CONTRIBUTING-TR.md",
+      "docs/CONTRIBUTING-ZH.md",
+      "docs/CONTRIBUTING.md",
+      "docs/README-AR.md",
+      "docs/README-CS.md",
+      "docs/README-DA.md",
+      "docs/README-DE.md",
+      "docs/README-EO.md",
+      "docs/README-ES.md",
+      "docs/README-FA.md",
+      "docs/README-FI.md",
+      "docs/README-FR.md",
+      "docs/README-GR.md",
+      "docs/README-HU.md",
+      "docs/README-ID.md",
+      "docs/README-IT.md",
+      "docs/README-JP.md",
+      "docs/README-KR.md",
+      "docs/README-ML.md",
+      "docs/README-NL.md",
+      "docs/README-NO.md",
+      "docs/README-PL.md",
+      "docs/README-PTBR.md",
+      "docs/README-RO.md",
+      "docs/README-RU.md",
+      "docs/README-TR.md"
+    ],
+    "tests": [
+      "flutter/pubspec.lock",
+      "flutter/pubspec.yaml",
+      "flutter/test/cm_test.dart",
+      "flutter/test/input_modifier_utils_test.dart",
+      "res/rpm-flutter-suse.spec",
+      "res/rpm-flutter.spec",
+      "res/rpm-suse.spec",
+      "res/rpm.spec",
+      "tests/test_invariant_wf_cliprdr.c"
+    ]
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\080-rustdesk-rustdesk\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\080-rustdesk-rustdesk\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

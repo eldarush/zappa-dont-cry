@@ -1,0 +1,4566 @@
+{
+  "sha": "9e49ef97f16377d901db01f3562187394828ca6a",
+  "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/9e49ef97f16377d901db01f3562187394828ca6a",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e5ee0180565d4aafac848360b5c867b43e9572e9",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/e5ee0180565d4aafac848360b5c867b43e9572e9"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "67cac7ad3556ddd74720eff2bf7272a0331a4207",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/67cac7ad3556ddd74720eff2bf7272a0331a4207"
+    },
+    {
+      "path": ".github/workflows/ci_workflow.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06ffc6e9eea95f88c86e7592ab83dc558575f1c8",
+      "size": 439,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/06ffc6e9eea95f88c86e7592ab83dc558575f1c8"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72be9db56798807c6911541b6d28e805833e2e11",
+      "size": 1091,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/72be9db56798807c6911541b6d28e805833e2e11"
+    },
+    {
+      "path": ".travis.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d6d1a98317c8abc5d86e625ea3a27d8a1a3aa4d",
+      "size": 152,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/1d6d1a98317c8abc5d86e625ea3a27d8a1a3aa4d"
+    },
+    {
+      "path": "CONTRIBUTING-pt-BR.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "def6dfdd9b3619f295921e58e33fba90595b45e3",
+      "size": 772,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/def6dfdd9b3619f295921e58e33fba90595b45e3"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "314b308e049d577fef666b1a1f0849b7ad7772b0",
+      "size": 720,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/314b308e049d577fef666b1a1f0849b7ad7772b0"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3036ed234d118c5e87be242e9ae487f0653a360a",
+      "size": 15963,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/3036ed234d118c5e87be242e9ae487f0653a360a"
+    },
+    {
+      "path": "README-pt-BR.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da4c6cca5b1ec78e3470b0a052268b2a0f7e0fb9",
+      "size": 195555,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/da4c6cca5b1ec78e3470b0a052268b2a0f7e0fb9"
+    },
+    {
+      "path": "README-zh_CN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfc934d56afd2910d795e1fb497a77362fbb8c74",
+      "size": 118149,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/dfc934d56afd2910d795e1fb497a77362fbb8c74"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d61748d6f6df3aeb50cf63a0410aa670e94bde4",
+      "size": 189574,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/7d61748d6f6df3aeb50cf63a0410aa670e94bde4"
+    },
+    {
+      "path": "certificates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5a098adbac1aafb7c56e35530be056e74e2e62c0",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/5a098adbac1aafb7c56e35530be056e74e2e62c0"
+    },
+    {
+      "path": "certificates/aws-certification-paths.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dde27f39562bac17221f18417b2a4c3ec19e5ae4",
+      "size": 183,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/dde27f39562bac17221f18417b2a4c3ec19e5ae4"
+    },
+    {
+      "path": "certificates/aws-cloud-practitioner.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4409d1476fd524b36cdde5a873290f4ae9f64dc9",
+      "size": 46250,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/4409d1476fd524b36cdde5a873290f4ae9f64dc9"
+    },
+    {
+      "path": "certificates/aws-cloud-sysops-associate.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38fa3bd438f469a4546c37fb4b7024cb4e1c1f08",
+      "size": 2650,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/38fa3bd438f469a4546c37fb4b7024cb4e1c1f08"
+    },
+    {
+      "path": "certificates/aws-solutions-architect-associate.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "044a74961ec12cff7726ecc2660302546457375b",
+      "size": 40696,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/044a74961ec12cff7726ecc2660302546457375b"
+    },
+    {
+      "path": "certificates/azure-fundamentals-az-900.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9ba5cf69d8499b5f971020617a2a4a2bafc89fb",
+      "size": 1303,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/f9ba5cf69d8499b5f971020617a2a4a2bafc89fb"
+    },
+    {
+      "path": "certificates/cka.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c5a3bf8df50b7a666438f33e61acc97bbdb6edc",
+      "size": 366,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/6c5a3bf8df50b7a666438f33e61acc97bbdb6edc"
+    },
+    {
+      "path": "certificates/ckad.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33365914337beec0bf62c95529ee2ee2d892c33e",
+      "size": 772,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/33365914337beec0bf62c95529ee2ee2d892c33e"
+    },
+    {
+      "path": "coding",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "46d67653119400ffaccc57e2d1f4b032d3258a4e",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/46d67653119400ffaccc57e2d1f4b032d3258a4e"
+    },
+    {
+      "path": "coding/python",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1cd3f20d62438f9f3a05943b9fb32b19c15aecd8",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/1cd3f20d62438f9f3a05943b9fb32b19c15aecd8"
+    },
+    {
+      "path": "coding/python/binary_search.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a66c848a3266ff02c3bdf6709e8eb9901c9e580",
+      "size": 1101,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/7a66c848a3266ff02c3bdf6709e8eb9901c9e580"
+    },
+    {
+      "path": "coding/python/merge_sort.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a92ca6bc96ae9c51ed830e9de087a1a47d4f5fa8",
+      "size": 1128,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/a92ca6bc96ae9c51ed830e9de087a1a47d4f5fa8"
+    },
+    {
+      "path": "credits-pt-BR.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da18307c49d0da2538af9096f7629743d7d7b38a",
+      "size": 2433,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/da18307c49d0da2538af9096f7629743d7d7b38a"
+    },
+    {
+      "path": "credits.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "246a79c2600a88c7af32c77ade65540fc5a2a596",
+      "size": 2318,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/246a79c2600a88c7af32c77ade65540fc5a2a596"
+    },
+    {
+      "path": "exercises",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6e9aaeb6b5a6fafc3e62f4f7d013a21ef5d56211",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/6e9aaeb6b5a6fafc3e62f4f7d013a21ef5d56211"
+    },
+    {
+      "path": "exercises/docker",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cc4e70a0455ab7d13e8d65182f597f2671775a4e",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/cc4e70a0455ab7d13e8d65182f597f2671775a4e"
+    },
+    {
+      "path": "exercises/docker/docker-debugging.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b1d8f50252b3aff2de69aea49fde3145fcc499f",
+      "size": 5511,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/1b1d8f50252b3aff2de69aea49fde3145fcc499f"
+    },
+    {
+      "path": "exercises/shell",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "07b0f41e9ef7d2973c0cc3336bc0eb12a5b9f721",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/07b0f41e9ef7d2973c0cc3336bc0eb12a5b9f721"
+    },
+    {
+      "path": "exercises/shell/solutions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c5798d59d502002a5bfcbd12be5b7f7be52286da",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/c5798d59d502002a5bfcbd12be5b7f7be52286da"
+    },
+    {
+      "path": "exercises/shell/solutions/directories_comparision.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c94d047668806f707710d41aeb48a1cfc6bb9b53",
+      "size": 407,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/c94d047668806f707710d41aeb48a1cfc6bb9b53"
+    },
+    {
+      "path": "exercises/shell/solutions/directories_comparison.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43a64907e6280cdb2de934539a60ff7a4f473d9a",
+      "size": 1006,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/43a64907e6280cdb2de934539a60ff7a4f473d9a"
+    },
+    {
+      "path": "faq-pt-BR.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1914527fbaf507bb365394d0562937e641943bfb",
+      "size": 7454,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/1914527fbaf507bb365394d0562937e641943bfb"
+    },
+    {
+      "path": "faq.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c0733f84deca2b5fdff4266e566d2f4bce08c32",
+      "size": 6704,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/7c0733f84deca2b5fdff4266e566d2f4bce08c32"
+    },
+    {
+      "path": "images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e10f34c4dfdfad0d71b589598774dbd7bd9b6913",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/e10f34c4dfdfad0d71b589598774dbd7bd9b6913"
+    },
+    {
+      "path": "images/Go.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7af77468ce9d37b2c5000fb2ab2289e4aad6f3ef",
+      "size": 15525,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/7af77468ce9d37b2c5000fb2ab2289e4aad6f3ef"
+    },
+    {
+      "path": "images/HR.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e7346da58c22df7cc5faaedbbed2078b3d2dc65",
+      "size": 15439,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/6e7346da58c22df7cc5faaedbbed2078b3d2dc65"
+    },
+    {
+      "path": "images/ansible.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "941a9d073ed8200110da37bbc7923b53f7422427",
+      "size": 3311,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/941a9d073ed8200110da37bbc7923b53f7422427"
+    },
+    {
+      "path": "images/apps",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4382d96a20a68ce54003449c164019a12edb4148",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/4382d96a20a68ce54003449c164019a12edb4148"
+    },
+    {
+      "path": "images/apps/kubeprep.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "458f157378d9beb53b70612c68c4f1cfb040b138",
+      "size": 72576,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/458f157378d9beb53b70612c68c4f1cfb040b138"
+    },
+    {
+      "path": "images/apps/linux_master.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "183c10f06d852b3f9ab66ae622642d64a7be45e2",
+      "size": 259376,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/183c10f06d852b3f9ab66ae622642d64a7be45e2"
+    },
+    {
+      "path": "images/apps/system_design_hero.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa8c5552df5f934ed8290e1551117b9f724fac99",
+      "size": 2847034,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/fa8c5552df5f934ed8290e1551117b9f724fac99"
+    },
+    {
+      "path": "images/aws.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e708dd06f8bdb3f3fc99c0712ac7a66ab6a11db9",
+      "size": 89558,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/e708dd06f8bdb3f3fc99c0712ac7a66ab6a11db9"
+    },
+    {
+      "path": "images/aws",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f9e5a0204494430da25edef4ba2d4c127edf90f0",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/f9e5a0204494430da25edef4ba2d4c127edf90f0"
+    },
+    {
+      "path": "images/aws/identify_load_balancer.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1857dbff2e27c2cfcfd62cf52644d496cd20fd13",
+      "size": 21017,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/1857dbff2e27c2cfcfd62cf52644d496cd20fd13"
+    },
+    {
+      "path": "images/azure.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b314076a90b7efcd4ed985af312cb6177d94660",
+      "size": 35090,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/1b314076a90b7efcd4ed985af312cb6177d94660"
+    },
+    {
+      "path": "images/bash.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "874756be8c1b274b0d86ef0408f0bf32a23bb369",
+      "size": 24790,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/874756be8c1b274b0d86ef0408f0bf32a23bb369"
+    },
+    {
+      "path": "images/big-data.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c472066676ba05b36bee4f68f76b28d000588f8",
+      "size": 2083,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/7c472066676ba05b36bee4f68f76b28d000588f8"
+    },
+    {
+      "path": "images/certificates.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2124a5569d4cc66f13407e3b7f9086a3226f480c",
+      "size": 2377,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/2124a5569d4cc66f13407e3b7f9086a3226f480c"
+    },
+    {
+      "path": "images/cicd.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e5b57a357f538163c620d72f4ece9d995a9fc38",
+      "size": 3953,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/3e5b57a357f538163c620d72f4ece9d995a9fc38"
+    },
+    {
+      "path": "images/cloud.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21108f7d8f25d36de35c1b0a4bc3a5d3777cf43a",
+      "size": 25804,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/21108f7d8f25d36de35c1b0a4bc3a5d3777cf43a"
+    },
+    {
+      "path": "images/containers.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f0a0208f59643aea89c694459c450142cd35065",
+      "size": 1266,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/6f0a0208f59643aea89c694459c450142cd35065"
+    },
+    {
+      "path": "images/databases.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e335ebd00685997b3a7ff0c8090eac86eb772e3e",
+      "size": 2963,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/e335ebd00685997b3a7ff0c8090eac86eb772e3e"
+    },
+    {
+      "path": "images/design.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d88c79e8467959fbe493f3ca9719c23d11d2e39",
+      "size": 12582,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/0d88c79e8467959fbe493f3ca9719c23d11d2e39"
+    },
+    {
+      "path": "images/design",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d23d17d94f51c841d9e8b8d6c5b8837646f1569a",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/d23d17d94f51c841d9e8b8d6c5b8837646f1569a"
+    },
+    {
+      "path": "images/design/cdn-no-downtime.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbc5d22205aac28f7e4fd4400fa84354b8adae71",
+      "size": 23482,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/fbc5d22205aac28f7e4fd4400fa84354b8adae71"
+    },
+    {
+      "path": "images/design/development",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9f6d757df104b7dbd880cf400805e423ab671ef2",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/9f6d757df104b7dbd880cf400805e423ab671ef2"
+    },
+    {
+      "path": "images/design/development/git_fsmonitor.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95f822670a252db3193400942a5b23fb6dc12865",
+      "size": 40291,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/95f822670a252db3193400942a5b23fb6dc12865"
+    },
+    {
+      "path": "images/design/input-process-output.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4986a0aaf71c7e0b6b8eaa672ea44b5e6da06ebe",
+      "size": 16230,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/4986a0aaf71c7e0b6b8eaa672ea44b5e6da06ebe"
+    },
+    {
+      "path": "images/design/producers_consumers_fix.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "005b990aa372eb8969b0bdcaf0eb0083950ada89",
+      "size": 36869,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/005b990aa372eb8969b0bdcaf0eb0083950ada89"
+    },
+    {
+      "path": "images/design/producers_consumers_issue.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cad0044c63f54c1474aa042a5a7ca0e9ccee40f",
+      "size": 30046,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/3cad0044c63f54c1474aa042a5a7ca0e9ccee40f"
+    },
+    {
+      "path": "images/devops.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c87cf6603d71371297c5f3f184848eb9722f68c",
+      "size": 13681,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/7c87cf6603d71371297c5f3f184848eb9722f68c"
+    },
+    {
+      "path": "images/devops_exercises.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d66c38619e56a79b72eef44c3cda6bd292b1164f",
+      "size": 11821,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/d66c38619e56a79b72eef44c3cda6bd292b1164f"
+    },
+    {
+      "path": "images/devops_resources.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17812809be0abe9a0490a1b486ea5dd7c1f500b0",
+      "size": 16705,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/17812809be0abe9a0490a1b486ea5dd7c1f500b0"
+    },
+    {
+      "path": "images/distributed.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5209703371d936728cf255260bafb00a282e28f",
+      "size": 7194,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/b5209703371d936728cf255260bafb00a282e28f"
+    },
+    {
+      "path": "images/distributed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d23ae6f8aade8fcbcd0d2932d0588c1d097b57cb",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/d23ae6f8aade8fcbcd0d2932d0588c1d097b57cb"
+    },
+    {
+      "path": "images/distributed/distributed_design_lb.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1df01fdb563255c92507651ed165d47f8df0827b",
+      "size": 22417,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/1df01fdb563255c92507651ed165d47f8df0827b"
+    },
+    {
+      "path": "images/distributed/distributed_design_standby.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a88d90d2e6d72e6d0823d77db0b2ef975c236bcf",
+      "size": 12750,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/a88d90d2e6d72e6d0823d77db0b2ef975c236bcf"
+    },
+    {
+      "path": "images/dns.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5683d8600c6bde9ca4e584ce94752b6ecd35e04a",
+      "size": 38853,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/5683d8600c6bde9ca4e584ce94752b6ecd35e04a"
+    },
+    {
+      "path": "images/elastic.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6981974fbe8649c7536a4e3dff80424eddf74cd",
+      "size": 2446,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/c6981974fbe8649c7536a4e3dff80424eddf74cd"
+    },
+    {
+      "path": "images/exercises.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e02243095f86e5bebaddfe1e5f6f9236897f68d5",
+      "size": 47187,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/e02243095f86e5bebaddfe1e5f6f9236897f68d5"
+    },
+    {
+      "path": "images/general.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b88ee16634526d130e6ccd547c1f5c0d167f04de",
+      "size": 42659,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/b88ee16634526d130e6ccd547c1f5c0d167f04de"
+    },
+    {
+      "path": "images/git.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51f4ae5404fc79be09e69171bfc9d34d48810297",
+      "size": 2383,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/51f4ae5404fc79be09e69171bfc9d34d48810297"
+    },
+    {
+      "path": "images/googlecloud.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d719177f4f050b54f02f9820cfe365e6bd13b82d",
+      "size": 6025,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/d719177f4f050b54f02f9820cfe365e6bd13b82d"
+    },
+    {
+      "path": "images/hardware.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cc0e107e195d33a35e23190f5f76bccdfec5cdb",
+      "size": 3404,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/7cc0e107e195d33a35e23190f5f76bccdfec5cdb"
+    },
+    {
+      "path": "images/how_they_devops.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d8c11d5a5a827331fa10acaeefe80dbdca1d169",
+      "size": 15651,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/3d8c11d5a5a827331fa10acaeefe80dbdca1d169"
+    },
+    {
+      "path": "images/infraverse.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa1f0784db70f4b2432f006013db0c3d60ef8239",
+      "size": 43409,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/fa1f0784db70f4b2432f006013db0c3d60ef8239"
+    },
+    {
+      "path": "images/jenkins.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0eb450cc12038c3e8fc1941d6f25005eb37d1c12",
+      "size": 29020,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/0eb450cc12038c3e8fc1941d6f25005eb37d1c12"
+    },
+    {
+      "path": "images/jenkins",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f37f30a917bcbc85011a798bdf75d31d25e0b652",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/f37f30a917bcbc85011a798bdf75d31d25e0b652"
+    },
+    {
+      "path": "images/jenkins/jenkins-to-kibana.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97e2c87fc1f21c6bc6bd4668a594ea5997f56e16",
+      "size": 151740,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/97e2c87fc1f21c6bc6bd4668a594ea5997f56e16"
+    },
+    {
+      "path": "images/kubernetes.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13cb03cbb67ff13daea66d257157f7e87efc941a",
+      "size": 87129,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/13cb03cbb67ff13daea66d257157f7e87efc941a"
+    },
+    {
+      "path": "images/linux_master.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44a1a83f41a85de41c43a00dab4c10729a6f0664",
+      "size": 53620,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/44a1a83f41a85de41c43a00dab4c10729a6f0664"
+    },
+    {
+      "path": "images/logos",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b53d54b9a7b20bb88b2a0b503fc1d7bc8d7e582a",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/b53d54b9a7b20bb88b2a0b503fc1d7bc8d7e582a"
+    },
+    {
+      "path": "images/logos/argo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d1819bd2b8e2d925188180a41b8f19c16bc3189",
+      "size": 87565,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/6d1819bd2b8e2d925188180a41b8f19c16bc3189"
+    },
+    {
+      "path": "images/logos/chaos_engineering.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d2ba53e5d37195cd2f1b8584ab74f3917c18d79",
+      "size": 11163,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/1d2ba53e5d37195cd2f1b8584ab74f3917c18d79"
+    },
+    {
+      "path": "images/logos/circleci.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ddee348d68e3deb21b5ea6007207b8aa44e915e",
+      "size": 2678,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/1ddee348d68e3deb21b5ea6007207b8aa44e915e"
+    },
+    {
+      "path": "images/logos/datadog.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1565c8253e029b039a47548e13e07e837c904b1",
+      "size": 107543,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/d1565c8253e029b039a47548e13e07e837c904b1"
+    },
+    {
+      "path": "images/logos/grafana.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0cd0621507c12529bbbb862a4a0f6f81ba9e315",
+      "size": 8955,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/b0cd0621507c12529bbbb862a4a0f6f81ba9e315"
+    },
+    {
+      "path": "images/logos/kafka.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf7ad33a83c9040c83c86ea2abecf18ba9ed50e3",
+      "size": 20609,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/bf7ad33a83c9040c83c86ea2abecf18ba9ed50e3"
+    },
+    {
+      "path": "images/logos/linux.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ad311b374ea572699aa43e3eb23ff0d4c328bc0",
+      "size": 12538,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/5ad311b374ea572699aa43e3eb23ff0d4c328bc0"
+    },
+    {
+      "path": "images/mongo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84ed32028610e6545af26032ea5d94b63974500d",
+      "size": 54255,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/84ed32028610e6545af26032ea5d94b63974500d"
+    },
+    {
+      "path": "images/network.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce658aad616e59b3cbf43b6b3b27aec2f1c88708",
+      "size": 137871,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/ce658aad616e59b3cbf43b6b3b27aec2f1c88708"
+    },
+    {
+      "path": "images/nodejs.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9349c81dcf323dbd3be8977d26a2dab0774f6ac8",
+      "size": 23001,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/9349c81dcf323dbd3be8977d26a2dab0774f6ac8"
+    },
+    {
+      "path": "images/observability.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e77e878a8589fd27a94fbeb5528c681f2f158aa9",
+      "size": 9411,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/e77e878a8589fd27a94fbeb5528c681f2f158aa9"
+    },
+    {
+      "path": "images/openshift.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fccea4a1ad685d62e2fa632df82537e6e38508f1",
+      "size": 8599,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/fccea4a1ad685d62e2fa632df82537e6e38508f1"
+    },
+    {
+      "path": "images/openstack.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8061ae5eafce5b06e2540da0943bfbd900891186",
+      "size": 8349,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/8061ae5eafce5b06e2540da0943bfbd900891186"
+    },
+    {
+      "path": "images/os.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ede61f2515186f071527a16fde99ad33237b6a9",
+      "size": 176540,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/8ede61f2515186f071527a16fde99ad33237b6a9"
+    },
+    {
+      "path": "images/perl.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a010406f0f7683a6178a2c65875f893a4d153e29",
+      "size": 34051,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/a010406f0f7683a6178a2c65875f893a4d153e29"
+    },
+    {
+      "path": "images/programming.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f50eb0b9834854f7aa74b6e09c8f75d4e6ec8305",
+      "size": 12318,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/f50eb0b9834854f7aa74b6e09c8f75d4e6ec8305"
+    },
+    {
+      "path": "images/prometheus.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31bb7cd0ae8d633a5188558081f83bc951e2eb8e",
+      "size": 47112,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/31bb7cd0ae8d633a5188558081f83bc951e2eb8e"
+    },
+    {
+      "path": "images/puppet.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88ab6ff07817af53a7636403a62a0c6743cba688",
+      "size": 1106,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/88ab6ff07817af53a7636403a62a0c6743cba688"
+    },
+    {
+      "path": "images/python.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a4b1ed00e3f657cfcc64f73f6df384e39d4b79b",
+      "size": 52166,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/9a4b1ed00e3f657cfcc64f73f6df384e39d4b79b"
+    },
+    {
+      "path": "images/regex.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "217eda8ffb78ec6af35e5d4b6eb01e28d3e0e2da",
+      "size": 2359,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/217eda8ffb78ec6af35e5d4b6eb01e28d3e0e2da"
+    },
+    {
+      "path": "images/security.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2c3732d000fd1cb5db36f9bae2dc2f15914dd33",
+      "size": 22281,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/f2c3732d000fd1cb5db36f9bae2dc2f15914dd33"
+    },
+    {
+      "path": "images/sql.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29caec7a1de49fab7abf113e17ade95b2efaf581",
+      "size": 14143,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/29caec7a1de49fab7abf113e17ade95b2efaf581"
+    },
+    {
+      "path": "images/sre_checklist.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4fe4e64a9f7d8996c7834bc629f8d2efa78cc4e",
+      "size": 22298,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/b4fe4e64a9f7d8996c7834bc629f8d2efa78cc4e"
+    },
+    {
+      "path": "images/storage.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cac56dc567426998344248a711e6a141a2fca23",
+      "size": 4467,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/3cac56dc567426998344248a711e6a141a2fca23"
+    },
+    {
+      "path": "images/system_design_notebook.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87056e11ac3852ecffcd8667269abf743545a505",
+      "size": 15979,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/87056e11ac3852ecffcd8667269abf743545a505"
+    },
+    {
+      "path": "images/terraform.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f0bb0f491c3b3b11113db40641a5d84c41eeb35",
+      "size": 6702,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/7f0bb0f491c3b3b11113db40641a5d84c41eeb35"
+    },
+    {
+      "path": "images/testing.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a1bfe146d854d9b682cda6ce05f11598f3dfd10",
+      "size": 4145,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/0a1bfe146d854d9b682cda6ce05f11598f3dfd10"
+    },
+    {
+      "path": "images/virtualization.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d9ef1c12521233f50fba202d34908e5fc05d362",
+      "size": 6215,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/7d9ef1c12521233f50fba202d34908e5fc05d362"
+    },
+    {
+      "path": "images/you.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4111e949d5655230c6341b1a7dfc16e91f19d0e0",
+      "size": 8233,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/4111e949d5655230c6341b1a7dfc16e91f19d0e0"
+    },
+    {
+      "path": "prepare_for_interview-pt-BR.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "870befeb892656dbb2ab37db0a9cf20106291aa6",
+      "size": 12997,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/870befeb892656dbb2ab37db0a9cf20106291aa6"
+    },
+    {
+      "path": "prepare_for_interview.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbf7e9f5d7d17639e55e1fc6a572702cd8d74f25",
+      "size": 11621,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/cbf7e9f5d7d17639e55e1fc6a572702cd8d74f25"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8c9337bc0acb73ec57effe2ab3c081245e3885b9",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/8c9337bc0acb73ec57effe2ab3c081245e3885b9"
+    },
+    {
+      "path": "scripts/aws s3 event triggering",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "13c4ede0c3a770de8af3ef0012b2da5e6d21a580",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/13c4ede0c3a770de8af3ef0012b2da5e6d21a580"
+    },
+    {
+      "path": "scripts/aws s3 event triggering/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de9ef00f9689e9b88ad695acd5c43e8dd9a61341",
+      "size": 17,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/de9ef00f9689e9b88ad695acd5c43e8dd9a61341"
+    },
+    {
+      "path": "scripts/aws s3 event triggering/aws_s3_event_trigger.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e6f275c5c6a7242a7389d90226ca9a50115f795",
+      "size": 3628,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/1e6f275c5c6a7242a7389d90226ca9a50115f795"
+    },
+    {
+      "path": "scripts/aws s3 event triggering/s3-lambda",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "babbf02aea119eb329655987f4d6468c9ef9d051",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/babbf02aea119eb329655987f4d6468c9ef9d051"
+    },
+    {
+      "path": "scripts/aws s3 event triggering/s3-lambda/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58bd758fb8bf325efc0dee1fe39217a190d0c2c4",
+      "size": 14,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/58bd758fb8bf325efc0dee1fe39217a190d0c2c4"
+    },
+    {
+      "path": "scripts/aws s3 event triggering/s3-lambda/s3-lambda.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b28ced2db169a7f9fccb2fc1cb3892e1a1989432",
+      "size": 1313,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/b28ced2db169a7f9fccb2fc1cb3892e1a1989432"
+    },
+    {
+      "path": "scripts/aws s3 event triggering/sample.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c260ba505edc89598711126b18bd317021cbe070",
+      "size": 80667,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/c260ba505edc89598711126b18bd317021cbe070"
+    },
+    {
+      "path": "scripts/count_questions.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "112dcca71222ec7cfc198ea69969b0e91a2308db",
+      "size": 280,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/112dcca71222ec7cfc198ea69969b0e91a2308db"
+    },
+    {
+      "path": "scripts/question_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "830a085f86506a295e85f5e3849fed963b5c2cc1",
+      "size": 2280,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/830a085f86506a295e85f5e3849fed963b5c2cc1"
+    },
+    {
+      "path": "scripts/random_question.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd2db57c87ad8cb7a2717d7741b38b9c2f1e40ba",
+      "size": 1635,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/dd2db57c87ad8cb7a2717d7741b38b9c2f1e40ba"
+    },
+    {
+      "path": "scripts/run_ci.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "98dfbbbdca8edfd14bb353e518b6e5ec43b331d4",
+      "size": 495,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/98dfbbbdca8edfd14bb353e518b6e5ec43b331d4"
+    },
+    {
+      "path": "scripts/update_question_number.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea0f4de487d0042c0f824e909d12aa97ca2b1334",
+      "size": 831,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/ea0f4de487d0042c0f824e909d12aa97ca2b1334"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ef27ea393484d10e7a15c4abc8b6a525ce71f143",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/ef27ea393484d10e7a15c4abc8b6a525ce71f143"
+    },
+    {
+      "path": "tests/scripts_question_utils_unittest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2dd14b8fab8c2018182026097b2c3ef4bafc2938",
+      "size": 977,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/2dd14b8fab8c2018182026097b2c3ef4bafc2938"
+    },
+    {
+      "path": "tests/syntax_checker_unittest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1fa8e9a4848698f6b09ceda38b53e3e55c1aeb5",
+      "size": 1236,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/f1fa8e9a4848698f6b09ceda38b53e3e55c1aeb5"
+    },
+    {
+      "path": "tests/syntax_lint.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44c80a484186f128a9bb57a0b6be08eb2f5b2d51",
+      "size": 3866,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/44c80a484186f128a9bb57a0b6be08eb2f5b2d51"
+    },
+    {
+      "path": "tests/testcases",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cbbbf1009032b815af5d3497482c7fcbe942b110",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/cbbbf1009032b815af5d3497482c7fcbe942b110"
+    },
+    {
+      "path": "tests/testcases/testcase1.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72e683111b3a3b524f908df6ff515875b4116397",
+      "size": 2050,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/72e683111b3a3b524f908df6ff515875b4116397"
+    },
+    {
+      "path": "tests/testcases/testcase2.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccae90a92663d634ddc5bc07d0fa022254a2cec0",
+      "size": 6678,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/ccae90a92663d634ddc5bc07d0fa022254a2cec0"
+    },
+    {
+      "path": "tests/testcases/testcase3.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35f73bfdb1be6d6dfda3558e0bcf92eb474f6777",
+      "size": 2161,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/35f73bfdb1be6d6dfda3558e0bcf92eb474f6777"
+    },
+    {
+      "path": "topics",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2b94e265d23be343cf84791e7ef8d73f5810da3b",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/2b94e265d23be343cf84791e7ef8d73f5810da3b"
+    },
+    {
+      "path": "topics/ansible",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "88459146ec4ab06e774af834956146df6fe80379",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/88459146ec4ab06e774af834956146df6fe80379"
+    },
+    {
+      "path": "topics/ansible/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "315f5c8b52abe1fe1a7f20cac5f9330125535192",
+      "size": 17904,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/315f5c8b52abe1fe1a7f20cac5f9330125535192"
+    },
+    {
+      "path": "topics/ansible/my_first_playbook.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4c188a528eacb79f2beb754229d70ba14338fe3",
+      "size": 168,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/d4c188a528eacb79f2beb754229d70ba14338fe3"
+    },
+    {
+      "path": "topics/ansible/my_first_task.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "086c6f81aee36feb67b87ec0711d60ff8a6bf62d",
+      "size": 93,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/086c6f81aee36feb67b87ec0711d60ff8a6bf62d"
+    },
+    {
+      "path": "topics/ansible/solutions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "beaec755d5297d036cde4366dc6c243c964eda4d",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/beaec755d5297d036cde4366dc6c243c964eda4d"
+    },
+    {
+      "path": "topics/ansible/solutions/my_first_playbook.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e046f7dd41d2851c8256f2c57c09ad352fa3648",
+      "size": 517,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/5e046f7dd41d2851c8256f2c57c09ad352fa3648"
+    },
+    {
+      "path": "topics/ansible/solutions/my_first_task.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9eb41866eca00ea0ff33423bc187c2b9788dcbfc",
+      "size": 128,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/9eb41866eca00ea0ff33423bc187c2b9788dcbfc"
+    },
+    {
+      "path": "topics/ansible/solutions/update_upgrade_task.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fb1c84a5fa83cb99689d5a30064f398ee4e60fe",
+      "size": 163,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/0fb1c84a5fa83cb99689d5a30064f398ee4e60fe"
+    },
+    {
+      "path": "topics/ansible/update_upgrade_task.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fbf90b16bf43938001ea0868f7ebc324860ef96",
+      "size": 102,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/6fbf90b16bf43938001ea0868f7ebc324860ef96"
+    },
+    {
+      "path": "topics/argo",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5f3e8a802190af2eab02d2fc1501b88f5bfdbf99",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/5f3e8a802190af2eab02d2fc1501b88f5bfdbf99"
+    },
+    {
+      "path": "topics/argo/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8655cd86ad421846468dbe706c13625147f1634f",
+      "size": 20475,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/8655cd86ad421846468dbe706c13625147f1634f"
+    },
+    {
+      "path": "topics/argo/exercises",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f159f7328d190f4e7b2aa2afaad84d7c31d27677",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/f159f7328d190f4e7b2aa2afaad84d7c31d27677"
+    },
+    {
+      "path": "topics/argo/exercises/app_creation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3a3f0237d001e40b05656cb82bc418307af07c31",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/3a3f0237d001e40b05656cb82bc418307af07c31"
+    },
+    {
+      "path": "topics/argo/exercises/app_creation/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88ee7918775a69882c01c4ab1b659cee420c15f1",
+      "size": 571,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/88ee7918775a69882c01c4ab1b659cee420c15f1"
+    },
+    {
+      "path": "topics/argo/exercises/app_creation/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43cb09cdab005acccca9d47c49d8aa3b2ac7d8ac",
+      "size": 1495,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/43cb09cdab005acccca9d47c49d8aa3b2ac7d8ac"
+    },
+    {
+      "path": "topics/argo/exercises/argocd_helm_app",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5205b9b98b025bbcf5dcc4642ea356c39f12dc5b",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/5205b9b98b025bbcf5dcc4642ea356c39f12dc5b"
+    },
+    {
+      "path": "topics/argo/exercises/argocd_helm_app/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fc2c3efb607d4c61414f4c2c705180e29673eb2",
+      "size": 285,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/2fc2c3efb607d4c61414f4c2c705180e29673eb2"
+    },
+    {
+      "path": "topics/argo/exercises/argocd_helm_app/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f533545107969e897011649990dbceef1aa8e61",
+      "size": 438,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/0f533545107969e897011649990dbceef1aa8e61"
+    },
+    {
+      "path": "topics/argo/exercises/blue_green_rollout",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0d177f27e6864ee8497d339ac3117e0a1a4a932b",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/0d177f27e6864ee8497d339ac3117e0a1a4a932b"
+    },
+    {
+      "path": "topics/argo/exercises/blue_green_rollout/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12faa99e054fa6835ba5f9825eda07d0dc41dfc5",
+      "size": 500,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/12faa99e054fa6835ba5f9825eda07d0dc41dfc5"
+    },
+    {
+      "path": "topics/argo/exercises/blue_green_rollout/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ae9941cd2d7d461fa4300005e1a52ee0fd3238c",
+      "size": 1314,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/7ae9941cd2d7d461fa4300005e1a52ee0fd3238c"
+    },
+    {
+      "path": "topics/argo/exercises/canary_rollout",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1a13775f40f9744fe74a8bfd455f1f5a5f2a9b2b",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/1a13775f40f9744fe74a8bfd455f1f5a5f2a9b2b"
+    },
+    {
+      "path": "topics/argo/exercises/canary_rollout/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e80cb03911b7deb57ed381d173707c408790597c",
+      "size": 500,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/e80cb03911b7deb57ed381d173707c408790597c"
+    },
+    {
+      "path": "topics/argo/exercises/canary_rollout/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42e3abf0bfaff25a193fc474002c8458429b4a03",
+      "size": 1577,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/42e3abf0bfaff25a193fc474002c8458429b4a03"
+    },
+    {
+      "path": "topics/argo/exercises/secrets_101",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bfb0256c352512ebc8edca59a5f043b549c26053",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/bfb0256c352512ebc8edca59a5f043b549c26053"
+    },
+    {
+      "path": "topics/argo/exercises/secrets_101/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb4cd6a52cefeeba15fb9d00ebaad40211b7dd1b",
+      "size": 386,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/fb4cd6a52cefeeba15fb9d00ebaad40211b7dd1b"
+    },
+    {
+      "path": "topics/argo/exercises/secrets_101/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b12fe0ee5acbcc0a943ca444649e7dd2734f4494",
+      "size": 858,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/b12fe0ee5acbcc0a943ca444649e7dd2734f4494"
+    },
+    {
+      "path": "topics/argo/exercises/sync_app_cluster",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "49b7c3f079170fe94f7711e578778cc1af996f2f",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/49b7c3f079170fe94f7711e578778cc1af996f2f"
+    },
+    {
+      "path": "topics/argo/exercises/sync_app_cluster/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ad6dedfe7ef6eae409017ddaec7766b4587d0d2",
+      "size": 609,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/6ad6dedfe7ef6eae409017ddaec7766b4587d0d2"
+    },
+    {
+      "path": "topics/argo/exercises/sync_app_cluster/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13ab2b3f5a57c72f174a3ea87f26cba3ebc84d93",
+      "size": 1362,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/13ab2b3f5a57c72f174a3ea87f26cba3ebc84d93"
+    },
+    {
+      "path": "topics/argo/exercises/sync_app_git",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4dfa7948d63735a1f690671f8a08fdd806f529f3",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/4dfa7948d63735a1f690671f8a08fdd806f529f3"
+    },
+    {
+      "path": "topics/argo/exercises/sync_app_git/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b7d08ea79a03922308110e834c07760e44545ea",
+      "size": 2023,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/7b7d08ea79a03922308110e834c07760e44545ea"
+    },
+    {
+      "path": "topics/argo/exercises/sync_app_git/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efd151ae8b81bf7dc74757cba5a232d651a2420b",
+      "size": 1975,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/efd151ae8b81bf7dc74757cba5a232d651a2420b"
+    },
+    {
+      "path": "topics/aws",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "67cd6cd9a27a052f17c07f91b5d67268e922c44c",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/67cd6cd9a27a052f17c07f91b5d67268e922c44c"
+    },
+    {
+      "path": "topics/aws/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1485786256bfff6a93b24504e8682c9159ea1ca0",
+      "size": 127047,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/1485786256bfff6a93b24504e8682c9159ea1ca0"
+    },
+    {
+      "path": "topics/aws/exercises",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cfd5cac8d1fee29e615444b3990ed990e1a1932b",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/cfd5cac8d1fee29e615444b3990ed990e1a1932b"
+    },
+    {
+      "path": "topics/aws/exercises/access_advisor",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2de354b791b21d22df6b8ffbb1c18563ea6b7f5b",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/2de354b791b21d22df6b8ffbb1c18563ea6b7f5b"
+    },
+    {
+      "path": "topics/aws/exercises/access_advisor/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb39469126c62d337ba465f6c8ec47afc408de0a",
+      "size": 338,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/bb39469126c62d337ba465f6c8ec47afc408de0a"
+    },
+    {
+      "path": "topics/aws/exercises/access_advisor/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27138f0b187969d7aa4e538c293b7fae255679d7",
+      "size": 714,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/27138f0b187969d7aa4e538c293b7fae255679d7"
+    },
+    {
+      "path": "topics/aws/exercises/alb_multiple_target_groups",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9f182ed1775744560dae303306156f307231bc5",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/c9f182ed1775744560dae303306156f307231bc5"
+    },
+    {
+      "path": "topics/aws/exercises/alb_multiple_target_groups/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a51418f94419f07567020c9374f91b41cadee217",
+      "size": 662,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/a51418f94419f07567020c9374f91b41cadee217"
+    },
+    {
+      "path": "topics/aws/exercises/alb_multiple_target_groups/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1db48b83ef308a0307a0a8107766298b9800e6b2",
+      "size": 2019,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/1db48b83ef308a0307a0a8107766298b9800e6b2"
+    },
+    {
+      "path": "topics/aws/exercises/app_load_balancer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "81da62c4845fb654236a3c8a7c5d25185a07ea1d",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/81da62c4845fb654236a3c8a7c5d25185a07ea1d"
+    },
+    {
+      "path": "topics/aws/exercises/app_load_balancer/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "430402b060c419c1d4b2f37aa461531216035bc2",
+      "size": 510,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/430402b060c419c1d4b2f37aa461531216035bc2"
+    },
+    {
+      "path": "topics/aws/exercises/app_load_balancer/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de40f568eb32c56a8d15d84b3df6e8c932b0c7d5",
+      "size": 1392,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/de40f568eb32c56a8d15d84b3df6e8c932b0c7d5"
+    },
+    {
+      "path": "topics/aws/exercises/asg_dynamic_scaling_policy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6602cbc0f5ef91a8fd4ac8cf21f533fd248b9bba",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/6602cbc0f5ef91a8fd4ac8cf21f533fd248b9bba"
+    },
+    {
+      "path": "topics/aws/exercises/asg_dynamic_scaling_policy/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2611fdbeea7cde09b247521dd3375579542bb891",
+      "size": 525,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/2611fdbeea7cde09b247521dd3375579542bb891"
+    },
+    {
+      "path": "topics/aws/exercises/asg_dynamic_scaling_policy/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a7c1f52207cfd402583e36cfa61c3eeeb342246",
+      "size": 1118,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/7a7c1f52207cfd402583e36cfa61c3eeeb342246"
+    },
+    {
+      "path": "topics/aws/exercises/aurora_db",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "97949aa8008f09f89fcbeceaae4c8e7324816da8",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/97949aa8008f09f89fcbeceaae4c8e7324816da8"
+    },
+    {
+      "path": "topics/aws/exercises/aurora_db/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f9e50bb70782808ebfa6738e39f9eb43970a435",
+      "size": 355,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/1f9e50bb70782808ebfa6738e39f9eb43970a435"
+    },
+    {
+      "path": "topics/aws/exercises/aurora_db/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c58114537b4734f5b731dfdcea6bd253a696611",
+      "size": 1160,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/1c58114537b4734f5b731dfdcea6bd253a696611"
+    },
+    {
+      "path": "topics/aws/exercises/auto_scaling_groups_basics",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2296ba0f6337a2c13ccfc0f80b1905f388486996",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/2296ba0f6337a2c13ccfc0f80b1905f388486996"
+    },
+    {
+      "path": "topics/aws/exercises/auto_scaling_groups_basics/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3bd9d0d74e5bc1867e735a9e99a019952f63343",
+      "size": 546,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/a3bd9d0d74e5bc1867e735a9e99a019952f63343"
+    },
+    {
+      "path": "topics/aws/exercises/auto_scaling_groups_basics/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "765cff2ba2690b2ef657fc8a59c365eb3d89e522",
+      "size": 1760,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/765cff2ba2690b2ef657fc8a59c365eb3d89e522"
+    },
+    {
+      "path": "topics/aws/exercises/basic_s3_ci",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9bfd074c176816a436af2d3f6d35cd2e9e239cc2",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/9bfd074c176816a436af2d3f6d35cd2e9e239cc2"
+    },
+    {
+      "path": "topics/aws/exercises/basic_s3_ci/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c88f710eaa82bd93071194fde322f6e49e54970f",
+      "size": 376,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/c88f710eaa82bd93071194fde322f6e49e54970f"
+    },
+    {
+      "path": "topics/aws/exercises/basic_s3_ci/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cd31887d81062fe880b90e5ce6ff693f9d7c90f",
+      "size": 1963,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/6cd31887d81062fe880b90e5ce6ff693f9d7c90f"
+    },
+    {
+      "path": "topics/aws/exercises/budget_setup",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "79a3e5dba25740a1efbee6087c651d432ff1c8ff",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/79a3e5dba25740a1efbee6087c651d432ff1c8ff"
+    },
+    {
+      "path": "topics/aws/exercises/budget_setup/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2986d3c7e51971b43ef8deafebcecace5ace6702",
+      "size": 100,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/2986d3c7e51971b43ef8deafebcecace5ace6702"
+    },
+    {
+      "path": "topics/aws/exercises/budget_setup/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66f720bc456470902d9e9f8b3e1c40bebe124502",
+      "size": 611,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/66f720bc456470902d9e9f8b3e1c40bebe124502"
+    },
+    {
+      "path": "topics/aws/exercises/create_ami",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ea27bc0b1ce3e06778730d995f303560306250ae",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/ea27bc0b1ce3e06778730d995f303560306250ae"
+    },
+    {
+      "path": "topics/aws/exercises/create_ami/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3121d5bff6c7d5539d6596ae2dd02baa8ffd2fca",
+      "size": 290,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/3121d5bff6c7d5539d6596ae2dd02baa8ffd2fca"
+    },
+    {
+      "path": "topics/aws/exercises/create_ami/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "822b60612220a76cd9da31efdfe627d5884ff4bf",
+      "size": 639,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/822b60612220a76cd9da31efdfe627d5884ff4bf"
+    },
+    {
+      "path": "topics/aws/exercises/create_efs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8fb2cd8ae3754d03d9176aa4336483b0e9669fbd",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/8fb2cd8ae3754d03d9176aa4336483b0e9669fbd"
+    },
+    {
+      "path": "topics/aws/exercises/create_efs/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb6b6df5c2345e33d5e1869a5e0f47c22c83ac4a",
+      "size": 350,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/fb6b6df5c2345e33d5e1869a5e0f47c22c83ac4a"
+    },
+    {
+      "path": "topics/aws/exercises/create_efs/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07a0c0de3680f460ccc9dd6fd52011277bdbfa91",
+      "size": 1188,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/07a0c0de3680f460ccc9dd6fd52011277bdbfa91"
+    },
+    {
+      "path": "topics/aws/exercises/create_role",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "61644230fa10f1079a017f0cf9a6ce1770ca4323",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/61644230fa10f1079a017f0cf9a6ce1770ca4323"
+    },
+    {
+      "path": "topics/aws/exercises/create_role/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9d8d93f5d4b503ebe657f26f44daefa2a14fdf0",
+      "size": 774,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/f9d8d93f5d4b503ebe657f26f44daefa2a14fdf0"
+    },
+    {
+      "path": "topics/aws/exercises/create_role/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9d8d93f5d4b503ebe657f26f44daefa2a14fdf0",
+      "size": 774,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/f9d8d93f5d4b503ebe657f26f44daefa2a14fdf0"
+    },
+    {
+      "path": "topics/aws/exercises/create_spot_instances",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e690b0b2da5a3e63fa0239df1e82576ed2afb035",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/e690b0b2da5a3e63fa0239df1e82576ed2afb035"
+    },
+    {
+      "path": "topics/aws/exercises/create_spot_instances/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a178e772ec571aa4da1b4d0114e08fea6a56822",
+      "size": 477,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/7a178e772ec571aa4da1b4d0114e08fea6a56822"
+    },
+    {
+      "path": "topics/aws/exercises/create_spot_instances/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0459b5c77485a77a0627dfd60aba51495cd37711",
+      "size": 1152,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/0459b5c77485a77a0627dfd60aba51495cd37711"
+    },
+    {
+      "path": "topics/aws/exercises/create_user",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4e00f08a4d65ee1c4e43c7a3f716cd088a2f0912",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/4e00f08a4d65ee1c4e43c7a3f716cd088a2f0912"
+    },
+    {
+      "path": "topics/aws/exercises/create_user/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00ca542dbd57d0bdb2707c5f87870d876ec1c8c7",
+      "size": 482,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/00ca542dbd57d0bdb2707c5f87870d876ec1c8c7"
+    },
+    {
+      "path": "topics/aws/exercises/create_user/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b81c8d53e334200071d085afe9333c085e2f352",
+      "size": 1596,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/8b81c8d53e334200071d085afe9333c085e2f352"
+    },
+    {
+      "path": "topics/aws/exercises/creating_records",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bcf5d3163161e1b47e71498d3d77ed5e0e2890a3",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/bcf5d3163161e1b47e71498d3d77ed5e0e2890a3"
+    },
+    {
+      "path": "topics/aws/exercises/creating_records/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ba010dec9561a45e32bd9a927b15b801f7c661c",
+      "size": 359,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/1ba010dec9561a45e32bd9a927b15b801f7c661c"
+    },
+    {
+      "path": "topics/aws/exercises/creating_records/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cde0f8c561e3e001eefc9a8ee252a91ccb153063",
+      "size": 673,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/cde0f8c561e3e001eefc9a8ee252a91ccb153063"
+    },
+    {
+      "path": "topics/aws/exercises/credential_report",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "01d03894d30c9efe9964f6366f974ac6bc952998",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/01d03894d30c9efe9964f6366f974ac6bc952998"
+    },
+    {
+      "path": "topics/aws/exercises/credential_report/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d62ecaaf8e4605c3b66e7bea19c495c803ce5128",
+      "size": 295,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/d62ecaaf8e4605c3b66e7bea19c495c803ce5128"
+    },
+    {
+      "path": "topics/aws/exercises/credential_report/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a407683ae276b49d313cdd204b9f635ad15f283",
+      "size": 747,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/5a407683ae276b49d313cdd204b9f635ad15f283"
+    },
+    {
+      "path": "topics/aws/exercises/ebs_volume_creation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "10196fb209e605f23d1caa76b23f051fd26aba40",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/10196fb209e605f23d1caa76b23f051fd26aba40"
+    },
+    {
+      "path": "topics/aws/exercises/ebs_volume_creation/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56240cf1f7b423bcd8d774e0aa5ab08471c04709",
+      "size": 373,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/56240cf1f7b423bcd8d774e0aa5ab08471c04709"
+    },
+    {
+      "path": "topics/aws/exercises/ebs_volume_creation/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d16927af004b73e8e8764a698a45a0f9b65777f0",
+      "size": 1063,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/d16927af004b73e8e8764a698a45a0f9b65777f0"
+    },
+    {
+      "path": "topics/aws/exercises/ec2_iam_roles",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c5b7e40deb804b144feae6c23cb90bdd3e1a1045",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/c5b7e40deb804b144feae6c23cb90bdd3e1a1045"
+    },
+    {
+      "path": "topics/aws/exercises/ec2_iam_roles/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebe4a4a8094a68b34ed0b5622e317077db420289",
+      "size": 392,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/ebe4a4a8094a68b34ed0b5622e317077db420289"
+    },
+    {
+      "path": "topics/aws/exercises/ec2_iam_roles/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a37412a564ee461feea990be581cf5d0fc546fe",
+      "size": 737,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/5a37412a564ee461feea990be581cf5d0fc546fe"
+    },
+    {
+      "path": "topics/aws/exercises/ecs_task",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8713266d6656f394b323073048fc1f59dc54a4be",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/8713266d6656f394b323073048fc1f59dc54a4be"
+    },
+    {
+      "path": "topics/aws/exercises/ecs_task/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "039e4c2e43151f66029789172f77b23d465bd934",
+      "size": 152,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/039e4c2e43151f66029789172f77b23d465bd934"
+    },
+    {
+      "path": "topics/aws/exercises/ecs_task/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e35844e9e7adf46c528527706c3923a1163f0f9a",
+      "size": 736,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/e35844e9e7adf46c528527706c3923a1163f0f9a"
+    },
+    {
+      "path": "topics/aws/exercises/elastic_beanstalk_simple",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "21c21f98f109ec2d81495587383e1a80776eeef8",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/21c21f98f109ec2d81495587383e1a80776eeef8"
+    },
+    {
+      "path": "topics/aws/exercises/elastic_beanstalk_simple/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74264d3ce6e5d2238ce147269bdd231290eafcad",
+      "size": 486,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/74264d3ce6e5d2238ce147269bdd231290eafcad"
+    },
+    {
+      "path": "topics/aws/exercises/elastic_beanstalk_simple/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2f76de006f09468e5065d4ffcf26a02ee33785c",
+      "size": 1454,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/d2f76de006f09468e5065d4ffcf26a02ee33785c"
+    },
+    {
+      "path": "topics/aws/exercises/elastic_ip",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "87990bc10469565b480322427c1e62c19ff5f74c",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/87990bc10469565b480322427c1e62c19ff5f74c"
+    },
+    {
+      "path": "topics/aws/exercises/elastic_ip/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5260abec6777d6474b5ea9d3afc58e02c2d29fef",
+      "size": 347,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/5260abec6777d6474b5ea9d3afc58e02c2d29fef"
+    },
+    {
+      "path": "topics/aws/exercises/elastic_ip/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2692929dd980c20aef64292ae0e32646f3e90f4",
+      "size": 1221,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/e2692929dd980c20aef64292ae0e32646f3e90f4"
+    },
+    {
+      "path": "topics/aws/exercises/elastic_network_interfaces",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "599681afee94afcb34edf13035d3c4560c59e885",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/599681afee94afcb34edf13035d3c4560c59e885"
+    },
+    {
+      "path": "topics/aws/exercises/elastic_network_interfaces/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdc4d9bc9bfcbfd593932667717df417255b7072",
+      "size": 275,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/fdc4d9bc9bfcbfd593932667717df417255b7072"
+    },
+    {
+      "path": "topics/aws/exercises/elastic_network_interfaces/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6c22104f27becb561a1b537c7f531f509cd9444",
+      "size": 883,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/d6c22104f27becb561a1b537c7f531f509cd9444"
+    },
+    {
+      "path": "topics/aws/exercises/elasticache",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f6bd588f0fb9f47caed85f547783fbd177872667",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/f6bd588f0fb9f47caed85f547783fbd177872667"
+    },
+    {
+      "path": "topics/aws/exercises/elasticache/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b455e82bf1fc8bcdc309bf01e0c3d8cb5ade369",
+      "size": 134,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/9b455e82bf1fc8bcdc309bf01e0c3d8cb5ade369"
+    },
+    {
+      "path": "topics/aws/exercises/elasticache/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c50a27cc67d95a6e3bf168c22bc1138129868cc5",
+      "size": 392,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/c50a27cc67d95a6e3bf168c22bc1138129868cc5"
+    },
+    {
+      "path": "topics/aws/exercises/health_checks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "47bc3a7b7e7cc82e36fe27df1d6d430361870b8a",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/47bc3a7b7e7cc82e36fe27df1d6d430361870b8a"
+    },
+    {
+      "path": "topics/aws/exercises/health_checks/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e26309421f06871989595a7a7e4f15f82f94f16",
+      "size": 391,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/8e26309421f06871989595a7a7e4f15f82f94f16"
+    },
+    {
+      "path": "topics/aws/exercises/health_checks/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9eb089235ea18698955a4cd5dcc91cfaf98fa623",
+      "size": 1100,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/9eb089235ea18698955a4cd5dcc91cfaf98fa623"
+    },
+    {
+      "path": "topics/aws/exercises/hello_function",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "166b4dbeff42620f903f7c907d6f9bb3f196009f",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/166b4dbeff42620f903f7c907d6f9bb3f196009f"
+    },
+    {
+      "path": "topics/aws/exercises/hello_function/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6204a427a181fb9e267639c53c626db3d15598b",
+      "size": 165,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/a6204a427a181fb9e267639c53c626db3d15598b"
+    },
+    {
+      "path": "topics/aws/exercises/hello_function/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e14ab4b5a15cd65ca6a0ee0371dc4f55e0780751",
+      "size": 1333,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/e14ab4b5a15cd65ca6a0ee0371dc4f55e0780751"
+    },
+    {
+      "path": "topics/aws/exercises/hibernate_instance",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "05b2b8e2e4aded10bbf0648c61ca9ff22bdb8b03",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/05b2b8e2e4aded10bbf0648c61ca9ff22bdb8b03"
+    },
+    {
+      "path": "topics/aws/exercises/hibernate_instance/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bae93ed5a1f28b99288b6608e6ecc40cd29db19b",
+      "size": 228,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/bae93ed5a1f28b99288b6608e6ecc40cd29db19b"
+    },
+    {
+      "path": "topics/aws/exercises/hibernate_instance/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "005fc3508021db87ed68fd6c949c8759c0e4f449",
+      "size": 852,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/005fc3508021db87ed68fd6c949c8759c0e4f449"
+    },
+    {
+      "path": "topics/aws/exercises/launch_ec2_web_instance",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1bbca5791f27d6267ac748c4c3902e7bbf6aa587",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/1bbca5791f27d6267ac748c4c3902e7bbf6aa587"
+    },
+    {
+      "path": "topics/aws/exercises/launch_ec2_web_instance/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36f3d89ab8aec32a5920a5e1e113300becaac7a5",
+      "size": 615,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/36f3d89ab8aec32a5920a5e1e113300becaac7a5"
+    },
+    {
+      "path": "topics/aws/exercises/launch_ec2_web_instance/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77c0105963455f1ea43a4751f7cd7f8b0915317c",
+      "size": 2716,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/77c0105963455f1ea43a4751f7cd7f8b0915317c"
+    },
+    {
+      "path": "topics/aws/exercises/mysql_db",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ed412a427c45d3a1a3e0bb6c33378e3a95f58c59",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/ed412a427c45d3a1a3e0bb6c33378e3a95f58c59"
+    },
+    {
+      "path": "topics/aws/exercises/mysql_db/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f2a3bb286708cadc4e7025563e26d0b137ed845",
+      "size": 402,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/2f2a3bb286708cadc4e7025563e26d0b137ed845"
+    },
+    {
+      "path": "topics/aws/exercises/mysql_db/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f25fb87bc9c7f40e3dce90e3f0eb129ccffdc6d",
+      "size": 1413,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/9f25fb87bc9c7f40e3dce90e3f0eb129ccffdc6d"
+    },
+    {
+      "path": "topics/aws/exercises/network_load_balancer",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "074ba41e9f2e02d74830f6466717b905ff740712",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/074ba41e9f2e02d74830f6466717b905ff740712"
+    },
+    {
+      "path": "topics/aws/exercises/network_load_balancer/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f12f862abf7de2a0ae713d269d4dca28346dde03",
+      "size": 285,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/f12f862abf7de2a0ae713d269d4dca28346dde03"
+    },
+    {
+      "path": "topics/aws/exercises/network_load_balancer/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2aa2de1c4f5c30ad548c2a4952da057096feb843",
+      "size": 1071,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/2aa2de1c4f5c30ad548c2a4952da057096feb843"
+    },
+    {
+      "path": "topics/aws/exercises/new_vpc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9f11fc948b57232e57196700600bd3bf390357d9",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/9f11fc948b57232e57196700600bd3bf390357d9"
+    },
+    {
+      "path": "topics/aws/exercises/new_vpc/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3afde3681ddcbf722bb302ab60b9e68e59a00e59",
+      "size": 221,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/3afde3681ddcbf722bb302ab60b9e68e59a00e59"
+    },
+    {
+      "path": "topics/aws/exercises/new_vpc/main.tf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "topics/aws/exercises/new_vpc/pulumi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9f91d2df6e56642296d89f53cf0179af0b3a179",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/c9f91d2df6e56642296d89f53cf0179af0b3a179"
+    },
+    {
+      "path": "topics/aws/exercises/new_vpc/pulumi/__main__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24f79d621e3bcc146cca0ecf383cbb2950e7a4e5",
+      "size": 286,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/24f79d621e3bcc146cca0ecf383cbb2950e7a4e5"
+    },
+    {
+      "path": "topics/aws/exercises/new_vpc/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "220e0e121f0f9c0e430ed1606b56eedfc652a322",
+      "size": 675,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/220e0e121f0f9c0e430ed1606b56eedfc652a322"
+    },
+    {
+      "path": "topics/aws/exercises/new_vpc/terraform",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2b2ca111cd741e17d229e0f6dfabcaf88754197f",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/2b2ca111cd741e17d229e0f6dfabcaf88754197f"
+    },
+    {
+      "path": "topics/aws/exercises/new_vpc/terraform/main.tf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8f4341ac08d0f26823ad339c79c7b08911ee738",
+      "size": 169,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/d8f4341ac08d0f26823ad339c79c7b08911ee738"
+    },
+    {
+      "path": "topics/aws/exercises/no_application",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1d6d6766fe7c80d29d177b855607edea91ef0a55",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/1d6d6766fe7c80d29d177b855607edea91ef0a55"
+    },
+    {
+      "path": "topics/aws/exercises/no_application/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d14e7590b8dfac8dfb3235eb7e05de90a32370d",
+      "size": 225,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/3d14e7590b8dfac8dfb3235eb7e05de90a32370d"
+    },
+    {
+      "path": "topics/aws/exercises/no_application/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cd9bce45790db3b0d471f7dcd0750acf4ccfdc4",
+      "size": 676,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/8cd9bce45790db3b0d471f7dcd0750acf4ccfdc4"
+    },
+    {
+      "path": "topics/aws/exercises/password_policy_and_mfa",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "34406b623749952df7cbee1276e5f21242bd219f",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/34406b623749952df7cbee1276e5f21242bd219f"
+    },
+    {
+      "path": "topics/aws/exercises/password_policy_and_mfa/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78a01fdd2ba149f100c4a6e14b0adfab29a1aadc",
+      "size": 374,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/78a01fdd2ba149f100c4a6e14b0adfab29a1aadc"
+    },
+    {
+      "path": "topics/aws/exercises/password_policy_and_mfa/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84585c1bf275dae878fc8abc7cfeb0777ef1faec",
+      "size": 1282,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/84585c1bf275dae878fc8abc7cfeb0777ef1faec"
+    },
+    {
+      "path": "topics/aws/exercises/placement_groups",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b2881d72f18edaa9bce47cf30cf0ae80a70a1d7c",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/b2881d72f18edaa9bce47cf30cf0ae80a70a1d7c"
+    },
+    {
+      "path": "topics/aws/exercises/placement_groups/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "781d8f42429eab19e8719e8cb8e9dca67eaa7c45",
+      "size": 295,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/781d8f42429eab19e8719e8cb8e9dca67eaa7c45"
+    },
+    {
+      "path": "topics/aws/exercises/placement_groups/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07ded19027d28b45a861ec64c4bb80dc250eed1c",
+      "size": 1056,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/07ded19027d28b45a861ec64c4bb80dc250eed1c"
+    },
+    {
+      "path": "topics/aws/exercises/register_domain",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd08458440c3da7785e382a42c314eaa7cbdb20c",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/fd08458440c3da7785e382a42c314eaa7cbdb20c"
+    },
+    {
+      "path": "topics/aws/exercises/register_domain/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdff83553434d68e94653b6ee16fea4fcbc6b599",
+      "size": 337,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/cdff83553434d68e94653b6ee16fea4fcbc6b599"
+    },
+    {
+      "path": "topics/aws/exercises/register_domain/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c3d5013ae91fa2cd52f02a9f6a1c9a5a147d4e0",
+      "size": 1040,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/7c3d5013ae91fa2cd52f02a9f6a1c9a5a147d4e0"
+    },
+    {
+      "path": "topics/aws/exercises/route_53_failover",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "819444c8f11ea7643a232766e2069215c5024cad",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/819444c8f11ea7643a232766e2069215c5024cad"
+    },
+    {
+      "path": "topics/aws/exercises/route_53_failover/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c192143b3f132ff29f1b8abd7d316fc595002c7",
+      "size": 327,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/4c192143b3f132ff29f1b8abd7d316fc595002c7"
+    },
+    {
+      "path": "topics/aws/exercises/route_53_failover/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34b79306119eeca8dd69553d1cd00f37e84f587a",
+      "size": 1004,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/34b79306119eeca8dd69553d1cd00f37e84f587a"
+    },
+    {
+      "path": "topics/aws/exercises/s3",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5c05cbb9b0675b0dd615f544bd28831667f4a80a",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/5c05cbb9b0675b0dd615f544bd28831667f4a80a"
+    },
+    {
+      "path": "topics/aws/exercises/s3/new_bucket",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "41076d4932b10cfc375fa005244b77b90f6d4bc5",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/41076d4932b10cfc375fa005244b77b90f6d4bc5"
+    },
+    {
+      "path": "topics/aws/exercises/s3/new_bucket/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90ea47cf809c90ffb4861f31a75ed73a0746482f",
+      "size": 312,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/90ea47cf809c90ffb4861f31a75ed73a0746482f"
+    },
+    {
+      "path": "topics/aws/exercises/s3/new_bucket/pulumi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3ce7587b5383af9874370985770ea15b0dccddf8",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/3ce7587b5383af9874370985770ea15b0dccddf8"
+    },
+    {
+      "path": "topics/aws/exercises/s3/new_bucket/pulumi/__main__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89c004c2aa8ddb2b553c8ec65a3d3ad69dda50a2",
+      "size": 900,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/89c004c2aa8ddb2b553c8ec65a3d3ad69dda50a2"
+    },
+    {
+      "path": "topics/aws/exercises/s3/new_bucket/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4dc51cd7aa19ef44cdc19f5026533f8e6f5b2477",
+      "size": 1213,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/4dc51cd7aa19ef44cdc19f5026533f8e6f5b2477"
+    },
+    {
+      "path": "topics/aws/exercises/s3/new_bucket/terraform",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "176b61096908c1a757da4712769259a807a445b7",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/176b61096908c1a757da4712769259a807a445b7"
+    },
+    {
+      "path": "topics/aws/exercises/s3/new_bucket/terraform/main.tf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "312da4db2b6b805701feb7a39a105ce287db58f6",
+      "size": 838,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/312da4db2b6b805701feb7a39a105ce287db58f6"
+    },
+    {
+      "path": "topics/aws/exercises/sample_cdk",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ae0adb07515f09f56eebaee830c2cdd021a5af21",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/ae0adb07515f09f56eebaee830c2cdd021a5af21"
+    },
+    {
+      "path": "topics/aws/exercises/sample_cdk/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "921f5cfc3b9dbbb4fb9200529e33d91678af2ce2",
+      "size": 162,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/921f5cfc3b9dbbb4fb9200529e33d91678af2ce2"
+    },
+    {
+      "path": "topics/aws/exercises/sample_cdk/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7844f789f9e8d75352b0798daf4cc68da623b19",
+      "size": 2754,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/a7844f789f9e8d75352b0798daf4cc68da623b19"
+    },
+    {
+      "path": "topics/aws/exercises/security_groups",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "39126622c1dc4fb31c77e396dfe204e0b6c4e484",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/39126622c1dc4fb31c77e396dfe204e0b6c4e484"
+    },
+    {
+      "path": "topics/aws/exercises/security_groups/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "302666bcc2a12a7482372504a76022baf11e563b",
+      "size": 494,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/302666bcc2a12a7482372504a76022baf11e563b"
+    },
+    {
+      "path": "topics/aws/exercises/security_groups/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8375103c00d067979db4d673a65842d9fb18541d",
+      "size": 1551,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/8375103c00d067979db4d673a65842d9fb18541d"
+    },
+    {
+      "path": "topics/aws/exercises/snapshots",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f4128d256dbded2c3a162b810cab65e5c4e248bb",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/f4128d256dbded2c3a162b810cab65e5c4e248bb"
+    },
+    {
+      "path": "topics/aws/exercises/snapshots/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e754ac1a4c3e464ba7d123136745b73f9ecc841",
+      "size": 288,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/7e754ac1a4c3e464ba7d123136745b73f9ecc841"
+    },
+    {
+      "path": "topics/aws/exercises/snapshots/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5ac9c072934c089729510262a398d3f37c6dd53",
+      "size": 760,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/f5ac9c072934c089729510262a398d3f37c6dd53"
+    },
+    {
+      "path": "topics/aws/exercises/subnets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6dade6ef2a1ae83d4541d3a66986648a2f217e9e",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/6dade6ef2a1ae83d4541d3a66986648a2f217e9e"
+    },
+    {
+      "path": "topics/aws/exercises/subnets/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95644c27b21231903acc31a5f1f6975e7302501a",
+      "size": 521,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/95644c27b21231903acc31a5f1f6975e7302501a"
+    },
+    {
+      "path": "topics/aws/exercises/subnets/pulumi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ed9e3a3c434f72932e7e2de15b372581d7904bf4",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/ed9e3a3c434f72932e7e2de15b372581d7904bf4"
+    },
+    {
+      "path": "topics/aws/exercises/subnets/pulumi/__main__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11fc6ddaa63912e08162a1bd64248745f1860cc6",
+      "size": 810,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/11fc6ddaa63912e08162a1bd64248745f1860cc6"
+    },
+    {
+      "path": "topics/aws/exercises/subnets/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80480ef8daf92c042e72c91dc7bd5e12d9f5a16c",
+      "size": 1208,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/80480ef8daf92c042e72c91dc7bd5e12d9f5a16c"
+    },
+    {
+      "path": "topics/aws/exercises/subnets/terraform",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "04a54c76bb5ed6424cf5e137ba5d664acf84e5e0",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/04a54c76bb5ed6424cf5e137ba5d664acf84e5e0"
+    },
+    {
+      "path": "topics/aws/exercises/subnets/terraform/main.tf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4dcca49322c09311a68bb917d5ab7829d8d72652",
+      "size": 905,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/4dcca49322c09311a68bb917d5ab7829d8d72652"
+    },
+    {
+      "path": "topics/aws/exercises/url_function",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b6e9ceea01dbb4423077805158f0e5f84b8f2530",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/b6e9ceea01dbb4423077805158f0e5f84b8f2530"
+    },
+    {
+      "path": "topics/aws/exercises/url_function/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cb672ea017c8458223f7e69353576457754f405",
+      "size": 170,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/0cb672ea017c8458223f7e69353576457754f405"
+    },
+    {
+      "path": "topics/aws/exercises/url_function/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcbe991d45e43d286591b2d621c032452286096b",
+      "size": 2497,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/fcbe991d45e43d286591b2d621c032452286096b"
+    },
+    {
+      "path": "topics/aws/exercises/web_app_lambda_dynamodb",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f86bdaca9981278470ea94860093384026389171",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/f86bdaca9981278470ea94860093384026389171"
+    },
+    {
+      "path": "topics/aws/exercises/web_app_lambda_dynamodb/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d85293976d94c0c47ed53f29ae9c4cbf7f05a53",
+      "size": 140,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/4d85293976d94c0c47ed53f29ae9c4cbf7f05a53"
+    },
+    {
+      "path": "topics/aws/exercises/web_app_lambda_dynamodb/terraform",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6b91e98e1956527d554c3fccec478670e2c1e190",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/6b91e98e1956527d554c3fccec478670e2c1e190"
+    },
+    {
+      "path": "topics/aws/exercises/web_app_lambda_dynamodb/terraform/main.tf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8581df9654d4b79c6cbe17501f115fb19eed62e5",
+      "size": 310,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/8581df9654d4b79c6cbe17501f115fb19eed62e5"
+    },
+    {
+      "path": "topics/aws/images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "facb5a5fb9907c0f64491f81752d1c468bfd02ac",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/facb5a5fb9907c0f64491f81752d1c468bfd02ac"
+    },
+    {
+      "path": "topics/aws/images/lambda",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cff9132ae2477e988406966cc89358981eda1893",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/cff9132ae2477e988406966cc89358981eda1893"
+    },
+    {
+      "path": "topics/aws/images/lambda/aws_lambda_direct_access.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c5b37a8a573db64bd1b01989032156584f0a88d",
+      "size": 24129,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/4c5b37a8a573db64bd1b01989032156584f0a88d"
+    },
+    {
+      "path": "topics/azure",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "740545f345b81a369d57835868848d07fa62262c",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/740545f345b81a369d57835868848d07fa62262c"
+    },
+    {
+      "path": "topics/azure/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2715873a691d1d24e4c4647681d376e19a1504b",
+      "size": 8658,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/e2715873a691d1d24e4c4647681d376e19a1504b"
+    },
+    {
+      "path": "topics/chaos_engineering",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9459067902049237427cfe7c17fd4129c1c8ee4f",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/9459067902049237427cfe7c17fd4129c1c8ee4f"
+    },
+    {
+      "path": "topics/chaos_engineering/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "769efd94b54fb97beb4cc1d436218b874df889fe",
+      "size": 1803,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/769efd94b54fb97beb4cc1d436218b874df889fe"
+    },
+    {
+      "path": "topics/cicd",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c3d4672224608fdc9b0d1c6d9dae82d969e59e8d",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/c3d4672224608fdc9b0d1c6d9dae82d969e59e8d"
+    },
+    {
+      "path": "topics/cicd/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa547b868709776d08305af8513c8601382a8861",
+      "size": 35750,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/aa547b868709776d08305af8513c8601382a8861"
+    },
+    {
+      "path": "topics/cicd/ci_for_open_source_project.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e71194c41d5ac4e8181745badfb6a3065652462",
+      "size": 1541,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/4e71194c41d5ac4e8181745badfb6a3065652462"
+    },
+    {
+      "path": "topics/cicd/deploy_to_kubernetes.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9fc14c22edcc389e63d09ad3752e1c42c5dd15d",
+      "size": 270,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/d9fc14c22edcc389e63d09ad3752e1c42c5dd15d"
+    },
+    {
+      "path": "topics/cicd/remove_builds.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d96edca75b66e235b31877d33e04237e20da7c40",
+      "size": 491,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/d96edca75b66e235b31877d33e04237e20da7c40"
+    },
+    {
+      "path": "topics/cicd/remove_jobs.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a4926cc6fa7dae47a4db952fac97ea54ae2f85a",
+      "size": 257,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/7a4926cc6fa7dae47a4db952fac97ea54ae2f85a"
+    },
+    {
+      "path": "topics/cicd/solutions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "57ae2b0b52994a3627a966b0f911b15ea80a0a33",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/57ae2b0b52994a3627a966b0f911b15ea80a0a33"
+    },
+    {
+      "path": "topics/cicd/solutions/deploy_to_kubernetes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "72dfacf2750e5584f0da5a5c80691b53ddb0784b",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/72dfacf2750e5584f0da5a5c80691b53ddb0784b"
+    },
+    {
+      "path": "topics/cicd/solutions/deploy_to_kubernetes/Jenkinsfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6af14a56c8bd6992bd4e3d28932a3e8c0c57d861",
+      "size": 934,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/6af14a56c8bd6992bd4e3d28932a3e8c0c57d861"
+    },
+    {
+      "path": "topics/cicd/solutions/deploy_to_kubernetes/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fafc03559f12937c8790cb999243ccdc3063612",
+      "size": 733,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/1fafc03559f12937c8790cb999243ccdc3063612"
+    },
+    {
+      "path": "topics/cicd/solutions/deploy_to_kubernetes/deploy.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "568252d47d835a7a0fa2ad77e40aed21d8c0026c",
+      "size": 1319,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/568252d47d835a7a0fa2ad77e40aed21d8c0026c"
+    },
+    {
+      "path": "topics/cicd/solutions/deploy_to_kubernetes/helloworld.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de120f2230ce813b6d459f783e2ee93d001e57cb",
+      "size": 1282,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/de120f2230ce813b6d459f783e2ee93d001e57cb"
+    },
+    {
+      "path": "topics/cicd/solutions/deploy_to_kubernetes/html",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a2b21dd0ec5937e131e9bb8bd2f61aa9c595b87d",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/a2b21dd0ec5937e131e9bb8bd2f61aa9c595b87d"
+    },
+    {
+      "path": "topics/cicd/solutions/deploy_to_kubernetes/html/css",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7de007b01e7dbf8cc69c251752434d03036674c4",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/7de007b01e7dbf8cc69c251752434d03036674c4"
+    },
+    {
+      "path": "topics/cicd/solutions/deploy_to_kubernetes/html/css/normalize.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81c6f31ea4b8d36d19133c690c0701c240200e7e",
+      "size": 7797,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/81c6f31ea4b8d36d19133c690c0701c240200e7e"
+    },
+    {
+      "path": "topics/cicd/solutions/deploy_to_kubernetes/html/css/skeleton.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f28bf6c596e70b5adc60595fd61f99d9b08cdecf",
+      "size": 11452,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/f28bf6c596e70b5adc60595fd61f99d9b08cdecf"
+    },
+    {
+      "path": "topics/cicd/solutions/deploy_to_kubernetes/html/images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ed2fd42f5caeae2159dd7a3413bd82cde207e510",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/ed2fd42f5caeae2159dd7a3413bd82cde207e510"
+    },
+    {
+      "path": "topics/cicd/solutions/deploy_to_kubernetes/html/images/favicon.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a3c81c1e32b4e4224452cf8261a585480caa0ea",
+      "size": 1156,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/7a3c81c1e32b4e4224452cf8261a585480caa0ea"
+    },
+    {
+      "path": "topics/cicd/solutions/deploy_to_kubernetes/html/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a51873c56acf6f7b9bc9cef97b2e8378bf2a249",
+      "size": 1980,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/7a51873c56acf6f7b9bc9cef97b2e8378bf2a249"
+    },
+    {
+      "path": "topics/cicd/solutions/deploy_to_kubernetes/inventory",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "077c7afa5f1412d318cc9973242a19d7d85cfd4d",
+      "size": 21,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/077c7afa5f1412d318cc9973242a19d7d85cfd4d"
+    },
+    {
+      "path": "topics/cicd/solutions/remove_builds_solution.groovy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f45130aa4f02ccc402e2fb46a7db82d1af4a332d",
+      "size": 437,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/f45130aa4f02ccc402e2fb46a7db82d1af4a332d"
+    },
+    {
+      "path": "topics/cicd/solutions/remove_jobs_solution.groovy",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35839e69debffb08064983225f86e84fa62926fd",
+      "size": 140,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/35839e69debffb08064983225f86e84fa62926fd"
+    },
+    {
+      "path": "topics/circleci",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a40dcccfbe7eef899d2fd83e741c1805344dc40b",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/a40dcccfbe7eef899d2fd83e741c1805344dc40b"
+    },
+    {
+      "path": "topics/circleci/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b2987ae07a530a559c3e04a59bb7bbe7a333074",
+      "size": 2460,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/9b2987ae07a530a559c3e04a59bb7bbe7a333074"
+    },
+    {
+      "path": "topics/cloud",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d595da21e5d46734e651356911dec27b2bf8b359",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/d595da21e5d46734e651356911dec27b2bf8b359"
+    },
+    {
+      "path": "topics/cloud/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af139ce0b342e7905cdecdd0c5c463263c699913",
+      "size": 6013,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/af139ce0b342e7905cdecdd0c5c463263c699913"
+    },
+    {
+      "path": "topics/cloud_slack_bot.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29dacc9c2eea48f8289bc82879b47fa7edb4ab28",
+      "size": 580,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/29dacc9c2eea48f8289bc82879b47fa7edb4ab28"
+    },
+    {
+      "path": "topics/containers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d69d655d4f35479f3aed84d467b8426b5f5a97b7",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/d69d655d4f35479f3aed84d467b8426b5f5a97b7"
+    },
+    {
+      "path": "topics/containers/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "060f62588cf22df1a837efc575318d99db7e3b01",
+      "size": 56280,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/060f62588cf22df1a837efc575318d99db7e3b01"
+    },
+    {
+      "path": "topics/containers/commit_image.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c2381bf18b654395c728d1e9f976dcf71374d62",
+      "size": 1126,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/0c2381bf18b654395c728d1e9f976dcf71374d62"
+    },
+    {
+      "path": "topics/containers/containerized_db.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7020b7d609a98aaa15ca2de0f582c5d48e5aa315",
+      "size": 404,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/7020b7d609a98aaa15ca2de0f582c5d48e5aa315"
+    },
+    {
+      "path": "topics/containers/containerized_db_persistent_storage.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "715613762c5b2edb8781605844d479693db6005e",
+      "size": 367,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/715613762c5b2edb8781605844d479693db6005e"
+    },
+    {
+      "path": "topics/containers/containerized_web_server.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "852c80bd7c256ad4c0c18e3734c3b221fc7c2767",
+      "size": 342,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/852c80bd7c256ad4c0c18e3734c3b221fc7c2767"
+    },
+    {
+      "path": "topics/containers/image_layers.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e8d0d65b4d7662358737d2ded5add7e2033477c",
+      "size": 588,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/9e8d0d65b4d7662358737d2ded5add7e2033477c"
+    },
+    {
+      "path": "topics/containers/multi_stage_builds.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04242451d46f2308dea8fd64a8034f8abbf10b03",
+      "size": 840,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/04242451d46f2308dea8fd64a8034f8abbf10b03"
+    },
+    {
+      "path": "topics/containers/run_forest_run.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81ec248ee8f3798f0830e59c5d2435be1f77cb55",
+      "size": 898,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/81ec248ee8f3798f0830e59c5d2435be1f77cb55"
+    },
+    {
+      "path": "topics/containers/running_containers.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42f160cf3005a30dd3e2b47c854158814b5f5fd6",
+      "size": 530,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/42f160cf3005a30dd3e2b47c854158814b5f5fd6"
+    },
+    {
+      "path": "topics/containers/sharing_images.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "726ef413604499025ebfd37b2a0d59af5c4a597d",
+      "size": 545,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/726ef413604499025ebfd37b2a0d59af5c4a597d"
+    },
+    {
+      "path": "topics/containers/solutions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4482505342f39d8aeb4eacfed85ffb57d332be22",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/4482505342f39d8aeb4eacfed85ffb57d332be22"
+    },
+    {
+      "path": "topics/containers/solutions/commit_image.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58c19bacd81e307c6b357244bd2bf8fe267e65f2",
+      "size": 2648,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/58c19bacd81e307c6b357244bd2bf8fe267e65f2"
+    },
+    {
+      "path": "topics/containers/solutions/containerized_db.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "606ba40565912ad6caffcec94363e7a88bed5b9f",
+      "size": 836,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/606ba40565912ad6caffcec94363e7a88bed5b9f"
+    },
+    {
+      "path": "topics/containers/solutions/containerized_db_persistent_storage.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7aa281841d035c55ff92c116d11becd06340e630",
+      "size": 986,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/7aa281841d035c55ff92c116d11becd06340e630"
+    },
+    {
+      "path": "topics/containers/solutions/containerized_web_server.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed89648125e5595a93f95cb202ca5e03f989a4c3",
+      "size": 918,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/ed89648125e5595a93f95cb202ca5e03f989a4c3"
+    },
+    {
+      "path": "topics/containers/solutions/image_layers.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "383535f92df45090b9f905c420b9fc0fbe86d581",
+      "size": 1825,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/383535f92df45090b9f905c420b9fc0fbe86d581"
+    },
+    {
+      "path": "topics/containers/solutions/multi_stage_builds.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7cbbe42b94af54fdf0c027ce81283f850c3d442",
+      "size": 1722,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/e7cbbe42b94af54fdf0c027ce81283f850c3d442"
+    },
+    {
+      "path": "topics/containers/solutions/run_forest_run.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5704ebec43523f69ebb28aa4fd968b0819f5d9cd",
+      "size": 1993,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/5704ebec43523f69ebb28aa4fd968b0819f5d9cd"
+    },
+    {
+      "path": "topics/containers/solutions/running_containers.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36c3ac4d027d05c778c409c22c38e819e1f043a1",
+      "size": 1015,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/36c3ac4d027d05c778c409c22c38e819e1f043a1"
+    },
+    {
+      "path": "topics/containers/solutions/sharing_images.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4054c383c4d4b9a3bbcc555757b12fbc0fa6ba35",
+      "size": 930,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/4054c383c4d4b9a3bbcc555757b12fbc0fa6ba35"
+    },
+    {
+      "path": "topics/containers/solutions/working_with_images.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97476cee934dcd324d5e3931a87b1ad78a7ec20a",
+      "size": 675,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/97476cee934dcd324d5e3931a87b1ad78a7ec20a"
+    },
+    {
+      "path": "topics/containers/working_with_images.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d94169e663d5dc9c6465e813d3f4d89453d68223",
+      "size": 427,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/d94169e663d5dc9c6465e813d3f4d89453d68223"
+    },
+    {
+      "path": "topics/containers/write_containerfile_run_container.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04d2942db4803628b5fbada1ea02c9013f11eb74",
+      "size": 492,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/04d2942db4803628b5fbada1ea02c9013f11eb74"
+    },
+    {
+      "path": "topics/databases",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5d93691de9ca487e0ce52bcb437d5fe8feafc7c0",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/5d93691de9ca487e0ce52bcb437d5fe8feafc7c0"
+    },
+    {
+      "path": "topics/databases/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2ed2b5334919c3ba16dc4253b5e25cb7e780cb0",
+      "size": 7579,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/e2ed2b5334919c3ba16dc4253b5e25cb7e780cb0"
+    },
+    {
+      "path": "topics/databases/solutions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1d167a8038cfce1cf8b971cd66513da0a8a12bff",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/1d167a8038cfce1cf8b971cd66513da0a8a12bff"
+    },
+    {
+      "path": "topics/databases/solutions/table_for_message_board_system.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dece83fe587148a17909344000c3a4b2140bea75",
+      "size": 1752,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/dece83fe587148a17909344000c3a4b2140bea75"
+    },
+    {
+      "path": "topics/databases/table_for_message_board_system.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ba3f256f524ad0dfbe70eb6b426df1bad7910e5",
+      "size": 408,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/9ba3f256f524ad0dfbe70eb6b426df1bad7910e5"
+    },
+    {
+      "path": "topics/datadog",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e3a18d92ff57bf2caf3dfae455b3a198c7f09fc2",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/e3a18d92ff57bf2caf3dfae455b3a198c7f09fc2"
+    },
+    {
+      "path": "topics/datadog/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f38a56918ac1e37486497e55d4300b9b29a5e804",
+      "size": 2519,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/f38a56918ac1e37486497e55d4300b9b29a5e804"
+    },
+    {
+      "path": "topics/devops",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ba9d899b5cf66c41301c4f1072c116bad8ed36bb",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/ba9d899b5cf66c41301c4f1072c116bad8ed36bb"
+    },
+    {
+      "path": "topics/devops/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "738afd347850d5e52194398fc2f6c241c27ecd5d",
+      "size": 26102,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/738afd347850d5e52194398fc2f6c241c27ecd5d"
+    },
+    {
+      "path": "topics/devops/containerize_app.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "424b1d353819d61b9df077c9e90d1100734dd74b",
+      "size": 544,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/424b1d353819d61b9df077c9e90d1100734dd74b"
+    },
+    {
+      "path": "topics/devops/ha_hello_world.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdcc582d9dfb6c3fe2d53528a7c08d9290cbc292",
+      "size": 334,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/bdcc582d9dfb6c3fe2d53528a7c08d9290cbc292"
+    },
+    {
+      "path": "topics/devops/solutions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "46610b3c94de5ef1eb12ef1458ab8ae64765a234",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/46610b3c94de5ef1eb12ef1458ab8ae64765a234"
+    },
+    {
+      "path": "topics/devops/solutions/containerize_app.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "784c0899375e126bfb5140833badd67357fbb96f",
+      "size": 1169,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/784c0899375e126bfb5140833badd67357fbb96f"
+    },
+    {
+      "path": "topics/devops/solutions/ha_hello_world.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b12c9ece6a4b52c504b9aee2571884f47d55d8aa",
+      "size": 370,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/b12c9ece6a4b52c504b9aee2571884f47d55d8aa"
+    },
+    {
+      "path": "topics/dns",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "09194433ed1daf0d6a56428be7fae77198e39aeb",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/09194433ed1daf0d6a56428be7fae77198e39aeb"
+    },
+    {
+      "path": "topics/dns/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a805b20d0b9db5ea0dcd36adfb7d6b0a66360a58",
+      "size": 6613,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/a805b20d0b9db5ea0dcd36adfb7d6b0a66360a58"
+    },
+    {
+      "path": "topics/eflk.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2db3f6ace453e5958263a0ddf8524cd9736716e0",
+      "size": 327,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/2db3f6ace453e5958263a0ddf8524cd9736716e0"
+    },
+    {
+      "path": "topics/flask_container_ci",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "087c41953abd5db240d115b9a3ed18de8eab9cc8",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/087c41953abd5db240d115b9a3ed18de8eab9cc8"
+    },
+    {
+      "path": "topics/flask_container_ci/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4ac21db17c66a2965f8bc99bdbfc6276490fa24",
+      "size": 2395,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/e4ac21db17c66a2965f8bc99bdbfc6276490fa24"
+    },
+    {
+      "path": "topics/flask_container_ci/app",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "35071f236ee8d8f8e32d4342dddbfa0c75866f76",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/35071f236ee8d8f8e32d4342dddbfa0c75866f76"
+    },
+    {
+      "path": "topics/flask_container_ci/app/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c9136ad1b188ef250cf7fdbe06aba74ebcfdcd3",
+      "size": 37,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/5c9136ad1b188ef250cf7fdbe06aba74ebcfdcd3"
+    },
+    {
+      "path": "topics/flask_container_ci/app/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33e417f7b71577cd866ac3e0c495483d55cf2f0e",
+      "size": 217,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/33e417f7b71577cd866ac3e0c495483d55cf2f0e"
+    },
+    {
+      "path": "topics/flask_container_ci/app/main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ee2de7e6ec3af5dff7f5a5d11557018f116383c",
+      "size": 1444,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/5ee2de7e6ec3af5dff7f5a5d11557018f116383c"
+    },
+    {
+      "path": "topics/flask_container_ci/app/tests.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fa91db2dc7c3727573bfbd5a129040a33ee094a",
+      "size": 568,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/6fa91db2dc7c3727573bfbd5a129040a33ee094a"
+    },
+    {
+      "path": "topics/flask_container_ci/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e1060246fd6746a14204539a72e199a25469a05",
+      "size": 6,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/7e1060246fd6746a14204539a72e199a25469a05"
+    },
+    {
+      "path": "topics/flask_container_ci/tests.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a696fb56f1ed2ed60e5e2d2efd5d0876ac8ac93e",
+      "size": 518,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/a696fb56f1ed2ed60e5e2d2efd5d0876ac8ac93e"
+    },
+    {
+      "path": "topics/flask_container_ci/users.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04068d5513bd0b7927f79840f59e974e74337670",
+      "size": 550,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/04068d5513bd0b7927f79840f59e974e74337670"
+    },
+    {
+      "path": "topics/flask_container_ci2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "04944d815f172a7d5644db41478e64b7e0d8cd72",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/04944d815f172a7d5644db41478e64b7e0d8cd72"
+    },
+    {
+      "path": "topics/flask_container_ci2/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cb93aeaa6652e957d459f9479efc5c5672cdce4",
+      "size": 2612,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/5cb93aeaa6652e957d459f9479efc5c5672cdce4"
+    },
+    {
+      "path": "topics/flask_container_ci2/app",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f0a9c82ef22a0f15de923ae25e8ec72fa20007db",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/f0a9c82ef22a0f15de923ae25e8ec72fa20007db"
+    },
+    {
+      "path": "topics/flask_container_ci2/app/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c9136ad1b188ef250cf7fdbe06aba74ebcfdcd3",
+      "size": 37,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/5c9136ad1b188ef250cf7fdbe06aba74ebcfdcd3"
+    },
+    {
+      "path": "topics/flask_container_ci2/app/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33e417f7b71577cd866ac3e0c495483d55cf2f0e",
+      "size": 217,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/33e417f7b71577cd866ac3e0c495483d55cf2f0e"
+    },
+    {
+      "path": "topics/flask_container_ci2/app/main.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14b0b420fd32feabdaaef70aeeabaa95a2e25fe3",
+      "size": 1314,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/14b0b420fd32feabdaaef70aeeabaa95a2e25fe3"
+    },
+    {
+      "path": "topics/flask_container_ci2/app/tests.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fa91db2dc7c3727573bfbd5a129040a33ee094a",
+      "size": 568,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/6fa91db2dc7c3727573bfbd5a129040a33ee094a"
+    },
+    {
+      "path": "topics/flask_container_ci2/requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e1060246fd6746a14204539a72e199a25469a05",
+      "size": 6,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/7e1060246fd6746a14204539a72e199a25469a05"
+    },
+    {
+      "path": "topics/flask_container_ci2/tests.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e704559e4e606427e8504e138afaba7b8b09237",
+      "size": 607,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/8e704559e4e606427e8504e138afaba7b8b09237"
+    },
+    {
+      "path": "topics/gcp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4ed535b7b5615bde30061414c4747fddd1811764",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/4ed535b7b5615bde30061414c4747fddd1811764"
+    },
+    {
+      "path": "topics/gcp/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a63d80d7048cf5dc84fb9ee0e6e747234695e35",
+      "size": 21122,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/1a63d80d7048cf5dc84fb9ee0e6e747234695e35"
+    },
+    {
+      "path": "topics/gcp/exercises",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0979dee966976a7f444bff7bcfc381bae9272f2c",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/0979dee966976a7f444bff7bcfc381bae9272f2c"
+    },
+    {
+      "path": "topics/gcp/exercises/assign_roles",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c673154ceca05e032d0e2d7ed613b4aeb0e656c0",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/c673154ceca05e032d0e2d7ed613b4aeb0e656c0"
+    },
+    {
+      "path": "topics/gcp/exercises/assign_roles/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17e32a2976e6c45a0f65b738195e51184109968b",
+      "size": 270,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/17e32a2976e6c45a0f65b738195e51184109968b"
+    },
+    {
+      "path": "topics/gcp/exercises/assign_roles/main.tf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd73ae4839c8433d0ac9f75245cc42eed1246cf7",
+      "size": 543,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/cd73ae4839c8433d0ac9f75245cc42eed1246cf7"
+    },
+    {
+      "path": "topics/gcp/exercises/assign_roles/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfb9ac5b36e5a087512c4878ea80554743501bce",
+      "size": 627,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/dfb9ac5b36e5a087512c4878ea80554743501bce"
+    },
+    {
+      "path": "topics/gcp/exercises/assign_roles/vars.tf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9960253396431b08cb6f7bea0c6a46cb4458d806",
+      "size": 80,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/9960253396431b08cb6f7bea0c6a46cb4458d806"
+    },
+    {
+      "path": "topics/gcp/exercises/assign_roles/versions.tf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "694c710808b93b1724bdddc0ed1397e984f81c20",
+      "size": 189,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/694c710808b93b1724bdddc0ed1397e984f81c20"
+    },
+    {
+      "path": "topics/gcp/exercises/create_project",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3af19b3663d9e844228b526e69d0923f8f14901c",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/3af19b3663d9e844228b526e69d0923f8f14901c"
+    },
+    {
+      "path": "topics/gcp/exercises/create_project/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e686c753836dcf62708b753ef23a944639f28b56",
+      "size": 134,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/e686c753836dcf62708b753ef23a944639f28b56"
+    },
+    {
+      "path": "topics/gcp/exercises/create_project/main.tf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca1d0306535a24226400a81864d711feef928f74",
+      "size": 286,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/ca1d0306535a24226400a81864d711feef928f74"
+    },
+    {
+      "path": "topics/gcp/exercises/create_project/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b488ba747b826577fcf0ab74d3a4e9b417931cdc",
+      "size": 480,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/b488ba747b826577fcf0ab74d3a4e9b417931cdc"
+    },
+    {
+      "path": "topics/gcp/exercises/create_project/versions.tf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "694c710808b93b1724bdddc0ed1397e984f81c20",
+      "size": 189,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/694c710808b93b1724bdddc0ed1397e984f81c20"
+    },
+    {
+      "path": "topics/gcp/exercises/instance_101",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6bd3fe89fefe5899f7a8ed1123909043237f0c3e",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/6bd3fe89fefe5899f7a8ed1123909043237f0c3e"
+    },
+    {
+      "path": "topics/gcp/exercises/instance_101/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e01caa78dc1a40209127d6acf16f05fc73197802",
+      "size": 363,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/e01caa78dc1a40209127d6acf16f05fc73197802"
+    },
+    {
+      "path": "topics/gcp/exercises/instance_101/main.tf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c407c00da4dfd3f5759c4dd4af65e26c16d664c6",
+      "size": 557,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/c407c00da4dfd3f5759c4dd4af65e26c16d664c6"
+    },
+    {
+      "path": "topics/gcp/exercises/instance_101/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d3ac9e393de968a149573466ba3a3fe5f93316b",
+      "size": 1183,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/0d3ac9e393de968a149573466ba3a3fe5f93316b"
+    },
+    {
+      "path": "topics/gcp/exercises/instance_101/versions.tf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "694c710808b93b1724bdddc0ed1397e984f81c20",
+      "size": 189,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/694c710808b93b1724bdddc0ed1397e984f81c20"
+    },
+    {
+      "path": "topics/git",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "508dbec0126ded2277a5601438e855b874a9a384",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/508dbec0126ded2277a5601438e855b874a9a384"
+    },
+    {
+      "path": "topics/git/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99d4e403dac628e4e6aca954c17a22016bdf7510",
+      "size": 14648,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/99d4e403dac628e4e6aca954c17a22016bdf7510"
+    },
+    {
+      "path": "topics/git/branch_01.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65b78af3a6118b4fc908acacba770078a3ea4b82",
+      "size": 475,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/65b78af3a6118b4fc908acacba770078a3ea4b82"
+    },
+    {
+      "path": "topics/git/commit_01.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83a9c3c05bf5ec5279da8d0fefbe5edf10cc7ded",
+      "size": 453,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/83a9c3c05bf5ec5279da8d0fefbe5edf10cc7ded"
+    },
+    {
+      "path": "topics/git/solutions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "db80c829a7c282b13ce90a4e3db05d6d754a0da9",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/db80c829a7c282b13ce90a4e3db05d6d754a0da9"
+    },
+    {
+      "path": "topics/git/solutions/branch_01_solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d697ab717936c28d436709e8a21351a4d590f667",
+      "size": 328,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/d697ab717936c28d436709e8a21351a4d590f667"
+    },
+    {
+      "path": "topics/git/solutions/commit_01_solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21cdf3d6fa20f09d5da13bc6e822bd2a18cc4514",
+      "size": 173,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/21cdf3d6fa20f09d5da13bc6e822bd2a18cc4514"
+    },
+    {
+      "path": "topics/git/solutions/squashing_commits.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "891f60564ef8844017b6a3d9115dc283dc9ee636",
+      "size": 1514,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/891f60564ef8844017b6a3d9115dc283dc9ee636"
+    },
+    {
+      "path": "topics/git/squashing_commits.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6325008874b0399ac0e1c848fd11fe7c94a59dd7",
+      "size": 542,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/6325008874b0399ac0e1c848fd11fe7c94a59dd7"
+    },
+    {
+      "path": "topics/grafana",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "68de3afa8a307c2b4afa88082da9a5c91eb303ba",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/68de3afa8a307c2b4afa88082da9a5c91eb303ba"
+    },
+    {
+      "path": "topics/grafana/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13f1d1aab3c6580fd402e394b73d341e4423d87f",
+      "size": 8946,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/13f1d1aab3c6580fd402e394b73d341e4423d87f"
+    },
+    {
+      "path": "topics/jenkins_pipelines.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f176063f04b59ffe6bdeb08d19a1b9f2de3763af",
+      "size": 349,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/f176063f04b59ffe6bdeb08d19a1b9f2de3763af"
+    },
+    {
+      "path": "topics/jenkins_scripts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8a20ef63b2be9b221de84b9e46f7c1964efbaea",
+      "size": 330,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/d8a20ef63b2be9b221de84b9e46f7c1964efbaea"
+    },
+    {
+      "path": "topics/kafka",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d1fcd491e95bb6e8c9cad8dfd82eaa76a9c49212",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/d1fcd491e95bb6e8c9cad8dfd82eaa76a9c49212"
+    },
+    {
+      "path": "topics/kafka/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70e16a0fdb69a13d5d4fa693f34d6b9d38320430",
+      "size": 1899,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/70e16a0fdb69a13d5d4fa693f34d6b9d38320430"
+    },
+    {
+      "path": "topics/kubernetes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "661b8aa952a2a777a8dfb8780fe36e28f2d84173",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/661b8aa952a2a777a8dfb8780fe36e28f2d84173"
+    },
+    {
+      "path": "topics/kubernetes/CKA.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6084aae691b0bc6a91604388b05b10be9d98dd9",
+      "size": 21486,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/b6084aae691b0bc6a91604388b05b10be9d98dd9"
+    },
+    {
+      "path": "topics/kubernetes/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a404320f6727e3e4cab6b53be16ffe45ba8c296",
+      "size": 110920,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/6a404320f6727e3e4cab6b53be16ffe45ba8c296"
+    },
+    {
+      "path": "topics/kubernetes/exercises",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a237692a5e59194ffe62b99ad994ed4c7c8a1f25",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/a237692a5e59194ffe62b99ad994ed4c7c8a1f25"
+    },
+    {
+      "path": "topics/kubernetes/exercises/kustomize_common_labels",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dfcf558a53da060164445a8bb9c25a8f55d50866",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/dfcf558a53da060164445a8bb9c25a8f55d50866"
+    },
+    {
+      "path": "topics/kubernetes/exercises/kustomize_common_labels/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a215a835b422783536787846155acb1e9eb2cf85",
+      "size": 475,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/a215a835b422783536787846155acb1e9eb2cf85"
+    },
+    {
+      "path": "topics/kubernetes/exercises/kustomize_common_labels/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf6680001cff3a8aeda1e5801a63b84c7e429764",
+      "size": 680,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/cf6680001cff3a8aeda1e5801a63b84c7e429764"
+    },
+    {
+      "path": "topics/kubernetes/exercises/kustomize_common_labels/someApp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dd5d527461cf5135c2c01b0226a39d293002cc8e",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/dd5d527461cf5135c2c01b0226a39d293002cc8e"
+    },
+    {
+      "path": "topics/kubernetes/exercises/kustomize_common_labels/someApp/deployment.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "685c17aa68e1d5f413f2f5b469511a28937e469b",
+      "size": 341,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/685c17aa68e1d5f413f2f5b469511a28937e469b"
+    },
+    {
+      "path": "topics/kubernetes/exercises/kustomize_common_labels/someApp/service.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b6db3434b6d0741f701b2f5539949f60e316c03",
+      "size": 158,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/4b6db3434b6d0741f701b2f5539949f60e316c03"
+    },
+    {
+      "path": "topics/kubernetes/exercises/labels_and_selectors",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6f9c0e8622942c8aff235b64a5c500b33fc88252",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/6f9c0e8622942c8aff235b64a5c500b33fc88252"
+    },
+    {
+      "path": "topics/kubernetes/exercises/labels_and_selectors/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8600c2c65541a414f8cee171411667afee45d4d",
+      "size": 274,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/d8600c2c65541a414f8cee171411667afee45d4d"
+    },
+    {
+      "path": "topics/kubernetes/exercises/labels_and_selectors/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "def344ec8c816e895ea56425b18eac4cf4bd9bfd",
+      "size": 311,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/def344ec8c816e895ea56425b18eac4cf4bd9bfd"
+    },
+    {
+      "path": "topics/kubernetes/exercises/node_selectors",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0e30a42bfc6325c1326893a20cfb46d53a33e255",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/0e30a42bfc6325c1326893a20cfb46d53a33e255"
+    },
+    {
+      "path": "topics/kubernetes/exercises/node_selectors/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d588b5d9cfbcbc828ea1565b7c98b5ca326e9a3",
+      "size": 316,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/1d588b5d9cfbcbc828ea1565b7c98b5ca326e9a3"
+    },
+    {
+      "path": "topics/kubernetes/exercises/node_selectors/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b303d4eb45771f54e28b7a462cd94bd9b2cda6a",
+      "size": 771,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/5b303d4eb45771f54e28b7a462cd94bd9b2cda6a"
+    },
+    {
+      "path": "topics/kubernetes/exercises/taints_101",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bc18ea262add904a8bc0db4b04e2505bcde87a09",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/bc18ea262add904a8bc0db4b04e2505bcde87a09"
+    },
+    {
+      "path": "topics/kubernetes/exercises/taints_101/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5c2e52b145ac8d96f07fa9eeeba681ef052f025",
+      "size": 435,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/a5c2e52b145ac8d96f07fa9eeeba681ef052f025"
+    },
+    {
+      "path": "topics/kubernetes/exercises/taints_101/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26d9ca0a4ad23de63835dac239f583a492dc1096",
+      "size": 743,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/26d9ca0a4ad23de63835dac239f583a492dc1096"
+    },
+    {
+      "path": "topics/kubernetes/images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "70ac297d9181cdfe95d6301140324a43c3a6a7bb",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/70ac297d9181cdfe95d6301140324a43c3a6a7bb"
+    },
+    {
+      "path": "topics/kubernetes/images/cluster_architecture_exercise.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d50cba76979e085aa2dc09ef43c75b0f2123493d",
+      "size": 46202,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/d50cba76979e085aa2dc09ef43c75b0f2123493d"
+    },
+    {
+      "path": "topics/kubernetes/images/cluster_architecture_solution.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "535528d6951a78105b1c9b622fafa2583f5a633c",
+      "size": 44343,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/535528d6951a78105b1c9b622fafa2583f5a633c"
+    },
+    {
+      "path": "topics/kubernetes/images/service_exercise.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b924eb6930f3644cdabb2bdd224f16cdc92a34dd",
+      "size": 27380,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/b924eb6930f3644cdabb2bdd224f16cdc92a34dd"
+    },
+    {
+      "path": "topics/kubernetes/images/service_solution.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e01c4c57edc56132f8f3780eeb8ac2fd712a938",
+      "size": 25341,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/5e01c4c57edc56132f8f3780eeb8ac2fd712a938"
+    },
+    {
+      "path": "topics/kubernetes/killing_containers.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f703bee66c4718546aeaa0bb848353551a37e9e7",
+      "size": 376,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/f703bee66c4718546aeaa0bb848353551a37e9e7"
+    },
+    {
+      "path": "topics/kubernetes/pods_01.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16322c3bdd20aaecdd49da14939207480f0923da",
+      "size": 232,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/16322c3bdd20aaecdd49da14939207480f0923da"
+    },
+    {
+      "path": "topics/kubernetes/replicaset_01.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "213b34cfc2cddedcdf95ae58e1d1c8f6bbecb7a2",
+      "size": 409,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/213b34cfc2cddedcdf95ae58e1d1c8f6bbecb7a2"
+    },
+    {
+      "path": "topics/kubernetes/replicaset_02.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc1b9ad54b252de8741a787004b5b9d31b39c796",
+      "size": 337,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/fc1b9ad54b252de8741a787004b5b9d31b39c796"
+    },
+    {
+      "path": "topics/kubernetes/replicaset_03.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf6e15d46dd19dac27ba408add720268e8328b1e",
+      "size": 502,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/cf6e15d46dd19dac27ba408add720268e8328b1e"
+    },
+    {
+      "path": "topics/kubernetes/services_01.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5715d8f4aa5575fa8110e9c31df68eb7e298b63",
+      "size": 194,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/f5715d8f4aa5575fa8110e9c31df68eb7e298b63"
+    },
+    {
+      "path": "topics/kubernetes/solutions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "070bacee93eeafedc1581b2c49c54c1f4985809d",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/070bacee93eeafedc1581b2c49c54c1f4985809d"
+    },
+    {
+      "path": "topics/kubernetes/solutions/killing_containers.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de08581f85ae9d27c23f64e06e88f6f1a27e8e2a",
+      "size": 692,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/de08581f85ae9d27c23f64e06e88f6f1a27e8e2a"
+    },
+    {
+      "path": "topics/kubernetes/solutions/pods_01_solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bea89ac55357d5ac8e67cc265958d9d187cf456b",
+      "size": 96,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/bea89ac55357d5ac8e67cc265958d9d187cf456b"
+    },
+    {
+      "path": "topics/kubernetes/solutions/replicaset_01_solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c445b87578b15120ce5e01c20f0efa0f773090eb",
+      "size": 1112,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/c445b87578b15120ce5e01c20f0efa0f773090eb"
+    },
+    {
+      "path": "topics/kubernetes/solutions/replicaset_02_solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f73874a8a8eda7bc638b1ce139a66e1d8e466af",
+      "size": 1217,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/1f73874a8a8eda7bc638b1ce139a66e1d8e466af"
+    },
+    {
+      "path": "topics/kubernetes/solutions/replicaset_03_solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8c1043c67b3d6be560db8543c85514442b85a8e",
+      "size": 1343,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/e8c1043c67b3d6be560db8543c85514442b85a8e"
+    },
+    {
+      "path": "topics/kubernetes/solutions/services_01_solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da6026762b69c00c3656a3860633f05bf1ff7951",
+      "size": 320,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/da6026762b69c00c3656a3860633f05bf1ff7951"
+    },
+    {
+      "path": "topics/linux",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e08bb77ace60345df9dfa12145d052c01939f77c",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/e08bb77ace60345df9dfa12145d052c01939f77c"
+    },
+    {
+      "path": "topics/linux/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75e95da396c7fdd393dfe88fd79bbe590281f0b4",
+      "size": 79623,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/75e95da396c7fdd393dfe88fd79bbe590281f0b4"
+    },
+    {
+      "path": "topics/linux/exercises",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "05b89f89f8e005902f50b80969dff72767e1a0db",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/05b89f89f8e005902f50b80969dff72767e1a0db"
+    },
+    {
+      "path": "topics/linux/exercises/copy",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e63942c50eeb169b8f3e65300a26dac0b071516c",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/e63942c50eeb169b8f3e65300a26dac0b071516c"
+    },
+    {
+      "path": "topics/linux/exercises/copy/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b07d9539010fca759c44836d18b0e62760e37f0",
+      "size": 449,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/5b07d9539010fca759c44836d18b0e62760e37f0"
+    },
+    {
+      "path": "topics/linux/exercises/copy/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da3592686f28fc6ee50ad713eb7836a66a78989c",
+      "size": 544,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/da3592686f28fc6ee50ad713eb7836a66a78989c"
+    },
+    {
+      "path": "topics/linux/exercises/create_remove",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "529765f4a99881d92e4c6f568fb255e3be4a910f",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/529765f4a99881d92e4c6f568fb255e3be4a910f"
+    },
+    {
+      "path": "topics/linux/exercises/create_remove/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c07d94ed4645a82d10a4b5a0253c2ac14ee38605",
+      "size": 384,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/c07d94ed4645a82d10a4b5a0253c2ac14ee38605"
+    },
+    {
+      "path": "topics/linux/exercises/create_remove/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1019727bf0181ff6d851f3515154d32ac8433ce0",
+      "size": 442,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/1019727bf0181ff6d851f3515154d32ac8433ce0"
+    },
+    {
+      "path": "topics/linux/exercises/navigation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a666b1b9a6a012246b90a2df0e2b498bb0c5cfdf",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/a666b1b9a6a012246b90a2df0e2b498bb0c5cfdf"
+    },
+    {
+      "path": "topics/linux/exercises/navigation/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37d5e464b621009c0b8dc0abd25f63bc0fdad77e",
+      "size": 359,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/37d5e464b621009c0b8dc0abd25f63bc0fdad77e"
+    },
+    {
+      "path": "topics/linux/exercises/navigation/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b35855fe7496092673b61d84bb30e89719997972",
+      "size": 371,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/b35855fe7496092673b61d84bb30e89719997972"
+    },
+    {
+      "path": "topics/linux/exercises/uniqe_count",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ef8646f7c7ce679a78634632576032dc5ac31a8a",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/ef8646f7c7ce679a78634632576032dc5ac31a8a"
+    },
+    {
+      "path": "topics/linux/exercises/uniqe_count/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c79cc953d9c94e53f8d24078ba2124bbdca23fb",
+      "size": 258,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/8c79cc953d9c94e53f8d24078ba2124bbdca23fb"
+    },
+    {
+      "path": "topics/linux/exercises/uniqe_count/ip_list",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e0587975ce102a4763f34618688c2cc888eb0e2",
+      "size": 2549,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/1e0587975ce102a4763f34618688c2cc888eb0e2"
+    },
+    {
+      "path": "topics/linux/exercises/uniqe_count/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "134ffb42983844a5844acff9264919f5c1ff721b",
+      "size": 272,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/134ffb42983844a5844acff9264919f5c1ff721b"
+    },
+    {
+      "path": "topics/misc",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9d5c51e0dbbfd95a3f0cf2c95738bbaef33f8f8e",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/9d5c51e0dbbfd95a3f0cf2c95738bbaef33f8f8e"
+    },
+    {
+      "path": "topics/misc/elk_kibana_aws.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfccdd3e9c63881ce91315653f8bdb50ad3efcee",
+      "size": 1586,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/bfccdd3e9c63881ce91315653f8bdb50ad3efcee"
+    },
+    {
+      "path": "topics/node",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "64f40cdbc826e16c0afbeded1098fb7a781f2cb6",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/64f40cdbc826e16c0afbeded1098fb7a781f2cb6"
+    },
+    {
+      "path": "topics/node/node_questions_basic.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcdcfd6717304df02c576e92f7104223f92fdd41",
+      "size": 648,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/dcdcfd6717304df02c576e92f7104223f92fdd41"
+    },
+    {
+      "path": "topics/node/solutions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5694cab8cb606f9f2aa996c3eec7e0b9a2f56555",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/5694cab8cb606f9f2aa996c3eec7e0b9a2f56555"
+    },
+    {
+      "path": "topics/node/solutions/node_questions_basic_ans.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa413f0c2020d271d8c66921fa4a1700b7b396df",
+      "size": 1167,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/fa413f0c2020d271d8c66921fa4a1700b7b396df"
+    },
+    {
+      "path": "topics/observability",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "19f2a3f9a2e2822277e2ccc8f2762eb3874bd0de",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/19f2a3f9a2e2822277e2ccc8f2762eb3874bd0de"
+    },
+    {
+      "path": "topics/observability/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3da5713017b3ca7ee882066ee37a8746d2be005",
+      "size": 2782,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/c3da5713017b3ca7ee882066ee37a8746d2be005"
+    },
+    {
+      "path": "topics/openshift",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "96eb07e53caf70ce82a368d9a01e8dd383262533",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/96eb07e53caf70ce82a368d9a01e8dd383262533"
+    },
+    {
+      "path": "topics/openshift/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "637f299807036cef4a2905b936c70ed6b348d54c",
+      "size": 10001,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/637f299807036cef4a2905b936c70ed6b348d54c"
+    },
+    {
+      "path": "topics/openshift/projects_101.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "654b3e4744de93462f39ae482eb1b32bea28b45c",
+      "size": 265,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/654b3e4744de93462f39ae482eb1b32bea28b45c"
+    },
+    {
+      "path": "topics/openshift/solutions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "94b00007a2ed11e8bce366cafefa2c4d332fc033",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/94b00007a2ed11e8bce366cafefa2c4d332fc033"
+    },
+    {
+      "path": "topics/openshift/solutions/my_first_app.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c342920c304a9fa2b1bb497ecc310cd3930f522",
+      "size": 226,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/4c342920c304a9fa2b1bb497ecc310cd3930f522"
+    },
+    {
+      "path": "topics/openshift/solutions/projects_101.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b44cd682ad96dfc528bb688f835d28260e1e91ad",
+      "size": 416,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/b44cd682ad96dfc528bb688f835d28260e1e91ad"
+    },
+    {
+      "path": "topics/os",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c0e9520e0f351b4561b780eb047a60385b0f2da9",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/c0e9520e0f351b4561b780eb047a60385b0f2da9"
+    },
+    {
+      "path": "topics/os/fork_101.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5dd612b45d1f22c48d0fd9714036e9104bc9f3a0",
+      "size": 280,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/5dd612b45d1f22c48d0fd9714036e9104bc9f3a0"
+    },
+    {
+      "path": "topics/os/fork_102.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "084c664a5807a66acf8d8c854b532e83efc6e2eb",
+      "size": 291,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/084c664a5807a66acf8d8c854b532e83efc6e2eb"
+    },
+    {
+      "path": "topics/os/solutions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e888341ccc865c32bd77dc381932effcc566d9a6",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/e888341ccc865c32bd77dc381932effcc566d9a6"
+    },
+    {
+      "path": "topics/os/solutions/fork_101_solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "579af3c8fec250b2e0f9260550d208c00722a1ce",
+      "size": 34,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/579af3c8fec250b2e0f9260550d208c00722a1ce"
+    },
+    {
+      "path": "topics/os/solutions/fork_102_solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1d918be3d42023ce4473791cb4dc7cbf4a30d2d",
+      "size": 34,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/a1d918be3d42023ce4473791cb4dc7cbf4a30d2d"
+    },
+    {
+      "path": "topics/perl",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "399207cd2cce2d45a18e276c46894b5c003cc889",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/399207cd2cce2d45a18e276c46894b5c003cc889"
+    },
+    {
+      "path": "topics/perl/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "273f065ed5c6b9b1d83d821e76fb9198c0b1c049",
+      "size": 14260,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/273f065ed5c6b9b1d83d821e76fb9198c0b1c049"
+    },
+    {
+      "path": "topics/pipeline_deploy_image_to_k8.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc3c6ee19f22e8385e927c576f7276eed5a84432",
+      "size": 216,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/bc3c6ee19f22e8385e927c576f7276eed5a84432"
+    },
+    {
+      "path": "topics/programming",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1a339830ae195c8fcaec21852a1d3f4189837d5c",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/1a339830ae195c8fcaec21852a1d3f4189837d5c"
+    },
+    {
+      "path": "topics/programming/grep_berfore_and_after.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6de7a1c197a1ed161abd55df1aa5671808ef4ba9",
+      "size": 108,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/6de7a1c197a1ed161abd55df1aa5671808ef4ba9"
+    },
+    {
+      "path": "topics/programming/web_scraper.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a08f21265b5d5e64293d416218ae13f0264febac",
+      "size": 316,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/a08f21265b5d5e64293d416218ae13f0264febac"
+    },
+    {
+      "path": "topics/python",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1f1549918b979d6ef47b8734aff51c03ab313a0c",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/1f1549918b979d6ef47b8734aff51c03ab313a0c"
+    },
+    {
+      "path": "topics/python/advanced_data_types.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40a4aa479c333124d4192f17543c0edf9000c980",
+      "size": 214,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/40a4aa479c333124d4192f17543c0edf9000c980"
+    },
+    {
+      "path": "topics/python/class_0x00.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65a0048b95e86c476719db90d53718fd1175d764",
+      "size": 108,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/65a0048b95e86c476719db90d53718fd1175d764"
+    },
+    {
+      "path": "topics/python/compress_string.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20bbad13e2b8271188ecfe9cf8a9ed02a99b3105",
+      "size": 234,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/20bbad13e2b8271188ecfe9cf8a9ed02a99b3105"
+    },
+    {
+      "path": "topics/python/data_types.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "978f3722deb3c4236f30a98b98589a2b508e7789",
+      "size": 297,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/978f3722deb3c4236f30a98b98589a2b508e7789"
+    },
+    {
+      "path": "topics/python/reverse_string.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e7ecc18e58bb809f58480c6f21f55982efabd88",
+      "size": 57,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/7e7ecc18e58bb809f58480c6f21f55982efabd88"
+    },
+    {
+      "path": "topics/python/solutions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5306c904a7bae2e226926f867be443fd7578fc45",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/5306c904a7bae2e226926f867be443fd7578fc45"
+    },
+    {
+      "path": "topics/python/solutions/advanced_data_types_solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "068b56de0ff3ba9b8b83da07cae2b1ea98a764cb",
+      "size": 253,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/068b56de0ff3ba9b8b83da07cae2b1ea98a764cb"
+    },
+    {
+      "path": "topics/python/solutions/class_0x00_solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc28ee63b2b8ef525bd2c1726a28272ba2c16471",
+      "size": 1328,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/cc28ee63b2b8ef525bd2c1726a28272ba2c16471"
+    },
+    {
+      "path": "topics/python/solutions/compress_string_solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1a137e4730e12760959afaa617ae23990c4777a",
+      "size": 735,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/b1a137e4730e12760959afaa617ae23990c4777a"
+    },
+    {
+      "path": "topics/python/solutions/data_types_solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "074f27f89d191f3b6549f1edb20894c773783b8b",
+      "size": 234,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/074f27f89d191f3b6549f1edb20894c773783b8b"
+    },
+    {
+      "path": "topics/python/solutions/reverse_string.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ea68742efbbe413c6ff30a4392751864fd9230f",
+      "size": 236,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/9ea68742efbbe413c6ff30a4392751864fd9230f"
+    },
+    {
+      "path": "topics/python/solutions/sort_solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ba86e56018f0a0d8c52508729bf507b1885082f",
+      "size": 598,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/9ba86e56018f0a0d8c52508729bf507b1885082f"
+    },
+    {
+      "path": "topics/python/sort.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f4eefa9906c256e80727a9fa4067afc57c3adbc",
+      "size": 238,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/9f4eefa9906c256e80727a9fa4067afc57c3adbc"
+    },
+    {
+      "path": "topics/security",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b95e3f1526beb1d887ce90cd60d682db2e5f48d2",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/b95e3f1526beb1d887ce90cd60d682db2e5f48d2"
+    },
+    {
+      "path": "topics/security/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1d151fa6f6d07ab16e40dbf5d617a43893825ee",
+      "size": 33489,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/f1d151fa6f6d07ab16e40dbf5d617a43893825ee"
+    },
+    {
+      "path": "topics/shell",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6f20c2c85d80411c06fb53d269d36adab081580b",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/6f20c2c85d80411c06fb53d269d36adab081580b"
+    },
+    {
+      "path": "topics/shell/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ec3c63ecef15aec66b055364347f437071c5e7a",
+      "size": 7888,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/2ec3c63ecef15aec66b055364347f437071c5e7a"
+    },
+    {
+      "path": "topics/shell/argument_check.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "134b9894e8c0af5867c93ac96be00a39b28f291a",
+      "size": 276,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/134b9894e8c0af5867c93ac96be00a39b28f291a"
+    },
+    {
+      "path": "topics/shell/basic_date.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "963872da6196d45f2ce846def013d16d5c0e29af",
+      "size": 112,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/963872da6196d45f2ce846def013d16d5c0e29af"
+    },
+    {
+      "path": "topics/shell/count_chars.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14a4a5da505400e9b8a5c17dd82a483bee8628cb",
+      "size": 253,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/14a4a5da505400e9b8a5c17dd82a483bee8628cb"
+    },
+    {
+      "path": "topics/shell/directories_comparison.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ade0272a11934226bc4fb4d06578b5ff75d06de8",
+      "size": 157,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/ade0272a11934226bc4fb4d06578b5ff75d06de8"
+    },
+    {
+      "path": "topics/shell/empty_files.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b01daed7e158085cebb9e07ec996944f8d4e0947",
+      "size": 132,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/b01daed7e158085cebb9e07ec996944f8d4e0947"
+    },
+    {
+      "path": "topics/shell/factors.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7bc5a63f86fc048b7f9eedb3e44b79ec2e144f5",
+      "size": 321,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/a7bc5a63f86fc048b7f9eedb3e44b79ec2e144f5"
+    },
+    {
+      "path": "topics/shell/files_size.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f3e1849f193dca1785b1a9b49cd4ef79dcdb2d5",
+      "size": 136,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/5f3e1849f193dca1785b1a9b49cd4ef79dcdb2d5"
+    },
+    {
+      "path": "topics/shell/great_day.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ec64dfc77aeeab6cdcbfda35b6f2e362c01f126",
+      "size": 240,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/3ec64dfc77aeeab6cdcbfda35b6f2e362c01f126"
+    },
+    {
+      "path": "topics/shell/hello_world.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c4bca91969fd3f4dd0e9d203c5b58e8dba2c33c",
+      "size": 208,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/9c4bca91969fd3f4dd0e9d203c5b58e8dba2c33c"
+    },
+    {
+      "path": "topics/shell/host_status.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae96c969f104b5b6f22bdb583c020bbc793835c4",
+      "size": 98,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/ae96c969f104b5b6f22bdb583c020bbc793835c4"
+    },
+    {
+      "path": "topics/shell/num_of_args.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb07f653ff76f394b4ba77357adb6d2fd7e23d8a",
+      "size": 278,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/fb07f653ff76f394b4ba77357adb6d2fd7e23d8a"
+    },
+    {
+      "path": "topics/shell/print_arguments.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b41aa85e0c9e207e352e31e9d67982488aea9585",
+      "size": 227,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/b41aa85e0c9e207e352e31e9d67982488aea9585"
+    },
+    {
+      "path": "topics/shell/solutions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f2cece563e6d605735ae1e49ed0fc5993c5234d6",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/f2cece563e6d605735ae1e49ed0fc5993c5234d6"
+    },
+    {
+      "path": "topics/shell/solutions/argument_check.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55bf560c766048ef541b8d9a73be76889e579a92",
+      "size": 391,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/55bf560c766048ef541b8d9a73be76889e579a92"
+    },
+    {
+      "path": "topics/shell/solutions/basic_date.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dce8f4f8ce015b90df92ec2624ca9649adbc49d",
+      "size": 184,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/8dce8f4f8ce015b90df92ec2624ca9649adbc49d"
+    },
+    {
+      "path": "topics/shell/solutions/count_chars.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e4b85a15cf29e40873f9e3d7e937827f7c134c0",
+      "size": 429,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/5e4b85a15cf29e40873f9e3d7e937827f7c134c0"
+    },
+    {
+      "path": "topics/shell/solutions/directories_comparison.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9719c303e642305175d4f2715781fb01c5aca6d",
+      "size": 767,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/f9719c303e642305175d4f2715781fb01c5aca6d"
+    },
+    {
+      "path": "topics/shell/solutions/empty_files.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4858a548f4249c9ef29b134f658aa0fd3f44bd1",
+      "size": 264,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/e4858a548f4249c9ef29b134f658aa0fd3f44bd1"
+    },
+    {
+      "path": "topics/shell/solutions/factors.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ffc2857f21600a2eb9132fdddae454abe0335db",
+      "size": 455,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/0ffc2857f21600a2eb9132fdddae454abe0335db"
+    },
+    {
+      "path": "topics/shell/solutions/files_size.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df5d1edde6e1d70ee755bd5e0aee82d92cf07641",
+      "size": 247,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/df5d1edde6e1d70ee755bd5e0aee82d92cf07641"
+    },
+    {
+      "path": "topics/shell/solutions/great_day.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7fa4e408e3a5ec077f559d014ad997da32edbd3",
+      "size": 319,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/f7fa4e408e3a5ec077f559d014ad997da32edbd3"
+    },
+    {
+      "path": "topics/shell/solutions/hello_world.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51c9dce4b658e9b6fadda19f744e4c67a0346c46",
+      "size": 307,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/51c9dce4b658e9b6fadda19f744e4c67a0346c46"
+    },
+    {
+      "path": "topics/shell/solutions/host_status.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a526d6e43a00e562ae16eb3ce3726dd759578c38",
+      "size": 345,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/a526d6e43a00e562ae16eb3ce3726dd759578c38"
+    },
+    {
+      "path": "topics/shell/solutions/num_of_args.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc9ade6c0d861ded0ef73c64ee9ca47b0aa0e749",
+      "size": 507,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/cc9ade6c0d861ded0ef73c64ee9ca47b0aa0e749"
+    },
+    {
+      "path": "topics/shell/solutions/sum.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "148f8bcf7f093a1eafa94ad4fbc3f892f44a1a60",
+      "size": 465,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/148f8bcf7f093a1eafa94ad4fbc3f892f44a1a60"
+    },
+    {
+      "path": "topics/shell/sum.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca416bda986907152ecdcbbe022f03fc5c074100",
+      "size": 261,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/ca416bda986907152ecdcbbe022f03fc5c074100"
+    },
+    {
+      "path": "topics/soft_skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aae497e17179769d3472ba5853fa425fec725f07",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/aae497e17179769d3472ba5853fa425fec725f07"
+    },
+    {
+      "path": "topics/soft_skills/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc5bf3ea168cbd5a2db599562c0e4c6e6fd0ad2d",
+      "size": 3279,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/bc5bf3ea168cbd5a2db599562c0e4c6e6fd0ad2d"
+    },
+    {
+      "path": "topics/software_development",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1f3c3d40abe3e65c74e657a04d6329d54db34557",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/1f3c3d40abe3e65c74e657a04d6329d54db34557"
+    },
+    {
+      "path": "topics/software_development/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a16d3a9c842eabbf02df0496912b44491b05bded",
+      "size": 15110,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/a16d3a9c842eabbf02df0496912b44491b05bded"
+    },
+    {
+      "path": "topics/sql",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "405932f5562726293a86af7c9cbfb2bcaf9cfb45",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/405932f5562726293a86af7c9cbfb2bcaf9cfb45"
+    },
+    {
+      "path": "topics/sql/improve_query.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8819445d5561f5d1843ef36b0c8a332153ac37c7",
+      "size": 179,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/8819445d5561f5d1843ef36b0c8a332153ac37c7"
+    },
+    {
+      "path": "topics/sql/solutions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3a995f708009d51871ea0f5d5e0bdfa81194efbf",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/3a995f708009d51871ea0f5d5e0bdfa81194efbf"
+    },
+    {
+      "path": "topics/sql/solutions/improve_query.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f3eaaa710a8930b5933966017b37d740fd66fe0",
+      "size": 161,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/1f3eaaa710a8930b5933966017b37d740fd66fe0"
+    },
+    {
+      "path": "topics/sre",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eb214ed2ddcd451ccfb4151dee3c7c00ba00a3a1",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/eb214ed2ddcd451ccfb4151dee3c7c00ba00a3a1"
+    },
+    {
+      "path": "topics/sre/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f7b5d59fcbf8e17df265513d6597ff67ae982d9",
+      "size": 2664,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/2f7b5d59fcbf8e17df265513d6597ff67ae982d9"
+    },
+    {
+      "path": "topics/terraform",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d1598f5a68cd03246b632ec8461411d9e5fc3622",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/d1598f5a68cd03246b632ec8461411d9e5fc3622"
+    },
+    {
+      "path": "topics/terraform/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "083eebce153b095472a43abad61a094d2c745009",
+      "size": 73618,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/083eebce153b095472a43abad61a094d2c745009"
+    },
+    {
+      "path": "topics/terraform/exercises",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5c1c69f8e9b6a3970327d9726e631c6bee1eb3b7",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/5c1c69f8e9b6a3970327d9726e631c6bee1eb3b7"
+    },
+    {
+      "path": "topics/terraform/exercises/launch_ec2_instance",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "35e36fea75f79e91a33ef24c3b8fbefbaaf93481",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/35e36fea75f79e91a33ef24c3b8fbefbaaf93481"
+    },
+    {
+      "path": "topics/terraform/exercises/launch_ec2_instance/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79edab00ee3afea7da2c7852fa91bc2ce2432a31",
+      "size": 313,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/79edab00ee3afea7da2c7852fa91bc2ce2432a31"
+    },
+    {
+      "path": "topics/terraform/exercises/launch_ec2_instance/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ef5d610826240d44c0dee424a5e9de1f82f35c0",
+      "size": 1366,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/1ef5d610826240d44c0dee424a5e9de1f82f35c0"
+    },
+    {
+      "path": "topics/terraform/exercises/launch_ec2_web_instance",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ab9029df55993174180f5c6874dec803b2336f4f",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/ab9029df55993174180f5c6874dec803b2336f4f"
+    },
+    {
+      "path": "topics/terraform/exercises/launch_ec2_web_instance/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "topics/terraform/exercises/s3_bucket_rename",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "603f55aa373f18e5be1a5b947ead1dc9bd3fb588",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/603f55aa373f18e5be1a5b947ead1dc9bd3fb588"
+    },
+    {
+      "path": "topics/terraform/exercises/s3_bucket_rename/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2d92dd6f1eac2ef6521491b42880a9ec36a1e44",
+      "size": 557,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/f2d92dd6f1eac2ef6521491b42880a9ec36a1e44"
+    },
+    {
+      "path": "topics/terraform/exercises/s3_bucket_rename/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "622328be0e02f0da8b1b6900e961e26ec1f74e5a",
+      "size": 1712,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/622328be0e02f0da8b1b6900e961e26ec1f74e5a"
+    },
+    {
+      "path": "topics/terraform/exercises/terraform_local_provider",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c3fa97a28ad8deef0e6c2ca98a12d04fac47a403",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/c3fa97a28ad8deef0e6c2ca98a12d04fac47a403"
+    },
+    {
+      "path": "topics/terraform/exercises/terraform_local_provider/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c27f8df836a42261b2ab777e9503b4509919a6e",
+      "size": 573,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/8c27f8df836a42261b2ab777e9503b4509919a6e"
+    },
+    {
+      "path": "topics/terraform/exercises/terraform_local_provider/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fdde4effee7dceaf073bbcb7e15791de6b9d816",
+      "size": 1756,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/3fdde4effee7dceaf073bbcb7e15791de6b9d816"
+    },
+    {
+      "path": "topics/terraform/exercises/vpc_subnet_creation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "358134b3edb801f93376c98ff88d10f3f74030ee",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/358134b3edb801f93376c98ff88d10f3f74030ee"
+    },
+    {
+      "path": "topics/terraform/exercises/vpc_subnet_creation/exercise.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45c52520e7362e6fd2390a9cc6303f50d80d6e0b",
+      "size": 726,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/45c52520e7362e6fd2390a9cc6303f50d80d6e0b"
+    },
+    {
+      "path": "topics/terraform/exercises/vpc_subnet_creation/solution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c047c14a88bed85943a1803db20e2321471ff6c",
+      "size": 1685,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/1c047c14a88bed85943a1803db20e2321471ff6c"
+    },
+    {
+      "path": "topics/zuul",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "36567bdf19fe52772a05d5dfcb6ab2153bc9e1c6",
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/trees/36567bdf19fe52772a05d5dfcb6ab2153bc9e1c6"
+    },
+    {
+      "path": "topics/zuul/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e78cfccc11cc3d29596101298b7414ff3737690",
+      "size": 1412,
+      "url": "https://api.github.com/repos/bregman-arie/devops-exercises/git/blobs/4e78cfccc11cc3d29596101298b7414ff3737690"
+    }
+  ],
+  "truncated": false
+}

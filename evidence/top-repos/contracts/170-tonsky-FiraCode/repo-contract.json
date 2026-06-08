@@ -1,0 +1,56 @@
+{
+  "harvested_at": "2026-06-07T20:49:20.1323910+03:00",
+  "rank": 170,
+  "repository": "tonsky/FiraCode",
+  "url": "https://github.com/tonsky/FiraCode",
+  "language": "Clojure",
+  "stars": 81702,
+  "default_branch": "master",
+  "contract_strength": "readme_plus_runtime_hints",
+  "candidate_qaas_surfaces": [
+    "containerized-runtime-smoke",
+    "ci-documented-command-discovery",
+    "repo-contract-discovery-needed"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\170-tonsky-FiraCode\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\170-tonsky-FiraCode\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [],
+    "ci": [
+      ".github/workflows/build.yml"
+    ],
+    "containers": [
+      "Dockerfile"
+    ],
+    "dotnet": [],
+    "node": [
+      "package.json"
+    ],
+    "python": [
+      "googlefonts-qa/scripts/requirements.txt",
+      "requirements.txt"
+    ],
+    "go": [],
+    "java": [],
+    "rust": [],
+    "docs": [
+      "CHANGELOG.md",
+      "README.md",
+      "README_CN.md",
+      "README_JA.md",
+      "distr/README.txt",
+      "docs/calt_performance.md",
+      "googlefonts-qa/README.md"
+    ],
+    "tests": [
+      "distr/specimen.html"
+    ]
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\170-tonsky-FiraCode\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\170-tonsky-FiraCode\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

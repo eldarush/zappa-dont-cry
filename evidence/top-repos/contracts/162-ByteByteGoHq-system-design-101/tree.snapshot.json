@@ -1,0 +1,3441 @@
+{
+  "sha": "b28380a4710c5ec9638ec037d4168e288f334cba",
+  "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/trees/b28380a4710c5ec9638ec037d4168e288f334cba",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1a08205bd68141cf3bb6ed4379db6f9ab8415f01",
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/trees/1a08205bd68141cf3bb6ed4379db6f9ab8415f01"
+    },
+    {
+      "path": ".github/banner.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c69e89d015211bd3bd188a15d3702700fb51bd7",
+      "size": 1007798,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/3c69e89d015211bd3bd188a15d3702700fb51bd7"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6bc3b643ae83bb7fb927a6f2064bee00269e69eb",
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/trees/6bc3b643ae83bb7fb927a6f2064bee00269e69eb"
+    },
+    {
+      "path": ".github/workflows/welcome.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efccc0ff757b31123190c218875587b33fd1f9f7",
+      "size": 775,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/efccc0ff757b31123190c218875587b33fd1f9f7"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9fe04b29f129235e850cb928d8047b9f587e6c8",
+      "size": 820,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/c9fe04b29f129235e850cb928d8047b9f587e6c8"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17fceb92b2259569102256ab4ddce7d75349972b",
+      "size": 910,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/17fceb92b2259569102256ab4ddce7d75349972b"
+    },
+    {
+      "path": "LICENSE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25ba80770e90ee8ae6178efda900f57a190e4447",
+      "size": 897,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/25ba80770e90ee8ae6178efda900f57a190e4447"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a75df39b6f3efbff31365615ea0dd052004ab4b",
+      "size": 45873,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/0a75df39b6f3efbff31365615ea0dd052004ab4b"
+    },
+    {
+      "path": "data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e5be4cd75fe3a5a538832c99d158e13c15e0cc8f",
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/trees/e5be4cd75fe3a5a538832c99d158e13c15e0cc8f"
+    },
+    {
+      "path": "data/categories",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "07f8754ddc869f62bf5a29ab2bae2aecd13e5b4a",
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/trees/07f8754ddc869f62bf5a29ab2bae2aecd13e5b4a"
+    },
+    {
+      "path": "data/categories/ai-machine-learning.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "debf70c4f83afe7a981734627657d62e9af17307",
+      "size": 631,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/debf70c4f83afe7a981734627657d62e9af17307"
+    },
+    {
+      "path": "data/categories/api-web-development.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b0e3bcf7e5e54b475d146a8de3193670ec5bc55",
+      "size": 802,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/4b0e3bcf7e5e54b475d146a8de3193670ec5bc55"
+    },
+    {
+      "path": "data/categories/caching-performance.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a91157c388375bf896862e0cbb67c838deac9e8d",
+      "size": 659,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/a91157c388375bf896862e0cbb67c838deac9e8d"
+    },
+    {
+      "path": "data/categories/cloud-distributed-systems.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fccc2b19e5cb1548b5f48f9125ed11a3fa21105a",
+      "size": 592,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/fccc2b19e5cb1548b5f48f9125ed11a3fa21105a"
+    },
+    {
+      "path": "data/categories/computer-fundamentals.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb5a75c6796714c02ae5f2607f32962f0ae8362e",
+      "size": 648,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/eb5a75c6796714c02ae5f2607f32962f0ae8362e"
+    },
+    {
+      "path": "data/categories/database-and-storage.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d05a6c6b6e1286e05fbbfa2b8f0e520fec496864",
+      "size": 682,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/d05a6c6b6e1286e05fbbfa2b8f0e520fec496864"
+    },
+    {
+      "path": "data/categories/devops-cicd.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "680c63de9dec2e1c17618d25613b1a9a1d8599c1",
+      "size": 982,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/680c63de9dec2e1c17618d25613b1a9a1d8599c1"
+    },
+    {
+      "path": "data/categories/devtools-productivity.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09e11a26148922279b613dbfe9067b8a4be712f7",
+      "size": 543,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/09e11a26148922279b613dbfe9067b8a4be712f7"
+    },
+    {
+      "path": "data/categories/how-it-works.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3da2ab6000013ce5bf6ee67018a37845b10e5723",
+      "size": 467,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/3da2ab6000013ce5bf6ee67018a37845b10e5723"
+    },
+    {
+      "path": "data/categories/payment-and-fintech.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3a73e01d6da8f15528fa8c35b2f198361c1b47d",
+      "size": 505,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/e3a73e01d6da8f15528fa8c35b2f198361c1b47d"
+    },
+    {
+      "path": "data/categories/real-world-case-studies.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b636ef7298f9ce84da1df3b7887684fcb3c3cdca",
+      "size": 572,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/b636ef7298f9ce84da1df3b7887684fcb3c3cdca"
+    },
+    {
+      "path": "data/categories/security.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d8b28386a5ae2df8ea40f3c4e4c9e238e093859",
+      "size": 626,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/0d8b28386a5ae2df8ea40f3c4e4c9e238e093859"
+    },
+    {
+      "path": "data/categories/software-architecture.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3390e261b93bb248a2a5e39918300552c9885dbe",
+      "size": 853,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/3390e261b93bb248a2a5e39918300552c9885dbe"
+    },
+    {
+      "path": "data/categories/software-development.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b28ba6cc18f154d192ad8dd5f9221dd52c88fed7",
+      "size": 655,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/b28ba6cc18f154d192ad8dd5f9221dd52c88fed7"
+    },
+    {
+      "path": "data/categories/technical-interviews.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81d0a317644ba055264872976aa71842c27665d0",
+      "size": 638,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/81d0a317644ba055264872976aa71842c27665d0"
+    },
+    {
+      "path": "data/guides",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f0f453370c3a58d6cd823dc6a7ffe153d50f6be4",
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/trees/f0f453370c3a58d6cd823dc6a7ffe153d50f6be4"
+    },
+    {
+      "path": "data/guides/10-books-for-software-developers.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2c3231c77020fa193eb39788a2cd807f420c02f",
+      "size": 1265,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/e2c3231c77020fa193eb39788a2cd807f420c02f"
+    },
+    {
+      "path": "data/guides/10-essential-components-of-a-production-web-application.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e1c06752bda7d1ef720d0b38431ed67003aa612",
+      "size": 1514,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/0e1c06752bda7d1ef720d0b38431ed67003aa612"
+    },
+    {
+      "path": "data/guides/10-good-coding-principles-to-improve-code-quality.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74ea3f372613479c6400fbe056e65a7aed3650ec",
+      "size": 2974,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/74ea3f372613479c6400fbe056e65a7aed3650ec"
+    },
+    {
+      "path": "data/guides/10-key-data-structures-we-use-every-day.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4407c102e2c74dab5cb995fe656cc7319da10fd9",
+      "size": 1042,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/4407c102e2c74dab5cb995fe656cc7319da10fd9"
+    },
+    {
+      "path": "data/guides/10-principles-for-building-resilient-payment-systems-by-shopify.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c7e81aff912ca876c847eddafeef37fc8a6e3c2",
+      "size": 2081,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/6c7e81aff912ca876c847eddafeef37fc8a6e3c2"
+    },
+    {
+      "path": "data/guides/10-system-design-tradeoffs-you-cannot-ignore.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0a0384ee8c0d03213636fbb0515b51c0e6b53a3",
+      "size": 2515,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/b0a0384ee8c0d03213636fbb0515b51c0e6b53a3"
+    },
+    {
+      "path": "data/guides/100x-postgres-scaling-at-figma.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f10f81e144591b782b3c524253497ca20b53304",
+      "size": 1628,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/4f10f81e144591b782b3c524253497ca20b53304"
+    },
+    {
+      "path": "data/guides/11-steps-to-go-from-junior-to-senior-developer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50ec32bb699bbe1931f15d112f0f9d1c1c586259",
+      "size": 2024,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/50ec32bb699bbe1931f15d112f0f9d1c1c586259"
+    },
+    {
+      "path": "data/guides/15-open-source-projects-that-changed-the-world.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3e68967e299923706cd2c6edf1ca18b393d27d1",
+      "size": 2480,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/f3e68967e299923706cd2c6edf1ca18b393d27d1"
+    },
+    {
+      "path": "data/guides/18-common-ports-worth-knowing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70619157d286e9709be0cbf23f23e4de37c7d40c",
+      "size": 1424,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/70619157d286e9709be0cbf23f23e4de37c7d40c"
+    },
+    {
+      "path": "data/guides/18-key-design-patterns-every-developer-should-know.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9ef0c3f56a367688cc1f249d63da271f7939b5a",
+      "size": 2232,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/d9ef0c3f56a367688cc1f249d63da271f7939b5a"
+    },
+    {
+      "path": "data/guides/2-decades-of-cloud-evolution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fda763ed04316b9030b13d22756c2932dc8652b7",
+      "size": 874,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/fda763ed04316b9030b13d22756c2932dc8652b7"
+    },
+    {
+      "path": "data/guides/20-popular-open-source-projects-started-or-supported-by-big-companies.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dc5e57ac03b1195e9101ee89b8ac4dd2e20f713",
+      "size": 819,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/1dc5e57ac03b1195e9101ee89b8ac4dd2e20f713"
+    },
+    {
+      "path": "data/guides/25-papers-that-completely-transformed-the-computer-world.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d02c7d04b8a63de57cbdbd19819aab16cf442204",
+      "size": 4494,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/d02c7d04b8a63de57cbdbd19819aab16cf442204"
+    },
+    {
+      "path": "data/guides/30-useful-ai-apps-that-can-help-you-in-2025.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed915b3b90fe19788bd159c14e3ba44f8d429d3f",
+      "size": 1410,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/ed915b3b90fe19788bd159c14e3ba44f8d429d3f"
+    },
+    {
+      "path": "data/guides/4-ways-netflix-uses-caching-to-hold-user-attention.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f362dae5eef29360a1bccfc1c794c68734e2bf4",
+      "size": 1924,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/2f362dae5eef29360a1bccfc1c794c68734e2bf4"
+    },
+    {
+      "path": "data/guides/4-ways-of-qr-code-payment.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f894d1ce7a3aead33f4e12f9ed59001a9ca2fe6",
+      "size": 1674,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/8f894d1ce7a3aead33f4e12f9ed59001a9ca2fe6"
+    },
+    {
+      "path": "data/guides/5-functions-to-merge-data-with-pandas.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "359698c15ed2e3342b308160db5721867b2094d1",
+      "size": 1270,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/359698c15ed2e3342b308160db5721867b2094d1"
+    },
+    {
+      "path": "data/guides/5-http-status-codes-that-should-never-have-been-created.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d63c0502ba9eef0ac71cd3f4bc926c995ebdc986",
+      "size": 883,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/d63c0502ba9eef0ac71cd3f4bc926c995ebdc986"
+    },
+    {
+      "path": "data/guides/5-important-components-of-linux.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "470fd596090e468416d2cbd3c764014e026bab21",
+      "size": 1135,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/470fd596090e468416d2cbd3c764014e026bab21"
+    },
+    {
+      "path": "data/guides/6-software-architectural-patterns-you-must-know.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48edd71ff9e49e036d2c9389616371ae57797e25",
+      "size": 2224,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/48edd71ff9e49e036d2c9389616371ae57797e25"
+    },
+    {
+      "path": "data/guides/7-must-know-strategies-to-scale-your-database.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b74b227315c4608dacce9408036c8e8acac124d",
+      "size": 1137,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/9b74b227315c4608dacce9408036c8e8acac124d"
+    },
+    {
+      "path": "data/guides/8-common-system-design-problems-and-solutions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78e1f2680a9573dbd78f252b26ecbd7f23bbb617",
+      "size": 1470,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/78e1f2680a9573dbd78f252b26ecbd7f23bbb617"
+    },
+    {
+      "path": "data/guides/8-data-structures-that-power-your-databases.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f83ea4abf38f9ec0269ce3f1ef20bd242bfc984",
+      "size": 1378,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/2f83ea4abf38f9ec0269ce3f1ef20bd242bfc984"
+    },
+    {
+      "path": "data/guides/8-key-concepts-in-ddd.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e306a395ae60b99d24b51a9c439ad5ff6915fdea",
+      "size": 1997,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/e306a395ae60b99d24b51a9c439ad5ff6915fdea"
+    },
+    {
+      "path": "data/guides/8-key-oop-concepts-every-developer-should-know.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5f0a43ab0fec4e74d652e7948d5beb1a66f8869",
+      "size": 1250,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/e5f0a43ab0fec4e74d652e7948d5beb1a66f8869"
+    },
+    {
+      "path": "data/guides/8-must-know-scalability-strategies.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dd5b45d3a0eb9caf317299cf9215539b23c1781",
+      "size": 1536,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/9dd5b45d3a0eb9caf317299cf9215539b23c1781"
+    },
+    {
+      "path": "data/guides/8-tips-for-efficient-api-design.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96a8ec7a3dbb4adec04dba3087838e34de5a05b0",
+      "size": 1507,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/96a8ec7a3dbb4adec04dba3087838e34de5a05b0"
+    },
+    {
+      "path": "data/guides/9-best-practices-for-building-microservices.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98b9672b3a593ac0fb0aed2a7bd2667737a9f879",
+      "size": 2360,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/98b9672b3a593ac0fb0aed2a7bd2667737a9f879"
+    },
+    {
+      "path": "data/guides/9-best-practices-for-developing-microservices.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f93c99af941135202d82e1fddea60fc7cbc7510e",
+      "size": 901,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/f93c99af941135202d82e1fddea60fc7cbc7510e"
+    },
+    {
+      "path": "data/guides/9-docker-best-practices-you-must-know.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "664fa5a8725c78a94f810faa0a5b72041d4c4de6",
+      "size": 1365,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/664fa5a8725c78a94f810faa0a5b72041d4c4de6"
+    },
+    {
+      "path": "data/guides/9-essential-components-of-a-production-microservice-application.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30f8d6c637db66ff0e23c61c76877f30e53ea4e8",
+      "size": 1904,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/30f8d6c637db66ff0e23c61c76877f30e53ea4e8"
+    },
+    {
+      "path": "data/guides/a-beginner's-guide-to-cdn-content-delivery-network.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95bc699430e19c646b0986ed5be6e00d8de3e882",
+      "size": 1567,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/95bc699430e19c646b0986ed5be6e00d8de3e882"
+    },
+    {
+      "path": "data/guides/a-brief-history-og-programming-languages.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb62dcd71e0eff391c7a137a1bcc8e589ae00daf",
+      "size": 2090,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/eb62dcd71e0eff391c7a137a1bcc8e589ae00daf"
+    },
+    {
+      "path": "data/guides/a-cheat-sheet-for-api-designs.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e51e00a07bdb56e2ab1772d618f234aab41207b",
+      "size": 1852,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/1e51e00a07bdb56e2ab1772d618f234aab41207b"
+    },
+    {
+      "path": "data/guides/a-cheat-sheet-for-designing-fault-tolerant-systems.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d19fb06852875f3db0b4c4d8c41821de643e236f",
+      "size": 1467,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/d19fb06852875f3db0b4c4d8c41821de643e236f"
+    },
+    {
+      "path": "data/guides/a-cheat-sheet-for-system-designs.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2744c19268d2219117378bcac38f65467c11e8d",
+      "size": 861,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/c2744c19268d2219117378bcac38f65467c11e8d"
+    },
+    {
+      "path": "data/guides/a-cheatsheet-for-uml-class-diagrams.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7f3920ed4d0a927809e6ee046fd05a3af1fbf2e",
+      "size": 1343,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/f7f3920ed4d0a927809e6ee046fd05a3af1fbf2e"
+    },
+    {
+      "path": "data/guides/a-cheatsheet-on-comparing-api-architectural-styles.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0877a94ff2bf18e5626cd824d325f5eb6c2e5efd",
+      "size": 574,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/0877a94ff2bf18e5626cd824d325f5eb6c2e5efd"
+    },
+    {
+      "path": "data/guides/a-cheatsheet-on-database-performance.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9ce7e311363b1c2994ed99ec6a7cf62222177a1",
+      "size": 2012,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/f9ce7e311363b1c2994ed99ec6a7cf62222177a1"
+    },
+    {
+      "path": "data/guides/a-cheatsheet-on-infrastructure-as-code-landscape.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1c68c07a5e6dc8eff85ca46d0c299ccec13b902",
+      "size": 1551,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/e1c68c07a5e6dc8eff85ca46d0c299ccec13b902"
+    },
+    {
+      "path": "data/guides/a-cheatsheet-to-build-secure-apis.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "456be8c1c8bb73c4429c48318823ede8c3d14273",
+      "size": 1681,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/456be8c1c8bb73c4429c48318823ede8c3d14273"
+    },
+    {
+      "path": "data/guides/a-crash-course-in-database-sharding.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2efa987cb830b5b388502b5a3879db7f8546d51",
+      "size": 3299,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/a2efa987cb830b5b388502b5a3879db7f8546d51"
+    },
+    {
+      "path": "data/guides/a-crash-course-on-architectural-scalability.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f2179283bfba0008cf5ac474c2252fddd486b04",
+      "size": 1720,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/5f2179283bfba0008cf5ac474c2252fddd486b04"
+    },
+    {
+      "path": "data/guides/a-roadmap-for-full-stack-development.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03ee45df40accd7f89537124f23be756d091a5e7",
+      "size": 1630,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/03ee45df40accd7f89537124f23be756d091a5e7"
+    },
+    {
+      "path": "data/guides/airbnb-artchitectural-evolution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e462ec0e25798bd0588cb6e957bb312cd11ab6f4",
+      "size": 1892,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/e462ec0e25798bd0588cb6e957bb312cd11ab6f4"
+    },
+    {
+      "path": "data/guides/algorithms-you-should-know-before-taking-system-design-interviews.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ad544a9e2b8d8f18aff92b8025ab97b3cb8192f",
+      "size": 1253,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/0ad544a9e2b8d8f18aff92b8025ab97b3cb8192f"
+    },
+    {
+      "path": "data/guides/amazon-prime-video-monitoring-service.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05ea194bd0725030f4b1b3a58ff43c79854383f2",
+      "size": 2769,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/05ea194bd0725030f4b1b3a58ff43c79854383f2"
+    },
+    {
+      "path": "data/guides/api-gateway-101.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2eb6b08ce0d1643a4e376575c13aaa0bf8c4bf77",
+      "size": 1372,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/2eb6b08ce0d1643a4e376575c13aaa0bf8c4bf77"
+    },
+    {
+      "path": "data/guides/api-of-apis-app-integrations.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38bf57d3e15b8fad825e8f3648221b1c9e8eae80",
+      "size": 674,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/38bf57d3e15b8fad825e8f3648221b1c9e8eae80"
+    },
+    {
+      "path": "data/guides/api-vs-sdk.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8189347ed06bb008dae7ee2f6f8c9a69c4173b1f",
+      "size": 1511,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/8189347ed06bb008dae7ee2f6f8c9a69c4173b1f"
+    },
+    {
+      "path": "data/guides/aws-services-cheat-sheet.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "823755960fcc4baa0f752ccfabdf7d4a3fc642b7",
+      "size": 1202,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/823755960fcc4baa0f752ccfabdf7d4a3fc642b7"
+    },
+    {
+      "path": "data/guides/aws-services-evolution.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c25a477085164312d4cbc1339912cce676dc9e9",
+      "size": 1526,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/5c25a477085164312d4cbc1339912cce676dc9e9"
+    },
+    {
+      "path": "data/guides/azure-services-cheat-sheet.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fd3d93458fdc6e90e3bace05a5a7c5bc1ee576c",
+      "size": 1210,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/1fd3d93458fdc6e90e3bace05a5a7c5bc1ee576c"
+    },
+    {
+      "path": "data/guides/b-tree-vs.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "479812584386c3fa2fcc138088b3c3861373f347",
+      "size": 1132,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/479812584386c3fa2fcc138088b3c3861373f347"
+    },
+    {
+      "path": "data/guides/big-data-pipeline-cheatsheet-for-aws-azure-and-google-cloud.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42de0cc9c2d0930e751d0653de3b05e0448f3825",
+      "size": 1299,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/42de0cc9c2d0930e751d0653de3b05e0448f3825"
+    },
+    {
+      "path": "data/guides/big-endian-vs-little-endian.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8347df44201fda4ea7b2464f1b919c877e26b6b7",
+      "size": 1355,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/8347df44201fda4ea7b2464f1b919c877e26b6b7"
+    },
+    {
+      "path": "data/guides/blocking-vs-non-blocking-queue.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32d7c3224fe8a361eb5d868a186f89c45b4a0070",
+      "size": 2303,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/32d7c3224fe8a361eb5d868a186f89c45b4a0070"
+    },
+    {
+      "path": "data/guides/build-a-simple-chat-application.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f459ac51e02c1629ff433880c02413dc4b65c7e9",
+      "size": 1749,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/f459ac51e02c1629ff433880c02413dc4b65c7e9"
+    },
+    {
+      "path": "data/guides/cache-miss-attack.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8840897665e1507962853743aecb72f7248bc6f",
+      "size": 1503,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/a8840897665e1507962853743aecb72f7248bc6f"
+    },
+    {
+      "path": "data/guides/cache-systems-every-developer-should-know.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "872c07839ec3c16d8272e16a6b9f21d59ce196d9",
+      "size": 2403,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/872c07839ec3c16d8272e16a6b9f21d59ce196d9"
+    },
+    {
+      "path": "data/guides/can-kafka-lose-messages.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecd210e8a64e8c28b349408c756d70cf615c9146",
+      "size": 2302,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/ecd210e8a64e8c28b349408c756d70cf615c9146"
+    },
+    {
+      "path": "data/guides/cap-base-solid-kiss-what-do-these-acronyms-mean.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e31f002bc981e591f0922640289115c4e05f6aa3",
+      "size": 2326,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/e31f002bc981e591f0922640289115c4e05f6aa3"
+    },
+    {
+      "path": "data/guides/cap-theorem-one-of-the-most-misunderstood-terms.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a101f9377710093e7a7ed242972553fd9f3ab80",
+      "size": 2206,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/5a101f9377710093e7a7ed242972553fd9f3ab80"
+    },
+    {
+      "path": "data/guides/change-data-capture-key-to-leverage-real-time-data.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9eaec49bb113f99c3886899b2cbcad6fde082faa",
+      "size": 2214,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/9eaec49bb113f99c3886899b2cbcad6fde082faa"
+    },
+    {
+      "path": "data/guides/chatgpt-timeline.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5306126da22400194d9824eb1fc55c2474e37ee1",
+      "size": 1782,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/5306126da22400194d9824eb1fc55c2474e37ee1"
+    },
+    {
+      "path": "data/guides/choose-the-right-database-for-metric-collecting-system.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d80be54a3f60746a94a54c5e04c3ed7842b5d7fb",
+      "size": 2627,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/d80be54a3f60746a94a54c5e04c3ed7842b5d7fb"
+    },
+    {
+      "path": "data/guides/cicd-pipeline-explained-in-simple-terms.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb6936d2e0bb1385253716eadc0a51a1378b3f44",
+      "size": 1998,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/eb6936d2e0bb1385253716eadc0a51a1378b3f44"
+    },
+    {
+      "path": "data/guides/cicd-simplified-visual-guide.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97257178f41717bdd36919c42c511b4e36d12278",
+      "size": 1132,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/97257178f41717bdd36919c42c511b4e36d12278"
+    },
+    {
+      "path": "data/guides/cloud-comparison-cheat-sheet.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54d5f449c8996d339f77d4150b5a6a61a7be436f",
+      "size": 637,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/54d5f449c8996d339f77d4150b5a6a61a7be436f"
+    },
+    {
+      "path": "data/guides/cloud-cost-reduction-techniques.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "384934941bd6e726d35faa08763fd00bf6f4e6f3",
+      "size": 2016,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/384934941bd6e726d35faa08763fd00bf6f4e6f3"
+    },
+    {
+      "path": "data/guides/cloud-database-cheat-sheet.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e7160c83deb2fbcf37f4167f65c1f99a5bd39ee",
+      "size": 1028,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/9e7160c83deb2fbcf37f4167f65c1f99a5bd39ee"
+    },
+    {
+      "path": "data/guides/cloud-disaster-recovery-strategies.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69be5677441c3923d4e90c40746daca28dbbb222",
+      "size": 2062,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/69be5677441c3923d4e90c40746daca28dbbb222"
+    },
+    {
+      "path": "data/guides/cloud-load-balancer-cheat-sheet.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1009e111597ff9cdbb85e34555547dfb409ac9d0",
+      "size": 1303,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/1009e111597ff9cdbb85e34555547dfb409ac9d0"
+    },
+    {
+      "path": "data/guides/cloud-monitoring-cheat-sheet.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3ba70b8d401c2e86dd69f74576d953bd15462c7",
+      "size": 1553,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/e3ba70b8d401c2e86dd69f74576d953bd15462c7"
+    },
+    {
+      "path": "data/guides/cloud-native-anti-patterns.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0089c010c7fbb64cad0920884711149d3129e35c",
+      "size": 2076,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/0089c010c7fbb64cad0920884711149d3129e35c"
+    },
+    {
+      "path": "data/guides/concurrency-is-not-parallelism.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb12aaa60ff8d46c780460b00811d057ae935fed",
+      "size": 2446,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/cb12aaa60ff8d46c780460b00811d057ae935fed"
+    },
+    {
+      "path": "data/guides/consistent-hashing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e00758bbe3376c4db0993712c28a1177895f45d",
+      "size": 2587,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/4e00758bbe3376c4db0993712c28a1177895f45d"
+    },
+    {
+      "path": "data/guides/cookies-vs-sessions-vs-jwt-vs-paseto.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba8d970626ef5ab6d570faf35ace512de959c6f8",
+      "size": 1563,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/ba8d970626ef5ab6d570faf35ace512de959c6f8"
+    },
+    {
+      "path": "data/guides/cybersecurity-101-in-one-picture.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a58691dbbcca44ac6baf97d99ec0571c47ce14b4",
+      "size": 906,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/a58691dbbcca44ac6baf97d99ec0571c47ce14b4"
+    },
+    {
+      "path": "data/guides/data-pipelines-overview.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d110acb6477e1e8335092b819363e63342d6b40f",
+      "size": 1686,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/d110acb6477e1e8335092b819363e63342d6b40f"
+    },
+    {
+      "path": "data/guides/database-middleware.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47a2ed029d9a66a4fde2bc8141aad09aed5d61b3",
+      "size": 2116,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/47a2ed029d9a66a4fde2bc8141aad09aed5d61b3"
+    },
+    {
+      "path": "data/guides/deepseek-1-pager.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45d4a5ff09706a195cc3ad359fe354b0a6a4cf18",
+      "size": 1770,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/45d4a5ff09706a195cc3ad359fe354b0a6a4cf18"
+    },
+    {
+      "path": "data/guides/delivery-semantics.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "daef1398a2c81e6e15c2d5be2944624da4d9e739",
+      "size": 2054,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/daef1398a2c81e6e15c2d5be2944624da4d9e739"
+    },
+    {
+      "path": "data/guides/design-gmail.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13f66d906826a75ba7d12880c8e41f5f414bc56a",
+      "size": 1180,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/13f66d906826a75ba7d12880c8e41f5f414bc56a"
+    },
+    {
+      "path": "data/guides/design-google-maps.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "945282d045c9aebef36d6797260b05ecda90bbd5",
+      "size": 2186,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/945282d045c9aebef36d6797260b05ecda90bbd5"
+    },
+    {
+      "path": "data/guides/design-patterns-cheat-sheet-part-1-and-part-2.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c78a4fa2acf23756ad6f5e7d404204ebf9cae0c",
+      "size": 612,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/4c78a4fa2acf23756ad6f5e7d404204ebf9cae0c"
+    },
+    {
+      "path": "data/guides/design-stock-exchange.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf983f9ac7868980fbf9523a0ab4b397dddbd67e",
+      "size": 1768,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/bf983f9ac7868980fbf9523a0ab4b397dddbd67e"
+    },
+    {
+      "path": "data/guides/devops-vs-noops.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e856ee75faf14004786d9ba7ed35e91d93b8521",
+      "size": 1281,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/9e856ee75faf14004786d9ba7ed35e91d93b8521"
+    },
+    {
+      "path": "data/guides/devops-vs-sre-vs-paltform-engg.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29f0169a87ebd59ee585290bff7773cc24e33235",
+      "size": 1823,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/29f0169a87ebd59ee585290bff7773cc24e33235"
+    },
+    {
+      "path": "data/guides/diagram-as-code.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cedee97e071ae50bde2ec1da5b8558d41e406ea1",
+      "size": 888,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/cedee97e071ae50bde2ec1da5b8558d41e406ea1"
+    },
+    {
+      "path": "data/guides/differences-in-event-sourcing-system-design.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5855e41a9fe5c17c47f78806bcaf60f8bdfef014",
+      "size": 929,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/5855e41a9fe5c17c47f78806bcaf60f8bdfef014"
+    },
+    {
+      "path": "data/guides/digital-wallet-in-traditional-banks-vs-wallet-in-blockchain.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c985a08a57d652fcef248e42ca678e60bf03b700",
+      "size": 2359,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/c985a08a57d652fcef248e42ca678e60bf03b700"
+    },
+    {
+      "path": "data/guides/dns-record-types-you-should-know.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ace65bb57cbbf0c17de9639eeaf17d51b8eea1c",
+      "size": 1664,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/5ace65bb57cbbf0c17de9639eeaf17d51b8eea1c"
+    },
+    {
+      "path": "data/guides/do-you-know-all-the-components-of-a-url.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef790d94e564b33ea7966995cd9d6c4d009c4858",
+      "size": 1065,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/ef790d94e564b33ea7966995cd9d6c4d009c4858"
+    },
+    {
+      "path": "data/guides/do-you-know-why-meta-google-and-amazon-all-stop-using-leap-seconds.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1aca5937f4d951fb56d70b48f5e5b7df19163ca7",
+      "size": 960,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/1aca5937f4d951fb56d70b48f5e5b7df19163ca7"
+    },
+    {
+      "path": "data/guides/e-commerce-workflow.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb5f798a76c67e757e5a43f4a90213650fde93f0",
+      "size": 2312,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/bb5f798a76c67e757e5a43f4a90213650fde93f0"
+    },
+    {
+      "path": "data/guides/encoding-vs-encryption-vs-tokenization.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e3b9573101bd629726a1c0cbeef3048f5d91bef",
+      "size": 2322,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/6e3b9573101bd629726a1c0cbeef3048f5d91bef"
+    },
+    {
+      "path": "data/guides/erasure-coding.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecb49c4b2910516ff6939de002e38626e418e255",
+      "size": 1780,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/ecb49c4b2910516ff6939de002e38626e418e255"
+    },
+    {
+      "path": "data/guides/evolution-of-airbnb's-microservice.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad8af0a8a9767488ccdd4f6b90553b15ff9c251f",
+      "size": 1674,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/ad8af0a8a9767488ccdd4f6b90553b15ff9c251f"
+    },
+    {
+      "path": "data/guides/evolution-of-the-netflix-api-architecture.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e25858555ef20adfdfca6c1c853f417e89e14aa",
+      "size": 1340,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/5e25858555ef20adfdfca6c1c853f417e89e14aa"
+    },
+    {
+      "path": "data/guides/evolution-of-uber's-api-layer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08f8f4620e8d29e9c7b322ffb729351c10a211db",
+      "size": 1121,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/08f8f4620e8d29e9c7b322ffb729351c10a211db"
+    },
+    {
+      "path": "data/guides/explain-the-top-6-use-cases-of-object-stores.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9bf577250b2635a228bc47a061f0f8f5ebf4e44",
+      "size": 2682,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/c9bf577250b2635a228bc47a061f0f8f5ebf4e44"
+    },
+    {
+      "path": "data/guides/explaining-5-unique-id-generators-in-distributed-systems.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70ff4595d22da724c293abf65d03811d959a47fa",
+      "size": 2155,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/70ff4595d22da724c293abf65d03811d959a47fa"
+    },
+    {
+      "path": "data/guides/explaining-8-popular-network-protocols-in-1-diagram.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "079a6ebae3bd9694279b6977a5a20a945b85bddf",
+      "size": 2465,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/079a6ebae3bd9694279b6977a5a20a945b85bddf"
+    },
+    {
+      "path": "data/guides/explaining-9-types-of-api-testing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfb763005e5240e76e7309efb8df1dd4f750f486",
+      "size": 1657,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/dfb763005e5240e76e7309efb8df1dd4f750f486"
+    },
+    {
+      "path": "data/guides/explaining-json-web-token-jwt-to-a-10-year-old-kid.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e9fa9ac65a9880876d89abf54fab00287937c8c",
+      "size": 1575,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/2e9fa9ac65a9880876d89abf54fab00287937c8c"
+    },
+    {
+      "path": "data/guides/explaining-sessions-tokens-jwt-sso-and-oauth-in-one-diagram.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f23b467eb7b943ab4acda2f2f14ff267f7fe92b",
+      "size": 593,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/4f23b467eb7b943ab4acda2f2f14ff267f7fe92b"
+    },
+    {
+      "path": "data/guides/explaining-the-4-most-commonly-used-types-of-queues-in-a-single-diagram.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f5fab2f04e00c58b7be6463ebfe4116880018dc",
+      "size": 1968,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/9f5fab2f04e00c58b7be6463ebfe4116880018dc"
+    },
+    {
+      "path": "data/guides/firewall-explained-to-kids-and-adults.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55c8d512fbc30cbff78d0caf3919d7a5dbaabd32",
+      "size": 1546,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/55c8d512fbc30cbff78d0caf3919d7a5dbaabd32"
+    },
+    {
+      "path": "data/guides/fixing-bugs-automatically-at-meta-scale.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c93c47f0a670e947a2fd42d0cdb1ee424a0b7a1",
+      "size": 2213,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/1c93c47f0a670e947a2fd42d0cdb1ee424a0b7a1"
+    },
+    {
+      "path": "data/guides/foreign-exchange-payments.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6aac661fa839781b6e18d7e18a009b10832f33d4",
+      "size": 2087,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/6aac661fa839781b6e18d7e18a009b10832f33d4"
+    },
+    {
+      "path": "data/guides/git-commands-cheat-sheet.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73b46ff4820fd31e6cb0a07883d14910c00b2660",
+      "size": 1749,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/73b46ff4820fd31e6cb0a07883d14910c00b2660"
+    },
+    {
+      "path": "data/guides/git-merge-vs-git-rebate.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae20ed3ccc6edab98a934a0881839e5efd0dda33",
+      "size": 1299,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/ae20ed3ccc6edab98a934a0881839e5efd0dda33"
+    },
+    {
+      "path": "data/guides/git-vs-github.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00c4028d2b62fbfc4fc855211da258e46a5894b8",
+      "size": 1486,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/00c4028d2b62fbfc4fc855211da258e46a5894b8"
+    },
+    {
+      "path": "data/guides/git-workflow.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e22db1cfbaecd2747c1b883a4ea6f20eb775c509",
+      "size": 599,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/e22db1cfbaecd2747c1b883a4ea6f20eb775c509"
+    },
+    {
+      "path": "data/guides/graphql-adoption-patterns.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6f5bf3b052d704e2f4b0395d3594fe6c6f9429d",
+      "size": 1720,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/c6f5bf3b052d704e2f4b0395d3594fe6c6f9429d"
+    },
+    {
+      "path": "data/guides/handling-hotspot-accounts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55794a6e0dce852e5530aeb016be2372b50c812f",
+      "size": 1842,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/55794a6e0dce852e5530aeb016be2372b50c812f"
+    },
+    {
+      "path": "data/guides/hidden-costs-of-the-cloud.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58d8b04c3c605d375646657d494b5721b6bf9037",
+      "size": 2452,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/58d8b04c3c605d375646657d494b5721b6bf9037"
+    },
+    {
+      "path": "data/guides/how-applegoogle-pay-works.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6be0af3bcaf5adc2fe15eeb6b74e9151ea5713f3",
+      "size": 1959,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/6be0af3bcaf5adc2fe15eeb6b74e9151ea5713f3"
+    },
+    {
+      "path": "data/guides/how-are-notifications-pushed-to-our-phones-or-pcs.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97f42208c1b085adea6838faf9ed025b9c5c8efa",
+      "size": 2051,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/97f42208c1b085adea6838faf9ed025b9c5c8efa"
+    },
+    {
+      "path": "data/guides/how-can-cache-systems-go-wrong.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1725edaa06c37e858fbf38021d3d515dd16b84ba",
+      "size": 2040,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/1725edaa06c37e858fbf38021d3d515dd16b84ba"
+    },
+    {
+      "path": "data/guides/how-can-redis-be-used.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9b97cef5d61c5e34f277e1d6243981cc261408c",
+      "size": 1338,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/a9b97cef5d61c5e34f277e1d6243981cc261408c"
+    },
+    {
+      "path": "data/guides/how-digital-signatures-work.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d085e39cdfb37d2c2c845541414e0231686d732",
+      "size": 2100,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/7d085e39cdfb37d2c2c845541414e0231686d732"
+    },
+    {
+      "path": "data/guides/how-discord-stores-trillions-of-messages.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b02016e8fa1c9b084cd51e23b186825b9104ef2",
+      "size": 1784,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/8b02016e8fa1c9b084cd51e23b186825b9104ef2"
+    },
+    {
+      "path": "data/guides/how-do-airtags-work.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecf50a67a55346fc38d4b5d2b4d275f9d05a6377",
+      "size": 1293,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/ecf50a67a55346fc38d4b5d2b4d275f9d05a6377"
+    },
+    {
+      "path": "data/guides/how-do-big-keys-impact-redis-persistence.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa36a2655ee23de73ff3d3b36fbf92856617058e",
+      "size": 1564,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/aa36a2655ee23de73ff3d3b36fbf92856617058e"
+    },
+    {
+      "path": "data/guides/how-do-c++-java-python-work.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db8677a1909382cdb05fae6e9b3936be82e1bbab",
+      "size": 1042,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/db8677a1909382cdb05fae6e9b3936be82e1bbab"
+    },
+    {
+      "path": "data/guides/how-do-companies-ship-code-to-production.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fa6a1a7f735d129052238f6bbb1406ca724c76f",
+      "size": 1618,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/9fa6a1a7f735d129052238f6bbb1406ca724c76f"
+    },
+    {
+      "path": "data/guides/how-do-computer-programs-run.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cb901177e597fa1bcda5e35c0939e60fabb98e6",
+      "size": 1899,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/7cb901177e597fa1bcda5e35c0939e60fabb98e6"
+    },
+    {
+      "path": "data/guides/how-do-googleapple-maps-blur-license-plates-and-human-faces-on-street-view.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6c687e47039312e5a5f298fa30545326061847f",
+      "size": 1441,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/c6c687e47039312e5a5f298fa30545326061847f"
+    },
+    {
+      "path": "data/guides/how-do-message-queue-architectures-evolve.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f029406f5ab35fbcfe1711dd2b96973cc1afdf7",
+      "size": 2238,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/3f029406f5ab35fbcfe1711dd2b96973cc1afdf7"
+    },
+    {
+      "path": "data/guides/how-do-processes-talk-to-each-other-on-linux.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "628e5a95b9c78de07430d04e5442f871723a4fda",
+      "size": 1661,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/628e5a95b9c78de07430d04e5442f871723a4fda"
+    },
+    {
+      "path": "data/guides/how-do-search-engines-work.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7342179cf9cca0e463a20934fb711bc4ef969d69",
+      "size": 1827,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/7342179cf9cca0e463a20934fb711bc4ef969d69"
+    },
+    {
+      "path": "data/guides/how-do-sql-joins-work.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fae6a42aadb1667f71a76d44d7fedaedb9c20cab",
+      "size": 809,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/fae6a42aadb1667f71a76d44d7fedaedb9c20cab"
+    },
+    {
+      "path": "data/guides/how-do-we-design-a-chat-application-like-whatsapp-facebook-messenger-or-discord.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9456b313d004e3cb7e41a0cd18d14d9453e005ad",
+      "size": 1411,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/9456b313d004e3cb7e41a0cd18d14d9453e005ad"
+    },
+    {
+      "path": "data/guides/how-do-we-design-a-permission-system.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a8501c66c0a96e07b238ec9fe0df8a253c9929f",
+      "size": 1559,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/8a8501c66c0a96e07b238ec9fe0df8a253c9929f"
+    },
+    {
+      "path": "data/guides/how-do-we-design-a-secure-system.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "203782be8cca260523b87301b39dce6314e92420",
+      "size": 1060,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/203782be8cca260523b87301b39dce6314e92420"
+    },
+    {
+      "path": "data/guides/how-do-we-design-a-system-for-internationalization.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "043fdc78a1229ac9249bd0f817decf23b9a5ff30",
+      "size": 2105,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/043fdc78a1229ac9249bd0f817decf23b9a5ff30"
+    },
+    {
+      "path": "data/guides/how-do-we-design-effective-and-safe-apis.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3280da5aee38918188b6921ca16cfd11ba6f8bd4",
+      "size": 745,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/3280da5aee38918188b6921ca16cfd11ba6f8bd4"
+    },
+    {
+      "path": "data/guides/how-do-we-design-for-high-availability.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5fd7f2f0a99e0f2e27b8848e5f22c30f69550fc",
+      "size": 2379,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/e5fd7f2f0a99e0f2e27b8848e5f22c30f69550fc"
+    },
+    {
+      "path": "data/guides/how-do-we-detect-node-failures-in-distributed-systems.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65c2ee5289e371f761742aa7e76fecbe12695275",
+      "size": 2516,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/65c2ee5289e371f761742aa7e76fecbe12695275"
+    },
+    {
+      "path": "data/guides/how-do-we-incorporate-event-sourcing-into-the-systems.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "839bac2b82e55826953f098a80b6f2bde4bc1f97",
+      "size": 1508,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/839bac2b82e55826953f098a80b6f2bde4bc1f97"
+    },
+    {
+      "path": "data/guides/how-do-we-learn-elasticsearch.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca26c8f7d00132bf5a7ee28aa0371032803eea6e",
+      "size": 1129,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/ca26c8f7d00132bf5a7ee28aa0371032803eea6e"
+    },
+    {
+      "path": "data/guides/how-do-we-manage-configurations-in-a-system.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b777ad5d11f210bf1b61cab0d02c693e8a0e43f",
+      "size": 1769,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/7b777ad5d11f210bf1b61cab0d02c693e8a0e43f"
+    },
+    {
+      "path": "data/guides/how-do-we-manage-data.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7044ce4497f9eee2f7cb7f2a46167f5cb9054213",
+      "size": 3204,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/7044ce4497f9eee2f7cb7f2a46167f5cb9054213"
+    },
+    {
+      "path": "data/guides/how-do-we-manage-sensitive-data-in-a-system.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bac6975085fc1f980894f89eca8fe46162fb441",
+      "size": 2797,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/6bac6975085fc1f980894f89eca8fe46162fb441"
+    },
+    {
+      "path": "data/guides/how-do-we-perform-pagination-in-api-design.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3806b02792a7b40aa17dde4950f79e52fc9b2783",
+      "size": 2722,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/3806b02792a7b40aa17dde4950f79e52fc9b2783"
+    },
+    {
+      "path": "data/guides/how-do-we-retry-on-failures.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4920d7ea031ee8cccfeb117bf3ab33c366d10d23",
+      "size": 2838,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/4920d7ea031ee8cccfeb117bf3ab33c366d10d23"
+    },
+    {
+      "path": "data/guides/how-do-we-transform-a-system-to-be-cloud-native.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b911c65442d86bde37ed87fba665f10d703effb4",
+      "size": 812,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/b911c65442d86bde37ed87fba665f10d703effb4"
+    },
+    {
+      "path": "data/guides/how-do-you-decide-which-type-of-database-to-use.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a319073fb2adf8556993ff6477adfa1f1353554b",
+      "size": 1164,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/a319073fb2adf8556993ff6477adfa1f1353554b"
+    },
+    {
+      "path": "data/guides/how-does-a-password-manager-such-as-1password-or-lastpass-work.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84e87cbbe5317d3f784f692f244e8a781e3fce84",
+      "size": 1861,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/84e87cbbe5317d3f784f692f244e8a781e3fce84"
+    },
+    {
+      "path": "data/guides/how-does-a-typical-push-notification-system-work.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69ece5f8f5151de8c61b983eda5023e558b031ac",
+      "size": 1755,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/69ece5f8f5151de8c61b983eda5023e558b031ac"
+    },
+    {
+      "path": "data/guides/how-does-a-vpn-work.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d667d9732d0b18c5eb2697433be1c5ee38f37ee6",
+      "size": 1389,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/d667d9732d0b18c5eb2697433be1c5ee38f37ee6"
+    },
+    {
+      "path": "data/guides/how-does-ach-payment-work.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fb5dfe105de89c6df42d70c29e663055d7110cb",
+      "size": 2501,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/1fb5dfe105de89c6df42d70c29e663055d7110cb"
+    },
+    {
+      "path": "data/guides/how-does-amazon-build-system-work.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a17f17b334e98782ff142d7edc4994f4824e715c",
+      "size": 2189,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/a17f17b334e98782ff142d7edc4994f4824e715c"
+    },
+    {
+      "path": "data/guides/how-does-aws-lambda-work-behind-the-scenes.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8758bee83052c3e9bf75691e27ae7b451c3ee71d",
+      "size": 2044,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/8758bee83052c3e9bf75691e27ae7b451c3ee71d"
+    },
+    {
+      "path": "data/guides/how-does-chatgpt-work.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05f603b2357133ec25d2d1358ae2dfc9e5b97648",
+      "size": 2457,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/05f603b2357133ec25d2d1358ae2dfc9e5b97648"
+    },
+    {
+      "path": "data/guides/how-does-cnd-work.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "525753ef344324dde45d76a08ee99e3b0b75264d",
+      "size": 3038,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/525753ef344324dde45d76a08ee99e3b0b75264d"
+    },
+    {
+      "path": "data/guides/how-does-docker-work.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fe7b2678517c405c6d96e9b47f6ef9dfefdfa50",
+      "size": 1244,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/5fe7b2678517c405c6d96e9b47f6ef9dfefdfa50"
+    },
+    {
+      "path": "data/guides/how-does-garbage-collection-work.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecbd2812a4071a2007caf39f177b0a8da33cad41",
+      "size": 1667,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/ecbd2812a4071a2007caf39f177b0a8da33cad41"
+    },
+    {
+      "path": "data/guides/how-does-git-work.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "737f2ed45dcb47fac25a4b55b4dd0713609ba047",
+      "size": 1032,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/737f2ed45dcb47fac25a4b55b4dd0713609ba047"
+    },
+    {
+      "path": "data/guides/how-does-google-authenticator-or-other-types-of-2-factor-authenticators-work.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9283f996b1794a605e958f73fa7aa31f224452fe",
+      "size": 2717,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/9283f996b1794a605e958f73fa7aa31f224452fe"
+    },
+    {
+      "path": "data/guides/how-does-graphql-work-in-the-real-world.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c797467c26a0cddf718069ad98ba332dcac55b9",
+      "size": 1523,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/7c797467c26a0cddf718069ad98ba332dcac55b9"
+    },
+    {
+      "path": "data/guides/how-does-grpc-work.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da39fb58d0a338dfb6eed07b9a6ce0afc4e11e1a",
+      "size": 1531,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/da39fb58d0a338dfb6eed07b9a6ce0afc4e11e1a"
+    },
+    {
+      "path": "data/guides/how-does-https-work.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd9cda613eebba9d6fc83cab1c39090bb11365d8",
+      "size": 2041,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/cd9cda613eebba9d6fc83cab1c39090bb11365d8"
+    },
+    {
+      "path": "data/guides/how-does-javascript-work.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3249fd95b8fda5acf1571cd35c760c23408a7da",
+      "size": 3093,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/f3249fd95b8fda5acf1571cd35c760c23408a7da"
+    },
+    {
+      "path": "data/guides/how-does-netflix-scale-push-messaging-for-millions-of-devices.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "171929ed59b3053c563a11d6eeaf4219d4db30e5",
+      "size": 1550,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/171929ed59b3053c563a11d6eeaf4219d4db30e5"
+    },
+    {
+      "path": "data/guides/how-does-redis-persist-data.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a23000ab490693b08d2a37d0942790accbd0bd12",
+      "size": 2206,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/a23000ab490693b08d2a37d0942790accbd0bd12"
+    },
+    {
+      "path": "data/guides/how-does-rest-api-work.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcee2a827d5d79d60466db0a224d7b1e79380748",
+      "size": 622,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/fcee2a827d5d79d60466db0a224d7b1e79380748"
+    },
+    {
+      "path": "data/guides/how-does-scan-to-pay-work.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7cf5f84635fa351b68640145895553a422ff193",
+      "size": 1977,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/c7cf5f84635fa351b68640145895553a422ff193"
+    },
+    {
+      "path": "data/guides/how-does-ssh-work.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abbeaba6411c891ad7fa37d7d500135e77427881",
+      "size": 1162,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/abbeaba6411c891ad7fa37d7d500135e77427881"
+    },
+    {
+      "path": "data/guides/how-does-terraform-turn-code-into-cloud.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43a65557dc54840fbe76fd6ce732b7bc7a713933",
+      "size": 1570,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/43a65557dc54840fbe76fd6ce732b7bc7a713933"
+    },
+    {
+      "path": "data/guides/how-does-the-browser-render-a-web-page.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ff1f63edf1e8f413830db135db893affac4baed",
+      "size": 1446,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/4ff1f63edf1e8f413830db135db893affac4baed"
+    },
+    {
+      "path": "data/guides/how-does-the-domain-name-system-dns-lookup-work.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b59e73ff9e78f2c6cf49476b536079ca844d16dc",
+      "size": 2207,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/b59e73ff9e78f2c6cf49476b536079ca844d16dc"
+    },
+    {
+      "path": "data/guides/how-does-twitter-recommend-tweets.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6203b68f99b45432eb0a0fe927fd2b45c479ea9",
+      "size": 1399,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/b6203b68f99b45432eb0a0fe927fd2b45c479ea9"
+    },
+    {
+      "path": "data/guides/how-does-visa-make-money.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32d72b7befdf051559b9f7703d9c5170c4a4fd87",
+      "size": 2054,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/32d72b7befdf051559b9f7703d9c5170c4a4fd87"
+    },
+    {
+      "path": "data/guides/how-does-visa-work-when-we-swipe-a-credit-card-at-a-merchant's-shop.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a225295e3929b5e7b8b750107cee677b6e37f6aa",
+      "size": 2711,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/a225295e3929b5e7b8b750107cee677b6e37f6aa"
+    },
+    {
+      "path": "data/guides/how-does-youtube-handle-massive-video-content-upload.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8a763529470172ca33c2ab2a374d9ef295cfb47",
+      "size": 1735,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/f8a763529470172ca33c2ab2a374d9ef295cfb47"
+    },
+    {
+      "path": "data/guides/how-is-a-sql-statement-executed-in-the-database.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f52d62a4c07a923e2f00a7dd15bb192b93ce9741",
+      "size": 1820,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/f52d62a4c07a923e2f00a7dd15bb192b93ce9741"
+    },
+    {
+      "path": "data/guides/how-is-data-transmitted-between-applications.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b4b44fd9338bebd38051ffc54871f640249e473",
+      "size": 1416,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/6b4b44fd9338bebd38051ffc54871f640249e473"
+    },
+    {
+      "path": "data/guides/how-is-email-delivered.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a7b300cdba069f9197ddb121091ff0480229de2",
+      "size": 1530,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/1a7b300cdba069f9197ddb121091ff0480229de2"
+    },
+    {
+      "path": "data/guides/how-levelsfyi-scaled-to-millions-of-users-with-google-sheets.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c4dde8dc1b28373a7b2d8c44bb7e06c979de92e",
+      "size": 1121,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/1c4dde8dc1b28373a7b2d8c44bb7e06c979de92e"
+    },
+    {
+      "path": "data/guides/how-nat-made-the-growth-of-the-internet-possible.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee73767aa48a016ff32a1a8c93909ad792300042",
+      "size": 1493,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/ee73767aa48a016ff32a1a8c93909ad792300042"
+    },
+    {
+      "path": "data/guides/how-netflix-really-uses-java.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5fbb2dab81232e234bed8c882e716335b760368",
+      "size": 1382,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/e5fbb2dab81232e234bed8c882e716335b760368"
+    },
+    {
+      "path": "data/guides/how-redis-architecture-evolve.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd08e0f12e799fa0ae5d5409553f7f970d8c79af",
+      "size": 2278,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/cd08e0f12e799fa0ae5d5409553f7f970d8c79af"
+    },
+    {
+      "path": "data/guides/how-tiktok-manages-a-200k-file-frontend-monorepo.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2efcd7179fed6b07e41ea2ffcc8d3312355199db",
+      "size": 1369,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/2efcd7179fed6b07e41ea2ffcc8d3312355199db"
+    },
+    {
+      "path": "data/guides/how-to-ace-system-design-interviews-like-a-boss.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9de9027a3ad8258e0742cc7ffe02266c398b5425",
+      "size": 2070,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/9de9027a3ad8258e0742cc7ffe02266c398b5425"
+    },
+    {
+      "path": "data/guides/how-to-avoid-crawling-duplicate-urls-at-google-scale.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fea2fb0143e97003d537a05d28514f7d40f70434",
+      "size": 2004,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/fea2fb0143e97003d537a05d28514f7d40f70434"
+    },
+    {
+      "path": "data/guides/how-to-avoid-double-payment.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad010161a6ed06165817020a709d42f30faa928e",
+      "size": 1974,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/ad010161a6ed06165817020a709d42f30faa928e"
+    },
+    {
+      "path": "data/guides/how-to-choose-the-right-database.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1aeb5d544e8c819450d8c1e2166c2b8a5fa898da",
+      "size": 962,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/1aeb5d544e8c819450d8c1e2166c2b8a5fa898da"
+    },
+    {
+      "path": "data/guides/how-to-deploy-services.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "627eae9be6476ba9bb25756ba05915bc4342f9fb",
+      "size": 1958,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/627eae9be6476ba9bb25756ba05915bc4342f9fb"
+    },
+    {
+      "path": "data/guides/how-to-design-google-docs.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2337abfbf2e4a04f4b0832121c44353bdfff02f0",
+      "size": 1128,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/2337abfbf2e4a04f4b0832121c44353bdfff02f0"
+    },
+    {
+      "path": "data/guides/how-to-design-secure-web-api-access-for-your-website.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29a98ae116a5b79b349432305d6001109a8b9dd6",
+      "size": 2044,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/29a98ae116a5b79b349432305d6001109a8b9dd6"
+    },
+    {
+      "path": "data/guides/how-to-handle-web-request-error.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3c85336051586487a12fe8b6f7e209ff7c84964",
+      "size": 2170,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/e3c85336051586487a12fe8b6f7e209ff7c84964"
+    },
+    {
+      "path": "data/guides/how-to-implement-read-replica-pattern.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc9522eeb83dcffe75d4c082e37adde531383a2c",
+      "size": 2149,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/bc9522eeb83dcffe75d4c082e37adde531383a2c"
+    },
+    {
+      "path": "data/guides/how-to-learn-payments.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78cfdc29065f2e615c8c62ec9cc995e141663db7",
+      "size": 1153,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/78cfdc29065f2e615c8c62ec9cc995e141663db7"
+    },
+    {
+      "path": "data/guides/how-to-load-your-websites-at-lightning-speed.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df4e378f1faac0e522fb8bda3cdf3143b13c5727",
+      "size": 1423,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/df4e378f1faac0e522fb8bda3cdf3143b13c5727"
+    },
+    {
+      "path": "data/guides/how-to-release-a-mobile-app.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "068648e60273c0f4b6021f43aff86b41be1f701f",
+      "size": 1977,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/068648e60273c0f4b6021f43aff86b41be1f701f"
+    },
+    {
+      "path": "data/guides/how-to-scale-a-website-to-support-millions-of-users.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f00569781c4b04ce75f1b36cd0a7a512eb460a7",
+      "size": 2090,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/9f00569781c4b04ce75f1b36cd0a7a512eb460a7"
+    },
+    {
+      "path": "data/guides/how-to-store-passwords-in-the-database.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1afc3b01249c74b5fa05172a6c22b4594635df5",
+      "size": 1631,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/c1afc3b01249c74b5fa05172a6c22b4594635df5"
+    },
+    {
+      "path": "data/guides/how-to-upload-a-large-file-to-s3.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08ea66ef70d90828a042b2fab60e0517d68bd961",
+      "size": 2072,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/08ea66ef70d90828a042b2fab60e0517d68bd961"
+    },
+    {
+      "path": "data/guides/how-will-you-design-the-stack-overflow-website.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfce3f8d2aa9eee4b2fc7cac48766f45e059772a",
+      "size": 1290,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/cfce3f8d2aa9eee4b2fc7cac48766f45e059772a"
+    },
+    {
+      "path": "data/guides/http-cookies-explained-with-a-simple-diagram.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87b4fac45783ff08caf44018cb16d48ab3f12bce",
+      "size": 1172,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/87b4fac45783ff08caf44018cb16d48ab3f12bce"
+    },
+    {
+      "path": "data/guides/http-status-code-you-should-know.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "965b2161782b277d799b4f6b9df92f994094aaaa",
+      "size": 583,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/965b2161782b277d799b4f6b9df92f994094aaaa"
+    },
+    {
+      "path": "data/guides/http1-http2-http3.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffa9adcf029fa16a3cc9de2497555ebb67e1546c",
+      "size": 1146,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/ffa9adcf029fa16a3cc9de2497555ebb67e1546c"
+    },
+    {
+      "path": "data/guides/https-ssl-handshake-and-data-encryption-explained-to-kids.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1ec9adbef4917c7433a0cfea0c4ea824a403d20",
+      "size": 1173,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/e1ec9adbef4917c7433a0cfea0c4ea824a403d20"
+    },
+    {
+      "path": "data/guides/imperative-vs-functional-vs-object-oriented-programming.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e8e2fd6034073f643551a19450ff973b8dd6627",
+      "size": 1643,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/1e8e2fd6034073f643551a19450ff973b8dd6627"
+    },
+    {
+      "path": "data/guides/important-things-about-http-headers-you-may-not-know.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9000212d3bb0bb132f39a6f67725de6c679f176a",
+      "size": 1099,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/9000212d3bb0bb132f39a6f67725de6c679f176a"
+    },
+    {
+      "path": "data/guides/internet-traffic-routing-policies.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad8b1c2d58de19d1332e34c953992f4c333883fb",
+      "size": 1535,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/ad8b1c2d58de19d1332e34c953992f4c333883fb"
+    },
+    {
+      "path": "data/guides/ipv4-vs-ipv6.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec5164b8666be78bd8c3484820029dbe4ebe8ba2",
+      "size": 2325,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/ec5164b8666be78bd8c3484820029dbe4ebe8ba2"
+    },
+    {
+      "path": "data/guides/iqiyi-database-selection-trees.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62fbb9b79131afab1971f0f35a3cbff4637c9297",
+      "size": 1059,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/62fbb9b79131afab1971f0f35a3cbff4637c9297"
+    },
+    {
+      "path": "data/guides/is-https-safe.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19a954b49cc87f791b1369b5e22d879cefe2afdd",
+      "size": 1984,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/19a954b49cc87f791b1369b5e22d879cefe2afdd"
+    },
+    {
+      "path": "data/guides/is-it-possible-to-run-c-c++-or-rust-on-a-web-browser.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb2cb255577b9e1270efb7b0753ca327986ec831",
+      "size": 1158,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/eb2cb255577b9e1270efb7b0753ca327986ec831"
+    },
+    {
+      "path": "data/guides/is-microservice-architecture-the-silver-bullet.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ba5d2a1f8d10ef79f19aaf309a97ba94de4e5b9",
+      "size": 1691,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/2ba5d2a1f8d10ef79f19aaf309a97ba94de4e5b9"
+    },
+    {
+      "path": "data/guides/is-passkey-shaping-a-passwordless-future.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3071e9c77da8fa0ea43416fd80d9d02facd72bb",
+      "size": 1441,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/f3071e9c77da8fa0ea43416fd80d9d02facd72bb"
+    },
+    {
+      "path": "data/guides/is-postgresql-eating-the-database-world.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c19df78eac2ad049765220d2f80d33a009fd1d9",
+      "size": 1773,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/4c19df78eac2ad049765220d2f80d33a009fd1d9"
+    },
+    {
+      "path": "data/guides/is-telegram-secure.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6599b75301e666b72eaddd0dc715c27982a7a14e",
+      "size": 1631,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/6599b75301e666b72eaddd0dc715c27982a7a14e"
+    },
+    {
+      "path": "data/guides/java-collection-hierarchy.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fff58062008be888e8869cc93f779183532b5eac",
+      "size": 1748,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/fff58062008be888e8869cc93f779183532b5eac"
+    },
+    {
+      "path": "data/guides/json-files.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2e53ecbd3168a098705234cf84fdf3fe9b59de7",
+      "size": 548,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/e2e53ecbd3168a098705234cf84fdf3fe9b59de7"
+    },
+    {
+      "path": "data/guides/jwt-101-key-to-stateless-authentication.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d17742017e37e4954c2c085aa91308e1826a805",
+      "size": 1572,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/1d17742017e37e4954c2c085aa91308e1826a805"
+    },
+    {
+      "path": "data/guides/key-concepts-to-understand-database-sharding.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15a9c8746a22b20f1689a07e1e4cadc549f7dffd",
+      "size": 1088,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/15a9c8746a22b20f1689a07e1e4cadc549f7dffd"
+    },
+    {
+      "path": "data/guides/key-data-terms.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ddcfd6f7c57afdbfb9eb0d66c0d770633f0af68",
+      "size": 1283,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/5ddcfd6f7c57afdbfb9eb0d66c0d770633f0af68"
+    },
+    {
+      "path": "data/guides/key-terms-in-domain-driven-design.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8829af57ee689e3c56f7893836b3b5314fcfd456",
+      "size": 1447,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/8829af57ee689e3c56f7893836b3b5314fcfd456"
+    },
+    {
+      "path": "data/guides/key-use-cases-for-load-balancers.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5610ac7e7118e48ed0e71c9b5aa224ffe09521ab",
+      "size": 1786,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/5610ac7e7118e48ed0e71c9b5aa224ffe09521ab"
+    },
+    {
+      "path": "data/guides/kubernetes-deployment-strategies.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b5457dc128296cf8fefd13e9aad4516f7d53aed",
+      "size": 1931,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/1b5457dc128296cf8fefd13e9aad4516f7d53aed"
+    },
+    {
+      "path": "data/guides/kubernetes-periodic-table.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "062c4dfd4a97e6461fdd6154874448c39b8fcb19",
+      "size": 778,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/062c4dfd4a97e6461fdd6154874448c39b8fcb19"
+    },
+    {
+      "path": "data/guides/kubernetes-tools-ecosystem.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f71207e6e4d4820dbfcea61185b556555ec7c0d0",
+      "size": 1087,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/f71207e6e4d4820dbfcea61185b556555ec7c0d0"
+    },
+    {
+      "path": "data/guides/kubernetes-tools-stack-wheel.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e99f9548108d32d8bb5cdb9b52299fa0388bd9e5",
+      "size": 1216,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/e99f9548108d32d8bb5cdb9b52299fa0388bd9e5"
+    },
+    {
+      "path": "data/guides/learn-cache.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddcaef7770d79b58ccb8190f8126634e6308d83a",
+      "size": 700,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/ddcaef7770d79b58ccb8190f8126634e6308d83a"
+    },
+    {
+      "path": "data/guides/life-is-short-use-dev-tools.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63f31a0021beb8dd97c9fe6c3c380efe27d61541",
+      "size": 1802,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/63f31a0021beb8dd97c9fe6c3c380efe27d61541"
+    },
+    {
+      "path": "data/guides/linux-boot-process-explained.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afd3a88fd8f9a085cbf052c550ea662b95af4b5f",
+      "size": 1648,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/afd3a88fd8f9a085cbf052c550ea662b95af4b5f"
+    },
+    {
+      "path": "data/guides/linux-file-permission-illustrated.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85bd847b74894bea455b91a337c6c5d209bf2f31",
+      "size": 1078,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/85bd847b74894bea455b91a337c6c5d209bf2f31"
+    },
+    {
+      "path": "data/guides/linux-file-system-explained.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37a0e753631b669f24db0cff3991f96ef95c9f4b",
+      "size": 1238,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/37a0e753631b669f24db0cff3991f96ef95c9f4b"
+    },
+    {
+      "path": "data/guides/live-streaming-explained.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "711925f665b4818f6cd74a06bacfadfa1510090a",
+      "size": 2739,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/711925f665b4818f6cd74a06bacfadfa1510090a"
+    },
+    {
+      "path": "data/guides/load-balancer-realistic-use-cases-you-may-not-know.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c1a3c6e60a7c0adbbe2bbde4e3f55451b69138a",
+      "size": 1666,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/7c1a3c6e60a7c0adbbe2bbde4e3f55451b69138a"
+    },
+    {
+      "path": "data/guides/log-parsing-cheat-sheet.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1822c28bf9be07d86f76925970ceb8943ea9b045",
+      "size": 1378,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/1822c28bf9be07d86f76925970ceb8943ea9b045"
+    },
+    {
+      "path": "data/guides/logging-tracing-metrics.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acb774915b53668a0ccf3b297482cfa402b688e6",
+      "size": 1770,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/acb774915b53668a0ccf3b297482cfa402b688e6"
+    },
+    {
+      "path": "data/guides/low-latency-stock-exchange.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed3d229031f367e2426ebb879bfa772ce2833dd2",
+      "size": 1493,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/ed3d229031f367e2426ebb879bfa772ce2833dd2"
+    },
+    {
+      "path": "data/guides/making-sense-of-search-engine-optimization.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b5dfbae14cae3277347f97f05d831e4c53847eb",
+      "size": 2939,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/5b5dfbae14cae3277347f97f05d831e4c53847eb"
+    },
+    {
+      "path": "data/guides/mcdonald's-event-driven-architecture.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01c92e9f68eeb53998f1de7d797b85f6183330da",
+      "size": 1551,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/01c92e9f68eeb53998f1de7d797b85f6183330da"
+    },
+    {
+      "path": "data/guides/memcached-vs-redis.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cedcae401071bdd243b72808ad940ef4cddf9ab4",
+      "size": 919,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/cedcae401071bdd243b72808ad940ef4cddf9ab4"
+    },
+    {
+      "path": "data/guides/money-movement.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32dd5b5c894bccce3fcfcab5f8b14b8ef3fa4bbd",
+      "size": 3198,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/32dd5b5c894bccce3fcfcab5f8b14b8ef3fa4bbd"
+    },
+    {
+      "path": "data/guides/monorepo-vs.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d52b689c441367f9ab1789b4c26da5b35e0bdfc",
+      "size": 2424,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/1d52b689c441367f9ab1789b4c26da5b35e0bdfc"
+    },
+    {
+      "path": "data/guides/most-popular-cache-eviction.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4340ed144d591b0288b298d046d64bb2127a3617",
+      "size": 2575,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/4340ed144d591b0288b298d046d64bb2127a3617"
+    },
+    {
+      "path": "data/guides/most-used-linux-commands-map.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1245916b41c7144c233954cbb64eb73ef7c3edb9",
+      "size": 683,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/1245916b41c7144c233954cbb64eb73ef7c3edb9"
+    },
+    {
+      "path": "data/guides/must-know-system-design-building-blocks.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9983706c4fa199b97492203f244d411624d124e8",
+      "size": 1932,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/9983706c4fa199b97492203f244d411624d124e8"
+    },
+    {
+      "path": "data/guides/mvc-mvp-mvvm-viper-patterns.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "634f337826cf2b08a318c8b30e59d36c45d331e7",
+      "size": 1238,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/634f337826cf2b08a318c8b30e59d36c45d331e7"
+    },
+    {
+      "path": "data/guides/my-recommended-materials-for-cracking-your-next-technical-interview.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7066b04badf180913251ee28a59630ab3c9370fc",
+      "size": 1114,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/7066b04badf180913251ee28a59630ab3c9370fc"
+    },
+    {
+      "path": "data/guides/netflix-tech-stack-cicd-pipeline.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6c6e99414244e6b0db9da9208f5571f4b63a6cd",
+      "size": 1256,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/e6c6e99414244e6b0db9da9208f5571f4b63a6cd"
+    },
+    {
+      "path": "data/guides/netflix-tech-stack-databases.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e985f830c60644d82f5cd4c219ea4fb8652377b1",
+      "size": 1900,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/e985f830c60644d82f5cd4c219ea4fb8652377b1"
+    },
+    {
+      "path": "data/guides/netflixs-overall-architecture.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad57206a674b7b49e579df62eef56cc86ed0edf8",
+      "size": 1423,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/ad57206a674b7b49e579df62eef56cc86ed0edf8"
+    },
+    {
+      "path": "data/guides/netflixs-tech-stack.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcb14a6990cdafe53a665163a617ac4bc0b6b1c9",
+      "size": 1427,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/bcb14a6990cdafe53a665163a617ac4bc0b6b1c9"
+    },
+    {
+      "path": "data/guides/oauth-2-explained-with-siple-terms.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6596c86d06e6a1a3b3f1a9bc1a118d6e9188984e",
+      "size": 1453,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/6596c86d06e6a1a3b3f1a9bc1a118d6e9188984e"
+    },
+    {
+      "path": "data/guides/oauth-20-flows.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "932df53b7808e24fb1de6c03c2ef62aa7a382f64",
+      "size": 1030,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/932df53b7808e24fb1de6c03c2ef62aa7a382f64"
+    },
+    {
+      "path": "data/guides/orchestration-vs-choreography-microservices.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d7306ebc36c9a3ec450913cce2df90498362406",
+      "size": 2245,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/7d7306ebc36c9a3ec450913cce2df90498362406"
+    },
+    {
+      "path": "data/guides/paradigm-shift-how-developer-to-tester-ratio-changed-from-11-to-1001.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f55a658ba24d54f0ac6f8f169d0b3eda23941af",
+      "size": 2124,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/0f55a658ba24d54f0ac6f8f169d0b3eda23941af"
+    },
+    {
+      "path": "data/guides/payment-system.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6c825db2def7f67751c8ca10cdc78acdc301da7",
+      "size": 1767,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/d6c825db2def7f67751c8ca10cdc78acdc301da7"
+    },
+    {
+      "path": "data/guides/pessimistic-vs-optimistic-locking.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a5c4a5cabdb97f749c334785105ebf43b134203",
+      "size": 1449,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/7a5c4a5cabdb97f749c334785105ebf43b134203"
+    },
+    {
+      "path": "data/guides/polling-vs-webhooks.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7074f338fbcfa2c27e1f7bd365c2a761746b6853",
+      "size": 1829,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/7074f338fbcfa2c27e1f7bd365c2a761746b6853"
+    },
+    {
+      "path": "data/guides/possible-experiment-platform-architecture.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f316a8e7917404dfb82b4db5d92e75a041f6df9",
+      "size": 1181,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/6f316a8e7917404dfb82b4db5d92e75a041f6df9"
+    },
+    {
+      "path": "data/guides/proximity-service.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aae7ae3893a3040cf2d5496f3daa6cf5328f09a7",
+      "size": 1958,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/aae7ae3893a3040cf2d5496f3daa6cf5328f09a7"
+    },
+    {
+      "path": "data/guides/proxy-vs-reverse-proxy.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f25a285655e694ccfc403a6173ac4d77b47d3076",
+      "size": 967,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/f25a285655e694ccfc403a6173ac4d77b47d3076"
+    },
+    {
+      "path": "data/guides/push-vs-pull-in-metrics-collecting-systems.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41cf2e167b3dee802e5c5ab99440a7a9188fbc0c",
+      "size": 2621,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/41cf2e167b3dee802e5c5ab99440a7a9188fbc0c"
+    },
+    {
+      "path": "data/guides/quadtree.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "765b5d5e904ed0df504815158d2ce842fee4f025",
+      "size": 1904,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/765b5d5e904ed0df504815158d2ce842fee4f025"
+    },
+    {
+      "path": "data/guides/read-replica-pattern.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "246b80be338c831d938eba22999312ad66108ce8",
+      "size": 1876,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/246b80be338c831d938eba22999312ad66108ce8"
+    },
+    {
+      "path": "data/guides/reconciliation-in-payment.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3c217f265f553df938c1decea4ade31bee503c2",
+      "size": 2526,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/e3c217f265f553df938c1decea4ade31bee503c2"
+    },
+    {
+      "path": "data/guides/reddit's-core-architecture.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68fd96ca8dc51fe3407b00d8200ce0f441fb0872",
+      "size": 2458,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/68fd96ca8dc51fe3407b00d8200ce0f441fb0872"
+    },
+    {
+      "path": "data/guides/resiliency-patterns.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df61c78ac06aef88896247e0aeb70c768aca4cc7",
+      "size": 923,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/df61c78ac06aef88896247e0aeb70c768aca4cc7"
+    },
+    {
+      "path": "data/guides/rest-api-cheatsheet.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a19ca2c89ecbc36d28a8435d8e49f2107ad0502",
+      "size": 890,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/0a19ca2c89ecbc36d28a8435d8e49f2107ad0502"
+    },
+    {
+      "path": "data/guides/rest-api-vs-graphql.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd207f193c784b12bbc77a261c6705f273e75297",
+      "size": 1691,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/bd207f193c784b12bbc77a261c6705f273e75297"
+    },
+    {
+      "path": "data/guides/reverse-proxy-vs-api-gateway-vs-load-balancer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be4677ba88ada869f71cf4f41b9d2d4118ffee30",
+      "size": 1393,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/be4677ba88ada869f71cf4f41b9d2d4118ffee30"
+    },
+    {
+      "path": "data/guides/session-cookie-jwt-token-sso-and-oauth-2.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "097058c889507f55e0072c59279e1b6cd4f53617",
+      "size": 1470,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/097058c889507f55e0072c59279e1b6cd4f53617"
+    },
+    {
+      "path": "data/guides/shortlong-polling-sse-websocket.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0aaac9a25a364a6a1128be0f99caecfcabd68b0",
+      "size": 1300,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/a0aaac9a25a364a6a1128be0f99caecfcabd68b0"
+    },
+    {
+      "path": "data/guides/smooth-data-migration-with-avro.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c3a746b7118f0bf3a4ffb12abe562e6110ca7cd",
+      "size": 1328,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/6c3a746b7118f0bf3a4ffb12abe562e6110ca7cd"
+    },
+    {
+      "path": "data/guides/soap-vs-rest-vs-graphql-vs-rpc.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9cdeaf630e44853452f3bcca19fdcf3153966f5",
+      "size": 637,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/b9cdeaf630e44853452f3bcca19fdcf3153966f5"
+    },
+    {
+      "path": "data/guides/some-devops-books-i-find-enlightening.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90e7712bacae6f97ceef88afd4035e5fd0be32fa",
+      "size": 1292,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/90e7712bacae6f97ceef88afd4035e5fd0be32fa"
+    },
+    {
+      "path": "data/guides/storage-systems-overview.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66755c8fd3bdd104de8be8a8ca28231d37ff081b",
+      "size": 2997,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/66755c8fd3bdd104de8be8a8ca28231d37ff081b"
+    },
+    {
+      "path": "data/guides/swift-payment-messaging-system.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22cd975d71edd4b5fbf36eacfabfd377a95d58b1",
+      "size": 2608,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/22cd975d71edd4b5fbf36eacfabfd377a95d58b1"
+    },
+    {
+      "path": "data/guides/symmetric-encryption-vs-asymmetric-encryption.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d37e83569b7c1e7a5572d17c6ad436de1e7c82e",
+      "size": 1579,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/4d37e83569b7c1e7a5572d17c6ad436de1e7c82e"
+    },
+    {
+      "path": "data/guides/system-design-blueprint-the-ultimate-guide.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa2bf181cc474a26d5686e4a9afc1dea4c763c68",
+      "size": 961,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/fa2bf181cc474a26d5686e4a9afc1dea4c763c68"
+    },
+    {
+      "path": "data/guides/system-design-cheat-sheet.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "675f5eac92d5050ccd42516dfce06fa8980ef86b",
+      "size": 2738,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/675f5eac92d5050ccd42516dfce06fa8980ef86b"
+    },
+    {
+      "path": "data/guides/the-12-factor-app.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d63d29fcb95b58726cf3b51f683ea4f21f2466b7",
+      "size": 2280,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/d63d29fcb95b58726cf3b51f683ea4f21f2466b7"
+    },
+    {
+      "path": "data/guides/the-9-algorithms-that-dominate-our-world.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40e6385a1a353dac41c804d9e120a0610652d53a",
+      "size": 843,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/40e6385a1a353dac41c804d9e120a0610652d53a"
+    },
+    {
+      "path": "data/guides/the-evolving-landscape-of-api-protocols-in-2023.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12f5a34b14d4595e3fac0a57387e13952b11f31b",
+      "size": 729,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/12f5a34b14d4595e3fac0a57387e13952b11f31b"
+    },
+    {
+      "path": "data/guides/the-fundamental-pillars-of-object-oriented-programming.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5afa6ba36db4bc66274868d1cd7fd2279c8047a5",
+      "size": 1402,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/5afa6ba36db4bc66274868d1cd7fd2279c8047a5"
+    },
+    {
+      "path": "data/guides/the-one-line-change-that-reduced-clone-times-by-a-whopping-99-says-pinterest.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "309564bfd6af777b0b7fd095704f41700de1ba93",
+      "size": 1897,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/309564bfd6af777b0b7fd095704f41700de1ba93"
+    },
+    {
+      "path": "data/guides/the-open-source-ai-stack.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8727c078ad3392c8bebc3d42c1f94cc20d441ff",
+      "size": 1486,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/d8727c078ad3392c8bebc3d42c1f94cc20d441ff"
+    },
+    {
+      "path": "data/guides/the-payments-ecosystem.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8488a7e9de1fcb9e5cee998f15a65e1016488dc",
+      "size": 1546,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/f8488a7e9de1fcb9e5cee998f15a65e1016488dc"
+    },
+    {
+      "path": "data/guides/the-ultimate-api-learning-roadmap.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "578d2f7d519e4f9ee3a09119676a4653ba54ffb6",
+      "size": 1972,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/578d2f7d519e4f9ee3a09119676a4653ba54ffb6"
+    },
+    {
+      "path": "data/guides/the-ultimate-kafka-101-you-cannot-miss.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28c76b2255bd0853004baae309db8d0d430c6a68",
+      "size": 1827,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/28c76b2255bd0853004baae309db8d0d430c6a68"
+    },
+    {
+      "path": "data/guides/the-ultimate-kubernetes-command-cheatsheet.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7bb19eed6d465278a90573e86c6ba88d73da6c4",
+      "size": 964,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/b7bb19eed6d465278a90573e86c6ba88d73da6c4"
+    },
+    {
+      "path": "data/guides/the-ultimate-redis-101.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e870a29c4701231d993b93c23f6144f0dedd6849",
+      "size": 1990,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/e870a29c4701231d993b93c23f6144f0dedd6849"
+    },
+    {
+      "path": "data/guides/the-ultimate-software-architect-knowledge-map.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57644609e91e0b4e80f9a6967214951f1019f1e5",
+      "size": 2042,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/57644609e91e0b4e80f9a6967214951f1019f1e5"
+    },
+    {
+      "path": "data/guides/things-to-consider-when-using-cache.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a84c38dd5c49e4d979a4bd684e3825623cc6473",
+      "size": 1312,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/2a84c38dd5c49e4d979a4bd684e3825623cc6473"
+    },
+    {
+      "path": "data/guides/time-series-db-tsdb-in-20-lines.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6454a3ffa9d30e553ae803566cb7be4fb8fc2f3e",
+      "size": 1161,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/6454a3ffa9d30e553ae803566cb7be4fb8fc2f3e"
+    },
+    {
+      "path": "data/guides/token-cookie-session.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f97f0c7d59150c5285fce7b69c994184f52cc93",
+      "size": 2099,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/7f97f0c7d59150c5285fce7b69c994184f52cc93"
+    },
+    {
+      "path": "data/guides/top-10-k8s-design-patterns.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "208f7bea61c64c318c7460b61e21e16bbf4f757e",
+      "size": 2115,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/208f7bea61c64c318c7460b61e21e16bbf4f757e"
+    },
+    {
+      "path": "data/guides/top-10-most-popular-open-source-databases.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05bf9f8e13c8e95ec1a3b8ad6cc7645aec93aecf",
+      "size": 756,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/05bf9f8e13c8e95ec1a3b8ad6cc7645aec93aecf"
+    },
+    {
+      "path": "data/guides/top-12-tips-for-api-security.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "307dda0a9398ff1a4f8fc87855c6c3fd9cafbd8d",
+      "size": 629,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/307dda0a9398ff1a4f8fc87855c6c3fd9cafbd8d"
+    },
+    {
+      "path": "data/guides/top-3-api-gateway-use-cases.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3bcbf0ec7758d76d1c32991d38bf2dbda2dc97ff",
+      "size": 1162,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/3bcbf0ec7758d76d1c32991d38bf2dbda2dc97ff"
+    },
+    {
+      "path": "data/guides/top-4-data-sharding-algorithms-explained.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d91b057c846be30a871e8ab2995032b8b5c29d1d",
+      "size": 1672,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/d91b057c846be30a871e8ab2995032b8b5c29d1d"
+    },
+    {
+      "path": "data/guides/top-4-forms-of-authentication-mechanisms.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ef146efc91b3ac09d33cdde6f44adb6989dfd8d",
+      "size": 1147,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/3ef146efc91b3ac09d33cdde6f44adb6989dfd8d"
+    },
+    {
+      "path": "data/guides/top-4-kubernetes-service-types-in-one-diagram.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a5bac4c8865b0434534bf004e566fec801a7f67",
+      "size": 1506,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/9a5bac4c8865b0434534bf004e566fec801a7f67"
+    },
+    {
+      "path": "data/guides/top-4-most-popular-use-cases-for-udp.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7aecbf6d78cdf1837fda6f94e6a7b30072a36bb0",
+      "size": 1237,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/7aecbf6d78cdf1837fda6f94e6a7b30072a36bb0"
+    },
+    {
+      "path": "data/guides/top-5-caching-strategies.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "180d44a1d92ec9dc8f1445cf3f74be2d89175092",
+      "size": 886,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/180d44a1d92ec9dc8f1445cf3f74be2d89175092"
+    },
+    {
+      "path": "data/guides/top-5-common-ways-to-improve-api-performance.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d593ecc5d791af229598dadcd95c8702dd39223b",
+      "size": 1558,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/d593ecc5d791af229598dadcd95c8702dd39223b"
+    },
+    {
+      "path": "data/guides/top-5-kafka-use-cases.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7575ba256df962a1362171bfe3019c66bdbb042b",
+      "size": 742,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/7575ba256df962a1362171bfe3019c66bdbb042b"
+    },
+    {
+      "path": "data/guides/top-5-most-used-deployment-strategies.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6231515c6a210336fb2a91d1c7e40fa0926034c0",
+      "size": 649,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/6231515c6a210336fb2a91d1c7e40fa0926034c0"
+    },
+    {
+      "path": "data/guides/top-5-software-architectural-patterns.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c82dfc4ddfbd8a557254ce93551deff03685e250",
+      "size": 1377,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/c82dfc4ddfbd8a557254ce93551deff03685e250"
+    },
+    {
+      "path": "data/guides/top-5-strategies-to-reduce-latency.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f71fabebfa9a036df71aa6c34dd20215ae653f68",
+      "size": 833,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/f71fabebfa9a036df71aa6c34dd20215ae653f68"
+    },
+    {
+      "path": "data/guides/top-5-trade-offs-in-system-designs.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a36d319eee608ce3bb51f96ad8185177a4dd5889",
+      "size": 767,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/a36d319eee608ce3bb51f96ad8185177a4dd5889"
+    },
+    {
+      "path": "data/guides/top-6-cases-to-apply-idempotency.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d15ce48779aaddaf5b266f1bb63711fc5a2a8fe",
+      "size": 1897,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/4d15ce48779aaddaf5b266f1bb63711fc5a2a8fe"
+    },
+    {
+      "path": "data/guides/top-6-cloud-messaging-patterns.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0974125709190e4a0a397fb30fc1f3e017fce3ef",
+      "size": 2141,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/0974125709190e4a0a397fb30fc1f3e017fce3ef"
+    },
+    {
+      "path": "data/guides/top-6-database-models.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e652e244e80fe5a4f88d410a12dfcfd4bd0c2c4",
+      "size": 3088,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/8e652e244e80fe5a4f88d410a12dfcfd4bd0c2c4"
+    },
+    {
+      "path": "data/guides/top-6-elasticsearch-use-cases.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76a7c1d4348c18e206167335b388cec9d9ff3cb1",
+      "size": 1835,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/76a7c1d4348c18e206167335b388cec9d9ff3cb1"
+    },
+    {
+      "path": "data/guides/top-6-firewall-use-cases.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cea917e38406c978e6e3aec227231249872db443",
+      "size": 1664,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/cea917e38406c978e6e3aec227231249872db443"
+    },
+    {
+      "path": "data/guides/top-6-load-balancing-algorithms.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c5e4637940e90273c28fe3c49336e13d2b3e218",
+      "size": 1386,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/2c5e4637940e90273c28fe3c49336e13d2b3e218"
+    },
+    {
+      "path": "data/guides/top-6-most-commonly-used-server-types.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7829d42fc3e38ca4d278fe087e43b9ebaf4b25ee",
+      "size": 1141,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/7829d42fc3e38ca4d278fe087e43b9ebaf4b25ee"
+    },
+    {
+      "path": "data/guides/top-6-multithreading-design-patterns-you-must-know.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5e3121a80ec9f697dac618b3cbfaa9edcbf345b",
+      "size": 2308,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/b5e3121a80ec9f697dac618b3cbfaa9edcbf345b"
+    },
+    {
+      "path": "data/guides/top-6-tools-to-turn-code-into-beautiful-diagrams.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf138f33df6bb985e9e2ce6aec48f5bd1a9e2c5a",
+      "size": 621,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/bf138f33df6bb985e9e2ce6aec48f5bd1a9e2c5a"
+    },
+    {
+      "path": "data/guides/top-7-most-used-distributed-system-patterns.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "576252e57788c9072bd6973fbaa4de8ad1832a33",
+      "size": 581,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/576252e57788c9072bd6973fbaa4de8ad1832a33"
+    },
+    {
+      "path": "data/guides/top-8-c++-use-cases.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a4c31756b6adabb6b700d51fd37c14e6a3aa4d5",
+      "size": 1464,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/0a4c31756b6adabb6b700d51fd37c14e6a3aa4d5"
+    },
+    {
+      "path": "data/guides/top-8-cache-eviction-strategies.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea95ea943ee0a87242833d32f96ae77c65cfc7f7",
+      "size": 1976,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/ea95ea943ee0a87242833d32f96ae77c65cfc7f7"
+    },
+    {
+      "path": "data/guides/top-8-must-know-docker-concepts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edb8adc4014dceef0ba6d6f422c57f06613e0d20",
+      "size": 1747,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/edb8adc4014dceef0ba6d6f422c57f06613e0d20"
+    },
+    {
+      "path": "data/guides/top-8-programming-paradigms.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85421a28089961014d0f73d7147245e4d7b1becb",
+      "size": 2680,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/85421a28089961014d0f73d7147245e4d7b1becb"
+    },
+    {
+      "path": "data/guides/top-8-standards-every-developer-should-know.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be974382fb083bde216f82b277ead56a03465283",
+      "size": 1840,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/be974382fb083bde216f82b277ead56a03465283"
+    },
+    {
+      "path": "data/guides/top-9-architectural-patterns-for-data-and-communication-flow.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f709311a12cb71f77b67d31455320ef87a00db2",
+      "size": 1854,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/9f709311a12cb71f77b67d31455320ef87a00db2"
+    },
+    {
+      "path": "data/guides/top-9-cases-behind-100-cpu-usage.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "772cd784f4e5892fb12aa1583153d7ea1f3eb595",
+      "size": 850,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/772cd784f4e5892fb12aa1583153d7ea1f3eb595"
+    },
+    {
+      "path": "data/guides/top-9-engineering-blog-favorites.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f527d3f122e01d62fbcaf14c173a92946a4b5065",
+      "size": 672,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/f527d3f122e01d62fbcaf14c173a92946a4b5065"
+    },
+    {
+      "path": "data/guides/top-9-http-request-methods.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b70e9f00015ac67d098e43ab4abc8eb616fd516",
+      "size": 1509,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/9b70e9f00015ac67d098e43ab4abc8eb616fd516"
+    },
+    {
+      "path": "data/guides/top-9-website-performance-metrics-you-cannot-ignore.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e683dbd062c2f8df016b37a89921687bdaa3a77",
+      "size": 2415,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/5e683dbd062c2f8df016b37a89921687bdaa3a77"
+    },
+    {
+      "path": "data/guides/top-eventual-consistency-patterns-you-must-know.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "805751270adf715149f4899eb7fdc437a1198a99",
+      "size": 1634,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/805751270adf715149f4899eb7fdc437a1198a99"
+    },
+    {
+      "path": "data/guides/top-network-security-cheatsheet.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a492bc02e21bbd5bd6a39881291bcbc747af1c41",
+      "size": 1098,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/a492bc02e21bbd5bd6a39881291bcbc747af1c41"
+    },
+    {
+      "path": "data/guides/twitter-10-tech-stack.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9aa2a79183a9b0c11dca8497357a2e403f6345c",
+      "size": 590,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/f9aa2a79183a9b0c11dca8497357a2e403f6345c"
+    },
+    {
+      "path": "data/guides/twitter-architecture-2022-vs-2012.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73730abb1fd857e29f0d50a69427c9bd07224db2",
+      "size": 475,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/73730abb1fd857e29f0d50a69427c9bd07224db2"
+    },
+    {
+      "path": "data/guides/types-of-databases.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69860e7ed6bdd8f134f678acead975a6ea85ff31",
+      "size": 1614,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/69860e7ed6bdd8f134f678acead975a6ea85ff31"
+    },
+    {
+      "path": "data/guides/types-of-memory-and-storage.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "021127eb521bbd62500d6c0c3ef8e935a40d0d75",
+      "size": 572,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/021127eb521bbd62500d6c0c3ef8e935a40d0d75"
+    },
+    {
+      "path": "data/guides/types-of-memory.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e34db46a5a4684732ddd7ffc2cd17e5cf0f25a1e",
+      "size": 1413,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/e34db46a5a4684732ddd7ffc2cd17e5cf0f25a1e"
+    },
+    {
+      "path": "data/guides/types-of-message-queue.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e3e91fd0e98c67bfc6c59d8839b973f955d43d4",
+      "size": 1467,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/2e3e91fd0e98c67bfc6c59d8839b973f955d43d4"
+    },
+    {
+      "path": "data/guides/types-of-vpns.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efba4173435a8c7effc876eb09080e4dd001910c",
+      "size": 394,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/efba4173435a8c7effc876eb09080e4dd001910c"
+    },
+    {
+      "path": "data/guides/typical-aws-network-architecture-in-one-diagram.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4778730438c9c0343d3b8b469710ccaacdf6d765",
+      "size": 2921,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/4778730438c9c0343d3b8b469710ccaacdf6d765"
+    },
+    {
+      "path": "data/guides/uber-tech-stack-cicd.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e86f04e9fb91cd23bb9a6dcd5bb1cdb14f79f0b6",
+      "size": 2120,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/e86f04e9fb91cd23bb9a6dcd5bb1cdb14f79f0b6"
+    },
+    {
+      "path": "data/guides/uber-tech-stack.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f91132481dde59f10f0a3af7a83b0d240d0540cc",
+      "size": 2169,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/f91132481dde59f10f0a3af7a83b0d240d0540cc"
+    },
+    {
+      "path": "data/guides/understanding-database-types.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc9fe36c3b1a35833eea6d6856975efbcef7fc14",
+      "size": 667,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/cc9fe36c3b1a35833eea6d6856975efbcef7fc14"
+    },
+    {
+      "path": "data/guides/unicast-vs-broadcast-vs-multicast-vs-anycast.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b1649e92b4a69eb090c8e74a21fddcdacf62c33",
+      "size": 1579,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/7b1649e92b4a69eb090c8e74a21fddcdacf62c33"
+    },
+    {
+      "path": "data/guides/unified-payments-interface-upi-in-india.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7780b1035ec3edf5817f8e26b9518a6482eb7582",
+      "size": 2029,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/7780b1035ec3edf5817f8e26b9518a6482eb7582"
+    },
+    {
+      "path": "data/guides/unique-id-generator.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "692c3349339eaab92a810672fad1eddc378f7954",
+      "size": 831,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/692c3349339eaab92a810672fad1eddc378f7954"
+    },
+    {
+      "path": "data/guides/url-uri-urn-do-you-know-the-differences.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecb85139596c6884b0de4d4ce9e03576d0dd45ab",
+      "size": 1150,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/ecb85139596c6884b0de4d4ce9e03576d0dd45ab"
+    },
+    {
+      "path": "data/guides/v1what-is-sso-single-sign-on.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2f48416f2f1535bd9fa68cc6716773d33e44b5a",
+      "size": 2191,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/f2f48416f2f1535bd9fa68cc6716773d33e44b5a"
+    },
+    {
+      "path": "data/guides/vertical-partitioning-vs-horizontal-partitioning.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5ac2b6cdf2742415e7ace320014a0b881e06f55",
+      "size": 2263,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/f5ac2b6cdf2742415e7ace320014a0b881e06f55"
+    },
+    {
+      "path": "data/guides/visualizing-a-sql-query.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f8c105967ccddcf5728ca6d310feda6181fa690",
+      "size": 785,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/7f8c105967ccddcf5728ca6d310feda6181fa690"
+    },
+    {
+      "path": "data/guides/what's-the-difference-between-session-based-authentication-and-jwts.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8341babbc0cdd4648de64920ce877e1bfa743a99",
+      "size": 2118,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/8341babbc0cdd4648de64920ce877e1bfa743a99"
+    },
+    {
+      "path": "data/guides/what-are-database-isolation-levels.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad1867bb395274eadee9340d2a3f9dcc2ab08fc3",
+      "size": 1984,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/ad1867bb395274eadee9340d2a3f9dcc2ab08fc3"
+    },
+    {
+      "path": "data/guides/what-are-the-differences-among-database-locks.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7760057dbe5e8407501be3b95484b08c566d03b7",
+      "size": 1874,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/7760057dbe5e8407501be3b95484b08c566d03b7"
+    },
+    {
+      "path": "data/guides/what-are-the-differences-between-a-load-balancer-and-an-api-gateway.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "755a17e403c9ecf75c5eec826e1922d40c408c40",
+      "size": 1575,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/755a17e403c9ecf75c5eec826e1922d40c408c40"
+    },
+    {
+      "path": "data/guides/what-are-the-differences-between-cookies-and-sessions.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "178de35d42a4cdcc5ddf1a11dd61660d17d3156d",
+      "size": 1135,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/178de35d42a4cdcc5ddf1a11dd61660d17d3156d"
+    },
+    {
+      "path": "data/guides/what-are-the-differences-between-paging-and-segmentation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65f5fffb1c58cd8a47de6ff72395143c9d5ee17a",
+      "size": 2063,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/65f5fffb1c58cd8a47de6ff72395143c9d5ee17a"
+    },
+    {
+      "path": "data/guides/what-are-the-differences-between-wan-lan-pan-and-man.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2c0bc5d8efa3cc7407d0ad2b24dbe60b162960d",
+      "size": 2194,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/f2c0bc5d8efa3cc7407d0ad2b24dbe60b162960d"
+    },
+    {
+      "path": "data/guides/what-are-the-greenest-programming-languages.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b4a7655399d36153b50416c6a907a6e5e85e4ad",
+      "size": 1183,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/6b4a7655399d36153b50416c6a907a6e5e85e4ad"
+    },
+    {
+      "path": "data/guides/what-are-the-most-important-aws-services-to-learn.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07b837b293e3f47e4dc5dc5cb0397016fd5b6884",
+      "size": 1655,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/07b837b293e3f47e4dc5dc5cb0397016fd5b6884"
+    },
+    {
+      "path": "data/guides/what-are-the-top-caching-strategies.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f4f54655cd4e84b1dac9fab67c6aea2bcd89dfb",
+      "size": 797,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/1f4f54655cd4e84b1dac9fab67c6aea2bcd89dfb"
+    },
+    {
+      "path": "data/guides/what-do-version-numbers-mean.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a598471f15722278ba9cd4e499b41a0312d12d1",
+      "size": 1562,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/0a598471f15722278ba9cd4e499b41a0312d12d1"
+    },
+    {
+      "path": "data/guides/what-does-a-typical-microservice-architecture-look-like.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a84ae6f9b88e0ce58dc3e8d16c96f2ee02372ae4",
+      "size": 1433,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/a84ae6f9b88e0ce58dc3e8d16c96f2ee02372ae4"
+    },
+    {
+      "path": "data/guides/what-does-acid-mean.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3250b46aa7f4b7d962edcdde0dfe36230d7c069",
+      "size": 1536,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/c3250b46aa7f4b7d962edcdde0dfe36230d7c069"
+    },
+    {
+      "path": "data/guides/what-does-api-gateway-do.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e96f8daaacaf2b18e4f83c09b144b527171b5e33",
+      "size": 1421,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/e96f8daaacaf2b18e4f83c09b144b527171b5e33"
+    },
+    {
+      "path": "data/guides/what-happens-when-you-type-a-url-into-your-browser.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f365d4163df3542c367f1fa4dca557475d204385",
+      "size": 2346,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/f365d4163df3542c367f1fa4dca557475d204385"
+    },
+    {
+      "path": "data/guides/what-happens-when-you-type-google.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f606995374366738016609afb71fb8219123920",
+      "size": 1520,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/9f606995374366738016609afb71fb8219123920"
+    },
+    {
+      "path": "data/guides/what-happens-when-you-upload-a-file-to-amazon-s3.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fabaa3d863a896f2fe7934a714940ac290d134d",
+      "size": 2495,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/5fabaa3d863a896f2fe7934a714940ac290d134d"
+    },
+    {
+      "path": "data/guides/what-is-a-cookie.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23d04ebd798943a4a6dbe1229d5e5461948212c1",
+      "size": 1076,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/23d04ebd798943a4a6dbe1229d5e5461948212c1"
+    },
+    {
+      "path": "data/guides/what-is-a-deadlock.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97baedfcd3062c4aec8ba1d3cd4f7fd2af224998",
+      "size": 2016,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/97baedfcd3062c4aec8ba1d3cd4f7fd2af224998"
+    },
+    {
+      "path": "data/guides/what-is-a-load-balancer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98268f5cc7dfaa6040a2f1a5e58e0fd337479f97",
+      "size": 1620,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/98268f5cc7dfaa6040a2f1a5e58e0fd337479f97"
+    },
+    {
+      "path": "data/guides/what-is-a-stop-loss-order-and-how-does-it-work.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dbb435a10b67faa82863dcea74935cecaf1b109",
+      "size": 1966,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/9dbb435a10b67faa82863dcea74935cecaf1b109"
+    },
+    {
+      "path": "data/guides/what-is-an-ai-agent.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2523a05bc20d8afe32b1fb8d8c9339a1fa764812",
+      "size": 1767,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/2523a05bc20d8afe32b1fb8d8c9339a1fa764812"
+    },
+    {
+      "path": "data/guides/what-is-cdn-content-delivery-network.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9d68b4fe404e0ca3104f0c810ad6a1899142881",
+      "size": 1041,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/c9d68b4fe404e0ca3104f0c810ad6a1899142881"
+    },
+    {
+      "path": "data/guides/what-is-cloud-native.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36abd8fbcb9073d5f36d0851dbf356f17bc4bb6b",
+      "size": 1516,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/36abd8fbcb9073d5f36d0851dbf356f17bc4bb6b"
+    },
+    {
+      "path": "data/guides/what-is-css-cascading-style-sheets.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9d6e76f4a7a6b3468f80aecd6b38d241e29e1e3",
+      "size": 2998,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/b9d6e76f4a7a6b3468f80aecd6b38d241e29e1e3"
+    },
+    {
+      "path": "data/guides/what-is-devsecops.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "562f21338a3e371bc4b002d46b81521f8b8d3909",
+      "size": 1099,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/562f21338a3e371bc4b002d46b81521f8b8d3909"
+    },
+    {
+      "path": "data/guides/what-is-elk-stack-and-why-is-it-so-popular-for-log-management.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b434f0bf444faa7892375721a01888a0a066f512",
+      "size": 1834,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/b434f0bf444faa7892375721a01888a0a066f512"
+    },
+    {
+      "path": "data/guides/what-is-graphql.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14c0962683bced23d6a410d8835477356edc42f9",
+      "size": 1571,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/14c0962683bced23d6a410d8835477356edc42f9"
+    },
+    {
+      "path": "data/guides/what-is-grpc.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cf07b5496aa8b4fab09c6d649de7c36dc1a3b17",
+      "size": 1439,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/5cf07b5496aa8b4fab09c6d649de7c36dc1a3b17"
+    },
+    {
+      "path": "data/guides/what-is-k8s-kubernetes.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59e6c6a6b039e9eea7afffd96e3011e86a15a034",
+      "size": 2149,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/59e6c6a6b039e9eea7afffd96e3011e86a15a034"
+    },
+    {
+      "path": "data/guides/what-is-osi-model.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a136eb8a8ea2137427037c3eed153f7a0eec2ed9",
+      "size": 1759,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/a136eb8a8ea2137427037c3eed153f7a0eec2ed9"
+    },
+    {
+      "path": "data/guides/what-is-serverless-db.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f39dc7cd7693e6df48d128885144e6effa71788",
+      "size": 1389,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/8f39dc7cd7693e6df48d128885144e6effa71788"
+    },
+    {
+      "path": "data/guides/what-is-the-best-way-to-learn-sql.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79a576c5e8111bb1a01ad39d80a9eecf6b4bb5d3",
+      "size": 1216,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/79a576c5e8111bb1a01ad39d80a9eecf6b4bb5d3"
+    },
+    {
+      "path": "data/guides/what-is-the-difference-between-process-and-thread.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99619e02b5e439bfdd797a1d7eaba5e1dba91cc2",
+      "size": 1916,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/99619e02b5e439bfdd797a1d7eaba5e1dba91cc2"
+    },
+    {
+      "path": "data/guides/what-is-the-journey-of-a-slack-message.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f7b6ebc0b7fa900df9de68f026f5a6b0a6ea5fc",
+      "size": 1438,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/2f7b6ebc0b7fa900df9de68f026f5a6b0a6ea5fc"
+    },
+    {
+      "path": "data/guides/what-is-web-3.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94100bfe2e7bba322dac1c02bcc0713086e4417c",
+      "size": 1572,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/94100bfe2e7bba322dac1c02bcc0713086e4417c"
+    },
+    {
+      "path": "data/guides/what-makes-aws-lambda-so-fast.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1817f48d04f5ccf9b10e349a60074c8446fd6330",
+      "size": 1893,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/1817f48d04f5ccf9b10e349a60074c8446fd6330"
+    },
+    {
+      "path": "data/guides/what-makes-http2-faster-than-http1.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2271f5ae0b26a8df24bc792417c03074928cfde4",
+      "size": 1643,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/2271f5ae0b26a8df24bc792417c03074928cfde4"
+    },
+    {
+      "path": "data/guides/what-protocol-does-online-gaming-use-to-transmit-data.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fa77dbff080263160f686d4613facb218ac4490",
+      "size": 1726,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/0fa77dbff080263160f686d4613facb218ac4490"
+    },
+    {
+      "path": "data/guides/what-tools-does-your-team-use-to-ship-code-to-production-and-ensure-code-quality.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1509390b89fb5efa88c63d24f6f6433232210b17",
+      "size": 1837,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/1509390b89fb5efa88c63d24f6f6433232210b17"
+    },
+    {
+      "path": "data/guides/which-latency-numbers-should-you-know.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4efa155e134e6b117877f03d57454f2ba895c087",
+      "size": 1739,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/4efa155e134e6b117877f03d57454f2ba895c087"
+    },
+    {
+      "path": "data/guides/who-are-the-fantastic-four-of-system-design.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc8ff44f1472902b360171586d5aa8451f90d82b",
+      "size": 1180,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/cc8ff44f1472902b360171586d5aa8451f90d82b"
+    },
+    {
+      "path": "data/guides/why-are-content-delivery-networks-cdn-so-popular.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd9f39fdf1edbff93a5b43c92027d3eeb13289a3",
+      "size": 2202,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/cd9f39fdf1edbff93a5b43c92027d3eeb13289a3"
+    },
+    {
+      "path": "data/guides/why-do-we-need-to-use-a-distributed-lock.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c857ade3704d0a98d1772ea94686d8aaf5f0d29",
+      "size": 1791,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/2c857ade3704d0a98d1772ea94686d8aaf5f0d29"
+    },
+    {
+      "path": "data/guides/why-is-kafka-fast.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0f105a32e5269a9742ae14015fee206f20b1816",
+      "size": 1672,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/a0f105a32e5269a9742ae14015fee206f20b1816"
+    },
+    {
+      "path": "data/guides/why-is-nginx-so-popular.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b73cf040c5f15b6cac5c7e2dfe844abd758fba4",
+      "size": 961,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/2b73cf040c5f15b6cac5c7e2dfe844abd758fba4"
+    },
+    {
+      "path": "data/guides/why-is-postgresql-voted-as-the-most-loved-database-by-stackoverflow-2022-developer-survey.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23570385273b91b7c8746282fe376b8d1ef40451",
+      "size": 1755,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/23570385273b91b7c8746282fe376b8d1ef40451"
+    },
+    {
+      "path": "data/guides/why-is-redis-so-fast.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4ce7f959630c04a89f9561d76a2972d6b0e64d5",
+      "size": 699,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/a4ce7f959630c04a89f9561d76a2972d6b0e64d5"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b8d9ec23182878a28e07320d599bf4b35054dad",
+      "size": 355,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/2b8d9ec23182878a28e07320d599bf4b35054dad"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "025effefba971c21501fcc95a64907696bd4f76a",
+      "size": 12005,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/025effefba971c21501fcc95a64907696bd4f76a"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "43e22d8b374d531475b92439d95c9a68840b9ba5",
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/trees/43e22d8b374d531475b92439d95c9a68840b9ba5"
+    },
+    {
+      "path": "scripts/readme.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b8bfe9d66d3c1e76a579d6a570cd5e92e33db35",
+      "size": 2264,
+      "url": "https://api.github.com/repos/ByteByteGoHq/system-design-101/git/blobs/0b8bfe9d66d3c1e76a579d6a570cd5e92e33db35"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,2985 @@
+{
+  "sha": "dd53ae6ef11e492a74feabc8043133e9f5283967",
+  "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/dd53ae6ef11e492a74feabc8043133e9f5283967",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a7bbb00abc734aa85e3dfc69bdbcf404311f1d38",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/a7bbb00abc734aa85e3dfc69bdbcf404311f1d38"
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "size": 1,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/8b137891791fe96927ad78e64b0aad7bded08bdc"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c12165dc67772730d3077b541f1517290e20595e",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/c12165dc67772730d3077b541f1517290e20595e"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/BUG_REPORT.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e5e294e59d968b873a50dc9c3d2cae84ad3b2e8",
+      "size": 713,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/1e5e294e59d968b873a50dc9c3d2cae84ad3b2e8"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/FEATURE_REQUEST.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a93efe49446b6d5cfccef1636a2b44da64ec7cc3",
+      "size": 1052,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/a93efe49446b6d5cfccef1636a2b44da64ec7cc3"
+    },
+    {
+      "path": ".github/dependabot.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d9963beac798648168157b61f71851ecd52898c",
+      "size": 264,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/7d9963beac798648168157b61f71851ecd52898c"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7849aaeb7334d3ed95b4832e85dd29eab6b55c0e",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/7849aaeb7334d3ed95b4832e85dd29eab6b55c0e"
+    },
+    {
+      "path": ".github/workflows/bruno-check.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "353ad847f9ccf75e41d594526b37691fbfbb95cc",
+      "size": 368,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/353ad847f9ccf75e41d594526b37691fbfbb95cc"
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01333135ab531c1ed1d0e231c10fc67fbe53030b",
+      "size": 679,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/01333135ab531c1ed1d0e231c10fc67fbe53030b"
+    },
+    {
+      "path": ".github/workflows/deploy-docs.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a70038033336e57b17cb210deef725e32e1917e",
+      "size": 1154,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/7a70038033336e57b17cb210deef725e32e1917e"
+    },
+    {
+      "path": ".github/workflows/spammy-guardian.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "606519c9edcaa97a03d6e6fef2c72faac9009fae",
+      "size": 481,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/606519c9edcaa97a03d6e6fef2c72faac9009fae"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "77d28541b1046251fca7f7266f14ee3cdbae1647",
+      "size": 482,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/77d28541b1046251fca7f7266f14ee3cdbae1647"
+    },
+    {
+      "path": "CLAUDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f543540aff29c4980de11f9aea87359a482ca82a",
+      "size": 2748,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/f543540aff29c4980de11f9aea87359a482ca82a"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46e6680f98b052e6a0a92d32bdadcb1698f8a60b",
+      "size": 7118,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/46e6680f98b052e6a0a92d32bdadcb1698f8a60b"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7f49f473bf1eab74f49c9a88417cc064490bde9",
+      "size": 1284,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/e7f49f473bf1eab74f49c9a88417cc064490bde9"
+    },
+    {
+      "path": "Makefile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3889375961553980ed1a703af861186c47e561d4",
+      "size": 999,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/3889375961553980ed1a703af861186c47e561d4"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40d63b346f2a01f5b026fdda4e8714db38842089",
+      "size": 3252,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/40d63b346f2a01f5b026fdda4e8714db38842089"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ffbe46849e50c775aedcec63e9181d19986b1cf6",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/ffbe46849e50c775aedcec63e9181d19986b1cf6"
+    },
+    {
+      "path": "assets/media",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2cd2279ec40c63fbb982fd21b5a885eb749e9958",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/2cd2279ec40c63fbb982fd21b5a885eb749e9958"
+    },
+    {
+      "path": "assets/media/conduit-logo.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3296a20ca4d1783e6a5f5e9a95e9fa8bcf66e8d6",
+      "size": 6283,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/3296a20ca4d1783e6a5f5e9a95e9fa8bcf66e8d6"
+    },
+    {
+      "path": "assets/media/conduit-logo.svg.generate.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5e882cd207b2099eef81f1d92fe816bee4b819d",
+      "size": 1174,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/b5e882cd207b2099eef81f1d92fe816bee4b819d"
+    },
+    {
+      "path": "assets/media/default-avatar.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "561e021b78e4ff1281549e1f43a94d55e76f2a89",
+      "size": 449,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/561e021b78e4ff1281549e1f43a94d55e76f2a89"
+    },
+    {
+      "path": "assets/media/end.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9cb4cfb3af3df95b2df6004f34fcd868aa27985",
+      "size": 104276,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/a9cb4cfb3af3df95b2df6004f34fcd868aa27985"
+    },
+    {
+      "path": "assets/media/frameworks.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0c1310b232138690d3cc3b8d4a3286214f90da6",
+      "size": 12497,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/e0c1310b232138690d3cc3b8d4a3286214f90da6"
+    },
+    {
+      "path": "assets/media/mobile_icons",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4bc96cbad0393d8d84960a482c3912e37e6eb5c1",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/4bc96cbad0393d8d84960a482c3912e37e6eb5c1"
+    },
+    {
+      "path": "assets/media/mobile_icons/android",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b8d07696e0c18f8ba72a9a747224dba1a309238e",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/b8d07696e0c18f8ba72a9a747224dba1a309238e"
+    },
+    {
+      "path": "assets/media/mobile_icons/android/mipmap-hdpi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "180ac95b926b567944bb2848b378bdf62dd8f4a9",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/180ac95b926b567944bb2848b378bdf62dd8f4a9"
+    },
+    {
+      "path": "assets/media/mobile_icons/android/mipmap-hdpi/ic_launcher.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15374183593a61fc3b06600c223d73553c1086fa",
+      "size": 5136,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/15374183593a61fc3b06600c223d73553c1086fa"
+    },
+    {
+      "path": "assets/media/mobile_icons/android/mipmap-ldpi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ec56b9d62aca8a5eedf273eaefa26d856d062ece",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/ec56b9d62aca8a5eedf273eaefa26d856d062ece"
+    },
+    {
+      "path": "assets/media/mobile_icons/android/mipmap-ldpi/ic_launcher.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17a7ece1387ec6bf28782ded6ae9d28f8bf78f85",
+      "size": 1980,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/17a7ece1387ec6bf28782ded6ae9d28f8bf78f85"
+    },
+    {
+      "path": "assets/media/mobile_icons/android/mipmap-mdpi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "73164d0471cc67070de7d3f40ec4c3d51369e83c",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/73164d0471cc67070de7d3f40ec4c3d51369e83c"
+    },
+    {
+      "path": "assets/media/mobile_icons/android/mipmap-mdpi/ic_launcher.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66ae462722c8df8d9d0bb30513f3a7f135ccff15",
+      "size": 2901,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/66ae462722c8df8d9d0bb30513f3a7f135ccff15"
+    },
+    {
+      "path": "assets/media/mobile_icons/android/mipmap-xhdpi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0ef04c589e12453a1ac9726479329a404d0c39cd",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/0ef04c589e12453a1ac9726479329a404d0c39cd"
+    },
+    {
+      "path": "assets/media/mobile_icons/android/mipmap-xhdpi/ic_launcher.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "397cb8d04c11e515c96550d72ab8f51467f14c76",
+      "size": 7777,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/397cb8d04c11e515c96550d72ab8f51467f14c76"
+    },
+    {
+      "path": "assets/media/mobile_icons/android/mipmap-xxhdpi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d0577dc71843850fa26bd5d1d5100bc5d0862440",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/d0577dc71843850fa26bd5d1d5100bc5d0862440"
+    },
+    {
+      "path": "assets/media/mobile_icons/android/mipmap-xxhdpi/ic_launcher.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33cf26dc4ee75dc686e4dee33de3d45573058f09",
+      "size": 13181,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/33cf26dc4ee75dc686e4dee33de3d45573058f09"
+    },
+    {
+      "path": "assets/media/mobile_icons/android/mipmap-xxxhdpi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "989d26cf2a7da1270c67ad62bc759dde8ccb93e2",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/989d26cf2a7da1270c67ad62bc759dde8ccb93e2"
+    },
+    {
+      "path": "assets/media/mobile_icons/android/mipmap-xxxhdpi/ic_launcher.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f72aeb88004de385c14e38f5f47d529100bca9b",
+      "size": 19077,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/8f72aeb88004de385c14e38f5f47d529100bca9b"
+    },
+    {
+      "path": "assets/media/mobile_icons/android/playstore-icon.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc62e09e76ccc3dedeffdff7662ca201e7272c14",
+      "size": 65704,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/fc62e09e76ccc3dedeffdff7662ca201e7272c14"
+    },
+    {
+      "path": "assets/media/mobile_icons/imessenger",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f61d6581e57ddcd0909e325cefbc1d20c4c0b442",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/f61d6581e57ddcd0909e325cefbc1d20c4c0b442"
+    },
+    {
+      "path": "assets/media/mobile_icons/imessenger/icon-messages-app-27x20@1x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdf8fe3602c68195a63554db88507a5dc210c8ab",
+      "size": 1124,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/cdf8fe3602c68195a63554db88507a5dc210c8ab"
+    },
+    {
+      "path": "assets/media/mobile_icons/imessenger/icon-messages-app-27x20@2x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db434baef75c64c4969c7aa694ff6becf5c8c3dc",
+      "size": 2924,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/db434baef75c64c4969c7aa694ff6becf5c8c3dc"
+    },
+    {
+      "path": "assets/media/mobile_icons/imessenger/icon-messages-app-27x20@3x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "804f6bf765788b3f89645ed2413e907e860adab5",
+      "size": 5202,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/804f6bf765788b3f89645ed2413e907e860adab5"
+    },
+    {
+      "path": "assets/media/mobile_icons/imessenger/icon-messages-app-iPadAir-67x50@2x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2997dd879eb49987c2352f2853394fcd61d6125b",
+      "size": 10164,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/2997dd879eb49987c2352f2853394fcd61d6125b"
+    },
+    {
+      "path": "assets/media/mobile_icons/imessenger/icon-messages-app-iPadAir-74x55@2x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e5bd28d7a70d8678ce36b9c51ae06bb7c2fed1c",
+      "size": 11547,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/9e5bd28d7a70d8678ce36b9c51ae06bb7c2fed1c"
+    },
+    {
+      "path": "assets/media/mobile_icons/imessenger/icon-messages-app-iPhone-60x45@1x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d39047c0cabcbd740feb2637eaa515cee358cc18",
+      "size": 3351,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/d39047c0cabcbd740feb2637eaa515cee358cc18"
+    },
+    {
+      "path": "assets/media/mobile_icons/imessenger/icon-messages-app-iPhone-60x45@2x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52d754621bacced89d632585fb186cecbce085bc",
+      "size": 8838,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/52d754621bacced89d632585fb186cecbce085bc"
+    },
+    {
+      "path": "assets/media/mobile_icons/imessenger/icon-messages-app-iPhone-60x45@3x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "578ad099dd9e48ec90b4af072ceba6edc2527b6b",
+      "size": 14896,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/578ad099dd9e48ec90b4af072ceba6edc2527b6b"
+    },
+    {
+      "path": "assets/media/mobile_icons/imessenger/icon-messages-app-store-1024x768.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9f6da99f44b15241cc6a079f39ea6cfd3c3f7ad",
+      "size": 132958,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/b9f6da99f44b15241cc6a079f39ea6cfd3c3f7ad"
+    },
+    {
+      "path": "assets/media/mobile_icons/imessenger/icon-messages-transcript-32x24@1x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "676b2f05a3d34e19ce2e535e2e17afc8fe54664c",
+      "size": 1451,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/676b2f05a3d34e19ce2e535e2e17afc8fe54664c"
+    },
+    {
+      "path": "assets/media/mobile_icons/imessenger/icon-messages-transcript-32x24@2x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5762314ab76362064ecaf502e31320a0fd636a6e",
+      "size": 3738,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/5762314ab76362064ecaf502e31320a0fd636a6e"
+    },
+    {
+      "path": "assets/media/mobile_icons/imessenger/icon-messages-transcript-32x24@3x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "966f917e0045e90f6a86153ce79b492c26fea003",
+      "size": 6575,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/966f917e0045e90f6a86153ce79b492c26fea003"
+    },
+    {
+      "path": "assets/media/mobile_icons/ios",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "737da862db6a5fdd65348980d300a181c14da3a3",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/737da862db6a5fdd65348980d300a181c14da3a3"
+    },
+    {
+      "path": "assets/media/mobile_icons/ios/AppIcon.appiconset",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ab6a3b752aebf49fa3dece925bb613da960ae87e",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/ab6a3b752aebf49fa3dece925bb613da960ae87e"
+    },
+    {
+      "path": "assets/media/mobile_icons/ios/AppIcon.appiconset/Contents.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50a2d3e0146b852bad9db406ae9746302baabfb5",
+      "size": 3540,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/50a2d3e0146b852bad9db406ae9746302baabfb5"
+    },
+    {
+      "path": "assets/media/mobile_icons/ios/AppIcon.appiconset/Icon-App-20x20@1x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db708ffffb2ead10c8ec35de50fae9c027aa1909",
+      "size": 895,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/db708ffffb2ead10c8ec35de50fae9c027aa1909"
+    },
+    {
+      "path": "assets/media/mobile_icons/ios/AppIcon.appiconset/Icon-App-20x20@2x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af975cbb5268fd2ff3e0dcd13d4ba1d5321c9571",
+      "size": 2269,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/af975cbb5268fd2ff3e0dcd13d4ba1d5321c9571"
+    },
+    {
+      "path": "assets/media/mobile_icons/ios/AppIcon.appiconset/Icon-App-20x20@3x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56b88abd79716c0a7b41de022e30f2159b40056c",
+      "size": 3849,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/56b88abd79716c0a7b41de022e30f2159b40056c"
+    },
+    {
+      "path": "assets/media/mobile_icons/ios/AppIcon.appiconset/Icon-App-29x29@1x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51e43ab74c45aa8845ab69121aa7ba2eb8226dd2",
+      "size": 1480,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/51e43ab74c45aa8845ab69121aa7ba2eb8226dd2"
+    },
+    {
+      "path": "assets/media/mobile_icons/ios/AppIcon.appiconset/Icon-App-29x29@2x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "007129963f1edd43cbcdcd5d279eb5ea4a691a40",
+      "size": 3754,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/007129963f1edd43cbcdcd5d279eb5ea4a691a40"
+    },
+    {
+      "path": "assets/media/mobile_icons/ios/AppIcon.appiconset/Icon-App-29x29@3x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57ff15997a3188cd6555da7ce88177eeac70a9b3",
+      "size": 6704,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/57ff15997a3188cd6555da7ce88177eeac70a9b3"
+    },
+    {
+      "path": "assets/media/mobile_icons/ios/AppIcon.appiconset/Icon-App-40x40@1x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af975cbb5268fd2ff3e0dcd13d4ba1d5321c9571",
+      "size": 2269,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/af975cbb5268fd2ff3e0dcd13d4ba1d5321c9571"
+    },
+    {
+      "path": "assets/media/mobile_icons/ios/AppIcon.appiconset/Icon-App-40x40@2x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9dbf773f940f547443d9c62daf11c520ebeb6eb",
+      "size": 5990,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/d9dbf773f940f547443d9c62daf11c520ebeb6eb"
+    },
+    {
+      "path": "assets/media/mobile_icons/ios/AppIcon.appiconset/Icon-App-40x40@3x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bb85ed9af42e29c17da5dba080c9d2e9912aae9",
+      "size": 10467,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/8bb85ed9af42e29c17da5dba080c9d2e9912aae9"
+    },
+    {
+      "path": "assets/media/mobile_icons/ios/AppIcon.appiconset/Icon-App-57x57@1x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01ef3626846d786591a238ea49655ee51166d33a",
+      "size": 3672,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/01ef3626846d786591a238ea49655ee51166d33a"
+    },
+    {
+      "path": "assets/media/mobile_icons/ios/AppIcon.appiconset/Icon-App-57x57@2x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "660132fb2388529b2dd2ca851286cad85aa7c139",
+      "size": 9716,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/660132fb2388529b2dd2ca851286cad85aa7c139"
+    },
+    {
+      "path": "assets/media/mobile_icons/ios/AppIcon.appiconset/Icon-App-60x60@1x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56b88abd79716c0a7b41de022e30f2159b40056c",
+      "size": 3849,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/56b88abd79716c0a7b41de022e30f2159b40056c"
+    },
+    {
+      "path": "assets/media/mobile_icons/ios/AppIcon.appiconset/Icon-App-60x60@2x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bb85ed9af42e29c17da5dba080c9d2e9912aae9",
+      "size": 10467,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/8bb85ed9af42e29c17da5dba080c9d2e9912aae9"
+    },
+    {
+      "path": "assets/media/mobile_icons/ios/AppIcon.appiconset/Icon-App-60x60@3x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03940b74b24ab3b4102400e85fc6d91115bdf105",
+      "size": 17689,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/03940b74b24ab3b4102400e85fc6d91115bdf105"
+    },
+    {
+      "path": "assets/media/mobile_icons/ios/AppIcon.appiconset/Icon-App-72x72@1x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15374183593a61fc3b06600c223d73553c1086fa",
+      "size": 5136,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/15374183593a61fc3b06600c223d73553c1086fa"
+    },
+    {
+      "path": "assets/media/mobile_icons/ios/AppIcon.appiconset/Icon-App-72x72@2x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33cf26dc4ee75dc686e4dee33de3d45573058f09",
+      "size": 13181,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/33cf26dc4ee75dc686e4dee33de3d45573058f09"
+    },
+    {
+      "path": "assets/media/mobile_icons/ios/AppIcon.appiconset/Icon-App-76x76@1x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bf1d9035eb1ad1cd1154cd629137342e31bb89f",
+      "size": 5591,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/2bf1d9035eb1ad1cd1154cd629137342e31bb89f"
+    },
+    {
+      "path": "assets/media/mobile_icons/ios/AppIcon.appiconset/Icon-App-76x76@2x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "682231d5850c7ba9a25949888ae9cc55879bfbd6",
+      "size": 14105,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/682231d5850c7ba9a25949888ae9cc55879bfbd6"
+    },
+    {
+      "path": "assets/media/mobile_icons/ios/AppIcon.appiconset/Icon-App-76x76@3x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca7084fcaa638b1add4c57d2efb891aee77b37e2",
+      "size": 23755,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/ca7084fcaa638b1add4c57d2efb891aee77b37e2"
+    },
+    {
+      "path": "assets/media/mobile_icons/ios/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e796bbae1c3f73e927a3941462a355693abe56f",
+      "size": 15957,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/2e796bbae1c3f73e927a3941462a355693abe56f"
+    },
+    {
+      "path": "assets/media/mobile_icons/ios/AppIcon.appiconset/Icon-Small-50x50@1x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc5e33f824e9a3f7d79b407c830f1a5c63b7eca2",
+      "size": 3095,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/fc5e33f824e9a3f7d79b407c830f1a5c63b7eca2"
+    },
+    {
+      "path": "assets/media/mobile_icons/ios/AppIcon.appiconset/Icon-Small-50x50@2x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d96b9b761deb2c745a6184da6b3f3408c85cc160",
+      "size": 8166,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/d96b9b761deb2c745a6184da6b3f3408c85cc160"
+    },
+    {
+      "path": "assets/media/mobile_icons/ios/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fff3d5d7aa6b9cef4288b481c68ae40b8b9977ac",
+      "size": 999,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/fff3d5d7aa6b9cef4288b481c68ae40b8b9977ac"
+    },
+    {
+      "path": "assets/media/mobile_icons/ios/iTunesArtwork@1x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc62e09e76ccc3dedeffdff7662ca201e7272c14",
+      "size": 65704,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/fc62e09e76ccc3dedeffdff7662ca201e7272c14"
+    },
+    {
+      "path": "assets/media/mobile_icons/ios/iTunesArtwork@2x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e485df895614b5ff6a2366f57e7b0df8b6d9496d",
+      "size": 153012,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/e485df895614b5ff6a2366f57e7b0df8b6d9496d"
+    },
+    {
+      "path": "assets/media/mobile_icons/ios/iTunesArtwork@3x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4de882d19327c5a86fe58d93ee7ad2490960e2d3",
+      "size": 246600,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/4de882d19327c5a86fe58d93ee7ad2490960e2d3"
+    },
+    {
+      "path": "assets/media/mobile_icons/watchkit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4f27bdd2b088cb435311eb47d9627f68ce9ae8b8",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/4f27bdd2b088cb435311eb47d9627f68ce9ae8b8"
+    },
+    {
+      "path": "assets/media/mobile_icons/watchkit/AppIcon.appiconset",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f4e644c4d6526ba9beb5d5872152a6174f02a2d5",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/f4e644c4d6526ba9beb5d5872152a6174f02a2d5"
+    },
+    {
+      "path": "assets/media/mobile_icons/watchkit/AppIcon.appiconset/Contents.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43b58eaf5d6c6db036fe6aaf786e6ed6c17ecf90",
+      "size": 1419,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/43b58eaf5d6c6db036fe6aaf786e6ed6c17ecf90"
+    },
+    {
+      "path": "assets/media/mobile_icons/watchkit/AppIcon.appiconset/Icon-24@2x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66ae462722c8df8d9d0bb30513f3a7f135ccff15",
+      "size": 2901,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/66ae462722c8df8d9d0bb30513f3a7f135ccff15"
+    },
+    {
+      "path": "assets/media/mobile_icons/watchkit/AppIcon.appiconset/Icon-27.5@2x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98cdd859de6d3ff57333b4f3b097a4a94af801d7",
+      "size": 3451,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/98cdd859de6d3ff57333b4f3b097a4a94af801d7"
+    },
+    {
+      "path": "assets/media/mobile_icons/watchkit/AppIcon.appiconset/Icon-29@2x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "007129963f1edd43cbcdcd5d279eb5ea4a691a40",
+      "size": 3754,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/007129963f1edd43cbcdcd5d279eb5ea4a691a40"
+    },
+    {
+      "path": "assets/media/mobile_icons/watchkit/AppIcon.appiconset/Icon-29@3x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57ff15997a3188cd6555da7ce88177eeac70a9b3",
+      "size": 6704,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/57ff15997a3188cd6555da7ce88177eeac70a9b3"
+    },
+    {
+      "path": "assets/media/mobile_icons/watchkit/AppIcon.appiconset/Icon-40@2x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9dbf773f940f547443d9c62daf11c520ebeb6eb",
+      "size": 5990,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/d9dbf773f940f547443d9c62daf11c520ebeb6eb"
+    },
+    {
+      "path": "assets/media/mobile_icons/watchkit/AppIcon.appiconset/Icon-44@2x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aafc135b6ea8dec1f4f062da41d1fbbbc4f8f922",
+      "size": 6844,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/aafc135b6ea8dec1f4f062da41d1fbbbc4f8f922"
+    },
+    {
+      "path": "assets/media/mobile_icons/watchkit/AppIcon.appiconset/Icon-86@2x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98c4114c9739d0e7f7258442a165d781dea05555",
+      "size": 16670,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/98c4114c9739d0e7f7258442a165d781dea05555"
+    },
+    {
+      "path": "assets/media/mobile_icons/watchkit/AppIcon.appiconset/Icon-98@2x.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64c30df5157f81615a7e0bfe3ea9d3d9dfd1f456",
+      "size": 19558,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/64c30df5157f81615a7e0bfe3ea9d3d9dfd1f456"
+    },
+    {
+      "path": "assets/media/realworld-dual-mode.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d60354896dbab333efba6cc276bf38cbe047d61",
+      "size": 15217,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/2d60354896dbab333efba6cc276bf38cbe047d61"
+    },
+    {
+      "path": "assets/media/realworld-logo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1b6b2b560fcfab74562c1672c8a3ebe4e8fb522",
+      "size": 6641,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/d1b6b2b560fcfab74562c1672c8a3ebe4e8fb522"
+    },
+    {
+      "path": "assets/media/realworld-logo.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a976bf82725783492aca95d018373065499b0a0e",
+      "size": 1153,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/a976bf82725783492aca95d018373065499b0a0e"
+    },
+    {
+      "path": "assets/media/realworld.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53db9b508bd7a78bee1feef81e778c24986f4871",
+      "size": 27418,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/53db9b508bd7a78bee1feef81e778c24986f4871"
+    },
+    {
+      "path": "assets/media/spacer-1669x257.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7330bd4d5978cfdb975a2d45e0f85405acb70f71",
+      "size": 1082,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/7330bd4d5978cfdb975a2d45e0f85405acb70f71"
+    },
+    {
+      "path": "assets/media/stacks_hr.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4480b6bb76614ef8c8e63f580db4509b96af574c",
+      "size": 369085,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/4480b6bb76614ef8c8e63f580db4509b96af574c"
+    },
+    {
+      "path": "assets/theme",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "741931ea472043fb70cf79380f705b9ad7a318f9",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/741931ea472043fb70cf79380f705b9ad7a318f9"
+    },
+    {
+      "path": "assets/theme/styles.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b5159ff54856ca36b99c99d45c6c0e03d5d08a2",
+      "size": 28850,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/7b5159ff54856ca36b99c99d45c6c0e03d5d08a2"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4d2ff34ea384d02bbb6199a10a5225f1ee96715f",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/4d2ff34ea384d02bbb6199a10a5225f1ee96715f"
+    },
+    {
+      "path": "docs/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6240da8b10bfc3ab9dc4564c4169453cf143db7f",
+      "size": 229,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/6240da8b10bfc3ab9dc4564c4169453cf143db7f"
+    },
+    {
+      "path": "docs/.vscode",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0c33c7c3c06928c95be8c68f9f15a508c844a3dc",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/0c33c7c3c06928c95be8c68f9f15a508c844a3dc"
+    },
+    {
+      "path": "docs/.vscode/extensions.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22a15055d638988eb33bb61536d27f623df92e4a",
+      "size": 87,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/22a15055d638988eb33bb61536d27f623df92e4a"
+    },
+    {
+      "path": "docs/.vscode/launch.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6422097621fd7c1b1ccc6daa670c46aed7ef5b7",
+      "size": 207,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/d6422097621fd7c1b1ccc6daa670c46aed7ef5b7"
+    },
+    {
+      "path": "docs/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e09bf55fefe3d61bdafd7082bf11a64e895d337a",
+      "size": 2657,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/e09bf55fefe3d61bdafd7082bf11a64e895d337a"
+    },
+    {
+      "path": "docs/astro.config.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53de1e7235daba40e3dd0535124b3e2cfc998b11",
+      "size": 6784,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/53de1e7235daba40e3dd0535124b3e2cfc998b11"
+    },
+    {
+      "path": "docs/bun.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c74aa4bb5621421709251775065783d950f66908",
+      "size": 152733,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/c74aa4bb5621421709251775065783d950f66908"
+    },
+    {
+      "path": "docs/non-included",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4098bd0c0add5f88b50de1d224f07926c3d270df",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/4098bd0c0add5f88b50de1d224f07926c3d270df"
+    },
+    {
+      "path": "docs/non-included/LICENSES_LOGOS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f2b52740528dd073ef9d34f0e27bad94bbb6afb",
+      "size": 5626,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/3f2b52740528dd073ef9d34f0e27bad94bbb6afb"
+    },
+    {
+      "path": "docs/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "425bd88eb9f7fc24b67566903426d05f27e2566a",
+      "size": 669,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/425bd88eb9f7fc24b67566903426d05f27e2566a"
+    },
+    {
+      "path": "docs/public",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "145e4846ce1f28b53a839cce7afae3db4ad234e1",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/145e4846ce1f28b53a839cce7afae3db4ad234e1"
+    },
+    {
+      "path": "docs/public/favicon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cba5ac140a25951a20704b481a65514838f0f4b6",
+      "size": 696,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/cba5ac140a25951a20704b481a65514838f0f4b6"
+    },
+    {
+      "path": "docs/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c09312ef81388f51a4ec01de3bdce3ba8172ce8a",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/c09312ef81388f51a4ec01de3bdce3ba8172ce8a"
+    },
+    {
+      "path": "docs/src/assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fd2e75fdb8ad0d16cbe093f0b59883c1eb659f42",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/fd2e75fdb8ad0d16cbe093f0b59883c1eb659f42"
+    },
+    {
+      "path": "docs/src/assets/img",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ff3dfd9e00898652271dac0842f8bbaf9285cd61",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/ff3dfd9e00898652271dac0842f8bbaf9285cd61"
+    },
+    {
+      "path": "docs/src/assets/img/codebaseshow-logo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b95d10bfd1b433f7dc90f12d8f8a9739bcf59ed",
+      "size": 3925,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/5b95d10bfd1b433f7dc90f12d8f8a9739bcf59ed"
+    },
+    {
+      "path": "docs/src/assets/img/codebaseshow-logo.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd3bf25a1f866f38df5f3de213bf0129075a3fe2",
+      "size": 8244,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/bd3bf25a1f866f38df5f3de213bf0129075a3fe2"
+    },
+    {
+      "path": "docs/src/assets/img/end.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9cb4cfb3af3df95b2df6004f34fcd868aa27985",
+      "size": 104276,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/a9cb4cfb3af3df95b2df6004f34fcd868aa27985"
+    },
+    {
+      "path": "docs/src/assets/img/favicon.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a618f5dc8fced2bf86063d3ed5ba4903618ec2f",
+      "size": 1804,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/3a618f5dc8fced2bf86063d3ed5ba4903618ec2f"
+    },
+    {
+      "path": "docs/src/assets/img/logo.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9db6d0d066e3df092350a71e4c4ec5a90190b7c3",
+      "size": 6438,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/9db6d0d066e3df092350a71e4c4ec5a90190b7c3"
+    },
+    {
+      "path": "docs/src/assets/img/realworld-dual-mode.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d60354896dbab333efba6cc276bf38cbe047d61",
+      "size": 15217,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/2d60354896dbab333efba6cc276bf38cbe047d61"
+    },
+    {
+      "path": "docs/src/assets/img/realworld-logo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c25d697ed81f327fb1735861a71ce2f31338917",
+      "size": 16677,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/5c25d697ed81f327fb1735861a71ce2f31338917"
+    },
+    {
+      "path": "docs/src/assets/img/realworld.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53db9b508bd7a78bee1feef81e778c24986f4871",
+      "size": 27418,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/53db9b508bd7a78bee1feef81e778c24986f4871"
+    },
+    {
+      "path": "docs/src/assets/img/spaceship.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b254fa29e2ff482ab273314c90e982e48054ad8f",
+      "size": 11394,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/b254fa29e2ff482ab273314c90e982e48054ad8f"
+    },
+    {
+      "path": "docs/src/assets/img/stacks_hr.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4480b6bb76614ef8c8e63f580db4509b96af574c",
+      "size": 369085,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/4480b6bb76614ef8c8e63f580db4509b96af574c"
+    },
+    {
+      "path": "docs/src/content",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e6723afe4ddfd0580cf990770c08799b9fa0b51c",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/e6723afe4ddfd0580cf990770c08799b9fa0b51c"
+    },
+    {
+      "path": "docs/src/content/config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45f60b01542e20c173efeebce00c60abcc38e9e0",
+      "size": 190,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/45f60b01542e20c173efeebce00c60abcc38e9e0"
+    },
+    {
+      "path": "docs/src/content/docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4d758fd5e42c7d67d46e4d66898e08cb7fb48ce3",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/4d758fd5e42c7d67d46e4d66898e08cb7fb48ce3"
+    },
+    {
+      "path": "docs/src/content/docs/community",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ebce68415da2b28ab1e6e71ac631c762bbe118e3",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/ebce68415da2b28ab1e6e71ac631c762bbe118e3"
+    },
+    {
+      "path": "docs/src/content/docs/community/authors.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6ca5273c0fa5f95aef8ae1174adc2a2841f90a8",
+      "size": 3394,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/a6ca5273c0fa5f95aef8ae1174adc2a2841f90a8"
+    },
+    {
+      "path": "docs/src/content/docs/community/resources.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f15a0e53690c0f88ae672763f39e1ef2ebf86341",
+      "size": 1041,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/f15a0e53690c0f88ae672763f39e1ef2ebf86341"
+    },
+    {
+      "path": "docs/src/content/docs/community/special-thanks.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91b7041bc5c1a4042e9bf61da67767b9f3a4826b",
+      "size": 1255,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/91b7041bc5c1a4042e9bf61da67767b9f3a4826b"
+    },
+    {
+      "path": "docs/src/content/docs/implementation-creation",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b516bc8145b4ea1594cebbe51becb5c509de4fb4",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/b516bc8145b4ea1594cebbe51becb5c509de4fb4"
+    },
+    {
+      "path": "docs/src/content/docs/implementation-creation/expectations.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fb3dc2d6d4028e03b450dfdf3bca17645bcd96b",
+      "size": 2815,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/2fb3dc2d6d4028e03b450dfdf3bca17645bcd96b"
+    },
+    {
+      "path": "docs/src/content/docs/implementation-creation/features.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d14faa0a0dacb5b1d9e640764fd79e9a3b9d18b9",
+      "size": 352,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/d14faa0a0dacb5b1d9e640764fd79e9a3b9d18b9"
+    },
+    {
+      "path": "docs/src/content/docs/implementation-creation/introduction.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "368c68a3ce4bc443f4ccd7500bdac045edac3e1a",
+      "size": 757,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/368c68a3ce4bc443f4ccd7500bdac045edac3e1a"
+    },
+    {
+      "path": "docs/src/content/docs/index.mdx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d758009648318f830248313e4741266a01e92da",
+      "size": 612,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/1d758009648318f830248313e4741266a01e92da"
+    },
+    {
+      "path": "docs/src/content/docs/introduction.mdx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "121e012c03a8073f3da1da198189c822d93c9763",
+      "size": 2110,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/121e012c03a8073f3da1da198189c822d93c9763"
+    },
+    {
+      "path": "docs/src/content/docs/specifications",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "39d04d559382063f33e10852bda8a93e97cde64f",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/39d04d559382063f33e10852bda8a93e97cde64f"
+    },
+    {
+      "path": "docs/src/content/docs/specifications/backend",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2bfb6bd74a545fed1275b4a77e4433a16a6877d5",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/2bfb6bd74a545fed1275b4a77e4433a16a6877d5"
+    },
+    {
+      "path": "docs/src/content/docs/specifications/backend/api-response-format.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11a1bfe3489b8d8dfa488b31e184536c810b3fd8",
+      "size": 3148,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/11a1bfe3489b8d8dfa488b31e184536c810b3fd8"
+    },
+    {
+      "path": "docs/src/content/docs/specifications/backend/bruno.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c8b78a6292bbeab333b0685be994056a924456c",
+      "size": 812,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/3c8b78a6292bbeab333b0685be994056a924456c"
+    },
+    {
+      "path": "docs/src/content/docs/specifications/backend/cors.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7f3abd6d2223a9ad950aded8867ce49234b9bfb",
+      "size": 346,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/a7f3abd6d2223a9ad950aded8867ce49234b9bfb"
+    },
+    {
+      "path": "docs/src/content/docs/specifications/backend/endpoints.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18f16ba41500caaead8ef863f47d1fb84dea1894",
+      "size": 5378,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/18f16ba41500caaead8ef863f47d1fb84dea1894"
+    },
+    {
+      "path": "docs/src/content/docs/specifications/backend/error-handling.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21cfd6bce6508bf32968c7fa141fa6c67ac46554",
+      "size": 541,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/21cfd6bce6508bf32968c7fa141fa6c67ac46554"
+    },
+    {
+      "path": "docs/src/content/docs/specifications/backend/hurl.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62542ffde2783242e23123b1c26b20b0798ed758",
+      "size": 645,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/62542ffde2783242e23123b1c26b20b0798ed758"
+    },
+    {
+      "path": "docs/src/content/docs/specifications/backend/introduction.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b1c05a5d70ca523fc3399044f5e37629b473bb3",
+      "size": 1457,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/7b1c05a5d70ca523fc3399044f5e37629b473bb3"
+    },
+    {
+      "path": "docs/src/content/docs/specifications/backend/postman.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fb8deb34b5b43bdbd11978147f2c6531871b91e",
+      "size": 441,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/8fb8deb34b5b43bdbd11978147f2c6531871b91e"
+    },
+    {
+      "path": "docs/src/content/docs/specifications/backend/tests.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd33a60b0dbbc6ae6c60d056108311644677c2fd",
+      "size": 148,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/cd33a60b0dbbc6ae6c60d056108311644677c2fd"
+    },
+    {
+      "path": "docs/src/content/docs/specifications/frontend",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "065a01a9f44a8d318f4d135a2f05775daee950bf",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/065a01a9f44a8d318f4d135a2f05775daee950bf"
+    },
+    {
+      "path": "docs/src/content/docs/specifications/frontend/api.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00c541da99893cfeacbda22fe18da39154861612",
+      "size": 1292,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/00c541da99893cfeacbda22fe18da39154861612"
+    },
+    {
+      "path": "docs/src/content/docs/specifications/frontend/routing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7f0d97094d99a66f6192a4c4b5f8bbaac3207b3",
+      "size": 900,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/f7f0d97094d99a66f6192a4c4b5f8bbaac3207b3"
+    },
+    {
+      "path": "docs/src/content/docs/specifications/frontend/styles.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8483d642e5254c923a8b60997cf363d494b6980",
+      "size": 1387,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/f8483d642e5254c923a8b60997cf363d494b6980"
+    },
+    {
+      "path": "docs/src/content/docs/specifications/frontend/templates.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf3d626d38510b278f501d6e6389b6dfd47fd99e",
+      "size": 19706,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/cf3d626d38510b278f501d6e6389b6dfd47fd99e"
+    },
+    {
+      "path": "docs/src/content/docs/specifications/frontend/tests.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ee657852f435905d4d89318cbc47e78119782e2",
+      "size": 1330,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/9ee657852f435905d4d89318cbc47e78119782e2"
+    },
+    {
+      "path": "docs/src/content/docs/specifications/mobile-specs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cf0f18907b9a1f7204eb2b91801e1de628c1e7bc",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/cf0f18907b9a1f7204eb2b91801e1de628c1e7bc"
+    },
+    {
+      "path": "docs/src/content/docs/specifications/mobile-specs/introduction.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb88e20061d61df4bd8d962aac928d3c7d26cacd",
+      "size": 690,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/bb88e20061d61df4bd8d962aac928d3c7d26cacd"
+    },
+    {
+      "path": "docs/src/env.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acef35f175aae528d22fdc6b91e819aa52837fd9",
+      "size": 85,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/acef35f175aae528d22fdc6b91e819aa52837fd9"
+    },
+    {
+      "path": "docs/src/tailwind.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ec1d26ba8ade4f724f01d1563ad49e6bb71ee0a",
+      "size": 942,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/6ec1d26ba8ade4f724f01d1563ad49e6bb71ee0a"
+    },
+    {
+      "path": "docs/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "032ad645d6b77eb7d460f4e80a109a834465ccaf",
+      "size": 124,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/032ad645d6b77eb7d460f4e80a109a834465ccaf"
+    },
+    {
+      "path": "specs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4f0113dbbf77aa5e96446d252ea5b2bd06641d20",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/4f0113dbbf77aa5e96446d252ea5b2bd06641d20"
+    },
+    {
+      "path": "specs/api",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "de3679a288a37bfc319f09629aa595f52de2c11a",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/de3679a288a37bfc319f09629aa595f52de2c11a"
+    },
+    {
+      "path": "specs/api/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4defbaf1a2ead880082850435cfeb4db70a2757b",
+      "size": 851,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/4defbaf1a2ead880082850435cfeb4db70a2757b"
+    },
+    {
+      "path": "specs/api/bruno",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7c8ebe71c131239b2f86e6278bcc59bc7040c909",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/7c8ebe71c131239b2f86e6278bcc59bc7040c909"
+    },
+    {
+      "path": "specs/api/bruno/articles",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0fb429925b4b404537867dfd834bd6cbcf5af564",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/0fb429925b4b404537867dfd834bd6cbcf5af564"
+    },
+    {
+      "path": "specs/api/bruno/articles/01-setup-register.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a0e67044331280719e41fee525e83b24506352f",
+      "size": 367,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/7a0e67044331280719e41fee525e83b24506352f"
+    },
+    {
+      "path": "specs/api/bruno/articles/02-create-article-with-tags.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b31e0bda6d30d9a68da8697147e5698e64334ed",
+      "size": 1473,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/3b31e0bda6d30d9a68da8697147e5698e64334ed"
+    },
+    {
+      "path": "specs/api/bruno/articles/03-list-all-articles.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e71969e3b3f5b84725c40c475ecb53a725a1acaf",
+      "size": 1073,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/e71969e3b3f5b84725c40c475ecb53a725a1acaf"
+    },
+    {
+      "path": "specs/api/bruno/articles/04-list-by-author.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5eb134fb108afa583ba998cbdd3debd2468d5224",
+      "size": 1100,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/5eb134fb108afa583ba998cbdd3debd2468d5224"
+    },
+    {
+      "path": "specs/api/bruno/articles/05-list-all-articles-with-auth.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83f97cd384517a5f715f305f12b0c66cf110a839",
+      "size": 1129,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/83f97cd384517a5f715f305f12b0c66cf110a839"
+    },
+    {
+      "path": "specs/api/bruno/articles/06-list-by-author-with-auth.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da8add2cfa4f13e7c84214a7a660c61e7a944c7d",
+      "size": 1156,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/da8add2cfa4f13e7c84214a7a660c61e7a944c7d"
+    },
+    {
+      "path": "specs/api/bruno/articles/07-list-by-tag.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c9d93545e19ea271266329137df30ff9b5627c4",
+      "size": 1158,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/8c9d93545e19ea271266329137df30ff9b5627c4"
+    },
+    {
+      "path": "specs/api/bruno/articles/08-list-articles-without-auth.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36f819bb19767940af3580729e253ffa2496c8f1",
+      "size": 311,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/36f819bb19767940af3580729e253ffa2496c8f1"
+    },
+    {
+      "path": "specs/api/bruno/articles/09-get-single-article.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23905b22edbc84b699ad95c57048583ab2ebe81a",
+      "size": 878,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/23905b22edbc84b699ad95c57048583ab2ebe81a"
+    },
+    {
+      "path": "specs/api/bruno/articles/10-update-article-body.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbaa4ca4b9342bd2c88650ede530977e28012dc9",
+      "size": 1215,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/dbaa4ca4b9342bd2c88650ede530977e28012dc9"
+    },
+    {
+      "path": "specs/api/bruno/articles/11-verify-update-persisted.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5f47136efdd762b5ac6272b2dfd78ae1e98ad51",
+      "size": 1118,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/a5f47136efdd762b5ac6272b2dfd78ae1e98ad51"
+    },
+    {
+      "path": "specs/api/bruno/articles/12-update-article-without-taglist-tags-should-be-preserved.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b426e804dc5f2429ed144a1f04403f3e9e11df19",
+      "size": 633,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/b426e804dc5f2429ed144a1f04403f3e9e11df19"
+    },
+    {
+      "path": "specs/api/bruno/articles/13-update-article-remove-all-tags-with-empty-array.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27fe7c887225b051ff3f7c0646d5f65847c57fef",
+      "size": 450,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/27fe7c887225b051ff3f7c0646d5f65847c57fef"
+    },
+    {
+      "path": "specs/api/bruno/articles/14-verify-tags-were-actually-removed.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25d0676c4acff9e5a26c8753f8fbe096d80d4815",
+      "size": 323,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/25d0676c4acff9e5a26c8753f8fbe096d80d4815"
+    },
+    {
+      "path": "specs/api/bruno/articles/15-update-article-taglist-null-should-be-rejected.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebe7618655456529e84baa6696d32bc83cddc631",
+      "size": 308,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/ebe7618655456529e84baa6696d32bc83cddc631"
+    },
+    {
+      "path": "specs/api/bruno/articles/16-delete-article.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0c5ae7af0734050590055210509c9c100b5e032",
+      "size": 210,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/b0c5ae7af0734050590055210509c9c100b5e032"
+    },
+    {
+      "path": "specs/api/bruno/articles/17-verify-deletion.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f371fe0db0b02ed58e3465e4d0cad9313f15ce04",
+      "size": 246,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/f371fe0db0b02ed58e3465e4d0cad9313f15ce04"
+    },
+    {
+      "path": "specs/api/bruno/auth",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0cda754775b0e5bed262aceeade03bc25d77753f",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/0cda754775b0e5bed262aceeade03bc25d77753f"
+    },
+    {
+      "path": "specs/api/bruno/auth/01-register.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "835dd50afa0a291c8301d2d56f16ae48dc1f5244",
+      "size": 700,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/835dd50afa0a291c8301d2d56f16ae48dc1f5244"
+    },
+    {
+      "path": "specs/api/bruno/auth/02-login.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a05dfb710331c2c15bccd4171351f4c6cda5c35",
+      "size": 665,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/4a05dfb710331c2c15bccd4171351f4c6cda5c35"
+    },
+    {
+      "path": "specs/api/bruno/auth/03-get-current-user.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfca3413dbbd10b8dfa299b2e733518de1258d65",
+      "size": 555,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/bfca3413dbbd10b8dfa299b2e733518de1258d65"
+    },
+    {
+      "path": "specs/api/bruno/auth/04-update-user.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7da6d94746fefa0d2d4ad15a3794f97462f53b4d",
+      "size": 631,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/7da6d94746fefa0d2d4ad15a3794f97462f53b4d"
+    },
+    {
+      "path": "specs/api/bruno/auth/05-verify-update-persisted.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa172db456099f705552731e98873c850fbfd4d1",
+      "size": 573,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/fa172db456099f705552731e98873c850fbfd4d1"
+    },
+    {
+      "path": "specs/api/bruno/auth/06-update-user-bio-to-empty-string-should-normalize-to-null.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2b2ee451eb985bd6692c596d18c770070058813",
+      "size": 362,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/f2b2ee451eb985bd6692c596d18c770070058813"
+    },
+    {
+      "path": "specs/api/bruno/auth/07-verify-empty-string-normalization-persisted.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a97a25c2e277b3be657fc77b4fad668c876e295",
+      "size": 288,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/3a97a25c2e277b3be657fc77b4fad668c876e295"
+    },
+    {
+      "path": "specs/api/bruno/auth/08-restore-bio-then-set-to-null.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5f602bd46f2af3b7416c5586071e75ff1eb4e01",
+      "size": 358,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/c5f602bd46f2af3b7416c5586071e75ff1eb4e01"
+    },
+    {
+      "path": "specs/api/bruno/auth/09-update-user-bio-to-null-should-accept-for-nullable-field.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63243833119cc36a2dc8a2fcc1a3af6de038c189",
+      "size": 364,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/63243833119cc36a2dc8a2fcc1a3af6de038c189"
+    },
+    {
+      "path": "specs/api/bruno/auth/10-verify-null-bio-persisted.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e953e284125dc83344f6bc54c6504b79e6a58269",
+      "size": 271,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/e953e284125dc83344f6bc54c6504b79e6a58269"
+    },
+    {
+      "path": "specs/api/bruno/auth/11-restore-bio.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f053205dfebf72ed53c3224ca4847d80d3c7e4e",
+      "size": 632,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/7f053205dfebf72ed53c3224ca4847d80d3c7e4e"
+    },
+    {
+      "path": "specs/api/bruno/auth/12-update-user-image.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc675abe76c1d444336ec022989711cd5076ed71",
+      "size": 384,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/cc675abe76c1d444336ec022989711cd5076ed71"
+    },
+    {
+      "path": "specs/api/bruno/auth/13-verify-image-update-persisted.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "167e11250be3a6d623cd13a3b07c7b4f6c7e40f7",
+      "size": 306,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/167e11250be3a6d623cd13a3b07c7b4f6c7e40f7"
+    },
+    {
+      "path": "specs/api/bruno/auth/14-update-image-to-empty-string-should-normalize-to-null.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a414d4f57b1f12cacbfafcff4c27051f3282c87",
+      "size": 364,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/8a414d4f57b1f12cacbfafcff4c27051f3282c87"
+    },
+    {
+      "path": "specs/api/bruno/auth/15-verify-image-empty-string-normalization-persisted.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8b210e5ed4f0fc7ac0768a8dd64875c2c7eca8a",
+      "size": 297,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/b8b210e5ed4f0fc7ac0768a8dd64875c2c7eca8a"
+    },
+    {
+      "path": "specs/api/bruno/auth/16-set-image-then-update-to-null-should-accept-for-nullable-field.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f716b0fddff3bc0806651806b082add633b0ce1",
+      "size": 429,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/4f716b0fddff3bc0806651806b082add633b0ce1"
+    },
+    {
+      "path": "specs/api/bruno/auth/17-put-user.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a01bef2738d04a2c7aa9a59673caf02a0ba0d89a",
+      "size": 319,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/a01bef2738d04a2c7aa9a59673caf02a0ba0d89a"
+    },
+    {
+      "path": "specs/api/bruno/auth/18-verify-null-image-persisted.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16ca5840784a9d008e872eb66196e04609cd0da5",
+      "size": 275,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/16ca5840784a9d008e872eb66196e04609cd0da5"
+    },
+    {
+      "path": "specs/api/bruno/auth/19-update-username-and-email.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "047c16080f72450ac8093fa9fb2fc82925d92365",
+      "size": 765,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/047c16080f72450ac8093fa9fb2fc82925d92365"
+    },
+    {
+      "path": "specs/api/bruno/auth/20-verify-username-email-update-persisted.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c56b28e788c9eaff7fff132323778ef0d28d95b7",
+      "size": 610,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/c56b28e788c9eaff7fff132323778ef0d28d95b7"
+    },
+    {
+      "path": "specs/api/bruno/bruno.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f563f16a9406967ebb8d37b83693f99d540aa62b",
+      "size": 72,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/f563f16a9406967ebb8d37b83693f99d540aa62b"
+    },
+    {
+      "path": "specs/api/bruno/collection.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc3eb6efc7eb13ef21a06e31ebbd0575569e2f2e",
+      "size": 146,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/bc3eb6efc7eb13ef21a06e31ebbd0575569e2f2e"
+    },
+    {
+      "path": "specs/api/bruno/comments",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e0c76cae4224c143fa5d18996eb1f1f22b944d9b",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/e0c76cae4224c143fa5d18996eb1f1f22b944d9b"
+    },
+    {
+      "path": "specs/api/bruno/comments/01-setup-register.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8039c3c8ec3d327376ee0be4fd10cd044b30bb34",
+      "size": 367,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/8039c3c8ec3d327376ee0be4fd10cd044b30bb34"
+    },
+    {
+      "path": "specs/api/bruno/comments/02-setup-create-article.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abd7c5a79856dd70ffe5a0964779f36032576dd6",
+      "size": 430,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/abd7c5a79856dd70ffe5a0964779f36032576dd6"
+    },
+    {
+      "path": "specs/api/bruno/comments/03-create-comment.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a654f6a832a8ac70c4d8898ec1c4371612be90bf",
+      "size": 747,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/a654f6a832a8ac70c4d8898ec1c4371612be90bf"
+    },
+    {
+      "path": "specs/api/bruno/comments/04-list-comments.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ae120b4b0871d070f6db22eaea4896a01401e0b",
+      "size": 741,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/0ae120b4b0871d070f6db22eaea4896a01401e0b"
+    },
+    {
+      "path": "specs/api/bruno/comments/05-list-comments-without-auth.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "151b7d03174e3125b23a702c9fc5343297e41da1",
+      "size": 706,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/151b7d03174e3125b23a702c9fc5343297e41da1"
+    },
+    {
+      "path": "specs/api/bruno/comments/06-delete-comment.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25a248359fb2a9326d337b30335ecb4e5267dfd9",
+      "size": 233,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/25a248359fb2a9326d337b30335ecb4e5267dfd9"
+    },
+    {
+      "path": "specs/api/bruno/comments/07-verify-deletion.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fb39c0d55df5a974ea532d56205612dfbae7002",
+      "size": 242,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/1fb39c0d55df5a974ea532d56205612dfbae7002"
+    },
+    {
+      "path": "specs/api/bruno/comments/08-selective-deletion-create-two-comments-delete-one-verify-the-other-remains.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ee967a2b847032fc85f622816011bf397f1cf1d",
+      "size": 436,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/1ee967a2b847032fc85f622816011bf397f1cf1d"
+    },
+    {
+      "path": "specs/api/bruno/comments/09-post-comments.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f9afbc093e0967b9f7c9b8aae920a7887a18463",
+      "size": 292,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/2f9afbc093e0967b9f7c9b8aae920a7887a18463"
+    },
+    {
+      "path": "specs/api/bruno/comments/10-verify-two-comments-exist.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b178955998fccdc29211c7c617b509d51a21033",
+      "size": 253,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/6b178955998fccdc29211c7c617b509d51a21033"
+    },
+    {
+      "path": "specs/api/bruno/comments/11-delete-the-first-comment.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f0bfca2676247b8533c7067a6d70e21f013459d",
+      "size": 250,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/9f0bfca2676247b8533c7067a6d70e21f013459d"
+    },
+    {
+      "path": "specs/api/bruno/comments/12-verify-only-the-second-comment-remains.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7438fec08c5f3efe7d013fda3b7118b3356864b",
+      "size": 328,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/f7438fec08c5f3efe7d013fda3b7118b3356864b"
+    },
+    {
+      "path": "specs/api/bruno/comments/13-cleanup.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f65591d690d90bde484094bb697c6790700190b7",
+      "size": 203,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/f65591d690d90bde484094bb697c6790700190b7"
+    },
+    {
+      "path": "specs/api/bruno/environments",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ad4fb96cbfee76a5a17a25702734ece814742de3",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/ad4fb96cbfee76a5a17a25702734ece814742de3"
+    },
+    {
+      "path": "specs/api/bruno/environments/local.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "529e6ae976a273137bb2416a6d1a2721c09f28b6",
+      "size": 39,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/529e6ae976a273137bb2416a6d1a2721c09f28b6"
+    },
+    {
+      "path": "specs/api/bruno/errors-articles",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "38f98d20712ae70b83682b3a473b438f42e342b3",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/38f98d20712ae70b83682b3a473b438f42e342b3"
+    },
+    {
+      "path": "specs/api/bruno/errors-articles/01-create-article-no-auth.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4652b6a68a8731fcbebfb83069cd7151e503e764",
+      "size": 373,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/4652b6a68a8731fcbebfb83069cd7151e503e764"
+    },
+    {
+      "path": "specs/api/bruno/errors-articles/02-get-unknown-slug.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14fd9701b8916c8e95f8d10302662cb82ad22cda",
+      "size": 258,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/14fd9701b8916c8e95f8d10302662cb82ad22cda"
+    },
+    {
+      "path": "specs/api/bruno/errors-articles/03-update-no-auth.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03e9598d3468c5b06e2bf95905546feab19ec075",
+      "size": 311,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/03e9598d3468c5b06e2bf95905546feab19ec075"
+    },
+    {
+      "path": "specs/api/bruno/errors-articles/04-delete-no-auth.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69238f0a5f55fc2d59b99a901566214e12f2f5a6",
+      "size": 247,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/69238f0a5f55fc2d59b99a901566214e12f2f5a6"
+    },
+    {
+      "path": "specs/api/bruno/errors-articles/05-get-feed-no-auth.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51769553d0380dfcb7b2464f7cc3e6d7bc8c8e81",
+      "size": 241,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/51769553d0380dfcb7b2464f7cc3e6d7bc8c8e81"
+    },
+    {
+      "path": "specs/api/bruno/errors-articles/06-favorite-no-auth.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84cfc2fe36ff5f558d1388ddcd30197670006add",
+      "size": 256,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/84cfc2fe36ff5f558d1388ddcd30197670006add"
+    },
+    {
+      "path": "specs/api/bruno/errors-articles/07-unfavorite-no-auth.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7959801485433d6d878559abb235af96ddd59d56",
+      "size": 260,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/7959801485433d6d878559abb235af96ddd59d56"
+    },
+    {
+      "path": "specs/api/bruno/errors-articles/08-setup-register-for-authenticated-error-tests.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "756b25cd72bff8a767e2e228b0941d2b98bc783d",
+      "size": 403,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/756b25cd72bff8a767e2e228b0941d2b98bc783d"
+    },
+    {
+      "path": "specs/api/bruno/errors-articles/09-create-article-empty-title.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cda936dd4ca6b5c7260c3f643f74a722bb8c25b1",
+      "size": 412,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/cda936dd4ca6b5c7260c3f643f74a722bb8c25b1"
+    },
+    {
+      "path": "specs/api/bruno/errors-articles/10-create-article-empty-description.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38cfca602bed9953f8f529ea6942d46fbfb5929b",
+      "size": 437,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/38cfca602bed9953f8f529ea6942d46fbfb5929b"
+    },
+    {
+      "path": "specs/api/bruno/errors-articles/11-create-article-empty-body.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c10c5abc8134eb81dca2538e16ef48cca18be9d2",
+      "size": 423,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/c10c5abc8134eb81dca2538e16ef48cca18be9d2"
+    },
+    {
+      "path": "specs/api/bruno/errors-articles/12-duplicate-titles-are-allowed-each-gets-a-unique-slug.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3f1f0e1038c878c6d119e5cc678731c4016f243",
+      "size": 445,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/d3f1f0e1038c878c6d119e5cc678731c4016f243"
+    },
+    {
+      "path": "specs/api/bruno/errors-articles/13-post-articles.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a7b3e1ae954e6caab4088da096edb0f2034e232",
+      "size": 471,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/2a7b3e1ae954e6caab4088da096edb0f2034e232"
+    },
+    {
+      "path": "specs/api/bruno/errors-articles/14-update-unknown-slug.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6da91cfc8e831bd274763b3b06b7becdf20b6ebb",
+      "size": 375,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/6da91cfc8e831bd274763b3b06b7becdf20b6ebb"
+    },
+    {
+      "path": "specs/api/bruno/errors-articles/15-favorite-unknown-slug.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4db924585a349400d4bf46ebcb63c874ab303d2c",
+      "size": 320,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/4db924585a349400d4bf46ebcb63c874ab303d2c"
+    },
+    {
+      "path": "specs/api/bruno/errors-articles/16-unfavorite-unknown-slug.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75190d0f3a61edb9e510cdcb4cac96bec196a369",
+      "size": 324,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/75190d0f3a61edb9e510cdcb4cac96bec196a369"
+    },
+    {
+      "path": "specs/api/bruno/errors-articles/17-update-unknown-slug.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89694268bfd0f3e859891229605882e500f9caa3",
+      "size": 375,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/89694268bfd0f3e859891229605882e500f9caa3"
+    },
+    {
+      "path": "specs/api/bruno/errors-articles/18-delete-unknown-slug.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb9b92fb8b3d5d6c801188cc7f0e997977631eea",
+      "size": 311,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/cb9b92fb8b3d5d6c801188cc7f0e997977631eea"
+    },
+    {
+      "path": "specs/api/bruno/errors-articles/19-cleanup.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efaaced822263cca596a999fb18fd8252d22c8d0",
+      "size": 204,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/efaaced822263cca596a999fb18fd8252d22c8d0"
+    },
+    {
+      "path": "specs/api/bruno/errors-articles/20-delete-slug2.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0329f90db2a040b4a4ce4c8c755f29e9dfbbbce3",
+      "size": 213,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/0329f90db2a040b4a4ce4c8c755f29e9dfbbbce3"
+    },
+    {
+      "path": "specs/api/bruno/errors-auth",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7b76429a129fe20ad65c130e6f740d17fbfce5ca",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/7b76429a129fe20ad65c130e6f740d17fbfce5ca"
+    },
+    {
+      "path": "specs/api/bruno/errors-auth/01-register-empty-username.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2406a6ba12bfb2d00a9fd6115684d32d50ea66e",
+      "size": 389,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/a2406a6ba12bfb2d00a9fd6115684d32d50ea66e"
+    },
+    {
+      "path": "specs/api/bruno/errors-auth/02-register-empty-email.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b72f64c26ab158fca0ef83601c156256ac8c8247",
+      "size": 374,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/b72f64c26ab158fca0ef83601c156256ac8c8247"
+    },
+    {
+      "path": "specs/api/bruno/errors-auth/03-register-empty-password.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91eb7812c78c77d8fdbd34409cbfc8e40213ea77",
+      "size": 396,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/91eb7812c78c77d8fdbd34409cbfc8e40213ea77"
+    },
+    {
+      "path": "specs/api/bruno/errors-auth/04-register-valid-user-for-duplicate-and-login-tests.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a70c3b405bf8671a473c515530c04fb7e3d4d82",
+      "size": 407,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/0a70c3b405bf8671a473c515530c04fb7e3d4d82"
+    },
+    {
+      "path": "specs/api/bruno/errors-auth/05-register-duplicate-username.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ff80dfba89359fb1042f1ea5b957b37b1e80309",
+      "size": 414,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/1ff80dfba89359fb1042f1ea5b957b37b1e80309"
+    },
+    {
+      "path": "specs/api/bruno/errors-auth/06-register-duplicate-email.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d78cad55d5fe59f05411c2582597f7265ea2fb03",
+      "size": 408,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/d78cad55d5fe59f05411c2582597f7265ea2fb03"
+    },
+    {
+      "path": "specs/api/bruno/errors-auth/07-login-empty-email.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ec00a9506ca857cb7051e15a99817fe84fd11a0",
+      "size": 339,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/1ec00a9506ca857cb7051e15a99817fe84fd11a0"
+    },
+    {
+      "path": "specs/api/bruno/errors-auth/08-login-empty-password.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48761e57bc498e33e9836039844e7c2443a68dff",
+      "size": 357,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/48761e57bc498e33e9836039844e7c2443a68dff"
+    },
+    {
+      "path": "specs/api/bruno/errors-auth/09-login-wrong-password.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d8f03462868af57bdd76b77b69ccef97f952b70",
+      "size": 366,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/0d8f03462868af57bdd76b77b69ccef97f952b70"
+    },
+    {
+      "path": "specs/api/bruno/errors-auth/10-get-user-no-auth.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36965fb3a40da5de0e5948465e169f9935163332",
+      "size": 234,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/36965fb3a40da5de0e5948465e169f9935163332"
+    },
+    {
+      "path": "specs/api/bruno/errors-auth/11-put-user-no-auth.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0e3aa35cd0ff4c37f22a7ebebdc1288a5913984",
+      "size": 297,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/d0e3aa35cd0ff4c37f22a7ebebdc1288a5913984"
+    },
+    {
+      "path": "specs/api/bruno/errors-auth/12-update-email-to-empty-string-should-reject.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cd4af1c9016fd30a7f629f57f20d22b9f1e335d",
+      "size": 285,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/3cd4af1c9016fd30a7f629f57f20d22b9f1e335d"
+    },
+    {
+      "path": "specs/api/bruno/errors-auth/13-update-username-to-empty-string-should-reject.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34d5adf71148369b3224df6d6d26a66025d707a4",
+      "size": 291,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/34d5adf71148369b3224df6d6d26a66025d707a4"
+    },
+    {
+      "path": "specs/api/bruno/errors-auth/14-update-email-to-null-should-reject.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e56fcdc68237919384450e669c7e9c661a0ccaf0",
+      "size": 279,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/e56fcdc68237919384450e669c7e9c661a0ccaf0"
+    },
+    {
+      "path": "specs/api/bruno/errors-auth/15-update-username-to-null-should-reject.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f279045f50734f7e2d7828aadb3c7adab95aad5e",
+      "size": 285,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/f279045f50734f7e2d7828aadb3c7adab95aad5e"
+    },
+    {
+      "path": "specs/api/bruno/errors-auth/16-update-password-to-empty-string-should-reject.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60c1586678509461b175e483f098b170f17fbaef",
+      "size": 291,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/60c1586678509461b175e483f098b170f17fbaef"
+    },
+    {
+      "path": "specs/api/bruno/errors-auth/17-update-password-to-null-should-reject.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78a11b0e99121ac15bc69ad30a8f58375ba673dc",
+      "size": 285,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/78a11b0e99121ac15bc69ad30a8f58375ba673dc"
+    },
+    {
+      "path": "specs/api/bruno/errors-auth/18-update-password-shorter-than-8-chars-should-reject.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce35c7de01e921099673edeb6a97b49edae4c86f",
+      "size": 303,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/ce35c7de01e921099673edeb6a97b49edae4c86f"
+    },
+    {
+      "path": "specs/api/bruno/errors-auth/19-update-password-to-8-char-simple-word-should-accept.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d57026344f1aa2ca5ac6a80c67b800843cc08e2",
+      "size": 305,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/4d57026344f1aa2ca5ac6a80c67b800843cc08e2"
+    },
+    {
+      "path": "specs/api/bruno/errors-auth/20-update-password-to-64-chars-should-accept.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89af91358a6ead83161b03cb264ad78b3f933b4e",
+      "size": 351,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/89af91358a6ead83161b03cb264ad78b3f933b4e"
+    },
+    {
+      "path": "specs/api/bruno/errors-authorization",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dbb6a8701c5e483145bb2421adea6ab0e73408f9",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/dbb6a8701c5e483145bb2421adea6ab0e73408f9"
+    },
+    {
+      "path": "specs/api/bruno/errors-authorization/01-register-user-a.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0822f37ad5671467e0394d5d587050278ec14b2",
+      "size": 377,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/b0822f37ad5671467e0394d5d587050278ec14b2"
+    },
+    {
+      "path": "specs/api/bruno/errors-authorization/02-register-user-b.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c553897b1a2cb47602e569715c211b1123f7ca8",
+      "size": 377,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/0c553897b1a2cb47602e569715c211b1123f7ca8"
+    },
+    {
+      "path": "specs/api/bruno/errors-authorization/03-user-a-creates-article.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f263da2d9fd8ad1afc3b1766467b40b22ff9f01e",
+      "size": 415,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/f263da2d9fd8ad1afc3b1766467b40b22ff9f01e"
+    },
+    {
+      "path": "specs/api/bruno/errors-authorization/04-user-b-tries-to-delete-403.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5122627d12f1b7d8340b82bd687895703f9d2d13",
+      "size": 310,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/5122627d12f1b7d8340b82bd687895703f9d2d13"
+    },
+    {
+      "path": "specs/api/bruno/errors-authorization/05-user-b-tries-to-update-403.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8cda6e2462c204875556cbd22036b6e5f3ffea9",
+      "size": 378,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/c8cda6e2462c204875556cbd22036b6e5f3ffea9"
+    },
+    {
+      "path": "specs/api/bruno/errors-authorization/06-user-a-creates-a-comment-on-the-article.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6008ed37764b48d6f65fcbbf9c2f2aaa0a989ebb",
+      "size": 392,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/6008ed37764b48d6f65fcbbf9c2f2aaa0a989ebb"
+    },
+    {
+      "path": "specs/api/bruno/errors-authorization/07-user-b-tries-to-delete-a-s-comment-403.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f5367d0747c2f8352db432612009c68f8610466",
+      "size": 346,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/4f5367d0747c2f8352db432612009c68f8610466"
+    },
+    {
+      "path": "specs/api/bruno/errors-authorization/08-verify-comment-survived-the-failed-delete.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d32aab0b17084cc020edc2108e939eaeabb89f6b",
+      "size": 335,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/d32aab0b17084cc020edc2108e939eaeabb89f6b"
+    },
+    {
+      "path": "specs/api/bruno/errors-authorization/09-cleanup-user-a-deletes-article.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "150602769c6f49ee7768ec02523cc243b65d1702",
+      "size": 228,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/150602769c6f49ee7768ec02523cc243b65d1702"
+    },
+    {
+      "path": "specs/api/bruno/errors-comments",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4e1ec38f85c10a55d13aa1035885aff30a64c9c6",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/4e1ec38f85c10a55d13aa1035885aff30a64c9c6"
+    },
+    {
+      "path": "specs/api/bruno/errors-comments/01-post-comment-no-auth.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a946588e307e592c1d561b185f3b0b1394bff2e",
+      "size": 327,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/4a946588e307e592c1d561b185f3b0b1394bff2e"
+    },
+    {
+      "path": "specs/api/bruno/errors-comments/02-delete-comment-no-auth.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a680631fa0e6d2a0cc8583ff04050b7c8c7482b",
+      "size": 266,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/2a680631fa0e6d2a0cc8583ff04050b7c8c7482b"
+    },
+    {
+      "path": "specs/api/bruno/errors-comments/03-setup-register-create-article.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0da261fb78b19aa492a640a3834a4ce2b0cb7592",
+      "size": 382,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/0da261fb78b19aa492a640a3834a4ce2b0cb7592"
+    },
+    {
+      "path": "specs/api/bruno/errors-comments/04-post-articles.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd2ac3dd08f2a33f63f4854ef41da7f901db8c55",
+      "size": 406,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/bd2ac3dd08f2a33f63f4854ef41da7f901db8c55"
+    },
+    {
+      "path": "specs/api/bruno/errors-comments/05-post-comment-empty-body.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63a51afd5c705284eba260ce2af67ef518f05f84",
+      "size": 374,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/63a51afd5c705284eba260ce2af67ef518f05f84"
+    },
+    {
+      "path": "specs/api/bruno/errors-comments/06-post-comment-on-unknown-article.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c9d6a2e72e2fe0f6a3d68f0e414717bb64f3fb9",
+      "size": 398,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/5c9d6a2e72e2fe0f6a3d68f0e414717bb64f3fb9"
+    },
+    {
+      "path": "specs/api/bruno/errors-comments/07-get-comments-on-unknown-article.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8aeeef6f5262972000b2187bc6b97f053de9144",
+      "size": 282,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/a8aeeef6f5262972000b2187bc6b97f053de9144"
+    },
+    {
+      "path": "specs/api/bruno/errors-comments/08-delete-comment-on-unknown-article.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adc01925935df08b13e02096dda7b03ff21ea222",
+      "size": 339,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/adc01925935df08b13e02096dda7b03ff21ea222"
+    },
+    {
+      "path": "specs/api/bruno/errors-comments/09-delete-non-existent-comment-on-existing-article.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1f55a64517bd133c41ee590b8325f8b347f536d",
+      "size": 341,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/a1f55a64517bd133c41ee590b8325f8b347f536d"
+    },
+    {
+      "path": "specs/api/bruno/errors-comments/10-cleanup.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95edee4bd238f7092c2621f7017a208c59b4a2c2",
+      "size": 203,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/95edee4bd238f7092c2621f7017a208c59b4a2c2"
+    },
+    {
+      "path": "specs/api/bruno/errors-profiles",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f62ae3243cf7425de461b317595c585a86c95860",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/f62ae3243cf7425de461b317595c585a86c95860"
+    },
+    {
+      "path": "specs/api/bruno/errors-profiles/01-get-unknown-profile.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59784f657b4fdd2b3e81e672aaf77df48cd3b858",
+      "size": 261,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/59784f657b4fdd2b3e81e672aaf77df48cd3b858"
+    },
+    {
+      "path": "specs/api/bruno/errors-profiles/02-follow-no-auth.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ae10159951e6d327cea15d759d496b5052ccb6c",
+      "size": 263,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/9ae10159951e6d327cea15d759d496b5052ccb6c"
+    },
+    {
+      "path": "specs/api/bruno/errors-profiles/03-unfollow-no-auth.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25a3e56d0cd79c7c7b47dd4ff12c2ade090edd7d",
+      "size": 267,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/25a3e56d0cd79c7c7b47dd4ff12c2ade090edd7d"
+    },
+    {
+      "path": "specs/api/bruno/errors-profiles/04-setup-register-for-authenticated-404-tests.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3eadc9f977bbc74d13203e2701d6be630f01ca37",
+      "size": 393,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/3eadc9f977bbc74d13203e2701d6be630f01ca37"
+    },
+    {
+      "path": "specs/api/bruno/errors-profiles/05-follow-unknown-user-authed.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29e2c3e334da4180a5efe29635d741ddc6ff9fc4",
+      "size": 324,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/29e2c3e334da4180a5efe29635d741ddc6ff9fc4"
+    },
+    {
+      "path": "specs/api/bruno/errors-profiles/06-unfollow-unknown-user-authed.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9980a8f47340c07d7c231e07afa0cb4907fdcdae",
+      "size": 328,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/9980a8f47340c07d7c231e07afa0cb4907fdcdae"
+    },
+    {
+      "path": "specs/api/bruno/favorites",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8bde4ba4463c1e054d99da96604c28a645062b0d",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/8bde4ba4463c1e054d99da96604c28a645062b0d"
+    },
+    {
+      "path": "specs/api/bruno/favorites/01-setup-register.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a9317634a4f8ba8f955aa46e821246bccbd182e",
+      "size": 367,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/2a9317634a4f8ba8f955aa46e821246bccbd182e"
+    },
+    {
+      "path": "specs/api/bruno/favorites/02-setup-create-article.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac3875bdfa25808aa90df0c2ad3398cff7cb937e",
+      "size": 432,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/ac3875bdfa25808aa90df0c2ad3398cff7cb937e"
+    },
+    {
+      "path": "specs/api/bruno/favorites/03-favorite-article.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a21e9a825ac45fe502db156e43a4ff22423588c",
+      "size": 901,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/9a21e9a825ac45fe502db156e43a4ff22423588c"
+    },
+    {
+      "path": "specs/api/bruno/favorites/04-verify-favorite-persists.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f64a3c44f18ecb524b40a9b73afa1d8b28fd7d5",
+      "size": 899,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/9f64a3c44f18ecb524b40a9b73afa1d8b28fd7d5"
+    },
+    {
+      "path": "specs/api/bruno/favorites/05-articles-filtered-by-favorited-username.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae4b8e1bd5f2eac88b3557f486fa0bcb7b0cd6d1",
+      "size": 1110,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/ae4b8e1bd5f2eac88b3557f486fa0bcb7b0cd6d1"
+    },
+    {
+      "path": "specs/api/bruno/favorites/06-articles-filtered-by-favorited-username-with-auth.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "692769c3bf565f94a02048c72950ff82ca40adc8",
+      "size": 1166,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/692769c3bf565f94a02048c72950ff82ca40adc8"
+    },
+    {
+      "path": "specs/api/bruno/favorites/07-unfavorite-article.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea3622342d7535d073628548474716049a14d795",
+      "size": 906,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/ea3622342d7535d073628548474716049a14d795"
+    },
+    {
+      "path": "specs/api/bruno/favorites/08-verify-unfavorite-persists.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff4dd6900bf320685f07f0ac269841d5426611d3",
+      "size": 902,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/ff4dd6900bf320685f07f0ac269841d5426611d3"
+    },
+    {
+      "path": "specs/api/bruno/favorites/09-cleanup.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e76d965a9bc77050e8e666960e8d44e44bd5b3bb",
+      "size": 202,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/e76d965a9bc77050e8e666960e8d44e44bd5b3bb"
+    },
+    {
+      "path": "specs/api/bruno/feed",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f4050d8b0013c75d7441ee2d5e691dd5bcb7a7db",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/f4050d8b0013c75d7441ee2d5e691dd5bcb7a7db"
+    },
+    {
+      "path": "specs/api/bruno/feed/01-register-main-user.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f690f79756ebb55500196bb1689b98791bab9fe",
+      "size": 379,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/6f690f79756ebb55500196bb1689b98791bab9fe"
+    },
+    {
+      "path": "specs/api/bruno/feed/02-register-celeb-user.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e5000afcf9bcf0ed16cc28beffd811876d96044",
+      "size": 381,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/5e5000afcf9bcf0ed16cc28beffd811876d96044"
+    },
+    {
+      "path": "specs/api/bruno/feed/03-feed-for-new-user-returns-empty.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9a0364c0cd97fac106ae7f2ad1f7355e55a424b",
+      "size": 340,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/a9a0364c0cd97fac106ae7f2ad1f7355e55a424b"
+    },
+    {
+      "path": "specs/api/bruno/feed/04-main-follows-celeb.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cd4232e47868c5cfc70cabae47cfd3154ea92a5",
+      "size": 305,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/1cd4232e47868c5cfc70cabae47cfd3154ea92a5"
+    },
+    {
+      "path": "specs/api/bruno/feed/05-celeb-creates-article-1.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be2a8f07f381fb490c00bb94fd82441aea8f758d",
+      "size": 436,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/be2a8f07f381fb490c00bb94fd82441aea8f758d"
+    },
+    {
+      "path": "specs/api/bruno/feed/06-celeb-creates-article-2.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06806621033d085337c25648278f914bce2a807f",
+      "size": 436,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/06806621033d085337c25648278f914bce2a807f"
+    },
+    {
+      "path": "specs/api/bruno/feed/07-main-checks-feed.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa0e0471e8f4eb721fd609e94e39aa4769500005",
+      "size": 1179,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/fa0e0471e8f4eb721fd609e94e39aa4769500005"
+    },
+    {
+      "path": "specs/api/bruno/feed/08-feed-with-limit-1.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e14f13ddb5bd1d28dbbb1ede0977e92cda319e4",
+      "size": 1128,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/0e14f13ddb5bd1d28dbbb1ede0977e92cda319e4"
+    },
+    {
+      "path": "specs/api/bruno/feed/09-feed-with-limit-1-offset-1.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c804cf13519b1238affb47ff4be71aea7cf6d6d",
+      "size": 352,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/5c804cf13519b1238affb47ff4be71aea7cf6d6d"
+    },
+    {
+      "path": "specs/api/bruno/feed/10-cleanup-delete-articles.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3662812eaa67e6e878f5794d0a492e416ec125fc",
+      "size": 227,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/3662812eaa67e6e878f5794d0a492e416ec125fc"
+    },
+    {
+      "path": "specs/api/bruno/feed/11-delete-slug2.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "623b7cd388fac8b290a0c07863cb65de93fa25bb",
+      "size": 219,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/623b7cd388fac8b290a0c07863cb65de93fa25bb"
+    },
+    {
+      "path": "specs/api/bruno/feed/12-cleanup-unfollow.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7374cb46787199a2bd7c20b82b9032045d23794",
+      "size": 230,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/f7374cb46787199a2bd7c20b82b9032045d23794"
+    },
+    {
+      "path": "specs/api/bruno/pagination",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "12605112708c98e6858c4919de5b43eaafe12dda",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/12605112708c98e6858c4919de5b43eaafe12dda"
+    },
+    {
+      "path": "specs/api/bruno/pagination/01-setup-register.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3bb0ad3c6796816dec1a39a4b10a6210a5afc6b",
+      "size": 369,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/d3bb0ad3c6796816dec1a39a4b10a6210a5afc6b"
+    },
+    {
+      "path": "specs/api/bruno/pagination/02-create-article-1.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cda52cfe7c68afa17d05cf5c5f147c42c249995",
+      "size": 421,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/1cda52cfe7c68afa17d05cf5c5f147c42c249995"
+    },
+    {
+      "path": "specs/api/bruno/pagination/03-create-article-2.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8666340b3b07345e89aa19e89aa5b8b4236abad2",
+      "size": 556,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/8666340b3b07345e89aa19e89aa5b8b4236abad2"
+    },
+    {
+      "path": "specs/api/bruno/pagination/04-list-with-limit-1-most-recent-first-so-slug2.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf00b7d37ad2e8acbc8f2ed2222b23f506732c6d",
+      "size": 393,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/bf00b7d37ad2e8acbc8f2ed2222b23f506732c6d"
+    },
+    {
+      "path": "specs/api/bruno/pagination/05-list-with-limit-1-offset-1-second-page-so-slug1.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55a2a13ed3fe760b6bb3a03033e8e2307a5a854b",
+      "size": 405,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/55a2a13ed3fe760b6bb3a03033e8e2307a5a854b"
+    },
+    {
+      "path": "specs/api/bruno/pagination/06-cleanup.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b9a4e162c39c51456e44f28fae9413445cde5dc",
+      "size": 203,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/7b9a4e162c39c51456e44f28fae9413445cde5dc"
+    },
+    {
+      "path": "specs/api/bruno/pagination/07-delete-slug2.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ca1aebc753bf39d224cfbe838f026ecfb7119a3",
+      "size": 212,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/1ca1aebc753bf39d224cfbe838f026ecfb7119a3"
+    },
+    {
+      "path": "specs/api/bruno/profiles",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f104b6842e680e963379362d281ccc63b8fc6c06",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/f104b6842e680e963379362d281ccc63b8fc6c06"
+    },
+    {
+      "path": "specs/api/bruno/profiles/01-register-main-user.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc394aa9687d2e3e07efcbbb2901c323aca1a03b",
+      "size": 372,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/bc394aa9687d2e3e07efcbbb2901c323aca1a03b"
+    },
+    {
+      "path": "specs/api/bruno/profiles/02-register-celeb-user.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eeb0bbeb6541fdbf254c123123422f1d232b3c87",
+      "size": 305,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/eeb0bbeb6541fdbf254c123123422f1d232b3c87"
+    },
+    {
+      "path": "specs/api/bruno/profiles/03-get-profile-without-auth.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "111051409ceee684baa9414e2e4e8905d15ef667",
+      "size": 415,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/111051409ceee684baa9414e2e4e8905d15ef667"
+    },
+    {
+      "path": "specs/api/bruno/profiles/04-get-profile-with-auth.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9fe2c4900a79369fbe0da24f98d1f708f8c0a7a",
+      "size": 458,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/d9fe2c4900a79369fbe0da24f98d1f708f8c0a7a"
+    },
+    {
+      "path": "specs/api/bruno/profiles/05-follow-profile.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16ec57b0b0679601de5c09c4027b155ef8d14b19",
+      "size": 458,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/16ec57b0b0679601de5c09c4027b155ef8d14b19"
+    },
+    {
+      "path": "specs/api/bruno/profiles/06-unfollow-profile.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0e0d1d0ff3a49fa3973679e2700d52d45d598a1",
+      "size": 463,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/a0e0d1d0ff3a49fa3973679e2700d52d45d598a1"
+    },
+    {
+      "path": "specs/api/bruno/profiles/07-verify-unfollow-persisted.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "baab0bdb24c7dd39338c0adacb4d916f8a7470b2",
+      "size": 462,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/baab0bdb24c7dd39338c0adacb4d916f8a7470b2"
+    },
+    {
+      "path": "specs/api/bruno/tags",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1f3f4aa7295cff22aa28c7b604580f25b38bb471",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/1f3f4aa7295cff22aa28c7b604580f25b38bb471"
+    },
+    {
+      "path": "specs/api/bruno/tags/01-setup-register.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5143ad9e56701919158526715feed077c1418b67",
+      "size": 367,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/5143ad9e56701919158526715feed077c1418b67"
+    },
+    {
+      "path": "specs/api/bruno/tags/02-setup-create-article-with-tags.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81e95dbcf830fc2a5b9f4ddfc06c71a4dab7b1b4",
+      "size": 477,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/81e95dbcf830fc2a5b9f4ddfc06c71a4dab7b1b4"
+    },
+    {
+      "path": "specs/api/bruno/tags/03-get-tags.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4580fc999a05e2d1c16055ed2acdbd0392738e3d",
+      "size": 498,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/4580fc999a05e2d1c16055ed2acdbd0392738e3d"
+    },
+    {
+      "path": "specs/api/bruno/tags/04-cleanup.bru",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cce06fac180cf259a3e5e8bd73a52fada0dcd957",
+      "size": 202,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/cce06fac180cf259a3e5e8bd73a52fada0dcd957"
+    },
+    {
+      "path": "specs/api/hurl-to-bruno.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e26296ae787975b13150aea56c19be4b75471333",
+      "size": 17535,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/e26296ae787975b13150aea56c19be4b75471333"
+    },
+    {
+      "path": "specs/api/hurl",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2cd78bd3318152726199ca5b84f6567469fca038",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/2cd78bd3318152726199ca5b84f6567469fca038"
+    },
+    {
+      "path": "specs/api/hurl/articles.hurl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7404e183916a30c7073772f6d06ed8a82be0df5a",
+      "size": 8431,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/7404e183916a30c7073772f6d06ed8a82be0df5a"
+    },
+    {
+      "path": "specs/api/hurl/auth.hurl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67fd19933c4ca4af97c156207694d2676fec160b",
+      "size": 5257,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/67fd19933c4ca4af97c156207694d2676fec160b"
+    },
+    {
+      "path": "specs/api/hurl/comments.hurl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83d64d8d2ef2e9a99db9e8bcb57bc2456b6bf5c3",
+      "size": 3158,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/83d64d8d2ef2e9a99db9e8bcb57bc2456b6bf5c3"
+    },
+    {
+      "path": "specs/api/hurl/errors_articles.hurl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8015063e2d53779468f46e86790cda12cc01db82",
+      "size": 3674,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/8015063e2d53779468f46e86790cda12cc01db82"
+    },
+    {
+      "path": "specs/api/hurl/errors_auth.hurl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e26558a0abd58cbcf796bb4854ae9d3e5d8f0abc",
+      "size": 3952,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/e26558a0abd58cbcf796bb4854ae9d3e5d8f0abc"
+    },
+    {
+      "path": "specs/api/hurl/errors_authorization.hurl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c37231b9322034161d99c5e9bb3be075e4843ab5",
+      "size": 1803,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/c37231b9322034161d99c5e9bb3be075e4843ab5"
+    },
+    {
+      "path": "specs/api/hurl/errors_comments.hurl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27c4a86e55d56deaea6c108549e425214aa5af22",
+      "size": 1845,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/27c4a86e55d56deaea6c108549e425214aa5af22"
+    },
+    {
+      "path": "specs/api/hurl/errors_profiles.hurl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c68550f45d2f339585d9fba0120c9972ffdc8d5",
+      "size": 1020,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/6c68550f45d2f339585d9fba0120c9972ffdc8d5"
+    },
+    {
+      "path": "specs/api/hurl/favorites.hurl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "139bada317aebbcf4f463041d1d4bea1c72e7311",
+      "size": 4471,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/139bada317aebbcf4f463041d1d4bea1c72e7311"
+    },
+    {
+      "path": "specs/api/hurl/feed.hurl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "623430a2c08d0f613621b64aaab911b1ac7ac7a2",
+      "size": 3385,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/623430a2c08d0f613621b64aaab911b1ac7ac7a2"
+    },
+    {
+      "path": "specs/api/hurl/pagination.hurl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d24a44c858ebe6b8c331a6d7915a619cc2b2315",
+      "size": 1463,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/6d24a44c858ebe6b8c331a6d7915a619cc2b2315"
+    },
+    {
+      "path": "specs/api/hurl/profiles.hurl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66c793c4b9c9e4aabd01d1e9940be8b4733c08e5",
+      "size": 1735,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/66c793c4b9c9e4aabd01d1e9940be8b4733c08e5"
+    },
+    {
+      "path": "specs/api/hurl/run-hurl-tests.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fe9bbeaa41bb2f2a17dd62aab83ee3fa543985dd",
+      "size": 384,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/fe9bbeaa41bb2f2a17dd62aab83ee3fa543985dd"
+    },
+    {
+      "path": "specs/api/hurl/tags.hurl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38f71d4eea0acf0705b4d0a5ec1054735d6670d0",
+      "size": 850,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/38f71d4eea0acf0705b4d0a5ec1054735d6670d0"
+    },
+    {
+      "path": "specs/api/openapi.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "820a0f9b35edfc53c18750e52c4162eb1c9ee031",
+      "size": 24935,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/820a0f9b35edfc53c18750e52c4162eb1c9ee031"
+    },
+    {
+      "path": "specs/api/run-api-tests-bruno.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0c3aaebf53701f83425e4ca4c2e68bdda4ea7c34",
+      "size": 604,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/0c3aaebf53701f83425e4ca4c2e68bdda4ea7c34"
+    },
+    {
+      "path": "specs/api/run-api-tests-hurl.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a3714aeb6beb8245e08ec20646936f186726c079",
+      "size": 389,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/a3714aeb6beb8245e08ec20646936f186726c079"
+    },
+    {
+      "path": "specs/e2e",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e2781ec5e6f2c2ed769076b6a9cb82ab4be49127",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/e2781ec5e6f2c2ed769076b6a9cb82ab4be49127"
+    },
+    {
+      "path": "specs/e2e/SELECTORS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "307812bae148fc1c8e6b848f5fee56a09f7bf2f5",
+      "size": 9211,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/307812bae148fc1c8e6b848f5fee56a09f7bf2f5"
+    },
+    {
+      "path": "specs/e2e/articles.spec.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbfe532ee97b36fe0f3c1b54a58d6a245c23cf8f",
+      "size": 10837,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/cbfe532ee97b36fe0f3c1b54a58d6a245c23cf8f"
+    },
+    {
+      "path": "specs/e2e/auth.spec.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b127154db756b38644a022bd8d7e5ecaed99d4b",
+      "size": 4444,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/5b127154db756b38644a022bd8d7e5ecaed99d4b"
+    },
+    {
+      "path": "specs/e2e/comments.spec.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ebace8fbda6cbe8c0d526dd55ab712ce0676a60",
+      "size": 8059,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/5ebace8fbda6cbe8c0d526dd55ab712ce0676a60"
+    },
+    {
+      "path": "specs/e2e/error-handling.spec.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32d4a4ef2ebdf6790ac7cbf318c2ee32881687be",
+      "size": 34326,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/32d4a4ef2ebdf6790ac7cbf318c2ee32881687be"
+    },
+    {
+      "path": "specs/e2e/health.spec.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "858c0cd0c772ca5c7a46dfb21a8a5292fcd2a1cb",
+      "size": 1262,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/858c0cd0c772ca5c7a46dfb21a8a5292fcd2a1cb"
+    },
+    {
+      "path": "specs/e2e/helpers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5bcd0c5423882a41b489dc3662725846bea946db",
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/trees/5bcd0c5423882a41b489dc3662725846bea946db"
+    },
+    {
+      "path": "specs/e2e/helpers/api.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f061405d14c64dfa9a523a62fbf9ec410484b574",
+      "size": 2970,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/f061405d14c64dfa9a523a62fbf9ec410484b574"
+    },
+    {
+      "path": "specs/e2e/helpers/articles.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3598c131c5d19608c725eeee157ed99927d00c09",
+      "size": 3120,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/3598c131c5d19608c725eeee157ed99927d00c09"
+    },
+    {
+      "path": "specs/e2e/helpers/auth.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d28cf25202a11720f916a13fd8a8fe6221ffea1d",
+      "size": 1835,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/d28cf25202a11720f916a13fd8a8fe6221ffea1d"
+    },
+    {
+      "path": "specs/e2e/helpers/comments.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6be21bb10c82a0058cc158bed44f5a1c21860e50",
+      "size": 1433,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/6be21bb10c82a0058cc158bed44f5a1c21860e50"
+    },
+    {
+      "path": "specs/e2e/helpers/config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a341b97b1400ec64d8f56e483a5c109f8eef6fbc",
+      "size": 155,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/a341b97b1400ec64d8f56e483a5c109f8eef6fbc"
+    },
+    {
+      "path": "specs/e2e/helpers/debug.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a29153531deb8322804512d03573fd13ed5637f",
+      "size": 2375,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/9a29153531deb8322804512d03573fd13ed5637f"
+    },
+    {
+      "path": "specs/e2e/helpers/profile.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ccbfd2e81a20624a2673e5e43e9ddea21f98b2b",
+      "size": 2236,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/3ccbfd2e81a20624a2673e5e43e9ddea21f98b2b"
+    },
+    {
+      "path": "specs/e2e/helpers/setup.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6551ff8338d2c20f3bdd374b19e7f9deedcaa8fb",
+      "size": 1996,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/6551ff8338d2c20f3bdd374b19e7f9deedcaa8fb"
+    },
+    {
+      "path": "specs/e2e/navigation.spec.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d1fcb7a4f14c806e47cc84e572eb8b189c030ff",
+      "size": 9953,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/6d1fcb7a4f14c806e47cc84e572eb8b189c030ff"
+    },
+    {
+      "path": "specs/e2e/null-fields.spec.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd531d93a4cca9a7ee5319d21a169ce064cca8a6",
+      "size": 8629,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/cd531d93a4cca9a7ee5319d21a169ce064cca8a6"
+    },
+    {
+      "path": "specs/e2e/playwright.base.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "334dbc1c5c64cd0c55b9fafb4c933bd095d8b725",
+      "size": 1131,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/334dbc1c5c64cd0c55b9fafb4c933bd095d8b725"
+    },
+    {
+      "path": "specs/e2e/settings.spec.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d641977c3619b85adc9dd7c13595e15aa9b70ce",
+      "size": 10134,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/4d641977c3619b85adc9dd7c13595e15aa9b70ce"
+    },
+    {
+      "path": "specs/e2e/social.spec.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7c63948ccf1f7d4d081a1f4b844cd75c330d5ca",
+      "size": 8041,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/f7c63948ccf1f7d4d081a1f4b844cd75c330d5ca"
+    },
+    {
+      "path": "specs/e2e/url-navigation.spec.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc73b80f2c5727fdd1e99008683c543b89609231",
+      "size": 12754,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/bc73b80f2c5727fdd1e99008683c543b89609231"
+    },
+    {
+      "path": "specs/e2e/user-fetch-errors.spec.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "724e2ecd01a050ef48bad81737cad76b08285739",
+      "size": 11960,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/724e2ecd01a050ef48bad81737cad76b08285739"
+    },
+    {
+      "path": "specs/e2e/xss-security.spec.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b67ce68914771ec2cd36183d7a5eade98ecbb00a",
+      "size": 11486,
+      "url": "https://api.github.com/repos/realworld-apps/realworld/git/blobs/b67ce68914771ec2cd36183d7a5eade98ecbb00a"
+    }
+  ],
+  "truncated": false
+}

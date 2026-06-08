@@ -1,0 +1,83 @@
+{
+  "harvested_at": "2026-06-07T20:49:04.9007915+03:00",
+  "rank": 159,
+  "repository": "TauricResearch/TradingAgents",
+  "url": "https://github.com/TauricResearch/TradingAgents",
+  "language": "Python",
+  "stars": 83939,
+  "default_branch": "main",
+  "contract_strength": "contract_files_found",
+  "candidate_qaas_surfaces": [
+    "api-contract-validation",
+    "runner-yaml-from-public-contract",
+    "containerized-runtime-smoke",
+    "python-cli-or-service-contract"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\159-TauricResearch-TradingAgents\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\159-TauricResearch-TradingAgents\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [
+      "assets/schema.png",
+      "tradingagents/agents/schemas.py"
+    ],
+    "ci": [],
+    "containers": [
+      "Dockerfile",
+      "docker-compose.yml"
+    ],
+    "dotnet": [],
+    "node": [],
+    "python": [
+      "pyproject.toml",
+      "requirements.txt",
+      "tradingagents/graph/setup.py"
+    ],
+    "go": [],
+    "java": [],
+    "rust": [],
+    "docs": [
+      "CHANGELOG.md",
+      "README.md",
+      "tests/test_api_key_env.py",
+      "tests/test_google_api_key.py",
+      "tradingagents/llm_clients/api_key_env.py"
+    ],
+    "tests": [
+      "tests/__init__.py",
+      "tests/conftest.py",
+      "tests/test_analyst_execution.py",
+      "tests/test_anthropic_effort.py",
+      "tests/test_api_key_env.py",
+      "tests/test_capabilities.py",
+      "tests/test_checkpoint_resume.py",
+      "tests/test_cli_env_skip.py",
+      "tests/test_crypto_asset_mode.py",
+      "tests/test_dataflows_config.py",
+      "tests/test_deepseek_reasoning.py",
+      "tests/test_env_overrides.py",
+      "tests/test_google_api_key.py",
+      "tests/test_instrument_identity.py",
+      "tests/test_market_data_validator.py",
+      "tests/test_memory_log.py",
+      "tests/test_minimax.py",
+      "tests/test_model_validation.py",
+      "tests/test_no_data_handling.py",
+      "tests/test_ollama_base_url.py",
+      "tests/test_reddit_fallback.py",
+      "tests/test_safe_ticker_component.py",
+      "tests/test_signal_processing.py",
+      "tests/test_stockstats_date_column.py",
+      "tests/test_structured_agents.py",
+      "tests/test_symbol_utils.py",
+      "tests/test_temperature_config.py",
+      "tests/test_ticker_symbol_handling.py"
+    ]
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\159-TauricResearch-TradingAgents\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\159-TauricResearch-TradingAgents\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

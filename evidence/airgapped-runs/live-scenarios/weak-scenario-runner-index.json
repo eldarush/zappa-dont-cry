@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-06-08T10:57:20.6414196+03:00",
+  "validation_kind": "live_scenario_model_execution",
+  "index_status": "quota_blocked",
+  "records": [
+    {
+      "scenario_id": "zappa-qaas-docs-map-evidence",
+      "scenario_kind": "scenario",
+      "prompt_hash_sha256": "da7e14a3b9c024f8e1ac2e76aa9c1e47b65e94519f9642fe3b3ea10b1a566a3b",
+      "prompt_length": 205,
+      "match_status": "runner_recorded",
+      "harness": "claude-copilot",
+      "profile": "airgapped",
+      "model": "id:gpt-3.5-turbo",
+      "dry_run": false,
+      "classification": "quota_blocked",
+      "weak_validation_passed": false,
+      "transcript_exit_code": 1,
+      "summary": "D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live-scenarios\\20260608-103305-468-23675b42-summary.md",
+      "transcript": "D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live-scenarios\\20260608-103305-468-23675b42-claude-copilot-id_gpt-3.5-turbo.md"
+    },
+    {
+      "scenario_id": "zappa-qaas-test-planner-ambiguous-contract",
+      "scenario_kind": "scenario",
+      "prompt_hash_sha256": "f7b4308d78eee62ca4e018201fd045453ecd1c867dc59a0f83f913077e8e478a",
+      "prompt_length": 194,
+      "match_status": "runner_recorded",
+      "harness": "claude-copilot",
+      "profile": "airgapped",
+      "model": "id:gpt-3.5-turbo",
+      "dry_run": false,
+      "classification": "quota_blocked",
+      "weak_validation_passed": false,
+      "transcript_exit_code": 1,
+      "summary": "D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live-scenarios\\20260608-105435-673-a27fb252-summary.md",
+      "transcript": "D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live-scenarios\\20260608-105435-673-a27fb252-claude-copilot-id_gpt-3.5-turbo.md"
+    },
+    {
+      "scenario_id": "zappa-qaas-test-planner-ambiguous-contract",
+      "scenario_kind": "scenario",
+      "prompt_hash_sha256": "f7b4308d78eee62ca4e018201fd045453ecd1c867dc59a0f83f913077e8e478a",
+      "prompt_length": 194,
+      "match_status": "runner_recorded",
+      "harness": "claude-copilot",
+      "profile": "airgapped",
+      "model": "id:gpt-3.5-turbo",
+      "dry_run": false,
+      "classification": "quota_blocked",
+      "weak_validation_passed": false,
+      "transcript_exit_code": 1,
+      "summary": "D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live-scenarios\\20260608-105548-655-4ac5876b-summary.md",
+      "transcript": "D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live-scenarios\\20260608-105548-655-4ac5876b-claude-copilot-id_gpt-3.5-turbo.md"
+    },
+    {
+      "scenario_id": "zappa-qaas-hook-config-builtins",
+      "scenario_kind": "scenario",
+      "prompt_hash_sha256": "440ba1eaff59416cafe86cbc2b3ac7ac7ee18d1bea8902c4a7bf053138dae172",
+      "prompt_length": 166,
+      "match_status": "runner_recorded",
+      "harness": "claude-copilot",
+      "profile": "airgapped",
+      "model": "id:gpt-3.5-turbo",
+      "dry_run": false,
+      "classification": "quota_blocked",
+      "weak_validation_passed": false,
+      "transcript_exit_code": 1,
+      "summary": "D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live-scenarios\\20260608-105717-297-db6b2ce8-summary.md",
+      "transcript": "D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live-scenarios\\20260608-105717-297-db6b2ce8-claude-copilot-id_gpt-3.5-turbo.md"
+    }
+  ]
+}

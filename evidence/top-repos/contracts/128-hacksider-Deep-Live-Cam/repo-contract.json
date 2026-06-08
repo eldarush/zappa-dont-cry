@@ -1,0 +1,46 @@
+{
+  "harvested_at": "2026-06-07T20:48:01.3839258+03:00",
+  "rank": 128,
+  "repository": "hacksider/Deep-Live-Cam",
+  "url": "https://github.com/hacksider/Deep-Live-Cam",
+  "language": "Python",
+  "stars": 93649,
+  "default_branch": "main",
+  "contract_strength": "readme_plus_runtime_hints",
+  "candidate_qaas_surfaces": [
+    "ci-documented-command-discovery",
+    "python-cli-or-service-contract"
+  ],
+  "has_readme_snapshot": true,
+  "readme_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\128-hacksider-Deep-Live-Cam\\README.snapshot.md",
+  "tree_snapshot": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\128-hacksider-Deep-Live-Cam\\tree.snapshot.json",
+  "path_matches": {
+    "api_contracts": [],
+    "ci": [
+      ".github/workflows/ruff.yml"
+    ],
+    "containers": [],
+    "dotnet": [],
+    "node": [],
+    "python": [
+      "pyproject.toml",
+      "requirements.txt"
+    ],
+    "go": [],
+    "java": [],
+    "rust": [],
+    "docs": [
+      "CONTRIBUTING.md",
+      "README.md"
+    ],
+    "tests": [
+      "tests/test_face_analyser_get_one_face.py"
+    ]
+  },
+  "public_evidence": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\128-hacksider-Deep-Live-Cam\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\128-hacksider-Deep-Live-Cam\\tree.snapshot.json"
+  ],
+  "status": "contract_harvested",
+  "errors": []
+}

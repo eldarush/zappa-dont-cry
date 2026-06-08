@@ -89,7 +89,16 @@ if ($PSVersionTable.PSVersion.Major -lt 6 -and -not $env:ZAPPA_WEAK_MODEL_SESSIO
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 
-Import-Module (Join-Path $PSScriptRoot "zappa-harness\lib\WeakEvidence.Policy.psm1") -Force
+$policyModuleCandidates = @(
+    (Join-Path $PSScriptRoot "zappa-harness\lib\WeakEvidence.Policy.psm1"),
+    (Join-Path (Split-Path -Parent $PSScriptRoot) "harness\lib\WeakEvidence.Policy.psm1")
+)
+$policyModulePath = $policyModuleCandidates | Where-Object { Test-Path -LiteralPath $_ } | Select-Object -First 1
+if (-not $policyModulePath) {
+    throw "WeakEvidence.Policy.psm1 was not found next to the launcher or packaged harness."
+}
+
+Import-Module $policyModulePath -Force
 
 function Get-ModelPolicy {
     param([string]$Path)

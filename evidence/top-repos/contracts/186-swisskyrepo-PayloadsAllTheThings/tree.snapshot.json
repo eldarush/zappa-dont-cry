@@ -1,0 +1,4469 @@
+{
+  "sha": "f9fa51417886ac11476cb62db2dff21773dc570b",
+  "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/f9fa51417886ac11476cb62db2dff21773dc570b",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0f4a235945a3b856ad0701b2ddd7a37ebe72c46a",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/0f4a235945a3b856ad0701b2ddd7a37ebe72c46a"
+    },
+    {
+      "path": ".github/.markdownlint.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7269c3d93cf09109954e8bb87d2a6cfb6016cb67",
+      "size": 172,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/7269c3d93cf09109954e8bb87d2a6cfb6016cb67"
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc6194227ae70bd517afc9d793941cadbec45380",
+      "size": 125,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/dc6194227ae70bd517afc9d793941cadbec45380"
+    },
+    {
+      "path": ".github/banner.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a01328a4467121961784bcd71a58ea85ae7be7fc",
+      "size": 829829,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/a01328a4467121961784bcd71a58ea85ae7be7fc"
+    },
+    {
+      "path": ".github/hopla_config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7de4b8c6e743d11860494c111295ca85b11e01c4",
+      "size": 87410,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/7de4b8c6e743d11860494c111295ca85b11e01c4"
+    },
+    {
+      "path": ".github/overrides",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d0b5e9d2d14c116777d866623face1cccdfa6a3e",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/d0b5e9d2d14c116777d866623face1cccdfa6a3e"
+    },
+    {
+      "path": ".github/overrides/main.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0c936885faf76987caf27fee075a5148f6b4af4",
+      "size": 814,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/e0c936885faf76987caf27fee075a5148f6b4af4"
+    },
+    {
+      "path": ".github/sponsors",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c682ed227245bb75df0ca5ab2e5481916ffbbb84",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/c682ed227245bb75df0ca5ab2e5481916ffbbb84"
+    },
+    {
+      "path": ".github/sponsors/projectdiscovery.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a4a659bea11de2c1b80d5e0fd632f664b3f1114",
+      "size": 1195,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/2a4a659bea11de2c1b80d5e0fd632f664b3f1114"
+    },
+    {
+      "path": ".github/sponsors/serpapi.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b12380518a16488465317d40fb131d4608951a2a",
+      "size": 2180,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b12380518a16488465317d40fb131d4608951a2a"
+    },
+    {
+      "path": ".github/sponsors/talordata.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c95e3489c2a0c9b10c72ab467cdaf3926720ab3b",
+      "size": 813,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/c95e3489c2a0c9b10c72ab467cdaf3926720ab3b"
+    },
+    {
+      "path": ".github/sponsors/vaadata.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f9151b9c20f0e9a278c6da7438861c325090696",
+      "size": 895,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/2f9151b9c20f0e9a278c6da7438861c325090696"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "af8a6cc00dd353e1bf977b2d7556de9e5e1a2f9f",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/af8a6cc00dd353e1bf977b2d7556de9e5e1a2f9f"
+    },
+    {
+      "path": ".github/workflows/check-markdown.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac7eac5c5eb13e46817986cb7346e717ace53c64",
+      "size": 561,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/ac7eac5c5eb13e46817986cb7346e717ace53c64"
+    },
+    {
+      "path": ".github/workflows/mkdocs-build.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62bfa134971186f53deb2b2c10c070b159f174f8",
+      "size": 991,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/62bfa134971186f53deb2b2c10c070b159f174f8"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d5f0c5e26da8339c7705ef6e8d71147c54d6939",
+      "size": 23,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/5d5f0c5e26da8339c7705ef6e8d71147c54d6939"
+    },
+    {
+      "path": "API Key Leaks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2d9d90220d0b7d7ee2b20cfb85d7ac65c20a4071",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/2d9d90220d0b7d7ee2b20cfb85d7ac65c20a4071"
+    },
+    {
+      "path": "API Key Leaks/Files",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4e2209b347eea09c61b15d60decc998ad985d6ee",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/4e2209b347eea09c61b15d60decc998ad985d6ee"
+    },
+    {
+      "path": "API Key Leaks/Files/MachineKeys.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12265e605a8c3634aab2adca2e42ec7fedbcca28",
+      "size": 622578,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/12265e605a8c3634aab2adca2e42ec7fedbcca28"
+    },
+    {
+      "path": "API Key Leaks/IIS-Machine-Keys.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2898b21d94616d621ff60fbb98fbd5187bf0eeda",
+      "size": 12046,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/2898b21d94616d621ff60fbb98fbd5187bf0eeda"
+    },
+    {
+      "path": "API Key Leaks/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdc1ccd5080121f3b7a77dda9b5ae8513c743cc6",
+      "size": 5693,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/bdc1ccd5080121f3b7a77dda9b5ae8513c743cc6"
+    },
+    {
+      "path": "Account Takeover",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "84687666e64e695696543eaab861e5d93be83c54",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/84687666e64e695696543eaab861e5d93be83c54"
+    },
+    {
+      "path": "Account Takeover/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b3dddd1df57d6c4d60f5bca76a7a60a91db3e6f",
+      "size": 7332,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/5b3dddd1df57d6c4d60f5bca76a7a60a91db3e6f"
+    },
+    {
+      "path": "Account Takeover/mfa-bypass.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb6fa97354881420c6d0ded2e9d47dc88a20e4bb",
+      "size": 3496,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/fb6fa97354881420c6d0ded2e9d47dc88a20e4bb"
+    },
+    {
+      "path": "Brute Force Rate Limit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0b6eb5bbb87ae003ad18db8d4025f57028c863ab",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/0b6eb5bbb87ae003ad18db8d4025f57028c863ab"
+    },
+    {
+      "path": "Brute Force Rate Limit/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "669556bb35e96998b5ed95171559148c0965fa1c",
+      "size": 5937,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/669556bb35e96998b5ed95171559148c0965fa1c"
+    },
+    {
+      "path": "Business Logic Errors",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "db449f1965e4e016225299435b506917d63aa4f7",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/db449f1965e4e016225299435b506917d63aa4f7"
+    },
+    {
+      "path": "Business Logic Errors/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41ef4f3d62757e8f646afd85e1f2f831248b9b31",
+      "size": 6237,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/41ef4f3d62757e8f646afd85e1f2f831248b9b31"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c40151b708eed41c316d6d3fa5d26f167daadd2",
+      "size": 3051,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/5c40151b708eed41c316d6d3fa5d26f167daadd2"
+    },
+    {
+      "path": "CORS Misconfiguration",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "18ae98d374cb96e81bf70cf338cd47417e8d6717",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/18ae98d374cb96e81bf70cf338cd47417e8d6717"
+    },
+    {
+      "path": "CORS Misconfiguration/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "084954e9b8db177ace0fff16ff3df2d14caa6d4d",
+      "size": 10036,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/084954e9b8db177ace0fff16ff3df2d14caa6d4d"
+    },
+    {
+      "path": "CRLF Injection",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aba762fef4ab0822713efc0071f29cc1c3948ff3",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/aba762fef4ab0822713efc0071f29cc1c3948ff3"
+    },
+    {
+      "path": "CRLF Injection/Files",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eb59387f8b023561bc585bdcddbebc2820f4697c",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/eb59387f8b023561bc585bdcddbebc2820f4697c"
+    },
+    {
+      "path": "CRLF Injection/Files/crlfinjection.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7ef4d77741c38b6d3806e0c6a57bf1090eec141",
+      "size": 588,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/d7ef4d77741c38b6d3806e0c6a57bf1090eec141"
+    },
+    {
+      "path": "CRLF Injection/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6fce566d5e7e2f1d0a0271c9f35058c39a34f43",
+      "size": 5617,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/f6fce566d5e7e2f1d0a0271c9f35058c39a34f43"
+    },
+    {
+      "path": "CSS Injection",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d529a29c263b8b46aca4477cbf35a3b6546d0922",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/d529a29c263b8b46aca4477cbf35a3b6546d0922"
+    },
+    {
+      "path": "CSS Injection/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "346e80b48a97a4b430a16acd9f5cc336488295cf",
+      "size": 10471,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/346e80b48a97a4b430a16acd9f5cc336488295cf"
+    },
+    {
+      "path": "CSV Injection",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "726f2773c6217cc93055f244e2cf2437eaa598f7",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/726f2773c6217cc93055f244e2cf2437eaa598f7"
+    },
+    {
+      "path": "CSV Injection/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51f80f2af84743ddd837f960ac7b836c76ede76a",
+      "size": 4149,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/51f80f2af84743ddd837f960ac7b836c76ede76a"
+    },
+    {
+      "path": "CVE Exploits",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a7bf00710239058e6041efc37ed9570e495a354e",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/a7bf00710239058e6041efc37ed9570e495a354e"
+    },
+    {
+      "path": "CVE Exploits/Log4Shell.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31f48dc2b06ff5e84636615e27631242f1a8e8ba",
+      "size": 4827,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/31f48dc2b06ff5e84636615e27631242f1a8e8ba"
+    },
+    {
+      "path": "CVE Exploits/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38a0062b3d5c3d376fe14b1dfb9ceea83475f520",
+      "size": 6118,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/38a0062b3d5c3d376fe14b1dfb9ceea83475f520"
+    },
+    {
+      "path": "Clickjacking",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4d84214ceac699dae437f24475f71c746e0a20bf",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/4d84214ceac699dae437f24475f71c746e0a20bf"
+    },
+    {
+      "path": "Clickjacking/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5101b64863b4fd3fef118b82d65583285f19a57",
+      "size": 13022,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b5101b64863b4fd3fef118b82d65583285f19a57"
+    },
+    {
+      "path": "Client Side Path Traversal",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3dad0deea0adba914e08ac7ef7886edf8b7c28b1",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/3dad0deea0adba914e08ac7ef7886edf8b7c28b1"
+    },
+    {
+      "path": "Client Side Path Traversal/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8a863c549f3260d47b083e7f5830ab36a201705",
+      "size": 5800,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/f8a863c549f3260d47b083e7f5830ab36a201705"
+    },
+    {
+      "path": "Command Injection",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3b44d34beed9b1b3e74ea39722274041ad9e354b",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/3b44d34beed9b1b3e74ea39722274041ad9e354b"
+    },
+    {
+      "path": "Command Injection/Intruder",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c76e940a29158978676100321904fd7bb47b705b",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/c76e940a29158978676100321904fd7bb47b705b"
+    },
+    {
+      "path": "Command Injection/Intruder/command-execution-unix.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30d957a8960f41411f3d4e3f53d139593eca5aed",
+      "size": 1210,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/30d957a8960f41411f3d4e3f53d139593eca5aed"
+    },
+    {
+      "path": "Command Injection/Intruder/command_exec.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0e0b0e20f09c41fbf14ec1da95179eb290de7bc",
+      "size": 20289,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/e0e0b0e20f09c41fbf14ec1da95179eb290de7bc"
+    },
+    {
+      "path": "Command Injection/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "337f015259319a61c604665fd5d5b5b339f48563",
+      "size": 16695,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/337f015259319a61c604665fd5d5b5b339f48563"
+    },
+    {
+      "path": "Cross-Site Request Forgery",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "73331c4451d406a306b83c0263762ebd17a31217",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/73331c4451d406a306b83c0263762ebd17a31217"
+    },
+    {
+      "path": "Cross-Site Request Forgery/Images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b650d8449373789f1c292171757e31fe91121967",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/b650d8449373789f1c292171757e31fe91121967"
+    },
+    {
+      "path": "Cross-Site Request Forgery/Images/CSRF-CheatSheet.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7efc6d1237320253e32eb1b23939872b792bf35",
+      "size": 417021,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b7efc6d1237320253e32eb1b23939872b792bf35"
+    },
+    {
+      "path": "Cross-Site Request Forgery/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bbb5c20392ca3409bf1c13764471d7fb04b1bcf",
+      "size": 8727,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/8bbb5c20392ca3409bf1c13764471d7fb04b1bcf"
+    },
+    {
+      "path": "DISCLAIMER.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c43c783bfb5dc488ce2bed0d77901b40fdd02f23",
+      "size": 1027,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/c43c783bfb5dc488ce2bed0d77901b40fdd02f23"
+    },
+    {
+      "path": "DNS Rebinding",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a16ef3254eb4a236979289b6e4bbc87da4f52aaa",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/a16ef3254eb4a236979289b6e4bbc87da4f52aaa"
+    },
+    {
+      "path": "DNS Rebinding/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2158731c302f70327702a30229d9832abcabc549",
+      "size": 4581,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/2158731c302f70327702a30229d9832abcabc549"
+    },
+    {
+      "path": "DOM Clobbering",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "18669d003d23c365549bdfbedee12185eeb9cfae",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/18669d003d23c365549bdfbedee12185eeb9cfae"
+    },
+    {
+      "path": "DOM Clobbering/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "194a5769c834ecdfadbdbc2acf3f9267ec187970",
+      "size": 4868,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/194a5769c834ecdfadbdbc2acf3f9267ec187970"
+    },
+    {
+      "path": "Denial of Service",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "99772224880723952966beef1bf7696ad1075236",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/99772224880723952966beef1bf7696ad1075236"
+    },
+    {
+      "path": "Denial of Service/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "897d0d164e85c8728b940b5eb5e3895c82223ff6",
+      "size": 4747,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/897d0d164e85c8728b940b5eb5e3895c82223ff6"
+    },
+    {
+      "path": "Dependency Confusion",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6c3189b591d288dfc2da64961a5ccdefeac8257f",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/6c3189b591d288dfc2da64961a5ccdefeac8257f"
+    },
+    {
+      "path": "Dependency Confusion/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8150e656cf87f0f516af6bda09d229bd34e1d0bf",
+      "size": 2321,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/8150e656cf87f0f516af6bda09d229bd34e1d0bf"
+    },
+    {
+      "path": "Directory Traversal",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "154976c9432c940c5550bb165d0c51f3cacca6c1",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/154976c9432c940c5550bb165d0c51f3cacca6c1"
+    },
+    {
+      "path": "Directory Traversal/Intruder",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "00a1073d30f067662dba3db251fabfae86499347",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/00a1073d30f067662dba3db251fabfae86499347"
+    },
+    {
+      "path": "Directory Traversal/Intruder/deep_traversal.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2912be96a59bcf4bb4296dc9e3db732a08098865",
+      "size": 68884,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/2912be96a59bcf4bb4296dc9e3db732a08098865"
+    },
+    {
+      "path": "Directory Traversal/Intruder/directory_traversal.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8bece054bf9a20fc3bde9d508c92800c1f56107",
+      "size": 8767,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/a8bece054bf9a20fc3bde9d508c92800c1f56107"
+    },
+    {
+      "path": "Directory Traversal/Intruder/dotdotpwn.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9048ad5b1667367026c3500a966e9b749ce04693",
+      "size": 1872006,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/9048ad5b1667367026c3500a966e9b749ce04693"
+    },
+    {
+      "path": "Directory Traversal/Intruder/traversals-8-deep-exotic-encoding.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05ea1a92c5965fd9e0b339b5b0150a8c33892173",
+      "size": 69843,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/05ea1a92c5965fd9e0b339b5b0150a8c33892173"
+    },
+    {
+      "path": "Directory Traversal/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7b02b6b42924bc93d41216fd74027bbbd6e9bd8",
+      "size": 12860,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/d7b02b6b42924bc93d41216fd74027bbbd6e9bd8"
+    },
+    {
+      "path": "Encoding Transformations",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f9a7d6123125aa10193661fe3c92e394edf14f85",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/f9a7d6123125aa10193661fe3c92e394edf14f85"
+    },
+    {
+      "path": "Encoding Transformations/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54c8ee88db5831ac04c31679513eec3485c858a8",
+      "size": 6019,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/54c8ee88db5831ac04c31679513eec3485c858a8"
+    },
+    {
+      "path": "External Variable Modification",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2bab4665ee5e5bf84cef6b658b6f5d5008d6945d",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/2bab4665ee5e5bf84cef6b658b6f5d5008d6945d"
+    },
+    {
+      "path": "External Variable Modification/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd8b2c42a8a3a5abc90b3d7e298974e32e30ef25",
+      "size": 3692,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/cd8b2c42a8a3a5abc90b3d7e298974e32e30ef25"
+    },
+    {
+      "path": "File Inclusion",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e5534a2a1a1e6dc83aa61019fe0a7ac3387d749c",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/e5534a2a1a1e6dc83aa61019fe0a7ac3387d749c"
+    },
+    {
+      "path": "File Inclusion/Files",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "146c78e23f63cacfe3af7d7dc3efe9085a6e5199",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/146c78e23f63cacfe3af7d7dc3efe9085a6e5199"
+    },
+    {
+      "path": "File Inclusion/Files/LFI2RCE.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd0a7f70af9ad92d6ae7a9d8906446a97880edc7",
+      "size": 3208,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/cd0a7f70af9ad92d6ae7a9d8906446a97880edc7"
+    },
+    {
+      "path": "File Inclusion/Files/phpinfolfi.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2a936050a32cf803c537b762e0637fb980cb1df",
+      "size": 5373,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/d2a936050a32cf803c537b762e0637fb980cb1df"
+    },
+    {
+      "path": "File Inclusion/Files/uploadlfi.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93526d5a4fa112380c00c19a1d413958cfc2379c",
+      "size": 683,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/93526d5a4fa112380c00c19a1d413958cfc2379c"
+    },
+    {
+      "path": "File Inclusion/Intruders",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e66816757f16206c00b21991a37bffd02d99bff6",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/e66816757f16206c00b21991a37bffd02d99bff6"
+    },
+    {
+      "path": "File Inclusion/Intruders/BSD-files.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f99f25ac46e0a48d0b80936113bbd617030e498",
+      "size": 356,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/3f99f25ac46e0a48d0b80936113bbd617030e498"
+    },
+    {
+      "path": "File Inclusion/Intruders/JHADDIX_LFI.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75b06325f36fd106c4d6869b1f2416d94cfc8faf",
+      "size": 28366,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/75b06325f36fd106c4d6869b1f2416d94cfc8faf"
+    },
+    {
+      "path": "File Inclusion/Intruders/LFI-FD-check.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d5fa6276516d1b40f29ad2266d2e7249250b722",
+      "size": 692,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/1d5fa6276516d1b40f29ad2266d2e7249250b722"
+    },
+    {
+      "path": "File Inclusion/Intruders/LFI-WindowsFileCheck.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a56868a252f47008ff691a3ab20dd695510c9053",
+      "size": 2037,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/a56868a252f47008ff691a3ab20dd695510c9053"
+    },
+    {
+      "path": "File Inclusion/Intruders/Linux-files.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c43cc4a639c95aa571b33cee4643e9acbfa94a45",
+      "size": 1554,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/c43cc4a639c95aa571b33cee4643e9acbfa94a45"
+    },
+    {
+      "path": "File Inclusion/Intruders/List_Of_File_To_Include.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ad6dcb3858242c0bd92787ee673cbc1fb4840a1",
+      "size": 24556,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/0ad6dcb3858242c0bd92787ee673cbc1fb4840a1"
+    },
+    {
+      "path": "File Inclusion/Intruders/List_Of_File_To_Include_NullByteAdded.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f764a8d632b6df9271ddef6ee7550eadc869504",
+      "size": 9551,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/4f764a8d632b6df9271ddef6ee7550eadc869504"
+    },
+    {
+      "path": "File Inclusion/Intruders/Mac-files.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99fdad9807f475b5e268411e9a77a42c7369eb0a",
+      "size": 232,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/99fdad9807f475b5e268411e9a77a42c7369eb0a"
+    },
+    {
+      "path": "File Inclusion/Intruders/Traversal.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c9b883c324c466ba8eb22e717cd96e4866aef0e",
+      "size": 378306,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/1c9b883c324c466ba8eb22e717cd96e4866aef0e"
+    },
+    {
+      "path": "File Inclusion/Intruders/Web-files.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9736e7a96f15d838ef29a9a048f9b83af561b63",
+      "size": 235,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/c9736e7a96f15d838ef29a9a048f9b83af561b63"
+    },
+    {
+      "path": "File Inclusion/Intruders/Windows-files.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63386f76e1eac41325927cbc252fd2013dac4d1c",
+      "size": 7065,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/63386f76e1eac41325927cbc252fd2013dac4d1c"
+    },
+    {
+      "path": "File Inclusion/Intruders/dot-slash-PathTraversal_and_LFI_pairing.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99b5166280be4ac3e3a22984dfe0c52837a61ea0",
+      "size": 65424,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/99b5166280be4ac3e3a22984dfe0c52837a61ea0"
+    },
+    {
+      "path": "File Inclusion/Intruders/php-filter-iconv.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "640f07979758967c41032fc6cd862537ac3515c2",
+      "size": 1389,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/640f07979758967c41032fc6cd862537ac3515c2"
+    },
+    {
+      "path": "File Inclusion/Intruders/simple-check.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "debf0e70325c43e7450150b38bce14b85f0b31fa",
+      "size": 157,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/debf0e70325c43e7450150b38bce14b85f0b31fa"
+    },
+    {
+      "path": "File Inclusion/LFI-to-RCE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51817eb85fb55b8b5f5f21944f95327d86d2ac1b",
+      "size": 11659,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/51817eb85fb55b8b5f5f21944f95327d86d2ac1b"
+    },
+    {
+      "path": "File Inclusion/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbf4af609a145b532753f0b08104a1016450c4f6",
+      "size": 6721,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/bbf4af609a145b532753f0b08104a1016450c4f6"
+    },
+    {
+      "path": "File Inclusion/Wrappers.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c35841d450fe36bf74027c8272470f005a388433",
+      "size": 19828,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/c35841d450fe36bf74027c8272470f005a388433"
+    },
+    {
+      "path": "Google Web Toolkit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9436047aefdcc0095b52fefe301855ef8258d6b3",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/9436047aefdcc0095b52fefe301855ef8258d6b3"
+    },
+    {
+      "path": "Google Web Toolkit/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc17ab4538b0a3a39745c2a6faa596a319654455",
+      "size": 2755,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/bc17ab4538b0a3a39745c2a6faa596a319654455"
+    },
+    {
+      "path": "GraphQL Injection",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1876c62f93de713182035ea6475ce969532d6fd3",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/1876c62f93de713182035ea6475ce969532d6fd3"
+    },
+    {
+      "path": "GraphQL Injection/Images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5704db37451b935c82c654abb45abcc47ce37e95",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/5704db37451b935c82c654abb45abcc47ce37e95"
+    },
+    {
+      "path": "GraphQL Injection/Images/htb-help.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b0493be7a70da5f0a51f6d7b4163f973da4d949",
+      "size": 21217,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/5b0493be7a70da5f0a51f6d7b4163f973da4d949"
+    },
+    {
+      "path": "GraphQL Injection/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "378407f6643b30098e48d60ed19d8dca7ae6ce72",
+      "size": 22927,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/378407f6643b30098e48d60ed19d8dca7ae6ce72"
+    },
+    {
+      "path": "HTTP Parameter Pollution",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f8c844b922ca0d525e961dd381f9f8614b0dceea",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/f8c844b922ca0d525e961dd381f9f8614b0dceea"
+    },
+    {
+      "path": "HTTP Parameter Pollution/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9218646cc2d73a9fd2ee2cc4ec284ed601227e58",
+      "size": 4639,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/9218646cc2d73a9fd2ee2cc4ec284ed601227e58"
+    },
+    {
+      "path": "Headless Browser",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dbd17283bdd11ef9ea37adad997db2047b7ec4fb",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/dbd17283bdd11ef9ea37adad997db2047b7ec4fb"
+    },
+    {
+      "path": "Headless Browser/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d7c688827ce03b587a1945860cf9702956bdfc4",
+      "size": 9420,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/3d7c688827ce03b587a1945860cf9702956bdfc4"
+    },
+    {
+      "path": "Headless Browser/files",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bf2f6c54d1ab09147c3dfb6132f8c9602cace395",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/bf2f6c54d1ab09147c3dfb6132f8c9602cace395"
+    },
+    {
+      "path": "Headless Browser/files/iframe.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fd63862df32eef09543137cbb0fa1462f4585f6",
+      "size": 106,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/0fd63862df32eef09543137cbb0fa1462f4585f6"
+    },
+    {
+      "path": "Headless Browser/files/window_location_js.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2f300c0656c0e34abda9be0f854e2de1216d1df",
+      "size": 114,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/e2f300c0656c0e34abda9be0f854e2de1216d1df"
+    },
+    {
+      "path": "Hidden Parameters",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "314a825b0ffc30fcefcea8aa8b1b224a89e6355b",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/314a825b0ffc30fcefcea8aa8b1b224a89e6355b"
+    },
+    {
+      "path": "Hidden Parameters/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf46001a99e890ef9f566965369a84dcc670eecd",
+      "size": 2457,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/cf46001a99e890ef9f566965369a84dcc670eecd"
+    },
+    {
+      "path": "Insecure Deserialization",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "059087afae70bdc6d315842154249f2c01d6c667",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/059087afae70bdc6d315842154249f2c01d6c667"
+    },
+    {
+      "path": "Insecure Deserialization/DotNET.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c686821909883fd5fa0a0013f5b3941706d003e7",
+      "size": 10716,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/c686821909883fd5fa0a0013f5b3941706d003e7"
+    },
+    {
+      "path": "Insecure Deserialization/Files",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "04abe19d9746ed6ff07530cd3b5148b87803363d",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/04abe19d9746ed6ff07530cd3b5148b87803363d"
+    },
+    {
+      "path": "Insecure Deserialization/Files/Ruby_universal_gadget_generate_verify.rb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2fb3e5cb62252e2f382699157d1df2e33325190",
+      "size": 1234,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b2fb3e5cb62252e2f382699157d1df2e33325190"
+    },
+    {
+      "path": "Insecure Deserialization/Files/node-serialize.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a22304c397903653ffa0f1a42975ff1df8667f70",
+      "size": 228,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/a22304c397903653ffa0f1a42975ff1df8667f70"
+    },
+    {
+      "path": "Insecure Deserialization/Files/ruby-serialize.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45da8641043a4a7939f7aa5f7900afb3bde44698",
+      "size": 702,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/45da8641043a4a7939f7aa5f7900afb3bde44698"
+    },
+    {
+      "path": "Insecure Deserialization/Images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "226a6b0121af9c331ea6252929a8af7e7ca60e59",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/226a6b0121af9c331ea6252929a8af7e7ca60e59"
+    },
+    {
+      "path": "Insecure Deserialization/Images/NETNativeFormatters.png",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ed5a5c235e5e069d46c04dc7557613a85d5c846d",
+      "size": 284395,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/ed5a5c235e5e069d46c04dc7557613a85d5c846d"
+    },
+    {
+      "path": "Insecure Deserialization/Java.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37e0c362d3d142c814e9a4404974313a045442a2",
+      "size": 18198,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/37e0c362d3d142c814e9a4404974313a045442a2"
+    },
+    {
+      "path": "Insecure Deserialization/Node.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee9fc27abb80ec2308129cae92b27287a587f0a0",
+      "size": 2313,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/ee9fc27abb80ec2308129cae92b27287a587f0a0"
+    },
+    {
+      "path": "Insecure Deserialization/PHP.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48616f337e0914bff20824866dfa01d0d4492707",
+      "size": 15000,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/48616f337e0914bff20824866dfa01d0d4492707"
+    },
+    {
+      "path": "Insecure Deserialization/Python.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "732f0ec26eb0c2dc5c66e23c35df16ce9295fcd7",
+      "size": 5410,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/732f0ec26eb0c2dc5c66e23c35df16ce9295fcd7"
+    },
+    {
+      "path": "Insecure Deserialization/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a144b7cdca10350ddec5499d36f1de332d20643",
+      "size": 4684,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/0a144b7cdca10350ddec5499d36f1de332d20643"
+    },
+    {
+      "path": "Insecure Deserialization/Ruby.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e42704960f8d947191153e870f16c2b2c597a29",
+      "size": 3806,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/1e42704960f8d947191153e870f16c2b2c597a29"
+    },
+    {
+      "path": "Insecure Direct Object References",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3dfb8b727ffee4176b0771afe276f2571b7f5ebf",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/3dfb8b727ffee4176b0771afe276f2571b7f5ebf"
+    },
+    {
+      "path": "Insecure Direct Object References/Images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ca85b695e1b8d50beb3f28219644f9793a4fe02e",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/ca85b695e1b8d50beb3f28219644f9793a4fe02e"
+    },
+    {
+      "path": "Insecure Direct Object References/Images/idor.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b41c634aab73c4922ad80b5e3643ad813f1269ad",
+      "size": 179442,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b41c634aab73c4922ad80b5e3643ad813f1269ad"
+    },
+    {
+      "path": "Insecure Direct Object References/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c0295a498707937ac4df5bf602531e9897eeeb7",
+      "size": 7428,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/7c0295a498707937ac4df5bf602531e9897eeeb7"
+    },
+    {
+      "path": "Insecure Management Interface",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9b4aea94c19faa432b407415b69369839d097277",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/9b4aea94c19faa432b407415b69369839d097277"
+    },
+    {
+      "path": "Insecure Management Interface/Intruder",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6b1fff8b10b8aa093f07f76045e83fb66bd46160",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/6b1fff8b10b8aa093f07f76045e83fb66bd46160"
+    },
+    {
+      "path": "Insecure Management Interface/Intruder/springboot_actuator.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b12a1dca72a5f2d050110644b45e9a268c42f68",
+      "size": 703,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/1b12a1dca72a5f2d050110644b45e9a268c42f68"
+    },
+    {
+      "path": "Insecure Management Interface/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "753be86f0818e8a5dce2a5697f0511778ac31b31",
+      "size": 2516,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/753be86f0818e8a5dce2a5697f0511778ac31b31"
+    },
+    {
+      "path": "Insecure Randomness",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2c37b6b0bd65ff33c8a4326c0b0463da2564bece",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/2c37b6b0bd65ff33c8a4326c0b0463da2564bece"
+    },
+    {
+      "path": "Insecure Randomness/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d30261d0da85a6f808a54267d3418fc06b313d7a",
+      "size": 9688,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/d30261d0da85a6f808a54267d3418fc06b313d7a"
+    },
+    {
+      "path": "Insecure Source Code Management",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cfcdb6859d11b2eb7bc83bbb97717de3e8b31ecb",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/cfcdb6859d11b2eb7bc83bbb97717de3e8b31ecb"
+    },
+    {
+      "path": "Insecure Source Code Management/Bazaar.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4546033f82706d65cfcfb420bf6aeef11a3e4441",
+      "size": 1457,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/4546033f82706d65cfcfb420bf6aeef11a3e4441"
+    },
+    {
+      "path": "Insecure Source Code Management/Files",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a6594ab2c9a36f4e73b3320bbc576bfb72bca1bc",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/a6594ab2c9a36f4e73b3320bbc576bfb72bca1bc"
+    },
+    {
+      "path": "Insecure Source Code Management/Files/github-dorks.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60a77305ea53eb36e4f5fee81832917293751d24",
+      "size": 29685,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/60a77305ea53eb36e4f5fee81832917293751d24"
+    },
+    {
+      "path": "Insecure Source Code Management/Git.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae27395dd3b3e8885f38481672851ab584bd840a",
+      "size": 8443,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/ae27395dd3b3e8885f38481672851ab584bd840a"
+    },
+    {
+      "path": "Insecure Source Code Management/Mercurial.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b1de0d83efc8cc40d10da3512b9371fa328ada1",
+      "size": 909,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/5b1de0d83efc8cc40d10da3512b9371fa328ada1"
+    },
+    {
+      "path": "Insecure Source Code Management/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc50d931e2bf1505e989b935a1cac93bf231091f",
+      "size": 2383,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/fc50d931e2bf1505e989b935a1cac93bf231091f"
+    },
+    {
+      "path": "Insecure Source Code Management/Subversion.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1be792f406ea81eb9ce8cc57959234252aeed5e9",
+      "size": 1709,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/1be792f406ea81eb9ce8cc57959234252aeed5e9"
+    },
+    {
+      "path": "JSON Web Token",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d58be1c68c4593d4d2ac7c4e1ce371c16b3632e4",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/d58be1c68c4593d4d2ac7c4e1ce371c16b3632e4"
+    },
+    {
+      "path": "JSON Web Token/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37129ffbd148cf2ec4a82072ce25a2ac5edc9c87",
+      "size": 27650,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/37129ffbd148cf2ec4a82072ce25a2ac5edc9c87"
+    },
+    {
+      "path": "Java RMI",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "583f04f16daa1bc51075162ed6f283c0c9dce69d",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/583f04f16daa1bc51075162ed6f283c0c9dce69d"
+    },
+    {
+      "path": "Java RMI/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "116c3120136687b8f6aadac2d2f10941e6462922",
+      "size": 7152,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/116c3120136687b8f6aadac2d2f10941e6462922"
+    },
+    {
+      "path": "LDAP Injection",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c67fad047b29e6dfab01683e36a9d30019256cd7",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/c67fad047b29e6dfab01683e36a9d30019256cd7"
+    },
+    {
+      "path": "LDAP Injection/Intruder",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8fe92f4bb69d6953d5b20210e92fbdb77f59b291",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/8fe92f4bb69d6953d5b20210e92fbdb77f59b291"
+    },
+    {
+      "path": "LDAP Injection/Intruder/LDAP_FUZZ.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a32a116a8e154cf4618c6764bc7aecb23c6c0563",
+      "size": 455,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/a32a116a8e154cf4618c6764bc7aecb23c6c0563"
+    },
+    {
+      "path": "LDAP Injection/Intruder/LDAP_FUZZ_SMALL.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a888de36b18d805c02bf9708682dca8dbe65eb1f",
+      "size": 208,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/a888de36b18d805c02bf9708682dca8dbe65eb1f"
+    },
+    {
+      "path": "LDAP Injection/Intruder/LDAP_attributes.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adc08bb1aa5584b8630a2471994e6aa88b0f649a",
+      "size": 180,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/adc08bb1aa5584b8630a2471994e6aa88b0f649a"
+    },
+    {
+      "path": "LDAP Injection/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6debab01b741f188cc8687d47dd37335edd4399",
+      "size": 6694,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/f6debab01b741f188cc8687d47dd37335edd4399"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4a1a0d99c164925620ccd865d83e4c88fc5f460",
+      "size": 1064,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/a4a1a0d99c164925620ccd865d83e4c88fc5f460"
+    },
+    {
+      "path": "LaTeX Injection",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2e46d53e056891b924788f0fd7cce17707b08c31",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/2e46d53e056891b924788f0fd7cce17707b08c31"
+    },
+    {
+      "path": "LaTeX Injection/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0e34b3906d595fa7bdb61ee71eab10859896308",
+      "size": 3647,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b0e34b3906d595fa7bdb61ee71eab10859896308"
+    },
+    {
+      "path": "Mass Assignment",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e5e0fb91b9a9a8fb6c745221856ad87e19a8f9f6",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/e5e0fb91b9a9a8fb6c745221856ad87e19a8f9f6"
+    },
+    {
+      "path": "Mass Assignment/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5918b66ed9743e85f4cb577cf302a1b373f28f6",
+      "size": 2405,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b5918b66ed9743e85f4cb577cf302a1b373f28f6"
+    },
+    {
+      "path": "Methodology and Resources",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ada06c0e47517d611c07383bf39b532434619889",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/ada06c0e47517d611c07383bf39b532434619889"
+    },
+    {
+      "path": "Methodology and Resources/Active Directory Attack.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78608bc063aa926de29b71c2dfa47bbad58c7a3f",
+      "size": 5913,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/78608bc063aa926de29b71c2dfa47bbad58c7a3f"
+    },
+    {
+      "path": "Methodology and Resources/Bind Shell Cheatsheet.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c3cad349e07999e402caceceb469f4cd7f7f2d1",
+      "size": 1183,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/9c3cad349e07999e402caceceb469f4cd7f7f2d1"
+    },
+    {
+      "path": "Methodology and Resources/Cloud - AWS Pentest.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ff5afeb0ab861373830fb2b0f06c88687b2328b",
+      "size": 1494,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/7ff5afeb0ab861373830fb2b0f06c88687b2328b"
+    },
+    {
+      "path": "Methodology and Resources/Cloud - Azure Pentest.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a9f6c5f7f0f00339d2161893640dabafab336da",
+      "size": 1003,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/5a9f6c5f7f0f00339d2161893640dabafab336da"
+    },
+    {
+      "path": "Methodology and Resources/Cobalt Strike - Cheatsheet.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd77a149ed41546cc1d4aeb5be4be427ab701175",
+      "size": 3562,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/bd77a149ed41546cc1d4aeb5be4be427ab701175"
+    },
+    {
+      "path": "Methodology and Resources/Container - Docker Pentest.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0120ccebcca36c9f82aa6778f592ae7448326d0a",
+      "size": 1531,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/0120ccebcca36c9f82aa6778f592ae7448326d0a"
+    },
+    {
+      "path": "Methodology and Resources/Container - Kubernetes Pentest.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1abfe9e3524a612fc260d8e964a2bad6adaa9e78",
+      "size": 779,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/1abfe9e3524a612fc260d8e964a2bad6adaa9e78"
+    },
+    {
+      "path": "Methodology and Resources/Escape Breakout.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e26a999eda5e645b0da5242538c1dc5e99e84fa",
+      "size": 1721,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/0e26a999eda5e645b0da5242538c1dc5e99e84fa"
+    },
+    {
+      "path": "Methodology and Resources/HTML Smuggling.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db646bcefd60cd9e2b2f35bd91b7b8aebb799265",
+      "size": 440,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/db646bcefd60cd9e2b2f35bd91b7b8aebb799265"
+    },
+    {
+      "path": "Methodology and Resources/Hash Cracking.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd4543d53a8f26a2d12c6a304d26fe963f1b2e10",
+      "size": 1332,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/cd4543d53a8f26a2d12c6a304d26fe963f1b2e10"
+    },
+    {
+      "path": "Methodology and Resources/Initial Access.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "116c116270b6fcbd2a786ba5a23c37f27c81d0fd",
+      "size": 1015,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/116c116270b6fcbd2a786ba5a23c37f27c81d0fd"
+    },
+    {
+      "path": "Methodology and Resources/Linux - Evasion.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a56f492160af2ed9e6207210ec3c33944fcbd51",
+      "size": 657,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/9a56f492160af2ed9e6207210ec3c33944fcbd51"
+    },
+    {
+      "path": "Methodology and Resources/Linux - Persistence.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55eb9b6f26d10ef23751882b22ddae626e4c8b7b",
+      "size": 2186,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/55eb9b6f26d10ef23751882b22ddae626e4c8b7b"
+    },
+    {
+      "path": "Methodology and Resources/Linux - Privilege Escalation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d60ff97efb119295a789635747284e49c78b7f37",
+      "size": 6661,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/d60ff97efb119295a789635747284e49c78b7f37"
+    },
+    {
+      "path": "Methodology and Resources/MSSQL Server - Cheatsheet.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef82101aa0604dea10a612569897020a2983ef5b",
+      "size": 9287,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/ef82101aa0604dea10a612569897020a2983ef5b"
+    },
+    {
+      "path": "Methodology and Resources/Metasploit - Cheatsheet.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "943b48f7e4debc22a63e909fcb47e7cd1faf200f",
+      "size": 2488,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/943b48f7e4debc22a63e909fcb47e7cd1faf200f"
+    },
+    {
+      "path": "Methodology and Resources/Methodology and enumeration.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe2fd6e865c3ceedf6a004960edfb76994723521",
+      "size": 972,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/fe2fd6e865c3ceedf6a004960edfb76994723521"
+    },
+    {
+      "path": "Methodology and Resources/Network Discovery.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "989609b5df2b40dd20e082908f0ecb830ba76404",
+      "size": 1329,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/989609b5df2b40dd20e082908f0ecb830ba76404"
+    },
+    {
+      "path": "Methodology and Resources/Network Pivoting Techniques.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7ad004c529dfe803fe56ddefb1e2545e4264576",
+      "size": 3581,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/a7ad004c529dfe803fe56ddefb1e2545e4264576"
+    },
+    {
+      "path": "Methodology and Resources/Office - Attacks.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41e92ec12e1bf355a577612269c863951424bd77",
+      "size": 4696,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/41e92ec12e1bf355a577612269c863951424bd77"
+    },
+    {
+      "path": "Methodology and Resources/Powershell - Cheatsheet.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad985079a5126dd790d9aff76c55ee9e8e46eb77",
+      "size": 2127,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/ad985079a5126dd790d9aff76c55ee9e8e46eb77"
+    },
+    {
+      "path": "Methodology and Resources/Reverse Shell Cheatsheet.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b8d09a3ca0463ff3b57c891a2c0371b6cf751f3",
+      "size": 4923,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/0b8d09a3ca0463ff3b57c891a2c0371b6cf751f3"
+    },
+    {
+      "path": "Methodology and Resources/Source Code Management.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59bb47db0d55cf6e312d42a17ea6919601c7c559",
+      "size": 1124,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/59bb47db0d55cf6e312d42a17ea6919601c7c559"
+    },
+    {
+      "path": "Methodology and Resources/Vulnerability Reports.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70e68813bf5df155c498cbf2e7bbcf6dca061861",
+      "size": 872,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/70e68813bf5df155c498cbf2e7bbcf6dca061861"
+    },
+    {
+      "path": "Methodology and Resources/Web Attack Surface.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca59340fe7830fe1a8459d53b98ccb617ff3a5a1",
+      "size": 1306,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/ca59340fe7830fe1a8459d53b98ccb617ff3a5a1"
+    },
+    {
+      "path": "Methodology and Resources/Windows - AMSI Bypass.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef93982d7ed89c0ba840f5f2c58a7b0c307b50e2",
+      "size": 2978,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/ef93982d7ed89c0ba840f5f2c58a7b0c307b50e2"
+    },
+    {
+      "path": "Methodology and Resources/Windows - DPAPI.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e501d845f76d428be264c3389b252819a3f6ec51",
+      "size": 977,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/e501d845f76d428be264c3389b252819a3f6ec51"
+    },
+    {
+      "path": "Methodology and Resources/Windows - Defenses.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35ebb9414c6413ee9ebba21ebabdb025343be362",
+      "size": 2255,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/35ebb9414c6413ee9ebba21ebabdb025343be362"
+    },
+    {
+      "path": "Methodology and Resources/Windows - Download and Execute.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95a4d4e5b1716358a46ed6929ed9df1f8bd808d5",
+      "size": 1804,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/95a4d4e5b1716358a46ed6929ed9df1f8bd808d5"
+    },
+    {
+      "path": "Methodology and Resources/Windows - Mimikatz.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "980e8a05d03b069ae896d30390bf61b9911050d1",
+      "size": 2193,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/980e8a05d03b069ae896d30390bf61b9911050d1"
+    },
+    {
+      "path": "Methodology and Resources/Windows - Persistence.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "286959931729acf34d061d088c1b66cbef0b1f6b",
+      "size": 5074,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/286959931729acf34d061d088c1b66cbef0b1f6b"
+    },
+    {
+      "path": "Methodology and Resources/Windows - Privilege Escalation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "407905392afe211e23ed73ccc7c4d477394abd3e",
+      "size": 10555,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/407905392afe211e23ed73ccc7c4d477394abd3e"
+    },
+    {
+      "path": "Methodology and Resources/Windows - Using credentials.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27202a293c75f7d8e16f16d58a030beb36925a1b",
+      "size": 3200,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/27202a293c75f7d8e16f16d58a030beb36925a1b"
+    },
+    {
+      "path": "NoSQL Injection",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c55ba3c500a0e9f6528fc128a984a1f7e18de499",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/c55ba3c500a0e9f6528fc128a984a1f7e18de499"
+    },
+    {
+      "path": "NoSQL Injection/Intruder",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "70aa46735c76a8c903da0c2703a82cdeea3b99dc",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/70aa46735c76a8c903da0c2703a82cdeea3b99dc"
+    },
+    {
+      "path": "NoSQL Injection/Intruder/MongoDB.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e9476fe2e12570f0ef8173e1c8310ae588516cc",
+      "size": 560,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/1e9476fe2e12570f0ef8173e1c8310ae588516cc"
+    },
+    {
+      "path": "NoSQL Injection/Intruder/NoSQL.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44b8f3a0bd8ff78e0932d153b15a8e7a7d60bd5c",
+      "size": 696,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/44b8f3a0bd8ff78e0932d153b15a8e7a7d60bd5c"
+    },
+    {
+      "path": "NoSQL Injection/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a26c318bce169558ba19c796fee82718d1e158d",
+      "size": 8245,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/5a26c318bce169558ba19c796fee82718d1e158d"
+    },
+    {
+      "path": "OAuth Misconfiguration",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ba105fa8ab1f147ce9baa1ccab830bdfe1089d90",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/ba105fa8ab1f147ce9baa1ccab830bdfe1089d90"
+    },
+    {
+      "path": "OAuth Misconfiguration/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1afa17266e3e6f094da0d5827033bb469f51844",
+      "size": 5398,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b1afa17266e3e6f094da0d5827033bb469f51844"
+    },
+    {
+      "path": "ORM Leak",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f51093cd101f8d0c146d37fde25b046804c22422",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/f51093cd101f8d0c146d37fde25b046804c22422"
+    },
+    {
+      "path": "ORM Leak/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f08b1959944e5af625cd9d04f22125cae9290377",
+      "size": 7749,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/f08b1959944e5af625cd9d04f22125cae9290377"
+    },
+    {
+      "path": "Open Redirect",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c14057efd9d622f6a56768022ff1bdb6d73882bc",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/c14057efd9d622f6a56768022ff1bdb6d73882bc"
+    },
+    {
+      "path": "Open Redirect/Intruder",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d8c6b148dafa18a104f12c79e6b28ae2259ad979",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/d8c6b148dafa18a104f12c79e6b28ae2259ad979"
+    },
+    {
+      "path": "Open Redirect/Intruder/Open-Redirect-payloads.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4444e335af15cd9f9e645b38040145104c8a1687",
+      "size": 8504,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/4444e335af15cd9f9e645b38040145104c8a1687"
+    },
+    {
+      "path": "Open Redirect/Intruder/open_redirect_wordlist.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10b95958b792233b0b6f157ee6479e796ea6928c",
+      "size": 864,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/10b95958b792233b0b6f157ee6479e796ea6928c"
+    },
+    {
+      "path": "Open Redirect/Intruder/openredirects.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c85c636ea454bdc90470fb74de03543eae863ab8",
+      "size": 2197,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/c85c636ea454bdc90470fb74de03543eae863ab8"
+    },
+    {
+      "path": "Open Redirect/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90426d1d8a0503edf9c1d54a7e42c2ef17db6646",
+      "size": 8087,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/90426d1d8a0503edf9c1d54a7e42c2ef17db6646"
+    },
+    {
+      "path": "Prompt Injection",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7b07675bf229875c5c276e54d766832ed42c13d4",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/7b07675bf229875c5c276e54d766832ed42c13d4"
+    },
+    {
+      "path": "Prompt Injection/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef566dee8e24a9ebba61bb746083ca782ca27d53",
+      "size": 17199,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/ef566dee8e24a9ebba61bb746083ca782ca27d53"
+    },
+    {
+      "path": "Prototype Pollution",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7f82a5e21ef91a0d8d7baadd7197f1ce4aa19d1d",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/7f82a5e21ef91a0d8d7baadd7197f1ce4aa19d1d"
+    },
+    {
+      "path": "Prototype Pollution/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8108f74ce0bb5f81f46ad0d79f47234b4dd6fde1",
+      "size": 10051,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/8108f74ce0bb5f81f46ad0d79f47234b4dd6fde1"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d681284f7f1b800ebeaeb5dc0e76405acb1cd9de",
+      "size": 3755,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/d681284f7f1b800ebeaeb5dc0e76405acb1cd9de"
+    },
+    {
+      "path": "Race Condition",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "26ac7f83b75f632af6cd7380f9163f32d8a2d1e0",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/26ac7f83b75f632af6cd7380f9163f32d8a2d1e0"
+    },
+    {
+      "path": "Race Condition/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c10cb8f736d2212896171f6f2efbfb747cdee83",
+      "size": 8396,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/1c10cb8f736d2212896171f6f2efbfb747cdee83"
+    },
+    {
+      "path": "Regular Expression",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3da3f3b5fbc7f7e0baa5b72ba0723e7ecc93b1b1",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/3da3f3b5fbc7f7e0baa5b72ba0723e7ecc93b1b1"
+    },
+    {
+      "path": "Regular Expression/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6db5343ca2484548bf840346c11812ea113138c9",
+      "size": 3421,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/6db5343ca2484548bf840346c11812ea113138c9"
+    },
+    {
+      "path": "Request Smuggling",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4402d764e44b097c8c9a3469dbfda0ed8d7e5ce7",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/4402d764e44b097c8c9a3469dbfda0ed8d7e5ce7"
+    },
+    {
+      "path": "Request Smuggling/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a287d73df55508e2b6881b00394fa2b4cce364e9",
+      "size": 8154,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/a287d73df55508e2b6881b00394fa2b4cce364e9"
+    },
+    {
+      "path": "Reverse Proxy Misconfigurations",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "95600157eaaa170662d01fc5328ad3a36e5ed82d",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/95600157eaaa170662d01fc5328ad3a36e5ed82d"
+    },
+    {
+      "path": "Reverse Proxy Misconfigurations/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b972480104c0a07dd55cd16a3e69ee47c17e8a60",
+      "size": 6940,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b972480104c0a07dd55cd16a3e69ee47c17e8a60"
+    },
+    {
+      "path": "SAML Injection",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f99e7330e50d65e24e056c090d6f3ab7dfdd53f8",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/f99e7330e50d65e24e056c090d6f3ab7dfdd53f8"
+    },
+    {
+      "path": "SAML Injection/Images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9d4ff69970c0320edf05e1cf4844549d3a400116",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/9d4ff69970c0320edf05e1cf4844549d3a400116"
+    },
+    {
+      "path": "SAML Injection/Images/SAML-xml-flaw.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b014a49b58018ee8c862d09017359992bb140a0d",
+      "size": 8907,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b014a49b58018ee8c862d09017359992bb140a0d"
+    },
+    {
+      "path": "SAML Injection/Images/XSLT1.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fe4dbf3f6a926b396130b46d0c6a34e68bb5755",
+      "size": 152989,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/6fe4dbf3f6a926b396130b46d0c6a34e68bb5755"
+    },
+    {
+      "path": "SAML Injection/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9ad7a9348a3f2bcaadf4f1447cd209482b40d0c",
+      "size": 11724,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/f9ad7a9348a3f2bcaadf4f1447cd209482b40d0c"
+    },
+    {
+      "path": "SQL Injection",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4864101f7f9e4368ee168affa7c9d7865ee1a8a0",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/4864101f7f9e4368ee168affa7c9d7865ee1a8a0"
+    },
+    {
+      "path": "SQL Injection/BigQuery Injection.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90742a1b0fdde0ba498cfb04bbab2b83cde93079",
+      "size": 3561,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/90742a1b0fdde0ba498cfb04bbab2b83cde93079"
+    },
+    {
+      "path": "SQL Injection/Cassandra Injection.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66a7481bc33ca0519eda8bcdf46d39a1595ae0c5",
+      "size": 2098,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/66a7481bc33ca0519eda8bcdf46d39a1595ae0c5"
+    },
+    {
+      "path": "SQL Injection/DB2 Injection.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "092844843898310475a3c486d8c6334dd645603b",
+      "size": 6551,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/092844843898310475a3c486d8c6334dd645603b"
+    },
+    {
+      "path": "SQL Injection/Images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2b00f9e9ff9a4a5685249baf2a9942a6c82ec9b3",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/2b00f9e9ff9a4a5685249baf2a9942a6c82ec9b3"
+    },
+    {
+      "path": "SQL Injection/Images/PostgreSQL_cmd_exec.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4bd2190659d8682f651e64112fd7cffc9bd2444",
+      "size": 194842,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/c4bd2190659d8682f651e64112fd7cffc9bd2444"
+    },
+    {
+      "path": "SQL Injection/Images/Unicode_SQL_injection.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9693d5d0fcd214ba9f5f3fd74e5fa13a46c8308",
+      "size": 529643,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/d9693d5d0fcd214ba9f5f3fd74e5fa13a46c8308"
+    },
+    {
+      "path": "SQL Injection/Images/wildcard_underscore.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81007e40273292bf87f44bd527df87913b1f19f4",
+      "size": 110357,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/81007e40273292bf87f44bd527df87913b1f19f4"
+    },
+    {
+      "path": "SQL Injection/Intruder",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "41aa4044db3f087d7c5b338dde3e4f50e89b39f8",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/41aa4044db3f087d7c5b338dde3e4f50e89b39f8"
+    },
+    {
+      "path": "SQL Injection/Intruder/Auth_Bypass.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55c09183190bfcfe6fbfa0a409982c5d6919f96c",
+      "size": 1202,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/55c09183190bfcfe6fbfa0a409982c5d6919f96c"
+    },
+    {
+      "path": "SQL Injection/Intruder/Auth_Bypass2.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3881b4c7ccf15bb3af5ea846b11a48cd0798a60b",
+      "size": 1873,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/3881b4c7ccf15bb3af5ea846b11a48cd0798a60b"
+    },
+    {
+      "path": "SQL Injection/Intruder/FUZZDB_MSSQL-WHERE_Time.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9912f3575965e8469cd950fbb448c43b1d4ec5a5",
+      "size": 1241,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/9912f3575965e8469cd950fbb448c43b1d4ec5a5"
+    },
+    {
+      "path": "SQL Injection/Intruder/FUZZDB_MSSQL.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e07ece5ecbeca48f278e3da27aec9b3c57dd0a3f",
+      "size": 1059,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/e07ece5ecbeca48f278e3da27aec9b3c57dd0a3f"
+    },
+    {
+      "path": "SQL Injection/Intruder/FUZZDB_MSSQL_Enumeration.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9b53cf75877c3dbd6b9ba006529121b0b0dceaf",
+      "size": 716,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/f9b53cf75877c3dbd6b9ba006529121b0b0dceaf"
+    },
+    {
+      "path": "SQL Injection/Intruder/FUZZDB_MYSQL.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ada7a3efe408be70f66444bec0a6774a73ebcbe",
+      "size": 108,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/9ada7a3efe408be70f66444bec0a6774a73ebcbe"
+    },
+    {
+      "path": "SQL Injection/Intruder/FUZZDB_MySQL-WHERE_Time.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ddea3f0b71040c98982be6a791935c50f7fa8df",
+      "size": 1844,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/7ddea3f0b71040c98982be6a791935c50f7fa8df"
+    },
+    {
+      "path": "SQL Injection/Intruder/FUZZDB_MySQL_ReadLocalFiles.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aeb89ca0f2ed2895ab29136ff24d1d843f554200",
+      "size": 210,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/aeb89ca0f2ed2895ab29136ff24d1d843f554200"
+    },
+    {
+      "path": "SQL Injection/Intruder/FUZZDB_Oracle.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b1e6ee1b5273f101e516483be36c172fa453514",
+      "size": 7874,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/2b1e6ee1b5273f101e516483be36c172fa453514"
+    },
+    {
+      "path": "SQL Injection/Intruder/FUZZDB_Postgres_Enumeration.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9635278bd59de334e91f3e63d27f82815c3b1d1",
+      "size": 694,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/d9635278bd59de334e91f3e63d27f82815c3b1d1"
+    },
+    {
+      "path": "SQL Injection/Intruder/Generic_ErrorBased.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cae9273103f55d6b241e5c600883ddd6fd280de8",
+      "size": 2928,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/cae9273103f55d6b241e5c600883ddd6fd280de8"
+    },
+    {
+      "path": "SQL Injection/Intruder/Generic_Fuzz.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "624fb4dcbc5cf376b109568bb537caaaeb75ab2b",
+      "size": 90,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/624fb4dcbc5cf376b109568bb537caaaeb75ab2b"
+    },
+    {
+      "path": "SQL Injection/Intruder/Generic_TimeBased.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2d17d525f45ba5279b8ca0a385b18a7ff5b791c",
+      "size": 2529,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/f2d17d525f45ba5279b8ca0a385b18a7ff5b791c"
+    },
+    {
+      "path": "SQL Injection/Intruder/Generic_UnionSelect.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d23a6cc8ccd259954a57dea55861dfc59dbb3502",
+      "size": 37386,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/d23a6cc8ccd259954a57dea55861dfc59dbb3502"
+    },
+    {
+      "path": "SQL Injection/Intruder/SQL-Injection",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0ed3b8647699ea4510f939c3f921bcd8125fbec",
+      "size": 1117,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/d0ed3b8647699ea4510f939c3f921bcd8125fbec"
+    },
+    {
+      "path": "SQL Injection/Intruder/SQLi_Polyglots.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cc9d80e430f50b7a3da43ddfb3958bf5c0f2cd1",
+      "size": 348,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/4cc9d80e430f50b7a3da43ddfb3958bf5c0f2cd1"
+    },
+    {
+      "path": "SQL Injection/Intruder/payloads-sql-blind-MSSQL-INSERT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c7d6d02d4b17ab6911d45b31e62dc260b4fa828",
+      "size": 6106,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/8c7d6d02d4b17ab6911d45b31e62dc260b4fa828"
+    },
+    {
+      "path": "SQL Injection/Intruder/payloads-sql-blind-MSSQL-WHERE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf7b5970590bb65b2264e261e314975f548510fa",
+      "size": 1242,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/cf7b5970590bb65b2264e261e314975f548510fa"
+    },
+    {
+      "path": "SQL Injection/Intruder/payloads-sql-blind-MySQL-INSERT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc2c26ab5ff34bb6f3ec2fe4ece812c060c75055",
+      "size": 6348,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/bc2c26ab5ff34bb6f3ec2fe4ece812c060c75055"
+    },
+    {
+      "path": "SQL Injection/Intruder/payloads-sql-blind-MySQL-ORDER_BY",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54534e9c2d716326f4a0a6a9dd6aeb042e3ba7d0",
+      "size": 1521,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/54534e9c2d716326f4a0a6a9dd6aeb042e3ba7d0"
+    },
+    {
+      "path": "SQL Injection/Intruder/payloads-sql-blind-MySQL-WHERE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fb4a74af4bbaae510b692fbc11e022429917f03",
+      "size": 1845,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/5fb4a74af4bbaae510b692fbc11e022429917f03"
+    },
+    {
+      "path": "SQL Injection/MSSQL Injection.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28bc4f3e95dbdae9fbc645d260269838a8ced70d",
+      "size": 17251,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/28bc4f3e95dbdae9fbc645d260269838a8ced70d"
+    },
+    {
+      "path": "SQL Injection/MySQL Injection.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "506991b933366c7ab8ab856af50a461b6289c51a",
+      "size": 34749,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/506991b933366c7ab8ab856af50a461b6289c51a"
+    },
+    {
+      "path": "SQL Injection/OracleSQL Injection.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "767aa8d4fbea3765ddf989900b7e661655b2524d",
+      "size": 12567,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/767aa8d4fbea3765ddf989900b7e661655b2524d"
+    },
+    {
+      "path": "SQL Injection/PostgreSQL Injection.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89e9c69fb8c9ee0d8d0fff253038af6208695753",
+      "size": 12149,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/89e9c69fb8c9ee0d8d0fff253038af6208695753"
+    },
+    {
+      "path": "SQL Injection/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9b7d4b478ce7deb4d3306e94d0b3c241a88ca90",
+      "size": 32529,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/e9b7d4b478ce7deb4d3306e94d0b3c241a88ca90"
+    },
+    {
+      "path": "SQL Injection/SQLite Injection.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "019c7a908e62cc130fa14fc601f2205a3f4e14e1",
+      "size": 7540,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/019c7a908e62cc130fa14fc601f2205a3f4e14e1"
+    },
+    {
+      "path": "SQL Injection/SQLmap.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c434acc70135d236fa6d18b072f2796e5c080743",
+      "size": 17824,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/c434acc70135d236fa6d18b072f2796e5c080743"
+    },
+    {
+      "path": "Server Side Include Injection",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e9d2415f5cd44f35f318cc4d5f7f8f1b066cf364",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/e9d2415f5cd44f35f318cc4d5f7f8f1b066cf364"
+    },
+    {
+      "path": "Server Side Include Injection/Files",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "266ba7a74c4b35eceee29223da4e38dd0d2d87d2",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/266ba7a74c4b35eceee29223da4e38dd0d2d87d2"
+    },
+    {
+      "path": "Server Side Include Injection/Files/ssi_esi.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bed4827e2e79049b211886fb25cdc3e102469d82",
+      "size": 3398,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/bed4827e2e79049b211886fb25cdc3e102469d82"
+    },
+    {
+      "path": "Server Side Include Injection/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28f2872eb6ad99d1470e3f3e35c7e4d10c9549c3",
+      "size": 5471,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/28f2872eb6ad99d1470e3f3e35c7e4d10c9549c3"
+    },
+    {
+      "path": "Server Side Request Forgery",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9cfb5a5f1a00173686ce5c1f227cd72b91aff8c5",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/9cfb5a5f1a00173686ce5c1f227cd72b91aff8c5"
+    },
+    {
+      "path": "Server Side Request Forgery/Files",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "83070785f6010398f7bb54512688180e88546830",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/83070785f6010398f7bb54512688180e88546830"
+    },
+    {
+      "path": "Server Side Request Forgery/Files/SSRF_expect.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb5325709b14bd49d749ae8958cb8303ead008f7",
+      "size": 176,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/bb5325709b14bd49d749ae8958cb8303ead008f7"
+    },
+    {
+      "path": "Server Side Request Forgery/Files/SSRF_url.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "325278185675785b09c7162c992a33b28470b348",
+      "size": 181,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/325278185675785b09c7162c992a33b28470b348"
+    },
+    {
+      "path": "Server Side Request Forgery/Files/ip.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52be1586a61bc549e3618fb6bb059450e341ce09",
+      "size": 56631,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/52be1586a61bc549e3618fb6bb059450e341ce09"
+    },
+    {
+      "path": "Server Side Request Forgery/Files/ssrf_ffmpeg.avi",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9f2708d3aa93e504fcba04b5610eabedfaeefaa",
+      "size": 82,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/a9f2708d3aa93e504fcba04b5610eabedfaeefaa"
+    },
+    {
+      "path": "Server Side Request Forgery/Files/ssrf_iframe.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bb91d638fe551b17d2696eba98607aa1d1cbd90",
+      "size": 234,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/2bb91d638fe551b17d2696eba98607aa1d1cbd90"
+    },
+    {
+      "path": "Server Side Request Forgery/Files/ssrf_svg_css_import.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c1f4466ffe813c243e2520e27fc07b4128916c0",
+      "size": 188,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/8c1f4466ffe813c243e2520e27fc07b4128916c0"
+    },
+    {
+      "path": "Server Side Request Forgery/Files/ssrf_svg_css_link.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9f7d30526a09bfbfe5f8feb354f85620718f801",
+      "size": 288,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/e9f7d30526a09bfbfe5f8feb354f85620718f801"
+    },
+    {
+      "path": "Server Side Request Forgery/Files/ssrf_svg_css_xmlstylesheet.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a29199afb2afe9ec0a5f032a3bff95c8a22e65df",
+      "size": 228,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/a29199afb2afe9ec0a5f032a3bff95c8a22e65df"
+    },
+    {
+      "path": "Server Side Request Forgery/Files/ssrf_svg_image.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d3b717e55c7e0cabd972f9396463e2b650f4ac9",
+      "size": 199,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/9d3b717e55c7e0cabd972f9396463e2b650f4ac9"
+    },
+    {
+      "path": "Server Side Request Forgery/Files/ssrf_svg_use.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14040b205209e8e9bf12b3fdb5f3338d2029e92f",
+      "size": 176,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/14040b205209e8e9bf12b3fdb5f3338d2029e92f"
+    },
+    {
+      "path": "Server Side Request Forgery/Images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "65f56d8474c2221756525bf1c0d654e61ac49f6d",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/65f56d8474c2221756525bf1c0d654e61ac49f6d"
+    },
+    {
+      "path": "Server Side Request Forgery/Images/Parser and Curl less than 7.54.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76fe429a8a8afca5ced15331ce4000bc0fcb0145",
+      "size": 183399,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/76fe429a8a8afca5ced15331ce4000bc0fcb0145"
+    },
+    {
+      "path": "Server Side Request Forgery/Images/SSRF_PDF.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80a97ba65329b7f3e186a68a6a955f23dd0fb0e9",
+      "size": 68569,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/80a97ba65329b7f3e186a68a6a955f23dd0fb0e9"
+    },
+    {
+      "path": "Server Side Request Forgery/Images/SSRF_Parser.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "016e5fe9c5f47db979d80150479aa0d02e9f7d41",
+      "size": 390422,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/016e5fe9c5f47db979d80150479aa0d02e9f7d41"
+    },
+    {
+      "path": "Server Side Request Forgery/Images/SSRF_stream.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5845dab2001474057508c4b21738cf3543ddc56c",
+      "size": 68414,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/5845dab2001474057508c4b21738cf3543ddc56c"
+    },
+    {
+      "path": "Server Side Request Forgery/Images/WeakParser.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c27a9ccd6696a8e6f7128cbbc339ae1618bfe552",
+      "size": 108624,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/c27a9ccd6696a8e6f7128cbbc339ae1618bfe552"
+    },
+    {
+      "path": "Server Side Request Forgery/Images/aws-cli.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e47bd088f9483a2365477e2654fd37250a0c8dea",
+      "size": 94746,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/e47bd088f9483a2365477e2654fd37250a0c8dea"
+    },
+    {
+      "path": "Server Side Request Forgery/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6cace1226955a631c29ee6e909fb052cb0dd65d",
+      "size": 20069,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/a6cace1226955a631c29ee6e909fb052cb0dd65d"
+    },
+    {
+      "path": "Server Side Request Forgery/SSRF-Advanced-Exploitation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1bf35ba24744a8dc925e48cc879bfb8e1b96356",
+      "size": 7415,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/a1bf35ba24744a8dc925e48cc879bfb8e1b96356"
+    },
+    {
+      "path": "Server Side Request Forgery/SSRF-Cloud-Instances.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "543fcef447a8c9cd7405962e311bbd75bd48fbf9",
+      "size": 11978,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/543fcef447a8c9cd7405962e311bbd75bd48fbf9"
+    },
+    {
+      "path": "Server Side Template Injection",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5df460c0323d8cb1ab1658d5507799368aa5bde4",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/5df460c0323d8cb1ab1658d5507799368aa5bde4"
+    },
+    {
+      "path": "Server Side Template Injection/ASP.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39c32a82ef83116c58a0f3117813d5f85a0dd68d",
+      "size": 1285,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/39c32a82ef83116c58a0f3117813d5f85a0dd68d"
+    },
+    {
+      "path": "Server Side Template Injection/Elixir.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c011df10753f1232bd53c690121d4a27b390a1e",
+      "size": 2238,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/3c011df10753f1232bd53c690121d4a27b390a1e"
+    },
+    {
+      "path": "Server Side Template Injection/Images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "468269a48de35ce1e1469899586f9268c58cbe3a",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/468269a48de35ce1e1469899586f9268c58cbe3a"
+    },
+    {
+      "path": "Server Side Template Injection/Images/serverside.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4733bec197ec18d8f4117361cf520a60e31dd7ab",
+      "size": 44826,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/4733bec197ec18d8f4117361cf520a60e31dd7ab"
+    },
+    {
+      "path": "Server Side Template Injection/Images/technique_Boolean-Based.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9081d50c6bb7d43a21ddd6b13a780f89bb677248",
+      "size": 5386,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/9081d50c6bb7d43a21ddd6b13a780f89bb677248"
+    },
+    {
+      "path": "Server Side Template Injection/Images/technique_Error-Based.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec1f630aebc881d8e454d5bdf39fd673138dd021",
+      "size": 6973,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/ec1f630aebc881d8e454d5bdf39fd673138dd021"
+    },
+    {
+      "path": "Server Side Template Injection/Images/technique_Polyglot-Based.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5546e3bc12a0227545e58fa98fdf128151668ed6",
+      "size": 5164,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/5546e3bc12a0227545e58fa98fdf128151668ed6"
+    },
+    {
+      "path": "Server Side Template Injection/Images/technique_Rendered.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff16946a3ee7c8be7a32925da33a879cd30fd2d6",
+      "size": 4370,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/ff16946a3ee7c8be7a32925da33a879cd30fd2d6"
+    },
+    {
+      "path": "Server Side Template Injection/Images/technique_Time-Based.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72fc7290c44ec47242ad47b423cad0ca35a9dbc0",
+      "size": 4744,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/72fc7290c44ec47242ad47b423cad0ca35a9dbc0"
+    },
+    {
+      "path": "Server Side Template Injection/Images/template-library.jpg",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "006fdec5c9419cb816bc530ddb1c89bc502ef3e8",
+      "size": 802418,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/006fdec5c9419cb816bc530ddb1c89bc502ef3e8"
+    },
+    {
+      "path": "Server Side Template Injection/Intruder",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d6aef811a75cf05f183cf43699d979851549568c",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/d6aef811a75cf05f183cf43699d979851549568c"
+    },
+    {
+      "path": "Server Side Template Injection/Intruder/ssti.fuzz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f51b0233ee858c1e987712aeb9cc106e8308a1cc",
+      "size": 7822,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/f51b0233ee858c1e987712aeb9cc106e8308a1cc"
+    },
+    {
+      "path": "Server Side Template Injection/Java.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51999f030d59708866f010afdbd8521ce453c42a",
+      "size": 22545,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/51999f030d59708866f010afdbd8521ce453c42a"
+    },
+    {
+      "path": "Server Side Template Injection/JavaScript.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "654b3f2b341f1fd11053386a75b0dc3dfd891604",
+      "size": 5487,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/654b3f2b341f1fd11053386a75b0dc3dfd891604"
+    },
+    {
+      "path": "Server Side Template Injection/PHP.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9e92ca152566fd518a49df973c127f764890b06",
+      "size": 10594,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/a9e92ca152566fd518a49df973c127f764890b06"
+    },
+    {
+      "path": "Server Side Template Injection/Python.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8085d90bad1b618dc724ff5f7ea14a0c7da50906",
+      "size": 18965,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/8085d90bad1b618dc724ff5f7ea14a0c7da50906"
+    },
+    {
+      "path": "Server Side Template Injection/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66e48a0e21c7c66aa052f9e11a7ebe47c567bbb8",
+      "size": 12104,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/66e48a0e21c7c66aa052f9e11a7ebe47c567bbb8"
+    },
+    {
+      "path": "Server Side Template Injection/Ruby.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a99d9aa4f4ea448865b05752467c001a6cb4922",
+      "size": 2693,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/2a99d9aa4f4ea448865b05752467c001a6cb4922"
+    },
+    {
+      "path": "Tabnabbing",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8c2b1eac85d46f78d96ed55e55154047c89e65c6",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/8c2b1eac85d46f78d96ed55e55154047c89e65c6"
+    },
+    {
+      "path": "Tabnabbing/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcaeb91fc5b3c29ffcd2a9315db6e9ea02fe1fd4",
+      "size": 2294,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/fcaeb91fc5b3c29ffcd2a9315db6e9ea02fe1fd4"
+    },
+    {
+      "path": "Type Juggling",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2fc91330b95be71b62536fdaed8fb1e316e8e55d",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/2fc91330b95be71b62536fdaed8fb1e316e8e55d"
+    },
+    {
+      "path": "Type Juggling/Images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c4a5c9ed8ebedd08e96ce51696e0ba37b828a50d",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/c4a5c9ed8ebedd08e96ce51696e0ba37b828a50d"
+    },
+    {
+      "path": "Type Juggling/Images/table_representing_behavior_of_PHP_with_loose_type_comparisons.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1359f16b11b11be3f4ebf0f9f2e87527fa2771fe",
+      "size": 44011,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/1359f16b11b11be3f4ebf0f9f2e87527fa2771fe"
+    },
+    {
+      "path": "Type Juggling/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f329a777b5d4c5d698887372686cfa6d39cf37a",
+      "size": 9852,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/6f329a777b5d4c5d698887372686cfa6d39cf37a"
+    },
+    {
+      "path": "Upload Insecure Files",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d41f1daa7a3ac24087a23a3e02c090985dcdac9c",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/d41f1daa7a3ac24087a23a3e02c090985dcdac9c"
+    },
+    {
+      "path": "Upload Insecure Files/CVE FFmpeg HLS",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2741402819aeee394c036d7696d1b4f265f76235",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/2741402819aeee394c036d7696d1b4f265f76235"
+    },
+    {
+      "path": "Upload Insecure Files/CVE FFmpeg HLS/gen_avi_bypass.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b4e8cd4288e135627ee8410060da164dfd13fdc",
+      "size": 2025,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/2b4e8cd4288e135627ee8410060da164dfd13fdc"
+    },
+    {
+      "path": "Upload Insecure Files/CVE FFmpeg HLS/gen_xbin_avi.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db9726b85e238bf1e1d8f4746206d081140187bc",
+      "size": 5051,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/db9726b85e238bf1e1d8f4746206d081140187bc"
+    },
+    {
+      "path": "Upload Insecure Files/CVE FFmpeg HLS/read_passwd.avi",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d206378f255e4f9be5f2a08d90eac3e029e7d2e",
+      "size": 340643,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/4d206378f255e4f9be5f2a08d90eac3e029e7d2e"
+    },
+    {
+      "path": "Upload Insecure Files/CVE FFmpeg HLS/read_passwd_bypass.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01a51ceae0ffe13f80ed82c8467679020623c55e",
+      "size": 10761,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/01a51ceae0ffe13f80ed82c8467679020623c55e"
+    },
+    {
+      "path": "Upload Insecure Files/CVE FFmpeg HLS/read_shadow.avi",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c251c2abb96a8239b3f0af029bb7fced348008ca",
+      "size": 342262,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/c251c2abb96a8239b3f0af029bb7fced348008ca"
+    },
+    {
+      "path": "Upload Insecure Files/CVE FFmpeg HLS/read_shadow_bypass.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41a468a17d46c8d5b69de54cb006dd63536f6ea1",
+      "size": 10761,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/41a468a17d46c8d5b69de54cb006dd63536f6ea1"
+    },
+    {
+      "path": "Upload Insecure Files/CVE ZIP Symbolic Link",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a26c237fb6431f7f58f709bc08c6dff2dc830beb",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/a26c237fb6431f7f58f709bc08c6dff2dc830beb"
+    },
+    {
+      "path": "Upload Insecure Files/CVE ZIP Symbolic Link/etc_passwd.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d4e2a903d2af1a4ca59e02e38bed31fc6fd4013",
+      "size": 169,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/7d4e2a903d2af1a4ca59e02e38bed31fc6fd4013"
+    },
+    {
+      "path": "Upload Insecure Files/CVE ZIP Symbolic Link/generate.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cefdd2689c2abcf216f1d304130a96ca88db0998",
+      "size": 52,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/cefdd2689c2abcf216f1d304130a96ca88db0998"
+    },
+    {
+      "path": "Upload Insecure Files/CVE ZIP Symbolic Link/passwd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3594e94c04db171e2767224db355f514b13715c5",
+      "size": 11,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/3594e94c04db171e2767224db355f514b13715c5"
+    },
+    {
+      "path": "Upload Insecure Files/Configuration Apache .htaccess",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "601fae9fb5b4192d438bedb856e5dddb32be699b",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/601fae9fb5b4192d438bedb856e5dddb32be699b"
+    },
+    {
+      "path": "Upload Insecure Files/Configuration Apache .htaccess/.htaccess",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9abc36b5a1700f5e8aa9c04fc404786b62887953",
+      "size": 527,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/9abc36b5a1700f5e8aa9c04fc404786b62887953"
+    },
+    {
+      "path": "Upload Insecure Files/Configuration Apache .htaccess/.htaccess_phpinfo",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97be8834692fc8913976ff793fffcf0026e17abb",
+      "size": 113,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/97be8834692fc8913976ff793fffcf0026e17abb"
+    },
+    {
+      "path": "Upload Insecure Files/Configuration Apache .htaccess/.htaccess_rce_files",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64b38fbcc529ee5b8b09c09892d9bc0744736c7d",
+      "size": 36,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/64b38fbcc529ee5b8b09c09892d9bc0744736c7d"
+    },
+    {
+      "path": "Upload Insecure Files/Configuration Apache .htaccess/.htaccess_shell",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b3b068266eb688cb25d14c6125f9249c74a3eef",
+      "size": 662,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/0b3b068266eb688cb25d14c6125f9249c74a3eef"
+    },
+    {
+      "path": "Upload Insecure Files/Configuration Apache .htaccess/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b64239b2023efd7c698ff0dc5131673c1d42ff7",
+      "size": 3436,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/7b64239b2023efd7c698ff0dc5131673c1d42ff7"
+    },
+    {
+      "path": "Upload Insecure Files/Configuration IIS web.config",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fef8af3c7073f4283a2ca6c632d6833a8e124ead",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/fef8af3c7073f4283a2ca6c632d6833a8e124ead"
+    },
+    {
+      "path": "Upload Insecure Files/Configuration IIS web.config/web.config",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e02a37f7576a9c7f3a3fb709a1a8500d17a723a",
+      "size": 1864,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/6e02a37f7576a9c7f3a3fb709a1a8500d17a723a"
+    },
+    {
+      "path": "Upload Insecure Files/Configuration Python __init__.py",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6f54077f8c5a2ea5dd10f90e98a47dbf1e96c577",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/6f54077f8c5a2ea5dd10f90e98a47dbf1e96c577"
+    },
+    {
+      "path": "Upload Insecure Files/Configuration Python __init__.py/python-admin-__init__.py.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69f89c52165beca1df9a6b52b2256214db45c4f8",
+      "size": 178,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/69f89c52165beca1df9a6b52b2256214db45c4f8"
+    },
+    {
+      "path": "Upload Insecure Files/Configuration Python __init__.py/python-conf-__init__.py.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4eef395abb72d006d681b859d4afae2eb14f5d19",
+      "size": 176,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/4eef395abb72d006d681b859d4afae2eb14f5d19"
+    },
+    {
+      "path": "Upload Insecure Files/Configuration Python __init__.py/python-config-__init__.py.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61e0f11db4ea7d04978bf5511d94cd9b81ac93a3",
+      "size": 180,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/61e0f11db4ea7d04978bf5511d94cd9b81ac93a3"
+    },
+    {
+      "path": "Upload Insecure Files/Configuration Python __init__.py/python-controllers-__init__.py.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e7f015888cf3385e9c64be7f5584a00b2d549d4",
+      "size": 190,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/7e7f015888cf3385e9c64be7f5584a00b2d549d4"
+    },
+    {
+      "path": "Upload Insecure Files/Configuration Python __init__.py/python-generate-init.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2018f15cf9f3532361ede6f2c2f269c122611228",
+      "size": 921,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/2018f15cf9f3532361ede6f2c2f269c122611228"
+    },
+    {
+      "path": "Upload Insecure Files/Configuration Python __init__.py/python-login-__init__.py.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f6703676bf75675025e474f9bf5daa736120e4a",
+      "size": 178,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/5f6703676bf75675025e474f9bf5daa736120e4a"
+    },
+    {
+      "path": "Upload Insecure Files/Configuration Python __init__.py/python-models-__init__.py.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75c2e0f63ce5345966252fbc28f1f1713fb7dd96",
+      "size": 180,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/75c2e0f63ce5345966252fbc28f1f1713fb7dd96"
+    },
+    {
+      "path": "Upload Insecure Files/Configuration Python __init__.py/python-modules-__init__.py.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47e5e5e8ce43b56753f811bccb07ec10ad7b0d2c",
+      "size": 182,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/47e5e5e8ce43b56753f811bccb07ec10ad7b0d2c"
+    },
+    {
+      "path": "Upload Insecure Files/Configuration Python __init__.py/python-scripts-__init__.py.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2bbe3b30360b0c24fa1ea9af309c8c77218855f",
+      "size": 182,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/a2bbe3b30360b0c24fa1ea9af309c8c77218855f"
+    },
+    {
+      "path": "Upload Insecure Files/Configuration Python __init__.py/python-settings-__init__.py.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ea8d0636ea4c34c61fc3ec7542ad9c65c7b1130",
+      "size": 184,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/4ea8d0636ea4c34c61fc3ec7542ad9c65c7b1130"
+    },
+    {
+      "path": "Upload Insecure Files/Configuration Python __init__.py/python-tests-__init__.py.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ebca36969e191e2eeeac8951c726056c8df54d47",
+      "size": 178,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/ebca36969e191e2eeeac8951c726056c8df54d47"
+    },
+    {
+      "path": "Upload Insecure Files/Configuration Python __init__.py/python-urls-__init__.py.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13b89edfba49e95397996d4a14601aef9ea7a68f",
+      "size": 176,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/13b89edfba49e95397996d4a14601aef9ea7a68f"
+    },
+    {
+      "path": "Upload Insecure Files/Configuration Python __init__.py/python-utils-__init__.py.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3622020e876f48c5fb42d80bde67f904bfcf8a62",
+      "size": 178,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/3622020e876f48c5fb42d80bde67f904bfcf8a62"
+    },
+    {
+      "path": "Upload Insecure Files/Configuration Python __init__.py/python-view-__init__.py.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29ed3a0ea0b8b67e8b34ef4ce67883bbc1a9dde9",
+      "size": 176,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/29ed3a0ea0b8b67e8b34ef4ce67883bbc1a9dde9"
+    },
+    {
+      "path": "Upload Insecure Files/Configuration uwsgi.ini",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a374143abb3ce76b1b2934ae5395bb166bc0305c",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/a374143abb3ce76b1b2934ae5395bb166bc0305c"
+    },
+    {
+      "path": "Upload Insecure Files/Configuration uwsgi.ini/uwsgi.ini",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7301b4c76249688281fe9f89ea486f640fceba9c",
+      "size": 352,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/7301b4c76249688281fe9f89ea486f640fceba9c"
+    },
+    {
+      "path": "Upload Insecure Files/EICAR",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dc73a751c8415773632bacfedbe88cd370f2993e",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/dc73a751c8415773632bacfedbe88cd370f2993e"
+    },
+    {
+      "path": "Upload Insecure Files/EICAR/eicar.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "704cac859b4ce00807c504f005c26a76542b6201",
+      "size": 69,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/704cac859b4ce00807c504f005c26a76542b6201"
+    },
+    {
+      "path": "Upload Insecure Files/Extension ASP",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9fd4853885f3a8b8f7ff215841868e88d21ad1e0",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/9fd4853885f3a8b8f7ff215841868e88d21ad1e0"
+    },
+    {
+      "path": "Upload Insecure Files/Extension ASP/extensions.lst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8136cba915d665dc81f9c4d43171221a475d68b0",
+      "size": 46,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/8136cba915d665dc81f9c4d43171221a475d68b0"
+    },
+    {
+      "path": "Upload Insecure Files/Extension ASP/shell.asa",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2caf599f2b7aec6bd85bf039d641ec94ea18604",
+      "size": 3372,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b2caf599f2b7aec6bd85bf039d641ec94ea18604"
+    },
+    {
+      "path": "Upload Insecure Files/Extension ASP/shell.ashx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfd3286d216586d9ab1f8a06ad05562044b7204d",
+      "size": 1446,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/bfd3286d216586d9ab1f8a06ad05562044b7204d"
+    },
+    {
+      "path": "Upload Insecure Files/Extension ASP/shell.asmx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2caf599f2b7aec6bd85bf039d641ec94ea18604",
+      "size": 3372,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b2caf599f2b7aec6bd85bf039d641ec94ea18604"
+    },
+    {
+      "path": "Upload Insecure Files/Extension ASP/shell.asp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2caf599f2b7aec6bd85bf039d641ec94ea18604",
+      "size": 3372,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b2caf599f2b7aec6bd85bf039d641ec94ea18604"
+    },
+    {
+      "path": "Upload Insecure Files/Extension ASP/shell.aspx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5de53adb36d4d8336bde0bf96b7f54cb6a5f720c",
+      "size": 4388,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/5de53adb36d4d8336bde0bf96b7f54cb6a5f720c"
+    },
+    {
+      "path": "Upload Insecure Files/Extension ASP/shell.cer",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2caf599f2b7aec6bd85bf039d641ec94ea18604",
+      "size": 3372,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b2caf599f2b7aec6bd85bf039d641ec94ea18604"
+    },
+    {
+      "path": "Upload Insecure Files/Extension ASP/shell.soap",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcac007d497991a1e6a211f1edeb643eb74e1b5b",
+      "size": 2427,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/dcac007d497991a1e6a211f1edeb643eb74e1b5b"
+    },
+    {
+      "path": "Upload Insecure Files/Extension ASP/shell.xamlx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab0da0faf977b7297a5e0f710ddf0aa43409cbeb",
+      "size": 906,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/ab0da0faf977b7297a5e0f710ddf0aa43409cbeb"
+    },
+    {
+      "path": "Upload Insecure Files/Extension HTML",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "63c0c53478da6c366f5c980cfdd6c74df2ae628f",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/63c0c53478da6c366f5c980cfdd6c74df2ae628f"
+    },
+    {
+      "path": "Upload Insecure Files/Extension HTML/xss.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48d8f2210f84149c34fa26bb9ed388b77e48151d",
+      "size": 29,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/48d8f2210f84149c34fa26bb9ed388b77e48151d"
+    },
+    {
+      "path": "Upload Insecure Files/Extension PHP",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cda4e2580488e0b9c3b3cebdc785a12a41c3e97d",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/cda4e2580488e0b9c3b3cebdc785a12a41c3e97d"
+    },
+    {
+      "path": "Upload Insecure Files/Extension PHP/extensions.lst",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc57884aa29d63f4eff819166c9ea2e4fbc3b9f0",
+      "size": 199,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/fc57884aa29d63f4eff819166c9ea2e4fbc3b9f0"
+    },
+    {
+      "path": "Upload Insecure Files/Extension PHP/php-script-tag.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "233a5268d730459d4866459f01218bae3e55fcf9",
+      "size": 45,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/233a5268d730459d4866459f01218bae3e55fcf9"
+    },
+    {
+      "path": "Upload Insecure Files/Extension PHP/phpinfo.jpg.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "147cebcdd4754ac7ed5f63408bd436e910b00ef2",
+      "size": 20,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/147cebcdd4754ac7ed5f63408bd436e910b00ef2"
+    },
+    {
+      "path": "Upload Insecure Files/Extension PHP/phpinfo.phar",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "147cebcdd4754ac7ed5f63408bd436e910b00ef2",
+      "size": 20,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/147cebcdd4754ac7ed5f63408bd436e910b00ef2"
+    },
+    {
+      "path": "Upload Insecure Files/Extension PHP/phpinfo.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "147cebcdd4754ac7ed5f63408bd436e910b00ef2",
+      "size": 20,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/147cebcdd4754ac7ed5f63408bd436e910b00ef2"
+    },
+    {
+      "path": "Upload Insecure Files/Extension PHP/phpinfo.php3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "147cebcdd4754ac7ed5f63408bd436e910b00ef2",
+      "size": 20,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/147cebcdd4754ac7ed5f63408bd436e910b00ef2"
+    },
+    {
+      "path": "Upload Insecure Files/Extension PHP/phpinfo.php4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "147cebcdd4754ac7ed5f63408bd436e910b00ef2",
+      "size": 20,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/147cebcdd4754ac7ed5f63408bd436e910b00ef2"
+    },
+    {
+      "path": "Upload Insecure Files/Extension PHP/phpinfo.php5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "147cebcdd4754ac7ed5f63408bd436e910b00ef2",
+      "size": 20,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/147cebcdd4754ac7ed5f63408bd436e910b00ef2"
+    },
+    {
+      "path": "Upload Insecure Files/Extension PHP/phpinfo.php7",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "147cebcdd4754ac7ed5f63408bd436e910b00ef2",
+      "size": 20,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/147cebcdd4754ac7ed5f63408bd436e910b00ef2"
+    },
+    {
+      "path": "Upload Insecure Files/Extension PHP/phpinfo.php8",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "147cebcdd4754ac7ed5f63408bd436e910b00ef2",
+      "size": 20,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/147cebcdd4754ac7ed5f63408bd436e910b00ef2"
+    },
+    {
+      "path": "Upload Insecure Files/Extension PHP/phpinfo.phpt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "147cebcdd4754ac7ed5f63408bd436e910b00ef2",
+      "size": 20,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/147cebcdd4754ac7ed5f63408bd436e910b00ef2"
+    },
+    {
+      "path": "Upload Insecure Files/Extension PHP/phpinfo.pht",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "147cebcdd4754ac7ed5f63408bd436e910b00ef2",
+      "size": 20,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/147cebcdd4754ac7ed5f63408bd436e910b00ef2"
+    },
+    {
+      "path": "Upload Insecure Files/Extension PHP/phpinfo.phtml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "147cebcdd4754ac7ed5f63408bd436e910b00ef2",
+      "size": 20,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/147cebcdd4754ac7ed5f63408bd436e910b00ef2"
+    },
+    {
+      "path": "Upload Insecure Files/Extension PHP/shell.gif^shell.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1c546e554052c6e6a9ea90ef7bc8c48e0f74482",
+      "size": 44,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b1c546e554052c6e6a9ea90ef7bc8c48e0f74482"
+    },
+    {
+      "path": "Upload Insecure Files/Extension PHP/shell.jpeg.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1abb37a105d40b8f71fcb00dcc25faeee760be4",
+      "size": 43,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b1abb37a105d40b8f71fcb00dcc25faeee760be4"
+    },
+    {
+      "path": "Upload Insecure Files/Extension PHP/shell.jpg.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1abb37a105d40b8f71fcb00dcc25faeee760be4",
+      "size": 43,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b1abb37a105d40b8f71fcb00dcc25faeee760be4"
+    },
+    {
+      "path": "Upload Insecure Files/Extension PHP/shell.jpg^shell.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1c546e554052c6e6a9ea90ef7bc8c48e0f74482",
+      "size": 44,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b1c546e554052c6e6a9ea90ef7bc8c48e0f74482"
+    },
+    {
+      "path": "Upload Insecure Files/Extension PHP/shell.pgif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10ce64b912b9e04f220e2cddac325bde36895593",
+      "size": 407,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/10ce64b912b9e04f220e2cddac325bde36895593"
+    },
+    {
+      "path": "Upload Insecure Files/Extension PHP/shell.phar",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1abb37a105d40b8f71fcb00dcc25faeee760be4",
+      "size": 43,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b1abb37a105d40b8f71fcb00dcc25faeee760be4"
+    },
+    {
+      "path": "Upload Insecure Files/Extension PHP/shell.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1abb37a105d40b8f71fcb00dcc25faeee760be4",
+      "size": 43,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b1abb37a105d40b8f71fcb00dcc25faeee760be4"
+    },
+    {
+      "path": "Upload Insecure Files/Extension PHP/shell.php3",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1abb37a105d40b8f71fcb00dcc25faeee760be4",
+      "size": 43,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b1abb37a105d40b8f71fcb00dcc25faeee760be4"
+    },
+    {
+      "path": "Upload Insecure Files/Extension PHP/shell.php4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1abb37a105d40b8f71fcb00dcc25faeee760be4",
+      "size": 43,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b1abb37a105d40b8f71fcb00dcc25faeee760be4"
+    },
+    {
+      "path": "Upload Insecure Files/Extension PHP/shell.php5",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1abb37a105d40b8f71fcb00dcc25faeee760be4",
+      "size": 43,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b1abb37a105d40b8f71fcb00dcc25faeee760be4"
+    },
+    {
+      "path": "Upload Insecure Files/Extension PHP/shell.php7",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1abb37a105d40b8f71fcb00dcc25faeee760be4",
+      "size": 43,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b1abb37a105d40b8f71fcb00dcc25faeee760be4"
+    },
+    {
+      "path": "Upload Insecure Files/Extension PHP/shell.phpt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5c0a3feb6b99d695adc7f3be88723d3db4ced41",
+      "size": 184,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/f5c0a3feb6b99d695adc7f3be88723d3db4ced41"
+    },
+    {
+      "path": "Upload Insecure Files/Extension PHP/shell.pht",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1abb37a105d40b8f71fcb00dcc25faeee760be4",
+      "size": 43,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b1abb37a105d40b8f71fcb00dcc25faeee760be4"
+    },
+    {
+      "path": "Upload Insecure Files/Extension PHP/shell.phtml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1abb37a105d40b8f71fcb00dcc25faeee760be4",
+      "size": 43,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b1abb37a105d40b8f71fcb00dcc25faeee760be4"
+    },
+    {
+      "path": "Upload Insecure Files/Extension PHP/shell.png.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1abb37a105d40b8f71fcb00dcc25faeee760be4",
+      "size": 43,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b1abb37a105d40b8f71fcb00dcc25faeee760be4"
+    },
+    {
+      "path": "Upload Insecure Files/Extension PHP/shell.png^shell.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1c546e554052c6e6a9ea90ef7bc8c48e0f74482",
+      "size": 44,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b1c546e554052c6e6a9ea90ef7bc8c48e0f74482"
+    },
+    {
+      "path": "Upload Insecure Files/Extension PHP/tiny.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e4f7f38bdd8dcae62e6f5b78a67a07aa2eb3e02",
+      "size": 38,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/6e4f7f38bdd8dcae62e6f5b78a67a07aa2eb3e02"
+    },
+    {
+      "path": "Upload Insecure Files/Images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f17cd4baf0382dee583a64722bb5fa08e097379b",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/f17cd4baf0382dee583a64722bb5fa08e097379b"
+    },
+    {
+      "path": "Upload Insecure Files/Images/file-upload-mindmap.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "964d174b2192b74a96bc9ed2cffbfd9936344e40",
+      "size": 1179813,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/964d174b2192b74a96bc9ed2cffbfd9936344e40"
+    },
+    {
+      "path": "Upload Insecure Files/Jetty RCE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9c5814113dbbc714f2b0948717e076ee224aa184",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/9c5814113dbbc714f2b0948717e076ee224aa184"
+    },
+    {
+      "path": "Upload Insecure Files/Jetty RCE/JettyShell.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "769376cabe670b9e165ab457c83f422dc08e3a89",
+      "size": 568,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/769376cabe670b9e165ab457c83f422dc08e3a89"
+    },
+    {
+      "path": "Upload Insecure Files/Picture Compression",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "43299416055d8cc1328df1044701f9621e9dcd74",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/43299416055d8cc1328df1044701f9621e9dcd74"
+    },
+    {
+      "path": "Upload Insecure Files/Picture Compression/GIF_exploit.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67f5d453f425901f92a6cc56e6cb2d5eef220ebb",
+      "size": 7420,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/67f5d453f425901f92a6cc56e6cb2d5eef220ebb"
+    },
+    {
+      "path": "Upload Insecure Files/Picture Compression/JPG_exploit-55.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6955c3a62feba2b5b24305cefc01b4277a05da05",
+      "size": 1139,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/6955c3a62feba2b5b24305cefc01b4277a05da05"
+    },
+    {
+      "path": "Upload Insecure Files/Picture Compression/PNG_110x110_resize_bypass_use_LFI.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0b9ed0dc60f10b94375447952f1af723014c859",
+      "size": 377,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b0b9ed0dc60f10b94375447952f1af723014c859"
+    },
+    {
+      "path": "Upload Insecure Files/Picture Compression/PNG_32x32_resize_bypass_use_LFI.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "845c145f381780c9535fc0a35ea3f236feaf8a2b",
+      "size": 174,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/845c145f381780c9535fc0a35ea3f236feaf8a2b"
+    },
+    {
+      "path": "Upload Insecure Files/Picture Compression/createBulletproofJPG.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3e2bbb553ba390d9da4ed72d231ace34d024465",
+      "size": 4046,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/c3e2bbb553ba390d9da4ed72d231ace34d024465"
+    },
+    {
+      "path": "Upload Insecure Files/Picture Compression/createCompressedPNG_110x110.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95c4180288365bbff455e91b0e683bb63a6fdf28",
+      "size": 1281,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/95c4180288365bbff455e91b0e683bb63a6fdf28"
+    },
+    {
+      "path": "Upload Insecure Files/Picture Compression/createGIFwithGlobalColorTable.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d505461c36e6179cd42890c309374d4a6155dee7",
+      "size": 552,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/d505461c36e6179cd42890c309374d4a6155dee7"
+    },
+    {
+      "path": "Upload Insecure Files/Picture Compression/createPNGwithPLTE.php",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5abcb755159b422ed30c6bca2d7fac4f868bcc5",
+      "size": 640,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/d5abcb755159b422ed30c6bca2d7fac4f868bcc5"
+    },
+    {
+      "path": "Upload Insecure Files/Picture ImageMagick",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "10152ad5ee15a13dd256e6c52eaafadd7a2d2525",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/10152ad5ee15a13dd256e6c52eaafadd7a2d2525"
+    },
+    {
+      "path": "Upload Insecure Files/Picture ImageMagick/convert_local_etc_passwd.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64cb757a52e34add0ef59670c7e9e9884b9dede6",
+      "size": 194,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/64cb757a52e34add0ef59670c7e9e9884b9dede6"
+    },
+    {
+      "path": "Upload Insecure Files/Picture ImageMagick/convert_local_etc_passwd_html.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7981193e087d6e85b9e012da4066266e404f2b14",
+      "size": 194,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/7981193e087d6e85b9e012da4066266e404f2b14"
+    },
+    {
+      "path": "Upload Insecure Files/Picture ImageMagick/ghostscript_rce_curl.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05a276d6ef116c2864a79504e0e273b7bf762ae8",
+      "size": 178,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/05a276d6ef116c2864a79504e0e273b7bf762ae8"
+    },
+    {
+      "path": "Upload Insecure Files/Picture ImageMagick/imagemagick_CVE-2022-44268_convert_etc_passwd.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18c9ddf3b6128e6fe2e22b945cbbf89b5f053583",
+      "size": 99,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/18c9ddf3b6128e6fe2e22b945cbbf89b5f053583"
+    },
+    {
+      "path": "Upload Insecure Files/Picture ImageMagick/imagemagick_ghostscript_cmd_exec.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24669b5159f03efb3234645ee21fcd9756c78de0",
+      "size": 130,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/24669b5159f03efb3234645ee21fcd9756c78de0"
+    },
+    {
+      "path": "Upload Insecure Files/Picture ImageMagick/imagemagik_ghostscript_reverse_shell.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3166619829789f064bb8d23b9c544b00a99d5a85",
+      "size": 191,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/3166619829789f064bb8d23b9c544b00a99d5a85"
+    },
+    {
+      "path": "Upload Insecure Files/Picture ImageMagick/imagetragik1_payload_imageover_file_exfiltration_pangu_wrapper.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81e83f47c78dacaf7966aacbe06bdc6430808b5b",
+      "size": 102,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/81e83f47c78dacaf7966aacbe06bdc6430808b5b"
+    },
+    {
+      "path": "Upload Insecure Files/Picture ImageMagick/imagetragik1_payload_imageover_file_exfiltration_text_wrapper.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f5c97e9a7a4a974ff880a568e023952e3e68718",
+      "size": 100,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/5f5c97e9a7a4a974ff880a568e023952e3e68718"
+    },
+    {
+      "path": "Upload Insecure Files/Picture ImageMagick/imagetragik1_payload_imageover_reverse_shell_devtcp.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7533ffb93f4596cd082728f4b395a2a2275f43c6",
+      "size": 195,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/7533ffb93f4596cd082728f4b395a2a2275f43c6"
+    },
+    {
+      "path": "Upload Insecure Files/Picture ImageMagick/imagetragik1_payload_imageover_reverse_shell_netcat_fifo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afd0d619038b5f241ecc30bd0400f590d4d74465",
+      "size": 253,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/afd0d619038b5f241ecc30bd0400f590d4d74465"
+    },
+    {
+      "path": "Upload Insecure Files/Picture ImageMagick/imagetragik1_payload_imageover_wget.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2dc7ad25a1902d80b3a0c8b60e8726b0bc3faa4",
+      "size": 146,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b2dc7ad25a1902d80b3a0c8b60e8726b0bc3faa4"
+    },
+    {
+      "path": "Upload Insecure Files/Picture ImageMagick/imagetragik1_payload_url_bind_shell_nc.mvg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2fb65d652a4ceaffbe1440f8331606b531126dd",
+      "size": 129,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b2fb65d652a4ceaffbe1440f8331606b531126dd"
+    },
+    {
+      "path": "Upload Insecure Files/Picture ImageMagick/imagetragik1_payload_url_curl.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "633b15b795e3d045f45580a1096b3874c606b0f6",
+      "size": 202,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/633b15b795e3d045f45580a1096b3874c606b0f6"
+    },
+    {
+      "path": "Upload Insecure Files/Picture ImageMagick/imagetragik1_payload_url_portscan.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0735ca9209a9c2f57a1a5b5f4f8015018a3a3893",
+      "size": 96,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/0735ca9209a9c2f57a1a5b5f4f8015018a3a3893"
+    },
+    {
+      "path": "Upload Insecure Files/Picture ImageMagick/imagetragik1_payload_url_remote_connection.mvg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bca419d26494a412712af89f2150cdf5077bd284",
+      "size": 94,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/bca419d26494a412712af89f2150cdf5077bd284"
+    },
+    {
+      "path": "Upload Insecure Files/Picture ImageMagick/imagetragik1_payload_url_reverse_shell_bash.mvg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2664ca68bfe1405188fc79f9a9b1a3c8b7c54c23",
+      "size": 140,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/2664ca68bfe1405188fc79f9a9b1a3c8b7c54c23"
+    },
+    {
+      "path": "Upload Insecure Files/Picture ImageMagick/imagetragik1_payload_url_touch.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78c229822e013d16ba38777ed4838464ae665c00",
+      "size": 113,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/78c229822e013d16ba38777ed4838464ae665c00"
+    },
+    {
+      "path": "Upload Insecure Files/Picture ImageMagick/imagetragik1_payload_xml_reverse_shell_nctraditional.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d0b4c2d275372565756f87172ba9ae4e8fd1f26",
+      "size": 424,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/3d0b4c2d275372565756f87172ba9ae4e8fd1f26"
+    },
+    {
+      "path": "Upload Insecure Files/Picture ImageMagick/imagetragik1_payload_xml_reverse_shell_netcat_encoded.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b31dee12dd70a33374f295c64219873797907c8c",
+      "size": 992,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b31dee12dd70a33374f295c64219873797907c8c"
+    },
+    {
+      "path": "Upload Insecure Files/Picture ImageMagick/imagetragik2_burpcollaborator_passwd.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "358edb6cb62535431dfdcc52eae8b439ca853ce8",
+      "size": 166,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/358edb6cb62535431dfdcc52eae8b439ca853ce8"
+    },
+    {
+      "path": "Upload Insecure Files/Picture ImageMagick/imagetragik2_centos_id.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c01c234b7fcc18a9759eaa3fc4d30653682e9e2",
+      "size": 139,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/0c01c234b7fcc18a9759eaa3fc4d30653682e9e2"
+    },
+    {
+      "path": "Upload Insecure Files/Picture ImageMagick/imagetragik2_ubuntu_id.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e89b57dccff84c7389628199e1939a95df978c32",
+      "size": 175,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/e89b57dccff84c7389628199e1939a95df978c32"
+    },
+    {
+      "path": "Upload Insecure Files/Picture ImageMagick/imagetragik2_ubuntu_shell.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2aed538e6b4c8d3627a664e7c4423742650c2173",
+      "size": 204,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/2aed538e6b4c8d3627a664e7c4423742650c2173"
+    },
+    {
+      "path": "Upload Insecure Files/Picture ImageMagick/imagetragik2_ubuntu_shell2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9fa3581ed9d7309bda2650e4a9a4a683a4f9d0f",
+      "size": 190,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/c9fa3581ed9d7309bda2650e4a9a4a683a4f9d0f"
+    },
+    {
+      "path": "Upload Insecure Files/Picture Metadata",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e6dbfcd8dd2c58e905b2b51fb1106b4dc713f094",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/e6dbfcd8dd2c58e905b2b51fb1106b4dc713f094"
+    },
+    {
+      "path": "Upload Insecure Files/Picture Metadata/Build_image_to_LFI.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bffc312688f30d41836bf132f255386c6c77054b",
+      "size": 982,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/bffc312688f30d41836bf132f255386c6c77054b"
+    },
+    {
+      "path": "Upload Insecure Files/Picture Metadata/CVE-2021-22204_exiftool_echo.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17345471328533dc660101d6ed1faa05a58f5262",
+      "size": 681,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/17345471328533dc660101d6ed1faa05a58f5262"
+    },
+    {
+      "path": "Upload Insecure Files/Picture Metadata/CVE-2021-22204_exiftool_revshell.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eca7e9bef720737144ac315befdabbde540b64bc",
+      "size": 738,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/eca7e9bef720737144ac315befdabbde540b64bc"
+    },
+    {
+      "path": "Upload Insecure Files/Picture Metadata/PHP_exif_phpinfo.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "580cf6f13d15c965edf855037dc1e10c2dd2efa8",
+      "size": 76064,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/580cf6f13d15c965edf855037dc1e10c2dd2efa8"
+    },
+    {
+      "path": "Upload Insecure Files/Picture Metadata/PHP_exif_system.gif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "398d27c40b6ab4c4ef8c2c11031b4ff3a52308d3",
+      "size": 1017546,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/398d27c40b6ab4c4ef8c2c11031b4ff3a52308d3"
+    },
+    {
+      "path": "Upload Insecure Files/Picture Metadata/PHP_exif_system.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "385af5afbb96e27f3db738ce4b304ddd1520845a",
+      "size": 25860,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/385af5afbb96e27f3db738ce4b304ddd1520845a"
+    },
+    {
+      "path": "Upload Insecure Files/Picture Metadata/PHP_exif_system.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edad2632caf8d23f6115ebac2390e1668508aa4f",
+      "size": 116,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/edad2632caf8d23f6115ebac2390e1668508aa4f"
+    },
+    {
+      "path": "Upload Insecure Files/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8c86e45e5eb26d1066c92ce274e85df2d4b6817",
+      "size": 20082,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/c8c86e45e5eb26d1066c92ce274e85df2d4b6817"
+    },
+    {
+      "path": "Upload Insecure Files/Server Side Include",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1d77e45aa8e1b54b43af1aeeac68619b7b71497d",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/1d77e45aa8e1b54b43af1aeeac68619b7b71497d"
+    },
+    {
+      "path": "Upload Insecure Files/Server Side Include/exec.shtml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afaa009ff74a2144d44f19ebe3f91ac24f58aa6c",
+      "size": 26,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/afaa009ff74a2144d44f19ebe3f91ac24f58aa6c"
+    },
+    {
+      "path": "Upload Insecure Files/Server Side Include/include.shtml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7599b929d57bc07bf9b1c6e1678f51e4d6e6cb8",
+      "size": 40,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b7599b929d57bc07bf9b1c6e1678f51e4d6e6cb8"
+    },
+    {
+      "path": "Upload Insecure Files/Server Side Include/index.stm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73111e89915db2ad4d55d517f6fd0735e54f2049",
+      "size": 197,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/73111e89915db2ad4d55d517f6fd0735e54f2049"
+    },
+    {
+      "path": "Virtual Hosts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e2e0778ac2586036304409e80fabbeacb91f5d80",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/e2e0778ac2586036304409e80fabbeacb91f5d80"
+    },
+    {
+      "path": "Virtual Hosts/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57c28de41a141bcb8ff53e5ea453c9380b36c0c3",
+      "size": 3631,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/57c28de41a141bcb8ff53e5ea453c9380b36c0c3"
+    },
+    {
+      "path": "Web Cache Deception",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0350ccf4463179290926e18ea89b2080d521b758",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/0350ccf4463179290926e18ea89b2080d521b758"
+    },
+    {
+      "path": "Web Cache Deception/Images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9d15233fd4afaad3862a94a68989e411905628f3",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/9d15233fd4afaad3862a94a68989e411905628f3"
+    },
+    {
+      "path": "Web Cache Deception/Images/wcd.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56d5c68ab43caef0a14cf539046cf7cbb3e3fbc0",
+      "size": 108232,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/56d5c68ab43caef0a14cf539046cf7cbb3e3fbc0"
+    },
+    {
+      "path": "Web Cache Deception/Intruders",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a2a2f3dfe333a1fc0c11a0976cf37b801f85a865",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/a2a2f3dfe333a1fc0c11a0976cf37b801f85a865"
+    },
+    {
+      "path": "Web Cache Deception/Intruders/param_miner_lowercase_headers.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16f11755e8a3b5e2530d7af22c48b4bd5297a5bb",
+      "size": 17088,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/16f11755e8a3b5e2530d7af22c48b4bd5297a5bb"
+    },
+    {
+      "path": "Web Cache Deception/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b63d696587b001c5842222fe7b96a3e632386cb8",
+      "size": 8574,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b63d696587b001c5842222fe7b96a3e632386cb8"
+    },
+    {
+      "path": "Web Sockets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4f276ce886fa915fafee9e609b5fa29c70009817",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/4f276ce886fa915fafee9e609b5fa29c70009817"
+    },
+    {
+      "path": "Web Sockets/Files",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5e730d624fcef9b9a50ce569bf921f6d67aeab4e",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/5e730d624fcef9b9a50ce569bf921f6d67aeab4e"
+    },
+    {
+      "path": "Web Sockets/Files/ws-harness.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fea6ecafb0e9fa8e1edf3816d1b3facfc31bde5",
+      "size": 2068,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/1fea6ecafb0e9fa8e1edf3816d1b3facfc31bde5"
+    },
+    {
+      "path": "Web Sockets/Images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "27f2ca9e09fd46845678c41c386459e880eb5f98",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/27f2ca9e09fd46845678c41c386459e880eb5f98"
+    },
+    {
+      "path": "Web Sockets/Images/WebsocketHarness.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2657d6e2193cbadb667ae4facfd28d47d049ce6d",
+      "size": 83615,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/2657d6e2193cbadb667ae4facfd28d47d049ce6d"
+    },
+    {
+      "path": "Web Sockets/Images/sqlmap.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12b888cd9ff69c820afda0d217cba74a8d5ac5fc",
+      "size": 95181,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/12b888cd9ff69c820afda0d217cba74a8d5ac5fc"
+    },
+    {
+      "path": "Web Sockets/Images/websocket-harness-start.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22c00811c1dea0ed70303b1981d298d6da0c9c39",
+      "size": 18964,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/22c00811c1dea0ed70303b1981d298d6da0c9c39"
+    },
+    {
+      "path": "Web Sockets/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b3bd0b26bdac24fc3459845960f991cc82ce87f",
+      "size": 8034,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/2b3bd0b26bdac24fc3459845960f991cc82ce87f"
+    },
+    {
+      "path": "XPATH Injection",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fa7e922df27da18c352f0fca3ff905e964f9949d",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/fa7e922df27da18c352f0fca3ff905e964f9949d"
+    },
+    {
+      "path": "XPATH Injection/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "755b2775eb464d194520321dbe6339324f351ee9",
+      "size": 2676,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/755b2775eb464d194520321dbe6339324f351ee9"
+    },
+    {
+      "path": "XS-Leak",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a0b1e564bac6a0e6a5d3eb1bc150843fff861cc6",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/a0b1e564bac6a0e6a5d3eb1bc150843fff861cc6"
+    },
+    {
+      "path": "XS-Leak/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfdd6e303cb2944c79ce2753c93a93b708ca5708",
+      "size": 10636,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/cfdd6e303cb2944c79ce2753c93a93b708ca5708"
+    },
+    {
+      "path": "XSLT Injection",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "987e5e5097ebfcd7ddd2a56c158d8b797a75ea69",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/987e5e5097ebfcd7ddd2a56c158d8b797a75ea69"
+    },
+    {
+      "path": "XSLT Injection/Files",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c5f7410435d4ed97dcbeaaa81e088b888247e741",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/c5f7410435d4ed97dcbeaaa81e088b888247e741"
+    },
+    {
+      "path": "XSLT Injection/Files/enum-system-version-vendor.xsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b22e4ee24ade8daafe185c93e803690955a1d591",
+      "size": 386,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b22e4ee24ade8daafe185c93e803690955a1d591"
+    },
+    {
+      "path": "XSLT Injection/Files/file-write.xsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d181cefa9186d8806e7a366076a76da2999397b1",
+      "size": 366,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/d181cefa9186d8806e7a366076a76da2999397b1"
+    },
+    {
+      "path": "XSLT Injection/Files/rce-dotnet-2.xsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4187c2583c8c1820368a614c7e639cf953f9d6f",
+      "size": 803,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/c4187c2583c8c1820368a614c7e639cf953f9d6f"
+    },
+    {
+      "path": "XSLT Injection/Files/rce-dotnet.xsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed2cb98c88df81b4f00fc7740f951bcee5040477",
+      "size": 736,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/ed2cb98c88df81b4f00fc7740f951bcee5040477"
+    },
+    {
+      "path": "XSLT Injection/Files/rce-java-1.xsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5b7b2640e4ee0a7e212e46e45e0e63f6d3a0689",
+      "size": 510,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/d5b7b2640e4ee0a7e212e46e45e0e63f6d3a0689"
+    },
+    {
+      "path": "XSLT Injection/Files/rce-java-2.xsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b5e526ec0523fc7f10f002947963143c2f97725",
+      "size": 323,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/8b5e526ec0523fc7f10f002947963143c2f97725"
+    },
+    {
+      "path": "XSLT Injection/Files/rce-php-assert.xsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "883616da5fe12ca231e8545cde8864122605014a",
+      "size": 409,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/883616da5fe12ca231e8545cde8864122605014a"
+    },
+    {
+      "path": "XSLT Injection/Files/rce-php-file-create.xsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3437c103f6c92e9eeb49ec97bd76f7b459274d5e",
+      "size": 319,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/3437c103f6c92e9eeb49ec97bd76f7b459274d5e"
+    },
+    {
+      "path": "XSLT Injection/Files/rce-php-file-read.xsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6ab249310b21bfd269c053d3865193cccf9003d",
+      "size": 229,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/e6ab249310b21bfd269c053d3865193cccf9003d"
+    },
+    {
+      "path": "XSLT Injection/Files/rce-php-meterpreter.xsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b5ff4ef5a86223a28244a336a17f4f8359071f3",
+      "size": 375,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/1b5ff4ef5a86223a28244a336a17f4f8359071f3"
+    },
+    {
+      "path": "XSLT Injection/Files/rce-php-scandir.xsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42197cd165c92e329dffe7daa95535bcbbd0ba02",
+      "size": 245,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/42197cd165c92e329dffe7daa95535bcbbd0ba02"
+    },
+    {
+      "path": "XSLT Injection/Files/read-and-ssrf.xsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1cdb53d36772ba2b56ecb69291b47e1ca5d9f4c",
+      "size": 582,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/a1cdb53d36772ba2b56ecb69291b47e1ca5d9f4c"
+    },
+    {
+      "path": "XSLT Injection/Files/system-properties.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9536f0b77871039e11b57caaf1c639ab56ec4635",
+      "size": 112,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/9536f0b77871039e11b57caaf1c639ab56ec4635"
+    },
+    {
+      "path": "XSLT Injection/Files/system-properties.xsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7405fc5539f46a7ee929d3ea83481e76814c041f",
+      "size": 402,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/7405fc5539f46a7ee929d3ea83481e76814c041f"
+    },
+    {
+      "path": "XSLT Injection/Files/xxe.xsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be6319012211f426842705f8e391dc8e6fcdf102",
+      "size": 482,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/be6319012211f426842705f8e391dc8e6fcdf102"
+    },
+    {
+      "path": "XSLT Injection/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "272ba1d2d4ad71e878ab4b8784cee21d989c48ac",
+      "size": 9082,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/272ba1d2d4ad71e878ab4b8784cee21d989c48ac"
+    },
+    {
+      "path": "XSS Injection",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8261405c7a1a9d7a78287385ee66d6aba124685c",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/8261405c7a1a9d7a78287385ee66d6aba124685c"
+    },
+    {
+      "path": "XSS Injection/1 - XSS Filter Bypass.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97df353b03c7771aa0e77f8dc12cb7bba1d5a132",
+      "size": 17767,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/97df353b03c7771aa0e77f8dc12cb7bba1d5a132"
+    },
+    {
+      "path": "XSS Injection/2 - XSS Polyglot.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdee91613ad48af78174fdf35c5f92cd26ac3da0",
+      "size": 4970,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/cdee91613ad48af78174fdf35c5f92cd26ac3da0"
+    },
+    {
+      "path": "XSS Injection/3 - XSS Common WAF Bypass.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d1d4a465c8f051287413c0670c51281711d3049",
+      "size": 3139,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/0d1d4a465c8f051287413c0670c51281711d3049"
+    },
+    {
+      "path": "XSS Injection/4 - CSP Bypass.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79e9306830249a21aa945545585fe5af0c7c257c",
+      "size": 7006,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/79e9306830249a21aa945545585fe5af0c7c257c"
+    },
+    {
+      "path": "XSS Injection/5 - XSS in Angular.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f86ad59bbf9a08bfba0ffe843c80685b2d8901fc",
+      "size": 11346,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/f86ad59bbf9a08bfba0ffe843c80685b2d8901fc"
+    },
+    {
+      "path": "XSS Injection/Files",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "22ad6df33b0413381f1400e323e503476c3527e0",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/22ad6df33b0413381f1400e323e503476c3527e0"
+    },
+    {
+      "path": "XSS Injection/Files/InsecureFlashFile.swf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da8598b8fb015feffb54090af36a0b515d4d8084",
+      "size": 4852,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/da8598b8fb015feffb54090af36a0b515d4d8084"
+    },
+    {
+      "path": "XSS Injection/Files/JupyterNotebookXSS.ipynb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0870b4c8061f03583f68ed8af1017def4335406",
+      "size": 611,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/c0870b4c8061f03583f68ed8af1017def4335406"
+    },
+    {
+      "path": "XSS Injection/Files/SVG_XSS1.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a623c3986905de0f30232c983913fa26f71c82f",
+      "size": 62,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/9a623c3986905de0f30232c983913fa26f71c82f"
+    },
+    {
+      "path": "XSS Injection/Files/SVG_XSS2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bf8ca9c49cf1b4af30d0b6daf2b3ce137643de8",
+      "size": 80,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/8bf8ca9c49cf1b4af30d0b6daf2b3ce137643de8"
+    },
+    {
+      "path": "XSS Injection/Files/SVG_XSS3.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b50b89396b94e2332af13243923cc38089ac6670",
+      "size": 64,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b50b89396b94e2332af13243923cc38089ac6670"
+    },
+    {
+      "path": "XSS Injection/Files/SVG_XSS_green_triangle.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b8329bd0d3d8d38cf24e4b798bca96df3ec51dc",
+      "size": 379,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/1b8329bd0d3d8d38cf24e4b798bca96df3ec51dc"
+    },
+    {
+      "path": "XSS Injection/Files/SVG_XSS_nested_img_xlink.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee16371676a55e133afe83aacdd10b8b18e0be9b",
+      "size": 213,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/ee16371676a55e133afe83aacdd10b8b18e0be9b"
+    },
+    {
+      "path": "XSS Injection/Files/SVG_XSS_nested_svg.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fa7741864b6971755ddeb633d6406e71fba75aa",
+      "size": 413,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/9fa7741864b6971755ddeb633d6406e71fba75aa"
+    },
+    {
+      "path": "XSS Injection/Files/SVG_XSS_nested_use_xlink.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "376d584351bca6ca108b53a19f8a1ca0841e8df0",
+      "size": 196,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/376d584351bca6ca108b53a19f8a1ca0841e8df0"
+    },
+    {
+      "path": "XSS Injection/Files/SVG_XSS_red_lightning.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc542790306c8cf7ef5d088b0cfbf5eb01990f70",
+      "size": 895,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/cc542790306c8cf7ef5d088b0cfbf5eb01990f70"
+    },
+    {
+      "path": "XSS Injection/Files/SWF_XSS.swf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0e7b36ce12df577b2d2a4a4987610596dfced2e",
+      "size": 1053,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/a0e7b36ce12df577b2d2a4a4987610596dfced2e"
+    },
+    {
+      "path": "XSS Injection/Files/mouseover-xss-ecs.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f7053a6a5bb1c95651d450b49be71967d619aab",
+      "size": 1148,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/0f7053a6a5bb1c95651d450b49be71967d619aab"
+    },
+    {
+      "path": "XSS Injection/Files/onclick-xss-ecs.jpeg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccd2d0f6885981b685373173c11a875c8448d0b5",
+      "size": 1123,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/ccd2d0f6885981b685373173c11a875c8448d0b5"
+    },
+    {
+      "path": "XSS Injection/Files/payload_in_all_known_exif_corrupted.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad73a45632f657592b89b84c07769822e619ec94",
+      "size": 32464,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/ad73a45632f657592b89b84c07769822e619ec94"
+    },
+    {
+      "path": "XSS Injection/Files/payload_in_all_known_exif_corrupted.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17b6266c75830e793ec9820b36171a353325ff0f",
+      "size": 45572,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/17b6266c75830e793ec9820b36171a353325ff0f"
+    },
+    {
+      "path": "XSS Injection/Files/payload_in_all_known_metadata.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43d7b6a70859a9a130918bb130ad5321b1e6b20f",
+      "size": 28581,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/43d7b6a70859a9a130918bb130ad5321b1e6b20f"
+    },
+    {
+      "path": "XSS Injection/Files/payload_in_all_known_metadata.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdd55e390fce7ac67c6f38cdd2b89434355ed7b3",
+      "size": 39710,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/fdd55e390fce7ac67c6f38cdd2b89434355ed7b3"
+    },
+    {
+      "path": "XSS Injection/Files/payload_text_xss.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45e17d51f989be2894e5d29af96aa5255fed5d70",
+      "size": 28082,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/45e17d51f989be2894e5d29af96aa5255fed5d70"
+    },
+    {
+      "path": "XSS Injection/Files/xml.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f2094d0a292af63df9ea483dc8cce9159fc777a",
+      "size": 68,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/2f2094d0a292af63df9ea483dc8cce9159fc777a"
+    },
+    {
+      "path": "XSS Injection/Files/xss.cer",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d58a4dc5599f72d44a38f82d29223280a4217d06",
+      "size": 25,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/d58a4dc5599f72d44a38f82d29223280a4217d06"
+    },
+    {
+      "path": "XSS Injection/Files/xss.dtd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f2094d0a292af63df9ea483dc8cce9159fc777a",
+      "size": 68,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/2f2094d0a292af63df9ea483dc8cce9159fc777a"
+    },
+    {
+      "path": "XSS Injection/Files/xss.htm",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d58a4dc5599f72d44a38f82d29223280a4217d06",
+      "size": 25,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/d58a4dc5599f72d44a38f82d29223280a4217d06"
+    },
+    {
+      "path": "XSS Injection/Files/xss.html.demo",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f2094d0a292af63df9ea483dc8cce9159fc777a",
+      "size": 68,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/2f2094d0a292af63df9ea483dc8cce9159fc777a"
+    },
+    {
+      "path": "XSS Injection/Files/xss.hxt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d58a4dc5599f72d44a38f82d29223280a4217d06",
+      "size": 25,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/d58a4dc5599f72d44a38f82d29223280a4217d06"
+    },
+    {
+      "path": "XSS Injection/Files/xss.mno",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18c2fa9216a7fd36b8e99738ebbc1998d4f8c29e",
+      "size": 71,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/18c2fa9216a7fd36b8e99738ebbc1998d4f8c29e"
+    },
+    {
+      "path": "XSS Injection/Files/xss.rdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f2094d0a292af63df9ea483dc8cce9159fc777a",
+      "size": 68,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/2f2094d0a292af63df9ea483dc8cce9159fc777a"
+    },
+    {
+      "path": "XSS Injection/Files/xss.svgz",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f2094d0a292af63df9ea483dc8cce9159fc777a",
+      "size": 68,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/2f2094d0a292af63df9ea483dc8cce9159fc777a"
+    },
+    {
+      "path": "XSS Injection/Files/xss.url.url",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "325158b1a96b0f9afe57ccd849f9547afe52b2fc",
+      "size": 60,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/325158b1a96b0f9afe57ccd849f9547afe52b2fc"
+    },
+    {
+      "path": "XSS Injection/Files/xss.vml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f2094d0a292af63df9ea483dc8cce9159fc777a",
+      "size": 68,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/2f2094d0a292af63df9ea483dc8cce9159fc777a"
+    },
+    {
+      "path": "XSS Injection/Files/xss.wsdl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f2094d0a292af63df9ea483dc8cce9159fc777a",
+      "size": 68,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/2f2094d0a292af63df9ea483dc8cce9159fc777a"
+    },
+    {
+      "path": "XSS Injection/Files/xss.xht",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f2094d0a292af63df9ea483dc8cce9159fc777a",
+      "size": 68,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/2f2094d0a292af63df9ea483dc8cce9159fc777a"
+    },
+    {
+      "path": "XSS Injection/Files/xss.xhtml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f2094d0a292af63df9ea483dc8cce9159fc777a",
+      "size": 68,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/2f2094d0a292af63df9ea483dc8cce9159fc777a"
+    },
+    {
+      "path": "XSS Injection/Files/xss.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b65f614a898fa0b5de815e3e334afa0efdbd14a9",
+      "size": 466,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b65f614a898fa0b5de815e3e334afa0efdbd14a9"
+    },
+    {
+      "path": "XSS Injection/Files/xss.xsd",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f2094d0a292af63df9ea483dc8cce9159fc777a",
+      "size": 68,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/2f2094d0a292af63df9ea483dc8cce9159fc777a"
+    },
+    {
+      "path": "XSS Injection/Files/xss.xsf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f2094d0a292af63df9ea483dc8cce9159fc777a",
+      "size": 68,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/2f2094d0a292af63df9ea483dc8cce9159fc777a"
+    },
+    {
+      "path": "XSS Injection/Files/xss.xsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f2094d0a292af63df9ea483dc8cce9159fc777a",
+      "size": 68,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/2f2094d0a292af63df9ea483dc8cce9159fc777a"
+    },
+    {
+      "path": "XSS Injection/Files/xss.xslt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f2094d0a292af63df9ea483dc8cce9159fc777a",
+      "size": 68,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/2f2094d0a292af63df9ea483dc8cce9159fc777a"
+    },
+    {
+      "path": "XSS Injection/Files/xss_comment_exif_metadata_double_quote.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f2d22efe115818091b17215b843ff878fd4390f",
+      "size": 11780,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/5f2d22efe115818091b17215b843ff878fd4390f"
+    },
+    {
+      "path": "XSS Injection/Files/xss_comment_exif_metadata_single_quote.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d05ae81003a033516f6fa1913056ea83332cad8",
+      "size": 11780,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/3d05ae81003a033516f6fa1913056ea83332cad8"
+    },
+    {
+      "path": "XSS Injection/Images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3b6315d25c5d3e19802f9840a0f8ce2ecb55bbbd",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/3b6315d25c5d3e19802f9840a0f8ce2ecb55bbbd"
+    },
+    {
+      "path": "XSS Injection/Images/DwrkbH1VAAErOI2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fdfa814e0204f179b24aa3f6b790b8b30f2a31e",
+      "size": 29778,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/6fdfa814e0204f179b24aa3f6b790b8b30f2a31e"
+    },
+    {
+      "path": "XSS Injection/Intruders",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0cd938bffc27c2da83544f85ae82ace617be8159",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/0cd938bffc27c2da83544f85ae82ace617be8159"
+    },
+    {
+      "path": "XSS Injection/Intruders/0xcela_event_handlers.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3957dd94ae141b8021566fbc2febe618e14ee1fb",
+      "size": 1192,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/3957dd94ae141b8021566fbc2febe618e14ee1fb"
+    },
+    {
+      "path": "XSS Injection/Intruders/BRUTELOGIC-XSS-JS.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59dedcdfde3b8a83737c940ca143a41bffa48497",
+      "size": 378,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/59dedcdfde3b8a83737c940ca143a41bffa48497"
+    },
+    {
+      "path": "XSS Injection/Intruders/BRUTELOGIC-XSS-STRINGS.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d7388631f64f847197a2301414a8ac8ad690fc2",
+      "size": 4006,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/2d7388631f64f847197a2301414a8ac8ad690fc2"
+    },
+    {
+      "path": "XSS Injection/Intruders/IntrudersXSS.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7e741fa5bbcc43528f36984cef94ea9489b459d",
+      "size": 11751,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b7e741fa5bbcc43528f36984cef94ea9489b459d"
+    },
+    {
+      "path": "XSS Injection/Intruders/JHADDIX_XSS.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2032af8e05ab1a67881c4923e88c38fd09bb272",
+      "size": 19076,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/f2032af8e05ab1a67881c4923e88c38fd09bb272"
+    },
+    {
+      "path": "XSS Injection/Intruders/MarioXSSVectors.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21a85ee388c3f94c28e152eeb68537dd7b34bf66",
+      "size": 22876,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/21a85ee388c3f94c28e152eeb68537dd7b34bf66"
+    },
+    {
+      "path": "XSS Injection/Intruders/RSNAKE_XSS.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66f87a1e61a8a5eec1b8e900a7629a069986c92f",
+      "size": 4185,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/66f87a1e61a8a5eec1b8e900a7629a069986c92f"
+    },
+    {
+      "path": "XSS Injection/Intruders/XSSDetection.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0633431c2d49412108813cb02b541a63346249b",
+      "size": 8119,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/f0633431c2d49412108813cb02b541a63346249b"
+    },
+    {
+      "path": "XSS Injection/Intruders/XSS_Polyglots.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d92c85f4e94c98491a136321c5dbbf1e929e3e7",
+      "size": 1938,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/8d92c85f4e94c98491a136321c5dbbf1e929e3e7"
+    },
+    {
+      "path": "XSS Injection/Intruders/jsonp_endpoint.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12add2427e04cf9d9bf003ad4d5195e6eab8a694",
+      "size": 5818,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/12add2427e04cf9d9bf003ad4d5195e6eab8a694"
+    },
+    {
+      "path": "XSS Injection/Intruders/port_swigger_xss_cheatsheet_event_handlers.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67ee239accf65f5cf14a337d0950ed78c45abd0d",
+      "size": 1402,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/67ee239accf65f5cf14a337d0950ed78c45abd0d"
+    },
+    {
+      "path": "XSS Injection/Intruders/xss_alert.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fdbaff9de7166f4cf1085633195270f7e8dc763",
+      "size": 46709,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/4fdbaff9de7166f4cf1085633195270f7e8dc763"
+    },
+    {
+      "path": "XSS Injection/Intruders/xss_alert_identifiable.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70a34aba147bd003fcd0cd5c76cf59e99857d9ff",
+      "size": 47413,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/70a34aba147bd003fcd0cd5c76cf59e99857d9ff"
+    },
+    {
+      "path": "XSS Injection/Intruders/xss_payloads_quick.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3433ea735b0f1b0f67e42962f3fa9ef01b3272a6",
+      "size": 1512,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/3433ea735b0f1b0f67e42962f3fa9ef01b3272a6"
+    },
+    {
+      "path": "XSS Injection/Intruders/xss_swf_fuzz.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83b1c685cbd57264b178f2cff6113fe06a06689f",
+      "size": 813,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/83b1c685cbd57264b178f2cff6113fe06a06689f"
+    },
+    {
+      "path": "XSS Injection/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "737675e2ee26e7ee20a02387a106261fddb5e642",
+      "size": 29528,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/737675e2ee26e7ee20a02387a106261fddb5e642"
+    },
+    {
+      "path": "XXE Injection",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0a0d51e10d455d5f4db5cbb3d9613e9aa231f89a",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/0a0d51e10d455d5f4db5cbb3d9613e9aa231f89a"
+    },
+    {
+      "path": "XXE Injection/Files",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d6615b98fc0556d6e3b947b210b2bc66866adea1",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/d6615b98fc0556d6e3b947b210b2bc66866adea1"
+    },
+    {
+      "path": "XXE Injection/Files/Classic XXE - etc passwd.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e307b9aa1c2d0acd4ab07089f39c1cc93ee2e07",
+      "size": 128,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/0e307b9aa1c2d0acd4ab07089f39c1cc93ee2e07"
+    },
+    {
+      "path": "XXE Injection/Files/Classic XXE B64 Encoded.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4acbac18f45169a6f0df702283e92a87c8eb470d",
+      "size": 109,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/4acbac18f45169a6f0df702283e92a87c8eb470d"
+    },
+    {
+      "path": "XXE Injection/Files/Classic XXE.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02f0b27e452acc5c1728ddf0f35f2072e38b2fc5",
+      "size": 137,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/02f0b27e452acc5c1728ddf0f35f2072e38b2fc5"
+    },
+    {
+      "path": "XXE Injection/Files/Deny Of Service - Billion Laugh Attack",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4f219967fdede55e1ee227b83eb2fed0c8b91a3",
+      "size": 281,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/e4f219967fdede55e1ee227b83eb2fed0c8b91a3"
+    },
+    {
+      "path": "XXE Injection/Files/XXE OOB Attack (Yunusov, 2013).xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d36bca6abd5502b5d8643545033d58a0581c7633",
+      "size": 361,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/d36bca6abd5502b5d8643545033d58a0581c7633"
+    },
+    {
+      "path": "XXE Injection/Files/XXE PHP Wrapper.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b345aeeb268a41652a169b75497ef1f4f4fb9cf7",
+      "size": 305,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/b345aeeb268a41652a169b75497ef1f4f4fb9cf7"
+    },
+    {
+      "path": "XXE Injection/Intruders",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b001400e3ad0d183f95cca7458c37f189f1bf37e",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/b001400e3ad0d183f95cca7458c37f189f1bf37e"
+    },
+    {
+      "path": "XXE Injection/Intruders/XXE_Fuzzing.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c3340c3c25b282d51d4a06aac2bf5ead26bb5f5",
+      "size": 4493,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/8c3340c3c25b282d51d4a06aac2bf5ead26bb5f5"
+    },
+    {
+      "path": "XXE Injection/Intruders/xml-attacks.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7269bdc4d42c77a4179c4a7e420d8c086c51827",
+      "size": 7959,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/e7269bdc4d42c77a4179c4a7e420d8c086c51827"
+    },
+    {
+      "path": "XXE Injection/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cebf24ce2d80a36ea45cf3f055c2233c796a1eb",
+      "size": 28824,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/4cebf24ce2d80a36ea45cf3f055c2233c796a1eb"
+    },
+    {
+      "path": "Zip Slip",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "23f08796bdd3ccb93789545ccfe26ef7e48eb704",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/23f08796bdd3ccb93789545ccfe26ef7e48eb704"
+    },
+    {
+      "path": "Zip Slip/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11fcfb07793b18a1c33636ef12cfe4e8102281e6",
+      "size": 2420,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/11fcfb07793b18a1c33636ef12cfe4e8102281e6"
+    },
+    {
+      "path": "_LEARNING_AND_SOCIALS",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a5aa87dc5f8fd2a1a802bc142f1656bfd11b2f72",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/a5aa87dc5f8fd2a1a802bc142f1656bfd11b2f72"
+    },
+    {
+      "path": "_LEARNING_AND_SOCIALS/BOOKS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8ff0790353a252f7e2235542585d33d59c2b1cd",
+      "size": 6505,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/f8ff0790353a252f7e2235542585d33d59c2b1cd"
+    },
+    {
+      "path": "_LEARNING_AND_SOCIALS/TWITTER.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d16adbd87b1effe31684cfa724d6beb6fac56381",
+      "size": 3064,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/d16adbd87b1effe31684cfa724d6beb6fac56381"
+    },
+    {
+      "path": "_LEARNING_AND_SOCIALS/YOUTUBE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fea856c175308df6368897f9753cae34692bbc7",
+      "size": 4394,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/7fea856c175308df6368897f9753cae34692bbc7"
+    },
+    {
+      "path": "_template_vuln",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "72b5884c89ee6f8e5e867dda7d37432f8aef5659",
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/trees/72b5884c89ee6f8e5e867dda7d37432f8aef5659"
+    },
+    {
+      "path": "_template_vuln/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de0c58735969280af5228f34761f1fcf602b295b",
+      "size": 783,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/de0c58735969280af5228f34761f1fcf602b295b"
+    },
+    {
+      "path": "custom.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b41ff527a1bc24fd2338f55dc38694c4a2397f7",
+      "size": 476,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/3b41ff527a1bc24fd2338f55dc38694c4a2397f7"
+    },
+    {
+      "path": "mkdocs.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68a08c663a6cccc796f5b87b6b1e328f646fbb35",
+      "size": 1755,
+      "url": "https://api.github.com/repos/swisskyrepo/PayloadsAllTheThings/git/blobs/68a08c663a6cccc796f5b87b6b1e328f646fbb35"
+    }
+  ],
+  "truncated": false
+}
