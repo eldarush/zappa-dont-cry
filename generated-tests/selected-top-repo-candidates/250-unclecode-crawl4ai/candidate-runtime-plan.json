@@ -1,0 +1,71 @@
+{
+    "schema_version":  1,
+    "repository":  "unclecode/crawl4ai",
+    "rank":  250,
+    "status":  "candidate_runtime_plan_blocked",
+    "promotion_state":  "blocked",
+    "lifecycle_owner":  "external_harness_not_qaas_yaml",
+    "command_support":  "candidate-executable-command",
+    "public_command":  "docker run -d -p 11235:11235 --name crawl4ai --shm-size=1g unclecode/crawl4ai:latest",
+    "pull_command":  "docker pull unclecode/crawl4ai:latest",
+    "safe_test_command_template":  "docker run -d -p 127.0.0.1:11235:11235 --name zappa-crawl4ai-health-{run_id} --shm-size=1g unclecode/crawl4ai:latest",
+    "image":  "unclecode/crawl4ai:latest",
+    "container_name_policy":  "unique_test_owned_name_required",
+    "expected_listen_url":  "http://127.0.0.1:11235",
+    "readiness_probe":  {
+                            "method":  "GET",
+                            "url":  "http://127.0.0.1:11235/health",
+                            "expected_status_semantics":  "http_status_less_than_400",
+                            "maximum_exclusive_status_code":  400,
+                            "expected_body":  "unasserted_no_public_body_contract"
+                        },
+    "cleanup":  {
+                    "required":  true,
+                    "strategy":  "docker_rm_force_test_owned_unique_container",
+                    "must_not_remove_container_name":  "crawl4ai",
+                    "status":  "not_validated"
+                },
+    "resource_safety":  {
+                            "shm_size":  "1g",
+                            "compose_memory_limit":  "4G",
+                            "compose_memory_reservation":  "1G",
+                            "exposes_redis_port_in_image":  6379,
+                            "requires_live_container_safety_plan":  true
+                        },
+    "blocked_endpoints":  [
+                              {
+                                  "route":  "/crawl",
+                                  "reason":  "README example branches between synchronous results and task_id polling; no deterministic response body contract is selected."
+                              }
+                          ],
+    "blockers":  [
+                     "prove_docker_lifecycle_and_cleanup_without_deleting_user_container",
+                     "build_and_template_validate_http_status_below_400_assertion",
+                     "run_qaaS_template_validation",
+                     "run_live_qaaS_act_assert_validation",
+                     "run_live_airgapped_weak_model_validation",
+                     "run_strong_review_against_selected_contract_evidence"
+                 ],
+    "public_evidence":  [
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\selected-contract.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\repo-contract.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\README.snapshot.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\tree.snapshot.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\pyproject.toml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\company_card.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\people_card.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\.github\\workflows\\docker-release.yml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\pyproject.toml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\company_card.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\people_card.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\.github\\workflows\\docker-release.yml"
+                        ]
+}

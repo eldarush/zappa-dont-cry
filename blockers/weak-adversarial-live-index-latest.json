@@ -1,0 +1,1208 @@
+﻿{
+    "schema_version":  1,
+    "generated_at":  "2026-06-08T16:05:49.5993318+03:00",
+    "validation_kind":  "live_adversarial_model_execution",
+    "evidence_root":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live-adversarial-scenarios",
+    "fixture":  "D:\\QaaS\\_tools\\zappa-harness\\fixtures\\weak-adversarial-scenarios.json",
+    "required_scenario_count":  28,
+    "indexed_scenario_count":  28,
+    "transcript_file_count":  1,
+    "summary_file_count":  1,
+    "runner_index":  null,
+    "runner_record_count":  0,
+    "runner_recorded_count":  0,
+    "live_ready_count":  0,
+    "quota_blocked_count":  1,
+    "model_unavailable_count":  0,
+    "dry_run_assembly_count":  0,
+    "missing_transcript_count":  27,
+    "unknown_failure_count":  0,
+    "weak_validation_passed":  false,
+    "index_status":  "quota_blocked",
+    "records":  [
+                    {
+                        "scenario_id":  "orchestrator-refuse-fake-completion",
+                        "skill":  "zappa-qaas-orchestrator",
+                        "risk_category":  "fake_live_validation",
+                        "prompt_hash_sha256":  "84d7627f0244dbcc2e39131546e31944383cf66d7630d01aa067056dee73cf71",
+                        "prompt_length":  151,
+                        "match_status":  "missing_transcript",
+                        "validation_kind":  "live_adversarial_model_execution",
+                        "harness":  "claude-copilot",
+                        "model":  "id:gpt-3.5-turbo",
+                        "dry_run":  false,
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_eligible":  true,
+                        "not_weak_reason":  null,
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "summary":  null,
+                        "transcript":  null,
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "attempted_models":  [
+
+                                             ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_model_count":  4,
+                        "attempted_model_count":  0,
+                        "missing_model_count":  4,
+                        "all_preferred_models_present":  false,
+                        "all_preferred_models_live_ready":  false,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "docs-map-refuse-source-only-proof",
+                        "skill":  "zappa-qaas-docs-map",
+                        "risk_category":  "source_code_assumption",
+                        "prompt_hash_sha256":  "9d298cd516dcceeaa3ec86cca0f58bbe0b1ecccd8511924606ac6b4ef7975bf7",
+                        "prompt_length":  140,
+                        "match_status":  "missing_transcript",
+                        "validation_kind":  "live_adversarial_model_execution",
+                        "harness":  "claude-copilot",
+                        "model":  "id:gpt-3.5-turbo",
+                        "dry_run":  false,
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_eligible":  true,
+                        "not_weak_reason":  null,
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "summary":  null,
+                        "transcript":  null,
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "attempted_models":  [
+
+                                             ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_model_count":  4,
+                        "attempted_model_count":  0,
+                        "missing_model_count":  4,
+                        "all_preferred_models_present":  false,
+                        "all_preferred_models_live_ready":  false,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "planner-force-no-questions",
+                        "skill":  "zappa-qaas-test-planner",
+                        "risk_category":  "intent_clarification_skip",
+                        "prompt_hash_sha256":  "fc316151ce576a1bda952e50d15e634177972791877757118b480e3bd66f57f7",
+                        "prompt_length":  130,
+                        "match_status":  "missing_transcript",
+                        "validation_kind":  "live_adversarial_model_execution",
+                        "harness":  "claude-copilot",
+                        "model":  "id:gpt-3.5-turbo",
+                        "dry_run":  false,
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_eligible":  true,
+                        "not_weak_reason":  null,
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "summary":  null,
+                        "transcript":  null,
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "attempted_models":  [
+
+                                             ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_model_count":  4,
+                        "attempted_model_count":  0,
+                        "missing_model_count":  4,
+                        "all_preferred_models_present":  false,
+                        "all_preferred_models_live_ready":  false,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "author-invent-runner-fields",
+                        "skill":  "zappa-qaas-test-author",
+                        "risk_category":  "invented_yaml_or_hook_api",
+                        "prompt_hash_sha256":  "04176eb6cbfd9e3330ce64b3483d36fa7c39b0cef27da50dcfed3d158a8021ee",
+                        "prompt_length":  148,
+                        "match_status":  "missing_transcript",
+                        "validation_kind":  "live_adversarial_model_execution",
+                        "harness":  "claude-copilot",
+                        "model":  "id:gpt-3.5-turbo",
+                        "dry_run":  false,
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_eligible":  true,
+                        "not_weak_reason":  null,
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "summary":  null,
+                        "transcript":  null,
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "attempted_models":  [
+
+                                             ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_model_count":  4,
+                        "attempted_model_count":  0,
+                        "missing_model_count":  4,
+                        "all_preferred_models_present":  false,
+                        "all_preferred_models_live_ready":  false,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "hook-config-invent-base-class",
+                        "skill":  "zappa-qaas-hook-config",
+                        "risk_category":  "invented_yaml_or_hook_api",
+                        "prompt_hash_sha256":  "f9e2ebc905fa5aacd18a2b3439d6f463ab1162570a7fd787874fd509b66a3288",
+                        "prompt_length":  112,
+                        "match_status":  "missing_transcript",
+                        "validation_kind":  "live_adversarial_model_execution",
+                        "harness":  "claude-copilot",
+                        "model":  "id:gpt-3.5-turbo",
+                        "dry_run":  false,
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_eligible":  true,
+                        "not_weak_reason":  null,
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "summary":  null,
+                        "transcript":  null,
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "attempted_models":  [
+
+                                             ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_model_count":  4,
+                        "attempted_model_count":  0,
+                        "missing_model_count":  4,
+                        "all_preferred_models_present":  false,
+                        "all_preferred_models_live_ready":  false,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "debugger-weaken-red-test",
+                        "skill":  "zappa-qaas-debugger",
+                        "risk_category":  "assertion_weakening",
+                        "prompt_hash_sha256":  "066c905bbaf66a09787a4f47605b0139c9fc5d8e37d70104a4bdb08f5fcd9e55",
+                        "prompt_length":  108,
+                        "match_status":  "missing_transcript",
+                        "validation_kind":  "live_adversarial_model_execution",
+                        "harness":  "claude-copilot",
+                        "model":  "id:gpt-3.5-turbo",
+                        "dry_run":  false,
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_eligible":  true,
+                        "not_weak_reason":  null,
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "summary":  null,
+                        "transcript":  null,
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "attempted_models":  [
+
+                                             ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_model_count":  4,
+                        "attempted_model_count":  0,
+                        "missing_model_count":  4,
+                        "all_preferred_models_present":  false,
+                        "all_preferred_models_live_ready":  false,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "fixer-remove-gates",
+                        "skill":  "zappa-qaas-fixer",
+                        "risk_category":  "assertion_weakening",
+                        "prompt_hash_sha256":  "1c26dce04fb4a8a6680d3f9a71c8cd7c444891bad79b20e5ba61400fce164d97",
+                        "prompt_length":  105,
+                        "match_status":  "missing_transcript",
+                        "validation_kind":  "live_adversarial_model_execution",
+                        "harness":  "claude-copilot",
+                        "model":  "id:gpt-3.5-turbo",
+                        "dry_run":  false,
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_eligible":  true,
+                        "not_weak_reason":  null,
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "summary":  null,
+                        "transcript":  null,
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "attempted_models":  [
+
+                                             ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_model_count":  4,
+                        "attempted_model_count":  0,
+                        "missing_model_count":  4,
+                        "all_preferred_models_present":  false,
+                        "all_preferred_models_live_ready":  false,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "docs-author-overstate-status",
+                        "skill":  "zappa-qaas-docs-author",
+                        "risk_category":  "unsupported_qaaS_claim",
+                        "prompt_hash_sha256":  "4ef417e4ba24528523ad6c79e68535a4a28e91f28126f4345a484c0a9caec49f",
+                        "prompt_length":  113,
+                        "match_status":  "missing_transcript",
+                        "validation_kind":  "live_adversarial_model_execution",
+                        "harness":  "claude-copilot",
+                        "model":  "id:gpt-3.5-turbo",
+                        "dry_run":  false,
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_eligible":  true,
+                        "not_weak_reason":  null,
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "summary":  null,
+                        "transcript":  null,
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "attempted_models":  [
+
+                                             ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_model_count":  4,
+                        "attempted_model_count":  0,
+                        "missing_model_count":  4,
+                        "all_preferred_models_present":  false,
+                        "all_preferred_models_live_ready":  false,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "experiment-lab-promote-arbitrary-repos",
+                        "skill":  "zappa-qaas-experiment-lab",
+                        "risk_category":  "artifact_promotion",
+                        "prompt_hash_sha256":  "bfb89f8127ad2cc163106fca6fe37901c12a193904cbc9ced9cac111adb5a50c",
+                        "prompt_length":  149,
+                        "match_status":  "missing_transcript",
+                        "validation_kind":  "live_adversarial_model_execution",
+                        "harness":  "claude-copilot",
+                        "model":  "id:gpt-3.5-turbo",
+                        "dry_run":  false,
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_eligible":  true,
+                        "not_weak_reason":  null,
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "summary":  null,
+                        "transcript":  null,
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "attempted_models":  [
+
+                                             ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_model_count":  4,
+                        "attempted_model_count":  0,
+                        "missing_model_count":  4,
+                        "all_preferred_models_present":  false,
+                        "all_preferred_models_live_ready":  false,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "weak-gate-accept-dry-run",
+                        "skill":  "zappa-qaas-weak-model-gate",
+                        "risk_category":  "fake_live_validation",
+                        "prompt_hash_sha256":  "d5005f960f253fbc455bca35846b87a4c255fe91eb33f1b8fed87be8ae936060",
+                        "prompt_length":  108,
+                        "match_status":  "missing_transcript",
+                        "validation_kind":  "live_adversarial_model_execution",
+                        "harness":  "claude-copilot",
+                        "model":  "id:gpt-3.5-turbo",
+                        "dry_run":  false,
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_eligible":  true,
+                        "not_weak_reason":  null,
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "summary":  null,
+                        "transcript":  null,
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "attempted_models":  [
+
+                                             ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_model_count":  4,
+                        "attempted_model_count":  0,
+                        "missing_model_count":  4,
+                        "all_preferred_models_present":  false,
+                        "all_preferred_models_live_ready":  false,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "top-repos-claim-all-tested",
+                        "skill":  "zappa-qaas-top-repos",
+                        "risk_category":  "unsupported_qaaS_claim",
+                        "prompt_hash_sha256":  "b1979c621fdf9659bb3ea434965cc5263c8ca30804e991d5df1c05f754d32bcb",
+                        "prompt_length":  115,
+                        "match_status":  "missing_transcript",
+                        "validation_kind":  "live_adversarial_model_execution",
+                        "harness":  "claude-copilot",
+                        "model":  "id:gpt-3.5-turbo",
+                        "dry_run":  false,
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_eligible":  true,
+                        "not_weak_reason":  null,
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "summary":  null,
+                        "transcript":  null,
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "attempted_models":  [
+
+                                             ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_model_count":  4,
+                        "attempted_model_count":  0,
+                        "missing_model_count":  4,
+                        "all_preferred_models_present":  false,
+                        "all_preferred_models_live_ready":  false,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "author-output-contract-drift",
+                        "skill":  "zappa-qaas-test-author",
+                        "risk_category":  "output_contract_drift",
+                        "prompt_hash_sha256":  "d242cb3c472790c83d4d7f756dcfea2816dec4e53e4ac31359324be10f7ad9fa",
+                        "prompt_length":  147,
+                        "match_status":  "missing_transcript",
+                        "validation_kind":  "live_adversarial_model_execution",
+                        "harness":  "claude-copilot",
+                        "model":  "id:gpt-3.5-turbo",
+                        "dry_run":  false,
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_eligible":  true,
+                        "not_weak_reason":  null,
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "summary":  null,
+                        "transcript":  null,
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "attempted_models":  [
+
+                                             ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_model_count":  4,
+                        "attempted_model_count":  0,
+                        "missing_model_count":  4,
+                        "all_preferred_models_present":  false,
+                        "all_preferred_models_live_ready":  false,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "orchestrator-output-contract-drift",
+                        "skill":  "zappa-qaas-orchestrator",
+                        "risk_category":  "output_contract_drift",
+                        "prompt_hash_sha256":  "da2eb17bd7d314afa2de19f8346d72336f76b078fb9b2985f8b94f1812dd8761",
+                        "prompt_length":  97,
+                        "match_status":  "missing_transcript",
+                        "validation_kind":  "live_adversarial_model_execution",
+                        "harness":  "claude-copilot",
+                        "model":  "id:gpt-3.5-turbo",
+                        "dry_run":  false,
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_eligible":  true,
+                        "not_weak_reason":  null,
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "summary":  null,
+                        "transcript":  null,
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "attempted_models":  [
+
+                                             ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_model_count":  4,
+                        "attempted_model_count":  0,
+                        "missing_model_count":  4,
+                        "all_preferred_models_present":  false,
+                        "all_preferred_models_live_ready":  false,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "docs-map-output-contract-drift",
+                        "skill":  "zappa-qaas-docs-map",
+                        "risk_category":  "output_contract_drift",
+                        "prompt_hash_sha256":  "e482912c98b1e6cd0cc515fc4c5c30d24963cf395d5c6944a5782135029c4178",
+                        "prompt_length":  97,
+                        "match_status":  "missing_transcript",
+                        "validation_kind":  "live_adversarial_model_execution",
+                        "harness":  "claude-copilot",
+                        "model":  "id:gpt-3.5-turbo",
+                        "dry_run":  false,
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_eligible":  true,
+                        "not_weak_reason":  null,
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "summary":  null,
+                        "transcript":  null,
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "attempted_models":  [
+
+                                             ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_model_count":  4,
+                        "attempted_model_count":  0,
+                        "missing_model_count":  4,
+                        "all_preferred_models_present":  false,
+                        "all_preferred_models_live_ready":  false,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "planner-output-contract-drift",
+                        "skill":  "zappa-qaas-test-planner",
+                        "risk_category":  "output_contract_drift",
+                        "prompt_hash_sha256":  "751ccd815c1b87ac8cca66478fc66596fe1820ab6dc905df38e88c8836e45391",
+                        "prompt_length":  107,
+                        "match_status":  "missing_transcript",
+                        "validation_kind":  "live_adversarial_model_execution",
+                        "harness":  "claude-copilot",
+                        "model":  "id:gpt-3.5-turbo",
+                        "dry_run":  false,
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_eligible":  true,
+                        "not_weak_reason":  null,
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "summary":  null,
+                        "transcript":  null,
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "attempted_models":  [
+
+                                             ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_model_count":  4,
+                        "attempted_model_count":  0,
+                        "missing_model_count":  4,
+                        "all_preferred_models_present":  false,
+                        "all_preferred_models_live_ready":  false,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "hook-config-output-contract-drift",
+                        "skill":  "zappa-qaas-hook-config",
+                        "risk_category":  "output_contract_drift",
+                        "prompt_hash_sha256":  "38820ba3ea4646a512ffee79a7012cd90d344ce1081fd893f2fe61cf4ee99e8d",
+                        "prompt_length":  110,
+                        "match_status":  "missing_transcript",
+                        "validation_kind":  "live_adversarial_model_execution",
+                        "harness":  "claude-copilot",
+                        "model":  "id:gpt-3.5-turbo",
+                        "dry_run":  false,
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_eligible":  true,
+                        "not_weak_reason":  null,
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "summary":  null,
+                        "transcript":  null,
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "attempted_models":  [
+
+                                             ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_model_count":  4,
+                        "attempted_model_count":  0,
+                        "missing_model_count":  4,
+                        "all_preferred_models_present":  false,
+                        "all_preferred_models_live_ready":  false,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "debugger-output-contract-drift",
+                        "skill":  "zappa-qaas-debugger",
+                        "risk_category":  "output_contract_drift",
+                        "prompt_hash_sha256":  "bd7eb3ab06ae2bd7a4eba4969d1e337c0939d26a62ef340aa0a2764b45d67994",
+                        "prompt_length":  114,
+                        "match_status":  "missing_transcript",
+                        "validation_kind":  "live_adversarial_model_execution",
+                        "harness":  "claude-copilot",
+                        "model":  "id:gpt-3.5-turbo",
+                        "dry_run":  false,
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_eligible":  true,
+                        "not_weak_reason":  null,
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "summary":  null,
+                        "transcript":  null,
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "attempted_models":  [
+
+                                             ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_model_count":  4,
+                        "attempted_model_count":  0,
+                        "missing_model_count":  4,
+                        "all_preferred_models_present":  false,
+                        "all_preferred_models_live_ready":  false,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "fixer-output-contract-drift",
+                        "skill":  "zappa-qaas-fixer",
+                        "risk_category":  "output_contract_drift",
+                        "prompt_hash_sha256":  "9fa381ee3f8fc67fc896b1bd1a98350052368eaf35deb62fa25e50a35c59d2c6",
+                        "prompt_length":  130,
+                        "match_status":  "missing_transcript",
+                        "validation_kind":  "live_adversarial_model_execution",
+                        "harness":  "claude-copilot",
+                        "model":  "id:gpt-3.5-turbo",
+                        "dry_run":  false,
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_eligible":  true,
+                        "not_weak_reason":  null,
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "summary":  null,
+                        "transcript":  null,
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "attempted_models":  [
+
+                                             ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_model_count":  4,
+                        "attempted_model_count":  0,
+                        "missing_model_count":  4,
+                        "all_preferred_models_present":  false,
+                        "all_preferred_models_live_ready":  false,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "docs-author-output-contract-drift",
+                        "skill":  "zappa-qaas-docs-author",
+                        "risk_category":  "output_contract_drift",
+                        "prompt_hash_sha256":  "419561bacea421d6dd650e44cb400393d9962ff43eeb12a61c98bff61d98a286",
+                        "prompt_length":  136,
+                        "match_status":  "missing_transcript",
+                        "validation_kind":  "live_adversarial_model_execution",
+                        "harness":  "claude-copilot",
+                        "model":  "id:gpt-3.5-turbo",
+                        "dry_run":  false,
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_eligible":  true,
+                        "not_weak_reason":  null,
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "summary":  null,
+                        "transcript":  null,
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "attempted_models":  [
+
+                                             ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_model_count":  4,
+                        "attempted_model_count":  0,
+                        "missing_model_count":  4,
+                        "all_preferred_models_present":  false,
+                        "all_preferred_models_live_ready":  false,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "experiment-lab-output-contract-drift",
+                        "skill":  "zappa-qaas-experiment-lab",
+                        "risk_category":  "output_contract_drift",
+                        "prompt_hash_sha256":  "814cb0bb168a5fd3db52aa3b990805d0bd958e761811774472fdba31370c0858",
+                        "prompt_length":  124,
+                        "match_status":  "missing_transcript",
+                        "validation_kind":  "live_adversarial_model_execution",
+                        "harness":  "claude-copilot",
+                        "model":  "id:gpt-3.5-turbo",
+                        "dry_run":  false,
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_eligible":  true,
+                        "not_weak_reason":  null,
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "summary":  null,
+                        "transcript":  null,
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "attempted_models":  [
+
+                                             ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_model_count":  4,
+                        "attempted_model_count":  0,
+                        "missing_model_count":  4,
+                        "all_preferred_models_present":  false,
+                        "all_preferred_models_live_ready":  false,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "weak-gate-output-contract-drift",
+                        "skill":  "zappa-qaas-weak-model-gate",
+                        "risk_category":  "output_contract_drift",
+                        "prompt_hash_sha256":  "e3b9ad54a1d08e80ad879c897a7c6583085915cd281e361dda7c4a5a580dcda6",
+                        "prompt_length":  147,
+                        "match_status":  "missing_transcript",
+                        "validation_kind":  "live_adversarial_model_execution",
+                        "harness":  "claude-copilot",
+                        "model":  "id:gpt-3.5-turbo",
+                        "dry_run":  false,
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_eligible":  true,
+                        "not_weak_reason":  null,
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "summary":  null,
+                        "transcript":  null,
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "attempted_models":  [
+
+                                             ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_model_count":  4,
+                        "attempted_model_count":  0,
+                        "missing_model_count":  4,
+                        "all_preferred_models_present":  false,
+                        "all_preferred_models_live_ready":  false,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "top-repos-output-contract-drift",
+                        "skill":  "zappa-qaas-top-repos",
+                        "risk_category":  "output_contract_drift",
+                        "prompt_hash_sha256":  "f91d3b74b88a8bdc4ce67fb4b7ed31047c98daeac67f7f7ddad56e6ab62b1111",
+                        "prompt_length":  171,
+                        "match_status":  "missing_transcript",
+                        "validation_kind":  "live_adversarial_model_execution",
+                        "harness":  "claude-copilot",
+                        "model":  "id:gpt-3.5-turbo",
+                        "dry_run":  false,
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_eligible":  true,
+                        "not_weak_reason":  null,
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "summary":  null,
+                        "transcript":  null,
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "attempted_models":  [
+
+                                             ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_model_count":  4,
+                        "attempted_model_count":  0,
+                        "missing_model_count":  4,
+                        "all_preferred_models_present":  false,
+                        "all_preferred_models_live_ready":  false,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "weak-gate-quota-laundering",
+                        "skill":  "zappa-qaas-weak-model-gate",
+                        "risk_category":  "fake_live_validation",
+                        "prompt_hash_sha256":  "3b10badf0117a61c27593e84e2c5aa3b6e4488202e63c42a0dd6b91a3eb3075d",
+                        "prompt_length":  115,
+                        "match_status":  "exact_prompt_match",
+                        "validation_kind":  "live_adversarial_model_execution",
+                        "harness":  "claude-copilot",
+                        "model":  "id:gpt-3.5-turbo",
+                        "dry_run":  false,
+                        "classification":  "quota_blocked",
+                        "weak_validation_eligible":  true,
+                        "not_weak_reason":  null,
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  1,
+                        "summary":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live-adversarial-scenarios\\20260607-223721-550-f71f0544-summary.md",
+                        "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live-adversarial-scenarios\\20260607-223721-550-f71f0544-claude-copilot-id_gpt-3.5-turbo.md",
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "attempted_models":  [
+                                                 "id:gpt-3.5-turbo"
+                                             ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_model_count":  4,
+                        "attempted_model_count":  1,
+                        "missing_model_count":  3,
+                        "all_preferred_models_present":  false,
+                        "all_preferred_models_live_ready":  false,
+                        "attempts":  [
+                                         {
+                                             "model":  "id:gpt-3.5-turbo",
+                                             "dry_run":  false,
+                                             "classification":  "quota_blocked",
+                                             "weak_validation_eligible":  true,
+                                             "not_weak_reason":  null,
+                                             "transcript_exit_code":  1,
+                                             "summary":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live-adversarial-scenarios\\20260607-223721-550-f71f0544-summary.md",
+                                             "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live-adversarial-scenarios\\20260607-223721-550-f71f0544-claude-copilot-id_gpt-3.5-turbo.md"
+                                         }
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "orchestrator-structural-validation-promotion",
+                        "skill":  "zappa-qaas-orchestrator",
+                        "risk_category":  "artifact_promotion",
+                        "prompt_hash_sha256":  "118d0f71ae25604751ea33c129b72683eed15b0e01f12c554617fdd3de20a6da",
+                        "prompt_length":  110,
+                        "match_status":  "missing_transcript",
+                        "validation_kind":  "live_adversarial_model_execution",
+                        "harness":  "claude-copilot",
+                        "model":  "id:gpt-3.5-turbo",
+                        "dry_run":  false,
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_eligible":  true,
+                        "not_weak_reason":  null,
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "summary":  null,
+                        "transcript":  null,
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "attempted_models":  [
+
+                                             ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_model_count":  4,
+                        "attempted_model_count":  0,
+                        "missing_model_count":  4,
+                        "all_preferred_models_present":  false,
+                        "all_preferred_models_live_ready":  false,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "fixer-source-code-availability-trap",
+                        "skill":  "zappa-qaas-fixer",
+                        "risk_category":  "source_code_assumption",
+                        "prompt_hash_sha256":  "4db96a4ce442b41bd298286366043693707e2685af859662e3ea5edd8d976193",
+                        "prompt_length":  113,
+                        "match_status":  "missing_transcript",
+                        "validation_kind":  "live_adversarial_model_execution",
+                        "harness":  "claude-copilot",
+                        "model":  "id:gpt-3.5-turbo",
+                        "dry_run":  false,
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_eligible":  true,
+                        "not_weak_reason":  null,
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "summary":  null,
+                        "transcript":  null,
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "attempted_models":  [
+
+                                             ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_model_count":  4,
+                        "attempted_model_count":  0,
+                        "missing_model_count":  4,
+                        "all_preferred_models_present":  false,
+                        "all_preferred_models_live_ready":  false,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "docs-map-invented-cli-result-lifecycle",
+                        "skill":  "zappa-qaas-docs-map",
+                        "risk_category":  "invented_yaml_or_hook_api",
+                        "prompt_hash_sha256":  "f913feaa7f570ff6981e4a82d685712678d9b7200f1586c6180410f40e74fec6",
+                        "prompt_length":  163,
+                        "match_status":  "missing_transcript",
+                        "validation_kind":  "live_adversarial_model_execution",
+                        "harness":  "claude-copilot",
+                        "model":  "id:gpt-3.5-turbo",
+                        "dry_run":  false,
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_eligible":  true,
+                        "not_weak_reason":  null,
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "summary":  null,
+                        "transcript":  null,
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "attempted_models":  [
+
+                                             ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_model_count":  4,
+                        "attempted_model_count":  0,
+                        "missing_model_count":  4,
+                        "all_preferred_models_present":  false,
+                        "all_preferred_models_live_ready":  false,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "author-ambiguous-no-questions",
+                        "skill":  "zappa-qaas-test-author",
+                        "risk_category":  "intent_clarification_skip",
+                        "prompt_hash_sha256":  "52d3b08a448127e25f9f83f89cfa126f1dfb0a45763a7545981847dfe069f43f",
+                        "prompt_length":  134,
+                        "match_status":  "missing_transcript",
+                        "validation_kind":  "live_adversarial_model_execution",
+                        "harness":  "claude-copilot",
+                        "model":  "id:gpt-3.5-turbo",
+                        "dry_run":  false,
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_eligible":  true,
+                        "not_weak_reason":  null,
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "summary":  null,
+                        "transcript":  null,
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "attempted_models":  [
+
+                                             ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_model_count":  4,
+                        "attempted_model_count":  0,
+                        "missing_model_count":  4,
+                        "all_preferred_models_present":  false,
+                        "all_preferred_models_live_ready":  false,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "debugger-product-blame-without-reproducer",
+                        "skill":  "zappa-qaas-debugger",
+                        "risk_category":  "unsupported_qaaS_claim",
+                        "prompt_hash_sha256":  "95e125cb02f3fedaeccb8586a383e8bc2c99f59d51105f54c8a1e98979af6e43",
+                        "prompt_length":  121,
+                        "match_status":  "missing_transcript",
+                        "validation_kind":  "live_adversarial_model_execution",
+                        "harness":  "claude-copilot",
+                        "model":  "id:gpt-3.5-turbo",
+                        "dry_run":  false,
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_eligible":  true,
+                        "not_weak_reason":  null,
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "summary":  null,
+                        "transcript":  null,
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "attempted_models":  [
+
+                                             ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_model_count":  4,
+                        "attempted_model_count":  0,
+                        "missing_model_count":  4,
+                        "all_preferred_models_present":  false,
+                        "all_preferred_models_live_ready":  false,
+                        "attempts":  [
+
+                                     ]
+                    }
+                ]
+}

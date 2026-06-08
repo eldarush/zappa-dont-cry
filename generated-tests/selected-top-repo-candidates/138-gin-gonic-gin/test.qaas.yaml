@@ -1,0 +1,75 @@
+# Candidate QaaS Runner YAML generated from immutable public Gin README evidence.
+# Status: blocked_until_template_live_airgapped_validation
+# Runtime startup stays in candidate-runtime-plan.json; QaaS YAML does not own process lifecycle.
+
+MetaData:
+  Team: ZappaDontCry
+  System: gin-gonic-gin
+
+Storages:
+  -
+    JsonStorageFormat: Indented
+    FileSystem:
+      Path: ./session-data
+
+DataSources:
+  - Name: GetPingPayload
+    Generator: FromFileSystem
+    DataSourceNames: []
+    DataSourcePatterns: []
+    GeneratorConfiguration:
+      DataArrangeOrder: AsciiAsc
+      FileSystem:
+        Path: './request-payloads'
+        SearchPattern: 'get-ping.bin'
+      StorageMetaData: ItemName
+
+  - Name: GinReadmePingResponseSchemas
+    Generator: FromFileSystem
+    DataSourceNames: []
+    DataSourcePatterns: []
+    GeneratorConfiguration:
+      DataArrangeOrder: AsciiAsc
+      FileSystem:
+        Path: './schemas'
+        SearchPattern: 'ping-response.schema.json'
+      StorageMetaData: ItemName
+
+Sessions:
+  - Name: GinReadPing
+    Transactions:
+      - Name: GetPing
+        TimeoutMs: 5000
+        DataSourceNames:
+          - GetPingPayload
+        DataSourcePatterns:
+          - GetPingPayload
+        Http:
+          BaseAddress: http://127.0.0.1
+          Port: 8080
+          Route: /ping
+          Method: Get
+        OutputDeserialize:
+          Deserializer: Json
+
+Assertions:
+  - Name: GetPingReturnedOk
+    Assertion: HttpStatus
+    SessionNames:
+      - GinReadPing
+    DataSourceNames: []
+    DataSourcePatterns: []
+    AssertionConfiguration:
+      StatusCode: 200
+      OutputNames:
+        - GetPing
+
+  - Name: GetPingBodyMatchesReadmeSchema
+    Assertion: ObjectOutputJsonSchema
+    SessionNames:
+      - GinReadPing
+    DataSourceNames:
+      - GinReadmePingResponseSchemas
+    DataSourcePatterns: []
+    AssertionConfiguration:
+      OutputName: GetPing

@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "objective_completion_status": "not_complete",
+  "completion_blockers": [
+    "adversarial_weak_model_validation",
+    "fail_closed_completion",
+    "top_250_repositories",
+    "weak_model_validation"
+  ],
+  "capability_count": 16,
+  "capabilities": [
+    {
+      "id": "namespace_skill_pack",
+      "status": "covered_by_contract",
+      "required_skills": [
+        "zappa-qaas-orchestrator"
+      ],
+      "harness_result_names": [
+        "skill-layout",
+        "skill-metadata",
+        "agent-metadata",
+        "zappa-pack"
+      ]
+    },
+    {
+      "id": "docs_only_evidence",
+      "status": "covered_by_contract",
+      "required_skills": [
+        "zappa-qaas-docs-map",
+        "zappa-qaas-orchestrator"
+      ],
+      "harness_result_names": [
+        "docs-coverage",
+        "docs-evidence-coverage",
+        "skill-quality"
+      ]
+    },
+    {
+      "id": "intent_clarification",
+      "status": "covered_by_contract",
+      "required_skills": [
+        "zappa-qaas-test-planner",
+        "zappa-qaas-orchestrator"
+      ],
+      "harness_result_names": [
+        "skill-quality",
+        "intent-clarification-coverage",
+        "weak-scenarios"
+      ]
+    },
+    {
+      "id": "test_planning",
+      "status": "covered_by_contract",
+      "required_skills": [
+        "zappa-qaas-test-planner"
+      ],
+      "harness_result_names": [
+        "artifact-manifests-all",
+        "intent-clarification-coverage",
+        "dependency-gates",
+        "weak-scenarios"
+      ]
+    },
+    {
+      "id": "yaml_and_code_authoring",
+      "status": "covered_by_contract",
+      "required_skills": [
+        "zappa-qaas-test-author"
+      ],
+      "harness_result_names": [
+        "artifact-manifests-all",
+        "promotion-seed-lifecycle",
+        "compile-generated-csharp",
+        "harness-regression-tests",
+        "executable-artifact-shape",
+        "promotion-packet"
+      ]
+    },
+    {
+      "id": "custom_hooks_and_configuration",
+      "status": "covered_by_contract",
+      "required_skills": [
+        "zappa-qaas-hook-config"
+      ],
+      "harness_result_names": [
+        "skill-quality",
+        "weak-scenarios"
+      ]
+    },
+    {
+      "id": "debugging",
+      "status": "covered_by_contract",
+      "required_skills": [
+        "zappa-qaas-debugger"
+      ],
+      "harness_result_names": [
+        "skill-quality",
+        "weak-scenarios"
+      ]
+    },
+    {
+      "id": "fixing",
+      "status": "covered_by_contract",
+      "required_skills": [
+        "zappa-qaas-fixer"
+      ],
+      "harness_result_names": [
+        "skill-quality",
+        "weak-scenarios"
+      ]
+    },
+    {
+      "id": "documentation",
+      "status": "covered_by_contract",
+      "required_skills": [
+        "zappa-qaas-docs-author"
+      ],
+      "harness_result_names": [
+        "docs-coverage",
+        "docs-evidence-coverage"
+      ]
+    },
+    {
+      "id": "experimentation",
+      "status": "covered_by_contract",
+      "required_skills": [
+        "zappa-qaas-experiment-lab"
+      ],
+      "harness_result_names": [
+        "zappa-environment",
+        "weak-scenarios"
+      ]
+    },
+    {
+      "id": "top_250_repositories",
+      "status": "structural_artifacts_blocked_until_executable_evidence",
+      "required_skills": [
+        "zappa-qaas-top-repos"
+      ],
+      "harness_result_names": [
+        "top250",
+        "contracts",
+        "selected-top-repo-contracts",
+        "selected-top-repo-candidates",
+        "selected-top-repo-candidate-lifecycle",
+        "selected-top-repo-candidate-live",
+        "top-repo-promotion-triage",
+        "top-repo-promotion-evidence",
+        "artifact-manifests-all",
+        "promotion-packet"
+      ]
+    },
+    {
+      "id": "weak_model_validation",
+      "status": "blocked_by_hosted_quota",
+      "required_skills": [
+        "zappa-qaas-weak-model-gate",
+        "zappa-qaas-orchestrator"
+      ],
+      "harness_result_names": [
+        "weak-routing",
+        "weak-scenarios",
+        "weak-adversarial-scenarios",
+        "weak-suite-runner",
+        "harness-regression-tests",
+        "airgapped-live-evidence",
+        "copilot-fallback-evidence"
+      ]
+    },
+    {
+      "id": "adversarial_weak_model_validation",
+      "status": "blocked_by_hosted_quota",
+      "required_skills": [
+        "zappa-qaas-weak-model-gate",
+        "zappa-qaas-orchestrator"
+      ],
+      "harness_result_names": [
+        "weak-adversarial-scenarios",
+        "weak-suite-runner",
+        "harness-regression-tests"
+      ]
+    },
+    {
+      "id": "strong_model_review",
+      "status": "covered_by_contract",
+      "required_skills": [
+        "zappa-qaas-weak-model-gate",
+        "zappa-qaas-orchestrator"
+      ],
+      "harness_result_names": [
+        "promotion-readiness",
+        "promotion-packet",
+        "qaas-template-build-evidence",
+        "top-repo-promotion-evidence"
+      ]
+    },
+    {
+      "id": "dynamic_environment",
+      "status": "covered_by_contract",
+      "required_skills": [
+        "zappa-qaas-top-repos",
+        "zappa-qaas-experiment-lab"
+      ],
+      "harness_result_names": [
+        "zappa-environment"
+      ]
+    },
+    {
+      "id": "fail_closed_completion",
+      "status": "blocked_until_live_and_executable_evidence",
+      "required_skills": [
+        "zappa-qaas-weak-model-gate",
+        "zappa-qaas-orchestrator",
+        "zappa-qaas-test-author"
+      ],
+      "harness_result_names": [
+        "promotion-readiness",
+        "promotion-candidate-index",
+        "promotion-seed-lifecycle",
+        "promotion-packet",
+        "selected-top-repo-contracts",
+        "selected-top-repo-candidates",
+        "selected-top-repo-candidate-lifecycle",
+        "selected-top-repo-candidate-live",
+        "top-repo-promotion-triage",
+        "executable-artifact-shape",
+        "qaas-template-build-evidence",
+        "harness-regression-tests",
+        "weak-suite-runner",
+        "weak-adversarial-scenarios",
+        "airgapped-live-evidence"
+      ]
+    }
+  ]
+}

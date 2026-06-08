@@ -1,0 +1,42 @@
+{
+    "schema_version":  1,
+    "status":  "passed",
+    "promotion_state":  "blocked",
+    "completion_ready":  false,
+    "repository":  "typicode/json-server",
+    "validation_kind":  "selected_candidate_process_lifecycle",
+    "command":  "npx --yes --package json-server@1.0.0-beta.15 json-server db.json",
+    "package_spec":  "json-server@1.0.0-beta.15",
+    "node_version":  "v24.12.0",
+    "npm_version":  "11.6.2",
+    "npx_path":  "D:\\npx.cmd",
+    "working_directory":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-114901-635\\work",
+    "candidate_fixture_sha256":  "8b1009eaa146abc2f8a407346690b8130fb1165e4073d462d189f5714d4b1723",
+    "staged_fixture_sha256":  "8b1009eaa146abc2f8a407346690b8130fb1165e4073d462d189f5714d4b1723",
+    "selected_readme_evidence":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\200-typicode-json-server\\files\\README.md",
+    "selected_package_evidence":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\200-typicode-json-server\\files\\package.json",
+    "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-114901-635\\evidence\\lifecycle.transcript.txt",
+    "stdout":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-114901-635\\evidence\\json-server.stdout.txt",
+    "stderr":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-114901-635\\evidence\\json-server.stderr.txt",
+    "response":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-114901-635\\evidence\\posts-1-response.json",
+    "response_status":  200,
+    "response_contract_passed":  true,
+    "cleanup_passed":  true,
+    "cleanup_process_ids":  [
+                                24188,
+                                7264,
+                                22172,
+                                25328,
+                                22312
+                            ],
+    "remaining_tracked_process_ids":  [
+
+                                      ],
+    "port_owners_after_cleanup_count":  0,
+    "manifest":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\200-typicode-json-server\\qaas-artifact-manifest.json",
+    "runtime_plan":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\200-typicode-json-server\\candidate-runtime-plan.json",
+    "run_dir":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-114901-635",
+    "exit_code":  0,
+    "failure_reason":  "",
+    "weak_validation_passed":  false
+}

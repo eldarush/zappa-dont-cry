@@ -1,0 +1,192 @@
+{
+  "updated": "2026-06-07",
+  "target": {
+    "model": "MiniMax M2.5",
+    "purpose": "Skill-following validation for Codex skills and agents",
+    "claim": "Pressure-test weak-model behavior. Do not claim benchmark equivalence or proof that selected models are weaker in all benchmarks.",
+    "triggerTerms": [
+      "airgapped testing",
+      "airgapped models",
+      "airgapped validation",
+      "dumb model testing",
+      "weak model testing",
+      "MiniMax M2.5 proxy"
+    ],
+    "sources": [
+      "https://www.minimax.io/models/text",
+      "https://docs.github.com/en/copilot/reference/ai-models/supported-models"
+    ]
+  },
+  "defaults": {
+    "harness": "codex",
+    "profile": "single",
+    "airgappedHarness": "claude-copilot",
+    "airgappedProfile": "airgapped",
+    "reasoningEffort": "low"
+  },
+  "weakEvidence": {
+    "schemaVersion": 1,
+    "promotionEvidenceClasses": [
+      "preferred_weak"
+    ],
+    "dryRunAlwaysNotWeak": true,
+    "denyHarnesses": [
+      "codex",
+      "agy"
+    ],
+    "denyModelPatterns": [
+      "opus",
+      "sonnet",
+      "^gpt-5",
+      "agy-configured-model"
+    ],
+    "allow": {
+      "claude-copilot": {
+        "evidenceClass": "preferred_weak",
+        "profiles": [
+          "airgapped"
+        ],
+        "models": [
+          "id:gpt-3.5-turbo",
+          "id:gpt-3.5-turbo-0613",
+          "gpt-4o-mini",
+          "gpt-4o-mini-2024-07-18"
+        ],
+        "requiredCommandRegex": "(^|[\\\\/\\s])claude(\\.cmd|\\.exe|\\.ps1)?(\\s|$)"
+      },
+      "copilot": {
+        "evidenceClass": "hosted_fallback_weak",
+        "profiles": [
+          "airgapped"
+        ],
+        "models": [
+          "mai-code-1-flash",
+          "gemini-3.5-flash",
+          "claude-haiku-4.5"
+        ],
+        "requiredCommandRegex": "(^|[\\\\/\\s])copilot(\\.cmd|\\.exe|\\.ps1)?(\\s|$)"
+      }
+    }
+  },
+  "harnesses": {
+    "codex": {
+      "role": "Codex-native isolated smoke test",
+      "confidence": "validated-fallback-only",
+      "caveat": "Hosted Codex models visible in this account are GPT-5-family models and may be stronger than MiniMax M2.5. Use only as a fallback smoke test when weaker hosted paths are unavailable.",
+      "profiles": {
+        "minimax-proxy": [
+          "gpt-5.4-mini",
+          "gpt-5.3-codex-spark"
+        ],
+        "weaker-than-minimax": [
+          "gpt-5.3-codex-spark"
+        ],
+        "airgapped": [
+          "gpt-5.3-codex-spark"
+        ],
+        "flash": [
+          "gpt-5.3-codex-spark"
+        ],
+        "haiku": [
+          "gpt-5.4-mini"
+        ],
+        "single": [
+          "gpt-5.4-mini"
+        ]
+      }
+    },
+    "copilot": {
+      "role": "Stricter weak hosted proxy when Copilot quota is available",
+      "confidence": "configured-but-quota-blocked",
+      "caveat": "Copilot additional usage limit blocked live validation on 2026-06-07. gpt-4o-mini was rejected by this account.",
+      "profiles": {
+        "minimax-proxy": [
+          "gpt-5-mini",
+          "mai-code-1-flash",
+          "gemini-3-flash-preview"
+        ],
+        "weaker-than-minimax": [
+          "mai-code-1-flash",
+          "claude-haiku-4.5",
+          "gemini-3.5-flash"
+        ],
+        "airgapped": [
+          "mai-code-1-flash",
+          "gemini-3.5-flash",
+          "claude-haiku-4.5"
+        ],
+        "flash": [
+          "mai-code-1-flash",
+          "gemini-3-flash-preview"
+        ],
+        "haiku": [
+          "claude-haiku-4.5"
+        ],
+        "single": [
+          "gpt-5-mini"
+        ]
+      }
+    },
+    "claude-copilot": {
+      "role": "Weakest known hosted path for airgapped testing",
+      "confidence": "configured-but-quota-blocked",
+      "caveat": "Use exact id:gpt-3.5-turbo first for airgapped testing. If that hosted route is quota/model blocked, retry only bridge-discovered weak proxy models: id:gpt-3.5-turbo-0613, gpt-4o-mini, and gpt-4o-mini-2024-07-18. Claude aliases route to Opus in this local bridge and are too strong for weak validation. These are skill-following proxies only, not benchmark-equivalent proof for MiniMax M2.5.",
+      "profiles": {
+        "minimax-proxy": [
+          "id:gpt-3.5-turbo",
+          "id:gpt-3.5-turbo-0613",
+          "gpt-4o-mini",
+          "gpt-4o-mini-2024-07-18"
+        ],
+        "weaker-than-minimax": [
+          "id:gpt-3.5-turbo",
+          "id:gpt-3.5-turbo-0613",
+          "gpt-4o-mini",
+          "gpt-4o-mini-2024-07-18"
+        ],
+        "airgapped": [
+          "id:gpt-3.5-turbo",
+          "id:gpt-3.5-turbo-0613",
+          "gpt-4o-mini",
+          "gpt-4o-mini-2024-07-18"
+        ],
+        "flash": [
+          "gpt-4o-mini",
+          "gpt-4o-mini-2024-07-18"
+        ],
+        "haiku": [
+          "id:gpt-3.5-turbo",
+          "id:gpt-3.5-turbo-0613"
+        ],
+        "single": [
+          "id:gpt-3.5-turbo"
+        ]
+      }
+    },
+    "agy": {
+      "role": "Last resort only",
+      "confidence": "configured-model-only",
+      "caveat": "AGY 1.0.0 exposes no per-run model selector. Use only when the configured Antigravity model is acceptable.",
+      "profiles": {
+        "minimax-proxy": [
+          "agy-configured-model"
+        ],
+        "weaker-than-minimax": [
+          "agy-configured-model"
+        ],
+        "airgapped": [
+          "agy-configured-model"
+        ],
+        "flash": [
+          "agy-configured-model"
+        ],
+        "haiku": [
+          "agy-configured-model"
+        ],
+        "single": [
+          "agy-configured-model"
+        ]
+      }
+    }
+  }
+}

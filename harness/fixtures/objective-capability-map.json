@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "objective": "zappa-dont-cry QaaS skills for docs-only planning, authoring, hooks, configuration, debugging, fixing, documenting, experimenting, top-250 repository campaigns, weak-model testing, strong-model review, dynamic environments, and fail-closed completion.",
+  "capabilities": [
+    {
+      "id": "namespace_skill_pack",
+      "status": "covered_by_contract",
+      "required_skills": ["zappa-qaas-orchestrator"],
+      "required_terms": ["namespace folder", "distinct skill", "Route By Task"],
+      "harness_result_names": ["skill-layout", "skill-metadata", "agent-metadata", "zappa-pack"]
+    },
+    {
+      "id": "docs_only_evidence",
+      "status": "covered_by_contract",
+      "required_skills": ["zappa-qaas-docs-map", "zappa-qaas-orchestrator"],
+      "required_terms": ["public QaaS docs", "generated schemas", "source_only_blocked", "docs_evidence"],
+      "harness_result_names": ["docs-coverage", "docs-evidence-coverage", "skill-quality"]
+    },
+    {
+      "id": "intent_clarification",
+      "status": "covered_by_contract",
+      "required_skills": ["zappa-qaas-test-planner", "zappa-qaas-orchestrator"],
+      "required_terms": ["intent_questions", "intent_assumptions", "focused questions"],
+      "harness_result_names": ["skill-quality", "intent-clarification-coverage", "weak-scenarios"]
+    },
+    {
+      "id": "test_planning",
+      "status": "covered_by_contract",
+      "required_skills": ["zappa-qaas-test-planner"],
+      "required_terms": ["case_matrix", "artifact_map", "dependency_gates", "assertions", "airgapped_validation_prompt"],
+      "harness_result_names": ["artifact-manifests-all", "intent-clarification-coverage", "dependency-gates", "weak-scenarios"]
+    },
+    {
+      "id": "yaml_and_code_authoring",
+      "status": "covered_by_contract",
+      "required_skills": ["zappa-qaas-test-author"],
+      "required_terms": ["test.qaas.yaml", "mocker.qaas.yaml", "C# configuration-as-code", "qaas-artifact-manifest.json"],
+      "harness_result_names": ["artifact-manifests-all", "promotion-seed-lifecycle", "compile-generated-csharp", "harness-regression-tests", "executable-artifact-shape", "promotion-packet"]
+    },
+    {
+      "id": "custom_hooks_and_configuration",
+      "status": "covered_by_contract",
+      "required_skills": ["zappa-qaas-hook-config"],
+      "required_terms": ["builtins_considered", "hook_family", "configuration_contract", "proving_artifact"],
+      "harness_result_names": ["skill-quality", "weak-scenarios"]
+    },
+    {
+      "id": "debugging",
+      "status": "covered_by_contract",
+      "required_skills": ["zappa-qaas-debugger"],
+      "required_terms": ["failure_layer", "root_cause", "rerun_command", "Preserve assertions"],
+      "harness_result_names": ["skill-quality", "weak-scenarios"]
+    },
+    {
+      "id": "fixing",
+      "status": "covered_by_contract",
+      "required_skills": ["zappa-qaas-fixer"],
+      "required_terms": ["failure_classification", "files_changed", "remaining_blockers", "Do not weaken assertions"],
+      "harness_result_names": ["skill-quality", "weak-scenarios"]
+    },
+    {
+      "id": "documentation",
+      "status": "covered_by_contract",
+      "required_skills": ["zappa-qaas-docs-author"],
+      "required_terms": ["validation_status", "known_blockers", "next_verification", "artifacts_documented"],
+      "harness_result_names": ["docs-coverage", "docs-evidence-coverage"]
+    },
+    {
+      "id": "experimentation",
+      "status": "covered_by_contract",
+      "required_skills": ["zappa-qaas-experiment-lab"],
+      "required_terms": ["hypothesis", "experiment_scope", "promotion_criteria", "Do not clone or execute arbitrary repositories"],
+      "harness_result_names": ["zappa-environment", "weak-scenarios"]
+    },
+    {
+      "id": "top_250_repositories",
+      "status": "structural_artifacts_blocked_until_executable_evidence",
+      "required_skills": ["zappa-qaas-top-repos"],
+      "required_terms": ["fetch-top-github-repos.ps1 -Count 250", "harvest-top-repo-contracts.ps1", "generated artifact count", "Do not claim all 250 repositories are fully tested"],
+      "harness_result_names": ["top250", "contracts", "selected-top-repo-contracts", "selected-top-repo-candidates", "selected-top-repo-candidate-lifecycle", "selected-top-repo-candidate-live", "top-repo-promotion-triage", "top-repo-promotion-evidence", "artifact-manifests-all", "promotion-packet"]
+    },
+    {
+      "id": "weak_model_validation",
+      "status": "blocked_by_hosted_quota",
+      "required_skills": ["zappa-qaas-weak-model-gate", "zappa-qaas-orchestrator"],
+      "required_terms": ["weak_validation_passed", "dry-run weak validation", "quota-blocked", "Do not accept dry-run weak validation"],
+      "harness_result_names": ["weak-routing", "weak-scenarios", "weak-adversarial-scenarios", "weak-suite-runner", "harness-regression-tests", "airgapped-live-evidence", "copilot-fallback-evidence"]
+    },
+    {
+      "id": "adversarial_weak_model_validation",
+      "status": "blocked_by_hosted_quota",
+      "required_skills": ["zappa-qaas-weak-model-gate", "zappa-qaas-orchestrator"],
+      "required_terms": ["adversarial weak-model suite", "dry-run adversarial weak validation", "adversarial_scenario_count", "do not accept adversarial dry-run validation"],
+      "harness_result_names": ["weak-adversarial-scenarios", "weak-suite-runner", "harness-regression-tests"]
+    },
+    {
+      "id": "strong_model_review",
+      "status": "covered_by_contract",
+      "required_skills": ["zappa-qaas-weak-model-gate", "zappa-qaas-orchestrator"],
+      "required_terms": ["strong_review", "completion_decision", "pass_fail_matrix", "Reject completion"],
+      "harness_result_names": ["promotion-readiness", "promotion-packet", "qaas-template-build-evidence", "top-repo-promotion-evidence"]
+    },
+    {
+      "id": "dynamic_environment",
+      "status": "covered_by_contract",
+      "required_skills": ["zappa-qaas-top-repos", "zappa-qaas-experiment-lab"],
+      "required_terms": ["bootstrap-zappa-env.ps1", "D:\\QaaS\\_tmp\\zappa-dont-cry", "temporary artifacts", "work area"],
+      "harness_result_names": ["zappa-environment"]
+    },
+    {
+      "id": "fail_closed_completion",
+      "status": "blocked_until_live_and_executable_evidence",
+      "required_skills": ["zappa-qaas-weak-model-gate", "zappa-qaas-orchestrator", "zappa-qaas-test-author"],
+      "required_terms": ["Do not claim completion from structural validation alone", "Do not mark completion", "Do not claim \"100 percent correct\"", "template/build/live evidence"],
+      "harness_result_names": ["promotion-readiness", "promotion-candidate-index", "promotion-seed-lifecycle", "promotion-packet", "selected-top-repo-contracts", "selected-top-repo-candidates", "selected-top-repo-candidate-lifecycle", "selected-top-repo-candidate-live", "top-repo-promotion-triage", "executable-artifact-shape", "qaas-template-build-evidence", "harness-regression-tests", "weak-suite-runner", "weak-adversarial-scenarios", "airgapped-live-evidence"]
+    }
+  ]
+}

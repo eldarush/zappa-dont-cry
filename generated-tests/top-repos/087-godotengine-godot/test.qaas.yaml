@@ -1,0 +1,24 @@
+# Docs-only QaaS top-repository Runner skeleton.
+# Status: blocked_until_repo_contract_review
+# Repository: godotengine/godot
+# This is not executable until public runtime/API contracts define sessions, inputs, assertions, and cleanup.
+
+Links: []
+
+Storages: []
+
+DataSources: []
+
+Sessions: []
+
+Assertions:
+  - Assertion: __DOCUMENTED_ASSERTION_OR_CUSTOM__
+    AssertionConfiguration:
+      Repository: 'godotengine/godot'
+      ContractStrength: 'contract_files_found'
+      EvidencePath: 'D:\QaaS\_tmp\zappa-dont-cry\top-repos\contracts\087-godotengine-godot\README.snapshot.md'
+
+MetaData:
+  Repository: 'godotengine/godot'
+  ContractStrength: 'contract_files_found'
+  BlockedReason: "Public repository contracts are not sufficient yet for executable QaaS Runner YAML."

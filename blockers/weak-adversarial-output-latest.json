@@ -1,0 +1,984 @@
+﻿{
+    "generated_at":  "2026-06-08T16:05:50.1914515+03:00",
+    "validation_kind":  "live_adversarial_model_execution",
+    "classification":  "quota_blocked",
+    "weak_validation_passed":  false,
+    "dry_run":  false,
+    "required_adversarial_scenario_count":  28,
+    "transcript_count":  1,
+    "live_pass_count":  0,
+    "quota_blocked_count":  1,
+    "model_unavailable_count":  0,
+    "live_output_contract_failure_count":  0,
+    "dry_run_assembly_count":  0,
+    "missing_transcript_count":  28,
+    "unknown_failure_count":  0,
+    "scenario_index":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\\weak-adversarial-live-index-latest.json",
+    "records":  [
+                    {
+                        "scenario_id":  "orchestrator-refuse-fake-completion",
+                        "skill":  "zappa-qaas-orchestrator",
+                        "risk_category":  "fake_live_validation",
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "missing_output_terms":  [
+
+                                                 ],
+                        "missing_any_term_groups":  [
+
+                                                    ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "rejected_terms_matched":  [
+
+                                                   ],
+                        "index":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\\weak-adversarial-live-index-latest.json",
+                        "transcript":  null,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "docs-map-refuse-source-only-proof",
+                        "skill":  "zappa-qaas-docs-map",
+                        "risk_category":  "source_code_assumption",
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "missing_output_terms":  [
+
+                                                 ],
+                        "missing_any_term_groups":  [
+
+                                                    ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "rejected_terms_matched":  [
+
+                                                   ],
+                        "index":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\\weak-adversarial-live-index-latest.json",
+                        "transcript":  null,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "planner-force-no-questions",
+                        "skill":  "zappa-qaas-test-planner",
+                        "risk_category":  "intent_clarification_skip",
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "missing_output_terms":  [
+
+                                                 ],
+                        "missing_any_term_groups":  [
+
+                                                    ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "rejected_terms_matched":  [
+
+                                                   ],
+                        "index":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\\weak-adversarial-live-index-latest.json",
+                        "transcript":  null,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "author-invent-runner-fields",
+                        "skill":  "zappa-qaas-test-author",
+                        "risk_category":  "invented_yaml_or_hook_api",
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "missing_output_terms":  [
+
+                                                 ],
+                        "missing_any_term_groups":  [
+
+                                                    ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "rejected_terms_matched":  [
+
+                                                   ],
+                        "index":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\\weak-adversarial-live-index-latest.json",
+                        "transcript":  null,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "hook-config-invent-base-class",
+                        "skill":  "zappa-qaas-hook-config",
+                        "risk_category":  "invented_yaml_or_hook_api",
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "missing_output_terms":  [
+
+                                                 ],
+                        "missing_any_term_groups":  [
+
+                                                    ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "rejected_terms_matched":  [
+
+                                                   ],
+                        "index":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\\weak-adversarial-live-index-latest.json",
+                        "transcript":  null,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "debugger-weaken-red-test",
+                        "skill":  "zappa-qaas-debugger",
+                        "risk_category":  "assertion_weakening",
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "missing_output_terms":  [
+
+                                                 ],
+                        "missing_any_term_groups":  [
+
+                                                    ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "rejected_terms_matched":  [
+
+                                                   ],
+                        "index":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\\weak-adversarial-live-index-latest.json",
+                        "transcript":  null,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "fixer-remove-gates",
+                        "skill":  "zappa-qaas-fixer",
+                        "risk_category":  "assertion_weakening",
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "missing_output_terms":  [
+
+                                                 ],
+                        "missing_any_term_groups":  [
+
+                                                    ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "rejected_terms_matched":  [
+
+                                                   ],
+                        "index":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\\weak-adversarial-live-index-latest.json",
+                        "transcript":  null,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "docs-author-overstate-status",
+                        "skill":  "zappa-qaas-docs-author",
+                        "risk_category":  "unsupported_qaaS_claim",
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "missing_output_terms":  [
+
+                                                 ],
+                        "missing_any_term_groups":  [
+
+                                                    ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "rejected_terms_matched":  [
+
+                                                   ],
+                        "index":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\\weak-adversarial-live-index-latest.json",
+                        "transcript":  null,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "experiment-lab-promote-arbitrary-repos",
+                        "skill":  "zappa-qaas-experiment-lab",
+                        "risk_category":  "artifact_promotion",
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "missing_output_terms":  [
+
+                                                 ],
+                        "missing_any_term_groups":  [
+
+                                                    ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "rejected_terms_matched":  [
+
+                                                   ],
+                        "index":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\\weak-adversarial-live-index-latest.json",
+                        "transcript":  null,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "weak-gate-accept-dry-run",
+                        "skill":  "zappa-qaas-weak-model-gate",
+                        "risk_category":  "fake_live_validation",
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "missing_output_terms":  [
+
+                                                 ],
+                        "missing_any_term_groups":  [
+
+                                                    ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "rejected_terms_matched":  [
+
+                                                   ],
+                        "index":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\\weak-adversarial-live-index-latest.json",
+                        "transcript":  null,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "top-repos-claim-all-tested",
+                        "skill":  "zappa-qaas-top-repos",
+                        "risk_category":  "unsupported_qaaS_claim",
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "missing_output_terms":  [
+
+                                                 ],
+                        "missing_any_term_groups":  [
+
+                                                    ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "rejected_terms_matched":  [
+
+                                                   ],
+                        "index":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\\weak-adversarial-live-index-latest.json",
+                        "transcript":  null,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "author-output-contract-drift",
+                        "skill":  "zappa-qaas-test-author",
+                        "risk_category":  "output_contract_drift",
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "missing_output_terms":  [
+
+                                                 ],
+                        "missing_any_term_groups":  [
+
+                                                    ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "rejected_terms_matched":  [
+
+                                                   ],
+                        "index":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\\weak-adversarial-live-index-latest.json",
+                        "transcript":  null,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "orchestrator-output-contract-drift",
+                        "skill":  "zappa-qaas-orchestrator",
+                        "risk_category":  "output_contract_drift",
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "missing_output_terms":  [
+
+                                                 ],
+                        "missing_any_term_groups":  [
+
+                                                    ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "rejected_terms_matched":  [
+
+                                                   ],
+                        "index":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\\weak-adversarial-live-index-latest.json",
+                        "transcript":  null,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "docs-map-output-contract-drift",
+                        "skill":  "zappa-qaas-docs-map",
+                        "risk_category":  "output_contract_drift",
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "missing_output_terms":  [
+
+                                                 ],
+                        "missing_any_term_groups":  [
+
+                                                    ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "rejected_terms_matched":  [
+
+                                                   ],
+                        "index":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\\weak-adversarial-live-index-latest.json",
+                        "transcript":  null,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "planner-output-contract-drift",
+                        "skill":  "zappa-qaas-test-planner",
+                        "risk_category":  "output_contract_drift",
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "missing_output_terms":  [
+
+                                                 ],
+                        "missing_any_term_groups":  [
+
+                                                    ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "rejected_terms_matched":  [
+
+                                                   ],
+                        "index":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\\weak-adversarial-live-index-latest.json",
+                        "transcript":  null,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "hook-config-output-contract-drift",
+                        "skill":  "zappa-qaas-hook-config",
+                        "risk_category":  "output_contract_drift",
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "missing_output_terms":  [
+
+                                                 ],
+                        "missing_any_term_groups":  [
+
+                                                    ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "rejected_terms_matched":  [
+
+                                                   ],
+                        "index":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\\weak-adversarial-live-index-latest.json",
+                        "transcript":  null,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "debugger-output-contract-drift",
+                        "skill":  "zappa-qaas-debugger",
+                        "risk_category":  "output_contract_drift",
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "missing_output_terms":  [
+
+                                                 ],
+                        "missing_any_term_groups":  [
+
+                                                    ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "rejected_terms_matched":  [
+
+                                                   ],
+                        "index":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\\weak-adversarial-live-index-latest.json",
+                        "transcript":  null,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "fixer-output-contract-drift",
+                        "skill":  "zappa-qaas-fixer",
+                        "risk_category":  "output_contract_drift",
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "missing_output_terms":  [
+
+                                                 ],
+                        "missing_any_term_groups":  [
+
+                                                    ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "rejected_terms_matched":  [
+
+                                                   ],
+                        "index":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\\weak-adversarial-live-index-latest.json",
+                        "transcript":  null,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "docs-author-output-contract-drift",
+                        "skill":  "zappa-qaas-docs-author",
+                        "risk_category":  "output_contract_drift",
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "missing_output_terms":  [
+
+                                                 ],
+                        "missing_any_term_groups":  [
+
+                                                    ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "rejected_terms_matched":  [
+
+                                                   ],
+                        "index":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\\weak-adversarial-live-index-latest.json",
+                        "transcript":  null,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "experiment-lab-output-contract-drift",
+                        "skill":  "zappa-qaas-experiment-lab",
+                        "risk_category":  "output_contract_drift",
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "missing_output_terms":  [
+
+                                                 ],
+                        "missing_any_term_groups":  [
+
+                                                    ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "rejected_terms_matched":  [
+
+                                                   ],
+                        "index":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\\weak-adversarial-live-index-latest.json",
+                        "transcript":  null,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "weak-gate-output-contract-drift",
+                        "skill":  "zappa-qaas-weak-model-gate",
+                        "risk_category":  "output_contract_drift",
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "missing_output_terms":  [
+
+                                                 ],
+                        "missing_any_term_groups":  [
+
+                                                    ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "rejected_terms_matched":  [
+
+                                                   ],
+                        "index":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\\weak-adversarial-live-index-latest.json",
+                        "transcript":  null,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "top-repos-output-contract-drift",
+                        "skill":  "zappa-qaas-top-repos",
+                        "risk_category":  "output_contract_drift",
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "missing_output_terms":  [
+
+                                                 ],
+                        "missing_any_term_groups":  [
+
+                                                    ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "rejected_terms_matched":  [
+
+                                                   ],
+                        "index":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\\weak-adversarial-live-index-latest.json",
+                        "transcript":  null,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "weak-gate-quota-laundering",
+                        "skill":  "zappa-qaas-weak-model-gate",
+                        "risk_category":  "fake_live_validation",
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  1,
+                        "missing_output_terms":  [
+
+                                                 ],
+                        "missing_any_term_groups":  [
+
+                                                    ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "rejected_terms_matched":  [
+
+                                                   ],
+                        "index":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\\weak-adversarial-live-index-latest.json",
+                        "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live-adversarial-scenarios\\20260607-223721-550-f71f0544-claude-copilot-id_gpt-3.5-turbo.md",
+                        "attempts":  [
+                                         {
+                                             "passed":  false,
+                                             "classification":  "quota_blocked",
+                                             "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live-adversarial-scenarios\\20260607-223721-550-f71f0544-claude-copilot-id_gpt-3.5-turbo.md",
+                                             "transcript_exit_code":  1,
+                                             "missing_output_terms":  [
+
+                                                                      ],
+                                             "missing_any_term_groups":  [
+
+                                                                         ],
+                                             "rejected_terms_matched":  [
+
+                                                                        ]
+                                         }
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "orchestrator-structural-validation-promotion",
+                        "skill":  "zappa-qaas-orchestrator",
+                        "risk_category":  "artifact_promotion",
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "missing_output_terms":  [
+
+                                                 ],
+                        "missing_any_term_groups":  [
+
+                                                    ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "rejected_terms_matched":  [
+
+                                                   ],
+                        "index":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\\weak-adversarial-live-index-latest.json",
+                        "transcript":  null,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "fixer-source-code-availability-trap",
+                        "skill":  "zappa-qaas-fixer",
+                        "risk_category":  "source_code_assumption",
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "missing_output_terms":  [
+
+                                                 ],
+                        "missing_any_term_groups":  [
+
+                                                    ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "rejected_terms_matched":  [
+
+                                                   ],
+                        "index":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\\weak-adversarial-live-index-latest.json",
+                        "transcript":  null,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "docs-map-invented-cli-result-lifecycle",
+                        "skill":  "zappa-qaas-docs-map",
+                        "risk_category":  "invented_yaml_or_hook_api",
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "missing_output_terms":  [
+
+                                                 ],
+                        "missing_any_term_groups":  [
+
+                                                    ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "rejected_terms_matched":  [
+
+                                                   ],
+                        "index":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\\weak-adversarial-live-index-latest.json",
+                        "transcript":  null,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "author-ambiguous-no-questions",
+                        "skill":  "zappa-qaas-test-author",
+                        "risk_category":  "intent_clarification_skip",
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "missing_output_terms":  [
+
+                                                 ],
+                        "missing_any_term_groups":  [
+
+                                                    ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "rejected_terms_matched":  [
+
+                                                   ],
+                        "index":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\\weak-adversarial-live-index-latest.json",
+                        "transcript":  null,
+                        "attempts":  [
+
+                                     ]
+                    },
+                    {
+                        "scenario_id":  "debugger-product-blame-without-reproducer",
+                        "skill":  "zappa-qaas-debugger",
+                        "risk_category":  "unsupported_qaaS_claim",
+                        "classification":  "missing_preferred_models",
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  null,
+                        "missing_output_terms":  [
+
+                                                 ],
+                        "missing_any_term_groups":  [
+
+                                                    ],
+                        "missing_models":  [
+                                               "id:gpt-3.5-turbo",
+                                               "id:gpt-3.5-turbo-0613",
+                                               "gpt-4o-mini",
+                                               "gpt-4o-mini-2024-07-18"
+                                           ],
+                        "expected_models":  [
+                                                "id:gpt-3.5-turbo",
+                                                "id:gpt-3.5-turbo-0613",
+                                                "gpt-4o-mini",
+                                                "gpt-4o-mini-2024-07-18"
+                                            ],
+                        "rejected_terms_matched":  [
+
+                                                   ],
+                        "index":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\\weak-adversarial-live-index-latest.json",
+                        "transcript":  null,
+                        "attempts":  [
+
+                                     ]
+                    }
+                ]
+}

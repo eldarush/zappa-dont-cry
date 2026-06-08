@@ -1,0 +1,88 @@
+{
+    "schema_version":  1,
+    "status":  "passed",
+    "promotion_state":  "blocked",
+    "completion_ready":  false,
+    "repository":  "denoland/deno",
+    "validation_kind":  "selected_candidate_qaas_template_live",
+    "run_dir":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369",
+    "manifest":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\098-denoland-deno\\qaas-artifact-manifest.json",
+    "runtime_plan":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\098-denoland-deno\\candidate-runtime-plan.json",
+    "lifecycle_summary":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-lifecycle-deno.json",
+    "runner_project":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369\\runner\\ZappaSelectedDeno.Runner\\ZappaSelectedDeno.Runner.csproj",
+    "runner_program":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369\\runner\\ZappaSelectedDeno.Runner\\Program.cs",
+    "runner_yaml":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369\\runner\\ZappaSelectedDeno.Runner\\test.qaas.yaml",
+    "source_runner_yaml":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\098-denoland-deno\\test.qaas.yaml",
+    "assertion_project":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369\\assertions\\ZappaSelectedDeno.Assertions\\ZappaSelectedDeno.Assertions.csproj",
+    "assertion_source":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369\\assertions\\ZappaSelectedDeno.Assertions\\ExactHttpTextBody.cs",
+    "source_assertion":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\098-denoland-deno\\assertion-packets\\ExactHttpTextBody\\ExactHttpTextBody.cs",
+    "assertion_project_reference_transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369\\evidence\\reference-runner-assertion-project.transcript.txt",
+    "assertion_project_reference_added":  true,
+    "source_hashes":  {
+                          "candidate_yaml_sha256":  "c1012e008da066c0ecf086d5d2f0bee0fa9eae4d9de3e73af4aacaae16e9a849",
+                          "staged_yaml_sha256":  "7771a5b66f67d2d120019b0622b6284ff8c2a5fecc9735217154916bb6b239fc",
+                          "candidate_request_payload_sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                          "staged_request_payload_sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                          "candidate_server_sha256":  "c52b2aa85fa6788657755776334215d2e88e144058997cd23ac01975fdaf308e",
+                          "staged_server_sha256":  "c52b2aa85fa6788657755776334215d2e88e144058997cd23ac01975fdaf308e",
+                          "candidate_expected_body_sha256":  "315f5bdb76d078c43b8ac0064e4a0164612b1fce77c869345bfc94c75894edd3",
+                          "staged_expected_body_sha256":  "315f5bdb76d078c43b8ac0064e4a0164612b1fce77c869345bfc94c75894edd3",
+                          "candidate_assertion_sha256":  "ab8192653c11932b83cd6bfb26883c457fd7652b1d57c4229c90701eaa7ffe7a",
+                          "staged_assertion_sha256":  "ab8192653c11932b83cd6bfb26883c457fd7652b1d57c4229c90701eaa7ffe7a",
+                          "selected_readme_sha256":  "f2f46e9ea7c142ded604a46de3d5524e49c9a04580358a35b737b2ca1e11a1cc"
+                      },
+    "deno_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\toolchains\\deno\\v2.8.2-windows-amd64\\deno.exe",
+    "deno_version":  "deno 2.8.2 (stable, release, x86_64-pc-windows-msvc)",
+    "deno_version_stdout":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369\\evidence\\deno-version.stdout.txt",
+    "deno_version_stderr":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369\\evidence\\deno-version.stderr.txt",
+    "managed_toolchain_release_tag":  "v2.8.2",
+    "managed_toolchain_download_url":  "https://github.com/denoland/deno/releases/download/v2.8.2/deno-x86_64-pc-windows-msvc.zip",
+    "managed_toolchain_archive_sha256":  "6fe073b11cabeba2f2726d8a3d1592b198aec5f23dab3473d0dc8d5ec7aee1c9",
+    "deno_dir":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369\\deno-dir",
+    "deno_work_dir":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369\\deno-work",
+    "selected_readme_evidence":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\README.md",
+    "assertion_build_validation":  {
+                                       "status":  "passed",
+                                       "exit_code":  0,
+                                       "command":  "dotnet build D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369\\assertions\\ZappaSelectedDeno.Assertions\\ZappaSelectedDeno.Assertions.csproj --nologo -clp:ErrorsOnly",
+                                       "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369\\evidence\\build-assertion-library.transcript.txt"
+                                   },
+    "build_validation":  {
+                             "status":  "passed",
+                             "exit_code":  0,
+                             "command":  "dotnet build D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369\\runner\\ZappaSelectedDeno.Runner\\ZappaSelectedDeno.Runner.csproj --nologo -clp:ErrorsOnly",
+                             "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369\\evidence\\build-runner.transcript.txt"
+                         },
+    "template_validation":  {
+                                "status":  "passed",
+                                "exit_code":  0,
+                                "command":  "dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369\\runner\\ZappaSelectedDeno.Runner\\ZappaSelectedDeno.Runner.csproj -- template D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369\\runner\\ZappaSelectedDeno.Runner\\test.qaas.yaml --no-env",
+                                "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369\\evidence\\template-runner.transcript.txt"
+                            },
+    "live_validation":  {
+                            "status":  "passed",
+                            "exit_code":  0,
+                            "command":  "dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369\\runner\\ZappaSelectedDeno.Runner\\ZappaSelectedDeno.Runner.csproj -- run D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369\\runner\\ZappaSelectedDeno.Runner\\test.qaas.yaml -e --no-env",
+                            "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369\\evidence\\live-runner-run.transcript.txt"
+                        },
+    "response":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369\\evidence\\root-response.txt",
+    "response_status":  200,
+    "response_body_sha256":  "315f5bdb76d078c43b8ac0064e4a0164612b1fce77c869345bfc94c75894edd3",
+    "response_contract_passed":  true,
+    "cleanup_passed":  true,
+    "cleanup_process_ids":  [
+                                32024,
+                                2544
+                            ],
+    "remaining_tracked_process_ids":  [
+
+                                      ],
+    "port_owners_after_cleanup_count":  0,
+    "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369\\evidence\\selected-live-deno.transcript.txt",
+    "deno_stdout":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369\\evidence\\deno.stdout.txt",
+    "deno_stderr":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369\\evidence\\deno.stderr.txt",
+    "manifest_updated":  true,
+    "weak_validation_passed":  false,
+    "failure_reason":  "",
+    "exit_code":  0
+}

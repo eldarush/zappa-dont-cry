@@ -1,0 +1,24 @@
+# Docs-only QaaS top-repository Runner skeleton.
+# Status: blocked_until_repo_contract_review
+# Repository: ChatGPTNextWeb/NextChat
+# This is not executable until public runtime/API contracts define sessions, inputs, assertions, and cleanup.
+
+Links: []
+
+Storages: []
+
+DataSources: []
+
+Sessions: []
+
+Assertions:
+  - Assertion: __DOCUMENTED_ASSERTION_OR_CUSTOM__
+    AssertionConfiguration:
+      Repository: 'ChatGPTNextWeb/NextChat'
+      ContractStrength: 'readme_plus_runtime_hints'
+      EvidencePath: 'D:\QaaS\_tmp\zappa-dont-cry\top-repos\contracts\143-ChatGPTNextWeb-NextChat\README.snapshot.md'
+
+MetaData:
+  Repository: 'ChatGPTNextWeb/NextChat'
+  ContractStrength: 'readme_plus_runtime_hints'
+  BlockedReason: "Public repository contracts are not sufficient yet for executable QaaS Runner YAML."

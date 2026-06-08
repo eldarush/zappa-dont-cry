@@ -1,0 +1,213 @@
+{
+  "schema_version": 1,
+  "readiness_status": "blocked_until_airgapped_or_scope",
+  "completion_ready": false,
+  "selected_candidate_index": "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\selected-candidate-index.json",
+  "selected_candidate_count": 7,
+  "deterministic_ready_count": 6,
+  "qaas_validation_missing_count": 1,
+  "airgapped_missing_count": 7,
+  "docs_advisory_record_count": 6,
+  "scope_blocked_count": 2,
+  "by_readiness_class": {
+    "airgapped_only_blocked": 5,
+    "airgapped_plus_scope_blocked": 1,
+    "deterministic_evidence_blocked": 1
+  },
+  "by_blocker_class": {
+    "deterministic_evidence": 1,
+    "selected_scope": 2,
+    "weak_model": 7
+  },
+  "records": [
+    {
+      "repository": "denoland/deno",
+      "rank": 98,
+      "manifest": "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\098-denoland-deno\\qaas-artifact-manifest.json",
+      "promotion_state": "blocked",
+      "readiness_class": "airgapped_plus_scope_blocked",
+      "deterministic_ready": true,
+      "lifecycle_passed": true,
+      "template_live_passed": true,
+      "airgapped_missing": true,
+      "uses_builtin_httpstatus_assertion": true,
+      "tracks_httpstatus_docs_contract": true,
+      "docs_advisory_recorded": true,
+      "docs_advisory_blocking": false,
+      "scope_blocked": true,
+      "source_only_blockers": [
+        "deno-broad-runtime-coverage-not-selected",
+        "live-airgapped-weak-model-not-passed"
+      ],
+      "validation_advisories": [
+        "httpstatus-docs-inconsistency-recorded"
+      ],
+      "blocker_classes": [
+        "selected_scope",
+        "weak_model"
+      ],
+      "note": "HttpStatus docs inconsistency is blocking before QaaS validation and non-blocking after schema-derived template/live validation"
+    },
+    {
+      "repository": "fastapi/fastapi",
+      "rank": 114,
+      "manifest": "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\114-fastapi-fastapi\\qaas-artifact-manifest.json",
+      "promotion_state": "blocked",
+      "readiness_class": "airgapped_only_blocked",
+      "deterministic_ready": true,
+      "lifecycle_passed": true,
+      "template_live_passed": true,
+      "airgapped_missing": true,
+      "uses_builtin_httpstatus_assertion": true,
+      "tracks_httpstatus_docs_contract": true,
+      "docs_advisory_recorded": true,
+      "docs_advisory_blocking": false,
+      "scope_blocked": false,
+      "source_only_blockers": [
+        "live-airgapped-weak-model-not-passed"
+      ],
+      "validation_advisories": [
+        "httpstatus-docs-inconsistency-recorded"
+      ],
+      "blocker_classes": [
+        "weak_model"
+      ],
+      "note": "HttpStatus docs inconsistency is blocking before QaaS validation and non-blocking after schema-derived template/live validation"
+    },
+    {
+      "repository": "gin-gonic/gin",
+      "rank": 138,
+      "manifest": "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\138-gin-gonic-gin\\qaas-artifact-manifest.json",
+      "promotion_state": "blocked",
+      "readiness_class": "airgapped_only_blocked",
+      "deterministic_ready": true,
+      "lifecycle_passed": true,
+      "template_live_passed": true,
+      "airgapped_missing": true,
+      "uses_builtin_httpstatus_assertion": true,
+      "tracks_httpstatus_docs_contract": true,
+      "docs_advisory_recorded": true,
+      "docs_advisory_blocking": false,
+      "scope_blocked": false,
+      "source_only_blockers": [
+        "live-airgapped-weak-model-not-passed"
+      ],
+      "validation_advisories": [
+        "httpstatus-docs-inconsistency-recorded"
+      ],
+      "blocker_classes": [
+        "weak_model"
+      ],
+      "note": "HttpStatus docs inconsistency is blocking before QaaS validation and non-blocking after schema-derived template/live validation"
+    },
+    {
+      "repository": "typicode/json-server",
+      "rank": 200,
+      "manifest": "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\200-typicode-json-server\\qaas-artifact-manifest.json",
+      "promotion_state": "blocked",
+      "readiness_class": "airgapped_only_blocked",
+      "deterministic_ready": true,
+      "lifecycle_passed": true,
+      "template_live_passed": true,
+      "airgapped_missing": true,
+      "uses_builtin_httpstatus_assertion": true,
+      "tracks_httpstatus_docs_contract": true,
+      "docs_advisory_recorded": true,
+      "docs_advisory_blocking": false,
+      "scope_blocked": false,
+      "source_only_blockers": [
+        "live-airgapped-weak-model-not-passed"
+      ],
+      "validation_advisories": [
+        "httpstatus-docs-inconsistency-recorded"
+      ],
+      "blocker_classes": [
+        "weak_model"
+      ],
+      "note": "HttpStatus docs inconsistency is blocking before QaaS validation and non-blocking after schema-derived template/live validation"
+    },
+    {
+      "repository": "pallets/flask",
+      "rank": 227,
+      "manifest": "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\227-pallets-flask\\qaas-artifact-manifest.json",
+      "promotion_state": "blocked",
+      "readiness_class": "airgapped_only_blocked",
+      "deterministic_ready": true,
+      "lifecycle_passed": true,
+      "template_live_passed": true,
+      "airgapped_missing": true,
+      "uses_builtin_httpstatus_assertion": true,
+      "tracks_httpstatus_docs_contract": true,
+      "docs_advisory_recorded": true,
+      "docs_advisory_blocking": false,
+      "scope_blocked": false,
+      "source_only_blockers": [
+        "live-airgapped-weak-model-not-passed"
+      ],
+      "validation_advisories": [
+        "httpstatus-docs-inconsistency-recorded"
+      ],
+      "blocker_classes": [
+        "weak_model"
+      ],
+      "note": "HttpStatus docs inconsistency is blocking before QaaS validation and non-blocking after schema-derived template/live validation"
+    },
+    {
+      "repository": "expressjs/express",
+      "rank": 243,
+      "manifest": "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\243-expressjs-express\\qaas-artifact-manifest.json",
+      "promotion_state": "blocked",
+      "readiness_class": "airgapped_only_blocked",
+      "deterministic_ready": true,
+      "lifecycle_passed": true,
+      "template_live_passed": true,
+      "airgapped_missing": true,
+      "uses_builtin_httpstatus_assertion": true,
+      "tracks_httpstatus_docs_contract": true,
+      "docs_advisory_recorded": true,
+      "docs_advisory_blocking": false,
+      "scope_blocked": false,
+      "source_only_blockers": [
+        "live-airgapped-weak-model-not-passed"
+      ],
+      "validation_advisories": [
+        "httpstatus-docs-inconsistency-recorded"
+      ],
+      "blocker_classes": [
+        "weak_model"
+      ],
+      "note": "HttpStatus docs inconsistency is blocking before QaaS validation and non-blocking after schema-derived template/live validation"
+    },
+    {
+      "repository": "unclecode/crawl4ai",
+      "rank": 250,
+      "manifest": "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\250-unclecode-crawl4ai\\qaas-artifact-manifest.json",
+      "promotion_state": "blocked",
+      "readiness_class": "deterministic_evidence_blocked",
+      "deterministic_ready": false,
+      "lifecycle_passed": false,
+      "template_live_passed": false,
+      "airgapped_missing": true,
+      "uses_builtin_httpstatus_assertion": false,
+      "tracks_httpstatus_docs_contract": false,
+      "docs_advisory_recorded": false,
+      "docs_advisory_blocking": false,
+      "scope_blocked": true,
+      "source_only_blockers": [
+        "crawl4ai-docker-lifecycle-not-proven",
+        "crawl4ai-status-below-400-hook-not-template-validated",
+        "crawl4ai-health-body-contract-not-selected",
+        "crawl4ai-crawl-endpoint-not-promoted",
+        "qaas-template-live-not-run",
+        "live-airgapped-weak-model-not-passed"
+      ],
+      "validation_advisories": [],
+      "blocker_classes": [
+        "deterministic_evidence",
+        "selected_scope",
+        "weak_model"
+      ],
+      "note": "No built-in HttpStatus docs inconsistency tracking is required for this candidate"
+    }
+  ]
+}

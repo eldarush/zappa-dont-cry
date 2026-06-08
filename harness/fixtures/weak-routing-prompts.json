@@ -1,0 +1,14 @@
+{
+  "airgappedTerms": [
+    "airgapped testing",
+    "airgapped models",
+    "airgapped validation"
+  ],
+  "expected": {
+    "Harness": "claude-copilot",
+    "Profile": "airgapped",
+    "ReasoningEffort": "none",
+    "Models": "id:gpt-3.5-turbo",
+    "Airgapped": "True"
+  }
+}

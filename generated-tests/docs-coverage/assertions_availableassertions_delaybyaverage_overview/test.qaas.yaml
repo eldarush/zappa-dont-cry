@@ -1,0 +1,23 @@
+# Docs-only QaaS Runner skeleton.
+# Status: blocked_until_contract_review
+# Evidence: D:\QaaS\qaas-docs\docs\assertions\availableAssertions\DelayByAverage\overview.md
+# This is not executable until target sessions, data sources, and dependency gates are filled from public contracts.
+
+Links: []
+
+Storages: []
+
+DataSources: []
+
+Sessions: []
+
+Assertions:
+  - Assertion: __DOCUMENTED_ASSERTION_OR_CUSTOM__
+    AssertionConfiguration:
+      EvidencePath: 'D:\QaaS\qaas-docs\docs\assertions\availableAssertions\DelayByAverage\overview.md'
+      CoverageId: 'assertions_availableassertions_delaybyaverage_overview'
+
+MetaData:
+  CoverageId: 'assertions_availableassertions_delaybyaverage_overview'
+  SourceDocument: 'assertions\availableAssertions\DelayByAverage\overview.md'
+  BlockedReason: "Repository or component contract review required before executable YAML can be correct."

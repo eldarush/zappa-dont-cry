@@ -1,0 +1,406 @@
+﻿{
+    "schema_version":  1,
+    "campaign_id":  "promotion-seed-qaas-docs-hello-world-http",
+    "source_repository":  "qaas-docs",
+    "source_document":  "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\helloWorldHttp.md",
+    "docs_evidence":  [
+                          {
+                              "path":  "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\helloWorldHttp.md",
+                              "claim":  "Documents the smallest end-to-end Runner plus Mocker HTTP smoke test.",
+                              "supports":  [
+                                               "runner-mocker-http-seed",
+                                               "live_validation.command"
+                                           ]
+                          },
+                          {
+                              "path":  "D:\\QaaS\\qaas-docs\\docs\\processors\\availableProcessors\\StaticResponseProcessor\\overview.md",
+                              "claim":  "Documents StaticResponseProcessor and the /hello HTTP stub shape.",
+                              "supports":  [
+                                               "mocker.qaas.yaml",
+                                               "StaticResponseProcessor"
+                                           ]
+                          },
+                          {
+                              "path":  "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
+                              "claim":  "Documents HttpStatus assertion semantics.",
+                              "supports":  [
+                                               "test.qaas.yaml",
+                                               "HttpStatus"
+                                           ]
+                          },
+                          {
+                              "path":  "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json",
+                              "claim":  "Schema evidence for Runner YAML top-level sections and HttpStatus fields.",
+                              "supports":  [
+                                               "runner-family-schema",
+                                               "template_validation.command"
+                                           ]
+                          },
+                          {
+                              "path":  "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\mocker-family-schema.json",
+                              "claim":  "Schema evidence for Mocker YAML top-level sections and StaticResponseProcessor fields.",
+                              "supports":  [
+                                               "mocker-family-schema",
+                                               "template_validation.command"
+                                           ]
+                          }
+                      ],
+    "intent_questions":  [
+                             {
+                                 "question_id":  "behavior",
+                                 "question":  "What behavior must be proven?",
+                                 "self_answer":  "An HTTP Runner transaction must call a Mocker /hello endpoint and the HttpStatus assertion must observe HTTP 200.",
+                                 "answer_source":  "public_docs",
+                                 "risk_if_wrong":  "The seed would prove only process startup instead of QaaS act/assert behavior.",
+                                 "how_to_override":  "Provide a different public docs-backed behavior and update the seed YAML plus manifest evidence.",
+                                 "public_evidence":  [
+                                                         "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\helloWorldHttp.md"
+                                                     ]
+                             },
+                             {
+                                 "question_id":  "boundary",
+                                 "question":  "What is the system boundary: Runner target, Mocker dependency, hook host, or configuration-as-code?",
+                                 "self_answer":  "The boundary is a Runner host plus a local Mocker dependency; no top-repo code and no private QaaS source are required.",
+                                 "answer_source":  "public_docs",
+                                 "risk_if_wrong":  "A broader boundary would need repository-specific contracts and more dependency gates.",
+                                 "how_to_override":  "Add explicit repo/component contracts before broadening the seed.",
+                                 "public_evidence":  [
+                                                         "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\helloWorldHttp.md"
+                                                     ]
+                             },
+                             {
+                                 "question_id":  "docs_schema_evidence",
+                                 "question":  "What public docs/schema path proves the capability exists?",
+                                 "self_answer":  "The hello-world HTTP guide, StaticResponseProcessor docs, HttpStatus docs, and runner/mocker schema assets prove the YAML shape.",
+                                 "answer_source":  "public_docs",
+                                 "risk_if_wrong":  "Unsupported YAML fields could be generated for weak models.",
+                                 "how_to_override":  "Update docs evidence and rerun template validation.",
+                                 "public_evidence":  [
+                                                         "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\helloWorldHttp.md",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\processors\\availableProcessors\\StaticResponseProcessor\\overview.md",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\mocker-family-schema.json"
+                                                     ]
+                             },
+                             {
+                                 "question_id":  "inputs_outputs_side_effects",
+                                 "question":  "What inputs, outputs, and side effects prove success?",
+                                 "self_answer":  "Input is the Runner HTTP GET; output is a saved transaction with HTTP status 200; side effects are local session data and Allure results.",
+                                 "answer_source":  "public_docs",
+                                 "risk_if_wrong":  "The assertion could pass against the wrong output name or stale session data.",
+                                 "how_to_override":  "Change OutputNames and clear storage through the live validation command.",
+                                 "public_evidence":  [
+                                                         "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md"
+                                                     ]
+                             },
+                             {
+                                 "question_id":  "negative_cases",
+                                 "question":  "Which negative, malformed, outage, retry, cleanup, and observability cases matter?",
+                                 "self_answer":  "The seed covers only the positive HTTP 200 path; outage and wrong-status cases remain future negative coverage.",
+                                 "answer_source":  "blocked",
+                                 "risk_if_wrong":  "The seed may be overinterpreted as broad HTTP coverage.",
+                                 "how_to_override":  "Add negative seed cases after the positive lifecycle is promotable.",
+                                 "public_evidence":  [
+                                                         "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\helloWorldHttp.md"
+                                                     ]
+                             },
+                             {
+                                 "question_id":  "dependencies",
+                                 "question":  "Which dependencies must exist: broker, HTTP endpoint, database, Redis, S3, Kubernetes, filesystem, credentials, ports?",
+                                 "self_answer":  "Only .NET SDK, local QaaS NuGet packages, and an available localhost HTTP port are required.",
+                                 "answer_source":  "assumption",
+                                 "risk_if_wrong":  "Port conflicts or missing local packages will block template/build/live evidence.",
+                                 "how_to_override":  "Pass a different PreferredPort or restore package source, then regenerate the seed.",
+                                 "public_evidence":  [
+                                                         "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\installation.md"
+                                                     ]
+                             },
+                             {
+                                 "question_id":  "runnability",
+                                 "question":  "What can run now, and what must be deferred?",
+                                 "self_answer":  "Template, build, and local live Runner/Mocker validation can run now; executable promotion is deferred until live airgapped weak validation passes.",
+                                 "answer_source":  "blocked",
+                                 "risk_if_wrong":  "Dry-run weak validation could be mistaken for live weak-model behavior.",
+                                 "how_to_override":  "Rerun with AttemptLiveAirgapped when hosted weak-model quota is available.",
+                                 "public_evidence":  [
+                                                         "D:\\QaaS\\_tools\\zappa-harness\\references\\airgapped-validation.md"
+                                                     ]
+                             }
+                         ],
+    "intent_assumptions":  [
+                               {
+                                   "assumption":  "The local dotnet templates represent the public QaaS Runner and Mocker host pattern.",
+                                   "why_safe":  "The public docs invoke dotnet new qaas-runner and qaas-mocker for these hosts.",
+                                   "risk_if_wrong":  "Generated hosts may not match published package behavior.",
+                                   "how_to_override":  "Use an explicitly provided public host template or package version.",
+                                   "public_evidence":  [
+                                                           "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\installation.md"
+                                                       ]
+                               },
+                               {
+                                   "assumption":  "A localhost port can be allocated for the Mocker HTTP server.",
+                                   "why_safe":  "The generator probes for an available port before writing YAML.",
+                                   "risk_if_wrong":  "A race could still occupy the port before live validation.",
+                                   "how_to_override":  "Rerun with a different PreferredPort.",
+                                   "public_evidence":  [
+                                                           "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\helloWorldHttp.md"
+                                                       ]
+                               },
+                               {
+                                   "assumption":  "The positive HTTP 200 seed is a lifecycle seed, not full HTTP coverage.",
+                                   "why_safe":  "The manifest stays blocked and records missing negative coverage.",
+                                   "risk_if_wrong":  "Users may overgeneralize the seed.",
+                                   "how_to_override":  "Add separate negative cases and assertions.",
+                                   "public_evidence":  [
+                                                           "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md"
+                                                       ]
+                               },
+                               {
+                                   "assumption":  "StaticResponseProcessor is available through the local QaaS.Common.Processors package.",
+                                   "why_safe":  "The local package source contains QaaS.Common.Processors and the docs document StaticResponseProcessor.",
+                                   "risk_if_wrong":  "Mocker template validation or live startup will fail.",
+                                   "how_to_override":  "Provide a package source with the documented processor package.",
+                                   "public_evidence":  [
+                                                           "D:\\QaaS\\qaas-docs\\docs\\processors\\availableProcessors\\StaticResponseProcessor\\overview.md"
+                                                       ]
+                               },
+                               {
+                                   "assumption":  "HttpStatus uses StatusCode and OutputNames despite helloWorldHttp prose showing ExpectedStatus.",
+                                   "why_safe":  "The schema and HttpStatus reference page agree on StatusCode and OutputNames.",
+                                   "risk_if_wrong":  "The Runner template command would reject the assertion configuration.",
+                                   "how_to_override":  "Regenerate from updated schema if the public schema changes.",
+                                   "public_evidence":  [
+                                                           "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json",
+                                                           "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md"
+                                                       ]
+                               },
+                               {
+                                   "assumption":  "Airgapped dry-run output is useful prompt assembly evidence only.",
+                                   "why_safe":  "The weak-model gate forbids accepting dry-run weak validation as behavior.",
+                                   "risk_if_wrong":  "The seed could be promoted without a weak model actually following the skill.",
+                                   "how_to_override":  "Rerun live airgapped validation and require status passed.",
+                                   "public_evidence":  [
+                                                           "D:\\QaaS\\_tools\\zappa-harness\\references\\airgapped-validation.md"
+                                                       ]
+                               },
+                               {
+                                   "assumption":  "No top-repo contract is needed for this docs-owned seed.",
+                                   "why_safe":  "The seed\u0027s source_repository is qaas-docs rather than a target repo.",
+                                   "risk_if_wrong":  "The seed would not prove top-250 repo readiness.",
+                                   "how_to_override":  "Keep top-repo promotion separate and require repo contracts.",
+                                   "public_evidence":  [
+                                                           "D:\\QaaS\\_tools\\zappa-harness\\references\\artifact-contract.md"
+                                                       ]
+                               }
+                           ],
+    "artifacts":  [
+                      "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\runner\\ZappaPromotionSeed.Runner\\test.qaas.yaml",
+                      "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\mocker\\ZappaPromotionSeed.Mocker\\mocker.qaas.yaml"
+                  ],
+    "artifact_count":  2,
+    "artifact_types":  [
+                           "runner-yaml",
+                           "mocker-yaml"
+                       ],
+    "cases":  [
+                  {
+                      "case_id":  "hello-world-http-runner",
+                      "scenario":  "Runner calls the Mocker /hello endpoint and asserts HTTP 200.",
+                      "artifact_type":  "runner-yaml",
+                      "public_evidence":  [
+                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\helloWorldHttp.md",
+                                              "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md"
+                                          ],
+                      "setup":  [
+                                    "Start the generated Mocker host on localhost port 18080."
+                                ],
+                      "action":  [
+                                     "Run dotnet run --project runner -- run test.qaas.yaml -e --no-env."
+                                 ],
+                      "assertions":  [
+                                         "HttpStatus checks OutputNames [CallHello] for StatusCode 200."
+                                     ],
+                      "cleanup":  [
+                                      "Stop the Mocker process.",
+                                      "Clear generated session-data and allure-results on the next regeneration."
+                                  ],
+                      "blocked_reason":  "Template/build/local live validation is recorded, but live airgapped weak-model validation has not passed.",
+                      "artifact_paths":  [
+                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\runner\\ZappaPromotionSeed.Runner\\test.qaas.yaml"
+                                         ]
+                  },
+                  {
+                      "case_id":  "hello-world-http-mocker",
+                      "scenario":  "Mocker exposes /hello using StaticResponseProcessor.",
+                      "artifact_type":  "mocker-yaml",
+                      "public_evidence":  [
+                                              "D:\\QaaS\\qaas-docs\\docs\\processors\\availableProcessors\\StaticResponseProcessor\\overview.md"
+                                          ],
+                      "setup":  [
+                                    "Build the generated Mocker host with QaaS.Common.Processors."
+                                ],
+                      "action":  [
+                                     "Run dotnet run --project mocker -- run mocker.qaas.yaml --no-env."
+                                 ],
+                      "assertions":  [
+                                         "Readiness probe receives HTTP 200 from /hello before Runner starts."
+                                     ],
+                      "cleanup":  [
+                                      "Stop the Mocker process after Runner validation."
+                                  ],
+                      "blocked_reason":  "Template/build/local live validation is recorded, but live airgapped weak-model validation has not passed.",
+                      "artifact_paths":  [
+                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\mocker\\ZappaPromotionSeed.Mocker\\mocker.qaas.yaml"
+                                         ]
+                  }
+              ],
+    "assertions":  [
+                       "HttpStatus StatusCode=200 for output CallHello"
+                   ],
+    "dependency_gates":  [
+                             {
+                                 "gate_id":  "local-dotnet-sdk",
+                                 "kind":  "runtime",
+                                 "required":  true,
+                                 "status":  "passed",
+                                 "evidence":  [
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\evidence\\dotnet-new-runner.transcript.txt",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\evidence\\dotnet-new-mocker.transcript.txt"
+                                              ],
+                                 "check_command":  "dotnet new qaas-runner and dotnet new qaas-mocker",
+                                 "blocked_reason":  ""
+                             },
+                             {
+                                 "gate_id":  "qaas-template",
+                                 "kind":  "qaas-template",
+                                 "required":  true,
+                                 "status":  "passed",
+                                 "evidence":  [
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\evidence\\template-validation.transcript.txt"
+                                              ],
+                                 "check_command":  "dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\runner\\ZappaPromotionSeed.Runner\\ZappaPromotionSeed.Runner.csproj -- template D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\runner\\ZappaPromotionSeed.Runner\\test.qaas.yaml --no-env ; dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\mocker\\ZappaPromotionSeed.Mocker\\ZappaPromotionSeed.Mocker.csproj -- template D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\mocker\\ZappaPromotionSeed.Mocker\\mocker.qaas.yaml --no-env",
+                                 "blocked_reason":  ""
+                             },
+                             {
+                                 "gate_id":  "qaas-build",
+                                 "kind":  "qaas-build",
+                                 "required":  true,
+                                 "status":  "passed",
+                                 "evidence":  [
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\evidence\\build-validation.transcript.txt"
+                                              ],
+                                 "check_command":  "dotnet build D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\runner\\ZappaPromotionSeed.Runner\\ZappaPromotionSeed.Runner.csproj --nologo -clp:ErrorsOnly ; dotnet build D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\mocker\\ZappaPromotionSeed.Mocker\\ZappaPromotionSeed.Mocker.csproj --nologo -clp:ErrorsOnly",
+                                 "blocked_reason":  ""
+                             },
+                             {
+                                 "gate_id":  "local-live-run",
+                                 "kind":  "runtime",
+                                 "required":  true,
+                                 "status":  "passed",
+                                 "evidence":  [
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\evidence\\live-validation.transcript.txt"
+                                              ],
+                                 "check_command":  "dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\mocker\\ZappaPromotionSeed.Mocker\\ZappaPromotionSeed.Mocker.csproj -- run D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\mocker\\ZappaPromotionSeed.Mocker\\mocker.qaas.yaml --no-env ; dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\runner\\ZappaPromotionSeed.Runner\\ZappaPromotionSeed.Runner.csproj -- run D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\runner\\ZappaPromotionSeed.Runner\\test.qaas.yaml -e --no-env",
+                                 "blocked_reason":  ""
+                             },
+                             {
+                                 "gate_id":  "live-airgapped-weak-model",
+                                 "kind":  "airgapped",
+                                 "required":  true,
+                                 "status":  "blocked",
+                                 "evidence":  [
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\evidence\\airgapped-validation.transcript.txt",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\evidence\\airgapped-validation.transcript.txt"
+                                              ],
+                                 "check_command":  "run-airgapped-validation.ps1 for zappa-qaas-test-author",
+                                 "blocked_reason":  "Only dry-run prompt assembly was executed; live weak-model behavior is still required."
+                             }
+                         ],
+    "cleanup":  [
+                    "Stop background Mocker process",
+                    "Regeneration removes prior promotion seed directory after path guard validation"
+                ],
+    "status":  "blocked_until_contract_review",
+    "promotion_state":  "blocked",
+    "promotion_requirements":  {
+                                   "current_state":  "blocked",
+                                   "required_evidence":  [
+                                                             "Public API, CLI, or runtime contract",
+                                                             "Public input and expected-output contract",
+                                                             "Public dependency/stub contract",
+                                                             "Cleanup contract",
+                                                             "QaaS template validation result",
+                                                             "C# build result when code artifacts exist",
+                                                             "Live QaaS run/act/assert result when dependency gates are ready",
+                                                             "Airgapped weak-model validation transcript"
+                                                         ]
+                               },
+    "validation_sequence":  [
+                                "Generate Runner and Mocker hosts with dotnet new.",
+                                "Pin local QaaS packages from D:\\QaaS\\_localfeed\\packages.",
+                                "Write schema-backed Runner and Mocker YAML from public docs.",
+                                "Run dotnet build for both generated hosts.",
+                                "Run dotnet run -- template for both YAML files.",
+                                "Start Mocker, wait for /hello, and run Runner with -e.",
+                                "Run airgapped weak-model validation; dry-run evidence is not promotion evidence."
+                            ],
+    "template_validation":  {
+                                "status":  "passed",
+                                "exit_code":  0,
+                                "command":  "dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\runner\\ZappaPromotionSeed.Runner\\ZappaPromotionSeed.Runner.csproj -- template D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\runner\\ZappaPromotionSeed.Runner\\test.qaas.yaml --no-env ; dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\mocker\\ZappaPromotionSeed.Mocker\\ZappaPromotionSeed.Mocker.csproj -- template D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\mocker\\ZappaPromotionSeed.Mocker\\mocker.qaas.yaml --no-env",
+                                "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\evidence\\template-validation.transcript.txt"
+                            },
+    "build_validation":  {
+                             "status":  "passed",
+                             "exit_code":  0,
+                             "command":  "dotnet build D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\runner\\ZappaPromotionSeed.Runner\\ZappaPromotionSeed.Runner.csproj --nologo -clp:ErrorsOnly ; dotnet build D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\mocker\\ZappaPromotionSeed.Mocker\\ZappaPromotionSeed.Mocker.csproj --nologo -clp:ErrorsOnly",
+                             "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\evidence\\build-validation.transcript.txt"
+                         },
+    "live_validation":  {
+                            "status":  "passed",
+                            "exit_code":  0,
+                            "command":  "dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\mocker\\ZappaPromotionSeed.Mocker\\ZappaPromotionSeed.Mocker.csproj -- run D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\mocker\\ZappaPromotionSeed.Mocker\\mocker.qaas.yaml --no-env ; dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\runner\\ZappaPromotionSeed.Runner\\ZappaPromotionSeed.Runner.csproj -- run D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\runner\\ZappaPromotionSeed.Runner\\test.qaas.yaml -e --no-env",
+                            "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\evidence\\live-validation.transcript.txt"
+                        },
+    "airgapped_validation":  {
+                                 "required":  true,
+                                 "status":  "dry_run_prompt_assembly",
+                                 "dry_run":  true,
+                                 "weak_validation_passed":  false,
+                                 "exit_code":  1,
+                                 "command":  "run-airgapped-validation.ps1",
+                                 "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\evidence\\airgapped-validation.transcript.txt",
+                                 "summary":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\evidence\\airgapped-validation.transcript.txt",
+                                 "index":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\promotion-seed\\qaas-docs-hello-world-http\\airgapped\\promotion-seed-airgapped-index.json",
+                                 "expected_patterns":  [
+                                                           "intent_assumptions",
+                                                           "docs_evidence",
+                                                           "artifact_plan",
+                                                           "validation_sequence",
+                                                           "airgapped_result",
+                                                           "strong_review",
+                                                           "next_blocker",
+                                                           "weak_validation_passed:\\s*true",
+                                                           "dry_run:\\s*false"
+                                                       ]
+                             },
+    "source_only_blockers":  [
+                                 {
+                                     "blocker_id":  "promotion-seed-live-airgapped-not-passed",
+                                     "blocker_type":  "qaas_docs_contract",
+                                     "description":  "The docs-backed seed cannot be promoted until live airgapped weak-model validation passes.",
+                                     "required_evidence":  [
+                                                               "Live weak-model transcript for this seed with weak_validation_passed: true and dry_run: false."
+                                                           ],
+                                     "public_evidence":  [
+                                                             "D:\\QaaS\\_tools\\zappa-harness\\references\\airgapped-validation.md"
+                                                         ],
+                                     "unblock_instruction":  "Rerun generate-promotion-seed.ps1 with -AttemptLiveAirgapped after hosted weak-model quota is available."
+                                 }
+                             ],
+    "blocked_reason":  "Template/build/local live validation is recorded, but live airgapped weak-model validation has not passed.",
+    "validation_evidence":  {
+
+                            }
+}

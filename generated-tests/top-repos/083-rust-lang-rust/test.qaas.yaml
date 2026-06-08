@@ -1,0 +1,24 @@
+# Docs-only QaaS top-repository Runner skeleton.
+# Status: blocked_until_repo_contract_review
+# Repository: rust-lang/rust
+# This is not executable until public runtime/API contracts define sessions, inputs, assertions, and cleanup.
+
+Links: []
+
+Storages: []
+
+DataSources: []
+
+Sessions: []
+
+Assertions:
+  - Assertion: __DOCUMENTED_ASSERTION_OR_CUSTOM__
+    AssertionConfiguration:
+      Repository: 'rust-lang/rust'
+      ContractStrength: 'contract_files_found'
+      EvidencePath: 'D:\QaaS\_tmp\zappa-dont-cry\top-repos\contracts\083-rust-lang-rust\README.snapshot.md'
+
+MetaData:
+  Repository: 'rust-lang/rust'
+  ContractStrength: 'contract_files_found'
+  BlockedReason: "Public repository contracts are not sufficient yet for executable QaaS Runner YAML."

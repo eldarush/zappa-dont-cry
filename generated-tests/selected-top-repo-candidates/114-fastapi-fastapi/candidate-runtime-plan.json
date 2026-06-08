@@ -1,0 +1,81 @@
+{
+    "schema_version":  1,
+    "repository":  "fastapi/fastapi",
+    "rank":  114,
+    "status":  "candidate_runtime_plan_blocked",
+    "promotion_state":  "blocked",
+    "lifecycle_owner":  "external_harness_not_qaas_yaml",
+    "command_support":  "candidate-executable-command",
+    "command":  "fastapi dev",
+    "working_directory":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\114-fastapi-fastapi\\app",
+    "fixture":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\114-fastapi-fastapi\\app\\main.py",
+    "expected_listen_url":  "http://127.0.0.1:8000",
+    "readiness_probe":  {
+                            "method":  "GET",
+                            "url":  "http://127.0.0.1:8000/items/5?q=somequery",
+                            "expected_status":  200,
+                            "expected_json":  {
+                                                  "item_id":  5,
+                                                  "q":  "somequery"
+                                              }
+                        },
+    "cleanup":  {
+                    "required":  true,
+                    "strategy":  "terminate_tracked_process_tree",
+                    "status":  "passed",
+                    "evidence":  [
+                                     "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-lifecycle-fastapi.json",
+                                     "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-114925-473\\evidence\\fastapi-lifecycle.transcript.txt"
+                                 ]
+                },
+    "blockers":  [
+                     "run_live_airgapped_weak_model_validation",
+                     "run_strong_review_against_selected_contract_evidence"
+                 ],
+    "public_evidence":  [
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\selected-contract.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\repo-contract.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\README.snapshot.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\tree.snapshot.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\README.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\pyproject.toml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-callbacks.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-webhooks.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\how-to\\conditional-openapi.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\add-to-project.yml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\build-docs.yml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\scripts\\tests\\test_translation_fixer\\conftest.py",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\README.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\pyproject.toml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-callbacks.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-webhooks.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\how-to\\conditional-openapi.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\add-to-project.yml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\build-docs.yml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\scripts\\tests\\test_translation_fixer\\conftest.py"
+                        ],
+    "lifecycle_validation":  {
+                                 "status":  "passed",
+                                 "exit_code":  0,
+                                 "command":  "fastapi dev ; GET http://127.0.0.1:8000/items/5?q=somequery ; terminate tracked process tree",
+                                 "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-114925-473\\evidence\\fastapi-lifecycle.transcript.txt",
+                                 "summary":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-lifecycle-fastapi.json",
+                                 "response":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-114925-473\\evidence\\items-5-response.json",
+                                 "cleanup_process_ids":  [
+                                                             18900,
+                                                             18184,
+                                                             8748,
+                                                             15888,
+                                                             20644
+                                                         ]
+                             },
+    "qaas_validation":  {
+                            "status":  "passed",
+                            "exit_code":  0,
+                            "command":  "dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\runner\\ZappaSelectedFastApi.Runner\\ZappaSelectedFastApi.Runner.csproj -- template D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\runner\\ZappaSelectedFastApi.Runner\\test.qaas.yaml --no-env ; fastapi dev ; dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\runner\\ZappaSelectedFastApi.Runner\\ZappaSelectedFastApi.Runner.csproj -- run D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\runner\\ZappaSelectedFastApi.Runner\\test.qaas.yaml -e --no-env",
+                            "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\evidence\\selected-live-fastapi.transcript.txt",
+                            "summary":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-live-fastapi.json",
+                            "response":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\evidence\\items-5-response.json",
+                            "run_dir":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979"
+                        }
+}

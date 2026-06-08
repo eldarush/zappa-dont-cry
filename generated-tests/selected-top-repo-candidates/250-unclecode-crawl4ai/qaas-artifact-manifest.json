@@ -1,0 +1,769 @@
+{
+    "schema_version":  1,
+    "campaign_id":  "selected-top-repo-crawl4ai-health-candidate",
+    "source_repository":  "unclecode/crawl4ai",
+    "repository_rank":  250,
+    "selected_contract":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\selected-contract.json",
+    "docs_evidence":  [
+                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\helloWorldHttp.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\actionSelectionPlaybook.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions-yamlView.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\storages\\configurations\\yamlView.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\dataSources\\configurations\\yamlView.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\yamlView.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\commands\\run.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\configuration\\yamlView.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\OutputContentByExpectedCsvResults\\overview.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\generators\\availableGenerators\\FromFileSystem\\overview.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json",
+                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\index.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\custom-authoring-guide.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\schema-extensions.md"
+                      ],
+    "public_evidence":  [
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\selected-contract.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\repo-contract.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\README.snapshot.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\tree.snapshot.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\pyproject.toml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\company_card.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\people_card.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\.github\\workflows\\docker-release.yml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\pyproject.toml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\company_card.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\people_card.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\.github\\workflows\\docker-release.yml"
+                        ],
+    "intent_questions":  [
+                             {
+                                 "question_id":  "behavior",
+                                 "question":  "What behavior must be proven?",
+                                 "self_answer":  "GET /health against the Dockerized Crawl4AI service must satisfy Docker curl -f semantics, meaning the observed HTTP status is below 400. The response body is not asserted.",
+                                 "answer_source":  "public_repo_contract",
+                                 "risk_if_wrong":  "A weak model may invent an exact status/body contract that the selected public evidence does not provide.",
+                                 "how_to_override":  "Add exact public /health response status/body evidence and rerun the selected candidate checker.",
+                                 "public_evidence":  [
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\selected-contract.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\repo-contract.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\README.snapshot.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\tree.snapshot.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\pyproject.toml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\company_card.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\people_card.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\.github\\workflows\\docker-release.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\pyproject.toml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\company_card.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\people_card.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\.github\\workflows\\docker-release.yml"
+                                                     ]
+                             },
+                             {
+                                 "question_id":  "boundary",
+                                 "question":  "What is the system boundary: Runner target, Mocker dependency, hook host, or configuration-as-code?",
+                                 "self_answer":  "The Runner target is an externally-started, test-owned Docker container exposing Crawl4AI on 127.0.0.1:11235. QaaS YAML performs only the HTTP transaction/assertion; the custom status assertion is a Runner hook and Docker lifecycle remains outside QaaS YAML.",
+                                 "answer_source":  "public_repo_contract",
+                                 "risk_if_wrong":  "A weak model may put Docker lifecycle fields into undocumented QaaS YAML or remove a user-owned container.",
+                                 "how_to_override":  "Provide documented QaaS lifecycle support or keep Docker lifecycle in the external harness plan.",
+                                 "public_evidence":  [
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\selected-contract.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\repo-contract.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\README.snapshot.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\tree.snapshot.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\pyproject.toml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\company_card.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\people_card.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\.github\\workflows\\docker-release.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\pyproject.toml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\company_card.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\people_card.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\.github\\workflows\\docker-release.yml"
+                                                     ]
+                             },
+                             {
+                                 "question_id":  "docs_schema_evidence",
+                                 "question":  "What public docs/schema path proves the capability exists?",
+                                 "self_answer":  "QaaS public docs/schema support HTTP Transactions, FromFileSystem payload data sources, and custom assertions by short type name; the custom assertion must still pass build/template/live validation.",
+                                 "answer_source":  "public_docs",
+                                 "risk_if_wrong":  "The YAML could cite a built-in range status assertion that does not exist.",
+                                 "how_to_override":  "Update docs evidence and rerun the selected candidate checker.",
+                                 "public_evidence":  [
+                                                         "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\helloWorldHttp.md",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\actionSelectionPlaybook.md",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions.md",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions-yamlView.md",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\storages\\configurations\\yamlView.md",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\dataSources\\configurations\\yamlView.md",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\yamlView.md",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\commands\\run.md",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\configuration\\yamlView.md",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\OutputContentByExpectedCsvResults\\overview.md",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\generators\\availableGenerators\\FromFileSystem\\overview.md",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\assertions\\index.md",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\assertions\\custom-authoring-guide.md",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\schema-extensions.md"
+                                                     ]
+                             },
+                             {
+                                 "question_id":  "inputs_outputs_side_effects",
+                                 "question":  "What inputs, outputs, and side effects prove success?",
+                                 "self_answer":  "Input is an empty GET request to /health. Output assertion is HTTP status less than 400 only. Body/schema and /crawl behavior are explicitly out of scope.",
+                                 "answer_source":  "public_repo_contract",
+                                 "risk_if_wrong":  "A weak model may promote /crawl or response body assertions from non-deterministic README snippets.",
+                                 "how_to_override":  "Harvest deterministic public body/schema evidence before adding those assertions.",
+                                 "public_evidence":  [
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\selected-contract.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\repo-contract.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\README.snapshot.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\tree.snapshot.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\pyproject.toml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\company_card.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\people_card.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\.github\\workflows\\docker-release.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\pyproject.toml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\company_card.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\people_card.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\.github\\workflows\\docker-release.yml"
+                                                     ]
+                             },
+                             {
+                                 "question_id":  "negative_cases",
+                                 "question":  "Which negative, malformed, outage, retry, cleanup, and observability cases matter?",
+                                 "self_answer":  "Negative, malformed, outage, retry, and observability cases remain blocked. Cleanup is explicitly required and must remove only a unique test-owned container. This candidate covers only the Docker /health happy path.",
+                                 "answer_source":  "blocked",
+                                 "risk_if_wrong":  "A weak model may claim broad Crawl4AI API coverage or safe Docker cleanup from one healthcheck.",
+                                 "how_to_override":  "Add exact public negative/observability contracts and live cleanup evidence before expanding assertions.",
+                                 "public_evidence":  [
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\selected-contract.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\repo-contract.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\README.snapshot.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\tree.snapshot.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\pyproject.toml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\company_card.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\people_card.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\.github\\workflows\\docker-release.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\pyproject.toml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\company_card.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\people_card.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\.github\\workflows\\docker-release.yml"
+                                                     ]
+                             },
+                             {
+                                 "question_id":  "dependencies",
+                                 "question":  "Which dependencies must exist: broker, HTTP endpoint, database, Redis, S3, Kubernetes, filesystem, credentials, ports?",
+                                 "self_answer":  "Docker must be available, image pull must succeed, the HTTP endpoint must bind 127.0.0.1:11235 safely, Redis and browser shared memory requirements must be satisfied inside the container, and cleanup must remove only a unique test-owned container.",
+                                 "answer_source":  "blocked",
+                                 "risk_if_wrong":  "The candidate may be promoted in an environment where Docker lifecycle is unsafe or unavailable.",
+                                 "how_to_override":  "Attach Docker lifecycle, readiness, cleanup, QaaS live, airgapped, and strong-review transcripts.",
+                                 "public_evidence":  [
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\selected-contract.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\repo-contract.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\README.snapshot.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\tree.snapshot.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\pyproject.toml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\company_card.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\people_card.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\.github\\workflows\\docker-release.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\pyproject.toml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\company_card.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\people_card.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\.github\\workflows\\docker-release.yml"
+                                                     ]
+                             },
+                             {
+                                 "question_id":  "runnability",
+                                 "question":  "What can run now, and what must be deferred?",
+                                 "self_answer":  "Static selected-candidate validation can run now. Docker lifecycle/cleanup, custom assertion build/template/live validation, QaaS live act/assert, strong review, and live airgapped weak-model validation are deferred and block promotion.",
+                                 "answer_source":  "blocked",
+                                 "risk_if_wrong":  "A weak model may confuse a blocked healthcheck candidate with an executable promoted test.",
+                                 "how_to_override":  "Attach passing Docker lifecycle, custom assertion build/template/live, QaaS live, cleanup, airgapped, and strong-review evidence.",
+                                 "public_evidence":  [
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\selected-contract.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\repo-contract.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\README.snapshot.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\tree.snapshot.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\pyproject.toml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\company_card.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\people_card.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\.github\\workflows\\docker-release.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\pyproject.toml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\company_card.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\people_card.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\.github\\workflows\\docker-release.yml"
+                                                     ]
+                             }
+                         ],
+    "intent_assumptions":  [
+                               {
+                                   "assumption":  "Docker curl -f /health is represented by a custom HttpStatusBelow400 assertion, not by built-in HttpStatus equality.",
+                                   "why_safe":  "The public Dockerfile and compose healthchecks use curl -f, and public QaaS docs support custom assertions when built and template-validated.",
+                                   "risk_if_wrong":  "A weak model may assert StatusCode 200 or body content without selected evidence.",
+                                   "how_to_override":  "Provide exact public status/body evidence or a different documented assertion.",
+                                   "public_evidence":  [
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\selected-contract.json",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\repo-contract.json",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\README.snapshot.md",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\tree.snapshot.json",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\pyproject.toml",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\company_card.json",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\people_card.json",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\.github\\workflows\\docker-release.yml",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\pyproject.toml",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\company_card.json",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\people_card.json",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\.github\\workflows\\docker-release.yml"
+                                                       ]
+                               },
+                               {
+                                   "assumption":  "The /crawl README example is not promoted.",
+                                   "why_safe":  "The selected README branches on results versus task_id and lacks a deterministic response body contract.",
+                                   "risk_if_wrong":  "A weak model may turn a sample client snippet into an exact API assertion.",
+                                   "how_to_override":  "Harvest exact public /crawl request and response contracts before promotion.",
+                                   "public_evidence":  [
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\selected-contract.json",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\repo-contract.json",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\README.snapshot.md",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\tree.snapshot.json",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\pyproject.toml",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\company_card.json",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\people_card.json",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\.github\\workflows\\docker-release.yml",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\pyproject.toml",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\company_card.json",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\people_card.json",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\.github\\workflows\\docker-release.yml"
+                                                       ]
+                               }
+                           ],
+    "artifacts":  [
+                      "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\250-unclecode-crawl4ai\\test.qaas.yaml",
+                      "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\250-unclecode-crawl4ai\\request-payloads\\get-health.bin",
+                      "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\250-unclecode-crawl4ai\\candidate-runtime-plan.json",
+                      "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\250-unclecode-crawl4ai\\qaas-artifact-manifest.json"
+                  ],
+    "artifact_count":  4,
+    "artifact_types":  [
+                           "runner-yaml",
+                           "request-payload",
+                           "custom-assertion",
+                           "dependency-gate",
+                           "documentation"
+                       ],
+    "cases":  [
+                  {
+                      "name":  "docker-health-curl-f",
+                      "method":  "GET",
+                      "route":  "/health",
+                      "status_semantics":  "http_status_less_than_400",
+                      "body_assertion":  "unasserted_no_public_body_contract"
+                  }
+              ],
+    "assertions":  [
+                       "Candidate Runner YAML uses a docs-derived custom HttpStatusBelow400 assertion for Docker curl -f semantics.",
+                       "Candidate intentionally does not assert /health response body or schema.",
+                       "Candidate intentionally does not promote /crawl from the README sample client."
+                   ],
+    "custom_assertion_packets":  [
+                                     {
+                                         "packet_id":  "crawl4ai-http-status-below-400",
+                                         "assertion_name":  "HttpStatusBelow400",
+                                         "status":  "blocked_until_build_template_live_airgapped_validation",
+                                         "promotion_state":  "blocked",
+                                         "activation":  "source_yaml_blocked",
+                                         "wired_into_runner_yaml":  true,
+                                         "source_files":  [
+                                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\250-unclecode-crawl4ai\\assertion-packets\\HttpStatusBelow400\\HttpStatusBelow400.cs"
+                                                          ],
+                                         "yaml_fragment":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\250-unclecode-crawl4ai\\assertion-packets\\HttpStatusBelow400\\HttpStatusBelow400.usage.yaml.txt",
+                                         "hook_plan":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\250-unclecode-crawl4ai\\assertion-packets\\HttpStatusBelow400\\custom-status-hook-plan.json",
+                                         "output_body_assertion":  "unasserted_no_public_body_contract",
+                                         "maximum_exclusive_status_code":  400,
+                                         "comparison":  "http_status_less_than",
+                                         "docs_evidence":  [
+                                                               "D:\\QaaS\\qaas-docs\\docs\\assertions\\index.md",
+                                                               "D:\\QaaS\\qaas-docs\\docs\\assertions\\custom-authoring-guide.md",
+                                                               "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
+                                                               "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions.md",
+                                                               "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions-yamlView.md",
+                                                               "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\schema-extensions.md",
+                                                               "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json"
+                                                           ],
+                                         "public_evidence":  [
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\selected-contract.json",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\repo-contract.json",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\README.snapshot.md",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\tree.snapshot.json",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\pyproject.toml",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\company_card.json",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\people_card.json",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\.github\\workflows\\docker-release.yml",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\pyproject.toml",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\company_card.json",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\people_card.json",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\.github\\workflows\\docker-release.yml"
+                                                             ],
+                                         "validation_records":  {
+                                                                    "build":  "not_run",
+                                                                    "schema":  "not_run",
+                                                                    "template":  "not_run",
+                                                                    "live":  "not_run",
+                                                                    "airgapped":  "not_run"
+                                                                },
+                                         "weak_validation_passed":  false
+                                     }
+                                 ],
+    "dependency_gates":  [
+                             {
+                                 "gate_id":  "selected-public-runtime-contract",
+                                 "kind":  "runtime",
+                                 "required":  true,
+                                 "status":  "ready",
+                                 "evidence":  [
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\selected-contract.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\repo-contract.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\README.snapshot.md",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\tree.snapshot.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\pyproject.toml",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\company_card.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\people_card.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\.github\\workflows\\docker-release.yml",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\pyproject.toml",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\company_card.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\people_card.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\.github\\workflows\\docker-release.yml"
+                                              ],
+                                 "check_command":  "",
+                                 "blocked_reason":  ""
+                             },
+                             {
+                                 "gate_id":  "selected-public-healthcheck-contract",
+                                 "kind":  "runtime",
+                                 "required":  true,
+                                 "status":  "ready",
+                                 "evidence":  [
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml"
+                                              ],
+                                 "check_command":  "",
+                                 "blocked_reason":  ""
+                             },
+                             {
+                                 "gate_id":  "qaas-docs-yaml-shape",
+                                 "kind":  "runtime",
+                                 "required":  true,
+                                 "status":  "ready",
+                                 "evidence":  [
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\helloWorldHttp.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\actionSelectionPlaybook.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions-yamlView.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\storages\\configurations\\yamlView.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\dataSources\\configurations\\yamlView.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\yamlView.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\commands\\run.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\configuration\\yamlView.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\OutputContentByExpectedCsvResults\\overview.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\generators\\availableGenerators\\FromFileSystem\\overview.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\index.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\custom-authoring-guide.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\schema-extensions.md"
+                                              ],
+                                 "check_command":  "D:\\QaaS\\_tools\\zappa-harness\\Invoke-ZappaHarness.ps1 -Suite selected-candidates",
+                                 "blocked_reason":  ""
+                             },
+                             {
+                                 "gate_id":  "http-status-below-400-assertion-or-hook",
+                                 "kind":  "qaas-build",
+                                 "required":  true,
+                                 "status":  "blocked",
+                                 "evidence":  [
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\250-unclecode-crawl4ai\\assertion-packets\\HttpStatusBelow400\\HttpStatusBelow400.cs",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\250-unclecode-crawl4ai\\assertion-packets\\HttpStatusBelow400\\HttpStatusBelow400.usage.yaml.txt",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\250-unclecode-crawl4ai\\assertion-packets\\HttpStatusBelow400\\custom-status-hook-plan.json"
+                                              ],
+                                 "check_command":  "",
+                                 "blocked_reason":  "The custom HttpStatusBelow400 assertion has not passed build/schema/template/live validation."
+                             },
+                             {
+                                 "gate_id":  "docker-crawl4ai-container-lifecycle",
+                                 "kind":  "dependency",
+                                 "required":  true,
+                                 "status":  "blocked",
+                                 "evidence":  [
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\selected-contract.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\repo-contract.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\README.snapshot.md",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\tree.snapshot.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\pyproject.toml",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\company_card.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\people_card.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\.github\\workflows\\docker-release.yml",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\pyproject.toml",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\company_card.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\people_card.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\.github\\workflows\\docker-release.yml"
+                                              ],
+                                 "check_command":  "",
+                                 "blocked_reason":  "Docker pull/run/readiness with a unique test-owned container has not been live-validated."
+                             },
+                             {
+                                 "gate_id":  "cleanup-contract",
+                                 "kind":  "cleanup",
+                                 "required":  true,
+                                 "status":  "blocked",
+                                 "evidence":  [
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\selected-contract.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\repo-contract.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\README.snapshot.md",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\tree.snapshot.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\pyproject.toml",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\company_card.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\people_card.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\.github\\workflows\\docker-release.yml",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\pyproject.toml",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\company_card.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\people_card.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\.github\\workflows\\docker-release.yml"
+                                              ],
+                                 "check_command":  "",
+                                 "blocked_reason":  "Unique test-owned container cleanup has not been live-validated."
+                             },
+                             {
+                                 "gate_id":  "qaas-template",
+                                 "kind":  "qaas-template",
+                                 "required":  true,
+                                 "status":  "blocked",
+                                 "evidence":  [
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\helloWorldHttp.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\actionSelectionPlaybook.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions-yamlView.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\storages\\configurations\\yamlView.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\dataSources\\configurations\\yamlView.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\yamlView.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\commands\\run.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\configuration\\yamlView.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\OutputContentByExpectedCsvResults\\overview.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\generators\\availableGenerators\\FromFileSystem\\overview.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\index.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\custom-authoring-guide.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\schema-extensions.md"
+                                              ],
+                                 "check_command":  "",
+                                 "blocked_reason":  "QaaS template validation has not run for this candidate."
+                             },
+                             {
+                                 "gate_id":  "qaas-live-act-assert",
+                                 "kind":  "qaas-build",
+                                 "required":  true,
+                                 "status":  "blocked",
+                                 "evidence":  [
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\helloWorldHttp.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\actionSelectionPlaybook.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions-yamlView.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\storages\\configurations\\yamlView.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\dataSources\\configurations\\yamlView.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\yamlView.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\commands\\run.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\configuration\\yamlView.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\OutputContentByExpectedCsvResults\\overview.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\generators\\availableGenerators\\FromFileSystem\\overview.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\index.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\custom-authoring-guide.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\schema-extensions.md"
+                                              ],
+                                 "check_command":  "",
+                                 "blocked_reason":  "Live QaaS run/act/assert has not run against a test-owned Crawl4AI container."
+                             },
+                             {
+                                 "gate_id":  "airgapped-validation",
+                                 "kind":  "airgapped",
+                                 "required":  true,
+                                 "status":  "blocked",
+                                 "evidence":  [
+
+                                              ],
+                                 "check_command":  "D:\\QaaS\\_tools\\weak-model-session.ps1 -Airgapped -All -ReasoningEffort none",
+                                 "blocked_reason":  "Live weak-model validation has not passed."
+                             }
+                         ],
+    "promotion_requirements":  {
+                                   "current_state":  "blocked",
+                                   "target_state":  "executable_ready",
+                                   "required_evidence":  [
+                                                             "Public API, CLI, or runtime contract",
+                                                             "Public input and expected-output contract",
+                                                             "Public dependency/stub contract",
+                                                             "Public Docker healthcheck contract",
+                                                             "Custom assertion build/schema/template validation",
+                                                             "C# build result when code artifacts exist",
+                                                             "Docker pull/run/readiness transcript with unique container name",
+                                                             "Cleanup contract",
+                                                             "Docker cleanup transcript proving no user-owned crawl4ai container was removed",
+                                                             "QaaS template validation result",
+                                                             "Live QaaS run/act/assert result when dependency gates are ready",
+                                                             "Airgapped weak-model validation transcript"
+                                                         ]
+                               },
+    "cleanup":  [
+                    "No live Docker cleanup was performed during static candidate generation."
+                ],
+    "validation_sequence":  [
+                                "Validate selected immutable public Docker healthcheck evidence.",
+                                "Validate QaaS public docs/schema fields and custom assertion plan.",
+                                "Run selected top-repo candidate checker.",
+                                "Run Docker lifecycle validation with a unique test-owned container.",
+                                "Build and template-validate the HttpStatusBelow400 assertion.",
+                                "Run live QaaS act/assert against the tracked container.",
+                                "Run live airgapped weak-model validation and strong review before promotion."
+                            ],
+    "airgapped_validation":  {
+                                 "required":  true,
+                                 "status":  "not_run_for_this_candidate",
+                                 "dry_run":  false
+                             },
+    "source_only_blockers":  [
+                                 {
+                                     "blocker_id":  "crawl4ai-docker-lifecycle-not-proven",
+                                     "blocker_type":  "repository_contract",
+                                     "description":  "The README command and Docker healthcheck are public evidence, but Docker image pull, startup, readiness, resource limits, and cleanup have not been executed and verified.",
+                                     "required_evidence":  [
+                                                               "Docker pull transcript",
+                                                               "Unique container run transcript",
+                                                               "Readiness probe transcript",
+                                                               "Cleanup transcript proving only the test-owned container was removed"
+                                                           ],
+                                     "public_evidence":  [
+                                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\selected-contract.json",
+                                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\repo-contract.json",
+                                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\README.snapshot.md",
+                                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\tree.snapshot.json",
+                                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\pyproject.toml",
+                                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml",
+                                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py",
+                                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\company_card.json",
+                                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\people_card.json",
+                                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\.github\\workflows\\docker-release.yml",
+                                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\pyproject.toml",
+                                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml",
+                                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py",
+                                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\company_card.json",
+                                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\people_card.json",
+                                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\.github\\workflows\\docker-release.yml"
+                                                         ],
+                                     "unblock_instruction":  "Run a Docker lifecycle harness that uses a unique container name and preserves any user-owned crawl4ai container."
+                                 },
+                                 {
+                                     "blocker_id":  "crawl4ai-status-below-400-hook-not-template-validated",
+                                     "blocker_type":  "qaas_docs_contract",
+                                     "description":  "A docs-derived HttpStatusBelow400 custom assertion is authored and referenced, but Runner assembly discovery, schema/template validation, build validation, and live QaaS act/assert have not passed.",
+                                     "required_evidence":  [
+                                                               "Assertion build transcript",
+                                                               "Runner project reference transcript",
+                                                               "Template validation transcript",
+                                                               "Live QaaS act/assert transcript"
+                                                           ],
+                                     "public_evidence":  [
+                                                             "D:\\QaaS\\qaas-docs\\docs\\assertions\\index.md",
+                                                             "D:\\QaaS\\qaas-docs\\docs\\assertions\\custom-authoring-guide.md",
+                                                             "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
+                                                             "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions.md",
+                                                             "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions-yamlView.md",
+                                                             "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\schema-extensions.md",
+                                                             "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json",
+                                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\250-unclecode-crawl4ai\\assertion-packets\\HttpStatusBelow400\\HttpStatusBelow400.cs",
+                                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\250-unclecode-crawl4ai\\assertion-packets\\HttpStatusBelow400\\HttpStatusBelow400.usage.yaml.txt",
+                                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\250-unclecode-crawl4ai\\assertion-packets\\HttpStatusBelow400\\custom-status-hook-plan.json"
+                                                         ],
+                                     "unblock_instruction":  "Reference the assertion assembly, regenerate schema/clean bin, run QaaS template validation, then run live QaaS act/assert before promotion."
+                                 },
+                                 {
+                                     "blocker_id":  "crawl4ai-health-body-contract-not-selected",
+                                     "blocker_type":  "source_boundary",
+                                     "description":  "Selected public evidence defines Docker curl -f status semantics for /health, but no exact response body or schema contract.",
+                                     "required_evidence":  [
+                                                               "Immutable public /health response body or schema evidence"
+                                                           ],
+                                     "public_evidence":  [
+                                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml"
+                                                         ],
+                                     "unblock_instruction":  "Do not add body/schema assertions until deterministic public evidence is harvested."
+                                 },
+                                 {
+                                     "blocker_id":  "crawl4ai-crawl-endpoint-not-promoted",
+                                     "blocker_type":  "source_boundary",
+                                     "description":  "The README /crawl sample branches between results and task_id polling; it is not a deterministic input/output contract.",
+                                     "required_evidence":  [
+                                                               "Exact public /crawl request/response status/body contract",
+                                                               "Side-effect and cleanup contract"
+                                                           ],
+                                     "public_evidence":  [
+                                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py"
+                                                         ],
+                                     "unblock_instruction":  "Keep /crawl out of candidate YAML until exact response and side-effect evidence exists."
+                                 },
+                                 {
+                                     "blocker_id":  "qaas-template-live-not-run",
+                                     "blocker_type":  "qaas_docs_contract",
+                                     "description":  "The Runner YAML and custom assertion are schema-derived but have not passed QaaS template or live act/assert validation.",
+                                     "required_evidence":  [
+                                                               "QaaS template validation transcript",
+                                                               "Live QaaS run/act/assert transcript"
+                                                           ],
+                                     "public_evidence":  [
+                                                             "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\helloWorldHttp.md",
+                                                             "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\actionSelectionPlaybook.md",
+                                                             "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions.md",
+                                                             "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions-yamlView.md",
+                                                             "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\storages\\configurations\\yamlView.md",
+                                                             "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\dataSources\\configurations\\yamlView.md",
+                                                             "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\yamlView.md",
+                                                             "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\commands\\run.md",
+                                                             "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
+                                                             "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\configuration\\yamlView.md",
+                                                             "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\OutputContentByExpectedCsvResults\\overview.md",
+                                                             "D:\\QaaS\\qaas-docs\\docs\\generators\\availableGenerators\\FromFileSystem\\overview.md",
+                                                             "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json",
+                                                             "D:\\QaaS\\qaas-docs\\docs\\assertions\\index.md",
+                                                             "D:\\QaaS\\qaas-docs\\docs\\assertions\\custom-authoring-guide.md",
+                                                             "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\schema-extensions.md"
+                                                         ],
+                                     "unblock_instruction":  "Run documented QaaS validation commands in an environment with Runner host and test-owned Crawl4AI container."
+                                 },
+                                 {
+                                     "blocker_id":  "live-airgapped-weak-model-not-passed",
+                                     "blocker_type":  "source_boundary",
+                                     "description":  "Live weak-model validation has not passed for this candidate packet.",
+                                     "required_evidence":  [
+                                                               "Airgapped transcript with dry_run false and /health status-only contract preserved"
+                                                           ],
+                                     "public_evidence":  [
+                                                             "D:\\QaaS\\_tools\\zappa-harness\\references\\airgapped-validation.md"
+                                                         ],
+                                     "unblock_instruction":  "Run D:\\QaaS\\_tools\\weak-model-session.ps1 -Airgapped -All -ReasoningEffort none when quota/routing is available."
+                                 }
+                             ],
+    "status":  "blocked_until_repo_contract_review",
+    "promotion_state":  "blocked",
+    "blocked_reason":  "Selected public contracts support a Crawl4AI Docker /health status-only candidate, but executable promotion is blocked until Docker lifecycle/cleanup, custom assertion build/template/live, QaaS template/live, airgapped, and strong-review evidence pass."
+}

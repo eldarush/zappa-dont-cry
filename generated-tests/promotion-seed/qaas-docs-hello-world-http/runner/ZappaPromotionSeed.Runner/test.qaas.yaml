@@ -1,0 +1,36 @@
+﻿MetaData:
+  Team: Zappa
+  System: QaaSHelloWorldHttp
+
+DataSources:
+  - Name: HelloInputs
+    Generator: FromFileSystem
+    GeneratorConfiguration:
+      DataArrangeOrder: AsciiAsc
+      FileSystem:
+        Path: TestData
+
+Storages:
+  - JsonStorageFormat: Indented
+    FileSystem:
+      Path: ./session-data
+
+Sessions:
+  - Name: HelloSession
+    Transactions:
+      - Name: CallHello
+        TimeoutMs: 5000
+        DataSourceNames: [HelloInputs]
+        Http:
+          BaseAddress: http://127.0.0.1
+          Port: 18080
+          Route: hello
+          Method: Get
+
+Assertions:
+  - Name: ReturnedOk
+    Assertion: HttpStatus
+    SessionNames: [HelloSession]
+    AssertionConfiguration:
+      StatusCode: 200
+      OutputNames: [CallHello]

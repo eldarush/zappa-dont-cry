@@ -1,0 +1,101 @@
+{
+    "schema_version":  1,
+    "status":  "authored_from_public_docs_not_template_validated",
+    "hook_family":  "assertion",
+    "assertion_type":  "HttpStatusBelow400",
+    "configuration_contract":  {
+                                   "OutputNames":  "Required transaction output names to inspect.",
+                                   "MaximumExclusiveStatusCode":  "Required exclusive upper bound; Docker curl -f maps to 400."
+                               },
+    "builtins_considered":  [
+                                {
+                                    "name":  "HttpStatus",
+                                    "reason_insufficient":  "Checks exact status equality, while Docker curl -f accepts any HTTP status below 400."
+                                },
+                                {
+                                    "name":  "ObjectOutputJsonSchema",
+                                    "reason_insufficient":  "No harvested public response body/schema contract exists for /health."
+                                },
+                                {
+                                    "name":  "OutputContentByExpectedCsvResults",
+                                    "reason_insufficient":  "No harvested public response body/content contract exists for /health."
+                                }
+                            ],
+    "docs_evidence":  [
+                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\index.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\custom-authoring-guide.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions-yamlView.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\schema-extensions.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json"
+                      ],
+    "files":  {
+                  "implementation":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\250-unclecode-crawl4ai\\assertion-packets\\HttpStatusBelow400\\HttpStatusBelow400.cs",
+                  "usage_snippet":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\250-unclecode-crawl4ai\\assertion-packets\\HttpStatusBelow400\\HttpStatusBelow400.usage.yaml.txt"
+              },
+    "validation_sequence":  [
+                                "Reference the assertion assembly from the Runner host project.",
+                                "Regenerate Runner schema and clean bin cache so Assertion: HttpStatusBelow400 is discoverable.",
+                                "Run Runner template validation against the Crawl4AI healthcheck YAML.",
+                                "Run live QaaS act/assert against a test-owned Crawl4AI container.",
+                                "Run live airgapped weak-model validation and strong review before promotion."
+                            ],
+    "custom_assertion_packet":  {
+                                    "packet_id":  "crawl4ai-http-status-below-400",
+                                    "assertion_name":  "HttpStatusBelow400",
+                                    "status":  "blocked_until_build_template_live_airgapped_validation",
+                                    "promotion_state":  "blocked",
+                                    "activation":  "source_yaml_blocked",
+                                    "wired_into_runner_yaml":  true,
+                                    "source_files":  [
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\250-unclecode-crawl4ai\\assertion-packets\\HttpStatusBelow400\\HttpStatusBelow400.cs"
+                                                     ],
+                                    "yaml_fragment":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\250-unclecode-crawl4ai\\assertion-packets\\HttpStatusBelow400\\HttpStatusBelow400.usage.yaml.txt",
+                                    "hook_plan":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\250-unclecode-crawl4ai\\assertion-packets\\HttpStatusBelow400\\custom-status-hook-plan.json",
+                                    "output_body_assertion":  "unasserted_no_public_body_contract",
+                                    "maximum_exclusive_status_code":  400,
+                                    "comparison":  "http_status_less_than",
+                                    "docs_evidence":  [
+                                                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\index.md",
+                                                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\custom-authoring-guide.md",
+                                                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
+                                                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions.md",
+                                                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions-yamlView.md",
+                                                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\schema-extensions.md",
+                                                          "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json"
+                                                      ],
+                                    "public_evidence":  [
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\selected-contract.json",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\repo-contract.json",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\README.snapshot.md",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\250-unclecode-crawl4ai\\tree.snapshot.json",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\pyproject.toml",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\company_card.json",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\people_card.json",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\.github\\workflows\\docker-release.yml",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\README.md",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\pyproject.toml",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\Dockerfile",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docker-compose.yml",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\deploy\\docker\\schemas.py",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\company_card.json",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\docs\\apps\\linkdin\\schemas\\people_card.json",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\files\\.github\\workflows\\docker-release.yml"
+                                                        ],
+                                    "validation_records":  {
+                                                               "build":  "not_run",
+                                                               "schema":  "not_run",
+                                                               "template":  "not_run",
+                                                               "live":  "not_run",
+                                                               "airgapped":  "not_run"
+                                                           },
+                                    "weak_validation_passed":  false
+                                },
+    "promotion_state":  "blocked",
+    "weak_validation_passed":  false
+}

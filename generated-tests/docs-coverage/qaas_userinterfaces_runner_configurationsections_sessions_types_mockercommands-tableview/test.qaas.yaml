@@ -1,0 +1,23 @@
+# Docs-only QaaS Runner skeleton.
+# Status: blocked_until_contract_review
+# Evidence: D:\QaaS\qaas-docs\docs\qaas\userInterfaces\runner\configurationSections\sessions\types\mockerCommands-tableView.md
+# This is not executable until target sessions, data sources, and dependency gates are filled from public contracts.
+
+Links: []
+
+Storages: []
+
+DataSources: []
+
+Sessions: []
+
+Assertions:
+  - Assertion: __DOCUMENTED_ASSERTION_OR_CUSTOM__
+    AssertionConfiguration:
+      EvidencePath: 'D:\QaaS\qaas-docs\docs\qaas\userInterfaces\runner\configurationSections\sessions\types\mockerCommands-tableView.md'
+      CoverageId: 'qaas_userinterfaces_runner_configurationsections_sessions_types_mockercommands-tableview'
+
+MetaData:
+  CoverageId: 'qaas_userinterfaces_runner_configurationsections_sessions_types_mockercommands-tableview'
+  SourceDocument: 'qaas\userInterfaces\runner\configurationSections\sessions\types\mockerCommands-tableView.md'
+  BlockedReason: "Repository or component contract review required before executable YAML can be correct."

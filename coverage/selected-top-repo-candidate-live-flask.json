@@ -1,0 +1,91 @@
+{
+    "schema_version":  1,
+    "status":  "passed",
+    "promotion_state":  "blocked",
+    "completion_ready":  false,
+    "repository":  "pallets/flask",
+    "validation_kind":  "selected_candidate_qaas_template_live",
+    "run_dir":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141718-493",
+    "manifest":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\227-pallets-flask\\qaas-artifact-manifest.json",
+    "runtime_plan":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\227-pallets-flask\\candidate-runtime-plan.json",
+    "runner_project":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141718-493\\runner\\ZappaSelectedFlask.Runner\\ZappaSelectedFlask.Runner.csproj",
+    "runner_program":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141718-493\\runner\\ZappaSelectedFlask.Runner\\Program.cs",
+    "runner_yaml":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141718-493\\runner\\ZappaSelectedFlask.Runner\\test.qaas.yaml",
+    "source_runner_yaml":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\227-pallets-flask\\test.qaas.yaml",
+    "assertion_project":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141718-493\\assertions\\ZappaSelectedFlask.Assertions\\ZappaSelectedFlask.Assertions.csproj",
+    "assertion_source":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141718-493\\assertions\\ZappaSelectedFlask.Assertions\\ExactHttpTextBody.cs",
+    "source_assertion":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\227-pallets-flask\\assertion-packets\\ExactHttpTextBody\\ExactHttpTextBody.cs",
+    "assertion_project_reference_transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141718-493\\evidence\\reference-runner-assertion-project.transcript.txt",
+    "assertion_project_reference_added":  true,
+    "source_hashes":  {
+                          "candidate_yaml_sha256":  "a2d3886be45bf94f971d0783241c0711ba85d205335b893236896a669ba7667a",
+                          "staged_yaml_sha256":  "3ce9ac7c05661ab520cdc770210c38e316487f51bdfd21ec75337689d446be8d",
+                          "candidate_request_payload_sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                          "staged_request_payload_sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                          "candidate_app_sha256":  "4f816c34e218ca8314cf928caa2b6504a25292debf6c4a6cfad0bb55a85f5eb3",
+                          "staged_app_sha256":  "4f816c34e218ca8314cf928caa2b6504a25292debf6c4a6cfad0bb55a85f5eb3",
+                          "candidate_expected_body_sha256":  "dffd6021bb2bd5b0af676290809ec3a53191dd81c7f70a4b28688a362182986f",
+                          "staged_expected_body_sha256":  "dffd6021bb2bd5b0af676290809ec3a53191dd81c7f70a4b28688a362182986f",
+                          "candidate_assertion_sha256":  "12641f069d7188ddea2882b7216d3110da3a636624a34be5acfa0ce57219b1f3",
+                          "staged_assertion_sha256":  "12641f069d7188ddea2882b7216d3110da3a636624a34be5acfa0ce57219b1f3"
+                      },
+    "flask_cli_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141718-493\\venv\\Scripts\\flask.exe",
+    "flask_version":  "3.1.3",
+    "managed_venv_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141718-493\\venv",
+    "install_command":  "python -m pip install Flask",
+    "venv_python_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141718-493\\venv\\Scripts\\python.exe",
+    "venv_create_stdout":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141718-493\\evidence\\python-venv.stdout.txt",
+    "venv_create_stderr":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141718-493\\evidence\\python-venv.stderr.txt",
+    "venv_ensurepip_retry_stdout":  null,
+    "venv_ensurepip_retry_stderr":  null,
+    "pip_install_stdout":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141718-493\\evidence\\pip-install-flask.stdout.txt",
+    "pip_install_stderr":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141718-493\\evidence\\pip-install-flask.stderr.txt",
+    "selected_readme_evidence":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\227-pallets-flask\\files\\README.md",
+    "selected_pyproject_evidence":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\227-pallets-flask\\files\\pyproject.toml",
+    "assertion_build_validation":  {
+                                       "status":  "passed",
+                                       "exit_code":  0,
+                                       "command":  "dotnet build D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141718-493\\assertions\\ZappaSelectedFlask.Assertions\\ZappaSelectedFlask.Assertions.csproj --nologo -clp:ErrorsOnly",
+                                       "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141718-493\\evidence\\build-assertion-library.transcript.txt"
+                                   },
+    "build_validation":  {
+                             "status":  "passed",
+                             "exit_code":  0,
+                             "command":  "dotnet build D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141718-493\\runner\\ZappaSelectedFlask.Runner\\ZappaSelectedFlask.Runner.csproj --nologo -clp:ErrorsOnly",
+                             "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141718-493\\evidence\\build-runner.transcript.txt"
+                         },
+    "template_validation":  {
+                                "status":  "passed",
+                                "exit_code":  0,
+                                "command":  "dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141718-493\\runner\\ZappaSelectedFlask.Runner\\ZappaSelectedFlask.Runner.csproj -- template D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141718-493\\runner\\ZappaSelectedFlask.Runner\\test.qaas.yaml --no-env",
+                                "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141718-493\\evidence\\template-runner.transcript.txt"
+                            },
+    "live_validation":  {
+                            "status":  "passed",
+                            "exit_code":  0,
+                            "command":  "dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141718-493\\runner\\ZappaSelectedFlask.Runner\\ZappaSelectedFlask.Runner.csproj -- run D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141718-493\\runner\\ZappaSelectedFlask.Runner\\test.qaas.yaml -e --no-env",
+                            "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141718-493\\evidence\\live-runner-run.transcript.txt"
+                        },
+    "response":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141718-493\\evidence\\root-response.txt",
+    "response_status":  200,
+    "response_body_sha256":  "dffd6021bb2bd5b0af676290809ec3a53191dd81c7f70a4b28688a362182986f",
+    "response_contract_passed":  true,
+    "cleanup_passed":  true,
+    "cleanup_process_ids":  [
+                                34148,
+                                12512,
+                                33576,
+                                34384
+                            ],
+    "remaining_tracked_process_ids":  [
+
+                                      ],
+    "port_owners_after_cleanup_count":  0,
+    "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141718-493\\evidence\\selected-live-flask.transcript.txt",
+    "flask_stdout":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141718-493\\evidence\\flask.stdout.txt",
+    "flask_stderr":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141718-493\\evidence\\flask.stderr.txt",
+    "manifest_updated":  true,
+    "weak_validation_passed":  false,
+    "failure_reason":  "",
+    "exit_code":  0
+}

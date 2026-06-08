@@ -1,0 +1,19 @@
+﻿Stubs:
+  - Name: HelloStub
+    Processor: StaticResponseProcessor
+    ProcessorConfiguration:
+      Body: hello
+      StatusCode: 200
+      ContentType: text/plain; charset=utf-8
+      ResponseHeaders: {}
+
+Servers:
+  - Http:
+      Port: 18080
+      IsLocalhost: true
+      Endpoints:
+        - Path: /hello
+          Actions:
+            - Name: HelloOk
+              Method: Get
+              TransactionStubName: HelloStub

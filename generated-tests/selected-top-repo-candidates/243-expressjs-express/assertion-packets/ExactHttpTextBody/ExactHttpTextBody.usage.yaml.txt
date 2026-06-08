@@ -1,0 +1,18 @@
+# Non-executable usage snippet.
+# Do not rename this file to test.qaas.yaml or treat it as schema-valid until:
+# 1. the assertion assembly is referenced by the Runner host,
+# 2. the Runner schema has been regenerated and the bin cache cleaned,
+# 3. Runner template validation passes,
+# 4. live QaaS act/assert passes against the tracked Express process.
+
+Assertions:
+  - Name: GetRootBodyMatchesReadme
+    Assertion: ExactHttpTextBody
+    SessionNames:
+      - ExpressReadRoot
+    DataSourceNames: []
+    DataSourcePatterns: []
+    AssertionConfiguration:
+      OutputName: GetRoot
+      ExpectedText: Hello World
+      EncodingName: utf-8

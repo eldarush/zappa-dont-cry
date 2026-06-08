@@ -1,0 +1,382 @@
+{
+  "campaign_id": "top-github-repos",
+  "source_repository": "nextlevelbuilder/ui-ux-pro-max-skill",
+  "repository_rank": 141,
+  "docs_evidence": [
+    "D:\\QaaS\\qaas-docs\\docs",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\README.snapshot.md",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\tree.snapshot.json"
+  ],
+  "repo_contract": "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\repo-contract.json",
+  "contract_strength": "readme_plus_runtime_hints",
+  "intent_questions": [
+    {
+      "question_id": "behavior",
+      "question": "What behavior must be proven?",
+      "self_answer": "For nextlevelbuilder/ui-ux-pro-max-skill, the current campaign proves only public contract discovery and blocked QaaS artifact planning; no executable repository behavior is selected.",
+      "answer_source": "public_repo_contract",
+      "risk_if_wrong": "A weak model could claim tests exist for behavior that README/tree metadata does not specify.",
+      "how_to_override": "Provide the exact public API, CLI, service, or workflow behavior to test.",
+      "public_evidence": [
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\README.snapshot.md",
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\tree.snapshot.json"
+      ]
+    },
+    {
+      "question_id": "boundary",
+      "question": "What is the system boundary: Runner target, Mocker dependency, hook host, or configuration-as-code?",
+      "self_answer": "Runner, Mocker, and configuration-as-code skeletons are present, but the executable boundary for nextlevelbuilder/ui-ux-pro-max-skill is blocked until a public runtime or dependency contract is selected.",
+      "answer_source": "blocked",
+      "risk_if_wrong": "Artifacts may target the wrong process, API, dependency, or hook host.",
+      "how_to_override": "Select the concrete Runner target, Mocker dependency, hook host, or configuration-as-code boundary with public evidence.",
+      "public_evidence": [
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\README.snapshot.md",
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\tree.snapshot.json"
+      ]
+    },
+    {
+      "question_id": "docs_schema_evidence",
+      "question": "What public docs/schema path proves the capability exists?",
+      "self_answer": "Evidence is limited to public QaaS docs plus repository README/tree snapshots for nextlevelbuilder/ui-ux-pro-max-skill.",
+      "answer_source": "public_repo_contract",
+      "risk_if_wrong": "The manifest may cite unsupported QaaS fields or repository behavior.",
+      "how_to_override": "Attach exact QaaS docs/schema paths and repository-visible contract paths for the chosen behavior.",
+      "public_evidence": [
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\README.snapshot.md",
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\tree.snapshot.json"
+      ]
+    },
+    {
+      "question_id": "inputs_outputs_side_effects",
+      "question": "What inputs, outputs, and side effects prove success?",
+      "self_answer": "Inputs, expected outputs, and side effects for nextlevelbuilder/ui-ux-pro-max-skill are blocked until public runtime contracts define them.",
+      "answer_source": "blocked",
+      "risk_if_wrong": "Assertions could be guessed from popularity, language, or README wording.",
+      "how_to_override": "Provide public input/output examples, side effects, and success criteria.",
+      "public_evidence": [
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\README.snapshot.md",
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\tree.snapshot.json"
+      ]
+    },
+    {
+      "question_id": "negative_cases",
+      "question": "Which negative, malformed, outage, retry, cleanup, and observability cases matter?",
+      "self_answer": "Negative, outage, retry, cleanup, and observability cases are blocked until nextlevelbuilder/ui-ux-pro-max-skill exposes relevant behavior and dependency contracts.",
+      "answer_source": "blocked",
+      "risk_if_wrong": "Failure handling and cleanup assertions may be incomplete or wrong.",
+      "how_to_override": "Provide public negative-case and cleanup contracts for the selected behavior.",
+      "public_evidence": [
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\README.snapshot.md",
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\tree.snapshot.json"
+      ]
+    },
+    {
+      "question_id": "dependencies",
+      "question": "Which dependencies must exist: broker, HTTP endpoint, database, Redis, S3, Kubernetes, filesystem, credentials, ports?",
+      "self_answer": "Dependency requirements for nextlevelbuilder/ui-ux-pro-max-skill are blocked until public docs identify protocols, endpoints, credentials, readiness, and cleanup.",
+      "answer_source": "blocked",
+      "risk_if_wrong": "Mocker or probe artifacts could simulate the wrong dependency or miss required cleanup.",
+      "how_to_override": "Provide public dependency/stub contracts and readiness/cleanup semantics.",
+      "public_evidence": [
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\README.snapshot.md",
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\tree.snapshot.json"
+      ]
+    },
+    {
+      "question_id": "runnability",
+      "question": "What can run now, and what must be deferred?",
+      "self_answer": "Only structural artifact validation and C# syntax compilation can run now; QaaS template/build/live execution and live weak-model promotion are deferred.",
+      "answer_source": "assumption",
+      "risk_if_wrong": "A weak model could promote blocked skeletons to executable tests.",
+      "how_to_override": "Provide successful QaaS template/build/live transcripts and live airgapped weak-model validation.",
+      "public_evidence": [
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\README.snapshot.md",
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\tree.snapshot.json"
+      ]
+    }
+  ],
+  "intent_assumptions": [
+    {
+      "assumption": "User wants public-docs-only QaaS tests.",
+      "why_safe": "The top-repo campaign is required to use repository-visible evidence and public QaaS docs only.",
+      "risk_if_wrong": "The generated plans may omit behavior the user expected from private or local source execution.",
+      "how_to_override": "Provide an explicit repository checkout, component contract, or allowed source evidence.",
+      "public_evidence": [
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\README.snapshot.md",
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\tree.snapshot.json"
+      ]
+    },
+    {
+      "assumption": "Source execution and cloning are not allowed during contract harvesting.",
+      "why_safe": "Avoids executing arbitrary top repositories while still harvesting README/tree metadata.",
+      "risk_if_wrong": "Some executable contracts may remain undiscovered and artifacts stay blocked.",
+      "how_to_override": "Provide a safety plan and explicitly allow cloning or execution for selected repositories.",
+      "public_evidence": [
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\README.snapshot.md",
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\tree.snapshot.json"
+      ]
+    },
+    {
+      "assumption": "Generated artifacts must remain blocked unless public contracts prove exact runtime behavior.",
+      "why_safe": "Fail-closed promotion prevents weak models from treating placeholders as correct tests.",
+      "risk_if_wrong": "Executable promotion may be conservative for repositories with sufficient public contracts.",
+      "how_to_override": "Attach public runtime/API/dependency contracts and request promotion for selected repositories.",
+      "public_evidence": [
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\README.snapshot.md",
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\tree.snapshot.json"
+      ]
+    }
+  ],
+  "artifacts": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\top-repos\\141-nextlevelbuilder-ui-ux-pro-max-skill\\test.qaas.yaml",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\top-repos\\141-nextlevelbuilder-ui-ux-pro-max-skill\\mocker.qaas.yaml",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\top-repos\\141-nextlevelbuilder-ui-ux-pro-max-skill\\QaaSTopRepoConfigSkeleton.cs",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\top-repos\\141-nextlevelbuilder-ui-ux-pro-max-skill\\qaas-artifact-manifest.json"
+  ],
+  "artifact_count": 4,
+  "cases": [
+    {
+      "case_id": "repo-contract-discovery",
+      "scenario": "Use public repository evidence to determine whether executable QaaS Runner and Mocker tests can be safely authored.",
+      "artifact_type": "documentation",
+      "public_evidence": [
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\README.snapshot.md",
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\tree.snapshot.json"
+      ],
+      "setup": [
+        "Review README/tree snapshots and QaaS docs."
+      ],
+      "action": [
+        "Classify runtime/API/dependency contracts."
+      ],
+      "assertions": [
+        "Generated executable artifacts remain blocked unless public contracts identify sessions, inputs, assertions, dependencies, and cleanup."
+      ],
+      "cleanup": [
+        "No external resources are created by public contract discovery."
+      ],
+      "blocked_reason": "Repository contract review has not promoted this repo to executable QaaS tests.",
+      "artifact_paths": [
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\top-repos\\141-nextlevelbuilder-ui-ux-pro-max-skill\\qaas-artifact-manifest.json"
+      ]
+    },
+    {
+      "case_id": "runner-yaml-skeleton",
+      "scenario": "Blocked Runner YAML placeholder for future public-contract-backed execution.",
+      "artifact_type": "runner-yaml",
+      "public_evidence": [
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\README.snapshot.md",
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\tree.snapshot.json"
+      ],
+      "setup": [
+        "Identify public runtime/API contracts for nextlevelbuilder/ui-ux-pro-max-skill."
+      ],
+      "action": [
+        "Replace Runner YAML placeholders only after public sessions, inputs, assertions, and cleanup are known."
+      ],
+      "assertions": [
+        "Runner YAML must not be treated as executable until placeholders are replaced from public contracts."
+      ],
+      "cleanup": [
+        "No runtime cleanup is claimed until public side-effect contracts exist."
+      ],
+      "blocked_reason": "Missing concrete QaaS sessions/data/assertions for nextlevelbuilder/ui-ux-pro-max-skill.",
+      "artifact_paths": [
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\top-repos\\141-nextlevelbuilder-ui-ux-pro-max-skill\\test.qaas.yaml"
+      ]
+    },
+    {
+      "case_id": "mocker-yaml-skeleton",
+      "scenario": "Blocked Mocker YAML placeholder for future public dependency simulation.",
+      "artifact_type": "mocker-yaml",
+      "public_evidence": [
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\README.snapshot.md",
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\tree.snapshot.json"
+      ],
+      "setup": [
+        "Identify public dependency contracts, ports, protocols, processors, and response shapes for nextlevelbuilder/ui-ux-pro-max-skill."
+      ],
+      "action": [
+        "Replace Mocker YAML placeholders only after public dependency contracts are known."
+      ],
+      "assertions": [
+        "Mocker YAML must not be treated as executable until dependency contracts are public."
+      ],
+      "cleanup": [
+        "No stub cleanup is claimed until dependency lifecycle contracts exist."
+      ],
+      "blocked_reason": "Missing public dependency contracts for nextlevelbuilder/ui-ux-pro-max-skill.",
+      "artifact_paths": [
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\top-repos\\141-nextlevelbuilder-ui-ux-pro-max-skill\\mocker.qaas.yaml"
+      ]
+    },
+    {
+      "case_id": "config-code-skeleton",
+      "scenario": "Blocked C# configuration-as-code placeholder for future QaaS configuration.",
+      "artifact_type": "config-as-code",
+      "public_evidence": [
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\README.snapshot.md",
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\tree.snapshot.json"
+      ],
+      "setup": [
+        "Identify public runtime configuration values and QaaS configuration docs for nextlevelbuilder/ui-ux-pro-max-skill."
+      ],
+      "action": [
+        "Keep C# configuration syntax-only until public contracts prove executable values and lifecycle."
+      ],
+      "assertions": [
+        "C# skeleton compiles as syntax-only evidence but has no executable QaaS behavior."
+      ],
+      "cleanup": [
+        "No runtime cleanup is claimed by syntax-only C# skeletons."
+      ],
+      "blocked_reason": "Missing public runtime contract for executable C# QaaS configuration.",
+      "artifact_paths": [
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\top-repos\\141-nextlevelbuilder-ui-ux-pro-max-skill\\QaaSTopRepoConfigSkeleton.cs"
+      ]
+    }
+  ],
+  "assertions": [
+    "No executable QaaS claim without public repository contract evidence.",
+    "Every generated artifact records blocked_until_repo_contract_review."
+  ],
+  "dependency_gates": [
+    {
+      "gate_id": "public-runtime-contract",
+      "kind": "runtime",
+      "required": true,
+      "status": "blocked",
+      "evidence": [
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\README.snapshot.md",
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\tree.snapshot.json"
+      ],
+      "check_command": null,
+      "blocked_reason": "A concrete public API, CLI, or runtime contract must be selected before executable QaaS sessions can be correct."
+    },
+    {
+      "gate_id": "public-input-output-contract",
+      "kind": "runtime",
+      "required": true,
+      "status": "blocked",
+      "evidence": [
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\README.snapshot.md",
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\tree.snapshot.json"
+      ],
+      "check_command": null,
+      "blocked_reason": "Executable assertions require public input and expected-output contracts."
+    },
+    {
+      "gate_id": "public-dependency-or-stub-contract",
+      "kind": "dependency",
+      "required": true,
+      "status": "blocked",
+      "evidence": [
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\README.snapshot.md",
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\tree.snapshot.json"
+      ],
+      "check_command": null,
+      "blocked_reason": "Mocker stubs require public dependency contracts."
+    },
+    {
+      "gate_id": "cleanup-contract",
+      "kind": "cleanup",
+      "required": true,
+      "status": "blocked",
+      "evidence": [
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\README.snapshot.md",
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\tree.snapshot.json"
+      ],
+      "check_command": null,
+      "blocked_reason": "Live execution requires a public cleanup contract."
+    },
+    {
+      "gate_id": "qaas-template",
+      "kind": "qaas-template",
+      "required": true,
+      "status": "blocked",
+      "evidence": [],
+      "check_command": null,
+      "blocked_reason": "Template validation can run only after placeholders are replaced from public contracts."
+    },
+    {
+      "gate_id": "qaas-build",
+      "kind": "qaas-build",
+      "required": true,
+      "status": "blocked",
+      "evidence": [],
+      "check_command": null,
+      "blocked_reason": "Generated C# syntax compiles, but executable QaaS configuration build validation requires real configuration."
+    },
+    {
+      "gate_id": "airgapped-validation",
+      "kind": "airgapped",
+      "required": true,
+      "status": "blocked",
+      "evidence": [],
+      "check_command": "D:\\QaaS\\_tools\\weak-model-session.ps1 -Airgapped",
+      "blocked_reason": "Live weak-model validation is required before promotion."
+    }
+  ],
+  "promotion_requirements": {
+    "current_state": "blocked",
+    "target_state": "executable_ready",
+    "required_evidence": [
+      "Public API, CLI, or runtime contract",
+      "Public input and expected-output contract",
+      "Public dependency/stub contract",
+      "Cleanup contract",
+      "QaaS template validation result",
+      "C# build result when code artifacts exist",
+      "Live QaaS run/act/assert result when dependency gates are ready",
+      "Airgapped weak-model validation transcript"
+    ]
+  },
+  "cleanup": [],
+  "validation_sequence": [
+    "Review public QaaS docs/schema evidence",
+    "Review repository README/tree contract snapshots",
+    "Run generated artifact structural validator",
+    "Promote to executable only after QaaS template/build/live validation is available"
+  ],
+  "airgapped_validation": {
+    "required": true,
+    "status": "not_run_for_this_repository"
+  },
+  "source_only_blockers": [
+    {
+      "blocker_id": "private-source-behavior-not-assumed",
+      "blocker_type": "source_boundary",
+      "description": "No private source-code behavior may be assumed from repository popularity, primary language, or README/tree metadata.",
+      "required_evidence": [
+        "Public runtime/API/CLI contract",
+        "Public input and expected-output contract",
+        "Public dependency/stub contract",
+        "Public cleanup contract"
+      ],
+      "public_evidence": [
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\README.snapshot.md",
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\tree.snapshot.json"
+      ],
+      "unblock_instruction": "Provide an explicit repository checkout/source excerpt as allowed evidence, or point to public runtime and dependency contracts for selected behavior."
+    },
+    {
+      "blocker_id": "executable-contract-missing",
+      "blocker_type": "repository_contract",
+      "description": "The harvested repository evidence is insufficient to produce exact executable QaaS sessions, assertions, stubs, and cleanup.",
+      "required_evidence": [
+        "Concrete QaaS session boundary",
+        "Inputs and expected outputs",
+        "Dependency readiness/stub behavior",
+        "Cleanup and side-effect contract"
+      ],
+      "public_evidence": [
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\README.snapshot.md",
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\141-nextlevelbuilder-ui-ux-pro-max-skill\\tree.snapshot.json"
+      ],
+      "unblock_instruction": "Promote only after adding repository-visible contracts that satisfy the dependency gates."
+    }
+  ],
+  "status": "blocked_until_repo_contract_review",
+  "promotion_state": "blocked",
+  "blocked_reason": "Generated from public repository evidence and QaaS docs only; exact executable QaaS behavior requires repository/component contract review."
+}

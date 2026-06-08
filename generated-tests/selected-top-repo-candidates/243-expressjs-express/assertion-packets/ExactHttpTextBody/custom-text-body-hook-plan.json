@@ -1,0 +1,115 @@
+{
+    "schema_version":  1,
+    "status":  "authored_from_public_docs_not_template_validated",
+    "hook_family":  "assertion",
+    "assertion_type":  "ExactHttpTextBody",
+    "configuration_contract":  {
+                                   "OutputName":  "Required transaction output name, backed by custom assertion docs and the Express transaction name GetRoot.",
+                                   "ExpectedText":  "Required exact expected text, backed by Express README output evidence.",
+                                   "EncodingName":  "Optional text encoding name; defaults to utf-8."
+                               },
+    "builtins_considered":  [
+                                {
+                                    "name":  "HttpStatus",
+                                    "reason_insufficient":  "Status-only assertion; does not compare response body bytes."
+                                },
+                                {
+                                    "name":  "OutputContentByExpectedCsvResults",
+                                    "reason_insufficient":  "JSON/CSV field mapping assertion; not exact raw/plain-text body equality."
+                                },
+                                {
+                                    "name":  "OutputDeserializableTo",
+                                    "reason_insufficient":  "Checks deserialization success, not equality with exact public README text."
+                                },
+                                {
+                                    "name":  "ObjectOutputJsonSchema",
+                                    "reason_insufficient":  "Checks JSON schema compatibility, not exact raw/plain-text body equality."
+                                }
+                            ],
+    "docs_evidence":  [
+                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\index.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\custom-authoring-guide.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\OutputContentByExpectedCsvResults\\overview.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\OutputDeserializableTo\\overview.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\ObjectOutputJsonSchema\\overview.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\schema-extensions.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json"
+                      ],
+    "files":  {
+                  "implementation":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\243-expressjs-express\\assertion-packets\\ExactHttpTextBody\\ExactHttpTextBody.cs",
+                  "usage_snippet":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\243-expressjs-express\\assertion-packets\\ExactHttpTextBody\\ExactHttpTextBody.usage.yaml.txt"
+              },
+    "validation_sequence":  [
+                                "Reference the assertion assembly from the Runner host project.",
+                                "Regenerate Runner schema and clean bin cache so Assertion: ExactHttpTextBody is discoverable.",
+                                "Run Runner template validation against the Express candidate YAML with the assertion enabled.",
+                                "Run live QaaS act/assert against a tracked Express process.",
+                                "Run live airgapped weak-model validation and strong review before promotion."
+                            ],
+    "custom_assertion_packet":  {
+                                    "packet_id":  "express-exact-http-text-body",
+                                    "assertion_name":  "ExactHttpTextBody",
+                                    "status":  "blocked_until_build_template_live_airgapped_validation",
+                                    "promotion_state":  "blocked",
+                                    "activation":  "sidecar_only",
+                                    "wired_into_runner_yaml":  false,
+                                    "source_files":  [
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\243-expressjs-express\\assertion-packets\\ExactHttpTextBody\\ExactHttpTextBody.cs"
+                                                     ],
+                                    "yaml_fragment":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\243-expressjs-express\\assertion-packets\\ExactHttpTextBody\\ExactHttpTextBody.usage.yaml.txt",
+                                    "hook_plan":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\243-expressjs-express\\assertion-packets\\ExactHttpTextBody\\custom-text-body-hook-plan.json",
+                                    "expected_body_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\243-expressjs-express\\expectations\\root-body.txt",
+                                    "expected_body_sha256":  "a591a6d40bf420404a011733cfb7b190d62c65bf0bcda32b57b277d9ad9f146e",
+                                    "encoding":  "utf-8",
+                                    "comparison":  "byte_for_byte",
+                                    "normalization":  "none",
+                                    "case_sensitive":  true,
+                                    "trim":  false,
+                                    "contains":  false,
+                                    "docs_evidence":  [
+                                                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\index.md",
+                                                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\custom-authoring-guide.md",
+                                                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
+                                                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\OutputContentByExpectedCsvResults\\overview.md",
+                                                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\OutputDeserializableTo\\overview.md",
+                                                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\ObjectOutputJsonSchema\\overview.md",
+                                                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions.md",
+                                                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\schema-extensions.md",
+                                                          "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json"
+                                                      ],
+                                    "public_evidence":  [
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\selected-contract.json",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\243-expressjs-express\\repo-contract.json",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\243-expressjs-express\\README.snapshot.md",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\243-expressjs-express\\tree.snapshot.json",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\Readme.md",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\examples\\hello-world\\index.js",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\test\\acceptance\\hello-world.js",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\package.json",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\test\\req.protocol.js",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\.github\\workflows\\ci.yml",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\.github\\workflows\\codeql.yml",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\test\\Route.js",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\Readme.md",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\examples\\hello-world\\index.js",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\test\\acceptance\\hello-world.js",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\package.json",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\test\\req.protocol.js",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\.github\\workflows\\ci.yml",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\.github\\workflows\\codeql.yml",
+                                                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\files\\test\\Route.js"
+                                                        ],
+                                    "validation_records":  {
+                                                               "build":  "not_run",
+                                                               "schema":  "not_run",
+                                                               "template":  "not_run",
+                                                               "live":  "not_run",
+                                                               "airgapped":  "not_run"
+                                                           },
+                                    "weak_validation_passed":  false
+                                },
+    "promotion_state":  "blocked",
+    "weak_validation_passed":  false
+}

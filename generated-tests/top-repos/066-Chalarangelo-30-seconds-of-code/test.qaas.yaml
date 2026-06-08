@@ -1,0 +1,24 @@
+# Docs-only QaaS top-repository Runner skeleton.
+# Status: blocked_until_repo_contract_review
+# Repository: Chalarangelo/30-seconds-of-code
+# This is not executable until public runtime/API contracts define sessions, inputs, assertions, and cleanup.
+
+Links: []
+
+Storages: []
+
+DataSources: []
+
+Sessions: []
+
+Assertions:
+  - Assertion: __DOCUMENTED_ASSERTION_OR_CUSTOM__
+    AssertionConfiguration:
+      Repository: 'Chalarangelo/30-seconds-of-code'
+      ContractStrength: 'contract_files_found'
+      EvidencePath: 'D:\QaaS\_tmp\zappa-dont-cry\top-repos\contracts\066-Chalarangelo-30-seconds-of-code\README.snapshot.md'
+
+MetaData:
+  Repository: 'Chalarangelo/30-seconds-of-code'
+  ContractStrength: 'contract_files_found'
+  BlockedReason: "Public repository contracts are not sufficient yet for executable QaaS Runner YAML."

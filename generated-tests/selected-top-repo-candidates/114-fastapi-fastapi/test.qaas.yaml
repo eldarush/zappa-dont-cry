@@ -1,0 +1,75 @@
+# Candidate QaaS Runner YAML generated from immutable public FastAPI README evidence.
+# Status: blocked_until_template_live_airgapped_validation
+# Runtime startup stays in candidate-runtime-plan.json; QaaS YAML does not own process lifecycle.
+
+MetaData:
+  Team: ZappaDontCry
+  System: fastapi-fastapi
+
+Storages:
+  -
+    JsonStorageFormat: Indented
+    FileSystem:
+      Path: ./session-data
+
+DataSources:
+  - Name: GetItemPayload
+    Generator: FromFileSystem
+    DataSourceNames: []
+    DataSourcePatterns: []
+    GeneratorConfiguration:
+      DataArrangeOrder: AsciiAsc
+      FileSystem:
+        Path: './request-payloads'
+        SearchPattern: 'get-items-5.bin'
+      StorageMetaData: ItemName
+
+  - Name: FastApiReadmeItemResponseSchemas
+    Generator: FromFileSystem
+    DataSourceNames: []
+    DataSourcePatterns: []
+    GeneratorConfiguration:
+      DataArrangeOrder: AsciiAsc
+      FileSystem:
+        Path: './schemas'
+        SearchPattern: 'item-response.schema.json'
+      StorageMetaData: ItemName
+
+Sessions:
+  - Name: FastApiReadItem
+    Transactions:
+      - Name: GetItemFive
+        TimeoutMs: 5000
+        DataSourceNames:
+          - GetItemPayload
+        DataSourcePatterns:
+          - GetItemPayload
+        Http:
+          BaseAddress: http://127.0.0.1
+          Port: 8000
+          Route: items/5?q=somequery
+          Method: Get
+        OutputDeserialize:
+          Deserializer: Json
+
+Assertions:
+  - Name: GetItemFiveReturnedOk
+    Assertion: HttpStatus
+    SessionNames:
+      - FastApiReadItem
+    DataSourceNames: []
+    DataSourcePatterns: []
+    AssertionConfiguration:
+      StatusCode: 200
+      OutputNames:
+        - GetItemFive
+
+  - Name: GetItemFiveBodyMatchesReadmeSchema
+    Assertion: ObjectOutputJsonSchema
+    SessionNames:
+      - FastApiReadItem
+    DataSourceNames:
+      - FastApiReadmeItemResponseSchemas
+    DataSourcePatterns: []
+    AssertionConfiguration:
+      OutputName: GetItemFive

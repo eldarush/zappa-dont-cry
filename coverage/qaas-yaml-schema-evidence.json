@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "runner_schema": "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json",
+  "mocker_schema": "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\mocker-family-schema.json",
+  "runner_allowed_top_level_keys": [
+    "Assertions",
+    "DataSources",
+    "Links",
+    "MetaData",
+    "Sessions",
+    "Storages"
+  ],
+  "mocker_allowed_top_level_keys": [
+    "Controller",
+    "DataSources",
+    "Server",
+    "Servers",
+    "Stubs"
+  ],
+  "yaml_count": 838,
+  "runner_yaml_count": 503,
+  "mocker_yaml_count": 335,
+  "blocked_placeholder_yaml_count": 836
+}

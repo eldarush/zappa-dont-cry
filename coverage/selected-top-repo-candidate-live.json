@@ -1,0 +1,71 @@
+{
+    "schema_version":  1,
+    "status":  "passed",
+    "promotion_state":  "blocked",
+    "completion_ready":  false,
+    "repository":  "typicode/json-server",
+    "validation_kind":  "selected_candidate_qaas_template_live",
+    "run_dir":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141554-042",
+    "manifest":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\200-typicode-json-server\\qaas-artifact-manifest.json",
+    "runtime_plan":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\200-typicode-json-server\\candidate-runtime-plan.json",
+    "runner_project":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141554-042\\runner\\ZappaSelectedCandidate.Runner\\ZappaSelectedCandidate.Runner.csproj",
+    "runner_yaml":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141554-042\\runner\\ZappaSelectedCandidate.Runner\\test.qaas.yaml",
+    "source_runner_yaml":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\200-typicode-json-server\\test.qaas.yaml",
+    "expectations":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141554-042\\runner\\ZappaSelectedCandidate.Runner\\expectations",
+    "source_hashes":  {
+                          "candidate_yaml_sha256":  "caf9ec86a828afa37886de4a0eaa839a4a5ad9e317c6da1866fccba24714c563",
+                          "staged_yaml_sha256":  "caf9ec86a828afa37886de4a0eaa839a4a5ad9e317c6da1866fccba24714c563",
+                          "candidate_csv_sha256":  "ffdf777da2fa53f4c3b7e67034c885886457bde4788bf121ecd7eccffc0b5516",
+                          "staged_csv_sha256":  "ffdf777da2fa53f4c3b7e67034c885886457bde4788bf121ecd7eccffc0b5516",
+                          "candidate_request_payload_sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                          "staged_request_payload_sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                          "candidate_db_sha256":  "8b1009eaa146abc2f8a407346690b8130fb1165e4073d462d189f5714d4b1723",
+                          "staged_db_sha256":  "8b1009eaa146abc2f8a407346690b8130fb1165e4073d462d189f5714d4b1723"
+                      },
+    "package_spec":  "json-server@1.0.0-beta.15",
+    "node_version":  "v24.12.0",
+    "npm_version":  "11.6.2",
+    "npx_path":  "D:\\npx.cmd",
+    "selected_readme_evidence":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\200-typicode-json-server\\files\\README.md",
+    "selected_package_evidence":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\200-typicode-json-server\\files\\package.json",
+    "build_validation":  {
+                             "status":  "passed",
+                             "exit_code":  0,
+                             "command":  "dotnet build D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141554-042\\runner\\ZappaSelectedCandidate.Runner\\ZappaSelectedCandidate.Runner.csproj --nologo -clp:ErrorsOnly",
+                             "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141554-042\\evidence\\build-runner.transcript.txt"
+                         },
+    "template_validation":  {
+                                "status":  "passed",
+                                "exit_code":  0,
+                                "command":  "dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141554-042\\runner\\ZappaSelectedCandidate.Runner\\ZappaSelectedCandidate.Runner.csproj -- template D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141554-042\\runner\\ZappaSelectedCandidate.Runner\\test.qaas.yaml --no-env",
+                                "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141554-042\\evidence\\template-runner.transcript.txt"
+                            },
+    "live_validation":  {
+                            "status":  "passed",
+                            "exit_code":  0,
+                            "command":  "dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141554-042\\runner\\ZappaSelectedCandidate.Runner\\ZappaSelectedCandidate.Runner.csproj -- run D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141554-042\\runner\\ZappaSelectedCandidate.Runner\\test.qaas.yaml -e --no-env",
+                            "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141554-042\\evidence\\live-runner-run.transcript.txt"
+                        },
+    "response":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141554-042\\evidence\\posts-1-response.json",
+    "response_status":  200,
+    "response_contract_passed":  true,
+    "cleanup_passed":  true,
+    "cleanup_process_ids":  [
+                                5652,
+                                27556,
+                                20428,
+                                32820,
+                                15972
+                            ],
+    "remaining_tracked_process_ids":  [
+
+                                      ],
+    "port_owners_after_cleanup_count":  0,
+    "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141554-042\\evidence\\selected-live.transcript.txt",
+    "json_server_stdout":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141554-042\\evidence\\json-server.stdout.txt",
+    "json_server_stderr":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141554-042\\evidence\\json-server.stderr.txt",
+    "manifest_updated":  true,
+    "weak_validation_passed":  false,
+    "failure_reason":  "",
+    "exit_code":  0
+}

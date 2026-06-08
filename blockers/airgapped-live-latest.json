@@ -1,0 +1,82 @@
+﻿{
+    "generated_at":  "2026-06-08T16:06:59.8315489+03:00",
+    "validation_kind":  "live_model_execution",
+    "classification":  "quota_blocked",
+    "weak_validation_passed":  false,
+    "any_weak_validation_passed":  false,
+    "quota_blocked":  true,
+    "dry_run":  false,
+    "model":  null,
+    "models":  [
+                   "id:gpt-3.5-turbo",
+                   "id:gpt-3.5-turbo-0613",
+                   "gpt-4o-mini",
+                   "gpt-4o-mini-2024-07-18"
+               ],
+    "expected_models":  [
+                            "id:gpt-3.5-turbo",
+                            "id:gpt-3.5-turbo-0613",
+                            "gpt-4o-mini",
+                            "gpt-4o-mini-2024-07-18"
+                        ],
+    "summary":  "D:\\QaaS\\_tmp\\weak-model-validation\\20260608-160624-553-1906a368-summary.md",
+    "transcript":  null,
+    "expected_model_count":  4,
+    "attempted_model_count":  4,
+    "missing_attempt_count":  0,
+    "live_pass_count":  0,
+    "quota_blocked_count":  4,
+    "model_unavailable_count":  0,
+    "dry_run_assembly_count":  0,
+    "unknown_failure_count":  0,
+    "records":  [
+                    {
+                        "model":  "id:gpt-3.5-turbo",
+                        "expected_model":  "id:gpt-3.5-turbo",
+                        "classification":  "quota_blocked",
+                        "weak_validation_eligible":  true,
+                        "not_weak_reason":  null,
+                        "evidence_class":  "preferred_weak",
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  1,
+                        "transcript":  "D:\\QaaS\\_tmp\\weak-model-validation\\20260608-160624-553-1906a368-claude-copilot-id_gpt-3.5-turbo.md",
+                        "summary":  "D:\\QaaS\\_tmp\\weak-model-validation\\20260608-160624-553-1906a368-summary.md"
+                    },
+                    {
+                        "model":  "id:gpt-3.5-turbo-0613",
+                        "expected_model":  "id:gpt-3.5-turbo-0613",
+                        "classification":  "quota_blocked",
+                        "weak_validation_eligible":  true,
+                        "not_weak_reason":  null,
+                        "evidence_class":  "preferred_weak",
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  1,
+                        "transcript":  "D:\\QaaS\\_tmp\\weak-model-validation\\20260608-160624-553-1906a368-claude-copilot-id_gpt-3.5-turbo-0613.md",
+                        "summary":  "D:\\QaaS\\_tmp\\weak-model-validation\\20260608-160624-553-1906a368-summary.md"
+                    },
+                    {
+                        "model":  "gpt-4o-mini",
+                        "expected_model":  "gpt-4o-mini",
+                        "classification":  "quota_blocked",
+                        "weak_validation_eligible":  true,
+                        "not_weak_reason":  null,
+                        "evidence_class":  "preferred_weak",
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  1,
+                        "transcript":  "D:\\QaaS\\_tmp\\weak-model-validation\\20260608-160624-553-1906a368-claude-copilot-gpt-4o-mini.md",
+                        "summary":  "D:\\QaaS\\_tmp\\weak-model-validation\\20260608-160624-553-1906a368-summary.md"
+                    },
+                    {
+                        "model":  "gpt-4o-mini-2024-07-18",
+                        "expected_model":  "gpt-4o-mini-2024-07-18",
+                        "classification":  "quota_blocked",
+                        "weak_validation_eligible":  true,
+                        "not_weak_reason":  null,
+                        "evidence_class":  "preferred_weak",
+                        "weak_validation_passed":  false,
+                        "transcript_exit_code":  1,
+                        "transcript":  "D:\\QaaS\\_tmp\\weak-model-validation\\20260608-160624-553-1906a368-claude-copilot-gpt-4o-mini-2024-07-18.md",
+                        "summary":  "D:\\QaaS\\_tmp\\weak-model-validation\\20260608-160624-553-1906a368-summary.md"
+                    }
+                ]
+}

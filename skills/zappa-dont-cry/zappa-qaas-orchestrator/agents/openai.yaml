@@ -1,0 +1,4 @@
+interface:
+  display_name: "Zappa QaaS Orchestrator"
+  short_description: "Coordinate zappa-dont-cry QaaS workflows."
+  default_prompt: "Use zappa-qaas-orchestrator to route a QaaS task through planning, authoring, validation, weak-model checks, and review."

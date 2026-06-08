@@ -1,0 +1,74 @@
+{
+    "schema_version":  1,
+    "repository":  "typicode/json-server",
+    "rank":  200,
+    "status":  "candidate_runtime_plan_blocked",
+    "promotion_state":  "blocked",
+    "lifecycle_owner":  "external_harness_not_qaas_yaml",
+    "command_support":  "candidate-executable-command",
+    "command":  "npx json-server db.json",
+    "working_directory":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\200-typicode-json-server",
+    "fixture":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\200-typicode-json-server\\fixtures\\db.json",
+    "expected_listen_url":  "http://localhost:3000",
+    "readiness_probe":  {
+                            "method":  "GET",
+                            "url":  "http://127.0.0.1:3000/posts/1",
+                            "expected_status":  200
+                        },
+    "cleanup":  {
+                    "required":  true,
+                    "strategy":  "terminate_tracked_process_tree",
+                    "status":  "passed",
+                    "evidence":  [
+                                     "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-lifecycle.json",
+                                     "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-114901-635\\evidence\\lifecycle.transcript.txt"
+                                 ]
+                },
+    "blockers":  [
+                     "run_live_airgapped_weak_model_validation",
+                     "run_strong_review_against_selected_contract_evidence"
+                 ],
+    "public_evidence":  [
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\200-typicode-json-server\\selected-contract.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\200-typicode-json-server\\repo-contract.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\200-typicode-json-server\\README.snapshot.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\200-typicode-json-server\\tree.snapshot.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\200-typicode-json-server\\files\\README.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\200-typicode-json-server\\files\\schema.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\200-typicode-json-server\\files\\fixtures\\db.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\200-typicode-json-server\\files\\package.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\200-typicode-json-server\\files\\.github\\workflows\\node.js.yml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\200-typicode-json-server\\files\\.github\\workflows\\publish.yml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\200-typicode-json-server\\files\\README.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\200-typicode-json-server\\files\\schema.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\200-typicode-json-server\\files\\fixtures\\db.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\200-typicode-json-server\\files\\package.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\200-typicode-json-server\\files\\.github\\workflows\\node.js.yml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\200-typicode-json-server\\files\\.github\\workflows\\publish.yml"
+                        ],
+    "lifecycle_validation":  {
+                                 "status":  "passed",
+                                 "exit_code":  0,
+                                 "command":  "npx --yes --package json-server@1.0.0-beta.15 json-server db.json ; GET http://127.0.0.1:3000/posts/1 ; terminate tracked process tree",
+                                 "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-114901-635\\evidence\\lifecycle.transcript.txt",
+                                 "summary":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-lifecycle.json",
+                                 "response":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-114901-635\\evidence\\posts-1-response.json",
+                                 "cleanup_process_ids":  [
+                                                             24188,
+                                                             7264,
+                                                             22172,
+                                                             25328,
+                                                             22312
+                                                         ]
+                             },
+    "qaas_validation":  {
+                            "status":  "passed",
+                            "exit_code":  0,
+                            "command":  "dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141554-042\\runner\\ZappaSelectedCandidate.Runner\\ZappaSelectedCandidate.Runner.csproj -- template D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141554-042\\runner\\ZappaSelectedCandidate.Runner\\test.qaas.yaml --no-env ; npx --yes --package json-server@1.0.0-beta.15 json-server db.json ; dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141554-042\\runner\\ZappaSelectedCandidate.Runner\\ZappaSelectedCandidate.Runner.csproj -- run D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141554-042\\runner\\ZappaSelectedCandidate.Runner\\test.qaas.yaml -e --no-env",
+                            "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141554-042\\evidence\\selected-live.transcript.txt",
+                            "summary":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-live.json",
+                            "response":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141554-042\\evidence\\posts-1-response.json",
+                            "run_dir":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141554-042",
+                            "package_spec":  "json-server@1.0.0-beta.15"
+                        }
+}

@@ -1,0 +1,167 @@
+{
+    "schema_version":  1,
+    "repository":  "denoland/deno",
+    "rank":  98,
+    "status":  "candidate_runtime_plan_blocked",
+    "promotion_state":  "blocked",
+    "lifecycle_owner":  "external_harness_not_qaas_yaml",
+    "command_support":  "candidate-executable-command",
+    "public_command":  "deno run --allow-net server.ts",
+    "command":  "deno run --allow-net server.ts",
+    "managed_toolchain":  {
+                              "required":  true,
+                              "source":  "official_deno_github_release_asset",
+                              "release_tag":  "v2.8.2",
+                              "download_url":  "https://github.com/denoland/deno/releases/download/v2.8.2/deno-x86_64-pc-windows-msvc.zip",
+                              "archive_sha256":  "6fe073b11cabeba2f2726d8a3d1592b198aec5f23dab3473d0dc8d5ec7aee1c9",
+                              "binary":  "deno.exe",
+                              "status":  "passed",
+                              "evidence":  [
+                                               "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-lifecycle-deno.json",
+                                               "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-115024-539\\evidence\\deno-lifecycle.transcript.txt",
+                                               "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-115024-539\\evidence\\deno-version.stdout.txt"
+                                           ]
+                          },
+    "working_directory":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\098-denoland-deno\\app",
+    "fixture":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\098-denoland-deno\\app\\server.ts",
+    "expected_listen_url":  "http://127.0.0.1:8000/",
+    "readiness_probe":  {
+                            "method":  "GET",
+                            "url":  "http://127.0.0.1:8000/",
+                            "expected_status":  200,
+                            "expected_body":  "Hello, world!"
+                        },
+    "cleanup":  {
+                    "required":  true,
+                    "strategy":  "terminate_tracked_process_tree",
+                    "status":  "passed",
+                    "evidence":  [
+                                     "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-lifecycle-deno.json",
+                                     "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-115024-539\\evidence\\deno-lifecycle.transcript.txt"
+                                 ]
+                },
+    "out_of_scope":  [
+                         "Deno CLI behavior beyond the README HTTP example",
+                         "Rust runtime internals",
+                         "repository schemas and CI behavior not used by this candidate"
+                     ],
+    "blockers":  [
+                     "run_live_airgapped_weak_model_validation",
+                     "run_strong_review_against_selected_contract_evidence"
+                 ],
+    "custom_text_body_assertion":  {
+                                       "status":  "build_template_live_validated",
+                                       "assertion_type":  "ExactHttpTextBody",
+                                       "implementation":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\098-denoland-deno\\assertion-packets\\ExactHttpTextBody\\ExactHttpTextBody.cs",
+                                       "usage_snippet":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\098-denoland-deno\\assertion-packets\\ExactHttpTextBody\\ExactHttpTextBody.usage.yaml.txt",
+                                       "hook_plan":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\098-denoland-deno\\assertion-packets\\ExactHttpTextBody\\custom-text-body-hook-plan.json",
+                                       "validation_status":  "build_template_live_validated"
+                                   },
+    "custom_assertion_packets":  [
+                                     {
+                                         "packet_id":  "deno-exact-http-text-body",
+                                         "assertion_name":  "ExactHttpTextBody",
+                                         "status":  "build_template_live_validated_blocked_until_airgapped",
+                                         "promotion_state":  "blocked",
+                                         "activation":  "staged_live_runner_only",
+                                         "wired_into_runner_yaml":  true,
+                                         "source_files":  [
+                                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\098-denoland-deno\\assertion-packets\\ExactHttpTextBody\\ExactHttpTextBody.cs"
+                                                          ],
+                                         "yaml_fragment":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\098-denoland-deno\\assertion-packets\\ExactHttpTextBody\\ExactHttpTextBody.usage.yaml.txt",
+                                         "hook_plan":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\098-denoland-deno\\assertion-packets\\ExactHttpTextBody\\custom-text-body-hook-plan.json",
+                                         "expected_body_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\098-denoland-deno\\expectations\\root-body.txt",
+                                         "expected_body_sha256":  "315f5bdb76d078c43b8ac0064e4a0164612b1fce77c869345bfc94c75894edd3",
+                                         "encoding":  "utf-8",
+                                         "comparison":  "byte_for_byte",
+                                         "normalization":  "none",
+                                         "case_sensitive":  true,
+                                         "trim":  false,
+                                         "contains":  false,
+                                         "docs_evidence":  [
+                                                               "D:\\QaaS\\qaas-docs\\docs\\assertions\\index.md",
+                                                               "D:\\QaaS\\qaas-docs\\docs\\assertions\\custom-authoring-guide.md",
+                                                               "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
+                                                               "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\OutputContentByExpectedCsvResults\\overview.md",
+                                                               "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\OutputDeserializableTo\\overview.md",
+                                                               "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\ObjectOutputJsonSchema\\overview.md",
+                                                               "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions.md",
+                                                               "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\schema-extensions.md",
+                                                               "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json"
+                                                           ],
+                                         "public_evidence":  [
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\selected-contract.json",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\098-denoland-deno\\repo-contract.json",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\098-denoland-deno\\README.snapshot.md",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\098-denoland-deno\\tree.snapshot.json",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\README.md",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\cli\\schemas\\permission-audit.v1.json",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\cli\\schemas\\config-file.v1.json",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\cli\\schemas\\kv-metadata-exchange-response.v1.json",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\cli\\schemas\\lint-rules.v1.json",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\.devcontainer\\Dockerfile",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\.github\\workflows\\cargo_publish.generated.yml",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\.github\\workflows\\cargo_publish.ts",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\README.md",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\cli\\schemas\\permission-audit.v1.json",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\cli\\schemas\\config-file.v1.json",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\cli\\schemas\\kv-metadata-exchange-response.v1.json",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\cli\\schemas\\lint-rules.v1.json",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\.devcontainer\\Dockerfile",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\.github\\workflows\\cargo_publish.generated.yml",
+                                                                 "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\.github\\workflows\\cargo_publish.ts"
+                                                             ],
+                                         "validation_records":  {
+                                                                    "build":  "passed",
+                                                                    "schema":  "passed",
+                                                                    "template":  "passed",
+                                                                    "live":  "passed",
+                                                                    "airgapped":  "not_run"
+                                                                },
+                                         "weak_validation_passed":  false
+                                     }
+                                 ],
+    "public_evidence":  [
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\selected-contract.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\098-denoland-deno\\repo-contract.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\098-denoland-deno\\README.snapshot.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\098-denoland-deno\\tree.snapshot.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\README.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\cli\\schemas\\permission-audit.v1.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\cli\\schemas\\config-file.v1.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\cli\\schemas\\kv-metadata-exchange-response.v1.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\cli\\schemas\\lint-rules.v1.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\.devcontainer\\Dockerfile",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\.github\\workflows\\cargo_publish.generated.yml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\.github\\workflows\\cargo_publish.ts",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\README.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\cli\\schemas\\permission-audit.v1.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\cli\\schemas\\config-file.v1.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\cli\\schemas\\kv-metadata-exchange-response.v1.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\cli\\schemas\\lint-rules.v1.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\.devcontainer\\Dockerfile",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\.github\\workflows\\cargo_publish.generated.yml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\files\\.github\\workflows\\cargo_publish.ts"
+                        ],
+    "lifecycle_validation":  {
+                                 "status":  "passed",
+                                 "exit_code":  0,
+                                 "command":  "managed deno v2.8.2 ; deno run --allow-net server.ts ; GET http://127.0.0.1:8000/ ; terminate tracked process tree",
+                                 "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-115024-539\\evidence\\deno-lifecycle.transcript.txt",
+                                 "summary":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-lifecycle-deno.json",
+                                 "response":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-115024-539\\evidence\\root-response.txt",
+                                 "cleanup_process_ids":  [
+                                                             18956,
+                                                             29972
+                                                         ]
+                             },
+    "qaas_validation":  {
+                            "status":  "passed",
+                            "exit_code":  0,
+                            "command":  "managed deno v2.8.2 ; dotnet build D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369\\assertions\\ZappaSelectedDeno.Assertions\\ZappaSelectedDeno.Assertions.csproj ; dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369\\runner\\ZappaSelectedDeno.Runner\\ZappaSelectedDeno.Runner.csproj -- template D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369\\runner\\ZappaSelectedDeno.Runner\\test.qaas.yaml --no-env ; deno run --allow-net server.ts ; dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369\\runner\\ZappaSelectedDeno.Runner\\ZappaSelectedDeno.Runner.csproj -- run D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369\\runner\\ZappaSelectedDeno.Runner\\test.qaas.yaml -e --no-env",
+                            "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369\\evidence\\selected-live-deno.transcript.txt",
+                            "summary":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-live-deno.json",
+                            "response":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369\\evidence\\root-response.txt",
+                            "run_dir":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-142019-369"
+                        }
+}

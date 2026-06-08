@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "promotion_packet_status": "blocked",
+  "completion_ready": false,
+  "manifest_count": 771,
+  "promotion_candidate_index": "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\promotion-candidate-index.json",
+  "promotable_candidate_count": 0,
+  "executable_manifest_count": 0,
+  "packet_count": 0,
+  "blocked_executable_count": 0,
+  "packet_dir": "D:\\QaaS\\_tmp\\zappa-dont-cry\\promotion-packets",
+  "packets": [],
+  "required_packet_evidence": [
+    "template",
+    "build",
+    "live",
+    "airgapped"
+  ],
+  "blocked_reason": "No executable manifests or promotable candidates have complete template/build/live/airgapped evidence.",
+  "candidate_summary": {
+    "manifest_count": 771,
+    "executable_manifest_count": 0,
+    "deterministic_executable_candidate_count": 6,
+    "weak_blocked_deterministic_candidate_count": 5,
+    "source_scope_blocked_deterministic_candidate_count": 1,
+    "promotable_candidate_count": 0,
+    "blocked_manifest_count": 771,
+    "blocked_by_dependency_gates_count": 771,
+    "blocked_by_source_only_count": 771,
+    "missing_template_validation_count": 764,
+    "missing_build_validation_count": 764,
+    "missing_live_validation_count": 764,
+    "missing_airgapped_validation_count": 771,
+    "placeholder_artifact_count": 495
+  }
+}

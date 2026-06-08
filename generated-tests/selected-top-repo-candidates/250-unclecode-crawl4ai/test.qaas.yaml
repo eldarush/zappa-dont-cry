@@ -1,0 +1,53 @@
+# Candidate QaaS Runner YAML generated from immutable public Crawl4AI Docker healthcheck evidence.
+# Status: blocked_until_template_live_airgapped_validation
+# Docker startup and cleanup stay in candidate-runtime-plan.json; QaaS YAML does not own container lifecycle.
+# The public contract is Docker curl -f /health semantics: HTTP status must be below 400. Body is intentionally unasserted.
+
+MetaData:
+  Team: ZappaDontCry
+  System: unclecode-crawl4ai
+
+Storages:
+  -
+    JsonStorageFormat: Indented
+    FileSystem:
+      Path: ./session-data
+
+DataSources:
+  - Name: GetHealthPayload
+    Generator: FromFileSystem
+    DataSourceNames: []
+    DataSourcePatterns: []
+    GeneratorConfiguration:
+      DataArrangeOrder: AsciiAsc
+      FileSystem:
+        Path: './request-payloads'
+        SearchPattern: 'get-health.bin'
+      StorageMetaData: ItemName
+
+Sessions:
+  - Name: Crawl4AiHealth
+    Transactions:
+      - Name: GetHealth
+        TimeoutMs: 5000
+        DataSourceNames:
+          - GetHealthPayload
+        DataSourcePatterns:
+          - GetHealthPayload
+        Http:
+          BaseAddress: http://127.0.0.1
+          Port: 11235
+          Route: health
+          Method: Get
+
+Assertions:
+  - Name: GetHealthMatchesDockerCurlF
+    Assertion: HttpStatusBelow400
+    SessionNames:
+      - Crawl4AiHealth
+    DataSourceNames: []
+    DataSourcePatterns: []
+    AssertionConfiguration:
+      MaximumExclusiveStatusCode: 400
+      OutputNames:
+        - GetHealth

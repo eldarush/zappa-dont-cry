@@ -1,0 +1,38 @@
+﻿{
+    "generated_at":  "2026-06-08T16:04:58.7199536+03:00",
+    "validation_kind":  "fallback_live_model_execution",
+    "classification":  "fallback_unavailable_or_quota_blocked",
+    "weak_validation_passed":  false,
+    "dry_run":  false,
+    "summary":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live-copilot-fallback\\20260607-213319-868-bf93d930-summary.md",
+    "model_count":  3,
+    "live_pass_count":  0,
+    "quota_blocked_count":  2,
+    "unavailable_count":  1,
+    "records":  [
+                    {
+                        "model":  "mai-code-1-flash",
+                        "classification":  "model_unavailable",
+                        "weak_validation_eligible":  true,
+                        "evidence_class":  "hosted_fallback_weak",
+                        "weak_validation_passed":  false,
+                        "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live-copilot-fallback\\20260607-213319-868-bf93d930-copilot-mai-code-1-flash.md"
+                    },
+                    {
+                        "model":  "gemini-3.5-flash",
+                        "classification":  "quota_blocked",
+                        "weak_validation_eligible":  true,
+                        "evidence_class":  "hosted_fallback_weak",
+                        "weak_validation_passed":  false,
+                        "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live-copilot-fallback\\20260607-213319-868-bf93d930-copilot-gemini-3.5-flash.md"
+                    },
+                    {
+                        "model":  "claude-haiku-4.5",
+                        "classification":  "quota_blocked",
+                        "weak_validation_eligible":  true,
+                        "evidence_class":  "hosted_fallback_weak",
+                        "weak_validation_passed":  false,
+                        "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live-copilot-fallback\\20260607-213319-868-bf93d930-copilot-claude-haiku-4.5.md"
+                    }
+                ]
+}

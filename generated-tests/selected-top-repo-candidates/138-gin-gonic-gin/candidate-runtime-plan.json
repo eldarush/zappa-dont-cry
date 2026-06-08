@@ -1,0 +1,79 @@
+{
+    "schema_version":  1,
+    "repository":  "gin-gonic/gin",
+    "rank":  138,
+    "status":  "candidate_runtime_plan_blocked",
+    "promotion_state":  "blocked",
+    "lifecycle_owner":  "external_harness_not_qaas_yaml",
+    "command_support":  "candidate-executable-command",
+    "command":  "go run main.go",
+    "working_directory":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\138-gin-gonic-gin\\app",
+    "fixture":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\138-gin-gonic-gin\\app\\main.go",
+    "expected_listen_url":  "http://127.0.0.1:8080",
+    "readiness_probe":  {
+                            "method":  "GET",
+                            "url":  "http://127.0.0.1:8080/ping",
+                            "expected_status":  200,
+                            "expected_json":  {
+                                                  "message":  "pong"
+                                              }
+                        },
+    "cleanup":  {
+                    "required":  true,
+                    "strategy":  "terminate_tracked_process_tree",
+                    "status":  "passed",
+                    "evidence":  [
+                                     "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-lifecycle-gin.json",
+                                     "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-114951-224\\evidence\\gin-lifecycle.transcript.txt"
+                                 ]
+                },
+    "blockers":  [
+                     "run_live_airgapped_weak_model_validation",
+                     "run_strong_review_against_selected_contract_evidence"
+                 ],
+    "public_evidence":  [
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\selected-contract.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\138-gin-gonic-gin\\repo-contract.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\138-gin-gonic-gin\\README.snapshot.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\138-gin-gonic-gin\\tree.snapshot.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\README.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\go.mod",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\binding\\protobuf.go",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\render\\protobuf.go",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\testdata\\protoexample\\test.pb.go",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\.github\\workflows\\codeql.yml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\.github\\workflows\\gin.yml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\README.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\go.mod",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\binding\\protobuf.go",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\render\\protobuf.go",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\testdata\\protoexample\\test.pb.go",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\.github\\workflows\\codeql.yml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\files\\.github\\workflows\\gin.yml"
+                        ],
+    "lifecycle_validation":  {
+                                 "status":  "passed",
+                                 "exit_code":  0,
+                                 "command":  "go run main.go ; GET http://127.0.0.1:8080/ping ; terminate tracked process tree",
+                                 "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-114951-224\\evidence\\gin-lifecycle.transcript.txt",
+                                 "summary":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-lifecycle-gin.json",
+                                 "response":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-114951-224\\evidence\\ping-response.json",
+                                 "go_source":  "managed_go_toolchain",
+                                 "go_path":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\toolchains\\go\\go1.26.4-windows-amd64\\go\\bin\\go.exe",
+                                 "go_version":  "go version go1.26.4 windows/amd64",
+                                 "cleanup_process_ids":  [
+                                                             8000,
+                                                             2668,
+                                                             21908
+                                                         ]
+                             },
+    "qaas_validation":  {
+                            "status":  "passed",
+                            "exit_code":  0,
+                            "command":  "dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141923-546\\runner\\ZappaSelectedGin.Runner\\ZappaSelectedGin.Runner.csproj -- template D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141923-546\\runner\\ZappaSelectedGin.Runner\\test.qaas.yaml --no-env ; go run -mod=readonly main.go ; dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141923-546\\runner\\ZappaSelectedGin.Runner\\ZappaSelectedGin.Runner.csproj -- run D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141923-546\\runner\\ZappaSelectedGin.Runner\\test.qaas.yaml -e --no-env",
+                            "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141923-546\\evidence\\selected-live-gin.transcript.txt",
+                            "summary":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-live-gin.json",
+                            "response":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141923-546\\evidence\\ping-response.json",
+                            "run_dir":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141923-546"
+                        }
+}

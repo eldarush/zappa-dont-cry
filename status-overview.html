@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zappa QaaS Status</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #172026;
+      --muted: #58646d;
+      --line: #d9e1e7;
+      --ok: #0f766e;
+      --warn: #b45309;
+      --bad: #b91c1c;
+      --bg: #f6f8fa;
+      --panel: #ffffff;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.45;
+    }
+
+    main {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 32px 20px;
+    }
+
+    header {
+      margin-bottom: 22px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    h1 {
+      margin: 0 0 6px;
+      font-size: 30px;
+      letter-spacing: 0;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin: 18px 0 22px;
+    }
+
+    .metric, section {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+
+    .metric {
+      padding: 14px;
+      min-height: 92px;
+    }
+
+    .label {
+      color: var(--muted);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+
+    .value {
+      margin-top: 8px;
+      font-size: 26px;
+      font-weight: 700;
+    }
+
+    .ok { color: var(--ok); }
+    .warn { color: var(--warn); }
+    .bad { color: var(--bad); }
+
+    section {
+      padding: 18px;
+      margin-top: 14px;
+    }
+
+    h2 {
+      margin: 0 0 10px;
+      font-size: 18px;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    li { margin: 6px 0; }
+
+    code {
+      padding: 2px 5px;
+      border-radius: 5px;
+      background: #eef3f6;
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 13px;
+    }
+
+    @media (max-width: 760px) {
+      .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+
+    @media (max-width: 460px) {
+      .grid { grid-template-columns: 1fr; }
+      h1 { font-size: 24px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Zappa QaaS Status Snapshot</h1>
+      <p class="subtitle">Generated once on 2026-06-08 from the latest harness and blocker records.</p>
+    </header>
+
+    <div class="grid" aria-label="Current metrics">
+      <div class="metric">
+        <div class="label">Harness</div>
+        <div class="value ok">60/60</div>
+      </div>
+      <div class="metric">
+        <div class="label">Readiness</div>
+        <div class="value bad">Blocked</div>
+      </div>
+      <div class="metric">
+        <div class="label">Manifests</div>
+        <div class="value warn">771</div>
+      </div>
+      <div class="metric">
+        <div class="label">Executable</div>
+        <div class="value bad">0</div>
+      </div>
+    </div>
+
+    <section>
+      <h2>What Is Working</h2>
+      <ul>
+        <li>The full deterministic harness passes: <code>Invoke-ZappaHarness.ps1 -Suite all</code>.</li>
+        <li>The skill layout, metadata, artifact contracts, generated C# compilation, regression suite, and weak-routing checks are green.</li>
+        <li>Six selected top-repo candidates have deterministic lifecycle, template, and live evidence.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>What Is Still Blocking Completion</h2>
+      <ul>
+        <li>Preferred weak-model validation is quota-blocked across all four configured weak routes.</li>
+        <li>All 771 generated QaaS manifests remain blocked; none are allowed to count as executable yet.</li>
+        <li>One selected candidate, <code>unclecode/crawl4ai</code>, still has deterministic lifecycle/scope gaps in addition to weak-model blocking.</li>
+        <li>The top-250 campaign is structurally covered, but not fully executable or promotable.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Next Work</h2>
+      <ul>
+        <li>Continue hardening selected top-repo promotion so deterministic blockers are separated from true weak-model quota blockers.</li>
+        <li>Keep completion fail-closed until every required preferred weak model produces live, non-dry-run passing evidence.</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>

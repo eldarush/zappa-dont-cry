@@ -1,0 +1,92 @@
+{
+    "schema_version":  1,
+    "generated_at":  "2026-06-08T11:48:40.1874157+03:00",
+    "source_selected_contracts_directory":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts",
+    "output_directory":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates",
+    "selected_candidate_count":  7,
+    "selected_contract_count":  7,
+    "deferred_candidate_count":  0,
+    "policy":  "selected top-repo candidate packets remain blocked until template/live/cleanup/airgapped/strong-review evidence exists",
+    "records":  [
+                    {
+                        "rank":  200,
+                        "repository":  "typicode/json-server",
+                        "directory":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\200-typicode-json-server",
+                        "manifest":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\200-typicode-json-server\\qaas-artifact-manifest.json",
+                        "selected_contract":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\200-typicode-json-server\\selected-contract.json",
+                        "status":  "candidate_packet_blocked_until_template_live_airgapped_validation",
+                        "promotion_state":  "blocked",
+                        "readiness_state":  "qaaS_candidate_authored_from_selected_contract",
+                        "artifact_count":  6
+                    },
+                    {
+                        "rank":  227,
+                        "repository":  "pallets/flask",
+                        "directory":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\227-pallets-flask",
+                        "manifest":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\227-pallets-flask\\qaas-artifact-manifest.json",
+                        "selected_contract":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\227-pallets-flask\\selected-contract.json",
+                        "status":  "candidate_packet_blocked_until_template_live_airgapped_validation",
+                        "promotion_state":  "blocked",
+                        "readiness_state":  "qaaS_candidate_authored_from_selected_contract",
+                        "artifact_count":  6
+                    },
+                    {
+                        "rank":  243,
+                        "repository":  "expressjs/express",
+                        "directory":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\243-expressjs-express",
+                        "manifest":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\243-expressjs-express\\qaas-artifact-manifest.json",
+                        "selected_contract":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\243-expressjs-express\\selected-contract.json",
+                        "status":  "candidate_packet_blocked_until_template_live_airgapped_validation",
+                        "promotion_state":  "blocked",
+                        "readiness_state":  "qaaS_candidate_authored_from_selected_contract",
+                        "artifact_count":  6
+                    },
+                    {
+                        "rank":  114,
+                        "repository":  "fastapi/fastapi",
+                        "directory":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\114-fastapi-fastapi",
+                        "manifest":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\114-fastapi-fastapi\\qaas-artifact-manifest.json",
+                        "selected_contract":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\selected-contract.json",
+                        "status":  "candidate_packet_blocked_until_template_live_airgapped_validation",
+                        "promotion_state":  "blocked",
+                        "readiness_state":  "qaaS_candidate_authored_from_selected_contract",
+                        "artifact_count":  6
+                    },
+                    {
+                        "rank":  138,
+                        "repository":  "gin-gonic/gin",
+                        "directory":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\138-gin-gonic-gin",
+                        "manifest":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\138-gin-gonic-gin\\qaas-artifact-manifest.json",
+                        "selected_contract":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\138-gin-gonic-gin\\selected-contract.json",
+                        "status":  "candidate_packet_blocked_until_template_live_airgapped_validation",
+                        "promotion_state":  "blocked",
+                        "readiness_state":  "qaaS_candidate_authored_from_selected_contract",
+                        "artifact_count":  6
+                    },
+                    {
+                        "rank":  98,
+                        "repository":  "denoland/deno",
+                        "directory":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\098-denoland-deno",
+                        "manifest":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\098-denoland-deno\\qaas-artifact-manifest.json",
+                        "selected_contract":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\098-denoland-deno\\selected-contract.json",
+                        "status":  "candidate_packet_blocked_until_template_live_airgapped_validation",
+                        "promotion_state":  "blocked",
+                        "readiness_state":  "qaaS_candidate_authored_from_selected_contract",
+                        "artifact_count":  6
+                    },
+                    {
+                        "rank":  250,
+                        "repository":  "unclecode/crawl4ai",
+                        "directory":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\250-unclecode-crawl4ai",
+                        "manifest":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\250-unclecode-crawl4ai\\qaas-artifact-manifest.json",
+                        "selected_contract":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\250-unclecode-crawl4ai\\selected-contract.json",
+                        "status":  "candidate_packet_blocked_until_template_live_airgapped_validation",
+                        "promotion_state":  "blocked",
+                        "readiness_state":  "qaaS_candidate_authored_from_selected_contract",
+                        "artifact_count":  4
+                    }
+                ],
+    "deferred_records":  [
+
+                         ]
+}

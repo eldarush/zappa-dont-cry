@@ -1,0 +1,790 @@
+{
+    "schema_version":  1,
+    "campaign_id":  "selected-top-repo-fastapi-candidate",
+    "source_repository":  "fastapi/fastapi",
+    "repository_rank":  114,
+    "selected_contract":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\selected-contract.json",
+    "docs_evidence":  [
+                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\helloWorldHttp.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\actionSelectionPlaybook.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions-yamlView.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\storages\\configurations\\yamlView.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\dataSources\\configurations\\yamlView.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\yamlView.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\commands\\run.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\configuration\\yamlView.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\OutputContentByExpectedCsvResults\\overview.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\generators\\availableGenerators\\FromFileSystem\\overview.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json",
+                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\ObjectOutputJsonSchema\\overview.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\ObjectOutputJsonSchema\\configuration\\yamlView.md",
+                          "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\ObjectOutputJsonSchema\\configuration\\tableView.md"
+                      ],
+    "public_evidence":  [
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\selected-contract.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\repo-contract.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\README.snapshot.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\tree.snapshot.json",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\README.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\pyproject.toml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-callbacks.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-webhooks.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\how-to\\conditional-openapi.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\add-to-project.yml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\build-docs.yml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\scripts\\tests\\test_translation_fixer\\conftest.py",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\README.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\pyproject.toml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-callbacks.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-webhooks.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\how-to\\conditional-openapi.md",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\add-to-project.yml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\build-docs.yml",
+                            "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\scripts\\tests\\test_translation_fixer\\conftest.py"
+                        ],
+    "intent_questions":  [
+                             {
+                                 "question_id":  "behavior",
+                                 "question":  "What behavior must be proven?",
+                                 "self_answer":  "GET /items/5?q=somequery from the README FastAPI app should return HTTP 200 and the exact JSON object with item_id 5 and q somequery.",
+                                 "answer_source":  "public_repo_contract",
+                                 "risk_if_wrong":  "A weak model may test the wrong route, drop the query string, or use a loose body assertion.",
+                                 "how_to_override":  "Replace the route and expected output only with exact public repository evidence.",
+                                 "public_evidence":  [
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\selected-contract.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\repo-contract.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\README.snapshot.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\tree.snapshot.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\README.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\pyproject.toml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-callbacks.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-webhooks.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\how-to\\conditional-openapi.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\add-to-project.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\build-docs.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\scripts\\tests\\test_translation_fixer\\conftest.py",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\README.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\pyproject.toml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-callbacks.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-webhooks.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\how-to\\conditional-openapi.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\add-to-project.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\build-docs.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\scripts\\tests\\test_translation_fixer\\conftest.py"
+                                                     ]
+                             },
+                             {
+                                 "question_id":  "boundary",
+                                 "question":  "What is the system boundary: Runner target, Mocker dependency, hook host, or configuration-as-code?",
+                                 "self_answer":  "The Runner target is an externally-started FastAPI HTTP process on 127.0.0.1:8000; QaaS YAML does not start or clean that process.",
+                                 "answer_source":  "public_repo_contract",
+                                 "risk_if_wrong":  "Process lifecycle could be incorrectly encoded as undocumented QaaS YAML.",
+                                 "how_to_override":  "Provide documented QaaS lifecycle support or keep startup in an external harness plan.",
+                                 "public_evidence":  [
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\selected-contract.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\repo-contract.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\README.snapshot.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\tree.snapshot.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\README.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\pyproject.toml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-callbacks.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-webhooks.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\how-to\\conditional-openapi.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\add-to-project.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\build-docs.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\scripts\\tests\\test_translation_fixer\\conftest.py",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\README.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\pyproject.toml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-callbacks.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-webhooks.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\how-to\\conditional-openapi.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\add-to-project.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\build-docs.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\scripts\\tests\\test_translation_fixer\\conftest.py"
+                                                     ]
+                             },
+                             {
+                                 "question_id":  "docs_schema_evidence",
+                                 "question":  "What public docs/schema path proves the capability exists?",
+                                 "self_answer":  "QaaS public docs/schema support HTTP Transactions, FromFileSystem data-source bytes, HttpStatus assertions, OutputDeserialize Json, and ObjectOutputJsonSchema for exact schema-backed JSON body validation.",
+                                 "answer_source":  "public_docs",
+                                 "risk_if_wrong":  "The YAML could cite invented query/body fields or stale assertion names.",
+                                 "how_to_override":  "Update docs evidence and rerun the selected candidate checker.",
+                                 "public_evidence":  [
+                                                         "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\helloWorldHttp.md",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\actionSelectionPlaybook.md",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions.md",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions-yamlView.md",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\storages\\configurations\\yamlView.md",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\dataSources\\configurations\\yamlView.md",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\yamlView.md",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\commands\\run.md",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\configuration\\yamlView.md",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\OutputContentByExpectedCsvResults\\overview.md",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\generators\\availableGenerators\\FromFileSystem\\overview.md",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\ObjectOutputJsonSchema\\overview.md",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\ObjectOutputJsonSchema\\configuration\\yamlView.md",
+                                                         "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\ObjectOutputJsonSchema\\configuration\\tableView.md"
+                                                     ]
+                             },
+                             {
+                                 "question_id":  "inputs_outputs_side_effects",
+                                 "question":  "What inputs, outputs, and side effects prove success?",
+                                 "self_answer":  "Input is a GET request to /items/5?q=somequery with an empty body. Outputs are HTTP status 200 and JSON item_id=5, q=somequery. Side effects should be read-only for this GET.",
+                                 "answer_source":  "public_repo_contract",
+                                 "risk_if_wrong":  "A weak model may over-assert mutations, persistence, or unrelated endpoints.",
+                                 "how_to_override":  "Provide public side-effect evidence for any additional assertion.",
+                                 "public_evidence":  [
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\selected-contract.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\repo-contract.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\README.snapshot.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\tree.snapshot.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\README.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\pyproject.toml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-callbacks.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-webhooks.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\how-to\\conditional-openapi.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\add-to-project.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\build-docs.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\scripts\\tests\\test_translation_fixer\\conftest.py",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\README.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\pyproject.toml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-callbacks.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-webhooks.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\how-to\\conditional-openapi.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\add-to-project.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\build-docs.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\scripts\\tests\\test_translation_fixer\\conftest.py"
+                                                     ]
+                             },
+                             {
+                                 "question_id":  "negative_cases",
+                                 "question":  "Which negative, malformed, outage, retry, cleanup, and observability cases matter?",
+                                 "self_answer":  "Negative, malformed, retry, and observability cases remain blocked; this candidate covers only one README-backed happy path and cleanup planning.",
+                                 "answer_source":  "blocked",
+                                 "risk_if_wrong":  "A weak model may claim broad framework coverage from one happy-path route.",
+                                 "how_to_override":  "Add exact public negative-case and observability contracts before expanding assertions.",
+                                 "public_evidence":  [
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\selected-contract.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\repo-contract.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\README.snapshot.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\tree.snapshot.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\README.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\pyproject.toml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-callbacks.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-webhooks.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\how-to\\conditional-openapi.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\add-to-project.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\build-docs.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\scripts\\tests\\test_translation_fixer\\conftest.py",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\README.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\pyproject.toml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-callbacks.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-webhooks.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\how-to\\conditional-openapi.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\add-to-project.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\build-docs.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\scripts\\tests\\test_translation_fixer\\conftest.py"
+                                                     ]
+                             },
+                             {
+                                 "question_id":  "dependencies",
+                                 "question":  "Which dependencies must exist: broker, HTTP endpoint, database, Redis, S3, Kubernetes, filesystem, credentials, ports?",
+                                 "self_answer":  "Dependencies are Python, FastAPI CLI/runtime access, app/main.py in the runtime working directory, and port 8000 availability; those dependencies are identified from public evidence but not live-validated.",
+                                 "answer_source":  "blocked",
+                                 "risk_if_wrong":  "The candidate may be promoted where Python, FastAPI CLI, port, or fixture placement is not available.",
+                                 "how_to_override":  "Provide validated dependency transcripts for the target environment.",
+                                 "public_evidence":  [
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\selected-contract.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\repo-contract.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\README.snapshot.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\tree.snapshot.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\README.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\pyproject.toml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-callbacks.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-webhooks.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\how-to\\conditional-openapi.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\add-to-project.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\build-docs.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\scripts\\tests\\test_translation_fixer\\conftest.py",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\README.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\pyproject.toml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-callbacks.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-webhooks.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\how-to\\conditional-openapi.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\add-to-project.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\build-docs.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\scripts\\tests\\test_translation_fixer\\conftest.py"
+                                                     ]
+                             },
+                             {
+                                 "question_id":  "runnability",
+                                 "question":  "What can run now, and what must be deferred?",
+                                 "self_answer":  "Static candidate validation can run now. Process lifecycle, QaaS template validation, live act/assert execution, cleanup proof, and live weak-model validation are deferred and block promotion.",
+                                 "answer_source":  "blocked",
+                                 "risk_if_wrong":  "A weak model may confuse a candidate packet with an executable test.",
+                                 "how_to_override":  "Attach passing lifecycle, template, live, cleanup, airgapped, and strong-review evidence.",
+                                 "public_evidence":  [
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\selected-contract.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\repo-contract.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\README.snapshot.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\tree.snapshot.json",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\README.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\pyproject.toml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-callbacks.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-webhooks.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\how-to\\conditional-openapi.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\add-to-project.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\build-docs.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\scripts\\tests\\test_translation_fixer\\conftest.py",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\README.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\pyproject.toml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-callbacks.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-webhooks.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\how-to\\conditional-openapi.md",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\add-to-project.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\build-docs.yml",
+                                                         "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\scripts\\tests\\test_translation_fixer\\conftest.py"
+                                                     ]
+                             }
+                         ],
+    "intent_assumptions":  [
+                               {
+                                   "assumption":  "The README simple example is the public behavior contract for this candidate.",
+                                   "why_safe":  "It contains exact app code, command, URL, route with query string, and response body markers harvested from an immutable Git blob.",
+                                   "risk_if_wrong":  "The candidate may not match another FastAPI app or route.",
+                                   "how_to_override":  "Replace the selected contract with another immutable public blob.",
+                                   "public_evidence":  [
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\selected-contract.json",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\repo-contract.json",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\README.snapshot.md",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\tree.snapshot.json",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\README.md",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\pyproject.toml",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-callbacks.md",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-webhooks.md",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\how-to\\conditional-openapi.md",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\add-to-project.yml",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\build-docs.yml",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\scripts\\tests\\test_translation_fixer\\conftest.py",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\README.md",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\pyproject.toml",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-callbacks.md",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-webhooks.md",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\how-to\\conditional-openapi.md",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\add-to-project.yml",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\build-docs.yml",
+                                                           "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\scripts\\tests\\test_translation_fixer\\conftest.py"
+                                                       ]
+                               },
+                               {
+                                   "assumption":  "Process lifecycle belongs to the external harness until QaaS docs prove otherwise.",
+                                   "why_safe":  "The public QaaS Runner docs describe HTTP transactions but not starting arbitrary Python processes.",
+                                   "risk_if_wrong":  "Startup or cleanup may be missed if a future QaaS lifecycle feature exists.",
+                                   "how_to_override":  "Provide public QaaS lifecycle docs and update the checker.",
+                                   "public_evidence":  [
+                                                           "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\helloWorldHttp.md",
+                                                           "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\actionSelectionPlaybook.md",
+                                                           "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions.md",
+                                                           "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions-yamlView.md",
+                                                           "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\storages\\configurations\\yamlView.md",
+                                                           "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\dataSources\\configurations\\yamlView.md",
+                                                           "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\yamlView.md",
+                                                           "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\commands\\run.md",
+                                                           "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
+                                                           "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\configuration\\yamlView.md",
+                                                           "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\OutputContentByExpectedCsvResults\\overview.md",
+                                                           "D:\\QaaS\\qaas-docs\\docs\\generators\\availableGenerators\\FromFileSystem\\overview.md",
+                                                           "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json",
+                                                           "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\ObjectOutputJsonSchema\\overview.md",
+                                                           "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\ObjectOutputJsonSchema\\configuration\\yamlView.md",
+                                                           "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\ObjectOutputJsonSchema\\configuration\\tableView.md"
+                                                       ]
+                               },
+                               {
+                                   "assumption":  "JSON body equality is represented by an ObjectOutputJsonSchema side data source rather than invented JsonPath or ExpectedBody fields.",
+                                   "why_safe":  "ObjectOutputJsonSchema is documented and can enforce required keys, constants, and additionalProperties false.",
+                                   "risk_if_wrong":  "If the Runner serializes outputs differently, template/live validation will catch it before promotion.",
+                                   "how_to_override":  "Provide passing QaaS template/live evidence or a different documented assertion.",
+                                   "public_evidence":  [
+                                                           "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\helloWorldHttp.md",
+                                                           "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\actionSelectionPlaybook.md",
+                                                           "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions.md",
+                                                           "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions-yamlView.md",
+                                                           "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\storages\\configurations\\yamlView.md",
+                                                           "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\dataSources\\configurations\\yamlView.md",
+                                                           "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\yamlView.md",
+                                                           "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\commands\\run.md",
+                                                           "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
+                                                           "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\configuration\\yamlView.md",
+                                                           "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\OutputContentByExpectedCsvResults\\overview.md",
+                                                           "D:\\QaaS\\qaas-docs\\docs\\generators\\availableGenerators\\FromFileSystem\\overview.md",
+                                                           "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json",
+                                                           "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\ObjectOutputJsonSchema\\overview.md",
+                                                           "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\ObjectOutputJsonSchema\\configuration\\yamlView.md",
+                                                           "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\ObjectOutputJsonSchema\\configuration\\tableView.md"
+                                                       ]
+                               }
+                           ],
+    "artifacts":  [
+                      "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\114-fastapi-fastapi\\test.qaas.yaml",
+                      "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\114-fastapi-fastapi\\app\\main.py",
+                      "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\114-fastapi-fastapi\\schemas\\item-response.schema.json",
+                      "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\114-fastapi-fastapi\\request-payloads\\get-items-5.bin",
+                      "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\114-fastapi-fastapi\\candidate-runtime-plan.json",
+                      "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\114-fastapi-fastapi\\qaas-artifact-manifest.json"
+                  ],
+    "artifact_count":  6,
+    "artifact_types":  [
+                           "runner-yaml",
+                           "dependency-gate",
+                           "documentation"
+                       ],
+    "cases":  [
+                  {
+                      "case_id":  "fastapi-read-item-five",
+                      "scenario":  "Call README-backed FastAPI GET /items/5?q=somequery and assert documented HTTP success and exact JSON response schema.",
+                      "artifact_type":  "runner-yaml",
+                      "public_evidence":  [
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\selected-contract.json",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\repo-contract.json",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\README.snapshot.md",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\tree.snapshot.json",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\README.md",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\pyproject.toml",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-callbacks.md",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-webhooks.md",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\how-to\\conditional-openapi.md",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\add-to-project.yml",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\build-docs.yml",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\scripts\\tests\\test_translation_fixer\\conftest.py",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\README.md",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\pyproject.toml",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-callbacks.md",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-webhooks.md",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\how-to\\conditional-openapi.md",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\add-to-project.yml",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\build-docs.yml",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\scripts\\tests\\test_translation_fixer\\conftest.py",
+                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\helloWorldHttp.md",
+                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\actionSelectionPlaybook.md",
+                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions.md",
+                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions-yamlView.md",
+                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\storages\\configurations\\yamlView.md",
+                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\dataSources\\configurations\\yamlView.md",
+                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\yamlView.md",
+                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\commands\\run.md",
+                                              "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
+                                              "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\configuration\\yamlView.md",
+                                              "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\OutputContentByExpectedCsvResults\\overview.md",
+                                              "D:\\QaaS\\qaas-docs\\docs\\generators\\availableGenerators\\FromFileSystem\\overview.md",
+                                              "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json",
+                                              "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\ObjectOutputJsonSchema\\overview.md",
+                                              "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\ObjectOutputJsonSchema\\configuration\\yamlView.md",
+                                              "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\ObjectOutputJsonSchema\\configuration\\tableView.md"
+                                          ],
+                      "setup":  [
+                                    "Start FastAPI externally with the generated main.py using the README command.",
+                                    "Ensure port 8000 is free.",
+                                    "Use get-items-5.bin as the byte payload driver for the GET transaction."
+                                ],
+                      "action":  [
+                                     "Run QaaS Runner against test.qaas.yaml after template validation is available."
+                                 ],
+                      "assertions":  [
+                                         "HttpStatus StatusCode 200 for GetItemFive.",
+                                         "ObjectOutputJsonSchema requires item_id=5, q=somequery, and no additional properties."
+                                     ],
+                      "cleanup":  [
+                                      "Terminate the tracked FastAPI process tree.",
+                                      "Remove candidate session-data after live validation."
+                                  ],
+                      "blocked_reason":  "QaaS template, live act/assert, cleanup, and live weak-model validation have not passed.",
+                      "artifact_paths":  [
+                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\114-fastapi-fastapi\\test.qaas.yaml",
+                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\114-fastapi-fastapi\\schemas\\item-response.schema.json",
+                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\114-fastapi-fastapi\\request-payloads\\get-items-5.bin"
+                                         ]
+                  },
+                  {
+                      "case_id":  "fastapi-runtime-plan",
+                      "scenario":  "Keep Python process startup and cleanup outside QaaS YAML until public QaaS docs prove lifecycle support.",
+                      "artifact_type":  "dependency-gate",
+                      "public_evidence":  [
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\selected-contract.json",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\repo-contract.json",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\README.snapshot.md",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\tree.snapshot.json",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\README.md",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\pyproject.toml",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-callbacks.md",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-webhooks.md",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\how-to\\conditional-openapi.md",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\add-to-project.yml",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\build-docs.yml",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\scripts\\tests\\test_translation_fixer\\conftest.py",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\README.md",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\pyproject.toml",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-callbacks.md",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-webhooks.md",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\how-to\\conditional-openapi.md",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\add-to-project.yml",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\build-docs.yml",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\scripts\\tests\\test_translation_fixer\\conftest.py"
+                                          ],
+                      "setup":  [
+                                    "Use candidate-runtime-plan.json as an external harness plan only."
+                                ],
+                      "action":  [
+                                     "Start and stop FastAPI through a tracked process runner, not through undocumented QaaS YAML fields."
+                                 ],
+                      "assertions":  [
+                                         "Runtime plan remains blocked and never counts as executable promotion evidence by itself."
+                                     ],
+                      "cleanup":  [
+                                      "Tracked process tree termination must be validated before promotion."
+                                  ],
+                      "blocked_reason":  "Process lifecycle and cleanup are planned but not validated.",
+                      "artifact_paths":  [
+                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\114-fastapi-fastapi\\candidate-runtime-plan.json",
+                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\114-fastapi-fastapi\\app\\main.py"
+                                         ]
+                  },
+                  {
+                      "case_id":  "fastapi-contract-evidence",
+                      "scenario":  "Tie every candidate field to immutable selected public contract evidence and QaaS public docs.",
+                      "artifact_type":  "documentation",
+                      "public_evidence":  [
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\selected-contract.json",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\repo-contract.json",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\README.snapshot.md",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\tree.snapshot.json",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\README.md",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\pyproject.toml",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-callbacks.md",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-webhooks.md",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\how-to\\conditional-openapi.md",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\add-to-project.yml",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\build-docs.yml",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\scripts\\tests\\test_translation_fixer\\conftest.py",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\README.md",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\pyproject.toml",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-callbacks.md",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-webhooks.md",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\how-to\\conditional-openapi.md",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\add-to-project.yml",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\build-docs.yml",
+                                              "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\scripts\\tests\\test_translation_fixer\\conftest.py",
+                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\helloWorldHttp.md",
+                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\actionSelectionPlaybook.md",
+                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions.md",
+                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions-yamlView.md",
+                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\storages\\configurations\\yamlView.md",
+                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\dataSources\\configurations\\yamlView.md",
+                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\yamlView.md",
+                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\commands\\run.md",
+                                              "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
+                                              "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\configuration\\yamlView.md",
+                                              "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\OutputContentByExpectedCsvResults\\overview.md",
+                                              "D:\\QaaS\\qaas-docs\\docs\\generators\\availableGenerators\\FromFileSystem\\overview.md",
+                                              "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json",
+                                              "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\ObjectOutputJsonSchema\\overview.md",
+                                              "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\ObjectOutputJsonSchema\\configuration\\yamlView.md",
+                                              "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\ObjectOutputJsonSchema\\configuration\\tableView.md"
+                                          ],
+                      "setup":  [
+                                    "Review selected-contract.json, README blob, and QaaS schema docs."
+                                ],
+                      "action":  [
+                                     "Run selected top-repo candidate checker."
+                                 ],
+                      "assertions":  [
+                                         "Candidate stays blocked until executable evidence exists.",
+                                         "No undocumented QaaS fields are introduced."
+                                     ],
+                      "cleanup":  [
+                                      "No external resources are created by static candidate validation."
+                                  ],
+                      "blocked_reason":  "Static evidence does not prove live behavior.",
+                      "artifact_paths":  [
+                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\selected-top-repo-candidates\\114-fastapi-fastapi\\qaas-artifact-manifest.json"
+                                         ]
+                  }
+              ],
+    "assertions":  [
+                       "Candidate Runner YAML uses schema-derived HttpStatus StatusCode/OutputNames.",
+                       "Candidate body assertion uses documented ObjectOutputJsonSchema with constants for item_id and q.",
+                       "Candidate remains blocked until lifecycle, template, live QaaS, cleanup, airgapped, and strong-review evidence pass."
+                   ],
+    "dependency_gates":  [
+                             {
+                                 "gate_id":  "selected-public-runtime-contract",
+                                 "kind":  "runtime",
+                                 "required":  true,
+                                 "status":  "ready",
+                                 "evidence":  [
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\selected-contract.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\repo-contract.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\README.snapshot.md",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\tree.snapshot.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\README.md",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\pyproject.toml",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-callbacks.md",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-webhooks.md",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\how-to\\conditional-openapi.md",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\add-to-project.yml",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\build-docs.yml",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\scripts\\tests\\test_translation_fixer\\conftest.py",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\README.md",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\pyproject.toml",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-callbacks.md",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-webhooks.md",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\how-to\\conditional-openapi.md",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\add-to-project.yml",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\build-docs.yml",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\scripts\\tests\\test_translation_fixer\\conftest.py"
+                                              ],
+                                 "check_command":  "",
+                                 "blocked_reason":  ""
+                             },
+                             {
+                                 "gate_id":  "selected-public-input-output-contract",
+                                 "kind":  "runtime",
+                                 "required":  true,
+                                 "status":  "ready",
+                                 "evidence":  [
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\selected-contract.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\repo-contract.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\README.snapshot.md",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\contracts\\114-fastapi-fastapi\\tree.snapshot.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\README.md",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\pyproject.toml",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-callbacks.md",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-webhooks.md",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\how-to\\conditional-openapi.md",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\add-to-project.yml",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\build-docs.yml",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\scripts\\tests\\test_translation_fixer\\conftest.py",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\README.md",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\pyproject.toml",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-callbacks.md",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\advanced\\openapi-webhooks.md",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\docs\\de\\docs\\how-to\\conditional-openapi.md",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\add-to-project.yml",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\.github\\workflows\\build-docs.yml",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\114-fastapi-fastapi\\files\\scripts\\tests\\test_translation_fixer\\conftest.py"
+                                              ],
+                                 "check_command":  "",
+                                 "blocked_reason":  ""
+                             },
+                             {
+                                 "gate_id":  "qaas-docs-yaml-shape",
+                                 "kind":  "runtime",
+                                 "required":  true,
+                                 "status":  "ready",
+                                 "evidence":  [
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\helloWorldHttp.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\actionSelectionPlaybook.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions-yamlView.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\storages\\configurations\\yamlView.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\dataSources\\configurations\\yamlView.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\yamlView.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\commands\\run.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\configuration\\yamlView.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\OutputContentByExpectedCsvResults\\overview.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\generators\\availableGenerators\\FromFileSystem\\overview.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\ObjectOutputJsonSchema\\overview.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\ObjectOutputJsonSchema\\configuration\\yamlView.md",
+                                                  "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\ObjectOutputJsonSchema\\configuration\\tableView.md"
+                                              ],
+                                 "check_command":  "D:\\QaaS\\_tools\\zappa-harness\\Invoke-ZappaHarness.ps1 -Suite selected-candidates",
+                                 "blocked_reason":  ""
+                             },
+                             {
+                                 "gate_id":  "python-fastapi-process-lifecycle",
+                                 "kind":  "dependency",
+                                 "required":  true,
+                                 "status":  "passed",
+                                 "evidence":  [
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-lifecycle-fastapi.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-114925-473\\evidence\\fastapi-lifecycle.transcript.txt",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-114925-473\\evidence\\items-5-response.json"
+                                              ],
+                                 "check_command":  "D:\\QaaS\\_tools\\zappa-harness\\scripts\\run-selected-top-repo-candidate-lifecycle-fastapi.ps1",
+                                 "blocked_reason":  ""
+                             },
+                             {
+                                 "gate_id":  "cleanup-contract",
+                                 "kind":  "cleanup",
+                                 "required":  true,
+                                 "status":  "passed",
+                                 "evidence":  [
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-lifecycle-fastapi.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-114925-473\\evidence\\fastapi-lifecycle.transcript.txt",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-114925-473\\evidence\\items-5-response.json"
+                                              ],
+                                 "check_command":  "D:\\QaaS\\_tools\\zappa-harness\\scripts\\run-selected-top-repo-candidate-lifecycle-fastapi.ps1",
+                                 "blocked_reason":  ""
+                             },
+                             {
+                                 "gate_id":  "qaas-template",
+                                 "kind":  "qaas-template",
+                                 "required":  true,
+                                 "status":  "passed",
+                                 "evidence":  [
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-live-fastapi.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\evidence\\template-runner.transcript.txt"
+                                              ],
+                                 "check_command":  "D:\\QaaS\\_tools\\zappa-harness\\scripts\\run-selected-top-repo-candidate-live-fastapi.ps1",
+                                 "blocked_reason":  ""
+                             },
+                             {
+                                 "gate_id":  "qaas-live-act-assert",
+                                 "kind":  "qaas-build",
+                                 "required":  true,
+                                 "status":  "passed",
+                                 "evidence":  [
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-live-fastapi.json",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\evidence\\live-runner-run.transcript.txt",
+                                                  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\evidence\\items-5-response.json"
+                                              ],
+                                 "check_command":  "D:\\QaaS\\_tools\\zappa-harness\\scripts\\run-selected-top-repo-candidate-live-fastapi.ps1",
+                                 "blocked_reason":  ""
+                             },
+                             {
+                                 "gate_id":  "airgapped-validation",
+                                 "kind":  "airgapped",
+                                 "required":  true,
+                                 "status":  "blocked",
+                                 "evidence":  [
+
+                                              ],
+                                 "check_command":  "D:\\QaaS\\_tools\\weak-model-session.ps1 -Airgapped -All -ReasoningEffort none",
+                                 "blocked_reason":  "Live weak-model validation has not passed."
+                             }
+                         ],
+    "promotion_requirements":  {
+                                   "current_state":  "blocked",
+                                   "target_state":  "executable_ready",
+                                   "required_evidence":  [
+                                                             "Public API, CLI, or runtime contract",
+                                                             "Public input and expected-output contract",
+                                                             "Public dependency/stub contract",
+                                                             "Cleanup contract",
+                                                             "QaaS template validation result",
+                                                             "C# build result when code artifacts exist",
+                                                             "Live QaaS run/act/assert result when dependency gates are ready",
+                                                             "Airgapped weak-model validation transcript"
+                                                         ]
+                               },
+    "cleanup":  [
+                    "No live cleanup was performed during static candidate generation."
+                ],
+    "validation_sequence":  [
+                                "Validate selected immutable public contract evidence.",
+                                "Validate QaaS public docs/schema fields.",
+                                "Run selected top-repo candidate checker.",
+                                "Run QaaS template validation when a Runner host is available.",
+                                "Run live QaaS act/assert against tracked FastAPI process.",
+                                "Run live airgapped weak-model validation and strong review before promotion."
+                            ],
+    "airgapped_validation":  {
+                                 "required":  true,
+                                 "status":  "not_run_for_this_candidate",
+                                 "dry_run":  false
+                             },
+    "source_only_blockers":  [
+                                 {
+                                     "blocker_id":  "live-airgapped-weak-model-not-passed",
+                                     "blocker_type":  "source_boundary",
+                                     "description":  "Live weak-model validation has not passed for this candidate packet.",
+                                     "required_evidence":  [
+                                                               "Airgapped transcript with dry_run false and expected output contract preserved"
+                                                           ],
+                                     "public_evidence":  [
+                                                             "D:\\QaaS\\_tools\\zappa-harness\\references\\airgapped-validation.md"
+                                                         ],
+                                     "unblock_instruction":  "Run D:\\QaaS\\_tools\\weak-model-session.ps1 -Airgapped -All -ReasoningEffort none when quota/routing is available."
+                                 }
+                             ],
+    "status":  "blocked_until_repo_contract_review",
+    "promotion_state":  "blocked",
+    "blocked_reason":  "Selected FastAPI candidate passed lifecycle and QaaS template/live validation, but executable promotion remains blocked until live airgapped weak-model validation and strong review pass.",
+    "lifecycle_validation":  {
+                                 "status":  "passed",
+                                 "exit_code":  0,
+                                 "command":  "fastapi dev ; GET http://127.0.0.1:8000/items/5?q=somequery ; terminate tracked process tree",
+                                 "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-114925-473\\evidence\\fastapi-lifecycle.transcript.txt",
+                                 "summary":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-lifecycle-fastapi.json",
+                                 "response":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-114925-473\\evidence\\items-5-response.json",
+                                 "cleanup_process_ids":  [
+                                                             18900,
+                                                             18184,
+                                                             8748,
+                                                             15888,
+                                                             20644
+                                                         ]
+                             },
+    "build_validation":  {
+                             "status":  "passed",
+                             "exit_code":  0,
+                             "command":  "dotnet build D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\runner\\ZappaSelectedFastApi.Runner\\ZappaSelectedFastApi.Runner.csproj --nologo -clp:ErrorsOnly",
+                             "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\evidence\\build-runner.transcript.txt"
+                         },
+    "template_validation":  {
+                                "status":  "passed",
+                                "exit_code":  0,
+                                "command":  "dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\runner\\ZappaSelectedFastApi.Runner\\ZappaSelectedFastApi.Runner.csproj -- template D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\runner\\ZappaSelectedFastApi.Runner\\test.qaas.yaml --no-env",
+                                "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\evidence\\template-runner.transcript.txt"
+                            },
+    "live_validation":  {
+                            "status":  "passed",
+                            "exit_code":  0,
+                            "command":  "dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\runner\\ZappaSelectedFastApi.Runner\\ZappaSelectedFastApi.Runner.csproj -- run D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\runner\\ZappaSelectedFastApi.Runner\\test.qaas.yaml -e --no-env",
+                            "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\evidence\\live-runner-run.transcript.txt"
+                        },
+    "selected_candidate_qaas_validation":  {
+                                               "status":  "passed",
+                                               "exit_code":  0,
+                                               "command":  "dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\runner\\ZappaSelectedFastApi.Runner\\ZappaSelectedFastApi.Runner.csproj -- template D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\runner\\ZappaSelectedFastApi.Runner\\test.qaas.yaml --no-env ; fastapi dev ; dotnet run --project D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\runner\\ZappaSelectedFastApi.Runner\\ZappaSelectedFastApi.Runner.csproj -- run D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\runner\\ZappaSelectedFastApi.Runner\\test.qaas.yaml -e --no-env",
+                                               "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\evidence\\selected-live-fastapi.transcript.txt",
+                                               "summary":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-live-fastapi.json",
+                                               "response":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979\\evidence\\items-5-response.json",
+                                               "run_dir":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\live-runs\\selected-top-repo-candidates\\20260608-141834-979"
+                                           },
+    "validation_advisories":  [
+                                  {
+                                      "advisory_id":  "httpstatus-docs-inconsistency-recorded",
+                                      "advisory_type":  "qaas_docs_contract",
+                                      "description":  "The quick-start example uses stale HttpStatus field names, while generated schema docs require StatusCode and OutputNames.",
+                                      "public_evidence":  [
+                                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\helloWorldHttp.md",
+                                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\quickStart\\actionSelectionPlaybook.md",
+                                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions.md",
+                                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\sessions\\types\\transactions-yamlView.md",
+                                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\storages\\configurations\\yamlView.md",
+                                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\dataSources\\configurations\\yamlView.md",
+                                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\yamlView.md",
+                                                              "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\commands\\run.md",
+                                                              "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\overview.md",
+                                                              "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\HttpStatus\\configuration\\yamlView.md",
+                                                              "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\OutputContentByExpectedCsvResults\\overview.md",
+                                                              "D:\\QaaS\\qaas-docs\\docs\\generators\\availableGenerators\\FromFileSystem\\overview.md",
+                                                              "D:\\QaaS\\qaas-docs\\docs\\assets\\schemas\\runner-family-schema.json",
+                                                              "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\ObjectOutputJsonSchema\\overview.md",
+                                                              "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\ObjectOutputJsonSchema\\configuration\\yamlView.md",
+                                                              "D:\\QaaS\\qaas-docs\\docs\\assertions\\availableAssertions\\ObjectOutputJsonSchema\\configuration\\tableView.md"
+                                                          ],
+                                      "resolved_by":  "schema-derived StatusCode/OutputNames template and live validation",
+                                      "validation_summary":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-live-fastapi.json",
+                                      "blocking":  false
+                                  }
+                              ]
+}

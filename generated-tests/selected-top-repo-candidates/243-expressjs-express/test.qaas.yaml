@@ -1,0 +1,52 @@
+# Candidate QaaS Runner YAML generated from immutable public Express README evidence.
+# Status: blocked_until_template_live_airgapped_validation
+# Runtime startup stays in candidate-runtime-plan.json; QaaS YAML does not own process lifecycle.
+
+MetaData:
+  Team: ZappaDontCry
+  System: expressjs-express
+
+Storages:
+  -
+    JsonStorageFormat: Indented
+    FileSystem:
+      Path: ./session-data
+
+DataSources:
+  - Name: GetRootPayload
+    Generator: FromFileSystem
+    DataSourceNames: []
+    DataSourcePatterns: []
+    GeneratorConfiguration:
+      DataArrangeOrder: AsciiAsc
+      FileSystem:
+        Path: './request-payloads'
+        SearchPattern: 'get-root.bin'
+      StorageMetaData: ItemName
+
+Sessions:
+  - Name: ExpressReadRoot
+    Transactions:
+      - Name: GetRoot
+        TimeoutMs: 5000
+        DataSourceNames:
+          - GetRootPayload
+        DataSourcePatterns:
+          - GetRootPayload
+        Http:
+          BaseAddress: http://127.0.0.1
+          Port: 3000
+          Route: /
+          Method: Get
+
+Assertions:
+  - Name: GetRootReturnedOk
+    Assertion: HttpStatus
+    SessionNames:
+      - ExpressReadRoot
+    DataSourceNames: []
+    DataSourcePatterns: []
+    AssertionConfiguration:
+      StatusCode: 200
+      OutputNames:
+        - GetRoot

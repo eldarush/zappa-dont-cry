@@ -1,0 +1,14 @@
+# Usage snippet for the Crawl4AI Docker healthcheck candidate.
+# This is backed only by Docker curl -f /health semantics. Do not add body/schema assertions unless public response evidence is harvested.
+
+Assertions:
+  - Name: GetHealthMatchesDockerCurlF
+    Assertion: HttpStatusBelow400
+    SessionNames:
+      - Crawl4AiHealth
+    DataSourceNames: []
+    DataSourcePatterns: []
+    AssertionConfiguration:
+      MaximumExclusiveStatusCode: 400
+      OutputNames:
+        - GetHealth

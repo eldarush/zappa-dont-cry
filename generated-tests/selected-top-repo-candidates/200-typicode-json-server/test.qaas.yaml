@@ -1,0 +1,91 @@
+# Candidate QaaS Runner YAML generated from immutable public json-server README evidence.
+# Status: blocked_until_template_live_airgapped_validation
+# Runtime startup stays in candidate-runtime-plan.json; QaaS YAML does not own process lifecycle.
+
+MetaData:
+  Team: ZappaDontCry
+  System: typicode-json-server
+
+Storages:
+  -
+    JsonStorageFormat: Indented
+    FileSystem:
+      Path: ./session-data
+
+DataSources:
+  - Name: GetPostOnePayload
+    Generator: FromFileSystem
+    DataSourceNames: []
+    DataSourcePatterns: []
+    GeneratorConfiguration:
+      DataArrangeOrder: AsciiAsc
+      FileSystem:
+        Path: './request-payloads'
+        SearchPattern: 'get-post-one.bin'
+      StorageMetaData: ItemName
+
+  - Name: ExpectedPostOneCsv
+    Generator: FromFileSystem
+    DataSourceNames: []
+    DataSourcePatterns: []
+    GeneratorConfiguration:
+      DataArrangeOrder: AsciiAsc
+      FileSystem:
+        Path: './expectations'
+        SearchPattern: 'posts-1.csv'
+      StorageMetaData: ItemName
+
+Sessions:
+  - Name: JsonServerReadPost
+    Transactions:
+      - Name: GetPostOne
+        TimeoutMs: 5000
+        DataSourceNames:
+          - GetPostOnePayload
+        DataSourcePatterns:
+          - GetPostOnePayload
+        Http:
+          BaseAddress: http://127.0.0.1
+          Port: 3000
+          Route: /posts/1
+          Method: Get
+        OutputDeserialize:
+          Deserializer: Json
+
+Assertions:
+  - Name: GetPostOneReturnedOk
+    Assertion: HttpStatus
+    SessionNames:
+      - JsonServerReadPost
+    DataSourceNames: []
+    DataSourcePatterns: []
+    AssertionConfiguration:
+      StatusCode: 200
+      OutputNames:
+        - GetPostOne
+
+  - Name: GetPostOneBodyMatchesReadme
+    Assertion: OutputContentByExpectedCsvResults
+    SessionNames:
+      - JsonServerReadPost
+    DataSourceNames:
+      - ExpectedPostOneCsv
+    DataSourcePatterns: []
+    AssertionConfiguration:
+      OutputName: GetPostOne
+      DataSourceName: ExpectedPostOneCsv
+      JsonConverterType: Json
+      CompareRowsNotInOrder: false
+      ColumnNameToFieldPathMap:
+        id:
+          Path: $.id
+          FieldValidationConfig:
+            Type: ExactValue
+        title:
+          Path: $.title
+          FieldValidationConfig:
+            Type: ExactValue
+        views:
+          Path: $.views
+          FieldValidationConfig:
+            Type: ExactValue

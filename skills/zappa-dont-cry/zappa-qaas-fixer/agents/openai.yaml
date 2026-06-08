@@ -1,0 +1,4 @@
+interface:
+  display_name: "Zappa QaaS Fixer"
+  short_description: "Fix QaaS artifacts without weakening tests."
+  default_prompt: "Use zappa-qaas-fixer to diagnose and repair failing QaaS YAML, C# configuration, hooks, manifests, or validation runs."

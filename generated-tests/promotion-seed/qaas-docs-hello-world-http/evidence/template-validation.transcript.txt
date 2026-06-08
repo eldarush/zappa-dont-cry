@@ -1,0 +1,138 @@
+﻿==== template-runner ====
+Command: dotnet run --project D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\ZappaPromotionSeed.Runner.csproj -- template D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\test.qaas.yaml --no-env
+ExitCode: 0
+Transcript: D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\evidence\template-runner.transcript.txt
+
+Command: dotnet run --project D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\ZappaPromotionSeed.Runner.csproj -- template D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\test.qaas.yaml --no-env
+WorkingDirectory: D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner
+Started: 2026-06-08T16:02:10.1963201+03:00
+ExitCode: 0
+
+Using launch settings from D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\Properties\launchSettings.json...
+D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\ZappaPromotionSeed.Runner.csproj : warning NU1902: Package 'SharpCompress' 0.30.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-6c8g-7p36-r338
+D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\ZappaPromotionSeed.Runner.csproj : warning NU1903: Package 'Snappier' 1.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-pggp-6c3x-2xmx
+D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\ZappaPromotionSeed.Runner.csproj : warning NU1902: Package 'SharpCompress' 0.30.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-6c8g-7p36-r338
+D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\ZappaPromotionSeed.Runner.csproj : warning NU1903: Package 'Snappier' 1.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-pggp-6c3x-2xmx
+[16:02:12 INF] Starting runner with 1 execution builders. EmptyResults=False, ServeResults=False, ServeResultsFolder=allure-results, ExitProcessOnCompletion=True
+[16:02:12 INF] Building 1 executions
+[16:02:12 INF] Started building Template execution with executionId null and case name null
+[16:02:13 INF] Found IGenerator hook instance FromFileSystem in provided assembly QaaS.Common.Generators, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null
+[16:02:13 INF] Initializing Transaction CallHello with transactor of type QaaS.Framework.Protocols.Protocols.HttpProtocol with Input Serializer null and Output Deserializer null
+[16:02:13 INF] Found IAssertion hook instance HttpStatus in provided assembly QaaS.Common.Assertions, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null
+[16:02:13 INF] Finished building Template execution with executionId null and case name null
+[16:02:13 INF] Built 1 executions successfully
+[16:02:13 INF] Running 1 executions
+[16:02:13 INF] Running Template execution with executionId null and case name null
+Storages:
+  - JsonStorageFormat: Indented
+    FileSystem:
+      Path: ./session-data
+    Configuration:
+      Path: ./session-data
+DataSources:
+  - Name: HelloInputs
+    Generator: FromFileSystem
+    GeneratorConfiguration:
+      DataArrangeOrder: AsciiAsc
+      FileSystem:
+        Path: TestData
+Sessions:
+  - Name: HelloSession
+    Transactions:
+      - Name: CallHello
+        DataSourceNames:
+          - HelloInputs
+        TimeoutMs: 5000
+        Http:
+          Method: Get
+          BaseAddress: http://127.0.0.1
+          Port: 18080
+          Route: hello
+        Configuration:
+          Method: Get
+          BaseAddress: http://127.0.0.1
+          Port: 18080
+          Route: hello
+Assertions:
+  - Assertion: HttpStatus
+    Name: ReturnedOk
+    SessionNames:
+      - HelloSession
+    AssertionConfiguration:
+      OutputNames:
+        - CallHello
+      StatusCode: 200
+    Configuration:
+      OutputNames:
+        - CallHello
+      StatusCode: 200
+    StatusesToReport:
+      - Passed
+      - Failed
+      - Broken
+      - Unknown
+      - Skipped
+MetaData:
+  System: QaaSHelloWorldHttp
+  Team: Zappa
+
+[16:02:13 INF] Finished running executions. Aggregated exit code: 0
+[16:02:13 INF] Runner lifecycle finished successfully. ExitCode=0
+[16:02:13 INF] Runner completed. ExitCode=0
+
+
+==== template-mocker ====
+Command: dotnet run --project D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\mocker\ZappaPromotionSeed.Mocker\ZappaPromotionSeed.Mocker.csproj -- template D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\mocker\ZappaPromotionSeed.Mocker\mocker.qaas.yaml --no-env
+ExitCode: 0
+Transcript: D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\evidence\template-mocker.transcript.txt
+
+Command: dotnet run --project D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\mocker\ZappaPromotionSeed.Mocker\ZappaPromotionSeed.Mocker.csproj -- template D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\mocker\ZappaPromotionSeed.Mocker\mocker.qaas.yaml --no-env
+WorkingDirectory: D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\mocker\ZappaPromotionSeed.Mocker
+Started: 2026-06-08T16:02:13.2392951+03:00
+ExitCode: 0
+
+D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\mocker\ZappaPromotionSeed.Mocker\ZappaPromotionSeed.Mocker.csproj : warning NU1902: Package 'SharpCompress' 0.30.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-6c8g-7p36-r338
+D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\mocker\ZappaPromotionSeed.Mocker\ZappaPromotionSeed.Mocker.csproj : warning NU1903: Package 'Snappier' 1.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-pggp-6c3x-2xmx
+D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\mocker\ZappaPromotionSeed.Mocker\ZappaPromotionSeed.Mocker.csproj : warning NU1902: Package 'SharpCompress' 0.30.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-6c8g-7p36-r338
+D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\mocker\ZappaPromotionSeed.Mocker\ZappaPromotionSeed.Mocker.csproj : warning NU1903: Package 'Snappier' 1.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-pggp-6c3x-2xmx
+[16:02:16 INF] Started building QaaS.Mocker with execution mode Template
+[16:02:16 INF] Found ITransactionProcessor hook instance QaaS.Common.Processors.StaticResponseProcessor in provided assembly QaaS.Common.Processors, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+[16:02:16 INF] Building transaction stub 'HelloStub' with processor 'StaticResponseProcessor'
+[16:02:16 INF] Built 3 transaction stub(s) including default not-found and internal-error stubs
+[16:02:16 INF] Controller startup skipped because 'Controller.ServerName' is not configured.
+[16:02:16 INF] Resolved runtime graph with 0 data source(s), 3 stub(s), 1 server(s) [Http], and controller enabled: False
+[16:02:16 INF] Finished building QaaS.Mocker with execution mode Template
+[16:02:16 INF] Starting QaaS.Mocker in Template mode (RunLocally: False)
+[16:02:16 INF] Generating template output
+Stubs:
+  - Name: HelloStub
+    Processor: StaticResponseProcessor
+    DataSourceNames: []
+    ProcessorConfiguration:
+      Body: hello
+      ContentType: text/plain; charset=utf-8
+      StatusCode: 200
+    RequestBodyDeserialization: 
+    ResponseBodySerialization: 
+Servers:
+  - Http:
+      Port: 18080
+      Endpoints:
+        - Actions:
+            - Name: HelloOk
+              Method: Get
+              TransactionStubName: HelloStub
+          Path: /hello
+          FixedPath: /hello
+      IsSecuredSchema: false
+      CertificatePath: 
+      CertificatePassword: 
+      IsLocalhost: true
+      NotFoundTransactionStubName: 
+      InternalErrorTransactionStubName: 
+      ConnectionAcceptanceValue: 128
+    Grpc: 
+    Socket: 
+
+
+

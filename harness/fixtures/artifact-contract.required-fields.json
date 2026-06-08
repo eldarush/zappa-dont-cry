@@ -1,0 +1,31 @@
+{
+  "requiredManifestFields": [
+    "campaign_id",
+    "source_repository",
+    "docs_evidence",
+    "intent_questions",
+    "intent_assumptions",
+    "artifacts",
+    "artifact_count",
+    "cases",
+    "assertions",
+    "dependency_gates",
+    "cleanup",
+    "status",
+    "promotion_requirements",
+    "validation_sequence",
+    "airgapped_validation",
+    "source_only_blockers",
+    "blocked_reason"
+  ],
+  "topRepoAdditionalFields": [
+    "source_repository",
+    "repo_contract",
+    "contract_strength",
+    "repo_contract"
+  ],
+  "allowedBlockedStatuses": [
+    "blocked_until_contract_review",
+    "blocked_until_repo_contract_review"
+  ]
+}

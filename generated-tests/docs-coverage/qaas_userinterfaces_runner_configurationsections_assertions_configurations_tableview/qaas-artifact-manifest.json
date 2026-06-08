@@ -1,0 +1,303 @@
+{
+  "campaign_id": "qaas-docs-coverage",
+  "source_repository": "qaas-docs",
+  "coverage_id": "qaas_userinterfaces_runner_configurationsections_assertions_configurations_tableview",
+  "source_document": "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\tableView.md",
+  "family": "runner",
+  "artifact_types": [
+    "runner-yaml",
+    "runner-code"
+  ],
+  "artifacts": [
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\docs-coverage\\qaas_userinterfaces_runner_configurationsections_assertions_configurations_tableview\\test.qaas.yaml",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\docs-coverage\\qaas_userinterfaces_runner_configurationsections_assertions_configurations_tableview\\QaaSConfigSkeleton.cs",
+    "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\docs-coverage\\qaas_userinterfaces_runner_configurationsections_assertions_configurations_tableview\\qaas-artifact-manifest.json"
+  ],
+  "artifact_count": 3,
+  "status": "blocked_until_contract_review",
+  "docs_evidence": [
+    "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\tableView.md"
+  ],
+  "intent_questions": [
+    {
+      "question_id": "behavior",
+      "question": "What behavior must be proven?",
+      "self_answer": "This docs-coverage skeleton proves only that a public QaaS documentation capability was inventoried for runner; target component behavior remains blocked.",
+      "answer_source": "public_docs",
+      "risk_if_wrong": "A weak model could treat documentation coverage as an executable test for an unspecified component.",
+      "how_to_override": "Provide the concrete component behavior and public runtime contract to test.",
+      "public_evidence": [
+        "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\tableView.md"
+      ]
+    },
+    {
+      "question_id": "boundary",
+      "question": "What is the system boundary: Runner target, Mocker dependency, hook host, or configuration-as-code?",
+      "self_answer": "Potential artifact boundary is runner-yaml, runner-code, but no runtime boundary is selected until a repository or component contract is provided.",
+      "answer_source": "blocked",
+      "risk_if_wrong": "Generated YAML or C# could target the wrong QaaS surface.",
+      "how_to_override": "Select Runner, Mocker, hook host, or configuration-as-code and provide matching public contracts.",
+      "public_evidence": [
+        "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\tableView.md"
+      ]
+    },
+    {
+      "question_id": "docs_schema_evidence",
+      "question": "What public docs/schema path proves the capability exists?",
+      "self_answer": "The public docs evidence is D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\tableView.md.",
+      "answer_source": "public_docs",
+      "risk_if_wrong": "The skeleton may cite the wrong QaaS capability or unsupported fields.",
+      "how_to_override": "Point to the exact public docs or schema path that should control artifact generation.",
+      "public_evidence": [
+        "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\tableView.md"
+      ]
+    },
+    {
+      "question_id": "inputs_outputs_side_effects",
+      "question": "What inputs, outputs, and side effects prove success?",
+      "self_answer": "Inputs, expected outputs, and side effects are blocked because the docs page is not a component contract.",
+      "answer_source": "blocked",
+      "risk_if_wrong": "Assertions may be guessed or too shallow.",
+      "how_to_override": "Provide public input, expected-output, and side-effect contracts.",
+      "public_evidence": [
+        "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\tableView.md"
+      ]
+    },
+    {
+      "question_id": "negative_cases",
+      "question": "Which negative, malformed, outage, retry, cleanup, and observability cases matter?",
+      "self_answer": "Negative and cleanup cases are required but blocked until component behavior, dependencies, and observability contracts are known.",
+      "answer_source": "blocked",
+      "risk_if_wrong": "The generated plan may miss failure behavior or cleanup semantics.",
+      "how_to_override": "List required negative, outage, retry, cleanup, and observability cases with public evidence.",
+      "public_evidence": [
+        "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\tableView.md"
+      ]
+    },
+    {
+      "question_id": "dependencies",
+      "question": "Which dependencies must exist: broker, HTTP endpoint, database, Redis, S3, Kubernetes, filesystem, credentials, ports?",
+      "self_answer": "Dependency requirements are unknown and blocked because the docs page does not define the target system dependencies.",
+      "answer_source": "blocked",
+      "risk_if_wrong": "Mocker stubs or probes could simulate the wrong dependency.",
+      "how_to_override": "Provide public dependency protocols, endpoints, ports, credentials policy, readiness, and cleanup contracts.",
+      "public_evidence": [
+        "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\tableView.md"
+      ]
+    },
+    {
+      "question_id": "runnability",
+      "question": "What can run now, and what must be deferred?",
+      "self_answer": "Only structural validation can run now; template, build, live QaaS execution, and weak-model promotion remain deferred.",
+      "answer_source": "assumption",
+      "risk_if_wrong": "A blocked skeleton might be promoted without executable evidence.",
+      "how_to_override": "Provide contracts and successful template/build/live/airgapped evidence for promotion.",
+      "public_evidence": [
+        "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\tableView.md"
+      ]
+    }
+  ],
+  "intent_assumptions": [
+    {
+      "assumption": "User wants public-docs-only QaaS coverage skeletons.",
+      "why_safe": "The campaign is generated from public documentation inventory and does not claim executable behavior.",
+      "risk_if_wrong": "The artifacts may cover documentation breadth rather than the user's intended component behavior.",
+      "how_to_override": "Provide a concrete repository/component contract and requested behavior.",
+      "public_evidence": [
+        "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\tableView.md"
+      ]
+    },
+    {
+      "assumption": "Generated artifacts must remain blocked until repository or component contracts provide executable behavior.",
+      "why_safe": "Blocked promotion prevents weak models from treating placeholders as runnable QaaS tests.",
+      "risk_if_wrong": "Executable tests might be delayed when the user already has sufficient runtime contracts.",
+      "how_to_override": "Attach public runtime/API contracts and ask for executable promotion.",
+      "public_evidence": [
+        "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\tableView.md"
+      ]
+    },
+    {
+      "assumption": "No QaaS source code is available as evidence.",
+      "why_safe": "The zappa workflow is required to operate from public QaaS docs/schema evidence only.",
+      "risk_if_wrong": "Source-only implementation details may be omitted from generated skeletons.",
+      "how_to_override": "Explicitly provide source files or source excerpts as allowed evidence.",
+      "public_evidence": [
+        "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\tableView.md"
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "docs-coverage-contract-review",
+      "scenario": "Review the public QaaS documentation page and decide whether executable Runner, Mocker, hook, or configuration artifacts can be authored.",
+      "artifact_type": "documentation",
+      "public_evidence": [
+        "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\tableView.md"
+      ],
+      "setup": [
+        "Review public QaaS docs/schema evidence."
+      ],
+      "action": [
+        "Classify required repository/component contracts and QaaS artifact types."
+      ],
+      "assertions": [
+        "Generated executable artifacts remain blocked until component contracts provide sessions, inputs, assertions, dependencies, and cleanup."
+      ],
+      "cleanup": [
+        "No external resources are created by docs-only review."
+      ],
+      "blocked_reason": "Generated from docs coverage only; executable behavior requires component or repository contract review.",
+      "artifact_paths": [
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\docs-coverage\\qaas_userinterfaces_runner_configurationsections_assertions_configurations_tableview\\qaas-artifact-manifest.json"
+      ]
+    },
+    {
+      "case_id": "runner-yaml-contract-placeholder",
+      "scenario": "Blocked Runner YAML skeleton for a documented QaaS capability.",
+      "artifact_type": "runner-yaml",
+      "public_evidence": [
+        "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\tableView.md"
+      ],
+      "setup": [
+        "Map the documented QaaS capability to required Runner sessions, inputs, and data sources."
+      ],
+      "action": [
+        "Replace Runner placeholders only after public component contracts provide executable behavior."
+      ],
+      "assertions": [
+        "Runner YAML stays blocked until sessions and assertions are filled from public contracts."
+      ],
+      "cleanup": [
+        "Cleanup cannot be authored until the target component contract defines side effects."
+      ],
+      "blocked_reason": "Missing component or repository contract for executable Runner sessions and assertions.",
+      "artifact_paths": [
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\docs-coverage\\qaas_userinterfaces_runner_configurationsections_assertions_configurations_tableview\\test.qaas.yaml"
+      ]
+    },
+    {
+      "case_id": "runner-code-contract-placeholder",
+      "scenario": "Blocked Runner configuration-as-code skeleton for documented behavior.",
+      "artifact_type": "runner-code",
+      "public_evidence": [
+        "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\tableView.md"
+      ],
+      "setup": [
+        "Identify the Runner configuration behavior that cannot be expressed safely as YAML yet."
+      ],
+      "action": [
+        "Keep C# configuration syntax-only until public contracts prove concrete values and lifecycle."
+      ],
+      "assertions": [
+        "Runner code skeleton compiles only as syntax evidence and is not executable QaaS behavior."
+      ],
+      "cleanup": [
+        "No runtime cleanup is claimed by syntax-only C# skeletons."
+      ],
+      "blocked_reason": "Missing executable Runner configuration contract.",
+      "artifact_paths": [
+        "D:\\QaaS\\_tmp\\zappa-dont-cry\\generated-tests\\docs-coverage\\qaas_userinterfaces_runner_configurationsections_assertions_configurations_tableview\\QaaSConfigSkeleton.cs"
+      ]
+    }
+  ],
+  "assertions": [
+    "No executable QaaS claim without component or repository contract evidence.",
+    "Every generated artifact records blocked_until_contract_review."
+  ],
+  "source_only_blockers": [
+    {
+      "blocker_id": "component-contract-missing",
+      "blocker_type": "repository_or_component_contract",
+      "description": "The public QaaS documentation page proves a QaaS capability exists, but it does not provide the target component sessions, inputs, expected outputs, dependency contracts, or cleanup semantics needed for an executable test.",
+      "required_evidence": [
+        "Repository or component runtime contract",
+        "Concrete sessions/data sources/assertions",
+        "Dependency readiness and cleanup contract"
+      ],
+      "public_evidence": [
+        "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\tableView.md"
+      ],
+      "unblock_instruction": "Provide a public repository/component contract or explicitly allowed source evidence for the behavior under test."
+    },
+    {
+      "blocker_id": "qaas-source-not-available",
+      "blocker_type": "source_boundary",
+      "description": "The zappa workflow is operating from public QaaS docs/schema evidence only and cannot use QaaS implementation source behavior as a contract.",
+      "required_evidence": [
+        "Public docs/schema path for each QaaS field or hook API",
+        "Explicit user permission before source evidence is used"
+      ],
+      "public_evidence": [
+        "D:\\QaaS\\qaas-docs\\docs\\qaas\\userInterfaces\\runner\\configurationSections\\assertions\\configurations\\tableView.md"
+      ],
+      "unblock_instruction": "Provide source files or source excerpts explicitly as allowed evidence, or add matching public documentation/schema evidence."
+    }
+  ],
+  "dependency_gates": [
+    {
+      "gate_id": "component-contract",
+      "kind": "runtime",
+      "required": true,
+      "status": "blocked",
+      "evidence": [],
+      "check_command": null,
+      "blocked_reason": "Repository or component contract is required before executable QaaS sessions and assertions can be correct."
+    },
+    {
+      "gate_id": "qaas-template",
+      "kind": "qaas-template",
+      "required": true,
+      "status": "blocked",
+      "evidence": [],
+      "check_command": null,
+      "blocked_reason": "Template validation can run only after placeholders are replaced from public contracts."
+    },
+    {
+      "gate_id": "qaas-build",
+      "kind": "qaas-build",
+      "required": true,
+      "status": "blocked",
+      "evidence": [],
+      "check_command": null,
+      "blocked_reason": "Generated C# syntax compiles, but QaaS configuration build validation requires executable code."
+    },
+    {
+      "gate_id": "airgapped-validation",
+      "kind": "airgapped",
+      "required": true,
+      "status": "blocked",
+      "evidence": [],
+      "check_command": "D:\\QaaS\\_tools\\weak-model-session.ps1 -Airgapped",
+      "blocked_reason": "Live weak-model validation is required before promotion."
+    }
+  ],
+  "promotion_requirements": {
+    "current_state": "blocked",
+    "target_state": "executable_ready",
+    "required_evidence": [
+      "Repository or component contract",
+      "Public API, CLI, or runtime contract",
+      "Public input and expected-output contract",
+      "Public dependency/stub contract",
+      "Cleanup contract",
+      "Concrete QaaS sessions, data sources, assertions, and cleanup",
+      "QaaS template validation result",
+      "C# build result when code artifacts exist",
+      "Live QaaS run/act/assert result when dependency gates are ready",
+      "Airgapped weak-model validation transcript"
+    ]
+  },
+  "cleanup": [],
+  "airgapped_validation": {
+    "required": true,
+    "status": "not_run_for_this_coverage_record"
+  },
+  "validation_sequence": [
+    "Review public QaaS docs/schema evidence",
+    "Fill repository/component contract",
+    "Run template/build checks",
+    "Run live execution only after dependency gates are ready"
+  ],
+  "promotion_state": "blocked",
+  "blocked_reason": "Generated from docs coverage only; executable correctness requires repository or component contract review."
+}

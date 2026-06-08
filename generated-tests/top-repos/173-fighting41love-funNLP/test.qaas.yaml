@@ -1,0 +1,24 @@
+# Docs-only QaaS top-repository Runner skeleton.
+# Status: blocked_until_repo_contract_review
+# Repository: fighting41love/funNLP
+# This is not executable until public runtime/API contracts define sessions, inputs, assertions, and cleanup.
+
+Links: []
+
+Storages: []
+
+DataSources: []
+
+Sessions: []
+
+Assertions:
+  - Assertion: __DOCUMENTED_ASSERTION_OR_CUSTOM__
+    AssertionConfiguration:
+      Repository: 'fighting41love/funNLP'
+      ContractStrength: 'readme_only'
+      EvidencePath: 'D:\QaaS\_tmp\zappa-dont-cry\top-repos\contracts\173-fighting41love-funNLP\README.snapshot.md'
+
+MetaData:
+  Repository: 'fighting41love/funNLP'
+  ContractStrength: 'readme_only'
+  BlockedReason: "Public repository contracts are not sufficient yet for executable QaaS Runner YAML."

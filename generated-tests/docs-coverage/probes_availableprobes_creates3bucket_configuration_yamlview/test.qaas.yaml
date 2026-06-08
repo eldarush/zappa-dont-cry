@@ -1,0 +1,23 @@
+# Docs-only QaaS Runner skeleton.
+# Status: blocked_until_contract_review
+# Evidence: D:\QaaS\qaas-docs\docs\probes\availableProbes\CreateS3Bucket\configuration\yamlView.md
+# This is not executable until target sessions, data sources, and dependency gates are filled from public contracts.
+
+Links: []
+
+Storages: []
+
+DataSources: []
+
+Sessions: []
+
+Assertions:
+  - Assertion: __DOCUMENTED_ASSERTION_OR_CUSTOM__
+    AssertionConfiguration:
+      EvidencePath: 'D:\QaaS\qaas-docs\docs\probes\availableProbes\CreateS3Bucket\configuration\yamlView.md'
+      CoverageId: 'probes_availableprobes_creates3bucket_configuration_yamlview'
+
+MetaData:
+  CoverageId: 'probes_availableprobes_creates3bucket_configuration_yamlview'
+  SourceDocument: 'probes\availableProbes\CreateS3Bucket\configuration\yamlView.md'
+  BlockedReason: "Repository or component contract review required before executable YAML can be correct."

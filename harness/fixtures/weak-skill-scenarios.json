@@ -1,0 +1,84 @@
+{
+  "validation_kind": "dry_run_scenario_prompt_assembly",
+  "live_validation_kind": "live_scenario_model_execution",
+  "scenarios": [
+    {
+      "scenario_id": "zappa-qaas-orchestrator-routing",
+      "skill": "zappa-qaas-orchestrator",
+      "prompt": "Use zappa-qaas-orchestrator to route a docs-only QaaS task that asks for planning, YAML authoring, hook review, weak-model validation, and pass gates. Return intent_assumptions, routed skills, validation_sequence, and remaining blockers.",
+      "expected_terms": ["intent_assumptions", "routed skills", "validation_sequence", "remaining blockers"],
+      "reject_terms": ["SKILL_NOT_FOUND", "completion_decision: complete"]
+    },
+    {
+      "scenario_id": "zappa-qaas-docs-map-evidence",
+      "skill": "zappa-qaas-docs-map",
+      "prompt": "Use zappa-qaas-docs-map to find public QaaS docs evidence for a Runner template command, a custom assertion, and a Mocker processor. Return docs_evidence and mark anything not found as source_only_blocked.",
+      "expected_terms": ["docs_evidence", "source_only_blocked"],
+      "reject_terms": ["SKILL_NOT_FOUND", "source code proves"]
+    },
+    {
+      "scenario_id": "zappa-qaas-test-planner-ambiguous-contract",
+      "skill": "zappa-qaas-test-planner",
+      "prompt": "Use zappa-qaas-test-planner for an ambiguous service contract. Ask or self-answer intent questions, then produce a docs-only case matrix with dependency gates and an airgapped_validation_prompt.",
+      "expected_terms": ["case matrix", "dependency gates", "airgapped_validation_prompt"],
+      "required_any_term_groups": [["intent_questions", "intent_assumptions"]],
+      "reject_terms": ["SKILL_NOT_FOUND", "ready for live run"]
+    },
+    {
+      "scenario_id": "zappa-qaas-test-author-blocked-artifacts",
+      "skill": "zappa-qaas-test-author",
+      "prompt": "Use zappa-qaas-test-author to turn a blocked docs-only plan into Runner YAML, Mocker YAML, C# skeleton, and qaas-artifact-manifest.json. Keep artifacts blocked until contracts exist.",
+      "expected_terms": ["Runner YAML", "Mocker YAML", "C# skeleton", "qaas-artifact-manifest.json", "blocked"],
+      "reject_terms": ["SKILL_NOT_FOUND", "promotion_state: executable"]
+    },
+    {
+      "scenario_id": "zappa-qaas-hook-config-builtins",
+      "skill": "zappa-qaas-hook-config",
+      "prompt": "Use zappa-qaas-hook-config to decide whether a custom QaaS assertion hook is justified. List builtins_considered, docs_evidence, hook_family, and validation_sequence.",
+      "expected_terms": ["builtins_considered", "docs_evidence", "hook_family", "validation_sequence"],
+      "reject_terms": ["SKILL_NOT_FOUND", "invented base class"]
+    },
+    {
+      "scenario_id": "zappa-qaas-debugger-failure-layer",
+      "skill": "zappa-qaas-debugger",
+      "prompt": "Use zappa-qaas-debugger to diagnose a QaaS template failure with missing Sessions and a failed assertion. Classify the failure layer and preserve assertions.",
+      "expected_terms": ["failure_layer", "root_cause", "preserve assertions"],
+      "reject_terms": ["SKILL_NOT_FOUND", "weaken assertions"]
+    },
+    {
+      "scenario_id": "zappa-qaas-fixer-missing-fields",
+      "skill": "zappa-qaas-fixer",
+      "prompt": "Use zappa-qaas-fixer to repair a generated QaaS manifest missing airgapped_validation and dependency_gates. Return files_changed, commands_run, and remaining_blockers.",
+      "expected_terms": ["files_changed", "commands_run", "remaining_blockers", "airgapped_validation", "dependency_gates"],
+      "reject_terms": ["SKILL_NOT_FOUND", "remove assertions"]
+    },
+    {
+      "scenario_id": "zappa-qaas-docs-author-blocked-campaign",
+      "skill": "zappa-qaas-docs-author",
+      "prompt": "Use zappa-qaas-docs-author to document a blocked top-repo QaaS skeleton campaign with docs_evidence, validation_status, known_blockers, and next_verification.",
+      "expected_terms": ["docs_evidence", "validation_status", "known_blockers", "next_verification"],
+      "reject_terms": ["SKILL_NOT_FOUND", "fully executable"]
+    },
+    {
+      "scenario_id": "zappa-qaas-experiment-lab-safe-comparison",
+      "skill": "zappa-qaas-experiment-lab",
+      "prompt": "Use zappa-qaas-experiment-lab to design a safe QaaS experiment comparing two top-repo contract harvesting strategies without promoting artifacts to executable.",
+      "expected_terms": ["hypothesis", "experiment_scope", "promotion_criteria", "blockers"],
+      "reject_terms": ["SKILL_NOT_FOUND", "promote artifacts to executable"]
+    },
+    {
+      "scenario_id": "zappa-qaas-weak-model-gate-dry-run-decision",
+      "skill": "zappa-qaas-weak-model-gate",
+      "prompt": "Use zappa-qaas-weak-model-gate to decide whether a dry-run airgapped transcript proves weak-model behavior. Return pass_fail_matrix and completion_decision.",
+      "expected_terms": ["pass_fail_matrix", "completion_decision", "dry-run", "does not prove"],
+      "reject_terms": ["SKILL_NOT_FOUND", "weak_validation_passed: true"]
+    },
+    {
+      "scenario_id": "zappa-qaas-top-repos-cached-campaign",
+      "skill": "zappa-qaas-top-repos",
+      "prompt": "Use zappa-qaas-top-repos to process the current top 250 GitHub repositories from cached data, explain contract harvesting, generated artifacts, blockers, and validation commands.",
+      "expected_terms": ["top 250", "contract harvesting", "generated artifacts", "blockers", "validation commands"],
+      "reject_terms": ["SKILL_NOT_FOUND", "all 250 repositories are fully tested"]
+    }
+  ]
+}
