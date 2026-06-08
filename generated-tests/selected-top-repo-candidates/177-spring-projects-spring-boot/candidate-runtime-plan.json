@@ -16,18 +16,24 @@
     "expected_body":  "Hello World!",
     "expected_listen_url":  "http://127.0.0.1:8080/",
     "readiness_probe":  {
-                            "status":  "blocked",
+                            "status":  "passed",
                             "method":  "GET",
                             "url":  "http://127.0.0.1:8080/",
                             "expected_status":  200,
                             "expected_body":  "Hello World!",
-                            "blocked_reason":  "No generated JAR has been built or started by a tracked lifecycle harness."
+                            "blocked_reason":  "",
+                            "response":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-184624-191\\evidence\\root-response.txt",
+                            "evidence":  [
+                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-lifecycle-spring-boot.json",
+                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-184624-191\\evidence\\spring-boot-lifecycle.transcript.txt",
+                                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-184624-191\\evidence\\root-response.txt"
+                                         ]
                         },
-    "dependency_version_status":  "blocked",
-    "dependency_version_source":  "not_selected_from_public_contract",
-    "jar_build_status":  "blocked",
+    "dependency_version_status":  "passed",
+    "dependency_version_source":  "spring_initializr_official_starter",
+    "jar_build_status":  "passed",
     "cleanup":  {
-                    "status":  "blocked",
+                    "status":  "passed",
                     "process_family":  "java",
                     "required_evidence":  [
                                               "Tracked Java process id",
@@ -36,12 +42,13 @@
                                               "Port owner after cleanup",
                                               "No remaining tracked child processes"
                                           ],
-                    "blocked_reason":  "Tracked Java process cleanup has not been live-validated."
+                    "blocked_reason":  "",
+                    "evidence":  [
+                                     "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-lifecycle-spring-boot.json",
+                                     "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-184624-191\\evidence\\spring-boot-lifecycle.transcript.txt"
+                                 ]
                 },
     "blockers":  [
-                     "select_exact_spring_boot_dependency_version_or_generated_app_build_file",
-                     "build_application_jar_from_selected_public_dependencies",
-                     "prove_process_lifecycle_and_cleanup_without assuming private source",
                      "run_qaaS_template_validation",
                      "run_live_qaaS_act_assert_validation",
                      "run_live_airgapped_weak_model_validation",
@@ -138,5 +145,32 @@
                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\build-plugin\\spring-boot-gradle-plugin\\src\\test\\java\\org\\springframework\\boot\\gradle\\plugin\\ProtobufPluginActionIntegrationTests.java",
                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\build-plugin\\spring-boot-gradle-plugin\\src\\test\\resources\\org\\springframework\\boot\\gradle\\plugin\\ProtobufPluginActionIntegrationTests-usesVersionOfGrpcPluginDependencyWhenSpecified.gradle",
                             "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\core\\spring-boot-docker-compose\\build.gradle"
-                        ]
+                        ],
+    "dependency_version":  "4.0.6",
+    "dependency_version_evidence":  [
+                                        "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-lifecycle-spring-boot.json",
+                                        "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-184624-191\\work\\spring-boot-candidate\\pom.xml",
+                                        "D:\\QaaS\\_tmp\\zappa-dont-cry\\top-repos\\selected-contracts\\177-spring-projects-spring-boot\\files\\README.adoc"
+                                    ],
+    "built_jar":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-184624-191\\work\\spring-boot-candidate\\target\\spring-boot-candidate-0.0.1-SNAPSHOT.jar",
+    "built_jar_sha256":  "b43e9e138a97626457c70df054f7e01910554f2cd94c780a7c1661ede8795f47",
+    "jar_build_evidence":  [
+                               "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-lifecycle-spring-boot.json",
+                               "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-184624-191\\evidence\\spring-boot-lifecycle.transcript.txt",
+                               "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-184624-191\\evidence\\maven-package.stdout.txt",
+                               "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-184624-191\\evidence\\maven-package.stderr.txt"
+                           ],
+    "lifecycle_validation":  {
+                                 "status":  "passed",
+                                 "exit_code":  0,
+                                 "command":  "Spring Initializr 4.0.6 ; mvnw.cmd -q -Dmaven.test.skip=true package ; java -jar \u003cbuilt jar\u003e ; GET http://127.0.0.1:8080/ ; terminate tracked process tree",
+                                 "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-184624-191\\evidence\\spring-boot-lifecycle.transcript.txt",
+                                 "summary":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\coverage\\selected-top-repo-candidate-lifecycle-spring-boot.json",
+                                 "response":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\lifecycle-runs\\selected-top-repo-candidates\\20260608-184624-191\\evidence\\root-response.txt",
+                                 "cleanup_process_ids":  [
+                                                             31596,
+                                                             8448,
+                                                             16324
+                                                         ]
+                             }
 }

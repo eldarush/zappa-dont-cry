@@ -1,6 +1,6 @@
 ﻿Command: dotnet run --project D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\ZappaPromotionSeed.Runner.csproj -- run D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\test.qaas.yaml -e --no-env
 WorkingDirectory: D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner
-Started: 2026-06-08T18:20:45.1668411+03:00
+Started: 2026-06-08T19:04:55.2877560+03:00
 ExitCode: 0
 
 Using launch settings from D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\Properties\launchSettings.json...
@@ -8,41 +8,41 @@ D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world
 D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\ZappaPromotionSeed.Runner.csproj : warning NU1903: Package 'Snappier' 1.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-pggp-6c3x-2xmx
 D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\ZappaPromotionSeed.Runner.csproj : warning NU1902: Package 'SharpCompress' 0.30.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-6c8g-7p36-r338
 D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\ZappaPromotionSeed.Runner.csproj : warning NU1903: Package 'Snappier' 1.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-pggp-6c3x-2xmx
-[18:20:47 INF] Starting runner with 1 execution builders. EmptyResults=True, ServeResults=False, ServeResultsFolder=allure-results, ExitProcessOnCompletion=True
-[18:20:47 INF] Cleaning results directory before execution
+[19:04:57 INF] Starting runner with 1 execution builders. EmptyResults=True, ServeResults=False, ServeResultsFolder=allure-results, ExitProcessOnCompletion=True
+[19:04:57 INF] Cleaning results directory before execution
 Cleaned allure results directory D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\bin\Debug\net10.0\allure-results
-[18:20:47 INF] Building 1 executions
-[18:20:47 INF] Started building Run execution with executionId null and case name null
-[18:20:47 INF] Found IGenerator hook instance FromFileSystem in provided assembly QaaS.Common.Generators, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null
-[18:20:47 INF] Initializing Transaction CallHello with transactor of type QaaS.Framework.Protocols.Protocols.HttpProtocol with Input Serializer null and Output Deserializer null
-[18:20:47 INF] Found IAssertion hook instance HttpStatus in provided assembly QaaS.Common.Assertions, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null
-[18:20:47 INF] Finished building Run execution with executionId null and case name null
-[18:20:47 INF] Built 1 executions successfully
-[18:20:47 INF] Running 1 executions
-[18:20:47 INF] Running Run execution with executionId null and case name null
-[18:20:47 INF] Running Data Sources Logic
-[18:20:47 INF] Running Sessions Logic
-[18:20:47 INF] Received 1 session definitions for execution
-[18:20:47 INF] Starting session stage 0 with 1 session(s): HelloSession
-[18:20:47 INF] Starting session HelloSession on stage 2 with 1 action(s)
-[18:20:47 INF] Arranging metadata source by the given DataArrangeOrder AsciiAsc
-[18:20:48 INF] HTTP Get request to http://127.0.0.1:18080/hello completed with status 200.
-[18:20:50 INF] Session summary for HelloSession
-[18:20:50 INF] HelloSession Duration In Milliseconds: 2017.8357
-[18:20:50 INF] Session Utc Start Time: 06/08/2026 15:20:47
-[18:20:50 INF] Session Utc End Time: 06/08/2026 15:20:50
-[18:20:50 INF] Input Source CallHello Contains 1 Inputs
-[18:20:50 INF] Output Source CallHello Contains 1 Outputs
-[18:20:50 INF] Finished session HelloSession stage 0
-[18:20:50 INF] Session HelloSession Inputs=1
-[18:20:50 INF] Session HelloSession Outputs=1
-[18:20:50 INF] Session HelloSession Failures=0
-[18:20:50 INF] Session logic completed. Total collected session results: 1
-[18:20:50 INF] Running Assertions Logic
-[18:20:50 INF] Running assertion HttpStatus ReturnedOk
-[18:20:50 INF] Running Reports Logic
-[18:20:50 INF] Started writing assertion results using 1 reporters. ReporterTypes=AllureReporter
-[18:20:50 INF] Finished writing assertion results using 1 reporters. ReporterTypes=AllureReporter
-[18:20:50 INF] Finished running executions. Aggregated exit code: 0
-[18:20:50 INF] Runner lifecycle finished successfully. ExitCode=0
-[18:20:50 INF] Runner completed. ExitCode=0
+[19:04:58 INF] Building 1 executions
+[19:04:58 INF] Started building Run execution with executionId null and case name null
+[19:04:58 INF] Found IGenerator hook instance FromFileSystem in provided assembly QaaS.Common.Generators, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null
+[19:04:58 INF] Initializing Transaction CallHello with transactor of type QaaS.Framework.Protocols.Protocols.HttpProtocol with Input Serializer null and Output Deserializer null
+[19:04:58 INF] Found IAssertion hook instance HttpStatus in provided assembly QaaS.Common.Assertions, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null
+[19:04:58 INF] Finished building Run execution with executionId null and case name null
+[19:04:58 INF] Built 1 executions successfully
+[19:04:58 INF] Running 1 executions
+[19:04:58 INF] Running Run execution with executionId null and case name null
+[19:04:58 INF] Running Data Sources Logic
+[19:04:58 INF] Running Sessions Logic
+[19:04:58 INF] Received 1 session definitions for execution
+[19:04:58 INF] Starting session stage 0 with 1 session(s): HelloSession
+[19:04:58 INF] Starting session HelloSession on stage 2 with 1 action(s)
+[19:04:58 INF] Arranging metadata source by the given DataArrangeOrder AsciiAsc
+[19:04:58 INF] HTTP Get request to http://127.0.0.1:18080/hello completed with status 200.
+[19:05:00 INF] Session summary for HelloSession
+[19:05:00 INF] HelloSession Duration In Milliseconds: 2016.7165
+[19:05:00 INF] Session Utc Start Time: 06/08/2026 16:04:58
+[19:05:00 INF] Session Utc End Time: 06/08/2026 16:05:00
+[19:05:00 INF] Input Source CallHello Contains 1 Inputs
+[19:05:00 INF] Output Source CallHello Contains 1 Outputs
+[19:05:00 INF] Finished session HelloSession stage 0
+[19:05:00 INF] Session HelloSession Inputs=1
+[19:05:00 INF] Session HelloSession Outputs=1
+[19:05:00 INF] Session HelloSession Failures=0
+[19:05:00 INF] Session logic completed. Total collected session results: 1
+[19:05:00 INF] Running Assertions Logic
+[19:05:00 INF] Running assertion HttpStatus ReturnedOk
+[19:05:00 INF] Running Reports Logic
+[19:05:00 INF] Started writing assertion results using 1 reporters. ReporterTypes=AllureReporter
+[19:05:00 INF] Finished writing assertion results using 1 reporters. ReporterTypes=AllureReporter
+[19:05:00 INF] Finished running executions. Aggregated exit code: 0
+[19:05:00 INF] Runner lifecycle finished successfully. ExitCode=0
+[19:05:00 INF] Runner completed. ExitCode=0

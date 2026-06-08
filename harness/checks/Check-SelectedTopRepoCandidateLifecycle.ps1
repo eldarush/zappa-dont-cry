@@ -314,6 +314,24 @@ function Get-LifecycleProfile {
                 QaaSTemplateBlocker = "qaas-template-live-not-run"
             }
         }
+        "spring-projects/spring-boot" {
+            return [pscustomobject]@{
+                Repository = "spring-projects/spring-boot"
+                Port = 8080
+                LifecycleGates = @("java-spring-boot-dependency-resolution", "java-spring-boot-process-lifecycle")
+                LifecycleBlocker = "spring-boot-process-lifecycle-not-proven"
+                ResponseKind = "spring-boot-text"
+                RequiredTranscriptText = @("SpringInitializrUrl: https://start.spring.io/starter.zip", "RequestedBootVersion: 4.0.6", "GeneratedPomBootVersion: 4.0.6", "MavenPackageExitCode: 0", "Command: java -jar", "Ready: True", "ResponseBodySha256:", "CleanupPassed: True", "ExitCode: 0")
+                RequiredRemainingBlockers = @("spring-boot-text-body-hook-not-template-validated", "spring-boot-broad-runtime-coverage-not-selected", "qaas-template-live-not-run", "live-airgapped-weak-model-not-passed", "httpstatus-docs-inconsistency-recorded")
+                RequiredRuntimeBlockers = @(
+                    "run_qaaS_template_validation",
+                    "run_live_qaaS_act_assert_validation",
+                    "run_live_airgapped_weak_model_validation",
+                    "run_strong_review_against_selected_contract_evidence"
+                )
+                QaaSTemplateBlocker = "qaas-template-live-not-run"
+            }
+        }
         "unclecode/crawl4ai" {
             return [pscustomobject]@{
                 Repository = "unclecode/crawl4ai"
@@ -508,6 +526,18 @@ if ($record.status -eq "blocked") {
                 $actualResponseSha256 = Get-Sha256Hex -Path ([string]$record.response)
                 if ([string]$record.response_body_sha256 -ne $actualResponseSha256) {
                     Add-Failure "Deno lifecycle response_body_sha256 must match actual response file: $($record.response)"
+                }
+            } elseif ($profile.ResponseKind -eq "spring-boot-text") {
+                $responseText = Get-Content -LiteralPath ([string]$record.response) -Raw
+                if ($responseText -ne "Hello World!") {
+                    Add-Failure "Spring Boot lifecycle response body must match README-backed exact text: $($record.response)"
+                }
+                if ([int]$record.response_status -ne 200) {
+                    Add-Failure "Spring Boot lifecycle response status must be 200: $SummaryPath"
+                }
+                $actualResponseSha256 = Get-Sha256Hex -Path ([string]$record.response)
+                if ([string]$record.response_body_sha256 -ne $actualResponseSha256) {
+                    Add-Failure "Spring Boot lifecycle response_body_sha256 must match actual response file: $($record.response)"
                 }
             } elseif ($profile.ResponseKind -eq "crawl4ai-health-status") {
                 if ([int]$record.response_status -ge 400) {
@@ -826,6 +856,102 @@ if ($record.status -eq "blocked") {
                 Add-Failure "Deno runtime plan managed_toolchain must be passed after lifecycle validation: $runtimePlanPath"
             }
         }
+        if ($profile.Repository -eq "spring-projects/spring-boot") {
+            if ([string]$record.command -ne "java -jar") {
+                Add-Failure "Spring Boot lifecycle command must be java -jar: $SummaryPath"
+            }
+            if ([string]$record.spring_initializr_url -ne "https://start.spring.io/starter.zip") {
+                Add-Failure "Spring Boot lifecycle spring_initializr_url mismatch: $SummaryPath"
+            }
+            if ([string]$record.requested_boot_version -ne "4.0.6" -or [string]$record.generated_pom_boot_version -ne "4.0.6") {
+                Add-Failure "Spring Boot lifecycle must prove Spring Boot 4.0.6 from generated POM: $SummaryPath"
+            }
+            if ([string]$record.generated_pom_boot_version -like "*.RELEASE") {
+                Add-Failure "Spring Boot lifecycle must normalize Initializr version without RELEASE suffix: $SummaryPath"
+            }
+            if ([int]$record.java_major_version -lt 25) {
+                Add-Failure "Spring Boot lifecycle must use Java 25 or newer: $SummaryPath"
+            }
+            if ([int]$record.maven_package_exit_code -ne 0) {
+                Add-Failure "Spring Boot lifecycle Maven package exit code must be 0: $SummaryPath"
+            }
+            foreach ($fileField in @("initializr_zip", "pom_path", "built_jar", "maven_stdout", "maven_stderr", "java_version_stdout", "java_version_stderr")) {
+                $value = [string]$record.$fileField
+                Test-ExistingFileUnderRoot -Path $value -Root $LifecycleRoot -Description "Spring Boot lifecycle ${fileField}" | Out-Null
+            }
+            foreach ($evidenceField in @("selected_readme_evidence", "selected_webserver_evidence")) {
+                $value = [string]$record.$evidenceField
+                if ([string]::IsNullOrWhiteSpace($value) -or -not (Test-Path -LiteralPath $value -PathType Leaf)) {
+                    Add-Failure "Spring Boot lifecycle must cite ${evidenceField}: $SummaryPath"
+                }
+            }
+            if ([string]::IsNullOrWhiteSpace([string]$record.java_path) -or -not (Test-Path -LiteralPath ([string]$record.java_path) -PathType Leaf)) {
+                Add-Failure "Spring Boot lifecycle java_path must exist: $($record.java_path)"
+            }
+            $workingDirectory = [string]$record.working_directory
+            if ([string]::IsNullOrWhiteSpace($workingDirectory) -or -not (Test-Path -LiteralPath $workingDirectory -PathType Container)) {
+                Add-Failure "Spring Boot lifecycle working_directory must exist: $workingDirectory"
+            } elseif (-not (Test-PathUnderRoot -Path (Resolve-Path -LiteralPath $workingDirectory).Path -Root $LifecycleRoot)) {
+                Add-Failure "Spring Boot lifecycle working_directory must stay under lifecycle run root: $workingDirectory"
+            }
+            foreach ($hashSpec in @(
+                    [pscustomobject]@{ Field = "initializr_zip_sha256"; Path = [string]$record.initializr_zip },
+                    [pscustomobject]@{ Field = "pom_sha256"; Path = [string]$record.pom_path },
+                    [pscustomobject]@{ Field = "built_jar_sha256"; Path = [string]$record.built_jar },
+                    [pscustomobject]@{ Field = "staged_app_sha256"; Path = [string](Join-Path ([string]$record.working_directory) "src\main\java\com\example\Example.java") },
+                    [pscustomobject]@{ Field = "response_body_sha256"; Path = [string]$record.response }
+                )) {
+                if ([string]::IsNullOrWhiteSpace($hashSpec.Path) -or -not (Test-Path -LiteralPath $hashSpec.Path -PathType Leaf)) {
+                    Add-Failure "Spring Boot lifecycle $($hashSpec.Field) source file missing: $($hashSpec.Path)"
+                    continue
+                }
+                $actualHash = Get-Sha256Hex -Path $hashSpec.Path
+                $actualValue = [string]$record.PSObject.Properties[$hashSpec.Field].Value
+                if ($actualValue -ne $actualHash) {
+                    Add-Failure "Spring Boot lifecycle $($hashSpec.Field) must match actual file: $($hashSpec.Path)"
+                }
+            }
+            if (Test-Path -LiteralPath ([string]$record.pom_path) -PathType Leaf) {
+                $pomText = Get-Content -LiteralPath ([string]$record.pom_path) -Raw
+                if ($pomText -notmatch "<version>4\.0\.6</version>") {
+                    Add-Failure "Spring Boot lifecycle POM must contain parent version 4.0.6: $($record.pom_path)"
+                }
+                if ($pomText -match "4\.0\.6\.RELEASE") {
+                    Add-Failure "Spring Boot lifecycle POM must not use 4.0.6.RELEASE: $($record.pom_path)"
+                }
+            }
+            if (Test-Path -LiteralPath ([string]$record.transcript) -PathType Leaf) {
+                $transcriptText = Get-Content -LiteralPath ([string]$record.transcript) -Raw
+                foreach ($forbiddenText in @("4.0.6.RELEASE", "mvn spring-boot:run", "bootRun", "/health", "actuator")) {
+                    if ($transcriptText -match [regex]::Escape($forbiddenText)) {
+                        Add-Failure "Spring Boot lifecycle transcript must not contain spoofing or wrong-runtime text '$forbiddenText': $($record.transcript)"
+                    }
+                }
+            }
+            if ([string]$runtimePlan.dependency_version_status -ne "passed" -or [string]$runtimePlan.jar_build_status -ne "passed") {
+                Add-Failure "Spring Boot runtime plan dependency and JAR build status must be passed after lifecycle validation: $runtimePlanPath"
+            }
+            if ([string]$runtimePlan.dependency_version -ne "4.0.6") {
+                Add-Failure "Spring Boot runtime plan dependency_version must be 4.0.6 after lifecycle validation: $runtimePlanPath"
+            }
+            if ([string]$runtimePlan.built_jar -ne [string]$record.built_jar -or [string]$runtimePlan.built_jar_sha256 -ne [string]$record.built_jar_sha256) {
+                Add-Failure "Spring Boot runtime plan built_jar evidence must match lifecycle record: $runtimePlanPath"
+            }
+            if ($runtimePlan.readiness_probe.status -ne "passed") {
+                Add-Failure "Spring Boot runtime plan readiness_probe must be passed after lifecycle validation: $runtimePlanPath"
+            }
+            foreach ($satisfiedRuntimeBlocker in @("select_exact_spring_boot_dependency_version_or_generated_app_build_file", "build_application_jar_from_selected_public_dependencies")) {
+                if (@($runtimePlan.blockers) -contains $satisfiedRuntimeBlocker) {
+                    Add-Failure "Spring Boot runtime plan still contains satisfied blocker ${satisfiedRuntimeBlocker}: $runtimePlanPath"
+                }
+            }
+            $blockersAfterLifecycle = Get-BlockerIds -Manifest $manifest
+            foreach ($satisfiedSourceBlocker in @("spring-boot-dependency-version-not-selected", "spring-boot-jar-build-not-proven")) {
+                if ($blockersAfterLifecycle.Contains($satisfiedSourceBlocker)) {
+                    Add-Failure "Spring Boot candidate manifest still contains satisfied blocker ${satisfiedSourceBlocker}: $manifestPath"
+                }
+            }
+        }
         if ($profile.Repository -eq "unclecode/crawl4ai") {
             if ([string]$record.image -ne "unclecode/crawl4ai:latest") {
                 Add-Failure "Crawl4AI lifecycle image must be unclecode/crawl4ai:latest: $SummaryPath"
@@ -896,6 +1022,9 @@ if ($record.status -eq "blocked") {
         if ($profile.Repository -eq "denoland/deno") {
             $qaaSValidationFields = @("assertion_build_validation") + $qaaSValidationFields
         }
+        if ($profile.Repository -eq "spring-projects/spring-boot") {
+            $qaaSValidationFields = @("assertion_build_validation") + $qaaSValidationFields
+        }
         if ($profile.Repository -eq "unclecode/crawl4ai") {
             $qaaSValidationFields = @("assertion_build_validation") + $qaaSValidationFields
         }
@@ -914,7 +1043,7 @@ if ($record.status -eq "blocked") {
                 $qaasFullyPassed = $false
             }
         }
-        if ($profile.Repository -in @("pallets/flask", "expressjs/express", "denoland/deno", "fastapi/fastapi", "gin-gonic/gin", "unclecode/crawl4ai") -and $qaasPassed -and -not $qaasFullyPassed) {
+        if ($profile.Repository -in @("pallets/flask", "expressjs/express", "denoland/deno", "fastapi/fastapi", "gin-gonic/gin", "spring-projects/spring-boot", "unclecode/crawl4ai") -and $qaasPassed -and -not $qaasFullyPassed) {
             Add-Failure "$($profile.Repository) lifecycle evidence must not claim partial QaaS template/live validation passed: $manifestPath"
         }
 

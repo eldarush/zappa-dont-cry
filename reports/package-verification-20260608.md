@@ -14,7 +14,7 @@ Result: package-local weak-model launcher loads its policy and profile list.
 powershell -NoProfile -ExecutionPolicy Bypass -File .\harness\checks\Check-HarnessReport.ps1 -ReportPath .\reports\report.json
 ```
 
-Result: package-local final harness report self-check passed for the latest `63/63` full harness report.
+Result: package-local final harness report self-check passed for the latest `64/64` full harness report.
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite weak-routing
@@ -41,7 +41,7 @@ python .\harness\checks\Check-SelectedTopRepoCandidatePromotionReadiness.py .\ge
 Result: package-local selected promotion readiness passed for 8 candidates.
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File D:\QaaS\_tools\zappa-harness\checks\Check-HarnessReport.ps1 -ReportPath D:\QaaS\_tmp\zappa-dont-cry\harness-runs\20260608-181957-517\report.json
+powershell -NoProfile -ExecutionPolicy Bypass -File D:\QaaS\_tools\zappa-harness\checks\Check-HarnessReport.ps1 -ReportPath D:\QaaS\_tmp\zappa-dont-cry\harness-runs\20260608-190335-164\report.json
 ```
 
 Result: source final harness report self-check passed.
@@ -50,7 +50,13 @@ Result: source final harness report self-check passed.
 powershell -NoProfile -ExecutionPolicy Bypass -File D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite all
 ```
 
-Result: source final harness passed `63/63` checks from `D:\QaaS\_tmp\zappa-dont-cry\harness-runs\20260608-181957-517\report.json`.
+Result: source final harness passed `64/64` checks from `D:\QaaS\_tmp\zappa-dont-cry\harness-runs\20260608-190335-164\report.json`.
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File D:\QaaS\_tools\zappa-harness\scripts\run-selected-top-repo-candidate-lifecycle-spring-boot.ps1
+```
+
+Result: Spring Boot lifecycle passed with Spring Boot `4.0.6`, Java `25+`, a built JAR, HTTP `200`, exact body `Hello World!`, and tracked cleanup evidence.
 
 ## Known Portability Limit
 

@@ -141,6 +141,8 @@ function New-SpringBootFixture {
     $root = Join-Path $resolvedOutDir $Name
     $candidateRoot = Join-Path $root "selected-top-repo-candidates"
     $selectedRoot = Join-Path $root "selected-contracts"
+    $coverageRoot = Join-Path $root "coverage"
+    $lifecycleRoot = Join-Path $root "lifecycle-runs\selected-top-repo-candidates"
     $candidateDir = Join-Path $candidateRoot "177-spring-projects-spring-boot"
     $selectedDir = Join-Path $selectedRoot "177-spring-projects-spring-boot"
 
@@ -151,15 +153,38 @@ function New-SpringBootFixture {
 
     [System.IO.Directory]::CreateDirectory($candidateRoot) | Out-Null
     [System.IO.Directory]::CreateDirectory($selectedRoot) | Out-Null
+    [System.IO.Directory]::CreateDirectory($coverageRoot) | Out-Null
+    [System.IO.Directory]::CreateDirectory($lifecycleRoot) | Out-Null
     Copy-Item -LiteralPath (Join-Path $originalCandidateRoot "177-spring-projects-spring-boot") -Destination $candidateDir -Recurse -Force
     Copy-Item -LiteralPath (Join-Path $originalSelectedRoot "177-spring-projects-spring-boot") -Destination $selectedDir -Recurse -Force
+
+    $originalManifestPath = Join-Path $originalCandidateRoot "177-spring-projects-spring-boot\qaas-artifact-manifest.json"
+    $originalManifest = Read-JsonFile -Path $originalManifestPath
+    if (
+        ($originalManifest.PSObject.Properties.Name -contains "lifecycle_validation") -and
+        [string]$originalManifest.lifecycle_validation.status -eq "passed"
+    ) {
+        $originalSummaryPath = [string]$originalManifest.lifecycle_validation.summary
+        if (Test-Path -LiteralPath $originalSummaryPath -PathType Leaf) {
+            Copy-Item -LiteralPath $originalSummaryPath -Destination (Join-Path $coverageRoot (Split-Path -Leaf $originalSummaryPath)) -Force
+            $originalSummary = Read-JsonFile -Path $originalSummaryPath
+            $originalRunDir = [string]$originalSummary.run_dir
+            if (Test-Path -LiteralPath $originalRunDir -PathType Container) {
+                Copy-Item -LiteralPath $originalRunDir -Destination (Join-Path $lifecycleRoot (Split-Path -Leaf $originalRunDir)) -Recurse -Force
+            }
+        }
+    }
 
     $replacements = @{
         $originalCandidateRoot = $candidateRoot
         $originalSelectedRoot = $selectedRoot
+        $originalCoverageRoot = $coverageRoot
+        $originalLifecycleRoot = $lifecycleRoot
     }
     Rewrite-JsonFiles -Root $candidateRoot -Replacements $replacements
     Rewrite-JsonFiles -Root $selectedRoot -Replacements $replacements
+    Rewrite-JsonFiles -Root $coverageRoot -Replacements $replacements
+    Rewrite-JsonFiles -Root $lifecycleRoot -Replacements $replacements
 
     $manifestPath = Join-Path $candidateDir "qaas-artifact-manifest.json"
     $manifest = Read-JsonFile -Path $manifestPath
@@ -240,6 +265,8 @@ $resolvedOutDir = Assert-UnderRoot -Path $OutDir -Root "D:\QaaS\_tmp\zappa-dont-
 
 $originalCandidateRoot = "D:\QaaS\_tmp\zappa-dont-cry\generated-tests\selected-top-repo-candidates"
 $originalSelectedRoot = "D:\QaaS\_tmp\zappa-dont-cry\top-repos\selected-contracts"
+$originalCoverageRoot = "D:\QaaS\_tmp\zappa-dont-cry\coverage"
+$originalLifecycleRoot = "D:\QaaS\_tmp\zappa-dont-cry\lifecycle-runs\selected-top-repo-candidates"
 foreach ($requiredPath in @(
         (Join-Path $originalCandidateRoot "177-spring-projects-spring-boot\qaas-artifact-manifest.json"),
         (Join-Path $originalSelectedRoot "177-spring-projects-spring-boot\selected-contract.json")
@@ -278,5 +305,19 @@ $manifest.airgapped_validation.status = "passed"
 Write-JsonFile -Path $weakSpoof.Manifest -Value $manifest
 $weakSpoofResult = Invoke-Checker -Fixture $weakSpoof
 Assert-Check -Name "Spring Boot checker rejects airgapped validation spoof" -Result $weakSpoofResult -ExpectedExitCode 1 -ExpectedText "airgapped validation"
+
+$lifecycleVersionSpoof = New-SpringBootFixture -Name "lifecycle-version-spoof"
+$manifest = Read-JsonFile -Path $lifecycleVersionSpoof.Manifest
+if (
+    ($manifest.PSObject.Properties.Name -contains "lifecycle_validation") -and
+    [string]$manifest.lifecycle_validation.status -eq "passed"
+) {
+    $summaryPath = [string]$manifest.lifecycle_validation.summary
+    $summary = Read-JsonFile -Path $summaryPath
+    $summary.generated_pom_boot_version = "4.0.6.RELEASE"
+    Write-JsonFile -Path $summaryPath -Value $summary
+    $lifecycleVersionSpoofResult = Invoke-Checker -Fixture $lifecycleVersionSpoof
+    Assert-Check -Name "Spring Boot checker rejects lifecycle version spoof" -Result $lifecycleVersionSpoofResult -ExpectedExitCode 1 -ExpectedText "RELEASE-suffixed"
+}
 
 Write-Output "Spring Boot selected-candidate regression checks passed."

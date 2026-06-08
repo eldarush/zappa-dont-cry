@@ -1,21 +1,21 @@
 ﻿Command: dotnet run --project D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\mocker\ZappaPromotionSeed.Mocker\ZappaPromotionSeed.Mocker.csproj -- template D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\mocker\ZappaPromotionSeed.Mocker\mocker.qaas.yaml --no-env
 WorkingDirectory: D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\mocker\ZappaPromotionSeed.Mocker
-Started: 2026-06-08T18:20:39.1227064+03:00
+Started: 2026-06-08T19:04:49.0507591+03:00
 ExitCode: 0
 
 D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\mocker\ZappaPromotionSeed.Mocker\ZappaPromotionSeed.Mocker.csproj : warning NU1902: Package 'SharpCompress' 0.30.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-6c8g-7p36-r338
 D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\mocker\ZappaPromotionSeed.Mocker\ZappaPromotionSeed.Mocker.csproj : warning NU1903: Package 'Snappier' 1.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-pggp-6c3x-2xmx
 D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\mocker\ZappaPromotionSeed.Mocker\ZappaPromotionSeed.Mocker.csproj : warning NU1902: Package 'SharpCompress' 0.30.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-6c8g-7p36-r338
 D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\mocker\ZappaPromotionSeed.Mocker\ZappaPromotionSeed.Mocker.csproj : warning NU1903: Package 'Snappier' 1.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-pggp-6c3x-2xmx
-[18:20:41 INF] Started building QaaS.Mocker with execution mode Template
-[18:20:41 INF] Found ITransactionProcessor hook instance QaaS.Common.Processors.StaticResponseProcessor in provided assembly QaaS.Common.Processors, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
-[18:20:41 INF] Building transaction stub 'HelloStub' with processor 'StaticResponseProcessor'
-[18:20:41 INF] Built 3 transaction stub(s) including default not-found and internal-error stubs
-[18:20:41 INF] Controller startup skipped because 'Controller.ServerName' is not configured.
-[18:20:41 INF] Resolved runtime graph with 0 data source(s), 3 stub(s), 1 server(s) [Http], and controller enabled: False
-[18:20:41 INF] Finished building QaaS.Mocker with execution mode Template
-[18:20:41 INF] Starting QaaS.Mocker in Template mode (RunLocally: False)
-[18:20:41 INF] Generating template output
+[19:04:51 INF] Started building QaaS.Mocker with execution mode Template
+[19:04:51 INF] Found ITransactionProcessor hook instance QaaS.Common.Processors.StaticResponseProcessor in provided assembly QaaS.Common.Processors, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+[19:04:51 INF] Building transaction stub 'HelloStub' with processor 'StaticResponseProcessor'
+[19:04:51 INF] Built 3 transaction stub(s) including default not-found and internal-error stubs
+[19:04:51 INF] Controller startup skipped because 'Controller.ServerName' is not configured.
+[19:04:51 INF] Resolved runtime graph with 0 data source(s), 3 stub(s), 1 server(s) [Http], and controller enabled: False
+[19:04:51 INF] Finished building QaaS.Mocker with execution mode Template
+[19:04:51 INF] Starting QaaS.Mocker in Template mode (RunLocally: False)
+[19:04:51 INF] Generating template output
 Stubs:
   - Name: HelloStub
     Processor: StaticResponseProcessor

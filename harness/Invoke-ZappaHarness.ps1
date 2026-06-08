@@ -218,6 +218,11 @@ function Add-SelectedTopRepoCandidateLifecycleCheck {
             -SummaryPath "D:\QaaS\_tmp\zappa-dont-cry\coverage\selected-top-repo-candidate-lifecycle-deno.json" `
             -CandidateDir "D:\QaaS\_tmp\zappa-dont-cry\generated-tests\selected-top-repo-candidates\098-denoland-deno"
     }
+    Invoke-HarnessCommand "selected-top-repo-candidate-lifecycle-spring-boot" {
+        & powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot "checks\Check-SelectedTopRepoCandidateLifecycle.ps1") `
+            -SummaryPath "D:\QaaS\_tmp\zappa-dont-cry\coverage\selected-top-repo-candidate-lifecycle-spring-boot.json" `
+            -CandidateDir "D:\QaaS\_tmp\zappa-dont-cry\generated-tests\selected-top-repo-candidates\177-spring-projects-spring-boot"
+    }
     Invoke-HarnessCommand "selected-top-repo-candidate-lifecycle-crawl4ai" {
         & powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot "checks\Check-SelectedTopRepoCandidateLifecycle.ps1") `
             -SummaryPath "D:\QaaS\_tmp\zappa-dont-cry\coverage\selected-top-repo-candidate-lifecycle-crawl4ai.json" `

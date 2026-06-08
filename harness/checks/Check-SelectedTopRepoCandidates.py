@@ -2629,8 +2629,62 @@ def validate_spring_boot(record: dict, manifest: dict, selected: dict, manifest_
 
     lifecycle_passed = passed_validation(manifest.get("lifecycle_validation"))
     if lifecycle_passed:
-        failures.append(f"Spring Boot candidate has no adopted lifecycle validator yet and must not claim passed lifecycle validation: {manifest_path}")
-    validate_runtime_plan_common(runtime_plan, runtime_plan_path, "spring-projects/spring-boot", "java -jar <validated-application-jar>", False, qaas_passed)
+        def validate_spring_boot_response(response_path: Path):
+            try:
+                response_text = response_path.read_text(encoding="utf-8-sig")
+                if response_text != "Hello World!":
+                    failures.append(f"Spring Boot lifecycle response must exactly match README-backed text body: {response_path}")
+            except Exception as exc:
+                failures.append(f"failed to validate Spring Boot lifecycle response {response_path}: {exc}")
+
+        validate_lifecycle_evidence_paths(
+            manifest.get("lifecycle_validation"),
+            runtime_plan.get("lifecycle_validation"),
+            manifest_path,
+            runtime_plan_path,
+            "spring-projects/spring-boot",
+            "selected-top-repo-candidate-lifecycle-spring-boot.json",
+            validate_spring_boot_response,
+            (
+                "SpringInitializrUrl: https://start.spring.io/starter.zip",
+                "RequestedBootVersion: 4.0.6",
+                "GeneratedPomBootVersion: 4.0.6",
+                "MavenPackageExitCode: 0",
+                "Command: java -jar",
+                "Ready: True",
+                "CleanupPassed: True",
+                "ExitCode: 0",
+            ),
+        )
+
+        lifecycle_summary_path = Path(str(manifest.get("lifecycle_validation", {}).get("summary", "")))
+        if lifecycle_summary_path.exists():
+            lifecycle_summary = read_json(lifecycle_summary_path)
+            lifecycle_root = coverage_dir.parent / "lifecycle-runs" / "selected-top-repo-candidates"
+            if lifecycle_summary.get("spring_initializr_url") != "https://start.spring.io/starter.zip":
+                failures.append(f"Spring Boot lifecycle summary must use official Spring Initializr starter.zip: {lifecycle_summary_path}")
+            if lifecycle_summary.get("requested_boot_version") != "4.0.6" or lifecycle_summary.get("generated_pom_boot_version") != "4.0.6":
+                failures.append(f"Spring Boot lifecycle summary must prove generated POM version 4.0.6: {lifecycle_summary_path}")
+            if str(lifecycle_summary.get("generated_pom_boot_version", "")).endswith(".RELEASE"):
+                failures.append(f"Spring Boot lifecycle summary must not use RELEASE-suffixed Initializr version: {lifecycle_summary_path}")
+            if lifecycle_summary.get("java_major_version", 0) < 25:
+                failures.append(f"Spring Boot lifecycle summary must prove Java 25 or newer: {lifecycle_summary_path}")
+            if lifecycle_summary.get("maven_package_exit_code") != 0:
+                failures.append(f"Spring Boot lifecycle summary must prove Maven package exit code 0: {lifecycle_summary_path}")
+            for field in ("initializr_zip", "pom_path", "built_jar", "maven_stdout", "maven_stderr", "java_version_stdout", "java_version_stderr"):
+                require_under(Path(str(lifecycle_summary.get(field, ""))), lifecycle_root, f"Spring Boot lifecycle {field}")
+            built_jar = Path(str(lifecycle_summary.get("built_jar", "")))
+            if built_jar.exists() and lifecycle_summary.get("built_jar_sha256") != sha256_hex(built_jar):
+                failures.append(f"Spring Boot lifecycle built_jar_sha256 mismatch: {built_jar}")
+            pom_path = Path(str(lifecycle_summary.get("pom_path", "")))
+            if pom_path.exists():
+                pom_text = text(pom_path)
+                require_marker(pom_text, "<version>4.0.6</version>", pom_path)
+                require_no_marker(pom_text, "4.0.6.RELEASE", pom_path, "Spring Boot lifecycle POM must not use RELEASE-suffixed version")
+            if runtime_plan.get("built_jar") != lifecycle_summary.get("built_jar") or runtime_plan.get("built_jar_sha256") != lifecycle_summary.get("built_jar_sha256"):
+                failures.append(f"Spring Boot runtime plan built_jar evidence must match lifecycle summary: {runtime_plan_path}")
+
+    validate_runtime_plan_common(runtime_plan, runtime_plan_path, "spring-projects/spring-boot", "java -jar <validated-application-jar>", lifecycle_passed, qaas_passed)
     if runtime_plan.get("command_support") != "partial_public_java_jar_capability_not_runnable_candidate_command":
         failures.append(f"Spring Boot runtime plan must mark java -jar support as partial and not runnable: {runtime_plan_path}")
     if runtime_plan.get("public_command_prefix") != "java -jar" or runtime_plan.get("command_status") != "partial_public_prefix_only":
@@ -2639,8 +2693,22 @@ def validate_spring_boot(record: dict, manifest: dict, selected: dict, manifest_
         failures.append(f"Spring Boot runtime plan route/port/body mismatch: {runtime_plan_path}")
     if runtime_plan.get("expected_listen_url") != "http://127.0.0.1:8080/":
         failures.append(f"Spring Boot runtime plan expected_listen_url mismatch: {runtime_plan_path}")
-    if runtime_plan.get("dependency_version_status") != "blocked" or runtime_plan.get("jar_build_status") != "blocked":
-        failures.append(f"Spring Boot runtime plan dependency and JAR build status must stay blocked: {runtime_plan_path}")
+    if lifecycle_passed:
+        if runtime_plan.get("dependency_version_status") != "passed" or runtime_plan.get("jar_build_status") != "passed":
+            failures.append(f"Spring Boot runtime plan dependency and JAR build status must be passed after lifecycle validation: {runtime_plan_path}")
+        if runtime_plan.get("dependency_version") != "4.0.6":
+            failures.append(f"Spring Boot runtime plan dependency_version must be 4.0.6 after lifecycle validation: {runtime_plan_path}")
+        lifecycle_root = coverage_dir.parent / "lifecycle-runs" / "selected-top-repo-candidates"
+        for field in ("dependency_version_evidence", "jar_build_evidence"):
+            values = runtime_plan.get(field)
+            if not isinstance(values, list) or not values:
+                failures.append(f"Spring Boot runtime plan missing {field} after lifecycle validation: {runtime_plan_path}")
+                continue
+            for evidence_path in values:
+                require_under(Path(str(evidence_path)), lifecycle_root if "lifecycle-runs" in str(evidence_path) else coverage_dir.parent, f"Spring Boot runtime plan {field}")
+    else:
+        if runtime_plan.get("dependency_version_status") != "blocked" or runtime_plan.get("jar_build_status") != "blocked":
+            failures.append(f"Spring Boot runtime plan dependency and JAR build status must stay blocked before lifecycle validation: {runtime_plan_path}")
     if runtime_plan.get("working_directory") != str(candidate_dir / "app"):
         failures.append(f"Spring Boot runtime plan working_directory must be generated app directory: {runtime_plan_path}")
     if runtime_plan.get("fixture") != str(app_path):
@@ -2649,25 +2717,43 @@ def validate_spring_boot(record: dict, manifest: dict, selected: dict, manifest_
     if not isinstance(readiness, dict):
         failures.append(f"Spring Boot runtime plan readiness_probe missing: {runtime_plan_path}")
     else:
-        if readiness.get("status") != "blocked":
-            failures.append(f"Spring Boot runtime readiness_probe must remain blocked: {runtime_plan_path}")
+        expected_readiness_status = "passed" if lifecycle_passed else "blocked"
+        if readiness.get("status") != expected_readiness_status:
+            failures.append(f"Spring Boot runtime readiness_probe must be {expected_readiness_status}: {runtime_plan_path}")
         if readiness.get("method") != "GET" or readiness.get("url") != "http://127.0.0.1:8080/" or readiness.get("expected_status") != 200:
             failures.append(f"Spring Boot runtime readiness_probe mismatch: {runtime_plan_path}")
         if readiness.get("expected_body") != "Hello World!":
             failures.append(f"Spring Boot runtime readiness_probe expected_body mismatch: {runtime_plan_path}")
+        if lifecycle_passed:
+            require_under(Path(str(readiness.get("response", ""))), coverage_dir.parent / "lifecycle-runs" / "selected-top-repo-candidates", f"Spring Boot runtime readiness response")
     cleanup = runtime_plan.get("cleanup")
-    if not isinstance(cleanup, dict) or cleanup.get("status") != "blocked" or cleanup.get("process_family") != "java":
-        failures.append(f"Spring Boot runtime cleanup must remain blocked for Java process lifecycle: {runtime_plan_path}")
+    if not isinstance(cleanup, dict) or cleanup.get("process_family") != "java":
+        failures.append(f"Spring Boot runtime cleanup must remain a Java cleanup contract: {runtime_plan_path}")
+    elif cleanup.get("status") == "passed" and not lifecycle_passed:
+        failures.append(f"Spring Boot runtime cleanup passed without manifest lifecycle_validation: {runtime_plan_path}")
+    elif cleanup.get("status") != "passed" and lifecycle_passed:
+        failures.append(f"Spring Boot runtime cleanup must be passed when manifest lifecycle_validation passed: {runtime_plan_path}")
+    elif cleanup.get("status") != "blocked" and not lifecycle_passed:
+        failures.append(f"Spring Boot runtime cleanup must remain blocked before lifecycle validation: {runtime_plan_path}")
     runtime_blockers = runtime_plan.get("blockers", [])
-    for blocker in (
-        "select_exact_spring_boot_dependency_version_or_generated_app_build_file",
-        "build_application_jar_from_selected_public_dependencies",
-        "prove_process_lifecycle_and_cleanup_without assuming private source",
+    required_runtime_blockers = [
         "run_qaaS_template_validation",
         "run_live_qaaS_act_assert_validation",
         "run_live_airgapped_weak_model_validation",
         "run_strong_review_against_selected_contract_evidence",
-    ):
+    ]
+    lifecycle_runtime_blockers = [
+        "select_exact_spring_boot_dependency_version_or_generated_app_build_file",
+        "build_application_jar_from_selected_public_dependencies",
+        "prove_process_lifecycle_and_cleanup_without assuming private source",
+    ]
+    if lifecycle_passed:
+        for satisfied_blocker in lifecycle_runtime_blockers:
+            if satisfied_blocker in runtime_blockers:
+                failures.append(f"Spring Boot runtime plan still contains satisfied blocker {satisfied_blocker}: {runtime_plan_path}")
+    else:
+        required_runtime_blockers.extend(lifecycle_runtime_blockers)
+    for blocker in required_runtime_blockers:
         if blocker not in runtime_blockers:
             failures.append(f"Spring Boot runtime plan missing blocker {blocker}: {runtime_plan_path}")
 
@@ -2687,15 +2773,24 @@ def validate_spring_boot(record: dict, manifest: dict, selected: dict, manifest_
 
     blockers = get_blocker_ids(manifest)
     validate_httpstatus_docs_advisory(manifest, manifest_path, qaas_passed, "Spring Boot")
-    for blocker_id in (
-        "spring-boot-dependency-version-not-selected",
-        "spring-boot-jar-build-not-proven",
-        "spring-boot-process-lifecycle-not-proven",
+    required_source_blockers = [
         "spring-boot-text-body-hook-not-template-validated",
         "qaas-template-live-not-run",
         "live-airgapped-weak-model-not-passed",
         "spring-boot-broad-runtime-coverage-not-selected",
-    ):
+    ]
+    lifecycle_source_blockers = [
+        "spring-boot-dependency-version-not-selected",
+        "spring-boot-jar-build-not-proven",
+        "spring-boot-process-lifecycle-not-proven",
+    ]
+    if lifecycle_passed:
+        for satisfied_blocker in lifecycle_source_blockers:
+            if satisfied_blocker in blockers:
+                failures.append(f"Spring Boot candidate manifest still contains satisfied blocker {satisfied_blocker}: {manifest_path}")
+    else:
+        required_source_blockers.extend(lifecycle_source_blockers)
+    for blocker_id in required_source_blockers:
         if blocker_id not in blockers:
             failures.append(f"Spring Boot candidate manifest missing source blocker {blocker_id}: {manifest_path}")
 
@@ -2707,9 +2802,12 @@ def validate_spring_boot(record: dict, manifest: dict, selected: dict, manifest_
     if not body_gate or body_gate.get("status") != "ready" or not body_gate.get("evidence"):
         failures.append(f"Spring Boot candidate plain-text body assertion hook gate must be ready: {manifest_path}")
     dependency_gate = gates.get("java-spring-boot-dependency-resolution")
-    if not dependency_gate or dependency_gate.get("status") != "blocked" or not dependency_gate.get("blocked_reason"):
-        failures.append(f"Spring Boot candidate dependency-resolution gate must stay blocked: {manifest_path}")
-    validate_common_gates(manifest, manifest_path, False, qaas_passed, ("java-spring-boot-dependency-resolution", "java-spring-boot-process-lifecycle"))
+    if lifecycle_passed:
+        if not dependency_gate or dependency_gate.get("status") != "passed" or not dependency_gate.get("evidence"):
+            failures.append(f"Spring Boot candidate dependency-resolution gate must be passed after lifecycle validation: {manifest_path}")
+    elif not dependency_gate or dependency_gate.get("status") != "blocked" or not dependency_gate.get("blocked_reason"):
+        failures.append(f"Spring Boot candidate dependency-resolution gate must stay blocked before lifecycle validation: {manifest_path}")
+    validate_common_gates(manifest, manifest_path, lifecycle_passed, qaas_passed, ("java-spring-boot-dependency-resolution", "java-spring-boot-process-lifecycle"))
 
 
 def validate_crawl4ai(record: dict, manifest: dict, selected: dict, manifest_path: Path, selected_path: Path, candidate_dir: Path):

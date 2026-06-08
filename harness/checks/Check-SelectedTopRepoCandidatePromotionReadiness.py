@@ -227,7 +227,7 @@ coverage_dir.mkdir(parents=True, exist_ok=True)
 record_path = coverage_dir / "selected-candidate-promotion-readiness.json"
 summary = {
     "schema_version": 1,
-    "readiness_status": "blocked_until_airgapped_or_scope",
+    "readiness_status": "blocked_until_airgapped_scope_or_deterministic_evidence",
     "completion_ready": False,
     "selected_candidate_index": str(index_path),
     "selected_candidate_count": len(index_records),
