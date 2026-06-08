@@ -14,6 +14,7 @@ Use this as the coordinator for the `zappa-dont-cry` namespace. The namespace fo
 - Do not invent QaaS YAML fields, hook APIs, CLI flags, result files, or lifecycle behavior.
 - Use `D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1` for deterministic validation where applicable.
 - Use `D:\QaaS\_tools\weak-model-session.ps1 -Airgapped` for weak-model checks and label dry runs as prompt assembly only.
+- For airgapped testing, create or cite a `weak_agent_packet` using `D:\QaaS\_tools\zappa-harness\scripts\new-weak-agent-task-packet.ps1` before asking a weak model to plan or edit.
 
 ## Core Rules
 
@@ -47,7 +48,9 @@ Use shared scripts and references from `D:\QaaS\_tools\zappa-harness`:
 - `references\intent-clarification-protocol.md`
 - `references\artifact-contract.md`
 - `references\airgapped-validation.md`
+- `references\weak-agent-task-packet.md`
 - `references\recursive-development-loop.md`
+- `scripts\new-weak-agent-task-packet.ps1`
 - `Invoke-ZappaHarness.ps1`
 
 ## Required Output Shape
@@ -56,6 +59,7 @@ For QaaS work, produce:
 
 - `intent_questions` or `intent_assumptions`
 - `docs_evidence`
+- `weak_agent_packet`
 - `artifact_plan`
 - `validation_sequence`
 - `airgapped_result`

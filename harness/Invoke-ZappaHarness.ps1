@@ -1,5 +1,5 @@
 param(
-    [ValidateSet("all", "smoke", "environment", "default-environment", "layout", "metadata", "skill-quality", "skill-output-contracts", "objective-coverage", "intent-assumptions", "intent-clarification", "source-only-blockers", "qaas-yaml-schema", "completion-readiness", "strong-review", "weak-routing", "weak-scenarios", "weak-adversarial", "weak-adversarial-scenarios", "weak-suite-runner", "weak-scenario-live-index", "weak-adversarial-live-index", "weak-scenario-outputs", "weak-adversarial-outputs", "airgapped-live", "copilot-fallback", "artifacts", "promotion", "promotion-index", "promotion-packet", "promotion-seed", "top250", "contracts", "selected-contracts", "selected-candidates", "selected-promotion-readiness", "selected-lifecycle", "selected-live", "top-repo-triage", "docs-coverage", "compile", "harness-regression", "refresh-top250")]
+    [ValidateSet("all", "smoke", "environment", "default-environment", "layout", "metadata", "skill-quality", "skill-output-contracts", "objective-coverage", "intent-assumptions", "intent-clarification", "source-only-blockers", "qaas-yaml-schema", "completion-readiness", "strong-review", "weak-routing", "weak-scenarios", "weak-adversarial", "weak-adversarial-scenarios", "weak-agent-packet", "weak-suite-runner", "weak-scenario-live-index", "weak-adversarial-live-index", "weak-scenario-outputs", "weak-adversarial-outputs", "airgapped-live", "copilot-fallback", "artifacts", "promotion", "promotion-index", "promotion-packet", "promotion-seed", "top250", "contracts", "selected-contracts", "selected-candidates", "selected-promotion-readiness", "selected-lifecycle", "selected-live", "top-repo-triage", "docs-coverage", "compile", "harness-regression", "refresh-top250")]
     [string]$Suite = "smoke",
     [ValidateSet("all", "docs-coverage", "top-repos")]
     [string]$Target = "all",
@@ -251,6 +251,10 @@ function Add-WeakScenarioCheck {
     Invoke-HarnessCommand "weak-scenarios" { & powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot "checks\Check-WeakModelScenarios.ps1") -SkillRoot $skillRoot -OutDir (Join-Path $runDir "weak-scenarios") }
 }
 
+function Add-WeakAgentPacketCheck {
+    Invoke-HarnessCommand "weak-agent-packet" { & powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot "checks\Check-WeakAgentTaskPacket.ps1") -HarnessRoot $harnessRoot -PacketRoot "D:\QaaS\_tmp\zappa-dont-cry\weak-agent-packets\harness-check" }
+}
+
 function Add-WeakAdversarialScenarioCheck {
     Invoke-HarnessCommand "weak-adversarial-scenarios" { & powershell -NoProfile -ExecutionPolicy Bypass -File (Join-Path $harnessRoot "checks\Check-WeakModelAdversarialScenarios.ps1") -SkillRoot $skillRoot -OutDir (Join-Path $runDir "weak-adversarial-scenarios") }
 }
@@ -310,6 +314,7 @@ switch ($Suite) {
     "strong-review" { Add-StrongReviewEvidenceCheck }
     "weak-routing" { Add-WeakRoutingCheck }
     "weak-scenarios" { Add-WeakScenarioCheck }
+    "weak-agent-packet" { Add-WeakAgentPacketCheck }
     "weak-adversarial-scenarios" { Add-WeakAdversarialScenarioCheck }
     "weak-adversarial" { Add-WeakAdversarialScenarioCheck }
     "weak-suite-runner" { Add-WeakSuiteRunnerCheck }
@@ -363,6 +368,7 @@ switch ($Suite) {
         Add-HarnessRegressionCheck
         Add-AirgappedLiveEvidenceCheck
         Add-CopilotFallbackEvidenceCheck
+        Add-WeakAgentPacketCheck
         Add-WeakSuiteRunnerCheck
         Add-WeakScenarioOutputCheck
         Add-WeakAdversarialOutputCheck
@@ -396,6 +402,7 @@ switch ($Suite) {
         Add-CompileCheck
         Add-HarnessRegressionCheck
         Add-WeakRoutingCheck
+        Add-WeakAgentPacketCheck
         Add-WeakScenarioCheck
         Add-WeakAdversarialScenarioCheck
         Add-AirgappedLiveEvidenceCheck

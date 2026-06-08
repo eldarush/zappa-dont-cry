@@ -14,6 +14,7 @@ Use this to plan QaaS tests for the current top GitHub repositories.
 - Do not invent QaaS YAML fields, hook APIs, CLI flags, result files, or lifecycle behavior.
 - Use `D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1` for deterministic validation where applicable.
 - Use `D:\QaaS\_tools\weak-model-session.ps1 -Airgapped` for weak-model checks and label dry runs as prompt assembly only.
+- For representative weak-model campaign checks, create or cite `weak_agent_packet` before scaling to more repositories.
 
 ## Workflow
 
@@ -44,6 +45,7 @@ Use this to plan QaaS tests for the current top GitHub repositories.
 ## Required Output
 
 - top-repo manifest path
+- `weak_agent_packet`
 - campaign plan path
 - repository classification summary
 - generated artifact count

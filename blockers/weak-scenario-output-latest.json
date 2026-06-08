@@ -1,13 +1,13 @@
 ﻿{
-    "generated_at":  "2026-06-08T17:33:11.3132733+03:00",
+    "generated_at":  "2026-06-08T18:24:04.1398028+03:00",
     "validation_kind":  "live_scenario_model_execution",
     "classification":  "quota_blocked",
     "weak_validation_passed":  false,
     "dry_run":  false,
     "required_scenario_count":  11,
-    "transcript_count":  5,
+    "transcript_count":  2,
     "live_pass_count":  0,
-    "quota_blocked_count":  5,
+    "quota_blocked_count":  2,
     "model_unavailable_count":  0,
     "live_output_contract_failure_count":  0,
     "dry_run_assembly_count":  0,
@@ -20,7 +20,7 @@
                         "skill":  "zappa-qaas-orchestrator",
                         "classification":  "missing_preferred_models",
                         "weak_validation_passed":  false,
-                        "transcript_exit_code":  1,
+                        "transcript_exit_code":  null,
                         "missing_output_terms":  [
 
                                                  ],
@@ -28,6 +28,7 @@
 
                                                     ],
                         "missing_models":  [
+                                               "id:gpt-3.5-turbo",
                                                "id:gpt-3.5-turbo-0613",
                                                "gpt-4o-mini",
                                                "gpt-4o-mini-2024-07-18"
@@ -42,23 +43,9 @@
 
                                                    ],
                         "index":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\\weak-scenario-live-index-latest.json",
-                        "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live-scenarios\\20260607-215943-797-e34d4de0-claude-copilot-id_gpt-3.5-turbo.md",
+                        "transcript":  null,
                         "attempts":  [
-                                         {
-                                             "passed":  false,
-                                             "classification":  "quota_blocked",
-                                             "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live-scenarios\\20260607-215943-797-e34d4de0-claude-copilot-id_gpt-3.5-turbo.md",
-                                             "transcript_exit_code":  1,
-                                             "missing_output_terms":  [
 
-                                                                      ],
-                                             "missing_any_term_groups":  [
-
-                                                                         ],
-                                             "rejected_terms_matched":  [
-
-                                                                        ]
-                                         }
                                      ]
                     },
                     {
@@ -120,6 +107,7 @@
 
                                                     ],
                         "missing_models":  [
+                                               "id:gpt-3.5-turbo",
                                                "id:gpt-3.5-turbo-0613",
                                                "gpt-4o-mini",
                                                "gpt-4o-mini-2024-07-18"
@@ -136,36 +124,7 @@
                         "index":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\\weak-scenario-live-index-latest.json",
                         "transcript":  null,
                         "attempts":  [
-                                         {
-                                             "passed":  false,
-                                             "classification":  "quota_blocked",
-                                             "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live-scenarios\\20260608-105435-673-a27fb252-claude-copilot-id_gpt-3.5-turbo.md",
-                                             "transcript_exit_code":  1,
-                                             "missing_output_terms":  [
 
-                                                                      ],
-                                             "missing_any_term_groups":  [
-
-                                                                         ],
-                                             "rejected_terms_matched":  [
-
-                                                                        ]
-                                         },
-                                         {
-                                             "passed":  false,
-                                             "classification":  "quota_blocked",
-                                             "transcript":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\airgapped-runs\\live-scenarios\\20260608-105548-655-4ac5876b-claude-copilot-id_gpt-3.5-turbo.md",
-                                             "transcript_exit_code":  1,
-                                             "missing_output_terms":  [
-
-                                                                      ],
-                                             "missing_any_term_groups":  [
-
-                                                                         ],
-                                             "rejected_terms_matched":  [
-
-                                                                        ]
-                                         }
                                      ]
                     },
                     {

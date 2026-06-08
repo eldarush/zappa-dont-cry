@@ -2,17 +2,17 @@ D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world
 D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\mocker\ZappaPromotionSeed.Mocker\ZappaPromotionSeed.Mocker.csproj : warning NU1903: Package 'Snappier' 1.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-pggp-6c3x-2xmx
 D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\mocker\ZappaPromotionSeed.Mocker\ZappaPromotionSeed.Mocker.csproj : warning NU1902: Package 'SharpCompress' 0.30.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-6c8g-7p36-r338
 D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\mocker\ZappaPromotionSeed.Mocker\ZappaPromotionSeed.Mocker.csproj : warning NU1903: Package 'Snappier' 1.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-pggp-6c3x-2xmx
-[17:29:32 INF] Started building QaaS.Mocker with execution mode Run
-[17:29:32 INF] Found ITransactionProcessor hook instance QaaS.Common.Processors.StaticResponseProcessor in provided assembly QaaS.Common.Processors, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
-[17:29:32 INF] Building transaction stub 'HelloStub' with processor 'StaticResponseProcessor'
-[17:29:32 INF] Built 3 transaction stub(s) including default not-found and internal-error stubs
-[17:29:32 INF] Controller startup skipped because 'Controller.ServerName' is not configured.
-[17:29:32 INF] Resolved runtime graph with 0 data source(s), 3 stub(s), 1 server(s) [Http], and controller enabled: False
-[17:29:32 INF] Finished building QaaS.Mocker with execution mode Run
-[17:29:32 INF] Starting QaaS.Mocker in Run mode (RunLocally: False)
-[17:29:32 INF] Started server runtime task
-[17:29:32 INF] Controller runtime is disabled for this execution
-[17:29:32 INF] HTTP Server started. Listening on http://localhost:18080
+[18:20:44 INF] Started building QaaS.Mocker with execution mode Run
+[18:20:44 INF] Found ITransactionProcessor hook instance QaaS.Common.Processors.StaticResponseProcessor in provided assembly QaaS.Common.Processors, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+[18:20:44 INF] Building transaction stub 'HelloStub' with processor 'StaticResponseProcessor'
+[18:20:44 INF] Built 3 transaction stub(s) including default not-found and internal-error stubs
+[18:20:44 INF] Controller startup skipped because 'Controller.ServerName' is not configured.
+[18:20:44 INF] Resolved runtime graph with 0 data source(s), 3 stub(s), 1 server(s) [Http], and controller enabled: False
+[18:20:44 INF] Finished building QaaS.Mocker with execution mode Run
+[18:20:44 INF] Starting QaaS.Mocker in Run mode (RunLocally: False)
+[18:20:44 INF] Started server runtime task
+[18:20:44 INF] Controller runtime is disabled for this execution
+[18:20:44 INF] HTTP Server started. Listening on http://localhost:18080
 info: Microsoft.Hosting.Lifetime[14]
       Now listening on: http://127.0.0.1:18080
 info: Microsoft.Hosting.Lifetime[0]
@@ -28,7 +28,7 @@ info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
       Executed endpoint '/{**path}'
 info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
-      Request finished HTTP/1.1 GET http://127.0.0.1:18080/hello - 200 - text/plain;+charset=utf-8 22.9547ms
+      Request finished HTTP/1.1 GET http://127.0.0.1:18080/hello - 200 - text/plain;+charset=utf-8 20.4590ms
 info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
       Request starting HTTP/1.1 GET http://127.0.0.1:18080/hello - - 78
 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
@@ -36,4 +36,4 @@ info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
 info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
       Executed endpoint '/{**path}'
 info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
-      Request finished HTTP/1.1 GET http://127.0.0.1:18080/hello - 200 - text/plain;+charset=utf-8 1.7216ms
+      Request finished HTTP/1.1 GET http://127.0.0.1:18080/hello - 200 - text/plain;+charset=utf-8 1.8024ms

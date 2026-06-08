@@ -5,7 +5,7 @@ Transcript: D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs
 
 Command: dotnet run --project D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\ZappaPromotionSeed.Runner.csproj -- template D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\test.qaas.yaml --no-env
 WorkingDirectory: D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner
-Started: 2026-06-08T17:29:23.2667390+03:00
+Started: 2026-06-08T18:20:36.2500778+03:00
 ExitCode: 0
 
 Using launch settings from D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\Properties\launchSettings.json...
@@ -13,16 +13,16 @@ D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world
 D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\ZappaPromotionSeed.Runner.csproj : warning NU1903: Package 'Snappier' 1.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-pggp-6c3x-2xmx
 D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\ZappaPromotionSeed.Runner.csproj : warning NU1902: Package 'SharpCompress' 0.30.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-6c8g-7p36-r338
 D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\runner\ZappaPromotionSeed.Runner\ZappaPromotionSeed.Runner.csproj : warning NU1903: Package 'Snappier' 1.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-pggp-6c3x-2xmx
-[17:29:26 INF] Starting runner with 1 execution builders. EmptyResults=False, ServeResults=False, ServeResultsFolder=allure-results, ExitProcessOnCompletion=True
-[17:29:26 INF] Building 1 executions
-[17:29:26 INF] Started building Template execution with executionId null and case name null
-[17:29:26 INF] Found IGenerator hook instance FromFileSystem in provided assembly QaaS.Common.Generators, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null
-[17:29:26 INF] Initializing Transaction CallHello with transactor of type QaaS.Framework.Protocols.Protocols.HttpProtocol with Input Serializer null and Output Deserializer null
-[17:29:26 INF] Found IAssertion hook instance HttpStatus in provided assembly QaaS.Common.Assertions, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null
-[17:29:26 INF] Finished building Template execution with executionId null and case name null
-[17:29:26 INF] Built 1 executions successfully
-[17:29:26 INF] Running 1 executions
-[17:29:26 INF] Running Template execution with executionId null and case name null
+[18:20:38 INF] Starting runner with 1 execution builders. EmptyResults=False, ServeResults=False, ServeResultsFolder=allure-results, ExitProcessOnCompletion=True
+[18:20:38 INF] Building 1 executions
+[18:20:38 INF] Started building Template execution with executionId null and case name null
+[18:20:39 INF] Found IGenerator hook instance FromFileSystem in provided assembly QaaS.Common.Generators, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null
+[18:20:39 INF] Initializing Transaction CallHello with transactor of type QaaS.Framework.Protocols.Protocols.HttpProtocol with Input Serializer null and Output Deserializer null
+[18:20:39 INF] Found IAssertion hook instance HttpStatus in provided assembly QaaS.Common.Assertions, Version=3.5.1.0, Culture=neutral, PublicKeyToken=null
+[18:20:39 INF] Finished building Template execution with executionId null and case name null
+[18:20:39 INF] Built 1 executions successfully
+[18:20:39 INF] Running 1 executions
+[18:20:39 INF] Running Template execution with executionId null and case name null
 Storages:
   - JsonStorageFormat: Indented
     FileSystem:
@@ -76,9 +76,9 @@ MetaData:
   System: QaaSHelloWorldHttp
   Team: Zappa
 
-[17:29:26 INF] Finished running executions. Aggregated exit code: 0
-[17:29:26 INF] Runner lifecycle finished successfully. ExitCode=0
-[17:29:26 INF] Runner completed. ExitCode=0
+[18:20:39 INF] Finished running executions. Aggregated exit code: 0
+[18:20:39 INF] Runner lifecycle finished successfully. ExitCode=0
+[18:20:39 INF] Runner completed. ExitCode=0
 
 
 ==== template-mocker ====
@@ -88,22 +88,22 @@ Transcript: D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs
 
 Command: dotnet run --project D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\mocker\ZappaPromotionSeed.Mocker\ZappaPromotionSeed.Mocker.csproj -- template D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\mocker\ZappaPromotionSeed.Mocker\mocker.qaas.yaml --no-env
 WorkingDirectory: D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\mocker\ZappaPromotionSeed.Mocker
-Started: 2026-06-08T17:29:26.4461552+03:00
+Started: 2026-06-08T18:20:39.1227064+03:00
 ExitCode: 0
 
 D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\mocker\ZappaPromotionSeed.Mocker\ZappaPromotionSeed.Mocker.csproj : warning NU1902: Package 'SharpCompress' 0.30.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-6c8g-7p36-r338
 D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\mocker\ZappaPromotionSeed.Mocker\ZappaPromotionSeed.Mocker.csproj : warning NU1903: Package 'Snappier' 1.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-pggp-6c3x-2xmx
 D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\mocker\ZappaPromotionSeed.Mocker\ZappaPromotionSeed.Mocker.csproj : warning NU1902: Package 'SharpCompress' 0.30.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-6c8g-7p36-r338
 D:\QaaS\_tmp\zappa-dont-cry\generated-tests\promotion-seed\qaas-docs-hello-world-http\mocker\ZappaPromotionSeed.Mocker\ZappaPromotionSeed.Mocker.csproj : warning NU1903: Package 'Snappier' 1.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-pggp-6c3x-2xmx
-[17:29:29 INF] Started building QaaS.Mocker with execution mode Template
-[17:29:29 INF] Found ITransactionProcessor hook instance QaaS.Common.Processors.StaticResponseProcessor in provided assembly QaaS.Common.Processors, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
-[17:29:29 INF] Building transaction stub 'HelloStub' with processor 'StaticResponseProcessor'
-[17:29:29 INF] Built 3 transaction stub(s) including default not-found and internal-error stubs
-[17:29:29 INF] Controller startup skipped because 'Controller.ServerName' is not configured.
-[17:29:29 INF] Resolved runtime graph with 0 data source(s), 3 stub(s), 1 server(s) [Http], and controller enabled: False
-[17:29:29 INF] Finished building QaaS.Mocker with execution mode Template
-[17:29:29 INF] Starting QaaS.Mocker in Template mode (RunLocally: False)
-[17:29:29 INF] Generating template output
+[18:20:41 INF] Started building QaaS.Mocker with execution mode Template
+[18:20:41 INF] Found ITransactionProcessor hook instance QaaS.Common.Processors.StaticResponseProcessor in provided assembly QaaS.Common.Processors, Version=1.5.1.0, Culture=neutral, PublicKeyToken=null
+[18:20:41 INF] Building transaction stub 'HelloStub' with processor 'StaticResponseProcessor'
+[18:20:41 INF] Built 3 transaction stub(s) including default not-found and internal-error stubs
+[18:20:41 INF] Controller startup skipped because 'Controller.ServerName' is not configured.
+[18:20:41 INF] Resolved runtime graph with 0 data source(s), 3 stub(s), 1 server(s) [Http], and controller enabled: False
+[18:20:41 INF] Finished building QaaS.Mocker with execution mode Template
+[18:20:41 INF] Starting QaaS.Mocker in Template mode (RunLocally: False)
+[18:20:41 INF] Generating template output
 Stubs:
   - Name: HelloStub
     Processor: StaticResponseProcessor

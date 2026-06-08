@@ -27,6 +27,7 @@ https://github.com/eldarush/zappa-dont-cry
 - `evidence/top-repos/` - harvested public repo contracts and selected-contract evidence.
 - `evidence/airgapped-runs/` - prior weak-model and adversarial scenario evidence.
 - `evidence/weak-model-validation/` - current weak-model launcher transcripts and quota-blocked summaries.
+- `evidence/weak-agent-packets/` - generated task packets that give weak agents explicit state, command IDs, evidence paths, and stop conditions.
 - `reports/` - final full harness report, objective-readiness snapshot, package verification note, and latest Spring Boot weak-model attempt summary.
 - `tools/weak-model-session.ps1` - hosted weak-model launcher.
 - `weak-model-policy.json` and `tools/weak-model-policy.json` - active model routing policy.
@@ -42,9 +43,9 @@ Latest full deterministic harness run:
 powershell -NoProfile -ExecutionPolicy Bypass -File D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite all
 ```
 
-Result from `reports/full-harness-report-20260608-172839-931.json`:
+Result from `reports/full-harness-report-20260608-181957-517.json`:
 
-- Full harness: `62/62` passed.
+- Full harness: `63/63` passed.
 - Overall status: `passed`.
 - Generated manifests: `772`.
 - Policy-executable manifests: `0`.
@@ -52,6 +53,7 @@ Result from `reports/full-harness-report-20260608-172839-931.json`:
 - Selected top-repo candidates: `8`.
 - Deterministic-ready selected candidates: `6`.
 - Selected candidates still missing live airgapped weak evidence: `8`.
+- Weak-agent task packet suite: `passed`.
 
 Completion is still blocked by `blockers/objective-completion-readiness.json`.
 
@@ -98,6 +100,22 @@ Latest live attempt:
 
 This is an operational blocker, not a pass. Dry runs and Codex-native fallbacks do not count as MiniMax M2.5 proxy evidence. Codex-native `-Harness codex -Profile airgapped` is only a smoke test for session mechanics because the available Codex models are too strong for this policy.
 
+## Weak-Agent Task Packets
+
+For weak or airgapped QaaS sessions, create a packet before asking the weaker model to plan, edit, debug, or judge completion:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\harness\scripts\new-weak-agent-task-packet.ps1 -Goal "Plan a docs-only QaaS Runner test" -SkillName zappa-qaas-test-planner -QaaSMode test-planning
+```
+
+Each packet contains `task.md`, `plan.md`, `state.json`, `commands.json`, `evidence\summary.md`, `run-log.jsonl`, and `final-report.md`. The packet forces the weaker model to use a written task contract, command IDs, evidence paths, stop conditions, and `weak_validation_passed: false` until a live eligible weak-model transcript passes.
+
+Validate packet support with:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite weak-agent-packet
+```
+
 ## Install The Skills
 
 From the cloned repository root:
@@ -141,6 +159,8 @@ Focused checks:
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite selected-candidates
 powershell -NoProfile -ExecutionPolicy Bypass -File D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite selected-live
+powershell -NoProfile -ExecutionPolicy Bypass -File D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite weak-agent-packet
+powershell -NoProfile -ExecutionPolicy Bypass -File D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite weak-suite-runner
 powershell -NoProfile -ExecutionPolicy Bypass -File D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite promotion-index
 powershell -NoProfile -ExecutionPolicy Bypass -File D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite completion-readiness
 ```

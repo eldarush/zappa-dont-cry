@@ -14,10 +14,11 @@ Turn a validated plan into concrete QaaS artifacts.
 - Do not invent QaaS YAML fields, hook APIs, CLI flags, result files, or lifecycle behavior.
 - Use `D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1` for deterministic validation where applicable.
 - Use `D:\QaaS\_tools\weak-model-session.ps1 -Airgapped` for weak-model checks and label dry runs as prompt assembly only.
+- For weak or airgapped authoring, create or cite `weak_agent_packet` and keep packet state/evidence paths current.
 
 ## Workflow
 
-1. Read `D:\QaaS\_tools\zappa-harness\references\artifact-contract.md`.
+1. Read `D:\QaaS\_tools\zappa-harness\references\artifact-contract.md` and, for weak sessions, `D:\QaaS\_tools\zappa-harness\references\weak-agent-task-packet.md`.
 2. Require a plan with docs evidence and case IDs. If missing, route to `zappa-qaas-test-planner`.
 3. Author the smallest artifacts that prove the plan:
    - `test.qaas.yaml` for Runner flows.
@@ -34,6 +35,7 @@ Turn a validated plan into concrete QaaS artifacts.
 Return:
 
 - file paths
+- `weak_agent_packet`
 - generated YAML/code snippets or patches
 - manifest content
 - `validation_sequence`

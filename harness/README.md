@@ -21,6 +21,7 @@ D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite selected-live
 D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite harness-regression
 D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite completion-readiness
 D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite strong-review
+D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite weak-agent-packet
 D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite weak-suite-runner
 D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite weak-scenario-live-index
 D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite weak-scenario-outputs
@@ -66,6 +67,8 @@ The `selected-live` suite validates the latest optional QaaS template/build/live
 The `completion-readiness` suite writes `D:\QaaS\_tmp\zappa-dont-cry\blockers\objective-completion-readiness.json`, separating structural harness status from objective completion readiness.
 
 The `strong-review` suite should be run after updating the review note. It requires the review to cite the latest passed full harness report, current blockers, objective coverage, and artifact counts.
+
+The `weak-agent-packet` suite validates `scripts\new-weak-agent-task-packet.ps1` and `references\weak-agent-task-packet.md`. A packet writes `task.md`, `plan.md`, `state.json`, `commands.json`, `evidence\summary.md`, `run-log.jsonl`, and `final-report.md` under `D:\QaaS\_tmp\zappa-dont-cry\weak-agent-packets`. It gives weak or airgapped models a written task contract, command IDs, stop/escalation rules, and false-success guards. Dry-run weak validation, Codex fallback, and structural validation remain non-passing evidence.
 
 The `weak-suite-runner` suite dry-runs all cooperative and adversarial weak-model scenarios through `scripts\run-weak-scenario-suite.ps1`. It requires execution-written indexes with `ScenarioId`, `ScenarioKind`, `prompt_hash_sha256`, `runner_recorded`, an allowed `claude-copilot` weak proxy model, transcript paths, and `weak_validation_passed: false`. It also feeds those runner indexes through the live index checker so runner-written ownership cannot drift. The live runner supports quota-friendly resume flags such as `-ScenarioIds`, `-OnlyIncomplete`, `-MaxScenarios`, `-StopOnQuotaBlocked`, and `-NoFailOnRecordedBlocker`. Live uses of the runner keep per-scenario evidence even when hosted quota blocks a model call. Codex-hosted transcripts and Claude bridge aliases that route to Opus are rejected as weak-validation evidence.
 

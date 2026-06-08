@@ -1,0 +1,41 @@
+{
+    "schema_version":  1,
+    "packet_kind":  "zappa_weak_agent_task_packet",
+    "status":  "SCOPED",
+    "task_id":  "published-sample",
+    "goal":  "Plan a docs-only QaaS Runner test with weak-agent packet state and evidence.",
+    "skill_name":  "zappa-qaas-test-planner",
+    "qaas_mode":  "test-planning",
+    "weak_model_profile":  {
+                               "preferred_harness":  "claude-copilot",
+                               "profile":  "airgapped",
+                               "weakest_model":  "id:gpt-3.5-turbo",
+                               "codex_fallback_is_weak_evidence":  false
+                           },
+    "budget":  {
+                   "max_steps":  12,
+                   "max_tool_calls":  30,
+                   "max_writes":  8
+               },
+    "current_step":  "READ task.md, plan.md, state.json, and commands.json",
+    "files_inspected":  [
+
+                        ],
+    "files_changed":  [
+
+                      ],
+    "commands_run":  [
+
+                     ],
+    "evidence":  [
+
+                 ],
+    "open_questions":  [
+
+                       ],
+    "risks":  [
+                  "Hosted weak-model quota may block live validation; record the quota blocker instead of passing."
+              ],
+    "next_action":  "Collect public docs/schema evidence before editing.",
+    "completion_guard":  "Do not mark complete from dry-run, Codex fallback, structural validation, or missing weak evidence."
+}

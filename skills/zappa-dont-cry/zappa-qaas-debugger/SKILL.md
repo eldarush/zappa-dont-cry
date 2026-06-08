@@ -14,10 +14,11 @@ Diagnose QaaS failures from evidence, not guesses.
 - Do not invent QaaS YAML fields, hook APIs, CLI flags, result files, or lifecycle behavior.
 - Use `D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1` for deterministic validation where applicable.
 - Use `D:\QaaS\_tools\weak-model-session.ps1 -Airgapped` for weak-model checks and label dry runs as prompt assembly only.
+- In airgapped debugging, create or cite `weak_agent_packet` and update packet evidence instead of relying on chat memory.
 
 ## Workflow
 
-1. Capture command, exit code, stdout/stderr, result directory, generated template, and dependency status.
+1. Capture command, exit code, stdout/stderr, result directory, generated template, dependency status, and any `weak_agent_packet` state.
 2. Classify failure layer: parse/schema, template resolution, placeholder/reference, build, hook discovery, dependency readiness, act, assert, teardown, or product behavior.
 3. Compare the artifact to public docs/schema evidence.
 4. Fix artifact mistakes first. If dependencies are missing, state the blocker and deferred command.
@@ -27,6 +28,7 @@ Diagnose QaaS failures from evidence, not guesses.
 ## Required Output
 
 - `failure_layer`
+- `weak_agent_packet`
 - `evidence_paths`
 - `docs_evidence`
 - `root_cause`

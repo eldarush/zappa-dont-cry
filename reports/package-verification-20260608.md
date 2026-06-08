@@ -14,13 +14,19 @@ Result: package-local weak-model launcher loads its policy and profile list.
 powershell -NoProfile -ExecutionPolicy Bypass -File .\harness\checks\Check-HarnessReport.ps1 -ReportPath .\reports\report.json
 ```
 
-Result: package-local final harness report self-check passed.
+Result: package-local final harness report self-check passed for the latest `63/63` full harness report.
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite weak-routing
 ```
 
 Result: source-workspace weak-routing suite passed.
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite weak-agent-packet
+```
+
+Result: source-workspace weak-agent task packet suite passed.
 
 ```powershell
 python D:\QaaS\_tools\zappa-harness\checks\Check-SelectedTopRepoCandidates.py D:\QaaS\_tmp\zappa-dont-cry\generated-tests\selected-top-repo-candidates D:\QaaS\_tmp\zappa-dont-cry\top-repos\selected-contracts D:\QaaS\_tmp\zappa-dont-cry\coverage
@@ -35,10 +41,16 @@ python .\harness\checks\Check-SelectedTopRepoCandidatePromotionReadiness.py .\ge
 Result: package-local selected promotion readiness passed for 8 candidates.
 
 ```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File D:\QaaS\_tools\zappa-harness\checks\Check-HarnessReport.ps1 -ReportPath D:\QaaS\_tmp\zappa-dont-cry\harness-runs\20260608-172839-931\report.json
+powershell -NoProfile -ExecutionPolicy Bypass -File D:\QaaS\_tools\zappa-harness\checks\Check-HarnessReport.ps1 -ReportPath D:\QaaS\_tmp\zappa-dont-cry\harness-runs\20260608-181957-517\report.json
 ```
 
 Result: source final harness report self-check passed.
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1 -Suite all
+```
+
+Result: source final harness passed `63/63` checks from `D:\QaaS\_tmp\zappa-dont-cry\harness-runs\20260608-181957-517\report.json`.
 
 ## Known Portability Limit
 

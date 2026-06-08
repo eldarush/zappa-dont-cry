@@ -244,6 +244,14 @@ if ($failures.Count -eq 0) {
     if ([string]::IsNullOrWhiteSpace($validationKind)) {
         Add-Failure "Fixture must define live_validation_kind: $FixturePath"
     }
+    $promptHashByScenario = @{}
+    foreach ($fixtureScenario in @($fixture.scenarios)) {
+        $fixtureScenarioId = [string]$fixtureScenario.scenario_id
+        $fixturePrompt = [string]$fixtureScenario.prompt
+        if (-not [string]::IsNullOrWhiteSpace($fixtureScenarioId) -and -not [string]::IsNullOrWhiteSpace($fixturePrompt)) {
+            $promptHashByScenario[$fixtureScenarioId] = Get-Sha256 -Text $fixturePrompt
+        }
+    }
 
     $summaryFiles = @(Get-ChildItem -LiteralPath $EvidenceRoot -File -Filter "*summary.md" -ErrorAction SilentlyContinue | Sort-Object LastWriteTimeUtc -Descending)
     $transcriptFiles = @(Get-ChildItem -LiteralPath $EvidenceRoot -File -Filter "*claude-copilot-*.md" -ErrorAction SilentlyContinue | Sort-Object LastWriteTimeUtc -Descending)
@@ -258,6 +266,7 @@ if ($failures.Count -eq 0) {
 
     $runnerRecordCount = 0
     $runnerRecordedCount = 0
+    $staleRunnerRecordCount = 0
     $runnerRecordsByScenario = @{}
     if (-not [string]::IsNullOrWhiteSpace($RunnerIndexPath)) {
         if (-not (Test-Path -LiteralPath $RunnerIndexPath -PathType Leaf)) {
@@ -270,6 +279,15 @@ if ($failures.Count -eq 0) {
                 if ([string]::IsNullOrWhiteSpace($runnerScenarioId)) {
                     Add-Failure "Runner index has a record without scenario_id: $RunnerIndexPath"
                     continue
+                }
+                $runnerPromptHash = [string](Get-ObjectValue -Object $runnerRecord -PropertyName "prompt_hash_sha256")
+                if ($promptHashByScenario.ContainsKey($runnerScenarioId) -and -not [string]::IsNullOrWhiteSpace($runnerPromptHash) -and $runnerPromptHash -ne [string]$promptHashByScenario[$runnerScenarioId]) {
+                    $staleRunnerRecordCount++
+                    if ($runnerIndexWasProvided) {
+                        Add-Failure "$runnerScenarioId runner prompt hash mismatch in $RunnerIndexPath"
+                    } else {
+                        continue
+                    }
                 }
                 if ($runnerRecordsByScenario.ContainsKey($runnerScenarioId)) {
                     $runnerRecordsByScenario[$runnerScenarioId] = @($runnerRecordsByScenario[$runnerScenarioId]) + @($runnerRecord)
@@ -575,6 +593,7 @@ if ($failures.Count -eq 0) {
         runner_index = if ([string]::IsNullOrWhiteSpace($RunnerIndexPath)) { $null } else { $RunnerIndexPath }
         runner_record_count = $runnerRecordCount
         runner_recorded_count = $runnerRecordedCount
+        stale_runner_record_count = $staleRunnerRecordCount
         live_ready_count = $liveReadyCount
         quota_blocked_count = $quotaBlockedCount
         model_unavailable_count = $modelUnavailableCount

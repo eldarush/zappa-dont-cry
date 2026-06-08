@@ -3,7 +3,7 @@
   "contracts": [
     {
       "skill": "zappa-qaas-orchestrator",
-      "required_output_terms": ["docs_evidence", "artifact_plan", "validation_sequence", "airgapped_result", "strong_review", "next_blocker"],
+      "required_output_terms": ["docs_evidence", "weak_agent_packet", "artifact_plan", "validation_sequence", "airgapped_result", "strong_review", "next_blocker"],
       "required_any_output_term_groups": [["intent_questions", "intent_assumptions"]]
     },
     {
@@ -12,12 +12,12 @@
     },
     {
       "skill": "zappa-qaas-test-planner",
-      "required_output_terms": ["docs_evidence", "case_matrix", "artifact_map", "dependency_gates", "assertions", "source_only_blockers", "validation_sequence", "airgapped_validation_prompt"],
+      "required_output_terms": ["docs_evidence", "weak_agent_packet", "case_matrix", "artifact_map", "dependency_gates", "assertions", "source_only_blockers", "validation_sequence", "airgapped_validation_prompt"],
       "required_any_output_term_groups": [["intent_questions", "intent_assumptions"]]
     },
     {
       "skill": "zappa-qaas-test-author",
-      "required_output_terms": ["file paths", "generated YAML/code snippets or patches", "manifest content", "validation_sequence", "source_only_blockers", "validation commands", "commands_run", "dependency blockers", "airgapped validation transcript path", "promotion state and remaining blockers"]
+      "required_output_terms": ["file paths", "weak_agent_packet", "generated YAML/code snippets or patches", "manifest content", "validation_sequence", "source_only_blockers", "validation commands", "commands_run", "dependency blockers", "airgapped validation transcript path", "promotion state and remaining blockers"]
     },
     {
       "skill": "zappa-qaas-hook-config",
@@ -25,11 +25,11 @@
     },
     {
       "skill": "zappa-qaas-debugger",
-      "required_output_terms": ["failure_layer", "evidence_paths", "docs_evidence", "root_cause", "minimal_fix", "rerun_command", "remaining_blockers"]
+      "required_output_terms": ["failure_layer", "weak_agent_packet", "evidence_paths", "docs_evidence", "root_cause", "minimal_fix", "rerun_command", "remaining_blockers"]
     },
     {
       "skill": "zappa-qaas-fixer",
-      "required_output_terms": ["failure_classification", "root_cause", "docs_evidence", "files_changed", "commands_run", "remaining_blockers", "airgapped_validation_prompt"]
+      "required_output_terms": ["failure_classification", "weak_agent_packet", "root_cause", "docs_evidence", "files_changed", "commands_run", "remaining_blockers", "airgapped_validation_prompt"]
     },
     {
       "skill": "zappa-qaas-docs-author",
@@ -37,15 +37,15 @@
     },
     {
       "skill": "zappa-qaas-experiment-lab",
-      "required_output_terms": ["hypothesis", "experiment_scope", "artifacts", "commands_run", "observations", "promotion_criteria", "blockers"]
+      "required_output_terms": ["hypothesis", "weak_agent_packet", "experiment_scope", "artifacts", "commands_run", "observations", "promotion_criteria", "blockers"]
     },
     {
       "skill": "zappa-qaas-weak-model-gate",
-      "required_output_terms": ["requirements", "evidence", "commands_run", "pass_fail_matrix", "airgapped_result", "weak_validation_passed", "completion_decision", "remaining_work"]
+      "required_output_terms": ["requirements", "weak_agent_packet", "evidence", "commands_run", "pass_fail_matrix", "airgapped_result", "weak_validation_passed", "completion_decision", "remaining_work"]
     },
     {
       "skill": "zappa-qaas-top-repos",
-      "required_output_terms": ["top-repo manifest path", "campaign plan path", "repository classification summary", "generated artifact count", "blocked repository count and reasons", "airgapped validation transcript paths"]
+      "required_output_terms": ["top-repo manifest path", "weak_agent_packet", "campaign plan path", "repository classification summary", "generated artifact count", "blocked repository count and reasons", "airgapped validation transcript paths"]
     }
   ]
 }

@@ -125,13 +125,13 @@
   <main>
     <header>
       <h1>Zappa QaaS Status Snapshot</h1>
-      <p class="subtitle">Current package snapshot from 2026-06-08 17:33 Asia/Jerusalem. Published artifact, not objective-complete.</p>
+      <p class="subtitle">Generated once on 2026-06-08 from the latest harness and blocker records.</p>
     </header>
 
     <div class="grid" aria-label="Current metrics">
       <div class="metric">
         <div class="label">Harness</div>
-        <div class="value ok">62/62</div>
+        <div class="value ok">63/63</div>
       </div>
       <div class="metric">
         <div class="label">Readiness</div>
@@ -151,28 +151,26 @@
       <h2>What Is Working</h2>
       <ul>
         <li>The full deterministic harness passes: <code>Invoke-ZappaHarness.ps1 -Suite all</code>.</li>
-        <li>Skill layout, metadata, generated artifact contracts, C# compilation, regression checks, and weak-routing checks are green.</li>
-        <li>Eight selected top-repo candidates exist; six have deterministic lifecycle, template, and live evidence.</li>
-        <li>The package includes skills, harness code, generated artifacts, top-repo evidence, blocker records, and weak-model transcripts.</li>
+        <li>The skill layout, metadata, artifact contracts, weak-agent packet suite, generated C# compilation, regression suite, and weak-routing checks are green.</li>
+        <li>Six selected top-repo candidates have deterministic lifecycle, template, and live evidence.</li>
       </ul>
     </section>
 
     <section>
-      <h2>What Blocks Completion</h2>
+      <h2>What Is Still Blocking Completion</h2>
       <ul>
-        <li>All eight selected candidates are missing live preferred weak-model evidence.</li>
-        <li>All four preferred weak routes returned Copilot API <code>402 additional_spend_limit_reached</code> in the latest attempt.</li>
-        <li>No generated manifest is policy-executable or promotable.</li>
-        <li>Spring Boot and Crawl4AI remain deterministic-evidence-blocked and must not be promoted.</li>
+        <li>Preferred weak-model validation is quota-blocked across all four configured weak routes.</li>
+        <li>All 772 generated QaaS manifests remain blocked; none are allowed to count as policy-executable yet.</li>
+        <li>Two selected candidates, <code>spring-projects/spring-boot</code> and <code>unclecode/crawl4ai</code>, still have deterministic evidence gaps in addition to weak-model blocking.</li>
+        <li>The top-250 campaign is structurally covered, but not fully executable or promotable.</li>
       </ul>
     </section>
 
     <section>
       <h2>Next Work</h2>
       <ul>
-        <li>Retry hosted weak-model validation when quota is available.</li>
-        <li>Keep Codex fallback output as smoke evidence only; it is too strong for MiniMax M2.5 proxy validation.</li>
-        <li>Continue adding selected candidates only with public evidence and fail-closed promotion gates.</li>
+        <li>Continue hardening selected top-repo promotion so deterministic blockers are separated from true weak-model quota blockers.</li>
+        <li>Keep completion fail-closed until every required preferred weak model produces live, non-dry-run passing evidence.</li>
       </ul>
     </section>
   </main>

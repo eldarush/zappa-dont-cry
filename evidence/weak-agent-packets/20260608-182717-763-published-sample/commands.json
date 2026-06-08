@@ -1,0 +1,55 @@
+{
+    "schema_version":  1,
+    "registry_kind":  "zappa_weak_agent_command_registry",
+    "note":  "Use command_id values from this file. Do not invent raw shell commands.",
+    "commands":  [
+                     {
+                         "command_id":  "harness_smoke",
+                         "description":  "Run deterministic Zappa smoke validation.",
+                         "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File D:\\QaaS\\_tools\\zappa-harness\\Invoke-ZappaHarness.ps1 -Suite smoke",
+                         "evidence_expected":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\harness-runs\\\u003ctimestamp\u003e\\report.json"
+                     },
+                     {
+                         "command_id":  "harness_weak_scenarios",
+                         "description":  "Assemble cooperative weak-model scenario prompts; dry-run only.",
+                         "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File D:\\QaaS\\_tools\\zappa-harness\\Invoke-ZappaHarness.ps1 -Suite weak-scenarios",
+                         "evidence_expected":  "harness report plus weak scenario dry-run transcripts"
+                     },
+                     {
+                         "command_id":  "harness_weak_adversarial",
+                         "description":  "Assemble adversarial weak-model scenario prompts; dry-run only.",
+                         "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File D:\\QaaS\\_tools\\zappa-harness\\Invoke-ZappaHarness.ps1 -Suite weak-adversarial-scenarios",
+                         "evidence_expected":  "harness report plus adversarial dry-run transcripts"
+                     },
+                     {
+                         "command_id":  "harness_skill_output_contracts",
+                         "description":  "Check required output fields in every Zappa skill.",
+                         "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File D:\\QaaS\\_tools\\zappa-harness\\Invoke-ZappaHarness.ps1 -Suite skill-output-contracts",
+                         "evidence_expected":  "harness report"
+                     },
+                     {
+                         "command_id":  "airgapped_all",
+                         "description":  "Attempt all preferred hosted weak routes. A quota blocker is a blocker, not a pass.",
+                         "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File D:\\QaaS\\_tools\\weak-model-session.ps1 -Airgapped -All -ReasoningEffort none -Skill zappa-qaas-test-planner -RejectPattern SKILL_NOT_FOUND",
+                         "evidence_expected":  "live weak-model transcript and summary"
+                     },
+                     {
+                         "command_id":  "airgapped_dry_run",
+                         "description":  "Assemble weak prompt only; never proves weak behavior.",
+                         "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File D:\\QaaS\\_tools\\weak-model-session.ps1 -Airgapped -All -ReasoningEffort none -DryRun -Skill zappa-qaas-test-planner -RejectPattern SKILL_NOT_FOUND",
+                         "evidence_expected":  "dry-run transcript marked DryRun: True"
+                     },
+                     {
+                         "command_id":  "selected_candidates",
+                         "description":  "Validate selected top-repo candidate packets.",
+                         "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File D:\\QaaS\\_tools\\zappa-harness\\Invoke-ZappaHarness.ps1 -Suite selected-candidates",
+                         "evidence_expected":  "coverage summary and harness report"
+                     },
+                     {
+                         "command_id":  "completion_readiness",
+                         "description":  "Write objective completion blockers.",
+                         "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File D:\\QaaS\\_tools\\zappa-harness\\Invoke-ZappaHarness.ps1 -Suite completion-readiness",
+                         "evidence_expected":  "D:\\QaaS\\_tmp\\zappa-dont-cry\\blockers\\objective-completion-readiness.json"
+                     }
+                 ]
+}

@@ -14,6 +14,7 @@ Use this for exploratory QaaS work where the output is a hypothesis, prototype, 
 - Do not invent QaaS YAML fields, hook APIs, CLI flags, result files, or lifecycle behavior.
 - Use `D:\QaaS\_tools\zappa-harness\Invoke-ZappaHarness.ps1` for deterministic validation where applicable.
 - Use `D:\QaaS\_tools\weak-model-session.ps1 -Airgapped` for weak-model checks and label dry runs as prompt assembly only.
+- For weak/strong prompt trials, create or cite `weak_agent_packet` so state, command IDs, and evidence paths are fixed.
 
 ## Workflow
 
@@ -28,6 +29,7 @@ Use this for exploratory QaaS work where the output is a hypothesis, prototype, 
 ## Required Output
 
 - `hypothesis`
+- `weak_agent_packet`
 - `experiment_scope`
 - `artifacts`
 - `commands_run`
